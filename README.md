@@ -29,7 +29,7 @@ To add a new entry, append to `data/entries.rb`, for example:
     nil)
 
 Fields like `author`, `title`, and `pages` are what you'd expect from bibtex.
-You can also use macros such as `acl(2011)` (defined in `data/venues.rb') to
+You can also use macros such as `acl(2011)` (defined in `data/venues.rb`) to
 make it easier to type and to maintain consistency.  Consistency of
 capitalization and duplicate entries are automatically checked when you run
 `./generate.rb`.
