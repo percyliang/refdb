@@ -30,6 +30,7 @@ end
 class String
   def matches(value); self == value end
   def to_short_s; to_s end
+  def to_full_s; to_s end
 end
 
 class Fixnum
@@ -179,7 +180,7 @@ class Entry
       #$stderr.puts "No author link for #{name}" unless l
       link(color(latexToHTML(name), authorColor), l)
     }.join(', ')+'.<br>'
-    output << "#{metaTitle ? it(metaTitle.to_s + (type == 'techreport' ? ' Technical Report' : '')+', ') : ''}#{year}. #{note}<br>"
+    output << "#{metaTitle ? it(metaTitle.to_full_s + (type == 'techreport' ? ' Technical Report' : '')+', ') : ''}#{year}. #{note}<br>"
     output << hiddenText("abstract#{id}", formatLines(get('abstract')))
     output << hiddenText("brief#{id}", formatLines(get('punchlines')))
     output << hiddenText("bib#{id}", verbatimLines(toBibtex(false)))
@@ -204,8 +205,7 @@ class Entry
 
   # FUTURE: If title ends in ?, don't put another period.
   def toText(short)
-    #"#{author.to_short_s}. #{displayTitle(title)}#{metaTitle ? '. '+metaTitle.to_short_s : ''}, #{year}."
-    "#{author.to_short_s}. #{displayTitle(title)}#{metaTitle ? '. '+metaTitle.to_s : ''}, #{year}."
+    "#{author.to_short_s}. #{displayTitle(title)}#{metaTitle ? '. '+metaTitle.to_full_s : ''}, #{year}."
   end
   def toSimpleText
     "#{displayTitle(title)}. #{author.to_short_s}. #{metaTitle ? metaTitle.to_short_s+', ' : ''}#{year}."
