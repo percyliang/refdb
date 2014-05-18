@@ -4297,3 +4297,18 @@ entry!('quattoni2007hidden',
   author('Ariadna Quattoni and Sybor Wang and Louis-Phillipe Morency and Michael Collins and Trevor Darrell'),
   pages(1848, 1852),
 nil)
+
+entry!('ross2011learning',
+  cvpr(2011),
+  pages(2737, 2744),
+  author('Stephane Ross and Daniel Munoz and Martial Hebert and J Andrew Bagnell'),
+  title('Learning message-passing inference machines for structured prediction'),
+nil)
+
+entry!('bunse1993numerical',
+  article('SIAM Journal on Matrix Analysis and Applications', 1993, 14),
+  author('Angelika Bunse-Gerstner and Ralph Byers and Volker Mehrmann'),
+  pages(927, 949),
+  number(4),
+  title('Numerical methods for simultaneous diagonalization'),
+nil)
