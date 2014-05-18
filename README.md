@@ -16,6 +16,7 @@ To filter the entries:
 
     ./generate.rb html author='Percy Liang' out=pliang.html
     ./generate.rb bib search='hidden markov model'
+    ./generate.rb bib tags='semantic parsing'
 
 ## Adding new entries to the database
 

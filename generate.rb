@@ -23,6 +23,8 @@ ARGV.each { |arg|
     entries = matchEntries(entries, 'author', $1)
   elsif arg =~ /^year(.+)$/
     entries = matchEntries(entries, 'year', $1)
+  elsif arg =~ /^tags=(.+)$/
+    entries = matchEntries(entries, 'tags', $1)
   elsif arg =~ /^search=(.+)$/
     entries = searchEntries(entries, $1)
   elsif arg =~ /^out=(.+)$/

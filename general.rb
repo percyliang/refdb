@@ -219,6 +219,7 @@ class Entry
   def year; getFirst('year') end
   def note; getFirst('note') end
   def metaTitle; getFirst('metaTitle') end
+  def tags; get('tags') end
 
   def cite
     case author.names.size 
@@ -304,18 +305,6 @@ def unusualCapitalization(*x); field('unusualCapitalization', *x) end
 def extendedVersion(x=true); field('extendedVersion', x) end
 
 def entry(id, *args); Entry.new([id(id)] + args.flatten.compact) end
-def env(*args)
-  fields = []
-  args.flatten.compact.map { |x|
-    if x.class == Field # Set fields
-      fields << x
-      nil
-    elsif x.class == Entry
-      x.addFields(fields)
-      x
-    end
-  }.compact
-end
 
 ############################################################
 
@@ -362,21 +351,24 @@ class CounterMap
 end
 def printStats(entries, outPath)
   out = open(outPath, 'w')
+
   dumpCounter = lambda { |key|
     map = CounterMap.new
     entries.each { |entry| map.incr(entry.getFirst(key)) }
     out.puts "\n=== #{key} ==="
     map.dump(out)
   }
+
   authorMap = CounterMap.new
   entries.each { |entry|
-    #out.puts entry.toText(true)
     entry.author.names.each { |name| authorMap.incr(name) }
   }
   out.puts "\n=== author ==="; authorMap.dump(out)
+
   dumpCounter.call('metaTitle')
-  dumpCounter.call('year')
-  dumpCounter.call('pages')
+  #dumpCounter.call('year')
+  #dumpCounter.call('pages')
+  dumpCounter.call('tags')
   out.close
 end
 
@@ -442,7 +434,9 @@ end
 
 def searchEntries(entries, keyword)
   entries.select { |entry|
-    entry.title.gsub(/[{}]/, '') =~ /#{keyword}/i || entry.author.names.any? { |name| name =~ /#{keyword}/i }
+    entry.title.gsub(/[{}]/, '') =~ /#{keyword}/i ||
+    entry.author.names.any? { |name| name =~ /#{keyword}/i } ||
+    (entry.tags && entry.tags.any? { |name| name =~ /#{keyword}/i })
   }
 end
 
@@ -539,7 +533,6 @@ end
 # Global state
 
 $entries = []
-def env!(*args); $entries += env(*args) end
 def entry!(*args); $entries << entry(*args) end
 
 $links = {}

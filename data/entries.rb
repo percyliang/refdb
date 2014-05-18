@@ -1241,24 +1241,28 @@ entry!('zettlemoyer05ccg',
   title('Learning to Map Sentences to Logical Form: Structured Classification with Probabilistic Categorial Grammars'),
   author('Luke S. Zettlemoyer and Michael Collins'),
   uai2005, pages(658, 666),
+  tags('semantic parsing'),
 nil)
 
 entry!('zettlemoyer07relaxed',
   author('Luke S. Zettlemoyer and Michael Collins'),
   title('Online Learning of Relaxed {CCG} Grammars for Parsing to Logical Form'),
   emnlpconll2007, pages(678, 687),
+  tags('semantic parsing'),
 nil)
 
 entry!('lu08generative',
   author('Wei Lu and Hwee Tou Ng and Wee Sun Lee and Luke S. Zettlemoyer'),
   title('A Generative Model for Parsing Natural Language to Meaning Representations'),
   emnlp2008, pages(783, 792),
+  tags('semantic parsing'),
 nil)
 
 entry!('ge05scissor',
   title('A Statistical Semantic Parser that Integrates Syntax and Semantics'),
   author('Ruifang Ge and Raymond J. Mooney'),
   conll(2005), pages(9, 16), address('Ann Arbor, Michigan'),
+  tags('semantic parsing'),
 nil)
 
 entry!('kate06krisp',
@@ -1266,24 +1270,28 @@ entry!('kate06krisp',
   title('Using String-Kernels for Learning Semantic Parsers'),
   colingacl2006,
   pages(913, 920),
+  tags('semantic parsing'),
 nil)
 
 entry!('kate07krisper',
   author('Rohit J. Kate and Raymond J. Mooney'),
   title('Learning Language Semantics from Ambiguous Supervision'),
   aaai(2007), pages(895, 900),
+  tags('semantic parsing'),
 nil)
 
 entry!('wong06mt',
   title('Learning for semantic parsing with statistical machine translation'),
   author('Yuk Wah Wong and Raymond J. Mooney'),
   hltnaacl2006, pages(439, 446),
+  tags('semantic parsing'),
 nil)
 
 entry!('wong07synchronous',
   title('Learning Synchronous Grammars for Semantic Parsing with Lambda Calculus'),
   author('Yuk Wah Wong and Raymond J. Mooney'),
   acl2007, pages(960, 967),
+  tags('semantic parsing'),
 nil)
 
 entry!('chen08sportscast',
@@ -1296,10 +1304,8 @@ entry!('feldman04embodied',
   author('J. Feldman and S. Narayanan'),
   title('Embodied Meaning in a Neural Theory of Language'),
   article('Brain and Language', 2004, 89), pages(385, 392),
-  # Elsevier Press
 nil)
 
-# Note cited
 entry!('branavan08annotation',
   author('S.R.K. Branavan and Harr Chen and Jacob Eisenstein and Regina Barzilay'),
   title('Learning Document-Level Semantic Properties from Free-text Annotations'),
@@ -1364,6 +1370,7 @@ entry!('zettlemoyer09context',
   author('Luke S. Zettlemoyer and Michael Collins'),
   title('Learning Context-dependent Mappings from Sentences to Logical Form'),
   aclijcnlp2009,
+  tags('semantic parsing'),
 nil)
 
 entry!('branavan09reinforcement',
@@ -1446,7 +1453,6 @@ entry!('grandvalet05entropy',
   author('Yves Grandvalet and Yoshua Bengio'),
   publisher('Springer'), address('United Kingdom'),
   inproceedings('Semi-Supervised Learning', 2005),
-  #%institution('PASCAL EPrints [http://eprints.pascal-network.org/perl/oai2]'),
 nil)
 
 entry!('stein61quadratic',
@@ -1560,7 +1566,6 @@ nil)
 entry!('levit85second',
   author('B. Ya. Levit'),
   title('Second-order asymptotic optimality and positive solutions of the Schrödinger equation'),
-  #journal('Teor. Veroyatnost. i Primenen', 1985, 30), pages(309, 338),
   article('Theory of Probability and its Applications', 1985, 30), pages(333, 363),
 nil)
 
@@ -2140,6 +2145,7 @@ entry!('zelle96geoquery',
   aaai(1996),
   title('Learning to parse database queries using inductive logic proramming.'),
   pages(1050, 1055),
+  tags('semantic parsing'),
 nil)
 
 entry!('branavan10high',
@@ -2287,6 +2293,7 @@ entry!('artzi11conversations',
   author('Yoav Artzi and Luke Zettlemoyer'),
   emnlp2011,
   pages(421, 432),
+  tags('semantic parsing'),
 nil)
 
 entry!('cousot77abstract',
@@ -2388,36 +2395,42 @@ entry!('anandkumar12moments',
   title('A Method of Moments for Mixture Models and Hidden {M}arkov Models'),
   author('Animashree Anandkumar and Daniel Hsu and Sham M. Kakade'),
   colt(2012),
+  tags('spectral'),
 nil)
 
 entry!('anandkumar11tree',
   title('Spectral Methods for Learning Multivariate Latent Tree Structure'),
   author('Animashree Anandkumar and Kamalika Chaudhuri and Daniel Hsu and Sham M. Kakade and Le Song and Tong Zhang'),
   nips(2011),
+  tags('spectral'),
 nil)
 
 entry!('allman11identifiability',
   title('Identifiability of 2-tree mixtures for group-based models'),
   author('Elizabeth S. Allman and Sonja Petrovi and John A. Rhodes and Seth Sullivant'),
   article('Transactions on Computational Biology and Bioinformatics', 2011, 8), pages(710, 722),
+  tags('spectral'),
 nil)
 
 entry!('allman09identifiability',
   author('E. S. Allman and C. Matias and J. A. Rhodes'),
   title('Identifiability of parameters in latent structure models with many observed variables'),
   annalsOfStatistics(2009, 37), pages(3099, 3132),
+  tags('spectral'),
 nil)
 
 entry!('kruskal77three',
   author('J. B. Kruskal'),
   title('Three-way arrays: Rank and uniqueness of trilinear decompositions, with application to arithmetic complexity and statistics'),
   article('Linear Algebra and Applications', 1977, 18), pages(95, 138),
+  tags('spectral'),
 nil)
 
 entry!('hsu09spectral',
   title('A spectral algorithm for learning hidden {M}arkov models'),
   author('Daniel Hsu and Sham M. Kakade and Tong Zhang'),
   colt(2009),
+  tags('spectral'),
 nil)
 
 entry!('geiger01stratified',
@@ -2491,12 +2504,14 @@ entry!('anandkumar12lda',
   title('Two {SVD}s Suffice: Spectral decompositions for probabilistic topic modeling and latent {D}irichlet allocation'),
   author('Animashree Anandkumar and Dean P. Foster and Daniel Hsu and Sham M. Kakade and Yi-Kai Liu'),
   nips(2012),
+  tags('spectral'),
 nil)
 
 entry!('hsu13spherical',
   title('Learning Mixtures of Spherical {G}aussians: Moment Methods and Spectral Decompositions'),
   author('Daniel Hsu and Sham M. Kakade'),
   inproceedings('Innovations in Theoretical Computer Science (ITCS)', 2013), 
+  tags('spectral'),
 nil)
 
 entry!('candes11phaselift',
@@ -2583,12 +2598,14 @@ entry!('song10kernel',
   author('L. Song and B. Boots and S. Siddiqi and G. Gordon and A. Smola'),
   title('{H}ilbert Space Embeddings of Hidden {M}arkov Models'),
   icml2010,
+  tags('spectral'),
 nil)
 
 entry!('parikh12spectral',
   author('A. Parikh and L. Song and M. Ishteva and G. Teodoru and E. Xing'),
   title('A Spectral Algorithm for Latent Junction Trees'),
   uai(2012),
+  tags('spectral'),
 nil)
 
 entry!('cohen12pcfg',
@@ -2601,18 +2618,21 @@ entry!('balle12automata',
   author('B. Balle and M. Mohri'),
   title('Spectral Learning of General Weighted Automata via Constrained Matrix Completion'),
   nips(2012),
+  tags('spectral'),
 nil)
 
 entry!('balle11transducer',
   author('B. Balle and A. Quattoni and X. Carreras'),
   title('A Spectral Learning Algorithm for Finite State Transducers'),
   ecmlpkdd(2011),
+  tags('spectral'),
 nil)
 
 entry!('anandkumar13linear',
   author('Animashree Anandkumar and Daniel Hsu and Adel Javanmard and Sham M. Kakade'),
   title('Learning Linear {B}ayesian Networks with Latent Variables'),
   icml(2013),
+  tags('spectral'),
 nil)
 
 entry!('ghahramani97fhmm',
@@ -2625,6 +2645,7 @@ entry!('anandkumar13tensor',
   title('Tensor decompositions for learning latent variable models'),
   author('Anima Anandkumar and Rong Ge and Daniel Hsu and Sham M. Kakade and Matus Telgarsky'),
   arxiv(2013),
+  tags('spectral'),
 nil)
 
 entry!('salakhutdinov09softmax',
@@ -2666,6 +2687,7 @@ entry!('anandkumar2013overcomplete',
   arxiv(2013),
   year(2013),
   url('http://newport.eecs.uci.edu/anandkumar/pubs/Overcomplete_Ident.pdf'),
+  tags('spectral'),
 nil)
 
 entry!('manshadi2013integrating',
@@ -2680,6 +2702,7 @@ entry!('halpern2013unsupervised',
   title('Unsupervised Learning of Noisy-Or {B}ayesian Networks'),
   uai(2013),
   url('http://www.cs.nyu.edu/~dsontag/papers/HalpernSontag_uai13.pdf'),
+  tags('spectral'),
 nil)
 
 entry!('huang2005better',
@@ -2739,6 +2762,7 @@ entry!('cai2013large',
   title('Large-scale Semantic Parsing via Schema Matching and Lexicon Extension'),
   author('Qingqing Cai and Alexander Yates'),
   url('http://www.cis.temple.edu/~yates/papers/textual-schema-matching.pdf'),
+  tags('semantic parsing'),
 nil)
 
 entry!('yahya2012natural',
@@ -2747,6 +2771,7 @@ entry!('yahya2012natural',
   pages(379, 390),
   title('Natural language questions for the web of data'),
   url('http://www.aclweb.org/anthology-new/D/D12/D12-1035.pdf'),
+  tags('semantic parsing'),
 nil)
 
 entry!('surdeanu2012multi',
@@ -2786,6 +2811,7 @@ entry!('krishnamurthy2012weakly',
   pages(754, 765),
   title('Weakly supervised training of semantic parsers'),
   author('Jayant Krishnamurthy and Tom Mitchell'),
+  tags('semantic parsing'),
 nil)
 
 entry!('masaum2012open',
@@ -2857,6 +2883,7 @@ entry!('kushman2013regex',
   url('http://acl.eldoc.ub.rug.nl/mirror/N/N13/N13-1103.pdf'),
   author('Nate Kushman and Regina Barzilay'),
   pages(826, 836),
+  tags('semantic parsing'),
 nil)
 
 entry!('krishnamurthy2013jointly',
@@ -2865,6 +2892,7 @@ entry!('krishnamurthy2013jointly',
   url('http://jayantkrish.com/papers/tacl2013-krishnamurthy-kollar.pdf'),
   title('Jointly Learning to Parse and Perceive: Connecting Natural Language to the Physical World'),
   author('Jayant Krishnamurthy and Thomas Kollar'),
+  tags('semantic parsing'),
 nil)
 
 entry!('artzi2013weakly',
@@ -2873,6 +2901,7 @@ entry!('artzi2013weakly',
   pages(49, 62),
   author('Yoav Artzi and Luke Zettlemoyer'),
   url('http://acl.eldoc.ub.rug.nl/mirror/Q/Q13/Q13-1005.pdf'),
+  tags('semantic parsing'),
 nil)
 
 entry!('baader2003description',
@@ -2910,6 +2939,7 @@ entry!('poon2013gusp',
   author('Hoifung Poon'),
   url('http://research.microsoft.com/en-us/um/people/hoifung/papers/gusp13.pdf'),
   title('Grounded Unsupervised Semantic Parsing'),
+  tags('semantic parsing'),
 nil)
 
 entry!('tellex2011understanding',
@@ -2917,6 +2947,7 @@ entry!('tellex2011understanding',
   author('Stefanie Tellex and Thomas Kollar and Steven Dickerson and Matthew R Walter and Ashis Gopal Banerjee and Seth J Teller and Nicholas Roy'),
   title('Understanding Natural Language Commands for Robotic Navigation and Mobile Manipulation'),
   url('http://dspace.mit.edu/openaccess-disseminate/1721.1/73540'),
+  tags('semantic parsing'),
 nil)
 
 entry!('matuszek2012grounded',
@@ -2924,6 +2955,7 @@ entry!('matuszek2012grounded',
   url('http://arxiv.org/pdf/1206.6423'),
   title('A joint model of language and perception for grounded attribute learning'),
   author('Cynthia Matuszek and Nicholas FitzGerald and Luke Zettlemoyer and Liefeng Bo and Dieter Fox'),
+  tags('semantic parsing'),
 nil)
 
 entry!('socher2012mvrnn',
@@ -3423,6 +3455,7 @@ entry!('berant2013freebase',
   slidesurl('freebase-emnlp2013-talk.pdf'),
   supplementalurl('http://arxiv.org/pdf/1309.4408.pdf'),
   project('http://www-nlp.stanford.edu/software/sempre/'),
+  tags('semantic parsing'),
 nil)
 
 entry!('wang2013noising',
@@ -3445,6 +3478,7 @@ entry!('chaganty13regression',
   title('Spectral Experts for Estimating Mixtures of Linear Regressions'),
   icml(2013),
   url('http://arxiv.org/pdf/1306.3729.pdf'),
+  tags('spectral'),
 nil)
 
 entry!('ramanathan2013event',
@@ -3469,6 +3503,7 @@ entry!('hsu12identifiability',
   url('identifiability-nips2012.pdf'),
   posterurl('identifiability-nips2012-poster.pdf'),
   techreporturl('http://arxiv.org/pdf/1206.3137.pdf'),
+  tags('spectral'),
 nil)
 
 entry!('liang13cl',
@@ -3954,7 +3989,6 @@ entry!('liang05geometric',
             'the subproblems would be subsets of the terminals (exponential in number of terminals). '+
             'We introduce (and unify) several ways to constrain these subsets using the geometric structure of the terminals.'),
 nil)
-# encoding: UTF-8
 
 entry!('dagan2013rte',
   author('Ido Dagan and Dan Roth and Mark Sammons and Fabio Massimo Zanzotto'),
@@ -4072,6 +4106,7 @@ entry!('song2011kernel',
   pages(2708, 2716),
   url('http://machinelearning.wustl.edu/mlpapers/paper_files/NIPS2011_1479.pdf'),
   title('Kernel embeddings of latent tree graphical models'),
+  tags('spectral'),
 nil)
 
 entry!('anca2009math',
@@ -4153,6 +4188,7 @@ entry!('jaeger2000observable',
   pages(1371, 1398),
   title('Observable operator models for discrete stochastic time series'),
   publisher('MIT Press'),
+  tags('spectral'),
 nil)
 
 entry!('liang2014semantics',
@@ -4160,6 +4196,7 @@ entry!('liang2014semantics',
   title('Bringing machine learning and compositional semantics together'),
   article('Annual Reviews of Linguistics (submitted)', 2014, 0),
   url('http://www.stanford.edu/~cgpotts/manuscripts/liang-potts-semantics.pdf'),
+  tags('semantic parsing'),
 nil)
 
 entry!('chaganty2014graphical',
@@ -4167,6 +4204,7 @@ entry!('chaganty2014graphical',
   title('Estimating Latent-Variable Graphical Models using Moments and Likelihoods'),
   url('graphical-icml2014.pdf'),
   icml(2014),
+  tags('spectral'),
 nil)
 
 entry!('steinhardt2014eg',
@@ -4182,6 +4220,7 @@ entry!('berant2014paraphrasing',
   acl(2014),
   url('paraphrasing-acl2014.pdf'),
   project('http://www-nlp.stanford.edu/software/sempre/'),
+  tags('semantic parsing'),
 nil)
 
 entry!('pasupat2014extraction',
@@ -4226,6 +4265,7 @@ entry!('mossel2005learning',
   title('Learning nonsingular phylogenies and hidden {M}arkov models'),
   organization('ACM'),
   author('E. Mossel and S. Roch'),
+  tags('spectral'),
 nil)
 
 entry!('bailly2010spectral',
@@ -4234,12 +4274,14 @@ entry!('bailly2010spectral',
   title('A spectral approach for probabilistic grammatical inference on trees'),
   organization('Springer'),
   author('R. Bailly and A. Habrard and F. Denis'),
+  tags('spectral'),
 nil)
 
 entry!('song2011spectral',
   icml(2011),
   title('A spectral algorithm for latent tree graphical models'),
   author('Le Song and E. P Xing and A. P Parikh'),
+  tags('spectral'),
 nil)
 
 entry!('koller2009probabilistic',
