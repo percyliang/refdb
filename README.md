@@ -2,6 +2,10 @@ This package manages a shared database of bibliography references which can be
 used to generate bibtex (to include in your paper) and HTML files (for
 your publications page).
 
+If you're in a hurry and just want a bib file, here you go:
+
+    https://raw.githubusercontent.com/percyliang/refdb/master/all.bib
+
 ## Printing/querying the database
 
 To output a bibtex file, run the following to print to stdout:
