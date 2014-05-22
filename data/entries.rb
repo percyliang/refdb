@@ -906,7 +906,7 @@ nil)
 
 entry!('wallach08dependency',
   author('Hanna Wallach and Charles Sutton and Andrew McCallum'),
-  title('{B}ayesian Modeling of Dependency Trees Using Hierarchical {P}itman-{Y}or Priors.'),
+  title('{B}ayesian Modeling of Dependency Trees Using Hierarchical {P}itman-{Y}or Priors'),
   inproceedings('Workshop on Prior Knowledge for Text and Language', 2008), pages(15, 20),
 nil)
 
@@ -2143,7 +2143,7 @@ nil)
 entry!('zelle96geoquery',
   author('M. Zelle and R. J. Mooney'),
   aaai(1996),
-  title('Learning to parse database queries using inductive logic proramming.'),
+  title('Learning to parse database queries using inductive logic proramming'),
   pages(1050, 1055),
   tags('semantic parsing'),
 nil)
@@ -3327,7 +3327,7 @@ nil)
 
 entry!('larochelle2008zero',
   inproceedings('AAAI', 2008),
-  title('Zero-data Learning of New Tasks.'),
+  title('Zero-data Learning of New Tasks'),
   author('Hugo Larochelle and Dumitru Erhan and Yoshua Bengio'),
   volume(8),
   pages(646, 651),
@@ -3499,7 +3499,7 @@ entry!('hsu12identifiability',
   author('Daniel Hsu and Sham M. Kakade and Percy Liang'),
   title('Identifiability and Unmixing of Latent Parse Trees'),
   nips(2012),
-  abstract('This paper explores unsupervised learning of parsing models along two directions. First, which models are identifiable from infinite data? We use a general technique for numerically checking identifiability based on the rank of a Jacobian matrix, and apply it to several standard constituency and dependency parsing models. Second, for identifiable models, how do we estimate the parameters efficiently? EM suffers from local optima, while recent work using spectral methods cannot be directly applied since the topology of the parse tree varies across sentences. We develop a strategy, unmixing, which deals with this additional complexity for restricted classes of parsing models.'),
+  abstract('This paper explores unsupervised learning of parsing models along two directions. First, which models are identifiable from infinite data? We use a general technique for numerically checking identifiability based on the rank of a Jacobian matrix, and apply it to several standard constituency and dependency parsing models. Second, for identifiable models, how do we estimate the parameters efficiently? EM suffers from local optima, while recent work using spectral methods cannot be directly applied since the topology of the parse tree varies across sentences. We develop a strategy, unmixing, which deals with this additional complexity for restricted classes of parsing models'),
   url('identifiability-nips2012.pdf'),
   posterurl('identifiability-nips2012-poster.pdf'),
   techreporturl('http://arxiv.org/pdf/1206.3137.pdf'),
@@ -3530,7 +3530,7 @@ entry!('liang11dcs',
   thesisurl('dcs-thesis2011.pdf'),
   journalurl('dcs-cl2012.pdf'),
   code('../software/dcs.zip'),
-  abstract('Compositional question answering begins by mapping questions to logical forms, but training a semantic parser to perform this mapping typically requires the costly annotation of the target logical forms.  In this paper, we learn to map questions to answers via latent logical forms, which are induced automatically from question-answer pairs.  In tackling this challenging learning problem, we introduce a new semantic representation which highlights a parallel between dependency syntax and efficient evaluation of logical forms.  On two standard semantic parsing benchmarks (GEO and JOBS), our system obtains the highest published accuracies, despite using less supervision than existing systems.'),
+  abstract('Compositional question answering begins by mapping questions to logical forms, but training a semantic parser to perform this mapping typically requires the costly annotation of the target logical forms.  In this paper, we learn to map questions to answers via latent logical forms, which are induced automatically from question-answer pairs.  In tackling this challenging learning problem, we introduce a new semantic representation which highlights a parallel between dependency syntax and efficient evaluation of logical forms.  On two standard semantic parsing benchmarks (GEO and JOBS), our system obtains the highest published accuracies, despite using less supervision than existing systems'),
   punchlines('Task: learn to map questions to answers via latent logical forms.',
              'Contribution: new tree-based semantic representation.',
              'Result: surpass state-of-the-art on semantic parsing with less supervision.'),
@@ -4311,4 +4311,67 @@ entry!('bunse1993numerical',
   pages(927, 949),
   number(4),
   title('Numerical methods for simultaneous diagonalization'),
+nil)
+
+entry!('chandrasekaran2013computational',
+  article('Proceedings of the National Academy of Sciences', 2013, 110),
+  author('Venkat Chandrasekaran and Michael I Jordan'),
+  number(13),
+  pages(1181, 1190),
+  publisher('National Acadademy of Sciences'),
+  title('Computational and statistical tradeoffs via convex relaxation'),
+nil)
+
+entry!('shulaker2013carbon',
+  article('Nature', 2013, 501),
+  publisher('Nature Publishing Group'),
+  author('Max M Shulaker and Gage Hills and Nishant Patil and Hai Wei and Hong-Yu Chen and H-S Philip Wong and Subhasish Mitra'),
+  title('Carbon nanotube computer'),
+  number(7468),
+  pages(526, 530),
+nil)
+
+entry!('choi2007low',
+  article('IEEE Transactions on Signal Processing', 2007, 55),
+  title('Low-power filtering via minimum power soft error cancellation'),
+  number(10),
+  author('Jun Won Choi and Byonghyo Shim and Andrew C Singer and Nam Ik Cho'),
+  pages(5084, 5096),
+  url('http://www.ifp.illinois.edu/~jwchoi/papers/TSP2007.pdf'),
+nil)
+
+entry!('schnaufer1997adaptive',
+  article('IEEE Transactions on Circuits and Systems', 1997, 44),
+  author('Bernard A Schnaufer and W Jenkins'),
+  pages(1001, 1014),
+  title('Adaptive fault tolerance for reliable {LMS} adaptive filtering'),
+  number(12),
+nil)
+
+entry!('zhang2008bibliographical',
+  article('Annual reviews in control', 2008, 32),
+  pages(229, 252),
+  title('Bibliographical review on reconfigurable fault-tolerant control systems'),
+  author('Youmin Zhang and Jin Jiang'),
+  number(2),
+  publisher('Elsevier'),
+nil)
+
+entry!('lin2010energy',
+  inproceedings('International conference on Mobile systems, applications, and services', 2010),
+  pages(285, 298),
+  title('Energy-accuracy trade-off for continuous mobile device location'),
+  author('Kaisen Lin and Aman Kansal and Dimitrios Lymberopoulos and Feng Zhao'),
+nil)
+
+entry!('shamir2013fundamental',
+  arxiv(2013),
+  author('Ohad Shamir'),
+  title('Fundamental Limits of Online and Distributed Algorithms for Statistical Learning and Estimation'),
+nil)
+
+entry!('chen2014statistical',
+  arxiv(2014),
+  author('Yudong Chen and Jiaming Xu'),
+  title('Statistical-Computational Tradeoffs in Planted Problems and Submatrix Localization with a Growing Number of Clusters and Submatrices'),
 nil)

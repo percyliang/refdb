@@ -26,7 +26,7 @@ def dukeStat(year); techreport(Name.new('Department of Statistics, Duke Universi
 def berkeleyStat(year); techreport(Name.new('Department of Statistics, University of California at Berkeley', 'UC Berkeley'), year) end
 def berkeleyEECS(year); techreport(Name.new('EECS Department, University of California at Berkeley', 'UC Berkeley'), year) end
 def mit(year); techreport('Massachusetts Institute of Technology', year) end
-def arxiv(year); techreport('ArXiv', year) end
+def arxiv(year); techreport('arXiv', year) end
 
 ### Machine learning / AI
 def colt(year); inproceedings(Name.new('Conference on Learning Theory', 'COLT'), year) end
