@@ -4375,3 +4375,11 @@ entry!('chen2014statistical',
   author('Yudong Chen and Jiaming Xu'),
   title('Statistical-Computational Tradeoffs in Planted Problems and Submatrix Localization with a Growing Number of Clusters and Submatrices'),
 nil)
+
+entry!('shivakumar2002modeling',
+  inproceedings('International Conference on Dependable Systems and Networks (DSN)', 2002),
+  organization('IEEE'),
+  pages(389, 398),
+  author('Premkishore Shivakumar and Michael Kistler and Stephen W Keckler and Doug Burger and Lorenzo Alvisi'),
+  title('Modeling the effect of technology trends on the soft error rate of combinational logic'),
+nil)
