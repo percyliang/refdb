@@ -1966,7 +1966,7 @@ entry!('graf97predicate',
   article('Computer Aided Verification', 1997, 1254), pages(72, 83),
 nil)
 
-entry!('munro51stochastic',
+entry!('monro51stochastic',
   title('A Stochastic Approximation Method'),
   author('Herbert Robbins and Sutton Monro'),
   article('Annals of Mathematical Statistics', 1951, 22), number(3), pages(400, 407),
@@ -4383,3 +4383,44 @@ entry!('shivakumar2002modeling',
   author('Premkishore Shivakumar and Michael Kistler and Stephen W Keckler and Doug Burger and Lorenzo Alvisi'),
   title('Modeling the effect of technology trends on the soft error rate of combinational logic'),
 nil)
+
+entry!('sacks1958asymptotic',
+	author('Jerome Sacks'),
+	title('Asymptotic Distribution of Stochastic Approximation Procedures'),
+	article('Annals of Mathematical Statistics',1958,29),
+	pages(373,405),
+	number(2),
+nil)
+
+entry!('gladyshev1965stochastic',
+	author('G. E. Gladyshev'),
+	title('On Stochastic Approximation'),
+	article('Theory of Probability and its Applications',1965,10),
+	number(2),
+	pages(275,278),
+nil)
+
+entry!('fabian1968asymptotic',
+	author('V\'{a}clav Fabian'),
+	title('On Aymptotic Normality in Stochastic Approximation'),
+	article('Annals of Mathematical Statistics',1968,39),
+	pages(1327,1332),
+	number(4),
+nil)
+
+entry!('chung1954stochastic',
+	author('K. L. Chung'),
+	title('On a Stochastic Approximation Method'),
+	article('Annals of Mathematical Statistics',1954,25),
+	number(3),
+	pages(463,483),
+nil)
+
+entry!('blum1954multidimensional',
+	author('Julius R. Blum'),
+	title('Multidimensional Stochastic Approximation Methods'),
+	article('Annals of Mathematical Statistics',1954,25),
+	number(4),
+	pages(737,744),
+nil)
+	
