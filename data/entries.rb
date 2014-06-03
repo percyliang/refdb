@@ -4648,3 +4648,11 @@ entry!('allemand2001polynomial',
   number(1),
   author('Kim Allemand and Komei Fukuda and Thomas M Liebling and Erich Steiner'),
 nil)
+
+entry!('geman1984stochastic',
+  pami(1984, 6),
+  publisher('IEEE'),
+  title('Stochastic relaxation, {G}ibbs distributions, and the {B}ayesian restoration of images'),
+  author('Stuart Geman and Donald Geman'),
+  pages(721, 741),
+nil)
