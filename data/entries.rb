@@ -4424,3 +4424,227 @@ entry!('blum1954multidimensional',
 	pages(737,744),
 nil)
 	
+entry!('hinton2010practical',
+  techreport('University of Toronto', 2010),
+  title('A practical guide to training restricted {B}oltzmann machines'),
+  author('G. Hinton'),
+nil)
+
+entry!('salakhutdinov2008ais',
+  icml(2008),
+  title('On the quantitative analysis of deep belief networks'),
+  author('R. Salakhutdinov and I. Murray'),
+  pages(872, 879),
+nil)
+
+entry!('long2010restricted',
+  icml(2010),
+  title('Restricted {B}oltzmann machines are hard to approximately evaluate or simulate'),
+  author('P. Long and R. Servedio'),
+  pages(703, 710),
+nil)
+
+entry!('ravikumar2006quadratic',
+  icml(2006),
+  title('Quadratic programming relaxations for metric labeling and {M}arkov random field {MAP} estimation'),
+  author('P. Ravikumar and J. Lafferty'),
+  pages(737, 744),
+nil)
+
+entry!('alon2006approximating',
+  article('SIAM Journal on Computing', 2006, 35),
+  number(4),
+  title('Approximating the cut-norm via Grothendieck\'s inequality'),
+  author('N. Alon and A. Naor'),
+  publisher('SIAM'),
+  pages(787, 803),
+nil)
+
+entry!('goemans1995improved',
+  article('Journal of the ACM (JACM)', 1995, 42, 6),
+  title('Improved approximation algorithms for maximum cut and satisfiability problems using semidefinite programming'),
+  author('M. Goemans and D. Williamson'),
+  pages(1115, 1145),
+nil)
+
+entry!('pataki1998rank',
+  article('Mathematics of Operations Research', 1998, 23),
+  number(2),
+  title('On the rank of extreme matrices in semidefinite programs and the multiplicity of optimal eigenvalues'),
+  author('G. Pataki'),
+  publisher('INFORMS'),
+  pages(339, 358),
+nil)
+
+entry!('burer01anonlinear',
+  title('A Nonlinear Programming Algorithm for Solving Semidefinite Programs via Low-rank Factorization'),
+  author('S. Burer and R. Monteiro'),
+  article('Mathematical Programming (series B)', 2001, 95),
+nil)
+
+entry!('burer2005local',
+  article('Mathematical Programming', 2005, 103, 3),
+  title('Local minima and convergence in low-rank semidefinite programming'),
+  author('S. Burer and R. Monteiro'),
+  publisher('Springer'),
+  pages(427, 444),
+nil)
+
+entry!('nesterov1998semidefinite',
+  article('Optimization methods and software', 1998, 9),
+  title('Semidefinite relaxation and nonconvex quadratic optimization'),
+  author('Y. Nesterov'),
+  publisher('Taylor \& Francis'),
+  pages(141, 160),
+nil)
+
+entry!('rietz1974proof',
+  article('Israel Journal of Mathematics', 1974, 19, 3),
+  title('A proof of the {G}rothendieck inequality'),
+  author('R. E. Rietz'),
+  publisher('Springer'),
+  pages(271, 276),
+nil)
+
+entry!('briet2010positive',
+  title('The positive semidefinite {G}rothendieck problem with rank constraint'),
+  author('J. Bri{\"e}t and F. M. de Oliveira Filho and F. Vallentin'),
+  inproceedings('Automata, Languages and Programming', 2010),
+  publisher('Springer'),
+  pages(31, 42),
+nil)
+
+entry!('malik06thegap',
+  article('Mathematical Programming', 2006, 107),
+  number(3),
+  title('On the gap between the quadratic integer programming problem and its semidefinite relaxation'),
+  url('http://dblp.uni-trier.de/db/journals/mp/mp107.html#MalikJHG06'),
+  author('U. Malik and Imad M. Jaimoukha and G. D. Halikias and S. K. Gungah'),
+  pages(505, 515),
+nil)
+
+entry!('halikias07newbounds',
+  article('Journal of Global Optimization', 2007, 39),
+  number(4),
+  title('New bounds on the unconstrained quadratic integer programming problem.'),
+  author('G. D. Halikias and Imad M. Jaimoukha and U. Malik and S. K. Gungah'),
+  pages(543, 554),
+nil)
+
+entry!('barvinok95problems',
+  article('Discrete \& Computational Geometry', 1995, 13),
+  title('Problems of Distance Geometry and Convex Properties of Quadratic Maps.'),
+  author('A. I. Barvinok'),
+  pages(189, 202),
+nil)
+
+entry!('riedel2012parse',
+  emnlpconll(2012),
+  title('Parse, price and cut: delayed column and row generation for graph based parsers'),
+  author('S. Riedel and D. Smith and A. McCallum'),
+  pages(732, 743),
+nil)
+
+entry!('shi2000normalized',
+  article('Pattern Analysis and Machine Intelligence, IEEE Transactions on', 2000, 22),
+  number(8),
+  title('Normalized cuts and image segmentation'),
+  author('J. Shi and J. Malik'),
+  publisher('IEEE'),
+  pages(888, 905),
+nil)
+
+entry!('kulis2007fast',
+  aistats(2007),
+  title('Fast low-rank semidefinite programming for embedding and clustering'),
+  author('B. Kulis and A. C. Surendran and J. C. Platt'),
+  pages(235, 242),
+nil)
+
+entry!('kumar2009analysis',
+  jmlr(2009, 10),
+  title('An analysis of convex relaxations for {MAP} estimation of discrete {MRF}s'),
+  author('M. P. Kumar and V. Kolmogorov and P. Torr'),
+  publisher('JMLR. org'),
+  pages(71, 106),
+nil)
+
+entry!('recht2013parallel',
+  article('Mathematical Programming Computation', 2013, 5),
+  title('Parallel stochastic gradient algorithms for large-scale matrix completion'),
+  author('B. Recht and C. R{\'e}'),
+  publisher('Springer'),
+  pages(1, 26),
+nil)
+
+entry!('lee2010practical',
+  nips(2010),
+  title('Practical large-scale optimization for max-norm regularization'),
+  author('J. Lee and B. Recht and N. Srebro and J. Tropp and R. Salakhutdinov'),
+  pages(1297, 1305),
+nil)
+
+entry!('krahenbuhl2011efficient',
+  nips(2011),
+  title('Efficient inference in fully connected {CRF}s with {G}aussian edge potentials'),
+  author('P. Kr{\"a}henb{\"u}hl and V. Koltun'),
+nil)
+
+entry!('krahenbuhl2013learning',
+  author('P. Kr{\"a}henb{\"u}hl and V. Koltun'),
+  pages(513, 521),
+  title('Parameter Learning and Convergent Inference for Dense Random Fields'),
+  icml(2013),
+nil)
+
+entry!('rush2010dual',
+  emnlp(2010),
+  title('On dual decomposition and linear programming relaxations for natural language processing'),
+  author('A. Rush and D. Sontag and M. Collins and T. Jaakkola'),
+  pages(1, 11),
+nil)
+
+entry!('sontag2008outer',
+  nips(2008),
+  title('New Outer Bounds on the Marginal Polytope'),
+  author('D. Sontag and T. Jaakkola'),
+  pages(1393, 1400),
+nil)
+
+entry!('sontag2008tightening',
+  uai(2008),
+  title('Tightening {LP} Relaxations for {MAP} using Message-Passing'),
+  author('D. Sontag and T. Meltzer and A. Globerson and Y. Weiss and T. Jaakkola'),
+  publisher('AUAI Press'),
+  pages(503, 510),
+nil)
+
+entry!('cour2007solving',
+  aistats(2007),
+  title('Solving {M}arkov random fields with spectral relaxation'),
+  author('T. Cour and J. Shi'),
+  pages(75, 82),
+nil)
+
+entry!('winder66partition',
+  article('SIAM Journal on Applied Mathematics', 1966, 14),
+  number(4),
+  title('Partitions of {N}-Space by Hyperplanes'),
+  author('R. O. Winder'),
+  pages(811, 818),
+nil)
+
+entry!('kappes2013benchmark',
+  title('A Comparative Study of Modern Inference Techniques for Discrete Energy Minimization Problem'),
+  author('J{\"o}rg H. Kappes and Bjoern Andres and Fred A. Hamprecht and Christoph Schn{\"o}rr and Sebastian Nowozin and Dhruv Batra and Sungwoong Kim and Bernhard X. Kausler and Jan Lellmann and Nikos Komodakis and Carsten Rother'),
+  cvpr(2013),
+nil)
+
+entry!('allemand2001polynomial',
+  article('Mathematical programming', 2001, 91),
+  publisher('Springer'),
+  pages(49, 52),
+  title('A polynomial case of unconstrained zero-one quadratic optimization'),
+  number(1),
+  author('Kim Allemand and Komei Fukuda and Thomas M Liebling and Erich Steiner'),
+nil)
