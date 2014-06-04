@@ -4656,3 +4656,25 @@ entry!('geman1984stochastic',
   author('Stuart Geman and Donald Geman'),
   pages(721, 741),
 nil)
+
+entry!('hills2013rapid',
+        author('Gage Hills and Jie Zhang and Charles Mackin and Max Shulaker and Hai Wei and Hon Sun Philip Wong and Subhasish Mitra'),
+        title('Rapid Exploration of Processing and Design Guidelines to Overcome Carbon Nanotube Variations'),
+        inproceedings('Proceedings of the 50th Annual Design Automation Conference',2013),
+nil)
+
+entry!('lohstroh1983worst',
+        author('Jan Lohstroh and Evert Seevinck and Jan De Groot'),
+        title('Worst-case static noise margin criteria for logic circuits and their mathematical equivalence'),
+        article('IEEE Journal of Solid-State Circuits',1983,18),
+        number(6),
+        pages(803,807),
+nil)
+
+entry!('luo2013compact',
+        author('Jieying Luo and Lan Wei and Chi-Shuen Lee and Aaron D. Franklin and Ximeng Guan and Eric Pop and Dimitri Antoniadis and Hon Sun Philip Wong'),
+        title('Compact Model for Carbon Nanotube Field-Effect Transistors Including Nonidealities and Calibrated with Experimental Data Down to 9-nm Gate Length'),
+        article('IEEE Transactions on Electron Devices',2013,60),
+        number(6),
+        pages(1834,1843),
+nil)
