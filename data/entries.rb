@@ -4859,3 +4859,31 @@ entry!('anandkumar2013community',
   pages(867, 881),
   author('Animashree Anandkumar and Rong Ge and Daniel Hsu and Sham Kakade'),
 nil)
+
+entry!('boykov2004mincut',
+  pami(2004,26),
+  title('An Experimental Comparison of Min-Cut/Max-Flow Algorithms for Energy Minimization in Vision'),
+  pages(1124, 1137),
+  author('Yuri Boykov and Vladimir Kolmogorov'),
+nil)
+
+entry!('boykov2004what',
+  pami(2004,26),
+  title('What Energy Functions Can Be Minimized via Graph Cuts?'),
+  pages(147, 159),
+  author('Vladimir Kolmogorov and Ramin Zabih'),
+nil)
+
+entry!('boykov2001fast',
+  pami(2001,23),
+  title('Fast Approximate Energy Minimization via Graph Cuts?'),
+  pages(1222, 1239),
+  author('Yuri Boykov and Olga Veksler and Ramin Zabih'),
+nil)
+
+entry!('schoenbery1942positive',
+  dukeMath(1942,9),
+  title('Positive definite functions on spheres'),
+  pages(96, 108),
+  author('Isaac J Schoenberg'),
+nil)

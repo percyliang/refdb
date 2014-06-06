@@ -5,6 +5,7 @@ def annalsOfProbability(year, volume); article('Annals of Probability', year, vo
 def annalsOfStatistics(year, volume);  article('Annals of Statistics', year, volume) end
 def statisticaSinica(year, volume);    article('Statistica Sinica', year, volume) end
 def bayesianAnalysis(year, volume);    article('Bayesian Analysis', year, volume) end
+def dukeMath(year, volume);            article('Duke Mathematical Journal', year, volume) end
 def jasa(year, volume);                article(Name.new('Journal of the American Statistical Association', 'JASA'), year, volume) end
 def biometrika(year, volume);          article('Biometrika', year, volume) end
 def jmlr(year, volume);                article(Name.new('Journal of Machine Learning Research', 'JMLR'), year, volume) end
