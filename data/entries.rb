@@ -4678,3 +4678,154 @@ entry!('luo2013compact',
         number(6),
         pages(1834,1843),
 nil)
+
+entry!('cardoso1996joint',
+  article('SIAM Journal on Matrix Analysis and Applications', 1996, 17),
+  pages(161, 164),
+  number(1),
+  author('J. Cardoso and A. Souloumiac'),
+  title('Jacobi angles for simultaneous diagonalization'),
+nil)
+
+entry!('afsari2008sensitivity',
+  article('SIAM Journal on Matrix Analysis and Applications', 2008, 30),
+  pages(1148, 1171),
+  number(3),
+  author('B. Afsari'),
+  title('Sensitivity analysis for the problem of matrix joint diagonalization'),
+nil)
+
+entry!('cardoso1994perturbation',
+  techreport('T\'{e}l\'{e}com Paris', 1994),
+  author('J. Cardoso'),
+  title('Perturbation of Joint Diagonalizers'),
+nil)
+
+entry!('laurent2000adaptive',
+  annalsOfStatistics(2000, 28),
+  pages(1302, 1338),
+  number(5),
+  author('B. Laurent and P. Massart'),
+  title('Adaptive estimation of a quadratic functional by model selection'),
+nil)
+
+entry!('de2001independent',
+  article('IEEE Transactions on Signal Processing', 2001, 49),
+  pages(2262, 2271),
+  number(10),
+  author('D. L. Lieven and D. M. Bart and V. Joos'),
+  title('Independent component analysis and (simultaneous) third-order tensor diagonalization'),
+nil)
+
+entry!('hastad1990tensor',
+  article('Journal of Algorithms', 1990, 11),
+  number(4),
+  author('J. Ho{a}stad'),
+  title('Tensor rank is {NP}-complete'),
+nil)
+
+entry!('souloumiac2009joint',
+  inproceedings('Computational Advances in Multi-Sensor Adaptive Processing', 2009),
+  pages(305, 308),
+  author('S. A.'),
+  title('Joint diagonalization: Is non-orthogonal always preferable to orthogonal?'),
+nil)
+
+entry!('delathauwer2006decomposition',
+  article('SIAM Journal of Matrix Analysis and Applications', 2006, 28),
+  pages(642, 666),
+  number(3),
+  author('D. L. Lieven'),
+  title('A Link Between the Canonical Decomposition in Multilinear Algebra and Simultaneous Matrix Diagonalization'),
+nil)
+
+entry!('vasilescu2005multilinear',
+  cvpr(2005),
+  pages(547, 553),
+  author('M Alex O Vasilescu and Demetri Terzopoulos'),
+  title('Multilinear independent components analysis'),
+  organization('IEEE'),
+  volume(1),
+nil)
+
+entry!('beckmann2005tensorial',
+  article('Neuroimage', 2005, 25),
+  pages(294, 311),
+  number(1),
+  author('Christian F Beckmann and Stephen M Smith'),
+  publisher('Elsevier'),
+  title('Tensorial extensions of independent component analysis for multisubject {FMRI} analysis'),
+nil)
+
+entry!('yeredor2002non',
+  article('IEEE Transactions on Signal Processing', 2002, 50),
+  author('Arie Yeredor'),
+  publisher('IEEE'),
+  pages(1545, 1553),
+  number(7),
+  title('Non-orthogonal joint diagonalization in the least-squares sense with application in blind source separation'),
+nil)
+
+entry!('ziehe2004fast',
+  jmlr(2004, 5),
+  title('A fast algorithm for joint diagonalization with non-orthogonal transformations and its application to blind source separation'),
+  author('Andreas Ziehe and Pavel Laskov and Guido Nolte and Klaus-Robert M{\"u}ller'),
+  pages(777, 800),
+nil)
+
+entry!('vollgraf2006quadratic',
+  article('IEEE Transactions on Signal Processing', 2006, 54),
+  author('Roland Vollgraf and Klaus Obermayer'),
+  pages(3270, 3278),
+  title('Quadratic optimization for simultaneous matrix diagonalization'),
+  number(9),
+  publisher('IEEE'),
+nil)
+
+entry!('afsari2006simple',
+  pages(1, 7),
+  inproceedings('Independent Component Analysis and Blind Signal Separation', 2006),
+  author('Bijan Afsari'),
+  title('Simple {LU} and {QR} based non-orthogonal matrix joint diagonalization'),
+  publisher('Springer'),
+nil)
+
+entry!('guo2010approximate',
+  inproceedings('Acoustics Speech and Signal Processing (ICASSP), 2010 IEEE International Conference on', 2010),
+  pages(3774, 3777),
+  title('Approximate joint diagonalization by nonorthogonal nonparametric jacobi transformations'),
+  author('Xijing Guo and Shihua Zhu and Sebastian Miron and David Brie'),
+  organization('IEEE'),
+nil)
+
+entry!('anandkumar2014guaranteed',
+  arxiv(2014),
+  author('Animashree Anandkumar and Rong Ge and Majid Janzamin'),
+  title('Guaranteed Non-Orthogonal Tensor Decomposition via Alternating Rank-1 Updates'),
+nil)
+
+entry!('candes2006near',
+  article('Information Theory, IEEE Transactions on', 2006, 52),
+  title('Near-optimal signal recovery from random projections: Universal encoding strategies?'),
+  publisher('IEEE'),
+  author('Emmanuel J Candes and Terence Tao'),
+  pages(5406, 5425),
+  number(12),
+nil)
+
+entry!('haupt2006signal',
+  article('IEEE Transactions on Information Theory', 2006, 52),
+  publisher('IEEE'),
+  pages(4036, 4048),
+  number(9),
+  title('Signal reconstruction from noisy random projections'),
+  author('Jarvis Haupt and Robert Nowak'),
+nil)
+
+entry!('sarlos2006improved',
+  focs(2006),
+  pages(143, 152),
+  title('Improved approximation algorithms for large matrices via random projections'),
+  author('Tamas Sarlos'),
+  organization('IEEE'),
+nil)
