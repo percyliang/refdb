@@ -4852,3 +4852,10 @@ entry!('nickel2011three',
   title('A three-way model for collective learning on multi-relational data'),
   pages(809, 816),
 nil)
+
+entry!('anandkumar2013community',
+  colt(2013),
+  title('A Tensor Spectral Approach to Learning Mixed Membership Community Models'),
+  pages(867, 881),
+  author('Animashree Anandkumar and Rong Ge and Daniel Hsu and Sham Kakade'),
+nil)
