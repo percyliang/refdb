@@ -4709,14 +4709,6 @@ entry!('laurent2000adaptive',
   title('Adaptive estimation of a quadratic functional by model selection'),
 nil)
 
-entry!('de2001independent',
-  article('IEEE Transactions on Signal Processing', 2001, 49),
-  pages(2262, 2271),
-  number(10),
-  author('D. L. Lieven and D. M. Bart and V. Joos'),
-  title('Independent component analysis and (simultaneous) third-order tensor diagonalization'),
-nil)
-
 entry!('hastad1990tensor',
   article('Journal of Algorithms', 1990, 11),
   number(4),
@@ -4735,7 +4727,7 @@ entry!('delathauwer2006decomposition',
   article('SIAM Journal of Matrix Analysis and Applications', 2006, 28),
   pages(642, 666),
   number(3),
-  author('D. L. Lieven'),
+  author('Lieven De Lathauwer'),
   title('A Link Between the Canonical Decomposition in Multilinear Algebra and Simultaneous Matrix Diagonalization'),
 nil)
 
@@ -4836,4 +4828,13 @@ entry!('kleinberg1997two',
   pages(599, 608),
   organization('ACM'),
   title('Two algorithms for nearest-neighbor search in high dimensions'),
+nil)
+
+entry!('delathauwer2001independent',
+  article('Signal Processing, IEEE Transactions on', 2001, 49),
+  title('Independent component analysis and (simultaneous) third-order tensor diagonalization'),
+  number(10),
+  publisher('IEEE'),
+  pages(2262, 2271),
+  author('Lieven De Lathauwer and Bart De Moor and Joos Vandewalle'),
 nil)
