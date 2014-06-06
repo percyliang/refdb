@@ -4805,7 +4805,7 @@ entry!('anandkumar2014guaranteed',
 nil)
 
 entry!('candes2006near',
-  article('Information Theory, IEEE Transactions on', 2006, 52),
+  article('IEEE Transactions on Information Theory', 2006, 52),
   title('Near-optimal signal recovery from random projections: Universal encoding strategies?'),
   publisher('IEEE'),
   author('Emmanuel J Candes and Terence Tao'),
@@ -4828,4 +4828,12 @@ entry!('sarlos2006improved',
   title('Improved approximation algorithms for large matrices via random projections'),
   author('Tamas Sarlos'),
   organization('IEEE'),
+nil)
+
+entry!('kleinberg1997two',
+  stoc(1997),
+  author('Jon M Kleinberg'),
+  pages(599, 608),
+  organization('ACM'),
+  title('Two algorithms for nearest-neighbor search in high dimensions'),
 nil)
