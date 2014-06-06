@@ -4887,3 +4887,23 @@ entry!('schoenbery1942positive',
   pages(96, 108),
   author('Isaac J Schoenberg'),
 nil)
+
+entry!('wei2009non',
+        author('Wei, Lan and Frank, David J and Chang, Leland and Wong, H-SP'),
+	title('A non-iterative compact model for carbon nanotube FETs incorporating source exhaustion effects'),
+        inproceedings('IEEE International Electron Devices Meeting',2009),
+nil)
+
+entry!('natori1998scaling',
+        author('Natori, Kenji and Sano, Nobuyuki'),
+        title('Scaling limit of digital circuits due to thermal noise'),
+        article('Journal of applied physics',1998,83),
+        number(10),
+        pages(5019,5024),
+nil)
+
+entry!('weste2010cmos',
+  author('Weste, Neil and Harris, David'),
+  title('CMOS VLSI design: a circuits and systems perspective'),
+  book('Addison-Wesley Publishing Company', 2010),
+nil)
