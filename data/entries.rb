@@ -4889,21 +4889,39 @@ entry!('schoenbery1942positive',
 nil)
 
 entry!('wei2009non',
-        author('Wei, Lan and Frank, David J and Chang, Leland and Wong, H-SP'),
+  author('Wei, Lan and Frank, David J and Chang, Leland and Wong, H-SP'),
 	title('A non-iterative compact model for carbon nanotube FETs incorporating source exhaustion effects'),
-        inproceedings('IEEE International Electron Devices Meeting',2009),
+  inproceedings('IEEE International Electron Devices Meeting',2009),
 nil)
 
 entry!('natori1998scaling',
-        author('Natori, Kenji and Sano, Nobuyuki'),
-        title('Scaling limit of digital circuits due to thermal noise'),
-        article('Journal of applied physics',1998,83),
-        number(10),
-        pages(5019,5024),
+  author('Natori, Kenji and Sano, Nobuyuki'),
+  title('Scaling limit of digital circuits due to thermal noise'),
+  article('Journal of applied physics',1998,83),
+  number(10),
+  pages(5019,5024),
 nil)
 
 entry!('weste2010cmos',
   author('Weste, Neil and Harris, David'),
-  title('CMOS VLSI design: a circuits and systems perspective'),
+  title('{CMOS} {VLSI} design: a circuits and systems perspective'),
   book('Addison-Wesley Publishing Company', 2010),
+nil)
+
+entry!('brachat2010symmetric',
+  article('Linear Algebra and its Applications', 2010, 433),
+  title('Symmetric tensor decomposition'),
+  publisher('Elsevier'),
+  number(11),
+  author('Jerome Brachat and Pierre Comon and Bernard Mourrain and Elias Tsigaridas'),
+  pages(1851, 1872),
+nil)
+
+entry!('comon2009tensor',
+  article('Journal of Chemometrics', 2009, 23),
+  pages(393, 405),
+  publisher('Wiley Online Library'),
+  number('7-8'),
+  title('Tensor decompositions, alternating least squares and other tales'),
+  author('Pierre Comon and Xavier Luciani and Andr{\'e} LF De Almeida'),
 nil)
