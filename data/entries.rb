@@ -4838,3 +4838,17 @@ entry!('delathauwer2001independent',
   pages(2262, 2271),
   author('Lieven De Lathauwer and Bart De Moor and Joos Vandewalle'),
 nil)
+
+entry!('sutskever2009modelling',
+  nips(2009),
+  pages(1821, 1828),
+  title('Modelling Relational Data using {B}ayesian Clustered Tensor Factorization.'),
+  author('Ilya Sutskever and Ruslan Salakhutdinov and Joshua B Tenenbaum'),
+nil)
+
+entry!('nickel2011three',
+  icml(2011),
+  author('Maximilian Nickel and Volker Tresp and Hans-Peter Kriegel'),
+  title('A three-way model for collective learning on multi-relational data'),
+  pages(809, 816),
+nil)
