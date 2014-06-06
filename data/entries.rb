@@ -4887,3 +4887,10 @@ entry!('schoenbery1942positive',
   pages(96, 108),
   author('Isaac J Schoenberg'),
 nil)
+
+entry!('jordan99variational',
+  machineLearning(99,37),
+  title('An Introduction to Variational Methods for Graphical Models'),
+  author('Michael I. Jordan and Zoubin Ghahramani and Tommi S.  Jaakkola and Lawrence K. Saul'),
+  pages(183,233),
+nil)
