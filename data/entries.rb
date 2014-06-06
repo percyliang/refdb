@@ -4881,7 +4881,7 @@ entry!('boykov2001fast',
   author('Yuri Boykov and Olga Veksler and Ramin Zabih'),
 nil)
 
-entry!('schoenbery1942positive',
+entry!('schoenberg1942positive',
   dukeMath(1942,9),
   title('Positive definite functions on spheres'),
   pages(96, 108),
