@@ -41,6 +41,8 @@ capitalization and duplicate entries are automatically checked when you run
 
 You can also import from existing bibtex (either from a file or stdin):
 
-    ./import.rb >> data/entries.rb
+    ./import.rb
 
-There might be errors so it's a good idea to double check what's been added.
+Paste in your bibtex format and the corresponding Ruby code will be appended to
+`data/entries.rb`.  There might be errors so it's a good idea to double check
+what's been added.

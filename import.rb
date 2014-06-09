@@ -146,9 +146,15 @@ while line = gets
   bibtexLines << line
 end
 
-puts
-puts "### AUTO-IMPORTED - remove this line once following entries are verified ###"
+rubyLines = []
+#rubyLines << "### AUTO-IMPORTED - remove this line once following entries are verified ###"
 bibtexToRuby(bibtexLines).each { |ruby|
-  puts
-  puts ruby
+  rubyLines << ''
+  rubyLines << ruby
 }
+
+outPath = 'data/entries.rb'
+puts "### Writing the following to #{outPath} ###"
+out = open(outPath, 'a+')
+rubyLines.each { |line| puts line; out.puts line }
+out.close
