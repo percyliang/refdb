@@ -4312,3 +4312,9 @@ entry!('bunse1993numerical',
   number(4),
   title('Numerical methods for simultaneous diagonalization'),
 nil)
+
+entry!('bao2014qa',
+  acl(2014),
+  title('Knowledge-based Question Answering as Machine Translation'),
+  author('J. Bao and Nan Duan and Ming Zhou and Tiejun Zhao'),
+nil)
