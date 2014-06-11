@@ -4460,6 +4460,12 @@ entry!('alon2006approximating',
   pages(787, 803),
 nil)
 
+entry!('khot08approximate',
+  focs(2008),
+  title('Approximate kernel clustering'),
+  author('S. Khot and A. Naor'),
+nil)
+
 entry!('goemans1995improved',
   article('Journal of the ACM (JACM)', 1995, 42, 6),
   title('Improved approximation algorithms for maximum cut and satisfiability problems using semidefinite programming'),
@@ -4474,6 +4480,14 @@ entry!('pataki1998rank',
   author('G. Pataki'),
   publisher('INFORMS'),
   pages(339, 358),
+nil)
+
+entry!('so2008unified',
+  article('Mathematics of Operations Research', 2008, 33),
+  number(4),
+  title('A unified theorem on {SDP} rank reduction'),
+  author('A. So and Y. Ye and J. Zhang'),
+  pages(910, 920),
 nil)
 
 entry!('burer01anonlinear',
@@ -4514,6 +4528,13 @@ entry!('briet2010positive',
   pages(31, 42),
 nil)
 
+entry!('briet2014groth',
+  title('{G}rothendieck inequalities for semidefinite programs with rank constraints'),
+  author('J. Bri{\"e}t and F. M. de Oliveira Filho and F. Vallentin'),
+  article('Theory of Computing', 2014, 10),
+  pages(77, 105),
+nil)
+
 entry!('malik06thegap',
   article('Mathematical Programming', 2006, 107),
   number(3),
@@ -4536,6 +4557,12 @@ entry!('barvinok95problems',
   title('Problems of Distance Geometry and Convex Properties of Quadratic Maps.'),
   author('A. I. Barvinok'),
   pages(189, 202),
+nil)
+
+entry!('alfakih98embeddability',
+  techreport('University of Waterloo', 1998),
+  title('On the embeddability of weighted graphs in Euclidean spaces'),
+  author('A. Afakih and H. Wolkowicz'),
 nil)
 
 entry!('riedel2012parse',
