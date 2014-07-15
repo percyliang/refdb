@@ -3499,7 +3499,7 @@ entry!('hsu12identifiability',
   author('Daniel Hsu and Sham M. Kakade and Percy Liang'),
   title('Identifiability and Unmixing of Latent Parse Trees'),
   nips(2012),
-  abstract('This paper explores unsupervised learning of parsing models along two directions. First, which models are identifiable from infinite data? We use a general technique for numerically checking identifiability based on the rank of a Jacobian matrix, and apply it to several standard constituency and dependency parsing models. Second, for identifiable models, how do we estimate the parameters efficiently? EM suffers from local optima, while recent work using spectral methods cannot be directly applied since the topology of the parse tree varies across sentences. We develop a strategy, unmixing, which deals with this additional complexity for restricted classes of parsing models'),
+  abstract('This paper explores unsupervised learning of parsing models along two directions. First, which models are identifiable from infinite data? We use a general technique for numerically checking identifiability based on the rank of a Jacobian matrix, and apply it to several standard constituency and dependency parsing models. Second, for identifiable models, how do we estimate the parameters efficiently? EM suffers from local optima, while recent work using spectral methods cannot be directly applied since the topology of the parse tree varies across sentences. We develop a strategy, unmixing, which deals with this additional complexity for restricted classes of parsing models.'),
   url('identifiability-nips2012.pdf'),
   posterurl('identifiability-nips2012-poster.pdf'),
   techreporturl('http://arxiv.org/pdf/1206.3137.pdf'),
@@ -3530,7 +3530,7 @@ entry!('liang11dcs',
   thesisurl('dcs-thesis2011.pdf'),
   journalurl('dcs-cl2012.pdf'),
   code('../software/dcs.zip'),
-  abstract('Compositional question answering begins by mapping questions to logical forms, but training a semantic parser to perform this mapping typically requires the costly annotation of the target logical forms.  In this paper, we learn to map questions to answers via latent logical forms, which are induced automatically from question-answer pairs.  In tackling this challenging learning problem, we introduce a new semantic representation which highlights a parallel between dependency syntax and efficient evaluation of logical forms.  On two standard semantic parsing benchmarks (GEO and JOBS), our system obtains the highest published accuracies, despite using less supervision than existing systems'),
+  abstract('Compositional question answering begins by mapping questions to logical forms, but training a semantic parser to perform this mapping typically requires the costly annotation of the target logical forms.  In this paper, we learn to map questions to answers via latent logical forms, which are induced automatically from question-answer pairs.  In tackling this challenging learning problem, we introduce a new semantic representation which highlights a parallel between dependency syntax and efficient evaluation of logical forms.  On two standard semantic parsing benchmarks (GEO and JOBS), our system obtains the highest published accuracies, despite using less supervision than existing systems.'),
   punchlines('Task: learn to map questions to answers via latent logical forms.',
              'Contribution: new tree-based semantic representation.',
              'Result: surpass state-of-the-art on semantic parsing with less supervision.'),
@@ -4466,6 +4466,12 @@ entry!('alon2006approximating',
   pages(787, 803),
 nil)
 
+entry!('khot08approximate',
+  focs(2008),
+  title('Approximate kernel clustering'),
+  author('S. Khot and A. Naor'),
+nil)
+
 entry!('goemans1995improved',
   article('Journal of the ACM (JACM)', 1995, 42, 6),
   title('Improved approximation algorithms for maximum cut and satisfiability problems using semidefinite programming'),
@@ -4480,6 +4486,14 @@ entry!('pataki1998rank',
   author('G. Pataki'),
   publisher('INFORMS'),
   pages(339, 358),
+nil)
+
+entry!('so2008unified',
+  article('Mathematics of Operations Research', 2008, 33),
+  number(4),
+  title('A unified theorem on {SDP} rank reduction'),
+  author('A. So and Y. Ye and J. Zhang'),
+  pages(910, 920),
 nil)
 
 entry!('burer01anonlinear',
@@ -4520,6 +4534,13 @@ entry!('briet2010positive',
   pages(31, 42),
 nil)
 
+entry!('briet2014groth',
+  title('{G}rothendieck inequalities for semidefinite programs with rank constraints'),
+  author('J. Bri{\"e}t and F. M. de Oliveira Filho and F. Vallentin'),
+  article('Theory of Computing', 2014, 10),
+  pages(77, 105),
+nil)
+
 entry!('malik06thegap',
   article('Mathematical Programming', 2006, 107),
   number(3),
@@ -4542,6 +4563,12 @@ entry!('barvinok95problems',
   title('Problems of Distance Geometry and Convex Properties of Quadratic Maps.'),
   author('A. I. Barvinok'),
   pages(189, 202),
+nil)
+
+entry!('alfakih98embeddability',
+  techreport('University of Waterloo', 1998),
+  title('On the embeddability of weighted graphs in Euclidean spaces'),
+  author('A. Afakih and H. Wolkowicz'),
 nil)
 
 entry!('riedel2012parse',
