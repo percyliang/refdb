@@ -18,6 +18,7 @@ outPath = '/dev/stdout'
 
 # Select entries
 entries = $entries
+title = 'References'
 ARGV.each { |arg|
   if arg =~ /^author=(.+)$/
     entries = matchEntries(entries, 'author', $1)
@@ -29,6 +30,8 @@ ARGV.each { |arg|
     entries = searchEntries(entries, $1)
   elsif arg =~ /^out=(.+)$/
     outPath = $1
+  elsif arg =~ /^title=(.+)$/
+    title = $1
   else
     raise "Unknown argument: #{arg}"
   end
@@ -44,7 +47,7 @@ case command
     printText(entries, false, outPath)
   when 'html' then
     entries = notMatchEntries(entries, 'extendedVersion', true)  # Don't display everything
-    printHTMLPage(makeYearList(entries), "References", File.exists?('footer.html') ? IO.read('footer.html') : nil, outPath)
+    printHTMLPage(makeYearList(entries), title, File.exists?('footer.html') ? IO.read('footer.html') : nil, outPath)
   else
     raise "Invalid command: #{command}"
 end

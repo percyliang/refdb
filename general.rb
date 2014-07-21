@@ -179,7 +179,7 @@ class Entry
       l = $links[name]
       #$stderr.puts "No author link for #{name}" unless l
       link(color(latexToHTML(name), authorColor), l)
-    }.join(', ')+'.<br>'
+    }.join(', ') + '.' + '<br>'
     output << "#{metaTitle ? it(metaTitle.to_full_s + (type == 'techreport' ? ' Technical Report' : '')+', ') : ''}#{year}. #{note}<br>"
     output << hiddenText("abstract#{id}", formatLines(get('abstract')))
     output << hiddenText("brief#{id}", formatLines(get('punchlines')))

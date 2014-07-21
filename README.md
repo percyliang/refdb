@@ -18,7 +18,7 @@ To output an HTML file:
 
 To filter the entries:
 
-    ./generate.rb html author='Percy Liang' out=pliang.html
+    ./generate.rb html author='Percy Liang' title=Publications out=pliang.html
     ./generate.rb bib search='hidden markov model'
     ./generate.rb bib tags='semantic parsing'
 

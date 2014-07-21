@@ -3709,7 +3709,7 @@ entry!('liang08asymptotics',
   icml2008,
   url('asymptotics-icml2008.pdf'),
   slidesurl('asymptotics-icml2008-talk.pdf'),
-  note('Best student paper award.'),
+  note('Best student paper.'),
   abstract('Statistical and computational concerns have motivated parameter estimators based on various forms of likelihood, e.g., joint, conditional, and pseudolikelihood.  In this paper, we present a unified framework for studying these estimators, which allows us to compare their relative (statistical) efficiencies.  Our asymptotic analysis suggests that modeling more of the data tends to reduce variance, but at the cost of being more sensitive to model misspecification.  We present experiments validating our analysis.'),
   punchlines('Derive general expression for the asymptotic risk of composite likelihood estimators in exponential families.',
              'This allows us to compare the various estimators.'),
@@ -4194,15 +4194,35 @@ nil)
 entry!('liang2014semantics',
   author('Percy Liang and Christopher Potts'),
   title('Bringing machine learning and compositional semantics together'),
-  article('Annual Reviews of Linguistics (submitted)', 2014, 0),
+  article('Annual Reviews of Linguistics (to appear)', 2014, 0),
   url('http://www.stanford.edu/~cgpotts/manuscripts/liang-potts-semantics.pdf'),
   tags('semantic parsing'),
+nil)
+
+entry!('berant2014paraphrasing',
+  author('Jonathan Berant and Percy Liang'),
+  title('Semantic Parsing via Paraphrasing'),
+  acl(2014),
+  url('paraphrasing-acl2014.pdf'),
+  note('Best long paper honorable mention.'),
+  project('http://www-nlp.stanford.edu/software/sempre/'),
+  tags('semantic parsing'),
+nil)
+
+entry!('pasupat2014extraction',
+  author('Panupong Pasupat and Percy Liang'),
+  title('Zero-shot Entity Extraction from Web Pages'),
+  acl(2014),
+  url('extraction-acl2014.pdf'),
+  slidesurl('extraction-acl2014-talk.pdf'),
+  project('http://www-nlp.stanford.edu/software/web-entity-extractor-ACL2014/'),
 nil)
 
 entry!('chaganty2014graphical',
   author('Arun Chaganty and Percy Liang'),
   title('Estimating Latent-Variable Graphical Models using Moments and Likelihoods'),
   url('graphical-icml2014.pdf'),
+  slidesurl('graphical-icml2014-talk.pdf'),
   icml(2014),
   tags('spectral'),
 nil)
@@ -4214,21 +4234,12 @@ entry!('steinhardt2014eg',
   icml(2014),
 nil)
 
-entry!('berant2014paraphrasing',
-  author('Jonathan Berant and Percy Liang'),
-  title('Semantic Parsing via Paraphrasing'),
-  acl(2014),
-  url('paraphrasing-acl2014.pdf'),
-  project('http://www-nlp.stanford.edu/software/sempre/'),
-  tags('semantic parsing'),
-nil)
-
-entry!('pasupat2014extraction',
-  author('Panupong Pasupat and Percy Liang'),
-  title('Zero-shot Entity Extraction from Web Pages'),
-  acl(2014),
-  url('extraction-acl2014.pdf'),
-  project('http://www-nlp.stanford.edu/software/web-entity-extractor-ACL2014/'),
+entry!('steinhardt2014filtering',
+  author('Jacob Steinhardt and Percy Liang'),
+  title('Filtering with Abstract Particles'),
+  icml(2014),
+  url('filtering-icml2014.pdf'),
+  supplementalurl('filtering-icml2014-appendix.pdf'),
 nil)
 
 entry!('wang2014iqp',
@@ -4236,14 +4247,6 @@ entry!('wang2014iqp',
   title('Relaxations for inference in restricted {B}oltzmann machines'),
   iclr(2014),
   url('http://arxiv.org/pdf/1312.6205.pdf'),
-nil)
-
-entry!('steinhardt2014filtering',
-  author('Jacob Steinhardt and Percy Liang'),
-  title('Filtering with Abstract Particles'),
-  icml(2014),
-  url('filtering-icml2014.pdf'),
-  supplementalurl('filtering-icml2014-appendix.pdf'),
 nil)
 
 entry!('ghahramani1999variational',
@@ -4964,4 +4967,12 @@ entry!('comon2009tensor',
   number('7-8'),
   title('Tensor decompositions, alternating least squares and other tales'),
   author('Pierre Comon and Xavier Luciani and Andr{\'e} LF De Almeida'),
+nil)
+
+entry!('ramanathan2014linking',
+  eccv(2014),
+  title('Linking people with "their" names using coreference resolution'),
+  author('Vignesh Ramanathan and Armand Joulin and Percy Liang and Li Fei-Fei'),
+  url('linking-eccv2014.pdf'),
+  supplementalurl('linking-eccv2014-supp.pdf'),
 nil)
