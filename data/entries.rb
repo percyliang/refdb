@@ -4469,6 +4469,12 @@ entry!('khot08approximate',
   author('S. Khot and A. Naor'),
 nil)
 
+entry!('khot10sharp',
+  soda(2010),
+  title('Sharp kernel clustering algorithms and their associated Grothendieck inequalities'),
+  author('S. Khot and A. Naor'),
+nil)
+
 entry!('goemans1995improved',
   article('Journal of the ACM (JACM)', 1995, 42, 6),
   title('Improved approximation algorithms for maximum cut and satisfiability problems using semidefinite programming'),
@@ -4566,6 +4572,14 @@ entry!('alfakih98embeddability',
   techreport('University of Waterloo', 1998),
   title('On the embeddability of weighted graphs in Euclidean spaces'),
   author('A. Afakih and H. Wolkowicz'),
+nil)
+
+entry!('pisier12grothendieck',
+  article('Bulletin of the American Mathematical Society', 2012, 49),
+  title('Grothendieck\'s Theorem, past and present'),
+  author('G. Pisier'),
+  publisher('AMS'),
+  pages(237, 323),
 nil)
 
 entry!('riedel2012parse',
