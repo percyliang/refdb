@@ -4996,3 +4996,10 @@ entry!('ross2011reduction',
   title('A reduction of imitation learning and structured prediction to no-regret online learning'),
   author('St{\'e}phane Ross and Geoffrey Gordon and Andrew Bagnell'),
 nil)
+
+entry!('goldberg2013training',
+  tacl(2013,1),
+  title('Training Deterministic Parsers with Non-Deterministic Oracles'),
+  author('Yoav Goldberg and Joakim Nivre'),
+nil)
+
