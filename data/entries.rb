@@ -4990,3 +4990,9 @@ entry!('ramanathan2014linking',
   url('linking-eccv2014.pdf'),
   supplementalurl('linking-eccv2014-supp.pdf'),
 nil)
+
+entry!('ross2011reduction',
+  aistats(2011),
+  title('A reduction of imitation learning and structured prediction to no-regret online learning'),
+  author('Ross, St{\'e}phane and Gordon, Geoffrey J and Bagnell, J Andrew'),
+nil)
