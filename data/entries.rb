@@ -4423,4 +4423,111 @@ entry!('blum1954multidimensional',
 	number(4),
 	pages(737,744),
 nil)
-	
+
+# Tensor decomposition
+
+entry!('cardoso1996joint',
+	author('Jean-Fraçois Cardoso and Antoine Souloumiac'),
+	title('Jacobi angles for simultaneous diagonalization'),
+  article('SIAM Journal on Matrix Analysis and Applications', 1996, 17),
+  number(1),
+  pages(161,164),
+nil)
+
+entry!('afsari2008sensitivity',
+	author('Bijan Afsari'),
+	title('Sensitivity analysis for the problem of matrix joint diagonalization'),
+  article('SIAM Journal on Matrix Analysis and Applications', 2008, 30),
+  number(3),
+  pages(1148,1171),
+nil)
+
+
+entry!('cardoso1994perturbation',
+	author('Jean-Fra\\\c{c}ois Cardoso'),
+	title('Perturbation of Joint Diagonalizers'),
+  techreport("T\\\'{e}l\\\'{e}com Paris", 1994),
+ tags('tensors'),
+nil)
+
+entry!('laurent2000adaptive',
+  author("B. Laurent and P. Massart"),
+  title("Adaptive estimation of a quadratic functional by model
+			 selection"),
+  annalsOfStatistics(2000, 28), 
+  number(5),
+  pages(1302, 1338),
+) 
+
+entry!('acar2009unsupervised',
+  title('Unsupervised multiway data analysis: A literature survey'),
+  author('Acar, Evrim and Yener, B{\"u}lent'),
+  article('Knowledge and Data Engineering, IEEE Transactions on', 2009, 21),
+  number(1),
+  pages(6,20),
+ tags('tensors'),
+)
+
+entry!('bader2008discussion',
+  title('Discussion tracking in Enron email using {PARAFAC}'),
+  author('Bader, Brett W and Berry, Michael W and Browne, Murray'),
+  article('Survey of Text Mining II', 2008, 1),
+  pages(147,163),
+ tags('tensors'),
+)
+
+entry!('de2001independent',
+  title('Independent component analysis and (simultaneous) third-order tensor diagonalization'),
+  author('De Lathauwer, Lieven and De Moor, Bart and Vandewalle, Joos'),
+  article('Signal Processing, IEEE Transactions on', 2001, 49),
+  number(10),
+  pages(2262,2271),
+ tags('tensors'),
+)
+
+entry!('vasilescu2005multilinear',
+  title('Multilinear independent components analysis'),
+  author('Vasilescu, M Alex O and Terzopoulos, Demetri'),
+  cvpr(2005),
+  volume(1),
+  pages(547,553),
+ tags('tensors'),
+)
+
+entry!('beckmann2005tensorial',
+title("Tensorial extensions of independent component analysis for multisubject \{FMRI\} analysis "),
+author("C.F. Beckmann and S.M. Smith"),
+article('NeuroImage', 2005, 25),
+number(1),
+pages(294,311),
+ tags('tensors'),
+)
+
+entry!('hastad1990tensor',
+title("Tensor rank is {NP}-complete"),
+article("Journal of Algorithms ", 1990, 11),
+number("4"),
+url("http://www.sciencedirect.com/science/article/pii/0196677490900146"),
+author("Johan H\o{a}stad"),
+ tags('tensors'),
+)
+
+entry!('souloumiac2009joint',
+author('Souloumiac, A.'),
+inproceedings('Computational Advances in Multi-Sensor Adaptive Processing', 2009),
+title('Joint diagonalization: Is non-orthogonal always preferable to orthogonal?'),
+pages(305,308),
+)
+
+
+entry!('delathauwer2006decomposition',
+ author('De Lathauwer, Lieven'),
+ title('A Link Between the Canonical Decomposition in Multilinear Algebra and Simultaneous Matrix Diagonalization'),
+ article('SIAM Journal of Matrix Analysis and Applications', 2006, 28),
+ number(3),
+ pages(642,666),
+ url('http://dx.doi.org/10.1137/040608830'),
+ tags('tensors'),
+) 
+
+
