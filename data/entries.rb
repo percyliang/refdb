@@ -4994,5 +4994,5 @@ nil)
 entry!('ross2011reduction',
   aistats(2011),
   title('A reduction of imitation learning and structured prediction to no-regret online learning'),
-  author('Ross, St{\'e}phane and Gordon, Geoffrey J and Bagnell, J Andrew'),
+  author('St{\'e}phane Ross and Geoffrey Gordon and Andrew Bagnell'),
 nil)
