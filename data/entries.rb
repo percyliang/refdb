@@ -5003,3 +5003,9 @@ entry!('goldberg2013training',
   author('Yoav Goldberg and Joakim Nivre'),
 nil)
 
+entry!('auli2011efficient',
+  acl(2011),
+  title('Efficient {CCG} parsing: A* versus adaptive supertagging'),
+  author('Miachel Auli and Adam Lopez'),
+nil)
+
