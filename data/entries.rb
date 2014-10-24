@@ -5009,3 +5009,10 @@ entry!('auli2011efficient',
   author('Miachel Auli and Adam Lopez'),
 nil)
 
+entry!('manning2014stanford',
+  title('The Stanford Core{NLP} natural language processing toolkit'),
+  inproceedings('ACL system demonstrations',2014),
+  author('Christopher D. Manning and Mihai Surdeanu and John Bauer and Jenny Finkel and Steven J. Bethard and Davic McClosky'),
+nil)
+
+
