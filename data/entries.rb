@@ -5015,4 +5015,20 @@ entry!('manning2014stanford',
   author('Christopher D. Manning and Mihai Surdeanu and John Bauer and Jenny Finkel and Steven J. Bethard and Davic McClosky'),
 nil)
 
+entry!('yao2014ie',
+  acl(2014),
+  title('Information extraction over structured data: Question answering with {F}reebase'),
+  author('Xuchen Yao and Benjamin Van Durme'),
+nil)
 
+entry!('bordes2014qa',
+  emnlp(2014),
+  title('Question Answering with Subgraph Embeddings'),
+  author('Antoine Bordes and Sumit Chopra and Jason Weston'),
+nil)
+
+entry!('chen2014nndep',
+  emnlp(2014),
+  title('A Fast and Accurate Dependency Parser using Neural Networks'),
+  author('Danqi Chen and Christopher D. Manning'),
+nil)
