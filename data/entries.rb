@@ -4390,6 +4390,12 @@ entry!('bunse1993numerical',
   title('Numerical methods for simultaneous diagonalization'),
 nil)
 
+entry!('bao2014qa',
+  acl(2014),
+  title('Knowledge-based Question Answering as Machine Translation'),
+  author('J. Bao and Nan Duan and Ming Zhou and Tiejun Zhao'),
+nil)
+
 entry!('chandrasekaran2013computational',
   article('Proceedings of the National Academy of Sciences', 2013, 110),
   author('Venkat Chandrasekaran and Michael I Jordan'),
@@ -5059,4 +5065,46 @@ entry!('ramanathan2014linking',
   author('Vignesh Ramanathan and Armand Joulin and Percy Liang and Li Fei-Fei'),
   url('linking-eccv2014.pdf'),
   supplementalurl('linking-eccv2014-supp.pdf'),
+nil)
+
+entry!('ross2011reduction',
+  aistats(2011),
+  title('A reduction of imitation learning and structured prediction to no-regret online learning'),
+  author('St{\'e}phane Ross and Geoffrey Gordon and Andrew Bagnell'),
+nil)
+
+entry!('goldberg2013training',
+  tacl(2013,1),
+  title('Training Deterministic Parsers with Non-Deterministic Oracles'),
+  author('Yoav Goldberg and Joakim Nivre'),
+nil)
+
+entry!('auli2011efficient',
+  acl(2011),
+  title('Efficient {CCG} parsing: A* versus adaptive supertagging'),
+  author('Miachel Auli and Adam Lopez'),
+nil)
+
+entry!('manning2014stanford',
+  title('The Stanford Core{NLP} natural language processing toolkit'),
+  inproceedings('ACL system demonstrations',2014),
+  author('Christopher D. Manning and Mihai Surdeanu and John Bauer and Jenny Finkel and Steven J. Bethard and Davic McClosky'),
+nil)
+
+entry!('yao2014ie',
+  acl(2014),
+  title('Information extraction over structured data: Question answering with {F}reebase'),
+  author('Xuchen Yao and Benjamin Van Durme'),
+nil)
+
+entry!('bordes2014qa',
+  emnlp(2014),
+  title('Question Answering with Subgraph Embeddings'),
+  author('Antoine Bordes and Sumit Chopra and Jason Weston'),
+nil)
+
+entry!('chen2014nndep',
+  emnlp(2014),
+  title('A Fast and Accurate Dependency Parser using Neural Networks'),
+  author('Danqi Chen and Christopher D. Manning'),
 nil)
