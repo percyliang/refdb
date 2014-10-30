@@ -5032,3 +5032,29 @@ entry!('chen2014nndep',
   title('A Fast and Accurate Dependency Parser using Neural Networks'),
   author('Danqi Chen and Christopher D. Manning'),
 nil)
+
+entry!('kay86algorithm',
+  author('Martin Kay'),
+  title('Algorithm Schemata and Data Structures in Syntactic Processing'),
+  book('Readings in Natural Language Processing',1986),
+  pages(35,70),
+nil)
+
+entry!('caraballo1998new',
+  title('New figures of merit for best-first probabilistic chart parsing'),
+  author('Sharon A. Caraballo and Eugene Charniak'),
+  article('Computational Linguistics', 1998, 24),
+  pages(275,298),
+nil)
+
+entry!('sutton1999policy',
+  title('Policy gradient methods for reinforcement learning with function approximation'),
+  author('Richard Sutton and David McAllester and Satinder Singh and Yishai Mansour'),
+  nips(1999),
+nil)
+
+entry!('yang2014joint',
+  emnlp(2014),
+  title('Joint Relational Embeddings for Knowledge-based Question Answering'),
+  author('Min-Chul Yang and Nan Duan and Ming Zhou and Hae-Chang Rim'),
+nil)
