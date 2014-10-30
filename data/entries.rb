@@ -51,6 +51,18 @@ entry!('escobar95mixture',
   jasa(1995, 90), pages(577, 588),
 nil)
 
+entry!('bergstra12hyper',
+  author('James Bergstra and Yoshua Bengio'),
+  title('Random Search for Hyper-Parameter Optimization'),
+  jmlr(2012, 13), pages(281, 305),
+nil)
+
+entry!('snoek12hyper',
+  author('Jasper Snoek and Hugo Larochelle and Ryan P. Adams'),
+  title('Practical {B}ayesian Optimization of Machine Learning Algorithms'),
+  nips(2012),
+nil)
+
 entry!('west95hyper',
   author('M. West'),
   title('Hyperparameter estimation in {D}irichlet process mixture models'),
@@ -1879,10 +1891,59 @@ entry!('solar05sketching',
   pldi(2005),
 nil)
 
+entry!('crammer06passive',
+  title('Online Passive-Aggressive Algorithms'),
+  author('Koby Crammer and Ofer Dekel and Joseph Keshet and Shai Shalev-Shwartz and Yoram Singer'),
+  jmlr(2006, 7), pages(551, 585),
+nil)
+
+entry!('strohmer09kaczmarz',
+  author('Thomas Strohmer and Roman Vershynin'),
+  title('A randomized Kaczmarz algorithm with exponential convergence'),
+  article('Journal of Fourier Analysis and Applications', 2009, 15), pages(262, 278),
+nil)
+
 entry!('srebro10stochastic',
   title('Stochastic optimization and online learning with smooth loss functions'),
   author('Nati Srebro and Karthik Sridharan and Ambuj Tewari'),
   techreport('TTI Chicago', 2010),
+nil)
+
+entry!('srebro10tutorial',
+  author('Nati Srebro and Ambuj Tewari'),
+  title('Stochastic optimization for machine learning (tutorial)'),
+  icml(2010),
+  url('http://ttic.uchicago.edu/~nati/Publications/ICML10tut.pdf'),
+nil)
+
+entry!('hazan11beyond',
+  title('Beyond the regret minimization barrier: an optimal algorithm for stochastic strongly-convex optimization'),
+  author('Elad Hazan and Satyen Kale'),
+  colt(2011),
+nil)
+
+entry!('rakhlin12making',
+  title('Making Gradient Descent Optimal for Strongly Convex Stochastic Optimization'),
+  author('Alexander Rakhlin and Ohad Shamir and Karthik Sridharan'),
+  icml(2012),
+nil)
+
+entry!('shalev13stochastic',
+  title('Stochastic Dual Coordinate Ascent Methods for Regularized Loss Minimization'),
+  author('Shai Shalev-Shwartz and Tong Zhang'),
+  jmlr(2013, 14), pages(567, 599),
+nil)
+
+entry!('lee13coordinate',
+  title('Efficient Accelerated Coordinate Descent Methods and Faster Algorithms for Solving Linear Systems'),
+  author('Yin Tat Lee and Aaron Sidford'),
+  focs(2013),
+nil)
+
+entry!('orabona14simultaneous',
+  title('Simultaneous Model Selection and Optimization through Parameter-free Stochastic Learning'),
+  author('Francesco Orabona'),
+  nips(2014),
 nil)
 
 entry!('mansinghka09thesis',
@@ -4242,11 +4303,24 @@ entry!('steinhardt2014filtering',
   supplementalurl('filtering-icml2014-appendix.pdf'),
 nil)
 
+entry!('frostig2014subconstant',
+  author('Roy Frostig and Sida Wang'),
+  title('A sub-constant improvement in approximating the positive semidefinite {G}rothendieck problem'),
+  arxiv(2014),
+  url('http://arxiv.org/abs/1408.2270'),
+nil)
+
+entry!('frostig2014lowrank',
+  title('Simple {MAP} inference via low-rank relaxations'),
+  author('Roy Frostig and Sida Wang and Percy Liang and Chris Manning'),
+  nips(2014),
+nil)
+
 entry!('wang2014iqp',
   author('Sida Wang and Roy Frostig and Percy Liang and Chris Manning'),
   title('Relaxations for inference in restricted {B}oltzmann machines'),
   iclr(2014),
-  url('http://arxiv.org/pdf/1312.6205.pdf'),
+  url('http://arxiv.org/abs/1312.6205'),
 nil)
 
 entry!('ghahramani1999variational',
@@ -4463,7 +4537,7 @@ nil)
 entry!('alon2006approximating',
   article('SIAM Journal on Computing', 2006, 35),
   number(4),
-  title('Approximating the cut-norm via Grothendieck\'s inequality'),
+  title('Approximating the cut-norm via {G}rothendieck\'s inequality'),
   author('N. Alon and A. Naor'),
   publisher('SIAM'),
   pages(787, 803),
@@ -4477,7 +4551,7 @@ nil)
 
 entry!('khot10sharp',
   soda(2010),
-  title('Sharp kernel clustering algorithms and their associated Grothendieck inequalities'),
+  title('Sharp kernel clustering algorithms and their associated {G}rothendieck inequalities'),
   author('S. Khot and A. Naor'),
 nil)
 
@@ -4508,7 +4582,9 @@ nil)
 entry!('burer01anonlinear',
   title('A Nonlinear Programming Algorithm for Solving Semidefinite Programs via Low-rank Factorization'),
   author('S. Burer and R. Monteiro'),
-  article('Mathematical Programming (series B)', 2001, 95),
+  article('Mathematical Programming', 2001, 95, 2),
+  publisher('Springer'),
+  pages(329, 357),
 nil)
 
 entry!('burer2005local',
@@ -4582,7 +4658,7 @@ nil)
 
 entry!('pisier12grothendieck',
   article('Bulletin of the American Mathematical Society', 2012, 49),
-  title('Grothendieck\'s Theorem, past and present'),
+  title('{G}rothendieck\'s Theorem, past and present'),
   author('G. Pisier'),
   publisher('AMS'),
   pages(237, 323),
@@ -4622,7 +4698,7 @@ nil)
 entry!('recht2013parallel',
   article('Mathematical Programming Computation', 2013, 5),
   title('Parallel stochastic gradient algorithms for large-scale matrix completion'),
-  author('B. Recht and C. R{\'e}'),
+  author('B. Recht and C. R{\\\'e}'),
   publisher('Springer'),
   pages(1, 26),
 nil)
