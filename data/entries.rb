@@ -5153,3 +5153,8 @@ entry!('jiang2012learned',
   title('Learned prioritization for trading off accuracy and speed'),
 nil)
 
+entry!('huang2008forest',
+  author('Liang Huang'),
+  acl(2008),
+  title('Forest reranking: Discriminative parsing with non-local features'),
+nil)
