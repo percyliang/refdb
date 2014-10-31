@@ -5134,3 +5134,22 @@ entry!('yang2014joint',
   title('Joint Relational Embeddings for Knowledge-based Question Answering'),
   author('Min-Chul Yang and Nan Duan and Ming Zhou and Hae-Chang Rim'),
 nil)
+
+entry!('abbeel2004apprenticeship',
+  icml(2004),
+  title('Apprenticeship learning via inverse reinforcement learning'),
+  author('Pieter Abbeel and Andrew Ng'),
+nil)
+
+entry!('vlachos2012investigation',
+  inproceedings('European Workshop on Reinforcement Learning',2012),
+  author('Andreas Vlachos'),
+  title('An Investigation of Imitation Learning Algorithms for Structured Prediction'),
+nil)
+
+entry!('jiang2012learned',
+  nips(2012),
+  author('Jiarong Jiang and Adam Teichert and Jason Eisner and Hal Daume'),
+  title('Learned prioritization for trading off accuracy and speed'),
+nil)
+
