@@ -5158,3 +5158,21 @@ entry!('huang2008forest',
   acl(2008),
   title('Forest reranking: Discriminative parsing with non-local features'),
 nil)
+
+entry!('rush2012vine',
+  author('Alexander Rush and Slav Petrov'),
+  hltnaacl(2012),
+  title('Vine pruning for efficient multi-pass dependency parsing'),
+nil)
+
+entry!('lewis2014ccg',
+  emnlp(2014),
+  author('Mike Lewis and Mark Steedman'),
+  title('A* {CCG} Parsing with a Supertag-factored Model'),
+nil)
+
+entry!('kummerfeld2010faster',
+  title('Faster parsing by supertagger adaptation'),
+  author('Jonathan Kummerfeld and Jessika Roesner and Tim Dawborn and James Haggerty and James Curran and Stephen Clark'),
+  acl(2010),
+nil)
