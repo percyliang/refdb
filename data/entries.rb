@@ -4310,10 +4310,18 @@ entry!('frostig2014subconstant',
   url('http://arxiv.org/abs/1408.2270'),
 nil)
 
+entry!('wager2014',
+  title('Altitude Training: Strong Bounds for Single-Layer Dropout'),
+  author('Stefan Wager and Will Fithian and Sida Wang and Percy Liang'),
+  nips(2014),
+  url('http://arxiv.org/pdf/1407.3289.pdf'),
+nil)
+
 entry!('frostig2014lowrank',
   title('Simple {MAP} inference via low-rank relaxations'),
   author('Roy Frostig and Sida Wang and Percy Liang and Chris Manning'),
   nips(2014),
+  url('http://papers.nips.cc/paper/5582-altitude-training-strong-bounds-for-single-layer-dropout.pdf'),
 nil)
 
 entry!('wang2014iqp',
@@ -5175,4 +5183,64 @@ entry!('kummerfeld2010faster',
   title('Faster parsing by supertagger adaptation'),
   author('Jonathan Kummerfeld and Jessika Roesner and Tim Dawborn and James Haggerty and James Curran and Stephen Clark'),
   acl(2010),
+nil)
+
+entry!('richardson2013mctest',
+  emnlp(2013),
+  pages(193, 203),
+  title('MCTest: A Challenge Dataset for the Open-Domain Machine Comprehension of Text'),
+  author('Matthew Richardson and Christopher JC Burges and Erin Renshaw'),
+nil)
+
+entry!('brill2002askmsr',
+  acl(2002),
+  author('Eric Brill and Susan Dumais and Michele Banko'),
+  title('An analysis of the AskMSR question-answering system'),
+  pages(257, 264),
+nil)
+
+entry!('moldovan2002lcc',
+  inproceedings('TREC', 2002),
+  author('Dan I Moldovan and Sanda M Harabagiu and Roxana Girju and Paul Morarescu and V Finley Lacatusu and Adrian Novischi and Adriana Badulescu and Orest Bolohan'),
+  title('{LCC} Tools for Question Answering'),
+nil)
+
+entry!('cui2005dependency',
+  sigir(2005),
+  pages(400, 407),
+  title('Question answering passage retrieval using dependency relations'),
+  author('Hang Cui and Renxu Sun and Keya Li and Min-Yen Kan and Tat-Seng Chua'),
+nil)
+
+entry!('scaria2013biological',
+  emnlp(2013),
+  author('Aju Thalappillil Scaria and Jonathan Berant and Mengqiu Wang and Christopher D Manning and Justin Lewis and Brittany Harding and Peter Clark'),
+  title('Learning biological processes with global constraints'),
+nil)
+
+entry!('berant2014biological',
+  emnlp(2014),
+  author('Jonathan Berant and Vivek Srikumar and Pei-Chun Chen and Brad Huang and Christopher D Manning and Abby Vander Linden and Brittany Harding'),
+  title('Modeling Biological Processes for Reading Comprehension'),
+nil)
+
+entry!('lao2012rules',
+  emnlpconll(2012),
+  author('Ni Lao and Amarnag Subramanya and Fernando Pereira and William W Cohen'),
+  pages(1017, 1026),
+  title('Reading the web with learned syntactic-semantic inference rules'),
+nil)
+
+entry!('kushman2014algebra',
+  acl(2014),
+  author('Nate Kushman and Yoav Artzi and Luke Zettlemoyer and Regina Barzilay'),
+  title('Learning to Automatically Solve Algebra Word Problems'),
+nil)
+
+entry!('reddy2014large',
+  tacl(2014, 2),
+  number(10),
+  pages(377, 392),
+  author('Siva Reddy and Mirella Lapata and Mark Steedman'),
+  title('Large-scale Semantic Parsing without Question-Answer Pairs'),
 nil)
