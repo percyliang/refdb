@@ -1940,6 +1940,12 @@ entry!('lee13coordinate',
   focs(2013),
 nil)
 
+entry!('johnson13svrg',
+  title('Accelerating Stochastic Gradient Descent using Predictive Variance Reduction'),
+  author('Rie Johnson and Tong Zhang'),
+  nips(2013),
+nil)
+
 entry!('orabona14simultaneous',
   title('Simultaneous Model Selection and Optimization through Parameter-free Stochastic Learning'),
   author('Francesco Orabona'),
