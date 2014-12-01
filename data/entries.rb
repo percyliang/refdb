@@ -4327,7 +4327,7 @@ entry!('frostig2014lowrank',
   title('Simple {MAP} inference via low-rank relaxations'),
   author('Roy Frostig and Sida Wang and Percy Liang and Chris Manning'),
   nips(2014),
-  url('http://papers.nips.cc/paper/5582-altitude-training-strong-bounds-for-single-layer-dropout.pdf'),
+  url('http://cs.stanford.edu/~rfrostig/pubs/lowrank-nips2014.pdf'),
 nil)
 
 entry!('wang2014iqp',
