@@ -3998,6 +3998,7 @@ entry!('liang05meng',
   title('Semi-Supervised Learning for Natural Language'),
   mastersthesis('Massachusetts Institute of Technology', 2005),
   url('meng-thesis.pdf'),
+  errataurl('meng-thesis-errata.pdf'),
   punchlines('Task: named-entity recognition and Chinese word segmentation',
             'Idea: create features based on unlabeled data '+
             'to use in Perceptron learning in Markov or semi-Markov models'),
