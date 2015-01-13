@@ -5251,3 +5251,22 @@ entry!('reddy2014large',
   author('Siva Reddy and Mirella Lapata and Mark Steedman'),
   title('Large-scale Semantic Parsing without Question-Answer Pairs'),
 nil)
+
+entry!('shi2015sample',
+  aistats(2015),
+  author('Tianlin Shi and Jacob Steinhardt and Percy Liang'),
+  title('Learning to Sample in Structured Prediction'),
+nil)
+
+entry!('kuleshov2015tensor',
+  aistats(2015),
+  author('Volodymyr Kuleshov and Arun Chaganty and Percy Liang'),
+  title('Tensor factorization via random projection and simultaneous matrix diagonalization'),
+nil)
+
+entry!('steinhardt2014sparse',
+  arxiv(2014),
+  author('Jacob Steinhardt and Stefan Wager and Percy Liang'),
+  title('The Statistics of Streaming Sparse Regression'),
+  url('http://arxiv.org/pdf/1412.4182.pdf'),
+nil)
