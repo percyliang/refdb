@@ -4259,10 +4259,11 @@ entry!('jaeger2000observable',
   tags('spectral'),
 nil)
 
-entry!('liang2014semantics',
+entry!('liang2015semantics',
   author('Percy Liang and Christopher Potts'),
   title('Bringing machine learning and compositional semantics together'),
-  article('Annual Reviews of Linguistics (to appear)', 2014, 0),
+  article('Annual Reviews of Linguistics', 2015, 1, 1),
+  pages(355, 376),
   url('http://www.stanford.edu/~cgpotts/manuscripts/liang-potts-semantics.pdf'),
   tags('semantic parsing'),
 nil)
