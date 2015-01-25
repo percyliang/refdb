@@ -5331,3 +5331,18 @@ entry!('steinhardt2014sparse',
   title('The Statistics of Streaming Sparse Regression'),
   url('http://arxiv.org/pdf/1412.4182.pdf'),
 nil)
+
+entry!('hillar2013tensor',
+  jacm(2013, 60),
+  author('Christopher J Hillar and Lek-Heng Lim'),
+  title('Most Tensor Problems Are {NP-Hard}'),
+nil)
+
+entry!('desilva2008tensor',
+  title('Tensor Rank and the {Ill-Posedness} of the Best {Low-Rank} Approximation Problem'),
+  author('de Silva, V and Lim, L'),
+  article('SIAM Journal on Matrix Analysis and Applications', 2008, 30),
+  pages(1084, 1127),
+nil)
+
+

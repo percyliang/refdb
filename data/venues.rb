@@ -12,6 +12,7 @@ def jmlr(year, volume);                article(Name.new('Journal of Machine Lear
 def pami(year, volume);                article(Name.new('IEEE Transactions on Pattern Analysis and Machine Intelligence', 'PAMI'), year, volume) end
 def tacl(year, volume);                article(Name.new('Transactions of the Association for Computational Linguistics', 'TACL'), year, volume) end
 def jair(year, volume);                article(Name.new('Journal of Artificial Intelligence Research', 'JAIR'), year, volume) end
+def jacm(year, volume);                article(Name.new('Journal of the ACM', 'JACM'), year, volume) end
 
 def computationalLinguistics(year, volume); article('Computational Linguistics', year, volume) end
 def machineLearning(year, volume); article('Machine Learning', year, volume) end
