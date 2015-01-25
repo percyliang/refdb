@@ -193,6 +193,7 @@ class Entry
                displayLink('techreport', getFirst('techreporturl')),
                displayLink('thesis', getFirst('thesisurl')),
                displayLink('journal', getFirst('journalurl')),
+               displayLink('errata', getFirst('errataurl')),
                displayLink('slides', getFirst('slidesurl')),
                displayLink('poster', getFirst('posterurl')),
                displayLink('code', getFirst('code')),
@@ -296,6 +297,7 @@ def thesisurl(x);       field('thesisurl', x)       end
 def journalurl(x);      field('journalurl', x)      end
 def techreporturl(x);   field('techreporturl', x)   end
 def supplementalurl(x); field('supplementalurl', x) end
+def errataurl(x);       field('errataurl', x)       end
 def code(x);            field('code', x)            end
 def data(x);            field('data', x)            end
 def project(x);         field('project', x)         end
