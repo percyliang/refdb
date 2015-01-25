@@ -18,6 +18,10 @@ outPath = '/dev/stdout'
 
 # Select entries
 entries = $entries
+title = 'References'
+byYear = true
+listOnly = false
+style = 'main.css'
 ARGV.each { |arg|
   if arg =~ /^author=(.+)$/
     entries = matchEntries(entries, 'author', $1)
@@ -29,6 +33,14 @@ ARGV.each { |arg|
     entries = searchEntries(entries, $1)
   elsif arg =~ /^out=(.+)$/
     outPath = $1
+  elsif arg =~ /^title=(.+)$/
+    title = $1
+  elsif arg =~ /^byYear=(.+)$/
+    byYear = ($1 =~ /true/i) ? true : false
+  elsif arg =~ /^listOnly=(.+)$/
+    listOnly = ($1 =~ /true/i) ? true : false
+  elsif arg =~ /^style=(.+)$/
+    style = $1
   else
     raise "Unknown argument: #{arg}"
   end
@@ -44,7 +56,17 @@ case command
     printText(entries, false, outPath)
   when 'html' then
     entries = notMatchEntries(entries, 'extendedVersion', true)  # Don't display everything
-    printHTMLPage(makeYearList(entries), "References", File.exists?('footer.html') ? IO.read('footer.html') : nil, outPath)
+    entries = makeYearList(entries)
+    if !byYear
+      entries.map! { |year,entries| entries }
+      entries.flatten!(1)
+      entries = [[nil, entries]]
+    end
+    if !listOnly
+      printHTMLPage(entries, title, File.exists?('footer.html') ? IO.read('footer.html') : nil, style, outPath)
+    else
+      printHTMLPage(entries, nil, nil, nil, outPath)
+    end
   else
     raise "Invalid command: #{command}"
 end

@@ -3,3 +3,5 @@ a:visited {text-decoration: none}
 a:active {text-decoration: none}
 a:hover {text-decoration: none; color: red}
 html {font-family: Arial}
+li {margin-bottom: 1em}
+.authorName {color: 5b2503}

@@ -148,7 +148,7 @@ class Entry
   end
 
   def toHTML(id)
-    authorColor = "5b2503"
+    authorClass = "authorName"
     def link(text, url); url ? "<a href=\"#{url}\">#{text}</a>" : text end
     def it(text); "<i>#{text}</i>" end
     def bold(text); "<b>#{text}</b>" end
@@ -171,6 +171,7 @@ class Entry
     def displayPL(text); size("[#{text}]", -1) end
     def size(text, size); "<font size=\"#{size}\">#{text}</font>" end
     def color(text, color); "<font color=\"#{color}\">#{text}</font>" end
+    def spanClass(text, className); "<span class=\"#{className}\">#{text}</span>" end
 
     url = getFirst('url') || getFirst('url') || getFirst('slidesurl') || getFirst('posterurl')
     output = []
@@ -178,8 +179,8 @@ class Entry
     output << author.names.map { |name|
       l = $links[name]
       #$stderr.puts "No author link for #{name}" unless l
-      link(color(latexToHTML(name), authorColor), l)
-    }.join(', ')+'.<br>'
+      link(spanClass(latexToHTML(name), authorClass), l)
+    }.join(', ') + '.' + '<br>'
     output << "#{metaTitle ? it(metaTitle.to_full_s + (type == 'techreport' ? ' Technical Report' : '')+', ') : ''}#{year}. #{note}<br>"
     output << hiddenText("abstract#{id}", formatLines(get('abstract')))
     output << hiddenText("brief#{id}", formatLines(get('punchlines')))
@@ -199,7 +200,7 @@ class Entry
                displayLink('project', getFirst('project')),
                displayLink('demo', getFirst('demo')),
               nil].compact.join(' ')+"<br>"
-    output << "<div id=\"div#{id}\"></div><br>"
+    output << "<div id=\"div#{id}\"></div>"
     output.join("\n")
   end
 
@@ -480,7 +481,7 @@ end
 def printHTML(entriesList, out)
   id = 0
   entriesList.each { |heading,entries|
-    out.puts "<h3>#{heading}</h3>"
+    out.puts "<h3>#{heading}</h3>" if heading
     out.puts "<ul>"
     entries.each { |entry|
       out.puts "<li>"+entry.toHTML(id)
@@ -490,11 +491,11 @@ def printHTML(entriesList, out)
   }
 end
 
-def printHTMLPage(entriesList, title, footer, outPath)
+def printHTMLPage(entriesList, title, footer, style, outPath)
   out = open(outPath, 'w')
+  out.puts "<title>#{title}</title>" if title
+  out.puts "<link rel=\"stylesheet\" type=\"text/css\" href=\"#{style}\">" if style
   out.puts <<EOF
-<title>#{title}</title>
-<link rel="stylesheet" type="text/css" href="main.css">
 <script>
 function copy(dest, source) {
   if(dest.source == source) {
@@ -508,8 +509,8 @@ function copy(dest, source) {
   dest.blur();
 }
 </script>
-<h2>#{title}</h2>
 EOF
+  out.puts "<h2>#{title}</h2>" if title
   printHTML(entriesList, out)
   out.puts footer if footer
   out.close

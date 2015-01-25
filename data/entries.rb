@@ -3499,7 +3499,7 @@ entry!('hsu12identifiability',
   author('Daniel Hsu and Sham M. Kakade and Percy Liang'),
   title('Identifiability and Unmixing of Latent Parse Trees'),
   nips(2012),
-  abstract('This paper explores unsupervised learning of parsing models along two directions. First, which models are identifiable from infinite data? We use a general technique for numerically checking identifiability based on the rank of a Jacobian matrix, and apply it to several standard constituency and dependency parsing models. Second, for identifiable models, how do we estimate the parameters efficiently? EM suffers from local optima, while recent work using spectral methods cannot be directly applied since the topology of the parse tree varies across sentences. We develop a strategy, unmixing, which deals with this additional complexity for restricted classes of parsing models'),
+  abstract('This paper explores unsupervised learning of parsing models along two directions. First, which models are identifiable from infinite data? We use a general technique for numerically checking identifiability based on the rank of a Jacobian matrix, and apply it to several standard constituency and dependency parsing models. Second, for identifiable models, how do we estimate the parameters efficiently? EM suffers from local optima, while recent work using spectral methods cannot be directly applied since the topology of the parse tree varies across sentences. We develop a strategy, unmixing, which deals with this additional complexity for restricted classes of parsing models.'),
   url('identifiability-nips2012.pdf'),
   posterurl('identifiability-nips2012-poster.pdf'),
   techreporturl('http://arxiv.org/pdf/1206.3137.pdf'),
@@ -3530,7 +3530,7 @@ entry!('liang11dcs',
   thesisurl('dcs-thesis2011.pdf'),
   journalurl('dcs-cl2012.pdf'),
   code('../software/dcs.zip'),
-  abstract('Compositional question answering begins by mapping questions to logical forms, but training a semantic parser to perform this mapping typically requires the costly annotation of the target logical forms.  In this paper, we learn to map questions to answers via latent logical forms, which are induced automatically from question-answer pairs.  In tackling this challenging learning problem, we introduce a new semantic representation which highlights a parallel between dependency syntax and efficient evaluation of logical forms.  On two standard semantic parsing benchmarks (GEO and JOBS), our system obtains the highest published accuracies, despite using less supervision than existing systems'),
+  abstract('Compositional question answering begins by mapping questions to logical forms, but training a semantic parser to perform this mapping typically requires the costly annotation of the target logical forms.  In this paper, we learn to map questions to answers via latent logical forms, which are induced automatically from question-answer pairs.  In tackling this challenging learning problem, we introduce a new semantic representation which highlights a parallel between dependency syntax and efficient evaluation of logical forms.  On two standard semantic parsing benchmarks (GEO and JOBS), our system obtains the highest published accuracies, despite using less supervision than existing systems.'),
   punchlines('Task: learn to map questions to answers via latent logical forms.',
              'Contribution: new tree-based semantic representation.',
              'Result: surpass state-of-the-art on semantic parsing with less supervision.'),
@@ -3709,7 +3709,7 @@ entry!('liang08asymptotics',
   icml2008,
   url('asymptotics-icml2008.pdf'),
   slidesurl('asymptotics-icml2008-talk.pdf'),
-  note('Best student paper award.'),
+  note('Best student paper.'),
   abstract('Statistical and computational concerns have motivated parameter estimators based on various forms of likelihood, e.g., joint, conditional, and pseudolikelihood.  In this paper, we present a unified framework for studying these estimators, which allows us to compare their relative (statistical) efficiencies.  Our asymptotic analysis suggests that modeling more of the data tends to reduce variance, but at the cost of being more sensitive to model misspecification.  We present experiments validating our analysis.'),
   punchlines('Derive general expression for the asymptotic risk of composite likelihood estimators in exponential families.',
              'This allows us to compare the various estimators.'),
@@ -4194,15 +4194,35 @@ nil)
 entry!('liang2014semantics',
   author('Percy Liang and Christopher Potts'),
   title('Bringing machine learning and compositional semantics together'),
-  article('Annual Reviews of Linguistics (submitted)', 2014, 0),
+  article('Annual Reviews of Linguistics (to appear)', 2014, 0),
   url('http://www.stanford.edu/~cgpotts/manuscripts/liang-potts-semantics.pdf'),
   tags('semantic parsing'),
+nil)
+
+entry!('berant2014paraphrasing',
+  author('Jonathan Berant and Percy Liang'),
+  title('Semantic Parsing via Paraphrasing'),
+  acl(2014),
+  url('paraphrasing-acl2014.pdf'),
+  note('Best long paper honorable mention.'),
+  project('http://www-nlp.stanford.edu/software/sempre/'),
+  tags('semantic parsing'),
+nil)
+
+entry!('pasupat2014extraction',
+  author('Panupong Pasupat and Percy Liang'),
+  title('Zero-shot Entity Extraction from Web Pages'),
+  acl(2014),
+  url('extraction-acl2014.pdf'),
+  slidesurl('extraction-acl2014-talk.pdf'),
+  project('http://www-nlp.stanford.edu/software/web-entity-extractor-ACL2014/'),
 nil)
 
 entry!('chaganty2014graphical',
   author('Arun Chaganty and Percy Liang'),
   title('Estimating Latent-Variable Graphical Models using Moments and Likelihoods'),
   url('graphical-icml2014.pdf'),
+  slidesurl('graphical-icml2014-talk.pdf'),
   icml(2014),
   tags('spectral'),
 nil)
@@ -4214,21 +4234,12 @@ entry!('steinhardt2014eg',
   icml(2014),
 nil)
 
-entry!('berant2014paraphrasing',
-  author('Jonathan Berant and Percy Liang'),
-  title('Semantic Parsing via Paraphrasing'),
-  acl(2014),
-  url('paraphrasing-acl2014.pdf'),
-  project('http://www-nlp.stanford.edu/software/sempre/'),
-  tags('semantic parsing'),
-nil)
-
-entry!('pasupat2014extraction',
-  author('Panupong Pasupat and Percy Liang'),
-  title('Zero-shot Entity Extraction from Web Pages'),
-  acl(2014),
-  url('extraction-acl2014.pdf'),
-  project('http://www-nlp.stanford.edu/software/web-entity-extractor-ACL2014/'),
+entry!('steinhardt2014filtering',
+  author('Jacob Steinhardt and Percy Liang'),
+  title('Filtering with Abstract Particles'),
+  icml(2014),
+  url('filtering-icml2014.pdf'),
+  supplementalurl('filtering-icml2014-appendix.pdf'),
 nil)
 
 entry!('wang2014iqp',
@@ -4236,14 +4247,6 @@ entry!('wang2014iqp',
   title('Relaxations for inference in restricted {B}oltzmann machines'),
   iclr(2014),
   url('http://arxiv.org/pdf/1312.6205.pdf'),
-nil)
-
-entry!('steinhardt2014filtering',
-  author('Jacob Steinhardt and Percy Liang'),
-  title('Filtering with Abstract Particles'),
-  icml(2014),
-  url('filtering-icml2014.pdf'),
-  supplementalurl('filtering-icml2014-appendix.pdf'),
 nil)
 
 entry!('ghahramani1999variational',
@@ -4311,6 +4314,12 @@ entry!('bunse1993numerical',
   pages(927, 949),
   number(4),
   title('Numerical methods for simultaneous diagonalization'),
+nil)
+
+entry!('bao2014qa',
+  acl(2014),
+  title('Knowledge-based Question Answering as Machine Translation'),
+  author('J. Bao and Nan Duan and Ming Zhou and Tiejun Zhao'),
 nil)
 
 entry!('chandrasekaran2013computational',
@@ -4424,41 +4433,6 @@ entry!('blum1954multidimensional',
 	pages(737,744),
 nil)
 
-# Tensor decomposition
-
-entry!('cardoso1996joint',
-	author('Jean-Fraçois Cardoso and Antoine Souloumiac'),
-	title('Jacobi angles for simultaneous diagonalization'),
-  article('SIAM Journal on Matrix Analysis and Applications', 1996, 17),
-  number(1),
-  pages(161,164),
-nil)
-
-entry!('afsari2008sensitivity',
-	author('Bijan Afsari'),
-	title('Sensitivity analysis for the problem of matrix joint diagonalization'),
-  article('SIAM Journal on Matrix Analysis and Applications', 2008, 30),
-  number(3),
-  pages(1148,1171),
-nil)
-
-
-entry!('cardoso1994perturbation',
-	author('Jean-Fra\\\c{c}ois Cardoso'),
-	title('Perturbation of Joint Diagonalizers'),
-  techreport("T\\\'{e}l\\\'{e}com Paris", 1994),
- tags('tensors'),
-nil)
-
-entry!('laurent2000adaptive',
-  author("B. Laurent and P. Massart"),
-  title("Adaptive estimation of a quadratic functional by model
-			 selection"),
-  annalsOfStatistics(2000, 28), 
-  number(5),
-  pages(1302, 1338),
-) 
-
 entry!('acar2009unsupervised',
   title('Unsupervised multiway data analysis: A literature survey'),
   author('Acar, Evrim and Yener, B{\"u}lent'),
@@ -4476,58 +4450,616 @@ entry!('bader2008discussion',
  tags('tensors'),
 )
 
-entry!('de2001independent',
-  title('Independent component analysis and (simultaneous) third-order tensor diagonalization'),
-  author('De Lathauwer, Lieven and De Moor, Bart and Vandewalle, Joos'),
-  article('Signal Processing, IEEE Transactions on', 2001, 49),
-  number(10),
-  pages(2262,2271),
- tags('tensors'),
-)
+entry!('hinton2010practical',
+  techreport('University of Toronto', 2010),
+  title('A practical guide to training restricted {B}oltzmann machines'),
+  author('G. Hinton'),
+nil)
 
-entry!('vasilescu2005multilinear',
-  title('Multilinear independent components analysis'),
-  author('Vasilescu, M Alex O and Terzopoulos, Demetri'),
-  cvpr(2005),
-  volume(1),
-  pages(547,553),
- tags('tensors'),
-)
+entry!('salakhutdinov2008ais',
+  icml(2008),
+  title('On the quantitative analysis of deep belief networks'),
+  author('R. Salakhutdinov and I. Murray'),
+  pages(872, 879),
+nil)
 
-entry!('beckmann2005tensorial',
-title("Tensorial extensions of independent component analysis for multisubject \{FMRI\} analysis "),
-author("C.F. Beckmann and S.M. Smith"),
-article('NeuroImage', 2005, 25),
-number(1),
-pages(294,311),
- tags('tensors'),
-)
+entry!('long2010restricted',
+  icml(2010),
+  title('Restricted {B}oltzmann machines are hard to approximately evaluate or simulate'),
+  author('P. Long and R. Servedio'),
+  pages(703, 710),
+nil)
+
+entry!('ravikumar2006quadratic',
+  icml(2006),
+  title('Quadratic programming relaxations for metric labeling and {M}arkov random field {MAP} estimation'),
+  author('P. Ravikumar and J. Lafferty'),
+  pages(737, 744),
+nil)
+
+entry!('alon2006approximating',
+  article('SIAM Journal on Computing', 2006, 35),
+  number(4),
+  title('Approximating the cut-norm via Grothendieck\'s inequality'),
+  author('N. Alon and A. Naor'),
+  publisher('SIAM'),
+  pages(787, 803),
+nil)
+
+entry!('khot08approximate',
+  focs(2008),
+  title('Approximate kernel clustering'),
+  author('S. Khot and A. Naor'),
+nil)
+
+entry!('khot10sharp',
+  soda(2010),
+  title('Sharp kernel clustering algorithms and their associated Grothendieck inequalities'),
+  author('S. Khot and A. Naor'),
+nil)
+
+entry!('goemans1995improved',
+  article('Journal of the ACM (JACM)', 1995, 42, 6),
+  title('Improved approximation algorithms for maximum cut and satisfiability problems using semidefinite programming'),
+  author('M. Goemans and D. Williamson'),
+  pages(1115, 1145),
+nil)
+
+entry!('pataki1998rank',
+  article('Mathematics of Operations Research', 1998, 23),
+  number(2),
+  title('On the rank of extreme matrices in semidefinite programs and the multiplicity of optimal eigenvalues'),
+  author('G. Pataki'),
+  publisher('INFORMS'),
+  pages(339, 358),
+nil)
+
+entry!('so2008unified',
+  article('Mathematics of Operations Research', 2008, 33),
+  number(4),
+  title('A unified theorem on {SDP} rank reduction'),
+  author('A. So and Y. Ye and J. Zhang'),
+  pages(910, 920),
+nil)
+
+entry!('burer01anonlinear',
+  title('A Nonlinear Programming Algorithm for Solving Semidefinite Programs via Low-rank Factorization'),
+  author('S. Burer and R. Monteiro'),
+  article('Mathematical Programming (series B)', 2001, 95),
+nil)
+
+entry!('burer2005local',
+  article('Mathematical Programming', 2005, 103, 3),
+  title('Local minima and convergence in low-rank semidefinite programming'),
+  author('S. Burer and R. Monteiro'),
+  publisher('Springer'),
+  pages(427, 444),
+nil)
+
+entry!('nesterov1998semidefinite',
+  article('Optimization methods and software', 1998, 9),
+  title('Semidefinite relaxation and nonconvex quadratic optimization'),
+  author('Y. Nesterov'),
+  publisher('Taylor \& Francis'),
+  pages(141, 160),
+nil)
+
+entry!('rietz1974proof',
+  article('Israel Journal of Mathematics', 1974, 19, 3),
+  title('A proof of the {G}rothendieck inequality'),
+  author('R. E. Rietz'),
+  publisher('Springer'),
+  pages(271, 276),
+nil)
+
+entry!('briet2010positive',
+  title('The positive semidefinite {G}rothendieck problem with rank constraint'),
+  author('J. Bri{\"e}t and F. M. de Oliveira Filho and F. Vallentin'),
+  inproceedings('Automata, Languages and Programming', 2010),
+  publisher('Springer'),
+  pages(31, 42),
+nil)
+
+entry!('briet2014groth',
+  title('{G}rothendieck inequalities for semidefinite programs with rank constraints'),
+  author('J. Bri{\"e}t and F. M. de Oliveira Filho and F. Vallentin'),
+  article('Theory of Computing', 2014, 10),
+  pages(77, 105),
+nil)
+
+entry!('malik06thegap',
+  article('Mathematical Programming', 2006, 107),
+  number(3),
+  title('On the gap between the quadratic integer programming problem and its semidefinite relaxation'),
+  url('http://dblp.uni-trier.de/db/journals/mp/mp107.html#MalikJHG06'),
+  author('U. Malik and Imad M. Jaimoukha and G. D. Halikias and S. K. Gungah'),
+  pages(505, 515),
+nil)
+
+entry!('halikias07newbounds',
+  article('Journal of Global Optimization', 2007, 39),
+  number(4),
+  title('New bounds on the unconstrained quadratic integer programming problem.'),
+  author('G. D. Halikias and Imad M. Jaimoukha and U. Malik and S. K. Gungah'),
+  pages(543, 554),
+nil)
+
+entry!('barvinok95problems',
+  article('Discrete \& Computational Geometry', 1995, 13),
+  title('Problems of Distance Geometry and Convex Properties of Quadratic Maps.'),
+  author('A. I. Barvinok'),
+  pages(189, 202),
+nil)
+
+entry!('alfakih98embeddability',
+  techreport('University of Waterloo', 1998),
+  title('On the embeddability of weighted graphs in Euclidean spaces'),
+  author('A. Afakih and H. Wolkowicz'),
+nil)
+
+entry!('pisier12grothendieck',
+  article('Bulletin of the American Mathematical Society', 2012, 49),
+  title('Grothendieck\'s Theorem, past and present'),
+  author('G. Pisier'),
+  publisher('AMS'),
+  pages(237, 323),
+nil)
+
+entry!('riedel2012parse',
+  emnlpconll(2012),
+  title('Parse, price and cut: delayed column and row generation for graph based parsers'),
+  author('S. Riedel and D. Smith and A. McCallum'),
+  pages(732, 743),
+nil)
+
+entry!('shi2000normalized',
+  article('Pattern Analysis and Machine Intelligence, IEEE Transactions on', 2000, 22),
+  number(8),
+  title('Normalized cuts and image segmentation'),
+  author('J. Shi and J. Malik'),
+  publisher('IEEE'),
+  pages(888, 905),
+nil)
+
+entry!('kulis2007fast',
+  aistats(2007),
+  title('Fast low-rank semidefinite programming for embedding and clustering'),
+  author('B. Kulis and A. C. Surendran and J. C. Platt'),
+  pages(235, 242),
+nil)
+
+entry!('kumar2009analysis',
+  jmlr(2009, 10),
+  title('An analysis of convex relaxations for {MAP} estimation of discrete {MRF}s'),
+  author('M. P. Kumar and V. Kolmogorov and P. Torr'),
+  publisher('JMLR. org'),
+  pages(71, 106),
+nil)
+
+entry!('recht2013parallel',
+  article('Mathematical Programming Computation', 2013, 5),
+  title('Parallel stochastic gradient algorithms for large-scale matrix completion'),
+  author('B. Recht and C. R{\'e}'),
+  publisher('Springer'),
+  pages(1, 26),
+nil)
+
+entry!('lee2010practical',
+  nips(2010),
+  title('Practical large-scale optimization for max-norm regularization'),
+  author('J. Lee and B. Recht and N. Srebro and J. Tropp and R. Salakhutdinov'),
+  pages(1297, 1305),
+nil)
+
+entry!('krahenbuhl2011efficient',
+  nips(2011),
+  title('Efficient inference in fully connected {CRF}s with {G}aussian edge potentials'),
+  author('P. Kr{\"a}henb{\"u}hl and V. Koltun'),
+nil)
+
+entry!('krahenbuhl2013learning',
+  author('P. Kr{\"a}henb{\"u}hl and V. Koltun'),
+  pages(513, 521),
+  title('Parameter Learning and Convergent Inference for Dense Random Fields'),
+  icml(2013),
+nil)
+
+entry!('rush2010dual',
+  emnlp(2010),
+  title('On dual decomposition and linear programming relaxations for natural language processing'),
+  author('A. Rush and D. Sontag and M. Collins and T. Jaakkola'),
+  pages(1, 11),
+nil)
+
+entry!('sontag2008outer',
+  nips(2008),
+  title('New Outer Bounds on the Marginal Polytope'),
+  author('D. Sontag and T. Jaakkola'),
+  pages(1393, 1400),
+nil)
+
+entry!('sontag2008tightening',
+  uai(2008),
+  title('Tightening {LP} Relaxations for {MAP} using Message-Passing'),
+  author('D. Sontag and T. Meltzer and A. Globerson and Y. Weiss and T. Jaakkola'),
+  publisher('AUAI Press'),
+  pages(503, 510),
+nil)
+
+entry!('cour2007solving',
+  aistats(2007),
+  title('Solving {M}arkov random fields with spectral relaxation'),
+  author('T. Cour and J. Shi'),
+  pages(75, 82),
+nil)
+
+entry!('winder66partition',
+  article('SIAM Journal on Applied Mathematics', 1966, 14),
+  number(4),
+  title('Partitions of {N}-Space by Hyperplanes'),
+  author('R. O. Winder'),
+  pages(811, 818),
+nil)
+
+entry!('kappes2013benchmark',
+  title('A Comparative Study of Modern Inference Techniques for Discrete Energy Minimization Problem'),
+  author('J{\"o}rg H. Kappes and Bjoern Andres and Fred A. Hamprecht and Christoph Schn{\"o}rr and Sebastian Nowozin and Dhruv Batra and Sungwoong Kim and Bernhard X. Kausler and Jan Lellmann and Nikos Komodakis and Carsten Rother'),
+  cvpr(2013),
+nil)
+
+entry!('allemand2001polynomial',
+  article('Mathematical programming', 2001, 91),
+  publisher('Springer'),
+  pages(49, 52),
+  title('A polynomial case of unconstrained zero-one quadratic optimization'),
+  number(1),
+  author('Kim Allemand and Komei Fukuda and Thomas M Liebling and Erich Steiner'),
+nil)
+
+entry!('geman1984stochastic',
+  pami(1984, 6),
+  publisher('IEEE'),
+  title('Stochastic relaxation, {G}ibbs distributions, and the {B}ayesian restoration of images'),
+  author('Stuart Geman and Donald Geman'),
+  pages(721, 741),
+nil)
+
+entry!('hills2013rapid',
+        author('Gage Hills and Jie Zhang and Charles Mackin and Max Shulaker and Hai Wei and Hon Sun Philip Wong and Subhasish Mitra'),
+        title('Rapid Exploration of Processing and Design Guidelines to Overcome Carbon Nanotube Variations'),
+        inproceedings('Proceedings of the 50th Annual Design Automation Conference',2013),
+nil)
+
+entry!('lohstroh1983worst',
+        author('Jan Lohstroh and Evert Seevinck and Jan De Groot'),
+        title('Worst-case static noise margin criteria for logic circuits and their mathematical equivalence'),
+        article('IEEE Journal of Solid-State Circuits',1983,18),
+        number(6),
+        pages(803,807),
+nil)
+
+entry!('luo2013compact',
+        author('Jieying Luo and Lan Wei and Chi-Shuen Lee and Aaron D. Franklin and Ximeng Guan and Eric Pop and Dimitri Antoniadis and Hon Sun Philip Wong'),
+        title('Compact Model for Carbon Nanotube Field-Effect Transistors Including Nonidealities and Calibrated with Experimental Data Down to 9-nm Gate Length'),
+        article('IEEE Transactions on Electron Devices',2013,60),
+        number(6),
+        pages(1834,1843),
+nil)
+
+entry!('cardoso1996joint',
+  article('SIAM Journal on Matrix Analysis and Applications', 1996, 17),
+  pages(161, 164),
+  number(1),
+  author('J. Cardoso and A. Souloumiac'),
+  title('Jacobi angles for simultaneous diagonalization'),
+nil)
+
+entry!('afsari2008sensitivity',
+  article('SIAM Journal on Matrix Analysis and Applications', 2008, 30),
+  pages(1148, 1171),
+  number(3),
+  author('B. Afsari'),
+  title('Sensitivity analysis for the problem of matrix joint diagonalization'),
+nil)
+
+entry!('cardoso1994perturbation',
+  techreport('T\'{e}l\'{e}com Paris', 1994),
+  author('J. Cardoso'),
+  title('Perturbation of Joint Diagonalizers'),
+nil)
+
+entry!('laurent2000adaptive',
+  annalsOfStatistics(2000, 28),
+  pages(1302, 1338),
+  number(5),
+  author('B. Laurent and P. Massart'),
+  title('Adaptive estimation of a quadratic functional by model selection'),
+nil)
 
 entry!('hastad1990tensor',
-title("Tensor rank is {NP}-complete"),
-article("Journal of Algorithms ", 1990, 11),
-number("4"),
-url("http://www.sciencedirect.com/science/article/pii/0196677490900146"),
-author("Johan H\o{a}stad"),
- tags('tensors'),
-)
+  article('Journal of Algorithms', 1990, 11),
+  number(4),
+  author('J. Ho{a}stad'),
+  title('Tensor rank is {NP}-complete'),
+nil)
 
 entry!('souloumiac2009joint',
-author('Souloumiac, A.'),
-inproceedings('Computational Advances in Multi-Sensor Adaptive Processing', 2009),
-title('Joint diagonalization: Is non-orthogonal always preferable to orthogonal?'),
-pages(305,308),
-)
-
+  inproceedings('Computational Advances in Multi-Sensor Adaptive Processing', 2009),
+  pages(305, 308),
+  author('S. A.'),
+  title('Joint diagonalization: Is non-orthogonal always preferable to orthogonal?'),
+nil)
 
 entry!('delathauwer2006decomposition',
- author('De Lathauwer, Lieven'),
- title('A Link Between the Canonical Decomposition in Multilinear Algebra and Simultaneous Matrix Diagonalization'),
- article('SIAM Journal of Matrix Analysis and Applications', 2006, 28),
- number(3),
- pages(642,666),
- url('http://dx.doi.org/10.1137/040608830'),
- tags('tensors'),
-) 
+  article('SIAM Journal of Matrix Analysis and Applications', 2006, 28),
+  pages(642, 666),
+  number(3),
+  author('Lieven De Lathauwer'),
+  title('A Link Between the Canonical Decomposition in Multilinear Algebra and Simultaneous Matrix Diagonalization'),
+nil)
 
+entry!('vasilescu2005multilinear',
+  cvpr(2005),
+  pages(547, 553),
+  author('M Alex O Vasilescu and Demetri Terzopoulos'),
+  title('Multilinear independent components analysis'),
+  organization('IEEE'),
+  volume(1),
+nil)
+
+entry!('beckmann2005tensorial',
+  article('Neuroimage', 2005, 25),
+  pages(294, 311),
+  number(1),
+  author('Christian F Beckmann and Stephen M Smith'),
+  publisher('Elsevier'),
+  title('Tensorial extensions of independent component analysis for multisubject {FMRI} analysis'),
+nil)
+
+entry!('yeredor2002non',
+  article('IEEE Transactions on Signal Processing', 2002, 50),
+  author('Arie Yeredor'),
+  publisher('IEEE'),
+  pages(1545, 1553),
+  number(7),
+  title('Non-orthogonal joint diagonalization in the least-squares sense with application in blind source separation'),
+nil)
+
+entry!('ziehe2004fast',
+  jmlr(2004, 5),
+  title('A fast algorithm for joint diagonalization with non-orthogonal transformations and its application to blind source separation'),
+  author('Andreas Ziehe and Pavel Laskov and Guido Nolte and Klaus-Robert M{\"u}ller'),
+  pages(777, 800),
+nil)
+
+entry!('vollgraf2006quadratic',
+  article('IEEE Transactions on Signal Processing', 2006, 54),
+  author('Roland Vollgraf and Klaus Obermayer'),
+  pages(3270, 3278),
+  title('Quadratic optimization for simultaneous matrix diagonalization'),
+  number(9),
+  publisher('IEEE'),
+nil)
+
+entry!('afsari2006simple',
+  pages(1, 7),
+  inproceedings('Independent Component Analysis and Blind Signal Separation', 2006),
+  author('Bijan Afsari'),
+  title('Simple {LU} and {QR} based non-orthogonal matrix joint diagonalization'),
+  publisher('Springer'),
+nil)
+
+entry!('guo2010approximate',
+  inproceedings('Acoustics Speech and Signal Processing (ICASSP), 2010 IEEE International Conference on', 2010),
+  pages(3774, 3777),
+  title('Approximate joint diagonalization by nonorthogonal nonparametric jacobi transformations'),
+  author('Xijing Guo and Shihua Zhu and Sebastian Miron and David Brie'),
+  organization('IEEE'),
+nil)
+
+entry!('anandkumar2014guaranteed',
+  arxiv(2014),
+  author('Animashree Anandkumar and Rong Ge and Majid Janzamin'),
+  title('Guaranteed Non-Orthogonal Tensor Decomposition via Alternating Rank-1 Updates'),
+nil)
+
+entry!('candes2006near',
+  article('IEEE Transactions on Information Theory', 2006, 52),
+  title('Near-optimal signal recovery from random projections: Universal encoding strategies?'),
+  publisher('IEEE'),
+  author('Emmanuel J Candes and Terence Tao'),
+  pages(5406, 5425),
+  number(12),
+nil)
+
+entry!('haupt2006signal',
+  article('IEEE Transactions on Information Theory', 2006, 52),
+  publisher('IEEE'),
+  pages(4036, 4048),
+  number(9),
+  title('Signal reconstruction from noisy random projections'),
+  author('Jarvis Haupt and Robert Nowak'),
+nil)
+
+entry!('sarlos2006improved',
+  focs(2006),
+  pages(143, 152),
+  title('Improved approximation algorithms for large matrices via random projections'),
+  author('Tamas Sarlos'),
+  organization('IEEE'),
+nil)
+
+entry!('kleinberg1997two',
+  stoc(1997),
+  author('Jon M Kleinberg'),
+  pages(599, 608),
+  organization('ACM'),
+  title('Two algorithms for nearest-neighbor search in high dimensions'),
+nil)
+
+entry!('delathauwer2001independent',
+  article('Signal Processing, IEEE Transactions on', 2001, 49),
+  title('Independent component analysis and (simultaneous) third-order tensor diagonalization'),
+  number(10),
+  publisher('IEEE'),
+  pages(2262, 2271),
+  author('Lieven De Lathauwer and Bart De Moor and Joos Vandewalle'),
+nil)
+
+entry!('sutskever2009modelling',
+  nips(2009),
+  pages(1821, 1828),
+  title('Modelling Relational Data using {B}ayesian Clustered Tensor Factorization.'),
+  author('Ilya Sutskever and Ruslan Salakhutdinov and Joshua B Tenenbaum'),
+nil)
+
+entry!('nickel2011three',
+  icml(2011),
+  author('Maximilian Nickel and Volker Tresp and Hans-Peter Kriegel'),
+  title('A three-way model for collective learning on multi-relational data'),
+  pages(809, 816),
+nil)
+
+entry!('anandkumar2013community',
+  colt(2013),
+  title('A Tensor Spectral Approach to Learning Mixed Membership Community Models'),
+  pages(867, 881),
+  author('Animashree Anandkumar and Rong Ge and Daniel Hsu and Sham Kakade'),
+nil)
+
+entry!('boykov2004mincut',
+  pami(2004,26),
+  title('An Experimental Comparison of Min-Cut/Max-Flow Algorithms for Energy Minimization in Vision'),
+  pages(1124, 1137),
+  author('Yuri Boykov and Vladimir Kolmogorov'),
+nil)
+
+entry!('boykov2004what',
+  pami(2004,26),
+  title('What Energy Functions Can Be Minimized via Graph Cuts?'),
+  pages(147, 159),
+  author('Vladimir Kolmogorov and Ramin Zabih'),
+nil)
+
+entry!('boykov2001fast',
+  pami(2001,23),
+  title('Fast Approximate Energy Minimization via Graph Cuts?'),
+  pages(1222, 1239),
+  author('Yuri Boykov and Olga Veksler and Ramin Zabih'),
+nil)
+
+entry!('schoenberg1942positive',
+  dukeMath(1942,9),
+  title('Positive definite functions on spheres'),
+  pages(96, 108),
+  author('Isaac J Schoenberg'),
+nil)
+
+entry!('jordan99variational',
+  machineLearning(1999,37),
+  title('An Introduction to Variational Methods for Graphical Models'),
+  author('Michael I. Jordan and Zoubin Ghahramani and Tommi S.  Jaakkola and Lawrence K. Saul'),
+  pages(183,233),
+nil)
+
+entry!('wei2009non',
+  author('Wei, Lan and Frank, David J and Chang, Leland and Wong, H-SP'),
+	title('A non-iterative compact model for carbon nanotube FETs incorporating source exhaustion effects'),
+  inproceedings('IEEE International Electron Devices Meeting',2009),
+nil)
+
+entry!('natori1998scaling',
+  author('Natori, Kenji and Sano, Nobuyuki'),
+  title('Scaling limit of digital circuits due to thermal noise'),
+  article('Journal of applied physics',1998,83),
+  number(10),
+  pages(5019,5024),
+nil)
+
+entry!('weste2010cmos',
+  author('Weste, Neil and Harris, David'),
+  title('{CMOS} {VLSI} design: a circuits and systems perspective'),
+  book('Addison-Wesley Publishing Company', 2010),
+nil)
+
+entry!('brachat2010symmetric',
+  article('Linear Algebra and its Applications', 2010, 433),
+  title('Symmetric tensor decomposition'),
+  publisher('Elsevier'),
+  number(11),
+  author('Jerome Brachat and Pierre Comon and Bernard Mourrain and Elias Tsigaridas'),
+  pages(1851, 1872),
+nil)
+
+entry!('comon2009tensor',
+  article('Journal of Chemometrics', 2009, 23),
+  pages(393, 405),
+  publisher('Wiley Online Library'),
+  number('7-8'),
+  title('Tensor decompositions, alternating least squares and other tales'),
+  author('Pierre Comon and Xavier Luciani and Andr{\'e} LF De Almeida'),
+nil)
+
+entry!('ramanathan2014linking',
+  eccv(2014),
+  title('Linking people with "their" names using coreference resolution'),
+  author('Vignesh Ramanathan and Armand Joulin and Percy Liang and Li Fei-Fei'),
+  url('linking-eccv2014.pdf'),
+  supplementalurl('linking-eccv2014-supp.pdf'),
+nil)
+
+entry!('ross2011reduction',
+  aistats(2011),
+  title('A reduction of imitation learning and structured prediction to no-regret online learning'),
+  author('St{\'e}phane Ross and Geoffrey Gordon and Andrew Bagnell'),
+nil)
+
+entry!('goldberg2013training',
+  tacl(2013,1),
+  title('Training Deterministic Parsers with Non-Deterministic Oracles'),
+  author('Yoav Goldberg and Joakim Nivre'),
+nil)
+
+entry!('shalit2014coordinate',
+  icml(2014),
+  title('Coordinate-descent for learning orthogonal matrices through Givens rotations'),
+  author('Uiri Shalit and Gal Chechik'),
+nil)
+
+entry!('yeredor2004approximate',
+  article('Independent Component Analysis and Blind Signal Separation', 2004, 1),
+  pages(86,96),
+  publisher('Springer Berlin Heidelberg'),
+  title('Approximate Joint Diagonalization Using a Natural Gradient Approach'),
+  author('Arie Yeredor and Andreas Ziehe and Klaus-Robert M{\"u}ller'),
+nil)
+
+entry!('halko2011structure',
+  article('SIAM Review', 2011, 53),
+  pages(217,288),
+  title("Finding Structure with Randomness: Probabilistic Algorithms for
+              Constructing Approximate Matrix Decompositions"),
+  author("Halko, N and Martinsson, P and Tropp, J"),
+)
+
+entry!('zhang2014crowdsourcing',
+  title("Spectral Methods meet {EM}: A Provably Optimal Algorithm for
+                   Crowdsourcing"),
+  author("Yuchen Zhang and Xi Chen and Dengyong Zhou and Michael I Jordan"),
+  arxiv(2014),
+  url('http://arxiv.org/pdf/1406.3824'),
+)
+
+entry!('huang2013fast', 
+  title("Fast Detection of Overlapping Communities via Online Tensor Methods"),
+  author("Furong Huang and U N Niranjan and Mohammad Umar Hakeem and Animashree Anandkumar"),
+  arxiv(2013),
+  url('http://arxiv.org/pdf/1309.0787'),
+)
+
+entry!('liu2005vector',
+  title("Text representation: from vector to tensor"),
+  inproceedings("International Conference on Data Mining", 2005),
+  author("Ning Liu and Benyu Zhang and Jun Yan and Zheng Chen and Wenyin Liu and Fengshan Bai and Leefeng Chien"),
+)
 
