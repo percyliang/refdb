@@ -4522,7 +4522,24 @@ entry!('blum1954multidimensional',
 	number(4),
 	pages(737,744),
 nil)
-	
+
+entry!('acar2009unsupervised',
+  title('Unsupervised multiway data analysis: A literature survey'),
+  author('Acar, Evrim and Yener, B{\"u}lent'),
+  article('Knowledge and Data Engineering, IEEE Transactions on', 2009, 21),
+  number(1),
+  pages(6,20),
+ tags('tensors'),
+)
+
+entry!('bader2008discussion',
+  title('Discussion tracking in Enron email using {PARAFAC}'),
+  author('Bader, Brett W and Berry, Michael W and Browne, Murray'),
+  article('Survey of Text Mining II', 2008, 1),
+  pages(147,163),
+ tags('tensors'),
+)
+
 entry!('hinton2010practical',
   techreport('University of Toronto', 2010),
   title('A practical guide to training restricted {B}oltzmann machines'),
@@ -5095,6 +5112,49 @@ entry!('goldberg2013training',
   author('Yoav Goldberg and Joakim Nivre'),
 nil)
 
+entry!('shalit2014coordinate',
+  icml(2014),
+  title('Coordinate-descent for learning orthogonal matrices through Givens rotations'),
+  author('Uiri Shalit and Gal Chechik'),
+nil)
+
+entry!('yeredor2004approximate',
+  article('Independent Component Analysis and Blind Signal Separation', 2004, 1),
+  pages(86,96),
+  publisher('Springer Berlin Heidelberg'),
+  title('Approximate Joint Diagonalization Using a Natural Gradient Approach'),
+  author('Arie Yeredor and Andreas Ziehe and Klaus-Robert M{\"u}ller'),
+nil)
+
+entry!('halko2011structure',
+  article('SIAM Review', 2011, 53),
+  pages(217,288),
+  title("Finding Structure with Randomness: Probabilistic Algorithms for
+              Constructing Approximate Matrix Decompositions"),
+  author("Halko, N and Martinsson, P and Tropp, J"),
+)
+
+entry!('zhang2014crowdsourcing',
+  title("Spectral Methods meet {EM}: A Provably Optimal Algorithm for
+                   Crowdsourcing"),
+  author("Yuchen Zhang and Xi Chen and Dengyong Zhou and Michael I Jordan"),
+  arxiv(2014),
+  url('http://arxiv.org/pdf/1406.3824'),
+)
+
+entry!('huang2013fast', 
+  title("Fast Detection of Overlapping Communities via Online Tensor Methods"),
+  author("Furong Huang and U N Niranjan and Mohammad Umar Hakeem and Animashree Anandkumar"),
+  arxiv(2013),
+  url('http://arxiv.org/pdf/1309.0787'),
+)
+
+entry!('liu2005vector',
+  title("Text representation: from vector to tensor"),
+  inproceedings("International Conference on Data Mining", 2005),
+  author("Ning Liu and Benyu Zhang and Jun Yan and Zheng Chen and Wenyin Liu and Fengshan Bai and Leefeng Chien"),
+)
+
 entry!('auli2011efficient',
   acl(2011),
   title('Efficient {CCG} parsing: A* versus adaptive supertagging'),
@@ -5294,9 +5354,22 @@ nil)
 
 entry!('andrieu2008tutorial',
   article('Statistics and Computing', 2008, 18),
-  title('A tutorial on adaptive MCMC'),
+  title('A tutorial on adaptive {MCMC}'),
   author('Christophe Andrieu and Johannes Thoms'),
   number(4),
   pages(343, 373),
   publisher('Springer'),
+nil)
+
+entry!('hillar2013tensor',
+  jacm(2013, 60),
+  author('Christopher J Hillar and Lek-Heng Lim'),
+  title('Most Tensor Problems Are {NP-Hard}'),
+nil)
+
+entry!('desilva2008tensor',
+  title('Tensor Rank and the {Ill-Posedness} of the Best {Low-Rank} Approximation Problem'),
+  author('de Silva, V and Lim, L'),
+  article('SIAM Journal on Matrix Analysis and Applications', 2008, 30),
+  pages(1084, 1127),
 nil)
