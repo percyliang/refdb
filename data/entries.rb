@@ -5332,6 +5332,35 @@ entry!('steinhardt2014sparse',
   url('http://arxiv.org/pdf/1412.4182.pdf'),
 nil)
 
+entry!('goldberg2010efficient',
+  acl(2010),
+  title('An efficient algorithm for easy-first non-directional dependency parsing'),
+  author('Yoav Goldberg and Michael Elhadad'),
+  pages(742, 750),
+nil)
+
+entry!('zhang2014greed',
+  emnlp(2014),
+  title('Greed is Good if Randomized: New Inference for Dependency Parsing'),
+  author('Yuan Zhang and Tao Lei and Regina Barzilay and Tommi Jaakkola'),
+nil)
+
+entry!('wick2011query',
+  nips(2011),
+  title('Query-Aware {MCMC}'),
+  author('Michael L Wick and Andrew McCallum'),
+  pages(2564, 2572),
+nil)
+
+entry!('andrieu2008tutorial',
+  article('Statistics and Computing', 2008, 18),
+  title('A tutorial on adaptive {MCMC}'),
+  author('Christophe Andrieu and Johannes Thoms'),
+  number(4),
+  pages(343, 373),
+  publisher('Springer'),
+nil)
+
 entry!('hillar2013tensor',
   jacm(2013, 60),
   author('Christopher J Hillar and Lek-Heng Lim'),
@@ -5351,4 +5380,3 @@ entry!('kuleshov2015simultaneous',
  title('Simultaneous diagonalization: the asymmetric, low-rank, and noisy settings'),
  url('http://arxiv.org/pdf/1501.06318.4182.pdf'),
 nil)
-

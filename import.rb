@@ -3,6 +3,7 @@
 # Reads in a bib file and prints out Ruby entries.
 # This script is a bit hacky, so double check the added entries before importing.
 
+$: << '.'
 require 'refdb'
 
 # Build up a map to macros (so we can standardize names)
