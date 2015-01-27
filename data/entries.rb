@@ -5345,4 +5345,10 @@ entry!('desilva2008tensor',
   pages(1084, 1127),
 nil)
 
+entry!('kuleshov2015simultaneous',
+ arxiv(2015),
+ author('Volodymyr Kuleshov and Arun Chaganty and Percy Liang'),
+ title('Simultaneous diagonalization: the asymmetric, low-rank, and noisy settings'),
+ url('http://arxiv.org/pdf/1501.06318.4182.pdf'),
+nil)
 
