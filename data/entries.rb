@@ -5316,13 +5316,14 @@ nil)
 entry!('shi2015sample',
   aistats(2015),
   author('Tianlin Shi and Jacob Steinhardt and Percy Liang'),
-  title('Learning to Sample in Structured Prediction'),
+  title('Learning Where To Sample in Structured Prediction'),
+  url('sample-aistats2015.pdf'),
 nil)
 
 entry!('kuleshov2015tensor',
   aistats(2015),
   author('Volodymyr Kuleshov and Arun Chaganty and Percy Liang'),
-  title('Tensor factorization via random projection and simultaneous matrix diagonalization'),
+  title('Tensor factorization via matrix factorization'),
 nil)
 
 entry!('steinhardt2014sparse',
