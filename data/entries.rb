@@ -5374,3 +5374,9 @@ entry!('desilva2008tensor',
   article('SIAM Journal on Matrix Analysis and Applications', 2008, 30),
   pages(1084, 1127),
 nil)
+
+entry!('rahimi2007random',
+  title('Random Features for Large-Scale Kernel Machines'),
+  author('Ali Rahimi and Ben Recht'),
+  nips(2007),
+nil)
