@@ -278,7 +278,10 @@ def organization(x);  field('organization', x)                  end
 def type(x);          field('type', x)                          end
 
 # Common use cases (that set the type of the entry too)
-def article(x, year, volume, number=nil); [type('article'), field('journal', x), year(year), volume(volume)] + (number ? [number(number)] : []) end
+def article(x, year, volume=nil, number=nil)
+  [type('article'), field('journal', x), year(year)] +
+  (volume ? [volume(volume)] : []) + (number ? [number(number)] : [])
+end
 def inproceedings(x, year); [type('inproceedings'), field('booktitle', x), year(year)] end
 def incollection(x, year); [type('incollection'), field('booktitle', x), year(year)] end
 def techreport(x, year); [type('techreport'), field('institution', x), year(year)] end
