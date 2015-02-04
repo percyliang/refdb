@@ -5396,3 +5396,11 @@ entry!('rockafellar1976ppa',
   number(5),
   pages(877, 898),
 nil)
+
+entry!('parikh2014proximal',
+  title('Proximal Algorithms'),
+  author('Neal Parikh and Stephen Boyd'),
+  article('Foundations and Trends in Optimization', 2014, 1),
+  number(3),
+  pages(123, 231),
+nil)
