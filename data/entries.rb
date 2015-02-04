@@ -1928,6 +1928,13 @@ entry!('rakhlin12making',
   icml(2012),
 nil)
 
+entry!('nesterov1983acceleration',
+  title('A method of solving a convex programming problem with convergence rate $O(1/k^2)$'),
+  author('Y. Nesterov'),
+  article('Soviet Mathematics Doklady', 1983, 27),
+  number(2), pages(372, 376),
+nil)
+
 entry!('nesterov2004introductory',
   title('Introductory Lectures on Convex Optimization: A Basic Course'),
   author('Y. Nesterov'),
