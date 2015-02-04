@@ -1928,10 +1928,43 @@ entry!('rakhlin12making',
   icml(2012),
 nil)
 
+entry!('nesterov2004introductory',
+  title('Introductory Lectures on Convex Optimization: A Basic Course'),
+  author('Y. Nesterov'),
+  book('Springer', 2004),
+nil)
+
+entry!('nesterov2005smooth',
+  title('Smooth minimization of non-smooth functions'),
+  author('Y. Nesterov'),
+  article('Mathematical Programming', 2005, 103),
+  number(1), pages(127, 152),
+nil)
+
 entry!('shalev13stochastic',
   title('Stochastic Dual Coordinate Ascent Methods for Regularized Loss Minimization'),
   author('Shai Shalev-Shwartz and Tong Zhang'),
   jmlr(2013, 14), pages(567, 599),
+nil)
+
+entry!('shalev2014accelerated',
+  title('Accelerated proximal stochastic dual coordinate ascent for regularized loss minimization'),
+  author('Shai Shalev-Shwartz and Tong Zhang'),
+  article('Mathematical Programming', 2014),
+  pages(1, 41),
+nil)
+
+entry!('xiao2014proximal',
+  title('A proximal stochastic gradient method with progressive variance reduction'),
+  author('Lin Xiao and Tong Zhang'),
+  article('SIAM Journal on Optimization', 2014, 24),
+  number(4), pages(2057, 2075),
+nil)
+
+entry!('defazio2014saga',
+  title('SAGA: A Fast Incremental Gradient Method With Support for Non-Strongly Convex Composite Objectives'),
+  author('Aaron Defazio and Francis Bach and Simon Lacoste-Julien'),
+  nips(2014),
 nil)
 
 entry!('lee13coordinate',
