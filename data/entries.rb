@@ -5380,3 +5380,19 @@ entry!('rahimi2007random',
   author('Ali Rahimi and Ben Recht'),
   nips(2007),
 nil)
+
+entry!('guler1992ppa',
+  title('New Proximal Point Algorithms for Convex Minimization'),
+  author('Osman G\\"uler'),
+  article('SIAM Journal on Optimization', 1992, 2),
+  number(4),
+  pages(649, 664),
+nil)
+
+entry!('rockafellar1976ppa',
+  title('Monotone operators and the proximal point algorithm'),
+  author('R. Tyrrell Rockafellar'),
+  article('SIAM Journal on Control and Optimization', 1976, 14),
+  number(5),
+  pages(877, 898),
+nil)
