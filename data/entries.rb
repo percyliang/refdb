@@ -1948,10 +1948,10 @@ entry!('nesterov2005smooth',
   number(1), pages(127, 152),
 nil)
 
-entry!('lee2013accelerated',
-  title('Efficient Accelerated Coordinate Descent Methods and Faster Algorithms for Solving Linear Systems'),
-  author('Yin Tat Lee and Aaron Sidford'),
-  focs(2013),
+entry!('leroux2012sag',
+  title('A Stochastic Gradient Method with an Exponential Convergence Rate for Finite Training Sets'),
+  author('N. {Le Roux} and M. Schmidt and F. Bach'),
+  nips(2012),
 nil)
 
 entry!('shalev13stochastic',
