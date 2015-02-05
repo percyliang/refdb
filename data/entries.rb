@@ -1903,6 +1903,12 @@ entry!('strohmer09kaczmarz',
   article('Journal of Fourier Analysis and Applications', 2009, 15), pages(262, 278),
 nil)
 
+entry!('needell2014kaczmarz',
+  author('Deanna Needell and Nathan Srebro and Rachel Ward'),
+  title('Stochastic Gradient Descent, Weighted Sampling, and the Randomized Kaczmarz algorithm'),
+  nips(2014),
+nil)
+
 entry!('srebro10stochastic',
   title('Stochastic optimization and online learning with smooth loss functions'),
   author('Nati Srebro and Karthik Sridharan and Ambuj Tewari'),
