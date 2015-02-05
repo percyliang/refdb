@@ -1948,6 +1948,12 @@ entry!('nesterov2005smooth',
   number(1), pages(127, 152),
 nil)
 
+entry!('lee2013accelerated',
+  title('Efficient Accelerated Coordinate Descent Methods and Faster Algorithms for Solving Linear Systems'),
+  author('Yin Tat Lee and Aaron Sidford'),
+  focs(2013),
+nil)
+
 entry!('shalev13stochastic',
   title('Stochastic Dual Coordinate Ascent Methods for Regularized Loss Minimization'),
   author('Shai Shalev-Shwartz and Tong Zhang'),
