@@ -1974,7 +1974,7 @@ nil)
 
 entry!('leroux2012sag',
   title('A Stochastic Gradient Method with an Exponential Convergence Rate for Finite Training Sets'),
-  author('N. {Le Roux} and M. Schmidt and F. Bach'),
+  author('N. Le Roux and M. Schmidt and F. Bach'),
   nips(2012),
 nil)
 
