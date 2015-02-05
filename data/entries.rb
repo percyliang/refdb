@@ -1978,6 +1978,12 @@ entry!('li2013sampling',
   focs(2013),
 nil)
 
+entry!('williams2012omega',
+  title('Multiplying matrices faster than {C}oppersmith-{W}inograd'),
+  author('Virginia Vassilevska Williams'),
+  stoc(2012),
+nil)
+
 entry!('leroux2012sag',
   title('A Stochastic Gradient Method with an Exponential Convergence Rate for Finite Training Sets'),
   author('N. Le Roux and M. Schmidt and F. Bach'),
