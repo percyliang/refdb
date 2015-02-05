@@ -58,6 +58,7 @@ def wsdm(year); inproceedings(Name.new('Web Search and Data Mining', 'WSDM'), ye
 def focs(year); inproceedings(Name.new('Foundations of Computer Science', 'FOCS'), year) end
 def stoc(year); inproceedings(Name.new('Symposium on Theory of Computing', 'STOC'), year) end
 def soda(year); inproceedings(Name.new('Symposium on Discrete Algorithms', 'SODA'), year) end
+def itcs(year); inproceedings(Name.new('Innovations in Theoretical Computer Science', 'ITCS'), year) end
 def esa(year); inproceedings(Name.new('European Symposium on Algorithms', 'ESA'), year) end
 def sigir(year); inproceedings(Name.new('ACM Special Interest Group on Information Retreival', 'SIGIR'), year) end
 def uist(year); inproceedings(Name.new('User Interface Software and Technology', 'UIST'), year) end

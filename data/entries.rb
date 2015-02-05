@@ -1948,6 +1948,30 @@ entry!('nesterov2005smooth',
   number(1), pages(127, 152),
 nil)
 
+entry!('lee13coordinate',
+  title('Efficient Accelerated Coordinate Descent Methods and Faster Algorithms for Solving Linear Systems'),
+  author('Yin Tat Lee and Aaron Sidford'),
+  focs(2013),
+nil)
+
+entry!('cohen2015sampling',
+  title('Uniform Sampling for Matrix Approximation'),
+  author('Michael B. Cohen and Yin Tat Lee and Cameron Musco and Christopher Musco and Richard Peng and Aaron Sidford'),
+  itcs(2015),
+nil)
+
+entry!('nelson2013osnap',
+  title('OSNAP: Faster numerical linear algebra algorithms via sparser subspace embeddings'),
+  author('Jelani Nelson and Huy L. Nguyen'),
+  focs(2013),
+nil)
+
+entry!('li2013sampling',
+  title('Iterative Row Sampling'),
+  author('Mu Li and Gary L. Miller and Richard Peng'),
+  focs(2013),
+nil)
+
 entry!('leroux2012sag',
   title('A Stochastic Gradient Method with an Exponential Convergence Rate for Finite Training Sets'),
   author('N. {Le Roux} and M. Schmidt and F. Bach'),
@@ -1978,12 +2002,6 @@ entry!('defazio2014saga',
   title('SAGA: A Fast Incremental Gradient Method With Support for Non-Strongly Convex Composite Objectives'),
   author('Aaron Defazio and Francis Bach and Simon Lacoste-Julien'),
   nips(2014),
-nil)
-
-entry!('lee13coordinate',
-  title('Efficient Accelerated Coordinate Descent Methods and Faster Algorithms for Solving Linear Systems'),
-  author('Yin Tat Lee and Aaron Sidford'),
-  focs(2013),
 nil)
 
 entry!('johnson13svrg',
