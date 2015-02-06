@@ -2003,6 +2003,12 @@ entry!('shalev2014accelerated',
   pages(1, 41),
 nil)
 
+entry!('lin2014accelerated',
+  title('An Accelerated Proximal Coordinate Gradient Method'),
+  author('Qihang Lin and Zhaosong Lu and Lin Xiao'),
+  nips(2014),
+nil)
+
 entry!('xiao2014proximal',
   title('A proximal stochastic gradient method with progressive variance reduction'),
   author('Lin Xiao and Tong Zhang'),
