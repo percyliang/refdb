@@ -5486,3 +5486,63 @@ entry!('parikh2014proximal',
   number(3),
   pages(123, 231),
 nil)
+
+entry!('syed2010exploiting',
+  inproceedings('Proceedings of the Second Web Science Conference', 2010),
+  title('Exploiting a web of semantic data for interpreting tables'),
+  author('Zareen Syed and Tim Finin and Varish Mulwad and Anupam Joshi'),
+nil)
+
+entry!('limaye2010annotating',
+  vldb(2010),
+  volume(3),
+  title('Annotating and searching web tables using entities, types and relationships'),
+  author('Girija Limaye and Sunita Sarawagi and Soumen Chakrabarti'),
+  number('1-2'),
+  pages(1338, 1347),
+  publisher('VLDB Endowment'),
+nil)
+
+entry!('dalvi2012websets',
+  inproceedings('Proceedings of the fifth ACM international conference on Web search and data mining', 2012),
+  title('Websets: Extracting sets of entities from the web using unsupervised information extraction'),
+  author('Bhavana Bharat Dalvi and William W Cohen and Jamie Callan'),
+  pages(243, 252),
+  organization('ACM'),
+nil)
+
+entry!('pimplikar2012answering',
+  vldb(2012),
+  volume(5),
+  title('Answering table queries on the web using column keywords'),
+  author('Rakesh Pimplikar and Sunita Sarawagi'),
+  number(10),
+  pages(908, 919),
+  publisher('VLDB Endowment'),
+nil)
+
+entry!('gonzalez2010google',
+  inproceedings('Proceedings of the 2010 ACM SIGMOD International Conference on Management of data', 2010),
+  title('Google fusion tables: web-centered data management and collaboration'),
+  author('Hector Gonzalez and Alon Y Halevy and Christian S Jensen and Anno Langen and Jayant Madhavan and Rebecca Shapley and Warren Shen and Jonathan Goldberg-Kidon'),
+  pages(1061, 1066),
+  organization('ACM'),
+nil)
+
+entry!('sarawagi2014open',
+  kdd(2014),
+  title('Open-domain quantity queries on web tables: annotation, response, and consensus models'),
+  author('Sunita Sarawagi and Soumen Chakrabarti'),
+  pages(711, 720),
+  organization('ACM'),
+nil)
+
+entry!('venetis2011recovering',
+  vldb(2011),
+  volume(4),
+  title('Recovering semantics of tables on the web'),
+  author('Petros Venetis and Alon Halevy and Jayant Madhavan and Marius Pa{\c{s}}ca and Warren Shen and Fei Wu and Gengxin Miao and Chung Wu'),
+  number(9),
+  pages(528, 538),
+  publisher('VLDB Endowment'),
+nil)
