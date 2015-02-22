@@ -5503,14 +5503,6 @@ entry!('limaye2010annotating',
   publisher('VLDB Endowment'),
 nil)
 
-entry!('dalvi2012websets',
-  inproceedings('Proceedings of the fifth ACM international conference on Web search and data mining', 2012),
-  title('Websets: Extracting sets of entities from the web using unsupervised information extraction'),
-  author('Bhavana Bharat Dalvi and William W Cohen and Jamie Callan'),
-  pages(243, 252),
-  organization('ACM'),
-nil)
-
 entry!('pimplikar2012answering',
   vldb(2012),
   volume(5),
