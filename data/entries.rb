@@ -5538,3 +5538,27 @@ entry!('venetis2011recovering',
   pages(528, 538),
   publisher('VLDB Endowment'),
 nil)
+
+entry!('fader2014open',
+  kdd(2014),
+  title('Open question answering over curated and extracted knowledge bases'),
+  author('Anthony Fader and Luke Zettlemoyer and Oren Etzioni'),
+  pages(1156, 1165),
+  organization('ACM'),
+nil)
+
+entry!('ji2011knowledge',
+  acl(2011),
+  title('Knowledge base population: Successful approaches and challenges'),
+  author('Heng Ji and Ralph Grishman'),
+  pages(1148, 1158),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('unger2011pythia',
+  inproceedings('Proceedings of the 16th international conference on Natural language processing and information systems', 2011),
+  title('Pythia: compositional meaning construction for ontology-based question answering on the semantic web'),
+  author('Christina Unger and Philipp Cimiano'),
+  pages(153, 160),
+  organization('Springer-Verlag'),
+nil)
