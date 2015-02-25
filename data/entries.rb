@@ -4423,7 +4423,7 @@ nil)
 
 entry!('ghahramani1999variational',
   nips(1999),
-  title('Variational Inference for {B}ayesian Mixtures of Factor Analysers.'),
+  title('Variational Inference for {B}ayesian Mixtures of Factor Analysers'),
   author('Z. Ghahramani and M. J Beal'),
 nil)
 
@@ -4753,14 +4753,14 @@ nil)
 entry!('halikias07newbounds',
   article('Journal of Global Optimization', 2007, 39),
   number(4),
-  title('New bounds on the unconstrained quadratic integer programming problem.'),
+  title('New bounds on the unconstrained quadratic integer programming problem'),
   author('G. D. Halikias and Imad M. Jaimoukha and U. Malik and S. K. Gungah'),
   pages(543, 554),
 nil)
 
 entry!('barvinok95problems',
   article('Discrete \& Computational Geometry', 1995, 13),
-  title('Problems of Distance Geometry and Convex Properties of Quadratic Maps.'),
+  title('Problems of Distance Geometry and Convex Properties of Quadratic Maps'),
   author('A. I. Barvinok'),
   pages(189, 202),
 nil)
@@ -4960,7 +4960,7 @@ nil)
 entry!('souloumiac2009joint',
   inproceedings('Computational Advances in Multi-Sensor Adaptive Processing', 2009),
   pages(305, 308),
-  author('S. A.'),
+  author('A. Souloumiac'),
   title('Joint diagonalization: Is non-orthogonal always preferable to orthogonal?'),
 nil)
 
@@ -5083,7 +5083,7 @@ nil)
 entry!('sutskever2009modelling',
   nips(2009),
   pages(1821, 1828),
-  title('Modelling Relational Data using {B}ayesian Clustered Tensor Factorization.'),
+  title('Modelling Relational Data using {B}ayesian Clustered Tensor Factorization'),
   author('Ilya Sutskever and Ruslan Salakhutdinov and Joshua B Tenenbaum'),
 nil)
 
@@ -5561,4 +5561,33 @@ entry!('unger2011pythia',
   author('Christina Unger and Philipp Cimiano'),
   pages(153, 160),
   organization('Springer-Verlag'),
+nil)
+
+entry!('rangel2014features',
+  title('Features and Pitfalls that Users Should Seek in Natural Language Interfaces to Databases'),
+  author('Rodolfo A Pazos Rangel and Marco A Aguirre and Juan J Gonz{\'a}lez and Juan Mart{\'i}n Carpio'),
+  inproceedings('Recent Advances on Hybrid Approaches for Designing Intelligent Systems', 2014),
+  pages(617, 630),
+  publisher('Springer'),
+nil)
+
+entry!('garrette2013learning',
+  naacl(2013),
+  title('Learning a Part-of-Speech Tagger from Two Hours of Annotation'),
+  author('Dan Garrette and Jason Baldridge'),
+  pages(138, 147),
+nil)
+
+entry!('steinhardt2015rcm',
+  author('Jacob Steinhardt and Percy Liang'),
+  title('Reified Context Models'),
+  url('http://arxiv.org/pdf/1502.06665.pdf'),
+  arxiv(2015),
+nil)
+
+entry!('steinhardt2015fast',
+  author('Jacob Steinhardt and Percy Liang'),
+  title('Learning Fast-Mixing Models for Structured Prediction'),
+  url('http://arxiv.org/pdf/1502.06668.pdf'),
+  arxiv(2015),
 nil)
