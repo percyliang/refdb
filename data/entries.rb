@@ -5406,6 +5406,7 @@ entry!('kuleshov2015tensor',
   aistats(2015),
   author('Volodymyr Kuleshov and Arun Chaganty and Percy Liang'),
   title('Tensor factorization via matrix factorization'),
+  url('http://arxiv.org/pdf/1501.07320.pdf'),
 nil)
 
 entry!('steinhardt2014sparse',
