@@ -5592,3 +5592,11 @@ entry!('steinhardt2015fast',
   url('http://arxiv.org/pdf/1502.06668.pdf'),
   arxiv(2015),
 nil)
+
+entry!('price1990atis',
+  inproceedings('Proceedings of the Third DARPA Speech and Natural Language Workshop', 1990),
+  title('Evaluation of spoken language systems: The {ATIS} domain'),
+  author('Patti Price'),
+  pages(91, 95),
+  organization('Morgan Kaufmann'),
+nil)
