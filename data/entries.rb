@@ -2292,7 +2292,7 @@ nil)
 entry!('zelle96geoquery',
   author('M. Zelle and R. J. Mooney'),
   aaai(1996),
-  title('Learning to parse database queries using inductive logic proramming'),
+  title('Learning to parse database queries using inductive logic programming'),
   pages(1050, 1055),
   tags('semantic parsing'),
 nil)
