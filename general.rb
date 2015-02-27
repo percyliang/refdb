@@ -193,6 +193,7 @@ class Entry
                displayLink('techreport', getFirst('techreporturl')),
                displayLink('thesis', getFirst('thesisurl')),
                displayLink('journal', getFirst('journalurl')),
+               displayLink('errata', getFirst('errataurl')),
                displayLink('slides', getFirst('slidesurl')),
                displayLink('poster', getFirst('posterurl')),
                displayLink('code', getFirst('code')),
@@ -277,7 +278,10 @@ def organization(x);  field('organization', x)                  end
 def type(x);          field('type', x)                          end
 
 # Common use cases (that set the type of the entry too)
-def article(x, year, volume, number=nil); [type('article'), field('journal', x), year(year), volume(volume)] + (number ? [number(number)] : []) end
+def article(x, year, volume=nil, number=nil)
+  [type('article'), field('journal', x), year(year)] +
+  (volume ? [volume(volume)] : []) + (number ? [number(number)] : [])
+end
 def inproceedings(x, year); [type('inproceedings'), field('booktitle', x), year(year)] end
 def incollection(x, year); [type('incollection'), field('booktitle', x), year(year)] end
 def techreport(x, year); [type('techreport'), field('institution', x), year(year)] end
@@ -296,6 +300,7 @@ def thesisurl(x);       field('thesisurl', x)       end
 def journalurl(x);      field('journalurl', x)      end
 def techreporturl(x);   field('techreporturl', x)   end
 def supplementalurl(x); field('supplementalurl', x) end
+def errataurl(x);       field('errataurl', x)       end
 def code(x);            field('code', x)            end
 def data(x);            field('data', x)            end
 def project(x);         field('project', x)         end

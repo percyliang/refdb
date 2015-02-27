@@ -1903,6 +1903,12 @@ entry!('strohmer09kaczmarz',
   article('Journal of Fourier Analysis and Applications', 2009, 15), pages(262, 278),
 nil)
 
+entry!('needell2014kaczmarz',
+  author('Deanna Needell and Nathan Srebro and Rachel Ward'),
+  title('Stochastic Gradient Descent, Weighted Sampling, and the Randomized Kaczmarz algorithm'),
+  nips(2014),
+nil)
+
 entry!('srebro10stochastic',
   title('Stochastic optimization and online learning with smooth loss functions'),
   author('Nati Srebro and Karthik Sridharan and Ambuj Tewari'),
@@ -1928,16 +1934,98 @@ entry!('rakhlin12making',
   icml(2012),
 nil)
 
-entry!('shalev13stochastic',
-  title('Stochastic Dual Coordinate Ascent Methods for Regularized Loss Minimization'),
-  author('Shai Shalev-Shwartz and Tong Zhang'),
-  jmlr(2013, 14), pages(567, 599),
+entry!('nesterov1983acceleration',
+  title('A method of solving a convex programming problem with convergence rate $O(1/k^2)$'),
+  author('Y. Nesterov'),
+  article('Soviet Mathematics Doklady', 1983, 27),
+  number(2), pages(372, 376),
+nil)
+
+entry!('nesterov2004introductory',
+  title('Introductory Lectures on Convex Optimization: A Basic Course'),
+  author('Y. Nesterov'),
+  book('Springer', 2004),
+nil)
+
+entry!('nesterov2005smooth',
+  title('Smooth minimization of non-smooth functions'),
+  author('Y. Nesterov'),
+  article('Mathematical Programming', 2005, 103),
+  number(1), pages(127, 152),
 nil)
 
 entry!('lee13coordinate',
   title('Efficient Accelerated Coordinate Descent Methods and Faster Algorithms for Solving Linear Systems'),
   author('Yin Tat Lee and Aaron Sidford'),
   focs(2013),
+nil)
+
+entry!('cohen2015sampling',
+  title('Uniform Sampling for Matrix Approximation'),
+  author('Michael B. Cohen and Yin Tat Lee and Cameron Musco and Christopher Musco and Richard Peng and Aaron Sidford'),
+  itcs(2015),
+nil)
+
+entry!('nelson2013osnap',
+  title('OSNAP: Faster numerical linear algebra algorithms via sparser subspace embeddings'),
+  author('Jelani Nelson and Huy L. Nguyen'),
+  focs(2013),
+nil)
+
+entry!('li2013sampling',
+  title('Iterative Row Sampling'),
+  author('Mu Li and Gary L. Miller and Richard Peng'),
+  focs(2013),
+nil)
+
+entry!('williams2012omega',
+  title('Multiplying matrices faster than {C}oppersmith-{W}inograd'),
+  author('Virginia Vassilevska Williams'),
+  stoc(2012),
+nil)
+
+entry!('leroux2012sag',
+  title('A Stochastic Gradient Method with an Exponential Convergence Rate for Finite Training Sets'),
+  author('N. Le Roux and M. Schmidt and F. Bach'),
+  nips(2012),
+nil)
+
+entry!('shalev13stochastic',
+  title('Stochastic Dual Coordinate Ascent Methods for Regularized Loss Minimization'),
+  author('Shai Shalev-Shwartz and Tong Zhang'),
+  jmlr(2013, 14), pages(567, 599),
+nil)
+
+entry!('shalev2014accelerated',
+  title('Accelerated proximal stochastic dual coordinate ascent for regularized loss minimization'),
+  author('Shai Shalev-Shwartz and Tong Zhang'),
+  article('Mathematical Programming', 2014),
+  pages(1, 41),
+nil)
+
+entry!('lin2014accelerated',
+  title('An Accelerated Proximal Coordinate Gradient Method'),
+  author('Qihang Lin and Zhaosong Lu and Lin Xiao'),
+  nips(2014),
+nil)
+
+entry!('xiao2014proximal',
+  title('A proximal stochastic gradient method with progressive variance reduction'),
+  author('Lin Xiao and Tong Zhang'),
+  article('SIAM Journal on Optimization', 2014, 24),
+  number(4), pages(2057, 2075),
+nil)
+
+entry!('defazio2014saga',
+  title('SAGA: A Fast Incremental Gradient Method With Support for Non-Strongly Convex Composite Objectives'),
+  author('Aaron Defazio and Francis Bach and Simon Lacoste-Julien'),
+  nips(2014),
+nil)
+
+entry!('johnson13svrg',
+  title('Accelerating Stochastic Gradient Descent using Predictive Variance Reduction'),
+  author('Rie Johnson and Tong Zhang'),
+  nips(2013),
 nil)
 
 entry!('orabona14simultaneous',
@@ -2204,7 +2292,7 @@ nil)
 entry!('zelle96geoquery',
   author('M. Zelle and R. J. Mooney'),
   aaai(1996),
-  title('Learning to parse database queries using inductive logic proramming'),
+  title('Learning to parse database queries using inductive logic programming'),
   pages(1050, 1055),
   tags('semantic parsing'),
 nil)
@@ -3992,6 +4080,7 @@ entry!('liang05meng',
   title('Semi-Supervised Learning for Natural Language'),
   mastersthesis('Massachusetts Institute of Technology', 2005),
   url('meng-thesis.pdf'),
+  errataurl('meng-thesis-errata.pdf'),
   punchlines('Task: named-entity recognition and Chinese word segmentation',
             'Idea: create features based on unlabeled data '+
             'to use in Perceptron learning in Markov or semi-Markov models'),
@@ -4252,10 +4341,11 @@ entry!('jaeger2000observable',
   tags('spectral'),
 nil)
 
-entry!('liang2014semantics',
+entry!('liang2015semantics',
   author('Percy Liang and Christopher Potts'),
   title('Bringing machine learning and compositional semantics together'),
-  article('Annual Reviews of Linguistics (to appear)', 2014, 0),
+  article('Annual Reviews of Linguistics', 2015, 1, 1),
+  pages(355, 376),
   url('http://www.stanford.edu/~cgpotts/manuscripts/liang-potts-semantics.pdf'),
   tags('semantic parsing'),
 nil)
@@ -4310,10 +4400,18 @@ entry!('frostig2014subconstant',
   url('http://arxiv.org/abs/1408.2270'),
 nil)
 
+entry!('wager2014',
+  title('Altitude Training: Strong Bounds for Single-Layer Dropout'),
+  author('Stefan Wager and Will Fithian and Sida Wang and Percy Liang'),
+  nips(2014),
+  url('http://arxiv.org/pdf/1407.3289.pdf'),
+nil)
+
 entry!('frostig2014lowrank',
   title('Simple {MAP} inference via low-rank relaxations'),
   author('Roy Frostig and Sida Wang and Percy Liang and Chris Manning'),
   nips(2014),
+  url('http://cs.stanford.edu/~rfrostig/pubs/lowrank-nips2014.pdf'),
 nil)
 
 entry!('wang2014iqp',
@@ -4325,7 +4423,7 @@ nil)
 
 entry!('ghahramani1999variational',
   nips(1999),
-  title('Variational Inference for {B}ayesian Mixtures of Factor Analysers.'),
+  title('Variational Inference for {B}ayesian Mixtures of Factor Analysers'),
   author('Z. Ghahramani and M. J Beal'),
 nil)
 
@@ -4506,7 +4604,24 @@ entry!('blum1954multidimensional',
 	number(4),
 	pages(737,744),
 nil)
-	
+
+entry!('acar2009unsupervised',
+  title('Unsupervised multiway data analysis: A literature survey'),
+  author('Acar, Evrim and Yener, B{\"u}lent'),
+  article('Knowledge and Data Engineering, IEEE Transactions on', 2009, 21),
+  number(1),
+  pages(6,20),
+ tags('tensors'),
+)
+
+entry!('bader2008discussion',
+  title('Discussion tracking in Enron email using {PARAFAC}'),
+  author('Bader, Brett W and Berry, Michael W and Browne, Murray'),
+  article('Survey of Text Mining II', 2008, 1),
+  pages(147,163),
+ tags('tensors'),
+)
+
 entry!('hinton2010practical',
   techreport('University of Toronto', 2010),
   title('A practical guide to training restricted {B}oltzmann machines'),
@@ -4638,14 +4753,14 @@ nil)
 entry!('halikias07newbounds',
   article('Journal of Global Optimization', 2007, 39),
   number(4),
-  title('New bounds on the unconstrained quadratic integer programming problem.'),
+  title('New bounds on the unconstrained quadratic integer programming problem'),
   author('G. D. Halikias and Imad M. Jaimoukha and U. Malik and S. K. Gungah'),
   pages(543, 554),
 nil)
 
 entry!('barvinok95problems',
   article('Discrete \& Computational Geometry', 1995, 13),
-  title('Problems of Distance Geometry and Convex Properties of Quadratic Maps.'),
+  title('Problems of Distance Geometry and Convex Properties of Quadratic Maps'),
   author('A. I. Barvinok'),
   pages(189, 202),
 nil)
@@ -4845,7 +4960,7 @@ nil)
 entry!('souloumiac2009joint',
   inproceedings('Computational Advances in Multi-Sensor Adaptive Processing', 2009),
   pages(305, 308),
-  author('S. A.'),
+  author('A. Souloumiac'),
   title('Joint diagonalization: Is non-orthogonal always preferable to orthogonal?'),
 nil)
 
@@ -4968,7 +5083,7 @@ nil)
 entry!('sutskever2009modelling',
   nips(2009),
   pages(1821, 1828),
-  title('Modelling Relational Data using {B}ayesian Clustered Tensor Factorization.'),
+  title('Modelling Relational Data using {B}ayesian Clustered Tensor Factorization'),
   author('Ilya Sutskever and Ruslan Salakhutdinov and Joshua B Tenenbaum'),
 nil)
 
@@ -5079,6 +5194,49 @@ entry!('goldberg2013training',
   author('Yoav Goldberg and Joakim Nivre'),
 nil)
 
+entry!('shalit2014coordinate',
+  icml(2014),
+  title('Coordinate-descent for learning orthogonal matrices through Givens rotations'),
+  author('Uiri Shalit and Gal Chechik'),
+nil)
+
+entry!('yeredor2004approximate',
+  article('Independent Component Analysis and Blind Signal Separation', 2004, 1),
+  pages(86,96),
+  publisher('Springer Berlin Heidelberg'),
+  title('Approximate Joint Diagonalization Using a Natural Gradient Approach'),
+  author('Arie Yeredor and Andreas Ziehe and Klaus-Robert M{\"u}ller'),
+nil)
+
+entry!('halko2011structure',
+  article('SIAM Review', 2011, 53),
+  pages(217,288),
+  title("Finding Structure with Randomness: Probabilistic Algorithms for
+              Constructing Approximate Matrix Decompositions"),
+  author("Halko, N and Martinsson, P and Tropp, J"),
+)
+
+entry!('zhang2014crowdsourcing',
+  title("Spectral Methods meet {EM}: A Provably Optimal Algorithm for
+                   Crowdsourcing"),
+  author("Yuchen Zhang and Xi Chen and Dengyong Zhou and Michael I Jordan"),
+  arxiv(2014),
+  url('http://arxiv.org/pdf/1406.3824'),
+)
+
+entry!('huang2013fast', 
+  title("Fast Detection of Overlapping Communities via Online Tensor Methods"),
+  author("Furong Huang and U N Niranjan and Mohammad Umar Hakeem and Animashree Anandkumar"),
+  arxiv(2013),
+  url('http://arxiv.org/pdf/1309.0787'),
+)
+
+entry!('liu2005vector',
+  title("Text representation: from vector to tensor"),
+  inproceedings("International Conference on Data Mining", 2005),
+  author("Ning Liu and Benyu Zhang and Jun Yan and Zheng Chen and Wenyin Liu and Fengshan Bai and Leefeng Chien"),
+)
+
 entry!('auli2011efficient',
   acl(2011),
   title('Efficient {CCG} parsing: A* versus adaptive supertagging'),
@@ -5175,4 +5333,299 @@ entry!('kummerfeld2010faster',
   title('Faster parsing by supertagger adaptation'),
   author('Jonathan Kummerfeld and Jessika Roesner and Tim Dawborn and James Haggerty and James Curran and Stephen Clark'),
   acl(2010),
+nil)
+
+entry!('richardson2013mctest',
+  emnlp(2013),
+  pages(193, 203),
+  title('MCTest: A Challenge Dataset for the Open-Domain Machine Comprehension of Text'),
+  author('Matthew Richardson and Christopher JC Burges and Erin Renshaw'),
+nil)
+
+entry!('brill2002askmsr',
+  acl(2002),
+  author('Eric Brill and Susan Dumais and Michele Banko'),
+  title('An analysis of the AskMSR question-answering system'),
+  pages(257, 264),
+nil)
+
+entry!('moldovan2002lcc',
+  inproceedings('TREC', 2002),
+  author('Dan I Moldovan and Sanda M Harabagiu and Roxana Girju and Paul Morarescu and V Finley Lacatusu and Adrian Novischi and Adriana Badulescu and Orest Bolohan'),
+  title('{LCC} Tools for Question Answering'),
+nil)
+
+entry!('cui2005dependency',
+  sigir(2005),
+  pages(400, 407),
+  title('Question answering passage retrieval using dependency relations'),
+  author('Hang Cui and Renxu Sun and Keya Li and Min-Yen Kan and Tat-Seng Chua'),
+nil)
+
+entry!('scaria2013biological',
+  emnlp(2013),
+  author('Aju Thalappillil Scaria and Jonathan Berant and Mengqiu Wang and Christopher D Manning and Justin Lewis and Brittany Harding and Peter Clark'),
+  title('Learning biological processes with global constraints'),
+nil)
+
+entry!('berant2014biological',
+  emnlp(2014),
+  author('Jonathan Berant and Vivek Srikumar and Pei-Chun Chen and Brad Huang and Christopher D Manning and Abby Vander Linden and Brittany Harding'),
+  title('Modeling Biological Processes for Reading Comprehension'),
+nil)
+
+entry!('lao2012rules',
+  emnlpconll(2012),
+  author('Ni Lao and Amarnag Subramanya and Fernando Pereira and William W Cohen'),
+  pages(1017, 1026),
+  title('Reading the web with learned syntactic-semantic inference rules'),
+nil)
+
+entry!('kushman2014algebra',
+  acl(2014),
+  author('Nate Kushman and Yoav Artzi and Luke Zettlemoyer and Regina Barzilay'),
+  title('Learning to Automatically Solve Algebra Word Problems'),
+nil)
+
+entry!('reddy2014large',
+  tacl(2014, 2),
+  number(10),
+  pages(377, 392),
+  author('Siva Reddy and Mirella Lapata and Mark Steedman'),
+  title('Large-scale Semantic Parsing without Question-Answer Pairs'),
+nil)
+
+entry!('shi2015sample',
+  aistats(2015),
+  author('Tianlin Shi and Jacob Steinhardt and Percy Liang'),
+  title('Learning Where To Sample in Structured Prediction'),
+  url('sample-aistats2015.pdf'),
+nil)
+
+entry!('kuleshov2015tensor',
+  aistats(2015),
+  author('Volodymyr Kuleshov and Arun Chaganty and Percy Liang'),
+  title('Tensor factorization via matrix factorization'),
+  url('http://arxiv.org/pdf/1501.07320.pdf'),
+nil)
+
+entry!('steinhardt2014sparse',
+  arxiv(2014),
+  author('Jacob Steinhardt and Stefan Wager and Percy Liang'),
+  title('The Statistics of Streaming Sparse Regression'),
+  url('http://arxiv.org/pdf/1412.4182.pdf'),
+nil)
+
+entry!('goldberg2010efficient',
+  acl(2010),
+  title('An efficient algorithm for easy-first non-directional dependency parsing'),
+  author('Yoav Goldberg and Michael Elhadad'),
+  pages(742, 750),
+nil)
+
+entry!('zhang2014greed',
+  emnlp(2014),
+  title('Greed is Good if Randomized: New Inference for Dependency Parsing'),
+  author('Yuan Zhang and Tao Lei and Regina Barzilay and Tommi Jaakkola'),
+nil)
+
+entry!('wick2011query',
+  nips(2011),
+  title('Query-Aware {MCMC}'),
+  author('Michael L Wick and Andrew McCallum'),
+  pages(2564, 2572),
+nil)
+
+entry!('andrieu2008tutorial',
+  article('Statistics and Computing', 2008, 18),
+  title('A tutorial on adaptive {MCMC}'),
+  author('Christophe Andrieu and Johannes Thoms'),
+  number(4),
+  pages(343, 373),
+  publisher('Springer'),
+nil)
+
+entry!('hillar2013tensor',
+  jacm(2013, 60),
+  author('Christopher J Hillar and Lek-Heng Lim'),
+  title('Most Tensor Problems Are {NP-Hard}'),
+nil)
+
+entry!('desilva2008tensor',
+  title('Tensor Rank and the {Ill-Posedness} of the Best {Low-Rank} Approximation Problem'),
+  author('de Silva, V and Lim, L'),
+  article('SIAM Journal on Matrix Analysis and Applications', 2008, 30),
+  pages(1084, 1127),
+nil)
+
+entry!('rahimi2007random',
+  title('Random Features for Large-Scale Kernel Machines'),
+  author('Ali Rahimi and Ben Recht'),
+  nips(2007),
+nil)
+
+entry!('guler1992ppa',
+  title('New Proximal Point Algorithms for Convex Minimization'),
+  author('Osman G\\"uler'),
+  article('SIAM Journal on Optimization', 1992, 2),
+  number(4),
+  pages(649, 664),
+nil)
+
+entry!('rockafellar1976ppa',
+  title('Monotone operators and the proximal point algorithm'),
+  author('R. Tyrrell Rockafellar'),
+  article('SIAM Journal on Control and Optimization', 1976, 14),
+  number(5),
+  pages(877, 898),
+nil)
+
+entry!('parikh2014proximal',
+  title('Proximal Algorithms'),
+  author('Neal Parikh and Stephen Boyd'),
+  article('Foundations and Trends in Optimization', 2014, 1),
+  number(3),
+  pages(123, 231),
+nil)
+
+entry!('syed2010exploiting',
+  inproceedings('Proceedings of the Second Web Science Conference', 2010),
+  title('Exploiting a web of semantic data for interpreting tables'),
+  author('Zareen Syed and Tim Finin and Varish Mulwad and Anupam Joshi'),
+nil)
+
+entry!('limaye2010annotating',
+  vldb(2010),
+  volume(3),
+  title('Annotating and searching web tables using entities, types and relationships'),
+  author('Girija Limaye and Sunita Sarawagi and Soumen Chakrabarti'),
+  number('1-2'),
+  pages(1338, 1347),
+  publisher('VLDB Endowment'),
+nil)
+
+entry!('pimplikar2012answering',
+  vldb(2012),
+  volume(5),
+  title('Answering table queries on the web using column keywords'),
+  author('Rakesh Pimplikar and Sunita Sarawagi'),
+  number(10),
+  pages(908, 919),
+  publisher('VLDB Endowment'),
+nil)
+
+entry!('gonzalez2010google',
+  inproceedings('Proceedings of the 2010 ACM SIGMOD International Conference on Management of data', 2010),
+  title('Google fusion tables: web-centered data management and collaboration'),
+  author('Hector Gonzalez and Alon Y Halevy and Christian S Jensen and Anno Langen and Jayant Madhavan and Rebecca Shapley and Warren Shen and Jonathan Goldberg-Kidon'),
+  pages(1061, 1066),
+  organization('ACM'),
+nil)
+
+entry!('sarawagi2014open',
+  kdd(2014),
+  title('Open-domain quantity queries on web tables: annotation, response, and consensus models'),
+  author('Sunita Sarawagi and Soumen Chakrabarti'),
+  pages(711, 720),
+  organization('ACM'),
+nil)
+
+entry!('venetis2011recovering',
+  vldb(2011),
+  volume(4),
+  title('Recovering semantics of tables on the web'),
+  author('Petros Venetis and Alon Halevy and Jayant Madhavan and Marius Pa{\c{s}}ca and Warren Shen and Fei Wu and Gengxin Miao and Chung Wu'),
+  number(9),
+  pages(528, 538),
+  publisher('VLDB Endowment'),
+nil)
+
+entry!('fader2014open',
+  kdd(2014),
+  title('Open question answering over curated and extracted knowledge bases'),
+  author('Anthony Fader and Luke Zettlemoyer and Oren Etzioni'),
+  pages(1156, 1165),
+  organization('ACM'),
+nil)
+
+entry!('ji2011knowledge',
+  acl(2011),
+  title('Knowledge base population: Successful approaches and challenges'),
+  author('Heng Ji and Ralph Grishman'),
+  pages(1148, 1158),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('unger2011pythia',
+  inproceedings('Proceedings of the 16th international conference on Natural language processing and information systems', 2011),
+  title('Pythia: compositional meaning construction for ontology-based question answering on the semantic web'),
+  author('Christina Unger and Philipp Cimiano'),
+  pages(153, 160),
+  organization('Springer-Verlag'),
+nil)
+
+entry!('rangel2014features',
+  title('Features and Pitfalls that Users Should Seek in Natural Language Interfaces to Databases'),
+  author('Rodolfo A Pazos Rangel and Marco A Aguirre and Juan J Gonz{\'a}lez and Juan Mart{\'i}n Carpio'),
+  inproceedings('Recent Advances on Hybrid Approaches for Designing Intelligent Systems', 2014),
+  pages(617, 630),
+  publisher('Springer'),
+nil)
+
+entry!('garrette2013learning',
+  naacl(2013),
+  title('Learning a Part-of-Speech Tagger from Two Hours of Annotation'),
+  author('Dan Garrette and Jason Baldridge'),
+  pages(138, 147),
+nil)
+
+entry!('steinhardt2015rcm',
+  author('Jacob Steinhardt and Percy Liang'),
+  title('Reified Context Models'),
+  url('http://arxiv.org/pdf/1502.06665.pdf'),
+  arxiv(2015),
+nil)
+
+entry!('steinhardt2015fast',
+  author('Jacob Steinhardt and Percy Liang'),
+  title('Learning Fast-Mixing Models for Structured Prediction'),
+  url('http://arxiv.org/pdf/1502.06668.pdf'),
+  arxiv(2015),
+nil)
+
+entry!('price1990atis',
+  inproceedings('Proceedings of the Third DARPA Speech and Natural Language Workshop', 1990),
+  title('Evaluation of spoken language systems: The {ATIS} domain'),
+  author('Patti Price'),
+  pages(91, 95),
+  organization('Morgan Kaufmann'),
+nil)
+
+entry!('hosseini2014learning',
+  emnlp(2014),
+  title('Learning to Solve Arithmetic Word Problems with Verb Categorization'),
+  author('Mohammad Javad Hosseini and Hannaneh Hajishirzi and Oren Etzioni and Nate Kushman'),
+nil)
+
+entry!('schwitter2010controlled',
+  coling(2010),
+  title('Controlled natural languages for knowledge representation'),
+  author('Rolf Schwitter'),
+  pages(1113, 1121),
+nil)
+
+entry!('wang2011semantic',
+  article('Spoken Language Understanding: Systems for Extracting Semantic Information from Speech', 2011),
+  title('Semantic Frame-Based Spoken Language Understanding'),
+  author('Ye-Yi Wang and Li Deng and Alex Acero'),
+  pages(41, 91),
+  publisher('Wiley Online Library'),
+nil)
+
+entry!('wu2010open',
+  acl(2010),
+  title('Open information extraction using {W}ikipedia'),
+  author('Fei Wu and Daniel S Weld'),
+  pages(118, 127),
+  organization('Association for Computational Linguistics'),
 nil)
