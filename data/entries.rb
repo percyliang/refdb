@@ -5600,3 +5600,16 @@ entry!('price1990atis',
   pages(91, 95),
   organization('Morgan Kaufmann'),
 nil)
+
+entry!('hosseini2014learning',
+  emnlp(2014),
+  title('Learning to Solve Arithmetic Word Problems with Verb Categorization'),
+  author('Mohammad Javad Hosseini and Hannaneh Hajishirzi and Oren Etzioni and Nate Kushman'),
+nil)
+
+entry!('schwitter2010controlled',
+  coling(2010),
+  title('Controlled natural languages for knowledge representation'),
+  author('Rolf Schwitter'),
+  pages(1113, 1121),
+nil)
