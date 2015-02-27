@@ -5600,3 +5600,19 @@ entry!('price1990atis',
   pages(91, 95),
   organization('Morgan Kaufmann'),
 nil)
+
+entry!('wang2011semantic',
+  article('Spoken Language Understanding: Systems for Extracting Semantic Information from Speech', 2011),
+  title('Semantic Frame-Based Spoken Language Understanding'),
+  author('Ye-Yi Wang and Li Deng and Alex Acero'),
+  pages(41, 91),
+  publisher('Wiley Online Library'),
+nil)
+
+entry!('wu2010open',
+  acl(2010),
+  title('Open information extraction using {W}ikipedia'),
+  author('Fei Wu and Daniel S Weld'),
+  pages(118, 127),
+  organization('Association for Computational Linguistics'),
+nil)
