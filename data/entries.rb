@@ -5094,7 +5094,7 @@ nil)
 entry!('yao2014ie',
   acl(2014),
   title('Information extraction over structured data: Question answering with {F}reebase'),
-  author('Xuchen Yao and Benjamin Van Durme'),
+  author('Xuchen Yao and Benjamin Van-Durme'),
 nil)
 
 entry!('bordes2014qa',
