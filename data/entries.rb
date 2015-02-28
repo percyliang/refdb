@@ -5629,3 +5629,12 @@ entry!('wu2010open',
   pages(118, 127),
   organization('Association for Computational Linguistics'),
 nil)
+
+entry!('gupta2009answering',
+  vldb(2009),
+  title('Answering table augmentation queries from unstructured lists on the web'),
+  author('Rahul Gupta and Sunita Sarawagi'),
+  number(1),
+  pages(289, 300),
+  publisher('VLDB Endowment'),
+nil)
