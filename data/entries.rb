@@ -5733,7 +5733,7 @@ entry!('barhaim2008',
   title('Efficient Semantic Deduction and Approximate Matching over Compact Parse Forests'),
   author('Roy Bar-Haim and Jonathan Berant and Ido Dagan and Iddo Greental and Shachar Mirkin and Eyal Shnarch and Idan Szpektor'),
   year(2008),
-  inproceedings('Text Annual Conference',2008),
+  inproceedings('Text Analysis Conference',2008),
 nil)
 
 entry!('berant2007boosting',
