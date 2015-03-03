@@ -5370,7 +5370,7 @@ nil)
 
 entry!('berant2014biological',
   emnlp(2014),
-  author('Jonathan Berant and Vivek Srikumar and Pei-Chun Chen and Brad Huang and Christopher D Manning and Abby Vander Linden and Brittany Harding'),
+  author('Jonathan Berant and Vivek Srikumar and Pei-Chun Chen and Abby Vander Linden and Brittany Harding and Brad Huang and Peter Clark and Christopher D Manning'),
   title('Modeling Biological Processes for Reading Comprehension'),
 nil)
 
@@ -5637,4 +5637,115 @@ entry!('gupta2009answering',
   number(1),
   pages(289, 300),
   publisher('VLDB Endowment'),
+nil)
+
+entry!('yao2014freebase',
+  author('Xuchen Yao and Jonathan Berant and Benjamin Van-Durme'),
+  title('{F}reebase {QA}: Information Extraction or Semantic Parsing'),
+  year(2014),
+  inproceedings('Workshop on Semantic parsing',2014),
+nil)
+
+entry!('melamud2013context',
+  author('Oren Melamud and Jonathan Berant and Ido Dagan and Jacob Goldberger and Idan Szpektor'),
+  title('A Two Level Model for Context Sensitive Inference Rules'),
+  acl(2013),
+nil)
+
+entry!('berant2012efficient',
+  author('Jonathan Berant and Ido Dagan and Meni Adler and Jacob Goldberger'),
+  title('Efficient Tree-based Approximation for Entailment Graph learning'),
+  acl(2012),
+nil)
+
+entry!('adler2012textexploration',
+  author('Meni Adler and Jonathan Berant and Ido Dagan'),
+  inproceedings('ACL system demonstrations',2012),
+  year(2012),
+  title('Entailment-based Text Exploration with Application to the Health-care Domain'),
+nil)
+    
+entry!('zeichner2012crowdsourcing',
+  author('Naomi Zeichner and Jonathan Berant and Ido Dagan'),
+  title('Crowdsourcing Inference-rule Evaluation'),
+  acl(2012),
+nil)
+
+entry!('weisman2012learning',
+  author('Hila Weisman and Jonathan Berant and Idan Szpektor and Ido Dagan'),
+  title('Learning Verb Inference Rules from Linguistically-motivated Evidence'),
+  emnlp(2012),
+nil)
+  
+entry!('berant2011global',
+  author('Jonathan Berant and Ido Dagan and Jacob Goldberger'),
+  title('Global Learning of Typed Entailment Rules'),
+  acl(2011),
+nil)
+
+entry!('stern2011knowledge',
+  author('Asher Stern and Amnon Lotan and Shachar Mirkin and Eyal Shnarch and Lili Kotlerman and Jonathan Berant and Ido Dagan'),
+  title('Knowledge and Tree-Edits in Learnable Entailment Proofs'),
+  inproceedings('Text Analysis Conference',2011),
+  year(2011),
+nil)
+
+entry!('berant2010global',
+  author('Jonathan Berant and Ido Dagan and Jacob Goldberger'),
+  title('Global Learning of Focused Entailment Graphs'),
+  acl(2010),
+nil)
+
+entry!('mirkin2010',
+  author('Shachar Mirkin and Jonathan Berant and Ido Dagan and Eyal Shnarch'),
+  title('Recognising Entailment within Discourse'),
+  coling(2010),
+nil)
+
+entry!('stern2010rulechaining',
+  author('Asher Stern and Eyal Shnarch and Amnon Lotan and Shachar Mirkin and Lili Kotlerman and Naomi Zeichner and Jonathan Berant and Ido Dagan'),
+  title('Rule Chaining and Approximate Match in Textual Inference'),
+  inproceedings('Text Analysis Conference',2010),
+nil)
+
+entry!('barhaim2009forest',
+  author('Roy Bar-Haim and Jonathan Berant and Ido Dagan'),
+  title('A Compact Forest for Scalable Inference over Entailment and Paraphrase Rules'),
+  emnlp(2009),
+nil)
+
+
+entry!('mirkin2009discourse',
+  author('Shachar Mirkin and Roy Bar-Haim and Jonathan Berant and Ido Dagan and Eyal Shnarch and Asher Stern and Idan Szpektor'),
+  year(2009),
+  title('Addressing Discourse and Document Structure in the {RTE} Search Task'),
+  inproceedings('Text Analysis Conference',2009),
+nil)
+
+entry!('berant2008tracks',
+  author('Jonathan Berant and Catherine Caldwell-Harris and Shimon Edelman'),
+  title('Tracks in the Mind: Differential Entrenchment of Common and Rare Liturgical and Every- day Multiword Phrases in Religious and Secular Hebrew Speakers'),
+  year(2008),
+  inproceedings('Annual Meeting of the Cognitive Science Society',2008),
+nil)
+
+entry!('barhaim2008',
+  title('Efficient Semantic Deduction and Approximate Matching over Compact Parse Forests'),
+  author('Roy Bar-Haim and Jonathan Berant and Ido Dagan and Iddo Greental and Shachar Mirkin and Eyal Shnarch and Idan Szpektor'),
+  year(2008),
+  inproceedings('Text Annual Conference',2008),
+nil)
+
+entry!('berant2007boosting',
+  author('Jonathan Berant and Yaron Gross and Matan Mussel and Ben Sandbank and Eytan Rupping and Shimon Edelman'),
+  year(2007),
+  title('Boosting Unsupervised Grammar Induction by Splitting Complex Sentences on Function Words'),
+  inproceedings('Boston University Conference on Language Developments',2007),
+nil)
+
+entry!('berant2012learning',
+  title('Learning Entailment Relations by Global Graph Structure Optimization'),
+  author('Jonathan Berant and Ido Dagan and Jacob Goldberger'),
+  article('Computational Linguistics', 2012, 38),
+  pages(73,111),
 nil)
