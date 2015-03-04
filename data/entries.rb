@@ -3600,7 +3600,7 @@ entry!('berant2013freebase',
   author('Jonathan Berant and Andrew Chou and Roy Frostig and Percy Liang'),
   title('Semantic Parsing on {F}reebase from Question-Answer Pairs'),
   emnlp(2013),
-  url('freebase-emnlp2013.pdf'),
+  url('http://www.aclweb.org/anthology/D13-1160'),
   slidesurl('freebase-emnlp2013-talk.pdf'),
   supplementalurl('http://arxiv.org/pdf/1309.4408.pdf'),
   project('http://www-nlp.stanford.edu/software/sempre/'),
@@ -4354,7 +4354,7 @@ entry!('berant2014paraphrasing',
   author('Jonathan Berant and Percy Liang'),
   title('Semantic Parsing via Paraphrasing'),
   acl(2014),
-  url('paraphrasing-acl2014.pdf'),
+  url('http://aclweb.org/anthology/P14-1133'),
   note('Best long paper honorable mention.'),
   project('http://www-nlp.stanford.edu/software/sempre/'),
   tags('semantic parsing'),
@@ -5366,12 +5366,19 @@ entry!('scaria2013biological',
   emnlp(2013),
   author('Aju Thalappillil Scaria and Jonathan Berant and Mengqiu Wang and Christopher D Manning and Justin Lewis and Brittany Harding and Peter Clark'),
   title('Learning biological processes with global constraints'),
+  url('http://www.aclweb.org/anthology/D13-1177'),
+  project('http://nlp.stanford.edu/software/bioprocess/'),
+  tags('event extraction'),
 nil)
 
 entry!('berant2014biological',
   emnlp(2014),
   author('Jonathan Berant and Vivek Srikumar and Pei-Chun Chen and Abby Vander Linden and Brittany Harding and Brad Huang and Peter Clark and Christopher D Manning'),
   title('Modeling Biological Processes for Reading Comprehension'),
+  project('http://nlp.stanford.edu/software/bioprocess/'),
+  url('http://www.aclweb.org/anthology/D/D14/D14-1159v2.pdf'),
+  tags('event extraction'),
+  note('Best long paper'),
 nil)
 
 entry!('lao2012rules',
@@ -5644,18 +5651,25 @@ entry!('yao2014freebase',
   title('{F}reebase {QA}: Information Extraction or Semantic Parsing'),
   year(2014),
   inproceedings('Workshop on Semantic parsing',2014),
+  url('http://aclweb.org/anthology/W14-2416'),
+  tags('semantic parsing'),
 nil)
 
 entry!('melamud2013context',
   author('Oren Melamud and Jonathan Berant and Ido Dagan and Jacob Goldberger and Idan Szpektor'),
   title('A Two Level Model for Context Sensitive Inference Rules'),
   acl(2013),
+  url('http://www.aclweb.org/anthology/P13-1131'),
+  note('Best long paper runner-up'),
+  tags('textual entailment'),
 nil)
 
 entry!('berant2012efficient',
   author('Jonathan Berant and Ido Dagan and Meni Adler and Jacob Goldberger'),
   title('Efficient Tree-based Approximation for Entailment Graph learning'),
+  url('http://www.aclweb.org/anthology/P12-1013'),
   acl(2012),
+  tags('textual entailment'),
 nil)
 
 entry!('adler2012textexploration',
@@ -5663,24 +5677,33 @@ entry!('adler2012textexploration',
   inproceedings('ACL system demonstrations',2012),
   year(2012),
   title('Entailment-based Text Exploration with Application to the Health-care Domain'),
+  url('http://www.aclweb.org/anthology/P12-3014'),
+  tags('textual entailment'),
 nil)
     
 entry!('zeichner2012crowdsourcing',
   author('Naomi Zeichner and Jonathan Berant and Ido Dagan'),
   title('Crowdsourcing Inference-rule Evaluation'),
   acl(2012),
+  url('http://www.aclweb.org/anthology/P12-2031'),
+  tags('textual entailment'),
 nil)
 
 entry!('weisman2012learning',
   author('Hila Weisman and Jonathan Berant and Idan Szpektor and Ido Dagan'),
   title('Learning Verb Inference Rules from Linguistically-motivated Evidence'),
+  url('http://www.aclweb.org/anthology/D12-1018'),
   emnlp(2012),
+  tags('textual entailment'),
 nil)
   
 entry!('berant2011global',
   author('Jonathan Berant and Ido Dagan and Jacob Goldberger'),
   title('Global Learning of Typed Entailment Rules'),
   acl(2011),
+  note('Best long student paper'),
+  tags('textual entailment'),
+  url('http://turing.cs.washington.edu/papers/berant-acl2011.pdf'),
 nil)
 
 entry!('stern2011knowledge',
@@ -5688,30 +5711,40 @@ entry!('stern2011knowledge',
   title('Knowledge and Tree-Edits in Learnable Entailment Proofs'),
   inproceedings('Text Analysis Conference',2011),
   year(2011),
+  tags('textual entailment'),
+  url('http://eprints.pascal-network.org/archive/00008808/01/biu_tac2011.pdf'),
 nil)
 
 entry!('berant2010global',
   author('Jonathan Berant and Ido Dagan and Jacob Goldberger'),
   title('Global Learning of Focused Entailment Graphs'),
   acl(2010),
+  tags('textual entailment'),
+  url('https://aclweb.org/anthology/P/P10/P10-1124.pdf'),
 nil)
 
 entry!('mirkin2010',
   author('Shachar Mirkin and Jonathan Berant and Ido Dagan and Eyal Shnarch'),
   title('Recognising Entailment within Discourse'),
   coling(2010),
+  tags('textual entailment'),
+  url('http://www.aclweb.org/anthology/C/C10/C10-1087.pdf'),
 nil)
 
 entry!('stern2010rulechaining',
   author('Asher Stern and Eyal Shnarch and Amnon Lotan and Shachar Mirkin and Lili Kotlerman and Naomi Zeichner and Jonathan Berant and Ido Dagan'),
   title('Rule Chaining and Approximate Match in Textual Inference'),
   inproceedings('Text Analysis Conference',2010),
+  tags('textual entailment'),
+  url('http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=FF28F0072B6ECBD87C09CA73BD113D23?doi=10.1.1.188.860&rep=rep1&type=pdf'),
 nil)
 
 entry!('barhaim2009forest',
   author('Roy Bar-Haim and Jonathan Berant and Ido Dagan'),
   title('A Compact Forest for Scalable Inference over Entailment and Paraphrase Rules'),
   emnlp(2009),
+  tags('textual entailment'),
+  url('http://aclweb.org/anthology/D09-1110'),
 nil)
 
 
@@ -5720,6 +5753,8 @@ entry!('mirkin2009discourse',
   year(2009),
   title('Addressing Discourse and Document Structure in the {RTE} Search Task'),
   inproceedings('Text Analysis Conference',2009),
+  tags('textual entailment'),
+  url('http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.165.6323&rep=rep1&type=pdf'),
 nil)
 
 entry!('berant2008tracks',
@@ -5727,6 +5762,7 @@ entry!('berant2008tracks',
   title('Tracks in the Mind: Differential Entrenchment of Common and Rare Liturgical and Every- day Multiword Phrases in Religious and Secular Hebrew Speakers'),
   year(2008),
   inproceedings('Annual Meeting of the Cognitive Science Society',2008),
+  url('http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.140.2288&rep=rep1&type=pdf'),
 nil)
 
 entry!('barhaim2008',
@@ -5734,18 +5770,32 @@ entry!('barhaim2008',
   author('Roy Bar-Haim and Jonathan Berant and Ido Dagan and Iddo Greental and Shachar Mirkin and Eyal Shnarch and Idan Szpektor'),
   year(2008),
   inproceedings('Text Analysis Conference',2008),
+  url('http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.163.6448&rep=rep1&type=pdf'),
 nil)
 
 entry!('berant2007boosting',
-  author('Jonathan Berant and Yaron Gross and Matan Mussel and Ben Sandbank and Eytan Rupping and Shimon Edelman'),
+  author('Jonathan Berant and Yaron Gross and Matan Mussel and Ben Sandbank and Eytan Ruppin and Shimon Edelman'),
   year(2007),
   title('Boosting Unsupervised Grammar Induction by Splitting Complex Sentences on Function Words'),
-  inproceedings('Boston University Conference on Language Developments',2007),
+  url('http://kybele.psych.cornell.edu/~edelman/BUCLD-Berant-etal3.pdf'),
+  inproceedings('Boston University Conference on Language Development',2007),
 nil)
 
 entry!('berant2012learning',
   title('Learning Entailment Relations by Global Graph Structure Optimization'),
   author('Jonathan Berant and Ido Dagan and Jacob Goldberger'),
-  article('Computational Linguistics', 2012, 38),
+  computationalLinguistics(2012,38),
+  url('http://www.mitpressjournals.org/doi/pdfplus/10.1162/COLI_a_00085'),
   pages(73,111),
 nil)
+
+entry!('harris2012measuring',
+  author('Catherine Caldwell-Harris and Jonathan Berant and Shimon Edelman'),
+  title('Measuring Mental Entrenchment of Phrases with Perceptual Identification, Familiarity Ratings, and Corpus Frequency Statistics'),
+  inproceedings('Frequency Effects in Cognitive Linguistics (Vol. 1): Statistical Effects in Learnability, Processing and Change',2012),
+  pages(165,194),
+  address('The Hague'),
+  publisher('De Gruyter Mouton'),
+  url('http://www.cs.tau.ac.il/research/jonathan.berant/homepage_files/publications/Entrenchment2011.pdf'),
+nil)
+
