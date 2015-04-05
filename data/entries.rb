@@ -1935,7 +1935,7 @@ entry!('rakhlin12making',
 nil)
 
 entry!('nesterov1983acceleration',
-  title('A method of solving a convex programming problem with convergence rate $O(1/k^2)$'),
+  title('A method of solving a convex programming problem with convergence rate ${O}(1/k^2)$'),
   author('Y. Nesterov'),
   article('Soviet Mathematics Doklady', 1983, 27),
   number(2), pages(372, 376),
@@ -1967,7 +1967,7 @@ entry!('cohen2015sampling',
 nil)
 
 entry!('nelson2013osnap',
-  title('OSNAP: Faster numerical linear algebra algorithms via sparser subspace embeddings'),
+  title('{OSNAP}: Faster numerical linear algebra algorithms via sparser subspace embeddings'),
   author('Jelani Nelson and Huy L. Nguyen'),
   focs(2013),
 nil)
