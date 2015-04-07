@@ -5799,3 +5799,20 @@ entry!('harris2012measuring',
   url('http://www.cs.tau.ac.il/research/jonathan.berant/homepage_files/publications/Entrenchment2011.pdf'),
 nil)
 
+entry!('zhang2010chart',
+  author('Yue Zhang and Byung-Gyu Ahn and Stephen Clark and Curt Van Wyk and James R. Curran and Laura Rimell'),
+  title('Chart pruning for fast lexicalised-grammar parsing'),
+  coling('2010'),
+nil)
+
+entry!('bodenstab2011beam',
+  author('Nathan Bodenstab and Aaron Dunlop and Keith Halland Brian Roark'),
+  title('Beam-width prediction for efficient context-free parsing'),
+  acl('2011'),
+nil)
+
+entry!('fitzgerald2013learning',
+  author('Nicholas FitzGerald and Yoav Artzi and Luke S. Zettlemoyer'),
+  title('Learning Distributions over Logical Forms for Referring Expression Generation'),
+  emnlp('2013'),
+nil)
