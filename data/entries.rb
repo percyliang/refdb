@@ -5816,3 +5816,9 @@ entry!('fitzgerald2013learning',
   title('Learning Distributions over Logical Forms for Referring Expression Generation'),
   emnlp('2013'),
 nil)
+
+entry!('chang2015learning',
+ author('Kai-Wei Chang and Akshay Krishnamurthy and Alekh Agarwal and Hal Daume and John Langford'),
+ title('Learning to search better than your teacher'),
+ arxiv('2015'),
+nil)
