@@ -5802,23 +5802,42 @@ nil)
 entry!('zhang2010chart',
   author('Yue Zhang and Byung-Gyu Ahn and Stephen Clark and Curt Van Wyk and James R. Curran and Laura Rimell'),
   title('Chart pruning for fast lexicalised-grammar parsing'),
-  coling('2010'),
+  coling(2010),
 nil)
 
 entry!('bodenstab2011beam',
   author('Nathan Bodenstab and Aaron Dunlop and Keith Halland Brian Roark'),
   title('Beam-width prediction for efficient context-free parsing'),
-  acl('2011'),
+  acl(2011),
 nil)
 
 entry!('fitzgerald2013learning',
   author('Nicholas FitzGerald and Yoav Artzi and Luke S. Zettlemoyer'),
   title('Learning Distributions over Logical Forms for Referring Expression Generation'),
-  emnlp('2013'),
+  emnlp(2013),
 nil)
 
 entry!('chang2015learning',
  author('Kai-Wei Chang and Akshay Krishnamurthy and Alekh Agarwal and Hal Daume and John Langford'),
  title('Learning to search better than your teacher'),
- arxiv('2015'),
+ arxiv(2015),
+nil)
+
+entry!('chang2014scene',
+  emnlp(2014),
+  title('Learning Spatial Knowledge for Text to 3D Scene Generation'),
+  author('Angel X Chang and Manolis Savva and Christopher D Manning'),
+nil)
+
+entry!('socher2011parsing',
+  icml(2011),
+  title('Parsing natural scenes and natural language with recursive neural networks'),
+  author('Richard Socher and Cliff C Lin and Chris Manning and Andrew Y Ng'),
+  pages(129, 136),
+nil)
+
+entry!('weston2015towards',
+  arxiv(2015),
+  title('Towards {AI}-Complete Question Answering: A Set of Prerequisite Toy Tasks'),
+  author('Jason Weston and Antoine Bordes and Sumit Chopra and Tomas Mikolov'),
 nil)
