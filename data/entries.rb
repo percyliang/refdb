@@ -4412,6 +4412,7 @@ entry!('frostig2014lowrank',
   author('Roy Frostig and Sida Wang and Percy Liang and Chris Manning'),
   nips(2014),
   url('http://cs.stanford.edu/~rfrostig/pubs/lowrank-nips2014.pdf'),
+  experiments('https://www.codalab.org/worksheets/0x106abb3b47be492aa7387f528c943faa'),
 nil)
 
 entry!('wang2014iqp',
