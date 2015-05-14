@@ -2003,6 +2003,12 @@ entry!('shalev2014accelerated',
   pages(1, 41),
 nil)
 
+entry!('shalev15dualfree',
+  title('{SDCA} without Duality'),
+  author('Shai Shalev-Shwartz'),
+  arxiv(2015),
+nil)
+
 entry!('lin2014accelerated',
   title('An Accelerated Proximal Coordinate Gradient Method'),
   author('Qihang Lin and Zhaosong Lu and Lin Xiao'),
@@ -2032,6 +2038,19 @@ entry!('orabona14simultaneous',
   title('Simultaneous Model Selection and Optimization through Parameter-free Stochastic Learning'),
   author('Francesco Orabona'),
   nips(2014),
+nil)
+
+entry!('frostig15competing',
+  author('Roy Frostig and Rong Ge and Sham M. Kakade and Aaron Sidford'),
+  title('Competing with the empirical risk minimizer in a single pass'),
+  colt(2015),
+  url('http://arxiv.org/abs/1412.6606'),
+nil)
+
+entry!('frostig15unregularizing',
+  author('Roy Frostig and Rong Ge and Sham M. Kakade and Aaron Sidford'),
+  title('Un-regularizing: approximate proximal point and faster stochastic algorithms for empirical risk minimization'),
+  icml(2015),
 nil)
 
 entry!('mansinghka09thesis',
