@@ -2292,7 +2292,7 @@ nil)
 entry!('zelle96geoquery',
   author('M. Zelle and R. J. Mooney'),
   aaai(1996),
-  title('Learning to parse database queries using inductive logic proramming'),
+  title('Learning to parse database queries using inductive logic programming'),
   pages(1050, 1055),
   tags('semantic parsing'),
 nil)
@@ -3600,7 +3600,7 @@ entry!('berant2013freebase',
   author('Jonathan Berant and Andrew Chou and Roy Frostig and Percy Liang'),
   title('Semantic Parsing on {F}reebase from Question-Answer Pairs'),
   emnlp(2013),
-  url('freebase-emnlp2013.pdf'),
+  url('http://www.aclweb.org/anthology/D13-1160'),
   slidesurl('freebase-emnlp2013-talk.pdf'),
   supplementalurl('http://arxiv.org/pdf/1309.4408.pdf'),
   project('http://www-nlp.stanford.edu/software/sempre/'),
@@ -4354,7 +4354,7 @@ entry!('berant2014paraphrasing',
   author('Jonathan Berant and Percy Liang'),
   title('Semantic Parsing via Paraphrasing'),
   acl(2014),
-  url('paraphrasing-acl2014.pdf'),
+  url('http://aclweb.org/anthology/P14-1133'),
   note('Best long paper honorable mention.'),
   project('http://www-nlp.stanford.edu/software/sempre/'),
   tags('semantic parsing'),
@@ -4412,6 +4412,7 @@ entry!('frostig2014lowrank',
   author('Roy Frostig and Sida Wang and Percy Liang and Chris Manning'),
   nips(2014),
   url('http://cs.stanford.edu/~rfrostig/pubs/lowrank-nips2014.pdf'),
+  experiments('https://www.codalab.org/worksheets/0x106abb3b47be492aa7387f528c943faa'),
 nil)
 
 entry!('wang2014iqp',
@@ -4423,7 +4424,7 @@ nil)
 
 entry!('ghahramani1999variational',
   nips(1999),
-  title('Variational Inference for {B}ayesian Mixtures of Factor Analysers.'),
+  title('Variational Inference for {B}ayesian Mixtures of Factor Analysers'),
   author('Z. Ghahramani and M. J Beal'),
 nil)
 
@@ -4753,14 +4754,14 @@ nil)
 entry!('halikias07newbounds',
   article('Journal of Global Optimization', 2007, 39),
   number(4),
-  title('New bounds on the unconstrained quadratic integer programming problem.'),
+  title('New bounds on the unconstrained quadratic integer programming problem'),
   author('G. D. Halikias and Imad M. Jaimoukha and U. Malik and S. K. Gungah'),
   pages(543, 554),
 nil)
 
 entry!('barvinok95problems',
   article('Discrete \& Computational Geometry', 1995, 13),
-  title('Problems of Distance Geometry and Convex Properties of Quadratic Maps.'),
+  title('Problems of Distance Geometry and Convex Properties of Quadratic Maps'),
   author('A. I. Barvinok'),
   pages(189, 202),
 nil)
@@ -4960,7 +4961,7 @@ nil)
 entry!('souloumiac2009joint',
   inproceedings('Computational Advances in Multi-Sensor Adaptive Processing', 2009),
   pages(305, 308),
-  author('S. A.'),
+  author('A. Souloumiac'),
   title('Joint diagonalization: Is non-orthogonal always preferable to orthogonal?'),
 nil)
 
@@ -5083,7 +5084,7 @@ nil)
 entry!('sutskever2009modelling',
   nips(2009),
   pages(1821, 1828),
-  title('Modelling Relational Data using {B}ayesian Clustered Tensor Factorization.'),
+  title('Modelling Relational Data using {B}ayesian Clustered Tensor Factorization'),
   author('Ilya Sutskever and Ruslan Salakhutdinov and Joshua B Tenenbaum'),
 nil)
 
@@ -5252,7 +5253,7 @@ nil)
 entry!('yao2014ie',
   acl(2014),
   title('Information extraction over structured data: Question answering with {F}reebase'),
-  author('Xuchen Yao and Benjamin Van Durme'),
+  author('Xuchen Yao and Benjamin Van-Durme'),
 nil)
 
 entry!('bordes2014qa',
@@ -5366,12 +5367,19 @@ entry!('scaria2013biological',
   emnlp(2013),
   author('Aju Thalappillil Scaria and Jonathan Berant and Mengqiu Wang and Christopher D Manning and Justin Lewis and Brittany Harding and Peter Clark'),
   title('Learning biological processes with global constraints'),
+  url('http://www.aclweb.org/anthology/D13-1177'),
+  project('http://nlp.stanford.edu/software/bioprocess/'),
+  tags('event extraction'),
 nil)
 
 entry!('berant2014biological',
   emnlp(2014),
-  author('Jonathan Berant and Vivek Srikumar and Pei-Chun Chen and Brad Huang and Christopher D Manning and Abby Vander Linden and Brittany Harding'),
+  author('Jonathan Berant and Vivek Srikumar and Pei-Chun Chen and Abby Vander Linden and Brittany Harding and Brad Huang and Peter Clark and Christopher D Manning'),
   title('Modeling Biological Processes for Reading Comprehension'),
+  project('http://nlp.stanford.edu/software/bioprocess/'),
+  url('http://www.aclweb.org/anthology/D/D14/D14-1159v2.pdf'),
+  tags('event extraction'),
+  note('Best long paper'),
 nil)
 
 entry!('lao2012rules',
@@ -5406,6 +5414,7 @@ entry!('kuleshov2015tensor',
   aistats(2015),
   author('Volodymyr Kuleshov and Arun Chaganty and Percy Liang'),
   title('Tensor factorization via matrix factorization'),
+  url('http://arxiv.org/pdf/1501.07320.pdf'),
 nil)
 
 entry!('steinhardt2014sparse',
@@ -5457,6 +5466,13 @@ entry!('desilva2008tensor',
   pages(1084, 1127),
 nil)
 
+entry!('kuleshov2015simultaneous',
+ arxiv(2015),
+ author('Volodymyr Kuleshov and Arun Chaganty and Percy Liang'),
+ title('Simultaneous diagonalization: the asymmetric, low-rank, and noisy settings'),
+ url('http://arxiv.org/pdf/1501.06318.4182.pdf'),
+nil)
+
 entry!('rahimi2007random',
   title('Random Features for Large-Scale Kernel Machines'),
   author('Ali Rahimi and Ben Recht'),
@@ -5486,3 +5502,365 @@ entry!('parikh2014proximal',
   number(3),
   pages(123, 231),
 nil)
+
+entry!('syed2010exploiting',
+  inproceedings('Proceedings of the Second Web Science Conference', 2010),
+  title('Exploiting a web of semantic data for interpreting tables'),
+  author('Zareen Syed and Tim Finin and Varish Mulwad and Anupam Joshi'),
+nil)
+
+entry!('limaye2010annotating',
+  vldb(2010),
+  volume(3),
+  title('Annotating and searching web tables using entities, types and relationships'),
+  author('Girija Limaye and Sunita Sarawagi and Soumen Chakrabarti'),
+  number('1-2'),
+  pages(1338, 1347),
+  publisher('VLDB Endowment'),
+nil)
+
+entry!('pimplikar2012answering',
+  vldb(2012),
+  volume(5),
+  title('Answering table queries on the web using column keywords'),
+  author('Rakesh Pimplikar and Sunita Sarawagi'),
+  number(10),
+  pages(908, 919),
+  publisher('VLDB Endowment'),
+nil)
+
+entry!('gonzalez2010google',
+  inproceedings('Proceedings of the 2010 ACM SIGMOD International Conference on Management of data', 2010),
+  title('Google fusion tables: web-centered data management and collaboration'),
+  author('Hector Gonzalez and Alon Y Halevy and Christian S Jensen and Anno Langen and Jayant Madhavan and Rebecca Shapley and Warren Shen and Jonathan Goldberg-Kidon'),
+  pages(1061, 1066),
+  organization('ACM'),
+nil)
+
+entry!('sarawagi2014open',
+  kdd(2014),
+  title('Open-domain quantity queries on web tables: annotation, response, and consensus models'),
+  author('Sunita Sarawagi and Soumen Chakrabarti'),
+  pages(711, 720),
+  organization('ACM'),
+nil)
+
+entry!('venetis2011recovering',
+  vldb(2011),
+  volume(4),
+  title('Recovering semantics of tables on the web'),
+  author('Petros Venetis and Alon Halevy and Jayant Madhavan and Marius Pa{\c{s}}ca and Warren Shen and Fei Wu and Gengxin Miao and Chung Wu'),
+  number(9),
+  pages(528, 538),
+  publisher('VLDB Endowment'),
+nil)
+
+entry!('fader2014open',
+  kdd(2014),
+  title('Open question answering over curated and extracted knowledge bases'),
+  author('Anthony Fader and Luke Zettlemoyer and Oren Etzioni'),
+  pages(1156, 1165),
+  organization('ACM'),
+nil)
+
+entry!('ji2011knowledge',
+  acl(2011),
+  title('Knowledge base population: Successful approaches and challenges'),
+  author('Heng Ji and Ralph Grishman'),
+  pages(1148, 1158),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('unger2011pythia',
+  inproceedings('Proceedings of the 16th international conference on Natural language processing and information systems', 2011),
+  title('Pythia: compositional meaning construction for ontology-based question answering on the semantic web'),
+  author('Christina Unger and Philipp Cimiano'),
+  pages(153, 160),
+  organization('Springer-Verlag'),
+nil)
+
+entry!('rangel2014features',
+  title('Features and Pitfalls that Users Should Seek in Natural Language Interfaces to Databases'),
+  author('Rodolfo A Pazos Rangel and Marco A Aguirre and Juan J Gonz{\'a}lez and Juan Mart{\'i}n Carpio'),
+  inproceedings('Recent Advances on Hybrid Approaches for Designing Intelligent Systems', 2014),
+  pages(617, 630),
+  publisher('Springer'),
+nil)
+
+entry!('garrette2013learning',
+  naacl(2013),
+  title('Learning a Part-of-Speech Tagger from Two Hours of Annotation'),
+  author('Dan Garrette and Jason Baldridge'),
+  pages(138, 147),
+nil)
+
+entry!('steinhardt2015rcm',
+  author('Jacob Steinhardt and Percy Liang'),
+  title('Reified Context Models'),
+  url('http://arxiv.org/pdf/1502.06665.pdf'),
+  arxiv(2015),
+nil)
+
+entry!('steinhardt2015fast',
+  author('Jacob Steinhardt and Percy Liang'),
+  title('Learning Fast-Mixing Models for Structured Prediction'),
+  url('http://arxiv.org/pdf/1502.06668.pdf'),
+  arxiv(2015),
+nil)
+
+entry!('price1990atis',
+  inproceedings('Proceedings of the Third DARPA Speech and Natural Language Workshop', 1990),
+  title('Evaluation of spoken language systems: The {ATIS} domain'),
+  author('Patti Price'),
+  pages(91, 95),
+  organization('Morgan Kaufmann'),
+nil)
+
+entry!('hosseini2014learning',
+  emnlp(2014),
+  title('Learning to Solve Arithmetic Word Problems with Verb Categorization'),
+  author('Mohammad Javad Hosseini and Hannaneh Hajishirzi and Oren Etzioni and Nate Kushman'),
+nil)
+
+entry!('schwitter2010controlled',
+  coling(2010),
+  title('Controlled natural languages for knowledge representation'),
+  author('Rolf Schwitter'),
+  pages(1113, 1121),
+nil)
+
+entry!('wang2011semantic',
+  article('Spoken Language Understanding: Systems for Extracting Semantic Information from Speech', 2011),
+  title('Semantic Frame-Based Spoken Language Understanding'),
+  author('Ye-Yi Wang and Li Deng and Alex Acero'),
+  pages(41, 91),
+  publisher('Wiley Online Library'),
+nil)
+
+entry!('wu2010open',
+  acl(2010),
+  title('Open information extraction using {W}ikipedia'),
+  author('Fei Wu and Daniel S Weld'),
+  pages(118, 127),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('gupta2009answering',
+  vldb(2009),
+  title('Answering table augmentation queries from unstructured lists on the web'),
+  author('Rahul Gupta and Sunita Sarawagi'),
+  number(1),
+  pages(289, 300),
+  publisher('VLDB Endowment'),
+nil)
+
+entry!('yao2014freebase',
+  author('Xuchen Yao and Jonathan Berant and Benjamin Van-Durme'),
+  title('{F}reebase {QA}: Information Extraction or Semantic Parsing'),
+  year(2014),
+  inproceedings('Workshop on Semantic parsing',2014),
+  url('http://aclweb.org/anthology/W14-2416'),
+  tags('semantic parsing'),
+nil)
+
+entry!('melamud2013context',
+  author('Oren Melamud and Jonathan Berant and Ido Dagan and Jacob Goldberger and Idan Szpektor'),
+  title('A Two Level Model for Context Sensitive Inference Rules'),
+  acl(2013),
+  url('http://www.aclweb.org/anthology/P13-1131'),
+  note('Best long paper runner-up'),
+  tags('textual entailment'),
+nil)
+
+entry!('berant2012efficient',
+  author('Jonathan Berant and Ido Dagan and Meni Adler and Jacob Goldberger'),
+  title('Efficient Tree-based Approximation for Entailment Graph learning'),
+  url('http://www.aclweb.org/anthology/P12-1013'),
+  acl(2012),
+  tags('textual entailment'),
+nil)
+
+entry!('adler2012textexploration',
+  author('Meni Adler and Jonathan Berant and Ido Dagan'),
+  inproceedings('ACL system demonstrations',2012),
+  year(2012),
+  title('Entailment-based Text Exploration with Application to the Health-care Domain'),
+  url('http://www.aclweb.org/anthology/P12-3014'),
+  tags('textual entailment'),
+nil)
+    
+entry!('zeichner2012crowdsourcing',
+  author('Naomi Zeichner and Jonathan Berant and Ido Dagan'),
+  title('Crowdsourcing Inference-rule Evaluation'),
+  acl(2012),
+  url('http://www.aclweb.org/anthology/P12-2031'),
+  tags('textual entailment'),
+nil)
+
+entry!('weisman2012learning',
+  author('Hila Weisman and Jonathan Berant and Idan Szpektor and Ido Dagan'),
+  title('Learning Verb Inference Rules from Linguistically-motivated Evidence'),
+  url('http://www.aclweb.org/anthology/D12-1018'),
+  emnlp(2012),
+  tags('textual entailment'),
+nil)
+  
+entry!('berant2011global',
+  author('Jonathan Berant and Ido Dagan and Jacob Goldberger'),
+  title('Global Learning of Typed Entailment Rules'),
+  acl(2011),
+  note('Best long student paper'),
+  tags('textual entailment'),
+  url('http://turing.cs.washington.edu/papers/berant-acl2011.pdf'),
+nil)
+
+entry!('stern2011knowledge',
+  author('Asher Stern and Amnon Lotan and Shachar Mirkin and Eyal Shnarch and Lili Kotlerman and Jonathan Berant and Ido Dagan'),
+  title('Knowledge and Tree-Edits in Learnable Entailment Proofs'),
+  inproceedings('Text Analysis Conference',2011),
+  year(2011),
+  tags('textual entailment'),
+  url('http://eprints.pascal-network.org/archive/00008808/01/biu_tac2011.pdf'),
+nil)
+
+entry!('berant2010global',
+  author('Jonathan Berant and Ido Dagan and Jacob Goldberger'),
+  title('Global Learning of Focused Entailment Graphs'),
+  acl(2010),
+  tags('textual entailment'),
+  url('https://aclweb.org/anthology/P/P10/P10-1124.pdf'),
+nil)
+
+entry!('mirkin2010',
+  author('Shachar Mirkin and Jonathan Berant and Ido Dagan and Eyal Shnarch'),
+  title('Recognising Entailment within Discourse'),
+  coling(2010),
+  tags('textual entailment'),
+  url('http://www.aclweb.org/anthology/C/C10/C10-1087.pdf'),
+nil)
+
+entry!('stern2010rulechaining',
+  author('Asher Stern and Eyal Shnarch and Amnon Lotan and Shachar Mirkin and Lili Kotlerman and Naomi Zeichner and Jonathan Berant and Ido Dagan'),
+  title('Rule Chaining and Approximate Match in Textual Inference'),
+  inproceedings('Text Analysis Conference',2010),
+  tags('textual entailment'),
+  url('http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=FF28F0072B6ECBD87C09CA73BD113D23?doi=10.1.1.188.860&rep=rep1&type=pdf'),
+nil)
+
+entry!('barhaim2009forest',
+  author('Roy Bar-Haim and Jonathan Berant and Ido Dagan'),
+  title('A Compact Forest for Scalable Inference over Entailment and Paraphrase Rules'),
+  emnlp(2009),
+  tags('textual entailment'),
+  url('http://aclweb.org/anthology/D09-1110'),
+nil)
+
+
+entry!('mirkin2009discourse',
+  author('Shachar Mirkin and Roy Bar-Haim and Jonathan Berant and Ido Dagan and Eyal Shnarch and Asher Stern and Idan Szpektor'),
+  year(2009),
+  title('Addressing Discourse and Document Structure in the {RTE} Search Task'),
+  inproceedings('Text Analysis Conference',2009),
+  tags('textual entailment'),
+  url('http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.165.6323&rep=rep1&type=pdf'),
+nil)
+
+entry!('berant2008tracks',
+  author('Jonathan Berant and Catherine Caldwell-Harris and Shimon Edelman'),
+  title('Tracks in the Mind: Differential Entrenchment of Common and Rare Liturgical and Every- day Multiword Phrases in Religious and Secular Hebrew Speakers'),
+  year(2008),
+  inproceedings('Annual Meeting of the Cognitive Science Society',2008),
+  url('http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.140.2288&rep=rep1&type=pdf'),
+nil)
+
+entry!('barhaim2008',
+  title('Efficient Semantic Deduction and Approximate Matching over Compact Parse Forests'),
+  author('Roy Bar-Haim and Jonathan Berant and Ido Dagan and Iddo Greental and Shachar Mirkin and Eyal Shnarch and Idan Szpektor'),
+  year(2008),
+  inproceedings('Text Analysis Conference',2008),
+  url('http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.163.6448&rep=rep1&type=pdf'),
+nil)
+
+entry!('berant2007boosting',
+  author('Jonathan Berant and Yaron Gross and Matan Mussel and Ben Sandbank and Eytan Ruppin and Shimon Edelman'),
+  year(2007),
+  title('Boosting Unsupervised Grammar Induction by Splitting Complex Sentences on Function Words'),
+  url('http://kybele.psych.cornell.edu/~edelman/BUCLD-Berant-etal3.pdf'),
+  inproceedings('Boston University Conference on Language Development',2007),
+nil)
+
+entry!('berant2012learning',
+  title('Learning Entailment Relations by Global Graph Structure Optimization'),
+  author('Jonathan Berant and Ido Dagan and Jacob Goldberger'),
+  computationalLinguistics(2012,38),
+  url('http://www.mitpressjournals.org/doi/pdfplus/10.1162/COLI_a_00085'),
+  pages(73,111),
+nil)
+
+entry!('harris2012measuring',
+  author('Catherine Caldwell-Harris and Jonathan Berant and Shimon Edelman'),
+  title('Measuring Mental Entrenchment of Phrases with Perceptual Identification, Familiarity Ratings, and Corpus Frequency Statistics'),
+  inproceedings('Frequency Effects in Cognitive Linguistics (Vol. 1): Statistical Effects in Learnability, Processing and Change',2012),
+  pages(165,194),
+  address('The Hague'),
+  publisher('De Gruyter Mouton'),
+  url('http://www.cs.tau.ac.il/research/jonathan.berant/homepage_files/publications/Entrenchment2011.pdf'),
+nil)
+
+entry!('zhang2010chart',
+  author('Yue Zhang and Byung-Gyu Ahn and Stephen Clark and Curt Van Wyk and James R. Curran and Laura Rimell'),
+  title('Chart pruning for fast lexicalised-grammar parsing'),
+  coling(2010),
+nil)
+
+entry!('bodenstab2011beam',
+  author('Nathan Bodenstab and Aaron Dunlop and Keith Halland Brian Roark'),
+  title('Beam-width prediction for efficient context-free parsing'),
+  acl(2011),
+nil)
+
+entry!('fitzgerald2013learning',
+  author('Nicholas FitzGerald and Yoav Artzi and Luke S. Zettlemoyer'),
+  title('Learning Distributions over Logical Forms for Referring Expression Generation'),
+  emnlp(2013),
+nil)
+
+entry!('chang2015learning',
+ author('Kai-Wei Chang and Akshay Krishnamurthy and Alekh Agarwal and Hal Daume and John Langford'),
+ title('Learning to search better than your teacher'),
+ arxiv(2015),
+nil)
+
+entry!('chang2014scene',
+  emnlp(2014),
+  title('Learning Spatial Knowledge for Text to 3D Scene Generation'),
+  author('Angel X Chang and Manolis Savva and Christopher D Manning'),
+nil)
+
+entry!('socher2011parsing',
+  icml(2011),
+  title('Parsing natural scenes and natural language with recursive neural networks'),
+  author('Richard Socher and Cliff C Lin and Chris Manning and Andrew Y Ng'),
+  pages(129, 136),
+nil)
+
+entry!('weston2015towards',
+  arxiv(2015),
+  title('Towards {AI}-Complete Question Answering: A Set of Prerequisite Toy Tasks'),
+  author('Jason Weston and Antoine Bordes and Sumit Chopra and Tomas Mikolov'),
+nil)
+
+entry!('singh2015tensor',
+  inproceedings('NAACL Workshop on Vector Space Modeling for NLP', 2015),
+  title('Towards Combined Matrix and Tensor Factorization for Universal
+            Schema Relation Extraction'),
+  author('Sameer Singh and Tim Rockt{\"{a}}schel and Sebastian Riedel'),
+nil)
+
+entry!('chang2014tensor',
+       emnlp(2014),
+  title("Typed tensor decomposition of knowledge bases for relation extraction"),
+  author("Kai-Wei Chang and Wen-Tau Yih and Bishan Yang and Christopher Meek"),
+  pages(1568,1579),
+nil)
+

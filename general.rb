@@ -199,6 +199,7 @@ class Entry
                displayLink('code', getFirst('code')),
                displayLink('data', getFirst('data')),
                displayLink('project', getFirst('project')),
+               displayLink('experiments', getFirst('experiments')),
                displayLink('demo', getFirst('demo')),
               nil].compact.join(' ')+"<br>"
     output << "<div id=\"div#{id}\"></div>"
@@ -304,6 +305,7 @@ def errataurl(x);       field('errataurl', x)       end
 def code(x);            field('code', x)            end
 def data(x);            field('data', x)            end
 def project(x);         field('project', x)         end
+def experiments(x);     field('experiments', x)     end
 def demo(x);            field('demo', x)            end
 
 # Don't add these words to the set of generally capitalized words
