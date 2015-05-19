@@ -5864,3 +5864,27 @@ entry!('chang2014tensor',
   pages(1568,1579),
 nil)
 
+entry!('lasecki2013realtime',
+  title("Real-time Crowd Labeling for Deployable Activity Recognition"),
+  inproceedings('Conference on Computer Supported Cooperative Work', 2013),
+  author("Walter S Lasecki and Young Chol Song and Henry Kautz and
+               Jeffrey P. Bigham"),
+  pages(1203,1212),
+  year(2013),
+nil)
+
+entry!('cheng2015flock',
+  title("Flock: Hybrid {Crowd-Machine} Learning Classifiers"),
+  inproceedings('Proceedings of the 18th {ACM} Conference on Computer Supported
+               Cooperative Work \& Social Computing', 2015),
+  author("Justin Cheng and Michael S Bernstein"),
+  pages(600,611),
+nil)
+
+entry!('cohen2013pcfg',
+       title('Approximate {PCFG} Parsing Using Tensor Decomposition'),
+       hltnaacl(2013), 
+       pages(487, 496),
+       author('Shay B Cohen and Giorgio Satta and Michael Collins'),
+nil)
+
