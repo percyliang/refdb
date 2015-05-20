@@ -5907,3 +5907,18 @@ entry!('cohen2013pcfg',
        author('Shay B Cohen and Giorgio Satta and Michael Collins'),
 nil)
 
+entry!('bertsimas2011theory',
+  article('SIAM review', 2011, 53),
+  title('Theory and applications of robust optimization'),
+  author('Dimitris Bertsimas and David B Brown and Constantine Caramanis'),
+  number(3),
+  pages(464, 501),
+  publisher('SIAM'),
+nil)
+
+entry!('chechik2008max',
+  jmlr(2008, 9),
+  title('Max-margin classification of data with absent features'),
+  author('Gal Chechik and Geremy Heitz and Gal Elidan and Pieter Abbeel and Daphne Koller'),
+  pages(1, 21),
+nil)
