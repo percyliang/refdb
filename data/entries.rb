@@ -333,6 +333,12 @@ entry!('mackay97hmm',
   techreport('University of Cambridge', 1997),
 nil)
 
+entry!('wang2014qa',
+  author('Zhenghao Wang and Shengquan Yan and Huaming Wang and Xuedong Huang'),
+  title('An Overview of Microsoft Deep {QA} System on Stanford WebQuestions Benchmark'),
+  techreport('Microsoft Research', 2014),
+nil)
+
 entry!('hermjakob01parsing',
   author('Ulf Hermjakob'),
   title('Parsing and Question Classification for Question Answering'),
@@ -5821,4 +5827,10 @@ entry!('chang2015learning',
  author('Kai-Wei Chang and Akshay Krishnamurthy and Alekh Agarwal and Hal Daume and John Langford'),
  title('Learning to search better than your teacher'),
  arxiv('2015'),
+nil)
+
+entry!('banarescu2013Amr',
+  author('Laura BanaRescu and  Claire Bonial Shu Cai and Madalina Georgescu and Kira Griffitt and  Ulf Hermjakob and  Kevin Knight and Philipp Koehn and  Martha Palmer and Nathan Schneider'),
+  title('Abstract Meaning Representation for Sembanking'),
+  inproceedings('7th Linguistic Annotation Workshop and Interoperability with Discourse',2013),
 nil)
