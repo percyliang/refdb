@@ -1941,7 +1941,7 @@ entry!('rakhlin12making',
 nil)
 
 entry!('nesterov1983acceleration',
-  title('A method of solving a convex programming problem with convergence rate $O(1/k^2)$'),
+  title('A method of solving a convex programming problem with convergence rate ${O}(1/k^2)$'),
   author('Y. Nesterov'),
   article('Soviet Mathematics Doklady', 1983, 27),
   number(2), pages(372, 376),
@@ -1973,7 +1973,7 @@ entry!('cohen2015sampling',
 nil)
 
 entry!('nelson2013osnap',
-  title('OSNAP: Faster numerical linear algebra algorithms via sparser subspace embeddings'),
+  title('{OSNAP}: Faster numerical linear algebra algorithms via sparser subspace embeddings'),
   author('Jelani Nelson and Huy L. Nguyen'),
   focs(2013),
 nil)
@@ -2009,6 +2009,12 @@ entry!('shalev2014accelerated',
   pages(1, 41),
 nil)
 
+entry!('shalev15dualfree',
+  title('{SDCA} without Duality'),
+  author('Shai Shalev-Shwartz'),
+  arxiv(2015),
+nil)
+
 entry!('lin2014accelerated',
   title('An Accelerated Proximal Coordinate Gradient Method'),
   author('Qihang Lin and Zhaosong Lu and Lin Xiao'),
@@ -2040,10 +2046,23 @@ entry!('orabona14simultaneous',
   nips(2014),
 nil)
 
+entry!('frostig15competing',
+  author('Roy Frostig and Rong Ge and Sham M. Kakade and Aaron Sidford'),
+  title('Competing with the empirical risk minimizer in a single pass'),
+  colt(2015),
+  url('http://arxiv.org/abs/1412.6606'),
+nil)
+
+entry!('frostig15unregularizing',
+  author('Roy Frostig and Rong Ge and Sham M. Kakade and Aaron Sidford'),
+  title('Un-regularizing: approximate proximal point and faster stochastic algorithms for empirical risk minimization'),
+  icml(2015),
+nil)
+
 entry!('mansinghka09thesis',
   title('Natively Probabilistic Computation'),
   author('Vikash Mansinghka'),
-  phdthesis('MIT', 2009),
+  phdthesis('Massachusetts Institute of Technology', 2009),
 nil)
 
 entry!('goodman08rule',
@@ -4395,6 +4414,7 @@ entry!('steinhardt2014filtering',
   author('Jacob Steinhardt and Percy Liang'),
   title('Filtering with Abstract Particles'),
   icml(2014),
+  pages(727, 735),
   url('filtering-icml2014.pdf'),
   supplementalurl('filtering-icml2014-appendix.pdf'),
 nil)
@@ -4418,6 +4438,7 @@ entry!('frostig2014lowrank',
   author('Roy Frostig and Sida Wang and Percy Liang and Chris Manning'),
   nips(2014),
   url('http://cs.stanford.edu/~rfrostig/pubs/lowrank-nips2014.pdf'),
+  experiments('https://www.codalab.org/worksheets/0x106abb3b47be492aa7387f528c943faa'),
 nil)
 
 entry!('wang2014iqp',
@@ -4588,9 +4609,9 @@ entry!('gladyshev1965stochastic',
 nil)
 
 entry!('fabian1968asymptotic',
-	author('V\'{a}clav Fabian'),
+	author('Václav Fabian'),
 	title('On Aymptotic Normality in Stochastic Approximation'),
-	article('Annals of Mathematical Statistics',1968,39),
+	article('Annals of Mathematical Statistics', 1968, 39),
 	pages(1327,1332),
 	number(4),
 nil)
@@ -4613,7 +4634,7 @@ nil)
 
 entry!('acar2009unsupervised',
   title('Unsupervised multiway data analysis: A literature survey'),
-  author('Acar, Evrim and Yener, B{\"u}lent'),
+  author('Acar, Evrim and Yener, B{\\"u}lent'),
   article('Knowledge and Data Engineering, IEEE Transactions on', 2009, 21),
   number(1),
   pages(6,20),
@@ -4734,7 +4755,7 @@ nil)
 
 entry!('briet2010positive',
   title('The positive semidefinite {G}rothendieck problem with rank constraint'),
-  author('J. Bri{\"e}t and F. M. de Oliveira Filho and F. Vallentin'),
+  author('J. Bri{\\"e}t and F. M. de Oliveira Filho and F. Vallentin'),
   inproceedings('Automata, Languages and Programming', 2010),
   publisher('Springer'),
   pages(31, 42),
@@ -4819,7 +4840,7 @@ nil)
 entry!('recht2013parallel',
   article('Mathematical Programming Computation', 2013, 5),
   title('Parallel stochastic gradient algorithms for large-scale matrix completion'),
-  author('B. Recht and C. R{\\\'e}'),
+  author('B. Recht and C. Ré'),
   publisher('Springer'),
   pages(1, 26),
 nil)
@@ -4834,11 +4855,11 @@ nil)
 entry!('krahenbuhl2011efficient',
   nips(2011),
   title('Efficient inference in fully connected {CRF}s with {G}aussian edge potentials'),
-  author('P. Kr{\"a}henb{\"u}hl and V. Koltun'),
+  author('P. Kr{\\"a}henb{\\"u}hl and V. Koltun'),
 nil)
 
 entry!('krahenbuhl2013learning',
-  author('P. Kr{\"a}henb{\"u}hl and V. Koltun'),
+  author('P. Kr{\\"a}henb{\\"u}hl and V. Koltun'),
   pages(513, 521),
   title('Parameter Learning and Convergent Inference for Dense Random Fields'),
   icml(2013),
@@ -4883,7 +4904,7 @@ nil)
 
 entry!('kappes2013benchmark',
   title('A Comparative Study of Modern Inference Techniques for Discrete Energy Minimization Problem'),
-  author('J{\"o}rg H. Kappes and Bjoern Andres and Fred A. Hamprecht and Christoph Schn{\"o}rr and Sebastian Nowozin and Dhruv Batra and Sungwoong Kim and Bernhard X. Kausler and Jan Lellmann and Nikos Komodakis and Carsten Rother'),
+  author('Jőrg H. Kappes and Bjoern Andres and Fred A. Hamprecht and Christoph Schnőrr and Sebastian Nowozin and Dhruv Batra and Sungwoong Kim and Bernhard X. Kausler and Jan Lellmann and Nikos Komodakis and Carsten Rother'),
   cvpr(2013),
 nil)
 
@@ -4943,7 +4964,7 @@ entry!('afsari2008sensitivity',
 nil)
 
 entry!('cardoso1994perturbation',
-  techreport('T\'{e}l\'{e}com Paris', 1994),
+  techreport('Télécom Paris', 1994),
   author('J. Cardoso'),
   title('Perturbation of Joint Diagonalizers'),
 nil)
@@ -5008,7 +5029,7 @@ nil)
 entry!('ziehe2004fast',
   jmlr(2004, 5),
   title('A fast algorithm for joint diagonalization with non-orthogonal transformations and its application to blind source separation'),
-  author('Andreas Ziehe and Pavel Laskov and Guido Nolte and Klaus-Robert M{\"u}ller'),
+  author('Andreas Ziehe and Pavel Laskov and Guido Nolte and Klaus-Robert Műller'),
   pages(777, 800),
 nil)
 
@@ -5030,11 +5051,10 @@ entry!('afsari2006simple',
 nil)
 
 entry!('guo2010approximate',
-  inproceedings('Acoustics Speech and Signal Processing (ICASSP), 2010 IEEE International Conference on', 2010),
+  icassp(2010),
   pages(3774, 3777),
   title('Approximate joint diagonalization by nonorthogonal nonparametric jacobi transformations'),
   author('Xijing Guo and Shihua Zhu and Sebastian Miron and David Brie'),
-  organization('IEEE'),
 nil)
 
 entry!('anandkumar2014guaranteed',
@@ -5108,21 +5128,21 @@ entry!('anandkumar2013community',
 nil)
 
 entry!('boykov2004mincut',
-  pami(2004,26),
+  pami(2004, 26),
   title('An Experimental Comparison of Min-Cut/Max-Flow Algorithms for Energy Minimization in Vision'),
   pages(1124, 1137),
   author('Yuri Boykov and Vladimir Kolmogorov'),
 nil)
 
 entry!('boykov2004what',
-  pami(2004,26),
+  pami(2004, 26),
   title('What Energy Functions Can Be Minimized via Graph Cuts?'),
   pages(147, 159),
   author('Vladimir Kolmogorov and Ramin Zabih'),
 nil)
 
 entry!('boykov2001fast',
-  pami(2001,23),
+  pami(2001, 23),
   title('Fast Approximate Energy Minimization via Graph Cuts?'),
   pages(1222, 1239),
   author('Yuri Boykov and Olga Veksler and Ramin Zabih'),
@@ -5177,7 +5197,7 @@ entry!('comon2009tensor',
   publisher('Wiley Online Library'),
   number('7-8'),
   title('Tensor decompositions, alternating least squares and other tales'),
-  author('Pierre Comon and Xavier Luciani and Andr{\'e} LF De Almeida'),
+  author('Pierre Comon and Xavier Luciani and André LF De Almeida'),
 nil)
 
 entry!('ramanathan2014linking',
@@ -5191,7 +5211,7 @@ nil)
 entry!('ross2011reduction',
   aistats(2011),
   title('A reduction of imitation learning and structured prediction to no-regret online learning'),
-  author('St{\'e}phane Ross and Geoffrey Gordon and Andrew Bagnell'),
+  author('Stéphane Ross and Geoffrey Gordon and Andrew Bagnell'),
 nil)
 
 entry!('goldberg2013training',
@@ -5211,7 +5231,7 @@ entry!('yeredor2004approximate',
   pages(86,96),
   publisher('Springer Berlin Heidelberg'),
   title('Approximate Joint Diagonalization Using a Natural Gradient Approach'),
-  author('Arie Yeredor and Andreas Ziehe and Klaus-Robert M{\"u}ller'),
+  author('Arie Yeredor and Andreas Ziehe and Klaus-Robert Müller'),
 nil)
 
 entry!('halko2011structure',
@@ -5276,7 +5296,7 @@ nil)
 entry!('kay86algorithm',
   author('Martin Kay'),
   title('Algorithm Schemata and Data Structures in Syntactic Processing'),
-  book('Readings in Natural Language Processing',1986),
+  book('Readings in Natural Language Processing', 1986),
   pages(35,70),
 nil)
 
@@ -5413,6 +5433,7 @@ entry!('shi2015sample',
   author('Tianlin Shi and Jacob Steinhardt and Percy Liang'),
   title('Learning Where To Sample in Structured Prediction'),
   url('sample-aistats2015.pdf'),
+  pages(875, 884),
 nil)
 
 entry!('kuleshov2015tensor',
@@ -5471,6 +5492,13 @@ entry!('desilva2008tensor',
   pages(1084, 1127),
 nil)
 
+entry!('kuleshov2015simultaneous',
+ arxiv(2015),
+ author('Volodymyr Kuleshov and Arun Chaganty and Percy Liang'),
+ title('Simultaneous diagonalization: the asymmetric, low-rank, and noisy settings'),
+ url('http://arxiv.org/pdf/1501.06318.4182.pdf'),
+nil)
+
 entry!('rahimi2007random',
   title('Random Features for Large-Scale Kernel Machines'),
   author('Ali Rahimi and Ben Recht'),
@@ -5479,7 +5507,7 @@ nil)
 
 entry!('guler1992ppa',
   title('New Proximal Point Algorithms for Convex Minimization'),
-  author('Osman G\\"uler'),
+  author('Osman Gűler'),
   article('SIAM Journal on Optimization', 1992, 2),
   number(4),
   pages(649, 664),
@@ -5579,7 +5607,7 @@ nil)
 
 entry!('rangel2014features',
   title('Features and Pitfalls that Users Should Seek in Natural Language Interfaces to Databases'),
-  author('Rodolfo A Pazos Rangel and Marco A Aguirre and Juan J Gonz{\'a}lez and Juan Mart{\'i}n Carpio'),
+  author('Rodolfo A Pazos Rangel and Marco A Aguirre and Juan J González and Juan Martín Carpio'),
   inproceedings('Recent Advances on Hybrid Approaches for Designing Intelligent Systems', 2014),
   pages(617, 630),
   publisher('Springer'),
@@ -5596,14 +5624,14 @@ entry!('steinhardt2015rcm',
   author('Jacob Steinhardt and Percy Liang'),
   title('Reified Context Models'),
   url('http://arxiv.org/pdf/1502.06665.pdf'),
-  arxiv(2015),
+  icml(2015),
 nil)
 
 entry!('steinhardt2015fast',
   author('Jacob Steinhardt and Percy Liang'),
   title('Learning Fast-Mixing Models for Structured Prediction'),
   url('http://arxiv.org/pdf/1502.06668.pdf'),
-  arxiv(2015),
+  icml(2015),
 nil)
 
 entry!('price1990atis',
@@ -5808,25 +5836,595 @@ nil)
 entry!('zhang2010chart',
   author('Yue Zhang and Byung-Gyu Ahn and Stephen Clark and Curt Van Wyk and James R. Curran and Laura Rimell'),
   title('Chart pruning for fast lexicalised-grammar parsing'),
-  coling('2010'),
+  coling(2010),
 nil)
 
 entry!('bodenstab2011beam',
-  author('Nathan Bodenstab and Aaron Dunlop and Keith Halland Brian Roark'),
+  author('Nathan Bodenstab and Aaron Dunlop and Keith Hall and Brian Roark'),
   title('Beam-width prediction for efficient context-free parsing'),
-  acl('2011'),
+  acl(2011),
+  pages(440, 449),
 nil)
 
 entry!('fitzgerald2013learning',
   author('Nicholas FitzGerald and Yoav Artzi and Luke S. Zettlemoyer'),
   title('Learning Distributions over Logical Forms for Referring Expression Generation'),
-  emnlp('2013'),
+  emnlp(2013),
+  pages(1914, 1925),
 nil)
 
 entry!('chang2015learning',
  author('Kai-Wei Chang and Akshay Krishnamurthy and Alekh Agarwal and Hal Daume and John Langford'),
  title('Learning to search better than your teacher'),
- arxiv('2015'),
+ arxiv(2015),
+nil)
+
+entry!('chang2014scene',
+  emnlp(2014),
+  title('Learning Spatial Knowledge for Text to 3D Scene Generation'),
+  author('Angel X Chang and Manolis Savva and Christopher D Manning'),
+nil)
+
+entry!('socher2011parsing',
+  icml(2011),
+  title('Parsing natural scenes and natural language with recursive neural networks'),
+  author('Richard Socher and Cliff C Lin and Chris Manning and Andrew Y Ng'),
+  pages(129, 136),
+nil)
+
+entry!('weston2015towards',
+  arxiv(2015),
+  title('Towards {AI}-Complete Question Answering: A Set of Prerequisite Toy Tasks'),
+  author('Jason Weston and Antoine Bordes and Sumit Chopra and Tomas Mikolov'),
+nil)
+
+entry!('singh2015tensor',
+  inproceedings('NAACL Workshop on Vector Space Modeling for NLP', 2015),
+  title('Towards Combined Matrix and Tensor Factorization for Universal
+            Schema Relation Extraction'),
+  author('Sameer Singh and Tim Rockt{\"{a}}schel and Sebastian Riedel'),
+nil)
+
+entry!('chang2014tensor',
+       emnlp(2014),
+  title("Typed tensor decomposition of knowledge bases for relation extraction"),
+  author("Kai-Wei Chang and Wen-Tau Yih and Bishan Yang and Christopher Meek"),
+  pages(1568,1579),
+nil)
+
+entry!('lasecki2013realtime',
+  title("Real-time Crowd Labeling for Deployable Activity Recognition"),
+  inproceedings('Conference on Computer Supported Cooperative Work', 2013),
+  author("Walter S Lasecki and Young Chol Song and Henry Kautz and
+               Jeffrey P. Bigham"),
+  pages(1203,1212),
+  year(2013),
+nil)
+
+entry!('cheng2015flock',
+  title("Flock: Hybrid {Crowd-Machine} Learning Classifiers"),
+  inproceedings('Proceedings of the 18th {ACM} Conference on Computer Supported
+               Cooperative Work \& Social Computing', 2015),
+  author("Justin Cheng and Michael S Bernstein"),
+  pages(600,611),
+nil)
+
+entry!('cohen2013pcfg',
+       title('Approximate {PCFG} Parsing Using Tensor Decomposition'),
+       hltnaacl(2013), 
+       pages(487, 496),
+       author('Shay B Cohen and Giorgio Satta and Michael Collins'),
+nil)
+
+entry!('bertsimas2011theory',
+  article('SIAM review', 2011, 53),
+  title('Theory and applications of robust optimization'),
+  author('Dimitris Bertsimas and David B Brown and Constantine Caramanis'),
+  number(3),
+  pages(464, 501),
+  publisher('SIAM'),
+nil)
+
+entry!('chechik2008max',
+  jmlr(2008, 9),
+  title('Max-margin classification of data with absent features'),
+  author('Gal Chechik and Geremy Heitz and Gal Elidan and Pieter Abbeel and Daphne Koller'),
+  pages(1, 21),
+nil)
+
+entry!('buhlmann1999variable',
+  annalsOfStatistics(1999, 27),
+  title('Variable length {M}arkov chains'),
+  author('Peter B{\"u}hlmann and Abraham J Wyner'),
+  number(2),
+  pages(480, 513),
+nil)
+
+entry!('riedel2010relaxed',
+  acl(2010),
+  title('Relaxed marginal inference and its application to dependency parsing'),
+  author('Sebastian Riedel and David A Smith'),
+  pages(760, 768),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('stoyanov2012fast',
+  inproceedings('ICML Workshop on Inferning: Interactions between Inference and Learning', 2012),
+  author('Veselin Stoyanov and Jason Eisner'),
+  title('Fast and Accurate Prediction via Evidence-Specific {MRF} Structure'),
+nil)
+
+entry!('barbu2009training',
+  article('IEEE Transactions on Image Processing', 2009, 18),
+  title('Training an active random field for real-time image denoising'),
+  author('Adrian Barbu'),
+  number(11),
+  pages(2451, 2462),
+nil)
+
+entry!('stoyanov2011empirical',
+  aistats(2011),
+  title('Empirical risk minimization of graphical model parameters given approximate inference, decoding, and model structure'),
+  author('Veselin Stoyanov and Alexander Ropson and Jason Eisner'),
+  pages(725, 733),
+nil)
+
+entry!('domke2011parameter',
+  cvpr(2011),
+  title('Parameter learning with truncated message-passing'),
+  author('Justin Domke'),
+  pages(2937, 2943),
+nil)
+
+entry!('ravi2011deciphering',
+  acl(2011),
+  title('Deciphering foreign language'),
+  author('Sujith Ravi and Kevin Knight'),
+  pages(12, 21),
+nil)
+
+entry!('ney1994structuring',
+  article('Computer, Speech, and Language', 1994, 8, 1),
+  title('On structuring probabilistic dependences in stochastic language modeling'),
+  author('Hermann Ney and Ute Essen and Reinhard Kneser'),
+  pages(1, 38),
+nil)
+
+entry!('kneser1995improved',
+  icassp(1995),
+  title('Improved backing-off for m-gram language modeling'),
+  author('Reinhard Kneser and Hermann Ney'),
+  volume(1),
+  pages(181, 184),
+  organization('IEEE'),
+nil)
+
+entry!('recht2011hogwild',
+  nips(2011),
+  title('Hogwild: A lock-free approach to parallelizing stochastic gradient descent'),
+  author('Benjamin Recht and Christopher Ré and Stephen Wright and Feng Niu'),
+  pages(693, 701),
+nil)
+
+entry!('wood2009stochastic',
+  icml(2009),
+  title('A stochastic memoizer for sequence data'),
+  author('Frank Wood and Cédric Archambeau and Jan Gasthaus and Lancelot James and Yee Whye Teh'),
+  pages(1129, 1136),
+nil)
+
+entry!('milch2005approximate',
+  aistats(2005),
+  title('Approximate inference for infinite contingent {B}ayesian networks'),
+  author('Brian Milch and Bhaskara Marthi and David Sontag and Stuart Russell and Daniel L Ong and Andrey Kolobov'),
+  pages(238, 245),
+nil)
+
+entry!('li2014mean',
+  arxiv(2014, '1410.5884'),
+  title('Mean-Field Networks'),
+  author('Yujia Li and Richard Zemel'),
+nil)
+
+entry!('niepert2014exchangeable',
+  icml(2014),
+  title('Exchangeable variable models'),
+  author('Mathias Niepert and Pedro Domingos'),
+nil)
+
+entry!('poon2011sum',
+  uai(2011),
+  title('Sum-product networks: A new deep architecture'),
+  author('Hoifung Poon and Pedro Domingos'),
+  pages(337, 346),
+nil)
+
+entry!('kulesza2007structured',
+  nips(2007),
+  title('Structured learning with approximate inference'),
+  author('Alex Kulesza and Fernando Pereira'),
+  pages(785, 792),
+nil)
+
+entry!('finley2008training',
+  icml(2008),
+  title('Training structural {SVM}s when exact inference is intractable'),
+  author('Thomas Finley and Thorsten Joachims'),
+  pages(304, 311),
+  organization('ACM'),
+nil)
+
+entry!('zhang2013online',
+  emnlp(2013),
+  title('Online learning for inexact hypergraph search'),
+  author('Hao Zhang and Liang Huang and Kai Zhao and Ryan McDonald'),
+nil)
+
+entry!('huang2012structured',
+  acl(2012),
+  title('Structured {P}erceptron with inexact search'),
+  author('Liang Huang and Suphan Fayong and Yang Guo'),
+  pages(142, 151),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('xing2002generalized',
+  uai(2002),
+  title('A generalized mean field algorithm for variational inference in exponential families'),
+  author('Eric P Xing and Michael I Jordan and Stuart Russell'),
+  pages(583, 591),
+nil)
+
+entry!('wainwright2005new',
+  infotheory(2005, 51),
+  title('A new class of upper bounds on the log partition function'),
+  author('Martin J Wainwright and Tommi S Jaakkola and Alan S Willsky'),
+  number(7),
+  pages(2313, 2335),
+nil)
+
+entry!('sontag2010approximate',
+  title('Approximate inference in graphical models using {LP} relaxations'),
+  author('David Sontag'),
+  phdthesis('Massachusetts Institute of Technology', 2010),
+nil)
+
+entry!('weiss2010sidestepping',
+  nips(2010),
+  title('Sidestepping intractable inference with structured ensemble cascades'),
+  author('David Weiss and Benjamin Sapp and Ben Taskar'),
+  pages(2415, 2423),
+nil)
+
+entry!('yu2013max',
+  emnlp(2013),
+  title('Max-Violation {P}erceptron and Forced Decoding for Scalable {MT} Training'),
+  author('Heng Yu and Liang Huang and Haitao Mi and Kai Zhao'),
+  pages(1112, 1123),
+nil)
+
+entry!('moreno1998recursive',
+  inproceedings('ICSLP', 1998),
+  title('A recursive algorithm for the forced alignment of very long audio segments'),
+  author('Pedro J Moreno and Christopher F Joerg and Jean-Manuel Van Thong and Oren Glickman'),
+  volume(98),
+  pages(2711, 2714),
+nil)
+
+entry!('gorman2011prosodylab',
+  article('Canadian Acoustics', 2011, 39),
+  title('Prosodylab-aligner: A tool for forced alignment of laboratory speech'),
+  author('Kyle Gorman and Jonathan Howell and Michael Wagner'),
+  number(3),
+  pages(192, 193),
+nil)
+
+entry!('pal2006sparse',
+  icassp(2006),
+  volume(5),
+  title('Sparse forward-backward using minimum divergence beams for fast training of conditional random fields'),
+  author('Chris Pal and Charles Sutton and Andrew McCallum'),
+nil)
+
+entry!('zhang2014face',
+  article('International Journal of Multimedia Information Retrieval', 2014, 3),
+  author('Liyan Zhang and Dmitri V. Kalashnikov and Sharad Mehrotra'),
+  title('Context-assisted face clustering framework with human-in-the-loop'),
+  number(2),
+  pages(69, 88),
+nil)
+
+entry!('brooks2011handbook',
+  title('Handbook of {M}arkov Chain {M}onte {C}arlo'),
+  author('Steve Brooks and Andrew Gelman and Galin Jones and Xiao-Li Meng'),
+  book('CRC press', 2011),
+nil)
+
+entry!('graff2003gigawords',
+  manual(2003),
+  author('David Graff and Christopher Cieri'),
+  title('{E}nglish {G}igaword LDC2003T05'),
+  organization('Philadelphia: Linguistic Data Consortium'),
+nil)
+
+entry!('greenberg1996insights',
+  icslp(1996),
+  title('Insights into spoken language gleaned from phonetic transcription of the {S}witchboard corpus'),
+  author('Steven Greenberg and Joy Hollenback and Dan Ellis'),
+nil)
+
+entry!('kassel1995comparison',
+  title('A comparison of approaches to on-line handwritten character recognition'),
+  author('Robert H Kassel'),
+  phdthesis('Massachusetts Institute of Technology', 1995),
+nil)
+
+entry!('hu1996hmm',
+  pami(1996, 18),
+  title('{HMM} based online handwriting recognition'),
+  author('Jianying Hu and Michael K Brown and William Turin'),
+  number(10),
+  pages(1039, 1045),
+nil)
+
+entry!('agazzi1993connected',
+  icassp(1993),
+  title('Connected and degraded text recognition using planar hidden {M}arkov models'),
+  author('Oscar E Agazzi and S-s Kuo and Esther Levin and Roberto Pieraccini'),
+  volume(5),
+  pages(113, 116),
+  organization('IEEE'),
+nil)
+
+entry!('curran2003language',
+  naacl(2003),
+  title('Language independent {NER} using a maximum entropy tagger'),
+  author('James R Curran and Stephen Clark'),
+  pages(164, 167),
+nil)
+
+entry!('maas2014first',
+  arxiv(2014, '1408.2873'),
+  title('First-Pass Large Vocabulary Continuous Speech Recognition using Bi-Directional Recurrent {DNN}s'),
+  author('Andrew L Maas and Awni Y Hannun and Daniel Jurafsky and Andrew Y Ng'),
+nil)
+
+entry!('ney1992improvements',
+  icassp(1992),
+  title('Improvements in beam search for 10000-word continuous speech recognition'),
+  author('Hermann Ney and Reinhold Haeb-Umbach and B-H Tran and Martin Oerder'),
+  volume(1),
+  pages(9, 12),
+nil)
+
+entry!('koehn2003statistical',
+  acl(2003),
+  title('Statistical phrase-based translation'),
+  author('Philipp Koehn and Franz Josef Och and Daniel Marcu'),
+  pages(48, 54),
+nil)
+
+entry!('och2003minimum',
+  acl(2003),
+  title('Minimum error rate training in statistical machine translation'),
+  author('Franz Josef Och'),
+  pages(160, 167),
+nil)
+
+entry!('rush2011exact',
+  acl(2011),
+  title('Exact decoding of syntactic translation models through {L}agrangian relaxation'),
+  author('Alexander M Rush and Michael Collins'),
+  pages(72, 82),
+nil)
+
+entry!('nuhn2013beamdecipher',
+  acl(2013),
+  author('Malte Nuhn and Julian Schamper and Hermann Ney'),
+  title('Beam Search for Solving Substitution Ciphers'),
+  pages(1569, 1576),
+nil)
+
+entry!('nuhn2014fastem',
+  acl(2014),
+  author('Malte Nuhn and Hermann Ney'),
+  title('{EM} Decipherment for Large Vocabularies'),
+  pages(759, 764),
+nil)
+
+entry!('nuhn2014homophonics',
+  emnlp(2014),
+  author('Malte Nuhn and Hermann Ney'),
+  title('Improved Decipherment of Homophonic Ciphers'),
+nil)
+
+entry!('cappe2007overview',
+  article('Proceedings of the IEEE', 2007, 95),
+  title('An overview of existing methods and recent advances in sequential {M}onte {C}arlo'),
+  author('Olivier Cappé and Simon J Godsill and Eric Moulines'),
+  number(5),
+  pages(899, 924),
+nil)
+
+entry!('gelman1992single',
+  article('Bayesian statistics', 1992, 4),
+  title('A single series from the {G}ibbs sampler provides a false sense of security'),
+  author('Andrew Gelman and Donald B Rubin'),
+  pages(625, 631),
+  publisher('Oxford University Press'),
+nil)
+
+entry!('cowles1996markov',
+  jasa(1996, 91),
+  title('{M}arkov chain {M}onte {C}arlo convergence diagnostics: a comparative review'),
+  author('Mary Kathryn Cowles and Bradley P Carlin'),
+  number(434),
+  pages(883, 904),
+  publisher('Taylor \& Francis'),
+nil)
+
+entry!('doeblin1940elements',
+  inproceedings('Annales scientifiques de l\'École Normale Supérieure', 1940),
+  title('Elements d\'une theorie generale des chaines simples constantes de Markoff'),
+  author('W Doeblin'),
+  volume(57),
+  pages(61, 111),
+  organization('Société mathématique de France'),
+nil)
+
+entry!('corcoran1998perfect',
+  preprint(1998),
+  title('Perfect sampling of {H}arris recurrent {M}arkov chains'),
+  author('JN Corcoran and RL Tweedie'),
+nil)
+
+entry!('levin2008markov',
+  author('D. Levin and Y. Peres and E. Wilmer'),
+  title('{M}arkov Chains and Mixing Times'),
+  book('American Mathematical Society', 2008),
+nil)
+
+entry!('murray2008notes',
+  preprint(2008), 
+  title('Notes on the {KL}-divergence between a {M}arkov chain and its equilibrium distribution'),
+  author('Ian Murray and Ruslan Salakhutdinov'),
+nil)
+
+entry!('sandhaus2008new',
+  manual(2008),
+  organization('Philadelphia: Linguistic Data Consortium'),
+  title('The {N}ew {Y}ork {T}imes annotated corpus'),
+  unusualCapitalization('New', 'Times'),
+  author('Evan Sandhaus'),
+nil)
+
+entry!('gulwani2007program',
+  article('ACM SIGPLAN Notices', 2007, 42),
+  title('Program verification as probabilistic inference'),
+  author('Sumit Gulwani and Nebojsa Jojic'),
+  number(1),
+  pages(277, 289),
+  organization('ACM'),
+nil)
+
+entry!('sharma2014invariant',
+  cav(2014),
+  title('From invariant checking to invariant inference using randomized search'),
+  author('Rahul Sharma and Alex Aiken'),
+  pages(88, 105),
+nil)
+
+entry!('green1995reversible',
+  biometrika(1995, 82),
+  title('Reversible jump {M}arkov chain {M}onte {C}arlo computation and {B}ayesian model determination'),
+  author('PJ Green'),
+  number(4),
+  pages(711, 732),
+nil)
+
+entry!('earl2005parallel',
+  article('Physical Chemistry Chemical Physics', 2005, 7),
+  title('Parallel tempering: Theory, applications, and new perspectives'),
+  author('David J Earl and Michael W Deem'),
+  number(23),
+  pages(3910, 3916),
+  publisher('Royal Society of Chemistry'),
+nil)
+
+entry!('gelman1998simulating',
+  article('Statistical science', 1998, 13, 2),
+  title('Simulating normalizing constants: From importance sampling to bridge sampling to path sampling'),
+  author('A Gelman and XL Meng'),
+  pages(163, 185),
+nil)
+
+entry!('viola2004robust',
+  article('International Journal of Computer Vision', 2004, 57),
+  title('Robust real-time face detection'),
+  author('Paul Viola and Michael J Jones'),
+  number(2),
+  pages(137, 154),
+nil)
+
+entry!('shen2004discriminative',
+  naacl(2004),
+  title('Discriminative reranking for machine translation'),
+  author('Libin Shen and Anoop Sarkar and Franz Josef Och'),
+  pages(177, 184),
+nil)
+
+entry!('collins2005discriminative',
+  computationalLinguistics(2005, 31),
+  title('Discriminative reranking for natural language parsing'),
+  author('Michael Collins and Terry Koo'),
+  number(1),
+  pages(25, 70),
+nil)
+
+entry!('gu2009recognition',
+  cvpr(2009),
+  title('Recognition using regions'),
+  author('Chunhui Gu and Joseph J Lim and Pablo Arbeláez and Jitendra Malik'),
+  pages(1030, 1037),
+nil)
+
+entry!('sapp2010cascaded',
+  eccv(2010),
+  title('Cascaded models for articulated pose estimation'),
+  author('B Sapp and A Toshev and B Taskar'),
+  pages(406, 420),
+nil)
+
+entry!('yadollahpour2013discriminative',
+  cvpr(2013),
+  title('Discriminative re-ranking of diverse segmentations'),
+  author('Payman Yadollahpour and Dhruv Batra and Gregory Shakhnarovich'),
+  pages(1923, 1930),
+nil)
+
+entry!('roberts1999bounds',
+  article('Stochastic Processes and their applications', 1999, 80),
+  title('Bounds on regeneration times and convergence rates for {M}arkov chains'),
+  author('GO Roberts and RL Tweedie'),
+  number(2),
+  pages(211, 229),
+nil)
+
+entry!('meyn1994computable',
+  article('The Annals of Applied Probability', 1994, 4, 4),
+  title('Computable bounds for geometric convergence rates of {M}arkov chains'),
+  author('SP Meyn and RL Tweedie'),
+  pages(981, 1011),
+nil)
+
+entry!('athreya1978new',
+  article('Transactions of the American Mathematical Society', 1978, 245),
+  title('A new approach to the limit theory of recurrent {M}arkov chains'),
+  author('Krishna B Athreya and P Ney'),
+  pages(493, 501),
+nil)
+
+entry!('rosenthal1995minorization',
+  jasa(1995, 90),
+  title('Minorization conditions and convergence rates for {M}arkov chain {M}onte {C}arlo'),
+  author('Jeffrey S Rosenthal'),
+  number(430),
+  pages(558, 566),
+  publisher('Taylor \& Francis Group'),
+nil)
+
+entry!('propp1996exact',
+  article('Random structures and Algorithms', 1996, 9),
+  title('Exact sampling with coupled {M}arkov chains and applications to statistical mechanics'),
+  author('JG Propp and DB Wilson'),
+  pages(223, 252),
+nil)
+
+entry!('murdoch1998exact',
+  article('Scandinavian Journal of Statistics', 1998, 25, 3),
+  title('Exact sampling from a continuous state space'),
+  author('Duncan J Murdoch and Peter J Green'),
+  pages(483, 502),
 nil)
 
 entry!('banarescu2013Amr',
