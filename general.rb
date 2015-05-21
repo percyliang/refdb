@@ -103,7 +103,7 @@ class Entry
     checkWarning(pages.check, "pages '#{pages}'") if pages
 
     ['type', 'title', 'author', 'metaTitle'].each { |name|
-      next if ['book', 'misc'].member?(getFirst('type')) && name == 'metaTitle' # Don't have metatitles
+      next if ['book', 'manual', 'misc'].member?(getFirst('type')) && name == 'metaTitle' # Don't have metatitles
       checkWarning(get(name), "#{name} missing")
     }
   end

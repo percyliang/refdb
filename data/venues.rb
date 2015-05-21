@@ -28,7 +28,9 @@ def dukeStat(year); techreport(Name.new('Department of Statistics, Duke Universi
 def berkeleyStat(year); techreport(Name.new('Department of Statistics, University of California at Berkeley', 'UC Berkeley'), year) end
 def berkeleyEECS(year); techreport(Name.new('EECS Department, University of California at Berkeley', 'UC Berkeley'), year) end
 def mit(year); techreport('Massachusetts Institute of Technology', year) end
-def arxiv(year); techreport('arXiv', year) end
+def arxiv(year, id=nil); article('arXiv' + (id != nil ? ' preprint arXiv:'+id : ''), year, nil) end
+def preprint(year); article('preprint', year, nil) end
+def manual(year); [type('manual'), year(year)] end
 
 ### Machine learning / AI
 def colt(year); inproceedings(Name.new('Conference on Learning Theory', 'COLT'), year) end
@@ -63,6 +65,8 @@ def esa(year); inproceedings(Name.new('European Symposium on Algorithms', 'ESA')
 def sigir(year); inproceedings(Name.new('ACM Special Interest Group on Information Retreival', 'SIGIR'), year) end
 def uist(year); inproceedings(Name.new('User Interface Software and Technology', 'UIST'), year) end
 def chi(year); inproceedings(Name.new('Conference on Human Factors in Computing Systems', 'CHI'), year) end
+
+def infotheory(year, volume); [article('IEEE Transactions on Information Theory', year, volume)] end
 
 ### Computer vision
 def eccv(year); [inproceedings(Name.new('European Conference on Computer Vision', 'ECCV'), year)] end
@@ -108,6 +112,9 @@ def emnlpconll2007; [emnlpconll(2007), address('Prague, Czech Republic')] end
 def emnlpconll2012; [emnlpconll(2012), address('Jeju Island, South Korea')] end
 def conll(year); [inproceedings(Name.new('Computational Natural Language Learning', 'CoNLL'), year)] end
 def conll2010; [conll(2010), address('Uppsala, Sweden')] end
+
+def icassp(year); [inproceedings(Name.new('International Conference on Acoustics, Speech, and Signal Processing', 'ICASSP'), year)] end
+def icslp(year); [inproceedings(Name.new('International Conference on Spoken Language Processing', 'ICSLP'), 1996)] end
 
 ### Programming languages / software engineering
 def oopsla(year); inproceedings(Name.new('Object-Oriented Programming, Systems, Languages, and Applications', 'OOPSLA'), year) end
