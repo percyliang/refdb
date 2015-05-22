@@ -93,7 +93,7 @@ class Entry
       $stderr.puts "WARNING: #{id}: #{message}" unless b
     end
     getHard('id')
-    checkWarning(id =~ /^[a-z]+(\d+)[\w+]*$/, 'id should be first-author/year/keyword (e.g., liang2006alignment)')
+    checkWarning(id =~ /^[a-z]+(\d+)\w*$/, 'id should be first-author/year/keyword (e.g., liang2006alignment)')
     idYear = $1
 
     checkWarning(year.to_s =~ /#{idYear}$/, "id's year doesn't match year '#{year}'")

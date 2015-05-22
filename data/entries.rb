@@ -6427,8 +6427,49 @@ entry!('murdoch1998exact',
   pages(483, 502),
 nil)
 
-entry!('banarescu2013Amr',
-  author('Laura BanaRescu and  Claire Bonial Shu Cai and Madalina Georgescu and Kira Griffitt and  Ulf Hermjakob and  Kevin Knight and Philipp Koehn and  Martha Palmer and Nathan Schneider'),
+entry!('banarescu2013amr',
+  author('Laura BanaRescu and Claire Bonial Shu Cai and Madalina Georgescu and Kira Griffitt and Ulf Hermjakob and Kevin Knight and Philipp Koehn and Martha Palmer and Nathan Schneider'),
   title('Abstract Meaning Representation for Sembanking'),
-  inproceedings('7th Linguistic Annotation Workshop and Interoperability with Discourse',2013),
+  inproceedings('7th Linguistic Annotation Workshop and Interoperability with Discourse', 2013),
+nil)
+
+entry!('neelakantan2015compositional',
+  acl(2015),
+  title('Compositional Vector Space Models for Knowledge Base Completion'),
+  author('Arvind Neelakantan and Benjamin Roth and Andrew McCallum'),
+nil)
+
+entry!('socher2013reasoning',
+  nips(2013),
+  title('Reasoning with neural tensor networks for knowledge base completion'),
+  author('Richard Socher and Danqi Chen and Christopher D Manning and Andrew Ng'),
+  pages(926, 934),
+nil)
+
+entry!('min2013distant',
+  naacl(2013),
+  title('Distant Supervision for Relation Extraction with an Incomplete Knowledge Base'),
+  author('Bonan Min and Ralph Grishman and Li Wan and Chang Wang and David Gondek'),
+  pages(777, 782),
+nil)
+
+entry!('bordes2013translating',
+  nips(2013),
+  title('Translating embeddings for modeling multi-relational data'),
+  author('Antoine Bordes and Nicolas Usunier and Alberto Garcia-Duran and Jason Weston and Oksana Yakhnenko'),
+  pages(2787, 2795),
+nil)
+
+entry!('grefenstette2011experimental',
+  emnlp(2011),
+  title('Experimental support for a categorical compositional distributional model of meaning'),
+  author('Edward Grefenstette and Mehrnoosh Sadrzadeh'),
+  pages(1394, 1404),
+nil)
+
+entry!('socher2014grounded',
+  tacl(2014, 2),
+  title('Grounded compositional semantics for finding and describing images with sentences'),
+  author('Richard Socher and Andrej Karpathy and Quoc V Le and Christopher D Manning and Andrew Y Ng'),
+  pages(207, 218),
 nil)
