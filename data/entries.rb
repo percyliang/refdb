@@ -4366,15 +4366,6 @@ entry!('jaeger2000observable',
   tags('spectral'),
 nil)
 
-entry!('liang2015semantics',
-  author('Percy Liang and Christopher Potts'),
-  title('Bringing machine learning and compositional semantics together'),
-  article('Annual Reviews of Linguistics', 2015, 1, 1),
-  pages(355, 376),
-  url('http://www.stanford.edu/~cgpotts/manuscripts/liang-potts-semantics.pdf'),
-  tags('semantic parsing'),
-nil)
-
 entry!('berant2014paraphrasing',
   author('Jonathan Berant and Percy Liang'),
   title('Semantic Parsing via Paraphrasing'),
@@ -5428,6 +5419,38 @@ entry!('reddy2014large',
   title('Large-scale Semantic Parsing without Question-Answer Pairs'),
 nil)
 
+entry!('pasupat2015compositional',
+  acl(2015),
+  title('Compositional Semantic Parsing on Semi-Structured Tables'),
+  author('Panupong Pasupat and Percy Liang'),
+nil)
+
+entry!('wang2015overnight',
+  acl(2015),
+  title('Building a Semantic Parser Overnight'),
+  author('Yushi Wang and Jonathan Berant and Percy Liang'),
+nil)
+
+entry!('misra2015environment',
+  acl(2015),
+  title('Environment-Driven Lexicon Induction for High-Level Instructions'),
+  author('Dipendra K. Misra and Kejia Tao and Percy Liang and Ashutosh Saxena'),
+nil)
+
+entry!('steinhardt2015rcm',
+  author('Jacob Steinhardt and Percy Liang'),
+  title('Reified Context Models'),
+  url('http://arxiv.org/pdf/1502.06665.pdf'),
+  icml(2015),
+nil)
+
+entry!('steinhardt2015fast',
+  author('Jacob Steinhardt and Percy Liang'),
+  title('Learning Fast-Mixing Models for Structured Prediction'),
+  url('http://arxiv.org/pdf/1502.06668.pdf'),
+  icml(2015),
+nil)
+
 entry!('shi2015sample',
   aistats(2015),
   author('Tianlin Shi and Jacob Steinhardt and Percy Liang'),
@@ -5441,6 +5464,15 @@ entry!('kuleshov2015tensor',
   author('Volodymyr Kuleshov and Arun Chaganty and Percy Liang'),
   title('Tensor factorization via matrix factorization'),
   url('http://arxiv.org/pdf/1501.07320.pdf'),
+nil)
+
+entry!('liang2015semantics',
+  author('Percy Liang and Christopher Potts'),
+  title('Bringing machine learning and compositional semantics together'),
+  article('Annual Reviews of Linguistics', 2015, 1, 1),
+  pages(355, 376),
+  url('http://www.stanford.edu/~cgpotts/manuscripts/liang-potts-semantics.pdf'),
+  tags('semantic parsing'),
 nil)
 
 entry!('steinhardt2014sparse',
@@ -5493,10 +5525,11 @@ entry!('desilva2008tensor',
 nil)
 
 entry!('kuleshov2015simultaneous',
- arxiv(2015),
- author('Volodymyr Kuleshov and Arun Chaganty and Percy Liang'),
- title('Simultaneous diagonalization: the asymmetric, low-rank, and noisy settings'),
- url('http://arxiv.org/pdf/1501.06318.4182.pdf'),
+  arxiv(2015),
+  extendedVersion,
+  author('Volodymyr Kuleshov and Arun Chaganty and Percy Liang'),
+  title('Simultaneous diagonalization: the asymmetric, low-rank, and noisy settings'),
+  url('http://arxiv.org/pdf/1501.06318.4182.pdf'),
 nil)
 
 entry!('rahimi2007random',
@@ -5618,20 +5651,6 @@ entry!('garrette2013learning',
   title('Learning a Part-of-Speech Tagger from Two Hours of Annotation'),
   author('Dan Garrette and Jason Baldridge'),
   pages(138, 147),
-nil)
-
-entry!('steinhardt2015rcm',
-  author('Jacob Steinhardt and Percy Liang'),
-  title('Reified Context Models'),
-  url('http://arxiv.org/pdf/1502.06665.pdf'),
-  icml(2015),
-nil)
-
-entry!('steinhardt2015fast',
-  author('Jacob Steinhardt and Percy Liang'),
-  title('Learning Fast-Mixing Models for Structured Prediction'),
-  url('http://arxiv.org/pdf/1502.06668.pdf'),
-  icml(2015),
 nil)
 
 entry!('price1990atis',
