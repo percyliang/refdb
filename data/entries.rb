@@ -6556,5 +6556,32 @@ entry!('hermans2012recurrent',
   author('Michiel Hermans and Benjamin Schrauwen'),
   number(1),
   pages(104, 133),
-  publisher('MIT Press'),
+nil)
+
+entry!('livni2013algorithm',
+  arxiv(2013, '1304.7045'),
+  title('An Algorithm for Training Polynomial Networks'),
+  author('Roi Livni and Shai Shalev-Shwartz and Ohad Shamir'),
+nil)
+
+entry!('lukovsevivcius2009reservoir',
+  article('Computer Science Review', 2009, 3),
+  title('Reservoir computing approaches to recurrent neural network training'),
+  author('Mantas Luko{\v{s}}Evi{\v{c}}Ius and Herbert Jaeger'),
+  number(3),
+  pages(127, 149),
+nil)
+
+entry!('schmidhuber2007evolino',
+  article('Neural Computation', 2007, 19),
+  title('Training recurrent networks by {E}volino'),
+  author('J{\"u}rgen Schmidhuber and Daan Wierstra and Matteo Gagliolo and Faustino Gomez'),
+  number(3),
+  pages(757, 779),
+nil)
+
+entry!('cho2014gru',
+  arxiv(2014, '1409.1259'),
+  title('On the properties of neural machine translation: Encoder-decoder approaches'),
+  author('Kyunghyun Cho and Bart van Merri{\"e}nboer and Dzmitry Bahdanau and Yoshua Bengio'),
 nil)
