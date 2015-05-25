@@ -6492,3 +6492,69 @@ entry!('socher2014grounded',
   author('Richard Socher and Andrej Karpathy and Quoc V Le and Christopher D Manning and Andrew Y Ng'),
   pages(207, 218),
 nil)
+
+entry!('koutnik2014clockwork',
+  icml(2014),
+  title('A Clockwork {RNN}'),
+  author('Jan Koutnik and Klaus Greff and Faustino Gomez and Juergen Schmidhuber'),
+  pages(1863, 1871),
+nil)
+
+entry!('hochreiter1997lstm',
+  article('Neural Computation', 1997, 9),
+  title('Long short-term memory'),
+  author('Sepp Hochreiter and J{\\"u}rgen Schmidhuber'),
+  number(8),
+  pages(1735, 1780),
+  publisher('MIT Press'),
+nil)
+
+entry!('mikolov2014learning',
+  arxiv(2014, '1412.7753'),
+  title('Learning Longer Memory in Recurrent Neural Networks'),
+  author('Tomas Mikolov and Armand Joulin and Sumit Chopra and Michael Mathieu and Marc\'Aurelio Ranzato'),
+nil)
+
+entry!('le2015simple',
+  arxiv(2015, '1504.00941'),
+  title('A Simple Way to Initialize Recurrent Networks of Rectified Linear Units'),
+  author('Quoc V Le and Navdeep Jaitly and Geoffrey E Hinton'),
+nil)
+
+entry!('livni2014computational',
+  nips(2014),
+  title('On the Computational Efficiency of Training Neural Networks'),
+  author('Roi Livni and Shai Shalev-Shwartz and Ohad Shamir'),
+  pages(855, 863),
+nil)
+
+entry!('andoni2014learning',
+  icml(2014),
+  title('Learning polynomials with neural networks'),
+  author('Alexandr Andoni and Rina Panigrahy and Gregory Valiant and Li Zhang'),
+  pages(1908, 1916),
+nil)
+
+entry!('elman1990finding',
+  article('Cognitive Science', 1990, 14),
+  title('Finding structure in time'),
+  author('Jeffrey L Elman'),
+  number(2),
+  pages(179, 211),
+nil)
+
+entry!('arora2014provable',
+  icml(2014),
+  title('Provable Bounds for Learning Some Deep Representations'),
+  author('Sanjeev Arora and Aditya Bhaskara and Rong Ge and Tengyu Ma'),
+  pages(584, 592),
+nil)
+
+entry!('hermans2012recurrent',
+  article('Neural Computation', 2012, 24),
+  title('Recurrent kernel machines: Computing with infinite echo state networks'),
+  author('Michiel Hermans and Benjamin Schrauwen'),
+  number(1),
+  pages(104, 133),
+  publisher('MIT Press'),
+nil)
