@@ -6895,12 +6895,6 @@ entry!('tenorth2010knowrob',
   author('M. Tenorth and L. Kunze and D. Jain and M. Beetz'),
 nil)
 
-entry!('tellex2011understanding',
-  aaai(2011),
-  title('Understanding Natural Language Commands for Robotic Navigation and Mobile Manipulation.'),
-  author('S. Tellex and T. Kollar and S. Dickerson and M. R Walter and A. G.l Banerjee and S. J. Teller and N. Roy'),
-nil)
-
 entry!('chen2010training',
   jair(2010, 37),
   title('Training a multilingual sportscaster: Using perceptual context to learn language'),
@@ -6954,19 +6948,10 @@ entry!('jiang-hallucinatinghumans-labeling3dscenes-cvpr2013',
   author('Y. Jiang and H. Koppula and A. Saxena'),
 nil)
 
-entry!('steedman2000syntactic',
-  title('The syntactic process'),
-  author('M. Steedman'),
-  volume(35),
-  year(2000),
-  publisher('MIT Press'),
-nil)
-
 entry!('steedman1996surface',
   title('Surface structure and interpretation'),
   author('M. Steedman'),
-  year(1996),
-  publisher('MIT press'),
+  book('MIT press', 1996),
 nil)
 
 entry!('zettlemoyer2007online',
@@ -7071,8 +7056,7 @@ nil)
 entry!('cookingMalmaud',
   author('J. Malmaud and E. Wagner and N. Chang and K. Murphy'),
   title('Cooking with Semantics'),
-  year(2014),
-  publisher('ACL 2014 Workshop on Semantic Parsing'),
+  inproceedings('ACL Workshop on Semantic Parsing', 2014),
   pages(33, 38),
 nil)
 
@@ -7082,13 +7066,6 @@ entry!('kirk2014controlled',
   author('N. H. Kirk and D. Nyga and M. Beetz'),
   pages(6667, 6672),
   organization('IEEE'),
-nil)
-
-entry!('fellbaum1998wordnet',
-  title('WordNet'),
-  author('C. Fellbaum'),
-  year(1998),
-  publisher('Wiley Online Library'),
 nil)
 
 entry!('och2003systematic',
@@ -7130,13 +7107,6 @@ entry!('bruce2002real',
   organization('IEEE'),
 nil)
 
-entry!('artzi2013weakly',
-  tacl(2013, 1),
-  title('Weakly supervised learning of semantic parsers for mapping instructions to actions'),
-  author('Y. Artzi and L. Zettlemoyer'),
-  pages(49, 62),
-nil)
-
 entry!('kwiatkowski2011lexical',
   emnlp(2011),
   title('Lexical generalization in CCG grammar induction for semantic parsing'),
@@ -7173,13 +7143,6 @@ entry!('chen2008learning',
   author('D. L. Chen and R. J. Mooney'),
   pages(128, 135),
   organization('ACM'),
-nil)
-
-entry!('liang11dcs',
-  acl(2011),
-  author('P. Liang and M. I. Jordan and D. Klein'),
-  pages(590, 599),
-  title('Learning Dependency-Based Compositional Semantics'),
 nil)
 
 entry!('liang2013lambda',
@@ -7232,21 +7195,3 @@ entry!('liang09semantics',
   title('Learning Semantic Correspondences with Less Supervision'),
 nil)
 
-entry!('zettlemoyer05ccg',
-  uai(2005),
-  author('L. S. Zettlemoyer and M. Collins'),
-  pages(658, 666),
-  title('Learning to Map Sentences to Logical Form: Structured Classification with Probabilistic Categorial Grammars'),
-nil)
-
-entry!('berant2014paraphrasing',
-  acl(2014),
-  author('J. Berant and P. Liang'),
-  title('Semantic Parsing via Paraphrasing'),
-nil)
-
-entry!('kwiatkowski2013scaling',
-  emnlp(2013),
-  author('T. Kwiatkowski and E. Choi and Y. Artzi and L. Zettlemoyer'),
-  title('Scaling Semantic Parsers with On-the-fly Ontology Matching'),
-nil)
