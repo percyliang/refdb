@@ -6585,3 +6585,33 @@ entry!('cho2014gru',
   title('On the properties of neural machine translation: Encoder-decoder approaches'),
   author('Kyunghyun Cho and Bart van Merri{\"e}nboer and Dzmitry Bahdanau and Yoshua Bengio'),
 nil)
+
+entry!('stephenson08brier',
+  article('Weather Forecasting', 2008, 23),
+  title('Two Extra Components in the Brier Score Decomposition'),
+  author('D. B. Stephenson and C. A. S. Coelho and I. T. Jolliffe'),
+  pages(752, 757),
+nil)
+
+entry!('murphy1973vector',
+  article('Journal of Applied Meteorology', 1973, 12),
+  title('A new vector partition of the probability score'),
+  author('Allan H Murphy'),
+  number(4),
+  pages(595, 600),
+nil)
+
+entry!('brocker2009decomposition',
+  article('Quarterly Journal of the Royal Meteorological Society', 2009, 135),
+  author('Jochen Brocker'),
+  title('Reliability, sufficiency, and the decomposition of proper scores'),
+  number(643),
+  pages(1512, 1519),
+nil)
+
+entry!('brocker2012empirical',
+  article('Climate Dynamics', 2012, 39),
+  title('Estimating reliability and resolution of probability forecasts through decomposition of the empirical score'),
+  author('Jochen Brocker'),
+  pages(655, 667),
+nil)
