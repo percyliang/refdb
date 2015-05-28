@@ -2512,7 +2512,8 @@ nil)
 entry!('chen11navigate',
   title('Learning to Interpret Natural Language Navigation Instructions from Observations'),
   author('David L. Chen and Raymond J. Mooney'),
-  aaai(2011), pages(859, 865),
+  aaai(2011), 
+  pages(859, 865),
 nil)
 
 entry!('grice75maxims',
@@ -7167,48 +7168,20 @@ entry!('vogel2010learning',
   organization('ACL'),
 nil)
 
-entry!('chen11navigate',
-  aaai(2011),
-  author('D. L. Chen and R. J. Mooney'),
-  pages(859, 865),
-  title('Learning to Interpret Natural Language Navigation Instructions from Observations'),
-nil)
-
-entry!('branavan2012learning',
-  acl(2012),
-  author('S. Branavan and N. Kushman and T. Lei and R. Barzilay'),
-  pages(126, 135),
-  title('Learning high-level planning from text'),
-nil)
-
-entry!('branavan09reinforcement',
-  aclijcnlp(2009),
-  author('S. Branavan and H. Chen and L. S. Zettlemoyer and R. Barzilay'),
-  pages(82, 90),
-  title('Reinforcement Learning for Mapping Instructions to Actions'),
-nil)
-
-entry!('liang09semantics',
-  aclijcnlp(2009),
-  author('P. Liang and M. I. Jordan and D. Klein'),
-  pages(91, 99),
-  title('Learning Semantic Correspondences with Less Supervision'),
-nil)
-
 entry!('sung2015robobarista',
   arxiv(2015, '1504.03071'),
-  author('Sung, Jaeyong and Jin, Seok Hyun and Saxena, Ashutosh'),
+  author('Jaeyong Sung and Seok Hyun Jin and Ashutosh Saxena'),
   title('Robobarista: Object Part based Transfer of Manipulation Trajectories from Crowd-sourcing in 3D Pointclouds'),
 nil)
 
 entry!('saxena2014robobrain',
   arxiv(2014, '1412.0691'),
-  author('Saxena, A. and Jain, A. and Sener, O. and Jami, A. and Misra, D. K. and Koppula, H. S.'),
+  author('Ashutosh Saxena and Ashesh Jain and Ozan Sener and Aditya Jami and Dipendra Kumar Misra and Hema S Koppula'),
   title('RoboBrain: Large-Scale Knowledge Engine for Robots'),
 nil)
 
 entry!('ren2012rgb',
-  author('Ren, Xiaofeng and Bo, Liefeng and Fox, Dieter'),
+  author('Xiaofeng Ren and Liefeng Bo and Dieter Fox'),
   title('Rgb-(d) scene labeling: Features and algorithms'),
   cvpr(2012),
   pages(2759, 2766),
@@ -7217,6 +7190,6 @@ nil)
 
 entry!('levine2015end',
   arxiv(2015, '1504.00702'),
-  author('Levine, S. and Finn, C. and Darrell, T. and Abbeel, P.'),
+  author('S. Levine and C. Finn and T. Darrell and P. Abbeel'),
   title('End-to-End Training of Deep Visuomotor Policies'),
 nil)
