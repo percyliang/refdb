@@ -73,6 +73,16 @@ def eccv(year); [inproceedings(Name.new('European Conference on Computer Vision'
 def iccv(year); inproceedings(Name.new('International Conference on Computer Vision', 'ICCV'), year) end
 def cvpr(year); inproceedings(Name.new('Computer Vision and Pattern Recognition', 'CVPR'), year) end
 
+# Robotics
+def icra(year); inproceedings(Name.new('International Conference on Robotics and Automation', 'ICRA'), year) end
+def iros(year); inproceedings(Name.new('International Conference on Intelligent Robots and Systems', 'IROS'), year) end
+def rss(year); inproceedings(Name.new('Robotics: Science and Systems', 'RSS'), year) end
+def iser(year); inproceedings(Name.new('International Symposium on Experimental Robotics', 'ISER'), year) end
+def ias(year); inproceedings(Name.new('International Conference on Intelligent Autonomous Systems', 'IAS'), year) end
+def aamas(year); inproceedings(Name.new('International Conference on Autonomous Agents and Multiagent Systems', 'AAMAS'), year) end
+def ijrr(year, volume); article(Name.new('International Journal of Robotics Research', 'IJRR'), year, volume) end
+def ijsr(year, volume); article(Name.new('International Journal of Social Robotics', 'IJSR'), year, volume) end
+
 ### Natural language processing
 def naacl(year); [inproceedings(Name.new('North American Association for Computational Linguistics', 'NAACL'), year), aclpub] end
 def naacl2009; [naacl(2009), address('Boulder, Colorado')] end
