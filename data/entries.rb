@@ -7195,3 +7195,28 @@ entry!('liang09semantics',
   title('Learning Semantic Correspondences with Less Supervision'),
 nil)
 
+entry!('sung2015robobarista',
+  arxiv(2015, '1504.03071'),
+  author('Sung, Jaeyong and Jin, Seok Hyun and Saxena, Ashutosh'),
+  title('Robobarista: Object Part based Transfer of Manipulation Trajectories from Crowd-sourcing in 3D Pointclouds'),
+nil)
+
+entry!('saxena2014robobrain',
+  arxiv(2014, '1412.0691'),
+  author('Saxena, A. and Jain, A. and Sener, O. and Jami, A. and Misra, D. K. and Koppula, H. S.'),
+  title('RoboBrain: Large-Scale Knowledge Engine for Robots'),
+nil)
+
+entry!('ren2012rgb',
+  author('Ren, Xiaofeng and Bo, Liefeng and Fox, Dieter'),
+  title('Rgb-(d) scene labeling: Features and algorithms'),
+  cvpr(2012),
+  pages(2759, 2766),
+  organization('IEEE'),
+nil)
+
+entry!('levine2015end',
+  arxiv(2015, '1504.00702'),
+  author('Levine, S. and Finn, C. and Darrell, T. and Abbeel, P.'),
+  title('End-to-End Training of Deep Visuomotor Policies'),
+nil)
