@@ -98,6 +98,8 @@ class Entry
 
     checkWarning(year.to_s =~ /#{idYear}$/, "id's year doesn't match year '#{year}'")
 
+    checkWarning(title.to_s !~ /\.$/, "title ends with period '#{title}'")
+
     # Check that the fields are valid
     checkWarning(year >= 1800 && year <= 2020, "year '#{year}'")
     checkWarning(pages.check, "pages '#{pages}'") if pages
