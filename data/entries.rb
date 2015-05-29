@@ -7113,3 +7113,9 @@ entry!('ullman1985implementation',
   pages(289, 321),
   publisher('ACM'),
 nil)
+
+entry!('lenz2015deepmpc',
+  inproceedings('Robotics Science and Systems (RSS)', 2015),
+  title('DeepMPC: Learning Deep Latent Features for Model Predictive Control'),
+  author('Ian Lenz and Ross Knepper and Ashutosh Saxena'),
+nil)
