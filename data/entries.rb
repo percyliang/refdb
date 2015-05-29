@@ -2721,12 +2721,6 @@ entry!('barcelo11grpah',
   inproceedings('Symposium on Principles of Database Systems', 2011),
 nil)
 
-entry!('lao11random',
-  author('Ni Lao and Tom Mitchell and William W. Cohen'),
-  title('Random Walk Inference and Learning in A Large Scale Knowledge Base'),
-  emnlp2011,
-nil)
-
 entry!('chen12lexicon',
   author('David Chen'),
   title('Fast Online Lexicon Learning for Grounded Language Acquisition'),
@@ -7136,7 +7130,7 @@ nil)
 
 entry!('vilnis2014gaussian',
   arxiv(2014, '1412.6623'),
-  title('Word Representations via Gaussian Embedding'),
+  title('Word Representations via {G}aussian Embedding'),
   author('Luke Vilnis and Andrew McCallum'),
 nil)
 
