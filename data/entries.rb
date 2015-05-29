@@ -595,7 +595,7 @@ entry!('paskin02bigrams',
   title('Grammatical Bigrams'),
   nips(2002),
 nil)
-  
+
 entry!('klein04induction',
   author('Dan Klein and Christopher D. Manning'),
   title('Corpus-Based Induction of Syntactic Structure: Models of Dependency and Constituency'),
@@ -841,7 +841,7 @@ nil)
 entry!('wainwright06wrong',
   author('Martin Wainwright'),
   title('Estimating the ``wrong\'\' graphical model: Benefits in the computation-limited setting'),
-  jmlr(2006, 7), pages(1829, 1859), 
+  jmlr(2006, 7), pages(1829, 1859),
 nil)
 
 entry!('wainwright03trw',
@@ -1506,7 +1506,7 @@ entry!('evgeniou05task',
   jmlr(2005, 6), pages(615, 637),
 nil)
 
-entry!('argyriou07feature', 
+entry!('argyriou07feature',
   author('A. Argyriou and T. Evgeniou and M. Pontil'),
   title('Multi-task feature learning'),
   nips(2007), pages(41, 48),
@@ -2068,7 +2068,7 @@ nil)
 entry!('goodman08rule',
   title('A rational analysis of rule-based concept learning'),
   author('N. D. Goodman and J. B. Tenenbaum and J. Feldman and T. L. Griffiths'),
-  article('Cognitive Science', 2008, 32), pages(108, 154), 
+  article('Cognitive Science', 2008, 32), pages(108, 154),
 nil)
 
 entry!('arlot10penalty',
@@ -2512,7 +2512,7 @@ nil)
 entry!('chen11navigate',
   title('Learning to Interpret Natural Language Navigation Instructions from Observations'),
   author('David L. Chen and Raymond J. Mooney'),
-  aaai(2011), 
+  aaai(2011),
   pages(859, 865),
 nil)
 
@@ -2685,7 +2685,7 @@ nil)
 entry!('hsu13spherical',
   title('Learning Mixtures of Spherical {G}aussians: Moment Methods and Spectral Decompositions'),
   author('Daniel Hsu and Sham M. Kakade'),
-  inproceedings('Innovations in Theoretical Computer Science (ITCS)', 2013), 
+  inproceedings('Innovations in Theoretical Computer Science (ITCS)', 2013),
   tags('spectral'),
 nil)
 
@@ -2719,12 +2719,6 @@ entry!('barcelo11grpah',
   author('Pablo Barcelo and Leonid Libkin and Juan Reutter'),
   title('Querying Graph Patterns'),
   inproceedings('Symposium on Principles of Database Systems', 2011),
-nil)
-
-entry!('lao11random',
-  author('Ni Lao and Tom Mitchell and William W. Cohen'),
-  title('Random Walk Inference and Learning in A Large Scale Knowledge Base'),
-  emnlp2011,
 nil)
 
 entry!('chen12lexicon',
@@ -3062,7 +3056,7 @@ entry!('kushman2013regex',
 nil)
 
 entry!('krishnamurthy2013jointly',
-  tacl(2013, 1), 
+  tacl(2013, 1),
   pages(193, 206),
   url('http://jayantkrish.com/papers/tacl2013-krishnamurthy-kollar.pdf'),
   title('Jointly Learning to Parse and Perceive: Connecting Natural Language to the Physical World'),
@@ -3935,8 +3929,8 @@ The learning of probabilistic models with many hidden variables
 and non-decomposable dependencies is an important and challenging problem.
 In contrast to traditional approaches based on approximate inference in a single
 intractable model, our approach is to train a set of tractable
-submodels by encouraging them to agree on the hidden variables.  This allows 
-us to capture non-decomposable aspects of the data while still maintaining 
+submodels by encouraging them to agree on the hidden variables.  This allows
+us to capture non-decomposable aspects of the data while still maintaining
 tractability.  We propose an objective function for our approach,
 derive EM-style algorithms for parameter estimation, and demonstrate their
 effectiveness on three challenging real-world learning tasks.
@@ -3988,17 +3982,17 @@ entry!('liang07permdp',
             'which are consistent with the permutation '+
             'using dynamic programming.'),
   abstract(<<EOF
-We introduce a new inference algorithm for Dirichlet process mixture 
-models.  While Gibbs sampling and variational methods focus on local 
+We introduce a new inference algorithm for Dirichlet process mixture
+models.  While Gibbs sampling and variational methods focus on local
 moves, the new algorithm makes more global moves.  This is done by
-introducing a permutation of the data points as an auxiliary variable. 
+introducing a permutation of the data points as an auxiliary variable.
 The algorithm is a blocked sampler which alternates between sampling the
 clustering and sampling the permutation.  The key to the efficiency of
-this approach is that it is possible to use dynamic programming to 
+this approach is that it is possible to use dynamic programming to
 consider all exponentially many clusterings consistent with a given
-permutation.  We also show that random projections can be used to 
-effectively sample the permutation.  The result is a stochastic 
-hill-climbing algorithm that yields burn-in times significantly 
+permutation.  We also show that random projections can be used to
+effectively sample the permutation.  The result is a stochastic
+hill-climbing algorithm that yields burn-in times significantly
 smaller than those of collapsed Gibbs sampling.
 EOF
   ),
@@ -4060,18 +4054,18 @@ entry!('liang06discrimative',
             'Use a Perceptron-like algorithm: '+
             'decode and update towards maximum BLEU scoring translation on the n-best list.'),
   abstract(<<EOF
-We present a perceptron-style discriminative approach to machine 
-translation in which large feature sets can be exploited.  Unlike 
-discriminative reranking approaches, our system can take advantage of learned 
-features in all stages of decoding.  We first discuss several challenges to 
-error-driven discriminative approaches.  In particular, we explore different 
-ways of updating parameters given a training example.  We find that making 
-frequent but smaller updates is preferable to making fewer but larger updates. 
-Then, we discuss an array of features and show both how they quantitatively 
-increase BLEU score and how they qualitatively interact on specific examples. 
-One particular feature we investigate is a novel way to introduce learning into 
-the initial phrase extraction process, which has previously been entirely 
-heuristic. 
+We present a perceptron-style discriminative approach to machine
+translation in which large feature sets can be exploited.  Unlike
+discriminative reranking approaches, our system can take advantage of learned
+features in all stages of decoding.  We first discuss several challenges to
+error-driven discriminative approaches.  In particular, we explore different
+ways of updating parameters given a training example.  We find that making
+frequent but smaller updates is preferable to making fewer but larger updates.
+Then, we discuss an array of features and show both how they quantitatively
+increase BLEU score and how they qualitatively interact on specific examples.
+One particular feature we investigate is a novel way to introduce learning into
+the initial phrase extraction process, which has previously been entirely
+heuristic.
 EOF
   ),
 nil)
@@ -4090,7 +4084,7 @@ entry!('liang06alignment',
             'Result: performance competitive with supervised methods (4.9 AER on Hansards).'),
   abstract(<<EOF
 We present an unsupervised approach to symmetric
-word alignment in which two simple asymmetric models are 
+word alignment in which two simple asymmetric models are
 trained jointly to maximize a
 combination of data likelihood and agreement between the models.
 Compared to the standard practice of intersecting predictions of
@@ -5243,7 +5237,7 @@ entry!('zhang2014crowdsourcing',
   url('http://arxiv.org/pdf/1406.3824'),
 )
 
-entry!('huang2013fast', 
+entry!('huang2013fast',
   title("Fast Detection of Overlapping Communities via Online Tensor Methods"),
   author("Furong Huang and U N Niranjan and Mohammad Umar Hakeem and Animashree Anandkumar"),
   arxiv(2013),
@@ -5735,7 +5729,7 @@ entry!('adler2012textexploration',
   url('http://www.aclweb.org/anthology/P12-3014'),
   tags('textual entailment'),
 nil)
-    
+
 entry!('zeichner2012crowdsourcing',
   author('Naomi Zeichner and Jonathan Berant and Ido Dagan'),
   title('Crowdsourcing Inference-rule Evaluation'),
@@ -5751,7 +5745,7 @@ entry!('weisman2012learning',
   emnlp(2012),
   tags('textual entailment'),
 nil)
-  
+
 entry!('berant2011global',
   author('Jonathan Berant and Ido Dagan and Jacob Goldberger'),
   title('Global Learning of Typed Entailment Rules'),
@@ -5932,7 +5926,7 @@ nil)
 
 entry!('cohen2013pcfg',
        title('Approximate {PCFG} Parsing Using Tensor Decomposition'),
-       hltnaacl(2013), 
+       hltnaacl(2013),
        pages(487, 496),
        author('Shay B Cohen and Giorgio Satta and Michael Collins'),
 nil)
@@ -6306,7 +6300,7 @@ entry!('levin2008markov',
 nil)
 
 entry!('murray2008notes',
-  preprint(2008), 
+  preprint(2008),
   title('Notes on the {KL}-divergence between a {M}arkov chain and its equilibrium distribution'),
   author('Ian Murray and Ruslan Salakhutdinov'),
 nil)
@@ -7118,4 +7112,57 @@ entry!('lenz2015deepmpc',
   inproceedings('Robotics Science and Systems (RSS)', 2015),
   title('DeepMPC: Learning Deep Latent Features for Model Predictive Control'),
   author('Ian Lenz and Ross Knepper and Ashutosh Saxena'),
+nil)
+
+entry!('yang2015embeddings',
+  arxiv(2015, '1412.6575'),
+  title('Embedding Entities and Relations for Learning and Inference in Knowledge Bases'),
+  author('Bishan Yang and Wen-tau Yih and Xiaodong He and Jianfeng Gao and Li Deng'),
+nil)
+
+entry!('lao2011pathranking',
+  emnlp(2011),
+  title('Random walk inference and learning in a large scale knowledge base'),
+  author('Ni Lao and Tom Mitchell and William W Cohen'),
+  pages(529, 539),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('grefenstette2013calculus',
+  arxiv(2013, '1304.5823'),
+  title('Towards a formal distributional semantics: Simulating logical calculi with tensors'),
+  author('Edward Grefenstette'),
+nil)
+
+entry!('vilnis2014gaussian',
+  arxiv(2014, '1412.6623'),
+  title('Word Representations via {G}aussian Embedding'),
+  author('Luke Vilnis and Andrew McCallum'),
+nil)
+
+entry!('gardner2014incorporating',
+  emnlp(2014),
+  title('Incorporating vector space similarity in random walk inference over knowledge bases'),
+  author('Matt Gardner and Partha Talukdar and Jayant Krishnamurthy and Tom Mitchell'),
+nil)
+
+entry!('nickel2014reducing',
+  nips(2014),
+  title('Reducing the Rank in Relational Factorization Models by Including Observable Patterns'),
+  author('Maximilian Nickel and Xueyan Jiang and Volker Tresp'),
+  pages(1179, 1187),
+nil)
+
+entry!('rocktaschel2014lowlogic',
+  acl(2014),
+  title('Low-dimensional embeddings of logic'),
+  author('Tim Rockt{\"a}schel and Matko Bosnjak and Sameer Singh and Sebastian Riedel'),
+nil)
+
+entry!('perozzi2014deepwalk',
+  kdd(2014),
+  title('Deepwalk: Online learning of social representations'),
+  author('Bryan Perozzi and Rami Al-Rfou and Steven Skiena'),
+  pages(701, 710),
+  organization('ACM'),
 nil)
