@@ -7195,3 +7195,64 @@ entry!('liang09semantics',
   title('Learning Semantic Correspondences with Less Supervision'),
 nil)
 
+entry!('yang2015embeddings',
+  arxiv(2015, '1412.6575'),
+  title('Embedding Entities and Relations for Learning and Inference in Knowledge Bases'),
+  author('Bishan Yang and Wen-tau Yih and Xiaodong He and Jianfeng Gao and Li Deng'),
+nil)
+
+entry!('lao2011pathranking',
+  emnlp(2011),
+  title('Random walk inference and learning in a large scale knowledge base'),
+  author('Ni Lao and Tom Mitchell and William W Cohen'),
+  pages(529, 539),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('grefenstette2013calculus',
+  arxiv(2013, '1304.5823'),
+  title('Towards a formal distributional semantics: Simulating logical calculi with tensors'),
+  author('Edward Grefenstette'),
+nil)
+
+entry!('vilnis2014gaussian',
+  arxiv(2014, '1412.6623'),
+  title('Word Representations via Gaussian Embedding'),
+  author('Luke Vilnis and Andrew McCallum'),
+nil)
+
+entry!('gardner2014incorporating',
+  emnlp(2014),
+  title('Incorporating vector space similarity in random walk inference over knowledge bases'),
+  author('Matt Gardner and Partha Talukdar and Jayant Krishnamurthy and Tom Mitchell'),
+nil)
+
+entry!('nickel2014reducing',
+  nips(2014),
+  title('Reducing the Rank in Relational Factorization Models by Including Observable Patterns'),
+  author('Maximilian Nickel and Xueyan Jiang and Volker Tresp'),
+  pages(1179, 1187),
+nil)
+
+entry!('rocktaschel2014lowlogic',
+  acl(2014),
+  title('Low-dimensional embeddings of logic'),
+  author('Tim Rockt{\"a}schel and Matko Bosnjak and Sameer Singh and Sebastian Riedel'),
+nil)
+
+entry!('perozzi2014deepwalk',
+  kdd(2014),
+  title('Deepwalk: Online learning of social representations'),
+  author('Bryan Perozzi and Rami Al-Rfou and Steven Skiena'),
+  pages(701, 710),
+  organization('ACM'),
+nil)
+
+entry!('ullman1985implementation',
+  inproceedings('ACM SIGMOD Record', 1985),
+  title('Implementation of logiclal query languages for databases'),
+  author('Jeffrey D Ullman'),
+  volume(14),
+  number(4),
+  organization('ACM'),
+nil)
