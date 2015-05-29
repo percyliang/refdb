@@ -6750,7 +6750,7 @@ nil)
 entry!('fasola2013using',
   iros(2013),
   title('Using Semantic Fields to Model Dynamic Spatial Relations in a Robot Architecture for Natural Language Instruction of Service Robots'),
-  author('J. Fasola and M. Mataric'),
+  author('J. Fasola and M. J Matari{\\\'c}'),
 nil)
 
 entry!('lenz2013deep',
@@ -7024,7 +7024,7 @@ nil)
 entry!('fasola2014interpreting',
   icra(2014),
   title('Interpreting Instruction Sequences in Spatial Language Discourse with Pragmatics towards Natural Human-Robot Interaction'),
-  author('J. Fasola and M. J Matari{\'c}'),
+  author('J. Fasola and M. J Matari{\\\'c}'),
   pages(6667, 6672),
 nil)
 
