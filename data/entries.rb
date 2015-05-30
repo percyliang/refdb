@@ -5425,6 +5425,8 @@ entry!('wang2015overnight',
   acl(2015),
   title('Building a Semantic Parser Overnight'),
   author('Yushi Wang and Jonathan Berant and Percy Liang'),
+  project('http://www-nlp.stanford.edu/software/sempre/'),
+  tags('semantic parsing'),
 nil)
 
 entry!('misra2015environment',
