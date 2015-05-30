@@ -7168,3 +7168,11 @@ entry!('perozzi2014deepwalk',
   pages(701, 710),
   organization('ACM'),
 nil)
+
+entry!('ng1999policy',
+  icml(1999),
+  title('Policy invariance under reward transformations: Theory and application to reward shaping'),
+  author('Andrew Y Ng and Daishi Harada and Stuart Russell'),
+  volume(99),
+  pages(278, 287),
+nil)
