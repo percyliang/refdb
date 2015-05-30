@@ -5425,6 +5425,8 @@ entry!('wang2015overnight',
   acl(2015),
   title('Building a Semantic Parser Overnight'),
   author('Yushi Wang and Jonathan Berant and Percy Liang'),
+  project('http://www-nlp.stanford.edu/software/sempre/'),
+  tags('semantic parsing'),
 nil)
 
 entry!('misra2015environment',
@@ -6744,7 +6746,7 @@ nil)
 entry!('fasola2013using',
   iros(2013),
   title('Using Semantic Fields to Model Dynamic Spatial Relations in a Robot Architecture for Natural Language Instruction of Service Robots'),
-  author('J. Fasola and M. Mataric'),
+  author('J. Fasola and M. J Matari{\\\'c}'),
 nil)
 
 entry!('lenz2013deep',
@@ -7018,7 +7020,7 @@ nil)
 entry!('fasola2014interpreting',
   icra(2014),
   title('Interpreting Instruction Sequences in Spatial Language Discourse with Pragmatics towards Natural Human-Robot Interaction'),
-  author('J. Fasola and M. J Matari{\'c}'),
+  author('J. Fasola and M. J Matari{\\\'c}'),
   pages(6667, 6672),
 nil)
 
@@ -7108,6 +7110,12 @@ entry!('ullman1985implementation',
   publisher('ACM'),
 nil)
 
+entry!('lenz2015deepmpc',
+  inproceedings('Robotics Science and Systems (RSS)', 2015),
+  title('DeepMPC: Learning Deep Latent Features for Model Predictive Control'),
+  author('Ian Lenz and Ross Knepper and Ashutosh Saxena'),
+nil)
+
 entry!('yang2015embeddings',
   arxiv(2015, '1412.6575'),
   title('Embedding Entities and Relations for Learning and Inference in Knowledge Bases'),
@@ -7174,4 +7182,12 @@ entry!('dong2014knowledge',
   author('Xin Dong and Evgeniy Gabrilovich and Geremy Heitz and Wilko Horn and Ni Lao and Kevin Murphy and Thomas Strohmann and Shaohua Sun and Wei Zhang'),
   pages(601, 610),
   organization('ACM'),
+nil)
+
+entry!('ng1999policy',
+  icml(1999),
+  title('Policy invariance under reward transformations: Theory and application to reward shaping'),
+  author('Andrew Y Ng and Daishi Harada and Stuart Russell'),
+  volume(99),
+  pages(278, 287),
 nil)
