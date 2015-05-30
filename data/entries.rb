@@ -7160,3 +7160,18 @@ entry!('perozzi2014deepwalk',
   pages(701, 710),
   organization('ACM'),
 nil)
+
+entry!('bowman2014recursive',
+  article('CoRR', 2014),
+  title('Recursive Neural Networks Can Learn Logical Semantics'),
+  author('Samuel R. Bowman and Christopher Potts and Christopher D. Manning'),
+  number('arXiv:1406.1827'),
+nil)
+
+entry!('dong2014knowledge',
+  kdd(2014),
+  title('Knowledge {v}ault: A web-scale approach to probabilistic knowledge fusion'),
+  author('Xin Dong and Evgeniy Gabrilovich and Geremy Heitz and Wilko Horn and Ni Lao and Kevin Murphy and Thomas Strohmann and Shaohua Sun and Wei Zhang'),
+  pages(601, 610),
+  organization('ACM'),
+nil)
