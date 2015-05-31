@@ -7191,3 +7191,9 @@ entry!('ng1999policy',
   volume(99),
   pages(278, 287),
 nil)
+
+entry!('pennington2014glove',
+  emnlp(2014),
+  title('Glove: Global vectors for word representation'),
+  author('Jeffrey Pennington and Richard Socher and Christopher D Manning'),
+nil)
