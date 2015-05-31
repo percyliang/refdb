@@ -7197,3 +7197,43 @@ entry!('pennington2014glove',
   title('Glove: Global vectors for word representation'),
   author('Jeffrey Pennington and Richard Socher and Christopher D Manning'),
 nil)
+
+entry!('niculescu2005predicting',
+  inproceedings('Proceedings of the 22nd international conference on Machine learning', 2005),
+  title('Predicting good probabilities with supervised learning'),
+  author('Alexandru Niculescu-Mizil and Rich Caruana'),
+  pages(625, 632),
+  organization('ACM'),
+nil)
+
+entry!('platt1999probabilistic',
+  article('Advances in Large Margin Classifiers', 1999, 10),
+  title('Probabilistic outputs for support vector machines and comparisons to regularized likelihood methods'),
+  author('John Platt'),
+  number(3),
+  pages(61, 74),
+  publisher('Cambridge, MA'),
+nil)
+
+entry!('zadrozny2002transforming',
+  kdd(2002),
+  title('Transforming classifier scores into accurate multiclass probability estimates'),
+  author('Bianca Zadrozny and Charles Elkan'),
+  pages(694, 699),
+  organization('ACM'),
+nil)
+
+entry!('gneiting2007probabilistic',
+  article('Journal of the Royal Statistical Society: Series B (Statistical Methodology)', 2007, 69),
+  title('Probabilistic forecasts, calibration and sharpness'),
+  author('Tilmann Gneiting and Fadoua Balabdaoui and Adrian E Raftery'),
+  number(2),
+  pages(243, 268),
+nil)
+
+entry!('reid2011information',
+  jmlr(2011, 12),
+  title('Information, divergence and risk for binary experiments'),
+  author('Mark D Reid and Robert C Williamson'),
+  pages(731, 817),
+nil)
