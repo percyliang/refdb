@@ -28,7 +28,9 @@ def dukeStat(year); techreport(Name.new('Department of Statistics, Duke Universi
 def berkeleyStat(year); techreport(Name.new('Department of Statistics, University of California at Berkeley', 'UC Berkeley'), year) end
 def berkeleyEECS(year); techreport(Name.new('EECS Department, University of California at Berkeley', 'UC Berkeley'), year) end
 def mit(year); techreport('Massachusetts Institute of Technology', year) end
-def arxiv(year); techreport('arXiv', year) end
+def arxiv(year, id=nil); article('arXiv' + (id != nil ? ' preprint arXiv:'+id : ''), year, nil) end
+def preprint(year); article('preprint', year, nil) end
+def manual(year); [type('manual'), year(year)] end
 
 ### Machine learning / AI
 def colt(year); inproceedings(Name.new('Conference on Learning Theory', 'COLT'), year) end
@@ -64,10 +66,22 @@ def sigir(year); inproceedings(Name.new('ACM Special Interest Group on Informati
 def uist(year); inproceedings(Name.new('User Interface Software and Technology', 'UIST'), year) end
 def chi(year); inproceedings(Name.new('Conference on Human Factors in Computing Systems', 'CHI'), year) end
 
+def infotheory(year, volume); [article('IEEE Transactions on Information Theory', year, volume)] end
+
 ### Computer vision
 def eccv(year); [inproceedings(Name.new('European Conference on Computer Vision', 'ECCV'), year)] end
 def iccv(year); inproceedings(Name.new('International Conference on Computer Vision', 'ICCV'), year) end
 def cvpr(year); inproceedings(Name.new('Computer Vision and Pattern Recognition', 'CVPR'), year) end
+
+# Robotics
+def icra(year); inproceedings(Name.new('International Conference on Robotics and Automation', 'ICRA'), year) end
+def iros(year); inproceedings(Name.new('International Conference on Intelligent Robots and Systems', 'IROS'), year) end
+def rss(year); inproceedings(Name.new('Robotics: Science and Systems', 'RSS'), year) end
+def iser(year); inproceedings(Name.new('International Symposium on Experimental Robotics', 'ISER'), year) end
+def ias(year); inproceedings(Name.new('International Conference on Intelligent Autonomous Systems', 'IAS'), year) end
+def aamas(year); inproceedings(Name.new('International Conference on Autonomous Agents and Multiagent Systems', 'AAMAS'), year) end
+def ijrr(year, volume); article(Name.new('International Journal of Robotics Research', 'IJRR'), year, volume) end
+def ijsr(year, volume); article(Name.new('International Journal of Social Robotics', 'IJSR'), year, volume) end
 
 ### Natural language processing
 def naacl(year); [inproceedings(Name.new('North American Association for Computational Linguistics', 'NAACL'), year), aclpub] end
@@ -108,6 +122,9 @@ def emnlpconll2007; [emnlpconll(2007), address('Prague, Czech Republic')] end
 def emnlpconll2012; [emnlpconll(2012), address('Jeju Island, South Korea')] end
 def conll(year); [inproceedings(Name.new('Computational Natural Language Learning', 'CoNLL'), year)] end
 def conll2010; [conll(2010), address('Uppsala, Sweden')] end
+
+def icassp(year); [inproceedings(Name.new('International Conference on Acoustics, Speech, and Signal Processing', 'ICASSP'), year)] end
+def icslp(year); [inproceedings(Name.new('International Conference on Spoken Language Processing', 'ICSLP'), 1996)] end
 
 ### Programming languages / software engineering
 def oopsla(year); inproceedings(Name.new('Object-Oriented Programming, Systems, Languages, and Applications', 'OOPSLA'), year) end

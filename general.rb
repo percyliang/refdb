@@ -93,17 +93,19 @@ class Entry
       $stderr.puts "WARNING: #{id}: #{message}" unless b
     end
     getHard('id')
-    checkWarning(id =~ /^[a-z]+(\d+)[\w+]*$/, 'id should be first-author/year/keyword (e.g., liang2006alignment)')
+    checkWarning(id =~ /^[a-z]+(\d+)\w*$/, 'id should be first-author/year/keyword (e.g., liang2006alignment)')
     idYear = $1
 
     checkWarning(year.to_s =~ /#{idYear}$/, "id's year doesn't match year '#{year}'")
+
+    checkWarning(title.to_s !~ /\.$/, "title ends with period '#{title}'")
 
     # Check that the fields are valid
     checkWarning(year >= 1800 && year <= 2020, "year '#{year}'")
     checkWarning(pages.check, "pages '#{pages}'") if pages
 
     ['type', 'title', 'author', 'metaTitle'].each { |name|
-      next if ['book', 'misc'].member?(getFirst('type')) && name == 'metaTitle' # Don't have metatitles
+      next if ['book', 'manual', 'misc'].member?(getFirst('type')) && name == 'metaTitle' # Don't have metatitles
       checkWarning(get(name), "#{name} missing")
     }
   end

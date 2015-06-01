@@ -333,6 +333,12 @@ entry!('mackay97hmm',
   techreport('University of Cambridge', 1997),
 nil)
 
+entry!('wang2014qa',
+  author('Zhenghao Wang and Shengquan Yan and Huaming Wang and Xuedong Huang'),
+  title('An Overview of Microsoft Deep {QA} System on Stanford WebQuestions Benchmark'),
+  techreport('Microsoft Research', 2014),
+nil)
+
 entry!('hermjakob01parsing',
   author('Ulf Hermjakob'),
   title('Parsing and Question Classification for Question Answering'),
@@ -589,7 +595,7 @@ entry!('paskin02bigrams',
   title('Grammatical Bigrams'),
   nips(2002),
 nil)
-  
+
 entry!('klein04induction',
   author('Dan Klein and Christopher D. Manning'),
   title('Corpus-Based Induction of Syntactic Structure: Models of Dependency and Constituency'),
@@ -835,7 +841,7 @@ nil)
 entry!('wainwright06wrong',
   author('Martin Wainwright'),
   title('Estimating the ``wrong\'\' graphical model: Benefits in the computation-limited setting'),
-  jmlr(2006, 7), pages(1829, 1859), 
+  jmlr(2006, 7), pages(1829, 1859),
 nil)
 
 entry!('wainwright03trw',
@@ -1500,7 +1506,7 @@ entry!('evgeniou05task',
   jmlr(2005, 6), pages(615, 637),
 nil)
 
-entry!('argyriou07feature', 
+entry!('argyriou07feature',
   author('A. Argyriou and T. Evgeniou and M. Pontil'),
   title('Multi-task feature learning'),
   nips(2007), pages(41, 48),
@@ -2056,13 +2062,13 @@ nil)
 entry!('mansinghka09thesis',
   title('Natively Probabilistic Computation'),
   author('Vikash Mansinghka'),
-  phdthesis('MIT', 2009),
+  phdthesis('Massachusetts Institute of Technology', 2009),
 nil)
 
 entry!('goodman08rule',
   title('A rational analysis of rule-based concept learning'),
   author('N. D. Goodman and J. B. Tenenbaum and J. Feldman and T. L. Griffiths'),
-  article('Cognitive Science', 2008, 32), pages(108, 154), 
+  article('Cognitive Science', 2008, 32), pages(108, 154),
 nil)
 
 entry!('arlot10penalty',
@@ -2506,7 +2512,8 @@ nil)
 entry!('chen11navigate',
   title('Learning to Interpret Natural Language Navigation Instructions from Observations'),
   author('David L. Chen and Raymond J. Mooney'),
-  aaai(2011), pages(859, 865),
+  aaai(2011),
+  pages(859, 865),
 nil)
 
 entry!('grice75maxims',
@@ -2678,7 +2685,7 @@ nil)
 entry!('hsu13spherical',
   title('Learning Mixtures of Spherical {G}aussians: Moment Methods and Spectral Decompositions'),
   author('Daniel Hsu and Sham M. Kakade'),
-  inproceedings('Innovations in Theoretical Computer Science (ITCS)', 2013), 
+  inproceedings('Innovations in Theoretical Computer Science (ITCS)', 2013),
   tags('spectral'),
 nil)
 
@@ -2712,12 +2719,6 @@ entry!('barcelo11grpah',
   author('Pablo Barcelo and Leonid Libkin and Juan Reutter'),
   title('Querying Graph Patterns'),
   inproceedings('Symposium on Principles of Database Systems', 2011),
-nil)
-
-entry!('lao11random',
-  author('Ni Lao and Tom Mitchell and William W. Cohen'),
-  title('Random Walk Inference and Learning in A Large Scale Knowledge Base'),
-  emnlp2011,
 nil)
 
 entry!('chen12lexicon',
@@ -3055,7 +3056,7 @@ entry!('kushman2013regex',
 nil)
 
 entry!('krishnamurthy2013jointly',
-  tacl(2013, 1), 
+  tacl(2013, 1),
   pages(193, 206),
   url('http://jayantkrish.com/papers/tacl2013-krishnamurthy-kollar.pdf'),
   title('Jointly Learning to Parse and Perceive: Connecting Natural Language to the Physical World'),
@@ -3124,6 +3125,7 @@ entry!('matuszek2012grounded',
   title('A joint model of language and perception for grounded attribute learning'),
   author('Cynthia Matuszek and Nicholas FitzGerald and Luke Zettlemoyer and Liefeng Bo and Dieter Fox'),
   tags('semantic parsing'),
+  pages(1671, 1678),
 nil)
 
 entry!('socher2012mvrnn',
@@ -3927,8 +3929,8 @@ The learning of probabilistic models with many hidden variables
 and non-decomposable dependencies is an important and challenging problem.
 In contrast to traditional approaches based on approximate inference in a single
 intractable model, our approach is to train a set of tractable
-submodels by encouraging them to agree on the hidden variables.  This allows 
-us to capture non-decomposable aspects of the data while still maintaining 
+submodels by encouraging them to agree on the hidden variables.  This allows
+us to capture non-decomposable aspects of the data while still maintaining
 tractability.  We propose an objective function for our approach,
 derive EM-style algorithms for parameter estimation, and demonstrate their
 effectiveness on three challenging real-world learning tasks.
@@ -3980,17 +3982,17 @@ entry!('liang07permdp',
             'which are consistent with the permutation '+
             'using dynamic programming.'),
   abstract(<<EOF
-We introduce a new inference algorithm for Dirichlet process mixture 
-models.  While Gibbs sampling and variational methods focus on local 
+We introduce a new inference algorithm for Dirichlet process mixture
+models.  While Gibbs sampling and variational methods focus on local
 moves, the new algorithm makes more global moves.  This is done by
-introducing a permutation of the data points as an auxiliary variable. 
+introducing a permutation of the data points as an auxiliary variable.
 The algorithm is a blocked sampler which alternates between sampling the
 clustering and sampling the permutation.  The key to the efficiency of
-this approach is that it is possible to use dynamic programming to 
+this approach is that it is possible to use dynamic programming to
 consider all exponentially many clusterings consistent with a given
-permutation.  We also show that random projections can be used to 
-effectively sample the permutation.  The result is a stochastic 
-hill-climbing algorithm that yields burn-in times significantly 
+permutation.  We also show that random projections can be used to
+effectively sample the permutation.  The result is a stochastic
+hill-climbing algorithm that yields burn-in times significantly
 smaller than those of collapsed Gibbs sampling.
 EOF
   ),
@@ -4052,18 +4054,18 @@ entry!('liang06discrimative',
             'Use a Perceptron-like algorithm: '+
             'decode and update towards maximum BLEU scoring translation on the n-best list.'),
   abstract(<<EOF
-We present a perceptron-style discriminative approach to machine 
-translation in which large feature sets can be exploited.  Unlike 
-discriminative reranking approaches, our system can take advantage of learned 
-features in all stages of decoding.  We first discuss several challenges to 
-error-driven discriminative approaches.  In particular, we explore different 
-ways of updating parameters given a training example.  We find that making 
-frequent but smaller updates is preferable to making fewer but larger updates. 
-Then, we discuss an array of features and show both how they quantitatively 
-increase BLEU score and how they qualitatively interact on specific examples. 
-One particular feature we investigate is a novel way to introduce learning into 
-the initial phrase extraction process, which has previously been entirely 
-heuristic. 
+We present a perceptron-style discriminative approach to machine
+translation in which large feature sets can be exploited.  Unlike
+discriminative reranking approaches, our system can take advantage of learned
+features in all stages of decoding.  We first discuss several challenges to
+error-driven discriminative approaches.  In particular, we explore different
+ways of updating parameters given a training example.  We find that making
+frequent but smaller updates is preferable to making fewer but larger updates.
+Then, we discuss an array of features and show both how they quantitatively
+increase BLEU score and how they qualitatively interact on specific examples.
+One particular feature we investigate is a novel way to introduce learning into
+the initial phrase extraction process, which has previously been entirely
+heuristic.
 EOF
   ),
 nil)
@@ -4082,7 +4084,7 @@ entry!('liang06alignment',
             'Result: performance competitive with supervised methods (4.9 AER on Hansards).'),
   abstract(<<EOF
 We present an unsupervised approach to symmetric
-word alignment in which two simple asymmetric models are 
+word alignment in which two simple asymmetric models are
 trained jointly to maximize a
 combination of data likelihood and agreement between the models.
 Compared to the standard practice of intersecting predictions of
@@ -4360,15 +4362,6 @@ entry!('jaeger2000observable',
   tags('spectral'),
 nil)
 
-entry!('liang2015semantics',
-  author('Percy Liang and Christopher Potts'),
-  title('Bringing machine learning and compositional semantics together'),
-  article('Annual Reviews of Linguistics', 2015, 1, 1),
-  pages(355, 376),
-  url('http://www.stanford.edu/~cgpotts/manuscripts/liang-potts-semantics.pdf'),
-  tags('semantic parsing'),
-nil)
-
 entry!('berant2014paraphrasing',
   author('Jonathan Berant and Percy Liang'),
   title('Semantic Parsing via Paraphrasing'),
@@ -4408,6 +4401,7 @@ entry!('steinhardt2014filtering',
   author('Jacob Steinhardt and Percy Liang'),
   title('Filtering with Abstract Particles'),
   icml(2014),
+  pages(727, 735),
   url('filtering-icml2014.pdf'),
   supplementalurl('filtering-icml2014-appendix.pdf'),
 nil)
@@ -4602,9 +4596,9 @@ entry!('gladyshev1965stochastic',
 nil)
 
 entry!('fabian1968asymptotic',
-	author('V\'{a}clav Fabian'),
+	author('Václav Fabian'),
 	title('On Aymptotic Normality in Stochastic Approximation'),
-	article('Annals of Mathematical Statistics',1968,39),
+	article('Annals of Mathematical Statistics', 1968, 39),
 	pages(1327,1332),
 	number(4),
 nil)
@@ -4627,7 +4621,7 @@ nil)
 
 entry!('acar2009unsupervised',
   title('Unsupervised multiway data analysis: A literature survey'),
-  author('Acar, Evrim and Yener, B{\"u}lent'),
+  author('Acar, Evrim and Yener, B{\\"u}lent'),
   article('Knowledge and Data Engineering, IEEE Transactions on', 2009, 21),
   number(1),
   pages(6,20),
@@ -4748,7 +4742,7 @@ nil)
 
 entry!('briet2010positive',
   title('The positive semidefinite {G}rothendieck problem with rank constraint'),
-  author('J. Bri{\"e}t and F. M. de Oliveira Filho and F. Vallentin'),
+  author('J. Bri{\\"e}t and F. M. de Oliveira Filho and F. Vallentin'),
   inproceedings('Automata, Languages and Programming', 2010),
   publisher('Springer'),
   pages(31, 42),
@@ -4833,7 +4827,7 @@ nil)
 entry!('recht2013parallel',
   article('Mathematical Programming Computation', 2013, 5),
   title('Parallel stochastic gradient algorithms for large-scale matrix completion'),
-  author('B. Recht and C. R{\\\'e}'),
+  author('B. Recht and C. Ré'),
   publisher('Springer'),
   pages(1, 26),
 nil)
@@ -4848,11 +4842,11 @@ nil)
 entry!('krahenbuhl2011efficient',
   nips(2011),
   title('Efficient inference in fully connected {CRF}s with {G}aussian edge potentials'),
-  author('P. Kr{\"a}henb{\"u}hl and V. Koltun'),
+  author('P. Kr{\\"a}henb{\\"u}hl and V. Koltun'),
 nil)
 
 entry!('krahenbuhl2013learning',
-  author('P. Kr{\"a}henb{\"u}hl and V. Koltun'),
+  author('P. Kr{\\"a}henb{\\"u}hl and V. Koltun'),
   pages(513, 521),
   title('Parameter Learning and Convergent Inference for Dense Random Fields'),
   icml(2013),
@@ -4897,7 +4891,7 @@ nil)
 
 entry!('kappes2013benchmark',
   title('A Comparative Study of Modern Inference Techniques for Discrete Energy Minimization Problem'),
-  author('J{\"o}rg H. Kappes and Bjoern Andres and Fred A. Hamprecht and Christoph Schn{\"o}rr and Sebastian Nowozin and Dhruv Batra and Sungwoong Kim and Bernhard X. Kausler and Jan Lellmann and Nikos Komodakis and Carsten Rother'),
+  author('Jőrg H. Kappes and Bjoern Andres and Fred A. Hamprecht and Christoph Schnőrr and Sebastian Nowozin and Dhruv Batra and Sungwoong Kim and Bernhard X. Kausler and Jan Lellmann and Nikos Komodakis and Carsten Rother'),
   cvpr(2013),
 nil)
 
@@ -4957,7 +4951,7 @@ entry!('afsari2008sensitivity',
 nil)
 
 entry!('cardoso1994perturbation',
-  techreport('T\'{e}l\'{e}com Paris', 1994),
+  techreport('Télécom Paris', 1994),
   author('J. Cardoso'),
   title('Perturbation of Joint Diagonalizers'),
 nil)
@@ -5022,7 +5016,7 @@ nil)
 entry!('ziehe2004fast',
   jmlr(2004, 5),
   title('A fast algorithm for joint diagonalization with non-orthogonal transformations and its application to blind source separation'),
-  author('Andreas Ziehe and Pavel Laskov and Guido Nolte and Klaus-Robert M{\"u}ller'),
+  author('Andreas Ziehe and Pavel Laskov and Guido Nolte and Klaus-Robert Műller'),
   pages(777, 800),
 nil)
 
@@ -5044,11 +5038,10 @@ entry!('afsari2006simple',
 nil)
 
 entry!('guo2010approximate',
-  inproceedings('Acoustics Speech and Signal Processing (ICASSP), 2010 IEEE International Conference on', 2010),
+  icassp(2010),
   pages(3774, 3777),
   title('Approximate joint diagonalization by nonorthogonal nonparametric jacobi transformations'),
   author('Xijing Guo and Shihua Zhu and Sebastian Miron and David Brie'),
-  organization('IEEE'),
 nil)
 
 entry!('anandkumar2014guaranteed',
@@ -5122,21 +5115,21 @@ entry!('anandkumar2013community',
 nil)
 
 entry!('boykov2004mincut',
-  pami(2004,26),
+  pami(2004, 26),
   title('An Experimental Comparison of Min-Cut/Max-Flow Algorithms for Energy Minimization in Vision'),
   pages(1124, 1137),
   author('Yuri Boykov and Vladimir Kolmogorov'),
 nil)
 
 entry!('boykov2004what',
-  pami(2004,26),
+  pami(2004, 26),
   title('What Energy Functions Can Be Minimized via Graph Cuts?'),
   pages(147, 159),
   author('Vladimir Kolmogorov and Ramin Zabih'),
 nil)
 
 entry!('boykov2001fast',
-  pami(2001,23),
+  pami(2001, 23),
   title('Fast Approximate Energy Minimization via Graph Cuts?'),
   pages(1222, 1239),
   author('Yuri Boykov and Olga Veksler and Ramin Zabih'),
@@ -5191,7 +5184,7 @@ entry!('comon2009tensor',
   publisher('Wiley Online Library'),
   number('7-8'),
   title('Tensor decompositions, alternating least squares and other tales'),
-  author('Pierre Comon and Xavier Luciani and Andr{\'e} LF De Almeida'),
+  author('Pierre Comon and Xavier Luciani and André LF De Almeida'),
 nil)
 
 entry!('ramanathan2014linking',
@@ -5205,7 +5198,7 @@ nil)
 entry!('ross2011reduction',
   aistats(2011),
   title('A reduction of imitation learning and structured prediction to no-regret online learning'),
-  author('St{\'e}phane Ross and Geoffrey Gordon and Andrew Bagnell'),
+  author('Stéphane Ross and Geoffrey Gordon and Andrew Bagnell'),
 nil)
 
 entry!('goldberg2013training',
@@ -5225,7 +5218,7 @@ entry!('yeredor2004approximate',
   pages(86,96),
   publisher('Springer Berlin Heidelberg'),
   title('Approximate Joint Diagonalization Using a Natural Gradient Approach'),
-  author('Arie Yeredor and Andreas Ziehe and Klaus-Robert M{\"u}ller'),
+  author('Arie Yeredor and Andreas Ziehe and Klaus-Robert Müller'),
 nil)
 
 entry!('halko2011structure',
@@ -5244,7 +5237,7 @@ entry!('zhang2014crowdsourcing',
   url('http://arxiv.org/pdf/1406.3824'),
 )
 
-entry!('huang2013fast', 
+entry!('huang2013fast',
   title("Fast Detection of Overlapping Communities via Online Tensor Methods"),
   author("Furong Huang and U N Niranjan and Mohammad Umar Hakeem and Animashree Anandkumar"),
   arxiv(2013),
@@ -5290,7 +5283,7 @@ nil)
 entry!('kay86algorithm',
   author('Martin Kay'),
   title('Algorithm Schemata and Data Structures in Syntactic Processing'),
-  book('Readings in Natural Language Processing',1986),
+  book('Readings in Natural Language Processing', 1986),
   pages(35,70),
 nil)
 
@@ -5422,11 +5415,46 @@ entry!('reddy2014large',
   title('Large-scale Semantic Parsing without Question-Answer Pairs'),
 nil)
 
+entry!('pasupat2015compositional',
+  acl(2015),
+  title('Compositional Semantic Parsing on Semi-Structured Tables'),
+  author('Panupong Pasupat and Percy Liang'),
+nil)
+
+entry!('wang2015overnight',
+  acl(2015),
+  title('Building a Semantic Parser Overnight'),
+  author('Yushi Wang and Jonathan Berant and Percy Liang'),
+  project('http://www-nlp.stanford.edu/software/sempre/'),
+  tags('semantic parsing'),
+nil)
+
+entry!('misra2015environment',
+  acl(2015),
+  title('Environment-Driven Lexicon Induction for High-Level Instructions'),
+  author('Dipendra K. Misra and Kejia Tao and Percy Liang and Ashutosh Saxena'),
+nil)
+
+entry!('steinhardt2015rcm',
+  author('Jacob Steinhardt and Percy Liang'),
+  title('Reified Context Models'),
+  url('http://arxiv.org/pdf/1502.06665.pdf'),
+  icml(2015),
+nil)
+
+entry!('steinhardt2015fast',
+  author('Jacob Steinhardt and Percy Liang'),
+  title('Learning Fast-Mixing Models for Structured Prediction'),
+  url('http://arxiv.org/pdf/1502.06668.pdf'),
+  icml(2015),
+nil)
+
 entry!('shi2015sample',
   aistats(2015),
   author('Tianlin Shi and Jacob Steinhardt and Percy Liang'),
   title('Learning Where To Sample in Structured Prediction'),
   url('sample-aistats2015.pdf'),
+  pages(875, 884),
 nil)
 
 entry!('kuleshov2015tensor',
@@ -5434,6 +5462,15 @@ entry!('kuleshov2015tensor',
   author('Volodymyr Kuleshov and Arun Chaganty and Percy Liang'),
   title('Tensor factorization via matrix factorization'),
   url('http://arxiv.org/pdf/1501.07320.pdf'),
+nil)
+
+entry!('liang2015semantics',
+  author('Percy Liang and Christopher Potts'),
+  title('Bringing machine learning and compositional semantics together'),
+  article('Annual Reviews of Linguistics', 2015, 1, 1),
+  pages(355, 376),
+  url('http://www.stanford.edu/~cgpotts/manuscripts/liang-potts-semantics.pdf'),
+  tags('semantic parsing'),
 nil)
 
 entry!('steinhardt2014sparse',
@@ -5486,10 +5523,11 @@ entry!('desilva2008tensor',
 nil)
 
 entry!('kuleshov2015simultaneous',
- arxiv(2015),
- author('Volodymyr Kuleshov and Arun Chaganty and Percy Liang'),
- title('Simultaneous diagonalization: the asymmetric, low-rank, and noisy settings'),
- url('http://arxiv.org/pdf/1501.06318.4182.pdf'),
+  arxiv(2015),
+  extendedVersion,
+  author('Volodymyr Kuleshov and Arun Chaganty and Percy Liang'),
+  title('Simultaneous diagonalization: the asymmetric, low-rank, and noisy settings'),
+  url('http://arxiv.org/pdf/1501.06318.4182.pdf'),
 nil)
 
 entry!('rahimi2007random',
@@ -5500,7 +5538,7 @@ nil)
 
 entry!('guler1992ppa',
   title('New Proximal Point Algorithms for Convex Minimization'),
-  author('Osman G\\"uler'),
+  author('Osman Gűler'),
   article('SIAM Journal on Optimization', 1992, 2),
   number(4),
   pages(649, 664),
@@ -5600,7 +5638,7 @@ nil)
 
 entry!('rangel2014features',
   title('Features and Pitfalls that Users Should Seek in Natural Language Interfaces to Databases'),
-  author('Rodolfo A Pazos Rangel and Marco A Aguirre and Juan J Gonz{\'a}lez and Juan Mart{\'i}n Carpio'),
+  author('Rodolfo A Pazos Rangel and Marco A Aguirre and Juan J González and Juan Martín Carpio'),
   inproceedings('Recent Advances on Hybrid Approaches for Designing Intelligent Systems', 2014),
   pages(617, 630),
   publisher('Springer'),
@@ -5611,20 +5649,6 @@ entry!('garrette2013learning',
   title('Learning a Part-of-Speech Tagger from Two Hours of Annotation'),
   author('Dan Garrette and Jason Baldridge'),
   pages(138, 147),
-nil)
-
-entry!('steinhardt2015rcm',
-  author('Jacob Steinhardt and Percy Liang'),
-  title('Reified Context Models'),
-  url('http://arxiv.org/pdf/1502.06665.pdf'),
-  arxiv(2015),
-nil)
-
-entry!('steinhardt2015fast',
-  author('Jacob Steinhardt and Percy Liang'),
-  title('Learning Fast-Mixing Models for Structured Prediction'),
-  url('http://arxiv.org/pdf/1502.06668.pdf'),
-  arxiv(2015),
 nil)
 
 entry!('price1990atis',
@@ -5707,7 +5731,7 @@ entry!('adler2012textexploration',
   url('http://www.aclweb.org/anthology/P12-3014'),
   tags('textual entailment'),
 nil)
-    
+
 entry!('zeichner2012crowdsourcing',
   author('Naomi Zeichner and Jonathan Berant and Ido Dagan'),
   title('Crowdsourcing Inference-rule Evaluation'),
@@ -5723,7 +5747,7 @@ entry!('weisman2012learning',
   emnlp(2012),
   tags('textual entailment'),
 nil)
-  
+
 entry!('berant2011global',
   author('Jonathan Berant and Ido Dagan and Jacob Goldberger'),
   title('Global Learning of Typed Entailment Rules'),
@@ -5833,15 +5857,17 @@ entry!('zhang2010chart',
 nil)
 
 entry!('bodenstab2011beam',
-  author('Nathan Bodenstab and Aaron Dunlop and Keith Halland Brian Roark'),
+  author('Nathan Bodenstab and Aaron Dunlop and Keith Hall and Brian Roark'),
   title('Beam-width prediction for efficient context-free parsing'),
   acl(2011),
+  pages(440, 449),
 nil)
 
 entry!('fitzgerald2013learning',
   author('Nicholas FitzGerald and Yoav Artzi and Luke S. Zettlemoyer'),
   title('Learning Distributions over Logical Forms for Referring Expression Generation'),
   emnlp(2013),
+  pages(1914, 1925),
 nil)
 
 entry!('chang2015learning',
@@ -5902,9 +5928,1314 @@ nil)
 
 entry!('cohen2013pcfg',
        title('Approximate {PCFG} Parsing Using Tensor Decomposition'),
-       hltnaacl(2013), 
+       hltnaacl(2013),
        pages(487, 496),
        author('Shay B Cohen and Giorgio Satta and Michael Collins'),
+nil)
+
+entry!('bertsimas2011theory',
+  article('SIAM review', 2011, 53),
+  title('Theory and applications of robust optimization'),
+  author('Dimitris Bertsimas and David B Brown and Constantine Caramanis'),
+  number(3),
+  pages(464, 501),
+  publisher('SIAM'),
+nil)
+
+entry!('chechik2008max',
+  jmlr(2008, 9),
+  title('Max-margin classification of data with absent features'),
+  author('Gal Chechik and Geremy Heitz and Gal Elidan and Pieter Abbeel and Daphne Koller'),
+  pages(1, 21),
+nil)
+
+entry!('buhlmann1999variable',
+  annalsOfStatistics(1999, 27),
+  title('Variable length {M}arkov chains'),
+  author('Peter B{\"u}hlmann and Abraham J Wyner'),
+  number(2),
+  pages(480, 513),
+nil)
+
+entry!('riedel2010relaxed',
+  acl(2010),
+  title('Relaxed marginal inference and its application to dependency parsing'),
+  author('Sebastian Riedel and David A Smith'),
+  pages(760, 768),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('stoyanov2012fast',
+  inproceedings('ICML Workshop on Inferning: Interactions between Inference and Learning', 2012),
+  author('Veselin Stoyanov and Jason Eisner'),
+  title('Fast and Accurate Prediction via Evidence-Specific {MRF} Structure'),
+nil)
+
+entry!('barbu2009training',
+  article('IEEE Transactions on Image Processing', 2009, 18),
+  title('Training an active random field for real-time image denoising'),
+  author('Adrian Barbu'),
+  number(11),
+  pages(2451, 2462),
+nil)
+
+entry!('stoyanov2011empirical',
+  aistats(2011),
+  title('Empirical risk minimization of graphical model parameters given approximate inference, decoding, and model structure'),
+  author('Veselin Stoyanov and Alexander Ropson and Jason Eisner'),
+  pages(725, 733),
+nil)
+
+entry!('domke2011parameter',
+  cvpr(2011),
+  title('Parameter learning with truncated message-passing'),
+  author('Justin Domke'),
+  pages(2937, 2943),
+nil)
+
+entry!('ravi2011deciphering',
+  acl(2011),
+  title('Deciphering foreign language'),
+  author('Sujith Ravi and Kevin Knight'),
+  pages(12, 21),
+nil)
+
+entry!('ney1994structuring',
+  article('Computer, Speech, and Language', 1994, 8, 1),
+  title('On structuring probabilistic dependences in stochastic language modeling'),
+  author('Hermann Ney and Ute Essen and Reinhard Kneser'),
+  pages(1, 38),
+nil)
+
+entry!('kneser1995improved',
+  icassp(1995),
+  title('Improved backing-off for m-gram language modeling'),
+  author('Reinhard Kneser and Hermann Ney'),
+  volume(1),
+  pages(181, 184),
+  organization('IEEE'),
+nil)
+
+entry!('recht2011hogwild',
+  nips(2011),
+  title('Hogwild: A lock-free approach to parallelizing stochastic gradient descent'),
+  author('Benjamin Recht and Christopher Ré and Stephen Wright and Feng Niu'),
+  pages(693, 701),
+nil)
+
+entry!('wood2009stochastic',
+  icml(2009),
+  title('A stochastic memoizer for sequence data'),
+  author('Frank Wood and Cédric Archambeau and Jan Gasthaus and Lancelot James and Yee Whye Teh'),
+  pages(1129, 1136),
+nil)
+
+entry!('milch2005approximate',
+  aistats(2005),
+  title('Approximate inference for infinite contingent {B}ayesian networks'),
+  author('Brian Milch and Bhaskara Marthi and David Sontag and Stuart Russell and Daniel L Ong and Andrey Kolobov'),
+  pages(238, 245),
+nil)
+
+entry!('li2014mean',
+  arxiv(2014, '1410.5884'),
+  title('Mean-Field Networks'),
+  author('Yujia Li and Richard Zemel'),
+nil)
+
+entry!('niepert2014exchangeable',
+  icml(2014),
+  title('Exchangeable variable models'),
+  author('Mathias Niepert and Pedro Domingos'),
+nil)
+
+entry!('poon2011sum',
+  uai(2011),
+  title('Sum-product networks: A new deep architecture'),
+  author('Hoifung Poon and Pedro Domingos'),
+  pages(337, 346),
+nil)
+
+entry!('kulesza2007structured',
+  nips(2007),
+  title('Structured learning with approximate inference'),
+  author('Alex Kulesza and Fernando Pereira'),
+  pages(785, 792),
+nil)
+
+entry!('finley2008training',
+  icml(2008),
+  title('Training structural {SVM}s when exact inference is intractable'),
+  author('Thomas Finley and Thorsten Joachims'),
+  pages(304, 311),
+  organization('ACM'),
+nil)
+
+entry!('zhang2013online',
+  emnlp(2013),
+  title('Online learning for inexact hypergraph search'),
+  author('Hao Zhang and Liang Huang and Kai Zhao and Ryan McDonald'),
+nil)
+
+entry!('huang2012structured',
+  acl(2012),
+  title('Structured {P}erceptron with inexact search'),
+  author('Liang Huang and Suphan Fayong and Yang Guo'),
+  pages(142, 151),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('xing2002generalized',
+  uai(2002),
+  title('A generalized mean field algorithm for variational inference in exponential families'),
+  author('Eric P Xing and Michael I Jordan and Stuart Russell'),
+  pages(583, 591),
+nil)
+
+entry!('wainwright2005new',
+  infotheory(2005, 51),
+  title('A new class of upper bounds on the log partition function'),
+  author('Martin J Wainwright and Tommi S Jaakkola and Alan S Willsky'),
+  number(7),
+  pages(2313, 2335),
+nil)
+
+entry!('sontag2010approximate',
+  title('Approximate inference in graphical models using {LP} relaxations'),
+  author('David Sontag'),
+  phdthesis('Massachusetts Institute of Technology', 2010),
+nil)
+
+entry!('weiss2010sidestepping',
+  nips(2010),
+  title('Sidestepping intractable inference with structured ensemble cascades'),
+  author('David Weiss and Benjamin Sapp and Ben Taskar'),
+  pages(2415, 2423),
+nil)
+
+entry!('yu2013max',
+  emnlp(2013),
+  title('Max-Violation {P}erceptron and Forced Decoding for Scalable {MT} Training'),
+  author('Heng Yu and Liang Huang and Haitao Mi and Kai Zhao'),
+  pages(1112, 1123),
+nil)
+
+entry!('moreno1998recursive',
+  inproceedings('ICSLP', 1998),
+  title('A recursive algorithm for the forced alignment of very long audio segments'),
+  author('Pedro J Moreno and Christopher F Joerg and Jean-Manuel Van Thong and Oren Glickman'),
+  volume(98),
+  pages(2711, 2714),
+nil)
+
+entry!('gorman2011prosodylab',
+  article('Canadian Acoustics', 2011, 39),
+  title('Prosodylab-aligner: A tool for forced alignment of laboratory speech'),
+  author('Kyle Gorman and Jonathan Howell and Michael Wagner'),
+  number(3),
+  pages(192, 193),
+nil)
+
+entry!('pal2006sparse',
+  icassp(2006),
+  volume(5),
+  title('Sparse forward-backward using minimum divergence beams for fast training of conditional random fields'),
+  author('Chris Pal and Charles Sutton and Andrew McCallum'),
+nil)
+
+entry!('zhang2014face',
+  article('International Journal of Multimedia Information Retrieval', 2014, 3),
+  author('Liyan Zhang and Dmitri V. Kalashnikov and Sharad Mehrotra'),
+  title('Context-assisted face clustering framework with human-in-the-loop'),
+  number(2),
+  pages(69, 88),
+nil)
+
+entry!('brooks2011handbook',
+  title('Handbook of {M}arkov Chain {M}onte {C}arlo'),
+  author('Steve Brooks and Andrew Gelman and Galin Jones and Xiao-Li Meng'),
+  book('CRC press', 2011),
+nil)
+
+entry!('graff2003gigawords',
+  manual(2003),
+  author('David Graff and Christopher Cieri'),
+  title('{E}nglish {G}igaword LDC2003T05'),
+  organization('Philadelphia: Linguistic Data Consortium'),
+nil)
+
+entry!('greenberg1996insights',
+  icslp(1996),
+  title('Insights into spoken language gleaned from phonetic transcription of the {S}witchboard corpus'),
+  author('Steven Greenberg and Joy Hollenback and Dan Ellis'),
+nil)
+
+entry!('kassel1995comparison',
+  title('A comparison of approaches to on-line handwritten character recognition'),
+  author('Robert H Kassel'),
+  phdthesis('Massachusetts Institute of Technology', 1995),
+nil)
+
+entry!('hu1996hmm',
+  pami(1996, 18),
+  title('{HMM} based online handwriting recognition'),
+  author('Jianying Hu and Michael K Brown and William Turin'),
+  number(10),
+  pages(1039, 1045),
+nil)
+
+entry!('agazzi1993connected',
+  icassp(1993),
+  title('Connected and degraded text recognition using planar hidden {M}arkov models'),
+  author('Oscar E Agazzi and S-s Kuo and Esther Levin and Roberto Pieraccini'),
+  volume(5),
+  pages(113, 116),
+  organization('IEEE'),
+nil)
+
+entry!('curran2003language',
+  naacl(2003),
+  title('Language independent {NER} using a maximum entropy tagger'),
+  author('James R Curran and Stephen Clark'),
+  pages(164, 167),
+nil)
+
+entry!('maas2014first',
+  arxiv(2014, '1408.2873'),
+  title('First-Pass Large Vocabulary Continuous Speech Recognition using Bi-Directional Recurrent {DNN}s'),
+  author('Andrew L Maas and Awni Y Hannun and Daniel Jurafsky and Andrew Y Ng'),
+nil)
+
+entry!('ney1992improvements',
+  icassp(1992),
+  title('Improvements in beam search for 10000-word continuous speech recognition'),
+  author('Hermann Ney and Reinhold Haeb-Umbach and B-H Tran and Martin Oerder'),
+  volume(1),
+  pages(9, 12),
+nil)
+
+entry!('koehn2003statistical',
+  acl(2003),
+  title('Statistical phrase-based translation'),
+  author('Philipp Koehn and Franz Josef Och and Daniel Marcu'),
+  pages(48, 54),
+nil)
+
+entry!('och2003minimum',
+  acl(2003),
+  title('Minimum error rate training in statistical machine translation'),
+  author('Franz Josef Och'),
+  pages(160, 167),
+nil)
+
+entry!('rush2011exact',
+  acl(2011),
+  title('Exact decoding of syntactic translation models through {L}agrangian relaxation'),
+  author('Alexander M Rush and Michael Collins'),
+  pages(72, 82),
+nil)
+
+entry!('nuhn2013beamdecipher',
+  acl(2013),
+  author('Malte Nuhn and Julian Schamper and Hermann Ney'),
+  title('Beam Search for Solving Substitution Ciphers'),
+  pages(1569, 1576),
+nil)
+
+entry!('nuhn2014fastem',
+  acl(2014),
+  author('Malte Nuhn and Hermann Ney'),
+  title('{EM} Decipherment for Large Vocabularies'),
+  pages(759, 764),
+nil)
+
+entry!('nuhn2014homophonics',
+  emnlp(2014),
+  author('Malte Nuhn and Hermann Ney'),
+  title('Improved Decipherment of Homophonic Ciphers'),
+nil)
+
+entry!('cappe2007overview',
+  article('Proceedings of the IEEE', 2007, 95),
+  title('An overview of existing methods and recent advances in sequential {M}onte {C}arlo'),
+  author('Olivier Cappé and Simon J Godsill and Eric Moulines'),
+  number(5),
+  pages(899, 924),
+nil)
+
+entry!('gelman1992single',
+  article('Bayesian statistics', 1992, 4),
+  title('A single series from the {G}ibbs sampler provides a false sense of security'),
+  author('Andrew Gelman and Donald B Rubin'),
+  pages(625, 631),
+  publisher('Oxford University Press'),
+nil)
+
+entry!('cowles1996markov',
+  jasa(1996, 91),
+  title('{M}arkov chain {M}onte {C}arlo convergence diagnostics: a comparative review'),
+  author('Mary Kathryn Cowles and Bradley P Carlin'),
+  number(434),
+  pages(883, 904),
+  publisher('Taylor \& Francis'),
+nil)
+
+entry!('doeblin1940elements',
+  inproceedings('Annales scientifiques de l\'École Normale Supérieure', 1940),
+  title('Elements d\'une theorie generale des chaines simples constantes de Markoff'),
+  author('W Doeblin'),
+  volume(57),
+  pages(61, 111),
+  organization('Société mathématique de France'),
+nil)
+
+entry!('corcoran1998perfect',
+  preprint(1998),
+  title('Perfect sampling of {H}arris recurrent {M}arkov chains'),
+  author('JN Corcoran and RL Tweedie'),
+nil)
+
+entry!('levin2008markov',
+  author('D. Levin and Y. Peres and E. Wilmer'),
+  title('{M}arkov Chains and Mixing Times'),
+  book('American Mathematical Society', 2008),
+nil)
+
+entry!('murray2008notes',
+  preprint(2008),
+  title('Notes on the {KL}-divergence between a {M}arkov chain and its equilibrium distribution'),
+  author('Ian Murray and Ruslan Salakhutdinov'),
+nil)
+
+entry!('sandhaus2008new',
+  manual(2008),
+  organization('Philadelphia: Linguistic Data Consortium'),
+  title('The {N}ew {Y}ork {T}imes annotated corpus'),
+  unusualCapitalization('New', 'Times'),
+  author('Evan Sandhaus'),
+nil)
+
+entry!('gulwani2007program',
+  article('ACM SIGPLAN Notices', 2007, 42),
+  title('Program verification as probabilistic inference'),
+  author('Sumit Gulwani and Nebojsa Jojic'),
+  number(1),
+  pages(277, 289),
+  organization('ACM'),
+nil)
+
+entry!('sharma2014invariant',
+  cav(2014),
+  title('From invariant checking to invariant inference using randomized search'),
+  author('Rahul Sharma and Alex Aiken'),
+  pages(88, 105),
+nil)
+
+entry!('green1995reversible',
+  biometrika(1995, 82),
+  title('Reversible jump {M}arkov chain {M}onte {C}arlo computation and {B}ayesian model determination'),
+  author('PJ Green'),
+  number(4),
+  pages(711, 732),
+nil)
+
+entry!('earl2005parallel',
+  article('Physical Chemistry Chemical Physics', 2005, 7),
+  title('Parallel tempering: Theory, applications, and new perspectives'),
+  author('David J Earl and Michael W Deem'),
+  number(23),
+  pages(3910, 3916),
+  publisher('Royal Society of Chemistry'),
+nil)
+
+entry!('gelman1998simulating',
+  article('Statistical science', 1998, 13, 2),
+  title('Simulating normalizing constants: From importance sampling to bridge sampling to path sampling'),
+  author('A Gelman and XL Meng'),
+  pages(163, 185),
+nil)
+
+entry!('viola2004robust',
+  article('International Journal of Computer Vision', 2004, 57),
+  title('Robust real-time face detection'),
+  author('Paul Viola and Michael J Jones'),
+  number(2),
+  pages(137, 154),
+nil)
+
+entry!('shen2004discriminative',
+  naacl(2004),
+  title('Discriminative reranking for machine translation'),
+  author('Libin Shen and Anoop Sarkar and Franz Josef Och'),
+  pages(177, 184),
+nil)
+
+entry!('collins2005discriminative',
+  computationalLinguistics(2005, 31),
+  title('Discriminative reranking for natural language parsing'),
+  author('Michael Collins and Terry Koo'),
+  number(1),
+  pages(25, 70),
+nil)
+
+entry!('gu2009recognition',
+  cvpr(2009),
+  title('Recognition using regions'),
+  author('Chunhui Gu and Joseph J Lim and Pablo Arbeláez and Jitendra Malik'),
+  pages(1030, 1037),
+nil)
+
+entry!('sapp2010cascaded',
+  eccv(2010),
+  title('Cascaded models for articulated pose estimation'),
+  author('B Sapp and A Toshev and B Taskar'),
+  pages(406, 420),
+nil)
+
+entry!('yadollahpour2013discriminative',
+  cvpr(2013),
+  title('Discriminative re-ranking of diverse segmentations'),
+  author('Payman Yadollahpour and Dhruv Batra and Gregory Shakhnarovich'),
+  pages(1923, 1930),
+nil)
+
+entry!('roberts1999bounds',
+  article('Stochastic Processes and their applications', 1999, 80),
+  title('Bounds on regeneration times and convergence rates for {M}arkov chains'),
+  author('GO Roberts and RL Tweedie'),
+  number(2),
+  pages(211, 229),
+nil)
+
+entry!('meyn1994computable',
+  article('The Annals of Applied Probability', 1994, 4, 4),
+  title('Computable bounds for geometric convergence rates of {M}arkov chains'),
+  author('SP Meyn and RL Tweedie'),
+  pages(981, 1011),
+nil)
+
+entry!('athreya1978new',
+  article('Transactions of the American Mathematical Society', 1978, 245),
+  title('A new approach to the limit theory of recurrent {M}arkov chains'),
+  author('Krishna B Athreya and P Ney'),
+  pages(493, 501),
+nil)
+
+entry!('rosenthal1995minorization',
+  jasa(1995, 90),
+  title('Minorization conditions and convergence rates for {M}arkov chain {M}onte {C}arlo'),
+  author('Jeffrey S Rosenthal'),
+  number(430),
+  pages(558, 566),
+  publisher('Taylor \& Francis Group'),
+nil)
+
+entry!('propp1996exact',
+  article('Random structures and Algorithms', 1996, 9),
+  title('Exact sampling with coupled {M}arkov chains and applications to statistical mechanics'),
+  author('JG Propp and DB Wilson'),
+  pages(223, 252),
+nil)
+
+entry!('murdoch1998exact',
+  article('Scandinavian Journal of Statistics', 1998, 25, 3),
+  title('Exact sampling from a continuous state space'),
+  author('Duncan J Murdoch and Peter J Green'),
+  pages(483, 502),
+nil)
+
+entry!('banarescu2013amr',
+  author('Laura BanaRescu and Claire Bonial Shu Cai and Madalina Georgescu and Kira Griffitt and Ulf Hermjakob and Kevin Knight and Philipp Koehn and Martha Palmer and Nathan Schneider'),
+  title('Abstract Meaning Representation for Sembanking'),
+  inproceedings('7th Linguistic Annotation Workshop and Interoperability with Discourse', 2013),
+nil)
+
+entry!('neelakantan2015compositional',
+  acl(2015),
+  title('Compositional Vector Space Models for Knowledge Base Completion'),
+  author('Arvind Neelakantan and Benjamin Roth and Andrew McCallum'),
+nil)
+
+entry!('socher2013reasoning',
+  nips(2013),
+  title('Reasoning with neural tensor networks for knowledge base completion'),
+  author('Richard Socher and Danqi Chen and Christopher D Manning and Andrew Ng'),
+  pages(926, 934),
+nil)
+
+entry!('min2013distant',
+  naacl(2013),
+  title('Distant Supervision for Relation Extraction with an Incomplete Knowledge Base'),
+  author('Bonan Min and Ralph Grishman and Li Wan and Chang Wang and David Gondek'),
+  pages(777, 782),
+nil)
+
+entry!('bordes2013translating',
+  nips(2013),
+  title('Translating embeddings for modeling multi-relational data'),
+  author('Antoine Bordes and Nicolas Usunier and Alberto Garcia-Duran and Jason Weston and Oksana Yakhnenko'),
+  pages(2787, 2795),
+nil)
+
+entry!('grefenstette2011experimental',
+  emnlp(2011),
+  title('Experimental support for a categorical compositional distributional model of meaning'),
+  author('Edward Grefenstette and Mehrnoosh Sadrzadeh'),
+  pages(1394, 1404),
+nil)
+
+entry!('socher2014grounded',
+  tacl(2014, 2),
+  title('Grounded compositional semantics for finding and describing images with sentences'),
+  author('Richard Socher and Andrej Karpathy and Quoc V Le and Christopher D Manning and Andrew Y Ng'),
+  pages(207, 218),
+nil)
+
+entry!('koutnik2014clockwork',
+  icml(2014),
+  title('A Clockwork {RNN}'),
+  author('Jan Koutnik and Klaus Greff and Faustino Gomez and Juergen Schmidhuber'),
+  pages(1863, 1871),
+nil)
+
+entry!('hochreiter1997lstm',
+  article('Neural Computation', 1997, 9),
+  title('Long short-term memory'),
+  author('Sepp Hochreiter and J{\\"u}rgen Schmidhuber'),
+  number(8),
+  pages(1735, 1780),
+  publisher('MIT Press'),
+nil)
+
+entry!('mikolov2014learning',
+  arxiv(2014, '1412.7753'),
+  title('Learning Longer Memory in Recurrent Neural Networks'),
+  author('Tomas Mikolov and Armand Joulin and Sumit Chopra and Michael Mathieu and Marc\'Aurelio Ranzato'),
+nil)
+
+entry!('le2015simple',
+  arxiv(2015, '1504.00941'),
+  title('A Simple Way to Initialize Recurrent Networks of Rectified Linear Units'),
+  author('Quoc V Le and Navdeep Jaitly and Geoffrey E Hinton'),
+nil)
+
+entry!('livni2014computational',
+  nips(2014),
+  title('On the Computational Efficiency of Training Neural Networks'),
+  author('Roi Livni and Shai Shalev-Shwartz and Ohad Shamir'),
+  pages(855, 863),
+nil)
+
+entry!('andoni2014learning',
+  icml(2014),
+  title('Learning polynomials with neural networks'),
+  author('Alexandr Andoni and Rina Panigrahy and Gregory Valiant and Li Zhang'),
+  pages(1908, 1916),
+nil)
+
+entry!('elman1990finding',
+  article('Cognitive Science', 1990, 14),
+  title('Finding structure in time'),
+  author('Jeffrey L Elman'),
+  number(2),
+  pages(179, 211),
+nil)
+
+entry!('arora2014provable',
+  icml(2014),
+  title('Provable Bounds for Learning Some Deep Representations'),
+  author('Sanjeev Arora and Aditya Bhaskara and Rong Ge and Tengyu Ma'),
+  pages(584, 592),
+nil)
+
+entry!('hermans2012recurrent',
+  article('Neural Computation', 2012, 24),
+  title('Recurrent kernel machines: Computing with infinite echo state networks'),
+  author('Michiel Hermans and Benjamin Schrauwen'),
+  number(1),
+  pages(104, 133),
+nil)
+
+entry!('livni2013algorithm',
+  arxiv(2013, '1304.7045'),
+  title('An Algorithm for Training Polynomial Networks'),
+  author('Roi Livni and Shai Shalev-Shwartz and Ohad Shamir'),
+nil)
+
+entry!('lukovsevivcius2009reservoir',
+  article('Computer Science Review', 2009, 3),
+  title('Reservoir computing approaches to recurrent neural network training'),
+  author('Mantas Luko{\v{s}}Evi{\v{c}}Ius and Herbert Jaeger'),
+  number(3),
+  pages(127, 149),
+nil)
+
+entry!('schmidhuber2007evolino',
+  article('Neural Computation', 2007, 19),
+  title('Training recurrent networks by {E}volino'),
+  author('J{\"u}rgen Schmidhuber and Daan Wierstra and Matteo Gagliolo and Faustino Gomez'),
+  number(3),
+  pages(757, 779),
+nil)
+
+entry!('cho2014gru',
+  arxiv(2014, '1409.1259'),
+  title('On the properties of neural machine translation: Encoder-decoder approaches'),
+  author('Kyunghyun Cho and Bart van Merri{\"e}nboer and Dzmitry Bahdanau and Yoshua Bengio'),
+nil)
+
+entry!('stephenson08brier',
+  article('Weather Forecasting', 2008, 23),
+  title('Two Extra Components in the Brier Score Decomposition'),
+  author('D. B. Stephenson and C. A. S. Coelho and I. T. Jolliffe'),
+  pages(752, 757),
+nil)
+
+entry!('murphy1973vector',
+  article('Journal of Applied Meteorology', 1973, 12),
+  title('A new vector partition of the probability score'),
+  author('Allan H Murphy'),
+  number(4),
+  pages(595, 600),
+nil)
+
+entry!('brocker2009decomposition',
+  article('Quarterly Journal of the Royal Meteorological Society', 2009, 135),
+  author('Jochen Brocker'),
+  title('Reliability, sufficiency, and the decomposition of proper scores'),
+  number(643),
+  pages(1512, 1519),
+nil)
+
+entry!('brocker2012empirical',
+  article('Climate Dynamics', 2012, 39),
+  title('Estimating reliability and resolution of probability forecasts through decomposition of the empirical score'),
+  author('Jochen Brocker'),
+  pages(655, 667),
+nil)
+
+entry!('kroemer2010combining',
+  article('RAS', 2010, 58),
+  title('Combining active learning and reactive control for robot grasping'),
+  author('OB Kroemer and R. Detry and J. Piater and J. Peters'),
+  number(9),
+  pages(1105, 1116),
+nil)
+
+entry!('argall2009survey',
+  article('RAS', 2009, 57),
+  title('A survey of robot learning from demonstration'),
+  author('B. Argall and S. Chernova and M. Veloso and B. Browning'),
+  publisher('Elsevier'),
+nil)
+
+entry!('alterovitz2011rapidly',
+  icra(2011),
+  title('Rapidly-exploring roadmaps: Weighing exploration vs. refinement in optimal motion planning'),
+  author('R. Alterovitz and S. Patil and A. Derbakova'),
+nil)
+
+entry!('hofer2014extracting',
+  icra(2014),
+  title('Extracting Kinematic Background Knowledge from Interactions Using Task-Sensitive Relational Learning'),
+  author('S. H{\"o}fer and T. Lang and O. Brock'),
+nil)
+
+entry!('kulick2013active',
+  ijcai(2013),
+  author('J. Kulick and M. Toussaint and T. Lang and M. Lopes'),
+  title('Active Learning for Teaching a Robot Grounded Relational Symbols'),
+nil)
+
+entry!('endres2013learning',
+  iros(2013),
+  title('Learning the dynamics of doors for robotic manipulation'),
+  author('F. Endres and J. Trinkle and W. Burgard'),
+nil)
+
+entry!('nothman2012event',
+  acl(2012),
+  title('Event linking: Grounding event reference in a news archive'),
+  author('J. Nothman and M. Honnibal and B. Hachey and J. Curran'),
+nil)
+
+entry!('wongpiromsarn2010receding',
+  inproceedings('International Conference on Hybrid Systems: Computation and Control', 2010),
+  title('Receding horizon control for temporal logic specifications'),
+  author('Tichakorn Wongpiromsarn and Ufuk Topcu and Richard M Murray'),
+  pages(101, 110),
+  organization('ACM'),
+nil)
+
+entry!('niekum2013incremental',
+  rss(2013),
+  title('Incremental Semantically Grounded Learning from Demonstration'),
+  author('S. Niekum and S. Chitta and A. Barto and B. Marthi and S. Osentoski'),
+nil)
+
+entry!('bollini2011bakebot',
+  inproceedings('The PR2 Workshop, IROS', 2011),
+  title('Bakebot: Baking cookies with the {PR2}'),
+  author('M. Bollini and J. Barry and D. Rus'),
+nil)
+
+entry!('kollar2010grounding',
+  iser(2010),
+  title('Grounding Verbs of Motion in Natural Language Commands to Robots'),
+  author('T. Kollar and S. Tellex and D. Roy and N. Roy'),
+nil)
+
+entry!('matuszek2012learning',
+  iser(2012),
+  title('Learning to parse natural language commands to a robot control system'),
+  author('C. Matuszek and E. Herbst and L. Zettlemoyer and D. Fox'),
+nil)
+
+entry!('walter2013learning',
+  rss(2013),
+  title('Learning Semantic Maps from Natural Language Descriptions'),
+  author('M. Walter and S. Hemachandra and B. Homberg and S. Tellex and S. Teller'),
+nil)
+
+entry!('ratliff2009chomp',
+  icra(2009),
+  title('{CHOMP}: Gradient Optimization Techniques for Efficient Motion Planning'),
+  author('N. Ratliff and M. Zucker and D. Bagnell and S. Srinivasa'),
+nil)
+
+entry!('srinivasa2010herb',
+  article('Autonomous Robots', 2010, 28),
+  title('{HERB}: a home exploring robotic butler'),
+  author('S. Srinivasa and D. Ferguson and C. Helfrich and D. Berenson and A. Collet and R. Diankov and G. Gallagher and G. Hollinger and J. Kuffner and M. Weghe'),
+  number(1),
+  pages(5, 20),
+  publisher('Springer'),
+nil)
+
+entry!('jiang2012placing',
+  article('IJRR', 2012, 31),
+  title('Learning to Place New Objects in a Scene'),
+  author('Y. Jiang and M. Lim and C. Zheng and A. Saxena'),
+  number(9),
+nil)
+
+entry!('sung2014learning',
+  iros(2014),
+  title('Synthesizing Manipulation Sequences for Under-Specified Tasks using Unrolled {M}arkov Random Fields'),
+  author('J. Sung and B. Selman and A. Saxena'),
+nil)
+
+entry!('cakmak2007affordances',
+  inproceedings('International conference on epigenetic robotics', 2007),
+  title('Affordances as a framework for robot control'),
+  author('Maya Cakmak and Mehmet R Dogar and Emre Ugur and Erol Sahin'),
+nil)
+
+entry!('finucane2010ltlmop',
+  iros(2010),
+  title('LTLMoP: Experimenting with language, temporal logic and robot control'),
+  author('C. Finucane and G. Jing and H. Kress-Gazit'),
+nil)
+
+entry!('guadarrama2013grounding',
+  iros(2013),
+  title('Grounding spatial relations for human-robot interaction'),
+  author('S. Guadarrama and L. Riano and D. Golland and D. Gouhring and Y. Jia and D. Klein and P. Abbeel and T. Darrell'),
+nil)
+
+entry!('fasola2013using',
+  iros(2013),
+  title('Using Semantic Fields to Model Dynamic Spatial Relations in a Robot Architecture for Natural Language Instruction of Service Robots'),
+  author('J. Fasola and M. J Matari{\\\'c}'),
+nil)
+
+entry!('lenz2013deep',
+  rss(2013),
+  title('Deep Learning for Detecting Robotic Grasps'),
+  author('I. Lenz and H. Lee and A. Saxena'),
+nil)
+
+entry!('chu2013haptic',
+  iros(2013),
+  title('Using Robotic Exploratory Procedures to Learn the Meaning of Haptic Adjectives'),
+  author('V. Chu and I. McMahon and L. Riano and C. McDonald and Q. He and J. Perez-Tejada and M. Arrigo and N. Fitter and J. Nappo and T. Darrell and others'),
+nil)
+
+entry!('kunze2013acquiring',
+  iros(2013),
+  title('Acquiring task models for imitation learning through games with a purpose'),
+  author('L. Kunze and A. Haidu and M. Beetz'),
+nil)
+
+entry!('ias2012execution',
+  ias(2012),
+  author('D Marco and M Tenorth and K H{\\"a}ussermann and O Zweigle and P Levi'),
+  title('RoboEarth Action Recipe Execution'),
+nil)
+
+entry!('bollini2012interpreting',
+  iser(2012),
+  title('Interpreting and executing recipes with a cooking robot'),
+  author('M. Bollini and S. Tellex and T. Thompson and N. Roy and D. Rus'),
+nil)
+
+entry!('kress2007structured',
+  iros(2007),
+  title('From structured {E}nglish to robot motion'),
+  author('H. Kress-Gazit and G. Fainekos and G. Pappas'),
+nil)
+
+entry!('maciel2011surgical',
+  article('International Journal of Computer Assisted Radiology and Surgery', 2011, 6),
+  title('Surgical model-view-controller simulation software framework for local and collaborative applications'),
+  author('A. Maciel and G. Sankaranarayanan and T. Halic and V. Arikatla and Z. Lu and S. De'),
+  number(4),
+  pages(457, 471),
+  publisher('Springer'),
+nil)
+
+entry!('zickler2009efficient',
+  aamas(2009),
+  title('Efficient physics-based planning: sampling search via non-deterministic tactics and skills'),
+  author('S. Zickler and M. Veloso'),
+  pages(27, 33),
+nil)
+
+entry!('beetz2011robotic',
+  inproceedings('Humanoids', 2011),
+  title('Robotic roommates making pancakes'),
+  author('M. Beetz and U. Klank and I. Kresse and A. Maldonado and L. Mosenlechner and D. Pangercic and T. Ruhr and M. Tenorth'),
+nil)
+
+entry!('miller2012geometric',
+  ijrr(2012, 31),
+  title('A geometric approach to robotic laundry folding'),
+  author('S. Miller and J. Van Den Berg and M. Fritz and T. Darrell and K. Goldberg and P. Abbeel'),
+nil)
+
+entry!('nguyen2013ros',
+  icra(2013),
+  title('{ROS} Commander (ROSCo): Behavior Creation for Home Robots'),
+  author('H. Nguyen and M. Ciocarlie and J. Hsiao and C. C. Kemp'),
+nil)
+
+entry!('barry2013manipulation',
+  inproceedings('Expermental Robotics', 2013),
+  title('Manipulation with multiple action types'),
+  author('J. Barry and K. Hsiao and L. P. Kaelbling and T. Lozano-P{\'e}rez'),
+  pages(531, 545),
+nil)
+
+entry!('lemaignan2012grounding',
+  ijsr(2012, 4),
+  title('Grounding the interaction: Anchoring situated discourse in everyday human-robot interaction'),
+  author('S. Lemaignan and R. Ros and E. A. Sisbot and R. Alami and M. Beetz'),
+  number(2),
+  pages(181, 199),
+nil)
+
+entry!('ros2010one',
+  inproceedings('RO-MAN', 2010),
+  title('Which one? grounding the referent based on efficient human-robot interaction'),
+  author('R. Ros and S. Lemaignan and E. A. Sisbot and R. Alami and J. Steinwender and K. Hamann and F. Warneken'),
+  pages(570, 575),
+nil)
+
+entry!('chao2011towards',
+  inproceedings('International Conference on Development and Learning (ICDL)', 2011),
+  title('Towards grounding concepts for transfer in goal learning from demonstration'),
+  author('Crystal Chao and Maya Cakmak and Andrea L Thomaz'),
+  pages(1, 6),
+  organization('IEEE'),
+nil)
+
+entry!('kaelbling2011hierarchical',
+  icra(2011),
+  title('Hierarchical task and motion planning in the now'),
+  author('L. P.  Kaelbling and T. Lozano-P{\'e}rez'),
+nil)
+
+entry!('rintanen2012planning',
+  article('Artificial Intelligence', 2012, 193),
+  title('Planning as satisfiability: Heuristics'),
+  author('J. Rintanen'),
+nil)
+
+entry!('anand2012semantic',
+  ijrr(2012, 32),
+  title('Contextually Guided Semantic Labeling and Search for 3D Point Clouds'),
+  author('A. Anand and H. Koppula and T. Joachims and A. Saxena'),
+nil)
+
+entry!('farhadi2010attribute',
+  cvpr(2010),
+  title('Attribute-centric recognition for cross-category generalization'),
+  author('A. Farhadi and I. Endres and D. Hoiem'),
+nil)
+
+entry!('tenorth2010knowrob',
+  inproceedings('Humanoids', 2010),
+  title('{KNOWROB}-{MAP}-knowledge-linked semantic object maps'),
+  author('M. Tenorth and L. Kunze and D. Jain and M. Beetz'),
+nil)
+
+entry!('chen2010training',
+  jair(2010, 37),
+  title('Training a multilingual sportscaster: Using perceptual context to learn language'),
+  author('D. L. Chen and J. Kim and R. J. Mooney'),
+  number(1),
+  pages(397, 436),
+nil)
+
+entry!('duvallet2014inferring',
+  iser(2014),
+  title('Inferring Maps and Behaviors from Natural Language Instructions'),
+  author('F. Duvallet and M. R. Walter and T. Howard and S. Hemachandra and J. Oh and S. Teller and N. Roy and A. Stentz'),
+nil)
+
+entry!('koppula2013anticipating',
+  rss(2013),
+  title('Anticipating Human Activities using Object Affordances for Reactive Robotic Response'),
+  author('H. Koppula and A. Saxena'),
+nil)
+
+entry!('koppula2011semantic',
+  nips(2011),
+  title('Semantic Labeling of 3D Point Clouds for Indoor Scenes'),
+  author('H.S. Koppula and A. Anand and T. Joachims and A. Saxena'),
+nil)
+
+entry!('farhadi2010every',
+  eccv(2010),
+  title('Every picture tells a story: Generating sentences from images'),
+  author('A. Farhadi and M. Hejrati and M. A. Sadeghi and P. Young and C. Rashtchian and J. Hockenmaier and D. Forsyth'),
+  pages(15, 29),
+  publisher('Springer'),
+nil)
+
+entry!('wulenzsaxena2014hierarchical',
+  inproceedings('Robotics: Science and Systems (RSS)', 2014),
+  title('Hierarchical Semantic Labeling for Task-Relevant {RGB-D} Perception'),
+  author('C. Wu and I. Lenz and A. Saxena'),
+nil)
+
+entry!('jiang2013hallucinated',
+  cvpr(2013),
+  title('Hallucinated Humans as the Hidden Context for Labeling 3D Scenes'),
+  author('Y. Jiang and H. Koppula and A. Saxena'),
+nil)
+
+entry!('steedman1996surface',
+  title('Surface structure and interpretation'),
+  author('M. Steedman'),
+  book('MIT press', 1996),
+nil)
+
+entry!('mourao2012learning',
+  uai(2012),
+  title('Learning strips operators from noisy and incomplete observations'),
+  author('K. Mourao and L.  Zettlemoyer and R. Petrick and M. Steedman'),
+nil)
+
+entry!('guadarrama2014open',
+  rss(2014),
+  title('Open-vocabulary object retrieval'),
+  author('S Guadarrama and E Rodner and K Saenko and N Zhang and R Farrell and J Donahue and T Darrell'),
+  organization('RSS'),
+nil)
+
+entry!('akgun2012keyframe',
+  ijsr(2012, 4),
+  title('Keyframe-based learning from demonstration'),
+  author('B. Akgun and M. Cakmak and K. Jiang and A. Thomaz'),
+  number(4),
+  pages(343, 355),
+  publisher('Springer'),
+nil)
+
+entry!('hsiao2010contact',
+  iros(2010),
+  inproceedings('IROS', 2010),
+  title('Contact-reactive grasping of objects with partial shape information'),
+  author('K. Hsiao and S. Chitta and M. Ciocarlie and E. Jones'),
+nil)
+
+entry!('misra2014tell',
+  rss(2014),
+  title('Tell {M}e {D}ave: Context-sensitive grounding of natural language to mobile manipulation instructions'),
+  unusualCapitalization('Me'),
+  author('DK Misra and J Sung and K Lee and A Saxena'),
+nil)
+
+entry!('montesano2008learning',
+  article('Robotics, IEEE Transactions on', 2008, 24),
+  title('Learning Object Affordances: From Sensory--Motor Coordination to Imitation'),
+  author('L. Montesano and M. Lopes and A. Bernardino and J. Santos-Victor'),
+  number(1),
+  pages(15, 26),
+  publisher('IEEE'),
+nil)
+
+entry!('kjellstrom2011visual',
+  article('Computer Vision and Image Understanding', 2011, 115),
+  title('Visual object-action recognition: Inferring object affordances from human demonstration'),
+  author('H. Kjellstr{\'o}m and J. Romero and D. Kragi{\'c}'),
+  number(1),
+  pages(81, 90),
+  publisher('Elsevier'),
+nil)
+
+entry!('koppula2013learning',
+  ijrr(2013, 32),
+  title('Learning human activities and object affordances from {RGB-D} videos'),
+  author('H. S. Koppula and R. Gupta and A. Saxena'),
+  number(8),
+  pages(951, 970),
+  publisher('SAGE Publications'),
+nil)
+
+entry!('aydemir2011search',
+  icra(2011),
+  title('Search in the real world: Active visual object search based on spatial relations'),
+  author('A. Aydemir and K. Sjoo and J. Folkesson and A. Pronobis and P. Jensfelt'),
+  pages(2818, 2824),
+  organization('IEEE'),
+nil)
+
+entry!('malmaud2014cooking',
+  author('J. Malmaud and E. Wagner and N. Chang and K. Murphy'),
+  title('Cooking with Semantics'),
+  inproceedings('ACL Workshop on Semantic Parsing', 2014),
+  pages(33, 38),
+nil)
+
+entry!('kirk2014controlled',
+  icra(2014),
+  title('Controlled Natural Languages for language generation in artificial cognition'),
+  author('N. H. Kirk and D. Nyga and M. Beetz'),
+  pages(6667, 6672),
+  organization('IEEE'),
+nil)
+
+entry!('fasola2014interpreting',
+  icra(2014),
+  title('Interpreting Instruction Sequences in Spatial Language Discourse with Pragmatics towards Natural Human-Robot Interaction'),
+  author('J. Fasola and M. J Matari{\\\'c}'),
+  pages(6667, 6672),
+nil)
+
+entry!('naim2014unsupervised',
+  aaai(2014),
+  title('Unsupervised Alignment of Natural Language Instructions with Video Segments'),
+  author('I. Naim and Y. Song and Q. Liu and H. Kautz and J. Luo and D. Gildea'),
+nil)
+
+entry!('bruce2002real',
+  inproceedings('IROS', 2002),
+  title('Real-time randomized path planning for robot navigation'),
+  author('J. Bruce and M. Veloso'),
+  volume(3),
+  pages(2383, 2388),
+  organization('IEEE'),
+nil)
+
+entry!('mooney2008learning',
+  aaai(2008),
+  title('Learning to Connect Language and Perception'),
+  author('R. Mooney'),
+  pages(1598, 1601),
+nil)
+
+entry!('fleischman2005intentional',
+  conll(2005),
+  title('Intentional context in situated natural language learning'),
+  author('M. Fleischman and D. Roy'),
+  pages(104, 111),
+  organization('ACL'),
+nil)
+
+entry!('yu2013grounded',
+  acl(2013),
+  title('Grounded Language Learning from Video Described with Sentences'),
+  author('H. Yu and J. M. Siskind'),
+  pages(53, 63),
+nil)
+
+entry!('liang2013lambda',
+  arxiv(2013, '1309.4408'),
+  title('Lambda dependency-based compositional semantics'),
+  author('Percy Liang'),
+nil)
+
+entry!('kim2012unsupervised',
+  conll(2012),
+  title('Unsupervised {PCFG} induction for grounded language learning with highly ambiguous supervision'),
+  author('J. Kim and R. Mooney'),
+  pages(433, 444),
+  organization('ACL'),
+nil)
+
+entry!('sung2015robobarista',
+  arxiv(2015, '1504.03071'),
+  author('Jaeyong Sung and Seok Hyun Jin and Ashutosh Saxena'),
+  title('Robobarista: Object Part based Transfer of Manipulation Trajectories from Crowd-sourcing in 3D Pointclouds'),
+nil)
+
+entry!('saxena2014robobrain',
+  arxiv(2014, '1412.0691'),
+  author('Ashutosh Saxena and Ashesh Jain and Ozan Sener and Aditya Jami and Dipendra Kumar Misra and Hema S Koppula'),
+  title('RoboBrain: Large-Scale Knowledge Engine for Robots'),
+nil)
+
+entry!('ren2012rgb',
+  author('Xiaofeng Ren and Liefeng Bo and Dieter Fox'),
+  title('Rgb-(d) scene labeling: Features and algorithms'),
+  cvpr(2012),
+  pages(2759, 2766),
+  organization('IEEE'),
+nil)
+
+entry!('levine2015end',
+  arxiv(2015, '1504.00702'),
+  author('S. Levine and C. Finn and T. Darrell and P. Abbeel'),
+  title('End-to-End Training of Deep Visuomotor Policies'),
+nil)
+
+entry!('ullman1985implementation',
+  article('ACM Transactions on Database Systems (TODS)', 1985, 10),
+  title('Implementation of logical query languages for databases'),
+  author('Jeffrey D Ullman'),
+  number(3),
+  pages(289, 321),
+  publisher('ACM'),
+nil)
+
+entry!('lenz2015deepmpc',
+  inproceedings('Robotics Science and Systems (RSS)', 2015),
+  title('DeepMPC: Learning Deep Latent Features for Model Predictive Control'),
+  author('Ian Lenz and Ross Knepper and Ashutosh Saxena'),
+nil)
+
+entry!('yang2015embeddings',
+  arxiv(2015, '1412.6575'),
+  title('Embedding Entities and Relations for Learning and Inference in Knowledge Bases'),
+  author('Bishan Yang and Wen-tau Yih and Xiaodong He and Jianfeng Gao and Li Deng'),
+nil)
+
+entry!('lao2011pathranking',
+  emnlp(2011),
+  title('Random walk inference and learning in a large scale knowledge base'),
+  author('Ni Lao and Tom Mitchell and William W Cohen'),
+  pages(529, 539),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('grefenstette2013calculus',
+  arxiv(2013, '1304.5823'),
+  title('Towards a formal distributional semantics: Simulating logical calculi with tensors'),
+  author('Edward Grefenstette'),
+nil)
+
+entry!('vilnis2014gaussian',
+  arxiv(2014, '1412.6623'),
+  title('Word Representations via {G}aussian Embedding'),
+  author('Luke Vilnis and Andrew McCallum'),
+nil)
+
+entry!('gardner2014incorporating',
+  emnlp(2014),
+  title('Incorporating vector space similarity in random walk inference over knowledge bases'),
+  author('Matt Gardner and Partha Talukdar and Jayant Krishnamurthy and Tom Mitchell'),
+nil)
+
+entry!('nickel2014reducing',
+  nips(2014),
+  title('Reducing the Rank in Relational Factorization Models by Including Observable Patterns'),
+  author('Maximilian Nickel and Xueyan Jiang and Volker Tresp'),
+  pages(1179, 1187),
+nil)
+
+entry!('rocktaschel2014lowlogic',
+  acl(2014),
+  title('Low-dimensional embeddings of logic'),
+  author('Tim Rockt{\"a}schel and Matko Bosnjak and Sameer Singh and Sebastian Riedel'),
+nil)
+
+entry!('perozzi2014deepwalk',
+  kdd(2014),
+  title('Deepwalk: Online learning of social representations'),
+  author('Bryan Perozzi and Rami Al-Rfou and Steven Skiena'),
+  pages(701, 710),
+  organization('ACM'),
+nil)
+
+entry!('bowman2014recursive',
+  article('CoRR', 2014),
+  title('Recursive Neural Networks Can Learn Logical Semantics'),
+  author('Samuel R. Bowman and Christopher Potts and Christopher D. Manning'),
+  number('arXiv:1406.1827'),
+nil)
+
+entry!('dong2014knowledge',
+  kdd(2014),
+  title('Knowledge {v}ault: A web-scale approach to probabilistic knowledge fusion'),
+  author('Xin Dong and Evgeniy Gabrilovich and Geremy Heitz and Wilko Horn and Ni Lao and Kevin Murphy and Thomas Strohmann and Shaohua Sun and Wei Zhang'),
+  pages(601, 610),
+  organization('ACM'),
+nil)
+
+entry!('ng1999policy',
+  icml(1999),
+  title('Policy invariance under reward transformations: Theory and application to reward shaping'),
+  author('Andrew Y Ng and Daishi Harada and Stuart Russell'),
+  volume(99),
+  pages(278, 287),
+nil)
+
+entry!('pennington2014glove',
+  emnlp(2014),
+  title('Glove: Global vectors for word representation'),
+  author('Jeffrey Pennington and Richard Socher and Christopher D Manning'),
+nil)
+
+entry!('niculescu2005predicting',
+  inproceedings('Proceedings of the 22nd international conference on Machine learning', 2005),
+  title('Predicting good probabilities with supervised learning'),
+  author('Alexandru Niculescu-Mizil and Rich Caruana'),
+  pages(625, 632),
+  organization('ACM'),
+nil)
+
+entry!('platt1999probabilistic',
+  article('Advances in Large Margin Classifiers', 1999, 10),
+  title('Probabilistic outputs for support vector machines and comparisons to regularized likelihood methods'),
+  author('John Platt'),
+  number(3),
+  pages(61, 74),
+  publisher('Cambridge, MA'),
+nil)
+
+entry!('zadrozny2002transforming',
+  kdd(2002),
+  title('Transforming classifier scores into accurate multiclass probability estimates'),
+  author('Bianca Zadrozny and Charles Elkan'),
+  pages(694, 699),
+  organization('ACM'),
+nil)
+
+entry!('gneiting2007probabilistic',
+  article('Journal of the Royal Statistical Society: Series B (Statistical Methodology)', 2007, 69),
+  title('Probabilistic forecasts, calibration and sharpness'),
+  author('Tilmann Gneiting and Fadoua Balabdaoui and Adrian E Raftery'),
+  number(2),
+  pages(243, 268),
+nil)
+
+entry!('reid2011information',
+  jmlr(2011, 12),
+  title('Information, divergence and risk for binary experiments'),
+  author('Mark D Reid and Robert C Williamson'),
+  pages(731, 817),
 nil)
 
 entry!('settles2010active',

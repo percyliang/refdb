@@ -44,6 +44,10 @@ def bibtexToRuby(bibtexLines)
   flush = lambda {
     # Normalize values
     map.each { |key,value|
+      # Escape
+      value.gsub!('\\', '\\\\')
+      value.gsub!('\'', '\\\\\'')
+
       if key == 'pages'
         if value =~ /^(\d+)\s*--\s*(\d+)$/
           value = $1 + ', ' + $2
@@ -70,24 +74,37 @@ def bibtexToRuby(bibtexLines)
       lines << "  #{func}(" + fields.map { |f| (map[f] || f.upcase) }.join(', ') + "),"
     }
 
-    # Special case popular conferences
+    # Special case arXiv
     usedMacro = false
-    $venues.each { |name,func|
-      if map['booktitle'] =~ /#{name}/
-        addItem.call(func, ['year'])
-        map.delete('booktitle')
-        map.delete('year')
-        usedMacro = true
-        break
-      elsif map['journal'] =~ /#{name}/
-        addItem.call(func, ['year', 'volume'])
-        map.delete('journal')
-        map.delete('year')
-        map.delete('volume')
-        usedMacro = true
-        break
-      end
-    }
+    if map['journal'] =~ /arXiv:(\d+\.\d+)/
+      map['arxivId'] = quote($1)
+      addItem.call('arxiv', ['year', 'arxivId'])
+      map.delete('journal')
+      map.delete('year')
+      map.delete('arxivId')
+      usedMacro = true
+    end
+
+    # Special case popular conferences and journals
+    if not usedMacro
+      $venues.each { |name,func|
+        if map['booktitle'] =~ /#{name}/
+          addItem.call(func, ['year'])
+          map.delete('booktitle')
+          map.delete('year')
+          usedMacro = true
+          break
+        elsif map['journal'] =~ /#{name}/
+          p name
+          addItem.call(func, ['year', 'volume'])
+          map.delete('journal')
+          map.delete('year')
+          map.delete('volume')
+          usedMacro = true
+          break
+        end
+      }
+    end
 
     # Conferences and journals
     if not usedMacro
