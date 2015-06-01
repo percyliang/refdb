@@ -7244,3 +7244,40 @@ entry!('settles2010active',
   techreport('University of Wisconsin, Madison', 2010),
 nil)
 
+
+entry!('cesabianchi06regret',
+title('Regret Minimization Under Partial Monitoring'),
+author('Nicolò Cesa-Bianchi and Gábor Lugosi and Gilles Stoltz'),
+mathops(2006, 31),
+pages(562,580),
+nil)
+
+entry!('cesabianchi06regret',
+title('Regret Minimization Under Partial Monitoring'),
+author('Nicolò Cesa-Bianchi and Gábor Lugosi and Gilles Stoltz'),
+mathops(2006, 31),
+pages(562,580),
+nil)
+
+entry!('cesabianchi05minimizing',
+title('Minimizing regret with label efficient prediction'),
+author('Nicolò Cesa-Bianchi and Gábor Lugosi and Gilles Stoltz'),
+article('IEEE Transactions on Information Theory', 2005, 51),
+pages(2152, 2162),
+nil
+)
+
+entry!('chai2004test',
+  title('Test-cost sensitive naive Bayes classification'),
+  author('Xiaoyong Chai and Lin Deng and Qiang Yang and Charles X Ling'),
+  inproceedings('International Conference on Data Mining', 2004),
+  pages(51,58),
+nil)
+
+entry!('esmeir2007anytime',
+  nips(2007),
+  title('Anytime induction of cost-sensitive trees'),
+  author('Saher Esmeir and Shaul Markovitch'),
+  pages(425, 432),
+nil)
+
