@@ -5907,3 +5907,9 @@ entry!('cohen2013pcfg',
        author('Shay B Cohen and Giorgio Satta and Michael Collins'),
 nil)
 
+entry!('settles2010active',
+  title('Active learning literature survey'),
+  author('Burr Settles'),
+  techreport('University of Wisconsin, Madison', 2010),
+nil)
+
