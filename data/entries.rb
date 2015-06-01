@@ -7170,10 +7170,9 @@ entry!('perozzi2014deepwalk',
 nil)
 
 entry!('bowman2014recursive',
-  article('CoRR', 2014),
-  title('Recursive Neural Networks Can Learn Logical Semantics'),
+  iclr(2014),
+  title('Can recursive neural tensor networks learn logical reasoning?'),
   author('Samuel R. Bowman and Christopher Potts and Christopher D. Manning'),
-  number('arXiv:1406.1827'),
 nil)
 
 entry!('dong2014knowledge',
