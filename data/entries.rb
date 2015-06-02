@@ -7440,6 +7440,7 @@ nil)
 entry!('nie2014truncated',
   article('Foundations of Computational Mathematics', 2014, 14),
   title('The {A}-Truncated {K}-Moment Problem'),
+  unusualCapitalization('A'),
   author('Jiawang Nie'),
   number(6),
   pages(1243, 1276),
@@ -7486,4 +7487,17 @@ entry!('sturmfels2002solving',
   title('Solving systems of polynomial equations'),
   author('Bernd Sturmfels'),
   book('American Mathematical Society', 2002),
+nil)
+
+entry!('hardt2014sharp',
+  arxiv(2014, '1404.4997'),
+  title('Sharp bounds for learning a mixture of two {G}aussians'),
+  author('Moritz Hardt and Eric Price'),
+nil)
+
+entry!('kalai2010efficiently',
+  stoc(2010),
+  title('Efficiently learning mixtures of two {G}aussians'),
+  author('Adam Tauman Kalai and Ankur Moitra and Gregory Valiant'),
+  pages(553, 562),
 nil)
