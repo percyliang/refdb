@@ -7176,3 +7176,10 @@ entry!('ng1999policy',
   volume(99),
   pages(278, 287),
 nil)
+
+entry!('gill2002snopt',
+  title('{SNOPT}: An {SQP} algorithm for large-scale constrained optimization'),
+  author('Philip E Gill and Walter Murray and Michael A Saunders'),
+  article('SIAM Journal on Optimization', 2002, 12),
+  number(4), pages(979, 1006),
+nil)
