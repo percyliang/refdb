@@ -7169,6 +7169,20 @@ entry!('perozzi2014deepwalk',
   organization('ACM'),
 nil)
 
+entry!('bowman2014recursive',
+  iclr(2014),
+  title('Can recursive neural tensor networks learn logical reasoning?'),
+  author('Samuel R. Bowman and Christopher Potts and Christopher D. Manning'),
+nil)
+
+entry!('dong2014knowledge',
+  kdd(2014),
+  title('Knowledge {v}ault: A web-scale approach to probabilistic knowledge fusion'),
+  author('Xin Dong and Evgeniy Gabrilovich and Geremy Heitz and Wilko Horn and Ni Lao and Kevin Murphy and Thomas Strohmann and Shaohua Sun and Wei Zhang'),
+  pages(601, 610),
+  organization('ACM'),
+nil)
+
 entry!('ng1999policy',
   icml(1999),
   title('Policy invariance under reward transformations: Theory and application to reward shaping'),
@@ -7182,4 +7196,332 @@ entry!('gill2002snopt',
   author('Philip E Gill and Walter Murray and Michael A Saunders'),
   article('SIAM Journal on Optimization', 2002, 12),
   number(4), pages(979, 1006),
+nil)
+
+entry!('pennington2014glove',
+  emnlp(2014),
+  title('Glove: Global vectors for word representation'),
+  author('Jeffrey Pennington and Richard Socher and Christopher D Manning'),
+nil)
+
+entry!('niculescu2005predicting',
+  inproceedings('Proceedings of the 22nd international conference on Machine learning', 2005),
+  title('Predicting good probabilities with supervised learning'),
+  author('Alexandru Niculescu-Mizil and Rich Caruana'),
+  pages(625, 632),
+  organization('ACM'),
+nil)
+
+entry!('platt1999probabilistic',
+  article('Advances in Large Margin Classifiers', 1999, 10),
+  title('Probabilistic outputs for support vector machines and comparisons to regularized likelihood methods'),
+  author('John Platt'),
+  number(3),
+  pages(61, 74),
+  publisher('Cambridge, MA'),
+nil)
+
+entry!('zadrozny2002transforming',
+  kdd(2002),
+  title('Transforming classifier scores into accurate multiclass probability estimates'),
+  author('Bianca Zadrozny and Charles Elkan'),
+  pages(694, 699),
+  organization('ACM'),
+nil)
+
+entry!('gneiting2007probabilistic',
+  article('Journal of the Royal Statistical Society: Series B (Statistical Methodology)', 2007, 69),
+  title('Probabilistic forecasts, calibration and sharpness'),
+  author('Tilmann Gneiting and Fadoua Balabdaoui and Adrian E Raftery'),
+  number(2),
+  pages(243, 268),
+nil)
+
+entry!('reid2011information',
+  jmlr(2011, 12),
+  title('Information, divergence and risk for binary experiments'),
+  author('Mark D Reid and Robert C Williamson'),
+  pages(731, 817),
+nil)
+
+entry!('titterington1985statistical',
+  title('Statistical analysis of finite mixture distributions'),
+  author('D Michael Titterington and Adrian FM Smith and Udi E Makov'),
+  volume(7),
+  book('Wiley New York', 1985),
+nil)
+
+entry!('dreesen2012roots',
+  inproceedings('IFAC Symposium on System Identification (SYSID)', 2012),
+  title('Back to the roots: Polynomial system solving, linear algebra, systems theory'),
+  author('Philippe Dreesen and Kim Batselier and Bart De Moor'),
+  pages(1203, 1208),
+nil)
+
+entry!('ge2015learning',
+  arxiv(2015, '1503.00424'),
+  title('Learning Mixtures of {G}aussians in High Dimensions'),
+  author('Rong Ge and Qingqing Huang and Sham M Kakade'),
+nil)
+
+entry!('cohen2013experiments',
+  naacl(2013),
+  title('Experiments with Spectral Learning of Latent-Variable PCFGs'),
+  author('Shay B Cohen and Karl Stratos and Michael Collins and Dean P Foster and Lyle H Ungar'),
+  pages(148, 157),
+nil)
+
+entry!('hansen1982gmm',
+  article('Econometrica: Journal of the Econometric Society', 1982, 50),
+  title('Large sample properties of generalized method of moments estimators'),
+  author('Lars Peter Hansen'),
+  pages(1029, 1054),
+nil)
+
+entry!('mclachlan2004finite',
+  title('Finite mixture models'),
+  author('Geoffrey McLachlan and David Peel'),
+  book('John Wiley \& Sons', 2004),
+nil)
+
+entry!('lasserre2001global',
+  article('SIAM Journal on Optimization', 2001, 11),
+  title('Global optimization with polynomials and the problem of moments'),
+  author('Jean B Lasserre'),
+  number(3),
+  pages(796, 817),
+  publisher('SIAM'),
+nil)
+
+entry!('lasserre2011moments',
+  author('Jean Bernard Lasserre'),
+  book('Imperial College Press', 2011),
+  title('Moments, Positive Polynomials and Their Applications'),
+nil)
+
+entry!('lasserre2008semidefinite',
+  article('Mathematical Programming', 2008, 112),
+  title('A semidefinite programming approach to the generalized problem of moments'),
+  author('Jean B Lasserre'),
+  number(1),
+  pages(65, 92),
+  publisher('Springer'),
+nil)
+
+entry!('stetter2004numerical',
+  title('Numerical polynomial algebra'),
+  author('Hans J Stetter'),
+  book('Siam', 2004),
+nil)
+
+entry!('stetter1993multivariate',
+  article('WSSIA', 1993, 2),
+  title('Multivariate polynomial equations as matrix eigenproblems'),
+  author('Hans J Stetter'),
+  pages(355, 371),
+nil)
+
+entry!('moller1995multivariate',
+  article('Numerische Mathematik', 1995, 70),
+  title('Multivariate polynomial equations with multiple zeros solved by matrix eigenproblems'),
+  author('H Michael M{\"o}ller and Hans J Stetter'),
+  number(3),
+  pages(311, 329),
+  publisher('Springer'),
+nil)
+
+entry!('henrion2005detecting',
+  title('Detecting global optimality and extracting solutions in {G}lopti{P}oly'),
+  author('Didier Henrion and Jean-Bernard Lasserre'),
+  inproceedings('Positive polynomials in control', 2005),
+  pages(293, 310),
+  publisher('Springer'),
+nil)
+
+entry!('hall2005generalized',
+  title('Generalized method of moments'),
+  author('Alastair R Hall'),
+  book('Oxford University Press', 2005),
+nil)
+
+entry!('sturmfels2008algorithms',
+  title('Algorithms in invariant theory'),
+  author('Bernd Sturmfels'),
+  book('Springer Science \& Business Media', 2008),
+nil)
+
+entry!('corless1995singular',
+  inproceedings('International Symposium on Symbolic and Algebraic Computation', 1995),
+  title('The singular value decomposition for polynomial systems'),
+  author('Robert M Corless and Patrizia M Gianni and Barry M Trager and Stephen M Watt'),
+  pages(195, 207),
+  organization('ACM'),
+nil)
+
+entry!('laurent2009sums',
+  title('Sums of squares, moment matrices and optimization over polynomials'),
+  author('Monique Laurent'),
+  inproceedings('Emerging applications of algebraic geometry', 2009),
+  pages(157, 270),
+  publisher('Springer'),
+nil)
+
+entry!('parrilo2003minimizing',
+  article('Algorithmic and quantitative real algebraic geometry, DIMACS Series in Discrete Mathematics and Theoretical Computer Science', 2003, 60),
+  title('Minimizing polynomial functions'),
+  author('Pablo A Parrilo and Bernd Sturmfels'),
+  pages(83, 99),
+nil)
+
+entry!('parrilo2003semidefinite',
+  article('Mathematical programming', 2003, 96),
+  title('Semidefinite programming relaxations for semialgebraic problems'),
+  author('Pablo A Parrilo'),
+  number(2),
+  pages(293, 320),
+  publisher('Springer'),
+nil)
+
+entry!('curto1996solution',
+  title('Solution of the truncated complex moment problem for flat data'),
+  author('Ra{\\\'u}l E Curto and Lawrence A Fialkow'),
+  volume(568),
+  year(1996),
+  book('American Mathematical Society', 1996),
+nil)
+
+entry!('curto1998flat',
+  title('Flat extensions of positive moment matrices: Recursively generated relations'),
+  author('Ra{\\\'u}l E Curto and Lawrence A Fialkow'),
+  volume(648),
+  book('American Mathematical Society', 1998),
+nil)
+
+entry!('curto2000truncated',
+  article('Transactions of the American mathematical society', 2000, 352),
+  title('The truncated complex {K}-moment problem'),
+  author('Ra{\\\'u}l Curto and Lawrence Fialkow'),
+  number(6),
+  pages(2825, 2855),
+nil)
+
+entry!('curto2005truncated',
+  arxiv(2005, 'math/0507067'),
+  title('Truncated {K}-moment problems in several variables'),
+  author('Ra{\\\'u}l E Curto and Lawrence A Fialkow'),
+nil)
+
+entry!('laurent2008sparse',
+  arxiv(2008, '0812.2563'),
+  title('A Sparse Flat Extension Theorem for Moment Matrices'),
+  author('Monique Laurent'),
+nil)
+
+entry!('laurent2009generalized',
+  article('Archiv der Mathematik', 2009, 93),
+  title('A generalized flat extension theorem for moment matrices'),
+  author('Monique Laurent and Bernard Mourrain'),
+  number(1),
+  pages(87, 98),
+  publisher('Springer'),
+nil)
+
+entry!('nie2013certifying',
+  article('Mathematical Programming', 2013, 142),
+  title('Certifying convergence of Lasserre’s hierarchy via flat truncation'),
+  author('Jiawang Nie'),
+  number('1-2'),
+  pages(485, 510),
+  publisher('Springer'),
+nil)
+
+entry!('nie2014optimality',
+  article('Mathematical programming', 2014, 146),
+  title('Optimality conditions and finite convergence of Lasserre’s hierarchy'),
+  author('Jiawang Nie'),
+  number('1-2'),
+  pages(97, 121),
+  publisher('Springer'),
+nil)
+
+entry!('nie2014truncated',
+  article('Foundations of Computational Mathematics', 2014, 14),
+  title('The {A}-Truncated {K}-Moment Problem'),
+  unusualCapitalization('A'),
+  author('Jiawang Nie'),
+  number(6),
+  pages(1243, 1276),
+  publisher('Springer'),
+nil)
+
+entry!('nie2013linear',
+  article('Mathematical Programming', 2013),
+  title('Linear optimization with cones of moments and nonnegative polynomials'),
+  author('Jiawang Nie'),
+  pages(1, 28),
+  publisher('Springer'),
+nil)
+
+entry!('corless2009symmetries',
+  article('Journal of Symbolic Computation', 2009, 44),
+  title('Using symmetries in the eigenvalue method for polynomial systems'),
+  author('Robert M Corless and Karin Gatermann and Ilias S Kotsireas'),
+  number(11),
+  pages(1536, 1550),
+  publisher('Elsevier'),
+nil)
+
+entry!('anandkumar2014provable',
+  arxiv(2014, '1408.0553'),
+  title('Provable Learning of Overcomplete Latent Variable Models: Semi-supervised and Unsupervised Settings'),
+  author('Animashree Anandkumar and Rong Ge and Majid Janzamin'),
+nil)
+
+entry!('pearson1894contributions',
+  article('Philosophical Transactions of the Royal Society of London. A', 1894, 185),
+  title('Contributions to the mathematical theory of evolution'),
+  author('Karl Pearson'),
+  pages(71, 110),
+nil)
+
+entry!('anandkumar2014sample',
+  arxiv(2014, '1408.0553'),
+  title('Sample Complexity Analysis for Learning Overcomplete Latent Variable Models through Tensor Methods'),
+  author('Anima Anandkumar and Rong Ge and Majid Janzamin'),
+nil)
+
+entry!('sturmfels2002solving',
+  title('Solving systems of polynomial equations'),
+  author('Bernd Sturmfels'),
+  book('American Mathematical Society', 2002),
+nil)
+
+entry!('hardt2014sharp',
+  arxiv(2014, '1404.4997'),
+  title('Sharp bounds for learning a mixture of two {G}aussians'),
+  author('Moritz Hardt and Eric Price'),
+nil)
+
+entry!('kalai2010efficiently',
+  stoc(2010),
+  title('Efficiently learning mixtures of two {G}aussians'),
+  author('Adam Tauman Kalai and Ankur Moitra and Gregory Valiant'),
+  pages(553, 562),
+nil)
+
+entry!('day1969estimating',
+  biometrika(1969, 56),
+  title('Estimating the Components of a Mixture of Normal Distributions'),
+  author('N E Day'),
+  publisher('Biometrika Trust'),
+  number(3),
+  pages(463, 474),
+nil)
+
+entry!('triantafyllopoulos2002moments',
+  author('Kostas Triantafyllopoulos'),
+  article('Department of Mathematics, University of Bristol', 2002),
+  volume(12),
+  year(2002),
+  title("Moments and cumulants of the multivariate real and complex {G}aussian distributions"),
 nil)
