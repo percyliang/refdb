@@ -7501,3 +7501,20 @@ entry!('kalai2010efficiently',
   author('Adam Tauman Kalai and Ankur Moitra and Gregory Valiant'),
   pages(553, 562),
 nil)
+
+entry!('day1969estimating',
+  biometrika(1969, 56),
+  title('Estimating the Components of a Mixture of Normal Distributions'),
+  author('N E Day'),
+  publisher('Biometrika Trust'),
+  number(3),
+  pages(463, 474),
+nil)
+
+entry!('triantafyllopoulos2002moments',
+  author('Kostas Triantafyllopoulos'),
+  article('Department of Mathematics, University of Bristol', 2002),
+  volume(12),
+  year(2002),
+  title("Moments and cumulants of the multivariate real and complex {G}aussian distributions"),
+nil)
