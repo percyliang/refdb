@@ -7251,13 +7251,6 @@ mathops(2006, 31),
 pages(562,580),
 nil)
 
-entry!('cesabianchi06regret',
-title('Regret Minimization Under Partial Monitoring'),
-author('Nicolò Cesa-Bianchi and Gábor Lugosi and Gilles Stoltz'),
-mathops(2006, 31),
-pages(562,580),
-nil)
-
 entry!('cesabianchi05minimizing',
 title('Minimizing regret with label efficient prediction'),
 author('Nicolò Cesa-Bianchi and Gábor Lugosi and Gilles Stoltz'),
@@ -7278,5 +7271,13 @@ entry!('esmeir2007anytime',
   title('Anytime induction of cost-sensitive trees'),
   author('Saher Esmeir and Shaul Markovitch'),
   pages(425, 432),
+nil)
+
+
+entry!('bernstein2011crowds',
+  title('Crowds in Two Seconds: Enabling Realtime Crowd-powered Interfaces'),
+  inproceedings('User Interface Software and Technology', 2011),
+  author('Michael S Bernstein and Joel Brandt and Robert C Miller and David R Karger'),
+  pages(33,42),
 nil)
 
