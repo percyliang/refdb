@@ -7276,7 +7276,7 @@ nil
 )
 
 entry!('chai2004test',
-  title('Test-cost sensitive naive Bayes classification'),
+  title('Test-cost sensitive naive {B}ayes classification'),
   author('Xiaoyong Chai and Lin Deng and Qiang Yang and Charles X Ling'),
   inproceedings('International Conference on Data Mining', 2004),
   pages(51,58),
@@ -7580,3 +7580,20 @@ entry!('triantafyllopoulos2002moments',
   title("Moments and cumulants of the multivariate real and complex {G}aussian distributions"),
 nil)
 
+entry!('choi2011inverse',
+  title('Inverse reinforcement learning in partially observable environments'),
+  author('Jaedeug Choi and Kee-Eung Kim'),
+  jmlr(2011, 12), pages(691, 730),
+nil)
+
+entry!('mansinghka2013approximate',
+  title('Approximate {B}ayesian image interpretation using generative probabilistic graphics programs'),
+  author('Vikash Mansinghka and Tejas D. Kulkarni and Yura N. Perov and Josh Tenenbaum'),
+  nips(2013), pages(1520, 1528),
+nil)
+
+entry!('fisher2012example',
+  title('Example-based Synthesis of 3D Object Arrangements'),
+  author('Matthew Fisher and Daniel Ritchie and Manolis Savva and Thomas Funkhouser and Pat Hanrahan'),
+  article('ACM SIGGRAPH Asia', 2012, 12),
+nil)
