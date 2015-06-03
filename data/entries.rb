@@ -7253,6 +7253,51 @@ entry!('reid2011information',
   pages(731, 817),
 nil)
 
+entry!('settles2010active',
+  title('Active learning literature survey'),
+  author('Burr Settles'),
+  techreport('University of Wisconsin, Madison', 2010),
+nil)
+
+
+entry!('cesabianchi06regret',
+title('Regret Minimization Under Partial Monitoring'),
+author('Nicolò Cesa-Bianchi and Gábor Lugosi and Gilles Stoltz'),
+mathops(2006, 31),
+pages(562,580),
+nil)
+
+entry!('cesabianchi05minimizing',
+title('Minimizing regret with label efficient prediction'),
+author('Nicolò Cesa-Bianchi and Gábor Lugosi and Gilles Stoltz'),
+article('IEEE Transactions on Information Theory', 2005, 51),
+pages(2152, 2162),
+nil
+)
+
+entry!('chai2004test',
+  title('Test-cost sensitive naive Bayes classification'),
+  author('Xiaoyong Chai and Lin Deng and Qiang Yang and Charles X Ling'),
+  inproceedings('International Conference on Data Mining', 2004),
+  pages(51,58),
+nil)
+
+entry!('esmeir2007anytime',
+  nips(2007),
+  title('Anytime induction of cost-sensitive trees'),
+  author('Saher Esmeir and Shaul Markovitch'),
+  pages(425, 432),
+nil)
+
+
+entry!('bernstein2011crowds',
+  title('Crowds in Two Seconds: Enabling Realtime Crowd-powered Interfaces'),
+  inproceedings('User Interface Software and Technology', 2011),
+  author('Michael S Bernstein and Joel Brandt and Robert C Miller and David R Karger'),
+  pages(33,42),
+nil)
+
+
 entry!('titterington1985statistical',
   title('Statistical analysis of finite mixture distributions'),
   author('D Michael Titterington and Adrian FM Smith and Udi E Makov'),
@@ -7534,3 +7579,4 @@ entry!('triantafyllopoulos2002moments',
   year(2002),
   title("Moments and cumulants of the multivariate real and complex {G}aussian distributions"),
 nil)
+
