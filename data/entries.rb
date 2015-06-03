@@ -6324,6 +6324,15 @@ entry!('gulwani2007program',
   organization('ACM'),
 nil)
 
+entry!('gulwani2011automating',
+  article('ACM SIGPLAN Notices', 2011, 46),
+  title('Automating string processing in spreadsheets using input-output examples'),
+  author('Sumit Gulwani'),
+  number(1),
+  pages(317, 330),
+  organization('ACM'),
+nil)
+
 entry!('sharma2014invariant',
   cav(2014),
   title('From invariant checking to invariant inference using randomized search'),
