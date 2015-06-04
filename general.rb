@@ -98,6 +98,8 @@ class Entry
 
     checkWarning(year.to_s =~ /#{idYear}$/, "id's year doesn't match year '#{year}'")
 
+    checkWarning(title.to_s !~ /\.$/, "title ends with period '#{title}'")
+
     # Check that the fields are valid
     checkWarning(year >= 1800 && year <= 2020, "year '#{year}'")
     checkWarning(pages.check, "pages '#{pages}'") if pages
@@ -173,14 +175,17 @@ class Entry
     def color(text, color); "<font color=\"#{color}\">#{text}</font>" end
     def spanClass(text, className); "<span class=\"#{className}\">#{text}</span>" end
 
+    newline = ''
+    #newline = '<br>'  # Put title, author, venues on separate lines
+
     url = getFirst('url') || getFirst('url') || getFirst('slidesurl') || getFirst('posterurl')
     output = []
-    output << link(latexToHTML(displayTitle(title)), url) + (title[-1..-1] == '?' ? '' : '.') + "<br>"
+    output << link(latexToHTML(displayTitle(title)), url) + (title[-1..-1] == '?' ? '' : '.') + newline
     output << author.names.map { |name|
       l = $links[name]
       #$stderr.puts "No author link for #{name}" unless l
       link(spanClass(latexToHTML(name), authorClass), l)
-    }.join(', ') + '.' + '<br>'
+    }.join(', ') + '.' + newline
     output << "#{metaTitle ? it(metaTitle.to_full_s + (type == 'techreport' ? ' Technical Report' : '')+', ') : ''}#{year}. #{note}<br>"
     output << hiddenText("abstract#{id}", formatLines(get('abstract')))
     output << hiddenText("brief#{id}", formatLines(get('punchlines')))
@@ -491,7 +496,7 @@ def printHTML(entriesList, out)
     out.puts "<h3>#{heading}</h3>" if heading
     out.puts "<ul>"
     entries.each { |entry|
-      out.puts "<li>"+entry.toHTML(id)
+      out.puts "<li>"+entry.toHTML(id)+"</li>"
       id += 1
     }
     out.puts "</ul>"

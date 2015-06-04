@@ -8,6 +8,7 @@ def bayesianAnalysis(year, volume);    article('Bayesian Analysis', year, volume
 def dukeMath(year, volume);            article('Duke Mathematical Journal', year, volume) end
 def jasa(year, volume);                article(Name.new('Journal of the American Statistical Association', 'JASA'), year, volume) end
 def biometrika(year, volume);          article('Biometrika', year, volume) end
+def mathops(year, volume);             article('Mathematics of Operations Research', year, volume) end
 def jmlr(year, volume);                article(Name.new('Journal of Machine Learning Research', 'JMLR'), year, volume) end
 def pami(year, volume);                article(Name.new('IEEE Transactions on Pattern Analysis and Machine Intelligence', 'PAMI'), year, volume) end
 def tacl(year, volume);                article(Name.new('Transactions of the Association for Computational Linguistics', 'TACL'), year, volume) end
@@ -72,6 +73,16 @@ def infotheory(year, volume); [article('IEEE Transactions on Information Theory'
 def eccv(year); [inproceedings(Name.new('European Conference on Computer Vision', 'ECCV'), year)] end
 def iccv(year); inproceedings(Name.new('International Conference on Computer Vision', 'ICCV'), year) end
 def cvpr(year); inproceedings(Name.new('Computer Vision and Pattern Recognition', 'CVPR'), year) end
+
+# Robotics
+def icra(year); inproceedings(Name.new('International Conference on Robotics and Automation', 'ICRA'), year) end
+def iros(year); inproceedings(Name.new('International Conference on Intelligent Robots and Systems', 'IROS'), year) end
+def rss(year); inproceedings(Name.new('Robotics: Science and Systems', 'RSS'), year) end
+def iser(year); inproceedings(Name.new('International Symposium on Experimental Robotics', 'ISER'), year) end
+def ias(year); inproceedings(Name.new('International Conference on Intelligent Autonomous Systems', 'IAS'), year) end
+def aamas(year); inproceedings(Name.new('International Conference on Autonomous Agents and Multiagent Systems', 'AAMAS'), year) end
+def ijrr(year, volume); article(Name.new('International Journal of Robotics Research', 'IJRR'), year, volume) end
+def ijsr(year, volume); article(Name.new('International Journal of Social Robotics', 'IJSR'), year, volume) end
 
 ### Natural language processing
 def naacl(year); [inproceedings(Name.new('North American Association for Computational Linguistics', 'NAACL'), year), aclpub] end
