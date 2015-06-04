@@ -7597,3 +7597,18 @@ entry!('fisher2012example',
   author('Matthew Fisher and Daniel Ritchie and Manolis Savva and Thomas Funkhouser and Pat Hanrahan'),
   article('ACM SIGGRAPH Asia', 2012, 12),
 nil)
+
+entry!('dawid1984prequential',
+  article('Journal of the Royal Statistical Society. Series A (General)', 1984, 147),
+  title('Present position and potential developments: Some personal views: Statistical theory: The prequential approach'),
+  author('A Philip Dawid'),
+  pages(278, 292),
+nil)
+
+entry!('brier1950verification',
+  article('Monthly weather review', 1950, 78),
+  title('Verification of forecasts expressed in terms of probability'),
+  author('Glenn W Brier'),
+  number(1),
+  pages(1, 3),
+nil)
