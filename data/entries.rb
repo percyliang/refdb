@@ -5415,11 +5415,18 @@ entry!('reddy2014large',
   title('Large-scale Semantic Parsing without Question-Answer Pairs'),
 nil)
 
+entry!('gu2015traversing',
+  arxiv(2015, '1506.01094'),
+  title('Traversing Knowledge Graphs in Vector Space'),
+  author('Kelvin Gu and John Miller and Percy Liang'),
+  url('http://arxiv.org/pdf/1506.01094.pdf'),
+nil)
+
 entry!('pasupat2015compositional',
   acl(2015),
   title('Compositional Semantic Parsing on Semi-Structured Tables'),
-  url('compositional-acl2015.pdf'),
   author('Panupong Pasupat and Percy Liang'),
+  url('compositional-acl2015.pdf'),
 nil)
 
 entry!('wang2015overnight',
