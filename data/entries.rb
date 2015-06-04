@@ -6473,3 +6473,21 @@ entry!('socher2014grounded',
   author('Richard Socher and Andrej Karpathy and Quoc V Le and Christopher D Manning and Andrew Y Ng'),
   pages(207, 218),
 nil)
+
+
+entry!('browne2012monte',
+  title("A survey of monte carlo tree search methods"),
+  author("Cameron B Browne and  Edward Powley and  Daniel Whitehouse and
+                Simon M Lucas and  Peter I Cowling and  Philipp Rohlfshagen and
+                Stephen Tavener and  Diego Perez and  Spyridon Samothrakis and
+                Simon Colton"),
+  article('IEEE Transactions on Computational Intelligence and AI in Games', 2012, 4),
+  pages(1, 43),
+nil)
+
+entry!('dai2010decision',
+  title("Decision-theoretic control of crowd-sourced workflows"),
+  aaai(2010),
+  author('Peng Dai and Mausam and Daniel S Weld'),
+nil)
+
