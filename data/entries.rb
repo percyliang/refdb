@@ -7622,3 +7622,12 @@ entry!('brier1950verification',
   number(1),
   pages(1, 3),
 nil)
+
+entry!('viele2002regression',
+  article('Statistics and Computing', 2002, 12),
+  title('Modeling with mixtures of linear regressions'),
+  author('Kert Viele and Barbara Tong'),
+  number(4),
+  pages(315, 330),
+  publisher('Springer'),
+nil)
