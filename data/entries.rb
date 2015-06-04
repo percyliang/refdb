@@ -5418,6 +5418,7 @@ nil)
 entry!('pasupat2015compositional',
   acl(2015),
   title('Compositional Semantic Parsing on Semi-Structured Tables'),
+  url('compositional-acl2015.pdf'),
   author('Panupong Pasupat and Percy Liang'),
 nil)
 
@@ -5426,6 +5427,7 @@ entry!('wang2015overnight',
   title('Building a Semantic Parser Overnight'),
   author('Yushi Wang and Jonathan Berant and Percy Liang'),
   project('http://www-nlp.stanford.edu/software/sempre/'),
+  url('overnight-acl2015.pdf'),
   tags('semantic parsing'),
 nil)
 
@@ -5433,6 +5435,7 @@ entry!('misra2015environment',
   acl(2015),
   title('Environment-Driven Lexicon Induction for High-Level Instructions'),
   author('Dipendra K. Misra and Kejia Tao and Percy Liang and Ashutosh Saxena'),
+  url('environment-acl2015.pdf'),
 nil)
 
 entry!('steinhardt2015rcm',
