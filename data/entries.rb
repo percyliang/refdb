@@ -7858,3 +7858,10 @@ entry!('kocsis2006bandit',
   pages(282, 293),
   publisher('Springer'),
 nil)
+
+entry!('weiss2013adaptive',
+  nips(2013),
+  title('Learning adaptive value of information for structured prediction'),
+  author('David J Weiss and Ben Taskar'),
+  pages(953, 961),
+nil)
