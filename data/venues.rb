@@ -53,6 +53,7 @@ def aaai(year); [inproceedings(Name.new('Association for the Advancement of Arti
 def aistats(year); inproceedings(Name.new('Artificial Intelligence and Statistics', 'AISTATS'), year) end
 def icann(year); inproceedings(Name.new('International Conference on Artificial Neural Networks', 'ICANN'), year) end
 
+def cikm(year); inproceedings(Name.new('Conference on Information and Knowledge Management', 'CIKM'), year) end
 def kdd(year); inproceedings(Name.new('International Conference on Knowledge Discovery and Data Mining', 'KDD'), year) end
 def ecmlpkdd(year); [inproceedings(Name.new('European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases', 'ECML-PKDD'), year)] end
 def www(year); inproceedings(Name.new('World Wide Web', 'WWW'), year) end
