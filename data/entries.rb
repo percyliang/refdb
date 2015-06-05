@@ -7271,17 +7271,17 @@ nil)
 
 
 entry!('cesabianchi06regret',
-title('Regret Minimization Under Partial Monitoring'),
-author('Nicolò Cesa-Bianchi and Gábor Lugosi and Gilles Stoltz'),
-mathops(2006, 31),
-pages(562,580),
+  title('Regret Minimization Under Partial Monitoring'),
+  author('Nicolò Cesa-Bianchi and Gábor Lugosi and Gilles Stoltz'),
+  mathops(2006, 31),
+  pages(562,580),
 nil)
 
 entry!('cesabianchi05minimizing',
-title('Minimizing regret with label efficient prediction'),
-author('Nicolò Cesa-Bianchi and Gábor Lugosi and Gilles Stoltz'),
-article('IEEE Transactions on Information Theory', 2005, 51),
-pages(2152, 2162),
+  title('Minimizing regret with label efficient prediction'),
+  author('Nicolò Cesa-Bianchi and Gábor Lugosi and Gilles Stoltz'),
+  article('IEEE Transactions on Information Theory', 2005, 51),
+  pages(2152, 2162),
 nil
 )
 
@@ -7864,4 +7864,10 @@ entry!('weiss2013adaptive',
   title('Learning adaptive value of information for structured prediction'),
   author('David J Weiss and Ben Taskar'),
   pages(953, 961),
+nil)
+
+entry!('guo2009continuous',
+  title('Continuous-time {M}arkov decision processes'),
+  author('Xianping Guo and On{\\\'e}simo Hern{\\\'a}ndez-Lerma'),
+  book('Springer', 2009),
 nil)
