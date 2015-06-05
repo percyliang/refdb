@@ -7631,3 +7631,185 @@ entry!('viele2002regression',
   pages(315, 330),
   publisher('Springer'),
 nil)
+
+entry!('li2012twiner',
+  sigir(2012),
+  title('Twiner: named entity recognition in targeted twitter stream'),
+  author('Chenliang Li and Jianshu Weng and Qi He and Yuxia Yao and Anwitaman Datta and Aixin Sun and Bu-Sung Lee'),
+  pages(721, 730),
+nil)
+
+entry!('deng2009imagenet',
+  cvpr(2009),
+  title('{I}mage{N}et: A large-scale hierarchical image database'),
+  author('Jia Deng and Wei Dong and Richard Socher and Li-Jia Li and Kai Li and Li Fei-Fei'),
+  pages(248, 255),
+  organization('IEEE'),
+nil)
+
+entry!('krizhevsky2012imagenet',
+  nips(2012),
+  title('{I}mage{N}et classification with deep convolutional neural networks'),
+  author('Alex Krizhevsky and Ilya Sutskever and Geoffrey E Hinton'),
+  pages(1097, 1105),
+nil)
+
+entry!('kokkalis2013emailvalet',
+  inproceedings('Conference on Computer Supported Cooperative Work', 2013),
+  title('EmailValet: Managing email overload through private, accountable crowdsourcing'),
+  author('Nicolas Kokkalis and Thomas K{\\"o}hn and Carl Pfeiffer and Dima Chornyi and Michael S Bernstein and Scott R Klemmer'),
+  pages(1291, 1300),
+  organization('ACM'),
+nil)
+
+entry!('bernstein2010soylent',
+  inproceedings('Symposium on User Interface Software and Technology', 2010),
+  title('Soylent: a word processor with a crowd inside'),
+  author('Michael S Bernstein and Greg Little and Robert C Miller and Bj{\\"o}rn Hartmann and Mark S Ackerman and David R Karger and David Crowell and Katrina Panovich'),
+  pages(313, 322),
+  organization('ACM'),
+nil)
+
+entry!('yan2011active',
+  icml(2011),
+  title('Active learning from crowds'),
+  author('Yan Yan and Glenn M Fung and R{\\\'o}mer Rosales and Jennifer G Dy'),
+  pages(1161, 1168),
+nil)
+
+entry!('donmez2008proactive',
+  cikm(2008),
+  title('Proactive learning: cost-sensitive active learning with multiple imperfect oracles'),
+  author('Pinar Donmez and Jaime G Carbonell'),
+  pages(619, 628),
+  organization('ACM'),
+nil)
+
+entry!('settles2008analysis',
+  emnlp(2008),
+  title('An analysis of active learning strategies for sequence labeling tasks'),
+  author('Burr Settles and Mark Craven'),
+  pages(1070, 1079),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('greiner2002learning',
+  article('Artificial Intelligence', 2002, 139),
+  title('Learning cost-sensitive active classifiers'),
+  author('Russell Greiner and Adam J Grove and Dan Roth'),
+  number(2),
+  pages(137, 174),
+  publisher('Elsevier'),
+nil)
+
+entry!('cheng2013feedback',
+  cikm(2013),
+  title('Feedback-driven multiclass active learning for data streams'),
+  author('Yu Cheng and Zhengzhang Chen and Lu Liu and Jiang Wang and Ankit Agrawal and Alok Choudhary'),
+  pages(1311, 1320),
+  organization('ACM'),
+nil)
+
+entry!('helmbold1997some',
+  colt(1997),
+  title('Some label efficient learning results'),
+  author('David Helmbold and Sandra Panizza'),
+  pages(218, 230),
+  organization('ACM'),
+nil)
+
+entry!('agarwal2013selective',
+  icml(2013),
+  title('Selective sampling algorithms for cost-sensitive multiclass prediction'),
+  author('Alekh Agarwal'),
+  pages(1220, 1228),
+nil)
+
+entry!('chu2011unbiased',
+  kdd(2011),
+  title('Unbiased online active learning in data streams'),
+  author('Wei Chu and Martin Zinkevich and Lihong Li and Achint Thomas and Belle Tseng'),
+  pages(195, 203),
+  organization('ACM'),
+nil)
+
+entry!('golovin2010near',
+  nips(2010),
+  title('Near-optimal {B}ayesian active learning with noisy observations'),
+  author('Daniel Golovin and Andreas Krause and Debajyoti Ray'),
+  pages(766, 774),
+nil)
+
+entry!('tong2000active',
+  nips(2000),
+  title('Active learning for parameter estimation in {B}ayesian networks'),
+  author('Simon Tong and Daphne Koller'),
+  volume(13),
+  pages(647, 653),
+nil)
+
+entry!('roth2006active',
+  icml(2006),
+  title('Active learning with {P}erceptron for structured output'),
+  author('Dan Roth and Kevin Small'),
+nil)
+
+entry!('angeli2014combining',
+  emnlp(2014),
+  title('Combining distant and partial supervision for relation extraction'),
+  author('Gabor Angeli and Julie Tibshirani and Jean Y Wu and Christopher D Manning'),
+nil)
+
+entry!('lasecki2013conversations',
+  aaai(2013),
+  title('Conversations in the crowd: Collecting data for task-oriented dialog learning'),
+  author('Walter Stephen Lasecki and Ece Kamar and Dan Bohus'),
+nil)
+
+entry!('culotta2005reducing',
+  aaai(2005),
+  title('Reducing labeling effort for structured prediction tasks'),
+  author('Aron Culotta and Andrew McCallum'),
+  pages(746, 751),
+nil)
+
+entry!('he2015delving',
+  arxiv(2015, '1502.01852'),
+  title('Delving deep into rectifiers: Surpassing human-level performance on imagenet classification'),
+  author('Kaiming He and Xiangyu Zhang and Shaoqing Ren and Jian Sun'),
+nil)
+
+entry!('singla2014near',
+  arxiv(2014, '1402.2092'),
+  title('Near-Optimally Teaching the Crowd to Classify'),
+  author('Adish Singla and Ilija Bogunovic and G{\\\'a}bor Bart{\\\'o}k and Amin Karbasi and Andreas Krause'),
+nil)
+
+entry!('seung1992query',
+  inproceedings('Proceedings of the fifth annual workshop on Computational learning theory', 1992),
+  title('Query by committee'),
+  author('H Sebastian Seung and Manfred Opper and Haim Sompolinsky'),
+  pages(287, 294),
+  organization('ACM'),
+nil)
+
+entry!('lasecki2011realtime',
+  uist(2011),
+  title('Real-time crowd control of existing interfaces'),
+  author('Walter S Lasecki and Kyle I Murray and Samuel White and Robert C Miller and Jeffrey P Bigham'),
+  pages(23, 32),
+  organization('ACM'),
+nil)
+
+entry!('gao2011active',
+  nips(2011),
+  title('Active classification based on value of classifier'),
+  author('Tianshi Gao and Daphne Koller'),
+  pages(1062, 1070),
+nil)
+
+entry!('sculley2007online',
+  inproceedings('Conference on Email and Anti-spam (CEAS)', 2007),
+  title('Online Active Learning Methods for Fast Label-Efficient Spam Filtering'),
+  author('D Sculley'),
+nil)
