@@ -7631,3 +7631,31 @@ entry!('viele2002regression',
   pages(315, 330),
   publisher('Springer'),
 nil)
+
+entry!('salimans2013fixed',
+  article('Bayesian Analysis', 2013, 8),
+  title('Fixed-form variational posterior approximation through stochastic linear regression'),
+  author('Tim Salimans and David A. Knowles'),
+  number(4),
+  pages(837, 882),
+  publisher('International Society for Bayesian Analysis'),
+nil)
+
+entry!('salimans2015markov',
+  icml(2015),
+  title('{M}arkov Chain {M}onte {C}arlo and Variational Inference: Bridging the Gap'),
+  author('Tim Salimans and Diederik Kingma and Max Welling'),
+nil)
+
+entry!('petrov2011coarse',
+  author('Slav Petrov and Eugene Charniak'),
+  title('Coarse-to-fine natural language processing'),
+  book('Springer Science \& Business Media', 2011),
+nil)
+
+entry!('gimpel2010softmax',
+  author('Kevin Gimpel and Noah A. Smith'),
+  title('Softmax-margin {CRF}s: Training log-linear models with cost functions'),
+  naacl(2010),
+  pages(733, 736),
+nil)
