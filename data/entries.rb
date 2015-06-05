@@ -7638,3 +7638,16 @@ entry!('brier1950verification',
   number(1),
   pages(1, 3),
 nil)
+
+
+entry!('socher2013recursive',
+       emnlp(2013),       
+  title("Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank"),
+ author("Richard Socher and Alex Perelygin and Jean Y Wu and Jason Chuang and Christopher D Manning and Andrew Y Ng and Christopher Potts"),
+nil)
+
+entry!('krizhevsky2012imagenet',
+  title('Imagenet classification with deep convolutional neural networks'),
+  author('Alex Krizhevsky and Ilya Sutskever and  Geoffrey E Hinton'),
+  nips(2012), pages(1097, 1105),
+nil)
