@@ -7660,6 +7660,34 @@ entry!('viele2002regression',
   publisher('Springer'),
 nil)
 
+entry!('salimans2013fixed',
+  article('Bayesian Analysis', 2013, 8),
+  title('Fixed-form variational posterior approximation through stochastic linear regression'),
+  author('Tim Salimans and David A. Knowles'),
+  number(4),
+  pages(837, 882),
+  publisher('International Society for Bayesian Analysis'),
+nil)
+
+entry!('salimans2015markov',
+  icml(2015),
+  title('{M}arkov Chain {M}onte {C}arlo and Variational Inference: Bridging the Gap'),
+  author('Tim Salimans and Diederik Kingma and Max Welling'),
+nil)
+
+entry!('petrov2011coarse',
+  author('Slav Petrov and Eugene Charniak'),
+  title('Coarse-to-fine natural language processing'),
+  book('Springer Science \& Business Media', 2011),
+nil)
+
+entry!('gimpel2010softmax',
+  author('Kevin Gimpel and Noah A. Smith'),
+  title('Softmax-margin {CRF}s: Training log-linear models with cost functions'),
+  naacl(2010),
+  pages(733, 736),
+nil)
+
 entry!('li2012twiner',
   sigir(2012),
   title('Twiner: named entity recognition in targeted twitter stream'),
@@ -7833,4 +7861,21 @@ entry!('sculley2007online',
   inproceedings('Conference on Email and Anti-spam (CEAS)', 2007),
   title('Online Active Learning Methods for Fast Label-Efficient Spam Filtering'),
   author('D Sculley'),
+nil)
+
+entry!('sutton1988learning',
+  article('Machine learning', 1988, 3),
+  title('Learning to predict by the methods of temporal differences'),
+  author('Richard S Sutton'),
+  number(1),
+  pages(9, 44),
+  publisher('Springer'),
+nil)
+
+entry!('kocsis2006bandit',
+  ecml(2006),
+  title('Bandit based {M}onte-{C}arlo planning'),
+  author('Levente Kocsis and Csaba Szepesv{\\\'a}ri'),
+  pages(282, 293),
+  publisher('Springer'),
 nil)
