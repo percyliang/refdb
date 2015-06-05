@@ -7841,3 +7841,20 @@ entry!('sculley2007online',
   title('Online Active Learning Methods for Fast Label-Efficient Spam Filtering'),
   author('D Sculley'),
 nil)
+
+entry!('sutton1988learning',
+  article('Machine learning', 1988, 3),
+  title('Learning to predict by the methods of temporal differences'),
+  author('Richard S Sutton'),
+  number(1),
+  pages(9, 44),
+  publisher('Springer'),
+nil)
+
+entry!('kocsis2006bandit',
+  ecml(2006),
+  title('Bandit based {M}onte-{C}arlo planning'),
+  author('Levente Kocsis and Csaba Szepesv{\\\'a}ri'),
+  pages(282, 293),
+  publisher('Springer'),
+nil)
