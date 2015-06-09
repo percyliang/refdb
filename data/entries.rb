@@ -7871,3 +7871,16 @@ entry!('guo2009continuous',
   author('Xianping Guo and On{\\\'e}simo Hern{\\\'a}ndez-Lerma'),
   book('Springer', 2009),
 nil)
+
+entry!('zhang2014lower',
+  author('Yuchen Zhang and Martin J. Wainwright and Michael I. Jordan'),
+  title('Lower bounds on the performance of polynomial-time algorithms for sparse linear regression'),
+  colt(2014),
+nil)
+
+entry!('natarajan1995sparse',
+  title('Sparse approximate solutions to linear systems'),
+  author('Balas K. Natarajan'),
+  article('SIAM Journal on Computing', 1995, 24),
+  number(2), pages(227, 234),
+nil)
