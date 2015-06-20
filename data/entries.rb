@@ -2040,6 +2040,13 @@ entry!('johnson13svrg',
   nips(2013),
 nil)
 
+entry!('schaul14unittests',
+  title('Unit Tests for Stochastic Optimization'),
+  author('Tom Schaul and Ioannis Antonoglou and David Silver'),
+  iclr(2014),
+  url('http://arxiv.org/abs/1312.6055'),
+nil)
+
 entry!('orabona14simultaneous',
   title('Simultaneous Model Selection and Optimization through Parameter-free Stochastic Learning'),
   author('Francesco Orabona'),
@@ -5568,6 +5575,14 @@ entry!('parikh2014proximal',
   article('Foundations and Trends in Optimization', 2014, 1),
   number(3),
   pages(123, 231),
+nil)
+
+entry!('boyd2011admm',
+  title('Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers'),
+  author('Stephen Boyd and Neal Parikh and Eric Chu and Borja Peleato and Jonathan Eckstein'),
+  article('Foundations and Trends in Machine Learning', 2011, 3),
+  number(1),
+  pages(1, 122),
 nil)
 
 entry!('syed2010exploiting',
