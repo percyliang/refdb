@@ -2066,6 +2066,12 @@ entry!('frostig15unregularizing',
   icml(2015),
 nil)
 
+entry!('lin15catalyst',
+  author('Hongzhou Lin and Julien Mairal and Zaid Harchaoui'),
+  title('A Universal Catalyst for First-Order Optimization'),
+  arxiv(2015),
+nil)
+
 entry!('mansinghka09thesis',
   title('Natively Probabilistic Computation'),
   author('Vikash Mansinghka'),
