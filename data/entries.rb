@@ -5561,7 +5561,7 @@ nil)
 
 entry!('guler1992ppa',
   title('New Proximal Point Algorithms for Convex Minimization'),
-  author('Osman Gűler'),
+  author('Osman Guler'),
   article('SIAM Journal on Optimization', 1992, 2),
   number(4),
   pages(649, 664),
