@@ -4456,7 +4456,7 @@ nil)
 entry!('wang2014iqp',
   author('Sida Wang and Roy Frostig and Percy Liang and Chris Manning'),
   title('Relaxations for inference in restricted {B}oltzmann machines'),
-  iclr(2014),
+  iclrWorkshop(2014),
   url('http://arxiv.org/abs/1312.6205'),
 nil)
 
