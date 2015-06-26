@@ -7931,3 +7931,9 @@ entry!('turing1950computing',
   author('Alan M Turing'),
   pages(433, 460),
 nil)
+
+entry!('bobrow1964student',
+  phdthesis('Massachusetts Institute of Technology', 1964),
+  title('Natural language input for a computer problem solving system'),
+  author('Daniel G Bobrow'),
+nil)
