@@ -379,6 +379,7 @@ nil)
 
 entry!('marcus93treebank',
   title('Building a large annotated corpus of {E}nglish: the {P}enn {T}reebank'),
+  unusualCapitalization('Treebank'),
   author('M. P. Marcus and M. A. Marcinkiewicz and B. Santorini'),
   computationalLinguistics(1993, 19), pages(313, 330),
 nil)
@@ -4375,6 +4376,16 @@ entry!('jaeger2000observable',
   tags('spectral'),
 nil)
 
+entry!('liang2014talking',
+  article('XRDS: Crossroads, The ACM Magazine for Students', 2014, 21),
+  title('Talking to computers in natural language'),
+  author('Percy Liang'),
+  number(1),
+  pages(18, 21),
+  publisher('ACM'),
+  url('talking-xrds2014.pdf'),
+nil)
+
 entry!('berant2014paraphrasing',
   author('Jonathan Berant and Percy Liang'),
   title('Semantic Parsing via Paraphrasing'),
@@ -6532,7 +6543,7 @@ entry!('socher2014grounded',
 nil)
 
 entry!('browne2012monte',
-  title("A survey of monte carlo tree search methods"),
+  title("A survey of {M}onte {C}arlo tree search methods"),
   author("Cameron B Browne and  Edward Powley and  Daniel Whitehouse and
                 Simon M Lucas and  Peter I Cowling and  Philipp Rohlfshagen and
                 Stephen Tavener and  Diego Perez and  Spyridon Samothrakis and
@@ -7661,9 +7672,9 @@ entry!('brier1950verification',
 nil)
 
 entry!('socher2013recursive',
-       emnlp(2013),       
+  emnlp(2013),
   title("Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank"),
- author("Richard Socher and Alex Perelygin and Jean Y Wu and Jason Chuang and Christopher D Manning and Andrew Y Ng and Christopher Potts"),
+  author("Richard Socher and Alex Perelygin and Jean Y Wu and Jason Chuang and Christopher D Manning and Andrew Y Ng and Christopher Potts"),
 nil)
 
 entry!('krizhevsky2012imagenet',
@@ -7912,4 +7923,11 @@ entry!('guo2009continuous',
   title('Continuous-time {M}arkov decision processes'),
   author('Xianping Guo and On{\\\'e}simo Hern{\\\'a}ndez-Lerma'),
   book('Springer', 2009),
+nil)
+
+entry!('turing1950computing',
+  article('Mind', 1950, 49),
+  title('Computing machinery and intelligence'),
+  author('Alan M Turing'),
+  pages(433, 460),
 nil)
