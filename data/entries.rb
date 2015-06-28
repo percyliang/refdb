@@ -5382,7 +5382,7 @@ nil)
 entry!('brill2002askmsr',
   acl(2002),
   author('Eric Brill and Susan Dumais and Michele Banko'),
-  title('An analysis of the AskMSR question-answering system'),
+  title('An analysis of the {A}sk{MSR} question-answering system'),
   pages(257, 264),
 nil)
 
@@ -5705,6 +5705,7 @@ entry!('hosseini2014learning',
   emnlp(2014),
   title('Learning to Solve Arithmetic Word Problems with Verb Categorization'),
   author('Mohammad Javad Hosseini and Hannaneh Hajishirzi and Oren Etzioni and Nate Kushman'),
+  pages(523, 533),
 nil)
 
 entry!('schwitter2010controlled',
