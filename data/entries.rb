@@ -7938,3 +7938,9 @@ entry!('bobrow1964student',
   title('Natural language input for a computer problem solving system'),
   author('Daniel G Bobrow'),
 nil)
+
+entry!('zhao2015type',
+  naacl(2015),
+  title('Type-Driven Incremental Semantic Parsing with Polymorphism'),
+  author('Kai Zhao and Liang Huang'),
+nil)
