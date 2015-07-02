@@ -7944,3 +7944,24 @@ entry!('zhao2015type',
   title('Type-Driven Incremental Semantic Parsing with Polymorphism'),
   author('Kai Zhao and Liang Huang'),
 nil)
+
+entry!('dahl1994expanding',
+  inproceedings('Workshop on Human Language Technology', 1994),
+  title('Expanding the scope of the {ATIS} task: The {ATIS-3} corpus'),
+  author('Deborah A Dahl and Madeleine Bates and Michael Brown and William Fisher and Kate Hunicke-Smith and David Pallett and Christine Pao and Alexander Rudnicky and Elizabeth Shriberg'),
+  pages(43, 48),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('yih2015stagg',
+  acl(2015),
+  title('Semantic Parsing via Staged Query Graph Generation: Question Answering with Knowledge Base'),
+  author('Wen-tau Yih and Ming-Wei Chang and Xiaodong He and Jianfeng Gao'),
+nil)
+
+entry!('erk2008structured',
+  emnlp(2008),
+  title('A structured vector space model for word meaning in context'),
+  author('Katrin Erk and Sebastian Padó'),
+  pages(897, 906),
+nil)
