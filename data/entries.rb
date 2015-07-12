@@ -7965,3 +7965,22 @@ entry!('erk2008structured',
   author('Katrin Erk and Sebastian Padó'),
   pages(897, 906),
 nil)
+
+entry!('vinyals2014show',
+  arxiv(2014, '1411.4555'),
+  title('Show and tell: A neural image caption generator'),
+  author('Oriol Vinyals and Alexander Toshev and Samy Bengio and Dumitru Erhan'),
+nil)
+
+entry!('sutskever2014sequence',
+  nips(2014),
+  title('Sequence to sequence learning with neural networks'),
+  author('Ilya Sutskever and Oriol Vinyals and Quoc V. Le'),
+  pages(3104, 3112),
+nil)
+
+entry!('bahdanau2014neural',
+  arxiv(2014, '1409.0473'),
+  title('Neural machine translation by jointly learning to align and translate'),
+  author('Dzmitry Bahdanau and Kyunghyun Cho and Yoshua Bengio'),
+nil)
