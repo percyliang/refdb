@@ -7984,3 +7984,15 @@ entry!('bahdanau2014neural',
   title('Neural machine translation by jointly learning to align and translate'),
   author('Dzmitry Bahdanau and Kyunghyun Cho and Yoshua Bengio'),
 nil)
+
+entry!('joulin2015stack',
+  arxiv(2015, '1503.01007'),
+  title('Inferring Algorithmic Patterns with Stack-Augmented Recurrent Nets'),
+  author('Armand Joulin and Tomas Mikolov'),
+nil)
+
+entry!('xu2015attend',
+  arxiv(2015, '1502.03044'),
+  title('Show, Attend and Tell: Neural Image Caption Generation with Visual Attention'),
+  author('Kelvin Xu and Jimmy Lei Ba and Ryan Kiros and Kyunghyun Cho and Aaron Courville and Ruslan Salakhutdinov and Richard S. Zemel and Yoshua Bengio'),
+nil)
