@@ -7133,6 +7133,7 @@ entry!('liang2013lambda',
   arxiv(2013, '1309.4408'),
   title('Lambda dependency-based compositional semantics'),
   author('Percy Liang'),
+  url('http://arxiv.org/pdf/1309.4408.pdf'),
 nil)
 
 entry!('kim2012unsupervised',
