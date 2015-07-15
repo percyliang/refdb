@@ -2065,6 +2065,7 @@ entry!('frostig15unregularizing',
   author('Roy Frostig and Rong Ge and Sham M. Kakade and Aaron Sidford'),
   title('Un-regularizing: approximate proximal point and faster stochastic algorithms for empirical risk minimization'),
   icml(2015),
+  url('http://arxiv.org/abs/1506.07512'),
 nil)
 
 entry!('lin15catalyst',
