@@ -4434,7 +4434,7 @@ nil)
 entry!('frostig2014subconstant',
   author('Roy Frostig and Sida Wang'),
   title('A sub-constant improvement in approximating the positive semidefinite {G}rothendieck problem'),
-  arxiv(2014),
+  arxiv(2014, '1408.2270'),
   url('http://arxiv.org/abs/1408.2270'),
 nil)
 
