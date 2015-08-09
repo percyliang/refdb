@@ -5441,7 +5441,7 @@ entry!('reddy2014large',
 nil)
 
 entry!('gu2015traversing',
-  arxiv(2015, '1506.01094'),
+  emnlp(2015),
   title('Traversing Knowledge Graphs in Vector Space'),
   author('Kelvin Gu and John Miller and Percy Liang'),
   url('http://arxiv.org/pdf/1506.01094.pdf'),
