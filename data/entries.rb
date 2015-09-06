@@ -5440,10 +5440,10 @@ entry!('reddy2014large',
   title('Large-scale Semantic Parsing without Question-Answer Pairs'),
 nil)
 
-entry!('gu2015traversing',
+entry!('guu2015traversing',
   emnlp(2015),
   title('Traversing Knowledge Graphs in Vector Space'),
-  author('Kelvin Gu and John Miller and Percy Liang'),
+  author('Kelvin Guu and John Miller and Percy Liang'),
   url('http://arxiv.org/pdf/1506.01094.pdf'),
 nil)
 
