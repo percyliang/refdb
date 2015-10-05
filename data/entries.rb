@@ -5440,6 +5440,30 @@ entry!('reddy2014large',
   title('Large-scale Semantic Parsing without Question-Answer Pairs'),
 nil)
 
+entry!('steinhardt2015relaxed',
+  nips(2015),
+  title('Learning with Relaxed Supervision'),
+  author('Jacob Steinhardt and Percy Liang'),
+nil)
+
+entry!('wang2015polynomial',
+  nips(2015),
+  title('Estimating Mixture Models via Mixture of Polynomials'),
+  author('Sida Wang and Arun Chaganty and Percy Liang'),
+nil)
+
+entry!('werling2015onthejob',
+  nips(2015),
+  title('On-the-Job Learning with {B}ayesian Decision Theory'),
+  author('Keenon Werling and Arun Chaganty and Percy Liang and Chris Manning'),
+nil)
+
+entry!('kuleshov2015calibrated',
+  nips(2015),
+  title('Calibrated Structured Prediction'),
+  author('Volodymyr Kuleshov and Percy Liang'),
+nil)
+
 entry!('guu2015traversing',
   emnlp(2015),
   title('Traversing Knowledge Graphs in Vector Space'),
