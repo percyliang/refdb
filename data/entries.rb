@@ -5444,6 +5444,7 @@ entry!('guu2015traversing',
   emnlp(2015),
   title('Traversing Knowledge Graphs in Vector Space'),
   author('Kelvin Guu and John Miller and Percy Liang'),
+  note('Best paper honorable mention.'),
   url('http://arxiv.org/pdf/1506.01094.pdf'),
 nil)
 
