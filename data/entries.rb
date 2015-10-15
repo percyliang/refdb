@@ -5440,6 +5440,12 @@ entry!('reddy2014large',
   title('Large-scale Semantic Parsing without Question-Answer Pairs'),
 nil)
 
+entry!('berant2015agenda',
+  tacl(2015, 0),
+  title('Imitation Learning of Agenda-Based Semantic Parsers'),
+  author('Jonathan Berant and Percy Liang'),
+nil)
+
 entry!('steinhardt2015relaxed',
   nips(2015),
   title('Learning with Relaxed Supervision'),
