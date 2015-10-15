@@ -2065,6 +2065,7 @@ entry!('frostig15unregularizing',
   author('Roy Frostig and Rong Ge and Sham M. Kakade and Aaron Sidford'),
   title('Un-regularizing: approximate proximal point and faster stochastic algorithms for empirical risk minimization'),
   icml(2015),
+  url('http://arxiv.org/abs/1506.07512'),
 nil)
 
 entry!('lin15catalyst',
@@ -3636,7 +3637,7 @@ entry!('berant2013freebase',
   title('Semantic Parsing on {F}reebase from Question-Answer Pairs'),
   emnlp(2013),
   url('http://www.aclweb.org/anthology/D13-1160'),
-  slidesurl('freebase-emnlp2013-talk.pdf'),
+  slidesurl('http://cs.stanford.edu/~pliang/papers/freebase-emnlp2013-talk.pdf'),
   supplementalurl('http://arxiv.org/pdf/1309.4408.pdf'),
   project('http://www-nlp.stanford.edu/software/sempre/'),
   tags('semantic parsing'),
@@ -4433,7 +4434,7 @@ nil)
 entry!('frostig2014subconstant',
   author('Roy Frostig and Sida Wang'),
   title('A sub-constant improvement in approximating the positive semidefinite {G}rothendieck problem'),
-  arxiv(2014),
+  arxiv(2014, '1408.2270'),
   url('http://arxiv.org/abs/1408.2270'),
 nil)
 
@@ -4455,7 +4456,7 @@ nil)
 entry!('wang2014iqp',
   author('Sida Wang and Roy Frostig and Percy Liang and Chris Manning'),
   title('Relaxations for inference in restricted {B}oltzmann machines'),
-  iclr(2014),
+  iclrWorkshop(2014),
   url('http://arxiv.org/abs/1312.6205'),
 nil)
 
@@ -5439,10 +5440,35 @@ entry!('reddy2014large',
   title('Large-scale Semantic Parsing without Question-Answer Pairs'),
 nil)
 
-entry!('gu2015traversing',
-  arxiv(2015, '1506.01094'),
+entry!('steinhardt2015relaxed',
+  nips(2015),
+  title('Learning with Relaxed Supervision'),
+  author('Jacob Steinhardt and Percy Liang'),
+nil)
+
+entry!('wang2015polynomial',
+  nips(2015),
+  title('Estimating Mixture Models via Mixture of Polynomials'),
+  author('Sida Wang and Arun Chaganty and Percy Liang'),
+nil)
+
+entry!('werling2015onthejob',
+  nips(2015),
+  title('On-the-Job Learning with {B}ayesian Decision Theory'),
+  author('Keenon Werling and Arun Chaganty and Percy Liang and Chris Manning'),
+nil)
+
+entry!('kuleshov2015calibrated',
+  nips(2015),
+  title('Calibrated Structured Prediction'),
+  author('Volodymyr Kuleshov and Percy Liang'),
+nil)
+
+entry!('guu2015traversing',
+  emnlp(2015),
   title('Traversing Knowledge Graphs in Vector Space'),
-  author('Kelvin Gu and John Miller and Percy Liang'),
+  author('Kelvin Guu and John Miller and Percy Liang'),
+  note('Best paper honorable mention.'),
   url('http://arxiv.org/pdf/1506.01094.pdf'),
 nil)
 
@@ -7133,6 +7159,7 @@ entry!('liang2013lambda',
   arxiv(2013, '1309.4408'),
   title('Lambda dependency-based compositional semantics'),
   author('Percy Liang'),
+  url('http://arxiv.org/pdf/1309.4408.pdf'),
 nil)
 
 entry!('kim2012unsupervised',
@@ -7976,4 +8003,35 @@ entry!('huang2007forest',
   acl(2007),
   title('Forest Rescoring: Faster Decoding with Integrated Language Models'),
   author('Liang Huang and David Chiang'),
+nil)
+
+entry!('vinyals2014show',
+  arxiv(2014, '1411.4555'),
+  title('Show and tell: A neural image caption generator'),
+  author('Oriol Vinyals and Alexander Toshev and Samy Bengio and Dumitru Erhan'),
+nil)
+
+entry!('sutskever2014sequence',
+  nips(2014),
+  title('Sequence to sequence learning with neural networks'),
+  author('Ilya Sutskever and Oriol Vinyals and Quoc V. Le'),
+  pages(3104, 3112),
+nil)
+
+entry!('bahdanau2014neural',
+  arxiv(2014, '1409.0473'),
+  title('Neural machine translation by jointly learning to align and translate'),
+  author('Dzmitry Bahdanau and Kyunghyun Cho and Yoshua Bengio'),
+nil)
+
+entry!('joulin2015stack',
+  arxiv(2015, '1503.01007'),
+  title('Inferring Algorithmic Patterns with Stack-Augmented Recurrent Nets'),
+  author('Armand Joulin and Tomas Mikolov'),
+nil)
+
+entry!('xu2015attend',
+  arxiv(2015, '1502.03044'),
+  title('Show, Attend and Tell: Neural Image Caption Generation with Visual Attention'),
+  author('Kelvin Xu and Jimmy Lei Ba and Ryan Kiros and Kyunghyun Cho and Aaron Courville and Ruslan Salakhutdinov and Richard S. Zemel and Yoshua Bengio'),
 nil)
