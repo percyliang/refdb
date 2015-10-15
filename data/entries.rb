@@ -7965,3 +7965,15 @@ entry!('erk2008structured',
   author('Katrin Erk and Sebastian Padó'),
   pages(897, 906),
 nil)
+
+entry!('yang2015smart',
+  acl(2015),
+  title('{S-MART}: Novel Tree-based Structured Learning Algorithms Applied to Tweet Entity Linking'),
+  author('Yi Yang and Ming-Wei Chang'),
+nil)
+
+entry!('huang2007forest',
+  acl(2007),
+  title('Forest Rescoring: Faster Decoding with Integrated Language Models'),
+  author('Liang Huang and David Chiang'),
+nil)
