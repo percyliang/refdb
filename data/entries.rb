@@ -8035,3 +8035,40 @@ entry!('xu2015attend',
   title('Show, Attend and Tell: Neural Image Caption Generation with Visual Attention'),
   author('Kelvin Xu and Jimmy Lei Ba and Ryan Kiros and Kyunghyun Cho and Aaron Courville and Ruslan Salakhutdinov and Richard S. Zemel and Yoshua Bengio'),
 nil)
+
+entry!('yin2015convolutional',
+  naacl(2015),
+  title('Convolutional neural network for paraphrase identification'),
+  author('Wenpeng Yin and Hinrich Sch{\"u}tze'),
+nil)
+
+entry!('hu2014convolutional',
+  nips(2014),
+  title('Convolutional neural network architectures for matching natural language sentences'),
+  author('Baotian Hu and Zhengdong Lu and Hang Li and Qingcai Chen'),
+nil)
+
+entry!('bowman2015large',
+  emnlp(2015),
+  title('A large annotated corpus for learning natural language inference'),
+  author('Samuel Bowman and Gabor Angeli and Christopher Potts and Christopher D. Manning'),
+nil)
+
+entry!('tai2015improved',
+  acl(2015),
+  author('Kai Shen Tai and Richard Socher and Christopher D. Manning'),
+  title('Improved Semantic Representations From Tree-Structured Long Short-Term Memory Networks'),
+nil)
+
+entry!('he2015multi',
+  emnlp(2015),
+  title('Multi-Perspective Sentence Similarity Modeling with Convolutional Neural Networks'),
+  author('Hua He and Kevin Gimpel and Jimmy Lin'),
+nil)
+
+entry!('rochtaschel2015reasoning',
+  arxiv(2015, '1509.06664'),
+  title('Reasoning about Entailment with Neural Attention'),
+  author('Tim Rockt{\"{a}}schel and Edward Grefenstette and Karl Moritz Hermann and Tom{\'{a}}s Kocisk{\'{y}} and Phil Blunsom'),
+nil)
+
