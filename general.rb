@@ -186,7 +186,7 @@ class Entry
       #$stderr.puts "No author link for #{name}" unless l
       link(spanClass(latexToHTML(name), authorClass), l)
     }.join(', ') + '.' + newline
-    output << "#{metaTitle ? it(metaTitle.to_full_s + (type == 'techreport' ? ' Technical Report' : '')+', ') : ''}#{year}. #{note}<br>"
+    output << "#{metaTitle ? it(metaTitle.to_full_s + (type == 'techreport' ? ' Technical Report' : '')+', ') : ''}#{year}. #{note} "
     output << hiddenText("abstract#{id}", formatLines(get('abstract')))
     output << hiddenText("brief#{id}", formatLines(get('punchlines')))
     output << hiddenText("bib#{id}", verbatimLines(toBibtex(false)))
