@@ -36,4 +36,7 @@ link!(
   ['Alex Aiken', 'http://theory.stanford.edu/~aiken/'],
   ['Rahul Sharma', 'http://www.stanford.edu/~sharmar/'],
   ['Jacob Steinhardt', 'http://cs.stanford.edu/~jsteinhardt/'],
+  ['Rong Ge', 'http://www.cs.princeton.edu/~rongge/'],
+  ['Sham M. Kakade', 'http://research.microsoft.com/en-us/um/people/skakade/'],
+  ['Aaron Sidford', 'http://www.aaronsidford.com/'],
 nil)

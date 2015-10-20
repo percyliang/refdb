@@ -379,6 +379,7 @@ nil)
 
 entry!('marcus93treebank',
   title('Building a large annotated corpus of {E}nglish: the {P}enn {T}reebank'),
+  unusualCapitalization('Treebank'),
   author('M. P. Marcus and M. A. Marcinkiewicz and B. Santorini'),
   computationalLinguistics(1993, 19), pages(313, 330),
 nil)
@@ -2040,6 +2041,13 @@ entry!('johnson13svrg',
   nips(2013),
 nil)
 
+entry!('schaul14unittests',
+  title('Unit Tests for Stochastic Optimization'),
+  author('Tom Schaul and Ioannis Antonoglou and David Silver'),
+  iclr(2014),
+  url('http://arxiv.org/abs/1312.6055'),
+nil)
+
 entry!('orabona14simultaneous',
   title('Simultaneous Model Selection and Optimization through Parameter-free Stochastic Learning'),
   author('Francesco Orabona'),
@@ -2057,6 +2065,13 @@ entry!('frostig15unregularizing',
   author('Roy Frostig and Rong Ge and Sham M. Kakade and Aaron Sidford'),
   title('Un-regularizing: approximate proximal point and faster stochastic algorithms for empirical risk minimization'),
   icml(2015),
+  url('http://arxiv.org/abs/1506.07512'),
+nil)
+
+entry!('lin15catalyst',
+  author('Hongzhou Lin and Julien Mairal and Zaid Harchaoui'),
+  title('A Universal Catalyst for First-Order Optimization'),
+  arxiv(2015),
 nil)
 
 entry!('mansinghka09thesis',
@@ -3622,7 +3637,7 @@ entry!('berant2013freebase',
   title('Semantic Parsing on {F}reebase from Question-Answer Pairs'),
   emnlp(2013),
   url('http://www.aclweb.org/anthology/D13-1160'),
-  slidesurl('freebase-emnlp2013-talk.pdf'),
+  slidesurl('http://cs.stanford.edu/~pliang/papers/freebase-emnlp2013-talk.pdf'),
   supplementalurl('http://arxiv.org/pdf/1309.4408.pdf'),
   project('http://www-nlp.stanford.edu/software/sempre/'),
   tags('semantic parsing'),
@@ -4362,6 +4377,16 @@ entry!('jaeger2000observable',
   tags('spectral'),
 nil)
 
+entry!('liang2014talking',
+  article('XRDS: Crossroads, The ACM Magazine for Students', 2014, 21),
+  title('Talking to computers in natural language'),
+  author('Percy Liang'),
+  number(1),
+  pages(18, 21),
+  publisher('ACM'),
+  url('talking-xrds2014.pdf'),
+nil)
+
 entry!('berant2014paraphrasing',
   author('Jonathan Berant and Percy Liang'),
   title('Semantic Parsing via Paraphrasing'),
@@ -4409,7 +4434,7 @@ nil)
 entry!('frostig2014subconstant',
   author('Roy Frostig and Sida Wang'),
   title('A sub-constant improvement in approximating the positive semidefinite {G}rothendieck problem'),
-  arxiv(2014),
+  arxiv(2014, '1408.2270'),
   url('http://arxiv.org/abs/1408.2270'),
 nil)
 
@@ -4431,7 +4456,7 @@ nil)
 entry!('wang2014iqp',
   author('Sida Wang and Roy Frostig and Percy Liang and Chris Manning'),
   title('Relaxations for inference in restricted {B}oltzmann machines'),
-  iclr(2014),
+  iclrWorkshop(2014),
   url('http://arxiv.org/abs/1312.6205'),
 nil)
 
@@ -5358,7 +5383,7 @@ nil)
 entry!('brill2002askmsr',
   acl(2002),
   author('Eric Brill and Susan Dumais and Michele Banko'),
-  title('An analysis of the AskMSR question-answering system'),
+  title('An analysis of the {A}sk{MSR} question-answering system'),
   pages(257, 264),
 nil)
 
@@ -5415,10 +5440,41 @@ entry!('reddy2014large',
   title('Large-scale Semantic Parsing without Question-Answer Pairs'),
 nil)
 
-entry!('gu2015traversing',
-  arxiv(2015, '1506.01094'),
+entry!('berant2015agenda',
+  tacl(2015, 0),
+  title('Imitation Learning of Agenda-Based Semantic Parsers'),
+  author('Jonathan Berant and Percy Liang'),
+nil)
+
+entry!('steinhardt2015relaxed',
+  nips(2015),
+  title('Learning with Relaxed Supervision'),
+  author('Jacob Steinhardt and Percy Liang'),
+nil)
+
+entry!('wang2015polynomial',
+  nips(2015),
+  title('Estimating Mixture Models via Mixture of Polynomials'),
+  author('Sida Wang and Arun Chaganty and Percy Liang'),
+nil)
+
+entry!('werling2015onthejob',
+  nips(2015),
+  title('On-the-Job Learning with {B}ayesian Decision Theory'),
+  author('Keenon Werling and Arun Chaganty and Percy Liang and Chris Manning'),
+nil)
+
+entry!('kuleshov2015calibrated',
+  nips(2015),
+  title('Calibrated Structured Prediction'),
+  author('Volodymyr Kuleshov and Percy Liang'),
+nil)
+
+entry!('guu2015traversing',
+  emnlp(2015),
   title('Traversing Knowledge Graphs in Vector Space'),
-  author('Kelvin Gu and John Miller and Percy Liang'),
+  author('Kelvin Guu and John Miller and Percy Liang'),
+  note('Best paper honorable mention.'),
   url('http://arxiv.org/pdf/1506.01094.pdf'),
 nil)
 
@@ -5548,7 +5604,7 @@ nil)
 
 entry!('guler1992ppa',
   title('New Proximal Point Algorithms for Convex Minimization'),
-  author('Osman Gűler'),
+  author('Osman Guler'),
   article('SIAM Journal on Optimization', 1992, 2),
   number(4),
   pages(649, 664),
@@ -5568,6 +5624,14 @@ entry!('parikh2014proximal',
   article('Foundations and Trends in Optimization', 2014, 1),
   number(3),
   pages(123, 231),
+nil)
+
+entry!('boyd2011admm',
+  title('Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers'),
+  author('Stephen Boyd and Neal Parikh and Eric Chu and Borja Peleato and Jonathan Eckstein'),
+  article('Foundations and Trends in Machine Learning', 2011, 3),
+  number(1),
+  pages(1, 122),
 nil)
 
 entry!('syed2010exploiting',
@@ -5673,6 +5737,7 @@ entry!('hosseini2014learning',
   emnlp(2014),
   title('Learning to Solve Arithmetic Word Problems with Verb Categorization'),
   author('Mohammad Javad Hosseini and Hannaneh Hajishirzi and Oren Etzioni and Nate Kushman'),
+  pages(523, 533),
 nil)
 
 entry!('schwitter2010controlled',
@@ -6510,6 +6575,22 @@ entry!('socher2014grounded',
   pages(207, 218),
 nil)
 
+entry!('browne2012monte',
+  title("A survey of {M}onte {C}arlo tree search methods"),
+  author("Cameron B Browne and  Edward Powley and  Daniel Whitehouse and
+                Simon M Lucas and  Peter I Cowling and  Philipp Rohlfshagen and
+                Stephen Tavener and  Diego Perez and  Spyridon Samothrakis and
+                Simon Colton"),
+  article('IEEE Transactions on Computational Intelligence and AI in Games', 2012, 4),
+  pages(1, 43),
+nil)
+
+entry!('dai2010decision',
+  title("Decision-theoretic control of crowd-sourced workflows"),
+  aaai(2010),
+  author('Peng Dai and Mausam and Daniel S Weld'),
+nil)
+
 entry!('koutnik2014clockwork',
   icml(2014),
   title('A Clockwork {RNN}'),
@@ -7084,6 +7165,7 @@ entry!('liang2013lambda',
   arxiv(2013, '1309.4408'),
   title('Lambda dependency-based compositional semantics'),
   author('Percy Liang'),
+  url('http://arxiv.org/pdf/1309.4408.pdf'),
 nil)
 
 entry!('kim2012unsupervised',
@@ -7623,6 +7705,18 @@ entry!('brier1950verification',
   pages(1, 3),
 nil)
 
+entry!('socher2013recursive',
+  emnlp(2013),
+  title("Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank"),
+  author("Richard Socher and Alex Perelygin and Jean Y Wu and Jason Chuang and Christopher D Manning and Andrew Y Ng and Christopher Potts"),
+nil)
+
+entry!('krizhevsky2012imagenet',
+  title('Imagenet classification with deep convolutional neural networks'),
+  author('Alex Krizhevsky and Ilya Sutskever and  Geoffrey E Hinton'),
+  nips(2012), pages(1097, 1105),
+nil)
+
 entry!('viele2002regression',
   article('Statistics and Computing', 2002, 12),
   title('Modeling with mixtures of linear regressions'),
@@ -7673,13 +7767,6 @@ entry!('deng2009imagenet',
   author('Jia Deng and Wei Dong and Richard Socher and Li-Jia Li and Kai Li and Li Fei-Fei'),
   pages(248, 255),
   organization('IEEE'),
-nil)
-
-entry!('krizhevsky2012imagenet',
-  nips(2012),
-  title('{I}mage{N}et classification with deep convolutional neural networks'),
-  author('Alex Krizhevsky and Ilya Sutskever and Geoffrey E Hinton'),
-  pages(1097, 1105),
 nil)
 
 entry!('kokkalis2013emailvalet',
@@ -7883,4 +7970,123 @@ entry!('natarajan1995sparse',
   author('Balas K. Natarajan'),
   article('SIAM Journal on Computing', 1995, 24),
   number(2), pages(227, 234),
+nil)
+
+entry!('turing1950computing',
+  article('Mind', 1950, 49),
+  title('Computing machinery and intelligence'),
+  author('Alan M Turing'),
+  pages(433, 460),
+nil)
+
+entry!('bobrow1964student',
+  phdthesis('Massachusetts Institute of Technology', 1964),
+  title('Natural language input for a computer problem solving system'),
+  author('Daniel G Bobrow'),
+nil)
+
+entry!('zhao2015type',
+  naacl(2015),
+  title('Type-Driven Incremental Semantic Parsing with Polymorphism'),
+  author('Kai Zhao and Liang Huang'),
+nil)
+
+entry!('dahl1994expanding',
+  inproceedings('Workshop on Human Language Technology', 1994),
+  title('Expanding the scope of the {ATIS} task: The {ATIS-3} corpus'),
+  author('Deborah A Dahl and Madeleine Bates and Michael Brown and William Fisher and Kate Hunicke-Smith and David Pallett and Christine Pao and Alexander Rudnicky and Elizabeth Shriberg'),
+  pages(43, 48),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('yih2015stagg',
+  acl(2015),
+  title('Semantic Parsing via Staged Query Graph Generation: Question Answering with Knowledge Base'),
+  author('Wen-tau Yih and Ming-Wei Chang and Xiaodong He and Jianfeng Gao'),
+nil)
+
+entry!('erk2008structured',
+  emnlp(2008),
+  title('A structured vector space model for word meaning in context'),
+  author('Katrin Erk and Sebastian Padó'),
+  pages(897, 906),
+nil)
+
+entry!('yang2015smart',
+  acl(2015),
+  title('{S-MART}: Novel Tree-based Structured Learning Algorithms Applied to Tweet Entity Linking'),
+  author('Yi Yang and Ming-Wei Chang'),
+nil)
+
+entry!('huang2007forest',
+  acl(2007),
+  title('Forest Rescoring: Faster Decoding with Integrated Language Models'),
+  author('Liang Huang and David Chiang'),
+nil)
+
+entry!('vinyals2014show',
+  arxiv(2014, '1411.4555'),
+  title('Show and tell: A neural image caption generator'),
+  author('Oriol Vinyals and Alexander Toshev and Samy Bengio and Dumitru Erhan'),
+nil)
+
+entry!('sutskever2014sequence',
+  nips(2014),
+  title('Sequence to sequence learning with neural networks'),
+  author('Ilya Sutskever and Oriol Vinyals and Quoc V. Le'),
+  pages(3104, 3112),
+nil)
+
+entry!('bahdanau2014neural',
+  arxiv(2014, '1409.0473'),
+  title('Neural machine translation by jointly learning to align and translate'),
+  author('Dzmitry Bahdanau and Kyunghyun Cho and Yoshua Bengio'),
+nil)
+
+entry!('joulin2015stack',
+  arxiv(2015, '1503.01007'),
+  title('Inferring Algorithmic Patterns with Stack-Augmented Recurrent Nets'),
+  author('Armand Joulin and Tomas Mikolov'),
+nil)
+
+entry!('xu2015attend',
+  arxiv(2015, '1502.03044'),
+  title('Show, Attend and Tell: Neural Image Caption Generation with Visual Attention'),
+  author('Kelvin Xu and Jimmy Lei Ba and Ryan Kiros and Kyunghyun Cho and Aaron Courville and Ruslan Salakhutdinov and Richard S. Zemel and Yoshua Bengio'),
+nil)
+
+entry!('yin2015convolutional',
+  naacl(2015),
+  title('Convolutional neural network for paraphrase identification'),
+  author('Wenpeng Yin and Hinrich Sch{\"u}tze'),
+nil)
+
+entry!('hu2014convolutional',
+  nips(2014),
+  title('Convolutional neural network architectures for matching natural language sentences'),
+  author('Baotian Hu and Zhengdong Lu and Hang Li and Qingcai Chen'),
+nil)
+
+entry!('bowman2015large',
+  emnlp(2015),
+  title('A large annotated corpus for learning natural language inference'),
+  author('Samuel Bowman and Gabor Angeli and Christopher Potts and Christopher D. Manning'),
+nil)
+
+entry!('tai2015improved',
+  acl(2015),
+  author('Kai Shen Tai and Richard Socher and Christopher D. Manning'),
+  title('Improved Semantic Representations From Tree-Structured Long Short-Term Memory Networks'),
+nil)
+
+entry!('he2015multi',
+  emnlp(2015),
+  title('Multi-Perspective Sentence Similarity Modeling with Convolutional Neural Networks'),
+  author('Hua He and Kevin Gimpel and Jimmy Lin'),
+nil)
+
+entry!('rochtaschel2015reasoning',
+  arxiv(2015, '1509.06664'),
+  title('Reasoning about Entailment with Neural Attention'),
+  author('Tim Rockt{\"{a}}schel and Edward Grefenstette and Karl Moritz Hermann and Tom{\'{a}}s Kocisk{\'{y}} and Phil Blunsom'),
 nil)
