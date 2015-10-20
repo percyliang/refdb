@@ -8090,3 +8090,12 @@ entry!('rochtaschel2015reasoning',
   title('Reasoning about Entailment with Neural Attention'),
   author('Tim Rockt{\"{a}}schel and Edward Grefenstette and Karl Moritz Hermann and Tom{\'{a}}s Kocisk{\'{y}} and Phil Blunsom'),
 nil)
+
+entry!('mnih2015human',
+  title('Human-level control through deep reinforcement learning'),
+  author('Volodymyr Mnih and Koray Kavukcuoglu and David Silver and Andrei A. Rusu and Joel Veness and Marc G. Bellemare and Alex Graves and Martin Riedmiller and Andreas K. Fidjeland and Georg Ostrovski and others'),
+  article('Nature', 2015, 518),
+  number(7540),
+  pages(529,533),
+  publisher('Nature Publishing Group'),
+nil)
