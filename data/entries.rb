@@ -8099,3 +8099,9 @@ entry!('mnih2015human',
   pages(529,533),
   publisher('Nature Publishing Group'),
 nil)
+
+entry!('nielsen2009statistical',
+  title('Statistical exponential families: A digest with flash cards'),
+  author('Frank Nielsen and Vincent Garcia'),
+  arxiv(2009, '0911.4863'),
+nil)
