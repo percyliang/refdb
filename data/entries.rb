@@ -8105,3 +8105,9 @@ entry!('nielsen2009statistical',
   author('Frank Nielsen and Vincent Garcia'),
   arxiv(2009, '0911.4863'),
 nil)
+
+entry!('ganchev10posterior',
+  author('Kuzman Ganchev and João Graça and Jennifer Gillenwater and Ben Taskar'),
+  title('Posterior Regularization for Structured Latent Variable Models'),
+  jmlr(2010, 11), pages(2001, 2049),
+nil)
