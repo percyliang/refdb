@@ -4651,15 +4651,15 @@ entry!('acar2009unsupervised',
   number(1),
   pages(6,20),
  tags('tensors'),
-)
+nil)
 
 entry!('bader2008discussion',
   title('Discussion tracking in Enron email using {PARAFAC}'),
   author('Bader, Brett W and Berry, Michael W and Browne, Murray'),
   article('Survey of Text Mining II', 2008, 1),
   pages(147,163),
- tags('tensors'),
-)
+  tags('tensors'),
+nil)
 
 entry!('hinton2010practical',
   techreport('University of Toronto', 2010),
@@ -8123,4 +8123,3 @@ entry!('he2013dynamic',
   title('Dynamic Feature Selection for Dependency Parsing'),
   emnlp(2013), pages(1455, 1464),
 nil)
-  
