@@ -7998,3 +7998,10 @@ entry!('xu2015attend',
   title('Show, Attend and Tell: Neural Image Caption Generation with Visual Attention'),
   author('Kelvin Xu and Jimmy Lei Ba and Ryan Kiros and Kyunghyun Cho and Aaron Courville and Ruslan Salakhutdinov and Richard S. Zemel and Yoshua Bengio'),
 nil)
+
+entry!('coulom2007computing',
+  title('Computing elo ratings of move patterns in the game of go'),
+  author('Rémi Coulom'),
+  article('Computer Games Workshop', 2007),
+nil)
+
