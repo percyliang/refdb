@@ -7892,3 +7892,10 @@ entry!('guo2009continuous',
   author('Xianping Guo and On{\\\'e}simo Hern{\\\'a}ndez-Lerma'),
   book('Springer', 2009),
 nil)
+
+entry!('dattorro05convexoptimization',
+  author('Jon Dattorro'),
+  title('Convex Optimization and Euclidean Distance Geometry'),
+  year(2005),
+  book('Meboo', 2005),
+nil)
