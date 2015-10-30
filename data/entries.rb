@@ -3891,7 +3891,7 @@ nil)
 entry!('liang08asymptotics',
   author('Percy Liang and Michael I. Jordan'),
   title('An Asymptotic Analysis of Generative, Discriminative, and Pseudolikelihood Estimators'),
-  icml2008,
+  icml2008, pages(584, 591),
   url('asymptotics-icml2008.pdf'),
   slidesurl('asymptotics-icml2008-talk.pdf'),
   note('Best student paper.'),
@@ -5512,7 +5512,7 @@ entry!('steinhardt2015fast',
   author('Jacob Steinhardt and Percy Liang'),
   title('Learning Fast-Mixing Models for Structured Prediction'),
   url('http://arxiv.org/pdf/1502.06668.pdf'),
-  icml(2015),
+  icml(2015), pages(1063, 1072),
 nil)
 
 entry!('shi2015sample',
@@ -5953,7 +5953,7 @@ nil)
 
 entry!('chang2014scene',
   emnlp(2014),
-  title('Learning Spatial Knowledge for Text to 3D Scene Generation'),
+  title('Learning Spatial Knowledge for Text to 3{D} Scene Generation'),
   author('Angel X Chang and Manolis Savva and Christopher D Manning'),
 nil)
 
@@ -6963,7 +6963,7 @@ nil)
 
 entry!('anand2012semantic',
   ijrr(2012, 32),
-  title('Contextually Guided Semantic Labeling and Search for 3D Point Clouds'),
+  title('Contextually Guided Semantic Labeling and Search for 3{D} Point Clouds'),
   author('A. Anand and H. Koppula and T. Joachims and A. Saxena'),
 nil)
 
@@ -7001,7 +7001,7 @@ nil)
 
 entry!('koppula2011semantic',
   nips(2011),
-  title('Semantic Labeling of 3D Point Clouds for Indoor Scenes'),
+  title('Semantic Labeling of 3{D} Point Clouds for Indoor Scenes'),
   author('H.S. Koppula and A. Anand and T. Joachims and A. Saxena'),
 nil)
 
@@ -7021,7 +7021,7 @@ nil)
 
 entry!('jiang2013hallucinated',
   cvpr(2013),
-  title('Hallucinated Humans as the Hidden Context for Labeling 3D Scenes'),
+  title('Hallucinated Humans as the Hidden Context for Labeling 3{D} Scenes'),
   author('Y. Jiang and H. Koppula and A. Saxena'),
 nil)
 
@@ -7179,7 +7179,7 @@ nil)
 entry!('sung2015robobarista',
   arxiv(2015, '1504.03071'),
   author('Jaeyong Sung and Seok Hyun Jin and Ashutosh Saxena'),
-  title('Robobarista: Object Part based Transfer of Manipulation Trajectories from Crowd-sourcing in 3D Pointclouds'),
+  title('Robobarista: Object Part based Transfer of Manipulation Trajectories from Crowd-sourcing in 3{D} Pointclouds'),
 nil)
 
 entry!('saxena2014robobrain',
@@ -7685,7 +7685,7 @@ entry!('mansinghka2013approximate',
 nil)
 
 entry!('fisher2012example',
-  title('Example-based Synthesis of 3D Object Arrangements'),
+  title('Example-based Synthesis of 3{D} Object Arrangements'),
   author('Matthew Fisher and Daniel Ritchie and Manolis Savva and Thomas Funkhouser and Pat Hanrahan'),
   article('ACM SIGGRAPH Asia', 2012, 12),
 nil)
@@ -8111,3 +8111,16 @@ entry!('ganchev10posterior',
   title('Posterior Regularization for Structured Latent Variable Models'),
   jmlr(2010, 11), pages(2001, 2049),
 nil)
+
+entry!('he2012cost',
+  author('He He and Hal Daume and Jason Eisner'),
+  title('Cost-sensitive dynamic feature selection'),
+  inproceedings('ICML Inferning Workshop', 2012),
+nil)
+
+entry!('he2013dynamic',
+  author('He He and Hal Daume and Jason Eisner'),
+  title('Dynamic Feature Selection for Dependency Parsing'),
+  emnlp(2013), pages(1455, 1464),
+nil)
+  
