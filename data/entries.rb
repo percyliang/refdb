@@ -8131,18 +8131,18 @@ entry!('he2013dynamic',
   emnlp(2013), pages(1455, 1464),
 nil)
 
-entry!('balle14',
+entry!('balle2014spectral',
+  author('Borja Balle and Xavier Carreras and Franco M. Luque and Ariadna Quattoni'),
   machineLearning(2014, 96),
   title('Spectral learning of weighted automata - {A} forward-backward perspective'),
   number('1-2'),
   pages(33, 63),
-  url('http://dx.doi.org/10.1007/s10994-013-5416-x'),
-  doi('10.1007/s10994-013-5416-x'),
-  timestamp('Tue, 17 Jun 2014 09:45:35 +0200'),
-  biburl('http://dblp.uni-trier.de/rec/bib/journals/ml/BalleCLQ14'),
-  bibsource('dblp computer science bibliography, http://dblp.org'),
-  #author    = {Borja Balle and
-  #Xavier Carreras and
-  #Franco M. Luque and
-  #Ariadna Quattoni},
+nil)
+
+entry!('ozay2010gpca',
+  inproceedings('The Twenty-Third {IEEE', 2010),
+  title('{GPCA} with denoising: {A} moments-based convex approach'),
+  pages(3209, 3216),
+  url('http://dx.doi.org/10.1109/CVPR.2010.5540075'),
+  author    = {'Necmiye Ozay and Mario Sznaier and Constantino M. Lagoa and Octavia I. Camps'},
 nil)
