@@ -8140,7 +8140,7 @@ entry!('balle2014spectral',
 nil)
 
 entry!('ozay2010gpca',
-  inproceedings('The Twenty-Third {IEEE', 2010),
+  cvpr(2010),
   title('{GPCA} with denoising: {A} moments-based convex approach'),
   pages(3209, 3216),
   url('http://dx.doi.org/10.1109/CVPR.2010.5540075'),
