@@ -3891,7 +3891,7 @@ nil)
 entry!('liang08asymptotics',
   author('Percy Liang and Michael I. Jordan'),
   title('An Asymptotic Analysis of Generative, Discriminative, and Pseudolikelihood Estimators'),
-  icml2008,
+  icml2008, pages(584, 591),
   url('asymptotics-icml2008.pdf'),
   slidesurl('asymptotics-icml2008-talk.pdf'),
   note('Best student paper.'),
@@ -4651,15 +4651,15 @@ entry!('acar2009unsupervised',
   number(1),
   pages(6,20),
  tags('tensors'),
-)
+nil)
 
 entry!('bader2008discussion',
   title('Discussion tracking in Enron email using {PARAFAC}'),
   author('Bader, Brett W and Berry, Michael W and Browne, Murray'),
   article('Survey of Text Mining II', 2008, 1),
   pages(147,163),
- tags('tensors'),
-)
+  tags('tensors'),
+nil)
 
 entry!('hinton2010practical',
   techreport('University of Toronto', 2010),
@@ -5440,10 +5440,41 @@ entry!('reddy2014large',
   title('Large-scale Semantic Parsing without Question-Answer Pairs'),
 nil)
 
+entry!('berant2015agenda',
+  tacl(2015, 0),
+  title('Imitation Learning of Agenda-Based Semantic Parsers'),
+  author('Jonathan Berant and Percy Liang'),
+nil)
+
+entry!('steinhardt2015relaxed',
+  nips(2015),
+  title('Learning with Relaxed Supervision'),
+  author('Jacob Steinhardt and Percy Liang'),
+nil)
+
+entry!('wang2015polynomial',
+  nips(2015),
+  title('Estimating Mixture Models via Mixture of Polynomials'),
+  author('Sida Wang and Arun Chaganty and Percy Liang'),
+nil)
+
+entry!('werling2015onthejob',
+  nips(2015),
+  title('On-the-Job Learning with {B}ayesian Decision Theory'),
+  author('Keenon Werling and Arun Chaganty and Percy Liang and Chris Manning'),
+nil)
+
+entry!('kuleshov2015calibrated',
+  nips(2015),
+  title('Calibrated Structured Prediction'),
+  author('Volodymyr Kuleshov and Percy Liang'),
+nil)
+
 entry!('guu2015traversing',
   emnlp(2015),
   title('Traversing Knowledge Graphs in Vector Space'),
   author('Kelvin Guu and John Miller and Percy Liang'),
+  note('Best paper honorable mention.'),
   url('http://arxiv.org/pdf/1506.01094.pdf'),
 nil)
 
@@ -5481,7 +5512,7 @@ entry!('steinhardt2015fast',
   author('Jacob Steinhardt and Percy Liang'),
   title('Learning Fast-Mixing Models for Structured Prediction'),
   url('http://arxiv.org/pdf/1502.06668.pdf'),
-  icml(2015),
+  icml(2015), pages(1063, 1072),
 nil)
 
 entry!('shi2015sample',
@@ -5922,7 +5953,7 @@ nil)
 
 entry!('chang2014scene',
   emnlp(2014),
-  title('Learning Spatial Knowledge for Text to 3D Scene Generation'),
+  title('Learning Spatial Knowledge for Text to 3{D} Scene Generation'),
   author('Angel X Chang and Manolis Savva and Christopher D Manning'),
 nil)
 
@@ -6932,7 +6963,7 @@ nil)
 
 entry!('anand2012semantic',
   ijrr(2012, 32),
-  title('Contextually Guided Semantic Labeling and Search for 3D Point Clouds'),
+  title('Contextually Guided Semantic Labeling and Search for 3{D} Point Clouds'),
   author('A. Anand and H. Koppula and T. Joachims and A. Saxena'),
 nil)
 
@@ -6970,7 +7001,7 @@ nil)
 
 entry!('koppula2011semantic',
   nips(2011),
-  title('Semantic Labeling of 3D Point Clouds for Indoor Scenes'),
+  title('Semantic Labeling of 3{D} Point Clouds for Indoor Scenes'),
   author('H.S. Koppula and A. Anand and T. Joachims and A. Saxena'),
 nil)
 
@@ -6990,7 +7021,7 @@ nil)
 
 entry!('jiang2013hallucinated',
   cvpr(2013),
-  title('Hallucinated Humans as the Hidden Context for Labeling 3D Scenes'),
+  title('Hallucinated Humans as the Hidden Context for Labeling 3{D} Scenes'),
   author('Y. Jiang and H. Koppula and A. Saxena'),
 nil)
 
@@ -7148,7 +7179,7 @@ nil)
 entry!('sung2015robobarista',
   arxiv(2015, '1504.03071'),
   author('Jaeyong Sung and Seok Hyun Jin and Ashutosh Saxena'),
-  title('Robobarista: Object Part based Transfer of Manipulation Trajectories from Crowd-sourcing in 3D Pointclouds'),
+  title('Robobarista: Object Part based Transfer of Manipulation Trajectories from Crowd-sourcing in 3{D} Pointclouds'),
 nil)
 
 entry!('saxena2014robobrain',
@@ -7654,7 +7685,7 @@ entry!('mansinghka2013approximate',
 nil)
 
 entry!('fisher2012example',
-  title('Example-based Synthesis of 3D Object Arrangements'),
+  title('Example-based Synthesis of 3{D} Object Arrangements'),
   author('Matthew Fisher and Daniel Ritchie and Manolis Savva and Thomas Funkhouser and Pat Hanrahan'),
   article('ACM SIGGRAPH Asia', 2012, 12),
 nil)
@@ -7928,6 +7959,19 @@ entry!('guo2009continuous',
   book('Springer', 2009),
 nil)
 
+entry!('zhang2014lower',
+  author('Yuchen Zhang and Martin J. Wainwright and Michael I. Jordan'),
+  title('Lower bounds on the performance of polynomial-time algorithms for sparse linear regression'),
+  colt(2014),
+nil)
+
+entry!('natarajan1995sparse',
+  title('Sparse approximate solutions to linear systems'),
+  author('Balas K. Natarajan'),
+  article('SIAM Journal on Computing', 1995, 24),
+  number(2), pages(227, 234),
+nil)
+
 entry!('turing1950computing',
   article('Mind', 1950, 49),
   title('Computing machinery and intelligence'),
@@ -7968,6 +8012,18 @@ entry!('erk2008structured',
   pages(897, 906),
 nil)
 
+entry!('yang2015smart',
+  acl(2015),
+  title('{S-MART}: Novel Tree-based Structured Learning Algorithms Applied to Tweet Entity Linking'),
+  author('Yi Yang and Ming-Wei Chang'),
+nil)
+
+entry!('huang2007forest',
+  acl(2007),
+  title('Forest Rescoring: Faster Decoding with Integrated Language Models'),
+  author('Liang Huang and David Chiang'),
+nil)
+
 entry!('vinyals2014show',
   arxiv(2014, '1411.4555'),
   title('Show and tell: A neural image caption generator'),
@@ -8005,3 +8061,71 @@ entry!('coulom2007computing',
   article('Computer Games Workshop', 2007),
 nil)
 
+entry!('yin2015convolutional',
+  naacl(2015),
+  title('Convolutional neural network for paraphrase identification'),
+  author('Wenpeng Yin and Hinrich Sch{\"u}tze'),
+nil)
+
+entry!('hu2014convolutional',
+  nips(2014),
+  title('Convolutional neural network architectures for matching natural language sentences'),
+  author('Baotian Hu and Zhengdong Lu and Hang Li and Qingcai Chen'),
+nil)
+
+entry!('bowman2015large',
+  emnlp(2015),
+  title('A large annotated corpus for learning natural language inference'),
+  author('Samuel Bowman and Gabor Angeli and Christopher Potts and Christopher D. Manning'),
+nil)
+
+entry!('tai2015improved',
+  acl(2015),
+  author('Kai Shen Tai and Richard Socher and Christopher D. Manning'),
+  title('Improved Semantic Representations From Tree-Structured Long Short-Term Memory Networks'),
+nil)
+
+entry!('he2015multi',
+  emnlp(2015),
+  title('Multi-Perspective Sentence Similarity Modeling with Convolutional Neural Networks'),
+  author('Hua He and Kevin Gimpel and Jimmy Lin'),
+nil)
+
+entry!('rochtaschel2015reasoning',
+  arxiv(2015, '1509.06664'),
+  title('Reasoning about Entailment with Neural Attention'),
+  author('Tim Rockt{\"{a}}schel and Edward Grefenstette and Karl Moritz Hermann and Tom{\'{a}}s Kocisk{\'{y}} and Phil Blunsom'),
+nil)
+
+entry!('mnih2015human',
+  title('Human-level control through deep reinforcement learning'),
+  author('Volodymyr Mnih and Koray Kavukcuoglu and David Silver and Andrei A. Rusu and Joel Veness and Marc G. Bellemare and Alex Graves and Martin Riedmiller and Andreas K. Fidjeland and Georg Ostrovski and others'),
+  article('Nature', 2015, 518),
+  number(7540),
+  pages(529,533),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('nielsen2009statistical',
+  title('Statistical exponential families: A digest with flash cards'),
+  author('Frank Nielsen and Vincent Garcia'),
+  arxiv(2009, '0911.4863'),
+nil)
+
+entry!('ganchev10posterior',
+  author('Kuzman Ganchev and João Graça and Jennifer Gillenwater and Ben Taskar'),
+  title('Posterior Regularization for Structured Latent Variable Models'),
+  jmlr(2010, 11), pages(2001, 2049),
+nil)
+
+entry!('he2012cost',
+  author('He He and Hal Daume and Jason Eisner'),
+  title('Cost-sensitive dynamic feature selection'),
+  inproceedings('ICML Inferning Workshop', 2012),
+nil)
+
+entry!('he2013dynamic',
+  author('He He and Hal Daume and Jason Eisner'),
+  title('Dynamic Feature Selection for Dependency Parsing'),
+  emnlp(2013), pages(1455, 1464),
+nil)
