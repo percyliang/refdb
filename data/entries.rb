@@ -8144,5 +8144,5 @@ entry!('ozay2010gpca',
   title('{GPCA} with denoising: {A} moments-based convex approach'),
   pages(3209, 3216),
   url('http://dx.doi.org/10.1109/CVPR.2010.5540075'),
-  author    = {'Necmiye Ozay and Mario Sznaier and Constantino M. Lagoa and Octavia I. Camps'},
+  author('Necmiye Ozay and Mario Sznaier and Constantino M. Lagoa and Octavia I. Camps'),
 nil)
