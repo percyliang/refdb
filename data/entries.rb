@@ -5252,7 +5252,7 @@ entry!('halko2011structure',
   title("Finding Structure with Randomness: Probabilistic Algorithms for
               Constructing Approximate Matrix Decompositions"),
   author("Halko, N and Martinsson, P and Tropp, J"),
-)
+nil)
 
 entry!('zhang2014crowdsourcing',
   title("Spectral Methods meet {EM}: A Provably Optimal Algorithm for
@@ -5260,20 +5260,20 @@ entry!('zhang2014crowdsourcing',
   author("Yuchen Zhang and Xi Chen and Dengyong Zhou and Michael I Jordan"),
   arxiv(2014),
   url('http://arxiv.org/pdf/1406.3824'),
-)
+nil)
 
 entry!('huang2013fast',
   title("Fast Detection of Overlapping Communities via Online Tensor Methods"),
   author("Furong Huang and U N Niranjan and Mohammad Umar Hakeem and Animashree Anandkumar"),
   arxiv(2013),
   url('http://arxiv.org/pdf/1309.0787'),
-)
+nil)
 
 entry!('liu2005vector',
   title("Text representation: from vector to tensor"),
   inproceedings("International Conference on Data Mining", 2005),
   author("Ning Liu and Benyu Zhang and Jun Yan and Zheng Chen and Wenyin Liu and Fengshan Bai and Leefeng Chien"),
-)
+nil)
 
 entry!('auli2011efficient',
   acl(2011),
@@ -8161,3 +8161,96 @@ entry!('freund2004sensitivity',
   publisher('Elsevier'),
 nil)
 
+entry!('buja05lossfunctions',
+  author('Andreas Buja and Werner Stuetzle and Yi Shen'),
+  title('Loss Functions for Binary Class Probability Estimation and Classification: Structure and Applications'),
+  year(2005),
+  type('misc'),
+nil)
+
+entry!('foster98asymptoticcalibration',
+  author('Dean P. Foster and Rakesh V. Vohra'),
+  title('Asymptotic calibration'),
+  year(1998),
+  type('misc'),
+nil)
+
+entry!('dawid1982well',
+  jasa(1982, 77),
+  title('The Well-Calibrated {B}ayesian'),
+  author('Dawid, A. Philip'),
+  number(379),
+  pages(605, 610),
+  publisher('Taylor \& Francis'),
+nil)
+
+entry!('menon2012ranking',
+  icml(2012),
+  title('Predicting accurate probabilities with a ranking loss'),
+  author('Aditya Krishna Menon and Xiaoqian Jiang and Shankar Vembu and Charles Elkan and Lucila Ohno{-}Machado'),
+nil)
+
+entry!('zhong2013accurate',
+  ijcai(2013),
+  author('Leon Wenliang Zhong and James Kwok'),
+  title('Accurate Probability Calibration for Multiple Classifiers'),
+  pages(1939, 1945),
+nil)
+
+entry!('seigel2013confidence',
+  phdthesis('University of Cambridge', 2013),
+  title('Confidence Estimation for Automatic Speech Recognition Hypotheses'),
+  author('Matthew Seigel'),
+nil)
+
+entry!('jiang2012calibrating',
+  title('Calibrating predictive model estimates to support personalized medicine'),
+  author('Xiaoqian Jiang and Melanie Osl and Jihoon Kim and Lucila Ohno{-}Machado'),
+  article('Journal of the American Medical Informatics Association', 2012, 19),
+  number(2), pages(263, 274),
+nil)
+
+entry!('dong2011calibration',
+  title('Calibration of Confidence Measures in Speech Recognition'),
+  author('Dong Yu and Jinyu Li and Li Deng'),
+  article('Trans. Audio, Speech and Lang. Proc.', 2011, 19),
+  number(8), pages(2461, 2473),
+nil)
+
+entry!('nguyen2015posterior',
+  author('Khanh Nguyen and Brendan O\'Connor'),
+  title('Posterior calibration and exploratory analysis for natural language processing models'),
+  emnlp(2015), pages(1587, 1598),
+nil)
+
+entry!('heckerman92towardsnormative',
+  title('Towards normative expert systems: Probability-based representations for efficient knowledge acquisition and inference'),
+  author('David E. Heckerman and Bharat N. Nathwani'),
+  article('Methods Archive', 1992, 31),
+  number(2), pages(106, 116),
+nil)
+
+entry!('lichtenstein1982calibration',
+  title('Judgement under Uncertainty: Heuristics and Biases'),
+  author('Sarah Lichtenstein and Baruch Fischhoff and Lawrence D. Phillips'),
+  book('Cambridge University Press', 1982),
+nil)
+
+entry!('mueller2013semantic',
+  phdthesis('University of Bonn', 2013),
+  title('Methods for Learning Structured Prediction in Semantic Segmentation of Natural Images'),
+  author('Andreas Mueller'),
+nil)
+
+entry!('krizhevsky2009learningmultiple',
+  author('Alex Krizhevsky'),
+  title('Learning multiple layers of features from tiny images'),
+  techreport('University of Toronto', 2009),
+nil)
+
+entry!('coates2012features',
+  title('Learning Feature Representations with {K}-Means'),
+  author('Adam Coates and Andrew Y. Ng'),
+  article('Neural Networks: Tricks of the Trade - Second Edition', 2012, 2),
+  number(1), pages(561, 580),
+nil)
