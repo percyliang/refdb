@@ -5444,30 +5444,35 @@ entry!('berant2015agenda',
   tacl(2015, 0),
   title('Imitation Learning of Agenda-Based Semantic Parsers'),
   author('Jonathan Berant and Percy Liang'),
+  url('agenda-tacl2015.pdf'),
 nil)
 
 entry!('steinhardt2015relaxed',
   nips(2015),
   title('Learning with Relaxed Supervision'),
   author('Jacob Steinhardt and Percy Liang'),
+  url('relaxed-nips2015.pdf'),
 nil)
 
 entry!('wang2015polynomial',
   nips(2015),
   title('Estimating Mixture Models via Mixture of Polynomials'),
   author('Sida Wang and Arun Chaganty and Percy Liang'),
+  url('polynomial-nips2015.pdf'),
 nil)
 
 entry!('werling2015onthejob',
   nips(2015),
   title('On-the-Job Learning with {B}ayesian Decision Theory'),
   author('Keenon Werling and Arun Chaganty and Percy Liang and Chris Manning'),
+  url('onthejob-nips2015.pdf'),
 nil)
 
 entry!('kuleshov2015calibrated',
   nips(2015),
   title('Calibrated Structured Prediction'),
   author('Volodymyr Kuleshov and Percy Liang'),
+  url('calibration-nips2015.pdf'),
 nil)
 
 entry!('guu2015traversing',
@@ -8140,14 +8145,14 @@ nil)
 entry!('balle2014spectral',
   author('Borja Balle and Xavier Carreras and Franco M. Luque and Ariadna Quattoni'),
   machineLearning(2014, 96),
-  title('Spectral learning of weighted automata - {A} forward-backward perspective'),
+  title('Spectral learning of weighted automata - a forward-backward perspective'),
   number('1-2'),
   pages(33, 63),
 nil)
 
 entry!('ozay2010gpca',
   cvpr(2010),
-  title('{GPCA} with denoising: {A} moments-based convex approach'),
+  title('{GPCA} with denoising: a moments-based convex approach'),
   pages(3209, 3216),
   url('http://dx.doi.org/10.1109/CVPR.2010.5540075'),
   author('Necmiye Ozay and Mario Sznaier and Constantino M. Lagoa and Octavia I. Camps'),
