@@ -8152,3 +8152,13 @@ entry!('ozay2010gpca',
   url('http://dx.doi.org/10.1109/CVPR.2010.5540075'),
   author('Necmiye Ozay and Mario Sznaier and Constantino M. Lagoa and Octavia I. Camps'),
 nil)
+
+
+entry1('freund2004sensitivity',
+  title('A sensitivity result for semidefinite programs'),
+  author('Roland W Freund and Florian Jarre'),
+  article('Operations Research Letters', 2004, 32),
+  pages(126,132),
+  publisher('Elsevier'),
+nil)
+
