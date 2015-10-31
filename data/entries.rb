@@ -8153,8 +8153,7 @@ entry!('ozay2010gpca',
   author('Necmiye Ozay and Mario Sznaier and Constantino M. Lagoa and Octavia I. Camps'),
 nil)
 
-
-entry1('freund2004sensitivity',
+entry!('freund2004sensitivity',
   title('A sensitivity result for semidefinite programs'),
   author('Roland W Freund and Florian Jarre'),
   article('Operations Research Letters', 2004, 32),
