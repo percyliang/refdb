@@ -8259,3 +8259,15 @@ entry!('coates2012features',
   article('Neural Networks: Tricks of the Trade - Second Edition', 2012, 2),
   number(1), pages(561, 580),
 nil)
+
+entry!('artzi2015broad',
+  emnlp(2015),
+  title('Broad-coverage {CCG} Semantic Parsing with {AMR}'),
+  author('Yoav Artzi and Kenton Lee Luke Zettlemoyer'),
+nil)
+
+entry!('weston2015memory',
+  iclr(2015),
+  title('Memory Networks'),
+  author('Jason Weston and Sumit Chopra and Antoine Bordes'),
+nil)
