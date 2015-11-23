@@ -5441,9 +5441,10 @@ entry!('reddy2014large',
 nil)
 
 entry!('berant2015agenda',
-  tacl(2015, 0),
+  tacl(2015, 3),
   title('Imitation Learning of Agenda-Based Semantic Parsers'),
   author('Jonathan Berant and Percy Liang'),
+  pages(545, 558),
   url('agenda-tacl2015.pdf'),
 nil)
 
