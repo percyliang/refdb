@@ -8272,3 +8272,44 @@ entry!('weston2015memory',
   title('Memory Networks'),
   author('Jason Weston and Sumit Chopra and Antoine Bordes'),
 nil)
+
+entry!('hinton2012improving',
+  arxiv(2012, '1207.0580'),
+  title('Improving neural networks by preventing co-adaptation of feature detectors'),
+  author('Geoffrey E Hinton and Nitish Srivastava and Alex Krizhevsky and Ilya Sutskever and Ruslan R Salakhutdinov'),
+nil)
+
+entry!('ba2013adaptive',
+  nips(2013),
+  title('Adaptive dropout for training deep neural networks'),
+  author('Jimmy Ba and Brendan Frey'),
+  pages(3084, 3092),
+nil)
+
+entry!('baldi2013understanding',
+  nips(2013),
+  title('Understanding dropout'),
+  author('Pierre Baldi and Peter J Sadowski'),
+  pages(2814, 2822),
+nil)
+
+entry!('maaten2013learning',
+  icml(2013),
+  title('Learning with marginalized corrupted features'),
+  author('Laurens Maaten and Minmin Chen and Stephen Tyree and Kilian Q Weinberger'),
+  pages(410, 418),
+nil)
+
+entry!('wan2013regularization',
+  icml(2013),
+  title('Regularization of neural networks using dropconnect'),
+  author('Li Wan and Matthew Zeiler and Sixin Zhang and Yann L Cun and Rob Fergus'),
+  pages(1058, 1066),
+nil)
+
+entry!('goodfellow2013maxout',
+  icml(2013),
+  title('Maxout Networks'),
+  author('Ian Goodfellow and David Warde-farley and Mehdi Mirza and Aaron Courville and Yoshua Bengio'),
+  pages(1319, 1327),
+nil)
