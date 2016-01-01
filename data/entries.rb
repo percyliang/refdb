@@ -8320,3 +8320,9 @@ entry!('wang2013fast',
   author('Sida Wang and Christopher Manning'),
   pages(118, 126),
 nil)
+
+entry!('mcallester2013pac',
+  arxiv(2013, '1307.2118'),
+  title('A {PAC}-{B}ayesian tutorial with a dropout bound'),
+  author('David McAllester'),
+nil)
