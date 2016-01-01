@@ -4438,7 +4438,7 @@ entry!('frostig2014subconstant',
   url('http://arxiv.org/abs/1408.2270'),
 nil)
 
-entry!('wager2014',
+entry!('wager2014altitude',
   title('Altitude Training: Strong Bounds for Single-Layer Dropout'),
   author('Stefan Wager and Will Fithian and Sida Wang and Percy Liang'),
   nips(2014),
@@ -8312,4 +8312,11 @@ entry!('goodfellow2013maxout',
   title('Maxout Networks'),
   author('Ian Goodfellow and David Warde-farley and Mehdi Mirza and Aaron Courville and Yoshua Bengio'),
   pages(1319, 1327),
+nil)
+
+entry!('wang2013fast',
+  icml(2013),
+  title('Fast dropout training'),
+  author('Sida Wang and Christopher Manning'),
+  pages(118, 126),
 nil)
