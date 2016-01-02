@@ -4438,7 +4438,7 @@ entry!('frostig2014subconstant',
   url('http://arxiv.org/abs/1408.2270'),
 nil)
 
-entry!('wager2014',
+entry!('wager2014altitude',
   title('Altitude Training: Strong Bounds for Single-Layer Dropout'),
   author('Stefan Wager and Will Fithian and Sida Wang and Percy Liang'),
   nips(2014),
@@ -8364,4 +8364,17 @@ entry!('bordes2015simple',
   title('Large-scale Simple Question Answering with Memory Networks'),
   author('Antoine Bordes and Nicolas Usunier and Sumit Chopra and Jason Weston'),
   url('http://arxiv.org/abs/1506.02075'),
+nil)
+
+entry!('wang2013fast',
+  icml(2013),
+  title('Fast dropout training'),
+  author('Sida Wang and Christopher Manning'),
+  pages(118, 126),
+nil)
+
+entry!('mcallester2013pac',
+  arxiv(2013, '1307.2118'),
+  title('A {PAC}-{B}ayesian tutorial with a dropout bound'),
+  author('David McAllester'),
 nil)
