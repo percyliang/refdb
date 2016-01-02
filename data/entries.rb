@@ -8313,3 +8313,55 @@ entry!('goodfellow2013maxout',
   author('Ian Goodfellow and David Warde-farley and Mehdi Mirza and Aaron Courville and Yoshua Bengio'),
   pages(1319, 1327),
 nil)
+
+entry!('vinyals2015grammar',
+  nips(2015),
+  title('Grammar as a Foreign Language'),
+  author('Oriol Vinyals and Lukasz Kaiser and Terry Koo and Slav Petrov and Ilya Sutskever and Geoffrey Hinton'),
+  pages(2755, 2763),
+  url('http://papers.nips.cc/paper/5635-grammar-as-a-foreign-language.pdf'),
+nil)
+
+entry!('vinyals2015pointer',
+  nips(2015),
+  title('Pointer Networks'),
+  author('Oriol Vinyals and Meire Fortunato and Navdeep Jaitly'),
+  pages(2674, 2682),
+  url('http://papers.nips.cc/paper/5866-pointer-networks.pdf'),
+nil)
+
+entry!('grefenstette2014deep',
+  inproceedings('ACL Workshop on Semantic Parsing', 2014),
+  title('A Deep Architecture for Semantic Parsing'),
+  author('Edward Grefenstette and Phil Blunsom and Nando de Freitas and Karl Moritz Hermann'),
+  pages(22, 27),
+  url('http://yoavartzi.com/sp14/pub/gbfh-sp14-2014.pdf'),
+nil)
+
+entry!('luong2015translation',
+  emnlp(2015),
+  title('Effective Approaches to Attention-based Neural Machine Translation'),
+  author('Minh-Thang Luong and Hieu Pham and Christopher D. Manning'),
+  pages(1412, 1421),
+  url('http://aclweb.org/anthology/D15-1166'),
+nil)
+
+entry!('bergstra2010theano',
+  inproceedings('Python for Scientific Computing Conference', 2010),
+  title('Theano: a {CPU} and {GPU} Math Expression Compiler'),
+  author('James Bergstra and Olivier Breuleux and Fr{\'{e}}d{\'{e}}ric Bastien and Pascal Lamblin and Razvan Pascanu and Guillaume Desjardins and Joseph Turian and David Warde-Farley and Yoshua Bengio'),
+nil)
+
+entry!('yin2015enquirer',
+  arxiv(2015),
+  title('Neural Enquirer: Learning to Query Tables'),
+  author('Pengcheng Yin and Zhengdong Lu and Hang Li and Ben Kao'),
+  url('http://arxiv.org/abs/1512.00965'),
+nil)
+
+entry!('bordes2015simple',
+  arxiv(2015),
+  title('Large-scale Simple Question Answering with Memory Networks'),
+  author('Antoine Bordes and Nicolas Usunier and Sumit Chopra and Jason Weston'),
+  url('http://arxiv.org/abs/1506.02075'),
+nil)
