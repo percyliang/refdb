@@ -8378,3 +8378,11 @@ entry!('mcallester2013pac',
   title('A {PAC}-{B}ayesian tutorial with a dropout bound'),
   author('David McAllester'),
 nil)
+
+entry!('luong2015rare',
+  acl(2015),
+  title('Addressing the Rare Word Problem in Neural Machine Translation'),
+  author('Minh-Thang Luong and Ilya Sutskever and Quoc V. Le and Oriol Vinyals and Wojciech Zaremba'),
+  pages(11, 19),
+  url('http://www.aclweb.org/anthology/P15-1002'),
+nil)
