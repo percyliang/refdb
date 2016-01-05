@@ -8353,17 +8353,15 @@ entry!('bergstra2010theano',
 nil)
 
 entry!('yin2015enquirer',
-  arxiv(2015),
+  arxiv(2015, '1512.00965'),
   title('Neural Enquirer: Learning to Query Tables'),
   author('Pengcheng Yin and Zhengdong Lu and Hang Li and Ben Kao'),
-  url('http://arxiv.org/abs/1512.00965'),
 nil)
 
 entry!('bordes2015simple',
-  arxiv(2015),
+  arxiv(2015, '1506.02075'),
   title('Large-scale Simple Question Answering with Memory Networks'),
   author('Antoine Bordes and Nicolas Usunier and Sumit Chopra and Jason Weston'),
-  url('http://arxiv.org/abs/1506.02075'),
 nil)
 
 entry!('wang2013fast',
@@ -8377,4 +8375,10 @@ entry!('mcallester2013pac',
   arxiv(2013, '1307.2118'),
   title('A {PAC}-{B}ayesian tutorial with a dropout bound'),
   author('David McAllester'),
+nil)
+
+entry!('janzamin2015beating',
+  arxiv(2015, '1506.08473'),
+  title('Beating the perils of non-convexity: Guaranteed training of neural networks using tensor methods'),
+  author('Majid Janzamin and Hanie Sedghi and Anima Anandkumar'),
 nil)
