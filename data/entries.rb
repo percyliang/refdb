@@ -8382,3 +8382,11 @@ entry!('janzamin2015beating',
   title('Beating the perils of non-convexity: Guaranteed training of neural networks using tensor methods'),
   author('Majid Janzamin and Hanie Sedghi and Anima Anandkumar'),
 nil)
+
+entry!('luong2015rare',
+  acl(2015),
+  title('Addressing the Rare Word Problem in Neural Machine Translation'),
+  author('Minh-Thang Luong and Ilya Sutskever and Quoc V. Le and Oriol Vinyals and Wojciech Zaremba'),
+  pages(11, 19),
+  url('http://www.aclweb.org/anthology/P15-1002'),
+nil)
