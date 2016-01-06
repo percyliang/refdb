@@ -8402,3 +8402,9 @@ entry!('artzi2013uw',
   title('{UW} {SPF}: The {U}niversity of {W}ashington Semantic Parsing Framework'),
   author('Yoav Artzi and Luke Zettlemoyer'),
 nil)
+
+entry!('dyer2015transition',
+  acl(2015),
+  title('Transition-based dependency parsing with stack long short-term memory'),
+  author('Chris Dyer and Miguel Ballesteros and Wang Ling and Austin Matthews and Noah A Smith'),
+nil)
