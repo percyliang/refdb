@@ -8396,3 +8396,9 @@ entry!('mei2016listen',
   title('Listen, attend, and walk: Neural mapping of navigational instructions to action sequences'),
   author('Hongyuan Mei and Mohit Bansal and Matthew R Walter'),
 nil)
+
+entry!('artzi2013uw',
+  arxiv(2013, '1311.3011'),
+  title('{UW} {SPF}: The {U}niversity of {W}ashington Semantic Parsing Framework'),
+  author('Yoav Artzi and Luke Zettlemoyer'),
+nil)
