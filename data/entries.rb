@@ -8390,3 +8390,9 @@ entry!('luong2015rare',
   pages(11, 19),
   url('http://www.aclweb.org/anthology/P15-1002'),
 nil)
+
+entry!('mei2016listen',
+  aaai(2016),
+  title('Listen, attend, and walk: Neural mapping of navigational instructions to action sequences'),
+  author('Hongyuan Mei and Mohit Bansal and Matthew R Walter'),
+nil)
