@@ -8408,3 +8408,43 @@ entry!('dyer2015transition',
   title('Transition-based dependency parsing with stack long short-term memory'),
   author('Chris Dyer and Miguel Ballesteros and Wang Ling and Austin Matthews and Noah A Smith'),
 nil)
+
+entry!('mitchell1977version',
+  inproceedings('Proceedings of the 5th international joint conference on Artificial intelligence-Volume 1', 1977),
+  title('Version spaces: A candidate elimination approach to rule learning'),
+  author('Tom M Mitchell'),
+  pages(305, 310),
+  organization('Morgan Kaufmann Publishers Inc.'),
+nil)
+
+entry!('mitchell1977version',
+  inproceedings('Proceedings of the 5th international joint conference on Artificial intelligence-Volume 1', 1977),
+  title('Version spaces: A candidate elimination approach to rule learning'),
+  author('Tom M Mitchell'),
+  pages(305, 310),
+  organization('Morgan Kaufmann Publishers Inc.'),
+nil)
+
+entry!('mitchell1977version',
+  inproceedings('Proceedings of the 5th international joint conference on Artificial intelligence-Volume 1', 1977),
+  title('Version spaces: A candidate elimination approach to rule learning'),
+  author('Tom M Mitchell'),
+  pages(305, 310),
+  organization('Morgan Kaufmann Publishers Inc.'),
+nil)
+
+entry!('lau2000version',
+  icml(2000),
+  title('Version Space Algebra and its Application to Programming by Demonstration.'),
+  author('Tessa A Lau and Pedro Domingos and Daniel S Weld'),
+  pages(527, 534),
+nil)
+
+entry!('vanlehn1987version',
+  article('Machine learning', 1987, 2),
+  title('A version space approach to learning context-free grammars'),
+  author('Kurt Vanlehn and William Ball'),
+  number(1),
+  pages(39, 74),
+  publisher('Springer'),
+nil)
