@@ -8410,23 +8410,7 @@ entry!('dyer2015transition',
 nil)
 
 entry!('mitchell1977version',
-  inproceedings('Proceedings of the 5th international joint conference on Artificial intelligence-Volume 1', 1977),
-  title('Version spaces: A candidate elimination approach to rule learning'),
-  author('Tom M Mitchell'),
-  pages(305, 310),
-  organization('Morgan Kaufmann Publishers Inc.'),
-nil)
-
-entry!('mitchell1977version',
-  inproceedings('Proceedings of the 5th international joint conference on Artificial intelligence-Volume 1', 1977),
-  title('Version spaces: A candidate elimination approach to rule learning'),
-  author('Tom M Mitchell'),
-  pages(305, 310),
-  organization('Morgan Kaufmann Publishers Inc.'),
-nil)
-
-entry!('mitchell1977version',
-  inproceedings('Proceedings of the 5th international joint conference on Artificial intelligence-Volume 1', 1977),
+  ijcai(1977),
   title('Version spaces: A candidate elimination approach to rule learning'),
   author('Tom M Mitchell'),
   pages(305, 310),
@@ -8435,7 +8419,7 @@ nil)
 
 entry!('lau2000version',
   icml(2000),
-  title('Version Space Algebra and its Application to Programming by Demonstration.'),
+  title('Version Space Algebra and its Application to Programming by Demonstration'),
   author('Tessa A Lau and Pedro Domingos and Daniel S Weld'),
   pages(527, 534),
 nil)
