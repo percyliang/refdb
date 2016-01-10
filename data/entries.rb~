@@ -8448,6 +8448,7 @@ entry!('demp1977em',
   author('A. P. Dempster and Laird N. M. and Rubin D. B.'),
   number(1),
   pages(1, 38),
+  publisher('Biometrika trust'),
 nil)
 
 
