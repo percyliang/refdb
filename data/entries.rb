@@ -8296,7 +8296,7 @@ nil)
 entry!('maaten2013learning',
   icml(2013),
   title('Learning with marginalized corrupted features'),
-  author('Laurens Maaten and Minmin Chen and Stephen Tyree and Kilian Q Weinberger'),
+  author('Laurens van der Maaten and Minmin Chen and Stephen Tyree and Kilian Q Weinberger'),
   pages(410, 418),
 nil)
 
@@ -8375,6 +8375,79 @@ entry!('mcallester2013pac',
   arxiv(2013, '1307.2118'),
   title('A {PAC}-{B}ayesian tutorial with a dropout bound'),
   author('David McAllester'),
+nil)
+
+entry!('josse2014stable',
+  arxiv(2014, '1410.8275'),
+  author('Julie Josse and Stefan Wager'),
+  title('Stable Autoencoding: A Flexible Framework for Regularized Low-Rank Matrix Estimation'),
+nil)
+
+entry!('baldi2014dropout',
+  article('Artificial intelligence', 2014, 210),
+  pages(78, 122),
+  author('Pierre Baldi and Peter Sadowski'),
+  title('The dropout learning algorithm'),
+  publisher('Elsevier'),
+nil)
+
+entry!('srivastava2014dropout',
+  jmlr(2014, 15),
+  pages(1929, 1958),
+  number(1),
+  author('Nitish Srivastava and Geoffrey Hinton and Alex Krizhevsky and Ilya Sutskever and Ruslan Salakhutdinov'),
+  title('Dropout: A simple way to prevent neural networks from overfitting'),
+  publisher('JMLR. org'),
+nil)
+
+entry!('globerson2006nightmare',
+  icml(2006),
+  pages(353, 360),
+  organization('ACM'),
+  author('Amir Globerson and Sam Roweis'),
+  title('Nightmare at test time: robust learning by feature deletion'),
+nil)
+
+entry!('bishop1995training',
+  article('Neural computation', 1995, 7),
+  title('Training with noise is equivalent to Tikhonov regularization'),
+  number(1),
+  publisher('MIT Press'),
+  pages(108, 116),
+  author('Chris M Bishop'),
+nil)
+
+entry!('simard1998transformation',
+  title('Transformation invariance in pattern recognition—tangent distance and tangent propagation'),
+  book('Neural networks: Tricks of the trade', 1998),
+  publisher('Springer'),
+  pages(239, 274),
+  author('Patrice Y Simard and Yann A LeCun and John S Denker and Bernard Victorri'),
+nil)
+
+entry!('scholkopf1997improving',
+  article('Advances in neural information processing systems', 1997, 9),
+  title('Improving the accuracy and speed of support vector machines'),
+  pages(375, 381),
+  author('Simard P Sch{\"o}lkopf and Patrice Simard and Vladimir Vapnik and AJ Smola'),
+nil)
+
+entry!('abu1990learning',
+  article('Journal of complexity', 1990, 6),
+  title('Learning from hints in neural networks'),
+  number(2),
+  publisher('Elsevier'),
+  pages(192, 198),
+  author('Yaser S Abu-Mostafa'),
+nil)
+
+entry!('efron1975efficiency',
+  jasa(1975, 70),
+  number(352),
+  author('Bradley Efron'),
+  pages(892, 898),
+  title('The efficiency of logistic regression compared to normal discriminant analysis'),
+  publisher('Taylor \& Francis Group'),
 nil)
 
 entry!('janzamin2015beating',
