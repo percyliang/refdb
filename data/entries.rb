@@ -8314,6 +8314,56 @@ entry!('goodfellow2013maxout',
   pages(1319, 1327),
 nil)
 
+entry!('vinyals2015grammar',
+  nips(2015),
+  title('Grammar as a Foreign Language'),
+  author('Oriol Vinyals and Lukasz Kaiser and Terry Koo and Slav Petrov and Ilya Sutskever and Geoffrey Hinton'),
+  pages(2755, 2763),
+  url('http://papers.nips.cc/paper/5635-grammar-as-a-foreign-language.pdf'),
+nil)
+
+entry!('vinyals2015pointer',
+  nips(2015),
+  title('Pointer Networks'),
+  author('Oriol Vinyals and Meire Fortunato and Navdeep Jaitly'),
+  pages(2674, 2682),
+  url('http://papers.nips.cc/paper/5866-pointer-networks.pdf'),
+nil)
+
+entry!('grefenstette2014deep',
+  inproceedings('ACL Workshop on Semantic Parsing', 2014),
+  title('A Deep Architecture for Semantic Parsing'),
+  author('Edward Grefenstette and Phil Blunsom and Nando de Freitas and Karl Moritz Hermann'),
+  pages(22, 27),
+  url('http://yoavartzi.com/sp14/pub/gbfh-sp14-2014.pdf'),
+nil)
+
+entry!('luong2015translation',
+  emnlp(2015),
+  title('Effective Approaches to Attention-based Neural Machine Translation'),
+  author('Minh-Thang Luong and Hieu Pham and Christopher D. Manning'),
+  pages(1412, 1421),
+  url('http://aclweb.org/anthology/D15-1166'),
+nil)
+
+entry!('bergstra2010theano',
+  inproceedings('Python for Scientific Computing Conference', 2010),
+  title('Theano: a {CPU} and {GPU} Math Expression Compiler'),
+  author('James Bergstra and Olivier Breuleux and Fr{\'{e}}d{\'{e}}ric Bastien and Pascal Lamblin and Razvan Pascanu and Guillaume Desjardins and Joseph Turian and David Warde-Farley and Yoshua Bengio'),
+nil)
+
+entry!('yin2015enquirer',
+  arxiv(2015, '1512.00965'),
+  title('Neural Enquirer: Learning to Query Tables'),
+  author('Pengcheng Yin and Zhengdong Lu and Hang Li and Ben Kao'),
+nil)
+
+entry!('bordes2015simple',
+  arxiv(2015, '1506.02075'),
+  title('Large-scale Simple Question Answering with Memory Networks'),
+  author('Antoine Bordes and Nicolas Usunier and Sumit Chopra and Jason Weston'),
+nil)
+
 entry!('wang2013fast',
   icml(2013),
   title('Fast dropout training'),
@@ -8399,3 +8449,78 @@ entry!('efron1975efficiency',
   title('The efficiency of logistic regression compared to normal discriminant analysis'),
   publisher('Taylor \& Francis Group'),
 nil)
+
+entry!('janzamin2015beating',
+  arxiv(2015, '1506.08473'),
+  title('Beating the perils of non-convexity: Guaranteed training of neural networks using tensor methods'),
+  author('Majid Janzamin and Hanie Sedghi and Anima Anandkumar'),
+nil)
+
+entry!('luong2015rare',
+  acl(2015),
+  title('Addressing the Rare Word Problem in Neural Machine Translation'),
+  author('Minh-Thang Luong and Ilya Sutskever and Quoc V. Le and Oriol Vinyals and Wojciech Zaremba'),
+  pages(11, 19),
+  url('http://www.aclweb.org/anthology/P15-1002'),
+nil)
+
+entry!('mei2016listen',
+  aaai(2016),
+  title('Listen, attend, and walk: Neural mapping of navigational instructions to action sequences'),
+  author('Hongyuan Mei and Mohit Bansal and Matthew R Walter'),
+nil)
+
+entry!('artzi2013uw',
+  arxiv(2013, '1311.3011'),
+  title('{UW} {SPF}: The {U}niversity of {W}ashington Semantic Parsing Framework'),
+  author('Yoav Artzi and Luke Zettlemoyer'),
+nil)
+
+entry!('dyer2015transition',
+  acl(2015),
+  title('Transition-based dependency parsing with stack long short-term memory'),
+  author('Chris Dyer and Miguel Ballesteros and Wang Ling and Austin Matthews and Noah A Smith'),
+nil)
+
+entry!('mitchell1977version',
+  ijcai(1977),
+  title('Version spaces: A candidate elimination approach to rule learning'),
+  author('Tom M Mitchell'),
+  pages(305, 310),
+  organization('Morgan Kaufmann Publishers Inc.'),
+nil)
+
+entry!('lau2000version',
+  icml(2000),
+  title('Version Space Algebra and its Application to Programming by Demonstration'),
+  author('Tessa A Lau and Pedro Domingos and Daniel S Weld'),
+  pages(527, 534),
+nil)
+
+entry!('vanlehn1987version',
+  article('Machine learning', 1987, 2),
+  title('A version space approach to learning context-free grammars'),
+  author('Kurt Vanlehn and William Ball'),
+  number(1),
+  pages(39, 74),
+  publisher('Springer'),
+nil)
+
+entry!('robins2000inference',
+  article('Biometrika', 2000, 87),
+  title('Inference for imputation estimators'),
+  author('Robins, James M and Wang, Naisyin'),
+  number(1),
+  pages(113, 124),
+  publisher('Biometrika trust'),
+nil)
+
+entry!('demp1977em',
+  article('Journal of the Royal Statistical Society: Series B', 1977, 39),
+  title('Maximum likelihood from incomplete data via the {EM} algorithm'),
+  author('A. P. Dempster and Laird N. M. and Rubin D. B.'),
+  number(1),
+  pages(1, 38),
+nil)
+
+
