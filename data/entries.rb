@@ -8523,4 +8523,16 @@ entry!('demp1977em',
   pages(1, 38),
 nil)
 
+entry!('maron1998framework',
+  article('Advances in neural information processing systems', 1998), 
+  title('A framework for multiple-instance learning'),
+  author('Maron, Oded and Lozano-P{\'e}rez, Tom{\'a}s'),
+  pages(570, 576), 
+nil)
+
+entry!('auer1997multiple',
+  title('On Learning From Multi-Instance Examples: Empirical Evaluation of a Theoretical Approach'),
+  author('Peter Auer'),
+  icml(1997), pages(21, 29),
+nil)
 
