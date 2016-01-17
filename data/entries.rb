@@ -8536,3 +8536,53 @@ entry!('auer1997multiple',
   icml(1997), pages(21, 29),
 nil)
 
+entry!('platanios2015estimating',
+  title('Estimating Accuracy from Unlabeled Data'),
+  author('Emmanouil Antonios Platanios'),
+  mastersthesis('Carnegie Mellon University', 2015),
+  extendedVersion,
+nil)
+
+entry!('platanios2014estimating',
+  title('Estimating Accuracy from Unlabeled Data'),
+  author('Emmanouil Antonios Platanios and Avrim Blum and Tom M. Mitchell'),
+  uai(2014),
+nil)
+
+entry!('bottou2013counterfactual',
+  title('Counterfactual Reasoning and Learning Systems: The Example of Computational Advertising'),
+  author('L\'eon Bottou and Jonas Peters and Joaquin {Qui\~nonero-Candela} and Denis X. Charles and D. Max Chickering and Elon Portugaly and Dipankar Ray and Patrice Simard and Ed Snelson'),
+  jmlr(2013, 14), pages(3207, 3260),
+nil)
+
+entry!('gopalan2011domain',
+  title('Domain adaptation for object recognition: An unsupervised approach'),
+  author('Raghuraman Gopalan and Ruonan Li and Rama Chellappa'),
+  iccv(2011),
+  pages(999, 1006),
+nil)
+
+entry!('shimodaira2000improving',
+  title('Improving predictive inference under covariate shift by weighting the log-likelihood function'),
+  author('Hidetoshi Shimodaira'),
+  article('Journal of Statistical Planning and Inference', 2000, 90),
+  pages(227, 244),
+nil)
+
+entry!('quinonero2009dataset',
+  title('Dataset shift in machine learning'),
+  author('Joaquin {Qui\~nonero-Candela} and Masashi Sugiyama and Anton Schwaighofer and Neil D. Lawrence'),
+  book('The MIT Press', 2009),
+nil)
+
+entry!('klein2005thesis',
+  author('Dan Klein'),
+  title('The Unsupervised Learning of Natural Language Structure'),
+  phdthesis('Stanford University', 2005),
+nil)
+
+entry!('nigam1998learning',
+  title('Learning to classify text from labeled and unlabeled documents'),
+  author('Kamal Nigam and Andrew McCallum and Sebastian Thrun and Tom Mitchell'),
+  aaai(1998),
+nil)
