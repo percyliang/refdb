@@ -8620,3 +8620,21 @@ entry!('blitzer2011domain',
   author('John Blitzer and Sham Kakade and Dean P. Foster'),
   aistats(2011), pages(173,181),
 nil)
+
+entry!('edmonds1972theoretical',
+  title('Theoretical improvements in algorithmic efficiency for network flow problems'),
+  author('Jack Edmonds and Richard M. Karp'),
+  jacm(1972, 19), number(2), pages(248, 264),
+nil)
+
+entry!('tomizawa1971techniques',
+  title('On some techniques useful for solution of transportation network problems'),
+  author('N. Tomizawa'),
+  article('Networks', 1971, 1), number(2), pages(173, 194),
+nil)
+
+entry!('newey1994large',
+  title('Large sample estimation and hypothesis testing'),
+  author('Whitney K. Newey and Daniel McFadden'),
+  article('Handbook of Econometrics', 1994, 4), pages(2111, 2245),
+nil)
