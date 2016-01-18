@@ -8586,3 +8586,37 @@ entry!('nigam1998learning',
   author('Kamal Nigam and Andrew McCallum and Sebastian Thrun and Tom Mitchell'),
   aaai(1998),
 nil)
+
+entry!('dawid1979maximum',
+  title('Maximum likelihood estimation of observer error-rates using the {EM} algorithm'),
+  author('Alexander Philip Dawid and Allan M. Skene'),
+  article('Applied Statistics', 1979, 1),
+  pages(20, 28),
+nil)
+
+entry!('jaffe2015estimating',
+  title('Estimating the accuracies of multiple classifiers without labeled data'),
+  author('A. Jaffe and B. Nadler and and Y. Kluger'),
+  aistats(2015), pages(407,415),
+nil)
+
+entry!('sculley2015hidden',
+  title('Hidden Technical Debt in Machine Learning Systems'),
+  author('D. Sculley and Gary Holt and Daniel Golovin and Eugene Davydov and Todd Phillips and Dietmar Ebner and Vinay Chaudhary and Michael Young and Jean-Fran{\c{c}}ois Crespo and Dan Dennison'),
+  nips(2015), pages(2494, 2502),
+nil)
+
+entry!('bottou2015two',
+  title('Two high stakes challenges in machine learning'),
+  author('L\'eon Bottou'),
+  type('misc'),
+  howpublished('Invited talk at the 32nd International Conference on Machine Learning'),
+  slidesurl('http://icml.cc/2015/invited/LeonBottouICML2015.pdf'),
+  year(2015),
+nil)
+
+entry!('blitzer2011domain',
+  title('Domain adaptation with coupled subspaces'),
+  author('John Blitzer and Sham Kakade and Dean P. Foster'),
+  aistats(2011), pages(173,181),
+nil)
