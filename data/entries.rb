@@ -8638,3 +8638,10 @@ entry!('newey1994large',
   author('Whitney K. Newey and Daniel McFadden'),
   article('Handbook of Econometrics', 1994, 4), pages(2111, 2245),
 nil)
+
+entry!('bousquet2004introduction',
+  title('Introduction to statistical learning theory'),
+  author('Olivier Bousquet and St{\'e}phane Boucheron and G{\'a}bor Lugosi'),
+  article('Advanced Lectures on Machine Learning', 2004),
+  pages(169, 207),
+nil)
