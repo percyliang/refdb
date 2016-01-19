@@ -8645,3 +8645,16 @@ entry!('bousquet2004introduction',
   article('Advanced Lectures on Machine Learning', 2004),
   pages(169, 207),
 nil)
+
+entry!('lorentz1966metric',
+  title('Metric entropy and approximation'),
+  author('G. G. Lorentz'),
+  article('Bulletin of the American Mathematical Society', 1966, 72), number(6),
+  pages(903,937),
+nil)
+
+entry!('kolmogorov1959varepsilon',
+  title('$\varepsilon$-entropy and $\varepsilon$-capacity of sets in function spaces'),
+  author('Andrei Nikolaevich Kolmogorov and Vladimir Mikhailovich Tikhomirov'),
+  article('Uspekhi Matematicheskikh Nauk', 1959, 14), number(2), pages(3, 86),
+nil)
