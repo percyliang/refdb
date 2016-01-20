@@ -8658,3 +8658,43 @@ entry!('kolmogorov1959varepsilon',
   author('Andrei Nikolaevich Kolmogorov and Vladimir Mikhailovich Tikhomirov'),
   article('Uspekhi Matematicheskikh Nauk', 1959, 14), number(2), pages(3, 86),
 nil)
+
+entry!('fan1953minimax',
+  title('Minimax theorems'),
+  author('Ky Fan'),
+  article('Proceedings of the National Academy of Sciences of the United States of America', 1953, 39),
+  pages(42,47),
+nil)
+
+entry!('lovasz1975ratio',
+  title('On the ratio of optimal integral and fractional covers'),
+  author('L{\\\'a}szl{\\\'o} Lov{\\\'a}sz'),
+  article('Discrete Mathematics',1975, 13),
+  number(4), pages(383, 390),
+nil)
+
+entry!('boucheron2013concentration',
+  title('Concentration inequalities: A nonasymptotic theory of independence'),
+  author('St{\\\'e}phane Boucheron and G{\\\'a}bor Lugosi and Pascal Massart'),
+  book('Oxford University Press', 2013),
+nil)
+
+entry!('snyder2010climbing',
+  title('Climbing the tower of Babel: Unsupervised multilingual learning'),
+  author('Benjamin Snyder and Regina Barzilay'),
+  icml(2010),
+nil)
+
+entry!('talagrand1996majorizing',
+  title('Majorizing measures: the generic chaining'),
+  author('Michel Talagrand'),
+  article('The Annals of Probability', 1996),
+  pages(1049, 1103),
+nil)
+
+entry!('dudley1967sizes',
+  title('The sizes of compact subsets of {H}ilbert space and continuity of {G}aussian processes'),
+  author('Richard M. Dudley'),
+  article('Journal of Functional Analysis', 1967, 1),
+  number(3), pages(290, 330),
+nil)
