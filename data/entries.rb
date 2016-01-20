@@ -8698,3 +8698,17 @@ entry!('dudley1967sizes',
   article('Journal of Functional Analysis', 1967, 1),
   number(3), pages(290, 330),
 nil)
+
+entry!('drton2009lectures',
+  title('Lectures on algebraic statistics'),
+  author('Mathias Drton and Bernd Sturmfels and Seth Sullivant'),
+  book('Springer', 2009),
+nil)
+
+entry!('powell1994estimation',
+  title('Estimation of semiparametric models'),
+  author('James L. Powell'),
+  incollection('Handbook of Econometrics', 1994), volume(4),
+  pages(2443, 2521),
+  publisher('Elsevier'),
+nil)
