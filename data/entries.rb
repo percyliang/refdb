@@ -8509,7 +8509,7 @@ nil)
 entry!('robins2000inference',
   article('Biometrika', 2000, 87),
   title('Inference for imputation estimators'),
-  author('M. Robins and Naisyin Wang'),
+  author('Robins, James M and Wang, Naisyin'),
   number(1),
   pages(113, 124),
   publisher('Biometrika trust'),
@@ -8526,7 +8526,7 @@ nil)
 entry!('maron1998framework',
   article('Advances in neural information processing systems', 1998), 
   title('A framework for multiple-instance learning'),
-  author('Oded Maron and Lozano-P{\'e}rez, Tom{\'a}s'),
+  author('Maron, Oded and Lozano-P{\'e}rez, Tom{\'a}s'),
   pages(570, 576), 
 nil)
 
@@ -8534,6 +8534,183 @@ entry!('auer1997multiple',
   title('On Learning From Multi-Instance Examples: Empirical Evaluation of a Theoretical Approach'),
   author('Peter Auer'),
   icml(1997), pages(21, 29),
+nil)
+
+entry!('platanios2015estimating',
+  title('Estimating Accuracy from Unlabeled Data'),
+  author('Emmanouil Antonios Platanios'),
+  mastersthesis('Carnegie Mellon University', 2015),
+  extendedVersion,
+nil)
+
+entry!('platanios2014estimating',
+  title('Estimating Accuracy from Unlabeled Data'),
+  author('Emmanouil Antonios Platanios and Avrim Blum and Tom M. Mitchell'),
+  uai(2014),
+nil)
+
+entry!('bottou2013counterfactual',
+  title('Counterfactual Reasoning and Learning Systems: The Example of Computational Advertising'),
+  author('L\'eon Bottou and Jonas Peters and Joaquin {Qui\~nonero-Candela} and Denis X. Charles and D. Max Chickering and Elon Portugaly and Dipankar Ray and Patrice Simard and Ed Snelson'),
+  jmlr(2013, 14), pages(3207, 3260),
+nil)
+
+entry!('gopalan2011domain',
+  title('Domain adaptation for object recognition: An unsupervised approach'),
+  author('Raghuraman Gopalan and Ruonan Li and Rama Chellappa'),
+  iccv(2011),
+  pages(999, 1006),
+nil)
+
+entry!('shimodaira2000improving',
+  title('Improving predictive inference under covariate shift by weighting the log-likelihood function'),
+  author('Hidetoshi Shimodaira'),
+  article('Journal of Statistical Planning and Inference', 2000, 90),
+  pages(227, 244),
+nil)
+
+entry!('quinonero2009dataset',
+  title('Dataset shift in machine learning'),
+  author('Joaquin {Qui\~nonero-Candela} and Masashi Sugiyama and Anton Schwaighofer and Neil D. Lawrence'),
+  book('The MIT Press', 2009),
+nil)
+
+entry!('klein2005thesis',
+  author('Dan Klein'),
+  title('The Unsupervised Learning of Natural Language Structure'),
+  phdthesis('Stanford University', 2005),
+nil)
+
+entry!('nigam1998learning',
+  title('Learning to classify text from labeled and unlabeled documents'),
+  author('Kamal Nigam and Andrew McCallum and Sebastian Thrun and Tom Mitchell'),
+  aaai(1998),
+nil)
+
+entry!('dawid1979maximum',
+  title('Maximum likelihood estimation of observer error-rates using the {EM} algorithm'),
+  author('Alexander Philip Dawid and Allan M. Skene'),
+  article('Applied Statistics', 1979, 1),
+  pages(20, 28),
+nil)
+
+entry!('jaffe2015estimating',
+  title('Estimating the accuracies of multiple classifiers without labeled data'),
+  author('A. Jaffe and B. Nadler and and Y. Kluger'),
+  aistats(2015), pages(407,415),
+nil)
+
+entry!('sculley2015hidden',
+  title('Hidden Technical Debt in Machine Learning Systems'),
+  author('D. Sculley and Gary Holt and Daniel Golovin and Eugene Davydov and Todd Phillips and Dietmar Ebner and Vinay Chaudhary and Michael Young and Jean-Fran{\c{c}}ois Crespo and Dan Dennison'),
+  nips(2015), pages(2494, 2502),
+nil)
+
+entry!('bottou2015two',
+  title('Two high stakes challenges in machine learning'),
+  author('L\'eon Bottou'),
+  type('misc'),
+  howpublished('Invited talk at the 32nd International Conference on Machine Learning'),
+  slidesurl('http://icml.cc/2015/invited/LeonBottouICML2015.pdf'),
+  year(2015),
+nil)
+
+entry!('blitzer2011domain',
+  title('Domain adaptation with coupled subspaces'),
+  author('John Blitzer and Sham Kakade and Dean P. Foster'),
+  aistats(2011), pages(173,181),
+nil)
+
+entry!('edmonds1972theoretical',
+  title('Theoretical improvements in algorithmic efficiency for network flow problems'),
+  author('Jack Edmonds and Richard M. Karp'),
+  jacm(1972, 19), number(2), pages(248, 264),
+nil)
+
+entry!('tomizawa1971techniques',
+  title('On some techniques useful for solution of transportation network problems'),
+  author('N. Tomizawa'),
+  article('Networks', 1971, 1), number(2), pages(173, 194),
+nil)
+
+entry!('newey1994large',
+  title('Large sample estimation and hypothesis testing'),
+  author('Whitney K. Newey and Daniel McFadden'),
+  article('Handbook of Econometrics', 1994, 4), pages(2111, 2245),
+nil)
+
+entry!('bousquet2004introduction',
+  title('Introduction to statistical learning theory'),
+  author('Olivier Bousquet and St{\'e}phane Boucheron and G{\'a}bor Lugosi'),
+  article('Advanced Lectures on Machine Learning', 2004),
+  pages(169, 207),
+nil)
+
+entry!('lorentz1966metric',
+  title('Metric entropy and approximation'),
+  author('G. G. Lorentz'),
+  article('Bulletin of the American Mathematical Society', 1966, 72), number(6),
+  pages(903,937),
+nil)
+
+entry!('kolmogorov1959varepsilon',
+  title('$\varepsilon$-entropy and $\varepsilon$-capacity of sets in function spaces'),
+  author('Andrei Nikolaevich Kolmogorov and Vladimir Mikhailovich Tikhomirov'),
+  article('Uspekhi Matematicheskikh Nauk', 1959, 14), number(2), pages(3, 86),
+nil)
+
+entry!('fan1953minimax',
+  title('Minimax theorems'),
+  author('Ky Fan'),
+  article('Proceedings of the National Academy of Sciences of the United States of America', 1953, 39),
+  pages(42,47),
+nil)
+
+entry!('lovasz1975ratio',
+  title('On the ratio of optimal integral and fractional covers'),
+  author('L{\\\'a}szl{\\\'o} Lov{\\\'a}sz'),
+  article('Discrete Mathematics',1975, 13),
+  number(4), pages(383, 390),
+nil)
+
+entry!('boucheron2013concentration',
+  title('Concentration inequalities: A nonasymptotic theory of independence'),
+  author('St{\\\'e}phane Boucheron and G{\\\'a}bor Lugosi and Pascal Massart'),
+  book('Oxford University Press', 2013),
+nil)
+
+entry!('snyder2010climbing',
+  title('Climbing the tower of Babel: Unsupervised multilingual learning'),
+  author('Benjamin Snyder and Regina Barzilay'),
+  icml(2010),
+nil)
+
+entry!('talagrand1996majorizing',
+  title('Majorizing measures: the generic chaining'),
+  author('Michel Talagrand'),
+  article('The Annals of Probability', 1996),
+  pages(1049, 1103),
+nil)
+
+entry!('dudley1967sizes',
+  title('The sizes of compact subsets of {H}ilbert space and continuity of {G}aussian processes'),
+  author('Richard M. Dudley'),
+  article('Journal of Functional Analysis', 1967, 1),
+  number(3), pages(290, 330),
+nil)
+
+entry!('drton2009lectures',
+  title('Lectures on algebraic statistics'),
+  author('Mathias Drton and Bernd Sturmfels and Seth Sullivant'),
+  book('Springer', 2009),
+nil)
+
+entry!('powell1994estimation',
+  title('Estimation of semiparametric models'),
+  author('James L. Powell'),
+  incollection('Handbook of Econometrics', 1994), volume(4),
+  pages(2443, 2521),
+  publisher('Elsevier'),
 nil)
 
 entry!('warner1965randomised',
