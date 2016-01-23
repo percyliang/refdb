@@ -8509,7 +8509,7 @@ nil)
 entry!('robins2000inference',
   article('Biometrika', 2000, 87),
   title('Inference for imputation estimators'),
-  author('Robins, James M and Wang, Naisyin'),
+  author('M. Robins and Naisyin Wang'),
   number(1),
   pages(113, 124),
   publisher('Biometrika trust'),
@@ -8526,7 +8526,7 @@ nil)
 entry!('maron1998framework',
   article('Advances in neural information processing systems', 1998), 
   title('A framework for multiple-instance learning'),
-  author('Maron, Oded and Lozano-P{\'e}rez, Tom{\'a}s'),
+  author('Oded Maron and Lozano-P{\'e}rez, Tom{\'a}s'),
   pages(570, 576), 
 nil)
 
@@ -8534,5 +8534,25 @@ entry!('auer1997multiple',
   title('On Learning From Multi-Instance Examples: Empirical Evaluation of a Theoretical Approach'),
   author('Peter Auer'),
   icml(1997), pages(21, 29),
+nil)
+
+entry!('warner1965randomised',
+  article('Journal of the Americal Statistical Association', 1965, 60), 
+  title('Randomised response: A survey technique for eliminating evasive answer bias'),
+  author('Stanley Warner'),
+  number(309),
+  pages(63, 69), 
+nil)
+
+entry!('duchi2013local',
+  title('Local Privacy and Statistical Minimax Rates'),
+  author('John C. Duchi and Michael I. Jordan and Martin J. Wainwright'),
+  focs(2013), 
+nil)
+
+entry!('schapire2002prior',
+  title('Incorporating Prior Knowledge into Boosting'),
+  author('Robert E. Schapire and Marie Rochery and Mazin G. Rahim and Narendra Gupta'),
+  icml(2002), 
 nil)
 
