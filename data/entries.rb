@@ -8719,3 +8719,23 @@ entry!('chang2010structured',
   author('Ming-Wei Chang and Vivek Srikumar and Dan Goldwasser and Dan Roth'),
   pages(199, 206),
 nil)
+
+entry!('warner1965randomised',
+  article('Journal of the Americal Statistical Association', 1965, 60), 
+  title('Randomised response: A survey technique for eliminating evasive answer bias'),
+  author('Stanley Warner'),
+  number(309),
+  pages(63, 69), 
+nil)
+
+entry!('duchi2013local',
+  title('Local Privacy and Statistical Minimax Rates'),
+  author('John C. Duchi and Michael I. Jordan and Martin J. Wainwright'),
+  focs(2013), 
+nil)
+
+entry!('schapire2002prior',
+  title('Incorporating Prior Knowledge into Boosting'),
+  author('Robert E. Schapire and Marie Rochery and Mazin G. Rahim and Narendra Gupta'),
+  icml(2002), 
+nil)
