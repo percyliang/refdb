@@ -8526,7 +8526,7 @@ nil)
 entry!('maron1998framework',
   article('Advances in neural information processing systems', 1998), 
   title('A framework for multiple-instance learning'),
-  author('Maron, Oded and Lozano-P{\'e}rez, Tom{\'a}s'),
+  author('Maron, Oded and Lozano-P{\\\'e}rez, Tom{\\\'a}s'),
   pages(570, 576), 
 nil)
 
@@ -8551,7 +8551,7 @@ nil)
 
 entry!('bottou2013counterfactual',
   title('Counterfactual Reasoning and Learning Systems: The Example of Computational Advertising'),
-  author('L\'eon Bottou and Jonas Peters and Joaquin {Qui\~nonero-Candela} and Denis X. Charles and D. Max Chickering and Elon Portugaly and Dipankar Ray and Patrice Simard and Ed Snelson'),
+  author('L\\\'eon Bottou and Jonas Peters and Joaquin {Qui\\~nonero-Candela} and Denis X. Charles and D. Max Chickering and Elon Portugaly and Dipankar Ray and Patrice Simard and Ed Snelson'),
   jmlr(2013, 14), pages(3207, 3260),
 nil)
 
@@ -8608,7 +8608,7 @@ nil)
 
 entry!('bottou2015two',
   title('Two high stakes challenges in machine learning'),
-  author('L\'eon Bottou'),
+  author('L\\\'eon Bottou'),
   type('misc'),
   howpublished('Invited talk at the 32nd International Conference on Machine Learning'),
   slidesurl('http://icml.cc/2015/invited/LeonBottouICML2015.pdf'),
@@ -8641,7 +8641,7 @@ nil)
 
 entry!('bousquet2004introduction',
   title('Introduction to statistical learning theory'),
-  author('Olivier Bousquet and St{\'e}phane Boucheron and G{\'a}bor Lugosi'),
+  author('Olivier Bousquet and St{\\\'e}phane Boucheron and G{\\\'a}bor Lugosi'),
   article('Advanced Lectures on Machine Learning', 2004),
   pages(169, 207),
 nil)
@@ -8711,4 +8711,11 @@ entry!('powell1994estimation',
   incollection('Handbook of Econometrics', 1994), volume(4),
   pages(2443, 2521),
   publisher('Elsevier'),
+nil)
+
+entry!('chang2010structured',
+  icml(2010),
+  title('Structured output learning with indirect supervision'),
+  author('Ming-Wei Chang and Vivek Srikumar and Dan Goldwasser and Dan Roth'),
+  pages(199, 206),
 nil)
