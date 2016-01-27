@@ -8712,3 +8712,53 @@ entry!('powell1994estimation',
   pages(2443, 2521),
   publisher('Elsevier'),
 nil)
+
+entry!('balasubramanian2011unsupervised',
+  title('Unsupervised supervised learning {II}: Margin-based classification without labels'),
+  author('Krishnakumar Balasubramanian and Pinar Donmez and Guy Lebanon'),
+  jmlr(2011, 12), pages(3119, 3145),
+nil)
+
+entry!('cozman2006risks',
+  title('Risks of Semi-Supervised Learning: How Unlabeled Data Can Degrade Performance of Generative Classifiers'),
+  author('Fabio Cozman and Ira Cohen'),
+  editor('O. Chapelle and A. Zien and B. Scholkopf'),
+  incollection('Semi-Supervised Learning', 2006),
+  publisher('MIT Press'),
+nil)
+
+entry!('li2015towards',
+  title('Towards making unlabeled data never hurt'),
+  author('Yu-Feng Li and Zhi-Hua Zhou'),
+  article('IEEE Transactions on Pattern Analysis and Machine Intelligence', 2015, 37),
+  number(1), pages(175, 188),
+nil)
+
+entry!('kakade2007multi',
+  title('Multi-view regression via canonical correlation analysis'),
+  author('Sham M. Kakade and Dean P. Foster'),
+  colt(2007), pages(82, 96),
+nil)
+
+entry!('ando2007two',
+  title('Two-view feature generation model for semi-supervised learning'),
+  author('Rie Kubota Ando and Tong Zhang'),
+  colt(2007), pages(25, 32),
+nil)
+
+entry!('rinott1994normal',
+  title('On normal approximation rates for certain sums of dependent random variables'),
+  author('Yosef Rinott'),
+  article('Journal of Computational and Applied Mathematics', 1994, 55),
+  number(2), pages(135, 143),
+  publisher('Elsevier'),
+nil)
+
+entry!('tsirelson1976norms',
+  title('Norms of {G}aussian sample functions'),
+  author('B. S. Tsirelson and I. A. Ibragimov and V. N. Sudakov'),
+  inproceedings('Proceedings of the Third Japan-USSR Symposium on Probability Theory', 1976),
+  pages(20, 41), 
+  organization('Springer'),
+nil)
+
