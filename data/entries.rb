@@ -8769,14 +8769,6 @@ entry!('chang2010structured',
   pages(199, 206),
 nil)
 
-entry!('warner1965randomised',
-  article('Journal of the Americal Statistical Association', 1965, 60), 
-  title('Randomised response: A survey technique for eliminating evasive answer bias'),
-  author('Stanley Warner'),
-  number(309),
-  pages(63, 69), 
-nil)
-
 entry!('duchi2013local',
   title('Local Privacy and Statistical Minimax Rates'),
   author('John C. Duchi and Michael I. Jordan and Martin J. Wainwright'),
@@ -8787,4 +8779,30 @@ entry!('schapire2002prior',
   title('Incorporating Prior Knowledge into Boosting'),
   author('Robert E. Schapire and Marie Rochery and Mazin G. Rahim and Narendra Gupta'),
   icml(2002), 
+nil)
+
+entry!('tamhane1981randomized',
+  jasa(1981, 76),
+  title('Randomized response techniques for multiple sensitive attributes'),
+  author('Ajit C Tamhane'),
+  number(376),
+  pages(916, 923),
+  publisher('Taylor \& Francis Group'),
+nil)
+
+entry!('warner1965randomized',
+  jasa(1965, 60),
+  title('Randomized response: A survey technique for eliminating evasive answer bias'),
+  author('Stanley L Warner'),
+  number(309),
+  pages(63, 69),
+  publisher('Taylor \& Francis Group'),
+nil)
+
+entry!('dwork2006differential',
+  title('Differential privacy'),
+  author('Cynthia Dwork'),
+  inproceedings('Automata, languages and programming', 2006),
+  pages(1, 12),
+  publisher('Springer'),
 nil)
