@@ -8806,3 +8806,10 @@ entry!('dwork2006differential',
   pages(1, 12),
   publisher('Springer'),
 nil)
+
+entry!('vaish2014twitch',
+  chi(2014),
+  title('Twitch crowdsourcing: crowd contributions in short bursts of time'),
+  author('Rajan Vaish and Keith Wyngarden and Jingshu Chen and Brandon Cheung and Michael S Bernstein'),
+  pages(3645, 3654),
+nil)
