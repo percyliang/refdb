@@ -8788,3 +8788,39 @@ entry!('schapire2002prior',
   author('Robert E. Schapire and Marie Rochery and Mazin G. Rahim and Narendra Gupta'),
   icml(2002), 
 nil)
+
+entry!('joachims1999transductive',
+  title('Transductive inference for text classification using support vector machines'),
+  author('Thorsten Joachims'),
+  icml(1999),
+nil)
+
+entry!('nesterov2011random',
+  title('Random gradient-free minimization of convex functions'),
+  author('Yurii Nesterov and Vladimir Spokoiny'),
+  article('Foundations of Computational Mathematics', 2011),
+  pages(1,40),
+  publisher('Springer'),
+nil)
+
+entry!('tropp2012user',
+  title('User-friendly tail bounds for sums of random matrices'),
+  author('Joel A Tropp'),
+  article('Foundations of computational mathematics', 2012, 12),
+  number(4), pages(389, 434),
+  publisher('Springer'),
+nil)
+
+entry!('sion1958minimax',
+  title('On general minimax theorems'),
+  author('Maurice Sion'),
+  article('Pacific journal of mathematics', 1958, 8),
+  number(1), pages(171, 176),
+nil)
+
+entry!('balcan2010discriminative',
+  title('A discriminative model for semi-supervised learning'),
+  author('Maria-Florina Balcan and Avrim Blum'),
+  jacm(2010, 57),
+  number(3), 
+nil)
