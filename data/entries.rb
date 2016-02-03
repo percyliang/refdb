@@ -8769,14 +8769,6 @@ entry!('chang2010structured',
   pages(199, 206),
 nil)
 
-entry!('warner1965randomised',
-  article('Journal of the Americal Statistical Association', 1965, 60), 
-  title('Randomised response: A survey technique for eliminating evasive answer bias'),
-  author('Stanley Warner'),
-  number(309),
-  pages(63, 69), 
-nil)
-
 entry!('duchi2013local',
   title('Local Privacy and Statistical Minimax Rates'),
   author('John C. Duchi and Michael I. Jordan and Martin J. Wainwright'),
@@ -8823,4 +8815,37 @@ entry!('balcan2010discriminative',
   author('Maria-Florina Balcan and Avrim Blum'),
   jacm(2010, 57),
   number(3), 
+nil)
+
+entry!('tamhane1981randomized',
+  jasa(1981, 76),
+  title('Randomized response techniques for multiple sensitive attributes'),
+  author('Ajit C Tamhane'),
+  number(376),
+  pages(916, 923),
+  publisher('Taylor \& Francis Group'),
+nil)
+
+entry!('warner1965randomized',
+  jasa(1965, 60),
+  title('Randomized response: A survey technique for eliminating evasive answer bias'),
+  author('Stanley L Warner'),
+  number(309),
+  pages(63, 69),
+  publisher('Taylor \& Francis Group'),
+nil)
+
+entry!('dwork2006differential',
+  title('Differential privacy'),
+  author('Cynthia Dwork'),
+  inproceedings('Automata, languages and programming', 2006),
+  pages(1, 12),
+  publisher('Springer'),
+nil)
+
+entry!('vaish2014twitch',
+  chi(2014),
+  title('Twitch crowdsourcing: crowd contributions in short bursts of time'),
+  author('Rajan Vaish and Keith Wyngarden and Jingshu Chen and Brandon Cheung and Michael S Bernstein'),
+  pages(3645, 3654),
 nil)
