@@ -8849,3 +8849,12 @@ entry!('vaish2014twitch',
   author('Rajan Vaish and Keith Wyngarden and Jingshu Chen and Brandon Cheung and Michael S Bernstein'),
   pages(3645, 3654),
 nil)
+
+entry!('meyer1973inverse',
+  title('Generalised Inversion of Modified Matrices'),
+  author('Carl D. Meyer'),
+  article('SIAM Journal on Applied Mathematics', 1973, 24), 
+  number(3), 
+  pages(315, 323),
+nil)
+
