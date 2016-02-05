@@ -8849,3 +8849,18 @@ entry!('vaish2014twitch',
   author('Rajan Vaish and Keith Wyngarden and Jingshu Chen and Brandon Cheung and Michael S Bernstein'),
   pages(3645, 3654),
 nil)
+
+entry!('meyer1973inverse',
+  title('Generalised Inversion of Modified Matrices'),
+  author('Carl D. Meyer'),
+  article('SIAM Journal on Applied Mathematics', 1973, 24), 
+  number(3), 
+  pages(315, 323),
+nil)
+
+entry!('dwork2006calibrating',
+  inproceedings('Proceedings of the 3rd Theory of Cryptography Conference', 2006),
+  author('Cynthia Dwork and Frank McSherry and Kobbi Nissim and Adam Smith'),
+  title('Calibrating noise to sensitivity in private data analysis'),
+  pages(265, 284),
+nil)
