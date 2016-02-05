@@ -8596,7 +8596,7 @@ nil)
 
 entry!('jaffe2015estimating',
   title('Estimating the accuracies of multiple classifiers without labeled data'),
-  author('A. Jaffe and B. Nadler and and Y. Kluger'),
+  author('A. Jaffe and B. Nadler and Y. Kluger'),
   aistats(2015), pages(407,415),
 nil)
 
@@ -8636,7 +8636,7 @@ nil)
 entry!('newey1994large',
   title('Large sample estimation and hypothesis testing'),
   author('Whitney K. Newey and Daniel McFadden'),
-  article('Handbook of Econometrics', 1994, 4), pages(2111, 2245),
+  incollection('Handbook of Econometrics', 1994), volume(4), pages(2111, 2245),
 nil)
 
 entry!('bousquet2004introduction',
