@@ -8864,3 +8864,38 @@ entry!('dwork2006calibrating',
   title('Calibrating noise to sensitivity in private data analysis'),
   pages(265, 284),
 nil)
+
+entry!('evfimievski2004privacy',
+  article('Information Systems', 2004, 29),
+  title('Privacy preserving mining of association rules'),
+  author('Alexandre Evfimievski and Ramakrishnan Srikant and Rakesh Agrawal and Johannes Gehrke'),
+  number(4),
+  pages(343, 364),
+  publisher('Elsevier'),
+nil)
+
+entry!('kasiviswanathan2011can',
+  article('SIAM Journal on Computing', 2011, 40),
+  title('What can we learn privately?'),
+  author('Shiva Prasad Kasiviswanathan and Homin K Lee and Kobbi Nissim and Sofya Raskhodnikova and Adam Smith'),
+  number(3),
+  pages(793, 826),
+  publisher('SIAM'),
+nil)
+
+entry!('matloff1984use',
+  article('Statistics \& Probability Letters', 1984, 2),
+  title('Use of covariates in randomized response settings'),
+  author('Norman S Matloff'),
+  number(1),
+  pages(31, 34),
+  publisher('Elsevier'),
+nil)
+
+entry!('babenko2009visual',
+  cvpr(2009),
+  title('Visual tracking with online multiple instance learning'),
+  author('Boris Babenko and Ming-Hsuan Yang and Serge Belongie'),
+  pages(983, 990),
+  organization('IEEE'),
+nil)
