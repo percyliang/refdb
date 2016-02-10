@@ -8639,6 +8639,13 @@ entry!('newey1994large',
   incollection('Handbook of Econometrics', 1994), volume(4), pages(2111, 2245),
 nil)
 
+entry!('taylor2008medical',
+  title('Medical robotics and computer-integrated surgery'),
+  author('Russell H. Taylor and Arianna Menciassi and Gabor Fichtinger and Paolo Dario'),
+  incollection('Springer Handbook of Robotics', 2008), 
+  pages(1199, 1222),
+nil)
+
 entry!('bousquet2004introduction',
   title('Introduction to statistical learning theory'),
   author('Olivier Bousquet and St{\\\'e}phane Boucheron and G{\\\'a}bor Lugosi'),
@@ -8898,4 +8905,168 @@ entry!('babenko2009visual',
   author('Boris Babenko and Ming-Hsuan Yang and Serge Belongie'),
   pages(983, 990),
   organization('IEEE'),
+nil)
+
+entry!('goodfellow2014explaining',
+  title('Explaining and harnessing adversarial examples'),
+  author('Ian J. Goodfellow and Jonathon Shlens and Christian Szegedy'),
+  arxiv(2014),
+nil)
+
+entry!('temizer2010collision',
+  title('Collision avoidance for unmanned aircraft using {M}arkov decision processes'),
+  author('Selim Temizer and Mykel J. Kochenderfer and Leslie P. Kaelbling and Tomas Lozano-P{\\\'e}rez and James K. Kuchar'),
+  inproceedings('AIAA Guidance, Navigation, and Control Conference', 2010),
+nil)
+
+entry!('mei2015teaching',
+  title('Using Machine Teaching to Identify Optimal Training-Set Attacks on Machine Learners'),
+  author('Shike Mei and Xiaojin Zhu'),
+  aaai(2015),
+nil)
+
+entry!('cook2011assessing',
+  title('Assessing {G}oogle flu trends performance in the {U}nited {S}tates during the 2009 influenza virus {A} ({H1N1}) pandemic'),
+  author('Samantha Cook and Corrie Conrad and Ashley L. Fowlkes and Matthew H. Mohebbi'),
+  article('{P}lo{S} one', 2011, 6),
+  number(8),
+nil)
+
+entry!('nisan2007algorithmic',
+  title('Algorithmic game theory'),
+  author('Noam Nisan and Tim Roughgarden and Eva Tardos and Vijay V. Vazirani'),
+  volume(1),
+  book('Cambridge University Press', 2007),
+nil)
+
+entry!('blum2014learning',
+  title('Learning Valuation Distributions from Partial Observation'),
+  author('Avrim Blum and Yishay Mansour and Jamie Morgenstern'),
+  arxiv(2014),
+nil)
+
+entry!('raina2007self',
+  title('Self-taught learning: transfer learning from unlabeled data'),
+  author('Rajar Raina and Alexis Battle and Honglak Lee and Benjamin Packer and Andrew Y. Ng'),
+  icml(2007), pages(759, 766),
+nil)
+
+entry!('moldovan2012safe',
+  title('Safe Exploration in {M}arkov Decision Processes'),
+  author('Teodor M. Moldovan and Pieter Abbeel'),
+  icml(2012), pages(1711, 1718),
+nil)
+
+entry!('hans2008safe',
+  title('Safe exploration for reinforcement learning'),
+  author('Alexander Hans and Daniel Schneega{\\ss} and Anton Maximilian Sch{\\"a}fer and Steffen Udluft'),
+  article('ESANN', 2008),
+  pages(143, 148),
+nil)
+
+entry!('basseville1988detecting',
+  title('Detecting changes in signals and systems--{A} survey'),
+  author('Mich{\\`e}le Basseville'),
+  article('Automatica', 1988, 24),
+  number(3), pages(309, 326),
+  publisher('Elsevier'),
+nil)
+
+entry!('liu2013change',
+  title('Change-point detection in time-series data by relative density-ratio estimation'),
+  author('Song Liu and Makoto Yamada and Nigel Collier and Masashi Sugiyama'),
+  article('Neural Networks', 2013, 43),
+  pages(72, 83),
+  publisher('Elsevier'),
+nil)
+
+entry!('kawahara2009change',
+  title('Change-Point Detection in Time-Series Data by Direct Density-Ratio Estimation'),
+  author('Yoshinobu Kawahara and Masashi Sugiyama'),
+  article('SDM', 2009, 9),
+  pages(389, 400),
+nil)
+
+entry!('lygeros1999controllers',
+  title('Controllers for reachability specifications for hybrid systems'),
+  author('John Lygeros and Claire Tomlin and Shankar Sastry'),
+  article('Automatica', 1999, 35),
+  number(3), pages(349,370),
+  publisher('Elsevier'),
+nil)
+
+entry!('mitchell2005time',
+  title('A time-dependent {H}amilton-{J}acobi formulation of reachable sets for continuous dynamic games'),
+  author('Ian M. Mitchell and Alexandre M. Bayen and Claire J. Tomlin'),
+  article('IEEE Transactions on Automatic Control', 2005, 50), 
+  number(7), pages(947, 957),
+nil)
+
+entry!('bacsar2008optimal',
+  title('{H}-infinity optimal control and related minimax design problems: a dynamic game approach'),
+  author('Tamer Ba{\\c{s}}ar and Pierre Bernhard'),
+  book('Springer Science \\& Business Media', 2008),
+nil)
+
+entry!('wager2015estimation',
+  title('Estimation and Inference of Heterogeneous Treatment Effects using Random Forests'),
+  author('Stefan Wager and Susan Athey'),
+  arxiv(2015),
+nil)
+
+entry!('athey2015measure',
+  title('A measure of robustness to misspecification'),
+  author('Susan Athey and Guido Imbens'),
+  article('The American Economic Review', 2015, 105),
+  number(5), pages(476, 480),
+  publisher('American Economic Association'),
+nil)
+
+entry!('russell2015research',
+  title('Research priorities for robust and beneficial artificial intelligence'),
+  author('Stuart Russell and Daniel Dewey and Max Tegmark and Janos Kramar and Richard Mallah'),
+  type('misc'),
+  organization('Future of Life Institute'),
+  year(2015),
+nil)
+
+entry!('geiger2012kitti',
+  title('Are we ready for autonomous driving? {T}he {KITTI} vision benchmark suite'),
+  author('Andreas Geiger and Philip Lenz and Raquel Urtasun'),
+  cvpr(2012),
+  pages(3354, 3361),
+nil)
+
+entry!('halpern2014anchors',
+ author('Yoni Halpern and Youngduck Choi and Steve Horng and David Sontag'),
+ title('Using Anchors to Estimate Clinical State without Labeled Data'),
+ inproceedings('American Medical Informatics Association Annual Symposium', 2014),
+ pages(606,615),
+nil)
+
+entry!('xu2008satzilla',
+  title('{SAT}zilla: portfolio-based algorithm selection for {SAT}'),
+  author('Lin Xu and Frank Hutter and Holger H. Hoos and Kevin Leyton-Brown'),
+  jair(2008, 32), pages(565,606),
+nil)
+
+entry!('chow2015risk',
+  title('Risk-Sensitive and Robust Decision-Making: a {CV}a{R} Optimization Approach'),
+  author('Yinlam Chow and Aviv Tamar and Shie Mannor and Marco Pavone'),
+  nips(2015), pages(1522, 1530),
+nil)
+
+entry!('shafer2008tutorial',
+  title('A tutorial on conformal prediction'),
+  author('Glenn Shafer and Vladimir Vovk'),
+  jmlr(2008, 9),
+  pages(371, 421),
+nil)
+
+entry!('li2011knows',
+  title('Knows what it knows: a framework for self-aware learning'),
+  author('Lihong Li and Michael L. Littman and Thomas J. Walsh and Alexander L. Strehl'),
+  article('Machine learning', 2011, 82),
+  number(3), pages(399, 443),
+  publisher('Springer'),
 nil)
