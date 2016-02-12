@@ -9070,3 +9070,16 @@ entry!('li2011knows',
   number(3), pages(399, 443),
   publisher('Springer'),
 nil)
+
+entry!('shalev2011online',
+  title('Online learning and online convex optimization'),
+  author('Shai Shalev-Shwartz'),
+  article('Foundations and Trends in Machine Learning', 2011, 4), pages(107, 194),
+  number(2),
+nil)
+
+entry!('mei2015security',
+  title('The Security of Latent Dirichlet Allocation'),
+  author('Shike Mei and Xiaojin Zhu'),
+  aistats(2015),
+nil)
