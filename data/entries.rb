@@ -8928,6 +8928,7 @@ nil)
 entry!('cook2011assessing',
   title('Assessing {G}oogle flu trends performance in the {U}nited {S}tates during the 2009 influenza virus {A} ({H1N1}) pandemic'),
   author('Samantha Cook and Corrie Conrad and Ashley L. Fowlkes and Matthew H. Mohebbi'),
+  unusualCapitalization('A'),
   article('{P}lo{S} one', 2011, 6),
   number(8),
 nil)
@@ -8965,7 +8966,7 @@ entry!('hans2008safe',
 nil)
 
 entry!('basseville1988detecting',
-  title('Detecting changes in signals and systems--{A} survey'),
+  title('Detecting changes in signals and systems--A survey'),
   author('Mich{\\`e}le Basseville'),
   article('Automatica', 1988, 24),
   number(3), pages(309, 326),
@@ -9033,6 +9034,7 @@ nil)
 entry!('geiger2012kitti',
   title('Are we ready for autonomous driving? {T}he {KITTI} vision benchmark suite'),
   author('Andreas Geiger and Philip Lenz and Raquel Urtasun'),
+  unusualCapitalization('The'),
   cvpr(2012),
   pages(3354, 3361),
 nil)
@@ -9079,7 +9081,15 @@ entry!('shalev2011online',
 nil)
 
 entry!('mei2015security',
-  title('The Security of Latent Dirichlet Allocation'),
+  title('The Security of Latent {D}irichlet Allocation'),
   author('Shike Mei and Xiaojin Zhu'),
   aistats(2015),
+nil)
+
+entry!('rubinstein1997discriminative',
+  kdd(1997),
+  title('Discriminative vs Informative Learning'),
+  author('Y Dan Rubinstein and Trevor Hastie'),
+  volume(5),
+  pages(49, 53),
 nil)
