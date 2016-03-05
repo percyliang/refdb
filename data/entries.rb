@@ -8596,7 +8596,7 @@ nil)
 
 entry!('jaffe2015estimating',
   title('Estimating the accuracies of multiple classifiers without labeled data'),
-  author('A. Jaffe and B. Nadler and and Y. Kluger'),
+  author('A. Jaffe and B. Nadler and Y. Kluger'),
   aistats(2015), pages(407,415),
 nil)
 
@@ -8636,7 +8636,14 @@ nil)
 entry!('newey1994large',
   title('Large sample estimation and hypothesis testing'),
   author('Whitney K. Newey and Daniel McFadden'),
-  article('Handbook of Econometrics', 1994, 4), pages(2111, 2245),
+  incollection('Handbook of Econometrics', 1994), volume(4), pages(2111, 2245),
+nil)
+
+entry!('taylor2008medical',
+  title('Medical robotics and computer-integrated surgery'),
+  author('Russell H. Taylor and Arianna Menciassi and Gabor Fichtinger and Paolo Dario'),
+  incollection('Springer Handbook of Robotics', 2008), 
+  pages(1199, 1222),
 nil)
 
 entry!('bousquet2004introduction',
@@ -8769,14 +8776,6 @@ entry!('chang2010structured',
   pages(199, 206),
 nil)
 
-entry!('warner1965randomised',
-  article('Journal of the Americal Statistical Association', 1965, 60), 
-  title('Randomised response: A survey technique for eliminating evasive answer bias'),
-  author('Stanley Warner'),
-  number(309),
-  pages(63, 69), 
-nil)
-
 entry!('duchi2013local',
   title('Local Privacy and Statistical Minimax Rates'),
   author('John C. Duchi and Michael I. Jordan and Martin J. Wainwright'),
@@ -8787,6 +8786,312 @@ entry!('schapire2002prior',
   title('Incorporating Prior Knowledge into Boosting'),
   author('Robert E. Schapire and Marie Rochery and Mazin G. Rahim and Narendra Gupta'),
   icml(2002), 
+nil)
+
+entry!('joachims1999transductive',
+  title('Transductive inference for text classification using support vector machines'),
+  author('Thorsten Joachims'),
+  icml(1999),
+nil)
+
+entry!('nesterov2011random',
+  title('Random gradient-free minimization of convex functions'),
+  author('Yurii Nesterov and Vladimir Spokoiny'),
+  article('Foundations of Computational Mathematics', 2011),
+  pages(1,40),
+  publisher('Springer'),
+nil)
+
+entry!('tropp2012user',
+  title('User-friendly tail bounds for sums of random matrices'),
+  author('Joel A Tropp'),
+  article('Foundations of computational mathematics', 2012, 12),
+  number(4), pages(389, 434),
+  publisher('Springer'),
+nil)
+
+entry!('sion1958minimax',
+  title('On general minimax theorems'),
+  author('Maurice Sion'),
+  article('Pacific journal of mathematics', 1958, 8),
+  number(1), pages(171, 176),
+nil)
+
+entry!('balcan2010discriminative',
+  title('A discriminative model for semi-supervised learning'),
+  author('Maria-Florina Balcan and Avrim Blum'),
+  jacm(2010, 57),
+  number(3), 
+nil)
+
+entry!('tamhane1981randomized',
+  jasa(1981, 76),
+  title('Randomized response techniques for multiple sensitive attributes'),
+  author('Ajit C Tamhane'),
+  number(376),
+  pages(916, 923),
+  publisher('Taylor \& Francis Group'),
+nil)
+
+entry!('warner1965randomized',
+  jasa(1965, 60),
+  title('Randomized response: A survey technique for eliminating evasive answer bias'),
+  author('Stanley L Warner'),
+  number(309),
+  pages(63, 69),
+  publisher('Taylor \& Francis Group'),
+nil)
+
+entry!('dwork2006differential',
+  title('Differential privacy'),
+  author('Cynthia Dwork'),
+  inproceedings('Automata, languages and programming', 2006),
+  pages(1, 12),
+  publisher('Springer'),
+nil)
+
+entry!('vaish2014twitch',
+  chi(2014),
+  title('Twitch crowdsourcing: crowd contributions in short bursts of time'),
+  author('Rajan Vaish and Keith Wyngarden and Jingshu Chen and Brandon Cheung and Michael S Bernstein'),
+  pages(3645, 3654),
+nil)
+
+entry!('meyer1973inverse',
+  title('Generalised Inversion of Modified Matrices'),
+  author('Carl D. Meyer'),
+  article('SIAM Journal on Applied Mathematics', 1973, 24), 
+  number(3), 
+  pages(315, 323),
+nil)
+
+entry!('dwork2006calibrating',
+  inproceedings('Proceedings of the 3rd Theory of Cryptography Conference', 2006),
+  author('Cynthia Dwork and Frank McSherry and Kobbi Nissim and Adam Smith'),
+  title('Calibrating noise to sensitivity in private data analysis'),
+  pages(265, 284),
+nil)
+
+entry!('evfimievski2004privacy',
+  article('Information Systems', 2004, 29),
+  title('Privacy preserving mining of association rules'),
+  author('Alexandre Evfimievski and Ramakrishnan Srikant and Rakesh Agrawal and Johannes Gehrke'),
+  number(4),
+  pages(343, 364),
+  publisher('Elsevier'),
+nil)
+
+entry!('kasiviswanathan2011can',
+  article('SIAM Journal on Computing', 2011, 40),
+  title('What can we learn privately?'),
+  author('Shiva Prasad Kasiviswanathan and Homin K Lee and Kobbi Nissim and Sofya Raskhodnikova and Adam Smith'),
+  number(3),
+  pages(793, 826),
+  publisher('SIAM'),
+nil)
+
+entry!('matloff1984use',
+  article('Statistics \& Probability Letters', 1984, 2),
+  title('Use of covariates in randomized response settings'),
+  author('Norman S Matloff'),
+  number(1),
+  pages(31, 34),
+  publisher('Elsevier'),
+nil)
+
+entry!('babenko2009visual',
+  cvpr(2009),
+  title('Visual tracking with online multiple instance learning'),
+  author('Boris Babenko and Ming-Hsuan Yang and Serge Belongie'),
+  pages(983, 990),
+  organization('IEEE'),
+nil)
+
+entry!('goodfellow2014explaining',
+  title('Explaining and harnessing adversarial examples'),
+  author('Ian J. Goodfellow and Jonathon Shlens and Christian Szegedy'),
+  arxiv(2014),
+nil)
+
+entry!('temizer2010collision',
+  title('Collision avoidance for unmanned aircraft using {M}arkov decision processes'),
+  author('Selim Temizer and Mykel J. Kochenderfer and Leslie P. Kaelbling and Tomas Lozano-P{\\\'e}rez and James K. Kuchar'),
+  inproceedings('AIAA Guidance, Navigation, and Control Conference', 2010),
+nil)
+
+entry!('mei2015teaching',
+  title('Using Machine Teaching to Identify Optimal Training-Set Attacks on Machine Learners'),
+  author('Shike Mei and Xiaojin Zhu'),
+  aaai(2015),
+nil)
+
+entry!('cook2011assessing',
+  title('Assessing {G}oogle flu trends performance in the {U}nited {S}tates during the 2009 influenza virus {A} ({H1N1}) pandemic'),
+  author('Samantha Cook and Corrie Conrad and Ashley L. Fowlkes and Matthew H. Mohebbi'),
+  unusualCapitalization('A'),
+  article('{P}lo{S} one', 2011, 6),
+  number(8),
+nil)
+
+entry!('nisan2007algorithmic',
+  title('Algorithmic game theory'),
+  author('Noam Nisan and Tim Roughgarden and Eva Tardos and Vijay V. Vazirani'),
+  volume(1),
+  book('Cambridge University Press', 2007),
+nil)
+
+entry!('blum2014learning',
+  title('Learning Valuation Distributions from Partial Observation'),
+  author('Avrim Blum and Yishay Mansour and Jamie Morgenstern'),
+  arxiv(2014),
+nil)
+
+entry!('raina2007self',
+  title('Self-taught learning: transfer learning from unlabeled data'),
+  author('Rajar Raina and Alexis Battle and Honglak Lee and Benjamin Packer and Andrew Y. Ng'),
+  icml(2007), pages(759, 766),
+nil)
+
+entry!('moldovan2012safe',
+  title('Safe Exploration in {M}arkov Decision Processes'),
+  author('Teodor M. Moldovan and Pieter Abbeel'),
+  icml(2012), pages(1711, 1718),
+nil)
+
+entry!('hans2008safe',
+  title('Safe exploration for reinforcement learning'),
+  author('Alexander Hans and Daniel Schneega{\\ss} and Anton Maximilian Sch{\\"a}fer and Steffen Udluft'),
+  article('ESANN', 2008),
+  pages(143, 148),
+nil)
+
+entry!('basseville1988detecting',
+  title('Detecting changes in signals and systems--A survey'),
+  author('Mich{\\`e}le Basseville'),
+  article('Automatica', 1988, 24),
+  number(3), pages(309, 326),
+  publisher('Elsevier'),
+nil)
+
+entry!('liu2013change',
+  title('Change-point detection in time-series data by relative density-ratio estimation'),
+  author('Song Liu and Makoto Yamada and Nigel Collier and Masashi Sugiyama'),
+  article('Neural Networks', 2013, 43),
+  pages(72, 83),
+  publisher('Elsevier'),
+nil)
+
+entry!('kawahara2009change',
+  title('Change-Point Detection in Time-Series Data by Direct Density-Ratio Estimation'),
+  author('Yoshinobu Kawahara and Masashi Sugiyama'),
+  article('SDM', 2009, 9),
+  pages(389, 400),
+nil)
+
+entry!('lygeros1999controllers',
+  title('Controllers for reachability specifications for hybrid systems'),
+  author('John Lygeros and Claire Tomlin and Shankar Sastry'),
+  article('Automatica', 1999, 35),
+  number(3), pages(349,370),
+  publisher('Elsevier'),
+nil)
+
+entry!('mitchell2005time',
+  title('A time-dependent {H}amilton-{J}acobi formulation of reachable sets for continuous dynamic games'),
+  author('Ian M. Mitchell and Alexandre M. Bayen and Claire J. Tomlin'),
+  article('IEEE Transactions on Automatic Control', 2005, 50), 
+  number(7), pages(947, 957),
+nil)
+
+entry!('bacsar2008optimal',
+  title('{H}-infinity optimal control and related minimax design problems: a dynamic game approach'),
+  author('Tamer Ba{\\c{s}}ar and Pierre Bernhard'),
+  book('Springer Science \\& Business Media', 2008),
+nil)
+
+entry!('wager2015estimation',
+  title('Estimation and Inference of Heterogeneous Treatment Effects using Random Forests'),
+  author('Stefan Wager and Susan Athey'),
+  arxiv(2015),
+nil)
+
+entry!('athey2015measure',
+  title('A measure of robustness to misspecification'),
+  author('Susan Athey and Guido Imbens'),
+  article('The American Economic Review', 2015, 105),
+  number(5), pages(476, 480),
+  publisher('American Economic Association'),
+nil)
+
+entry!('russell2015research',
+  title('Research priorities for robust and beneficial artificial intelligence'),
+  author('Stuart Russell and Daniel Dewey and Max Tegmark and Janos Kramar and Richard Mallah'),
+  type('misc'),
+  organization('Future of Life Institute'),
+  year(2015),
+nil)
+
+entry!('geiger2012kitti',
+  title('Are we ready for autonomous driving? {T}he {KITTI} vision benchmark suite'),
+  author('Andreas Geiger and Philip Lenz and Raquel Urtasun'),
+  unusualCapitalization('The'),
+  cvpr(2012),
+  pages(3354, 3361),
+nil)
+
+entry!('halpern2014anchors',
+ author('Yoni Halpern and Youngduck Choi and Steve Horng and David Sontag'),
+ title('Using Anchors to Estimate Clinical State without Labeled Data'),
+ inproceedings('American Medical Informatics Association Annual Symposium', 2014),
+ pages(606,615),
+nil)
+
+entry!('xu2008satzilla',
+  title('{SAT}zilla: portfolio-based algorithm selection for {SAT}'),
+  author('Lin Xu and Frank Hutter and Holger H. Hoos and Kevin Leyton-Brown'),
+  jair(2008, 32), pages(565,606),
+nil)
+
+entry!('chow2015risk',
+  title('Risk-Sensitive and Robust Decision-Making: a {CV}a{R} Optimization Approach'),
+  author('Yinlam Chow and Aviv Tamar and Shie Mannor and Marco Pavone'),
+  nips(2015), pages(1522, 1530),
+nil)
+
+entry!('shafer2008tutorial',
+  title('A tutorial on conformal prediction'),
+  author('Glenn Shafer and Vladimir Vovk'),
+  jmlr(2008, 9),
+  pages(371, 421),
+nil)
+
+entry!('li2011knows',
+  title('Knows what it knows: a framework for self-aware learning'),
+  author('Lihong Li and Michael L. Littman and Thomas J. Walsh and Alexander L. Strehl'),
+  article('Machine learning', 2011, 82),
+  number(3), pages(399, 443),
+  publisher('Springer'),
+nil)
+
+entry!('shalev2011online',
+  title('Online learning and online convex optimization'),
+  author('Shai Shalev-Shwartz'),
+  article('Foundations and Trends in Machine Learning', 2011, 4), pages(107, 194),
+  number(2),
+nil)
+
+entry!('mei2015security',
+  title('The Security of Latent {D}irichlet Allocation'),
+  author('Shike Mei and Xiaojin Zhu'),
+  aistats(2015),
+nil)
+
+entry!('rubinstein1997discriminative',
+  kdd(1997),
+  title('Discriminative vs Informative Learning'),
+  author('Y Dan Rubinstein and Trevor Hastie'),
+  volume(5),
+  pages(49, 53),
 nil)
 
 entry!('paulos1988innumeracy',

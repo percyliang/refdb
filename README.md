@@ -8,9 +8,9 @@ If you're in a hurry and just want a bib file, here you go:
 
 ## Printing/querying the database
 
-To output a bibtex file, run the following to print to stdout:
+To output a bibtex file:
 
-    ./generate.rb bib
+    ./generate.rb bib out=all.bib
 
 To output an HTML file:
 
