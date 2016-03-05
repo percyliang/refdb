@@ -8788,3 +8788,51 @@ entry!('schapire2002prior',
   author('Robert E. Schapire and Marie Rochery and Mazin G. Rahim and Narendra Gupta'),
   icml(2002), 
 nil)
+
+entry!('paulos1988innumeracy',
+  author('John Allen Paulos'),
+  title('Innumeracy: Mathematical illiteracy and its consequences'),
+  book('Macmillan', 1988),
+nil)
+
+entry!('seife2010proofiness',
+  author('Charles Seife'),
+  title('Proofiness: How you\'re being fooled by the numbers'),
+  book('Penguin', 2010),
+nil)
+
+entry!('kim2016analogies',
+  author('Yea-seul Kim and Jessica Hullman and  Maneesh Agarwala'),
+  title('Generating Personalized Spatial Analogies for Distances and Areas'),
+  url('http://doi.org/10.1145/2858036.2858440'),
+  chi(2016),
+nil)
+
+entry!('barrio2016comprehension',
+  author('Pablo J. Barrio and Daniel G. Goldstein and Jake M. Hofman'),
+  chi(2016),
+  title('Improving the Comprehension of Numbers in the News'),
+  url('http://www.decisionsciencenews.com/wp-content/uploads/2015/12/numbers-in-news.pdf'),
+nil)
+
+entry!('chevalier2013composition',
+  author('Fanny Chevalier and Romain Vuillemot and Guia Gali'),
+  article('IEEE Transactions on Visualization and Computer Graphics', 2013, 19), pages(2426, 2435),
+  title('Using concrete scales: A practical framework for effective visual depiction of complex measures'),
+  url('http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6634143'),
+nil)
+
+entry!('chiachieri2013dictionary',
+  title('Dictionary of Numbers'),
+  author('Glen Chiacchieri'),
+  type('misc'),
+  howpublished('\url{http://www.dictionaryofnumbers.com/}'),
+  year(2013),
+nil)
+
+entry!('roy2015reasoning',
+  author('Subhro Roy and Tom Vieira and Dan Roth'),
+  title('Reasoning about quantities in natural language'),
+  tacl(2015, 1),
+  url('https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/452'),
+nil)
