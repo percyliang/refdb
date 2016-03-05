@@ -9141,3 +9141,42 @@ entry!('roy2015reasoning',
   tacl(2015, 1),
   url('https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/452'),
 nil)
+
+entry!('markman1990constraints',
+  title('Constraints children place on word meanings'),
+  author('E.M. Markman'),
+  article('Cognitive Science', 1990, 14), pages(57, 77),
+nil)
+
+entry!('markman1988exclusivity',
+  title('Children’s Use of Mutual Exclusivity to Constrain the Meanings of Words'),
+  author('E.M. Markman and G. F. Wachtel'),
+  article('Cognitive Psychology', 1988, 20), pages(125, 157),
+  nil)
+
+entry!('goodman2013learning',
+  title('Learning and using language via recursive pragmatic
+reasoning about other agents'),
+  author('N.J. Smith and N.D. Goodman and M.C.Frank'),
+  nips(2013),
+nil)
+
+entry!('frank2012predicting',
+  title('Predicting Pragmatic Reasoning in Language Games'),
+  author('M.C. Frank and N. D. Goodman'),
+  article('Science', 2012, 336), pages(998, 998),
+       nil)
+
+entry!('frank2014inferring',
+  title('Inferring word meanings by assuming
+that speakers are informative'),
+  author('M.C. Frank and N. D. Goodman'),
+  article('Cognitive Psychology', 2014, 75), pages(80, 96),
+  nil)
+
+entry!('wittgenstein1953philosophical',
+  title('Philosophical Investigations'),
+  author('L. Wittgenstein'),
+  book('Blackwell, Oxford', 1953),
+  nil)
+
