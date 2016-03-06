@@ -2737,7 +2737,7 @@ entry!('barcelo11grpah',
 nil)
 
 entry!('chen12lexicon',
-  author('David Chen'),
+  author('David L. Chen'),
   title('Fast Online Lexicon Learning for Grounded Language Acquisition'),
   acl(2012),
 nil)
@@ -3644,14 +3644,14 @@ entry!('berant2013freebase',
 nil)
 
 entry!('wang2013noising',
-  author('Sida Wang and Mengqiu Wang and Stefan Wager and Percy Liang and Chris Manning'),
+  author('Sida I. Wang and Mengqiu Wang and Stefan Wager and Percy Liang and Chris Manning'),
   title('Feature Noising for Log-linear Structured Prediction'),
   emnlp(2013),
   url('noising-emnlp2013.pdf'),
 nil)
 
 entry!('wager2013dropout',
-  author('Stefan Wager and Sida Wang and Percy Liang'),
+  author('Stefan Wager and Sida I. Wang and Percy Liang'),
   title('Dropout Training as Adaptive Regularization'),
   nips(2013),
   url('http://arxiv.org/pdf/1307.1493.pdf'),
@@ -4432,7 +4432,7 @@ entry!('steinhardt2014filtering',
 nil)
 
 entry!('frostig2014subconstant',
-  author('Roy Frostig and Sida Wang'),
+  author('Roy Frostig and Sida I. Wang'),
   title('A sub-constant improvement in approximating the positive semidefinite {G}rothendieck problem'),
   arxiv(2014, '1408.2270'),
   url('http://arxiv.org/abs/1408.2270'),
@@ -4440,21 +4440,21 @@ nil)
 
 entry!('wager2014altitude',
   title('Altitude Training: Strong Bounds for Single-Layer Dropout'),
-  author('Stefan Wager and Will Fithian and Sida Wang and Percy Liang'),
+  author('Stefan Wager and Will Fithian and Sida I. Wang and Percy Liang'),
   nips(2014),
   url('http://arxiv.org/pdf/1407.3289.pdf'),
 nil)
 
 entry!('frostig2014lowrank',
   title('Simple {MAP} inference via low-rank relaxations'),
-  author('Roy Frostig and Sida Wang and Percy Liang and Chris Manning'),
+  author('Roy Frostig and Sida I. Wang and Percy Liang and Chris Manning'),
   nips(2014),
   url('http://cs.stanford.edu/~rfrostig/pubs/lowrank-nips2014.pdf'),
   experiments('https://www.codalab.org/worksheets/0x106abb3b47be492aa7387f528c943faa'),
 nil)
 
 entry!('wang2014iqp',
-  author('Sida Wang and Roy Frostig and Percy Liang and Chris Manning'),
+  author('Sida I. Wang and Roy Frostig and Percy Liang and Chris Manning'),
   title('Relaxations for inference in restricted {B}oltzmann machines'),
   iclrWorkshop(2014),
   url('http://arxiv.org/abs/1312.6205'),
@@ -5458,7 +5458,7 @@ nil)
 entry!('wang2015polynomial',
   nips(2015),
   title('Estimating Mixture Models via Mixture of Polynomials'),
-  author('Sida Wang and Arun Chaganty and Percy Liang'),
+  author('Sida I. Wang and Arun Chaganty and Percy Liang'),
   url('polynomial-nips2015.pdf'),
 nil)
 
@@ -8367,7 +8367,7 @@ nil)
 entry!('wang2013fast',
   icml(2013),
   title('Fast dropout training'),
-  author('Sida Wang and Christopher Manning'),
+  author('Sida I. Wang and Christopher Manning'),
   pages(118, 126),
 nil)
 
@@ -9180,3 +9180,8 @@ entry!('wittgenstein1953philosophical',
   book('Blackwell, Oxford', 1953),
   nil)
 
+entry!('kwiatowski2012prob',
+  title('A Probabilistic Model of Syntactic and Semantic Acquisition from Child-Directed Utterances and their Meanings'),
+  author('Kwiatkowski, Tom  and  Goldwater, Sharon  and  Zettlemoyer, Luke  and  Steedman, Mark'),
+  eacl(2012),
+  nil)
