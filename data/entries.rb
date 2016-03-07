@@ -9232,3 +9232,10 @@ entry!('agrawal2012analysis',
   title('Analysis of Thompson Sampling for the Multi-armed Bandit Problem'),
   author('Shipra Agrawal and Navin Goyal'),
 nil)
+
+entry!('flaxman2005online',
+  soda(2005),
+  title('Online convex optimization in the bandit setting: gradient descent without a gradient'),
+  author('Abraham D Flaxman and Adam Tauman Kalai and H Brendan McMahan'),
+  pages(385, 394),
+nil)
