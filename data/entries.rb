@@ -9155,8 +9155,7 @@ entry!('markman1988exclusivity',
   nil)
 
 entry!('goodman2013learning',
-  title('Learning and using language via recursive pragmatic
-reasoning about other agents'),
+  title('Learning and using language via recursive pragmatic reasoning about other agents'),
   author('N.J. Smith and N.D. Goodman and M.C.Frank'),
   nips(2013),
 nil)
@@ -9165,23 +9164,71 @@ entry!('frank2012predicting',
   title('Predicting Pragmatic Reasoning in Language Games'),
   author('M.C. Frank and N. D. Goodman'),
   article('Science', 2012, 336), pages(998, 998),
-       nil)
+nil)
 
 entry!('frank2014inferring',
-  title('Inferring word meanings by assuming
-that speakers are informative'),
+  title('Inferring word meanings by assuming that speakers are informative'),
   author('M.C. Frank and N. D. Goodman'),
   article('Cognitive Psychology', 2014, 75), pages(80, 96),
-  nil)
+nil)
 
 entry!('wittgenstein1953philosophical',
   title('Philosophical Investigations'),
   author('L. Wittgenstein'),
   book('Blackwell, Oxford', 1953),
-  nil)
+nil)
 
 entry!('kwiatowski2012prob',
   title('A Probabilistic Model of Syntactic and Semantic Acquisition from Child-Directed Utterances and their Meanings'),
   author('Kwiatkowski, Tom  and  Goldwater, Sharon  and  Zettlemoyer, Luke  and  Steedman, Mark'),
   eacl(2012),
-  nil)
+nil)
+
+entry!('orabona2015generalized',
+  machineLearning(2015, 99),
+  title('A generalized online mirror descent with applications to classification and regression'),
+  author('Francesco Orabona and Koby Crammer and Nicolo Cesa-Bianchi'),
+  number(3),
+  pages(411, 435),
+  publisher('Springer'),
+nil)
+
+entry!('rakhlin2013online',
+  colt(2013),
+  title('Online Learning with Predictable Sequences'),
+  author('Alexander Rakhlin and Karthik Sridharan'),
+  pages(993, 1019),
+nil)
+
+entry!('thompson1933likelihood',
+  biometrika(1933, 25),
+  title('On the likelihood that one unknown probability exceeds another in view of the evidence of two samples'),
+  author('William R Thompson'),
+  number('3/4'),
+  pages(285, 294),
+  publisher('JSTOR'),
+nil)
+
+entry!('lai1985asymptotically',
+  article('Advances in applied mathematics', 1985, 6),
+  title('Asymptotically efficient adaptive allocation rules'),
+  author('Tze Leung Lai and Herbert Robbins'),
+  number(1),
+  pages(4, 22),
+  publisher('Elsevier'),
+nil)
+
+entry!('auer2002finite',
+  article('Machine learning', 2002, 47),
+  title('Finite-time analysis of the multiarmed bandit problem'),
+  author('Peter Auer and Nicolo Cesa-Bianchi and Paul Fischer'),
+  number('2-3'),
+  pages(235, 256),
+  publisher('Springer'),
+nil)
+
+entry!('agrawal2012analysis',
+  colt(2012),
+  title('Analysis of Thompson Sampling for the Multi-armed Bandit Problem'),
+  author('Shipra Agrawal and Navin Goyal'),
+nil)
