@@ -9238,11 +9238,27 @@ entry!('flaxman2005online',
   title('Online convex optimization in the bandit setting: gradient descent without a gradient'),
   author('Abraham D Flaxman and Adam Tauman Kalai and H Brendan McMahan'),
   pages(385, 394),
-  nil)
+nil)
 
 entry!('goodman2015prob',
   title('Probabilistic Semantics and Pragmatics: Uncertainty in Language and Thought'),
   author('Goodman, Noah D. and Lassiter, Daniel'),
   book('The Handbook of Contemporary Semantic Theory, 2nd Edition', 2015),
   publisher('Wiley-Blackwell'),
-  nil)
+nil)
+
+entry!('ireland2011language',
+  article('Psychological Science', 2011, 22),
+  title('Language style matching predicts relationship initiation and stability'),
+  author('Molly E Ireland and Richard B Slatcher and Paul W Eastwick and Lauren E Scissors and Eli J Finkel and James W Pennebaker'),
+  number(1),
+  pages(39, 44),
+  publisher('Sage Publications'),
+  url('http://homepage.psy.utexas.edu/homepage/faculty/pennebaker/reprints/Ireland_et.al_LSM&relationships.pdf'),
+nil)
+
+entry!('giles2008communication',
+  title('Communication accommodation theory'),
+  author('Howard Giles'),
+  book('Sage Publications, Inc', 2008),
+nil)
