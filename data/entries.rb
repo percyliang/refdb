@@ -9238,4 +9238,11 @@ entry!('flaxman2005online',
   title('Online convex optimization in the bandit setting: gradient descent without a gradient'),
   author('Abraham D Flaxman and Adam Tauman Kalai and H Brendan McMahan'),
   pages(385, 394),
-nil)
+  nil)
+
+entry!('goodman2015prob',
+  title('Probabilistic Semantics and Pragmatics: Uncertainty in Language and Thought'),
+  author('Goodman, Noah D. and Lassiter, Daniel'),
+  book('The Handbook of Contemporary Semantic Theory, 2nd Edition', 2015),
+  publisher('Wiley-Blackwell'),
+  nil)
