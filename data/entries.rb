@@ -5781,8 +5781,7 @@ nil)
 entry!('yao2014freebase',
   author('Xuchen Yao and Jonathan Berant and Benjamin Van-Durme'),
   title('{F}reebase {QA}: Information Extraction or Semantic Parsing'),
-  year(2014),
-  inproceedings('Workshop on Semantic parsing',2014),
+  inproceedings('Workshop on Semantic parsing', 2014),
   url('http://aclweb.org/anthology/W14-2416'),
   tags('semantic parsing'),
 nil)
@@ -9152,15 +9151,15 @@ entry!('markman1988exclusivity',
   title('Children’s Use of Mutual Exclusivity to Constrain the Meanings of Words'),
   author('E.M. Markman and G. F. Wachtel'),
   article('Cognitive Psychology', 1988, 20), pages(125, 157),
-  nil)
+nil)
 
-entry!('goodman2013learning',
+entry!('smith2013pragmatics',
   title('Learning and using language via recursive pragmatic reasoning about other agents'),
-  author('N.J. Smith and N.D. Goodman and M.C.Frank'),
+  author('Nathaniel J. Smith and Noah D. Goodman and Michael C. Frank'),
   nips(2013),
 nil)
 
-entry!('frank2012predicting',
+entry!('frank2012pragmatics',
   title('Predicting Pragmatic Reasoning in Language Games'),
   author('M.C. Frank and N. D. Goodman'),
   article('Science', 2012, 336), pages(998, 998),
@@ -9176,12 +9175,6 @@ entry!('wittgenstein1953philosophical',
   title('Philosophical Investigations'),
   author('L. Wittgenstein'),
   book('Blackwell, Oxford', 1953),
-nil)
-
-entry!('kwiatowski2012prob',
-  title('A Probabilistic Model of Syntactic and Semantic Acquisition from Child-Directed Utterances and their Meanings'),
-  author('Kwiatkowski, Tom  and  Goldwater, Sharon  and  Zettlemoyer, Luke  and  Steedman, Mark'),
-  eacl(2012),
 nil)
 
 entry!('orabona2015generalized',
@@ -9238,6 +9231,37 @@ entry!('flaxman2005online',
   title('Online convex optimization in the bandit setting: gradient descent without a gradient'),
   author('Abraham D Flaxman and Adam Tauman Kalai and H Brendan McMahan'),
   pages(385, 394),
+nil)
+
+entry!('goodman2015prob',
+  title('Probabilistic Semantics and Pragmatics: Uncertainty in Language and Thought'),
+  author('Noah Goodman and Daniel Lassiter'),
+  book('The Handbook of Contemporary Semantic Theory, 2nd Edition', 2015),
+  publisher('Wiley-Blackwell'),
+nil)
+
+entry!('ireland2011language',
+  article('Psychological Science', 2011, 22),
+  title('Language style matching predicts relationship initiation and stability'),
+  author('Molly E Ireland and Richard B Slatcher and Paul W Eastwick and Lauren E Scissors and Eli J Finkel and James W Pennebaker'),
+  number(1),
+  pages(39, 44),
+  publisher('Sage Publications'),
+  url('http://homepage.psy.utexas.edu/homepage/faculty/pennebaker/reprints/Ireland_et.al_LSM&relationships.pdf'),
+nil)
+
+entry!('giles2008communication',
+  title('Communication accommodation theory'),
+  author('Howard Giles'),
+  book('Sage Publications, Inc', 2008),
+nil)
+
+entry!('kwiatkowski2012probabilistic',
+  acl(2012),
+  title('A probabilistic model of syntactic and semantic acquisition from child-directed utterances and their meanings'),
+  author('Tom Kwiatkowski and Sharon Goldwater and Luke Zettlemoyer and Mark Steedman'),
+  pages(234, 244),
+  organization('Association for Computational Linguistics'),
 nil)
 
 entry!('jones2009scale',
