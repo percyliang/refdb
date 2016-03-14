@@ -9239,3 +9239,10 @@ entry!('flaxman2005online',
   author('Abraham D Flaxman and Adam Tauman Kalai and H Brendan McMahan'),
   pages(385, 394),
 nil)
+
+entry!('jones2009scale',
+  title('Developing a sense of scale: Looking backward'),
+  author('M. Gail Jones and Amy R. Taylor'),
+  article('Journal of Research in Science Teaching', 2009, 46),
+  pages(460,475),
+nil)
