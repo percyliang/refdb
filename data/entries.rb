@@ -5781,8 +5781,7 @@ nil)
 entry!('yao2014freebase',
   author('Xuchen Yao and Jonathan Berant and Benjamin Van-Durme'),
   title('{F}reebase {QA}: Information Extraction or Semantic Parsing'),
-  year(2014),
-  inproceedings('Workshop on Semantic parsing',2014),
+  inproceedings('Workshop on Semantic parsing', 2014),
   url('http://aclweb.org/anthology/W14-2416'),
   tags('semantic parsing'),
 nil)
