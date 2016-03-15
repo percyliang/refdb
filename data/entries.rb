@@ -9280,3 +9280,10 @@ entry!('jones2009scale',
   article('Journal of Research in Science Teaching', 2009, 46),
   pages(460,475),
 nil)
+
+entry!('helmbold2015inductive',
+  jmlr(2015, 16),
+  author('David P. Helmbold and Philip M. Long'),
+  pages(3403, 3454),
+  title('On the Inductive Bias of Dropout'),
+nil)
