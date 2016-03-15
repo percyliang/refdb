@@ -9093,3 +9093,13 @@ entry!('rubinstein1997discriminative',
   volume(5),
   pages(49, 53),
 nil)
+
+entry!('friedman2010regularization',
+  article('Journal of Statistical Software', 2010),
+  publisher('NIH Public Access'),
+  volume(33),
+  number(1),
+  pages(1, 22),
+  title('Regularization paths for generalized linear models via coordinate descent'),
+  author('Jerome Friedman and Trevor Hastie and Rob Tibshirani'),
+nil)
