@@ -9293,3 +9293,10 @@ entry!('macmahon2006walk',
   author('Matt MacMahon and Brian Stankiewicz and Benjamin Kuipers'),
   inproceedings('National Conference on Artificial Intelligence', 2006),
 nil)
+
+entry!('vlachos2014new',
+  tacl(2014, 2),
+  title('A New Corpus and Imitation Learning Framework for Context-Dependent Semantic Parsing'),
+  author('Andreas Vlachos and Stephen Clark'),
+  pages(547, 559),
+nil)
