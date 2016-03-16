@@ -9300,3 +9300,21 @@ entry!('vlachos2014new',
   author('Andreas Vlachos and Stephen Clark'),
   pages(547, 559),
 nil)
+
+entry!('hermann2015read',
+  title('Teaching Machines to Read and Comprehend'),
+  author('Karl Moritz Hermann and Tomáš Kočiský and Edward Grefenstette and Lasse Espeholt and Will Kay and Mustafa Suleyman and Phil Blunsom'),
+  nips(2015),
+nil)
+
+entry!('iyyer2014factoid',
+  emnlp(2014),
+  title('A Neural Network for Factoid Question Answering over Paragraphs'),
+  author('Mohit Iyyer and Jordan Boyd-Graber and Leonardo Claudino and Hal Daumé III'),
+nil)
+
+entry!('kumar2015dmn',
+  arxiv(2015),
+  title('Ask Me Anaything: Dynamic Memory Networks for Natural Language Processing'),
+  author('Ankit Kumar and Ozan Irsoy and Peter Ondruska and Mohit Iyyer and James Bradbury and Ishaan Gulrajani and Victor Zhong and Romain Paulus and Richard Socher'),
+nil)
