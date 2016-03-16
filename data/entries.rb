@@ -9287,3 +9287,9 @@ entry!('helmbold2015inductive',
   pages(3403, 3454),
   title('On the Inductive Bias of Dropout'),
 nil)
+
+entry!('macmahon2006walk',
+  title('Walk the talk: Connecting language, knowledge, and action in route instructions'),
+  author('Matt MacMahon and Brian Stankiewicz and Benjamin Kuipers'),
+  inproceedings('National Conference on Artificial Intelligence', 2006),
+nil)
