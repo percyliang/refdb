@@ -9344,3 +9344,14 @@ entry!('kingma2014variational',
   arxiv(2014),
 nil)
 
+entry!('zhang2015character',
+  author('Xiang Zhang and Junbo Zhao and Yann LeCun'),
+  title('Character-level Convolutional Networks for Text Classification'),
+  nips(2015),
+nil)
+
+entry!('wang2015petpeeves',
+  author('William Y. Wang and Diyi Yang'),
+  title('That’s So Annoying!!!: A Lexical and Frame-Semantic Embedding Based Data Augmentation Approach to Automatic Categorization of Annoying Behaviors using #petpeeve Tweets'),
+  emnlp(2015),
+nil)
