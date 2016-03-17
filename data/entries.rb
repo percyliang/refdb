@@ -9321,6 +9321,6 @@ nil)
 
 entry!('monroe2015pragmatics',
   title('Learning in the {R}ational {S}peech {A}cts Model'),
-  author('Monroe, Will  and  Potts, Christopher'),
+  author('Will Monroe  and  Christopher Potts'),
   inproceedings('Proceedings of 20th {A}msterdam {C}olloquium', 2015),
 nil)
