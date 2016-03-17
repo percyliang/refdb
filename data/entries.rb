@@ -9093,3 +9093,23 @@ entry!('rubinstein1997discriminative',
   volume(5),
   pages(49, 53),
 nil)
+
+entry!('chiang2005hierarchical',
+  author('David Chiang'),
+  title('A Hierarchical Phrase-Based Model for Statistical Machine Translation'),
+  acl2005,
+  pages(263, 270),
+nil)
+
+entry!('jaitly2013vocal',
+  author('Navdeep Jaitly and Geoffrey E. Hinton'),
+  title('Vocal Tract Length Perturbation (VTLP) improves speech recognition'),
+  icml(2013),
+nil)
+
+entry!('kingma2014variational',
+  author('Diederik P. Kingma and Max Welling'),
+  title('Auto-Encoding Variational {B}ayes'),
+  arxiv(2014),
+nil)
+
