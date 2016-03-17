@@ -9318,3 +9318,9 @@ entry!('kumar2015dmn',
   title('Ask Me Anaything: Dynamic Memory Networks for Natural Language Processing'),
   author('Ankit Kumar and Ozan Irsoy and Peter Ondruska and Mohit Iyyer and James Bradbury and Ishaan Gulrajani and Victor Zhong and Romain Paulus and Richard Socher'),
 nil)
+
+entry!('monroe2015pragmatics',
+  title('Learning in the {R}ational {S}peech {A}cts Model'),
+  author('Monroe, Will  and  Potts, Christopher'),
+  inproceedings('Proceedings of 20th {A}msterdam {C}olloquium', 2015),
+nil)
