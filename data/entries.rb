@@ -9355,3 +9355,9 @@ entry!('wang2015petpeeves',
   title('That’s So Annoying!!!: A Lexical and Frame-Semantic Embedding Based Data Augmentation Approach to Automatic Categorization of Annoying Behaviors using \\#petpeeve Tweets'),
   emnlp(2015),
 nil)
+
+entry!('flanigan2014discriminative',
+  acl(2014),
+  title('A discriminative graph-based parser for the abstract meaning representation'),
+  author('Jeffrey Flanigan and Sam Thomson and Jaime G Carbonell and Chris Dyer and Noah A Smith'),
+nil)
