@@ -9361,3 +9361,21 @@ entry!('flanigan2014discriminative',
   title('A discriminative graph-based parser for the abstract meaning representation'),
   author('Jeffrey Flanigan and Sam Thomson and Jaime G Carbonell and Chris Dyer and Noah A Smith'),
 nil)
+
+entry!('neelakantan2016neural',
+  iclr(2016),
+  title('Neural Programmer: Inducing Latent Programs with Gradient Descent'),
+  author('Arvind Neelakantan and Quoc V. Le and Ilya Sutskever'),
+nil)
+
+entry!('yin2016neural',
+  author('Pengcheng Yin and Zhengdong Lu and Hang Li and Ben Kao'),
+  title('Neural Enquirer: Learning to Query Tables with Natural Language'),
+  arxiv(2016),
+nil)
+
+entry!('andreas2016learning',
+  author('Jacob Andreas and Marcus Rohrbach and Trevor Darrell and Dan Klein'),
+  title('Learning to compose neural networks for question answering'),
+  naacl(2016),
+nil)
