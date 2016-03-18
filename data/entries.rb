@@ -1313,6 +1313,12 @@ entry!('wong07synchronous',
   tags('semantic parsing'),
 nil)
 
+entry!('wong07generation',
+  title('Generation by Inverting a Semantic Parser That Uses Statistical Machine Translation'),
+  author('Yuk Wah Wong and Raymond J. Mooney'),
+  hltnaacl(2007), pages(172,179),
+nil)
+
 entry!('chen08sportscast',
   title('Learning to Sportscast: A Test of Grounded Language Acquisition'),
   author('David L. Chen and Raymond J. Mooney'),
@@ -9133,6 +9139,28 @@ entry!('chiachieri2013dictionary',
   type('misc'),
   howpublished('\url{http://www.dictionaryofnumbers.com/}'),
   year(2013),
+nil)
+
+entry!('wolfram2009alpha',
+  title('Wolfram|Alpha'),
+  author('Wolfram Alpha LLC'),
+  type('misc'),
+  howpublished('\url{http://www.wolframalpha.com/}'),
+  year(2009),
+nil)
+
+entry!('jones2009scale',
+  author('M. Gail Jones and Amy R. Taylor'), 
+  title('Developing a sense of scale: Looking backward'),
+  article('Journal of Research in Science Teaching', 2009, 46),
+  pages(460,475),
+nil)
+
+entry!('tretter2006accuracy',
+  author('Thomas R. Tretter and M. Gail Jones and James Minogue'), 
+  title('Accuracy of scale conceptions in science: Mental maneuverings across many orders of spatial magnitude'),
+  article('Journal of Research in Science Teaching', 2006, 43),
+  pages(1061,1085),
 nil)
 
 entry!('roy2015reasoning',
