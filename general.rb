@@ -53,7 +53,10 @@ class Author
   def shortName(name)
     # Abbreviate all but last name, Percy Liang -> P. Liang
     tokens = name.split
-    (0...tokens.size-1).each { |i| tokens[i] = tokens[i][0..0] + "." }
+    (0...tokens.size-1).each { |i|
+      # Don't replace "de" with "d."
+      tokens[i] = tokens[i][0..0] + "." if tokens[i] =~ /^[A-Z]/
+    }
     prepare(tokens).join(' ')
   end
   def lastName(name); prepare(name.split)[-1] end

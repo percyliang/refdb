@@ -5998,9 +5998,8 @@ nil)
 entry!('lasecki2013realtime',
   title("Real-time Crowd Labeling for Deployable Activity Recognition"),
   inproceedings('Conference on Computer Supported Cooperative Work', 2013),
-  author("Walter S Lasecki and Young Chol Song and Henry Kautz and
-               Jeffrey P. Bigham"),
-  pages(1203,1212),
+  author("Walter S Lasecki and Young Chol Song and Henry Kautz and Jeffrey P. Bigham"),
+  pages(1203, 1212),
   year(2013),
 nil)
 
@@ -6587,11 +6586,8 @@ entry!('socher2014grounded',
 nil)
 
 entry!('browne2012monte',
-  title("A survey of {M}onte {C}arlo tree search methods"),
-  author("Cameron B Browne and  Edward Powley and  Daniel Whitehouse and
-                Simon M Lucas and  Peter I Cowling and  Philipp Rohlfshagen and
-                Stephen Tavener and  Diego Perez and  Spyridon Samothrakis and
-                Simon Colton"),
+  title('A survey of {M}onte {C}arlo tree search methods'),
+  author('Cameron B Browne and Edward Powley and Daniel Whitehouse and Simon M Lucas and Peter I Cowling and Philipp Rohlfshagen and Stephen Tavener and Diego Perez and Spyridon Samothrakis and Simon Colton'),
   article('IEEE Transactions on Computational Intelligence and AI in Games', 2012, 4),
   pages(1, 43),
 nil)
