@@ -9158,13 +9158,6 @@ entry!('wolfram2009alpha',
   year(2009),
 nil)
 
-entry!('jones2009scale',
-  author('M. Gail Jones and Amy R. Taylor'), 
-  title('Developing a sense of scale: Looking backward'),
-  article('Journal of Research in Science Teaching', 2009, 46),
-  pages(460,475),
-nil)
-
 entry!('tretter2006accuracy',
   author('Thomas R. Tretter and M. Gail Jones and James Minogue'), 
   title('Accuracy of scale conceptions in science: Mental maneuverings across many orders of spatial magnitude'),
@@ -9306,7 +9299,7 @@ entry!('jones2009scale',
   title('Developing a sense of scale: Looking backward'),
   author('M. Gail Jones and Amy R. Taylor'),
   article('Journal of Research in Science Teaching', 2009, 46),
-  pages(460,475),
+  pages(460, 475),
 nil)
 
 entry!('helmbold2015inductive',
@@ -9415,4 +9408,10 @@ entry!('miller1990empirical',
   number(12),
   pages(32, 44),
   publisher('ACM'),
+nil)
+
+entry!('reed2016neural',
+  iclr(2016),
+  title('Neural Programmer-Interpreters'),
+  author('Scott Reed and Nando de Freitas'),
 nil)
