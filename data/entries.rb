@@ -5787,8 +5787,7 @@ nil)
 entry!('yao2014freebase',
   author('Xuchen Yao and Jonathan Berant and Benjamin Van-Durme'),
   title('{F}reebase {QA}: Information Extraction or Semantic Parsing'),
-  year(2014),
-  inproceedings('Workshop on Semantic parsing',2014),
+  inproceedings('Workshop on Semantic parsing', 2014),
   url('http://aclweb.org/anthology/W14-2416'),
   tags('semantic parsing'),
 nil)
@@ -9100,6 +9099,16 @@ entry!('rubinstein1997discriminative',
   pages(49, 53),
 nil)
 
+entry!('friedman2010regularization',
+  article('Journal of Statistical Software', 2010),
+  publisher('NIH Public Access'),
+  volume(33),
+  number(1),
+  pages(1, 22),
+  title('Regularization paths for generalized linear models via coordinate descent'),
+  author('Jerome Friedman and Trevor Hastie and Rob Tibshirani'),
+nil)
+
 entry!('paulos1988innumeracy',
   author('John Allen Paulos'),
   title('Innumeracy: Mathematical illiteracy and its consequences'),
@@ -9180,36 +9189,221 @@ entry!('markman1988exclusivity',
   title('Children’s Use of Mutual Exclusivity to Constrain the Meanings of Words'),
   author('E.M. Markman and G. F. Wachtel'),
   article('Cognitive Psychology', 1988, 20), pages(125, 157),
-  nil)
+nil)
 
-entry!('goodman2013learning',
-  title('Learning and using language via recursive pragmatic
-reasoning about other agents'),
-  author('N.J. Smith and N.D. Goodman and M.C.Frank'),
+entry!('smith2013pragmatics',
+  title('Learning and using language via recursive pragmatic reasoning about other agents'),
+  author('Nathaniel J. Smith and Noah D. Goodman and Michael C. Frank'),
   nips(2013),
 nil)
 
-entry!('frank2012predicting',
+entry!('frank2012pragmatics',
   title('Predicting Pragmatic Reasoning in Language Games'),
   author('M.C. Frank and N. D. Goodman'),
   article('Science', 2012, 336), pages(998, 998),
-       nil)
+nil)
 
 entry!('frank2014inferring',
-  title('Inferring word meanings by assuming
-that speakers are informative'),
+  title('Inferring word meanings by assuming that speakers are informative'),
   author('M.C. Frank and N. D. Goodman'),
   article('Cognitive Psychology', 2014, 75), pages(80, 96),
-  nil)
+nil)
 
 entry!('wittgenstein1953philosophical',
   title('Philosophical Investigations'),
   author('L. Wittgenstein'),
   book('Blackwell, Oxford', 1953),
-  nil)
+nil)
 
-entry!('kwiatowski2012prob',
-  title('A Probabilistic Model of Syntactic and Semantic Acquisition from Child-Directed Utterances and their Meanings'),
-  author('Kwiatkowski, Tom  and  Goldwater, Sharon  and  Zettlemoyer, Luke  and  Steedman, Mark'),
-  eacl(2012),
-  nil)
+entry!('orabona2015generalized',
+  machineLearning(2015, 99),
+  title('A generalized online mirror descent with applications to classification and regression'),
+  author('Francesco Orabona and Koby Crammer and Nicolo Cesa-Bianchi'),
+  number(3),
+  pages(411, 435),
+  publisher('Springer'),
+nil)
+
+entry!('rakhlin2013online',
+  colt(2013),
+  title('Online Learning with Predictable Sequences'),
+  author('Alexander Rakhlin and Karthik Sridharan'),
+  pages(993, 1019),
+nil)
+
+entry!('thompson1933likelihood',
+  biometrika(1933, 25),
+  title('On the likelihood that one unknown probability exceeds another in view of the evidence of two samples'),
+  author('William R Thompson'),
+  number('3/4'),
+  pages(285, 294),
+  publisher('JSTOR'),
+nil)
+
+entry!('lai1985asymptotically',
+  article('Advances in applied mathematics', 1985, 6),
+  title('Asymptotically efficient adaptive allocation rules'),
+  author('Tze Leung Lai and Herbert Robbins'),
+  number(1),
+  pages(4, 22),
+  publisher('Elsevier'),
+nil)
+
+entry!('auer2002finite',
+  article('Machine learning', 2002, 47),
+  title('Finite-time analysis of the multiarmed bandit problem'),
+  author('Peter Auer and Nicolo Cesa-Bianchi and Paul Fischer'),
+  number('2-3'),
+  pages(235, 256),
+  publisher('Springer'),
+nil)
+
+entry!('agrawal2012analysis',
+  colt(2012),
+  title('Analysis of Thompson Sampling for the Multi-armed Bandit Problem'),
+  author('Shipra Agrawal and Navin Goyal'),
+nil)
+
+entry!('flaxman2005online',
+  soda(2005),
+  title('Online convex optimization in the bandit setting: gradient descent without a gradient'),
+  author('Abraham D Flaxman and Adam Tauman Kalai and H Brendan McMahan'),
+  pages(385, 394),
+nil)
+
+entry!('goodman2015prob',
+  title('Probabilistic Semantics and Pragmatics: Uncertainty in Language and Thought'),
+  author('Noah Goodman and Daniel Lassiter'),
+  book('The Handbook of Contemporary Semantic Theory, 2nd Edition', 2015),
+  publisher('Wiley-Blackwell'),
+nil)
+
+entry!('ireland2011language',
+  article('Psychological Science', 2011, 22),
+  title('Language style matching predicts relationship initiation and stability'),
+  author('Molly E Ireland and Richard B Slatcher and Paul W Eastwick and Lauren E Scissors and Eli J Finkel and James W Pennebaker'),
+  number(1),
+  pages(39, 44),
+  publisher('Sage Publications'),
+  url('http://homepage.psy.utexas.edu/homepage/faculty/pennebaker/reprints/Ireland_et.al_LSM&relationships.pdf'),
+nil)
+
+entry!('giles2008communication',
+  title('Communication accommodation theory'),
+  author('Howard Giles'),
+  book('Sage Publications, Inc', 2008),
+nil)
+
+entry!('kwiatkowski2012probabilistic',
+  acl(2012),
+  title('A probabilistic model of syntactic and semantic acquisition from child-directed utterances and their meanings'),
+  author('Tom Kwiatkowski and Sharon Goldwater and Luke Zettlemoyer and Mark Steedman'),
+  pages(234, 244),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('jones2009scale',
+  title('Developing a sense of scale: Looking backward'),
+  author('M. Gail Jones and Amy R. Taylor'),
+  article('Journal of Research in Science Teaching', 2009, 46),
+  pages(460,475),
+nil)
+
+entry!('helmbold2015inductive',
+  jmlr(2015, 16),
+  author('David P. Helmbold and Philip M. Long'),
+  pages(3403, 3454),
+  title('On the Inductive Bias of Dropout'),
+nil)
+
+entry!('macmahon2006walk',
+  title('Walk the talk: Connecting language, knowledge, and action in route instructions'),
+  author('Matt MacMahon and Brian Stankiewicz and Benjamin Kuipers'),
+  inproceedings('National Conference on Artificial Intelligence', 2006),
+nil)
+
+entry!('vlachos2014new',
+  tacl(2014, 2),
+  title('A New Corpus and Imitation Learning Framework for Context-Dependent Semantic Parsing'),
+  author('Andreas Vlachos and Stephen Clark'),
+  pages(547, 559),
+nil)
+
+entry!('hermann2015read',
+  title('Teaching Machines to Read and Comprehend'),
+  author('Karl Moritz Hermann and Tomáš Kočiský and Edward Grefenstette and Lasse Espeholt and Will Kay and Mustafa Suleyman and Phil Blunsom'),
+  nips(2015),
+nil)
+
+entry!('iyyer2014factoid',
+  emnlp(2014),
+  title('A Neural Network for Factoid Question Answering over Paragraphs'),
+  author('Mohit Iyyer and Jordan Boyd-Graber and Leonardo Claudino and Hal Daumé III'),
+nil)
+
+entry!('kumar2015dmn',
+  arxiv(2015),
+  title('Ask Me Anaything: Dynamic Memory Networks for Natural Language Processing'),
+  author('Ankit Kumar and Ozan Irsoy and Peter Ondruska and Mohit Iyyer and James Bradbury and Ishaan Gulrajani and Victor Zhong and Romain Paulus and Richard Socher'),
+nil)
+
+entry!('monroe2015pragmatics',
+  title('Learning in the {R}ational {S}peech {A}cts Model'),
+  author('Will Monroe  and  Christopher Potts'),
+  inproceedings('Proceedings of 20th {A}msterdam {C}olloquium', 2015),
+nil)
+
+entry!('chiang2005hierarchical',
+  author('David Chiang'),
+  title('A Hierarchical Phrase-Based Model for Statistical Machine Translation'),
+  acl2005,
+  pages(263, 270),
+nil)
+
+entry!('jaitly2013vocal',
+  author('Navdeep Jaitly and Geoffrey E. Hinton'),
+  title('Vocal Tract Length Perturbation (VTLP) improves {s}peech recognition'),
+  icml(2013),
+nil)
+
+entry!('kingma2014variational',
+  author('Diederik P. Kingma and Max Welling'),
+  title('Auto-Encoding Variational {B}ayes'),
+  arxiv(2014),
+nil)
+
+entry!('zhang2015character',
+  author('Xiang Zhang and Junbo Zhao and Yann LeCun'),
+  title('Character-level Convolutional Networks for Text Classification'),
+  nips(2015),
+nil)
+
+entry!('wang2015petpeeves',
+  author('William Y. Wang and Diyi Yang'),
+  title('That’s So Annoying!!!: A Lexical and Frame-Semantic Embedding Based Data Augmentation Approach to Automatic Categorization of Annoying Behaviors using \\#petpeeve Tweets'),
+  emnlp(2015),
+nil)
+
+entry!('flanigan2014discriminative',
+  acl(2014),
+  title('A discriminative graph-based parser for the abstract meaning representation'),
+  author('Jeffrey Flanigan and Sam Thomson and Jaime G Carbonell and Chris Dyer and Noah A Smith'),
+nil)
+
+entry!('neelakantan2016neural',
+  iclr(2016),
+  title('Neural Programmer: Inducing Latent Programs with Gradient Descent'),
+  author('Arvind Neelakantan and Quoc V. Le and Ilya Sutskever'),
+nil)
+
+entry!('yin2016neural',
+  author('Pengcheng Yin and Zhengdong Lu and Hang Li and Ben Kao'),
+  title('Neural Enquirer: Learning to Query Tables with Natural Language'),
+  arxiv(2016),
+nil)
+
+entry!('andreas2016learning',
+  author('Jacob Andreas and Marcus Rohrbach and Trevor Darrell and Dan Klein'),
+  title('Learning to compose neural networks for question answering'),
+  naacl(2016),
+nil)
