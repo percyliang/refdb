@@ -8427,14 +8427,14 @@ entry!('simard1998transformation',
 nil)
 
 entry!('scholkopf1997improving',
-  article('Advances in neural information processing systems', 1997, 9),
+  nips(1997),
   title('Improving the accuracy and speed of support vector machines'),
   pages(375, 381),
   author('Simard P Sch{\"o}lkopf and Patrice Simard and Vladimir Vapnik and AJ Smola'),
 nil)
 
 entry!('abu1990learning',
-  article('Journal of complexity', 1990, 6),
+  article('Journal of Complexity', 1990, 6),
   title('Learning from hints in neural networks'),
   number(2),
   publisher('Elsevier'),
