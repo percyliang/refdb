@@ -9379,3 +9379,12 @@ entry!('andreas2016learning',
   title('Learning to compose neural networks for question answering'),
   naacl(2016),
 nil)
+
+entry!('miller1990empirical',
+  article('Communications of the ACM', 1990, 33),
+  title('An empirical study of the reliability of {UNIX} utilities'),
+  author('Barton P Miller and Louis Fredriksen and Bryan So'),
+  number(12),
+  pages(32, 44),
+  publisher('ACM'),
+nil)
