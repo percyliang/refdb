@@ -9411,3 +9411,9 @@ entry!('reed2016neural',
   title('Neural Programmer-Interpreters'),
   author('Scott Reed and Nando de Freitas'),
 nil)
+
+entry!('lee2014time',
+  author('Kenton Lee and Yoav Artzi and Jesse Dodge and Luke Zettlemoyer'),
+  title('Context-dependent Semantic Parsing for Time Expressions'),
+  acl(2014),
+nil)
