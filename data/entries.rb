@@ -9411,3 +9411,16 @@ entry!('reed2016neural',
   title('Neural Programmer-Interpreters'),
   author('Scott Reed and Nando de Freitas'),
 nil)
+
+entry!('tellex2014asking',
+  rss(2014),
+  title('Asking for help using inverse semantics'),
+  author('Stefanie Tellex and Ross Knepper and Adrian Li and Daniela Rus and Nicholas Roy'),
+nil)
+
+entry!('vogel2013emergence',
+  naacl(2013),
+  title('Emergence of Gricean Maxims from Multi-Agent Decision Theory'),
+  author('Adam Vogel and Max Bodoia and Christopher Potts and Daniel Jurafsky'),
+  pages(1072, 1081),
+nil)
