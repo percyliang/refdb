@@ -9424,3 +9424,9 @@ entry!('vogel2013emergence',
   author('Adam Vogel and Max Bodoia and Christopher Potts and Daniel Jurafsky'),
   pages(1072, 1081),
 nil)
+
+entry!('lee2014time',
+  author('Kenton Lee and Yoav Artzi and Jesse Dodge and Luke Zettlemoyer'),
+  title('Context-dependent Semantic Parsing for Time Expressions'),
+  acl(2014),
+nil)
