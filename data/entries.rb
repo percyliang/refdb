@@ -8419,7 +8419,7 @@ entry!('bishop1995training',
 nil)
 
 entry!('simard1998transformation',
-  title('Transformation invariance in pattern recognition—tangent distance and tangent propagation'),
+  title('Transformation Invariance in Pattern Recognition---Tangent Distance and Tangent Propagation'),
   book('Neural networks: Tricks of the trade', 1998),
   publisher('Springer'),
   pages(239, 274),
