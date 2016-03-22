@@ -4456,7 +4456,7 @@ entry!('frostig2014lowrank',
   author('Roy Frostig and Sida I. Wang and Percy Liang and Chris Manning'),
   nips(2014),
   url('http://cs.stanford.edu/~rfrostig/pubs/lowrank-nips2014.pdf'),
-  experiments('https://www.codalab.org/worksheets/0x106abb3b47be492aa7387f528c943faa'),
+  codalab('0x106abb3b47be492aa7387f528c943faa'),
 nil)
 
 entry!('wang2014iqp',
@@ -5452,6 +5452,7 @@ entry!('berant2015agenda',
   author('Jonathan Berant and Percy Liang'),
   pages(545, 558),
   url('agenda-tacl2015.pdf'),
+  codalab('0x8fdfad310dd84b7baf683b520b4b64d5'),
 nil)
 
 entry!('steinhardt2015relaxed',
@@ -5459,6 +5460,7 @@ entry!('steinhardt2015relaxed',
   title('Learning with Relaxed Supervision'),
   author('Jacob Steinhardt and Percy Liang'),
   url('relaxed-nips2015.pdf'),
+  codalab('0xc9db508bb80446d2b66cbc8e2c74c052'),
 nil)
 
 entry!('wang2015polynomial',
@@ -5466,6 +5468,7 @@ entry!('wang2015polynomial',
   title('Estimating Mixture Models via Mixture of Polynomials'),
   author('Sida I. Wang and Arun Chaganty and Percy Liang'),
   url('polynomial-nips2015.pdf'),
+  codalab('0xca42b883b1f9481989cfb02fe693649f'),
 nil)
 
 entry!('werling2015onthejob',
@@ -5473,6 +5476,7 @@ entry!('werling2015onthejob',
   title('On-the-Job Learning with {B}ayesian Decision Theory'),
   author('Keenon Werling and Arun Chaganty and Percy Liang and Chris Manning'),
   url('onthejob-nips2015.pdf'),
+  codalab('0x2ae89944846444539c2d08a0b7ff3f6f'),
 nil)
 
 entry!('kuleshov2015calibrated',
@@ -5480,6 +5484,7 @@ entry!('kuleshov2015calibrated',
   title('Calibrated Structured Prediction'),
   author('Volodymyr Kuleshov and Percy Liang'),
   url('calibration-nips2015.pdf'),
+  codalab('0xecc9a01cfcbc4cd6b0444a92d259a87c'),
 nil)
 
 entry!('guu2015traversing',
@@ -5488,6 +5493,7 @@ entry!('guu2015traversing',
   author('Kelvin Guu and John Miller and Percy Liang'),
   note('Best paper honorable mention.'),
   url('http://arxiv.org/pdf/1506.01094.pdf'),
+  codalab('0xfcace41fdeec45f3bc6ddf31107b829f'),
 nil)
 
 entry!('pasupat2015compositional',
@@ -5495,6 +5501,7 @@ entry!('pasupat2015compositional',
   title('Compositional Semantic Parsing on Semi-Structured Tables'),
   author('Panupong Pasupat and Percy Liang'),
   url('compositional-acl2015.pdf'),
+  codalab('0xf26cd79d4d734287868923ad1067cf4c'),
 nil)
 
 entry!('wang2015overnight',
@@ -5503,6 +5510,7 @@ entry!('wang2015overnight',
   author('Yushi Wang and Jonathan Berant and Percy Liang'),
   project('http://www-nlp.stanford.edu/software/sempre/'),
   url('overnight-acl2015.pdf'),
+  codalab('0x269ef752f8c344a28383240f7bb2be9c'),
   tags('semantic parsing'),
 nil)
 
@@ -5511,6 +5519,7 @@ entry!('misra2015environment',
   title('Environment-Driven Lexicon Induction for High-Level Instructions'),
   author('Dipendra K. Misra and Kejia Tao and Percy Liang and Ashutosh Saxena'),
   url('environment-acl2015.pdf'),
+  codalab('0x7f9151ec074f4f589e4d4786db7bb6de'),
 nil)
 
 entry!('steinhardt2015rcm',
@@ -5518,6 +5527,7 @@ entry!('steinhardt2015rcm',
   title('Reified Context Models'),
   url('http://arxiv.org/pdf/1502.06665.pdf'),
   icml(2015),
+  codalab('0x8967960a7c644492974871ee60198401'),
 nil)
 
 entry!('steinhardt2015fast',
@@ -5525,6 +5535,7 @@ entry!('steinhardt2015fast',
   title('Learning Fast-Mixing Models for Structured Prediction'),
   url('http://arxiv.org/pdf/1502.06668.pdf'),
   icml(2015), pages(1063, 1072),
+  codalab('0xc6edf0c9bec643ac9e74418bd6ad4136'),
 nil)
 
 entry!('shi2015sample',
@@ -5532,6 +5543,7 @@ entry!('shi2015sample',
   author('Tianlin Shi and Jacob Steinhardt and Percy Liang'),
   title('Learning Where To Sample in Structured Prediction'),
   url('sample-aistats2015.pdf'),
+  codalab('0x66df55eda5054cbf9e173520c7b6ac3d'),
   pages(875, 884),
 nil)
 
@@ -5540,6 +5552,7 @@ entry!('kuleshov2015tensor',
   author('Volodymyr Kuleshov and Arun Chaganty and Percy Liang'),
   title('Tensor factorization via matrix factorization'),
   url('http://arxiv.org/pdf/1501.07320.pdf'),
+  codalab('0x56dc93bcd3a647b197ad6e4b9d56f336'),
 nil)
 
 entry!('liang2015semantics',
