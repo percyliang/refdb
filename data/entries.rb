@@ -9443,3 +9443,18 @@ entry!('lee2014time',
   title('Context-dependent Semantic Parsing for Time Expressions'),
   acl(2014),
 nil)
+
+entry!('wager2016levy',
+  title('Data Augmentation via {L}\\\'evy Processes'),
+  author('Stefan Wager and Will Fithian and Percy Liang'),
+  incollection('Perturbations, Optimization and Statistics', 2016), 
+  url('http://arxiv.org/pdf/1603.06340.pdf'),
+  code('https://github.com/swager/levythin'),
+nil)
+
+entry!('liang2016executable',
+  title('Learning Executable Semantic Parsers for Natural Language Understanding'),
+  article('Communications of the ACM', 2016, 0),
+  url('papers/executable-cacm2016.pdf'),
+  author('Percy Liang'),
+nil)
