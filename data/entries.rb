@@ -9458,3 +9458,16 @@ entry!('liang2016executable',
   url('executable-cacm2016.pdf'),
   author('Percy Liang'),
 nil)
+
+entry!('awasthi2013learning',
+  colt(2013),
+  title('Learning Using Local Membership Queries'),
+  author('Pranjal Awasthi and Vitaly Feldman and Varun Kanade'),
+  pages(398, 431),
+nil)
+
+entry!('sedghi2014provable',
+  arxiv(2014, '1412.2693'),
+  title('Provable methods for training neural networks with sparse connectivity'),
+  author('Hanie Sedghi and Anima Anandkumar'),
+nil)
