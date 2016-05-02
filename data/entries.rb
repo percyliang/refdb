@@ -9495,3 +9495,11 @@ entry!('hinton2012speech',
   pages(82, 97),
   publisher('IEEE'),
 nil)
+
+entry!('klivans2006cryptographic',
+  focs(2006),
+  title('Cryptographic hardness for learning intersections of halfspaces'),
+  author('Adam R Klivans and Alexander A Sherstov'),
+  pages(553, 562),
+  organization('IEEE'),
+nil)
