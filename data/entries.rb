@@ -9471,3 +9471,17 @@ entry!('sedghi2014provable',
   title('Provable methods for training neural networks with sparse connectivity'),
   author('Hanie Sedghi and Anima Anandkumar'),
 nil)
+
+entry!('bottou2012stochastic',
+  title('Stochastic gradient descent tricks'),
+  author('Léon Bottou'),
+  inproceedings('Neural Networks: Tricks of the Trade', 2012),
+  pages(421, 436),
+  publisher('Springer'),
+nil)
+
+entry!('zhang2015l1',
+  arxiv(2015, '1510.03528'),
+  title('$\ell_1$-regularized Neural Networks are Improperly Learnable in Polynomial Time'),
+  author('Yuchen Zhang and Jason D Lee and Michael I Jordan'),
+nil)
