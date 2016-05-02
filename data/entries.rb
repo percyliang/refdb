@@ -9520,3 +9520,10 @@ entry!('hasenjager2002active',
   pages(137, 169),
   publisher('Springer'),
 nil)
+
+entry!('wright2012sparse',
+  jmlr(2012, 1),
+  title('Exact Recovery of Sparsely-Used Dictionaries'),
+  author('John Wright'),
+  pages(1, 35),
+nil)
