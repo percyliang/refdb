@@ -9503,3 +9503,20 @@ entry!('klivans2006cryptographic',
   pages(553, 562),
   organization('IEEE'),
 nil)
+
+entry!('fukumizu2000statistical',
+  article('IEEE Transactions on Neural Networks', 2000, 11),
+  title('Statistical active learning in multilayer perceptrons'),
+  author('Kenji Fukumizu'),
+  number(1),
+  pages(17, 26),
+  publisher('IEEE'),
+nil)
+
+entry!('hasenjager2002active',
+  title('Active learning in neural networks'),
+  author('M Hasenjäger and H Ritter'),
+  inproceedings('New learning paradigms in soft computing', 2002),
+  pages(137, 169),
+  publisher('Springer'),
+nil)
