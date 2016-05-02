@@ -9351,6 +9351,7 @@ nil)
 
 entry!('monroe2015pragmatics',
   title('Learning in the {R}ational {S}peech {A}cts Model'),
+  unusualCapitalization('Rational', 'Speech', 'Acts'),
   author('Will Monroe  and  Christopher Potts'),
   inproceedings('Proceedings of 20th {A}msterdam {C}olloquium', 2015),
 nil)
@@ -9484,4 +9485,13 @@ entry!('zhang2015l1',
   arxiv(2015, '1510.03528'),
   title('$\ell_1$-regularized Neural Networks are Improperly Learnable in Polynomial Time'),
   author('Yuchen Zhang and Jason D Lee and Michael I Jordan'),
+nil)
+
+entry!('hinton2012speech',
+  article('Signal Processing Magazine, IEEE', 2012, 29),
+  title('Deep neural networks for acoustic modeling in speech recognition: The shared views of four research groups'),
+  author('Geoffrey Hinton and Li Deng and Dong Yu and George E Dahl and Abdel-rahman Mohamed and Navdeep Jaitly and Andrew Senior and Vincent Vanhoucke and Patrick Nguyen and Tara N Sainath and others'),
+  number(6),
+  pages(82, 97),
+  publisher('IEEE'),
 nil)
