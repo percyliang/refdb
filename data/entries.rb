@@ -9527,3 +9527,9 @@ entry!('wright2012sparse',
   author('John Wright'),
   pages(1, 35),
 nil)
+
+entry!('cote2012chernoff',
+  arxiv(2012, '1202.6483'),
+  title('A Chernoff-type lower bound for the {G}aussian {Q}-function'),
+  author('François D Côté and Ioannis N Psaromiligkos and Warren J Gross'),
+nil)
