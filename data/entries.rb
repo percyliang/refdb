@@ -9539,3 +9539,9 @@ entry!('maas2013rectifier',
   title('Rectifier nonlinearities improve neural network acoustic models'),
   author('Andrew L Maas and Awni Y Hannun and Andrew Y Ng'),
 nil)
+
+entry!('janzamin2015score',
+  iclr(2015),
+  title('Score Function Features for Discriminative Learning'),
+  author('Majid Janzamin and Hanie Sedghi and Anima Anandkumar'),
+nil)
