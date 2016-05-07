@@ -9533,3 +9533,9 @@ entry!('cote2012chernoff',
   title('A Chernoff-type lower bound for the {G}aussian {Q}-function'),
   author('François D Côté and Ioannis N Psaromiligkos and Warren J Gross'),
 nil)
+
+entry!('maas2013rectifier',
+  icml(2013),
+  title('Rectifier nonlinearities improve neural network acoustic models'),
+  author('Andrew L Maas and Awni Y Hannun and Andrew Y Ng'),
+nil)
