@@ -9545,3 +9545,10 @@ entry!('janzamin2015score',
   title('Score Function Features for Discriminative Learning'),
   author('Majid Janzamin and Hanie Sedghi and Anima Anandkumar'),
 nil)
+
+entry!('glorot2011deep',
+  aistats(2011),
+  title('Deep sparse rectifier neural networks'),
+  author('Xavier Glorot and Antoine Bordes and Yoshua Bengio'),
+  pages(315, 323),
+nil)
