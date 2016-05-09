@@ -5257,7 +5257,7 @@ entry!('halko2011structure',
   pages(217,288),
   title("Finding Structure with Randomness: Probabilistic Algorithms for
               Constructing Approximate Matrix Decompositions"),
-  author("Halko, N and Martinsson, P and Tropp, J"),
+  author("N. Halko and {P.-G.} Martinsson and J. Tropp"),
 nil)
 
 entry!('zhang2014crowdsourcing',
