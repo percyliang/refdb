@@ -9568,3 +9568,87 @@ entry!('lee2001algorithms',
   author('Daniel D. Lee and Sebastian H. Seung'),
   nips(2001), pages(556, 562),
 nil)
+
+entry!('karger2014budget',
+  title('Budget-optimal task allocation for reliable crowdsourcing systems'),
+  author('David R. Karger and Sewoong Oh and Devavrat Shah'),
+  article('Operations Research', 2014),
+  volume(62),
+  number(1),
+  pages(1,24),
+  publisher('{INFORMS}'),
+nil)
+
+entry!('shah2015approval',
+  title('Approval Voting and Incentives in Crowdsourcing'),
+  author('Nihar Shah and Dengyong Zhou and Yuval Peres'),
+  icml(2015),
+nil)
+
+entry!('shah2015double',
+  title('Double or nothing: Multiplicative incentive mechanisms for crowdsourcing'),
+  author('Nihar B. Shah and Denny Zhou'),
+  nips(2015),
+nil)
+
+entry!('zhou2015regularized',
+  title('Regularized minimax conditional entropy for crowdsourcing'),
+  author('Dengyong Zhou and Qiang Liu and John C. Platt and Christopher Meek and Nihar B. Shah'),
+  arxiv(2015),
+nil)
+
+entry!('kamble2015truth',
+  title('Truth Serums for Massively Crowdsourced Evaluation Tasks'),
+  author('Vijay Kamble and Nihar Shah and David Marn and Abhay Parekh and Kannan Ramachandran'),
+  arxiv(2015),
+nil)
+
+entry!('miller2005eliciting',
+  title('Eliciting informative feedback: The peer-prediction method'),
+  author('Nolan Miller and Paul Resnick and Richard Zeckhauser'),
+  article('Management Science', 2005),
+  volume(51), number(9), pages(1359, 1373),
+  publisher('{INFORMS}'),
+nil)
+
+entry!('shnayder2016strong',
+  title('Strong Truthfulness in Multi-Task Peer Prediction'),
+  author('Victor Shnayder and Rafael Frongillo and Arpit Agarwal and David C. Parkes'),
+  year(2016),
+nil)
+
+entry!('dasgupta2013crowdsourced',
+  title('Crowdsourced judgement elicitation with endogenous proficiency'),
+  author('Anirban Dasgupta and Arpita Ghosh'),
+  www(2013), pages(319,330),
+nil)
+
+entry!('harmon2004amazon',
+  title('Amazon Glitch Unmasks War Of Reviewers'),
+  author('Amy Harmon'),
+  article('New York Times', 2004),
+nil)
+
+entry!('white1999chatting',
+  title('Chatting a singer up the pop charts'),
+  author('Erin White'),
+  article('Wall Street Journal', 1999),
+nil)
+
+entry!('mayzlin2006promotional',
+  title('Promotional chat on the Internet'),
+  author('Dina Mayzlin'),
+  article('Marketing Science', 2006),
+  volume(25),
+  number(2),
+  pages(155,163),
+  publisher('{INFORMS}'),
+nil)
+
+entry!('dellarocas2006strategic',
+  title('Strategic manipulation of internet opinion forums: Implications for consumers and firms'),
+  author('Chrysanthos Dellarocas'),
+  article('Management science', 2006),
+  volume(52), number(10), pages(1577,1593),
+  publisher('{INFORMS}'),
+nil)
