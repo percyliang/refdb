@@ -9562,3 +9562,9 @@ entry!('vapnik1971uniform',
   pages(264,279),
   publisher('Russian Academy of Sciences, Branch of Mathematical Sciences'),
 nil)
+
+entry!('lee2001algorithms',
+  title('Algorithms for non-negative matrix factorization'),
+  author('Daniel D. Lee and Sebastian H. Seung'),
+  nips(2001), pages(556, 562),
+nil)
