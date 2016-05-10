@@ -9552,3 +9552,13 @@ entry!('glorot2011deep',
   author('Xavier Glorot and Antoine Bordes and Yoshua Bengio'),
   pages(315, 323),
 nil)
+
+entry!('vapnik1971uniform',
+  title('On uniform convergence of the frequencies of events to their probabilities'),
+  author('Vladimir N. Vapnik and Aleksei Y. Chervonenkis'),
+  article('Teoriya Veroyatnostei i ee Primeneniya', 1971),
+  volume(16),
+  number(2),
+  pages(264,279),
+  publisher('Russian Academy of Sciences, Branch of Mathematical Sciences'),
+nil)
