@@ -9612,6 +9612,7 @@ entry!('miller2005eliciting',
 nil)
 
 entry!('shnayder2016strong',
+  type('misc'),
   title('Strong Truthfulness in Multi-Task Peer Prediction'),
   author('Victor Shnayder and Rafael Frongillo and Arpit Agarwal and David C. Parkes'),
   year(2016),
@@ -9652,3 +9653,24 @@ entry!('dellarocas2006strategic',
   volume(52), number(10), pages(1577,1593),
   publisher('{INFORMS}'),
 nil)
+
+entry!('resnick2007influence',
+  title('The influence limiter: provably manipulation-resistant recommender systems'),
+  author('Paul Resnick and Rahul Sami'),
+  inproceedings('ACM Conference on Recommender Systems', 2007),
+  pages(25,32),
+nil)
+
+entry!('piech2013tuned',
+  title('Tuned models of peer assessment in {MOOC}s'),
+  author('Chris Piech and Jonathan Huang and Zhenghao Chen and Chuong Do and Andrew Ng and Daphne Koller'),
+  arxiv(2013),
+nil)
+
+entry!('priedhorsky2007creating',
+  title('Creating, destroying, and restoring value in {W}ikipedia'),
+  author('Reid Priedhorsky and Jilin Chen and Shyong T. K. Lam and Katherine Panciera and Loren Terveen and John Riedl'),
+  inproceedings('International {ACM} Conference on Supporting Group Work', 2007),
+  pages(259,268),
+nil)
+
