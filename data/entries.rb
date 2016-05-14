@@ -9679,3 +9679,16 @@ entry!('kulkarni2015peer',
   author('Chinmay Kulkarni and Pang Wei Koh and Huy Huy and Daniel Chia and Kathryn Papadopoulos and Justin Cheng and Daphne Koller and Scott R. Klemmer'),
   article('Design Thinking Research', 2015), pages(131, 168), publisher('Springer'),
 nil)
+
+entry!('andreas2014grounding',
+  conll(2014),
+  title('Grounding Language with Points and Paths in Continuous Spaces'),
+  author('Jacob Andreas and Dan Klein'),
+  pages(58, 67),
+nil)
+
+entry!('andreas2015alignment',
+  emnlp(2015),
+  title('Alignment-Based Compositional Semantics for Instruction Following'),
+  author('Jacob Andreas and Dan Klein'),
+nil)
