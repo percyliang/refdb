@@ -9679,3 +9679,182 @@ entry!('kulkarni2015peer',
   author('Chinmay Kulkarni and Pang Wei Koh and Huy Huy and Daniel Chia and Kathryn Papadopoulos and Justin Cheng and Daphne Koller and Scott R. Klemmer'),
   article('Design Thinking Research', 2015), pages(131, 168), publisher('Springer'),
 nil)
+
+entry!('vuurens2011spam',
+  title('How much spam can you take? {A}n analysis of crowdsourcing results to increase accuracy'),
+  author('Jeroen Vuurens and Arjen P. de Vries and Carsten Eickhoff'),
+  article('ACM SIGIR Workshop on Crowdsourcing for Information Retrieval', 2011),
+nil)
+
+entry!('chen2014improved',
+  title('Improved graph clustering'),
+  author('Yudong Chen and Sujay Sanghavi and Huan Xu'),
+  article('IEEE Transactions on Information Theory', 2014),
+  volume(60),number(10), pages(6440,6455), publisher('IEEE'),
+nil)
+
+entry!('condon2001algorithms',
+  title('Algorithms for graph partitioning on the planted partition model'),
+  author('Anne Condon and Richard M. Karp'),
+  article('Random Structures and Algorithms', 2001),
+  pages(116, 140),
+nil)
+
+entry!('holland1983stochastic',
+  title('Stochastic blockmodels: Some first steps'),
+  author('Paul W. Holland and Kathryn B. Laskey and Samuel Leinhardt'),
+  article('Social Networks', 1983), volume(5), pages(109, 137),
+nil)
+
+entry!('coja2004coloring',
+  title('Coloring semirandom graphs optimally'),
+  author('Amin Coja-Oghlan'),
+  article('Automata, Languages and Programming', 2004),
+  pages(71, 100),
+nil)
+
+entry!('feige2001heuristics',
+  title('Heuristics for semirandom graph problems'),
+  author('Uriel Feige and Joe Kilian'),
+  article('Journal of Computer and System Sciences', 2001),
+  volume(63), number(4), pages(639, 671), 
+nil)
+
+entry!('feige2000finding',
+  title('Finding and certifying a large hidden clique in a semirandom graph'),
+  author('Uriel Feige and Robert Krauthgamer'),
+  article('Random Structures and Algorithms', 2000), volume(16), number(2), pages(195, 208),
+nil)
+
+entry!('makarychev2012approximation',
+  title('Approximation algorithms for semi-random partitioning problems'),
+  author('Konstantin Makarychev and Yury Makarychev and Aravindan Vijayaraghavan'),
+  stoc(2012), pages(367, 384), 
+nil)
+
+entry!('krivelevich2006semirandom',
+  title('Semirandom models as benchmarks for coloring algorithms'),
+  author('Michael Krivelevich and Dan Vilenchik'),
+  inproceedings('Meeting on Analytic Algorithmics and Combinatorics', 2006), pages(211, 221),
+nil)
+
+entry!('coja2002coloring',
+  title('Coloring k-colorable semirandom graphs in polynomial expected time via semidefinite programming'),
+  author('Amin Coja-Oghlan'),
+  article('Mathematical Foundations of Computer Science', 2002),
+  pages(201,211),
+  publisher('Springer'),
+nil)
+
+entry!('coja2002finding',
+  title('Finding sparse induced subgraphs of semirandom graphs'),
+  author('Amin Coja-Oghlan'),
+  article('Randomization and Approximation Techniques in Computer Science', 2002),
+  pages(139,148),
+  publisher('Springer'),
+nil)
+
+entry!('coja2007solving',
+  title('Solving {NP}-hard semirandom graph problems in polynomial expected time'),
+  author('Amin Coja-Oghlan'),
+  article('Journal of Algorithms', 2007),
+  volume(62), number(1), pages(19, 46), 
+nil)
+
+entry!('kolla2011play',
+  title('How to play unique games against a semi-random adversary: {S}tudy of semi-random models of unique games'),
+  author('Alexandra Kolla and Konstantin Makarychev and Yury Makarychev'),
+  focs(2011),
+  pages(443,452),
+nil)
+
+entry!('mossel2013proof',
+  title('A proof of the block model threshold conjecture'),
+  author('Elchanan Mossel and Joe Neeman and Allan Sly'),
+  arxiv(2013),
+nil)
+
+entry!('massoulie2014community',
+  title('Community detection thresholds and the weak {R}amanujan property'),
+  author('Laurent Massouli{\\\'e}'),
+  stoc(2014), pages(694, 703),
+nil)
+
+entry!('guedon2014community',
+  title('Community detection in sparse networks via {G}rothendieck\'s inequality'),
+  author('Olivier Gu{\\\'e}don and Roman Vershynin'),
+  arxiv(2014),
+nil)
+
+entry!('abbe2015community',
+  title('Community detection in general stochastic block models: fundamental limits and efficient recovery algorithms'),
+  author('Emmanuel Abbe and Colin Sandon'),
+  arxiv(2015),
+nil)
+
+entry!('chin2015stochastic',
+  title('Stochastic block model and community detection in the sparse graphs: {A} spectral algorithm with optimal rate of recovery'),
+  author('Peter Chin and Anup Rao and Van Vu'),
+  colt(2015),
+nil)
+
+entry!('decelle2011asymptotic',
+  title('Asymptotic analysis of the stochastic block model for modular networks and its algorithmic applications'),
+  author('Aurelien Decelle and Florent Krzakala and Cristopher Moore and Lenka Zdeborov{\\\'a}'),
+  article('Physical Review E', 2011), volume(84), number(6),
+nil)
+
+entry!('mossel2012stochastic',
+  title('Stochastic block models and reconstruction'),
+  author('Elchanan Mossel and Joe Neeman and Allan Sly'),
+  arxiv(2012),
+nil)
+
+entry!('mossel2013belief',
+  title('Belief propagation, robust reconstruction, and optimal recovery of block models'),
+  author('Elchanan Mossel and Joe Neeman and Allan Sly'),
+  arxiv(2013),
+nil)
+
+entry!('mossel2015consistency',
+  title('Consistency thresholds for the planted bisection model'),
+  author('Elchanan Mossel and Joe Neeman and Allan Sly'),
+  stoc(2015), pages(69, 75),
+nil)
+
+entry!('moitra2015robust',
+  title('How Robust are Reconstruction Thresholds for Community Detection?'),
+  author('Ankur Moitra and William Perry and Alexander S. Wein'),
+  arxiv(2015),
+nil)
+
+entry!('agarwal2015multisection',
+  title('Multisection in the stochastic block model using semidefinite programming'),
+  author('Naman Agarwal and Afonso S. Bandeira and Konstantinos Koiliaris and Alexandra Kolla'),
+  arxiv(2015),
+nil)
+
+entry!('makarychev2015learning',
+  title('Learning Communities in the Presence of Errors'),
+  author('Konstantin Makarychev and Yury Makarychev and Aravindan Vijayaraghavan'),
+  arxiv(2015),
+nil)
+
+entry!('cai2015robust',
+  title('Robust and computationally feasible community detection in the presence of arbitrary outlier nodes'),
+  author('T. Tony Cai and Xiaodong Li'),
+  article('The Annals of Statistics', 2015),
+  volume(43), number(3), pages(1027, 1059),
+nil)
+
+entry!('christiano2014provably',
+  title('Provably Manipulation-Resistant Reputation Systems'),
+  author('Paul Christiano'),
+  arxiv(2014),
+nil)
+
+entry!('christiano2016robust',
+  title('Robust Collaborative Online Learning'),
+  author('Paul Christiano'),
+  arxiv(2016),
+nil)
