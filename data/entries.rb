@@ -9692,3 +9692,11 @@ entry!('andreas2015alignment',
   title('Alignment-Based Compositional Semantics for Instruction Following'),
   author('Jacob Andreas and Dan Klein'),
 nil)
+
+entry!('heider1944experimental',
+  article('American Journal of Psychology', 1944, 57),
+  title('An experimental study of apparent behavior'),
+  author('Fritz Heider and Marianne Simmel'),
+  number(2),
+  pages(243, 259),
+nil)
