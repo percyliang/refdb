@@ -9858,3 +9858,33 @@ entry!('christiano2016robust',
   author('Paul Christiano'),
   arxiv(2016),
 nil)
+
+entry!('andreas2014grounding',
+  conll(2014),
+  title('Grounding Language with Points and Paths in Continuous Spaces'),
+  author('Jacob Andreas and Dan Klein'),
+  pages(58, 67),
+nil)
+
+entry!('andreas2015alignment',
+  emnlp(2015),
+  title('Alignment-Based Compositional Semantics for Instruction Following'),
+  author('Jacob Andreas and Dan Klein'),
+nil)
+
+entry!('heider1944experimental',
+  article('American Journal of Psychology', 1944, 57),
+  title('An experimental study of apparent behavior'),
+  author('Fritz Heider and Marianne Simmel'),
+  number(2),
+  pages(243, 259),
+nil)
+
+entry!('dorazio2010review',
+  article('Pattern recognition', 2010, 43),
+  title('A review of vision-based systems for soccer video analysis'),
+  author('Tiziana D\'Orazio and Marco Leo'),
+  number(8),
+  pages(2911, 2926),
+  publisher('Elsevier'),
+nil)
