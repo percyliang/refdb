@@ -9674,3 +9674,8 @@ entry!('priedhorsky2007creating',
   pages(259,268),
 nil)
 
+entry!('kulkarni2015peer',
+  title('Peer and self assessment in massive online classes'),
+  author('Chinmay Kulkarni and Pang Wei Koh and Huy Huy and Daniel Chia and Kathryn Papadopoulos and Justin Cheng and Daphne Koller and Scott R. Klemmer'),
+  article('Design Thinking Research', 2015), pages(131, 168), publisher('Springer'),
+nil)
