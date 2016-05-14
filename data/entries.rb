@@ -9701,10 +9701,10 @@ entry!('heider1944experimental',
   pages(243, 259),
 nil)
 
-entry!('d2010review',
+entry!('dorazio2010review',
   article('Pattern recognition', 2010, 43),
   title('A review of vision-based systems for soccer video analysis'),
-  author('Tiziana D’Orazio and Marco Leo'),
+  author('Tiziana D\'Orazio and Marco Leo'),
   number(8),
   pages(2911, 2926),
   publisher('Elsevier'),
