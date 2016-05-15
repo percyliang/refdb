@@ -9682,6 +9682,7 @@ nil)
 
 entry!('vuurens2011spam',
   title('How much spam can you take? {A}n analysis of crowdsourcing results to increase accuracy'),
+  unusualCapitalization('An'),
   author('Jeroen Vuurens and Arjen P. de Vries and Carsten Eickhoff'),
   article('ACM SIGIR Workshop on Crowdsourcing for Information Retrieval', 2011),
 nil)
@@ -9739,7 +9740,7 @@ entry!('krivelevich2006semirandom',
 nil)
 
 entry!('coja2002coloring',
-  title('Coloring k-colorable semirandom graphs in polynomial expected time via semidefinite programming'),
+  title('Coloring {K}-colorable semirandom graphs in polynomial expected time via semidefinite programming'),
   author('Amin Coja-Oghlan'),
   article('Mathematical Foundations of Computer Science', 2002),
   pages(201,211),
@@ -9762,7 +9763,7 @@ entry!('coja2007solving',
 nil)
 
 entry!('kolla2011play',
-  title('How to play unique games against a semi-random adversary: {S}tudy of semi-random models of unique games'),
+  title('How to play unique games against a semi-random adversary: Study of semi-random models of unique games'),
   author('Alexandra Kolla and Konstantin Makarychev and Yury Makarychev'),
   focs(2011),
   pages(443,452),
@@ -9793,7 +9794,7 @@ entry!('abbe2015community',
 nil)
 
 entry!('chin2015stochastic',
-  title('Stochastic block model and community detection in the sparse graphs: {A} spectral algorithm with optimal rate of recovery'),
+  title('Stochastic block model and community detection in the sparse graphs: A spectral algorithm with optimal rate of recovery'),
   author('Peter Chin and Anup Rao and Van Vu'),
   colt(2015),
 nil)
@@ -9887,4 +9888,34 @@ entry!('dorazio2010review',
   number(8),
   pages(2911, 2926),
   publisher('Elsevier'),
+nil)
+
+entry!('regier2001grounding',
+  article('Journal of experimental psychology: General', 2001, 130),
+  title('Grounding spatial language in perception: An empirical and computational investigation'),
+  author('Terry Regier and Laura A Carlson'),
+  number(2),
+  publisher('American Psychological Association'),
+nil)
+
+entry!('gorniak2004grounded',
+  jair(2004, 21),
+  title('Grounded semantic composition for visual scenes'),
+  author('Peter Gorniak and Deb Roy'),
+  pages(429, 470),
+nil)
+
+entry!('tellex2009grounding',
+  inproceedings('International Conference on Multimodal Interfaces (ICMI)', 2009),
+  title('Grounding spatial prepositions for video search'),
+  author('Stefanie Tellex and Deb Roy'),
+  pages(253, 260),
+  organization('ACM'),
+nil)
+
+entry!('goodman2014concepts',
+  title('Concepts in a probabilistic language of thought'),
+  author('Noah D Goodman and Joshua B Tenenbaum and Tobias Gerstenberg'),
+  inproceedings('The Conceptual Mind: New Directions in the Study of Concepts', 2014),
+  editor('Morgolis & Lawrence'),
 nil)
