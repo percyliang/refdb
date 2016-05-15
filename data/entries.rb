@@ -9939,3 +9939,9 @@ entry!('narayanan1997knowledge',
   author('Srinivas Sankara Narayanan'),
   phdthesis('University of California Berkeley at Berkeley', 1997),
 nil)
+
+entry!('lakoff2008metaphors',
+  title('Metaphors we live by'),
+  author('George Lakoff and Mark Johnson'),
+  book('University of Chicago Press', 2008),
+nil)
