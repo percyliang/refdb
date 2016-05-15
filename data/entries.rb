@@ -9919,3 +9919,17 @@ entry!('goodman2014concepts',
   inproceedings('The Conceptual Mind: New Directions in the Study of Concepts', 2014),
   editor('Morgolis & Lawrence'),
 nil)
+
+entry!('kemp2007learning',
+  nips(2007),
+  title('Learning and using relational theories'),
+  author('Charles Kemp and Noah Goodman and Joshua B Tenenbaum'),
+  pages(753, 760),
+nil)
+
+entry!('lake2013one',
+  nips(2013),
+  title('One-shot learning by inverting a compositional causal process'),
+  author('Brenden M Lake and Ruslan R Salakhutdinov and Josh Tenenbaum'),
+  pages(2526, 2534),
+nil)
