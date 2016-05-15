@@ -9933,3 +9933,9 @@ entry!('lake2013one',
   author('Brenden M Lake and Ruslan R Salakhutdinov and Josh Tenenbaum'),
   pages(2526, 2534),
 nil)
+
+entry!('narayanan1997knowledge',
+  title('Knowledge-based Action Representations for Metaphor and Aspect (KARMA)'),
+  author('Srinivas Sankara Narayanan'),
+  phdthesis('University of California Berkeley at Berkeley', 1997),
+nil)
