@@ -8740,6 +8740,12 @@ entry!('balasubramanian2011unsupervised',
   jmlr(2011, 12), pages(3119, 3145),
 nil)
 
+entry!('donmez2010unsupervised',
+  title('Unsupervised supervised learning {I}: Estimating classification and regression errors without labels'),
+  author('Pinar Donmez and Guy Lebanon and Krishnakumar Balasubramanian'),
+  jmlr(2010, 11), pages(1323, 1351),
+nil)
+
 entry!('cozman2006risks',
   title('Risks of Semi-Supervised Learning: How Unlabeled Data Can Degrade Performance of Generative Classifiers'),
   author('Fabio Cozman and Ira Cohen'),
@@ -9239,7 +9245,6 @@ entry!('thompson1933likelihood',
   author('William R Thompson'),
   number('3/4'),
   pages(285, 294),
-  publisher('JSTOR'),
 nil)
 
 entry!('lai1985asymptotically',
@@ -9945,3 +9950,38 @@ entry!('lakoff2008metaphors',
   author('George Lakoff and Mark Johnson'),
   book('University of Chicago Press', 2008),
 nil)
+
+entry!('hansen2014uncertainty',
+  title('Uncertainty Outside and Inside Economic Models'),
+  author('Lars Peter Hansen'),
+  article('Journal of Political Economy', 2014),
+  volume(122), number(5),
+  pages(945, 987),
+nil)
+
+entry!('anderson1949estimation',
+  title('Estimation of the parameters of a single equation in a complete system of stochastic equations'),
+  author('Theodore W. Anderson and Herman Rubin'),
+  article('The Annals of Mathematical Statistics', 1949),
+  pages(46, 63), 
+nil)
+
+entry!('anderson1950asymptotic',
+  title('The asymptotic properties of estimates of the parameters of a single equation in a complete system of stochastic equations'),
+  author('Theodore W. Anderson and Herman Rubin'),
+  article('The Annals of Mathematical Statistics', 1950), pages(570,582),
+nil)
+
+entry!('sargan1958estimation',
+  title('The estimation of economic relationships using instrumental variables'),
+  author('John D. Sargan'),
+  article('Econometrica', 1958), pages(393, 415),
+nil)
+
+entry!('sargan1959estimation',
+  title('The estimation of relationships with autocorrelated residuals by the use of instrumental variables'),
+  author('John D. Sargan'),
+  article('Journal of the Royal Statistical Society: Series B (Statistical Methodology)', 1959),
+  pages(91,105),
+nil)
+
