@@ -9985,3 +9985,10 @@ entry!('sargan1959estimation',
   pages(91,105),
 nil)
 
+
+entry!('karpathy2015deep',
+  cvpr(2015),
+  title('Deep visual-semantic alignments for generating image descriptions'),
+  author('Andrej Karpathy and Li Fei-Fei'),
+  pages(3128, 3137),
+nil)
