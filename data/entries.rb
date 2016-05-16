@@ -9992,3 +9992,10 @@ entry!('karpathy2015deep',
   author('Andrej Karpathy and Li Fei-Fei'),
   pages(3128, 3137),
 nil)
+
+entry!('antol2015vqa',
+  iccv(2015),
+  title('VQA: Visual question answering'),
+  author('Stanislaw Antol and Aishwarya Agrawal and Jiasen Lu and Margaret Mitchell and Dhruv Batra and C Lawrence Zitnick and Devi Parikh'),
+  pages(2425, 2433),
+nil)
