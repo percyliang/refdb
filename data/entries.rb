@@ -9991,3 +9991,17 @@ entry!('chegireddy1987algorithms',
   article('Discrete applied mathematics', 1987),
   volume(18), number(2), pages(155, 165),
 nil)
+
+entry!('karpathy2015deep',
+  cvpr(2015),
+  title('Deep visual-semantic alignments for generating image descriptions'),
+  author('Andrej Karpathy and Li Fei-Fei'),
+  pages(3128, 3137),
+nil)
+
+entry!('antol2015vqa',
+  iccv(2015),
+  title('VQA: Visual question answering'),
+  author('Stanislaw Antol and Aishwarya Agrawal and Jiasen Lu and Margaret Mitchell and Dhruv Batra and C Lawrence Zitnick and Devi Parikh'),
+  pages(2425, 2433),
+nil)
