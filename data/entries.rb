@@ -9985,3 +9985,9 @@ entry!('sargan1959estimation',
   pages(91,105),
 nil)
 
+entry!('chegireddy1987algorithms',
+  title('Algorithms for finding {k}-best perfect matchings'),
+  author('Chandra R. Chegireddy and Horst W. Hamacher'),
+  article('Discrete applied mathematics', 1987),
+  volume(18), number(2), pages(155, 165),
+nil)
