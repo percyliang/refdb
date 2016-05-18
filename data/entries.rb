@@ -10005,3 +10005,11 @@ entry!('antol2015vqa',
   author('Stanislaw Antol and Aishwarya Agrawal and Jiasen Lu and Margaret Mitchell and Dhruv Batra and C Lawrence Zitnick and Devi Parikh'),
   pages(2425, 2433),
 nil)
+
+entry!('shirakawan2015ngramidf',
+  title('{N}-gram IDF: A Global Term Weighting Scheme Based on Information Distance'),
+  author('Masumi Shirakawa and Takahiro Hara and Shojiro Nishio'),
+  www(2015),
+  pages(960, 970),
+nil)
+
