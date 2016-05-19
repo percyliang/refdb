@@ -10048,3 +10048,11 @@ entry!('tortorella2000optimal',
   pages(611, 620),
   publisher('Springer'),
 nil)
+
+entry!('hanneke2007bound',
+  icml(2007),
+  title('A bound on the label complexity of agnostic active learning'),
+  author('Steve Hanneke'),
+  pages(353, 360),
+  organization('ACM'),
+nil)
