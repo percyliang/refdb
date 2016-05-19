@@ -10019,3 +10019,9 @@ entry!('cartis2009finding',
   title('Finding a point in the relative interior of a polyhedron, with applications to compressed sensing'),
   author('Coralia Cartis and Gould Nicholas IM'),
 nil)
+
+entry!('le2015concentration',
+ author('Can M. Le and Roman Vershynin'),
+ title('Concentration and Regularization of Random Graphs'),
+ arxiv(2015),
+nil)
