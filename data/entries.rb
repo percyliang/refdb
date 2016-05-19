@@ -10056,3 +10056,11 @@ entry!('hanneke2007bound',
   pages(353, 360),
   organization('ACM'),
 nil)
+
+entry!('nelson2009misleading',
+  title('Misleading learners: Co-opting your spam filter'),
+  author('Blaine Nelson and Marco Barreno and Fuching Jack Chi and Anthony D Joseph and Benjamin IP Rubinstein and Udam Saini and Charles Sutton and JD Tygar and Kai Xia'),
+  inproceedings('Machine learning in cyber trust', 2009),
+  pages(17, 51),
+  publisher('Springer'),
+nil)
