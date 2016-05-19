@@ -10025,3 +10025,26 @@ entry!('le2015concentration',
  title('Concentration and Regularization of Random Graphs'),
  arxiv(2015),
 nil)
+
+entry!('balsubramani2016learning',
+  arxiv(2016, '1602.08151'),
+  title('Learning to Abstain from Binary Prediction'),
+  author('Akshay Balsubramani'),
+nil)
+
+entry!('chow1970optimum',
+  article('IEEE Transactions on Information Theory', 1970, 16),
+  title('On optimum recognition error and reject tradeoff'),
+  author('Chao K Chow'),
+  number(1),
+  pages(41, 46),
+  publisher('IEEE'),
+nil)
+
+entry!('tortorella2000optimal',
+  title('An optimal reject rule for binary classifiers'),
+  author('Francesco Tortorella'),
+  inproceedings('Advances in Pattern Recognition', 2000),
+  pages(611, 620),
+  publisher('Springer'),
+nil)
