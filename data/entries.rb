@@ -10013,3 +10013,9 @@ entry!('shirakawan2015ngramidf',
   pages(960, 970),
 nil)
 
+
+entry!('cartis2009finding',
+  inproceedings('SPARS\'09-Signal Processing with Adaptive Sparse Structured Representations', 2009),
+  title('Finding a point in the relative interior of a polyhedron, with applications to compressed sensing'),
+  author('Coralia Cartis and Gould Nicholas IM'),
+nil)
