@@ -10064,3 +10064,22 @@ entry!('nelson2009misleading',
   pages(17, 51),
   publisher('Springer'),
 nil)
+
+entry!('mannor2004sample',
+  title('The sample complexity of exploration in the multi-armed bandit problem'),
+  author('Shie Mannor and John N. Tsitsiklis'),
+  jmlr(2004, 5),
+  pages(623, 648),
+nil)
+
+entry!('chandrasekaran2014finding',
+  title('Finding a most biased coin with fewest flips'),
+  author('Karthekeyan Chandrasekaran and Richard Karp'),
+  colt(2014), pages(394,407),
+nil)
+
+entry!('banks2016information',
+  title('Information-theoretic thresholds for community detection in sparse networks'),
+  author('Jess Banks and Christopher Moore'),
+  arxiv(2016),
+nil)
