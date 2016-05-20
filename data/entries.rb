@@ -10083,3 +10083,9 @@ entry!('banks2016information',
   author('Jess Banks and Christopher Moore'),
   arxiv(2016),
 nil)
+
+entry!('mayzlin2012promotional',
+  title('Promotional reviews: An empirical investigation of online review manipulation'),
+  author('Dina Mayzlin and Yaniv Dover and Judith A. Chevalier'),
+  techreport('National Bureau of Economic Research', 2012),
+nil)
