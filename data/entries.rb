@@ -10089,3 +10089,79 @@ entry!('mayzlin2012promotional',
   author('Dina Mayzlin and Yaniv Dover and Judith A. Chevalier'),
   techreport('National Bureau of Economic Research', 2012),
 nil)
+
+entry!('young2000probabilistic',
+  article('Philosophical Transactions of the Royal Society of London A: Mathematical, Physical and Engineering Sciences', 2000, 358),
+  title('Probabilistic methods in spoken-dialogue systems'),
+  author('Steve J Young'),
+  number(1769),
+  pages(1389, 1402),
+  publisher('The Royal Society'),
+nil)
+
+entry!('young2013pomdp',
+  article('Proceedings of the IEEE', 2013, 101),
+  title('{POMDP}-based statistical spoken dialog systems: A review'),
+  author('Stephanie Young and Milica Gasic and Blaise Thomson and John D Williams'),
+  number(5),
+  pages(1160, 1179),
+  publisher('IEEE'),
+nil)
+
+entry!('williams2013dialog',
+  inproceedings('Proceedings of the SIGDIAL 2013 Conference', 2013),
+  title('The dialog state tracking challenge'),
+  author('Jason Williams and Antoine Raux and Deepak Ramachandran and Alan Black'),
+  pages(404, 413),
+nil)
+
+entry!('li2016persona',
+  arxiv(2016, '1603.06155'),
+  title('A Persona-Based Neural Conversation Model'),
+  author('Jiwei Li and Michel Galley and Chris Brockett and Jianfeng Gao and Bill Dolan'),
+nil)
+
+entry!('afantenos2012developing',
+  inproceedings('SeineDial 2012 - The 16th Workshop on the Semantics and Pragmatics of Dialogue', 2012),
+  title('Developing a corpus of strategic conversation in The Settlers of Catan'),
+  author('Stergos Afantenos and Nicholas Asher and Farah Benamara and Anais Cadilhac and Cédric Dégremont and Pascal Denis and Markus Guhe and Simon Keizer and Alex Lascarides and Oliver Lemon and Philippe Muller and Soumya Paul and Verena Rieser and Laure Vieu'),
+nil)
+
+entry!('potts2012cards',
+  inproceedings('Proceedings of the 30th West Coast Conference on Formal Linguistics', 2012),
+  author('Christopher Potts'),
+  editor('Nathan Arnett and Ryan Bennett'),
+  publisher('Cascadilla Press'),
+  title('Goal-Driven Answers in the {C}ards Dialogue Corpus'),
+  year(2012),
+nil)
+
+entry!('serban2015survey',
+  arxiv(2015, '1512.05742'),
+  title('A Survey of Available Corpora for Building Data-Driven Dialogue Systems'),
+  author('Iulian Vlad Serban and Ryan Lowe and Laurent Charlin and Joelle Pineau'),
+nil)
+
+entry!('serban2015building',
+  arxiv(2015, '1507.04808'),
+  title('Building End-To-End Dialogue Systems Using Generative Hierarchical Neural Network Models'),
+  author('Iulian V Serban and Alessandro Sordoni and Yoshua Bengio and Aaron Courville and Joelle Pineau'),
+nil)
+
+entry!('lowe2015ubuntu',
+  arxiv(2015, '1506.08909'),
+  title('The {U}buntu dialogue corpus: A large dataset for research in unstructured multi-turn dialogue systems'),
+  author('Ryan Lowe and Nissan Pow and Iulian Serban and Joelle Pineau'),
+nil)
+
+entry!('shang2015neural',
+  acl(2015),
+  title('Neural responding machine for short-text conversation'),
+  author('Lifeng Shang and Zhengdong Lu and Hang Li'),
+nil)
+
+entry!('wen2015semantically',
+  emnlp(2015),
+  title('Semantically conditioned {LSTM}-based natural language generation for spoken dialogue systems'),
+  author('Tsung-Hsien Wen and Milica Gasic and Nikola Mrksic and Pei-Hao Su and David Vandyke and Steve Young'),
+nil)
