@@ -10165,3 +10165,41 @@ entry!('wen2015semantically',
   title('Semantically conditioned {LSTM}-based natural language generation for spoken dialogue systems'),
   author('Tsung-Hsien Wen and Milica Gasic and Nikola Mrksic and Pei-Hao Su and David Vandyke and Steve Young'),
 nil)
+
+entry!('ritter2011data',
+  emnlp(2011),
+  title('Data-driven response generation in social media'),
+  author('Alan Ritter and Colin Cherry and William B Dolan'),
+  pages(583, 593),
+nil)
+
+entry!('oh2000stochastic',
+  inproceedings('ANLP/NAACL Workshop on Conversational systems - Volume 3', 2000),
+  title('Stochastic language generation for spoken dialogue systems'),
+  author('Alice H Oh and Alexander I Rudnicky'),
+  pages(27, 32),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('mairesse2010phrase',
+  acl(2010),
+  title('Phrase-based statistical language generation using graphical models and active learning'),
+  author('François Mairesse and Milica Gašić and Filip Jurčíček and Simon Keizer and Blaise Thomson and Kai Yu and Steve Young'),
+  pages(1552, 1561),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('walker2002training',
+  article('Computer Speech \& Language', 2002, 16),
+  title('Training a sentence planner for spoken dialogue using boosting'),
+  author('Marilyn A Walker and Owen C Rambow and Monica Rogati'),
+  number(3),
+  pages(409, 433),
+  publisher('Elsevier'),
+nil)
+
+entry!('sordoni2015neural',
+  naacl(2015),
+  title('A neural network approach to context-sensitive generation of conversational responses'),
+  author('Alessandro Sordoni and Michel Galley and Michael Auli and Chris Brockett and Yangfeng Ji and Margaret Mitchell and Jian-Yun Nie and Jianfeng Gao and Bill Dolan'),
+nil)
