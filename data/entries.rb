@@ -10203,3 +10203,60 @@ entry!('sordoni2015neural',
   title('A neural network approach to context-sensitive generation of conversational responses'),
   author('Alessandro Sordoni and Michel Galley and Michael Auli and Chris Brockett and Yangfeng Ji and Margaret Mitchell and Jian-Yun Nie and Jianfeng Gao and Bill Dolan'),
 nil)
+
+entry!('hirschman1999deep',
+  acl(1999),
+  title('Deep read: A reading comprehension system'),
+  author('Lynette Hirschman and Marc Light and Eric Breck and John D Burger'),
+  pages(325, 332),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('riloff2000rule',
+  inproceedings('ANLP/NAACL Workshop on reading comprehension tests as evaluation for computer-based language understanding sytems - Volume 6', 2000),
+  title('A rule-based question answering system for reading comprehension tests'),
+  author('Ellen Riloff and Michael Thelen'),
+  pages(13, 19),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('ng2000machine',
+  inproceedings('Joint SIGDAT conference on empirical methods in natural language processing and very large corpora - Volume 13', 2000),
+  title('A machine learning approach to answering questions for reading comprehension tests'),
+  author('Hwee Tou Ng and Leong Hwee Teo and Jennifer Lai Pheng Kwan'),
+  pages(124, 132),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('xu2006maximum',
+  naacl(2006),
+  title('A maximum entropy framework that integrates word dependencies and grammatical relations for reading comprehension'),
+  author('Kui Xu and Helen Meng and Fuliang Weng'),
+  pages(185, 188),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('wang2015machine',
+  acl(2015),
+  title('Machine comprehension with syntax, frames, and semantics'),
+  author('Hai Wang and Mohit Bansal and Kevin Gimpel and David McAllester'),
+nil)
+
+entry!('hill2015goldilocks',
+  iclr(2015),
+  title('The Goldilocks Principle: Reading Children\'s Books with Explicit Memory Representations'),
+  author('Felix Hill and Antoine Bordes and Sumit Chopra and Jason Weston'),
+nil)
+
+entry!('narasimhan2015machine',
+  acl(2015),
+  title('Machine comprehension with discourse relations'),
+  author('Karthik Narasimhan and Regina Barzilay'),
+nil)
+
+entry!('yang2015wikiqa',
+  emnlp(2015),
+  title('{W}iki{QA}: A Challenge Dataset for Open-Domain Question Answering'),
+  author('Yi Yang and Wen-tau Yih and Christopher Meek'),
+  pages(2013, 2018),
+nil)
