@@ -10267,3 +10267,30 @@ entry!('chen2016thorough',
   unusualCapitalization('Daily', 'Mail'),
   author('Danqi Chen and Jason Bolton and Christopher D. Manning'),
 nil)
+
+entry!('sun2013answer',
+  ijcai(2013),
+  title('Answer Extraction from Passage Graph for Question Answering'),
+  author('Hong Sun and Nan Duan and Yajuan Duan and Ming Zhou'),
+  organization('Citeseer'),
+nil)
+
+entry!('shen2006exploring',
+  colingacl2006,
+  title('Exploring correlation of dependency relation paths for answer extraction'),
+  author('Dan Shen and Dietrich Klakow'),
+  pages(889, 896),
+nil)
+
+entry!('ravichandran2002learning',
+  acl(2002),
+  title('Learning surface text patterns for a question answering system'),
+  author('Deepak Ravichandran and Eduard Hovy'),
+  pages(41, 47),
+nil)
+
+entry!('mostafazadeh2016corpus',
+  naacl(2016),
+  title('A corpus and cloze evaluation for deeper understanding of commonsense stories'),
+  author('Nasrin Mostafazadeh and Nathanael Chambers and Xiaodong He and Devi Parikh and Dhruv Batra and Lucy Vanderwende and Pushmeet Kohli and James Allen'),
+nil)
