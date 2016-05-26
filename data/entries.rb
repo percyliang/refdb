@@ -10116,7 +10116,7 @@ entry!('williams2013dialog',
 nil)
 
 entry!('li2016persona',
-  arxiv(2016, '1603.06155'),
+  acl(2016),
   title('A Persona-Based Neural Conversation Model'),
   author('Jiwei Li and Michel Galley and Chris Brockett and Jianfeng Gao and Bill Dolan'),
 nil)
@@ -10259,4 +10259,11 @@ entry!('yang2015wikiqa',
   title('{W}iki{QA}: A Challenge Dataset for Open-Domain Question Answering'),
   author('Yi Yang and Wen-tau Yih and Christopher Meek'),
   pages(2013, 2018),
+nil)
+
+entry!('chen2016thorough',
+  acl(2016),
+  title('A Thorough Examination of the {CNN} / {D}aily {M}ail Reading Comprehension Task'),
+  unusualCapitalization('Daily', 'Mail'),
+  author('Danqi Chen and Jason Bolton and Christopher D. Manning'),
 nil)
