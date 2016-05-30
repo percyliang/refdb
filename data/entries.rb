@@ -9450,6 +9450,48 @@ entry!('lee2014time',
   acl(2014),
 nil)
 
+entry!('wang2016games',
+  author('Sida I. Wang and Percy Liang and Chris Manning'),
+  title('Learning Language Games through Interaction'),
+  acl(2016),
+nil)
+
+entry!('wang2016recombination',
+  author('Robin Jia and Percy Liang'),
+  title('Data Recombination for Neural Semantic Parsing'),
+  acl(2016),
+nil)
+
+entry!('long2016projections',
+  author('Reginald Long and Panupong Pasupat and Percy Liang'),
+  title('Simpler Context-Dependent Logical Forms via Model Projections'),
+  acl(2016),
+nil)
+
+entry!('pasupat2016inferring',
+  author('Panupong Pasupat and Percy Liang'),
+  title('Inferring Logical Forms From Denotations'),
+  acl(2016),
+nil)
+
+entry!('khani2016unanimity',
+  author('Fereshte Khani and Martin Rinard and Percy Liang'),
+  title('Unanimous Prediction for 100\% Precision with Application to Learning Semantic Parsers'),
+  acl(2016),
+nil)
+
+entry!('chaganty2016perspectives',
+  author('Arun Chaganty and Percy Liang'),
+  title('How Much is 131 Million Dollars? Putting Numbers in Perspective with Compositional Descriptions'),
+  acl(2016),
+nil)
+
+entry!('raghunathan2016linear',
+  author('Aditi Raghunathan and Roy Frostig and John Duchi and Percy Liang'),
+  title('Estimation from Indirect Supervision with Linear Moments'),
+  icml(2016),
+nil)
+
 entry!('wager2016levy',
   title('Data Augmentation via {L}\\\'evy Processes'),
   author('Stefan Wager and Will Fithian and Percy Liang'),
