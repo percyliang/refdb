@@ -10359,3 +10359,25 @@ entry!('williams2007partially',
   pages(393, 422),
   publisher('Elsevier'),
 nil)
+
+entry!('clark2016my',
+  article('AI Magazine', 2016, 37),
+  title('My Computer is an Honor Student but how Intelligent is it? Standardized Tests as a Measure of {AI}'),
+  author('Peter Clark and Oren Etzioni'),
+  number(1),
+  pages(5, 12),
+nil)
+
+entry!('schoenick2016moving',
+  arxiv(2016, '1604.04315'),
+  title('Moving Beyond the Turing Test with the Allen {AI} Science Challenge'),
+  author('Carissa Schoenick and Peter Clark and Oyvind Tafjord and Peter Turney and Oren Etzioni'),
+nil)
+
+entry!('gaikwad2015daemo',
+  inproceedings('Proceedings of the 28th Annual ACM Symposium on User Interface Software \& Technology', 2015),
+  title('Daemo: A Self-Governed Crowdsourcing Marketplace'),
+  author('Snehal Neil Gaikwad and Durim Morina and Rohit Nistala and Megha Agarwal and Alison Cossette and Radhika Bhanu and Saiph Savage and Vishwajeet Narwal and Karan Rajpal and Jeff Regino and others'),
+  pages(101, 102),
+  organization('ACM'),
+nil)
