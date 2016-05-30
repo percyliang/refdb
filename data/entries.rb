@@ -10294,3 +10294,26 @@ entry!('mostafazadeh2016corpus',
   title('A corpus and cloze evaluation for deeper understanding of commonsense stories'),
   author('Nasrin Mostafazadeh and Nathanael Chambers and Xiaodong He and Devi Parikh and Dhruv Batra and Lucy Vanderwende and Pushmeet Kohli and James Allen'),
 nil)
+
+entry!('wang2013simple',
+  inproceedings('Proceedings of the SIGDIAL 2013 Conference', 2013),
+  title('A simple and generic belief tracking mechanism for the dialog state tracking challenge: On the believability of observed information'),
+  author('Zhuoran Wang and Oliver Lemon'),
+  pages(423, 432),
+nil)
+
+entry!('roy2000spoken',
+  acl(2000),
+  title('Spoken dialogue management using probabilistic reasoning'),
+  author('Nicholas Roy and Joelle Pineau and Sebastian Thrun'),
+  pages(93, 100),
+nil)
+
+entry!('williams2007partially',
+  article('Computer Speech \& Language', 2007, 21),
+  title('Partially observable {M}arkov decision processes for spoken dialog systems'),
+  author('Jason D Williams and Steve Young'),
+  number(2),
+  pages(393, 422),
+  publisher('Elsevier'),
+nil)
