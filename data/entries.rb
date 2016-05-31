@@ -10381,3 +10381,17 @@ entry!('gaikwad2015daemo',
   pages(101, 102),
   organization('ACM'),
 nil)
+
+entry!('voorhees2000building',
+  sigir(2000),
+  title('Building a question answering test collection'),
+  author('Ellen M Voorhees and Dawn M Tice'),
+  pages(200, 207),
+  organization('ACM'),
+nil)
+
+entry!('sachan2015learning',
+  acl(2015),
+  title('Learning answerentailing structures for machine comprehension'),
+  author('Mrinmaya Sachan and Avinava Dubey and Eric P Xing and Matthew Richardson'),
+nil)
