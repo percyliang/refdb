@@ -10395,3 +10395,15 @@ entry!('sachan2015learning',
   title('Learning answerentailing structures for machine comprehension'),
   author('Mrinmaya Sachan and Avinava Dubey and Eric P Xing and Matthew Richardson'),
 nil)
+
+entry!('gu2016copying',
+  acl(2016),
+  title('Incorporating Copying Mechanism in Sequence-to-Sequence Learning'),
+  author('Jiatao Gu and Zhengdong Lu and Hang Li and Victor O.K. Li'),
+nil)
+
+entry!('gulcehre2016pointing',
+  acl(2016),
+  title('Pointing the Unknown Words'),
+  author('Caglar Gulcehre and Sungjin Ahn and Ramesh Nallapati and Bowen Zhou and Yoshua Bengio'),
+nil)
