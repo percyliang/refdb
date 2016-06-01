@@ -71,6 +71,7 @@ def uist(year); inproceedings(Name.new('User Interface Software and Technology',
 def chi(year); inproceedings(Name.new('Conference on Human Factors in Computing Systems', 'CHI'), year) end
 
 def infotheory(year, volume); [article('IEEE Transactions on Information Theory', year, volume)] end
+def dmin(year); [inproceedings(Name.new('International Conference on Data Mining', 'DMIN'), year)] end
 
 ### Computer vision
 def eccv(year); [inproceedings(Name.new('European Conference on Computer Vision', 'ECCV'), year)] end

@@ -10407,3 +10407,15 @@ entry!('gulcehre2016pointing',
   title('Pointing the Unknown Words'),
   author('Caglar Gulcehre and Sungjin Ahn and Ramesh Nallapati and Bowen Zhou and Yoshua Bengio'),
 nil)
+
+entry!('liu2007oversampling',
+  dmin(2007),
+  title('Generative Oversampling for Mining Imbalanced Datasets'),
+  author('Alexander Liu and Joydeep Ghosh and Cheryl Martin'),
+nil)
+
+entry!('petrov2010uptraining',
+  emnlp(2010),
+  title('Uptraining for accurate deterministic question parsing'),
+  author('Slav Petrov and Pi-Chuan Chang and Michael Ringgaard and Hiyan Alshawi'),
+nil)
