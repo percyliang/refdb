@@ -10392,7 +10392,7 @@ nil)
 
 entry!('sachan2015learning',
   acl(2015),
-  title('Learning answerentailing structures for machine comprehension'),
+  title('Learning answer-entailing structures for machine comprehension'),
   author('Mrinmaya Sachan and Avinava Dubey and Eric P Xing and Matthew Richardson'),
 nil)
 
