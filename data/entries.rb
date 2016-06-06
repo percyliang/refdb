@@ -10419,3 +10419,9 @@ entry!('petrov2010uptraining',
   title('Uptraining for accurate deterministic question parsing'),
   author('Slav Petrov and Pi-Chuan Chang and Michael Ringgaard and Hiyan Alshawi'),
 nil)
+
+entry!('reckman2010virtualgame',
+    author('Hilke Reckman and Jeff Orkin and Deb Roy'),
+    title('Learning meanings of words and constructions, grounded in a virtual game'),
+    konvens(2010),
+nil)
