@@ -10425,3 +10425,12 @@ entry!('reckman2010virtualgame',
     title('Learning meanings of words and constructions, grounded in a virtual game'),
     konvens(2010),
 nil)
+
+entry!('greenberg1996consistency',
+  article('Annals of Mathematics and Artificial Intelligence', 1996, 17),
+  title('Consistency, redundancy, and implied equalities in linear systems'),
+  author('Harvey J Greenberg'),
+  number(1),
+  pages(37, 83),
+  publisher('Springer'),
+nil)
