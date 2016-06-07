@@ -10425,3 +10425,11 @@ entry!('reckman2010virtualgame',
     title('Learning meanings of words and constructions, grounded in a virtual game'),
     konvens(2010),
 nil)
+
+
+entry!('teigen2015framing',
+   author('Karl Halvor Teigen'),
+   title('Framing of Numeric Quantities'),
+   article('The Wiley Blackwell Handbook of Judgment and Decision Making', 2015),
+   pages(568,589),
+nil)
