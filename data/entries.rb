@@ -10448,3 +10448,9 @@ entry!('teigen2015framing',
    article('The Wiley Blackwell Handbook of Judgment and Decision Making', 2015),
    pages(568,589),
 nil)
+
+entry!('roundy1985identifying',
+  article(JOURNAL, 1985, VOLUME),
+  title('Identifying the Set of Always-Active Constraints in a System of Linear Inequalities by a Single Linear Program Robert M. Freund'),
+  author('Robin Roundy and Michael J Todd'),
+nil)
