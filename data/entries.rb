@@ -10441,16 +10441,15 @@ entry!('wen2016network',
   author('Tsung-Hsien Wen and Milica Gasic and Nikola Mrksic and Lina M Rojas-Barahona and Pei-Hao Su and Stefan Ultes and David Vandyke and Steve Young'),
 nil)
 
-
 entry!('teigen2015framing',
-   author('Karl Halvor Teigen'),
-   title('Framing of Numeric Quantities'),
-   article('The Wiley Blackwell Handbook of Judgment and Decision Making', 2015),
-   pages(568,589),
+  author('Karl Halvor Teigen'),
+  title('Framing of Numeric Quantities'),
+  article('The Wiley Blackwell Handbook of Judgment and Decision Making', 2015),
+  pages(568,589),
 nil)
 
 entry!('roundy1985identifying',
-  article(JOURNAL, 1985, VOLUME),
-  title('Identifying the Set of Always-Active Constraints in a System of Linear Inequalities by a Single Linear Program Robert M. Freund'),
-  author('Robin Roundy and Michael J Todd'),
+  techreport('Massachusetts Institute of Technology, Alfred P. Sloan School of Management', 1985),
+  title('Identifying the Set of Always-Active Constraints in a System of Linear Inequalities by a Single Linear Program'),
+  author('Robert M. Freund and Robin Roundy and Michael J Todd'),
 nil)
