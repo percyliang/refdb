@@ -10446,3 +10446,16 @@ entry!('dong2016logical',
   title('Language to Logical Form with Neural Attention'),
   author('Li Dong and Mirella Lapata'),
 nil)
+
+entry!('teigen2015framing',
+  author('Karl Halvor Teigen'),
+  title('Framing of Numeric Quantities'),
+  article('The Wiley Blackwell Handbook of Judgment and Decision Making', 2015),
+  pages(568,589),
+nil)
+
+entry!('roundy1985identifying',
+  techreport('Massachusetts Institute of Technology, Alfred P. Sloan School of Management', 1985),
+  title('Identifying the Set of Always-Active Constraints in a System of Linear Inequalities by a Single Linear Program'),
+  author('Robert M. Freund and Robin Roundy and Michael J Todd'),
+nil)
