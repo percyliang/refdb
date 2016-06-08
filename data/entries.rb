@@ -1650,6 +1650,12 @@ entry!('lu09generation',
   emnlp(2009), pages(400, 409),
 nil)
 
+entry!('lu12probabilistic',
+  title('A Probabilistic Forest-to-String Model for Language Generation from Typed Lambda Calculus Expressions'),
+  author('Wei Lu and Hwee Tou Ng'),
+  emnlp(2012), pages(1611, 1622),
+nil)
+
 entry!('ratnaparkhi02surface',
   title('Trainable approaches to surface natural language generation and their application to conversational dialog systems'),
   author('Adwait Ratnaparkhi'),
@@ -10441,10 +10447,16 @@ entry!('wen2016network',
   author('Tsung-Hsien Wen and Milica Gasic and Nikola Mrksic and Lina M Rojas-Barahona and Pei-Hao Su and Stefan Ultes and David Vandyke and Steve Young'),
 nil)
 
-
 entry!('teigen2015framing',
    author('Karl Halvor Teigen'),
    title('Framing of Numeric Quantities'),
    article('The Wiley Blackwell Handbook of Judgment and Decision Making', 2015),
    pages(568,589),
+nil)
+
+entry!('kirkpatrick2012significance',
+   author('Taylor Berg-Kirkpatrick and David Burkett and Dan Klein'),
+   title('An empirical investigation of statistical significance in {NLP}'),
+   emnlp(2012),
+   pages(995,1005),
 nil)
