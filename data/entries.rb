@@ -10440,3 +10440,9 @@ entry!('wen2016network',
   title('A Network-based End-to-End Trainable Task-oriented Dialogue System'),
   author('Tsung-Hsien Wen and Milica Gasic and Nikola Mrksic and Lina M Rojas-Barahona and Pei-Hao Su and Stefan Ultes and David Vandyke and Steve Young'),
 nil)
+
+entry!('dong2016logical',
+  acl(2016),
+  title('Language to Logical Form with Neural Attention'),
+  author('Li Dong and Mirella Lapata'),
+nil)
