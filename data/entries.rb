@@ -9462,7 +9462,7 @@ entry!('wang2016games',
   acl(2016),
 nil)
 
-entry!('wang2016recombination',
+entry!('jia2016recombination',
   author('Robin Jia and Percy Liang'),
   title('Data Recombination for Neural Semantic Parsing'),
   acl(2016),
