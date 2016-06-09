@@ -9487,7 +9487,7 @@ entry!('khani2016unanimity',
 nil)
 
 entry!('chaganty2016perspectives',
-  author('Arun Chaganty and Percy Liang'),
+  author('Arun Tejasvi Chaganty and Percy Liang'),
   title('How Much is 131 Million Dollars? Putting Numbers in Perspective with Compositional Descriptions'),
   acl(2016),
 nil)
