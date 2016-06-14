@@ -9467,6 +9467,8 @@ entry!('jia2016recombination',
   author('Robin Jia and Percy Liang'),
   title('Data Recombination for Neural Semantic Parsing'),
   acl(2016),
+  url('http://arxiv.org/pdf/1606.03622.pdf'),
+  codalab('0x50757a37779b485f89012e4ba03b6f4f'),
 nil)
 
 entry!('long2016projections',
