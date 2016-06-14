@@ -9460,6 +9460,7 @@ entry!('wang2016games',
   author('Sida I. Wang and Percy Liang and Chris Manning'),
   title('Learning Language Games through Interaction'),
   acl(2016),
+  url('https://arxiv.org/pdf/1606.02447.pdf'),
 nil)
 
 entry!('jia2016recombination',
@@ -9484,6 +9485,7 @@ entry!('khani2016unanimity',
   author('Fereshte Khani and Martin Rinard and Percy Liang'),
   title('Unanimous Prediction for 100\% Precision with Application to Learning Semantic Parsers'),
   acl(2016),
+  url('unanimity-acl2016.pdf'),
 nil)
 
 entry!('chaganty2016perspectives',
