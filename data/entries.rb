@@ -9485,7 +9485,7 @@ nil)
 
 entry!('khani2016unanimity',
   author('Fereshte Khani and Martin Rinard and Percy Liang'),
-  title('Unanimous Prediction for 100\% Precision with Application to Learning Semantic Parsers'),
+  title('Unanimous Prediction for 100\% Precision with Application to Learning Semantic Mappings'),
   acl(2016),
   url('unanimity-acl2016.pdf'),
 nil)
