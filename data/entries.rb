@@ -9461,6 +9461,7 @@ entry!('wang2016games',
   title('Learning Language Games through Interaction'),
   acl(2016),
   url('https://arxiv.org/pdf/1606.02447.pdf'),
+  codalab('0x9fe4d080bac944e9a6bd58478cb05e5e'),
 nil)
 
 entry!('jia2016recombination',
@@ -9475,12 +9476,16 @@ entry!('long2016projections',
   author('Reginald Long and Panupong Pasupat and Percy Liang'),
   title('Simpler Context-Dependent Logical Forms via Model Projections'),
   acl(2016),
+  url('https://arxiv.org/pdf/1606.05378.pdf'),
+  codalab('0xad3fc9f52f514e849b282a105b1e3f02'),
 nil)
 
 entry!('pasupat2016inferring',
   author('Panupong Pasupat and Percy Liang'),
   title('Inferring Logical Forms From Denotations'),
   acl(2016),
+  url('https://arxiv.org/pdf/1606.06900.pdf'),
+  codalab('0x47cc64d9c8ba4a878807c7c35bb22a42'),
 nil)
 
 entry!('khani2016unanimity',
@@ -9488,18 +9493,22 @@ entry!('khani2016unanimity',
   title('Unanimous Prediction for 100\% Precision with Application to Learning Semantic Mappings'),
   acl(2016),
   url('unanimity-acl2016.pdf'),
+  codalab('0x593676a278fc4e5abe2d8bac1e3df486'),
 nil)
 
 entry!('chaganty2016perspectives',
   author('Arun Chaganty and Percy Liang'),
   title('How Much is 131 Million Dollars? Putting Numbers in Perspective with Compositional Descriptions'),
   acl(2016),
+  url('perspectives-acl2016.pdf'),
+  codalab('0x243284b4d81d4590b46030cdd3b72633'),
 nil)
 
 entry!('raghunathan2016linear',
   author('Aditi Raghunathan and Roy Frostig and John Duchi and Percy Liang'),
   title('Estimation from Indirect Supervision with Linear Moments'),
   icml(2016),
+  url('http://jmlr.org/proceedings/papers/v48/raghunathan16.pdf'),
 nil)
 
 entry!('wager2016levy',
