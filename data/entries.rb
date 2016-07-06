@@ -10503,3 +10503,9 @@ entry!('angeli2015openie',
        title('Leveraging Linguistic Structure for Open Domain Information Extraction'),
        acl(2015),
        nil)
+
+entry!('clark2015coref',
+       author('Kevin Clark and Christopher D. Manning'),
+       title('Entity-Centric Coreference Resolution with Model Stacking'),
+       acl(2015),
+       nil)
