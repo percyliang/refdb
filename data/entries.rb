@@ -10497,3 +10497,9 @@ entry!('zhang2015parallelevents',
        title('Exploiting Parallel News Streams for Unsupervised Event Extraction'),
        tacl(2015, 3),
        nil)
+
+entry!('angeli2015openie',
+       author('Gabor Angeli and Melvin Johnson Premkumar and Christopher D. Manning'),
+       title('Leveraging Linguistic Structure for Open Domain Information Extraction'),
+       acl(2015),
+       nil)
