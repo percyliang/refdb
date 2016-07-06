@@ -10485,3 +10485,15 @@ entry!('kirkpatrick2012significance',
    emnlp(2012),
    pages(995,1005),
 nil)
+
+entry!('zhang2013parallalparaphrase',
+       author('Congle Zhang and Daniel S. Weld'),
+       title('Harvesting Parallel News Streams to Generate Paraphrases of Event Relations'),
+       emnlp(2013),
+       nil)
+
+entry!('zhang2015parallalevents',
+       author('Congle Zhang and Stephen Soderland and Daniel S. Weld'),
+       title('Exploiting Parallel News Streams for Unsupervised Event Extraction'),
+       tacl(2015, 3),
+       nil)
