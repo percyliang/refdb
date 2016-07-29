@@ -10509,3 +10509,10 @@ entry!('clark2015coref',
        title('Entity-Centric Coreference Resolution with Model Stacking'),
        acl(2015),
        nil)
+
+entry!('horn1990analog',
+  title('An analog of the {C}auchy-{S}chwarz inequality for {H}adamard products and unitarily invariant norms'),
+  author('Roger A. Horn and Roy Mathias'),
+  article('SIAM Journal on Matrix Analysis and Applications', 1990, 11), 
+  number(4), pages(481, 498),
+nil)
