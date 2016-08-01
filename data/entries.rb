@@ -10516,3 +10516,9 @@ entry!('horn1990analog',
   article('SIAM Journal on Matrix Analysis and Applications', 1990, 11), 
   number(4), pages(481, 498),
 nil)
+
+entry!('bandeira2014sharp',
+  title('Sharp nonasymptotic bounds on the norm of random matrices with independent entries'),
+  author('Afonso S. Bandeira and Ramon van Handel'),
+  arxiv(2014),
+nil)
