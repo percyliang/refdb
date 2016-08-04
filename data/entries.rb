@@ -9456,6 +9456,14 @@ entry!('lee2014time',
   acl(2014),
 nil)
 
+entry!('rajpurkar2016squad',
+  author('Pranav Rajpurkar and Jian Zhang and Konstantin Lopyrev and Percy Liang'),
+  title('SQuAD: 100,000+ Questions for Machine Comprehension of Text'),
+  emnlp(2016),
+  url('https://arxiv.org/pdf/1606.05250.pdf'),
+  codalab('0xd53d03a48ef64b329c16b9baf0f99b0c'),
+nil)
+
 entry!('wang2016games',
   author('Sida I. Wang and Percy Liang and Chris Manning'),
   title('Learning Language Games through Interaction'),
@@ -10487,28 +10495,28 @@ entry!('kirkpatrick2012significance',
 nil)
 
 entry!('zhang2013parallelparaphrase',
-       author('Congle Zhang and Daniel S. Weld'),
-       title('Harvesting Parallel News Streams to Generate Paraphrases of Event Relations'),
-       emnlp(2013),
-       nil)
+  author('Congle Zhang and Daniel S. Weld'),
+  title('Harvesting Parallel News Streams to Generate Paraphrases of Event Relations'),
+  emnlp(2013),
+nil)
 
 entry!('zhang2015parallelevents',
-       author('Congle Zhang and Stephen Soderland and Daniel S. Weld'),
-       title('Exploiting Parallel News Streams for Unsupervised Event Extraction'),
-       tacl(2015, 3),
-       nil)
+  author('Congle Zhang and Stephen Soderland and Daniel S. Weld'),
+  title('Exploiting Parallel News Streams for Unsupervised Event Extraction'),
+  tacl(2015, 3),
+nil)
 
 entry!('angeli2015openie',
-       author('Gabor Angeli and Melvin Johnson Premkumar and Christopher D. Manning'),
-       title('Leveraging Linguistic Structure for Open Domain Information Extraction'),
-       acl(2015),
-       nil)
+  author('Gabor Angeli and Melvin Johnson Premkumar and Christopher D. Manning'),
+  title('Leveraging Linguistic Structure for Open Domain Information Extraction'),
+  acl(2015),
+nil)
 
 entry!('clark2015coref',
-       author('Kevin Clark and Christopher D. Manning'),
-       title('Entity-Centric Coreference Resolution with Model Stacking'),
-       acl(2015),
-       nil)
+  author('Kevin Clark and Christopher D. Manning'),
+  title('Entity-Centric Coreference Resolution with Model Stacking'),
+  acl(2015),
+nil)
 
 entry!('horn1990analog',
   title('An analog of the {C}auchy-{S}chwarz inequality for {H}adamard products and unitarily invariant norms'),
