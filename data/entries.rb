@@ -9516,7 +9516,7 @@ entry!('raghunathan2016linear',
   author('Aditi Raghunathan and Roy Frostig and John Duchi and Percy Liang'),
   title('Estimation from Indirect Supervision with Linear Moments'),
   icml(2016),
-  url('http://jmlr.org/proceedings/papers/v48/raghunathan16.pdf'),
+  url('http://arxiv.org/pdf/1603.03100.pdf'),
 nil)
 
 entry!('wager2016levy',
