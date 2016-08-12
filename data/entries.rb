@@ -9456,6 +9456,13 @@ entry!('lee2014time',
   acl(2014),
 nil)
 
+entry!('steinhardt2016risk',
+  author('Jacob Steinhardt and Percy Liang'),
+  title('Unsupervised Risk Estimation Using Only Conditional Independence Structure'),
+  nips(2016),
+  url('https://arxiv.org/pdf/1606.05313.pdf'),
+nil)
+
 entry!('rajpurkar2016squad',
   author('Pranav Rajpurkar and Jian Zhang and Konstantin Lopyrev and Percy Liang'),
   title('SQuAD: 100,000+ Questions for Machine Comprehension of Text'),
