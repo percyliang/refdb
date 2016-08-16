@@ -10538,3 +10538,9 @@ entry!('bandeira2014sharp',
   author('Afonso S. Bandeira and Ramon van Handel'),
   arxiv(2014),
 nil)
+
+entry!('bach2010structured',
+  title('Structured sparsity-inducing norms through submodular functions'),
+  author('Francis R. Bach'),
+  nips(2010), pages(118, 126),
+nil)
