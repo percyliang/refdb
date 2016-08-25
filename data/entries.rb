@@ -9537,7 +9537,7 @@ nil)
 
 entry!('liang2016executable',
   title('Learning Executable Semantic Parsers for Natural Language Understanding'),
-  article('Communications of the ACM', 2016, 0),
+  article('Communications of the ACM', 2016, 59),
   url('executable-cacm2016.pdf'),
   author('Percy Liang'),
 nil)
