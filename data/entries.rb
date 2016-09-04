@@ -10551,3 +10551,15 @@ entry!('steinhardt2016memory',
   colt(2016),
 nil)
 
+entry!('fetaya2016unsupervised',
+  title('Unsupervised Ensemble Learning with Dependent Classifiers'),
+  author('Ethan Fetaya and Boaz Nadler and Ariel Jaffe and Yuval Kluger and Tingting Jiang'),
+  aistats(2016),
+  pages(351,360),
+nil)
+
+entry!('bendavid2006analysis',
+  title('Analysis of Representations for Domain Adaptation'),
+  author('Shai Ben-David and John Blitzer and Koby Crammer and Fernando Pereira'),
+  nips(2006),
+nil)
