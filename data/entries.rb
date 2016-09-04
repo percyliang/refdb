@@ -10544,3 +10544,10 @@ entry!('bach2010structured',
   author('Francis R. Bach'),
   nips(2010), pages(118, 126),
 nil)
+
+entry!('steinhardt2016memory',
+  title('Memory, Communication, and Statistical Queries'),
+  author('Jacob Steinhardt and Gregory Valiant and Stefan Wager'),
+  colt(2016),
+nil)
+
