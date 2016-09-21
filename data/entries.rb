@@ -10544,3 +10544,9 @@ entry!('bach2010structured',
   author('Francis R. Bach'),
   nips(2010), pages(118, 126),
 nil)
+
+entry!('kumar2010clustering',
+  title('Clustering with spectral norm and the {k}-means algorithm'),
+  author('Amit Kumar and Ravindran Kannan'),
+  focs(2010), pages(299, 308),
+nil)
