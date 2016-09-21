@@ -9537,7 +9537,7 @@ nil)
 
 entry!('liang2016executable',
   title('Learning Executable Semantic Parsers for Natural Language Understanding'),
-  article('Communications of the ACM', 2016, 0),
+  article('Communications of the ACM', 2016, 59),
   url('executable-cacm2016.pdf'),
   author('Percy Liang'),
 nil)
@@ -10549,4 +10549,23 @@ entry!('kumar2010clustering',
   title('Clustering with spectral norm and the {k}-means algorithm'),
   author('Amit Kumar and Ravindran Kannan'),
   focs(2010), pages(299, 308),
+nil)
+
+entry!('steinhardt2016memory',
+  title('Memory, Communication, and Statistical Queries'),
+  author('Jacob Steinhardt and Gregory Valiant and Stefan Wager'),
+  colt(2016),
+nil)
+
+entry!('fetaya2016unsupervised',
+  title('Unsupervised Ensemble Learning with Dependent Classifiers'),
+  author('Ethan Fetaya and Boaz Nadler and Ariel Jaffe and Yuval Kluger and Tingting Jiang'),
+  aistats(2016),
+  pages(351,360),
+nil)
+
+entry!('bendavid2006analysis',
+  title('Analysis of Representations for Domain Adaptation'),
+  author('Shai Ben-David and John Blitzer and Koby Crammer and Fernando Pereira'),
+  nips(2006),
 nil)
