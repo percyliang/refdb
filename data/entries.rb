@@ -10569,3 +10569,15 @@ entry!('bendavid2006analysis',
   author('Shai Ben-David and John Blitzer and Koby Crammer and Fernando Pereira'),
   nips(2006),
 nil)
+
+entry!('arora2012learning',
+  title('Learning topic models--going beyond {SVD}'),
+  author('Sanjeev Arora and Rong Ge and Ankur Moitra'),
+  focs(2012),
+nil)
+
+entry!('bansal2014provable',
+  title('A provable {SVD}-based algorithm for learning topics in dominant admixture corpus'),
+  author('Trapit Bansal and Chiranjib Bhattacharyya and Ravindran Kannan'),
+  nips(2014),
+nil)
