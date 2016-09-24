@@ -10581,3 +10581,9 @@ entry!('bansal2014provable',
   author('Trapit Bansal and Chiranjib Bhattacharyya and Ravindran Kannan'),
   nips(2014),
 nil)
+
+entry!('wang2016machine',
+  arxiv(2016, '1608.07905'),
+  title('Machine Comprehension Using Match-{LSTM} and Answer Pointer'),
+  author('Shuohang Wang and Jing Jiang'),
+nil)
