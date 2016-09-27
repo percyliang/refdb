@@ -10606,3 +10606,16 @@ entry!('awasthi2012improved',
   article('Approximation, Randomization, and Combinatorial Optimization', 2012),
   pages(37, 49),
 nil)
+
+entry!('mahajan2009planar',
+  title('The planar {k}-means problem is {NP}-hard'),
+  author('Meena Mahajan and Prajakta Nimbhorkar and Kasturi Varadarajan'),
+  article('International Workshop on Algorithms and Computation', 2009),
+  pages(274,285),
+nil)
+
+entry!('sontag2011complexity',
+  title('Complexity of Inference in Latent {D}irichlet Allocation'),
+  author('David Sontag and Dan Roy'),
+  nips(2011),
+nil)
