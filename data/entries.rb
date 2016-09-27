@@ -10581,3 +10581,15 @@ entry!('bansal2014provable',
   author('Trapit Bansal and Chiranjib Bhattacharyya and Ravindran Kannan'),
   nips(2014),
 nil)
+
+entry!('diakonikolas2016robust',
+  title('Robust Estimators in High Dimensions without the Computational Intractability'),
+  author('Ilias Diakonikolas and Gautam Kamath and Daniel Kane and Jerry Li and Ankur Moitra and Alistair Stewart'),
+  focs(2016),
+nil)
+
+entry!('lai2016agnostic',
+  title('Agnostic Estimation of Mean and Covariance'),
+  author('Kevin A. Lai and Anup B. Rao and Santosh Vempala'),
+  focs(2016),
+nil)
