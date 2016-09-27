@@ -10599,3 +10599,10 @@ entry!('wang2016machine',
   title('Machine Comprehension Using Match-{LSTM} and Answer Pointer'),
   author('Shuohang Wang and Jing Jiang'),
 nil)
+
+entry!('awasthi2012improved',
+  title('Improved spectral-norm bounds for clustering'),
+  author('Pranjal Awasthi and Or Sheffet'),
+  article('Approximation, Randomization, and Combinatorial Optimization', 2012),
+  pages(37, 49),
+nil)
