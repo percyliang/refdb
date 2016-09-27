@@ -10593,3 +10593,9 @@ entry!('lai2016agnostic',
   author('Kevin A. Lai and Anup B. Rao and Santosh Vempala'),
   focs(2016),
 nil)
+
+entry!('wang2016machine',
+  arxiv(2016, '1608.07905'),
+  title('Machine Comprehension Using Match-{LSTM} and Answer Pointer'),
+  author('Shuohang Wang and Jing Jiang'),
+nil)
