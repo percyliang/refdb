@@ -9887,6 +9887,12 @@ entry!('decelle2011asymptotic',
   article('Physical Review E', 2011), volume(84), number(6),
 nil)
 
+entry!('decelle2011inference',
+  title('Inference and phase transitions in the detection of modules in sparse networks'),
+  author('Aurelien Decelle and Florent Krzakala and Cristopher Moore and Lenka Zdeborov{\\\'a}'),
+  article('Physical Review Letters', 2011), volume(107), number(6),
+nil)
+
 entry!('mossel2012stochastic',
   title('Stochastic block models and reconstruction'),
   author('Elchanan Mossel and Joe Neeman and Allan Sly'),
@@ -10618,4 +10624,12 @@ entry!('sontag2011complexity',
   title('Complexity of Inference in Latent {D}irichlet Allocation'),
   author('David Sontag and Dan Roy'),
   nips(2011),
+nil)
+
+entry!('lei2015consistency',
+  title('Consistency of spectral clustering in stochastic block models'),
+  author('Jing Lei and Alessandro Rinaldo'),
+  article('The Annals of Statistics', 2015),
+  volume(43),
+  pages(215,237),
 nil)
