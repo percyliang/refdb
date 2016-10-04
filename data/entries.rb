@@ -3906,7 +3906,7 @@ entry!('liang08asymptotics',
   icml2008, pages(584, 591),
   url('asymptotics-icml2008.pdf'),
   slidesurl('asymptotics-icml2008-talk.pdf'),
-  note('Best student paper.'),
+  note('Best student paper award.'),
   abstract('Statistical and computational concerns have motivated parameter estimators based on various forms of likelihood, e.g., joint, conditional, and pseudolikelihood.  In this paper, we present a unified framework for studying these estimators, which allows us to compare their relative (statistical) efficiencies.  Our asymptotic analysis suggests that modeling more of the data tends to reduce variance, but at the cost of being more sensitive to model misspecification.  We present experiments validating our analysis.'),
   punchlines('Derive general expression for the asymptotic risk of composite likelihood estimators in exponential families.',
              'This allows us to compare the various estimators.'),
@@ -5428,7 +5428,7 @@ entry!('berant2014biological',
   project('http://nlp.stanford.edu/software/bioprocess/'),
   url('http://www.aclweb.org/anthology/D/D14/D14-1159v2.pdf'),
   tags('event extraction'),
-  note('Best long paper'),
+  note('Best long paper award.'),
 nil)
 
 entry!('lao2012rules',
@@ -5816,7 +5816,7 @@ entry!('melamud2013context',
   title('A Two Level Model for Context Sensitive Inference Rules'),
   acl(2013),
   url('http://www.aclweb.org/anthology/P13-1131'),
-  note('Best long paper runner-up'),
+  note('Best long paper runner-up.'),
   tags('textual entailment'),
 nil)
 
@@ -5857,7 +5857,7 @@ entry!('berant2011global',
   author('Jonathan Berant and Ido Dagan and Jacob Goldberger'),
   title('Global Learning of Typed Entailment Rules'),
   acl(2011),
-  note('Best long student paper'),
+  note('Best long student paper award.'),
   tags('textual entailment'),
   url('http://turing.cs.washington.edu/papers/berant-acl2011.pdf'),
 nil)
@@ -9456,48 +9456,75 @@ entry!('lee2014time',
   acl(2014),
 nil)
 
+entry!('steinhardt2016risk',
+  author('Jacob Steinhardt and Percy Liang'),
+  title('Unsupervised Risk Estimation Using Only Conditional Independence Structure'),
+  nips(2016),
+  url('https://arxiv.org/pdf/1606.05313.pdf'),
+nil)
+
+entry!('rajpurkar2016squad',
+  author('Pranav Rajpurkar and Jian Zhang and Konstantin Lopyrev and Percy Liang'),
+  title('SQuAD: 100,000+ Questions for Machine Comprehension of Text'),
+  emnlp(2016),
+  url('https://arxiv.org/pdf/1606.05250.pdf'),
+  codalab('0xd53d03a48ef64b329c16b9baf0f99b0c'),
+nil)
+
 entry!('wang2016games',
   author('Sida I. Wang and Percy Liang and Chris Manning'),
   title('Learning Language Games through Interaction'),
   acl(2016),
+  note('Outstanding paper award.'),
   url('https://arxiv.org/pdf/1606.02447.pdf'),
+  codalab('0x9fe4d080bac944e9a6bd58478cb05e5e'),
 nil)
 
 entry!('jia2016recombination',
   author('Robin Jia and Percy Liang'),
   title('Data Recombination for Neural Semantic Parsing'),
   acl(2016),
+  url('http://arxiv.org/pdf/1606.03622.pdf'),
+  codalab('0x50757a37779b485f89012e4ba03b6f4f'),
 nil)
 
 entry!('long2016projections',
   author('Reginald Long and Panupong Pasupat and Percy Liang'),
   title('Simpler Context-Dependent Logical Forms via Model Projections'),
   acl(2016),
+  url('https://arxiv.org/pdf/1606.05378.pdf'),
+  codalab('0xad3fc9f52f514e849b282a105b1e3f02'),
 nil)
 
 entry!('pasupat2016inferring',
   author('Panupong Pasupat and Percy Liang'),
   title('Inferring Logical Forms From Denotations'),
   acl(2016),
+  url('https://arxiv.org/pdf/1606.06900.pdf'),
+  codalab('0x47cc64d9c8ba4a878807c7c35bb22a42'),
 nil)
 
 entry!('khani2016unanimity',
   author('Fereshte Khani and Martin Rinard and Percy Liang'),
-  title('Unanimous Prediction for 100\% Precision with Application to Learning Semantic Parsers'),
+  title('Unanimous Prediction for 100\% Precision with Application to Learning Semantic Mappings'),
   acl(2016),
   url('unanimity-acl2016.pdf'),
+  codalab('0x593676a278fc4e5abe2d8bac1e3df486'),
 nil)
 
 entry!('chaganty2016perspectives',
   author('Arun Tejasvi Chaganty and Percy Liang'),
   title('How Much is 131 Million Dollars? Putting Numbers in Perspective with Compositional Descriptions'),
   acl(2016),
+  url('perspectives-acl2016.pdf'),
+  codalab('0x243284b4d81d4590b46030cdd3b72633'),
 nil)
 
 entry!('raghunathan2016linear',
   author('Aditi Raghunathan and Roy Frostig and John Duchi and Percy Liang'),
   title('Estimation from Indirect Supervision with Linear Moments'),
   icml(2016),
+  url('http://arxiv.org/pdf/1603.03100.pdf'),
 nil)
 
 entry!('wager2016levy',
@@ -9510,7 +9537,7 @@ nil)
 
 entry!('liang2016executable',
   title('Learning Executable Semantic Parsers for Natural Language Understanding'),
-  article('Communications of the ACM', 2016, 0),
+  article('Communications of the ACM', 2016, 59),
   url('executable-cacm2016.pdf'),
   author('Percy Liang'),
 nil)
@@ -9858,6 +9885,12 @@ entry!('decelle2011asymptotic',
   title('Asymptotic analysis of the stochastic block model for modular networks and its algorithmic applications'),
   author('Aurelien Decelle and Florent Krzakala and Cristopher Moore and Lenka Zdeborov{\\\'a}'),
   article('Physical Review E', 2011), volume(84), number(6),
+nil)
+
+entry!('decelle2011inference',
+  title('Inference and phase transitions in the detection of modules in sparse networks'),
+  author('Aurelien Decelle and Florent Krzakala and Cristopher Moore and Lenka Zdeborov{\\\'a}'),
+  article('Physical Review Letters', 2011), volume(107), number(6),
 nil)
 
 entry!('mossel2012stochastic',
@@ -10499,4 +10532,129 @@ entry!('pavlick2015semantics',
     author('Ellie Pavlick and Johan Bos and Malvina Nissim and Charley Beller and Benjamin Van and Durme Chris Callison-Burch'),
     title('Adding semantics to data-driven paraphrasing'),
     acl(2015),
+
+entry!('zhang2013parallelparaphrase',
+  author('Congle Zhang and Daniel S. Weld'),
+  title('Harvesting Parallel News Streams to Generate Paraphrases of Event Relations'),
+  emnlp(2013),
+nil)
+
+entry!('zhang2015parallelevents',
+  author('Congle Zhang and Stephen Soderland and Daniel S. Weld'),
+  title('Exploiting Parallel News Streams for Unsupervised Event Extraction'),
+  tacl(2015, 3),
+nil)
+
+entry!('angeli2015openie',
+  author('Gabor Angeli and Melvin Johnson Premkumar and Christopher D. Manning'),
+  title('Leveraging Linguistic Structure for Open Domain Information Extraction'),
+  acl(2015),
+nil)
+
+entry!('clark2015coref',
+  author('Kevin Clark and Christopher D. Manning'),
+  title('Entity-Centric Coreference Resolution with Model Stacking'),
+  acl(2015),
+nil)
+
+entry!('horn1990analog',
+  title('An analog of the {C}auchy-{S}chwarz inequality for {H}adamard products and unitarily invariant norms'),
+  author('Roger A. Horn and Roy Mathias'),
+  article('SIAM Journal on Matrix Analysis and Applications', 1990, 11), 
+  number(4), pages(481, 498),
+nil)
+
+entry!('bandeira2014sharp',
+  title('Sharp nonasymptotic bounds on the norm of random matrices with independent entries'),
+  author('Afonso S. Bandeira and Ramon van Handel'),
+  arxiv(2014),
+nil)
+
+entry!('bach2010structured',
+  title('Structured sparsity-inducing norms through submodular functions'),
+  author('Francis R. Bach'),
+  nips(2010), pages(118, 126),
+nil)
+
+entry!('kumar2010clustering',
+  title('Clustering with spectral norm and the {k}-means algorithm'),
+  author('Amit Kumar and Ravindran Kannan'),
+  focs(2010), pages(299, 308),
+nil)
+
+entry!('steinhardt2016memory',
+  title('Memory, Communication, and Statistical Queries'),
+  author('Jacob Steinhardt and Gregory Valiant and Stefan Wager'),
+  colt(2016),
+nil)
+
+entry!('fetaya2016unsupervised',
+  title('Unsupervised Ensemble Learning with Dependent Classifiers'),
+  author('Ethan Fetaya and Boaz Nadler and Ariel Jaffe and Yuval Kluger and Tingting Jiang'),
+  aistats(2016),
+  pages(351,360),
+nil)
+
+entry!('bendavid2006analysis',
+  title('Analysis of Representations for Domain Adaptation'),
+  author('Shai Ben-David and John Blitzer and Koby Crammer and Fernando Pereira'),
+  nips(2006),
+nil)
+
+entry!('arora2012learning',
+  title('Learning topic models--going beyond {SVD}'),
+  author('Sanjeev Arora and Rong Ge and Ankur Moitra'),
+  focs(2012),
+nil)
+
+entry!('bansal2014provable',
+  title('A provable {SVD}-based algorithm for learning topics in dominant admixture corpus'),
+  author('Trapit Bansal and Chiranjib Bhattacharyya and Ravindran Kannan'),
+  nips(2014),
+nil)
+
+entry!('diakonikolas2016robust',
+  title('Robust Estimators in High Dimensions without the Computational Intractability'),
+  author('Ilias Diakonikolas and Gautam Kamath and Daniel Kane and Jerry Li and Ankur Moitra and Alistair Stewart'),
+  focs(2016),
+nil)
+
+entry!('lai2016agnostic',
+  title('Agnostic Estimation of Mean and Covariance'),
+  author('Kevin A. Lai and Anup B. Rao and Santosh Vempala'),
+  focs(2016),
+nil)
+
+entry!('wang2016machine',
+  arxiv(2016, '1608.07905'),
+  title('Machine Comprehension Using Match-{LSTM} and Answer Pointer'),
+  author('Shuohang Wang and Jing Jiang'),
+nil)
+
+entry!('awasthi2012improved',
+  title('Improved spectral-norm bounds for clustering'),
+  author('Pranjal Awasthi and Or Sheffet'),
+  article('Approximation, Randomization, and Combinatorial Optimization', 2012),
+  pages(37, 49),
+nil)
+
+entry!('mahajan2009planar',
+  title('The planar {k}-means problem is {NP}-hard'),
+  author('Meena Mahajan and Prajakta Nimbhorkar and Kasturi Varadarajan'),
+  article('International Workshop on Algorithms and Computation', 2009),
+  pages(274,285),
+nil)
+
+entry!('sontag2011complexity',
+  title('Complexity of Inference in Latent {D}irichlet Allocation'),
+  author('David Sontag and Dan Roy'),
+  nips(2011),
+nil)
+
+entry!('lei2015consistency',
+  title('Consistency of spectral clustering in stochastic block models'),
+  author('Jing Lei and Alessandro Rinaldo'),
+  article('The Annals of Statistics', 2015),
+  volume(43),
+  pages(215,237),
 nil)
