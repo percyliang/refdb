@@ -10104,7 +10104,7 @@ entry!('cartis2009finding',
 nil)
 
 entry!('le2015concentration',
- author('Can M. Le and Roman Vershynin'),
+ author('Can M. Le and Elizaveta Levina and Roman Vershynin'),
  title('Concentration and Regularization of Random Graphs'),
  arxiv(2015),
 nil)
