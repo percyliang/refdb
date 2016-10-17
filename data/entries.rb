@@ -9513,7 +9513,7 @@ entry!('khani2016unanimity',
 nil)
 
 entry!('chaganty2016perspectives',
-  author('Arun Chaganty and Percy Liang'),
+  author('Arun Tejasvi Chaganty and Percy Liang'),
   title('How Much is 131 Million Dollars? Putting Numbers in Perspective with Compositional Descriptions'),
   acl(2016),
   url('perspectives-acl2016.pdf'),
@@ -10507,6 +10507,31 @@ entry!('kirkpatrick2012significance',
    emnlp(2012),
    pages(995,1005),
 nil)
+
+entry!('maccartney2007natural',
+     author('Bill MacCartney and Christopher D. Manning'),
+     title('Natural Logic for Textual Inference'),
+     inproceedings('ACL-PASCAL Workshop on Textual Entailment and Paraphrasing', 2007),
+     year(2007),
+     pages(193,200),
+nil)
+
+entry!('angeli2014naturalli',
+  title('NaturalLI: Natural Logic Inference for Common Sense Reasoning'),
+  author('Gabor Angeli and Christopher D. Manning'),
+  emnlp(2014),
+nil)
+
+entry!('angeli2016naturalli',
+  title('Combining Natural Logic and Shallow Reasoning for Question Answering'),
+  author('Gabor Angeli and Neha Nayak and Christopher D. Manning'),
+  acl(2016),
+nil)
+
+entry!('pavlick2015semantics',
+    author('Ellie Pavlick and Johan Bos and Malvina Nissim and Charley Beller and Benjamin Van and Durme Chris Callison-Burch'),
+    title('Adding semantics to data-driven paraphrasing'),
+    acl(2015),
 
 entry!('zhang2013parallelparaphrase',
   author('Congle Zhang and Daniel S. Weld'),
