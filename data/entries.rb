@@ -8760,6 +8760,12 @@ entry!('cozman2006risks',
   publisher('MIT Press'),
 nil)
 
+entry!('chapelle2006semisupervised',
+  author('O. Chapelle and A. Zien and B. Scholkopf'),
+  title('Semi-Supervised Learning'),
+  book('MIT Press', 2006),
+nil)
+
 entry!('li2015towards',
   title('Towards making unlabeled data never hurt'),
   author('Yu-Feng Li and Zhi-Hua Zhou'),
