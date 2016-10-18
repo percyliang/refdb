@@ -10665,3 +10665,9 @@ entry!('lei2015consistency',
   volume(43),
   pages(215,237),
 nil)
+
+entry!('vempala2002spectral',
+  title('A spectral algorithm for learning mixture models'),
+  author('Santosh Vempala and Grant Wang'),
+  focs(2002),
+nil)
