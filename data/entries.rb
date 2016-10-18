@@ -10671,3 +10671,9 @@ entry!('vempala2002spectral',
   author('Santosh Vempala and Grant Wang'),
   focs(2002),
 nil)
+
+entry!('vershynin2010introduction',
+  title('Introduction to the non-asymptotic analysis of random matrices'),
+  author('Roman Vershynin'),
+  arxiv(2010),
+nil)
