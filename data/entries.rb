@@ -10677,3 +10677,10 @@ entry!('vershynin2010introduction',
   author('Roman Vershynin'),
   arxiv(2010),
 nil)
+
+entry!('batson2012twice',
+  title('Twice-{R}amanujan sparsifiers'),
+  author('Joshua Batson and Daniel A. Spielman and Nikhil Srivastava'),
+  article('SIAM Journal on Computing', 2012, 41),
+  number(6), pages(1704, 1721),
+nil)
