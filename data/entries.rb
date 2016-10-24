@@ -10684,3 +10684,9 @@ entry!('batson2012twice',
   article('SIAM Journal on Computing', 2012, 41),
   number(6), pages(1704, 1721),
 nil)
+
+entry!('fakcharoenphol2003tight',
+  title('A tight bound on approximating arbitrary metrics by tree metrics'),
+  author('Jittat Fakcharoenphol and Satish Rao and Kunal Talwar'),
+  stoc(2003), pages(448, 455),
+nil)
