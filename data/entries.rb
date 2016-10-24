@@ -10690,3 +10690,9 @@ entry!('fakcharoenphol2003tight',
   author('Jittat Fakcharoenphol and Satish Rao and Kunal Talwar'),
   stoc(2003), pages(448, 455),
 nil)
+
+entry!('rudelson1999random',
+  title('Random vectors in the isotropic position'),
+  author('Mark Rudelson'),
+  article('Journal of Functional Analysis', 1999, 164), pages(60, 72),
+nil)
