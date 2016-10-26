@@ -10761,3 +10761,8 @@ entry!('xu2010principal',
   arxiv(2010),
 nil)
 
+entry!('chen2013robust',
+  title('Robust High Dimensional Sparse Regression and Matching Pursuit'),
+  author('Yudong Chen and Constantine Caramanis and Shie Mannor'),
+  arxiv(2013),
+nil)
