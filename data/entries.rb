@@ -10734,3 +10734,30 @@ entry!('huber2009robust',
   author('Peter J. Huber and Elvezio M. Ronchetti'),
   book('Wiley', 2009),
 nil)
+
+entry!('bhatia2015robust',
+  title('Robust regression via hard thresholding'),
+  author('Kush Bhatia and Prateek Jain and Puroshottam Kar'),
+  nips(2015), pages(721, 729),
+nil)
+
+entry!('chandrasekaran2011rank',
+  title('Rank-sparsity incoherence for matrix decomposition'),
+  author('Venkat Chandrasekaran and Sujay Sanghavi and Pablo A. Parrilo and Alan S. Willsky'),
+  article('SIAM Journal on Optimization', 2011, 21),
+  number(2), pages(572,596),
+nil)
+
+entry!('candes2011robust',
+  title('Robust principal component analysis?'),
+  author('Emmanuel J. Cand{\`e}s and Xiaodong Li and Yi Ma and John Wright'),
+  article('Journal of the ACM', 2011, 58),
+  number(3),
+nil)
+
+entry!('xu2010principal',
+  title('Principal component analysis with contaminated data: The high dimensional case'),
+  author('Huan Xu and Constantine Caramanis and Shie Mannor'),
+  arxiv(2010),
+nil)
+
