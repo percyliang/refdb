@@ -10696,3 +10696,9 @@ entry!('rudelson1999random',
   author('Mark Rudelson'),
   article('Journal of Functional Analysis', 1999, 164), pages(60, 72),
 nil)
+
+entry!('steinhardt2016avoiding',
+  title(' Avoiding Imposters and Delinquents: Adversarial Crowdsourcing and Peer Prediction'),
+  author('Jacob Steinhardt and Gregory Valiant and Moses Charikar'),
+  nips(2016),
+nil)
