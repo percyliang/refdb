@@ -10702,3 +10702,35 @@ entry!('steinhardt2016avoiding',
   author('Jacob Steinhardt and Gregory Valiant and Moses Charikar'),
   nips(2016),
 nil)
+
+entry!('kearns1993learning',
+  title('Learning in the presence of malicious errors'),
+  author('Michael Kearns and Ming Li'),
+  article('SIAM Journal on Computing', 1993, 22),
+  number(4), pages(807, 837),
+nil)
+
+entry!('tukey1960survey',
+  title('A survey of sampling from contaminated distributions'),
+  author('John W. Tukey'),
+  article('Contributions to probability and statistics', 1960, 2),
+  pages(448,485),
+nil)
+
+entry!('maronna2006robust',
+  title('Robust Statistics: Theory and Methods'),
+  author('Ricardo A. Maronna and Douglas R. Martin and Victor J. Yohai'),
+  book('Wiley', 2006),
+nil)
+
+entry!('hampel2011robust',
+  title('Robust Statistics: The Approach Based on Influence Functions'),
+  author('Frank R. Hampel and Elvezio M. Ronchetti and Peter J. Rousseeuw and Werner A. Stahel'),
+  book('Wiley', 2011),
+nil)
+
+entry!('huber2009robust',
+  title('Robust Statistics'),
+  author('Peter J. Huber and Elvezio M. Ronchetti'),
+  book('Wiley', 2009),
+nil)
