@@ -333,6 +333,13 @@ entry!('mackay97hmm',
   techreport('University of Cambridge', 1997),
 nil)
 
+entry!('bernholt2006robust',
+  title('Robust estimators are hard to compute'),
+  author('Thorsten Bernholt'),
+  techreport('Universit\"{a}t Dortmund', 2006),
+nil)
+
+
 entry!('wang2014qa',
   author('Zhenghao Wang and Shengquan Yan and Huaming Wang and Xuedong Huang'),
   title('An Overview of Microsoft Deep {QA} System on Stanford WebQuestions Benchmark'),
@@ -10766,3 +10773,24 @@ entry!('chen2013robust',
   author('Yudong Chen and Constantine Caramanis and Shie Mannor'),
   arxiv(2013),
 nil)
+
+entry!('guruswami2009hardness',
+  title('Hardness of learning halfspaces with noise'),
+  author('Venkatesan Guruswami and Prasad Raghavendra'),
+  article('SIAM Journal on Computing', 2009, 39),
+  number(2),
+  pages(742,765),
+nil)
+
+entry!('hardt2013algorithms',
+  title('Algorithms and Hardness for Robust Subspace Recovery'),
+  author('Moritz Hardt and Ankur Moitra'),
+  colt(2013),
+nil)
+
+entry!('achlioptas2005spectral',
+  author('Dimitris Achlioptas and Frank McSherry'),
+  title('On spectral learning of mixtures of distributions'),
+  colt(2005),
+nil)
+
