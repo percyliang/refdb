@@ -10794,3 +10794,11 @@ entry!('achlioptas2005spectral',
   colt(2005),
 nil)
 
+entry!('lowner1934monotone',
+  title('{\\"U}ber monotone matrixfunktionen'),
+  author('Karl L{\"o}wner'),
+  article('Mathematische Zeitschrift', 1934, 38),
+  number(1),
+  pages(177, 216),
+  publisher('Springer'),
+nil)
