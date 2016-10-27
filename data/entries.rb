@@ -5254,7 +5254,7 @@ nil)
 entry!('shalit2014coordinate',
   icml(2014),
   title('Coordinate-descent for learning orthogonal matrices through Givens rotations'),
-  author('Uiri Shalit and Gal Chechik'),
+  author('Uri Shalit and Gal Chechik'),
 nil)
 
 entry!('yeredor2004approximate',
@@ -10609,12 +10609,6 @@ entry!('fetaya2016unsupervised',
   pages(351,360),
 nil)
 
-entry!('bendavid2006analysis',
-  title('Analysis of Representations for Domain Adaptation'),
-  author('Shai Ben-David and John Blitzer and Koby Crammer and Fernando Pereira'),
-  nips(2006),
-nil)
-
 entry!('arora2012learning',
   title('Learning topic models--going beyond {SVD}'),
   author('Sanjeev Arora and Rong Ge and Ankur Moitra'),
@@ -10801,4 +10795,22 @@ entry!('lowner1934monotone',
   number(1),
   pages(177, 216),
   publisher('Springer'),
+nil)
+
+entry!('mansour2009domain',
+  author('Yishay Mansour and Mehryar Mohri and Afshin Rostamizadeh'),
+  title('Domain adaptation: Learning bounds and algorithms'),
+  colt(2009),
+nil)
+
+entry!('bendavid2006analysis',
+  author('Shai Ben-David and John Blitzer and Koby Crammer and Fernando Pereira'),
+  title('Analysis of representations for domain adaptation'),
+  nips(2006), pages(137, 144),
+nil)
+
+entry!('johansson2016learning',
+  author('Fredrik Johansson and Uri Shalit and David Sontag'),
+  title('Learning Representations for Counterfactual Inference'),
+  icml(2016),
 nil)
