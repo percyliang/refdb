@@ -10814,3 +10814,10 @@ entry!('johansson2016learning',
   title('Learning Representations for Counterfactual Inference'),
   icml(2016),
 nil)
+
+entry!('ghosh2011moderates',
+  title('Who moderates the moderators?: crowdsourcing abuse detection in user-generated content'),
+  author('Arpita Ghosh and Satyen Kale and Preston McAfee'),
+  inproceedings('12th ACM conference on Electronic commerce', 2011),
+  pages(167, 176),
+nil)
