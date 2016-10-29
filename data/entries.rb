@@ -9888,6 +9888,12 @@ entry!('abbe2015community',
   arxiv(2015),
 nil)
 
+entry!('abbe2015detection',
+  title('Detection in the stochastic block model with multiple clusters: proof of the achievability conjectures, acyclic BP, and the information-computation gap'),
+  author('Emmanuel Abbe and Colin Sandon'),
+  arxiv(2015),
+nil)
+
 entry!('chin2015stochastic',
   title('Stochastic block model and community detection in the sparse graphs: A spectral algorithm with optimal rate of recovery'),
   author('Peter Chin and Anup Rao and Van Vu'),
