@@ -333,6 +333,13 @@ entry!('mackay97hmm',
   techreport('University of Cambridge', 1997),
 nil)
 
+entry!('bernholt2006robust',
+  title('Robust estimators are hard to compute'),
+  author('Thorsten Bernholt'),
+  techreport('Universit\"{a}t Dortmund', 2006),
+nil)
+
+
 entry!('wang2014qa',
   author('Zhenghao Wang and Shengquan Yan and Huaming Wang and Xuedong Huang'),
   title('An Overview of Microsoft Deep {QA} System on Stanford WebQuestions Benchmark'),
@@ -5247,7 +5254,7 @@ nil)
 entry!('shalit2014coordinate',
   icml(2014),
   title('Coordinate-descent for learning orthogonal matrices through Givens rotations'),
-  author('Uiri Shalit and Gal Chechik'),
+  author('Uri Shalit and Gal Chechik'),
 nil)
 
 entry!('yeredor2004approximate',
@@ -8760,6 +8767,12 @@ entry!('cozman2006risks',
   publisher('MIT Press'),
 nil)
 
+entry!('chapelle2006semisupervised',
+  author('O. Chapelle and A. Zien and B. Scholkopf'),
+  title('Semi-Supervised Learning'),
+  book('MIT Press', 2006),
+nil)
+
 entry!('li2015towards',
   title('Towards making unlabeled data never hurt'),
   author('Yu-Feng Li and Zhi-Hua Zhou'),
@@ -9513,7 +9526,7 @@ entry!('khani2016unanimity',
 nil)
 
 entry!('chaganty2016perspectives',
-  author('Arun Chaganty and Percy Liang'),
+  author('Arun Tejasvi Chaganty and Percy Liang'),
   title('How Much is 131 Million Dollars? Putting Numbers in Perspective with Compositional Descriptions'),
   acl(2016),
   url('perspectives-acl2016.pdf'),
@@ -9876,6 +9889,12 @@ entry!('abbe2015community',
   arxiv(2015),
 nil)
 
+entry!('abbe2015detection',
+  title('Detection in the stochastic block model with multiple clusters: proof of the achievability conjectures, acyclic {BP}, and the information-computation gap'),
+  author('Emmanuel Abbe and Colin Sandon'),
+  arxiv(2015),
+nil)
+
 entry!('chin2015stochastic',
   title('Stochastic block model and community detection in the sparse graphs: A spectral algorithm with optimal rate of recovery'),
   author('Peter Chin and Anup Rao and Van Vu'),
@@ -9886,6 +9905,12 @@ entry!('decelle2011asymptotic',
   title('Asymptotic analysis of the stochastic block model for modular networks and its algorithmic applications'),
   author('Aurelien Decelle and Florent Krzakala and Cristopher Moore and Lenka Zdeborov{\\\'a}'),
   article('Physical Review E', 2011), volume(84), number(6),
+nil)
+
+entry!('decelle2011inference',
+  title('Inference and phase transitions in the detection of modules in sparse networks'),
+  author('Aurelien Decelle and Florent Krzakala and Cristopher Moore and Lenka Zdeborov{\\\'a}'),
+  article('Physical Review Letters', 2011), volume(107), number(6),
 nil)
 
 entry!('mossel2012stochastic',
@@ -10099,7 +10124,7 @@ entry!('cartis2009finding',
 nil)
 
 entry!('le2015concentration',
- author('Can M. Le and Roman Vershynin'),
+ author('Can M. Le and Elizaveta Levina and Roman Vershynin'),
  title('Concentration and Regularization of Random Graphs'),
  arxiv(2015),
 nil)
@@ -10503,6 +10528,32 @@ entry!('kirkpatrick2012significance',
    pages(995,1005),
 nil)
 
+entry!('maccartney2007natural',
+     author('Bill MacCartney and Christopher D. Manning'),
+     title('Natural Logic for Textual Inference'),
+     inproceedings('ACL-PASCAL Workshop on Textual Entailment and Paraphrasing', 2007),
+     year(2007),
+     pages(193,200),
+nil)
+
+entry!('angeli2014naturalli',
+  title('NaturalLI: Natural Logic Inference for Common Sense Reasoning'),
+  author('Gabor Angeli and Christopher D. Manning'),
+  emnlp(2014),
+nil)
+
+entry!('angeli2016naturalli',
+  title('Combining Natural Logic and Shallow Reasoning for Question Answering'),
+  author('Gabor Angeli and Neha Nayak and Christopher D. Manning'),
+  acl(2016),
+nil)
+
+entry!('pavlick2015semantics',
+    author('Ellie Pavlick and Johan Bos and Malvina Nissim and Charley Beller and Benjamin Van and Durme Chris Callison-Burch'),
+    title('Adding semantics to data-driven paraphrasing'),
+    acl(2015),
+nil)
+
 entry!('zhang2013parallelparaphrase',
   author('Congle Zhang and Daniel S. Weld'),
   title('Harvesting Parallel News Streams to Generate Paraphrases of Event Relations'),
@@ -10565,12 +10616,6 @@ entry!('fetaya2016unsupervised',
   pages(351,360),
 nil)
 
-entry!('bendavid2006analysis',
-  title('Analysis of Representations for Domain Adaptation'),
-  author('Shai Ben-David and John Blitzer and Koby Crammer and Fernando Pereira'),
-  nips(2006),
-nil)
-
 entry!('arora2012learning',
   title('Learning topic models--going beyond {SVD}'),
   author('Sanjeev Arora and Rong Ge and Ankur Moitra'),
@@ -10583,8 +10628,203 @@ entry!('bansal2014provable',
   nips(2014),
 nil)
 
+entry!('diakonikolas2016robust',
+  title('Robust Estimators in High Dimensions without the Computational Intractability'),
+  author('Ilias Diakonikolas and Gautam Kamath and Daniel Kane and Jerry Li and Ankur Moitra and Alistair Stewart'),
+  focs(2016),
+nil)
+
+entry!('lai2016agnostic',
+  title('Agnostic Estimation of Mean and Covariance'),
+  author('Kevin A. Lai and Anup B. Rao and Santosh Vempala'),
+  focs(2016),
+nil)
+
 entry!('wang2016machine',
   arxiv(2016, '1608.07905'),
   title('Machine Comprehension Using Match-{LSTM} and Answer Pointer'),
   author('Shuohang Wang and Jing Jiang'),
+nil)
+
+entry!('awasthi2012improved',
+  title('Improved spectral-norm bounds for clustering'),
+  author('Pranjal Awasthi and Or Sheffet'),
+  article('Approximation, Randomization, and Combinatorial Optimization', 2012),
+  pages(37, 49),
+nil)
+
+entry!('mahajan2009planar',
+  title('The planar {k}-means problem is {NP}-hard'),
+  author('Meena Mahajan and Prajakta Nimbhorkar and Kasturi Varadarajan'),
+  article('International Workshop on Algorithms and Computation', 2009),
+  pages(274,285),
+nil)
+
+entry!('sontag2011complexity',
+  title('Complexity of Inference in Latent {D}irichlet Allocation'),
+  author('David Sontag and Dan Roy'),
+  nips(2011),
+nil)
+
+entry!('lei2015consistency',
+  title('Consistency of spectral clustering in stochastic block models'),
+  author('Jing Lei and Alessandro Rinaldo'),
+  article('The Annals of Statistics', 2015),
+  volume(43),
+  pages(215,237),
+nil)
+
+entry!('vempala2002spectral',
+  title('A spectral algorithm for learning mixture models'),
+  author('Santosh Vempala and Grant Wang'),
+  focs(2002),
+nil)
+
+entry!('vershynin2010introduction',
+  title('Introduction to the non-asymptotic analysis of random matrices'),
+  author('Roman Vershynin'),
+  arxiv(2010),
+nil)
+
+entry!('batson2012twice',
+  title('Twice-{R}amanujan sparsifiers'),
+  author('Joshua Batson and Daniel A. Spielman and Nikhil Srivastava'),
+  article('SIAM Journal on Computing', 2012, 41),
+  number(6), pages(1704, 1721),
+nil)
+
+entry!('fakcharoenphol2003tight',
+  title('A tight bound on approximating arbitrary metrics by tree metrics'),
+  author('Jittat Fakcharoenphol and Satish Rao and Kunal Talwar'),
+  stoc(2003), pages(448, 455),
+nil)
+
+entry!('rudelson1999random',
+  title('Random vectors in the isotropic position'),
+  author('Mark Rudelson'),
+  article('Journal of Functional Analysis', 1999, 164), pages(60, 72),
+nil)
+
+entry!('steinhardt2016avoiding',
+  title(' Avoiding Imposters and Delinquents: Adversarial Crowdsourcing and Peer Prediction'),
+  author('Jacob Steinhardt and Gregory Valiant and Moses Charikar'),
+  nips(2016),
+nil)
+
+entry!('kearns1993learning',
+  title('Learning in the presence of malicious errors'),
+  author('Michael Kearns and Ming Li'),
+  article('SIAM Journal on Computing', 1993, 22),
+  number(4), pages(807, 837),
+nil)
+
+entry!('tukey1960survey',
+  title('A survey of sampling from contaminated distributions'),
+  author('John W. Tukey'),
+  article('Contributions to probability and statistics', 1960, 2),
+  pages(448,485),
+nil)
+
+entry!('maronna2006robust',
+  title('Robust Statistics: Theory and Methods'),
+  author('Ricardo A. Maronna and Douglas R. Martin and Victor J. Yohai'),
+  book('Wiley', 2006),
+nil)
+
+entry!('hampel2011robust',
+  title('Robust Statistics: The Approach Based on Influence Functions'),
+  author('Frank R. Hampel and Elvezio M. Ronchetti and Peter J. Rousseeuw and Werner A. Stahel'),
+  book('Wiley', 2011),
+nil)
+
+entry!('huber2009robust',
+  title('Robust Statistics'),
+  author('Peter J. Huber and Elvezio M. Ronchetti'),
+  book('Wiley', 2009),
+nil)
+
+entry!('bhatia2015robust',
+  title('Robust regression via hard thresholding'),
+  author('Kush Bhatia and Prateek Jain and Puroshottam Kar'),
+  nips(2015), pages(721, 729),
+nil)
+
+entry!('chandrasekaran2011rank',
+  title('Rank-sparsity incoherence for matrix decomposition'),
+  author('Venkat Chandrasekaran and Sujay Sanghavi and Pablo A. Parrilo and Alan S. Willsky'),
+  article('SIAM Journal on Optimization', 2011, 21),
+  number(2), pages(572,596),
+nil)
+
+entry!('candes2011robust',
+  title('Robust principal component analysis?'),
+  author('Emmanuel J. Cand{\`e}s and Xiaodong Li and Yi Ma and John Wright'),
+  article('Journal of the ACM', 2011, 58),
+  number(3),
+nil)
+
+entry!('xu2010principal',
+  title('Principal component analysis with contaminated data: The high dimensional case'),
+  author('Huan Xu and Constantine Caramanis and Shie Mannor'),
+  arxiv(2010),
+nil)
+
+entry!('chen2013robust',
+  title('Robust High Dimensional Sparse Regression and Matching Pursuit'),
+  author('Yudong Chen and Constantine Caramanis and Shie Mannor'),
+  arxiv(2013),
+nil)
+
+entry!('guruswami2009hardness',
+  title('Hardness of learning halfspaces with noise'),
+  author('Venkatesan Guruswami and Prasad Raghavendra'),
+  article('SIAM Journal on Computing', 2009, 39),
+  number(2),
+  pages(742,765),
+nil)
+
+entry!('hardt2013algorithms',
+  title('Algorithms and Hardness for Robust Subspace Recovery'),
+  author('Moritz Hardt and Ankur Moitra'),
+  colt(2013),
+nil)
+
+entry!('achlioptas2005spectral',
+  author('Dimitris Achlioptas and Frank McSherry'),
+  title('On spectral learning of mixtures of distributions'),
+  colt(2005),
+nil)
+
+entry!('lowner1934monotone',
+  title('{\\"U}ber monotone matrixfunktionen'),
+  author('Karl L{\"o}wner'),
+  article('Mathematische Zeitschrift', 1934, 38),
+  number(1),
+  pages(177, 216),
+  publisher('Springer'),
+nil)
+
+entry!('mansour2009domain',
+  author('Yishay Mansour and Mehryar Mohri and Afshin Rostamizadeh'),
+  title('Domain adaptation: Learning bounds and algorithms'),
+  colt(2009),
+nil)
+
+entry!('bendavid2006analysis',
+  author('Shai Ben-David and John Blitzer and Koby Crammer and Fernando Pereira'),
+  title('Analysis of representations for domain adaptation'),
+  nips(2006), pages(137, 144),
+nil)
+
+entry!('johansson2016learning',
+  author('Fredrik Johansson and Uri Shalit and David Sontag'),
+  title('Learning Representations for Counterfactual Inference'),
+  icml(2016),
+nil)
+
+entry!('ghosh2011moderates',
+  title('Who moderates the moderators?: crowdsourcing abuse detection in user-generated content'),
+  author('Arpita Ghosh and Satyen Kale and Preston McAfee'),
+  inproceedings('12th ACM conference on Electronic commerce', 2011),
+  pages(167, 176),
 nil)
