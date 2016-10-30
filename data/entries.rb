@@ -9525,6 +9525,7 @@ entry!('raghunathan2016linear',
   title('Estimation from Indirect Supervision with Linear Moments'),
   icml(2016),
   url('http://arxiv.org/pdf/1603.03100.pdf'),
+  codalab('0x6a264a96efea41158847eef9ec2f76bc'),
 nil)
 
 entry!('wager2016levy',
