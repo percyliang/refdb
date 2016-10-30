@@ -9889,7 +9889,7 @@ entry!('abbe2015community',
 nil)
 
 entry!('abbe2015detection',
-  title('Detection in the stochastic block model with multiple clusters: proof of the achievability conjectures, acyclic BP, and the information-computation gap'),
+  title('Detection in the stochastic block model with multiple clusters: proof of the achievability conjectures, acyclic {BP}, and the information-computation gap'),
   author('Emmanuel Abbe and Colin Sandon'),
   arxiv(2015),
 nil)
