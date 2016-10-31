@@ -10828,3 +10828,17 @@ entry!('ghosh2011moderates',
   inproceedings('12th ACM conference on Electronic commerce', 2011),
   pages(167, 176),
 nil)
+
+entry!('zha2001spectral',
+  author('Hongyuan Zha and Xiaofeng He and Chris Ding and Horst Simon and Ming Gu'),
+  title('Spectral relaxation for {k}-means clustering'),
+  nips(2001),
+  pages(1057, 1064),
+nil)
+
+entry!('chen2014clustering',
+  title('Clustering partially observed graphs via convex optimization'),
+  author('Yudong Chen and Ali Jalali and Sujay Sanghavi and Huan Xu'),
+  jmlr(2014, 15),
+  pages(2213, 2238),
+nil)
