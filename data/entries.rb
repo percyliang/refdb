@@ -10842,3 +10842,10 @@ entry!('chen2014clustering',
   jmlr(2014, 15),
   pages(2213, 2238),
 nil)
+
+entry!('mcsherry2001spectral',
+  title('Spectral partitioning of random graphs'),
+  author('Frank McSherry'),
+  focs(2001),
+  pages(529, 537),
+nil)
