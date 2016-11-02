@@ -10849,3 +10849,16 @@ entry!('mcsherry2001spectral',
   focs(2001),
   pages(529, 537),
 nil)
+
+entry!('rebrova2015coverings',
+  title('Coverings of random ellipsoids, and invertibility of matrices with iid heavy-tailed entries'),
+  author('Elizaveta Rebrova and Konstantin Tikhomirov'),
+  arxiv(2015),
+nil)
+
+entry!('rebrova2016norms',
+  title('Norms of random matrices: local and global problems'),
+  author('Elizaveta Rebrova and Roman Vershynin'),
+  arxiv(2016),
+nil)
+
