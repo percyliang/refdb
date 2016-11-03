@@ -10879,3 +10879,9 @@ entry!('kim2015character',
   title('Character-aware neural language models'),
   author('Yoon Kim and Yacine Jernite and David Sontag and Alexander M Rush'),
 nil)
+
+entry!('sedghi2016training',
+  arxiv(2016, '1603.00954'),
+  title('Training Input-Output Recurrent Neural Networks through Spectral Methods'),
+  author('Hanie Sedghi and Anima Anandkumar'),
+nil)
