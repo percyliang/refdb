@@ -10861,3 +10861,21 @@ entry!('wu2016google',
   title('Google\'s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation'),
   author('Yonghui Wu and Mike Schuster and Zhifeng Chen and Quoc V Le and Mohammad Norouzi and Wolfgang Macherey and Maxim Krikun and Yuan Cao and Qin Gao and Klaus Macherey and others'),
 nil)
+
+entry!('rebrova2015coverings',
+  title('Coverings of random ellipsoids, and invertibility of matrices with iid heavy-tailed entries'),
+  author('Elizaveta Rebrova and Konstantin Tikhomirov'),
+  arxiv(2015),
+nil)
+
+entry!('rebrova2016norms',
+  title('Norms of random matrices: local and global problems'),
+  author('Elizaveta Rebrova and Roman Vershynin'),
+  arxiv(2016),
+nil)
+
+entry!('kim2015character',
+  arxiv(2015, '1508.06615'),
+  title('Character-aware neural language models'),
+  author('Yoon Kim and Yacine Jernite and David Sontag and Alexander M Rush'),
+nil)
