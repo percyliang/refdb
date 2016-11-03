@@ -10849,3 +10849,15 @@ entry!('mcsherry2001spectral',
   focs(2001),
   pages(529, 537),
 nil)
+
+entry!('oord2016wavenet',
+  arxiv(2016, '1609.03499'),
+  title('WaveNet: A generative model for raw audio'),
+  author('Aaron van den Oord and Sander Dieleman and Heiga Zen and Karen Simonyan and Oriol Vinyals and Alex Graves and Nal Kalchbrenner and Andrew Senior and Koray Kavukcuoglu'),
+nil)
+
+entry!('wu2016google',
+  arxiv(2016, '1609.08144'),
+  title('Google\'s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation'),
+  author('Yonghui Wu and Mike Schuster and Zhifeng Chen and Quoc V Le and Mohammad Norouzi and Wolfgang Macherey and Maxim Krikun and Yuan Cao and Qin Gao and Klaus Macherey and others'),
+nil)
