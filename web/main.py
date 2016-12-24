@@ -25,7 +25,10 @@ def info():
         result = {'error': 'query must start with http'}
     else:
         result = inspect_link(query)
-    return json.dumps(result)
+    result_str = json.dumps(result)
+    with open('log', 'a') as f:
+        print >>f, query + '\t' + result_str
+    return result_str
 
 def unquote(s):
     #while True:
