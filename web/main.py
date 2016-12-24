@@ -3,32 +3,29 @@ Runs a server that converts URLs of papers into a citable reference.
 """
 import bottle
 import json
+import urllib
 import urllib2
 import os
 import re
 
-app = bottle.Bottle()
-
-@app.get('/')
-def main():
-    bottle.redirect('/static/info.html')
-
-@app.get('/static/<filename:path>')
-def read_file(filename):
-    return bottle.static_file(filename, root=os.path.join(os.path.dirname(__file__), 'static'))
-
-@app.get('/info')
-def info():
-    args = bottle.request.query
-    query = args['query']
-    if not query.startswith('http'):
-        result = {'error': 'query must start with http'}
+def read_url(url):
+    CACHE_PATH = 'cache'
+    if not os.path.exists(CACHE_PATH):
+        os.mkdir(CACHE_PATH)
+    cached_path = os.path.join(CACHE_PATH, re.sub('[^\w-]', '.', url))
+    if os.path.exists(cached_path):
+        with open(cached_path) as f:
+            data = f.read()
     else:
-        result = inspect_link(query)
-    result_str = json.dumps(result)
-    with open('log', 'a') as f:
-        print >>f, query + '\t' + result_str
-    return result_str
+        print 'REQUEST', url
+        f = urllib2.urlopen(url)
+        data = f.read()
+        with open(cached_path, 'w') as f:
+            f.write(data)
+    return data
+
+def read_url_lines(url):
+    return read_url(url).strip().split('\n') 
 
 def unquote(s):
     #while True:
@@ -48,7 +45,8 @@ def normalize_author(s):
 def inspect_link(url):
     title = None
     authors = []
-    date = None
+    year = None
+    html_url = None
     pdf_url = None
     venue = None
     number = None
@@ -65,6 +63,7 @@ def inspect_link(url):
     if m:
         url = url.replace('.pdf', '')
         venue = 'nips'
+    html_url = url
 
     if 'aclweb.org' in url:
         if not url.endswith('.pdf'):
@@ -89,7 +88,7 @@ def inspect_link(url):
             elif key == 'title':
                 title = value
             elif key == 'year':
-                date = value
+                year = value
     else:
         for line in read_url_lines(url):
             m = re.search('citation_conference_title.*content="(.+)"', line)
@@ -108,7 +107,7 @@ def inspect_link(url):
             m = re.search('citation_date.*content="(.+)"', line) or \
                 re.search('citation_publication_date.*content="(.+)"', line)
             if m:
-                date = m.group(1).split('/')[0]
+                year = m.group(1).split('/')[0]
             m = re.search('citation_pdf_url.*content="(.+)"', line)
             if m:
                 pdf_url = m.group(1)
@@ -119,30 +118,86 @@ def inspect_link(url):
 
     return {
         'authors': authors,
-        'date': date,
+        'year': year,
         'title': title,
+        'html_url': html_url,
         'pdf_url': pdf_url,
         'venue': venue,
         'number': number,
     }
 
-def read_url_lines(url):
-    return read_url(url).strip().split('\n') 
+def search(query):
+    # Search on Semantic Scholar, get the first result.
+    url = 'https://www.semanticscholar.org/search?' + urllib.urlencode({'q': query})
+    response = read_url(url)
+    m = re.search('href="(/paper/[^"]+)"', response)
+    if not m:
+        return {'error': 'Can\'t find paper link'}
 
-def read_url(url):
-    CACHE_PATH = 'cache'
-    if not os.path.exists(CACHE_PATH):
-        os.mkdir(CACHE_PATH)
-    cached_path = os.path.join(CACHE_PATH, re.sub('[^\w-]', '.', url))
-    if os.path.exists(cached_path):
-        with open(cached_path) as f:
-            data = f.read()
+    # Get information about the first result.
+    html_url = url = 'https://www.semanticscholar.org' + m.group(1)
+    response = read_url(url)
+
+    pdf_url = None
+    m = re.search('"url":"([^"]+)"', response)
+    if m:
+        pdf_url = m.group(1)
+
+    year = None
+    m = re.search('"year":{"text":"([^"]+)"', response)
+    if m:
+        year = m.group(1)
+
+    title = None
+    m = re.search('"title":{"text":"([^"]+)"', response)
+    if m:
+        title = m.group(1)
+
+    venue = None
+    m = re.search('"venue":{"text":"([^"]+)"', response)
+    if m:
+        venue = m.group(1).lower()
+
+    authors = []
+    while True:
+        m = re.search('"@type":"Person","name":"([^"]+)"(.*)', response)
+        if not m:
+            break
+        authors.append(m.group(1))
+        response = m.group(2)
+
+    return {
+        'year': year,
+        'authors': authors,
+        'title': title,
+        'pdf_url': pdf_url,
+        'html_url': html_url,
+        'venue': venue,
+    }
+
+############################################################
+
+app = bottle.Bottle()
+
+@app.get('/')
+def main():
+    bottle.redirect('/static/info.html')
+
+@app.get('/static/<filename:path>')
+def read_file(filename):
+    return bottle.static_file(filename, root=os.path.join(os.path.dirname(__file__), 'static'))
+
+@app.get('/info')
+def info():
+    args = bottle.request.query
+    query = args['query']
+    if query.startswith('http'):
+        result = inspect_link(query)
     else:
-        print 'REQUEST', url
-        f = urllib2.urlopen(url)
-        data = f.read()
-        with open(cached_path, 'w') as f:
-            f.write(data)
-    return data
+        result = search(query)
+    result_str = json.dumps(result)
+    with open('log', 'a') as f:
+        print >>f, query + '\t' + result_str
+    return result_str
 
 bottle.run(app, host='', port=9500, debug=True)
