@@ -24,7 +24,7 @@ To filter the entries:
 
 ## Adding new entries to the database
 
-To add a new entry, append to `data/entries.rb`, for example:
+To add a new entry, append to `data/<username>.rb`, for example:
 
     entry!('liang11dcs',
       author('Percy Liang and Michael I. Jordan and Dan Klein'),
@@ -44,5 +44,12 @@ You can also import from existing bibtex (either from a file or stdin):
     ./import.rb
 
 Paste in your bibtex format and the corresponding Ruby code will be appended to
-`data/entries.rb`.  There might be errors so it's a good idea to double check
+`data/<username>.rb`.  There might be errors so it's a good idea to double check
 what's been added.
+
+After you do this, make sure you rebuild `all.bib`:
+
+    make
+
+Then `git add data/<username>.rb` if necessary.  To commit your changes, do
+`git commit -am "add"`, `git push` or make a pull request.

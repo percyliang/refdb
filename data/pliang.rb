@@ -1,14 +1,5 @@
 # encoding: utf-8
 
-# This file contains the list of all entries.
-# The format is basically bibtex in Ruby syntax:
-#   author('...')
-#   title('...')
-# You can use macros (see venues.rb):
-#   icml(2014)
-# And other metadata which goes into the HTML output, not the bib:
-#   project('...')
-
 entry!('ferguson73dp',
   author('T. S. Ferguson'),
   title('A {B}ayesian Analysis of Some Nonparametric Problems'),
@@ -10884,4 +10875,11 @@ entry!('sedghi2016training',
   arxiv(2016, '1603.00954'),
   title('Training Input-Output Recurrent Neural Networks through Spectral Methods'),
   author('Hanie Sedghi and Anima Anandkumar'),
+nil)
+
+entry!('li2016dialogue',
+  author('Jiwei Li and Alexander H. Miller and Sumit Chopra and Marc\'Aurelio Ranzato and Jason Weston'),
+  title('Dialogue Learning With Human-In-The-Loop'),
+  arxiv(2016, '1611.09823'),
+  url('http://arxiv.org/pdf/1611.09823.pdf'),
 nil)
