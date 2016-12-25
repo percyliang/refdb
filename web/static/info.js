@@ -48,18 +48,41 @@ $(function () {
 
       resultsBox.empty();
 
+      // Full title
       var description =
         response.title + ' [' + response.authors.join(', ') + '; ' + response.year + ']';
       var link = $('<a>').attr('href', response.pdf_url).append(description);
       resultsBox.append($('<div>').addClass('item').append(link));
 
+      // Simple citation
       var description =
         '[' + response.authors.map(function (author) { return last(author.split(' ')); }).join('/') +
         ' ' + response.year + ']';
       var link = $('<a>').attr('href', response.pdf_url).append(description);
       resultsBox.append($('<div>').addClass('item').append(link));
 
-      var link = $('<a>').attr('href', response.html_url).append('[html]');
+      // HTML link
+      var link = $('<a>').attr('href', response.html_url).append('[HTML]');
+      resultsBox.append($('<div>').addClass('item').append(link));
+
+      // Save
+      var link = $('<button>').append('Save entry').click(function () {
+        $.ajax({
+          type: 'POST',
+          url: '/entries',
+          data: JSON.stringify({entry: response}),
+          dataType: 'json',
+          contentType: 'application/json',
+          processData: false,
+          success: function (response) {
+            console.log('ADD ENTRY RESPONSE', response);
+            if (response.error) {
+              alert(response.error);
+              return;
+            }
+          },
+        });
+      });
       resultsBox.append($('<div>').addClass('item').append(link));
 
       // refdb

@@ -1,2 +1,3 @@
-cache
-log
+url.cache
+log.jsonl
+entries.jsonl

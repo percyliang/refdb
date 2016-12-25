@@ -7,9 +7,13 @@ import urllib
 import urllib2
 import os
 import re
+import datetime
+
+CACHE_PATH = 'url.cache'
+ENTRIES_PATH = 'entries.jsonl'
+LOG_PATH = 'log.jsonl'
 
 def read_url(url):
-    CACHE_PATH = 'cache'
     if not os.path.exists(CACHE_PATH):
         os.mkdir(CACHE_PATH)
     cached_path = os.path.join(CACHE_PATH, re.sub('[^\w-]', '.', url))
@@ -179,25 +183,44 @@ def search(query):
 
 app = bottle.Bottle()
 
+# Read entries (each line is a JSON object).
+entries = []
+if os.path.exists(ENTRIES_PATH):
+    for line in open(ENTRIES_PATH):
+        entries.append(json.loads(line))
+
 @app.get('/')
 def main():
-    bottle.redirect('/static/info.html')
+    bottle.redirect('/info.html')
 
-@app.get('/static/<filename:path>')
+@app.get('/<filename:path>')
 def read_file(filename):
     return bottle.static_file(filename, root=os.path.join(os.path.dirname(__file__), 'static'))
 
 @app.get('/info')
-def info():
+def get_info():
     args = bottle.request.query
     query = args['query']
     if query.startswith('http'):
         result = inspect_link(query)
     else:
         result = search(query)
-    result_str = json.dumps(result)
-    with open('log', 'a') as f:
-        print >>f, query + '\t' + result_str
-    return result_str
+
+    with open(LOG_PATH, 'a') as f:
+        print >>f, json.dumps({'query': query, 'date': str(datetime.datetime.now()), 'result': result})
+
+    return json.dumps(result)
+
+@app.post('/entries')
+def add_entry():
+    args = bottle.request.json
+    entry = args['entry']
+    entries.append(entry)
+    with open(ENTRIES_PATH, 'a') as f:
+        print >>f, json.dumps(entry)
+
+@app.get('/entries')
+def get_entries():
+    return json.dumps({'entries': entries})
 
 bottle.run(app, host='', port=9500, debug=True)
