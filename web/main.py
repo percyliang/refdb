@@ -29,7 +29,7 @@ def read_file(filename):
 @app.get('/info')
 def get_info():
     args = bottle.request.query
-    query = args['query']
+    query = args['query'].strip()
     result = lookup_query(query)
 
     with open(LOG_PATH, 'a') as f:

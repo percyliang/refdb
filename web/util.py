@@ -31,12 +31,12 @@ def read_url_lines(url):
     return read_url(url).strip().split('\n') 
 
 def unquote(s):
-    #while True:
-    #    m = re.match('(.*)&#x([^;]+);(.*)', s)
-    #    if not m:
-    #        break
-    #    s = m.group(1) + int('0x'+m.group(2), 16) + m.group(3)
-    #s = s.replace('&quot;', '"')
+    while True:
+        m = re.match('(.*)&#x([^;]+);(.*)', s)
+        if not m:
+            break
+        s = m.group(1) + unichr(int(m.group(2), 16)) + m.group(3)
+    s = s.replace('&quot;', '"')
     return s
 
 def normalize_author(s):
