@@ -1,3 +1,2 @@
-url.cache
-log.jsonl
-entries.jsonl
+var
+*.pyc
