@@ -20,7 +20,7 @@ def read_url(url):
         with open(cached_path) as f:
             data = f.read()
     else:
-        print >>sys.stderr, 'REQUEST', url
+        #print >>sys.stderr, 'REQUEST', url
         f = urllib2.urlopen(url)
         data = f.read()
         with open(cached_path, 'w') as f:
