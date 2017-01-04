@@ -9,7 +9,7 @@ require 'refdb'
 # Figure out wher to write
 usernamePath = File.expand_path(File.dirname(__FILE__)) + '/username'
 if File.exists?(usernamePath)
-  username = IO.readlines(usernamePath)[0]
+  username = IO.readlines(usernamePath)[0].strip
 else
   while true
     print 'Enter username: '

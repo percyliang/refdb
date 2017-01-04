@@ -8937,12 +8937,6 @@ entry!('babenko2009visual',
   organization('IEEE'),
 nil)
 
-entry!('goodfellow2014explaining',
-  title('Explaining and harnessing adversarial examples'),
-  author('Ian J. Goodfellow and Jonathon Shlens and Christian Szegedy'),
-  arxiv(2014),
-nil)
-
 entry!('temizer2010collision',
   title('Collision avoidance for unmanned aircraft using {M}arkov decision processes'),
   author('Selim Temizer and Mykel J. Kochenderfer and Leslie P. Kaelbling and Tomas Lozano-P{\\\'e}rez and James K. Kuchar'),
@@ -10882,4 +10876,16 @@ entry!('li2016dialogue',
   title('Dialogue Learning With Human-In-The-Loop'),
   arxiv(2016, '1611.09823'),
   url('http://arxiv.org/pdf/1611.09823.pdf'),
+nil)
+
+entry!('amodei2016concrete',
+  arxiv(2016, '1606.06565'),
+  title('Concrete problems in {AI} safety'),
+  author('Dario Amodei and Chris Olah and Jacob Steinhardt and Paul Christiano and John Schulman and Dan Mané'),
+nil)
+
+entry!('goodfellow2015explaining',
+  iclr(2015),
+  title('Explaining and harnessing adversarial examples'),
+  author('Ian J Goodfellow and Jonathon Shlens and Christian Szegedy'),
 nil)
