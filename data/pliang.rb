@@ -1,14 +1,5 @@
 # encodina: utf-8
 
-# This file contains the list of all entries.
-# The format is basically bibtex in Ruby syntax:
-#   author('...')
-#   title('...')
-# You can use macros (see venues.rb):
-#   icml(2014)
-# And other metadata which goes into the HTML output, not the bib:
-#   project('...')
-
 entry!('ferguson73dp',
   author('T. S. Ferguson'),
   title('A {B}ayesian Analysis of Some Nonparametric Problems'),
@@ -8936,12 +8927,6 @@ entry!('babenko2009visual',
   organization('IEEE'),
 nil)
 
-entry!('goodfellow2014explaining',
-  title('Explaining and harnessing adversarial examples'),
-  author('Ian J. Goodfellow and Jonathon Shlens and Christian Szegedy'),
-  arxiv(2014),
-nil)
-
 entry!('temizer2010collision',
   title('Collision avoidance for unmanned aircraft using {M}arkov decision processes'),
   author('Selim Temizer and Mykel J. Kochenderfer and Leslie P. Kaelbling and Tomas Lozano-P{\\\'e}rez and James K. Kuchar'),
@@ -9527,7 +9512,7 @@ entry!('raghunathan2016linear',
   author('Aditi Raghunathan and Roy Frostig and John Duchi and Percy Liang'),
   title('Estimation from Indirect Supervision with Linear Moments'),
   icml(2016),
-  url('http://arxiv.org/pdf/1603.03100.pdf'),
+  url('http://arxiv.org/pdf/1608.03100.pdf'),
   codalab('0x6a264a96efea41158847eef9ec2f76bc'),
 nil)
 
@@ -11083,4 +11068,80 @@ entry!('atzmon2016compositions',
 	author('Yuval Atzmon and Jonathan Berant and Vahid Kezami and Amir Globerson and Gal Chechik'),
 	arxiv(2016, '1608.07639'),
   url('https://arxiv.org/pdf/1608.07639v1.pdf'),
+nil)
+
+entry!('zha2001spectral',
+  author('Hongyuan Zha and Xiaofeng He and Chris Ding and Horst Simon and Ming Gu'),
+  title('Spectral relaxation for {k}-means clustering'),
+  nips(2001),
+  pages(1057, 1064),
+nil)
+
+entry!('chen2014clustering',
+  title('Clustering partially observed graphs via convex optimization'),
+  author('Yudong Chen and Ali Jalali and Sujay Sanghavi and Huan Xu'),
+  jmlr(2014, 15),
+  pages(2213, 2238),
+nil)
+
+entry!('mcsherry2001spectral',
+  title('Spectral partitioning of random graphs'),
+  author('Frank McSherry'),
+  focs(2001),
+  pages(529, 537),
+nil)
+
+entry!('oord2016wavenet',
+  arxiv(2016, '1609.03499'),
+  title('WaveNet: A generative model for raw audio'),
+  author('Aaron van den Oord and Sander Dieleman and Heiga Zen and Karen Simonyan and Oriol Vinyals and Alex Graves and Nal Kalchbrenner and Andrew Senior and Koray Kavukcuoglu'),
+nil)
+
+entry!('wu2016google',
+  arxiv(2016, '1609.08144'),
+  title('Google\'s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation'),
+  author('Yonghui Wu and Mike Schuster and Zhifeng Chen and Quoc V Le and Mohammad Norouzi and Wolfgang Macherey and Maxim Krikun and Yuan Cao and Qin Gao and Klaus Macherey and others'),
+nil)
+
+entry!('rebrova2015coverings',
+  title('Coverings of random ellipsoids, and invertibility of matrices with iid heavy-tailed entries'),
+  author('Elizaveta Rebrova and Konstantin Tikhomirov'),
+  arxiv(2015),
+nil)
+
+entry!('rebrova2016norms',
+  title('Norms of random matrices: local and global problems'),
+  author('Elizaveta Rebrova and Roman Vershynin'),
+  arxiv(2016),
+nil)
+
+entry!('kim2015character',
+  arxiv(2015, '1508.06615'),
+  title('Character-aware neural language models'),
+  author('Yoon Kim and Yacine Jernite and David Sontag and Alexander M Rush'),
+nil)
+
+entry!('sedghi2016training',
+  arxiv(2016, '1603.00954'),
+  title('Training Input-Output Recurrent Neural Networks through Spectral Methods'),
+  author('Hanie Sedghi and Anima Anandkumar'),
+nil)
+
+entry!('li2016dialogue',
+  author('Jiwei Li and Alexander H. Miller and Sumit Chopra and Marc\'Aurelio Ranzato and Jason Weston'),
+  title('Dialogue Learning With Human-In-The-Loop'),
+  arxiv(2016, '1611.09823'),
+  url('http://arxiv.org/pdf/1611.09823.pdf'),
+nil)
+
+entry!('amodei2016concrete',
+  arxiv(2016, '1606.06565'),
+  title('Concrete problems in {AI} safety'),
+  author('Dario Amodei and Chris Olah and Jacob Steinhardt and Paul Christiano and John Schulman and Dan Mané'),
+nil)
+
+entry!('goodfellow2015explaining',
+  iclr(2015),
+  title('Explaining and harnessing adversarial examples'),
+  author('Ian J Goodfellow and Jonathon Shlens and Christian Szegedy'),
 nil)

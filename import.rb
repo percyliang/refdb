@@ -6,6 +6,24 @@
 $: << '.'
 require 'refdb'
 
+# Figure out wher to write
+usernamePath = File.expand_path(File.dirname(__FILE__)) + '/username'
+if File.exists?(usernamePath)
+  username = IO.readlines(usernamePath)[0].strip
+else
+  while true
+    print 'Enter username: '
+    username = gets.strip
+    break if username =~ /^\w+$/
+    puts 'Invalid username, please try again.'
+  end
+  out = open(usernamePath, 'w')
+  out.puts username
+  out.close
+end
+
+$stderr.puts 'Enter bibtex:'
+
 # Build up a map to macros (so we can standardize names)
 $venues = [] # list of [name, macros]
 IO.foreach('data/venues.rb') { |line|
@@ -165,13 +183,12 @@ while line = gets
 end
 
 rubyLines = []
-#rubyLines << "### AUTO-IMPORTED - remove this line once following entries are verified ###"
 bibtexToRuby(bibtexLines).each { |ruby|
   rubyLines << ''
   rubyLines << ruby
 }
 
-outPath = 'data/entries.rb'
+outPath = 'data/' + username + '.rb'
 puts "### Writing the following to #{outPath} ###"
 out = open(outPath, 'a+')
 rubyLines.each { |line| puts line; out.puts line }
