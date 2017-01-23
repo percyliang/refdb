@@ -1,4 +1,4 @@
-# encoding: utf-8
+# encodina: utf-8
 
 # This file contains the list of all entries.
 # The format is basically bibtex in Ruby syntax:
@@ -4411,7 +4411,7 @@ entry!('berant2014paraphrasing',
   title('Semantic Parsing via Paraphrasing'),
   acl(2014),
   url('http://aclweb.org/anthology/P14-1133'),
-  note('Best long paper honorable mention.'),
+  note('<b>Best long paper honorable mention.</b>'),
   project('http://www-nlp.stanford.edu/software/sempre/'),
   tags('semantic parsing'),
 nil)
@@ -5435,7 +5435,8 @@ entry!('berant2014biological',
   project('http://nlp.stanford.edu/software/bioprocess/'),
   url('http://www.aclweb.org/anthology/D/D14/D14-1159v2.pdf'),
   tags('event extraction'),
-  note('Best long paper award.'),
+  note('<b>Best long paper award.</b>'),
+  supplementalurl('http://nlp.stanford.edu/pubs/berant-srikumar-manning-emnlp14-supp.pdf'),
 nil)
 
 entry!('lao2012rules',
@@ -5464,7 +5465,8 @@ entry!('berant2015agenda',
   title('Imitation Learning of Agenda-Based Semantic Parsers'),
   author('Jonathan Berant and Percy Liang'),
   pages(545, 558),
-  url('agenda-tacl2015.pdf'),
+  url('http://nlp.stanford.edu/pubs/berant-liang-tacl2015.pdf'),
+  project('http://www-nlp.stanford.edu/software/sempre/'),
   codalab('0x8fdfad310dd84b7baf683b520b4b64d5'),
 nil)
 
@@ -5515,16 +5517,6 @@ entry!('pasupat2015compositional',
   author('Panupong Pasupat and Percy Liang'),
   url('compositional-acl2015.pdf'),
   codalab('0xf26cd79d4d734287868923ad1067cf4c'),
-nil)
-
-entry!('wang2015overnight',
-  acl(2015),
-  title('Building a Semantic Parser Overnight'),
-  author('Yushi Wang and Jonathan Berant and Percy Liang'),
-  project('http://www-nlp.stanford.edu/software/sempre/'),
-  url('overnight-acl2015.pdf'),
-  codalab('0x269ef752f8c344a28383240f7bb2be9c'),
-  tags('semantic parsing'),
 nil)
 
 entry!('misra2015environment',
@@ -5823,7 +5815,7 @@ entry!('melamud2013context',
   title('A Two Level Model for Context Sensitive Inference Rules'),
   acl(2013),
   url('http://www.aclweb.org/anthology/P13-1131'),
-  note('Best long paper runner-up.'),
+  note('<b>Best long paper runner-up.</b>'),
   tags('textual entailment'),
 nil)
 
@@ -5864,7 +5856,7 @@ entry!('berant2011global',
   author('Jonathan Berant and Ido Dagan and Jacob Goldberger'),
   title('Global Learning of Typed Entailment Rules'),
   acl(2011),
-  note('Best long student paper award.'),
+  note('<b>Best long student paper award.</b>'),
   tags('textual entailment'),
   url('http://turing.cs.washington.edu/papers/berant-acl2011.pdf'),
 nil)
@@ -7934,11 +7926,9 @@ entry!('singla2014near',
 nil)
 
 entry!('seung1992query',
-  inproceedings('Proceedings of the fifth annual workshop on Computational learning theory', 1992),
+  inproceedings('Proceedings of the fifth annual workshop on computational learning theory', 1992),
   title('Query by committee'),
   author('H Sebastian Seung and Manfred Opper and Haim Sompolinsky'),
-  pages(287, 294),
-  organization('ACM'),
 nil)
 
 entry!('lasecki2011realtime',
@@ -8077,8 +8067,8 @@ entry!('sutskever2014sequence',
   pages(3104, 3112),
 nil)
 
-entry!('bahdanau2014neural',
-  arxiv(2014, '1409.0473'),
+entry!('bahdanau2015neural',
+  iclr(2015),
   title('Neural machine translation by jointly learning to align and translate'),
   author('Dzmitry Bahdanau and Kyunghyun Cho and Yoshua Bengio'),
 nil)
@@ -9367,8 +9357,8 @@ entry!('iyyer2014factoid',
   author('Mohit Iyyer and Jordan Boyd-Graber and Leonardo Claudino and Hal Daumé III'),
 nil)
 
-entry!('kumar2015dmn',
-  arxiv(2015),
+entry!('kumar2016dmn',
+  icml(2016),
   title('Ask Me Anaything: Dynamic Memory Networks for Natural Language Processing'),
   author('Ankit Kumar and Ozan Irsoy and Peter Ondruska and Mohit Iyyer and James Bradbury and Ishaan Gulrajani and Victor Zhong and Romain Paulus and Richard Socher'),
 nil)
@@ -10431,7 +10421,7 @@ nil)
 
 entry!('schoenick2016moving',
   arxiv(2016, '1604.04315'),
-  title('Moving Beyond the Turing Test with the Allen {AI} Science Challenge'),
+  title('Moving Beyond the {T}uring Test with the {A}llen {AI} Science Challenge'),
   author('Carissa Schoenick and Peter Clark and Oyvind Tafjord and Peter Turney and Oren Etzioni'),
 nil)
 
@@ -10827,4 +10817,270 @@ entry!('ghosh2011moderates',
   author('Arpita Ghosh and Satyen Kale and Preston McAfee'),
   inproceedings('12th ACM conference on Electronic commerce', 2011),
   pages(167, 176),
+nil)
+
+entry!('chen2016enhancing',
+	title('Enhancing and Combining Sequential and Tree {LSTM} for Natural Language Inference'),
+	author('Chen, Qian and Zhu, Xiaodan and Ling, Zhenhua and Wei, Si and Jiang, Hui'),
+	arxiv(2016),
+nil)
+
+entry!('zhou2016amr',
+  emnlp(2016),
+  title('{AMR} Parsing with an Incremental Joint Model'),
+  author('Junsheng Zhou and Feiyu Xu and Hans Uszkoreit and Weiguang Qu and Ran Li and Yanhui Gu'),
+nil)
+
+entry!('goodman2016noise',
+  acl(2016),
+  title('Noise reduction and targeted exploration in imitation learning for abstract meaning representation parsing'),
+  author('James Goodman and Andreas Vlachos and Jason Naradowsky'),
+nil)
+
+entry!('pust2015using',
+  emnlp(2015),
+  title('Using syntax-based machine translation to parse {E}nglish into abstract meaning representation'),
+  author('Michael Pust and Ulf Hermjakob and Kevin Knight and Daniel Marcu and Jonathan May'),
+nil)
+
+entry!('werling2015robust',
+  acl(2015),
+  title('Robust subgraph generation improves abstract meaning representation parsing'),
+  author('Keenon Werling and Gabor Angeli and Christopher Manning'),
+nil)
+
+entry!('prasad2008penn',
+  inproceedings('LREC', 2008),
+  title('The {P}enn Discourse TreeBank 2.0'),
+  author('Rashmi Prasad and Nikhil Dinesh and Alan Lee and Eleni Miltsakaki and Livio Robaldo and Aravind K Joshi and Bonnie L Webber'),
+nil)
+
+entry!('lin2014pdtb',
+  article('Natural Language Engineering', 2014, 20),
+  title('A {PDTB}-styled end-to-end discourse parser'),
+  author('Ziheng Lin and Hwee Tou Ng and Min-Yen Kan'),
+  number(02),
+  pages(151, 184),
+nil)
+
+entry!('feizabadi2014crowdsourcing',
+  eacl(2014),
+  title('Crowdsourcing Annotation of Non-Local Semantic Roles'),
+  author('Parvin Sadat Feizabadi and Sebastian Pado'),
+  pages(226, 230),
+nil)
+
+entry!('he2015question',
+  emnlp(2015),
+  title('Question-Answer Driven Semantic Role Labeling: Using Natural Language to Annotate Natural Language'),
+  author('Luheng He and Mike Lewis and Luke Zettlemoyer'),
+nil)
+
+entry!('he2016human',
+  emnlp(2016),
+  title('Human-in-the-Loop Parsing'),
+  author('Luheng He and Julian Michael and Mike Lewis and Luke Zettlemoyer'),
+nil)
+
+entry!('duan2016generating',
+  article('Proceedings of 10th Linguistic Annotation Workshop', 2016),
+  title('Generating disambiguating paraphrases for structurally ambiguous sentences'),
+  author('Manjuan Duan and Ethan Hill and Michael White'),
+nil)
+
+entry!('russakovsky2015ilsvrc',
+  article('International Journal of Computer Vision (IJCV)', 2015, 115),
+  author('Russakovsky, Olga and Jia Deng and Hao Su and Jonathan Krause and Sanjeev Satheesh and Sean Ma and Zhiheng Huang and Andrej Karpathy and Aditya Khosla and Michael Bernstein and Alexander C. Berg and Li Fei-Fei'),
+  title('{ImageNet Large Scale Visual Recognition Challenge}'),
+  year(2015),
+  number(3),
+  pages(211, 252),
+nil)
+
+entry!('wang2015overnight',
+  acl(2015),
+  title('Building a Semantic Parser Overnight'),
+  author('Yushi Wang and Jonathan Berant and Percy Liang'),
+  project('http://www-nlp.stanford.edu/software/sempre/'),
+  url('overnight-acl2015.pdf'),
+  codalab('0x269ef752f8c344a28383240f7bb2be9c'),
+  tags('semantic parsing'),
+nil)
+
+entry!('von2008designing',
+  article('Communications of the ACM', 2008, 51),
+  title('Designing games with a purpose'),
+  author('Luis Von Ahn and Laura Dabbish'),
+  number(8),
+  pages(58, 67),
+nil)
+
+entry!('daume10easyss',
+  inproceedings('Workshop on Domain Adaptation for NLP', 2010),
+  title('Frustratingly Easy Semi-Supervised Domain Adaptation'),
+  author('Hal {Daume III} and Abhishek Kumar and Avishek Saha'),
+nil)
+
+entry!('daume07easyadapt',
+  acl(2007),
+  author('Hal {Daume III}'),
+  title('Frustratingly Easy Domain Adaptation'),
+nil)
+
+entry!('luong2016iclr_multi',
+  iclr(2016),
+  author('Minh-Thang Luong and Quoc V.   Le and Ilya   Sutskever and Oriol  Vinyals and Lukasz  Kaiser'),
+  title('Multi-task Sequence to Sequence Learning'),
+nil)
+
+entry!('klerke2016improving',
+  naacl(2016),
+  title('Improving sentence compression by learning to predict gaze'),
+  author('Sigrid Klerke and Yoav Goldberg and Anders S{\o}gaard'),
+nil)
+
+entry!('sogaard2016deep',
+  acl(2016),
+  title('Deep multi-task learning with low level tasks supervised at lower layers'),
+  author('Anders S{\o}gaard and Yoav Goldberg'),
+nil)
+
+entry!('walker2006ace',
+  article('Linguistic Data Consortium', 2006, 1),
+  title('{ACE} 2005 multilingual training corpus'),
+  author('Christopher Walker and Stephanie Strassel and Julie Medero and Kazuaki Maeda'),
+nil)
+
+entry!('kulick2014inter',
+  acl(2014),
+  title('Inter-Annotator Agreement for {ERE} Annotation'),
+  author('Seth Kulick and Ann Bies and Justin Mott'),
+nil)
+
+
+entry!('kim2011overview',
+  inproceedings('Proceedings of the BioNLP Shared Task 2011 Workshop', 2011),
+  title('Overview of BioNLP shared task 2011'),
+  author('Jin-Dong Kim and Sampo Pyysalo and Tomoko Ohta and Robert Bossy and Ngan Nguyen and Jun\'ichi Tsujii'),
+nil)
+
+entry!('hewlett2016wikireading',
+  acl(2016),
+  title('Wikireading: A novel large-scale language understanding task over {W}ikipedia'),
+  author('Daniel Hewlett and Alexandre Lacoste and Llion Jones and Illia Polosukhin and Andrew Fandrianto and Jay Han and Matthew Kelcey and David Berthelot'),
+nil)
+
+entry!('kadlec2016text',
+  acl(2016),
+  title('Text Understanding with the Attention Sum Reader Network'),
+  author('Rudolf Kadlec and Martin Schmid and Ondrej Bajgar and Jan Kleindienst'),
+nil)
+
+entry!('sukhbaatar2015end',
+  nips(2015),
+  title('End-to-end memory networks'),
+  author('Sainbayar Sukhbaatar and Jason Weston and Rob Fergus'),
+nil)
+
+entry!('durrett2015neural',
+  acl(2015),
+  title('Neural {CRF} parsing'),
+  author('Greg Durrett and Dan Klein'),
+nil)
+
+entry!('ribiero2016lime',
+  kdd(2016),
+  author('Marco Tulio Ribeiro and Sameer Singh and Carlos Guestrin'),
+  title(' "Why Should {I} Trust You?": Explaining the Predictions of Any Classifier '),
+nil)
+
+entry!('lei2016rationalizing',
+  emnlp(2016),
+  title('Rationalizing Neural Predictions'),
+  author('Tao Lei and Regina Barzilay and Tommi Jaakkola'),
+nil)
+
+entry!('zaidan2011crowdsourcing',
+  acl(2011),
+  author('Omar F.  Zaidan and Chris  Callison-Burch'),
+  title('Crowdsourcing Translation: Professional Quality from Non-Professionals'),
+nil)
+
+entry!('chang2008importance',
+  aaai(2008),
+  title('Importance of Semantic Representation: Dataless Classification'),
+  author('Ming-Wei Chang and Lev-Arie Ratinov and Dan Roth and Vivek Srikumar'),
+nil)
+
+entry!('srikumar2011joint',
+  emnlp(2011),
+  title('A joint model for extended semantic role labeling'),
+  author('Vivek Srikumar and Dan Roth'),
+nil)
+
+entry!('ogorman2016richer',
+  inproceedings('Computing News Storylines Workshop', 2016),
+  title('Richer Event Description: Integrating event coreference with temporal, causal and bridging annotation'),
+  author('Tim O’Gorman and Kristin Wright-Bettner and Martha Palmer'),
+nil)
+
+entry!('roth2005integer',
+  icml(2005),
+  title('Integer linear programming inference for conditional random fields'),
+  author('Dan Roth and Wen-tau Yih'),
+nil)
+
+entry!('pavlick2015domain',
+  acl(2015),
+  author('Ellie  Pavlick and Juri   Ganitkevitch and Tsz Ping   Chan and Xuchen   Yao and Benjamin   Van Durme and Chris  Callison-Burch'),
+  title('Domain-Specific Paraphrase Extraction'),
+nil)
+
+entry!('louvan2016cross',
+  author('Louvan, Samuel and Chetan Naik and Sadhana Kumaravel and Heeyoung Kwon and Niranjan Balasubramanian and Peter Clark'),
+  title('Cross-Sentence Inference for Process Knowledge'),
+  emnlp(2016),
+nil)
+
+entry!('louvan2015semantic',
+  title('Semantic Role Labeling for Process Recognition Questions'),
+  author('Louvan, Samuel and Naik, Chetan and Lynn, Veronica and Arun, Ankit and Balasubramanian, Niranjan and Clark, Peter'),
+  inproceedings('K-CAP Scientific Knowledge Workshop', 2015),
+nil)
+
+entry!('berant2015efficient',
+  title('Efficient Global Learning of Entailment Graphs'),
+  author('Jonathan Berant and Noga Along and Ido Dagan and Jacob Goldberger'),
+  computationalLinguistics(2015,41),
+  url('http://www.mitpressjournals.org/doi/pdf/10.1162/COLI_a_00220'),
+  pages(221,264),
+nil)
+
+entry!('berant2015efficient',
+  title('Knowledge-based Textual Inference via Parse-Tree transformations'),
+  author('Roy Bar-Haim and Ido Dagan and Jonathan Berant'),
+  jair(2015, 54),
+  url('http://www.jair.org/media/4584/live-4584-8859-jair.pdf'),
+  pages(1,57),
+nil)
+
+entry!('liang2016nsm',
+	title('Neural Symbolic Machines: Learning Semantic Parsers on {F}reebase with Weak Supervision'),
+	author('Chen Liang and Jonathan Berant and Quoc Le and Kenneth D. Forbus, Ni Lao'),
+	arxiv(2016, '1611.00020'),
+  url('https://arxiv.org/pdf/1611.00020v3.pdf'),
+nil)
+
+entry!('choi2016heirarchical',
+	title('Hierarchical Question Answering for Long Documents'),
+	author('Eunsol Choi and Daniel Hewlett and Alexandre Lacoste and Illia Polosukhin and Jakob Uszkoreit and Jonathan Berant'),
+	arxiv(2016, '1611.01839'),
+  url('https://128.84.21.199/pdf/1611.01839v1.pdf'),
+nil)
+
+entry!('atzmon2016compositions',
+	title('Learning to generalize to new compositions in image understanding'),
+	author('Yuval Atzmon and Jonathan Berant and Vahid Kezami and Amir Globerson and Gal Chechik'),
+	arxiv(2016, '1608.07639'),
+  url('https://arxiv.org/pdf/1608.07639v1.pdf'),
 nil)
