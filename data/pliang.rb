@@ -11035,13 +11035,13 @@ nil)
 
 entry!('berant2015efficient',
   title('Efficient Global Learning of Entailment Graphs'),
-  author('Jonathan Berant and Noga Along and Ido Dagan and Jacob Goldberger'),
+  author('Jonathan Berant and Noga Alon and Ido Dagan and Jacob Goldberger'),
   computationalLinguistics(2015,41),
   url('http://www.mitpressjournals.org/doi/pdf/10.1162/COLI_a_00220'),
   pages(221,264),
 nil)
 
-entry!('berant2015efficient',
+entry!('berant2015kb',
   title('Knowledge-based Textual Inference via Parse-Tree transformations'),
   author('Roy Bar-Haim and Ido Dagan and Jonathan Berant'),
   jair(2015, 54),
