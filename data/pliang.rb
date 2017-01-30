@@ -1,4 +1,4 @@
-# encodina: utf-8
+# encoding: utf-8
 
 entry!('ferguson73dp',
   author('T. S. Ferguson'),
@@ -9455,6 +9455,7 @@ entry!('rajpurkar2016squad',
   author('Pranav Rajpurkar and Jian Zhang and Konstantin Lopyrev and Percy Liang'),
   title('SQuAD: 100,000+ Questions for Machine Comprehension of Text'),
   emnlp(2016),
+  note('Best resource paper award.'),
   url('https://arxiv.org/pdf/1606.05250.pdf'),
   codalab('0xd53d03a48ef64b329c16b9baf0f99b0c'),
 nil)
@@ -9502,7 +9503,7 @@ nil)
 
 entry!('chaganty2016perspectives',
   author('Arun Tejasvi Chaganty and Percy Liang'),
-  title('How Much is 131 Million Dollars? Putting Numbers in Perspective with Compositional Descriptions'),
+  title('How Much is 131 Million Dollars? {P}utting Numbers in Perspective with Compositional Descriptions'),
   acl(2016),
   url('perspectives-acl2016.pdf'),
   codalab('0x243284b4d81d4590b46030cdd3b72633'),
