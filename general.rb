@@ -299,22 +299,23 @@ def mastersthesis(x, year); [type('mastersthesis'), field('school', x), year(yea
 def book(x, year); [type('book'), publisher(x), year(year)] end
 
 # Miscellaneous fields
-def note(x);            field('note', x)            end
-def abstract(*x);       field('abstract', *x)       end
-def punchlines(*x);     field('punchlines', *x)     end
-def url(x);             field('url', x)             end
-def slidesurl(x);       field('slidesurl', x)       end
-def posterurl(x);       field('posterurl', x)       end
-def thesisurl(x);       field('thesisurl', x)       end
-def journalurl(x);      field('journalurl', x)      end
-def techreporturl(x);   field('techreporturl', x)   end
-def supplementalurl(x); field('supplementalurl', x) end
-def errataurl(x);       field('errataurl', x)       end
-def code(x);            field('code', x)            end
-def data(x);            field('data', x)            end
-def project(x);         field('project', x)         end
-def codalab(x);         field('codalab', x)         end
-def demo(x);            field('demo', x)            end
+def note(x);            field('note', x)              end
+def award(x);           field('note', "<b>#{x}</b>.") end
+def abstract(*x);       field('abstract', *x)         end
+def punchlines(*x);     field('punchlines', *x)       end
+def url(x);             field('url', x)               end
+def slidesurl(x);       field('slidesurl', x)         end
+def posterurl(x);       field('posterurl', x)         end
+def thesisurl(x);       field('thesisurl', x)         end
+def journalurl(x);      field('journalurl', x)        end
+def techreporturl(x);   field('techreporturl', x)     end
+def supplementalurl(x); field('supplementalurl', x)   end
+def errataurl(x);       field('errataurl', x)         end
+def code(x);            field('code', x)              end
+def data(x);            field('data', x)              end
+def project(x);         field('project', x)           end
+def codalab(x);         field('codalab', x)           end
+def demo(x);            field('demo', x)              end
 
 # Don't add these words to the set of generally capitalized words
 def unusualCapitalization(*x); field('unusualCapitalization', *x) end
