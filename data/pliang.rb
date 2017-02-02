@@ -11146,3 +11146,9 @@ entry!('goodfellow2015explaining',
   title('Explaining and harnessing adversarial examples'),
   author('Ian J Goodfellow and Jonathon Shlens and Christian Szegedy'),
 nil)
+
+entry!('charikar2016learning',
+  arxiv(2016),
+  title('Learning from Untrusted Data'),
+  author('Moses Charikar and Jacob Steinhardt and Gregory Valiant'),
+nil)
