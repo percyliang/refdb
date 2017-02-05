@@ -11145,3 +11145,9 @@ entry!('goodfellow2015explaining',
   title('Explaining and harnessing adversarial examples'),
   author('Ian J Goodfellow and Jonathon Shlens and Christian Szegedy'),
 nil)
+
+entry!('johnson2016google',
+ arxiv(2016, '1611.04558'),
+ title('Google\'s Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation'),
+ author('Melvin Johnson and Mike Schuster and Quoc V. Le and Maxim Krikun and Yonghui Wu and Zhifeng Chen and Nikhil Thorat and Fernanda Viégas and Martin Wattenberg and Greg Corrado and Macduff Hughes and Jeffrey Dean'),
+nil)
