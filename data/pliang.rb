@@ -10212,7 +10212,6 @@ entry!('potts2012cards',
   editor('Nathan Arnett and Ryan Bennett'),
   publisher('Cascadilla Press'),
   title('Goal-Driven Answers in the {C}ards Dialogue Corpus'),
-  year(2012),
 nil)
 
 entry!('serban2015survey',
@@ -10472,8 +10471,8 @@ entry!('greenberg1996consistency',
   publisher('Springer'),
 nil)
 
-entry!('wen2016network',
-  arxiv(2016, '1604.04562'),
+entry!('wen2017network',
+  eacl(2017),
   title('A Network-based End-to-End Trainable Task-oriented Dialogue System'),
   author('Tsung-Hsien Wen and Milica Gasic and Nikola Mrksic and Lina M Rojas-Barahona and Pei-Hao Su and Stefan Ultes and David Vandyke and Steve Young'),
 nil)
@@ -11157,4 +11156,11 @@ entry!('charikar2016learning',
   arxiv(2016),
   title('Learning from Untrusted Data'),
   author('Moses Charikar and Jacob Steinhardt and Gregory Valiant'),
+nil)
+
+entry!('quirk2015language',
+  author('Chris Quirk and Raymond J. Mooney and Michel Galley'),
+  title('Language to Code: Learning Semantic Parsers for If-This-Then-That Recipes'),
+  acl(2015),
+  url('https://pdfs.semanticscholar.org/d4ab/3e01c4d1308371c76fbc9665701100461e88.pdf'),
 nil)
