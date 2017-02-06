@@ -70,7 +70,6 @@ nil)
 entry!('liu2008monte',
   title('{M}onte {C}arlo strategies in scientific computing'),
   author('Jun S Liu'),
-  year(2008),
   book('Springer Science \& Business Media', 2008),
   publisher('Springer Science \& Business Media'),
 nil)
