@@ -11158,3 +11158,10 @@ entry!('charikar2016learning',
   title('Learning from Untrusted Data'),
   author('Moses Charikar and Jacob Steinhardt and Gregory Valiant'),
 nil)
+
+entry!('quirk2015language',
+  author('Chris Quirk and Raymond J. Mooney and Michel Galley'),
+  title('Language to Code: Learning Semantic Parsers for If-This-Then-That Recipes'),
+  acl(2015),
+  url('https://pdfs.semanticscholar.org/d4ab/3e01c4d1308371c76fbc9665701100461e88.pdf'),
+nil)

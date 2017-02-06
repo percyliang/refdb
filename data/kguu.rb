@@ -68,7 +68,7 @@ entry!('williams1991function',
 nil)
 
 entry!('liu2008monte',
-  title('Monte Carlo strategies in scientific computing'),
+  title('{M}onte {C}arlo strategies in scientific computing'),
   author('Jun S Liu'),
   year(2008),
   book('Springer Science \& Business Media', 2008),
