@@ -88,7 +88,7 @@ entry!('lowd2005adversarial',
 nil)
 
 entry!('paperno2016lambada',
-  author('Denis Paperno and German Kruszewski and Angeliki Lazaridou and Quan Ngoc Pham and Raffaella Bernardi and Sandro Pezzelle and Marco Baroni and Gemma Boleda and Raquel Fernández'),
+  author('Denis Paperno and German Kruszewski and Angeliki Lazaridou and Quan Ngoc Pham and Raffaella Bernardi and Sandro Pezzelle and Marco Baroni and Gemma Boleda and Raquel Fernandez'),
   title('The {LAMBADA} dataset: Word prediction requiring a broad discourse context'),
   acl(2016),
 nil)
