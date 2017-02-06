@@ -10212,7 +10212,6 @@ entry!('potts2012cards',
   editor('Nathan Arnett and Ryan Bennett'),
   publisher('Cascadilla Press'),
   title('Goal-Driven Answers in the {C}ards Dialogue Corpus'),
-  year(2012),
 nil)
 
 entry!('serban2015survey',
@@ -10472,8 +10471,8 @@ entry!('greenberg1996consistency',
   publisher('Springer'),
 nil)
 
-entry!('wen2016network',
-  arxiv(2016, '1604.04562'),
+entry!('wen2017network',
+  eacl(2017),
   title('A Network-based End-to-End Trainable Task-oriented Dialogue System'),
   author('Tsung-Hsien Wen and Milica Gasic and Nikola Mrksic and Lina M Rojas-Barahona and Pei-Hao Su and Stefan Ultes and David Vandyke and Steve Young'),
 nil)
