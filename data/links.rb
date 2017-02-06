@@ -24,7 +24,7 @@ link!(
   ['Taylor Berg-Kirkpatrick', 'http://www.cs.berkeley.edu/~tberg'],
   ['Dave Golland', 'http://www.cs.berkeley.edu/~dsg'],
   ['Arun Chaganty', 'http://arun.chagantys.org'],
-  ['Sida I. Wang', 'http://nlp.stanford.edu/~sidaw/home/'],
+  ['Sida I. Wang', 'http://www.sidaw.xyz'],
   ['Chris Manning', 'http://nlp.stanford.edu/manning/'],
   ['Mengqiu Wang', 'http://cs.stanford.edu/people/mengqiu/'],
   ['Roy Frostig', 'http://cs.stanford.edu/~rfrostig/'],
