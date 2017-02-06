@@ -44,7 +44,12 @@ You can also import from existing bibtex (either from a file or stdin):
     ./import.rb
 
 Paste in your bibtex format and the corresponding Ruby code will be appended to
-`data/<username>.rb`.  There might be errors so it's a good idea to double check
+`data/<username>.rb`.
+
+Note: when you have finished pasting your bibtex at the command line, type
+`Ctrl-D` to terminate stdin. The script will then continue.
+
+There might be errors so it's a good idea to double check
 what's been added.
 
 After you do this, make sure you rebuild `all.bib`:
