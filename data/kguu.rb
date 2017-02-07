@@ -70,7 +70,6 @@ nil)
 entry!('liu2008monte',
   title('{M}onte {C}arlo strategies in scientific computing'),
   author('Jun S Liu'),
-  year(2008),
   book('Springer Science \& Business Media', 2008),
   publisher('Springer Science \& Business Media'),
 nil)
@@ -80,4 +79,18 @@ entry!('venkatraman2015improving',
   title('Improving Multi-Step Prediction of Learned Time Series Models'),
   author('Arun Venkatraman and Martial Hebert and J Andrew Bagnell'),
   pages(3024, 3030),
+nil)
+
+entry!('bengio2015scheduled',
+  nips(2015),
+  title('Scheduled sampling for sequence prediction with recurrent neural networks'),
+  author('Samy Bengio and Oriol Vinyals and Navdeep Jaitly and Noam Shazeer'),
+  pages(1171, 1179),
+nil)
+
+entry!('bellemare2016unifying',
+  nips(2016),
+  title('Unifying count-based exploration and intrinsic motivation'),
+  author('Marc Bellemare and Sriram Srinivasan and Georg Ostrovski and Tom Schaul and David Saxton and Remi Munos'),
+  pages(1471, 1479),
 nil)
