@@ -11,7 +11,7 @@ require 'data/links'
 #   project('...')
 
 # Load entries
-Dir['data/*.rb'].each { |path|
+Dir['data/*.rb'].sort.each { |path|
   next if ['data/venues.rb', 'data/links.rb'].index(path)
   begin
     require path
