@@ -95,3 +95,15 @@ entry!('bellemare2016unifying',
   author('Marc Bellemare and Sriram Srinivasan and Georg Ostrovski and Tom Schaul and David Saxton and Remi Munos'),
   pages(1471, 1479),
 nil)
+
+entry!('kingma2014adam',
+  arxiv(2014, '1412.6980'),
+  title('Adam: A method for stochastic optimization'),
+  author('Diederik Kingma and Jimmy Ba'),
+nil)
+
+entry!('abadi2016tensorflow',
+  inproceedings('Proceedings of the 12th USENIX Symposium on Operating Systems Design and Implementation (OSDI). Savannah, Georgia, USA', 2016),
+  title('TensorFlow: A system for large-scale machine learning'),
+  author('Martin Abadi and Paul Barham and Jianmin Chen and Zhifeng Chen and Andy Davis and Jeffrey Dean and Matthieu Devin and Sanjay Ghemawat and Geoffrey Irving and Michael Isard and others'),
+nil)
