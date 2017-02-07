@@ -100,3 +100,9 @@ entry!('abadi2016tensorflow',
   title('TensorFlow: A system for large-scale machine learning'),
   author('Martin Abadi and Paul Barham and Jianmin Chen and Zhifeng Chen and Andy Davis and Jeffrey Dean and Matthieu Devin and Sanjay Ghemawat and Geoffrey Irving and Michael Isard and others'),
 nil)
+
+entry!('levine2014motor',
+  title('Motor Skill Learning with Local Trajectory Methods'),
+  author('Sergey Levine'),
+  year(2014),
+nil)
