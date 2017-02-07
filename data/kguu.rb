@@ -5,12 +5,6 @@ entry!('ranzato2015sequence',
   author('Marc\'Aurelio Ranzato and Sumit Chopra and Michael Auli and Wojciech Zaremba'),
 nil)
 
-entry!('li2016deep',
-  arxiv(2016, '1606.01541'),
-  title('Deep reinforcement learning for dialogue generation'),
-  author('Jiwei Li and Will Monroe and Alan Ritter and Michel Galley and Jianfeng Gao and Dan Jurafsky'),
-nil)
-
 entry!('clark2016deep',
   arxiv(2016, '1609.08667'),
   title('Deep reinforcement learning for mention-ranking coreference models'),
@@ -70,7 +64,6 @@ nil)
 entry!('liu2008monte',
   title('{M}onte {C}arlo strategies in scientific computing'),
   author('Jun S Liu'),
-  year(2008),
   book('Springer Science \& Business Media', 2008),
   publisher('Springer Science \& Business Media'),
 nil)
