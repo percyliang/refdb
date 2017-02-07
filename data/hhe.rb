@@ -71,10 +71,10 @@ entry!('li2016user',
   url('https://arxiv.org/pdf/1612.05688.pdf'),
 nil)
 
-entry!('henaff2016tracking',
+entry!('henaff2017tracking',
   author('Mikael Henaff and Jason Weston and Arthur Szlam and Antoine Bordes and Yann LeCun'),
   title('Tracking the World State with Recurrent Entity Networks'),
-  arxiv(2016),
+  iclr(2017),
   url('https://arxiv.org/pdf/1612.03969.pdf'),
 nil)
 
@@ -111,9 +111,17 @@ entry!('maluuba2016frames',
   title('Frames: A Corpus for Adding Memory to Goal-Oriented Dialogue Systems'),
   article('Maluuba Technical Report', 2016),
 nil)
-entry!('bordes2016learning',
+
+entry!('bordes2017learning',
   author('Antoine Bordes and Jason Weston'),
   title('Learning End-to-End Goal-Oriented Dialog'),
-  arxiv(2016),
+  iclr(2017),
   url('https://arxiv.org/pdf/1605.07683.pdf'),
+nil)
+
+entry!('li2016rl',
+  author('Jiwei Li and Will Monroe and Alan Ritter and Daniel Jurafsky and Michel Galley and Jianfeng Gao'),
+  title('Deep Reinforcement Learning for Dialogue Generation'),
+  emnlp(2016),
+  url('https://pdfs.semanticscholar.org/07a5/c4ba84268708146aa4bf5cad9491b3e35051.pdf'),
 nil)
