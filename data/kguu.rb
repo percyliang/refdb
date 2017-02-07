@@ -104,5 +104,12 @@ nil)
 entry!('levine2014motor',
   title('Motor Skill Learning with Local Trajectory Methods'),
   author('Sergey Levine'),
+  phdthesis('Stanford University', 2014),
   year(2014),
+nil)
+
+entry!('riedel2016programming',
+  article('CoRR, abs/1605.06640', 2016),
+  title('Programming with a differentiable forth interpreter'),
+  author('Sebastian Riedel and Matko Bosnjak and Tim Rockt{\"a}schel'),
 nil)
