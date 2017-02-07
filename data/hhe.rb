@@ -125,3 +125,10 @@ entry!('li2016rl',
   emnlp(2016),
   url('https://pdfs.semanticscholar.org/07a5/c4ba84268708146aa4bf5cad9491b3e35051.pdf'),
 nil)
+
+entry!('ivanovic2005dialogue',
+  author('Edward Ivanovic'),
+  title('Dialogue Act Tagging for Instant Messaging Chat Sessions'),
+  acl(2005),
+  url('https://pdfs.semanticscholar.org/93cf/273eb6d6628d04eee344430cbfc716c3fb96.pdf'),
+nil)
