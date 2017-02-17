@@ -11152,15 +11152,28 @@ entry!('johnson2016google',
  author('Melvin Johnson and Mike Schuster and Quoc V. Le and Maxim Krikun and Yonghui Wu and Zhifeng Chen and Nikhil Thorat and Fernanda Viégas and Martin Wattenberg and Greg Corrado and Macduff Hughes and Jeffrey Dean'),
 nil)
 
-entry!('charikar2016learning',
-  arxiv(2016),
+entry!('charikar2017learning',
+  stoc(2017),
   title('Learning from Untrusted Data'),
   author('Moses Charikar and Jacob Steinhardt and Gregory Valiant'),
 nil)
+
+entry!('haagerup1981best',
+  title('The best constants in the Khintchine inequality'),
+  author('Uffe Haagerup'),
+  article('Studia Mathematica', 1981), volume(70), number(3), pages(231, 283),
+nil)
+  
 
 entry!('quirk2015language',
   author('Chris Quirk and Raymond J. Mooney and Michel Galley'),
   title('Language to Code: Learning Semantic Parsers for If-This-Then-That Recipes'),
   acl(2015),
   url('https://pdfs.semanticscholar.org/d4ab/3e01c4d1308371c76fbc9665701100461e88.pdf'),
+nil)
+
+entry!('steinberg2005computation',
+  author('Daureen Steinberg'),
+  title('Computation of Matrix Norms with Applications to Robust Optimization'),
+  mastersthesis('Technion -- Israel Institute of Technology', 2005),
 nil)

@@ -5,12 +5,6 @@ entry!('ranzato2015sequence',
   author('Marc\'Aurelio Ranzato and Sumit Chopra and Michael Auli and Wojciech Zaremba'),
 nil)
 
-entry!('li2016deep',
-  arxiv(2016, '1606.01541'),
-  title('Deep reinforcement learning for dialogue generation'),
-  author('Jiwei Li and Will Monroe and Alan Ritter and Michel Galley and Jianfeng Gao and Dan Jurafsky'),
-nil)
-
 entry!('clark2016deep',
   arxiv(2016, '1609.08667'),
   title('Deep reinforcement learning for mention-ranking coreference models'),
@@ -93,4 +87,29 @@ entry!('bellemare2016unifying',
   title('Unifying count-based exploration and intrinsic motivation'),
   author('Marc Bellemare and Sriram Srinivasan and Georg Ostrovski and Tom Schaul and David Saxton and Remi Munos'),
   pages(1471, 1479),
+nil)
+
+entry!('kingma2014adam',
+  arxiv(2014, '1412.6980'),
+  title('Adam: A method for stochastic optimization'),
+  author('Diederik Kingma and Jimmy Ba'),
+nil)
+
+entry!('abadi2016tensorflow',
+  inproceedings('Proceedings of the 12th USENIX Symposium on Operating Systems Design and Implementation (OSDI). Savannah, Georgia, USA', 2016),
+  title('TensorFlow: A system for large-scale machine learning'),
+  author('Martin Abadi and Paul Barham and Jianmin Chen and Zhifeng Chen and Andy Davis and Jeffrey Dean and Matthieu Devin and Sanjay Ghemawat and Geoffrey Irving and Michael Isard and others'),
+nil)
+
+entry!('levine2014motor',
+  title('Motor Skill Learning with Local Trajectory Methods'),
+  author('Sergey Levine'),
+  phdthesis('Stanford University', 2014),
+  year(2014),
+nil)
+
+entry!('riedel2016programming',
+  article('CoRR, abs/1605.06640', 2016),
+  title('Programming with a differentiable forth interpreter'),
+  author('Sebastian Riedel and Matko Bosnjak and Tim Rockt{\"a}schel'),
 nil)
