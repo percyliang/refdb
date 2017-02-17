@@ -11171,3 +11171,9 @@ entry!('quirk2015language',
   acl(2015),
   url('https://pdfs.semanticscholar.org/d4ab/3e01c4d1308371c76fbc9665701100461e88.pdf'),
 nil)
+
+entry!('steinberg2005computation',
+  author('Daureen Steinberg'),
+  title('Computation of Matrix Norms with Applications to Robust Optimization'),
+  mastersthesis('Technion - Israel University of Technology', 2005),
+nil)
