@@ -11175,5 +11175,5 @@ nil)
 entry!('steinberg2005computation',
   author('Daureen Steinberg'),
   title('Computation of Matrix Norms with Applications to Robust Optimization'),
-  mastersthesis('Technion - Israel University of Technology', 2005),
+  mastersthesis('Technion -- Israel Institute of Technology', 2005),
 nil)
