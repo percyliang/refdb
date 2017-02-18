@@ -105,7 +105,6 @@ entry!('levine2014motor',
   title('Motor Skill Learning with Local Trajectory Methods'),
   author('Sergey Levine'),
   phdthesis('Stanford University', 2014),
-  year(2014),
 nil)
 
 entry!('riedel2016programming',
