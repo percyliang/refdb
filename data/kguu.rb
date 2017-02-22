@@ -144,4 +144,11 @@ entry!('duff2002optimal',
   title('Optimal Learning: Computational procedures for Bayes-adaptive Markov decision processes'),
   author('Michael O\'Gordon Duff'),
   year(2002),
+  phdthesis('University of Massachusetts Amherst', 2002),
+nil)
+
+entry!('kingma2014adam',
+  arxiv(2014, '1412.6980'),
+  title('Adam: A method for stochastic optimization'),
+  author('Diederik Kingma and Jimmy Ba'),
 nil)
