@@ -143,7 +143,6 @@ nil)
 entry!('duff2002optimal',
   title('Optimal Learning: Computational procedures for Bayes-adaptive Markov decision processes'),
   author('Michael O\'Gordon Duff'),
-  year(2002),
   phdthesis('University of Massachusetts Amherst', 2002),
 nil)
 
