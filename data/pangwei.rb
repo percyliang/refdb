@@ -73,12 +73,6 @@ entry!('springenberg2014striving',
   author('Jost Tobias Springenberg and Alexey Dosovitskiy and Thomas Brox and Martin Riedmiller'),
 nil)
 
-entry!('kingma2014adam',
-  arxiv(2014, '1412.6980'),
-  title('Adam: A method for stochastic optimization'),
-  author('Diederik Kingma and Jimmy Ba'),
-nil)
-
 entry!('pearlmutter1994fast',
   article('Neural computation', 1994, 6),
   title('Fast exact multiplication by the Hessian'),
@@ -227,4 +221,123 @@ entry!('debruyne2008model',
   author('Michiel Debruyne and Mia Hubert and Johan AK Suykens'),
   number('Oct'),
   pages(2377, 2400),
+nil)
+
+entry!('martens2010deep',
+  icml(2010),
+  title('Deep learning via Hessian-free optimization'),
+  author('James Martens'),
+  pages(735, 742),
+nil)
+
+entry!('chollet2015keras',
+  title('Keras'),
+  author('Fran\c{c}ois Chollet'),
+  manual(2015),
+  publisher('GitHub'),
+  howpublished('\url{https://github.com/fchollet/keras}'),
+nil)
+
+entry!('szegedy2016rethinking',
+  cvpr(2016),
+  title('Rethinking the inception architecture for computer vision'),
+  author('Christian Szegedy and Vincent Vanhoucke and Sergey Ioffe and Jon Shlens and Zbigniew Wojna'),
+  pages(2818, 2826),
+nil)
+
+entry!('huang2011adversarial',
+  inproceedings('Proceedings of the 4th ACM workshop on Security and artificial intelligence', 2011),
+  title('Adversarial machine learning'),
+  author('Ling Huang and Anthony D Joseph and Blaine Nelson and Benjamin IP Rubinstein and JD Tygar'),
+  pages(43, 58),
+  organization('ACM'),
+nil)
+
+entry!('ben2010theory',
+  article('Machine learning', 2010, 79),
+  title('A theory of learning from different domains'),
+  author('Shai Ben-David and John Blitzer and Koby Crammer and Alex Kulesza and Fernando Pereira and Jennifer Wortman Vaughan'),
+  number('1-2'),
+  pages(151, 175),
+  publisher('Springer'),
+nil)
+
+entry!('strack2014impact',
+  article('BioMed research international', 2014, 2014),
+  title('Impact of HbA1c measurement on hospital readmission rates: analysis of 70,000 clinical database patient records'),
+  author('Beata Strack and Jonathan P DeShazo and Chris Gennings and Juan L Olmo and Sebastian Ventura and Krzysztof J Cios and John N Clore'),
+  publisher('Hindawi Publishing Corporation'),
+nil)
+
+entry!('lakkaraju2017identifying',
+  aaai(2017),
+  title('Identifying Unknown Unknowns in the Open World: Representations and Policies for Guided Exploration'),
+  author('Himabindu Lakkaraju and Ece Kamar and Rich Caruana and Eric Horvitz'),
+nil)
+
+entry!('datta2016algorithmic',
+  inproceedings('Security and Privacy (SP), 2016 IEEE Symposium on', 2016),
+  title('Algorithmic transparency via quantitative input influence: Theory and experiments with learning systems'),
+  author('Anupam Datta and Shayak Sen and Yair Zick'),
+  pages(598, 617),
+  organization('IEEE'),
+nil)
+
+entry!('adler2016auditing',  
+  arxiv(2016, '1602.07043'),
+  title('Auditing Black-box Models for Indirect Influence'),
+  author('Philip Adler and Casey Falk and Sorelle A Friedler and Gabriel Rybeck and Carlos Scheidegger and Brandon Smith and Suresh Venkatasubramanian'),
+nil)
+
+entry!('lundberg2016unexpected',
+  arxiv(2016, '1611.07478'),
+  title('An unexpected unity among methods for interpreting model predictions'),
+  author('Scott Lundberg and Su-In Lee'),
+nil)
+
+entry!('vstrumbelj2014explaining',
+  article('Knowledge and information systems', 2014, 41),
+  title('Explaining prediction models and individual predictions with feature contributions'),
+  author('Erik {\v{S}}trumbelj and Igor Kononenko'),
+  number(3),
+  pages(647, 665),
+  publisher('Springer'),
+nil)
+
+entry!('simonyan2013deep',
+  arxiv(2013, '1312.6034'),
+  title('Deep inside convolutional networks: Visualising image classification models and saliency maps'),
+  author('Karen Simonyan and Andrea Vedaldi and Andrew Zisserman'),
+nil)
+
+entry!('kim2016examples',
+  inproceedings('Advances In Neural Information Processing Systems', 2016),
+  title('Examples are not enough, learn to criticize! Criticism for Interpretability'),
+  author('Been Kim and Oluwasanmi O Koyejo and Rajiv Khanna'),
+  pages(2280, 2288),
+nil)
+
+entry!('caruana2015intelligible',
+  kdd(2015),
+  title('Intelligible models for healthcare: Predicting pneumonia risk and hospital 30-day readmission'),
+  author('Rich Caruana and Yin Lou and Johannes Gehrke and Paul Koch and Marc Sturm and Noemie Elhadad'),
+  pages(1721, 1730),
+  organization('ACM'),
+nil)
+
+entry!('debruyne2010detecting',
+  article('Computational Statistics \& Data Analysis', 2010, 54),
+  title('Detecting influential observations in Kernel {PCA}'),
+  author('Michiel Debruyne and Mia Hubert and Johan Van Horebeek'),
+  number(12),
+  pages(3007, 3019),
+  publisher('Elsevier'),
+nil)
+
+entry!('christmann2004robustness',
+  jmlr(2004, 5),
+  title('On robustness properties of convex risk minimization methods for pattern recognition'),
+  author('Andreas Christmann and Ingo Steinwart'),
+  number('Aug'),
+  pages(1007, 1034),
 nil)
