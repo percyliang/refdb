@@ -89,12 +89,6 @@ entry!('bellemare2016unifying',
   pages(1471, 1479),
 nil)
 
-entry!('kingma2014adam',
-  arxiv(2014, '1412.6980'),
-  title('Adam: A method for stochastic optimization'),
-  author('Diederik Kingma and Jimmy Ba'),
-nil)
-
 entry!('abadi2016tensorflow',
   inproceedings('Proceedings of the 12th USENIX Symposium on Operating Systems Design and Implementation (OSDI). Savannah, Georgia, USA', 2016),
   title('TensorFlow: A system for large-scale machine learning'),

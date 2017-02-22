@@ -20,14 +20,6 @@ entry!('goodman2016eu',
   url('https://arxiv.org/abs/1606.08813'),
 nil)
 
-entry!('ribeiro2016lime',
-  kdd(2016),
-  title('``{W}hy Should {I} Trust You?\'\': Explaining the Predictions of Any Classifier'),
-  author('Marco Tulio Ribeiro and Sameer Singh and Carlos Guestrin'),
-  pages(1135, 1144),
-  organization('ACM'),
-nil)
-
 entry!('amershi2015modeltracker',
   chi(2015),
   title('Modeltracker: Redesigning performance analysis tools for machine learning'),
