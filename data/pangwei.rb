@@ -210,7 +210,7 @@ nil)
 
 entry!('liu2014efficient',
   icml(2014),
-  title('Efficient Approximation of Cross-Validation for Kernel Methods using Bouligand Influence Function'),
+  title('Efficient Approximation of Cross-Validation for Kernel Methods using {B}ouligand Influence Function'),
   author('Yong Liu and Shali Jiang and Shizhong Liao'),
   pages(324, 332),
 nil)
@@ -240,7 +240,7 @@ nil)
 
 entry!('szegedy2016rethinking',
   cvpr(2016),
-  title('Rethinking the inception architecture for computer vision'),
+  title('Rethinking the {I}nception architecture for computer vision'),
   author('Christian Szegedy and Vincent Vanhoucke and Sergey Ioffe and Jon Shlens and Zbigniew Wojna'),
   pages(2818, 2826),
 nil)
@@ -264,7 +264,7 @@ nil)
 
 entry!('strack2014impact',
   article('BioMed research international', 2014, 2014),
-  title('Impact of HbA1c measurement on hospital readmission rates: analysis of 70,000 clinical database patient records'),
+  title('Impact of {HbA1c} measurement on hospital readmission rates: analysis of 70,000 clinical database patient records'),
   author('Beata Strack and Jonathan P DeShazo and Chris Gennings and Juan L Olmo and Sebastian Ventura and Krzysztof J Cios and John N Clore'),
   publisher('Hindawi Publishing Corporation'),
 nil)
@@ -340,4 +340,30 @@ entry!('christmann2004robustness',
   author('Andreas Christmann and Ingo Steinwart'),
   number('Aug'),
   pages(1007, 1034),
+nil)
+
+entry!('russakovsky2015imagenet',
+  article('International Journal of Computer Vision', 2015, 115),
+  title('Imagenet large scale visual recognition challenge'),
+  author('Olga Russakovsky and Jia Deng and Hao Su and Jonathan Krause and Sanjeev Satheesh and Sean Ma and Zhiheng Huang and Andrej Karpathy and Aditya Khosla and Michael Bernstein and others'),
+  number(3),
+  pages(211, 252),
+  publisher('Springer'),
+nil)
+
+entry!('kansagara2011risk',
+  article('Jama', 2011, 306),
+  title('Risk prediction models for hospital readmission: a systematic review'),
+  author('Devan Kansagara and Honora Englander and Amanda Salanitro and David Kagen and Cecelia Theobald and Michele Freeman and Sunil Kripalani'),
+  number(15),
+  pages(1688, 1698),
+  publisher('American Medical Association'),
+nil)
+
+entry!('jaakkola1999exploiting',
+  nips(1999), 
+  title('Exploiting generative models in discriminative classifiers'),
+  author('Tommi S Jaakkola and David Haussler and others'),
+  pages(487, 493),
+  publisher('MIT; 1998'),
 nil)
