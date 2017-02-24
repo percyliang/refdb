@@ -10973,7 +10973,7 @@ entry!('durrett2015neural',
   author('Greg Durrett and Dan Klein'),
 nil)
 
-entry!('ribiero2016lime',
+entry!('ribeiro2016lime',
   kdd(2016),
   author('Marco Tulio Ribeiro and Sameer Singh and Carlos Guestrin'),
   title(' "Why Should {I} Trust You?": Explaining the Predictions of Any Classifier '),

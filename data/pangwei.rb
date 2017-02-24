@@ -359,3 +359,9 @@ entry!('jaakkola1999exploiting',
   pages(487, 493),
   publisher('MIT; 1998'),
 nil)
+
+entry!('li2016understanding',
+  arxiv(2016, '1612.08220'),
+  title('Understanding Neural Networks through Representation Erasure'),
+  author('Jiwei Li and Will Monroe and Dan Jurafsky'),
+nil)
