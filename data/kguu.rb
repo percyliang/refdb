@@ -89,12 +89,6 @@ entry!('bellemare2016unifying',
   pages(1471, 1479),
 nil)
 
-entry!('kingma2014adam',
-  arxiv(2014, '1412.6980'),
-  title('Adam: A method for stochastic optimization'),
-  author('Diederik Kingma and Jimmy Ba'),
-nil)
-
 entry!('abadi2016tensorflow',
   inproceedings('Proceedings of the 12th USENIX Symposium on Operating Systems Design and Implementation (OSDI). Savannah, Georgia, USA', 2016),
   title('TensorFlow: A system for large-scale machine learning'),
@@ -111,4 +105,49 @@ entry!('riedel2016programming',
   article('CoRR, abs/1605.06640', 2016),
   title('Programming with a differentiable forth interpreter'),
   author('Sebastian Riedel and Matko Bosnjak and Tim Rockt{\"a}schel'),
+nil)
+
+entry!('sutton1998reinforcement',
+  title('Reinforcement learning: An introduction'),
+  author('Richard S Sutton and Andrew G Barto'),
+  book('MIT Press', 1998),
+  volume(1),
+  number(1),
+  year(1998),
+  publisher('MIT press Cambridge'),
+nil)
+
+entry!('coulom2006efficient',
+  inproceedings('International Conference on Computers and Games', 2006),
+  title('Efficient selectivity and backup operators in {M}onte-{C}arlo tree search'),
+  author('Remi Coulom'),
+  pages(72, 83),
+  organization('Springer'),
+nil)
+
+entry!('osband2014generalization',
+  arxiv(2014, '1402.0635'),
+  title('Generalization and exploration via randomized value functions'),
+  author('Ian Osband and Benjamin Van Roy and Zheng Wen'),
+nil)
+
+entry!('kearns2002near',
+  machineLearning(2002, 49),
+  title('Near-optimal reinforcement learning in polynomial time'),
+  author('Michael Kearns and Satinder Singh'),
+  number('2-3'),
+  pages(209, 232),
+  publisher('Springer'),
+nil)
+
+entry!('duff2002optimal',
+  title('Optimal Learning: Computational procedures for Bayes-adaptive Markov decision processes'),
+  author('Michael O\'Gordon Duff'),
+  phdthesis('University of Massachusetts Amherst', 2002),
+nil)
+
+entry!('kingma2014adam',
+  arxiv(2014, '1412.6980'),
+  title('Adam: A method for stochastic optimization'),
+  author('Diederik Kingma and Jimmy Ba'),
 nil)
