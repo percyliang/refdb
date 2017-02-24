@@ -42,7 +42,7 @@ nil)
 # nil)
 
 entry!('liu1989limited',
-  article('Mathematical programming', 1989, 45),
+  article('Mathematical Programming', 1989, 45),
   title('On the limited memory {BFGS} method for large scale optimization'),
   author('Dong C Liu and Jorge Nocedal'),
   number(1),
@@ -66,7 +66,7 @@ entry!('springenberg2014striving',
 nil)
 
 entry!('pearlmutter1994fast',
-  article('Neural computation', 1994, 6),
+  article('Neural Computation', 1994, 6),
   title('Fast exact multiplication by the Hessian'),
   author('Barak A Pearlmutter'),
   number(1),
@@ -109,7 +109,7 @@ entry!('cadamuro2016debugging',
 nil)
 
 entry!('frenay2014classification',
-  article('IEEE transactions on neural networks and learning systems', 2014, 25),
+  article('IEEE Transactions on Neural Networks and Learning Systems', 2014, 25),
   title('Classification in the presence of label noise: a survey'),
   author('Beno{\^\i}t Fr{\\\'e}nay and Michel Verleysen'),
   pages(845, 869),
@@ -185,7 +185,7 @@ entry!('thomas1990assessing',
 nil)
 
 entry!('wei1998generalized',
-  article('Scandinavian Journal of statistics', 1998, 25),
+  article('Scandinavian Journal of Statistics', 1998, 25),
   title('Generalized leverage and its applications'),
   author('Bo-Cheng Wei and Yue-Qing Hu and Wing-Kam Fung'),
   pages(25, 37),
@@ -246,7 +246,7 @@ entry!('huang2011adversarial',
 nil)
 
 entry!('ben2010theory',
-  article('Machine learning', 2010, 79),
+  article('Machine Learning', 2010, 79),
   title('A theory of learning from different domains'),
   author('Shai Ben-David and John Blitzer and Koby Crammer and Alex Kulesza and Fernando Pereira and Jennifer Wortman Vaughan'),
   number('1-2'),
@@ -255,7 +255,7 @@ entry!('ben2010theory',
 nil)
 
 entry!('strack2014impact',
-  article('BioMed research international', 2014, 2014),
+  article('BioMed Research International', 2014, 2014),
   title('Impact of {HbA1c} measurement on hospital readmission rates: analysis of 70,000 clinical database patient records'),
   author('Beata Strack and Jonathan P DeShazo and Chris Gennings and Juan L Olmo and Sebastian Ventura and Krzysztof J Cios and John N Clore'),
   publisher('Hindawi Publishing Corporation'),
@@ -336,7 +336,7 @@ nil)
 
 entry!('russakovsky2015imagenet',
   article('International Journal of Computer Vision', 2015, 115),
-  title('Imagenet large scale visual recognition challenge'),
+  title('{ImageNet} large scale visual recognition challenge'),
   author('Olga Russakovsky and Jia Deng and Hao Su and Jonathan Krause and Sanjeev Satheesh and Sean Ma and Zhiheng Huang and Andrej Karpathy and Aditya Khosla and Michael Bernstein and others'),
   number(3),
   pages(211, 252),
@@ -344,7 +344,7 @@ entry!('russakovsky2015imagenet',
 nil)
 
 entry!('kansagara2011risk',
-  article('Jama', 2011, 306),
+  article('JAMA', 2011, 306),
   title('Risk prediction models for hospital readmission: a systematic review'),
   author('Devan Kansagara and Honora Englander and Amanda Salanitro and David Kagen and Cecelia Theobald and Michele Freeman and Sunil Kripalani'),
   number(15),
