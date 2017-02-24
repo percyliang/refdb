@@ -365,3 +365,11 @@ entry!('li2016understanding',
   title('Understanding Neural Networks through Representation Erasure'),
   author('Jiwei Li and Will Monroe and Dan Jurafsky'),
 nil)
+
+entry!('donahue2014decaf',
+  icml(2014),
+  title('DeCAF: A Deep Convolutional Activation Feature for Generic Visual Recognition'),
+  author('Jeff Donahue and Yangqing Jia and Oriol Vinyals and Judy Hoffman and Ning Zhang and Eric Tzeng and Trevor Darrell'),
+  volume(32),
+  pages(647, 655),
+nil)
