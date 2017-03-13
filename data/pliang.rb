@@ -11177,3 +11177,9 @@ entry!('steinberg2005computation',
   title('Computation of Matrix Norms with Applications to Robust Optimization'),
   mastersthesis('Technion -- Israel Institute of Technology', 2005),
 nil)
+
+entry!('diakonikolas2017practical',
+  title('Being Robust (in High Dimensions) Can Be Practical'),
+  author('Ilias Diakonikolas and Gautam Kamath and Daniel Kane and Jerry Li and Ankur Moitra and Alistair Stewart'),
+  arxiv(2017),
+nil)
