@@ -11183,3 +11183,24 @@ entry!('diakonikolas2017practical',
   author('Ilias Diakonikolas and Gautam Kamath and Daniel Kane and Jerry Li and Ankur Moitra and Alistair Stewart'),
   arxiv(2017),
 nil)
+
+entry!('feldman2009agnostic',
+  title('On agnostic learning of parities, monomials, and halfspaces'),
+  author('Vitaly Feldman and Parikshit Gopalan and Subhash Khot and Ashok Kumar Ponnuswami'),
+  article('SIAM Journal on Computing', 2009, 39),
+  pages(606,645),
+  number(2),
+nil)
+
+entry!('berthet2013complexity',
+  title('Complexity Theoretic Lower Bounds for Sparse Principal Component Detection'),
+  author('Quentin Berthet and Philippe Rigollet'),
+  colt(2013),
+  pages(1046,1066),
+nil)
+
+entry!('steinhardt2017resilience',
+  title('Resilience: A Criterion for Learning in the Presence of Arbitrary Outliers'),
+  author('Jacob Steinhardt and Moses Charikar and Gregory Valiant'),
+  arxiv(2017),
+nil)
