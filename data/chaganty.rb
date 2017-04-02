@@ -23,7 +23,7 @@ entry!('han2015exploiting',
 nil)
 
 entry!('ellis2015tackbp',
-  title('TAC KBP 2015 Slot Descriptions'),
+  title('{TAC} {KBP} 2015 Slot Descriptions'),
   author('Joe Ellis and  Jeremy Getman and Heather Simpson and Kira Griffitt and Hoa Trang Dang and Ralph Grishman and Heng Ji and Catherine DePrince and Thomas Riese and  Neil Kuster'),
   article('Linguistic Data Consortium', 2015),
   url('https://tac.nist.gov//2015/KBP/ColdStart/guidelines/TAC_KBP_2015_Slot_Descriptions_V1.0.pdf'),
