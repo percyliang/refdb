@@ -11202,3 +11202,12 @@ entry!('katz2017reluplex',
   arxiv(2017, '1702.01135'),
   url('http://arxiv.org/pdf/1702.01135.pdf'),
 nil)
+
+entry!('hoeffding1963probability',
+  title('Probability inequalities for sums of bounded random variables'),
+  author('Wassily Hoeffding'),
+  article('Journal of the American Statistical Association', 1963, 58),
+  number(301),
+  pages(13,30),
+  publisher('Taylor \& Francis Group'),
+nil)
