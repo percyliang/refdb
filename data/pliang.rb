@@ -11241,3 +11241,9 @@ entry!('janson2004robust',
   pages(2630,2649),
 nil)
 
+entry!('blum1995coloring',
+  title('Coloring random and semi-random {k}-colorable graphs'),
+  author('Avrim Blum and Joel Spencer'),
+  article('Journal of Algorithms', 1995, 19),
+  number(2), pages(204, 234),
+nil)
