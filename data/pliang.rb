@@ -318,6 +318,12 @@ entry!('bertsekas99nlp',
   address('Belmont, MA'),
 nil)
 
+entry!('tsybakov2009introduction',
+  title('Introduction to Nonparametric Estimation'),
+  author('Alexandre B. Tsybakov'),
+  book('Springer', 2009),
+nil)
+
 entry!('mackay97hmm',
   author('David MacKay'),
   title('Ensemble Learning for Hidden {M}arkov Models'),
