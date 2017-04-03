@@ -11217,3 +11217,27 @@ entry!('hoeffding1963probability',
   pages(13,30),
   publisher('Taylor \& Francis Group'),
 nil)
+
+entry!('kesten1966limit',
+  title('A limit theorem for multidimensional {G}alton-{W}atson processes'),
+  author('Harry Kesten and Bernt P. Stigum'),
+  article('The Annals of Mathematical Statistics', 1966, 37),
+  number(5),
+  pages(1211,1223),
+nil)
+
+entry!('kesten1966additional',
+  title('Additional limit theorems for indecomposable multidimensional {G}alton-{W}atson processes'),
+  author('Harry Kesten and Bernt P. Stigum'),
+  article('The Annals of Mathematical Statistics', 1966, 37),
+  number(6),
+  pages(1463,1481),
+nil)
+
+entry!('janson2004robust',
+  title('Robust reconstruction on trees is determined by the second eigenvalue'),
+  author('Svante Janson and Elchanan Mossel'),
+  article('Annals of Probability', 2004, 32),
+  pages(2630,2649),
+nil)
+
