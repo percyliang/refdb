@@ -11247,3 +11247,10 @@ entry!('blum1995coloring',
   article('Journal of Algorithms', 1995, 19),
   number(2), pages(204, 234),
 nil)
+
+entry!('barak2016nearly',
+  title('A nearly tight sum-of-squares lower bound for the planted clique problem'),
+  author('Boaz Barak and Samuel B. Hopkins and Jonathan Kelner and Pravesh Kothari and Ankur Moitra and Aaron Potechin'),
+  focs(2016),
+  pages(428,437),
+nil)
