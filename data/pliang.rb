@@ -11254,3 +11254,33 @@ entry!('barak2016nearly',
   focs(2016),
   pages(428,437),
 nil)
+
+entry!('steinhardt2015minimax',
+  title('Minimax rates for memory-constrained sparse linear regression'),
+  author('Jacob Steinhardt and John Duchi'),
+  colt(2015),
+nil)
+
+entry!('steinhardt2012flexible',
+  title('Flexible martingale priors for deep hierarchies'),
+  author('Jacob Steinhardt and Zoubin Ghahramani'),
+  aistats(2012),
+nil)
+
+entry!('steinhardt2011finite',
+  title('Finite-time regional verification of stochastic nonlinear systems'),
+  author('Jacob Steinhardt and Russ Tedrake'),
+  rss(2011),
+nil)
+
+entry!('steinhardt2010permutations',
+  title('Permutations with ascending and descending blocks'),
+  author('Jacob Steinhardt'),
+  article('Electronic Journal of Combinatorics', 2010, 17),
+nil)
+
+entry!('steinhardt2009coloring',
+  title('On coloring the odd-distance graph'),
+  author('Jacob Steinhardt'),
+  article('Electronic Journal of Combinatorics', 2009, 16),
+nil)
