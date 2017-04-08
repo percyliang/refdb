@@ -11046,18 +11046,18 @@ entry!('berant2015kb',
   pages(1,57),
 nil)
 
-entry!('liang2016nsm',
+entry!('liang2017nsm',
 	title('Neural Symbolic Machines: Learning Semantic Parsers on {F}reebase with Weak Supervision'),
 	author('Chen Liang and Jonathan Berant and Quoc Le and Kenneth D. Forbus, Ni Lao'),
-	arxiv(2016, '1611.00020'),
+  acl(2017),
   url('https://arxiv.org/pdf/1611.00020v3.pdf'),
 nil)
 
-entry!('choi2016heirarchical',
+entry!('choi2017heirarchical',
 	title('Hierarchical Question Answering for Long Documents'),
 	author('Eunsol Choi and Daniel Hewlett and Alexandre Lacoste and Illia Polosukhin and Jakob Uszkoreit and Jonathan Berant'),
-	arxiv(2016, '1611.01839'),
-  url('https://128.84.21.199/pdf/1611.01839v1.pdf'),
+  acl(2017),
+  url('https://arxiv.org/pdf/1611.01839.pdf'),
 nil)
 
 entry!('atzmon2016compositions',
