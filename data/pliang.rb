@@ -11158,3 +11158,9 @@ entry!('charikar2016learning',
   title('Learning from Untrusted Data'),
   author('Moses Charikar and Jacob Steinhardt and Gregory Valiant'),
 nil)
+
+entry!('firat2016multi',
+  naacl(2016),
+  title('Multi-Way, Multilingual Neural Machine Translation with a Shared Attention Mechanism'),
+  author('Orhan Firat and  Kyunghyun Cho and  Yoshua Bengio'),
+nil)
