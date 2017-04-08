@@ -110,3 +110,9 @@ entry!('adel2016comparing',
   title('Comparing Convolutional Neural Networks to Traditional Models for Slot Filling'),
   hltnaacl(2016),
 nil)
+
+entry!('owen2013monte',
+  title('Monte Carlo theory, methods and examples'),
+  author('Art B. Owen'),
+  book('', 2013),
+nil)
