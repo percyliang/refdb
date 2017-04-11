@@ -22,7 +22,7 @@ nil)
 
 entry!('kocisk2016semantic',
   title('Semantic Parsing with Semi-Supervised Sequential Autoencoders'),
-  author('Tom{\\\'a}s Kocisk{\\\'y} and G{\'a}bor Melis and Edward Grefenstette and Chris Dyer and Wang Ling and Phil Blunsom and Karl Moritz Hermann'),
+  author('Tom{\\\'a}s Kocisk{\\\'y} and G{\\\'a}bor Melis and Edward Grefenstette and Chris Dyer and Wang Ling and Phil Blunsom and Karl Moritz Hermann'),
   emnlp(2016),
   pages(1078, 1087),
 nil)
