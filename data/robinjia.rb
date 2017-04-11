@@ -98,3 +98,9 @@ entry!('rimell2009unbounded',
   title('Unbounded Dependency Recovery for Parser Evaluation'),
   emnlp(2009),
 nil)
+
+entry!('goodfellow2014gan',
+  author('Ian J. Goodfellow and Jean Pouget-Abadie and Mehdi Mirza and Bing Xu and David Warde-Farley and Sherjil Ozair and Aaron Courville and Yoshua Bengio'),
+  title('Generative Adversarial Nets'),
+  nips(2014),
+nil)

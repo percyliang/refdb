@@ -318,6 +318,12 @@ entry!('bertsekas99nlp',
   address('Belmont, MA'),
 nil)
 
+entry!('tsybakov2009introduction',
+  title('Introduction to Nonparametric Estimation'),
+  author('Alexandre B. Tsybakov'),
+  book('Springer', 2009),
+nil)
+
 entry!('mackay97hmm',
   author('David MacKay'),
   title('Ensemble Learning for Hidden {M}arkov Models'),
@@ -8532,10 +8538,10 @@ entry!('demp1977em',
 nil)
 
 entry!('maron1998framework',
-  article('Advances in neural information processing systems', 1998), 
+  article('Advances in neural information processing systems', 1998),
   title('A framework for multiple-instance learning'),
   author('Maron, Oded and Lozano-P{\\\'e}rez, Tom{\\\'a}s'),
-  pages(570, 576), 
+  pages(570, 576),
 nil)
 
 entry!('auer1997multiple',
@@ -8650,7 +8656,7 @@ nil)
 entry!('taylor2008medical',
   title('Medical robotics and computer-integrated surgery'),
   author('Russell H. Taylor and Arianna Menciassi and Gabor Fichtinger and Paolo Dario'),
-  incollection('Springer Handbook of Robotics', 2008), 
+  incollection('Springer Handbook of Robotics', 2008),
   pages(1199, 1222),
 nil)
 
@@ -8785,7 +8791,7 @@ entry!('tsirelson1976norms',
   title('Norms of {G}aussian sample functions'),
   author('B. S. Tsirelson and I. A. Ibragimov and V. N. Sudakov'),
   inproceedings('Proceedings of the Third Japan-USSR Symposium on Probability Theory', 1976),
-  pages(20, 41), 
+  pages(20, 41),
   organization('Springer'),
 nil)
 
@@ -8799,13 +8805,13 @@ nil)
 entry!('duchi2013local',
   title('Local Privacy and Statistical Minimax Rates'),
   author('John C. Duchi and Michael I. Jordan and Martin J. Wainwright'),
-  focs(2013), 
+  focs(2013),
 nil)
 
 entry!('schapire2002prior',
   title('Incorporating Prior Knowledge into Boosting'),
   author('Robert E. Schapire and Marie Rochery and Mazin G. Rahim and Narendra Gupta'),
-  icml(2002), 
+  icml(2002),
 nil)
 
 entry!('joachims1999transductive',
@@ -8841,7 +8847,7 @@ entry!('balcan2010discriminative',
   title('A discriminative model for semi-supervised learning'),
   author('Maria-Florina Balcan and Avrim Blum'),
   jacm(2010, 57),
-  number(3), 
+  number(3),
 nil)
 
 entry!('tamhane1981randomized',
@@ -8880,8 +8886,8 @@ nil)
 entry!('meyer1973inverse',
   title('Generalised Inversion of Modified Matrices'),
   author('Carl D. Meyer'),
-  article('SIAM Journal on Applied Mathematics', 1973, 24), 
-  number(3), 
+  article('SIAM Journal on Applied Mathematics', 1973, 24),
+  number(3),
   pages(315, 323),
 nil)
 
@@ -9013,7 +9019,7 @@ nil)
 entry!('mitchell2005time',
   title('A time-dependent {H}amilton-{J}acobi formulation of reachable sets for continuous dynamic games'),
   author('Ian M. Mitchell and Alexandre M. Bayen and Claire J. Tomlin'),
-  article('IEEE Transactions on Automatic Control', 2005, 50), 
+  article('IEEE Transactions on Automatic Control', 2005, 50),
   number(7), pages(947, 957),
 nil)
 
@@ -9168,7 +9174,7 @@ entry!('wolfram2009alpha',
 nil)
 
 entry!('tretter2006accuracy',
-  author('Thomas R. Tretter and M. Gail Jones and James Minogue'), 
+  author('Thomas R. Tretter and M. Gail Jones and James Minogue'),
   title('Accuracy of scale conceptions in science: Mental maneuverings across many orders of spatial magnitude'),
   article('Journal of Research in Science Teaching', 2006, 43),
   pages(1061,1085),
@@ -9520,7 +9526,7 @@ nil)
 entry!('wager2016levy',
   title('Data Augmentation via {L}\\\'evy Processes'),
   author('Stefan Wager and Will Fithian and Percy Liang'),
-  incollection('Perturbations, Optimization and Statistics', 2016), 
+  incollection('Perturbations, Optimization and Statistics', 2016),
   url('http://arxiv.org/pdf/1603.06340.pdf'),
   code('https://github.com/swager/levythin'),
 nil)
@@ -9790,7 +9796,7 @@ entry!('feige2001heuristics',
   title('Heuristics for semirandom graph problems'),
   author('Uriel Feige and Joe Kilian'),
   article('Journal of Computer and System Sciences', 2001),
-  volume(63), number(4), pages(639, 671), 
+  volume(63), number(4), pages(639, 671),
 nil)
 
 entry!('feige2000finding',
@@ -9802,7 +9808,7 @@ nil)
 entry!('makarychev2012approximation',
   title('Approximation algorithms for semi-random partitioning problems'),
   author('Konstantin Makarychev and Yury Makarychev and Aravindan Vijayaraghavan'),
-  stoc(2012), pages(367, 384), 
+  stoc(2012), pages(367, 384),
 nil)
 
 entry!('krivelevich2006semirandom',
@@ -9831,7 +9837,7 @@ entry!('coja2007solving',
   title('Solving {NP}-hard semirandom graph problems in polynomial expected time'),
   author('Amin Coja-Oghlan'),
   article('Journal of Algorithms', 2007),
-  volume(62), number(1), pages(19, 46), 
+  volume(62), number(1), pages(19, 46),
 nil)
 
 entry!('kolla2011play',
@@ -10042,7 +10048,7 @@ entry!('anderson1949estimation',
   title('Estimation of the parameters of a single equation in a complete system of stochastic equations'),
   author('Theodore W. Anderson and Herman Rubin'),
   article('The Annals of Mathematical Statistics', 1949),
-  pages(46, 63), 
+  pages(46, 63),
 nil)
 
 entry!('anderson1950asymptotic',
@@ -10556,7 +10562,7 @@ nil)
 entry!('horn1990analog',
   title('An analog of the {C}auchy-{S}chwarz inequality for {H}adamard products and unitarily invariant norms'),
   author('Roger A. Horn and Roy Mathias'),
-  article('SIAM Journal on Matrix Analysis and Applications', 1990, 11), 
+  article('SIAM Journal on Matrix Analysis and Applications', 1990, 11),
   number(4), pages(481, 498),
 nil)
 
@@ -10873,15 +10879,6 @@ entry!('duan2016generating',
   author('Manjuan Duan and Ethan Hill and Michael White'),
 nil)
 
-entry!('russakovsky2015ilsvrc',
-  article('International Journal of Computer Vision (IJCV)', 2015, 115),
-  author('Russakovsky, Olga and Jia Deng and Hao Su and Jonathan Krause and Sanjeev Satheesh and Sean Ma and Zhiheng Huang and Andrej Karpathy and Aditya Khosla and Michael Bernstein and Alexander C. Berg and Li Fei-Fei'),
-  title('{ImageNet Large Scale Visual Recognition Challenge}'),
-  year(2015),
-  number(3),
-  pages(211, 252),
-nil)
-
 entry!('wang2015overnight',
   acl(2015),
   title('Building a Semantic Parser Overnight'),
@@ -10973,7 +10970,7 @@ entry!('durrett2015neural',
   author('Greg Durrett and Dan Klein'),
 nil)
 
-entry!('ribiero2016lime',
+entry!('ribeiro2016lime',
   kdd(2016),
   author('Marco Tulio Ribeiro and Sameer Singh and Carlos Guestrin'),
   title(' "Why Should {I} Trust You?": Explaining the Predictions of Any Classifier '),
@@ -11049,18 +11046,18 @@ entry!('berant2015kb',
   pages(1,57),
 nil)
 
-entry!('liang2016nsm',
+entry!('liang2017nsm',
 	title('Neural Symbolic Machines: Learning Semantic Parsers on {F}reebase with Weak Supervision'),
 	author('Chen Liang and Jonathan Berant and Quoc Le and Kenneth D. Forbus, Ni Lao'),
-	arxiv(2016, '1611.00020'),
+  acl(2017),
   url('https://arxiv.org/pdf/1611.00020v3.pdf'),
 nil)
 
-entry!('choi2016heirarchical',
+entry!('choi2017heirarchical',
 	title('Hierarchical Question Answering for Long Documents'),
 	author('Eunsol Choi and Daniel Hewlett and Alexandre Lacoste and Illia Polosukhin and Jakob Uszkoreit and Jonathan Berant'),
-	arxiv(2016, '1611.01839'),
-  url('https://128.84.21.199/pdf/1611.01839v1.pdf'),
+  acl(2017),
+  url('https://arxiv.org/pdf/1611.01839.pdf'),
 nil)
 
 entry!('atzmon2016compositions',
@@ -11152,15 +11149,144 @@ entry!('johnson2016google',
  author('Melvin Johnson and Mike Schuster and Quoc V. Le and Maxim Krikun and Yonghui Wu and Zhifeng Chen and Nikhil Thorat and Fernanda Viégas and Martin Wattenberg and Greg Corrado and Macduff Hughes and Jeffrey Dean'),
 nil)
 
-entry!('charikar2016learning',
-  arxiv(2016),
+entry!('charikar2017learning',
+  stoc(2017),
   title('Learning from Untrusted Data'),
   author('Moses Charikar and Jacob Steinhardt and Gregory Valiant'),
 nil)
+
+entry!('firat2016multi',
+  naacl(2016),
+  title('Multi-Way, Multilingual Neural Machine Translation with a Shared Attention Mechanism'),
+  author('Orhan Firat and  Kyunghyun Cho and  Yoshua Bengio'),
+nil)
+
+entry!('haagerup1981best',
+  title('The best constants in the Khintchine inequality'),
+  author('Uffe Haagerup'),
+  article('Studia Mathematica', 1981), volume(70), number(3), pages(231, 283),
+nil)
+
 
 entry!('quirk2015language',
   author('Chris Quirk and Raymond J. Mooney and Michel Galley'),
   title('Language to Code: Learning Semantic Parsers for If-This-Then-That Recipes'),
   acl(2015),
   url('https://pdfs.semanticscholar.org/d4ab/3e01c4d1308371c76fbc9665701100461e88.pdf'),
+nil)
+
+entry!('steinberg2005computation',
+  author('Daureen Steinberg'),
+  title('Computation of Matrix Norms with Applications to Robust Optimization'),
+  mastersthesis('Technion -- Israel Institute of Technology', 2005),
+nil)
+
+entry!('diakonikolas2017practical',
+  title('Being Robust (in High Dimensions) Can Be Practical'),
+  author('Ilias Diakonikolas and Gautam Kamath and Daniel Kane and Jerry Li and Ankur Moitra and Alistair Stewart'),
+  arxiv(2017),
+nil)
+
+entry!('feldman2009agnostic',
+  title('On agnostic learning of parities, monomials, and halfspaces'),
+  author('Vitaly Feldman and Parikshit Gopalan and Subhash Khot and Ashok Kumar Ponnuswami'),
+  article('SIAM Journal on Computing', 2009, 39),
+  pages(606,645),
+  number(2),
+nil)
+
+entry!('berthet2013complexity',
+  title('Complexity Theoretic Lower Bounds for Sparse Principal Component Detection'),
+  author('Quentin Berthet and Philippe Rigollet'),
+  colt(2013),
+  pages(1046,1066),
+nil)
+
+entry!('steinhardt2017resilience',
+  title('Resilience: A Criterion for Learning in the Presence of Arbitrary Outliers'),
+  author('Jacob Steinhardt and Moses Charikar and Gregory Valiant'),
+  arxiv(2017),
+nil)
+
+entry!('katz2017reluplex',
+  author('Guy Katz and Clark Barrett and David Dill and Kyle Julian and Mykel Kochenderfer'),
+  title('Reluplex: An Efficient {SMT} Solver for Verifying Deep Neural Networks'),
+  arxiv(2017, '1702.01135'),
+  url('http://arxiv.org/pdf/1702.01135.pdf'),
+nil)
+
+entry!('hoeffding1963probability',
+  title('Probability inequalities for sums of bounded random variables'),
+  author('Wassily Hoeffding'),
+  article('Journal of the American Statistical Association', 1963, 58),
+  number(301),
+  pages(13,30),
+  publisher('Taylor \& Francis Group'),
+nil)
+
+entry!('kesten1966limit',
+  title('A limit theorem for multidimensional {G}alton-{W}atson processes'),
+  author('Harry Kesten and Bernt P. Stigum'),
+  article('The Annals of Mathematical Statistics', 1966, 37),
+  number(5),
+  pages(1211,1223),
+nil)
+
+entry!('kesten1966additional',
+  title('Additional limit theorems for indecomposable multidimensional {G}alton-{W}atson processes'),
+  author('Harry Kesten and Bernt P. Stigum'),
+  article('The Annals of Mathematical Statistics', 1966, 37),
+  number(6),
+  pages(1463,1481),
+nil)
+
+entry!('janson2004robust',
+  title('Robust reconstruction on trees is determined by the second eigenvalue'),
+  author('Svante Janson and Elchanan Mossel'),
+  article('Annals of Probability', 2004, 32),
+  pages(2630,2649),
+nil)
+
+entry!('blum1995coloring',
+  title('Coloring random and semi-random {k}-colorable graphs'),
+  author('Avrim Blum and Joel Spencer'),
+  article('Journal of Algorithms', 1995, 19),
+  number(2), pages(204, 234),
+nil)
+
+entry!('barak2016nearly',
+  title('A nearly tight sum-of-squares lower bound for the planted clique problem'),
+  author('Boaz Barak and Samuel B. Hopkins and Jonathan Kelner and Pravesh Kothari and Ankur Moitra and Aaron Potechin'),
+  focs(2016),
+  pages(428,437),
+nil)
+
+entry!('steinhardt2015minimax',
+  title('Minimax rates for memory-constrained sparse linear regression'),
+  author('Jacob Steinhardt and John Duchi'),
+  colt(2015),
+nil)
+
+entry!('steinhardt2012flexible',
+  title('Flexible martingale priors for deep hierarchies'),
+  author('Jacob Steinhardt and Zoubin Ghahramani'),
+  aistats(2012),
+nil)
+
+entry!('steinhardt2011finite',
+  title('Finite-time regional verification of stochastic nonlinear systems'),
+  author('Jacob Steinhardt and Russ Tedrake'),
+  rss(2011),
+nil)
+
+entry!('steinhardt2010permutations',
+  title('Permutations with ascending and descending blocks'),
+  author('Jacob Steinhardt'),
+  article('Electronic Journal of Combinatorics', 2010, 17),
+nil)
+
+entry!('steinhardt2009coloring',
+  title('On coloring the odd-distance graph'),
+  author('Jacob Steinhardt'),
+  article('Electronic Journal of Combinatorics', 2009, 16),
 nil)
