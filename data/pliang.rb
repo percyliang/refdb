@@ -11290,3 +11290,35 @@ entry!('steinhardt2009coloring',
   author('Jacob Steinhardt'),
   article('Electronic Journal of Combinatorics', 2009, 16),
 nil)
+
+entry!('balcan2008discriminative',
+  title('A discriminative framework for clustering via similarity functions'),
+  author('Maria-Florina Balcan and Avrim Blum and Santosh Vempala'),
+  stoc(2008), pages(671, 680),
+nil)
+
+entry!('klivans2009learning',
+  title('Learning halfspaces with malicious noise'),
+  author('Adam R. Klivans and Philip M. Long and Rocco A. Servedio'),
+  jmlr(2009, 10), pages(2715,2740),
+nil)
+
+entry!('awasthi2014power',
+  title('The power of localization for efficiently learning linear separators with noise'),
+  author('Pranjal Awasthi and Maria Florina Balcan and Philip M. Long'),
+  stoc(2014), pages(449, 458),
+nil)
+
+entry!('balcan2009agnostic',
+  title('Agnostic clustering'),
+  author('Maria Florina Balcan and Heiko R{\"o}glin and Shang-Hua Teng'),
+  inproceedings('International Conference on Algorithmic Learning Theory', 2009),
+  pages(384, 398),
+nil)
+
+entry!('kushagra2016finding',
+  title('Finding Meaningful Cluster Structure Amidst Background Noise'),
+  author('Shrinu Kushagra and Samira Samadi and Shai Ben-David'),
+  inproceedings('International Conference on Algorithmic Learning Theory', 2016),
+  pages(339,354),
+nil)
