@@ -104,3 +104,21 @@ entry!('goodfellow2014gan',
   title('Generative Adversarial Nets'),
   nips(2014),
 nil)
+
+entry!('zhang2017jnet',
+  author('Junbei Zhang and Xiaodan Zhu and Qian Chen and Lirong Dai and Si Wei and Hui Jiang'),
+  title('Exploring Question Understanding and Adaptation in Neural-Network-Based Question Answering'),
+  arxiv(2017),
+nil)
+
+entry!('wang2016multi',
+  author('Zhiguo Wang and Haitao Mi and Wael Hamza and Radu Florian'),
+  title('Multi-Perspective Context Matching for Machine Comprehension'),
+  arxiv(2016),
+nil)
+
+entry!('lee2017rasor',
+  author('Kenton Lee and Shimi Salant and Tom Kwiatkowski and Ankur Parikh and Dipanjan Das and Jonathan Berant'),
+  title('Learning Recurrent Span Representations for Extractive Question Answering'),
+  arxiv(2017),
+nil)
