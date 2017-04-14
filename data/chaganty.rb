@@ -116,3 +116,17 @@ entry!('owen2013monte',
   author('Art B. Owen'),
   book('', 2013),
 nil)
+
+entry!('sparck1975report',
+  title('Report on the Need for and Provision of an ``Ideal'' test collection'),
+  author('K Sparck Jones and C Van Rijsbergen'),
+  article('Information Retrieval Test Collection', 1975),
+nil)
+
+entry!('harman1993trec',
+   title('The first text retrieval conference (TREC-1) Rockville, MD, U.S.A., 4–6 November, 1992'),
+   author('Donna K. Harman'),
+   article('Information Processing and Management', 1993, 29), pages(411, 414),
+nil)
+
+
