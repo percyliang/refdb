@@ -129,4 +129,8 @@ entry!('harman1993trec',
    article('Information Processing and Management', 1993, 29), pages(411, 414),
 nil)
 
-
+entry!('ji2011kbp',
+       author('Heng Ji and Ralph Grishman and Hoa {Trang Dang}'),
+       title('Overview of the TAC 2011 Knowledge Base Population Track'),
+       inproceedings('Text Analytics Conference', 2011),
+nil)
