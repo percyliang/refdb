@@ -124,14 +124,14 @@ entry!('sparck1975report',
 nil)
 
 entry!('harman1993trec',
-   title('The first text retrieval conference (TREC-1) Rockville, MD, U.S.A., 4–6 November, 1992'),
+   title('The first text retrieval conference (TREC-1) Rockville, MD, U.S.A., 4-6 November, 1992'),
    author('Donna K. Harman'),
    article('Information Processing and Management', 1993, 29), pages(411, 414),
 nil)
 
 entry!('ji2011kbp',
        author('Heng Ji and Ralph Grishman and Hoa {Trang Dang}'),
-       title('Overview of the TAC 2011 Knowledge Base Population Track'),
+       title('Overview of the {TAC} 2011 Knowledge Base Population Track'),
        inproceedings('Text Analytics Conference', 2011),
 nil)
 
