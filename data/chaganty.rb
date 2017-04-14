@@ -134,3 +134,9 @@ entry!('ji2011kbp',
        title('Overview of the TAC 2011 Knowledge Base Population Track'),
        inproceedings('Text Analytics Conference', 2011),
 nil)
+
+entry!('burden1985bisection',
+   author('Richard L. Burden and J. Douglas Faires'),
+   title('Numerical Analysis (3rd ed.)'),
+   book('PWS Publishers', 1985),
+nil)
