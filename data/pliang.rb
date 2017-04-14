@@ -11046,18 +11046,18 @@ entry!('berant2015kb',
   pages(1,57),
 nil)
 
-entry!('liang2016nsm',
+entry!('liang2017nsm',
 	title('Neural Symbolic Machines: Learning Semantic Parsers on {F}reebase with Weak Supervision'),
 	author('Chen Liang and Jonathan Berant and Quoc Le and Kenneth D. Forbus, Ni Lao'),
-	arxiv(2016, '1611.00020'),
+  acl(2017),
   url('https://arxiv.org/pdf/1611.00020v3.pdf'),
 nil)
 
-entry!('choi2016heirarchical',
+entry!('choi2017heirarchical',
 	title('Hierarchical Question Answering for Long Documents'),
 	author('Eunsol Choi and Daniel Hewlett and Alexandre Lacoste and Illia Polosukhin and Jakob Uszkoreit and Jonathan Berant'),
-	arxiv(2016, '1611.01839'),
-  url('https://128.84.21.199/pdf/1611.01839v1.pdf'),
+  acl(2017),
+  url('https://arxiv.org/pdf/1611.01839.pdf'),
 nil)
 
 entry!('atzmon2016compositions',
@@ -11155,6 +11155,12 @@ entry!('charikar2017learning',
   author('Moses Charikar and Jacob Steinhardt and Gregory Valiant'),
 nil)
 
+entry!('firat2016multi',
+  naacl(2016),
+  title('Multi-Way, Multilingual Neural Machine Translation with a Shared Attention Mechanism'),
+  author('Orhan Firat and  Kyunghyun Cho and  Yoshua Bengio'),
+nil)
+
 entry!('haagerup1981best',
   title('The best constants in the Khintchine inequality'),
   author('Uffe Haagerup'),
@@ -11246,4 +11252,41 @@ entry!('blum1995coloring',
   author('Avrim Blum and Joel Spencer'),
   article('Journal of Algorithms', 1995, 19),
   number(2), pages(204, 234),
+nil)
+
+entry!('barak2016nearly',
+  title('A nearly tight sum-of-squares lower bound for the planted clique problem'),
+  author('Boaz Barak and Samuel B. Hopkins and Jonathan Kelner and Pravesh Kothari and Ankur Moitra and Aaron Potechin'),
+  focs(2016),
+  pages(428,437),
+nil)
+
+entry!('steinhardt2015minimax',
+  title('Minimax rates for memory-constrained sparse linear regression'),
+  author('Jacob Steinhardt and John Duchi'),
+  colt(2015),
+nil)
+
+entry!('steinhardt2012flexible',
+  title('Flexible martingale priors for deep hierarchies'),
+  author('Jacob Steinhardt and Zoubin Ghahramani'),
+  aistats(2012),
+nil)
+
+entry!('steinhardt2011finite',
+  title('Finite-time regional verification of stochastic nonlinear systems'),
+  author('Jacob Steinhardt and Russ Tedrake'),
+  rss(2011),
+nil)
+
+entry!('steinhardt2010permutations',
+  title('Permutations with ascending and descending blocks'),
+  author('Jacob Steinhardt'),
+  article('Electronic Journal of Combinatorics', 2010, 17),
+nil)
+
+entry!('steinhardt2009coloring',
+  title('On coloring the odd-distance graph'),
+  author('Jacob Steinhardt'),
+  article('Electronic Journal of Combinatorics', 2009, 16),
 nil)
