@@ -11290,3 +11290,60 @@ entry!('steinhardt2009coloring',
   author('Jacob Steinhardt'),
   article('Electronic Journal of Combinatorics', 2009, 16),
 nil)
+
+############################################################
+# 2017
+
+entry!('koh2017understanding',
+  author('Pang Wei Koh and Percy Liang'),
+  title('Understanding Black-box Predictions via Influence Functions'),
+  arxiv(2017, '1703.04730'),
+  url('http://arxiv.org/pdf/1703.04730.pdf'),
+nil)
+
+entry!('zhang2017hitting',
+  author('Yuchen Zhang and Percy Liang and Moses Charikar'),
+  title('A Hitting Time Analysis of Stochastic Gradient Langevin Dynamics'),
+  arxiv(2017, '1702.05575'),
+  url('http://arxiv.org/pdf/1702.05575.pdf'),
+nil)
+
+entry!('zhang2017convexified',
+  author('Yuchen Zhang and Percy Liang and Martin J. Wainwright'),
+  title('Convexified Convolutional Neural Networks'),
+  arxiv(2017, '1609.01000'),
+  url('http://arxiv.org/pdf/1609.01000.pdf'),
+nil)
+
+entry!('kakade2017prediction',
+  author('Sham Kakade and Percy Liang and Vatsal Sharan and Gregory Valiant'),
+  title('Prediction with a Short Memory'),
+  arxiv(2017, '1612.02526'),
+  url('http://arxiv.org/pdf/1612.02526.pdf'),
+nil)
+
+entry!('bastani2017synthesizing',
+  author('Osbert Bastani and Rahul Sharma and Alex Aiken and Percy Liang'),
+  title('Synthesizing Program Input Grammars'),
+	pldi(2017),
+  url('http://arxiv.org/pdf/1608.01723.pdf'),
+nil)
+
+entry!('wang2017naturalizing',
+  author('Sida I. Wang and Sam Ginn and Percy Liang and Christopher D. Manning'),
+  title('Naturalizing a Programming Language via Interactive Learning'),
+	codalab('0xbf8f4f5b42e54eba9921f7654b3c5c5d'),
+	acl(2017),
+nil)
+
+entry!('he2017symmetric',
+  author('He He and Anusha Balakrishnan and Mihail Eric and Percy Liang'),
+  title('Learning Symmetric Collaborative Dialogue Agents with Dynamic Knowledge Graph Embeddings'),
+	acl(2017),
+nil)
+
+entry!('guu2017bridging',
+  author('Kelvin Guu and Panupong Pasupat and Evan Zheran Liu and Percy Liang'),
+  title('From Language to Programs: Bridging Reinforcement Learning and Maximum Marginal Likelihood'),
+	acl(2017),
+nil)
