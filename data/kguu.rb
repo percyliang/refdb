@@ -151,3 +151,16 @@ entry!('kingma2014adam',
   title('Adam: A method for stochastic optimization'),
   author('Diederik Kingma and Jimmy Ba'),
 nil)
+entry!('smith2006minimum',
+  colingacl(2006),
+  title('Minimum risk annealing for training log-linear models'),
+  author('David A Smith and Jason Eisner'),
+  pages(787, 794),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('shen2015minimum',
+  arxiv(2015, '1512.02433'),
+  title('Minimum risk training for neural machine translation'),
+  author('Shiqi Shen and Yong Cheng and Zhongjun He and Wei He and Hua Wu and Maosong Sun and Yang Liu'),
+nil)
