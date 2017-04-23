@@ -156,9 +156,3 @@ entry!('su2016continuous',
   author('Pei-hao Su and Milica Gasic and Nikola Mrksic and Lina Maria Rojas-Barahona and Stefan Ultes and David Vandyke and Tsung-Hsien Wen and Steve J. Young'),
   arxiv(2016, '1606.02689'),
 )
-
-entry!('williams2007pomdp',
-  title('Partially Observable Markov Decision Processes for Spoken Dialog Systems'),
-  author('Jason D. Williams and Steve J. Young'),
-  article('Computer Speech and Language', 2007, 21),
-)
