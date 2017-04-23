@@ -132,3 +132,33 @@ entry!('ivanovic2005dialogue',
   acl(2005),
   url('https://pdfs.semanticscholar.org/93cf/273eb6d6628d04eee344430cbfc716c3fb96.pdf'),
 nil)
+
+entry!('keizer2017negotiation',
+  title('Evaluating Persuasion Strategies and Deep Reinforcement Learning Methods for Negotiation Dialogue Agents'),
+  author('Simon Keizer and Markus Guhe and Heriberto Cuayahuitl and Ioannis Efstathiou and Klaus-Peter Engelbrecht and Mihai Dobre and Alex Lascarides and Oliver Lemon'),
+  eacl(2017),
+nil)
+
+entry!('mei2017coherent',
+  title('Coherent Dialogue with Attention-Based Language Models'),
+  author('Hongyuan Mei and Mohit Bansal and Matthew R. Walter'),
+  aaai(2017)
+)
+
+entry!('lowe2017ubuntu',
+  title('Training {End-to-End} Dialogue Systems with the Ubuntu Dialogue Corpus'),
+  author('Ryan Thomas Lowe and Nissan Pow and Iulian Serban and Laurent Charlin and Chia-Wei Liu and Joelle Pineau'),
+  article('Dialogue and Discourse', 2017, 8),
+)
+
+entry!('su2016continuous',
+  title('Continuously Learning Neural Dialogue Management'),
+  author('Pei-hao Su and Milica Gasic and Nikola Mrksic and Lina Maria Rojas-Barahona and Stefan Ultes and David Vandyke and Tsung-Hsien Wen and Steve J. Young'),
+  arxiv(2016, '1606.02689'),
+)
+
+entry!('williams2007pomdp',
+  title('Partially Observable Markov Decision Processes for Spoken Dialog Systems'),
+  author('Jason D. Williams and Steve J. Young'),
+  article('Computer Speech and Language', 2007, 21),
+)
