@@ -122,3 +122,17 @@ entry!('lee2017rasor',
   title('Learning Recurrent Span Representations for Extractive Question Answering'),
   arxiv(2017),
 nil)
+
+entry!('bender2017buildit',
+  author('Emily M. Bender and Hal {Daume III} and Allyson Ettinger and Harita Kannan and Sudha Rao and Ephraim Rothschild'),
+  title('Build It, Break It: The Language Edition'),
+  type('misc'),
+  howpublished('\url{https://bibinlp.umiacs.umd.edu/}'),
+  year(2017),
+nil)
+
+entry!('moosavidezfooli2017universal',
+  author('Seyed-Mohsen Moosavi-Dezfooli and Alhussein Fawzi and Omar Fawzi and Pascal Frossard'),
+  title('Universal adversarial perturbations'),
+  cvpr(2017),
+nil)

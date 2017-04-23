@@ -92,17 +92,17 @@ entry!('serban2017multiresolution',
   url('https://arxiv.org/pdf/1606.00776.pdf'),
 nil)
 
-entry!('williams2016dialog',
-  author('Jason D. Williams and Geoffrey Zweig'),
-  title('End-to-End {LSTM}-based Dialog Control Optimized with Supervised and Reinforcement Learning'),
-  arxiv(2016, '1606.01269'),
-  url('http://arxiv.org/pdf/1606.01269.pdf'),
+entry!('williams2017dialog',
+  author('Jason D. Williams and Kavoshi Asadi and Geoffrey Zweig'),
+  title('Hybrid Code Networks: Practical and Efficient End-to-End Dialog Control with Supervised and Reinforcement Learning'),
+  acl(2017),
+  url('https://arxiv.org/pdf/1702.03274.pdf'),
 nil)
 
-entry!('dhingra2016information',
+entry!('dhingra2017information',
   author('Bhuwan Dhingra and Lihong Li and Xiujun Li and Jianfeng Gao and Yun-Nung Chen and Faisal Ahmed and Li Deng'),
   title('End-to-End Reinforcement Learning of Dialogue Agents for Information Access'),
-  arxiv(2016, '1609.00777'),
+  acl(2017),
   url('http://arxiv.org/pdf/1609.00777.pdf'),
 nil)
 
@@ -124,4 +124,11 @@ entry!('li2016rl',
   title('Deep Reinforcement Learning for Dialogue Generation'),
   emnlp(2016),
   url('https://pdfs.semanticscholar.org/07a5/c4ba84268708146aa4bf5cad9491b3e35051.pdf'),
+nil)
+
+entry!('ivanovic2005dialogue',
+  author('Edward Ivanovic'),
+  title('Dialogue Act Tagging for Instant Messaging Chat Sessions'),
+  acl(2005),
+  url('https://pdfs.semanticscholar.org/93cf/273eb6d6628d04eee344430cbfc716c3fb96.pdf'),
 nil)
