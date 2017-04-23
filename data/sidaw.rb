@@ -46,5 +46,5 @@ entry!('gulwani2014nlyze',
   pages(803, 814),
   url('http://doi.acm.org/10.1145/2588555.2612177'),
   author('Sumit Gulwani and Mark Marron'),
-  title('NLyze: interactive programming by natural language for spreadsheet data analysis and manipulation'),
+  title('N{L}yze: interactive programming by natural language for spreadsheet data analysis and manipulation'),
 nil)
