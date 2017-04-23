@@ -132,3 +132,9 @@ entry!('ivanovic2005dialogue',
   acl(2005),
   url('https://pdfs.semanticscholar.org/93cf/273eb6d6628d04eee344430cbfc716c3fb96.pdf'),
 nil)
+
+entry!('keizer2017negotiation',
+  title('Evaluating Persuasion Strategies and Deep Reinforcement Learning Methods for Negotiation Dialogue Agents'),
+  author('Simon Keizer and Markus Guhe and Heriberto Cuayahuitl and Ioannis Efstathiou and Klaus-Peter Engelbrecht and Mihai Dobre and Alex Lascarides and Oliver Lemon'),
+  eacl(2017),
+nil)
