@@ -146,7 +146,7 @@ entry!('mei2017coherent',
 )
 
 entry!('lowe2017ubuntu',
-  title('Training {End-to-End} Dialogue Systems with the Ubuntu Dialogue Corpus'),
+  title('Training End-to-End Dialogue Systems with the Ubuntu Dialogue Corpus'),
   author('Ryan Thomas Lowe and Nissan Pow and Iulian Serban and Laurent Charlin and Chia-Wei Liu and Joelle Pineau'),
   article('Dialogue and Discourse', 2017, 8),
 )
@@ -157,8 +157,8 @@ entry!('su2016continuous',
   arxiv(2016, '1606.02689'),
 )
 
-entry!('williams2007pomdp',
-  title('Partially Observable Markov Decision Processes for Spoken Dialog Systems'),
-  author('Jason D. Williams and Steve J. Young'),
-  article('Computer Speech and Language', 2007, 21),
+entry!('clark1986collaborative',
+  title('Referring as a Collaborative Process'),
+  author('Herbert H. Clark and Deanna Wilkes-Gibbs'),
+  article('Cognition', 1986, 22),
 )
