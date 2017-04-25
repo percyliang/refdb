@@ -1,7 +1,7 @@
 
 entry!('hawkins2015you',
   inproceedings('CogSci', 2015),
-  title('Why do you ask? Good questions provoke informative answers.'),
+  title('Why do you ask? Good questions provoke informative answers'),
   author('Robert XD Hawkins and Andreas Stuhlm{\"u}ller and Judith Degen and Noah D Goodman'),
 nil)
 
