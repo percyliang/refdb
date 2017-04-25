@@ -11332,9 +11332,10 @@ nil)
 entry!('wang2017naturalizing',
   author('Sida I. Wang and Sam Ginn and Percy Liang and Christopher D. Manning'),
   title('Naturalizing a Programming Language via Interactive Learning'),
-	acl(2017),
+  acl(2017),
+  project('http://www.voxelurn.com'),
   url('https://arxiv.org/pdf/1704.06956.pdf'),
-	codalab('0xbf8f4f5b42e54eba9921f7654b3c5c5d'),
+  codalab('0xbf8f4f5b42e54eba9921f7654b3c5c5d'),
 nil)
 
 entry!('he2017symmetric',
