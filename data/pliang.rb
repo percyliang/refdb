@@ -11349,6 +11349,7 @@ nil)
 entry!('guu2017bridging',
   author('Kelvin Guu and Panupong Pasupat and Evan Zheran Liu and Percy Liang'),
   title('From Language to Programs: Bridging Reinforcement Learning and Maximum Marginal Likelihood'),
-  codalab('0x88c914ee1d4b4a4587a07f36f090f3e5'),
 	acl(2017),
+  url('https://arxiv.org/pdf/1704.07926.pdf'),
+  codalab('0x88c914ee1d4b4a4587a07f36f090f3e5'),
 nil)
