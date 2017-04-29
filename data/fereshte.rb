@@ -18,7 +18,7 @@ entry!('ullman2016pragmatics',
 nil)
 
 entry!('horn1984toward',
-  article('Meaning, form, and use in context: Linguistic applications', 1984, VOLUME),
+  article('Meaning, form, and use in context: Linguistic applications', 1984),
   title('Toward a new taxonomy for pragmatic inference: Q-based and R-based implicature'),
   author('Laurence Horn'),
   pages(11, 42),
