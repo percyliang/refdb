@@ -16,3 +16,11 @@ entry!('ullman2016pragmatics',
   title('The Pragmatics of Spatial Language'),
   author('Tomer D Ullman and Yang Xu and Noah D Goodman'),
 nil)
+
+entry!('horn1984toward',
+  article('Meaning, form, and use in context: Linguistic applications', 1984, VOLUME),
+  title('Toward a new taxonomy for pragmatic inference: Q-based and R-based implicature'),
+  author('Laurence Horn'),
+  pages(11, 42),
+  publisher('Washington, DC: Georgetown University Press'),
+nil)
