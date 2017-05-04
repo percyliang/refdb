@@ -25,8 +25,6 @@ entry!('horn1984toward',
   publisher('Washington, DC: Georgetown University Press'),
 nil)
 
-
-
 entry!('allen2014reasoning',
   title('Reasoning about plans'),
   author('James Allen and Henry Kautz and Richard Pelavin and Josh Tenenberg'),
