@@ -59,3 +59,51 @@ entry!('clark1996using',
   author('Herbert H Clark'),
   pages(274, 296),
 nil)
+
+entry!('van2003questioning',
+  article('Linguistics and Philosophy', 2003, 26),
+  title('Questioning to resolve decision problems'),
+  author('Robert Van Rooy'),
+  number(6),
+  pages(727, 763),
+  publisher('Springer'),
+nil)
+
+
+
+entry!('franke2009signal',
+  title('Signal to act: Game theory in pragmatics'),
+  author('Michael Franke'),
+  book('Institute for Logic, Language and Computation', 2009),
+nil)
+
+entry!('crawford1990learning',
+  article('Econometrica: Journal of the Econometric Society', 1990),
+  title('Learning how to cooperate: Optimal play in repeated coordination games'),
+  author('Vincent P Crawford and Hans Haller'),
+  pages(571, 595),
+  publisher('JSTOR'),
+nil)
+
+entry!('kao2014formalizing',
+  inproceedings('CogSci', 2014),
+  title('Formalizing the Pragmatics of Metaphor Understanding.'),
+  author('Justine T Kao and Leon Bergen and Noah Goodman'),
+nil)
+
+entry!('qing2014gradable',
+  inproceedings('Semantics and linguistic theory', 2014),
+  title('Gradable adjectives, vagueness, and optimal language use: A speaker-oriented model'),
+  author('Ciyang Qing and Michael Franke'),
+  volume(24),
+  pages(23, 41),
+nil)
+
+entry!('goodman2016pragmatic',
+  article('Trends in Cognitive Sciences', 2016, 20),
+  title('Pragmatic language interpretation as probabilistic inference'),
+  author('Noah D Goodman and Michael C Frank'),
+  number(11),
+  pages(818, 829),
+  publisher('Elsevier'),
+nil)
