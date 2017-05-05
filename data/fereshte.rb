@@ -19,7 +19,7 @@ nil)
 
 entry!('horn1984toward',
   article('Meaning, form, and use in context: Linguistic applications', 1984),
-  title('Toward a new taxonomy for pragmatic inference: Q-based and R-based implicature'),
+  title('Toward a new taxonomy for pragmatic inference: {Q}-based and {R}-based implicature'),
   author('Laurence Horn'),
   pages(11, 42),
   publisher('Washington, DC: Georgetown University Press'),
@@ -28,8 +28,7 @@ nil)
 entry!('allen2014reasoning',
   title('Reasoning about plans'),
   author('James Allen and Henry Kautz and Richard Pelavin and Josh Tenenberg'),
-  year(2014),
-  publisher('Morgan Kaufmann'),
+  book('Morgan Kaufmann', 2014),
 nil)
 
 entry!('allen2007plow',
@@ -46,4 +45,17 @@ entry!('perrault1980plan',
   number('3-4'),
   pages(167, 182),
   publisher('MIT Press'),
+nil)
+
+entry!('lewis2008convention',
+  title('Convention: A philosophical study'),
+  author('David Lewis'),
+  book('John Wiley \& Sons', 2008),
+nil)
+
+entry!('clark1996using',
+  article('Cambridge University Press: Cambridge', 1996, 952),
+  title('Using language. 1996'),
+  author('Herbert H Clark'),
+  pages(274, 296),
 nil)
