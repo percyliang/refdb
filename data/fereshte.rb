@@ -87,7 +87,7 @@ nil)
 
 entry!('kao2014formalizing',
   inproceedings('CogSci', 2014),
-  title('Formalizing the Pragmatics of Metaphor Understanding.'),
+  title('Formalizing the Pragmatics of Metaphor Understanding'),
   author('Justine T Kao and Leon Bergen and Noah Goodman'),
 nil)
 
@@ -106,4 +106,46 @@ entry!('goodman2016pragmatic',
   number(11),
   pages(818, 829),
   publisher('Elsevier'),
+nil)
+
+entry!('foerster2016learning',
+  nips(2016),
+  title('Learning to communicate with deep multi-agent reinforcement learning'),
+  author('Jakob Foerster and Yannis M Assael and Nando de Freitas and Shimon Whiteson'),
+  pages(2137, 2145),
+nil)
+
+entry!('lazaridou2016multi',
+  arxiv(2016, '1612.07182'),
+  title('Multi-agent cooperation and the emergence of (natural) language'),
+  author('Angeliki Lazaridou and Alexander Peysakhovich and Marco Baroni'),
+nil)
+
+entry!('mordatch2017emergence',
+  arxiv(2017, '1703.04908'),
+  title('Emergence of Grounded Compositional Language in Multi-Agent Populations'),
+  author('Igor Mordatch and Pieter Abbeel'),
+nil)
+
+
+entry!('sukhbaatar2016learning',
+  nips(2016),
+  title('Learning multiagent communication with backpropagation'),
+  author('Sainbayar Sukhbaatar and Rob Fergus and others'),
+  pages(2244, 2252),
+nil)
+
+entry!('peshkin2000learning',
+  inproceedings('Proceedings of the Sixteenth conference on Uncertainty in artificial intelligence', 2000),
+  title('Learning to cooperate via policy search'),
+  author('Leonid Peshkin and Kee-Eung Kim and Nicolas Meuleau and Leslie Pack Kaelbling'),
+  pages(489, 496),
+  organization('Morgan Kaufmann Publishers Inc.'),
+nil)
+
+entry!('box2011bayesian',
+  title('Bayesian inference in statistical analysis'),
+  author('George EP Box and George C Tiao'),
+  volume(40),
+  book('John Wiley \& Sons', 2011),
 nil)
