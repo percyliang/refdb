@@ -149,3 +149,77 @@ entry!('box2011bayesian',
   volume(40),
   book('John Wiley \& Sons', 2011),
 nil)
+
+entry!('shoham2008multiagent',
+  title('Multiagent systems: Algorithmic, game-theoretic, and logical foundations'),
+  author('Yoav Shoham and Kevin Leyton-Brown'),
+  book('Cambridge University Press',2008),
+nil)
+
+entry!('bernheim1984rationalizable',
+  article('Econometrica: Journal of the Econometric Society', 1984),
+  title('Rationalizable strategic behavior'),
+  author('B Douglas Bernheim'),
+  pages(1007, 1028),
+  publisher('JSTOR'),
+nil)
+
+entry!('pearce1984rationalizable',
+  article('Econometrica: Journal of the Econometric Society', 1984),
+  title('Rationalizable strategic behavior and the problem of perfection'),
+  author('David G Pearce'),
+  pages(1029, 1050),
+  publisher('JSTOR'),
+nil)
+
+entry!('nowak1999evolutionary',
+  article('Journal of Theoretical Biology', 1999, 200),
+  title('The evolutionary language game'),
+  author('Martin A Nowak and Joshua B Plotkin and David C Krakauer'),
+  number(2),
+  pages(147, 162),
+  publisher('Elsevier'),
+nil)
+
+entry!('huttegger2010evolutionary',
+  article('Synthese', 2010, 172),
+  title('Evolutionary dynamics of Lewis signaling games: signaling systems vs. partial pooling'),
+  author('Simon M Huttegger and Brian Skyrms and Rory Smead and Kevin JS Zollman'),
+  number(1),
+  pages(177, 191),
+  publisher('Springer'),
+nil)
+
+entry!('kuhn2016extensive',
+  article('InH. KuhnandA. Tucker, editors, Contributions to the Theory of Games', 2016),
+  title('Extensive games and the problem of information'),
+  author('H Kuhn'),
+  pages(193, 216),
+nil)
+
+entry!('zermelo1913anwendung',
+  inproceedings('Proceedings of the fifth international congress of mathematicians', 1913),
+  title('{\"U}ber eine Anwendung der Mengenlehre auf die Theorie des Schachspiels'),
+  author('Ernst Zermelo'),
+  volume(2),
+  pages(501, 504),
+  organization('II, Cambridge UP, Cambridge'),
+nil)
+
+entry!('aumann1995backward',
+  article('Games and Economic Behavior', 1995, 8),
+  title('Backward induction and common knowledge of rationality'),
+  author('Robert J Aumann'),
+  number(1),
+  pages(6, 19),
+  publisher('Elsevier'),
+nil)
+
+entry!('harsanyi2004games',
+  article('Management science', 2004, 50),
+  title('Games with incomplete information played by “Bayesian” players, i--iii: part i. the basic model\&'),
+  author('John C Harsanyi'),
+  number('12\_supplement'),
+  pages(1804, 1817),
+  publisher('INFORMS'),
+nil)
