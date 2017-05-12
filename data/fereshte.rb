@@ -223,3 +223,140 @@ entry!('harsanyi2004games',
   pages(1804, 1817),
   publisher('INFORMS'),
 nil)
+
+entry!('vogel2013implicatures',
+  acl(2013),
+  title('Implicatures and Nested Beliefs in Approximate Decentralized-POMDPs'),
+  author('Adam Vogel and Christopher Potts and Dan Jurafsky'),
+  pages(74, 80),
+nil)
+
+entry!('busoniu2008comprehensive',
+  article('IEEE Transactions on Systems Man and Cybernetics Part C Applications and Reviews', 2008, 38),
+  title('A comprehensive survey of multiagent reinforcement learning'),
+  author('Lucian Busoniu and Robert Babuska and Bart De Schutter'),
+  number(2),
+  publisher('IEEE SYSTEMS MAN \& CYBERNETICS SOCIETY'),
+nil)
+
+entry!('grosz1986attention',
+  article('Computational linguistics', 1986, 12),
+  title('Attention, intentions, and the structure of discourse'),
+  author('Barbara J Grosz and Candace L Sidner'),
+  number(3),
+  pages(175, 204),
+  publisher('MIT Press'),
+nil)
+
+entry!('bobrow1977gus',
+  article('Artificial intelligence', 1977, 8),
+  title('GUS, a frame-driven dialog system'),
+  author('Daniel G Bobrow and Ronald M Kaplan and Martin Kay and Donald A Norman and Henry Thompson and Terry Winograd'),
+  number(2),
+  pages(155, 173),
+  publisher('Elsevier'),
+nil)
+
+entry!('weizenbaum1966eliza',
+  article('Communications of the ACM', 1966, 9),
+  title('ELIZA—a computer program for the study of natural language communication between man and machine'),
+  author('Joseph Weizenbaum'),
+  number(1),
+  pages(36, 45),
+  publisher('ACM'),
+nil)
+
+entry!('clark1991grounding',
+  article('Perspectives on socially shared cognition', 1991, 13),
+  title('Grounding in communication'),
+  author('Herbert H Clark and Susan E Brennan and others'),
+  number(1991),
+  pages(127, 149),
+nil)
+
+entry!('allen1980analyzing',
+  article('Artificial intelligence', 1980, 15),
+  title('Analyzing intention in utterances'),
+  author('James F Allen and C Raymond Perrault'),
+  number(3),
+  pages(143, 178),
+  publisher('Elsevier'),
+nil)
+
+entry!('allen2001toward',
+  article('AI magazine', 2001, 22),
+  title('Toward conversational human-computer interaction'),
+  author('James F Allen and Donna K Byron and Myroslava Dzikovska and George Ferguson and Lucian Galescu and Amanda Stent'),
+  number(4),
+nil)
+
+entry!('colby1971artificial',
+  article('Artificial Intelligence', 1971, 2),
+  title('Artificial paranoia'),
+  author('Kenneth Mark Colby and Sylvia Weber and Franklin Dennis Hilf'),
+  number(1),
+  pages(1, 25),
+  publisher('Elsevier'),
+nil)
+
+entry!('dekel2014epistemic',
+  article('Handbook of Game Theory', 2014, 4),
+  title('Epistemic game theory'),
+  author('Eddie Dekel and Marciano Siniscalchi and others'),
+nil)
+
+entry!('perea2012epistemic',
+  title('Epistemic game theory: reasoning and choice'),
+  author('Andr{\'e}s Perea'),
+  book('Cambridge University Press',2012),
+nil)
+
+entry!('cao2013overview',
+  article('IEEE Transactions on Industrial informatics', 2013, 9),
+  title('An overview of recent progress in the study of distributed multi-agent coordination'),
+  author('Yongcan Cao and Wenwu Yu and Wei Ren and Guanrong Chen'),
+  number(1),
+  pages(427, 438),
+  publisher('IEEE'),
+nil)
+
+entry!('stone1998towards',
+  article('International Journal of Human-Computer Studies', 1998, 48),
+  title('Towards collaborative and adversarial learning: A case study in robotic soccer'),
+  author('Peter Stone and Manuela Veloso'),
+  number(1),
+  pages(83, 104),
+  publisher('Elsevier Science'),
+nil)
+
+entry!('lauer2000algorithm',
+  icml(2000),
+  title('An algorithm for distributed reinforcement learning in cooperative multi-agent systems'),
+  author('Martin Lauer and Martin Riedmiller'),
+  organization('Citeseer'),
+nil)
+
+entry!('littman2001value',
+  article('Cognitive Systems Research', 2001, 2),
+  title('Value-function reinforcement learning in Markov games'),
+  author('Michael L Littman'),
+  number(1),
+  pages(55, 66),
+  publisher('Elsevier'),
+nil)
+
+entry!('zhang2013coordinating',
+  inproceedings('Proceedings of the 2013 international conference on Autonomous agents and multi-agent systems', 2013),
+  title('Coordinating multi-agent reinforcement learning with limited communication'),
+  author('Chongjie Zhang and Victor Lesser'),
+  pages(1101, 1108),
+  organization('International Foundation for Autonomous Agents and Multiagent Systems'),
+nil)
+
+entry!('tan1993multi',
+  inproceedings('Proceedings of the tenth international conference on machine learning', 1993),
+  title('Multi-agent reinforcement learning: Independent vs. cooperative agents'),
+  author('Ming Tan'),
+  pages(330, 337),
+nil)
+
