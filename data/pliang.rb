@@ -11353,3 +11353,23 @@ entry!('guu2017bridging',
   url('https://arxiv.org/pdf/1704.07926.pdf'),
   codalab('0x88c914ee1d4b4a4587a07f36f090f3e5'),
 nil)
+
+entry!('newell2014practicality',
+  title('On the practicality of integrity attacks on document-level sentiment analysis'),
+  author('Andrew Newell and Rahul Potharaju and Luojie Xiang and Cristina Nita-Rotaru'),
+  inproceedings('ACM Workshop on Artificial Intelligence and Security (AISec)', 2014),
+  pages(83,93),
+)
+
+entry!('biggio2014security',
+  title('Security evaluation of pattern classifiers under attack'),
+  author('Battista Biggio and Giorgio Fumera and Fabio Roli'),
+  article('Knowledge and Data Engineering, IEEE Transactions on', 2014, 26),
+  number(4), pages(984, 996),
+nil)
+
+entry!('laishram2016curie',
+  title('Curie: {A} method for protecting {SVM} Classifier from Poisoning Attack'),
+  author('Ricky Laishram and Vir Virander Phoha'),
+  arxiv(2016),
+nil)
