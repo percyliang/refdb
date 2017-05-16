@@ -92,17 +92,17 @@ entry!('serban2017multiresolution',
   url('https://arxiv.org/pdf/1606.00776.pdf'),
 nil)
 
-entry!('williams2016dialog',
-  author('Jason D. Williams and Geoffrey Zweig'),
-  title('End-to-End {LSTM}-based Dialog Control Optimized with Supervised and Reinforcement Learning'),
-  arxiv(2016, '1606.01269'),
-  url('http://arxiv.org/pdf/1606.01269.pdf'),
+entry!('williams2017dialog',
+  author('Jason D. Williams and Kavoshi Asadi and Geoffrey Zweig'),
+  title('Hybrid Code Networks: Practical and Efficient End-to-End Dialog Control with Supervised and Reinforcement Learning'),
+  acl(2017),
+  url('https://arxiv.org/pdf/1702.03274.pdf'),
 nil)
 
-entry!('dhingra2016information',
+entry!('dhingra2017information',
   author('Bhuwan Dhingra and Lihong Li and Xiujun Li and Jianfeng Gao and Yun-Nung Chen and Faisal Ahmed and Li Deng'),
   title('End-to-End Reinforcement Learning of Dialogue Agents for Information Access'),
-  arxiv(2016, '1609.00777'),
+  acl(2017),
   url('http://arxiv.org/pdf/1609.00777.pdf'),
 nil)
 
@@ -125,3 +125,40 @@ entry!('li2016rl',
   emnlp(2016),
   url('https://pdfs.semanticscholar.org/07a5/c4ba84268708146aa4bf5cad9491b3e35051.pdf'),
 nil)
+
+entry!('ivanovic2005dialogue',
+  author('Edward Ivanovic'),
+  title('Dialogue Act Tagging for Instant Messaging Chat Sessions'),
+  acl(2005),
+  url('https://pdfs.semanticscholar.org/93cf/273eb6d6628d04eee344430cbfc716c3fb96.pdf'),
+nil)
+
+entry!('keizer2017negotiation',
+  title('Evaluating Persuasion Strategies and Deep Reinforcement Learning Methods for Negotiation Dialogue Agents'),
+  author('Simon Keizer and Markus Guhe and Heriberto Cuayahuitl and Ioannis Efstathiou and Klaus-Peter Engelbrecht and Mihai Dobre and Alex Lascarides and Oliver Lemon'),
+  eacl(2017),
+nil)
+
+entry!('mei2017coherent',
+  title('Coherent Dialogue with Attention-Based Language Models'),
+  author('Hongyuan Mei and Mohit Bansal and Matthew R. Walter'),
+  aaai(2017)
+)
+
+entry!('lowe2017ubuntu',
+  title('Training End-to-End Dialogue Systems with the Ubuntu Dialogue Corpus'),
+  author('Ryan Thomas Lowe and Nissan Pow and Iulian Serban and Laurent Charlin and Chia-Wei Liu and Joelle Pineau'),
+  article('Dialogue and Discourse', 2017, 8),
+)
+
+entry!('su2016continuous',
+  title('Continuously Learning Neural Dialogue Management'),
+  author('Pei-hao Su and Milica Gasic and Nikola Mrksic and Lina Maria Rojas-Barahona and Stefan Ultes and David Vandyke and Tsung-Hsien Wen and Steve J. Young'),
+  arxiv(2016, '1606.02689'),
+)
+
+entry!('clark1986collaborative',
+  title('Referring as a Collaborative Process'),
+  author('Herbert H. Clark and Deanna Wilkes-Gibbs'),
+  article('Cognition', 1986, 22),
+)

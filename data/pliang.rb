@@ -3643,7 +3643,7 @@ nil)
 entry!('liang2013lambdadcs',
   author('Percy Liang'),
   title('Lambda Dependency-Based Compositional Semantics'),
-  arxiv(2013),
+  arxiv(2013, '1309.4408'),
   url('http://arxiv.org/pdf/1309.4408v2.pdf'),
   extendedVersion,
 nil)
@@ -11289,4 +11289,87 @@ entry!('steinhardt2009coloring',
   title('On coloring the odd-distance graph'),
   author('Jacob Steinhardt'),
   article('Electronic Journal of Combinatorics', 2009, 16),
+nil)
+
+############################################################
+# 2017
+
+entry!('koh2017understanding',
+  author('Pang Wei Koh and Percy Liang'),
+  title('Understanding Black-box Predictions via Influence Functions'),
+  icml(2017),
+  url('http://arxiv.org/pdf/1703.04730.pdf'),
+nil)
+
+entry!('zhang2017convexified',
+  author('Yuchen Zhang and Percy Liang and Martin J. Wainwright'),
+  title('Convexified Convolutional Neural Networks'),
+  icml(2017),
+  url('http://arxiv.org/pdf/1609.01000.pdf'),
+nil)
+
+entry!('zhang2017hitting',
+  author('Yuchen Zhang and Percy Liang and Moses Charikar'),
+  title('A Hitting Time Analysis of Stochastic Gradient Langevin Dynamics'),
+  colt(2017),
+  url('http://arxiv.org/pdf/1702.05575.pdf'),
+nil)
+
+entry!('kakade2017prediction',
+  author('Sham Kakade and Percy Liang and Vatsal Sharan and Gregory Valiant'),
+  title('Prediction with a Short Memory'),
+  arxiv(2017, '1612.02526'),
+  url('http://arxiv.org/pdf/1612.02526.pdf'),
+nil)
+
+entry!('bastani2017synthesizing',
+  author('Osbert Bastani and Rahul Sharma and Alex Aiken and Percy Liang'),
+  title('Synthesizing Program Input Grammars'),
+	pldi(2017),
+  url('http://arxiv.org/pdf/1608.01723.pdf'),
+nil)
+
+entry!('wang2017naturalizing',
+  author('Sida I. Wang and Sam Ginn and Percy Liang and Christopher D. Manning'),
+  title('Naturalizing a Programming Language via Interactive Learning'),
+  acl(2017),
+  project('http://www.voxelurn.com'),
+  url('https://arxiv.org/pdf/1704.06956.pdf'),
+  codalab('0xbf8f4f5b42e54eba9921f7654b3c5c5d'),
+nil)
+
+entry!('he2017symmetric',
+  author('He He and Anusha Balakrishnan and Mihail Eric and Percy Liang'),
+  title('Learning Symmetric Collaborative Dialogue Agents with Dynamic Knowledge Graph Embeddings'),
+	acl(2017),
+  url('https://arxiv.org/pdf/1704.07130.pdf'),
+  codalab('0xc757f29f5c794e5eb7bfa8ca9c945573'),
+nil)
+
+entry!('guu2017bridging',
+  author('Kelvin Guu and Panupong Pasupat and Evan Zheran Liu and Percy Liang'),
+  title('From Language to Programs: Bridging Reinforcement Learning and Maximum Marginal Likelihood'),
+	acl(2017),
+  url('https://arxiv.org/pdf/1704.07926.pdf'),
+  codalab('0x88c914ee1d4b4a4587a07f36f090f3e5'),
+nil)
+
+entry!('newell2014practicality',
+  title('On the practicality of integrity attacks on document-level sentiment analysis'),
+  author('Andrew Newell and Rahul Potharaju and Luojie Xiang and Cristina Nita-Rotaru'),
+  inproceedings('ACM Workshop on Artificial Intelligence and Security (AISec)', 2014),
+  pages(83,93),
+)
+
+entry!('biggio2014security',
+  title('Security evaluation of pattern classifiers under attack'),
+  author('Battista Biggio and Giorgio Fumera and Fabio Roli'),
+  article('Knowledge and Data Engineering, IEEE Transactions on', 2014, 26),
+  number(4), pages(984, 996),
+nil)
+
+entry!('laishram2016curie',
+  title('Curie: {A} method for protecting {SVM} Classifier from Poisoning Attack'),
+  author('Ricky Laishram and Vir Virander Phoha'),
+  arxiv(2016),
 nil)
