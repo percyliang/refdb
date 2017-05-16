@@ -11297,22 +11297,22 @@ nil)
 entry!('koh2017understanding',
   author('Pang Wei Koh and Percy Liang'),
   title('Understanding Black-box Predictions via Influence Functions'),
-  arxiv(2017, '1703.04730'),
+  icml(2017),
   url('http://arxiv.org/pdf/1703.04730.pdf'),
-nil)
-
-entry!('zhang2017hitting',
-  author('Yuchen Zhang and Percy Liang and Moses Charikar'),
-  title('A Hitting Time Analysis of Stochastic Gradient Langevin Dynamics'),
-  arxiv(2017, '1702.05575'),
-  url('http://arxiv.org/pdf/1702.05575.pdf'),
 nil)
 
 entry!('zhang2017convexified',
   author('Yuchen Zhang and Percy Liang and Martin J. Wainwright'),
   title('Convexified Convolutional Neural Networks'),
-  arxiv(2017, '1609.01000'),
+  icml(2017),
   url('http://arxiv.org/pdf/1609.01000.pdf'),
+nil)
+
+entry!('zhang2017hitting',
+  author('Yuchen Zhang and Percy Liang and Moses Charikar'),
+  title('A Hitting Time Analysis of Stochastic Gradient Langevin Dynamics'),
+  colt(2017),
+  url('http://arxiv.org/pdf/1702.05575.pdf'),
 nil)
 
 entry!('kakade2017prediction',
