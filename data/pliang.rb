@@ -11492,7 +11492,7 @@ nil)
 
 entry!('laskov2014practical',
   title('Practical evasion of a learning-based classifier: A case study'),
-  author('Pavel Laskov and Nedim \\v{S}rndi{\\`c}}'),
+  author('Pavel Laskov and Nedim \\v{S}rndi{\\`c}'),
   inproceedings('Symposium on Security and Privacy', 2014),
 nil)
 
@@ -11596,3 +11596,45 @@ entry!('behzadan2017vulnerability',
   arxiv(2017),
 nil)
 
+entry!('kakade2009complexity',
+  title('On the complexity of linear prediction: Risk bounds, margin bounds, and regularization'),
+  author('Sham M. Kakade and Karthik Sridharan and Ambuj Tewari'),
+  nips(2009),
+nil)
+
+entry!('xiao2010rda',
+  title('Dual Averaging Methods for Regularized Stochastic Learning and Online Optimization'),
+  author('Lin Xiao'),
+  jmlr(2010, 11), pages(2543,2596),
+nil)
+
+entry!('maas2011imdb',
+  author('Andrew L. Maas and Raymond E. Daly and Peter T. Pham and Dan Huang and Andrew Y. Ng and Christopher Potts'),
+  title('Learning Word Vectors for Sentiment Analysis'),
+  acl(2011),
+nil)
+
+entry!('gurobi2016',
+   author('Gurobi Optimization, Inc.'),
+   title('Gurobi Optimizer Reference Manual'),
+   year(2016),
+   type('misc'),
+nil)
+
+entry!('metsis2006spam',
+  author('Vangelis Metsis and Ion Androutsopoulos and Georgios Paliouras'),
+  title('Spam Filtering with Naive {B}ayes -- Which Naive {B}ayes?'),
+  inproceedings('CEAS', 2006),
+nil)
+
+entry!('tramer2016stealing',
+  title('Stealing machine learning models via prediction {API}s'),
+  author('Florian Tram{\\`e}r and Fan Zhang and Ari Juels and Michael K. Reiter and Thomas Ristenpart'),
+  inproceedings('USENIX Security', 2016),
+nil)
+
+entry!('kerckhoffs1883security',
+  author('Auguste Kerckhoffs'),
+  title('La cryptographie militaire'),
+  article('Journal des sciences militaires', 1883, 9),
+nil)
