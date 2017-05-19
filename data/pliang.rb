@@ -11520,6 +11520,12 @@ entry!('zhou2016modeling',
   inproceedings('Pacific-Asia Conference on Knowledge Discovery and Data Mining', 2016),
 nil)
 
+entry!('bruckner2011stackelberg',
+  title('Stackelberg games for adversarial prediction problems'),
+  author('Michael Br{\\"u}ckner and Tobias Scheffer'),
+  inproceedings('SIGKDD', 2011), pages(547, 555),
+nil)
+
 entry!('bruckner2012static',
   title('Static prediction games for adversarial learning problems'),
   author('Michael Br{\\"u}ckner and Christian Kanzow and Tobias Scheffer'),
@@ -11549,7 +11555,7 @@ nil)
 
 entry!('nasrabadi2011robust',
   title('Robust lasso with missing and grossly corrupted observations'),
-  author('Nasser M. Nasrabadi Trac D. Tran and Nam Nguyen'),
+  author('Nasser M. Nasrabadi and Trac D. Tran and Nam Nguyen'),
   nips(2011),
 nil)
 
