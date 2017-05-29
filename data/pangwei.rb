@@ -358,3 +358,11 @@ entry!('donahue2014decaf',
   volume(32),
   pages(647, 655),
 nil)
+
+entry!('cvxpy',
+  jmlr(2016, 17),
+  author('Steven Diamond and Stephen Boyd'),
+  title('{CVXPY}: A {P}ython-Embedded Modeling Language for Convex Optimization'),
+  number(83),
+  pages(1, 5),
+nil)
