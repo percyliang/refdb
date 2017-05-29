@@ -8,7 +8,7 @@
 
 entry!('wojnowicz2016sketching',
   author('Mike Wojnowicz and Ben Cruz and Xuan Zhao and Brian Wallace and Matt Wolff and Jay Luan and Caleb Crable'),
-  title('``{I}nfluence Sketching\'\': Finding Influential Samples In Large-Scale Regressions'),  
+  title('``{I}nfluence Sketching\'\': Finding Influential Samples In Large-Scale Regressions'),
   arxiv(2016, '1611.05923'),
   url('https://arxiv.org/abs/1611.05923'),
 nil)
@@ -260,7 +260,7 @@ entry!('datta2016algorithmic',
   organization('IEEE'),
 nil)
 
-entry!('adler2016auditing',  
+entry!('adler2016auditing',
   arxiv(2016, '1602.07043'),
   title('Auditing Black-box Models for Indirect Influence'),
   author('Philip Adler and Casey Falk and Sorelle A Friedler and Gabriel Rybeck and Carlos Scheidegger and Brandon Smith and Suresh Venkatasubramanian'),
@@ -338,7 +338,7 @@ entry!('kansagara2011risk',
 nil)
 
 entry!('jaakkola1999exploiting',
-  nips(1999), 
+  nips(1999),
   title('Exploiting generative models in discriminative classifiers'),
   author('Tommi S Jaakkola and David Haussler and others'),
   pages(487, 493),
@@ -359,7 +359,7 @@ entry!('donahue2014decaf',
   pages(647, 655),
 nil)
 
-entry!('cvxpy',
+entry!('diamond2016cvxpy',
   jmlr(2016, 17),
   author('Steven Diamond and Stephen Boyd'),
   title('{CVXPY}: A {P}ython-Embedded Modeling Language for Convex Optimization'),
