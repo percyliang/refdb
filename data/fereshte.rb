@@ -55,7 +55,7 @@ nil)
 
 entry!('clark1996using',
   article('Cambridge University Press: Cambridge', 1996, 952),
-  title('Using language. 1996'),
+  title('Using language'),
   author('Herbert H Clark'),
   pages(274, 296),
 nil)
@@ -69,8 +69,6 @@ entry!('van2003questioning',
   publisher('Springer'),
 nil)
 
-
-
 entry!('franke2009signal',
   title('Signal to act: Game theory in pragmatics'),
   author('Michael Franke'),
@@ -82,7 +80,6 @@ entry!('crawford1990learning',
   title('Learning how to cooperate: Optimal play in repeated coordination games'),
   author('Vincent P Crawford and Hans Haller'),
   pages(571, 595),
-  publisher('JSTOR'),
 nil)
 
 entry!('kao2014formalizing',
@@ -127,7 +124,6 @@ entry!('mordatch2017emergence',
   author('Igor Mordatch and Pieter Abbeel'),
 nil)
 
-
 entry!('sukhbaatar2016learning',
   nips(2016),
   title('Learning multiagent communication with backpropagation'),
@@ -153,7 +149,7 @@ nil)
 entry!('shoham2008multiagent',
   title('Multiagent systems: Algorithmic, game-theoretic, and logical foundations'),
   author('Yoav Shoham and Kevin Leyton-Brown'),
-  book('Cambridge University Press',2008),
+  book('Cambridge University Press', 2008),
 nil)
 
 entry!('bernheim1984rationalizable',
@@ -161,7 +157,6 @@ entry!('bernheim1984rationalizable',
   title('Rationalizable strategic behavior'),
   author('B Douglas Bernheim'),
   pages(1007, 1028),
-  publisher('JSTOR'),
 nil)
 
 entry!('pearce1984rationalizable',
@@ -169,7 +164,6 @@ entry!('pearce1984rationalizable',
   title('Rationalizable strategic behavior and the problem of perfection'),
   author('David G Pearce'),
   pages(1029, 1050),
-  publisher('JSTOR'),
 nil)
 
 entry!('nowak1999evolutionary',
@@ -217,9 +211,8 @@ nil)
 
 entry!('harsanyi2004games',
   article('Management science', 2004, 50),
-  title('Games with incomplete information played by “Bayesian” players, i--iii: part i. the basic model\&'),
+  title('Games with incomplete information played by "Bayesian" players'),
   author('John C Harsanyi'),
-  number('12\_supplement'),
   pages(1804, 1817),
   publisher('INFORMS'),
 nil)
@@ -236,7 +229,6 @@ entry!('busoniu2008comprehensive',
   title('A comprehensive survey of multiagent reinforcement learning'),
   author('Lucian Busoniu and Robert Babuska and Bart De Schutter'),
   number(2),
-  publisher('IEEE SYSTEMS MAN \& CYBERNETICS SOCIETY'),
 nil)
 
 entry!('grosz1986attention',

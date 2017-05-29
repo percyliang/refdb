@@ -92,14 +92,7 @@ entry!('biggio2012poisoning',
   author('Battista Biggio and Blaine Nelson and Pavel Laskov'),
   title('Poisoning Attacks Against Support Vector Machines'),
   pages(1467, 1474),
-  url('http://dl.acm.org/citation.cfm?id=3042573.3042761'),  
-nil)
-
-entry!('li2016collab',
-  nips(2016),
-  title('Data Poisoning Attacks on Factorization-Based Collaborative Filtering'),
-  author('Bo Li and Yining Wang and Aarti Singh and Yevgeniy Vorobeychik'),
-  pages(1885, 1893),
+  url('http://dl.acm.org/citation.cfm?id=3042573.3042761'),
 nil)
 
 entry!('cadamuro2016debugging',
@@ -121,14 +114,6 @@ entry!('biggio2011label',
   title('Support Vector Machines Under Adversarial Label Noise'),
   author('Battista Biggio and Blaine Nelson and Pavel Laskov'),
   pages(97, 112),
-nil)
-
-entry!('metsis2006enron',
-  inproceedings('CEAS', 2006),
-  title('Spam filtering with naive bayes-which naive bayes?'),
-  author('Vangelis Metsis and Ion Androutsopoulos and Georgios Paliouras'),
-  volume(17),
-  pages(28, 69),
 nil)
 
 entry!('jaeckel1972infinitesimal',
