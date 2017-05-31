@@ -360,3 +360,9 @@ entry!('tan1993multi',
   pages(330, 337),
 nil)
 
+
+entry!('andreas2016reasoning',
+  arxiv(2016, '1604.00562'),
+  title('Reasoning about pragmatics with neural listeners and speakers'),
+  author('Jacob Andreas and Dan Klein'),
+nil)
