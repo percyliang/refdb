@@ -140,3 +140,22 @@ entry!('burden1985bisection',
    title('Numerical Analysis (3rd ed.)'),
    book('PWS Publishers', 1985),
 nil)
+
+entry!('liu2016effective',
+   author('Angli Liu and Stephen Soderland and Jonathan Bragg and Christopher H Lin and Xiao Ling and Daniel S Weld'),
+   title('Effective Crowd Annotation for Relation Extraction'),
+   naacl(2016), pages(897, 906),
+nil)
+
+entry!('dang2016kbp',
+  title('Cold Start Knowledge Base Population at {TAC} {KBP} 2016'),
+  author('Hoa Trang Dang'),
+  article('Text Analytics Conference', 2016),
+  url('https://tac.nist.gov/2016/KBP/ColdStart/guidelines/TAC_KBP_2016_ColdStartTaskDescription_1.0.pdf'),
+nil)
+
+entry!('ellis2016overview',
+  title('Overview of linguistic resources for the {TAC} {KBP} 2016 evaluations: Methodologies and results'),
+  author('Joe Ellis and Jeremy Getman and Dana Fore and Neil Kuster and Zhiyi Song and Ann Bies and Stephanie Strassel'),
+  article('Text Analytics Conference', 2016),
+nil)

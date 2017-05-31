@@ -10030,6 +10030,7 @@ entry!('narayanan1997knowledge',
   phdthesis('University of California Berkeley at Berkeley', 1997),
 nil)
 
+
 entry!('lakoff2008metaphors',
   title('Metaphors we live by'),
   author('George Lakoff and Mark Johnson'),
@@ -11297,22 +11298,22 @@ nil)
 entry!('koh2017understanding',
   author('Pang Wei Koh and Percy Liang'),
   title('Understanding Black-box Predictions via Influence Functions'),
-  arxiv(2017, '1703.04730'),
+  icml(2017),
   url('http://arxiv.org/pdf/1703.04730.pdf'),
-nil)
-
-entry!('zhang2017hitting',
-  author('Yuchen Zhang and Percy Liang and Moses Charikar'),
-  title('A Hitting Time Analysis of Stochastic Gradient Langevin Dynamics'),
-  arxiv(2017, '1702.05575'),
-  url('http://arxiv.org/pdf/1702.05575.pdf'),
 nil)
 
 entry!('zhang2017convexified',
   author('Yuchen Zhang and Percy Liang and Martin J. Wainwright'),
   title('Convexified Convolutional Neural Networks'),
-  arxiv(2017, '1609.01000'),
+  icml(2017),
   url('http://arxiv.org/pdf/1609.01000.pdf'),
+nil)
+
+entry!('zhang2017hitting',
+  author('Yuchen Zhang and Percy Liang and Moses Charikar'),
+  title('A Hitting Time Analysis of Stochastic Gradient Langevin Dynamics'),
+  colt(2017),
+  url('http://arxiv.org/pdf/1702.05575.pdf'),
 nil)
 
 entry!('kakade2017prediction',
@@ -11352,4 +11353,290 @@ entry!('guu2017bridging',
 	acl(2017),
   url('https://arxiv.org/pdf/1704.07926.pdf'),
   codalab('0x88c914ee1d4b4a4587a07f36f090f3e5'),
+nil)
+
+entry!('newell2014practicality',
+  title('On the practicality of integrity attacks on document-level sentiment analysis'),
+  author('Andrew Newell and Rahul Potharaju and Luojie Xiang and Cristina Nita-Rotaru'),
+  inproceedings('Workshop on Artificial Intelligence and Security (AISec)', 2014),
+  pages(83,93),
+)
+
+entry!('biggio2014security',
+  title('Security evaluation of pattern classifiers under attack'),
+  author('Battista Biggio and Giorgio Fumera and Fabio Roli'),
+  article('Knowledge and Data Engineering, IEEE Transactions on', 2014, 26),
+  number(4), pages(984, 996),
+nil)
+
+entry!('laishram2016curie',
+  title('Curie: A method for protecting {SVM} Classifier from Poisoning Attack'),
+  author('Ricky Laishram and Vir Virander Phoha'),
+  arxiv(2016),
+nil)
+
+entry!('barreno2010security',
+  title('The security of machine learning'),
+  author('Marco Barreno and Blaine Nelson and Anthony D. Joseph and J. D. Tygar'),
+  article('Machine Learning', 2010, 81), number(2), 
+  pages(121,148),
+  publisher('Springer'),
+nil)
+
+entry!('park2017resilient',
+  title('Resilient linear classification: an approach to deal with attacks on training data'),
+  author('Sangdon Park and James Weimer and Insup Lee'),
+  inproceedings('International Conference on Cyber-Physical Systems', 2017),
+  pages(155,164),
+nil)
+
+entry!('liu2016teaching',
+  author('Ji Liu and Xiaojin Zhu'),
+  title('The Teaching Dimension of Linear Learners'),
+  jmlr(2016, 17),
+  number(162),
+nil)
+
+entry!('cretu2008casting',
+  title('Casting out demons: Sanitizing training data for anomaly sensors'),
+  author('Gabriela F. Cretu and Angelos Stavrou and Michael E. Locasto and Salvatore J. Stolfo and Angelos D. Keromytis'),
+  inproceedings('IEEE Symposium on Security and Privacy', 2008),
+  pages(81, 95),
+nil)
+
+entry!('papernot2016towards',
+  title('Towards the Science of Security and Privacy in Machine Learning'),
+  author('Nicolas Papernot and Patrick McDaniel and Arunesh Sinha and Michael Wellman'),
+  arxiv(2016),
+nil)
+
+entry!('gardiner2016security',
+  title('On the Security of Machine Learning in Malware C\&C Detection: A Survey'),
+  author('Joseph Gardiner and Shishir Nagaraja'),
+  article('ACM Computing Surveys (CSUR)', 2016, 49),
+  number(3),
+nil)
+
+entry!('carlini2016hidden',
+  title('Hidden voice commands'),
+  author('Nicholas Carlini and Pratyush Mishra and Tavish Vaidya and Yuankai Zhang and Micah Sherr and Clay Shields and David Wagner and Wenchao Zhou'),
+  inproceedings('USENIX Security', 2016),
+nil)
+
+entry!('kurakin2016adversarial',
+  title('Adversarial examples in the physical world'),
+  author('Alexey Kurakin and Ian Goodfellow and Samy Bengio'),
+  arxiv(2016),
+nil)
+
+entry!('papernot2016transferability',
+  title('Transferability in machine learning: from phenomena to black-box attacks using adversarial samples'),
+  author('Nicolas Papernot and Patrick McDaniel and Ian Goodfellow'),
+  arxiv(2016),
+nil)
+
+entry!('xiao2012adversarial',
+ author('Han Xiao and Huang Xiao and Claudia Eckert'),
+ title('Adversarial Label Flips Attack on Support Vector Machines'),
+ inproceedings('European Conference on Artificial Intelligence', 2012),
+nil)
+
+entry!('xiao2015contamination',
+  title('Support vector machines under adversarial label contamination'),
+  article('Neurocomputing', 2015, 160),
+  pages(53,62),
+  author('Huang Xiao and Battista Biggio and Blaine Nelson and Han Xiao and Claudia Eckert and Fabio Roli'),
+nil)
+
+entry!('li2016data',
+  title('Data Poisoning Attacks on Factorization-Based Collaborative Filtering'),
+  author('Bo Li and Yining Wang and Aarti Singh and Yevgeniy Vorobeychik'),
+  nips(2016),
+nil)
+
+entry!('biggio2014securitysvm',
+  title('Security evaluation of support vector machines in adversarial environments'),
+  author('Battista Biggio and Igino Corona and Blaine Nelson and Benjamin Rubinstein and Davide Maiorca and Giorgio Fumera and Giorgio Giacinto and Fabio Roli'),
+  inproceedings('Support Vector Machines Applications', 2014),
+nil)
+
+entry!('biggio2014malware',
+  title('Poisoning behavioral malware clustering'),
+  author('Battista Biggio and Konrad Rieck and Davide Ariu and Christian Wressnegger and Igino Corona and Giorgio Giacinto and Fabio Roli'),
+  inproceedings('Workshop on Artificial Intelligence and Security (AISec)', 2014),
+nil)
+
+entry!('biggio2013clustering',
+  title('Is data clustering in adversarial settings secure?'),
+  author('Battista Biggio and Ignazio Pillai and Samuel Rota Bul{\\`o} and Davide Ariu and Marcello Pelillo and Fabio Roli'),
+  inproceedings('Workshop on Artificial Intelligence and Security AISec)', 2013),
+nil)
+
+entry!('biggio2014linkage',
+  author('Battista Biggio and Bul{\\`o}, Samuel Rota and Pillai, Ignazio and Mura, Michele and Mequanint, Eyasu Zemene and Pelillo, Marcello and Roli, Fabio'),
+  title('Poisoning Complete-Linkage Hierarchical Clustering'),
+  inproceedings('Workshop on Structural, Syntactic, and Statistical Pattern Recognition', 2014),
+nil)
+
+entry!('yang2017generative',
+  title('Generative Poisoning Attack Method Against Neural Networks'),
+  author('Chaofei Yang and Qing Wu and Hai Li and Yiran Chen'),
+  arxiv(2017),
+nil)
+
+entry!('laskov2014practical',
+  title('Practical evasion of a learning-based classifier: A case study'),
+  author('Pavel Laskov and Nedim \\v{S}rndi{\\`c}'),
+  inproceedings('Symposium on Security and Privacy', 2014),
+nil)
+
+entry!('xiao2015lasso',
+  title('Is Feature Selection Secure against Training Data Poisoning?'),
+  author('Huang Xiao and Battista Biggio and Gavin Brown and Giorgio Fumera and Claudia Eckert and Fabio Roli'),
+  icml(2015),
+nil)
+
+entry!('burkard2017analysis',
+  title('Analysis of Causative Attacks against {SVM}s Learning from Data Streams'),
+  author('Cody Burkard and Brent Lagesse'),
+  inproceedings('International Workshop on Security And Privacy Analytics', 2017),
+nil)
+
+entry!('wang2016combating',
+  title('Combating Attacks and Abuse in Large Online Communities'),
+  author('Gang Wang'),
+  phdthesis('University of California Santa Barbara', 2016),
+nil)
+
+entry!('zhou2016modeling',
+  title('Modeling Adversarial Learning as Nested {S}tackelberg Games'),
+  author('Yan Zhou and Murat Kantarcioglu'),
+  inproceedings('Pacific-Asia Conference on Knowledge Discovery and Data Mining', 2016),
+nil)
+
+entry!('bruckner2011stackelberg',
+  title('{S}tackelberg games for adversarial prediction problems'),
+  author('Michael Br{\\"u}ckner and Tobias Scheffer'),
+  inproceedings('SIGKDD', 2011), pages(547, 555),
+nil)
+
+entry!('bruckner2012static',
+  title('Static prediction games for adversarial learning problems'),
+  author('Michael Br{\\"u}ckner and Christian Kanzow and Tobias Scheffer'),
+  jmlr(2012, 13),
+  pages(2617,2654),
+nil)
+
+entry!('klivans2009learning',
+  title('Learning halfspaces with malicious noise'),
+  author('Adam R. Klivans and Philip M. Long and Rocco A. Servedio'),
+  jmlr(2009, 10), pages(2715,2740),
+nil)
+
+entry!('awasthi2014power',
+  title('The power of localization for efficiently learning linear separators with noise'),
+  author('Pranjal Awasthi and Maria Florina Balcan and Philip M. Long'),
+  stoc(2014), pages(449, 458),
+nil)
+
+
+entry!('nguyen2013exact',
+  title('Exact Recoverability From Dense Corrupted Observations via $\\ell_1$-Minimization'),
+  author('Nam H. Nguyen and Trac D. Tran'),
+  article('IEEE Transactions on Information Theory', 2013, 59),
+  number(4), pages(2017, 2035),
+nil)
+
+entry!('nasrabadi2011robust',
+  title('Robust lasso with missing and grossly corrupted observations'),
+  author('Nasser M. Nasrabadi and Trac D. Tran and Nam Nguyen'),
+  nips(2011),
+nil)
+
+entry!('newsome2006paragraph',
+  title('Paragraph: Thwarting signature learning by training maliciously'),
+  author('James Newsome and Brad Karp and Dawn Song'),
+  inproceedings('International Workshop on Recent Advances in Intrusion Detection', 2006),
+nil)
+
+entry!('rubinstein2009antidote',
+  title('Antidote: Understanding and defending against poisoning of anomaly detectors'),
+  author('Benjamin Rubinstein and Blaine Nelson and Ling Huang and Anthony D. Joseph and Shing-Hon Lau and Satish Rao and Nina Taft and JD Tygar'),
+  inproceedings('ACM SIGCOMM Conference on Internet measurement conference', 2009),
+nil)
+
+entry!('mozaffari2015systematic',
+  title('Systematic poisoning attacks on and defenses for machine learning in healthcare'),
+  author('Mehran Mozaffari-Kermani and Susmita Sur-Kolay and Anand Raghunathan and Niraj K. Jha'),
+  article('IEEE Journal of Biomedical and Health Informatics', 2015, 19),
+  number(6), pages(1893, 1905),
+nil)
+
+entry!('bard1999',
+  title('Practical Bilevel Optimization: Algorithms and Applications'),
+  author('Jonathan F. Bard'),
+  book('Springer', 1999),
+nil)
+
+entry!('huang2017adversarial',
+  title('Adversarial attacks on neural network policies'),
+  author('Sandy Huang and Nicolas Papernot and Ian Goodfellow and Yan Duan and Pieter Abbeel'),
+  arxiv(2017),
+nil)
+
+entry!('lin2017tactics',
+  title('Tactics of Adversarial Attack on Deep Reinforcement Learning Agents'),
+  author('Yen-Chen Lin and Zhang-Wei Hong and Yuan-Hong Liao and Meng-Li Shih and Ming-Yu Liu and Min Sun'),
+  arxiv(2017),
+nil)
+
+entry!('behzadan2017vulnerability',
+  title('Vulnerability of Deep Reinforcement Learning to Policy Induction Attacks'),
+  author('Vahid Behzadan and Arslan Munir'),
+  arxiv(2017),
+nil)
+
+entry!('kakade2009complexity',
+  title('On the complexity of linear prediction: Risk bounds, margin bounds, and regularization'),
+  author('Sham M. Kakade and Karthik Sridharan and Ambuj Tewari'),
+  nips(2009),
+nil)
+
+entry!('xiao2010rda',
+  title('Dual Averaging Methods for Regularized Stochastic Learning and Online Optimization'),
+  author('Lin Xiao'),
+  jmlr(2010, 11), pages(2543,2596),
+nil)
+
+entry!('maas2011imdb',
+  author('Andrew L. Maas and Raymond E. Daly and Peter T. Pham and Dan Huang and Andrew Y. Ng and Christopher Potts'),
+  title('Learning Word Vectors for Sentiment Analysis'),
+  acl(2011),
+nil)
+
+entry!('gurobi2016',
+   author('Gurobi Optimization, Inc.'),
+   title('Gurobi Optimizer Reference Manual'),
+   year(2016),
+   type('misc'),
+nil)
+
+entry!('metsis2006spam',
+  author('Vangelis Metsis and Ion Androutsopoulos and Georgios Paliouras'),
+  title('Spam Filtering with Naive {B}ayes -- Which Naive {B}ayes?'),
+  inproceedings('CEAS', 2006),
+  volume(17),
+  pages(28, 69),
+nil)
+
+entry!('tramer2016stealing',
+  title('Stealing machine learning models via prediction {API}s'),
+  author('Florian Tram{\\`e}r and Fan Zhang and Ari Juels and Michael K. Reiter and Thomas Ristenpart'),
+  inproceedings('USENIX Security', 2016),
+nil)
+
+entry!('kerckhoffs1883security',
+  author('Auguste Kerckhoffs'),
+  title('La cryptographie militaire'),
+  article('Journal des sciences militaires', 1883, 9),
 nil)
