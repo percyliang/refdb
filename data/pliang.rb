@@ -11615,7 +11615,7 @@ entry!('maas2011imdb',
 nil)
 
 entry!('gurobi2016',
-   author('Gurobi Optimization, Inc.'),
+   author('{{Gurobi {Optimization}, Inc.}}'),
    title('Gurobi Optimizer Reference Manual'),
    year(2016),
    type('misc'),
@@ -11651,4 +11651,17 @@ entry!('mahendran2015understanding',
   title('Understanding deep image representations by inverting them'),
   author('Aravindh Mahendran and Andrea Vedaldi'),
   cvpr(2015),
+nil)
+
+entry!('lofberg2004',
+  author('Johan L{\"{o}}fberg'),
+  inproceedings('CACSD', 2004),
+  title('{YALMIP}: A Toolbox for Modeling and Optimization in {MATLAB}'),
+nil)
+
+entry!('sturm1999guide',
+  author('Jos F. Sturm'),
+  title('Using {SeDuMi} 1.02, a {MATLAB} toolbox for optimization over symmetric cones'),
+  article('Optimization Methods and Software', 1999, 11),
+  pages(625,653),
 nil)
