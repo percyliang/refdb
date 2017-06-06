@@ -11644,3 +11644,15 @@ entry!('kerckhoffs1883security',
   title('La cryptographie militaire'),
   article('Journal des sciences militaires', 1883, 9),
 nil)
+
+entry!('dosovitskiy2016inverting',
+  title('Inverting visual representations with convolutional networks'),
+  author('Alexey Dosovitskiy and Thomas Brox'),
+  cvpr(2016),
+nil)
+
+entry!('mahendran2015understanding',
+  title('Understanding deep image representations by inverting them'),
+  author('Aravindh Mahendran and Andrea Vedaldi'),
+  cvpr(2015),
+nil)
