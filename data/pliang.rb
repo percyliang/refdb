@@ -11448,12 +11448,6 @@ entry!('xiao2015contamination',
   author('Huang Xiao and Battista Biggio and Blaine Nelson and Han Xiao and Claudia Eckert and Fabio Roli'),
 nil)
 
-entry!('mei2015lda',
-  title('The Security of Latent {D}irichlet Allocation'),
-  author('Shike Mei and Xiaojin Zhu'),
-  aistats(2015),
-nil)
-
 entry!('li2016data',
   title('Data Poisoning Attacks on Factorization-Based Collaborative Filtering'),
   author('Bo Li and Yining Wang and Aarti Singh and Yevgeniy Vorobeychik'),
@@ -11521,7 +11515,7 @@ entry!('zhou2016modeling',
 nil)
 
 entry!('bruckner2011stackelberg',
-  title('Stackelberg games for adversarial prediction problems'),
+  title('{S}tackelberg games for adversarial prediction problems'),
   author('Michael Br{\\"u}ckner and Tobias Scheffer'),
   inproceedings('SIGKDD', 2011), pages(547, 555),
 nil)
@@ -11631,6 +11625,8 @@ entry!('metsis2006spam',
   author('Vangelis Metsis and Ion Androutsopoulos and Georgios Paliouras'),
   title('Spam Filtering with Naive {B}ayes -- Which Naive {B}ayes?'),
   inproceedings('CEAS', 2006),
+  volume(17),
+  pages(28, 69),
 nil)
 
 entry!('tramer2016stealing',
