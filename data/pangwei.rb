@@ -366,3 +366,10 @@ entry!('diamond2016cvxpy',
   number(83),
   pages(1, 5),
 nil)
+
+entry!('moosavi2016deepfool',
+  cvpr(2016),
+  title('Deepfool: a simple and accurate method to fool deep neural networks'),
+  author('Seyed-Mohsen Moosavi-Dezfooli and Alhussein Fawzi and Pascal Frossard'),
+  pages(2574, 2582),
+nil)
