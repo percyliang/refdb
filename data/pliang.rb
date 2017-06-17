@@ -5570,6 +5570,7 @@ entry!('steinhardt2014sparse',
   arxiv(2014, '1412.4182'),
   author('Jacob Steinhardt and Stefan Wager and Percy Liang'),
   title('The Statistics of Streaming Sparse Regression'),
+  url('http://arxiv.org/pdf/1412.4182.pdf'),
 nil)
 
 entry!('goldberg2010efficient',
