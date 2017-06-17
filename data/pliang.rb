@@ -11325,7 +11325,7 @@ nil)
 
 entry!('zhang2017hitting',
   author('Yuchen Zhang and Percy Liang and Moses Charikar'),
-  title('A Hitting Time Analysis of Stochastic Gradient Langevin Dynamics'),
+  title('A Hitting Time Analysis of Stochastic Gradient {L}angevin Dynamics'),
   colt(2017),
   url('http://arxiv.org/pdf/1702.05575.pdf'),
   award('Best paper award'),
