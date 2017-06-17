@@ -4621,43 +4621,43 @@ entry!('shivakumar2002modeling',
 nil)
 
 entry!('sacks1958asymptotic',
-	author('Jerome Sacks'),
-	title('Asymptotic Distribution of Stochastic Approximation Procedures'),
-	article('Annals of Mathematical Statistics',1958,29),
-	pages(373,405),
-	number(2),
+  author('Jerome Sacks'),
+  title('Asymptotic Distribution of Stochastic Approximation Procedures'),
+  article('Annals of Mathematical Statistics',1958,29),
+  pages(373,405),
+  number(2),
 nil)
 
 entry!('gladyshev1965stochastic',
-	author('G. E. Gladyshev'),
-	title('On Stochastic Approximation'),
-	article('Theory of Probability and its Applications',1965,10),
-	number(2),
-	pages(275,278),
+  author('G. E. Gladyshev'),
+  title('On Stochastic Approximation'),
+  article('Theory of Probability and its Applications',1965,10),
+  number(2),
+  pages(275,278),
 nil)
 
 entry!('fabian1968asymptotic',
-	author('Václav Fabian'),
-	title('On Aymptotic Normality in Stochastic Approximation'),
-	article('Annals of Mathematical Statistics', 1968, 39),
-	pages(1327,1332),
-	number(4),
+  author('Václav Fabian'),
+  title('On Aymptotic Normality in Stochastic Approximation'),
+  article('Annals of Mathematical Statistics', 1968, 39),
+  pages(1327,1332),
+  number(4),
 nil)
 
 entry!('chung1954stochastic',
-	author('K. L. Chung'),
-	title('On a Stochastic Approximation Method'),
-	article('Annals of Mathematical Statistics',1954,25),
-	number(3),
-	pages(463,483),
+  author('K. L. Chung'),
+  title('On a Stochastic Approximation Method'),
+  article('Annals of Mathematical Statistics',1954,25),
+  number(3),
+  pages(463,483),
 nil)
 
 entry!('blum1954multidimensional',
-	author('Julius R. Blum'),
-	title('Multidimensional Stochastic Approximation Methods'),
-	article('Annals of Mathematical Statistics',1954,25),
-	number(4),
-	pages(737,744),
+  author('Julius R. Blum'),
+  title('Multidimensional Stochastic Approximation Methods'),
+  article('Annals of Mathematical Statistics',1954,25),
+  number(4),
+  pages(737,744),
 nil)
 
 entry!('acar2009unsupervised',
@@ -5192,7 +5192,7 @@ nil)
 
 entry!('wei2009non',
   author('Wei, Lan and Frank, David J and Chang, Leland and Wong, H-SP'),
-	title('A non-iterative compact model for carbon nanotube FETs incorporating source exhaustion effects'),
+  title('A non-iterative compact model for carbon nanotube FETs incorporating source exhaustion effects'),
   inproceedings('IEEE International Electron Devices Meeting',2009),
 nil)
 
@@ -10812,9 +10812,9 @@ entry!('ghosh2011moderates',
 nil)
 
 entry!('chen2016enhancing',
-	title('Enhancing and Combining Sequential and Tree {LSTM} for Natural Language Inference'),
-	author('Chen, Qian and Zhu, Xiaodan and Ling, Zhenhua and Wei, Si and Jiang, Hui'),
-	arxiv(2016),
+  title('Enhancing and Combining Sequential and Tree {LSTM} for Natural Language Inference'),
+  author('Chen, Qian and Zhu, Xiaodan and Ling, Zhenhua and Wei, Si and Jiang, Hui'),
+  arxiv(2016),
 nil)
 
 entry!('zhou2016amr',
@@ -11048,23 +11048,23 @@ entry!('berant2015kb',
 nil)
 
 entry!('liang2017nsm',
-	title('Neural Symbolic Machines: Learning Semantic Parsers on {F}reebase with Weak Supervision'),
-	author('Chen Liang and Jonathan Berant and Quoc Le and Kenneth D. Forbus, Ni Lao'),
+  title('Neural Symbolic Machines: Learning Semantic Parsers on {F}reebase with Weak Supervision'),
+  author('Chen Liang and Jonathan Berant and Quoc Le and Kenneth D. Forbus, Ni Lao'),
   acl(2017),
   url('https://arxiv.org/pdf/1611.00020v3.pdf'),
 nil)
 
 entry!('choi2017heirarchical',
-	title('Hierarchical Question Answering for Long Documents'),
-	author('Eunsol Choi and Daniel Hewlett and Alexandre Lacoste and Illia Polosukhin and Jakob Uszkoreit and Jonathan Berant'),
+  title('Hierarchical Question Answering for Long Documents'),
+  author('Eunsol Choi and Daniel Hewlett and Alexandre Lacoste and Illia Polosukhin and Jakob Uszkoreit and Jonathan Berant'),
   acl(2017),
   url('https://arxiv.org/pdf/1611.01839.pdf'),
 nil)
 
 entry!('atzmon2016compositions',
-	title('Learning to generalize to new compositions in image understanding'),
-	author('Yuval Atzmon and Jonathan Berant and Vahid Kezami and Amir Globerson and Gal Chechik'),
-	arxiv(2016, '1608.07639'),
+  title('Learning to generalize to new compositions in image understanding'),
+  author('Yuval Atzmon and Jonathan Berant and Vahid Kezami and Amir Globerson and Gal Chechik'),
+  arxiv(2016, '1608.07639'),
   url('https://arxiv.org/pdf/1608.07639v1.pdf'),
 nil)
 
@@ -11300,6 +11300,7 @@ entry!('koh2017understanding',
   title('Understanding Black-box Predictions via Influence Functions'),
   icml(2017),
   url('http://arxiv.org/pdf/1703.04730.pdf'),
+  codalab('0x2b314dc3536b482dbba02783a24719fd'),
 nil)
 
 entry!('zhang2017convexified',
@@ -11309,11 +11310,25 @@ entry!('zhang2017convexified',
   url('http://arxiv.org/pdf/1609.01000.pdf'),
 nil)
 
+entry!('selsam2017bugfree',
+  author('Daniel Selsam and Percy Liang and David Dill'),
+  title('Developing Bug-Free Machine Learning Systems With Formal Mathematics'),
+  icml(2017),
+  code('https://github.com/dselsam/certigrad'),
+nil)
+
+entry!('shi2017wob',
+  author('Tianlin Shi and Andrej Karpathy and Linxi Fan and Jonathan Hernandez and Percy Liang'),
+  title('World of Bits: An Open-Domain Platform for Web-Based Agents'),
+  icml(2017),
+nil)
+
 entry!('zhang2017hitting',
   author('Yuchen Zhang and Percy Liang and Moses Charikar'),
   title('A Hitting Time Analysis of Stochastic Gradient Langevin Dynamics'),
   colt(2017),
   url('http://arxiv.org/pdf/1702.05575.pdf'),
+  award('Best paper award'),
 nil)
 
 entry!('kakade2017prediction',
@@ -11326,7 +11341,7 @@ nil)
 entry!('bastani2017synthesizing',
   author('Osbert Bastani and Rahul Sharma and Alex Aiken and Percy Liang'),
   title('Synthesizing Program Input Grammars'),
-	pldi(2017),
+  pldi(2017),
   url('http://arxiv.org/pdf/1608.01723.pdf'),
 nil)
 
@@ -11342,7 +11357,7 @@ nil)
 entry!('he2017symmetric',
   author('He He and Anusha Balakrishnan and Mihail Eric and Percy Liang'),
   title('Learning Symmetric Collaborative Dialogue Agents with Dynamic Knowledge Graph Embeddings'),
-	acl(2017),
+  acl(2017),
   url('https://arxiv.org/pdf/1704.07130.pdf'),
   codalab('0xc757f29f5c794e5eb7bfa8ca9c945573'),
 nil)
@@ -11350,7 +11365,7 @@ nil)
 entry!('guu2017bridging',
   author('Kelvin Guu and Panupong Pasupat and Evan Zheran Liu and Percy Liang'),
   title('From Language to Programs: Bridging Reinforcement Learning and Maximum Marginal Likelihood'),
-	acl(2017),
+  acl(2017),
   url('https://arxiv.org/pdf/1704.07926.pdf'),
   codalab('0x88c914ee1d4b4a4587a07f36f090f3e5'),
 nil)
@@ -11538,7 +11553,6 @@ entry!('awasthi2014power',
   author('Pranjal Awasthi and Maria Florina Balcan and Philip M. Long'),
   stoc(2014), pages(449, 458),
 nil)
-
 
 entry!('nguyen2013exact',
   title('Exact Recoverability From Dense Corrupted Observations via $\\ell_1$-Minimization'),
