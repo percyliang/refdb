@@ -11295,6 +11295,13 @@ nil)
 ############################################################
 # 2017
 
+entry!('steinhardt2017certified',
+  author('Jacob Steinhardt and Pang Wei Koh and Percy Liang'),
+  title('Certified Defenses for Data Poisoning Attacks'),
+  arxiv(2017, '1706.03691'),
+  url('http://arxiv.org/pdf/1706.03691.pdf'),
+nil)
+
 entry!('koh2017understanding',
   author('Pang Wei Koh and Percy Liang'),
   title('Understanding Black-box Predictions via Influence Functions'),
