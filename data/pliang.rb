@@ -11321,6 +11321,7 @@ entry!('selsam2017bugfree',
   author('Daniel Selsam and Percy Liang and David Dill'),
   title('Developing Bug-Free Machine Learning Systems With Formal Mathematics'),
   icml(2017),
+  url('https://arxiv.org/pdf/1706.08605.pdf'),
   code('https://github.com/dselsam/certigrad'),
 nil)
 
