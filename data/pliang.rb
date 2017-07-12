@@ -11295,6 +11295,24 @@ nil)
 ############################################################
 # 2017
 
+entry!('jia2017adversarial',
+  author('Robin Jia and Percy Liang'),
+  title('Adversarial Examples for Evaluating Reading Comprehension Systems'),
+  emnlp(2017),
+nil)
+
+entry!('jia2017adversarial',
+  author('Yuchen Zhang and Panupong Pasupat and Percy Liang'),
+  title('Inducing Macro Grammars for Efficient Semantic Parsing'),
+  emnlp(2017),
+nil)
+
+entry!('jia2017',
+  author('Arun Chaganty and Ashwin Paranjape and Percy Liang and Chris Manning'),
+  title('Importance sampling for unbiased on-demand evaluation of knowledge base population'),
+  emnlp(2017),
+nil)
+
 entry!('steinhardt2017certified',
   author('Jacob Steinhardt and Pang Wei Koh and Percy Liang'),
   title('Certified Defenses for Data Poisoning Attacks'),
