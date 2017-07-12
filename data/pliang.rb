@@ -11301,13 +11301,13 @@ entry!('jia2017adversarial',
   emnlp(2017),
 nil)
 
-entry!('jia2017adversarial',
+entry!('zhang2017macro',
   author('Yuchen Zhang and Panupong Pasupat and Percy Liang'),
   title('Inducing Macro Grammars for Efficient Semantic Parsing'),
   emnlp(2017),
 nil)
 
-entry!('jia2017',
+entry!('chaganty2017unbiased',
   author('Arun Chaganty and Ashwin Paranjape and Percy Liang and Chris Manning'),
   title('Importance sampling for unbiased on-demand evaluation of knowledge base population'),
   emnlp(2017),
