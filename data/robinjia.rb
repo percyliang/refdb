@@ -136,3 +136,41 @@ entry!('moosavidezfooli2017universal',
   title('Universal adversarial perturbations'),
   cvpr(2017),
 nil)
+
+entry!('shen2017reasonet',
+  author('Yelong Shen and Po-Sen Huang and Jianfeng Gao and Weizhu Chen'),
+  title('ReasoNet: Learning to Stop Reading in Machine Comprehension'),
+  kdd(2017),
+nil)
+
+entry!('hu2017mnemonic',
+  author('Minghao Hu and Yuxing Peng and Xipeng Qiu'),
+  title('Mnemonic Reader for Machine Comprehension'),
+  arxiv(2017),
+nil)
+
+entry!('liu2017sect',
+  author('Rui Liu and Junjie Hu and Wei Wei and Zi Yang and Eric Nyberg'),
+  title('Structural Embedding of Syntactic Trees for Machine Comprehension'),
+  arxiv(2017),
+nil)
+
+entry!('gong2017ruminating',
+  author('Yichen Gong and Samuel R. Bowman'),
+  title('Ruminating Reader: Reasoning with Gated Multi-Hop Attention'),
+  arxiv(2017),
+nil)
+
+entry!('yu2016dcr',
+  author('Yang Yu and Wei Zhang and Kazi Hasan and Mo Yu and Bing Xiang and Bowen Zhou'),
+  title('End-to-End Answer Chunk Extraction and Ranking for Reading Comprehension'),
+  arxiv(2016),
+nil)
+
+
+
+
+
+
+
+
