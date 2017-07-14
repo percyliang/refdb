@@ -167,7 +167,11 @@ entry!('yu2016dcr',
   arxiv(2016),
 nil)
 
-
+entry!('weissenborn2017fastqa',
+  author('Dirk Weissenborn and Georg Wiese and Laura Seiffe'),
+  title('Making Neural {QA} as Simple as Possible but not Simpler'),
+  arxiv(2017),
+nil)
 
 
 
