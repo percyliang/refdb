@@ -121,6 +121,7 @@ entry!('lee2017rasor',
   author('Kenton Lee and Shimi Salant and Tom Kwiatkowski and Ankur Parikh and Dipanjan Das and Jonathan Berant'),
   title('Learning Recurrent Span Representations for Extractive Question Answering'),
   arxiv(2017),
+  url('https://arxiv.org/pdf/1611.01436.pdf'),
 nil)
 
 entry!('bender2017buildit',
