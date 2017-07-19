@@ -251,7 +251,7 @@ nil)
 
 entry!('weizenbaum1966eliza',
   article('Communications of the ACM', 1966, 9),
-  title('ELIZA—a computer program for the study of natural language communication between man and machine'),
+  title('{ELIZA}--a computer program for the study of natural language communication between man and machine'),
   author('Joseph Weizenbaum'),
   number(1),
   pages(36, 45),

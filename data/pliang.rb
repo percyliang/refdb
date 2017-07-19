@@ -11295,6 +11295,24 @@ nil)
 ############################################################
 # 2017
 
+entry!('jia2017adversarial',
+  author('Robin Jia and Percy Liang'),
+  title('Adversarial Examples for Evaluating Reading Comprehension Systems'),
+  emnlp(2017),
+nil)
+
+entry!('zhang2017macro',
+  author('Yuchen Zhang and Panupong Pasupat and Percy Liang'),
+  title('Inducing Macro Grammars for Efficient Semantic Parsing'),
+  emnlp(2017),
+nil)
+
+entry!('chaganty2017unbiased',
+  author('Arun Chaganty and Ashwin Paranjape and Percy Liang and Chris Manning'),
+  title('Importance sampling for unbiased on-demand evaluation of knowledge base population'),
+  emnlp(2017),
+nil)
+
 entry!('steinhardt2017certified',
   author('Jacob Steinhardt and Pang Wei Koh and Percy Liang'),
   title('Certified Defenses for Data Poisoning Attacks'),
@@ -11321,6 +11339,7 @@ entry!('selsam2017bugfree',
   author('Daniel Selsam and Percy Liang and David Dill'),
   title('Developing Bug-Free Machine Learning Systems With Formal Mathematics'),
   icml(2017),
+  url('https://arxiv.org/pdf/1706.08605.pdf'),
   code('https://github.com/dselsam/certigrad'),
 nil)
 
