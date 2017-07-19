@@ -5,6 +5,7 @@ entry!('herzig2017multi',
   author('Jonathan Herzig and Jonathan Berant'),
   acl(2017),
   url('https://arxiv.org/pdf/1702.01569.pdf'),
+  codalab('0xdec998f58deb4829aba80fbf49f69236'),
 nil)
 
 entry!('bao2016constraint',
@@ -34,6 +35,14 @@ nil)
 entry!('press2017language',
   author('Ofir Press and Amir Bar and Ben Bogin and Jonathan Berant and Lior Wolf'),
   title('Language Generation with Recurrent Generative Adversarial Networks without Pre-training'),
-  arxiv(2017, '1706.01399'),
+  inproceedings('Fist Workshop on Learning to Generate Natural Language@ICML',2017),
   url('https://arxiv.org/pdf/1706.01399.pdf'),
+nil)
+
+entry!('talmor2017evaluating',
+  author('Alon Talmor and Mor Geva and Jonathan Berant'),
+  title('Evaluating Semantic Parsing against a Simple Web-based Question Answering Model'),
+  inproceedings('*SEM', 2017),
+  url('https://arxiv.org/abs/1707.04412.pdf'),
+  codalab('0x91d77db37e0a4bbbaeb37b8972f4784f'),
 nil)
