@@ -86,7 +86,7 @@ entry!('pavlick2016gun',
   emnlp(2016),
 nil)
 
-entry!('weber2010measurement',
+entry!('webber2010measurement',
   author('William Edward Webber'),
   title('Measurement in Information Retrieval Evaluation'),
   phdthesis('University of Melbourne', 2010),
