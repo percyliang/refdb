@@ -11299,12 +11299,16 @@ entry!('jia2017adversarial',
   author('Robin Jia and Percy Liang'),
   title('Adversarial Examples for Evaluating Reading Comprehension Systems'),
   emnlp(2017),
+  codalab('0xc86d3ebe69a3427d91f9aaa63f7d1e7d'),
+  url('http://arxiv.org/pdf/1707.07328.pdf'),
 nil)
 
 entry!('zhang2017macro',
   author('Yuchen Zhang and Panupong Pasupat and Percy Liang'),
-  title('Inducing Macro Grammars for Efficient Semantic Parsing'),
+  title('Macro Grammars and Holistic Triggering for Efficient Semantic Parsing'),
   emnlp(2017),
+  codalab('0x4d6dbfc5ec7f44a6a4da4ca2a9334d6e'),
+  url('https://zhangyuc.github.io/files/zhang17emnlp.pdf'),
 nil)
 
 entry!('chaganty2017unbiased',
