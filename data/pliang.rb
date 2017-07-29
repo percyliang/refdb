@@ -11351,6 +11351,7 @@ entry!('shi2017wob',
   author('Tianlin Shi and Andrej Karpathy and Linxi Fan and Jonathan Hernandez and Percy Liang'),
   title('World of Bits: An Open-Domain Platform for Web-Based Agents'),
   icml(2017),
+  url('http://proceedings.mlr.press/v70/shi17a/shi17a.pdf'),
 nil)
 
 entry!('zhang2017hitting',
