@@ -28,7 +28,7 @@ def read_url(url):
     return data
 
 def read_url_lines(url):
-    return read_url(url).strip().split('\n') 
+    return read_url(url).strip().split('\n')
 
 def unquote(s):
     while True:
@@ -66,6 +66,9 @@ def inspect_link(url):
         venue = 'arxiv'
         number = m.group(1)
     m = re.search(r'jmlr.org\/.*\.pdf', url)
+    if m:
+        url = url.replace('.pdf', '.html')
+    m = re.search(r'mlr.press\/.*\.pdf', url)
     if m:
         url = url.replace('.pdf', '.html')
     m = re.search('papers.nips.cc\/.*\.pdf', url)
