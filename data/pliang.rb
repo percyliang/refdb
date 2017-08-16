@@ -11327,6 +11327,7 @@ nil)
 entry!('koh2017understanding',
   author('Pang Wei Koh and Percy Liang'),
   title('Understanding Black-box Predictions via Influence Functions'),
+  award('Best paper award'),
   icml(2017),
   url('http://arxiv.org/pdf/1703.04730.pdf'),
   codalab('0x2b314dc3536b482dbba02783a24719fd'),
