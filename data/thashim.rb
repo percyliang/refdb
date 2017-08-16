@@ -52,3 +52,25 @@ entry!('agirre2014semeval',
        coling(2014),
        pages(81,91),
        nil)
+
+entry!('song2016retrieval',
+       author('Yiping Song and Rui Yan and Xiang Li and Dongyan Zhao and Ming Zhang'),
+       title('Two are Better than One: An Ensemble of Retrieval- and Generation-Based Dialog Systems'),
+       arxiv(2016,'1610.07149'),
+       nil)
+
+entry!('hu2017toward',
+       author('Zhiting Hu and Zichao Yang and Xiaodan Liang and Ruslan Salakhutdinov and Eric P Xing'),
+       title('Toward Controlled Generation of Text'),
+       icml(2017),
+       year(2017),
+       nil)
+
+entry!('ficler2017controlling',
+       author('Jessica Ficler and Yoav Goldberg'),
+       title('Controlling Linguistic Style Aspects in Natural Language Generation'),
+       arxiv(2017,'1707.02633'),
+       nil)
+
+
+
