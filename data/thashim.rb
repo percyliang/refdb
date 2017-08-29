@@ -71,5 +71,17 @@ entry!('ficler2017controlling',
        arxiv(2017,'1707.02633'),
        nil)
 
+entry!('tenenbaum2000global',
+       author('Joshua B Tenenbaum and Vin De Silva and John C Langford'),
+       title('A Global Geometric Framework for Nonlinear Dimensionality Reduction'),
+       article('Science', 2000),
+       pages(2319, 2323),
+       nil)
 
-
+entry!('hashimoto2016word',
+       author('Tatsunori B Hashimoto and David Alvarez-Melis and Tommi S Jaakkola'),
+       title('Test'),
+       tacl(2016, 4),
+       pages(273, 286),
+       nil)
+       
