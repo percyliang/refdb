@@ -4621,43 +4621,43 @@ entry!('shivakumar2002modeling',
 nil)
 
 entry!('sacks1958asymptotic',
-	author('Jerome Sacks'),
-	title('Asymptotic Distribution of Stochastic Approximation Procedures'),
-	article('Annals of Mathematical Statistics',1958,29),
-	pages(373,405),
-	number(2),
+  author('Jerome Sacks'),
+  title('Asymptotic Distribution of Stochastic Approximation Procedures'),
+  article('Annals of Mathematical Statistics',1958,29),
+  pages(373,405),
+  number(2),
 nil)
 
 entry!('gladyshev1965stochastic',
-	author('G. E. Gladyshev'),
-	title('On Stochastic Approximation'),
-	article('Theory of Probability and its Applications',1965,10),
-	number(2),
-	pages(275,278),
+  author('G. E. Gladyshev'),
+  title('On Stochastic Approximation'),
+  article('Theory of Probability and its Applications',1965,10),
+  number(2),
+  pages(275,278),
 nil)
 
 entry!('fabian1968asymptotic',
-	author('Václav Fabian'),
-	title('On Aymptotic Normality in Stochastic Approximation'),
-	article('Annals of Mathematical Statistics', 1968, 39),
-	pages(1327,1332),
-	number(4),
+  author('Václav Fabian'),
+  title('On Aymptotic Normality in Stochastic Approximation'),
+  article('Annals of Mathematical Statistics', 1968, 39),
+  pages(1327,1332),
+  number(4),
 nil)
 
 entry!('chung1954stochastic',
-	author('K. L. Chung'),
-	title('On a Stochastic Approximation Method'),
-	article('Annals of Mathematical Statistics',1954,25),
-	number(3),
-	pages(463,483),
+  author('K. L. Chung'),
+  title('On a Stochastic Approximation Method'),
+  article('Annals of Mathematical Statistics',1954,25),
+  number(3),
+  pages(463,483),
 nil)
 
 entry!('blum1954multidimensional',
-	author('Julius R. Blum'),
-	title('Multidimensional Stochastic Approximation Methods'),
-	article('Annals of Mathematical Statistics',1954,25),
-	number(4),
-	pages(737,744),
+  author('Julius R. Blum'),
+  title('Multidimensional Stochastic Approximation Methods'),
+  article('Annals of Mathematical Statistics',1954,25),
+  number(4),
+  pages(737,744),
 nil)
 
 entry!('acar2009unsupervised',
@@ -5192,7 +5192,7 @@ nil)
 
 entry!('wei2009non',
   author('Wei, Lan and Frank, David J and Chang, Leland and Wong, H-SP'),
-	title('A non-iterative compact model for carbon nanotube FETs incorporating source exhaustion effects'),
+  title('A non-iterative compact model for carbon nanotube FETs incorporating source exhaustion effects'),
   inproceedings('IEEE International Electron Devices Meeting',2009),
 nil)
 
@@ -5567,7 +5567,7 @@ entry!('liang2015semantics',
 nil)
 
 entry!('steinhardt2014sparse',
-  arxiv(2014),
+  arxiv(2014, '1412.4182'),
   author('Jacob Steinhardt and Stefan Wager and Percy Liang'),
   title('The Statistics of Streaming Sparse Regression'),
   url('http://arxiv.org/pdf/1412.4182.pdf'),
@@ -10030,6 +10030,7 @@ entry!('narayanan1997knowledge',
   phdthesis('University of California Berkeley at Berkeley', 1997),
 nil)
 
+
 entry!('lakoff2008metaphors',
   title('Metaphors we live by'),
   author('George Lakoff and Mark Johnson'),
@@ -10811,9 +10812,9 @@ entry!('ghosh2011moderates',
 nil)
 
 entry!('chen2016enhancing',
-	title('Enhancing and Combining Sequential and Tree {LSTM} for Natural Language Inference'),
-	author('Chen, Qian and Zhu, Xiaodan and Ling, Zhenhua and Wei, Si and Jiang, Hui'),
-	arxiv(2016),
+  title('Enhancing and Combining Sequential and Tree {LSTM} for Natural Language Inference'),
+  author('Chen, Qian and Zhu, Xiaodan and Ling, Zhenhua and Wei, Si and Jiang, Hui'),
+  arxiv(2016),
 nil)
 
 entry!('zhou2016amr',
@@ -11047,23 +11048,23 @@ entry!('berant2015kb',
 nil)
 
 entry!('liang2017nsm',
-	title('Neural Symbolic Machines: Learning Semantic Parsers on {F}reebase with Weak Supervision'),
-	author('Chen Liang and Jonathan Berant and Quoc Le and Kenneth D. Forbus, Ni Lao'),
+  title('Neural Symbolic Machines: Learning Semantic Parsers on {F}reebase with Weak Supervision'),
+  author('Chen Liang and Jonathan Berant and Quoc Le and Kenneth D. Forbus, Ni Lao'),
   acl(2017),
   url('https://arxiv.org/pdf/1611.00020v3.pdf'),
 nil)
 
 entry!('choi2017heirarchical',
-	title('Hierarchical Question Answering for Long Documents'),
-	author('Eunsol Choi and Daniel Hewlett and Alexandre Lacoste and Illia Polosukhin and Jakob Uszkoreit and Jonathan Berant'),
+  title('Hierarchical Question Answering for Long Documents'),
+  author('Eunsol Choi and Daniel Hewlett and Alexandre Lacoste and Illia Polosukhin and Jakob Uszkoreit and Jonathan Berant'),
   acl(2017),
   url('https://arxiv.org/pdf/1611.01839.pdf'),
 nil)
 
 entry!('atzmon2016compositions',
-	title('Learning to generalize to new compositions in image understanding'),
-	author('Yuval Atzmon and Jonathan Berant and Vahid Kezami and Amir Globerson and Gal Chechik'),
-	arxiv(2016, '1608.07639'),
+  title('Learning to generalize to new compositions in image understanding'),
+  author('Yuval Atzmon and Jonathan Berant and Vahid Kezami and Amir Globerson and Gal Chechik'),
+  arxiv(2016, '1608.07639'),
   url('https://arxiv.org/pdf/1608.07639v1.pdf'),
 nil)
 
@@ -11294,11 +11295,42 @@ nil)
 ############################################################
 # 2017
 
+entry!('jia2017adversarial',
+  author('Robin Jia and Percy Liang'),
+  title('Adversarial Examples for Evaluating Reading Comprehension Systems'),
+  emnlp(2017),
+  codalab('0xc86d3ebe69a3427d91f9aaa63f7d1e7d'),
+  url('http://arxiv.org/pdf/1707.07328.pdf'),
+nil)
+
+entry!('zhang2017macro',
+  author('Yuchen Zhang and Panupong Pasupat and Percy Liang'),
+  title('Macro Grammars and Holistic Triggering for Efficient Semantic Parsing'),
+  emnlp(2017),
+  codalab('0x4d6dbfc5ec7f44a6a4da4ca2a9334d6e'),
+  url('https://zhangyuc.github.io/files/zhang17emnlp.pdf'),
+nil)
+
+entry!('chaganty2017unbiased',
+  author('Arun Chaganty and Ashwin Paranjape and Percy Liang and Chris Manning'),
+  title('Importance sampling for unbiased on-demand evaluation of knowledge base population'),
+  emnlp(2017),
+nil)
+
+entry!('steinhardt2017certified',
+  author('Jacob Steinhardt and Pang Wei Koh and Percy Liang'),
+  title('Certified Defenses for Data Poisoning Attacks'),
+  arxiv(2017, '1706.03691'),
+  url('http://arxiv.org/pdf/1706.03691.pdf'),
+nil)
+
 entry!('koh2017understanding',
   author('Pang Wei Koh and Percy Liang'),
   title('Understanding Black-box Predictions via Influence Functions'),
+  award('Best paper award'),
   icml(2017),
   url('http://arxiv.org/pdf/1703.04730.pdf'),
+  codalab('0x2b314dc3536b482dbba02783a24719fd'),
 nil)
 
 entry!('zhang2017convexified',
@@ -11308,11 +11340,27 @@ entry!('zhang2017convexified',
   url('http://arxiv.org/pdf/1609.01000.pdf'),
 nil)
 
+entry!('selsam2017bugfree',
+  author('Daniel Selsam and Percy Liang and David Dill'),
+  title('Developing Bug-Free Machine Learning Systems With Formal Mathematics'),
+  icml(2017),
+  url('https://arxiv.org/pdf/1706.08605.pdf'),
+  code('https://github.com/dselsam/certigrad'),
+nil)
+
+entry!('shi2017wob',
+  author('Tianlin Shi and Andrej Karpathy and Linxi Fan and Jonathan Hernandez and Percy Liang'),
+  title('World of Bits: An Open-Domain Platform for Web-Based Agents'),
+  icml(2017),
+  url('http://proceedings.mlr.press/v70/shi17a/shi17a.pdf'),
+nil)
+
 entry!('zhang2017hitting',
   author('Yuchen Zhang and Percy Liang and Moses Charikar'),
-  title('A Hitting Time Analysis of Stochastic Gradient Langevin Dynamics'),
+  title('A Hitting Time Analysis of Stochastic Gradient {L}angevin Dynamics'),
   colt(2017),
   url('http://arxiv.org/pdf/1702.05575.pdf'),
+  award('Best paper award'),
 nil)
 
 entry!('kakade2017prediction',
@@ -11325,7 +11373,7 @@ nil)
 entry!('bastani2017synthesizing',
   author('Osbert Bastani and Rahul Sharma and Alex Aiken and Percy Liang'),
   title('Synthesizing Program Input Grammars'),
-	pldi(2017),
+  pldi(2017),
   url('http://arxiv.org/pdf/1608.01723.pdf'),
 nil)
 
@@ -11341,7 +11389,7 @@ nil)
 entry!('he2017symmetric',
   author('He He and Anusha Balakrishnan and Mihail Eric and Percy Liang'),
   title('Learning Symmetric Collaborative Dialogue Agents with Dynamic Knowledge Graph Embeddings'),
-	acl(2017),
+  acl(2017),
   url('https://arxiv.org/pdf/1704.07130.pdf'),
   codalab('0xc757f29f5c794e5eb7bfa8ca9c945573'),
 nil)
@@ -11349,7 +11397,7 @@ nil)
 entry!('guu2017bridging',
   author('Kelvin Guu and Panupong Pasupat and Evan Zheran Liu and Percy Liang'),
   title('From Language to Programs: Bridging Reinforcement Learning and Maximum Marginal Likelihood'),
-	acl(2017),
+  acl(2017),
   url('https://arxiv.org/pdf/1704.07926.pdf'),
   codalab('0x88c914ee1d4b4a4587a07f36f090f3e5'),
 nil)
@@ -11357,7 +11405,7 @@ nil)
 entry!('newell2014practicality',
   title('On the practicality of integrity attacks on document-level sentiment analysis'),
   author('Andrew Newell and Rahul Potharaju and Luojie Xiang and Cristina Nita-Rotaru'),
-  inproceedings('ACM Workshop on Artificial Intelligence and Security (AISec)', 2014),
+  inproceedings('Workshop on Artificial Intelligence and Security (AISec)', 2014),
   pages(83,93),
 )
 
@@ -11369,7 +11417,297 @@ entry!('biggio2014security',
 nil)
 
 entry!('laishram2016curie',
-  title('Curie: {A} method for protecting {SVM} Classifier from Poisoning Attack'),
+  title('Curie: A method for protecting {SVM} Classifier from Poisoning Attack'),
   author('Ricky Laishram and Vir Virander Phoha'),
   arxiv(2016),
+nil)
+
+entry!('barreno2010security',
+  title('The security of machine learning'),
+  author('Marco Barreno and Blaine Nelson and Anthony D. Joseph and J. D. Tygar'),
+  article('Machine Learning', 2010, 81), number(2), 
+  pages(121,148),
+  publisher('Springer'),
+nil)
+
+entry!('park2017resilient',
+  title('Resilient linear classification: an approach to deal with attacks on training data'),
+  author('Sangdon Park and James Weimer and Insup Lee'),
+  inproceedings('International Conference on Cyber-Physical Systems', 2017),
+  pages(155,164),
+nil)
+
+entry!('liu2016teaching',
+  author('Ji Liu and Xiaojin Zhu'),
+  title('The Teaching Dimension of Linear Learners'),
+  jmlr(2016, 17),
+  number(162),
+nil)
+
+entry!('cretu2008casting',
+  title('Casting out demons: Sanitizing training data for anomaly sensors'),
+  author('Gabriela F. Cretu and Angelos Stavrou and Michael E. Locasto and Salvatore J. Stolfo and Angelos D. Keromytis'),
+  inproceedings('IEEE Symposium on Security and Privacy', 2008),
+  pages(81, 95),
+nil)
+
+entry!('papernot2016towards',
+  title('Towards the Science of Security and Privacy in Machine Learning'),
+  author('Nicolas Papernot and Patrick McDaniel and Arunesh Sinha and Michael Wellman'),
+  arxiv(2016),
+nil)
+
+entry!('gardiner2016security',
+  title('On the Security of Machine Learning in Malware C\&C Detection: A Survey'),
+  author('Joseph Gardiner and Shishir Nagaraja'),
+  article('ACM Computing Surveys (CSUR)', 2016, 49),
+  number(3),
+nil)
+
+entry!('carlini2016hidden',
+  title('Hidden voice commands'),
+  author('Nicholas Carlini and Pratyush Mishra and Tavish Vaidya and Yuankai Zhang and Micah Sherr and Clay Shields and David Wagner and Wenchao Zhou'),
+  inproceedings('USENIX Security', 2016),
+nil)
+
+entry!('kurakin2016adversarial',
+  title('Adversarial examples in the physical world'),
+  author('Alexey Kurakin and Ian Goodfellow and Samy Bengio'),
+  arxiv(2016),
+nil)
+
+entry!('papernot2016transferability',
+  title('Transferability in machine learning: from phenomena to black-box attacks using adversarial samples'),
+  author('Nicolas Papernot and Patrick McDaniel and Ian Goodfellow'),
+  arxiv(2016),
+nil)
+
+entry!('xiao2012adversarial',
+ author('Han Xiao and Huang Xiao and Claudia Eckert'),
+ title('Adversarial Label Flips Attack on Support Vector Machines'),
+ inproceedings('European Conference on Artificial Intelligence', 2012),
+nil)
+
+entry!('xiao2015contamination',
+  title('Support vector machines under adversarial label contamination'),
+  article('Neurocomputing', 2015, 160),
+  pages(53,62),
+  author('Huang Xiao and Battista Biggio and Blaine Nelson and Han Xiao and Claudia Eckert and Fabio Roli'),
+nil)
+
+entry!('li2016data',
+  title('Data Poisoning Attacks on Factorization-Based Collaborative Filtering'),
+  author('Bo Li and Yining Wang and Aarti Singh and Yevgeniy Vorobeychik'),
+  nips(2016),
+nil)
+
+entry!('biggio2014securitysvm',
+  title('Security evaluation of support vector machines in adversarial environments'),
+  author('Battista Biggio and Igino Corona and Blaine Nelson and Benjamin Rubinstein and Davide Maiorca and Giorgio Fumera and Giorgio Giacinto and Fabio Roli'),
+  inproceedings('Support Vector Machines Applications', 2014),
+nil)
+
+entry!('biggio2014malware',
+  title('Poisoning behavioral malware clustering'),
+  author('Battista Biggio and Konrad Rieck and Davide Ariu and Christian Wressnegger and Igino Corona and Giorgio Giacinto and Fabio Roli'),
+  inproceedings('Workshop on Artificial Intelligence and Security (AISec)', 2014),
+nil)
+
+entry!('biggio2013clustering',
+  title('Is data clustering in adversarial settings secure?'),
+  author('Battista Biggio and Ignazio Pillai and Samuel Rota Bul{\\`o} and Davide Ariu and Marcello Pelillo and Fabio Roli'),
+  inproceedings('Workshop on Artificial Intelligence and Security AISec)', 2013),
+nil)
+
+entry!('biggio2014linkage',
+  author('Battista Biggio and Bul{\\`o}, Samuel Rota and Pillai, Ignazio and Mura, Michele and Mequanint, Eyasu Zemene and Pelillo, Marcello and Roli, Fabio'),
+  title('Poisoning Complete-Linkage Hierarchical Clustering'),
+  inproceedings('Workshop on Structural, Syntactic, and Statistical Pattern Recognition', 2014),
+nil)
+
+entry!('yang2017generative',
+  title('Generative Poisoning Attack Method Against Neural Networks'),
+  author('Chaofei Yang and Qing Wu and Hai Li and Yiran Chen'),
+  arxiv(2017),
+nil)
+
+entry!('laskov2014practical',
+  title('Practical evasion of a learning-based classifier: A case study'),
+  author('Pavel Laskov and Nedim \\v{S}rndi{\\`c}'),
+  inproceedings('Symposium on Security and Privacy', 2014),
+nil)
+
+entry!('xiao2015lasso',
+  title('Is Feature Selection Secure against Training Data Poisoning?'),
+  author('Huang Xiao and Battista Biggio and Gavin Brown and Giorgio Fumera and Claudia Eckert and Fabio Roli'),
+  icml(2015),
+nil)
+
+entry!('burkard2017analysis',
+  title('Analysis of Causative Attacks against {SVM}s Learning from Data Streams'),
+  author('Cody Burkard and Brent Lagesse'),
+  inproceedings('International Workshop on Security And Privacy Analytics', 2017),
+nil)
+
+entry!('wang2016combating',
+  title('Combating Attacks and Abuse in Large Online Communities'),
+  author('Gang Wang'),
+  phdthesis('University of California Santa Barbara', 2016),
+nil)
+
+entry!('zhou2016modeling',
+  title('Modeling Adversarial Learning as Nested {S}tackelberg Games'),
+  author('Yan Zhou and Murat Kantarcioglu'),
+  inproceedings('Pacific-Asia Conference on Knowledge Discovery and Data Mining', 2016),
+nil)
+
+entry!('bruckner2011stackelberg',
+  title('{S}tackelberg games for adversarial prediction problems'),
+  author('Michael Br{\\"u}ckner and Tobias Scheffer'),
+  inproceedings('SIGKDD', 2011), pages(547, 555),
+nil)
+
+entry!('bruckner2012static',
+  title('Static prediction games for adversarial learning problems'),
+  author('Michael Br{\\"u}ckner and Christian Kanzow and Tobias Scheffer'),
+  jmlr(2012, 13),
+  pages(2617,2654),
+nil)
+
+entry!('klivans2009learning',
+  title('Learning halfspaces with malicious noise'),
+  author('Adam R. Klivans and Philip M. Long and Rocco A. Servedio'),
+  jmlr(2009, 10), pages(2715,2740),
+nil)
+
+entry!('awasthi2014power',
+  title('The power of localization for efficiently learning linear separators with noise'),
+  author('Pranjal Awasthi and Maria Florina Balcan and Philip M. Long'),
+  stoc(2014), pages(449, 458),
+nil)
+
+entry!('nguyen2013exact',
+  title('Exact Recoverability From Dense Corrupted Observations via $\\ell_1$-Minimization'),
+  author('Nam H. Nguyen and Trac D. Tran'),
+  article('IEEE Transactions on Information Theory', 2013, 59),
+  number(4), pages(2017, 2035),
+nil)
+
+entry!('nasrabadi2011robust',
+  title('Robust lasso with missing and grossly corrupted observations'),
+  author('Nasser M. Nasrabadi and Trac D. Tran and Nam Nguyen'),
+  nips(2011),
+nil)
+
+entry!('newsome2006paragraph',
+  title('Paragraph: Thwarting signature learning by training maliciously'),
+  author('James Newsome and Brad Karp and Dawn Song'),
+  inproceedings('International Workshop on Recent Advances in Intrusion Detection', 2006),
+nil)
+
+entry!('rubinstein2009antidote',
+  title('Antidote: Understanding and defending against poisoning of anomaly detectors'),
+  author('Benjamin Rubinstein and Blaine Nelson and Ling Huang and Anthony D. Joseph and Shing-Hon Lau and Satish Rao and Nina Taft and JD Tygar'),
+  inproceedings('ACM SIGCOMM Conference on Internet measurement conference', 2009),
+nil)
+
+entry!('mozaffari2015systematic',
+  title('Systematic poisoning attacks on and defenses for machine learning in healthcare'),
+  author('Mehran Mozaffari-Kermani and Susmita Sur-Kolay and Anand Raghunathan and Niraj K. Jha'),
+  article('IEEE Journal of Biomedical and Health Informatics', 2015, 19),
+  number(6), pages(1893, 1905),
+nil)
+
+entry!('bard1999',
+  title('Practical Bilevel Optimization: Algorithms and Applications'),
+  author('Jonathan F. Bard'),
+  book('Springer', 1999),
+nil)
+
+entry!('huang2017adversarial',
+  title('Adversarial attacks on neural network policies'),
+  author('Sandy Huang and Nicolas Papernot and Ian Goodfellow and Yan Duan and Pieter Abbeel'),
+  arxiv(2017),
+nil)
+
+entry!('lin2017tactics',
+  title('Tactics of Adversarial Attack on Deep Reinforcement Learning Agents'),
+  author('Yen-Chen Lin and Zhang-Wei Hong and Yuan-Hong Liao and Meng-Li Shih and Ming-Yu Liu and Min Sun'),
+  arxiv(2017),
+nil)
+
+entry!('behzadan2017vulnerability',
+  title('Vulnerability of Deep Reinforcement Learning to Policy Induction Attacks'),
+  author('Vahid Behzadan and Arslan Munir'),
+  arxiv(2017),
+nil)
+
+entry!('kakade2009complexity',
+  title('On the complexity of linear prediction: Risk bounds, margin bounds, and regularization'),
+  author('Sham M. Kakade and Karthik Sridharan and Ambuj Tewari'),
+  nips(2009),
+nil)
+
+entry!('xiao2010rda',
+  title('Dual Averaging Methods for Regularized Stochastic Learning and Online Optimization'),
+  author('Lin Xiao'),
+  jmlr(2010, 11), pages(2543,2596),
+nil)
+
+entry!('maas2011imdb',
+  author('Andrew L. Maas and Raymond E. Daly and Peter T. Pham and Dan Huang and Andrew Y. Ng and Christopher Potts'),
+  title('Learning Word Vectors for Sentiment Analysis'),
+  acl(2011),
+nil)
+
+entry!('gurobi2016',
+   author('{{Gurobi {Optimization}, Inc.}}'),
+   title('Gurobi Optimizer Reference Manual'),
+   year(2016),
+   type('misc'),
+nil)
+
+entry!('metsis2006spam',
+  author('Vangelis Metsis and Ion Androutsopoulos and Georgios Paliouras'),
+  title('Spam Filtering with Naive {B}ayes -- Which Naive {B}ayes?'),
+  inproceedings('CEAS', 2006),
+  volume(17),
+  pages(28, 69),
+nil)
+
+entry!('tramer2016stealing',
+  title('Stealing machine learning models via prediction {API}s'),
+  author('Florian Tram{\\`e}r and Fan Zhang and Ari Juels and Michael K. Reiter and Thomas Ristenpart'),
+  inproceedings('USENIX Security', 2016),
+nil)
+
+entry!('kerckhoffs1883security',
+  author('Auguste Kerckhoffs'),
+  title('La cryptographie militaire'),
+  article('Journal des sciences militaires', 1883, 9),
+nil)
+
+entry!('dosovitskiy2016inverting',
+  title('Inverting visual representations with convolutional networks'),
+  author('Alexey Dosovitskiy and Thomas Brox'),
+  cvpr(2016),
+nil)
+
+entry!('mahendran2015understanding',
+  title('Understanding deep image representations by inverting them'),
+  author('Aravindh Mahendran and Andrea Vedaldi'),
+  cvpr(2015),
+nil)
+
+entry!('lofberg2004',
+  author('Johan L{\"{o}}fberg'),
+  inproceedings('CACSD', 2004),
+  title('{YALMIP}: A Toolbox for Modeling and Optimization in {MATLAB}'),
+nil)
+
+entry!('sturm1999guide',
+  author('Jos F. Sturm'),
+  title('Using {SeDuMi} 1.02, a {MATLAB} toolbox for optimization over symmetric cones'),
+  article('Optimization Methods and Software', 1999, 11),
+  pages(625,653),
 nil)

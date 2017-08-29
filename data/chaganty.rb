@@ -86,7 +86,7 @@ entry!('pavlick2016gun',
   emnlp(2016),
 nil)
 
-entry!('weber2010measurement',
+entry!('webber2010measurement',
   author('William Edward Webber'),
   title('Measurement in Information Retrieval Evaluation'),
   phdthesis('University of Melbourne', 2010),
@@ -158,4 +158,17 @@ entry!('ellis2016overview',
   title('Overview of linguistic resources for the {TAC} {KBP} 2016 evaluations: Methodologies and results'),
   author('Joe Ellis and Jeremy Getman and Dana Fore and Neil Kuster and Zhiyi Song and Ann Bies and Stephanie Strassel'),
   article('Text Analytics Conference', 2016),
+nil)
+
+entry!('ellis2012kbp',
+  title('Linguistic Resources for 2012 Knowledge Base Population Evaluations'),
+  author('Joe Ellis and Xuansong Li and Kira Griffitt and Stephanie M. Strassel'),
+  article('Text Analytics Conference', 2012),
+nil)
+
+entry!('plank16nonstandard',
+  author('Barbara Plank'),
+  title('What to do about non-standard (or non-canonical) language in {NLP}'),
+  arxiv(2016),
+  url('http://arxiv.org/abs/1608.07836'),
 nil)

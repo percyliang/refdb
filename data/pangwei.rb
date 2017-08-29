@@ -8,7 +8,7 @@
 
 entry!('wojnowicz2016sketching',
   author('Mike Wojnowicz and Ben Cruz and Xuan Zhao and Brian Wallace and Matt Wolff and Jay Luan and Caleb Crable'),
-  title('``{I}nfluence Sketching\'\': Finding Influential Samples In Large-Scale Regressions'),  
+  title('``{I}nfluence Sketching\'\': Finding Influential Samples In Large-Scale Regressions'),
   arxiv(2016, '1611.05923'),
   url('https://arxiv.org/abs/1611.05923'),
 nil)
@@ -92,14 +92,7 @@ entry!('biggio2012poisoning',
   author('Battista Biggio and Blaine Nelson and Pavel Laskov'),
   title('Poisoning Attacks Against Support Vector Machines'),
   pages(1467, 1474),
-  url('http://dl.acm.org/citation.cfm?id=3042573.3042761'),  
-nil)
-
-entry!('li2016collab',
-  nips(2016),
-  title('Data Poisoning Attacks on Factorization-Based Collaborative Filtering'),
-  author('Bo Li and Yining Wang and Aarti Singh and Yevgeniy Vorobeychik'),
-  pages(1885, 1893),
+  url('http://dl.acm.org/citation.cfm?id=3042573.3042761'),
 nil)
 
 entry!('cadamuro2016debugging',
@@ -121,14 +114,6 @@ entry!('biggio2011label',
   title('Support Vector Machines Under Adversarial Label Noise'),
   author('Battista Biggio and Blaine Nelson and Pavel Laskov'),
   pages(97, 112),
-nil)
-
-entry!('metsis2006enron',
-  inproceedings('CEAS', 2006),
-  title('Spam filtering with naive bayes-which naive bayes?'),
-  author('Vangelis Metsis and Ion Androutsopoulos and Georgios Paliouras'),
-  volume(17),
-  pages(28, 69),
 nil)
 
 entry!('jaeckel1972infinitesimal',
@@ -275,7 +260,7 @@ entry!('datta2016algorithmic',
   organization('IEEE'),
 nil)
 
-entry!('adler2016auditing',  
+entry!('adler2016auditing',
   arxiv(2016, '1602.07043'),
   title('Auditing Black-box Models for Indirect Influence'),
   author('Philip Adler and Casey Falk and Sorelle A Friedler and Gabriel Rybeck and Carlos Scheidegger and Brandon Smith and Suresh Venkatasubramanian'),
@@ -353,7 +338,7 @@ entry!('kansagara2011risk',
 nil)
 
 entry!('jaakkola1999exploiting',
-  nips(1999), 
+  nips(1999),
   title('Exploiting generative models in discriminative classifiers'),
   author('Tommi S Jaakkola and David Haussler and others'),
   pages(487, 493),
@@ -372,4 +357,19 @@ entry!('donahue2014decaf',
   author('Jeff Donahue and Yangqing Jia and Oriol Vinyals and Judy Hoffman and Ning Zhang and Eric Tzeng and Trevor Darrell'),
   volume(32),
   pages(647, 655),
+nil)
+
+entry!('diamond2016cvxpy',
+  jmlr(2016, 17),
+  author('Steven Diamond and Stephen Boyd'),
+  title('{CVXPY}: A {P}ython-Embedded Modeling Language for Convex Optimization'),
+  number(83),
+  pages(1, 5),
+nil)
+
+entry!('moosavi2016deepfool',
+  cvpr(2016),
+  title('Deepfool: a simple and accurate method to fool deep neural networks'),
+  author('Seyed-Mohsen Moosavi-Dezfooli and Alhussein Fawzi and Pascal Frossard'),
+  pages(2574, 2582),
 nil)

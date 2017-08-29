@@ -29,7 +29,7 @@ link!(
   ['Mengqiu Wang', 'http://cs.stanford.edu/people/mengqiu/'],
   ['Roy Frostig', 'http://cs.stanford.edu/~rfrostig/'],
   ['Li Fei-Fei', 'http://vision.stanford.edu/'],
-  ['Jonathan Berant', 'http://www.cs.tau.ac.il/~jonatha6/'],
+  ['Jonathan Berant', 'http://www.cs.tau.ac.il/~joberant/'],
   ['Vignesh Ramanathan', 'http://cs.stanford.edu/~vigneshr/'],
   ['Christopher Potts', 'http://www.stanford.edu/~cgpotts/'],
   ['Stefan Wager', 'http://www.stanford.edu/~swager/research.html'],

@@ -121,6 +121,7 @@ entry!('lee2017rasor',
   author('Kenton Lee and Shimi Salant and Tom Kwiatkowski and Ankur Parikh and Dipanjan Das and Jonathan Berant'),
   title('Learning Recurrent Span Representations for Extractive Question Answering'),
   arxiv(2017),
+  url('https://arxiv.org/pdf/1611.01436.pdf'),
 nil)
 
 entry!('bender2017buildit',
@@ -136,3 +137,45 @@ entry!('moosavidezfooli2017universal',
   title('Universal adversarial perturbations'),
   cvpr(2017),
 nil)
+
+entry!('shen2017reasonet',
+  author('Yelong Shen and Po-Sen Huang and Jianfeng Gao and Weizhu Chen'),
+  title('ReasoNet: Learning to Stop Reading in Machine Comprehension'),
+  kdd(2017),
+nil)
+
+entry!('hu2017mnemonic',
+  author('Minghao Hu and Yuxing Peng and Xipeng Qiu'),
+  title('Mnemonic Reader for Machine Comprehension'),
+  arxiv(2017),
+nil)
+
+entry!('liu2017sect',
+  author('Rui Liu and Junjie Hu and Wei Wei and Zi Yang and Eric Nyberg'),
+  title('Structural Embedding of Syntactic Trees for Machine Comprehension'),
+  arxiv(2017),
+nil)
+
+entry!('gong2017ruminating',
+  author('Yichen Gong and Samuel R. Bowman'),
+  title('Ruminating Reader: Reasoning with Gated Multi-Hop Attention'),
+  arxiv(2017),
+nil)
+
+entry!('yu2016dcr',
+  author('Yang Yu and Wei Zhang and Kazi Hasan and Mo Yu and Bing Xiang and Bowen Zhou'),
+  title('End-to-End Answer Chunk Extraction and Ranking for Reading Comprehension'),
+  arxiv(2016),
+nil)
+
+entry!('weissenborn2017fastqa',
+  author('Dirk Weissenborn and Georg Wiese and Laura Seiffe'),
+  title('Making Neural {QA} as Simple as Possible but not Simpler'),
+  arxiv(2017),
+nil)
+
+
+
+
+
+
