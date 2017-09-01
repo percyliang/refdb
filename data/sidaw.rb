@@ -77,19 +77,19 @@ entry!('srinivasan2017nli',
 nil)
 
 entry!('kuhl2004earlylanguage',
-  author('Kuhl, Patricia K'),
+  author('Patricia K Kuhl'),
   article('Nature Reviews Neuroscience', 2004),
   title('Early language acquisition: cracking the speech code'),
 nil)
 
 entry!('krashen1982second',
-  author('S. Krashen'),
+  author('Stephen Krashen'),
   book('Pergamon Press', 1982),
   title('Principles and Practice in Second Language Acquisition'),
 nil)
 
 entry!('sachs1981language',
-  author('Sachs, Jacqueline and Bard, Barbara and Johnson, Marie L.'),
+  author('Jacqueline Sachs and Barbara Bard and Marie L Johnson'),
   article('Applied Psycholinguistics', 1981, 'Cambridge University Press'),
   title('Language learning with restricted input: Case studies of two hearing children of deaf parents'),
 nil)
@@ -102,6 +102,12 @@ nil)
 #   publisher('ACM'),
 #   address('New York, NY, USA'),
 # nil)
+
+entry!('partee1995lexical',
+  author('Partee, Barbara'),
+  article('An Invitation to Cognitive Science', 1995, 'MIT Press'),
+  title('Lexical semantics and compositionality'),
+nil)
 
 entry!('dostert1969rel2',
   coling(1969),
@@ -120,4 +126,10 @@ entry!('thompson1975rel',
   title('Practical Natural Language Processing: The {REL} System as Prototype'),
   pages(109, 168),
   author('Frederick B. Thompson and Bozena Henisz Thompson'),
+nil)
+
+entry!('campbell1998historical',
+  title('Historical Linguistics: An Introduction'),
+  author('L. Campbell'),
+  book('Edinburgh University Press',1998),
 nil)
