@@ -112,3 +112,12 @@ entry!('gu2017search',
        arxiv(2017,'1705.07267'),
        nil)
 
+
+entry!('hayes1986writing',
+  article('American psychologist', 1986, 41),
+  title('Writing research and the writer.'),
+  author('John R Hayes and Linda S Flower'),
+  number(10),
+  pages(1106),
+  publisher('American Psychological Association'),
+nil)
