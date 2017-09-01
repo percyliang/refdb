@@ -133,3 +133,22 @@ entry!('campbell1998historical',
   author('L. Campbell'),
   book('Edinburgh University Press',1998),
 nil)
+
+entry!('bar1964language',
+  author('Y Bar-Hillel'),
+  book('Addison-Wesley/The Jerusalem Academic Press', 1964),
+  title('Language and Information: Selected Essays on Their Theory and Application'),
+nil)
+
+entry!('konstas2017neural',
+  author('Ioannis Konstas and Srinivasan Iyer and Mark Yatskar and Yejin Choi and Luke Zettlemoyer'),
+  article('CoRR', 2017, 'abs/1704.08381'),
+  title('Neural {AMR:} Sequence-to-Sequence Models for Parsing and Generation'),
+  url('http://arxiv.org/abs/1704.08381'),
+nil)
+
+entry!('iyer2017neural',
+  acl(2017),
+  author('Srinivasan Iyer and Ioannis Konstas and Alvin Cheung and Jayant Krishnamurthy and Luke Zettlemoyer'),
+  title('Learning a Neural Semantic Parser from User Feedback'),
+nil)

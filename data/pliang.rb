@@ -6554,7 +6554,7 @@ entry!('murdoch1998exact',
 nil)
 
 entry!('banarescu2013amr',
-  author('Laura BanaRescu and Claire Bonial Shu Cai and Madalina Georgescu and Kira Griffitt and Ulf Hermjakob and Kevin Knight and Philipp Koehn and Martha Palmer and Nathan Schneider'),
+  author('Laura Banarescu and Claire Bonial Shu Cai and Madalina Georgescu and Kira Griffitt and Ulf Hermjakob and Kevin Knight and Philipp Koehn and Martha Palmer and Nathan Schneider'),
   title('Abstract Meaning Representation for Sembanking'),
   inproceedings('7th Linguistic Annotation Workshop and Interoperability with Discourse', 2013),
 nil)
@@ -11425,7 +11425,7 @@ nil)
 entry!('barreno2010security',
   title('The security of machine learning'),
   author('Marco Barreno and Blaine Nelson and Anthony D. Joseph and J. D. Tygar'),
-  article('Machine Learning', 2010, 81), number(2), 
+  article('Machine Learning', 2010, 81), number(2),
   pages(121,148),
   publisher('Springer'),
 nil)
