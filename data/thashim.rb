@@ -84,14 +84,14 @@ entry!('hashimoto2016word',
        tacl(2016, 4),
        pages(273, 286),
        nil)
-       
+
 entry!('heafield2013scalable',
        author('Kenneth Heafield and Ivan Pouzyrevsky and Jonathan H. Clark and Philipp Koehn'),
        title(' Scalable Modified Kneser-Ney Language Model Estimation'),
        acl(2013),
        pages(690, 696),
        nil)
-       
+
 entry!('yelp2017yelp',
        title('Yelp Dataset Challenge'),
        author('Yelp'),
@@ -112,12 +112,19 @@ entry!('gu2017search',
        arxiv(2017,'1705.07267'),
        nil)
 
-
 entry!('hayes1986writing',
   article('American psychologist', 1986, 41),
-  title('Writing research and the writer.'),
+  title('Writing research and the writer'),
   author('John R Hayes and Linda S Flower'),
   number(10),
-  pages(1106),
+  pages(1106, 1113),
   publisher('American Psychological Association'),
+nil)
+
+entry!('mikolov2013linguistic',
+  inproceedings('hlt-Naacl', 2013),
+  title('Linguistic regularities in continuous space word representations'),
+  author('Tomas Mikolov and Wen-tau Yih and Geoffrey Zweig'),
+  volume(13),
+  pages(746, 751),
 nil)
