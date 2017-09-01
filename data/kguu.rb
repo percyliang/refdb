@@ -170,3 +170,21 @@ entry!('glorot2010understanding',
   title('Understanding the difficulty of training deep feedforward neural networks'),
   author('Xavier Glorot and Yoshua Bengio'),
 nil)
+
+entry!('shao2017generating',
+  title('Generating High-Quality and Informative Conversation Responses with Sequence-to-Sequence Models'),
+  author('Louis Shao and Stephan Gouws and Denny Britz and Anna Goldie and Brian Strope and Ray Kurzweil'),
+  emnlp(2017),
+nil)
+
+entry!('gehring2017convolutional',
+  arxiv(2017, '1705.03122'),
+  title('Convolutional Sequence to Sequence Learning'),
+  author('Jonas Gehring and Michael Auli and David Grangier and Denis Yarats and Yann N Dauphin'),
+nil)
+
+entry!('vaswani2017attention',
+  arxiv(2017, '1706.03762'),
+  title('Attention Is All You Need'),
+  author('Ashish Vaswani and Noam Shazeer and Niki Parmar and Jakob Uszkoreit and Llion Jones and Aidan N Gomez and Lukasz Kaiser and Illia Polosukhin'),
+nil)
