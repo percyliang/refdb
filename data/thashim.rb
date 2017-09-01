@@ -80,8 +80,35 @@ entry!('tenenbaum2000global',
 
 entry!('hashimoto2016word',
        author('Tatsunori B Hashimoto and David Alvarez-Melis and Tommi S Jaakkola'),
-       title('Test'),
+       title('Word Embeddings as Metric Recovery in Semantic Spaces'),
        tacl(2016, 4),
        pages(273, 286),
        nil)
        
+entry!('heafield2013scalable',
+       author('Kenneth Heafield and Ivan Pouzyrevsky and Jonathan H. Clark and Philipp Koehn'),
+       title(' Scalable Modified Kneser-Ney Language Model Estimation'),
+       acl(2013),
+       pages(690, 696),
+       nil)
+       
+entry!('yelp2017yelp',
+       title('Yelp Dataset Challenge'),
+       author('Yelp'),
+       type('misc'),
+       howpublished('\url{https://www.yelp.com/dataset_challenge}'),
+       year(2017),
+       nil)
+
+entry!('chelba2013one',
+       title('One Billion Word Benchmark for Measuring Progress in Statistical Language Modeling'),
+       author('Ciprian Chelba and Tomas Mikolov and Mike Schuster and Qi Ge and Thorsten Brants and Phillipp Koehn and Tony Robinson'),
+       arxiv(2013,'1312.3005'),
+       nil)
+
+entry!('gu2017search',
+       title('Search Engine Guided Non-Parametric Neural Machine Translation'),
+       author('Jiatao Gu and Yong Wang and Kyunghyun Cho and Victor OK Li'),
+       arxiv(2017,'1705.07267'),
+       nil)
+
