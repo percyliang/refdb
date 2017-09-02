@@ -192,7 +192,6 @@ nil)
 entry!('jurafsky2000speech',
   title('Speech and language processing: An introduction to natural language processing, computational linguistics, and speech recognition'),
   author('Daniel Jurafsky and James H Martin'),
-  year(2000),
   publisher('Prentice Hall'),
   book('Prentice Hall', 2000),
 nil)
