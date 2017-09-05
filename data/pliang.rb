@@ -11054,8 +11054,8 @@ entry!('liang2017nsm',
   url('https://arxiv.org/pdf/1611.00020v3.pdf'),
 nil)
 
-entry!('choi2017heirarchical',
-  title('Hierarchical Question Answering for Long Documents'),
+entry!('choi2017coarse',
+  title('Coarse-to-Fine Question Answering for Long Documents'),
   author('Eunsol Choi and Daniel Hewlett and Alexandre Lacoste and Illia Polosukhin and Jakob Uszkoreit and Jonathan Berant'),
   acl(2017),
   url('https://arxiv.org/pdf/1611.01839.pdf'),

@@ -46,3 +46,51 @@ entry!('talmor2017evaluating',
   url('https://arxiv.org/abs/1707.04412.pdf'),
   codalab('0x91d77db37e0a4bbbaeb37b8972f4784f'),
 nil)
+
+entry!('xiong2017dynamic',
+  author('Caiming Xiong and Victor Zhong and Richard Socher'),
+  iclr(2017),
+  title('Dynamic Coattention Networks For Question Answering'),
+nil)
+
+entry!('levy2017zero',
+  author('Omer Levy and Minjoon Seo and Eunsol Choi and Luke Zettlemoyer'),
+  title('Zero-Shot Relation Extraction via Reading Comprehension'),
+  conll(2017),
+nil)
+
+entry!('trischler2017newsqa',
+  author('Adam Trischler and Tong Wang and Xingdi Yuan and Justin Harris and Alessandro Sordoni and Philip Bachman and Kaheer Suleman'),
+  title('{NewsQA}: A Machine Comprehension Dataset'),
+  inproceedings('Workshop on Representation Learning for NLP', 2017),
+nil)
+
+entry!('nguyen2016ms',
+  author('Tri Nguyen and Mir Rosenberg and Xia Song and Jianfeng Gao and Saurabh Tiwary and Rangan Majumder and Li Deng'),
+  title('{MS MARCO}: A human generated machine reading comprehension dataset'),
+  inproceedings('Workshop on Cognitive Computing at NIPS', 2016),
+nil)
+
+entry!('dunn2017searchqa',
+  author('Matthew Dunn and and Levent Sagun and Mike Higgins and Ugur Guney and Volkan Cirik and Kyunghyn Cho'),
+  title('{SearchQA}: A New Q\&A Dataset Augmented with Context from a Search Engine'),
+  arxiv(2017),
+nil)
+
+entry!('mandar2017triviaqa',
+  author('Mandar Joshi and Eunsol Choi and Daniel Weld and Luke Zettlemoyer'),
+  acl(2017),
+  title('{TriviaQA}: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension'),
+nil)
+
+entry!('miller2016keyvalue',
+  author('Alexander Miller and Adam Fisch and Jesse Dodge and Amir Hossein Karimi and Antoine Bordes and Jason Weston'),
+  emnlp(2016),
+  title(' Key-value memory networks for directly reading documents'),
+nil)
+
+entry!('rabinovich2017abstract',
+  author('Maxim Rabinovich and Mitchell Stern and Dan Klein'),
+  acl(2017),
+  title('Abstract Syntax Networks for Code Generation and Semantic Parsing'),
+nil)
