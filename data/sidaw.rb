@@ -48,3 +48,107 @@ entry!('gulwani2014nlyze',
   author('Sumit Gulwani and Mark Marron'),
   title('N{L}yze: interactive programming by natural language for spreadsheet data analysis and manipulation'),
 nil)
+
+entry!('lin2017program',
+  author('Xi Victoria Lin and Chenglong Wang and Deric Pang and Kevin Vu and Luke Zettlemoyer and Michael D. Ernst'),
+  title('Program synthesis from natural language using recurrent neural networks'),
+  number('UW-CSE-17-03-01'),
+  techreport('University of Washington', 2017),
+  address('Seattle, WA, USA'),
+  year(2017),
+nil)
+
+entry!('ullmann1962semantics',
+  title('Semantics: An Introduction to the Science of Meaning'),
+  author('S. Ullmann'),
+  book('W. de Gruyter', 1962),
+nil)
+
+entry!('kittredge1982sublanguage',
+  title('Sublanguage: Studies of Language in Restricted Semantic Domains'),
+  author('R. Kittredge and J. Lehrberger'),
+  book('B. Blackwell', 1982),
+nil)
+
+entry!('srinivasan2017nli',
+  author('Arjun Srinivasan and John Stasko'),
+  article('EuroVis', 2017),
+  title('Natural Language Interfaces for Data Analysis with Visualization: Considering What Has and Could Be Asked'),
+nil)
+
+entry!('kuhl2004earlylanguage',
+  author('Patricia K Kuhl'),
+  article('Nature Reviews Neuroscience', 2004),
+  title('Early language acquisition: cracking the speech code'),
+nil)
+
+entry!('krashen1982second',
+  author('Stephen Krashen'),
+  book('Pergamon Press', 1982),
+  title('Principles and Practice in Second Language Acquisition'),
+nil)
+
+entry!('sachs1981language',
+  author('Jacqueline Sachs and Barbara Bard and Marie L Johnson'),
+  article('Applied Psycholinguistics', 1981, 'Cambridge University Press'),
+  title('Language learning with restricted input: Case studies of two hearing children of deaf parents'),
+nil)
+
+# entry!('thompson1969rel',
+#   inproceedings('Proceedings of the ACM National Conference', 1969),
+#   author('F. B. Thompson and P. C. Lockemann and B. Dostert and R. S. Deverill'),
+#   title('{REL}: a Rapidly Extensible Language System'),
+#   pages(399, 417),
+#   publisher('ACM'),
+#   address('New York, NY, USA'),
+# nil)
+
+entry!('partee1995lexical',
+  author('Partee, Barbara'),
+  article('An Invitation to Cognitive Science', 1995, 'MIT Press'),
+  title('Lexical semantics and compositionality'),
+nil)
+
+entry!('dostert1969rel2',
+  coling(1969),
+  author('Bozena Dostert and Frederick B. Thompson'),
+  title('{REL}: A Rapidly Extensible Language System {II}. {REL} {E}nglish'),
+nil)
+
+entry!('dostert1969rel',
+  coling(1969),
+  author('Bozena Dostert and Frederick B. Thompson'),
+  title('{REL}: A Rapidly Extensible Language System {I}'),
+nil)
+
+entry!('thompson1975rel',
+  article('Advances in Computers', 1975, 13),
+  title('Practical Natural Language Processing: The {REL} System as Prototype'),
+  pages(109, 168),
+  author('Frederick B. Thompson and Bozena Henisz Thompson'),
+nil)
+
+entry!('campbell1998historical',
+  title('Historical Linguistics: An Introduction'),
+  author('L. Campbell'),
+  book('Edinburgh University Press',1998),
+nil)
+
+entry!('bar1964language',
+  author('Y Bar-Hillel'),
+  book('Addison-Wesley/The Jerusalem Academic Press', 1964),
+  title('Language and Information: Selected Essays on Their Theory and Application'),
+nil)
+
+entry!('konstas2017neural',
+  author('Ioannis Konstas and Srinivasan Iyer and Mark Yatskar and Yejin Choi and Luke Zettlemoyer'),
+  article('CoRR', 2017, 'abs/1704.08381'),
+  title('Neural {AMR:} Sequence-to-Sequence Models for Parsing and Generation'),
+  url('http://arxiv.org/abs/1704.08381'),
+nil)
+
+entry!('iyer2017neural',
+  acl(2017),
+  author('Srinivasan Iyer and Ioannis Konstas and Alvin Cheung and Jayant Krishnamurthy and Luke Zettlemoyer'),
+  title('Learning a Neural Semantic Parser from User Feedback'),
+nil)

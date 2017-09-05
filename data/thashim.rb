@@ -71,5 +71,60 @@ entry!('ficler2017controlling',
        arxiv(2017,'1707.02633'),
        nil)
 
+entry!('tenenbaum2000global',
+       author('Joshua B Tenenbaum and Vin De Silva and John C Langford'),
+       title('A Global Geometric Framework for Nonlinear Dimensionality Reduction'),
+       article('Science', 2000),
+       pages(2319, 2323),
+       nil)
 
+entry!('hashimoto2016word',
+       author('Tatsunori B Hashimoto and David Alvarez-Melis and Tommi S Jaakkola'),
+       title('Word Embeddings as Metric Recovery in Semantic Spaces'),
+       tacl(2016, 4),
+       pages(273, 286),
+       nil)
 
+entry!('heafield2013scalable',
+       author('Kenneth Heafield and Ivan Pouzyrevsky and Jonathan H. Clark and Philipp Koehn'),
+       title(' Scalable Modified Kneser-Ney Language Model Estimation'),
+       acl(2013),
+       pages(690, 696),
+       nil)
+
+entry!('yelp2017yelp',
+       title('Yelp Dataset Challenge'),
+       author('Yelp'),
+       type('misc'),
+       howpublished('\url{https://www.yelp.com/dataset_challenge}'),
+       year(2017),
+       nil)
+
+entry!('chelba2013one',
+       title('One Billion Word Benchmark for Measuring Progress in Statistical Language Modeling'),
+       author('Ciprian Chelba and Tomas Mikolov and Mike Schuster and Qi Ge and Thorsten Brants and Phillipp Koehn and Tony Robinson'),
+       arxiv(2013,'1312.3005'),
+       nil)
+
+entry!('gu2017search',
+       title('Search Engine Guided Non-Parametric Neural Machine Translation'),
+       author('Jiatao Gu and Yong Wang and Kyunghyun Cho and Victor OK Li'),
+       arxiv(2017,'1705.07267'),
+       nil)
+
+entry!('hayes1986writing',
+  article('American psychologist', 1986, 41),
+  title('Writing research and the writer'),
+  author('John R Hayes and Linda S Flower'),
+  number(10),
+  pages(1106, 1113),
+  publisher('American Psychological Association'),
+nil)
+
+entry!('mikolov2013linguistic',
+  inproceedings('hlt-Naacl', 2013),
+  title('Linguistic regularities in continuous space word representations'),
+  author('Tomas Mikolov and Wen-tau Yih and Geoffrey Zweig'),
+  volume(13),
+  pages(746, 751),
+nil)

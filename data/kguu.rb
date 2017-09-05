@@ -170,3 +170,55 @@ entry!('glorot2010understanding',
   title('Understanding the difficulty of training deep feedforward neural networks'),
   author('Xavier Glorot and Yoshua Bengio'),
 nil)
+
+entry!('shao2017generating',
+  title('Generating High-Quality and Informative Conversation Responses with Sequence-to-Sequence Models'),
+  author('Louis Shao and Stephan Gouws and Denny Britz and Anna Goldie and Brian Strope and Ray Kurzweil'),
+  emnlp(2017),
+nil)
+
+entry!('gehring2017convolutional',
+  arxiv(2017, '1705.03122'),
+  title('Convolutional Sequence to Sequence Learning'),
+  author('Jonas Gehring and Michael Auli and David Grangier and Denis Yarats and Yann N Dauphin'),
+nil)
+
+entry!('vaswani2017attention',
+  arxiv(2017, '1706.03762'),
+  title('Attention Is All You Need'),
+  author('Ashish Vaswani and Noam Shazeer and Niki Parmar and Jakob Uszkoreit and Llion Jones and Aidan N Gomez and Lukasz Kaiser and Illia Polosukhin'),
+nil)
+
+entry!('jurafsky2000speech',
+  title('Speech and language processing: An introduction to natural language processing, computational linguistics, and speech recognition'),
+  author('Daniel Jurafsky and James H Martin'),
+  publisher('Prentice Hall'),
+  book('Prentice Hall', 2000),
+nil)
+
+entry!('kalchbrenner2013recurrent',
+  emnlp(2013),
+  title('Recurrent Continuous Translation Models'),
+  author('Nal Kalchbrenner and Phil Blunsom'),
+nil)
+
+entry!('koehn2007moses',
+  acl(2007),
+  title('Moses: Open source toolkit for statistical machine translation'),
+  author('Philipp Koehn and Hieu Hoang and Alexandra Birch and Chris Callison-Burch and Marcello Federico and Nicola Bertoldi and Brooke Cowan and Wade Shen and Christine Moran and Richard Zens and others'),
+  pages(177, 180),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('hahn2000challenges',
+  article('Computer', 2000, 33),
+  title('The challenges of automatic summarization'),
+  author('Udo Hahn and Inderjeet Mani'),
+  publisher('IEEE'),
+nil)
+
+entry!('nallapati2016abstractive',
+  arxiv(2016, '1602.06023'),
+  title('Abstractive text summarization using sequence-to-sequence rnns and beyond'),
+  author('Ramesh Nallapati and Bowen Zhou and Caglar Gulcehre and Bing Xiang and others'),
+nil)
