@@ -94,3 +94,28 @@ entry!('rabinovich2017abstract',
   acl(2017),
   title('Abstract Syntax Networks for Code Generation and Semantic Parsing'),
 nil)
+
+entry!('das2017question',
+  author('Rajarshi Das and Manzil Zaheer and Siva Reddy and Andrew McCallum'),
+  acl(2017),
+  title('Question Answering on Knowledge Bases and Text using Universal Schema and Memory Networks'),
+nil)
+
+entry!('beltagy2014probabilistic',
+  acl(2014),
+  title('Probabilistic Soft Logic for Semantic Textual Similarity'),
+  author('Islam Beltagy and Katherin Erk and Raymond J. Mooney'),
+nil)
+
+entry!('lewis2013combining',
+  tacl(2013, 1),
+  title('Combining distributional and logical semantics'),
+  author('Mike Lewis and Mark Steedman'),
+nil)
+
+entry!('demeester2016lifted',
+  emnlp(2016),
+  author('Thomas Demeester and Tim Rockt{\"{a}}schel and Sebastian Riedel'),
+  title('Lifted Rule Injection for Relation Embeddings'),
+nil)
+
