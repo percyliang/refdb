@@ -119,3 +119,9 @@ entry!('demeester2016lifted',
   title('Lifted Rule Injection for Relation Embeddings'),
 nil)
 
+entry!('santoro2017simple',
+  arxiv(2017),
+  author('Adam Santoro and David Raposo and David GT Barrett and Mateusz Malinowski and Razvan Pascanu and Peter Battaglia and Timothy Lillicrap'),
+  title('A simple neural network module for relational reasoning'),
+nil)
+
