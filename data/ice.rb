@@ -1,3 +1,4 @@
+################################################
 # Yuchen's paper
 
 entry!('haug2017neural',
@@ -44,4 +45,19 @@ entry!('indyk2004approximate',
   author('Piotr Indyk'),
   soda(2004),
   pages(646, 650),
+nil)
+
+################################################
+# Web agent proposal
+
+entry!('nogueira2016end',
+  title('End-to-End Goal-Driven Web Navigation'),
+  author('Rodrigo Nogueira and Kyunghyun Cho'),
+  nips(2016),
+nil)
+
+entry!('yeh2009sikuli',
+  title('Sikuli: using {GUI} screenshots for search and automation'),
+  author('Tom Yeh and Tsung-Hsiang Chang and Rob Miller'),
+  uist(2009),
 nil)

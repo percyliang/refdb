@@ -33,7 +33,7 @@ nil)
 
 entry!('allen2007plow',
   aaai(2007),
-  title('Plow: A collaborative task learning agent'),
+  title('{PLOW}: A collaborative task learning agent'),
   author('James Allen and Nathanael Chambers and George Ferguson and Lucian Galescu and Hyuckchul Jung and Mary Swift and William Taysom'),
   pages(1514, 1519),
 nil)

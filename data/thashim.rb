@@ -128,3 +128,12 @@ entry!('mikolov2013linguistic',
   volume(13),
   pages(746, 751),
 nil)
+
+entry!('bengio2003neural',
+  article('Journal of machine learning research', 2003, 3),
+  title('A neural probabilistic language model'),
+  author('Yoshua Bengio and Rejean Ducharme and Pascal Vincent and Christian Jauvin'),
+  number('Feb'),
+  pages(1137, 1155),
+nil)
+
