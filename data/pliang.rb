@@ -11300,6 +11300,7 @@ entry!('jia2017adversarial',
   title('Adversarial Examples for Evaluating Reading Comprehension Systems'),
   emnlp(2017),
   codalab('0xc86d3ebe69a3427d91f9aaa63f7d1e7d'),
+  award('Outstanding paper award'),
   url('http://arxiv.org/pdf/1707.07328.pdf'),
 nil)
 
@@ -11314,6 +11315,7 @@ nil)
 entry!('chaganty2017unbiased',
   author('Arun Chaganty and Ashwin Paranjape and Percy Liang and Chris Manning'),
   title('Importance sampling for unbiased on-demand evaluation of knowledge base population'),
+  url('https://nlp.stanford.edu/pubs/chaganty2017ondemand.pdf'),
   emnlp(2017),
 nil)
 
