@@ -11322,7 +11322,7 @@ nil)
 entry!('steinhardt2017certified',
   author('Jacob Steinhardt and Pang Wei Koh and Percy Liang'),
   title('Certified Defenses for Data Poisoning Attacks'),
-  arxiv(2017, '1706.03691'),
+  nips(2017),
   url('http://arxiv.org/pdf/1706.03691.pdf'),
 nil)
 
@@ -11713,3 +11713,62 @@ entry!('sturm1999guide',
   article('Optimization Methods and Software', 1999, 11),
   pages(625,653),
 nil)
+
+entry!('raz2016fast',
+  title('Fast learning requires good memory: {A} time-space lower bound for parity learning'),
+  author('Ran Raz'),
+  focs(2016),
+  pages(266, 275),
+nil)
+
+entry!('raz2017time',
+  author('Ran Raz'),
+  title('A Time-Space Lower Bound for a Large Class of Learning Problems'),
+  inproceedings('ECCC', 2017), 
+  volume(24),
+nil)
+
+entry!('moshkovitz2017mixing',
+  title('Mixing implies lower bounds for space bounded learning'),
+  author('Dana Moshkovitz and Michal Moshkovitz'),
+  colt(2017),
+nil)
+
+entry!('kol2016time',
+  title('Time-Space Hardness of Learning Sparse Parities'),
+  author('Gillat Kol and Ran Raz and Avishay Tal'),
+  inproceedings('ECCC', 2016), 
+  volume(23),
+nil)
+
+entry!('beame2017time',
+  title('Time-Space Tradeoffs for Learning from Small Test Spaces: Learning Low Degree Polynomial Functions'),
+  author('Paul Beame and Shayan Oveis Gharan and Xin Yang'),
+  arxiv(2017),
+nil)
+
+entry!('garg2017extractor',
+  title('Extractor-Based Time-Space Lower Bounds for Learning'),
+  author('Sumegha Garg and Ran Raz and Avishay Tal'),
+  arxiv(2017),
+nil)
+
+
+entry!('steinhardt2017clique',
+  title('Does robustness imply tractability? {A} lower bound for planted clique in the semi-random model'),
+  author('Jacob Steinhardt'),
+  arxiv(2017),
+nil)
+
+entry!('madry2017towards',
+  title('Towards deep learning models resistant to adversarial attacks'),
+  author('Aleksander Madry and Aleksandar Makelov and Ludwig Schmidt and Dimitris Tsipras and Adrian Vladu'),
+  arxiv(2017),
+nil)
+
+entry!('carlini2017adversarial',
+  title('Adversarial Examples Are Not Easily Detected: Bypassing Ten Detection Methods'),
+  author('Nicholas Carlini and David Wagner'),
+  arxiv(2017),
+nil)
+
