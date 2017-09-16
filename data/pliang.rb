@@ -11772,3 +11772,14 @@ entry!('carlini2017adversarial',
   arxiv(2017),
 nil)
 
+entry!('xu2017feature',
+  title('Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks'),
+  author('Weilin Xu and David Evans and Yanjun Qi'),
+  arxiv(2017),
+nil)
+
+entry!('kos2017adversarial',
+  title('Adversarial examples for generative models'),
+  author('Jernej Kos and Ian Fischer and Dawn Song'),
+  arxiv(2017),
+nil)
