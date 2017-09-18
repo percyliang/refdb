@@ -11777,3 +11777,15 @@ entry!('evtimov2017robust',
   author('Ivan Evtimov and Kevin Eykholt and Earlence Fernandes and Tadayoshi Kohno and Bo Li and Atul Prakash and Amir Rahmati and Dawn Song'),
   arxiv(2017),
 nil)
+
+entry!('xu2017feature',
+  title('Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks'),
+  author('Weilin Xu and David Evans and Yanjun Qi'),
+  arxiv(2017),
+nil)
+
+entry!('kos2017adversarial',
+  title('Adversarial examples for generative models'),
+  author('Jernej Kos and Ian Fischer and Dawn Song'),
+  arxiv(2017),
+nil)

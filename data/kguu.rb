@@ -222,3 +222,11 @@ entry!('nallapati2016abstractive',
   title('Abstractive text summarization using sequence-to-sequence rnns and beyond'),
   author('Ramesh Nallapati and Bowen Zhou and Caglar Gulcehre and Bing Xiang and others'),
 nil)
+
+entry!('euzenat2007ontology',
+  title('Ontology matching'),
+  author('Jerome Euzenat and Pavel Shvaiko and others'),
+  volume(18),
+  publisher('Springer'),
+  book('Springer', 2007),
+nil)
