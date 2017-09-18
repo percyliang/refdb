@@ -11772,3 +11772,8 @@ entry!('carlini2017adversarial',
   arxiv(2017),
 nil)
 
+entry!('evtimov2017robust',
+  title('Robust Physical-World Attacks on Machine Learning Models'),
+  author('Ivan Evtimov and Kevin Eykholt and Earlence Fernandes and Tadayoshi Kohno and Bo Li and Atul Prakash and Amir Rahmati and Dawn Song'),
+  arxiv(2017),
+nil)
