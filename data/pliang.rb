@@ -11295,6 +11295,32 @@ nil)
 ############################################################
 # 2017
 
+entry!('guu2017edit',
+  author('Kelvin Guu and Tatsunori B. Hashimoto and Yonatan Oren and Percy Liang'),
+  title('Generating Sentences by Editing Prototypes'),
+  arxiv(2017, '1709.08878'),
+  url('http://arxiv.org/pdf/1709.08878.pdf'),
+nil)
+
+entry!('steinhardt2017certified',
+  author('Jacob Steinhardt and Pang Wei Koh and Percy Liang'),
+  title('Certified Defenses for Data Poisoning Attacks'),
+  nips(2017),
+  url('http://arxiv.org/pdf/1706.03691.pdf'),
+nil)
+
+entry!('hashimoto2017transformation',
+  author('Tatsu Hashimoto and John Duchi and Percy Liang'),
+  title('Unsupervised Transformation Learning via Convex Relaxations'),
+  nips(2017),
+nil)
+
+entry!('kakade2017long',
+  author('Sham Kakade and Percy Liang and Vatsal Sharan and Gregory Valiant'),
+  title('Learning HMMs with Long-Term Dependencies'),
+  nips(2017),
+nil)
+
 entry!('jia2017adversarial',
   author('Robin Jia and Percy Liang'),
   title('Adversarial Examples for Evaluating Reading Comprehension Systems'),
@@ -11317,13 +11343,6 @@ entry!('chaganty2017unbiased',
   title('Importance sampling for unbiased on-demand evaluation of knowledge base population'),
   url('https://nlp.stanford.edu/pubs/chaganty2017ondemand.pdf'),
   emnlp(2017),
-nil)
-
-entry!('steinhardt2017certified',
-  author('Jacob Steinhardt and Pang Wei Koh and Percy Liang'),
-  title('Certified Defenses for Data Poisoning Attacks'),
-  nips(2017),
-  url('http://arxiv.org/pdf/1706.03691.pdf'),
 nil)
 
 entry!('koh2017understanding',
