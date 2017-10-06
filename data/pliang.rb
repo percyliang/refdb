@@ -11317,7 +11317,7 @@ nil)
 
 entry!('kakade2017long',
   author('Sham Kakade and Percy Liang and Vatsal Sharan and Gregory Valiant'),
-  title('Learning HMMs with Long-Term Dependencies'),
+  title('Learning {HMM}s with Long-Term Dependencies'),
   nips(2017),
 nil)
 
