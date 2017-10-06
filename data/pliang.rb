@@ -11735,6 +11735,7 @@ nil)
 
 entry!('raz2016fast',
   title('Fast learning requires good memory: {A} time-space lower bound for parity learning'),
+  unusualCapitalization('A'),
   author('Ran Raz'),
   focs(2016),
   pages(266, 275),
@@ -11743,7 +11744,7 @@ nil)
 entry!('raz2017time',
   author('Ran Raz'),
   title('A Time-Space Lower Bound for a Large Class of Learning Problems'),
-  inproceedings('ECCC', 2017), 
+  inproceedings('ECCC', 2017),
   volume(24),
 nil)
 
@@ -11756,7 +11757,7 @@ nil)
 entry!('kol2016time',
   title('Time-Space Hardness of Learning Sparse Parities'),
   author('Gillat Kol and Ran Raz and Avishay Tal'),
-  inproceedings('ECCC', 2016), 
+  inproceedings('ECCC', 2016),
   volume(23),
 nil)
 
@@ -11772,9 +11773,9 @@ entry!('garg2017extractor',
   arxiv(2017),
 nil)
 
-
 entry!('steinhardt2017clique',
   title('Does robustness imply tractability? {A} lower bound for planted clique in the semi-random model'),
+  unusualCapitalization('A'),
   author('Jacob Steinhardt'),
   arxiv(2017),
 nil)
