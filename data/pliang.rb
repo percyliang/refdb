@@ -11809,3 +11809,18 @@ entry!('kos2017adversarial',
   author('Jernej Kos and Ian Fischer and Dawn Song'),
   arxiv(2017),
 nil)
+
+entry!('daspremont2008smooth',
+  author('Alexandre d{\'}Aspremont'),
+  title('Smooth  optimization  with  approximate  gradient'),
+  article('SIAM Journal on Optimization', 2008, 19),
+  number(3),
+  pages(1171, 1183),
+nil)
+
+entry!('devolder2014first',
+  title('First-order methods of smooth convex optimization with inexact oracle'),
+  author('Olivier Devolder and Fran{\c{c}}ois Glineur and Yurii Nesterov'),
+  article('Mathematical Programming', 2014, 146),
+  pages(37,75),
+nil)
