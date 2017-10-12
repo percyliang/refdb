@@ -11295,11 +11295,38 @@ nil)
 ############################################################
 # 2017
 
+entry!('guu2017edit',
+  author('Kelvin Guu and Tatsunori B. Hashimoto and Yonatan Oren and Percy Liang'),
+  title('Generating Sentences by Editing Prototypes'),
+  arxiv(2017, '1709.08878'),
+  url('http://arxiv.org/pdf/1709.08878.pdf'),
+nil)
+
+entry!('steinhardt2017certified',
+  author('Jacob Steinhardt and Pang Wei Koh and Percy Liang'),
+  title('Certified Defenses for Data Poisoning Attacks'),
+  nips(2017),
+  url('http://arxiv.org/pdf/1706.03691.pdf'),
+nil)
+
+entry!('hashimoto2017transformation',
+  author('Tatsu Hashimoto and John Duchi and Percy Liang'),
+  title('Unsupervised Transformation Learning via Convex Relaxations'),
+  nips(2017),
+nil)
+
+entry!('kakade2017long',
+  author('Sham Kakade and Percy Liang and Vatsal Sharan and Gregory Valiant'),
+  title('Learning {HMM}s with Long-Term Dependencies'),
+  nips(2017),
+nil)
+
 entry!('jia2017adversarial',
   author('Robin Jia and Percy Liang'),
   title('Adversarial Examples for Evaluating Reading Comprehension Systems'),
   emnlp(2017),
   codalab('0xc86d3ebe69a3427d91f9aaa63f7d1e7d'),
+  award('Outstanding paper award'),
   url('http://arxiv.org/pdf/1707.07328.pdf'),
 nil)
 
@@ -11314,14 +11341,8 @@ nil)
 entry!('chaganty2017unbiased',
   author('Arun Chaganty and Ashwin Paranjape and Percy Liang and Chris Manning'),
   title('Importance sampling for unbiased on-demand evaluation of knowledge base population'),
+  url('https://nlp.stanford.edu/pubs/chaganty2017ondemand.pdf'),
   emnlp(2017),
-nil)
-
-entry!('steinhardt2017certified',
-  author('Jacob Steinhardt and Pang Wei Koh and Percy Liang'),
-  title('Certified Defenses for Data Poisoning Attacks'),
-  arxiv(2017, '1706.03691'),
-  url('http://arxiv.org/pdf/1706.03691.pdf'),
 nil)
 
 entry!('koh2017understanding',
@@ -11710,4 +11731,96 @@ entry!('sturm1999guide',
   title('Using {SeDuMi} 1.02, a {MATLAB} toolbox for optimization over symmetric cones'),
   article('Optimization Methods and Software', 1999, 11),
   pages(625,653),
+nil)
+
+entry!('raz2016fast',
+  title('Fast learning requires good memory: {A} time-space lower bound for parity learning'),
+  unusualCapitalization('A'),
+  author('Ran Raz'),
+  focs(2016),
+  pages(266, 275),
+nil)
+
+entry!('raz2017time',
+  author('Ran Raz'),
+  title('A Time-Space Lower Bound for a Large Class of Learning Problems'),
+  inproceedings('ECCC', 2017),
+  volume(24),
+nil)
+
+entry!('moshkovitz2017mixing',
+  title('Mixing implies lower bounds for space bounded learning'),
+  author('Dana Moshkovitz and Michal Moshkovitz'),
+  colt(2017),
+nil)
+
+entry!('kol2016time',
+  title('Time-Space Hardness of Learning Sparse Parities'),
+  author('Gillat Kol and Ran Raz and Avishay Tal'),
+  inproceedings('ECCC', 2016),
+  volume(23),
+nil)
+
+entry!('beame2017time',
+  title('Time-Space Tradeoffs for Learning from Small Test Spaces: Learning Low Degree Polynomial Functions'),
+  author('Paul Beame and Shayan Oveis Gharan and Xin Yang'),
+  arxiv(2017),
+nil)
+
+entry!('garg2017extractor',
+  title('Extractor-Based Time-Space Lower Bounds for Learning'),
+  author('Sumegha Garg and Ran Raz and Avishay Tal'),
+  arxiv(2017),
+nil)
+
+entry!('steinhardt2017clique',
+  title('Does robustness imply tractability? {A} lower bound for planted clique in the semi-random model'),
+  unusualCapitalization('A'),
+  author('Jacob Steinhardt'),
+  arxiv(2017),
+nil)
+
+entry!('madry2017towards',
+  title('Towards deep learning models resistant to adversarial attacks'),
+  author('Aleksander Madry and Aleksandar Makelov and Ludwig Schmidt and Dimitris Tsipras and Adrian Vladu'),
+  arxiv(2017),
+nil)
+
+entry!('carlini2017adversarial',
+  title('Adversarial Examples Are Not Easily Detected: Bypassing Ten Detection Methods'),
+  author('Nicholas Carlini and David Wagner'),
+  arxiv(2017),
+nil)
+
+entry!('evtimov2017robust',
+  title('Robust Physical-World Attacks on Machine Learning Models'),
+  author('Ivan Evtimov and Kevin Eykholt and Earlence Fernandes and Tadayoshi Kohno and Bo Li and Atul Prakash and Amir Rahmati and Dawn Song'),
+  arxiv(2017),
+nil)
+
+entry!('xu2017feature',
+  title('Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks'),
+  author('Weilin Xu and David Evans and Yanjun Qi'),
+  arxiv(2017),
+nil)
+
+entry!('kos2017adversarial',
+  title('Adversarial examples for generative models'),
+  author('Jernej Kos and Ian Fischer and Dawn Song'),
+  arxiv(2017),
+nil)
+
+entry!('daspremont2008smooth',
+  author('Alexandre d{\'}Aspremont'),
+  title('Smooth  optimization  with  approximate  gradient'),
+  article('SIAM Journal on Optimization', 2008, 19),
+  number(3),
+  pages(1171, 1183),
+nil)
+
+entry!('devolder2014first',
+  title('First-order methods of smooth convex optimization with inexact oracle'),
+  author('Olivier Devolder and Fran{\c{c}}ois Glineur and Yurii Nesterov'),
+  article('Mathematical Programming', 2014, 146),
+  pages(37,75),
 nil)
