@@ -11811,7 +11811,7 @@ entry!('kos2017adversarial',
 nil)
 
 entry!('daspremont2008smooth',
-  author('Alexandre d{\'}Aspremont'),
+  author('Alexandre d{\\\'}Aspremont'),
   title('Smooth  optimization  with  approximate  gradient'),
   article('SIAM Journal on Optimization', 2008, 19),
   number(3),
@@ -11823,4 +11823,50 @@ entry!('devolder2014first',
   author('Olivier Devolder and Fran{\c{c}}ois Glineur and Yurii Nesterov'),
   article('Mathematical Programming', 2014, 146),
   pages(37,75),
+nil)
+
+entry!('adamczak2015concentration',
+  title('Concentration inequalities for non-{L}ipschitz functions with bounded derivatives of higher order'),
+  author('Rados{\l{}}aw Adamczak and Pawe{\l{}} Wolff'),
+  article('Probability Theory and Related Fields', 2015, 162),
+  pages(531, 586),
+nil)
+
+entry!('latala2006estimates',
+  title('Estimates of moments and tails of {G}aussian chaoses'),
+  author('Rafa{\l{}} Lata{\l{}}a'),
+  article('The Annals of Probability', 2006, 34),
+  number(6), pages(2315, 2331),
+  publisher('Institute of Mathematical Statistics'),
+nil)
+
+entry!('bakry1985diffusions',
+  title('Diffusions hypercontractives'),
+  author('Dominique Bakry and Michel {\\\'E}mery'),
+  incollection('S{\\\'e}minaire de Probabilit{\\\'e}s XIX 1983/84', 1985),
+  pages(177,206),
+nil)
+
+entry!('bardet2018functional',
+  title('Functional inequalities for {G}aussian convolutions of compactly supported measures: explicit bounds and dimension dependence'),
+  author('Jean-Baptiste Bardet and Natha{\"e}l Gozlan and Florent Malrieu and Pierre-Andr{\\\'e} Zitt'),
+  article('Bernoulli', 2018, 24),
+  pages(333,353),
+  publisher('Bernoulli Society for Mathematical Statistics and Probability'),
+nil)
+
+entry!('gromov1983topological',
+  title('A topological application of the isoperimetric inequality'),
+  author('Mikhail Gromov and Vitali D. Milman'),
+  article('American Journal of Mathematics', 1983, 105),
+  number(4),
+  pages(843,854),
+nil)
+
+entry!('bobkov1997poincare',
+  author('S. Bobkov and M. Ledoux'),
+  title('{P}oincar{\\\'e}\'s inequalities and {T}alagrand\'s concentration phenomenon for the exponential distribution'),
+  article('Probability Theory and Related Fields', 1997, 107),
+  number(3),
+  pages(383,400),
 nil)
