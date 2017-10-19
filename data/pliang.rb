@@ -11870,3 +11870,11 @@ entry!('bobkov1997poincare',
   number(3),
   pages(383,400),
 nil)
+
+entry!('carlini2017towards',
+  author('Nicholas Carlini and David Wagner'),
+  title('Towards evaluating the robustness of neural networks'),
+  inproceedings('IEEE Symposium on Security and Privacy', 2017),
+  pages(39,57),
+nil)
+
