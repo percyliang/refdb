@@ -113,7 +113,6 @@ entry!('sutton1998reinforcement',
   book('MIT Press', 1998),
   volume(1),
   number(1),
-  year(1998),
   publisher('MIT press Cambridge'),
 nil)
 
