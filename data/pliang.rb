@@ -11824,3 +11824,10 @@ entry!('devolder2014first',
   article('Mathematical Programming', 2014, 146),
   pages(37,75),
 nil)
+
+entry!('narodytska2017verifying',
+  author('Nina Narodytska and Shiva Prasad Kasiviswanathan and Leonid Ryzhyk and Mooly Sagiv and Toby Walsh'),
+  title('Verifying Properties of Binarized Deep Neural Networks'),
+  arxiv(2017, '1709.06662'),
+  url('http://arxiv.org/pdf/1709.06662.pdf'),
+nil)
