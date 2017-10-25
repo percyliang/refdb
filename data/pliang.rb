@@ -11825,6 +11825,13 @@ entry!('devolder2014first',
   pages(37,75),
 nil)
 
+entry!('narodytska2017verifying',
+  author('Nina Narodytska and Shiva Prasad Kasiviswanathan and Leonid Ryzhyk and Mooly Sagiv and Toby Walsh'),
+  title('Verifying Properties of Binarized Deep Neural Networks'),
+  arxiv(2017, '1709.06662'),
+  url('http://arxiv.org/pdf/1709.06662.pdf'),
+nil)
+
 entry!('adamczak2015concentration',
   title('Concentration inequalities for non-{L}ipschitz functions with bounded derivatives of higher order'),
   author('Rados{\l{}}aw Adamczak and Pawe{\l{}} Wolff'),
@@ -11877,4 +11884,3 @@ entry!('carlini2017towards',
   inproceedings('IEEE Symposium on Security and Privacy', 2017),
   pages(39,57),
 nil)
-
