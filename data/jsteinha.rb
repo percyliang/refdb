@@ -160,3 +160,21 @@ entry!('papachristodoulou2005analysis',
   article('Positive polynomials in control', 2005),
 nil)
 
+entry!('katz2017towards',
+  title('Towards proving the adversarial robustness of deep neural networks'),
+  author('Guy Katz and Clark Barrett and David L. Dill and Kyle Julian and Mykel J. Kochenderfer'),
+  arxiv(2017),
+nil)
+
+entry!('okelly2016apex',
+  title('{APEX}: Autonomous Vehicle Plan Verification and Execution'),
+  author('Matthew O\'Kelly and Houssam Abbas and Sicun Gao and Shin\'ichi Shiraishi and Shinpei Kato and Rahul Mangharam'),
+  techreport('University of Pennsylvania', 2016),
+nil)
+
+entry!('okelly2017computer',
+  title('Computer-Aided Design for Safe Autonomous Vehicles'),
+  author('Matthew O\'Kelly and Houssam Abbas and Rahul Mangharam'),
+  techreport('University of Pennsylvania', 2017),
+nil)
+
