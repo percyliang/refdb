@@ -120,3 +120,43 @@ entry!('anguita2013har',
   title('A Public Domain Dataset for Human Activity Recognition Using Smartphones'),
   author('Davide Anguita and Alessandro Ghio and Luca Oneto and Xavier Parra and Jorge L. Reyes-Ortiz'),
 nil)
+
+entry!('lyapunov1992general',
+  title('The general problem of the stability of motion'),
+  author('Aleksandr Mikhailovich Lyapunov'),
+  article('International Journal of Control', 1992, 55),
+  number(3), pages(531, 534),
+  publisher('Taylor \& Francis'),
+nil)
+
+entry!('lyapunov1892general',
+  title('The general problem of the stability of motion (in Russian)'),
+  author('Aleksandr Mikhailovich Lyapunov'),
+  phdthesis('Kharkov Mathematical Society', 1892),
+nil)
+
+entry!('tedrake2010lqrtrees',
+  author('Russ Tedrake and Ian R. Manchester and Mark M. Tobenkin and John W. Roberts'),
+  title('{LQR}-Trees: Feedback motion planning via sums of squares verification'),
+  article('International Journal of Robotics Research', 2010, 29),
+  pages(1038, 1052),
+nil)
+
+entry!('tobenkin2011invariant',
+  title('Invariant funnels around trajectories using sum-of-squares programming'),
+  author('Mark M. Tobenkin and Ian R. Manchester and Russ Tedrake'),
+  article('IFAC Proceedings Volumes', 2011, 44),
+nil)
+
+entry!('papachristodoulou2002construction',
+  title('On the construction of Lyapunov functions using the sum of squares decomposition'),
+  author('Antonis Papachristodoulou and Stephen Prajna'),
+  inproceedings('IEEE Conference on Decision and Control', 2002),
+nil)
+
+entry!('papachristodoulou2005analysis',
+  title('Analysis of non-polynomial systems using the sum of squares decomposition'),
+  author('Antonis Papachristodoulou and Stephen Prajna'),
+  article('Positive polynomials in control', 2005),
+nil)
+
