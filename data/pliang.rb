@@ -11896,3 +11896,9 @@ entry!('winstein2013tcp',
   title('{TCP} ex Machina: Computer-Generated Congestion Control'),
   inproceedings('SIGCOMM', 2013),
 nil)
+
+entry!('bernardo2003variational',
+  title('The variational {B}ayesian {EM} algorithm for incomplete data: with application to scoring graphical model structures'),
+  author('Matthew J. Beal and Zoubin Ghahramani'),
+  article('Bayesian Statistics', 2003),
+nil)
