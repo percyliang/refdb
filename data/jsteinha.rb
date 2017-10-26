@@ -191,3 +191,8 @@ entry!('carlini2017ground',
   arxiv(2017),
 nil)
 
+entry!('xiong2016achieving',
+  title('Achieving human parity in conversational speech recognition'),
+  author('Wayne Xiong and Jasha Droppo and Xuedong Huang and Frank Seide and Mike Seltzer and Andreas Stolcke and Dong Yu and Geoffrey Zweig'),
+  arxiv(2016),
+nil)
