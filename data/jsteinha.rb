@@ -178,3 +178,16 @@ entry!('okelly2017computer',
   techreport('University of Pennsylvania', 2017),
 nil)
 
+entry!('sharif2016accessorize',
+  title('Accessorize to a crime: Real and stealthy attacks on state-of-the-art face recognition'),
+  author('Mahmood Sharif and Sruti Bhagavatula and Lujo Bauer and Michael K. Reiter'),
+  inproceedings('ACM SIGSAC Conference on Computer and Communications Security', 2016),
+  pages(1528,1540),
+nil)
+
+entry!('carlini2017ground',
+  title('Ground-Truth Adversarial Examples'),
+  author('Nicholas Carlini and Guy Katz and Clark Barrett and David L. Dill'),
+  arxiv(2017),
+nil)
+
