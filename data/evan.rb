@@ -90,7 +90,7 @@ entry!('bacon2017option',
 nil)
 
 entry!('roderick2017deep',
-  title('Deep Abstract Q-Networks'),
+  title('Deep Abstract {Q}-Networks'),
   author('M. Roderick and C. Grimm and S. Tellex'),
   arxiv(2017, '1710.00459'),
 nil)
@@ -108,4 +108,16 @@ entry!('parr1998reinforcement',
   author('R. Parr and S. J. Russell'),
   nips(1998),
   pages(1043, 1049),
+nil)
+
+entry!('duan2017one',
+  title('One-Shot Imitation Learning'),
+  author('Y. Duan and M. Andrychowicz and B. C. Stadie and J. Ho and J. Schneider and I. Sutskever and P. Abbeel and W. Zaremba'),
+  arxiv(2017, '1703.07326'),
+nil)
+
+entry!('finn2017one',
+  title('One-Shot Visual Imitation Learning via Meta-Learning'),
+  author('C. Finn and T. Yu and T. Zhang and P. Abbeel and S. Levine'),
+  arxiv(2017, '1709.04905'),
 nil)
