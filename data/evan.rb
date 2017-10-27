@@ -181,3 +181,32 @@ entry!('weber2017imagination',
   author('T. Weber and S. Racani{\`e}re and D. P. Reichert and L. Buesing and A. Guez and D. J. Rezende and A. P. Badia and O. Vinyals and N. Heess and Y. Li and others'),
   arxiv(2017, '1707.06203'),
 nil)
+
+entry!('perez2017c',
+  title('{C}-LEARN: Learning geometric constraints from demonstrations for multi-step manipulation in shared autonomy'),
+  author('C. Perez-D\'Arpino and J. A. Shah'),
+  icra(2017),
+  pages(4058, 4065),
+  organization('IEEE'),
+nil)
+
+entry!('phillips2016learning',
+  title('Learning to plan for constrained manipulation from demonstrations'),
+  author('M. Phillips and V. Hwang and S. Chitta and M. Likhachev'),
+  article('Autonomous Robots', 2016, 40),
+  number(1),
+  pages(109, 124),
+  publisher('Springer'),
+nil)
+
+entry!('andre2003programmable',
+  phdthesis('University of California, Berkeley', 2003),
+  title('Programmable reinforcement learning agents'),
+  author('D. Andre'),
+nil)
+
+entry!('marthi2005concurrent',
+  title('Concurrent hierarchical reinforcement learning'),
+  author('Marthi, Bhaskara and Guestrin, Carlos'),
+  ijcai(2005),
+nil)
