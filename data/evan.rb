@@ -144,6 +144,27 @@ nil)
 
 entry!('li2006towards',
   title('Towards a Unified Theory of State Abstraction for MDPs'),
-  author('Li, Lihong and Walsh, Thomas J and Littman, Michael L'),
+  author('L. Li and T. J. Walsh and M. L. Littman'),
   isaim(2006),
+nil)
+
+entry!('andreas2016modular',
+  title('Modular multitask reinforcement learning with policy sketches'),
+  author('J. Andreas and D. Klein and S. Levine'),
+  arxiv(2016, '1611.01796'),
+nil)
+
+entry('daniel2016hierarchical',
+  title('Hierarchical relative entropy policy search'),
+  author('C. Daniel and G. Neumann and O. Kroemer and J. Peters'),
+  jmlr(2016, 17),
+  pages(3190, 3239),
+  publisher('JMLR. org'),
+nil)
+
+entry!('wiering2012reinforcement',
+  title('Reinforcement learning'),
+  author('Wiering, Marco and Van Otterlo, Martijn'),
+  article('Adaptation, Learning, and Optimization', 2012, 12),
+  publisher('Springer'),
 nil)
