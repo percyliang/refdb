@@ -196,3 +196,22 @@ entry!('xiong2016achieving',
   author('Wayne Xiong and Jasha Droppo and Xuedong Huang and Frank Seide and Mike Seltzer and Andreas Stolcke and Dong Yu and Geoffrey Zweig'),
   arxiv(2016),
 nil)
+
+entry!('miyato2015distributional',
+  title('Distributional smoothing with virtual adversarial training'),
+  author('Takeru Miyato and Shin-ichi Maeda and Masanori Koyama and Ken Nakae and Shin Ishii'),
+  arxiv(2015),
+nil)
+
+entry!('chen2017ead',
+  title('{EAD}: Elastic-Net Attacks to Deep Neural Networks via Adversarial Examples'),
+  author('Pin-Yu Chen and Yash Sharma and Huan Zhang and Jinfeng Yi and Cho-Jui Hsieh'),
+  arxiv(2017),
+nil)
+
+entry!('goodfellow2016cleverhans',
+  title('cleverhans v2.0.0: an adversarial machine learning library'),
+  author('Ian Goodfellow and Nicolas Papernot and Patrick McDaniel'),
+  arxiv(2016),
+nil)
+
