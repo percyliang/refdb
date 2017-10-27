@@ -207,6 +207,6 @@ nil)
 
 entry!('marthi2005concurrent',
   title('Concurrent hierarchical reinforcement learning'),
-  author('Marthi, Bhaskara and Guestrin, Carlos'),
+  author('B. Marthi and C. Guestrin'),
   ijcai(2005),
 nil)
