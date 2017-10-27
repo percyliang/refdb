@@ -154,7 +154,7 @@ entry!('andreas2016modular',
   arxiv(2016, '1611.01796'),
 nil)
 
-entry('daniel2016hierarchical',
+entry!('daniel2016hierarchical',
   title('Hierarchical relative entropy policy search'),
   author('C. Daniel and G. Neumann and O. Kroemer and J. Peters'),
   jmlr(2016, 17),
