@@ -215,3 +215,10 @@ entry!('goodfellow2016cleverhans',
   arxiv(2016),
 nil)
 
+entry!('rice1953classes',
+  title('Classes of recursively enumerable sets and their decision problems'),
+  author('Henry Gordon Rice'),
+  article('Transactions of the American Mathematical Society', 1953, 74),
+  number(2),
+  pages(358,366),
+nil)
