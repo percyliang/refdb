@@ -258,9 +258,10 @@ entry!('pomerleau1991efficient',
   publisher('MIT Press'),
 nil)
 
-entry!('Goodfellow-et-al-2016',
+entry!('goodfellow2016deep',
   title('Deep Learning'),
   author('Ian Goodfellow and Yoshua Bengio and Aaron Courville'),
+  book('MIT Press', 2016),
   publisher('MIT Press'),
   note('\url{http://www.deeplearningbook.org}'),
   year(2016),
