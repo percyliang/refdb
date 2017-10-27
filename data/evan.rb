@@ -168,3 +168,16 @@ entry!('wiering2012reinforcement',
   article('Adaptation, Learning, and Optimization', 2012, 12),
   publisher('Springer'),
 nil)
+
+entry!('chentanez2005intrinsically',
+  title('Intrinsically motivated reinforcement learning'),
+  author('N. Chentanez and A. G. Barto and S. P. Singh'),
+  nips(2005),
+  pages(1281, 1288),
+nil)
+
+entry!('weber2017imagination',
+  title('Imagination-Augmented Agents for Deep Reinforcement Learning'),
+  author('T. Weber and S. Racani{\`e}re and D. P. Reichert and L. Buesing and A. Guez and D. J. Rezende and A. P. Badia and O. Vinyals and N. Heess and Y. Li and others'),
+  arxiv(2017, '1707.06203'),
+nil)
