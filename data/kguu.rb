@@ -264,7 +264,6 @@ entry!('goodfellow2016deep',
   book('MIT Press', 2016),
   publisher('MIT Press'),
   note('\url{http://www.deeplearningbook.org}'),
-  year(2016),
 nil)
 
 entry!('bitzer2010using',
