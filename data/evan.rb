@@ -121,3 +121,63 @@ entry!('finn2017one',
   author('C. Finn and T. Yu and T. Zhang and P. Abbeel and S. Levine'),
   arxiv(2017, '1709.04905'),
 nil)
+
+entry!('konidaris2007building',
+  title('Building Portable Options: Skill Transfer in Reinforcement Learning'),
+  author('G. Konidaris and A. G. Barto'),
+  ijcai(2007),
+nil)
+
+entry!('hauser2008using',
+  title('Using motion primitives in probabilistic sample-based planning for humanoid robots'),
+  author('K. Hauser and T. Bretl and K. Harada and J. Latombe'),
+  pages(507, 522),
+  article('Algorithmic foundation of robotics', 2008, 7),
+  publisher('Springer'),
+nil)
+
+entry!('dietterich1998maxq',
+  title('The {MAXQ} Method for Hierarchical Reinforcement Learning'),
+  author('T. G. Dietterich'),
+  icml(1998),
+nil)
+
+entry!('li2006towards',
+  title('Towards a Unified Theory of State Abstraction for MDPs'),
+  author('L. Li and T. J. Walsh and M. L. Littman'),
+  isaim(2006),
+nil)
+
+entry!('andreas2016modular',
+  title('Modular multitask reinforcement learning with policy sketches'),
+  author('J. Andreas and D. Klein and S. Levine'),
+  arxiv(2016, '1611.01796'),
+nil)
+
+entry('daniel2016hierarchical',
+  title('Hierarchical relative entropy policy search'),
+  author('C. Daniel and G. Neumann and O. Kroemer and J. Peters'),
+  jmlr(2016, 17),
+  pages(3190, 3239),
+  publisher('JMLR. org'),
+nil)
+
+entry!('wiering2012reinforcement',
+  title('Reinforcement learning'),
+  author('Wiering, Marco and Van Otterlo, Martijn'),
+  article('Adaptation, Learning, and Optimization', 2012, 12),
+  publisher('Springer'),
+nil)
+
+entry!('chentanez2005intrinsically',
+  title('Intrinsically motivated reinforcement learning'),
+  author('N. Chentanez and A. G. Barto and S. P. Singh'),
+  nips(2005),
+  pages(1281, 1288),
+nil)
+
+entry!('weber2017imagination',
+  title('Imagination-Augmented Agents for Deep Reinforcement Learning'),
+  author('T. Weber and S. Racani{\`e}re and D. P. Reichert and L. Buesing and A. Guez and D. J. Rezende and A. P. Badia and O. Vinyals and N. Heess and Y. Li and others'),
+  arxiv(2017, '1707.06203'),
+nil)
