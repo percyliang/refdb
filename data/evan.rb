@@ -121,3 +121,29 @@ entry!('finn2017one',
   author('C. Finn and T. Yu and T. Zhang and P. Abbeel and S. Levine'),
   arxiv(2017, '1709.04905'),
 nil)
+
+entry!('konidaris2007building',
+  title('Building Portable Options: Skill Transfer in Reinforcement Learning'),
+  author('G. Konidaris and A. G. Barto'),
+  ijcai(2007),
+nil)
+
+entry!('hauser2008using',
+  title('Using motion primitives in probabilistic sample-based planning for humanoid robots'),
+  author('K. Hauser and T. Bretl and K. Harada and J. Latombe'),
+  pages(507, 522),
+  article('Algorithmic foundation of robotics', 2008, 7),
+  publisher('Springer'),
+nil)
+
+entry!('dietterich1998maxq',
+  title('The {MAXQ} Method for Hierarchical Reinforcement Learning'),
+  author('T. G. Dietterich'),
+  icml(1998),
+nil)
+
+entry!('li2006towards',
+  title('Towards a Unified Theory of State Abstraction for MDPs'),
+  author('Li, Lihong and Walsh, Thomas J and Littman, Michael L'),
+  isaim(2006),
+nil)
