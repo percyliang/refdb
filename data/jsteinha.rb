@@ -222,3 +222,16 @@ entry!('rice1953classes',
   number(2),
   pages(358,366),
 nil)
+
+entry!('barak2012hypercontractivity',
+  title('Hypercontractivity, sum-of-squares proofs, and their applications'),
+  author('Boaz Barak and Fernando Brand{\\~a}o and Aram Harrow and Jonathan Kelner and David Steurer and Yuan Zhou'),
+  stoc(2012),
+  pages(307, 326),
+nil)
+
+entry!('regev2017learning',
+  title('On Learning Mixtures of Well-Separated Gaussians'),
+  author('Oded Regev and Aravindan Vijayaraghavan'),
+  focs(2017),
+nil)
