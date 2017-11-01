@@ -11902,3 +11902,20 @@ entry!('bernardo2003variational',
   author('Matthew J. Beal and Zoubin Ghahramani'),
   article('Bayesian Statistics', 2003),
 nil)
+
+entry!('mackey2014matrix',
+  title('Matrix concentration inequalities via the method of exchangeable pairs'),
+  author('Lester Mackey and Michael I. Jordan and Richard Y. Chen and Brendan Farrell and Joel A. Tropp'),
+  article('The Annals of Probability', 2014, 42),
+  number(3), 
+  pages(906,945),
+  publisher('Institute of Mathematical Statistics'),
+nil)
+
+entry!('tropp2015introduction',
+  title('An introduction to matrix concentration inequalities'),
+  author('Joel A. Tropp'),
+  article('Foundations and Trends in Machine Learning', 2015, 8), 
+  pages(1, 230),
+  publisher('Now Publishers, Inc.'),
+nil)
