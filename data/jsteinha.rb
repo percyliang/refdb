@@ -241,3 +241,9 @@ entry!('kothari2017outlier',
   author('Pravesh Kothari and David Steurer'),
   arxiv(2017),
 nil)
+
+entry!('balcan2008discriminative',
+  author('Maria-Florina Balcan and Avrim Blum and Santosh Vempala'),
+  title('A discriminative framework for clustering via similarity functions'),
+  stoc(2008),
+nil)
