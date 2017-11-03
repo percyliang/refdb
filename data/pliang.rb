@@ -7426,12 +7426,6 @@ entry!('dreesen2012roots',
   pages(1203, 1208),
 nil)
 
-entry!('ge2015learning',
-  arxiv(2015, '1503.00424'),
-  title('Learning Mixtures of {G}aussians in High Dimensions'),
-  author('Rong Ge and Qingqing Huang and Sham M Kakade'),
-nil)
-
 entry!('cohen2013experiments',
   naacl(2013),
   title('Experiments with Spectral Learning of Latent-Variable PCFGs'),
@@ -11918,4 +11912,47 @@ entry!('tropp2015introduction',
   article('Foundations and Trends in Machine Learning', 2015, 8), 
   pages(1, 230),
   publisher('Now Publishers, Inc.'),
+nil)
+
+
+entry!('moitra2010settling',
+  author('Ankur Moitra and Gregory Valiant'),
+  title('Settling the polynomial learnability of mixtures of {G}aussians'),
+  focs(2010),
+nil)
+
+entry!('belkin2010polynomial',
+  author('Mikhail Belkin and Kaushik Sinha'),
+  title('Polynomial learning of distribution families'),
+  focs(2010),
+nil)
+
+entry!('bhaskara2014uniqueness',
+  author('Aditya Bhaskara and Moses Charikar and Aravindan Vijayaraghavan'),
+  title('Uniqueness of tensor decompositions with applications to polynomial identifiability'),
+  colt(2014),
+nil)
+
+entry!('goyal2014fourier',
+  author('Navin Goyal and Santosh Vempala and Ying Xiao'),
+  title('Fourier {PCA} and robust tensor decomposition'),
+  stoc(2014),
+nil)
+
+entry!('ge2015learning',
+  author('Rong Ge and Qingqing Huang and Sham M. Kakade'),
+  title('Learning mixtures of {G}aussians in high dimensions'),
+  stoc(2015),
+nil)
+
+entry!('bhaskara2014smoothed',
+  author('Aditya Bhaskara and Moses Charikar and Ankur Moitra and Aravindan Vijayaraghavan'),
+  title('Smoothed analysis of tensor decompositions'),
+  stoc(2014),
+nil)
+
+entry!('anderson2014blessing',
+  author('Joseph Anderson and Mikhail Belkin and Navin Goyal and Luis Rademacher and James R. Voss'),
+  title('The more, the merrier: the blessing of dimensionality for learning large {G}aussian mixtures'),
+  colt(2014),
 nil)
