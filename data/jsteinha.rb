@@ -235,3 +235,9 @@ entry!('regev2017learning',
   author('Oded Regev and Aravindan Vijayaraghavan'),
   focs(2017),
 nil)
+
+entry!('kothari2017outlier',
+  title('Outlier-robust moment-estimation via sum-of-squares'),
+  author('Pravesh Kothari and David Steurer'),
+  arxiv(2017),
+nil)
