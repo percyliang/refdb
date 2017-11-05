@@ -11956,3 +11956,9 @@ entry!('anderson2014blessing',
   title('The more, the merrier: the blessing of dimensionality for learning large {G}aussian mixtures'),
   colt(2014),
 nil)
+
+entry!('bishop2002art',
+  title('The art and science of computer security'),
+  author('Matthew A. Bishop'),
+  book('Addison-Wesley Longman Publishing Co., Inc.', 2002),
+nil)
