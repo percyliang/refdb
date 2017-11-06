@@ -11427,7 +11427,7 @@ entry!('newell2014practicality',
 entry!('biggio2014security',
   title('Security evaluation of pattern classifiers under attack'),
   author('Battista Biggio and Giorgio Fumera and Fabio Roli'),
-  article('Knowledge and Data Engineering, IEEE Transactions on', 2014, 26),
+  article('IEEE Transactions on Knowledge and Data Engineering', 2014, 26),
   number(4), pages(984, 996),
 nil)
 
@@ -11531,7 +11531,7 @@ nil)
 entry!('biggio2013clustering',
   title('Is data clustering in adversarial settings secure?'),
   author('Battista Biggio and Ignazio Pillai and Samuel Rota Bul{\\`o} and Davide Ariu and Marcello Pelillo and Fabio Roli'),
-  inproceedings('Workshop on Artificial Intelligence and Security AISec)', 2013),
+  inproceedings('Workshop on Artificial Intelligence and Security (AISec)', 2013),
 nil)
 
 entry!('biggio2014linkage',
