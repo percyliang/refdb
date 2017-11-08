@@ -11789,3 +11789,30 @@ entry!('kos2017adversarial',
   author('Jernej Kos and Ian Fischer and Dawn Song'),
   arxiv(2017),
 nil)
+
+entry!('papernot2016distillation',
+  title('Distillation as a defense to adversarial perturbations against deep neural networks'),
+  author('Nicolas Papernot and Patrick McDaniel and Xi Wu and Somesh Jha and Ananthram Swami'),
+  inproceedings('IEEE Symposium on Security and Privacy', 2016),
+  pages(582,597),
+  year(2016),
+nil)
+
+entry!('carlini2016defensive',
+  title('Defensive distillation is not robust to adversarial examples'),
+  author('Nicholas Carlini and David Wagner'),
+  arxiv(2016),
+nil)
+
+entry!('papernot2017practical',
+  title('Practical black-box attacks against machine learning'),
+  author('Nicolas Papernot and Patrick McDaniel and Ian Goodfellow and Somesh Jha and Berkay Z. Celik and Ananthram Swami'),
+  inproceedings('Asia Conference on Computer and Communications Security', 2017),
+  pages(506,519),
+nil)
+
+entry!('russell1991right',
+  title('Do the right thing: studies in limited rationality'),
+  author('Stuart Russell and Eric Wefald'),
+  book('MIT Press', 1991),
+nil)
