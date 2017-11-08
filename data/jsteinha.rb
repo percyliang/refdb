@@ -239,3 +239,9 @@ entry!('balcan2008discriminative',
   title('A discriminative framework for clustering via similarity functions'),
   stoc(2008),
 nil)
+
+entry!('kothari2017agnostic',
+  author('Pravesh Kothari and Jacob Steinhardt'),
+  title('Better Agnostic Clustering via Tensor Norms'),
+  arxiv(2017),
+nil)

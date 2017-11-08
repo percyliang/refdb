@@ -11197,10 +11197,10 @@ entry!('berthet2013complexity',
   pages(1046,1066),
 nil)
 
-entry!('steinhardt2017resilience',
+entry!('steinhardt2018resilience',
   title('Resilience: A Criterion for Learning in the Presence of Arbitrary Outliers'),
   author('Jacob Steinhardt and Moses Charikar and Gregory Valiant'),
-  arxiv(2017),
+  itcs(2018),
 nil)
 
 entry!('katz2017reluplex',
