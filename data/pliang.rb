@@ -11988,3 +11988,68 @@ entry!('bishop2002art',
   author('Matthew A. Bishop'),
   book('Addison-Wesley Longman Publishing Co., Inc.', 2002),
 nil)
+
+entry!('johnson1978densest',
+  author('D. S. Johnson and F. P. Preparata'),
+  title('The densest hemisphere problem'),
+  article('Theoretical Computer Science', 1978, 6),
+  pages(93, 107),
+nil)
+
+entry!('tukey1975mathematics',
+  author('John W. Tukey'),
+  title('Mathematics  and  picturing  of data'),
+  inproceedings('ICM', 1975), 
+  volume(6), pages(523, 531),
+nil)
+
+entry!('knight2006unsupervised',
+  title('Unsupervised analysis for decipherment problems'),
+  author('Kevin Knight and Anish Nair and Nishit Rathod and Kenji Yamada'),
+  acl(2006),
+nil)
+
+entry!('manski1988identification',
+  title('Identification of binary response models'),
+  author('Charles F. Manski'),
+  jasa(1988, 83), number(403), 
+  pages(729,738),
+  publisher('Taylor \& Francis'),
+nil)
+
+entry!('manski1985semiparametric',
+  title('Semiparametric analysis of discrete response: {A}symptotic properties of the maximum score estimator'),
+  author('Charles F. Manski'),
+  article('Journal of Econometrics', 1985, 27), number(3),
+  pages(313,333),
+nil)
+
+entry!('newey1994asymptotic',
+  title('The asymptotic variance of semiparametric estimators'),
+  author('Whitney K. Newey'),
+  article('Econometrica: Journal of the Econometric Society', 1994),
+  pages(1349,1382),
+nil)
+
+entry!('adelman2008sixth',
+	author('Jennifer K. Adelman-McCarthy and Marcel A. Ag{\"u}eros and Sahar S. Allam and Carlos Allende Prieto and Kurt S. J. Anderson and Scott F. Anderson and James Annis and Neta A. Bahcall and C. A. L. Bailer-Jones, and Ivan K. Baldry and others'),
+	article('The Astrophysical Journal Supplement Series', 2008, 175),
+	number(2),
+	publisher('IOP Publishing'),
+	title('The sixth data release of the sloan digital sky survey'),
+nil)
+
+entry!('mcmahan2013ad',
+	author('Brendan H. Mc{M}ahan and Gary Holt and D Sculley and Michael Young and Dietmar Ebner and Julian Grady and Lan Nie and Todd Phillips and Eugene Davydov and Daniel Golovin and others'),
+	kdd(2013),
+	title('Ad click prediction: a view from the trenches'),
+nil)
+
+entry!('assouad1983deux',
+  title('Deux remarques sur l\'estimation'),
+  author('Patrice Assouad'),
+  article('Comptes rendus des s{\\\'e}ances de l\'Acad{\\\'e}mie des sciences. S{\\\'e}rie 1, Math{\\\'e}matique', 1983, 296),
+  number(23),
+  pages(1021,1024),
+  publisher('Gauthier-Villars'),
+nil)
