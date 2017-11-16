@@ -12085,7 +12085,7 @@ entry!('lin2013lookahead',
 nil)
 
 entry!('doucet2000sequential',
-  title('On sequential {M}onte {C}arlo sampling methods for {B{ayesian filtering'),
+  title('On sequential {M}onte {C}arlo sampling methods for {B}ayesian filtering'),
   author('Arnaud Doucet and Simon Godsill and Christophe Andrieu'),
   article('Statistics and computing', 2000, 10),
   number(3),
