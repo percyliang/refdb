@@ -12036,7 +12036,7 @@ entry!('adelman2008sixth',
 	article('The Astrophysical Journal Supplement Series', 2008, 175),
 	number(2),
 	publisher('IOP Publishing'),
-	title('The sixth data release of the sloan digital sky survey'),
+	title('The sixth data release of the {S}loan digital sky survey'),
 nil)
 
 entry!('mcmahan2013ad',
@@ -12052,4 +12052,42 @@ entry!('assouad1983deux',
   number(23),
   pages(1021,1024),
   publisher('Gauthier-Villars'),
+nil)
+
+entry!('maronna1976robust',
+  title('Robust estimation of multivariate location and scatter'),
+  annalsOfStatistics(1976, 4), number(1), pages(51, 67),
+  author('Ricardo A. Maronna'),
+nil)
+
+entry!('gordon1993novel',
+  title('Novel approach to nonlinear/non-{G}aussian {B}ayesian state estimation'),
+  author('Neil J. Gordon and David J. Salmond and Adrian F. M. Smith'),
+  article('IEE Proceedings F (Radar and Signal Processing)', 1993, 140),
+  number(2),
+  pages(107,113),
+nil)
+
+entry!('gilks2001following',
+  title('Following a moving target--{M}onte {C}arlo inference for dynamic {B}ayesian models'),
+  author('Walter R. Gilks and Carlo Berzuini'),
+  article('Journal of the Royal Statistical Society: Series B (Statistical Methodology)', 
+    2001, 63),
+  number(1), pages(127,146),
+nil)
+
+entry!('lin2013lookahead',
+  title('Lookahead strategies for sequential {M}onte {C}arlo'),
+  author('Ming Lin and Rong Chen and Jun S. Liu'),
+  article('Statistical Science', 2013, 28),
+  number(1),
+  pages(69,94),
+nil)
+
+entry!('doucet2000sequential',
+  title('On sequential {M}onte {C}arlo sampling methods for {B{ayesian filtering'),
+  author('Arnaud Doucet and Simon Godsill and Christophe Andrieu'),
+  article('Statistics and computing', 2000, 10),
+  number(3),
+  pages(197,208),
 nil)
