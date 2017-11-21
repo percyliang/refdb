@@ -11711,3 +11711,86 @@ entry!('sturm1999guide',
   article('Optimization Methods and Software', 1999, 11),
   pages(625,653),
 nil)
+
+entry!('steinhardt2017robustness',
+  author('Jacob Steinhardt'),
+  title(' Does Robustness Imply Tractability? A Lower Bound for Planted Clique in the Semi-Random Model'),
+  arxiv(2017),
+nil)
+
+
+entry!('balakrishnan2017sparse',
+  title('Computationally Efficient Robust Sparse Estimation in High Dimensions'),
+  author('Sivaraman Balakrishnan and Simon S. Du and Jerry Li and Aarti Singh'),
+  colt(2017),
+  pages(169,212),
+nil)
+
+entry!('diakonikolas2017learning',
+  title('Learning Geometric Concepts with Nasty Noise'),
+  author('Ilias Diakonikolas and Daniel M. Kane and Alistair Stewart'),
+  arxiv(2017),
+nil)
+
+entry!('diakonikolas2017robustly',
+  title('Robustly Learning a {G}aussian: Getting Optimal Error, Efficiently'),
+  author('Ilias Diakonikolas and Gautam Kamath and Daniel M. Kane and Jerry Li and Ankur Moitra and Alistair Stewart'),
+  arxiv(2017),
+nil)
+
+entry!('diakonikolas2016bayes',
+  title('Robust learning of fixed-structure {B}ayesian networks'),
+  author('Ilias Diakonikolas and Daniel Kane and Alistair Stewart'),
+  arxiv(2016),
+nil)
+
+entry!('diakonikolas2016statistical',
+  title('Statistical query lower bounds for robust estimation of high-dimensional {G}aussians and {G}aussian mixtures'),
+  author('Ilias Diakonikolas and Daniel M. Kane and Alistair Stewart'),
+  arxiv(2016),
+nil)
+
+entry!('kane2017robust',
+  title('Robust polynomial regression up to the information theoretic limit'),
+  author('Daniel Kane and Sushrut Karmalkar and Eric Price'),
+  arxiv(2017),
+nil)
+
+entry!('you2017provable',
+  title('Provable Self-Representation Based Outlier Detection in a Union of Subspaces'),
+  author('Chong You and Daniel P. Robinson and Ren{\'e} Vidal'),
+  arxiv(2017),
+nil)
+
+entry!('ashtiani2017sample',
+  title('Sample-Efficient Learning of Mixtures'),
+  author('Hassan Ashtiani and Shai Ben-David and Abbas Mehrabian'),
+  arxiv(2017),
+nil)
+
+
+entry!('li2017sparse',
+  title('Robust Sparse Estimation Tasks in High Dimensions'),
+  author('Jerry Li'),
+  arxiv(2017),
+nil)
+
+entry!('li2017robust',
+  title('Robust and Proper Learning for Mixtures of {G}aussians via Systems of Polynomial Inequalities'),
+  author('Jerry Li and Ludwig Schmidt'),
+  colt(2017),
+  pages(1302, 1382),
+nil)
+
+entry!('meister2017data',
+  title('A Data Prism: Semi-Verified Learning in the Small-Alpha Regime'),
+  author('Michela Meister and Gregory Valiant'),
+  arxiv(2017),
+nil)
+
+entry!('khintchine1923uber',
+  title('{\\"U}ber dyadische Br{\\"u}che'),
+  author('Aleksandr Khintchine'),
+  article('Mathematische Zeitschrift',1923, 18),
+  pages(109,116),
+nil)
