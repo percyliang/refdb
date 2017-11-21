@@ -7426,12 +7426,6 @@ entry!('dreesen2012roots',
   pages(1203, 1208),
 nil)
 
-entry!('ge2015learning',
-  arxiv(2015, '1503.00424'),
-  title('Learning Mixtures of {G}aussians in High Dimensions'),
-  author('Rong Ge and Qingqing Huang and Sham M Kakade'),
-nil)
-
 entry!('cohen2013experiments',
   naacl(2013),
   title('Experiments with Spectral Learning of Latent-Variable PCFGs'),
@@ -11203,10 +11197,10 @@ entry!('berthet2013complexity',
   pages(1046,1066),
 nil)
 
-entry!('steinhardt2017resilience',
+entry!('steinhardt2018resilience',
   title('Resilience: A Criterion for Learning in the Presence of Arbitrary Outliers'),
   author('Jacob Steinhardt and Moses Charikar and Gregory Valiant'),
-  arxiv(2017),
+  itcs(2018),
 nil)
 
 entry!('katz2017reluplex',
@@ -11295,11 +11289,38 @@ nil)
 ############################################################
 # 2017
 
+entry!('guu2017edit',
+  author('Kelvin Guu and Tatsunori B. Hashimoto and Yonatan Oren and Percy Liang'),
+  title('Generating Sentences by Editing Prototypes'),
+  arxiv(2017, '1709.08878'),
+  url('http://arxiv.org/pdf/1709.08878.pdf'),
+nil)
+
+entry!('steinhardt2017certified',
+  author('Jacob Steinhardt and Pang Wei Koh and Percy Liang'),
+  title('Certified Defenses for Data Poisoning Attacks'),
+  nips(2017),
+  url('http://arxiv.org/pdf/1706.03691.pdf'),
+nil)
+
+entry!('hashimoto2017transformation',
+  author('Tatsu Hashimoto and John Duchi and Percy Liang'),
+  title('Unsupervised Transformation Learning via Convex Relaxations'),
+  nips(2017),
+nil)
+
+entry!('kakade2017long',
+  author('Sham Kakade and Percy Liang and Vatsal Sharan and Gregory Valiant'),
+  title('Learning {HMM}s with Long-Term Dependencies'),
+  nips(2017),
+nil)
+
 entry!('jia2017adversarial',
   author('Robin Jia and Percy Liang'),
   title('Adversarial Examples for Evaluating Reading Comprehension Systems'),
   emnlp(2017),
   codalab('0xc86d3ebe69a3427d91f9aaa63f7d1e7d'),
+  award('Outstanding paper award'),
   url('http://arxiv.org/pdf/1707.07328.pdf'),
 nil)
 
@@ -11314,14 +11335,8 @@ nil)
 entry!('chaganty2017unbiased',
   author('Arun Chaganty and Ashwin Paranjape and Percy Liang and Chris Manning'),
   title('Importance sampling for unbiased on-demand evaluation of knowledge base population'),
+  url('https://nlp.stanford.edu/pubs/chaganty2017ondemand.pdf'),
   emnlp(2017),
-nil)
-
-entry!('steinhardt2017certified',
-  author('Jacob Steinhardt and Pang Wei Koh and Percy Liang'),
-  title('Certified Defenses for Data Poisoning Attacks'),
-  arxiv(2017, '1706.03691'),
-  url('http://arxiv.org/pdf/1706.03691.pdf'),
 nil)
 
 entry!('koh2017understanding',
@@ -11412,7 +11427,7 @@ entry!('newell2014practicality',
 entry!('biggio2014security',
   title('Security evaluation of pattern classifiers under attack'),
   author('Battista Biggio and Giorgio Fumera and Fabio Roli'),
-  article('Knowledge and Data Engineering, IEEE Transactions on', 2014, 26),
+  article('IEEE Transactions on Knowledge and Data Engineering', 2014, 26),
   number(4), pages(984, 996),
 nil)
 
@@ -11516,7 +11531,7 @@ nil)
 entry!('biggio2013clustering',
   title('Is data clustering in adversarial settings secure?'),
   author('Battista Biggio and Ignazio Pillai and Samuel Rota Bul{\\`o} and Davide Ariu and Marcello Pelillo and Fabio Roli'),
-  inproceedings('Workshop on Artificial Intelligence and Security AISec)', 2013),
+  inproceedings('Workshop on Artificial Intelligence and Security (AISec)', 2013),
 nil)
 
 entry!('biggio2014linkage',
@@ -11712,12 +11727,6 @@ entry!('sturm1999guide',
   pages(625,653),
 nil)
 
-entry!('steinhardt2017robustness',
-  author('Jacob Steinhardt'),
-  title(' Does Robustness Imply Tractability? A Lower Bound for Planted Clique in the Semi-Random Model'),
-  arxiv(2017),
-nil)
-
 
 entry!('balakrishnan2017sparse',
   title('Computationally Efficient Robust Sparse Estimation in High Dimensions'),
@@ -11793,4 +11802,369 @@ entry!('khintchine1923uber',
   author('Aleksandr Khintchine'),
   article('Mathematische Zeitschrift',1923, 18),
   pages(109,116),
+nil)
+
+entry!('raz2016fast',
+  title('Fast learning requires good memory: {A} time-space lower bound for parity learning'),
+  unusualCapitalization('A'),
+  author('Ran Raz'),
+  focs(2016),
+  pages(266, 275),
+nil)
+
+entry!('raz2017time',
+  author('Ran Raz'),
+  title('A Time-Space Lower Bound for a Large Class of Learning Problems'),
+  inproceedings('ECCC', 2017),
+  volume(24),
+nil)
+
+entry!('moshkovitz2017mixing',
+  title('Mixing implies lower bounds for space bounded learning'),
+  author('Dana Moshkovitz and Michal Moshkovitz'),
+  colt(2017),
+nil)
+
+entry!('kol2016time',
+  title('Time-Space Hardness of Learning Sparse Parities'),
+  author('Gillat Kol and Ran Raz and Avishay Tal'),
+  inproceedings('ECCC', 2016),
+  volume(23),
+nil)
+
+entry!('beame2017time',
+  title('Time-Space Tradeoffs for Learning from Small Test Spaces: Learning Low Degree Polynomial Functions'),
+  author('Paul Beame and Shayan Oveis Gharan and Xin Yang'),
+  arxiv(2017),
+nil)
+
+entry!('garg2017extractor',
+  title('Extractor-Based Time-Space Lower Bounds for Learning'),
+  author('Sumegha Garg and Ran Raz and Avishay Tal'),
+  arxiv(2017),
+nil)
+
+entry!('steinhardt2017clique',
+  title('Does robustness imply tractability? {A} lower bound for planted clique in the semi-random model'),
+  unusualCapitalization('A'),
+  author('Jacob Steinhardt'),
+  arxiv(2017),
+nil)
+
+entry!('madry2017towards',
+  title('Towards deep learning models resistant to adversarial attacks'),
+  author('Aleksander Madry and Aleksandar Makelov and Ludwig Schmidt and Dimitris Tsipras and Adrian Vladu'),
+  arxiv(2017),
+nil)
+
+entry!('carlini2017adversarial',
+  title('Adversarial Examples Are Not Easily Detected: Bypassing Ten Detection Methods'),
+  author('Nicholas Carlini and David Wagner'),
+  arxiv(2017),
+nil)
+
+entry!('evtimov2017robust',
+  title('Robust Physical-World Attacks on Machine Learning Models'),
+  author('Ivan Evtimov and Kevin Eykholt and Earlence Fernandes and Tadayoshi Kohno and Bo Li and Atul Prakash and Amir Rahmati and Dawn Song'),
+  arxiv(2017),
+nil)
+
+entry!('xu2017feature',
+  title('Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks'),
+  author('Weilin Xu and David Evans and Yanjun Qi'),
+  arxiv(2017),
+nil)
+
+entry!('kos2017adversarial',
+  title('Adversarial examples for generative models'),
+  author('Jernej Kos and Ian Fischer and Dawn Song'),
+  arxiv(2017),
+nil)
+
+entry!('papernot2016distillation',
+  title('Distillation as a defense to adversarial perturbations against deep neural networks'),
+  author('Nicolas Papernot and Patrick McDaniel and Xi Wu and Somesh Jha and Ananthram Swami'),
+  inproceedings('IEEE Symposium on Security and Privacy', 2016),
+  pages(582,597),
+nil)
+
+entry!('carlini2016defensive',
+  title('Defensive distillation is not robust to adversarial examples'),
+  author('Nicholas Carlini and David Wagner'),
+  arxiv(2016),
+nil)
+
+entry!('papernot2017practical',
+  title('Practical black-box attacks against machine learning'),
+  author('Nicolas Papernot and Patrick McDaniel and Ian Goodfellow and Somesh Jha and Berkay Z. Celik and Ananthram Swami'),
+  inproceedings('Asia Conference on Computer and Communications Security', 2017),
+  pages(506,519),
+nil)
+
+entry!('russell1991right',
+  title('Do the right thing: studies in limited rationality'),
+  author('Stuart Russell and Eric Wefald'),
+  book('MIT Press', 1991),
+nil)
+
+entry!('daspremont2008smooth',
+  author('Alexandre d{\\\'}Aspremont'),
+  title('Smooth  optimization  with  approximate  gradient'),
+  article('SIAM Journal on Optimization', 2008, 19),
+  number(3),
+  pages(1171, 1183),
+nil)
+
+entry!('devolder2014first',
+  title('First-order methods of smooth convex optimization with inexact oracle'),
+  author('Olivier Devolder and Fran{\c{c}}ois Glineur and Yurii Nesterov'),
+  article('Mathematical Programming', 2014, 146),
+  pages(37,75),
+nil)
+
+entry!('narodytska2017verifying',
+  author('Nina Narodytska and Shiva Prasad Kasiviswanathan and Leonid Ryzhyk and Mooly Sagiv and Toby Walsh'),
+  title('Verifying Properties of Binarized Deep Neural Networks'),
+  arxiv(2017, '1709.06662'),
+  url('http://arxiv.org/pdf/1709.06662.pdf'),
+nil)
+
+entry!('adamczak2015concentration',
+  title('Concentration inequalities for non-{L}ipschitz functions with bounded derivatives of higher order'),
+  author('Rados{\l{}}aw Adamczak and Pawe{\l{}} Wolff'),
+  article('Probability Theory and Related Fields', 2015, 162),
+  pages(531, 586),
+nil)
+
+entry!('latala2006estimates',
+  title('Estimates of moments and tails of {G}aussian chaoses'),
+  author('Rafa{\l{}} Lata{\l{}}a'),
+  article('The Annals of Probability', 2006, 34),
+  number(6), pages(2315, 2331),
+  publisher('Institute of Mathematical Statistics'),
+nil)
+
+entry!('bakry1985diffusions',
+  title('Diffusions hypercontractives'),
+  author('Dominique Bakry and Michel {\\\'E}mery'),
+  incollection('S{\\\'e}minaire de Probabilit{\\\'e}s XIX 1983/84', 1985),
+  pages(177,206),
+nil)
+
+entry!('bardet2018functional',
+  title('Functional inequalities for {G}aussian convolutions of compactly supported measures: explicit bounds and dimension dependence'),
+  author('Jean-Baptiste Bardet and Natha{\"e}l Gozlan and Florent Malrieu and Pierre-Andr{\\\'e} Zitt'),
+  article('Bernoulli', 2018, 24),
+  pages(333,353),
+  publisher('Bernoulli Society for Mathematical Statistics and Probability'),
+nil)
+
+entry!('gromov1983topological',
+  title('A topological application of the isoperimetric inequality'),
+  author('Mikhail Gromov and Vitali D. Milman'),
+  article('American Journal of Mathematics', 1983, 105),
+  number(4),
+  pages(843,854),
+nil)
+
+entry!('bobkov1997poincare',
+  author('S. Bobkov and M. Ledoux'),
+  title('{P}oincar{\\\'e}\'s inequalities and {T}alagrand\'s concentration phenomenon for the exponential distribution'),
+  article('Probability Theory and Related Fields', 1997, 107),
+  number(3),
+  pages(383,400),
+nil)
+
+entry!('carlini2017towards',
+  author('Nicholas Carlini and David Wagner'),
+  title('Towards evaluating the robustness of neural networks'),
+  inproceedings('IEEE Symposium on Security and Privacy', 2017),
+  pages(39,57),
+nil)
+
+entry!('sivaraman2014experimental',
+  author('Anirudh Sivaraman and Keith Winstein and Pratiksha Thaker and Hari Balakrishnan'),
+  title('An Experimental Study of the Learnability of Congestion Control'),
+  inproceedings('SIGCOMM', 2014),
+nil)
+
+entry!('winstein2013tcp',
+  author('Keith Winstein and Hari Balakrishnan'),
+  title('{TCP} ex Machina: Computer-Generated Congestion Control'),
+  inproceedings('SIGCOMM', 2013),
+nil)
+
+entry!('bernardo2003variational',
+  title('The variational {B}ayesian {EM} algorithm for incomplete data: with application to scoring graphical model structures'),
+  author('Matthew J. Beal and Zoubin Ghahramani'),
+  article('Bayesian Statistics', 2003),
+nil)
+
+entry!('mackey2014matrix',
+  title('Matrix concentration inequalities via the method of exchangeable pairs'),
+  author('Lester Mackey and Michael I. Jordan and Richard Y. Chen and Brendan Farrell and Joel A. Tropp'),
+  article('The Annals of Probability', 2014, 42),
+  number(3), 
+  pages(906,945),
+  publisher('Institute of Mathematical Statistics'),
+nil)
+
+entry!('tropp2015introduction',
+  title('An introduction to matrix concentration inequalities'),
+  author('Joel A. Tropp'),
+  article('Foundations and Trends in Machine Learning', 2015, 8), 
+  pages(1, 230),
+  publisher('Now Publishers, Inc.'),
+nil)
+
+
+entry!('moitra2010settling',
+  author('Ankur Moitra and Gregory Valiant'),
+  title('Settling the polynomial learnability of mixtures of {G}aussians'),
+  focs(2010),
+nil)
+
+entry!('belkin2010polynomial',
+  author('Mikhail Belkin and Kaushik Sinha'),
+  title('Polynomial learning of distribution families'),
+  focs(2010),
+nil)
+
+entry!('bhaskara2014uniqueness',
+  author('Aditya Bhaskara and Moses Charikar and Aravindan Vijayaraghavan'),
+  title('Uniqueness of tensor decompositions with applications to polynomial identifiability'),
+  colt(2014),
+nil)
+
+entry!('goyal2014fourier',
+  author('Navin Goyal and Santosh Vempala and Ying Xiao'),
+  title('Fourier {PCA} and robust tensor decomposition'),
+  stoc(2014),
+nil)
+
+entry!('ge2015learning',
+  author('Rong Ge and Qingqing Huang and Sham M. Kakade'),
+  title('Learning mixtures of {G}aussians in high dimensions'),
+  stoc(2015),
+nil)
+
+entry!('bhaskara2014smoothed',
+  author('Aditya Bhaskara and Moses Charikar and Ankur Moitra and Aravindan Vijayaraghavan'),
+  title('Smoothed analysis of tensor decompositions'),
+  stoc(2014),
+nil)
+
+entry!('anderson2014blessing',
+  author('Joseph Anderson and Mikhail Belkin and Navin Goyal and Luis Rademacher and James R. Voss'),
+  title('The more, the merrier: the blessing of dimensionality for learning large {G}aussian mixtures'),
+  colt(2014),
+nil)
+
+entry!('bishop2002art',
+  title('The art and science of computer security'),
+  author('Matthew A. Bishop'),
+  book('Addison-Wesley Longman Publishing Co., Inc.', 2002),
+nil)
+
+entry!('johnson1978densest',
+  author('D. S. Johnson and F. P. Preparata'),
+  title('The densest hemisphere problem'),
+  article('Theoretical Computer Science', 1978, 6),
+  pages(93, 107),
+nil)
+
+entry!('tukey1975mathematics',
+  author('John W. Tukey'),
+  title('Mathematics  and  picturing  of data'),
+  inproceedings('ICM', 1975), 
+  volume(6), pages(523, 531),
+nil)
+
+entry!('knight2006unsupervised',
+  title('Unsupervised analysis for decipherment problems'),
+  author('Kevin Knight and Anish Nair and Nishit Rathod and Kenji Yamada'),
+  acl(2006),
+nil)
+
+entry!('manski1988identification',
+  title('Identification of binary response models'),
+  author('Charles F. Manski'),
+  jasa(1988, 83), number(403), 
+  pages(729,738),
+  publisher('Taylor \& Francis'),
+nil)
+
+entry!('manski1985semiparametric',
+  title('Semiparametric analysis of discrete response: {A}symptotic properties of the maximum score estimator'),
+  author('Charles F. Manski'),
+  article('Journal of Econometrics', 1985, 27), number(3),
+  pages(313,333),
+nil)
+
+entry!('newey1994asymptotic',
+  title('The asymptotic variance of semiparametric estimators'),
+  author('Whitney K. Newey'),
+  article('Econometrica: Journal of the Econometric Society', 1994),
+  pages(1349,1382),
+nil)
+
+entry!('adelman2008sixth',
+	author('Jennifer K. Adelman-McCarthy and Marcel A. Ag{\"u}eros and Sahar S. Allam and Carlos Allende Prieto and Kurt S. J. Anderson and Scott F. Anderson and James Annis and Neta A. Bahcall and C. A. L. Bailer-Jones, and Ivan K. Baldry and others'),
+	article('The Astrophysical Journal Supplement Series', 2008, 175),
+	number(2),
+	publisher('IOP Publishing'),
+	title('The sixth data release of the {S}loan digital sky survey'),
+nil)
+
+entry!('mcmahan2013ad',
+	author('Brendan H. Mc{M}ahan and Gary Holt and D Sculley and Michael Young and Dietmar Ebner and Julian Grady and Lan Nie and Todd Phillips and Eugene Davydov and Daniel Golovin and others'),
+	kdd(2013),
+	title('Ad click prediction: a view from the trenches'),
+nil)
+
+entry!('assouad1983deux',
+  title('Deux remarques sur l\'estimation'),
+  author('Patrice Assouad'),
+  article('Comptes rendus des s{\\\'e}ances de l\'Acad{\\\'e}mie des sciences. S{\\\'e}rie 1, Math{\\\'e}matique', 1983, 296),
+  number(23),
+  pages(1021,1024),
+  publisher('Gauthier-Villars'),
+nil)
+
+entry!('maronna1976robust',
+  title('Robust estimation of multivariate location and scatter'),
+  annalsOfStatistics(1976, 4), number(1), pages(51, 67),
+  author('Ricardo A. Maronna'),
+nil)
+
+entry!('gordon1993novel',
+  title('Novel approach to nonlinear/non-{G}aussian {B}ayesian state estimation'),
+  author('Neil J. Gordon and David J. Salmond and Adrian F. M. Smith'),
+  article('IEE Proceedings F (Radar and Signal Processing)', 1993, 140),
+  number(2),
+  pages(107,113),
+nil)
+
+entry!('gilks2001following',
+  title('Following a moving target--{M}onte {C}arlo inference for dynamic {B}ayesian models'),
+  author('Walter R. Gilks and Carlo Berzuini'),
+  article('Journal of the Royal Statistical Society: Series B (Statistical Methodology)', 
+    2001, 63),
+  number(1), pages(127,146),
+nil)
+
+entry!('lin2013lookahead',
+  title('Lookahead strategies for sequential {M}onte {C}arlo'),
+  author('Ming Lin and Rong Chen and Jun S. Liu'),
+  article('Statistical Science', 2013, 28),
+  number(1),
+  pages(69,94),
+nil)
+
+entry!('doucet2000sequential',
+  title('On sequential {M}onte {C}arlo sampling methods for {B}ayesian filtering'),
+  author('Arnaud Doucet and Simon Godsill and Christophe Andrieu'),
+  article('Statistics and computing', 2000, 10),
+  number(3),
+  pages(197,208),
 nil)

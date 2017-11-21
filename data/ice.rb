@@ -61,3 +61,12 @@ entry!('yeh2009sikuli',
   author('Tom Yeh and Tsung-Hsiang Chang and Rob Miller'),
   uist(2009),
 nil)
+
+################################################
+# Web agent paper
+
+entry!('mnih2016asynchronous',
+  title('Asynchronous Methods for Deep Reinforcement Learning'),
+  author('Volodymyr Mnih and Adri{\`{a}} Puigdom{\`{e}}nech Badia and Mehdi Mirza and Alex Graves and Timothy P. Lillicrap and Tim Harley and David Silver and Koray Kavukcuoglu'),
+  icml(2016),
+nil)
