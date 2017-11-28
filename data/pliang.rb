@@ -5183,7 +5183,7 @@ entry!('schoenberg1942positive',
   author('Isaac J Schoenberg'),
 nil)
 
-entry!('jordan99variational',
+entry!('jordan1999variational',
   machineLearning(1999,37),
   title('An Introduction to Variational Methods for Graphical Models'),
   author('Michael I. Jordan and Zoubin Ghahramani and Tommi S.  Jaakkola and Lawrence K. Saul'),
@@ -12167,4 +12167,28 @@ entry!('doucet2000sequential',
   article('Statistics and computing', 2000, 10),
   number(3),
   pages(197,208),
+nil)
+
+entry!('metropolis1953equation',
+  title('Equation of state calculations by fast computing machines'),
+  author('Nicholas Metropolis and Arianna W. Rosenbluth and Marshall N. Rosenbluth and Augusta H. Teller and Edward Teller'),
+  article('The journal of chemical physics', 1953, 21),
+  number(6),
+  pages(1087,1092),
+  publisher('AIP'),
+nil)
+
+entry!('hastings1970monte',
+  title('{M}onte {C}arlo sampling methods using {M}arkov chains and their applications'),
+  author('Keith W. Hastings'),
+  article('Biometrika', 1970, 57),
+  number(1),
+  pages(97,109),
+  publisher('Biometrika Trust'),
+nil)
+
+entry!('minka2001ep',
+  author('Thomas P. Minka'),
+  title('Expectation propagation for approximate {B}ayesian inference'),
+  uai(2001), pages(362,369),
 nil)
