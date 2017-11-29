@@ -11309,10 +11309,11 @@ entry!('hashimoto2017transformation',
   nips(2017),
 nil)
 
-entry!('kakade2017long',
-  author('Sham Kakade and Percy Liang and Vatsal Sharan and Gregory Valiant'),
-  title('Learning {HMM}s with Long-Term Dependencies'),
+entry!('sharan2017overcomplete',
+  author('Vatsal Sharan and Sham Kakade and Percy Liang and Gregory Valiant'),
+  title('Learning Overcomplete {HMM}s'),
   nips(2017),
+  url('https://arxiv.org/pdf/1711.02309.pdf'),
 nil)
 
 entry!('jia2017adversarial',
