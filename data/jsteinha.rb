@@ -12,14 +12,6 @@ entry!('tramer2017ensemble',
   author('Florian Tram{\`e}r and Alexey Kurakin and Nicolas Papernot and Dan Boneh and Patrick McDaniel'),
 nil)
 
-entry!('papernot2016distillation',
-  inproceedings('Security and Privacy (SP), 2016 IEEE Symposium on', 2016),
-  title('Distillation as a defense to adversarial perturbations against deep neural networks'),
-  author('Nicolas Papernot and Patrick McDaniel and Xi Wu and Somesh Jha and Ananthram Swami'),
-  pages(582, 597),
-  organization('IEEE'),
-nil)
-
 entry!('nayebi2017biologically',
   arxiv(2017, '1703.09202'),
   title('Biologically inspired protection of deep networks from adversarial attacks'),
@@ -246,4 +238,10 @@ entry!('balcan2008discriminative',
   author('Maria-Florina Balcan and Avrim Blum and Santosh Vempala'),
   title('A discriminative framework for clustering via similarity functions'),
   stoc(2008),
+nil)
+
+entry!('kothari2017agnostic',
+  author('Pravesh Kothari and Jacob Steinhardt'),
+  title('Better Agnostic Clustering via Tensor Norms'),
+  arxiv(2017),
 nil)
