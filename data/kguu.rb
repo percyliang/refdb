@@ -222,3 +222,8 @@ entry!('nallapati2016abstractive',
   title('Abstractive text summarization using sequence-to-sequence rnns and beyond'),
   author('Ramesh Nallapati and Bowen Zhou and Caglar Gulcehre and Bing Xiang and others'),
 nil)
+entry!('doersch2016tutorial',
+  arxiv(2016, '1606.05908'),
+  title('Tutorial on variational autoencoders'),
+  author('Carl Doersch'),
+nil)
