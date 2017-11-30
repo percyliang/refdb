@@ -9453,7 +9453,7 @@ nil)
 
 entry!('rajpurkar2016squad',
   author('Pranav Rajpurkar and Jian Zhang and Konstantin Lopyrev and Percy Liang'),
-  title('SQuAD: 100,000+ Questions for Machine Comprehension of Text'),
+  title('{SQuAD}: 100,000+ Questions for Machine Comprehension of Text'),
   emnlp(2016),
   award('Best resource paper award'),
   url('https://arxiv.org/pdf/1606.05250.pdf'),
