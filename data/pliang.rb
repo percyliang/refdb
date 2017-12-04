@@ -5183,7 +5183,7 @@ entry!('schoenberg1942positive',
   author('Isaac J Schoenberg'),
 nil)
 
-entry!('jordan99variational',
+entry!('jordan1999variational',
   machineLearning(1999,37),
   title('An Introduction to Variational Methods for Graphical Models'),
   author('Michael I. Jordan and Zoubin Ghahramani and Tommi S.  Jaakkola and Lawrence K. Saul'),
@@ -9453,7 +9453,7 @@ nil)
 
 entry!('rajpurkar2016squad',
   author('Pranav Rajpurkar and Jian Zhang and Konstantin Lopyrev and Percy Liang'),
-  title('SQuAD: 100,000+ Questions for Machine Comprehension of Text'),
+  title('{SQuAD}: 100,000+ Questions for Machine Comprehension of Text'),
   emnlp(2016),
   award('Best resource paper award'),
   url('https://arxiv.org/pdf/1606.05250.pdf'),
@@ -11309,10 +11309,11 @@ entry!('hashimoto2017transformation',
   nips(2017),
 nil)
 
-entry!('kakade2017long',
-  author('Sham Kakade and Percy Liang and Vatsal Sharan and Gregory Valiant'),
-  title('Learning {HMM}s with Long-Term Dependencies'),
+entry!('sharan2017overcomplete',
+  author('Vatsal Sharan and Sham Kakade and Percy Liang and Gregory Valiant'),
+  title('Learning Overcomplete {HMM}s'),
   nips(2017),
+  url('https://arxiv.org/pdf/1711.02309.pdf'),
 nil)
 
 entry!('jia2017adversarial',
@@ -11727,6 +11728,83 @@ entry!('sturm1999guide',
   pages(625,653),
 nil)
 
+
+entry!('balakrishnan2017sparse',
+  title('Computationally Efficient Robust Sparse Estimation in High Dimensions'),
+  author('Sivaraman Balakrishnan and Simon S. Du and Jerry Li and Aarti Singh'),
+  colt(2017),
+  pages(169,212),
+nil)
+
+entry!('diakonikolas2017learning',
+  title('Learning Geometric Concepts with Nasty Noise'),
+  author('Ilias Diakonikolas and Daniel M. Kane and Alistair Stewart'),
+  arxiv(2017),
+nil)
+
+entry!('diakonikolas2017robustly',
+  title('Robustly Learning a {G}aussian: Getting Optimal Error, Efficiently'),
+  author('Ilias Diakonikolas and Gautam Kamath and Daniel M. Kane and Jerry Li and Ankur Moitra and Alistair Stewart'),
+  arxiv(2017),
+nil)
+
+entry!('diakonikolas2016bayes',
+  title('Robust learning of fixed-structure {B}ayesian networks'),
+  author('Ilias Diakonikolas and Daniel Kane and Alistair Stewart'),
+  arxiv(2016),
+nil)
+
+entry!('diakonikolas2016statistical',
+  title('Statistical query lower bounds for robust estimation of high-dimensional {G}aussians and {G}aussian mixtures'),
+  author('Ilias Diakonikolas and Daniel M. Kane and Alistair Stewart'),
+  arxiv(2016),
+nil)
+
+entry!('kane2017robust',
+  title('Robust polynomial regression up to the information theoretic limit'),
+  author('Daniel Kane and Sushrut Karmalkar and Eric Price'),
+  arxiv(2017),
+nil)
+
+entry!('you2017provable',
+  title('Provable Self-Representation Based Outlier Detection in a Union of Subspaces'),
+  author('Chong You and Daniel P. Robinson and Ren{\'e} Vidal'),
+  arxiv(2017),
+nil)
+
+entry!('ashtiani2017sample',
+  title('Sample-Efficient Learning of Mixtures'),
+  author('Hassan Ashtiani and Shai Ben-David and Abbas Mehrabian'),
+  arxiv(2017),
+nil)
+
+
+entry!('li2017sparse',
+  title('Robust Sparse Estimation Tasks in High Dimensions'),
+  author('Jerry Li'),
+  arxiv(2017),
+nil)
+
+entry!('li2017robust',
+  title('Robust and Proper Learning for Mixtures of {G}aussians via Systems of Polynomial Inequalities'),
+  author('Jerry Li and Ludwig Schmidt'),
+  colt(2017),
+  pages(1302, 1382),
+nil)
+
+entry!('meister2017data',
+  title('A Data Prism: Semi-Verified Learning in the Small-Alpha Regime'),
+  author('Michela Meister and Gregory Valiant'),
+  arxiv(2017),
+nil)
+
+entry!('khintchine1923uber',
+  title('{\\"U}ber dyadische Br{\\"u}che'),
+  author('Aleksandr Khintchine'),
+  article('Mathematische Zeitschrift',1923, 18),
+  pages(109,116),
+nil)
+
 entry!('raz2016fast',
   title('Fast learning requires good memory: {A} time-space lower bound for parity learning'),
   unusualCapitalization('A'),
@@ -12090,4 +12168,28 @@ entry!('doucet2000sequential',
   article('Statistics and computing', 2000, 10),
   number(3),
   pages(197,208),
+nil)
+
+entry!('metropolis1953equation',
+  title('Equation of state calculations by fast computing machines'),
+  author('Nicholas Metropolis and Arianna W. Rosenbluth and Marshall N. Rosenbluth and Augusta H. Teller and Edward Teller'),
+  article('The journal of chemical physics', 1953, 21),
+  number(6),
+  pages(1087,1092),
+  publisher('AIP'),
+nil)
+
+entry!('hastings1970monte',
+  title('{M}onte {C}arlo sampling methods using {M}arkov chains and their applications'),
+  author('Keith W. Hastings'),
+  article('Biometrika', 1970, 57),
+  number(1),
+  pages(97,109),
+  publisher('Biometrika Trust'),
+nil)
+
+entry!('minka2001ep',
+  author('Thomas P. Minka'),
+  title('Expectation propagation for approximate {B}ayesian inference'),
+  uai(2001), pages(362,369),
 nil)
