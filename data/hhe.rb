@@ -162,3 +162,22 @@ entry!('clark1986collaborative',
   author('Herbert H. Clark and Deanna Wilkes-Gibbs'),
   article('Cognition', 1986, 22),
 )
+
+entry!('shen2017style',
+  title('Style Transfer from Non-Parallel Text by Cross-Alignment'),
+  author('Tianxiao Shen and Tao Lei and Regina Barzilay and Tommi Jaakkola'),
+  nips(2017),
+)
+
+entry!('fu2018style',
+  title('Style Transfer in Text: Exploration and Evaluation'),
+  author('Zhenxin Fu and Xiaoye Tan and Nanyun Peng and Dongyan Zhao and Rui Yan'),
+  aaai(2018),
+)
+
+entry!('vincent2008denoise',
+  title('Extracting and Composing Robust Features with Denoising Autoencoders'),
+  author('Pascal Vincent and Hugo Larochelle and Yoshua Bengio and and Pierre-Antoine Manzagol'),
+  icml(2008),
+)
+
