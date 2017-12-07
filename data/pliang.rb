@@ -12096,7 +12096,7 @@ entry!('manski1988identification',
 nil)
 
 entry!('manski1985semiparametric',
-  title('Semiparametric analysis of discrete response: {A}symptotic properties of the maximum score estimator'),
+  title('Semiparametric analysis of discrete response: Asymptotic properties of the maximum score estimator'),
   author('Charles F. Manski'),
   article('Journal of Econometrics', 1985, 27), number(3),
   pages(313,333),
