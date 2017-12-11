@@ -181,3 +181,44 @@ entry!('vincent2008denoise',
   icml(2008),
 )
 
+entry!('lample2017unsupervised',
+  title('Unsupervised Machine Translation Using Monolingual Corpora Only'),
+  author('Guillaume Lample and Ludovic Denoyer and Marc\'Aurelio Ranzato'),
+  arxiv(2017, '1711.00043'),
+)
+
+entry!('zhu2017cycle',
+  title('Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks'),
+  author('Zhu, Jun-Yan and Park, Taesung and Isola, Phillip and Efros, Alexei A'),
+  iccv(2017),
+)
+
+entry!('artetxe2017nmt',
+  title('Unsupervised Neural Machine Translation'),
+  author('Mikel Artetxe and Gorka Labaka and Eneko Agirre and Kyunghyun Cho'),
+  arxiv(2017, '1710.11041'),
+)
+
+entry!('pavlick2017style',
+  title('An Empirical Analysis of Formality in Online Communication'),
+  author('Ellie Pavlick and Joel Tetreault'),
+  tacl(2017, 4),
+)
+
+entry!('recasens2013bias',
+  title('Linguistic Models for Analyzing and Detecting Biased Language'),
+  author('Marta Recasens and Cristian Danescu-Niculescu-Mizil and Dan Jurafsky'),
+  acl(2013),
+)
+
+entry!('newman2003lying',
+  title('Lying Words: Predicting Deception From Linguistic Styles'),
+  author('Matthew L. Newman and James W. Pennebaker and Diane S. Berry and J. Michael Richards'),
+  article('Personality and Social Psychology Bulletin', 2003, 29),
+)
+
+entry!('schwartz2017roc',
+  title('The Effect of Different Writing Tasks on Linguistic Style: A Case Study of the {ROC} Story Cloze Task'),
+  author('Roy Schwartz and Maarten Sap and Yannis Konstas and Li Zilles and Yejin Choi and Noah A. Smith'),
+  conll(2017),
+)
