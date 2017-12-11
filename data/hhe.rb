@@ -222,3 +222,16 @@ entry!('schwartz2017roc',
   author('Roy Schwartz and Maarten Sap and Yannis Konstas and Li Zilles and Yejin Choi and Noah A. Smith'),
   conll(2017),
 )
+
+entry!('igor2017attribute',
+  title('Improved Neural Text Attribute Transfer with Non-parallel Data'),
+  author('Igor Melnyk and Cicero Nogueira dos Santos and Kahini Wadhawan and Inkit Padhi and Abhishek Kumar'),
+  arxiv(2017, '1711.09395'),
+)
+
+entry!('guillaume2017fader',
+  title('Fader Networks: Manipulating Images by Sliding Attributes'),
+  author('Guillaume Lample and Neil Zeghidour and Nicolas Usunier and Antoine Bordes and Ludovic Denoyer and Marc\'Aurelio Ranzato'),
+  nips(2017),
+)
+
