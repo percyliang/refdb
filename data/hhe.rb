@@ -234,4 +234,3 @@ entry!('guillaume2017fader',
   author('Guillaume Lample and Neil Zeghidour and Nicolas Usunier and Antoine Bordes and Ludovic Denoyer and Marc\'Aurelio Ranzato'),
   nips(2017),
 )
-
