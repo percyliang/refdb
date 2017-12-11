@@ -222,3 +222,33 @@ entry!('schwartz2017roc',
   author('Roy Schwartz and Maarten Sap and Yannis Konstas and Li Zilles and Yejin Choi and Noah A. Smith'),
   conll(2017),
 )
+
+entry!('lewis2017deal',
+  title('Deal or No Deal? End-to-End Learning for Negotiation Dialogues'),
+  author('Mike Lewis and Denis Yarats and Yann N. Dauphin and Devi Parikh and Dhruv Batra'),
+  emnlp(2017),
+)
+
+entry!('visdial',
+  title('{V}isual {D}ialog'),
+  author('Abhishek Das and Satwik Kottur and Khushi Gupta and Avi Singh and Deshraj Yadav and Jos\'e M.F. Moura and Devi Parikh and Dhruv Batra'),
+  cvpr(2017),
+)
+
+entry!('lu2017best',
+  title('Best of Both Worlds: Transferring Knowledge from Discriminative Learning to a Generative Visual Dialog Model'),
+  author('Jiasen Lu and Anitha Kannan and Jianwei Yang and Devi Parikh and Dhruv Batra'),
+  nips(2017),
+)
+
+entry!('goodfellow2013maxout',
+  title('Maxout networks'),
+  author('Ian J. Goodfellow and David Warde-farley and Mehdi Mirza and Aaron Courville and Yoshua Bengio'),
+  icml(2013),
+)
+
+entry!('matthew2012adadelta',
+  title('{ADADELTA:} An Adaptive Learning Rate Method'),
+  author('Matthew D. Zeiler'),
+  arxiv(2012, '1212.5701'),
+)
