@@ -70,3 +70,21 @@ entry!('mnih2016asynchronous',
   author('Volodymyr Mnih and Adri{\`{a}} Puigdom{\`{e}}nech Badia and Mehdi Mirza and Alex Graves and Timothy P. Lillicrap and Tim Harley and David Silver and Koray Kavukcuoglu'),
   icml(2016),
 nil)
+
+entry!('brys2015reinforcement',
+  title('Reinforcement Learning from Demonstration through Shaping'),
+  author('Tim Brys and Anna Harutyunyan and Halit Bener Suay and Sonia Chernova and Matthew E. Taylor and Ann Now{\'{e}}'),
+  ijcai(2015),
+nil)
+
+entry!('hussein2017deep',
+  title('Deep reward shaping from demonstrations'),
+  author('Ahmed Hussein and Eyad Elyan and Mohamed Medhat Gaber and Chrisina Jayne'),
+  inproceedings('International Joint Conference on Neural Networks', 2017),
+nil)
+
+entry!('levine2013guided',
+  title('Guided Policy Search'),
+  author('Sergey Levine and Vladlen Koltun'),
+  icml(2013),
+nil)
