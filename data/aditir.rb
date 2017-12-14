@@ -1,11 +1,3 @@
-entry!('carlini2016defensive',
-  arxiv(2016, '1607.04311'),
-  title('Defensive distillation is not robust to adversarial examples'),
-  author('Nicholas Carlini and David Wagner'),
-nil)
-
-
-
 entry!('bastani2016measuring',
   nips(2016),
   title('Measuring neural net robustness with constraints'),
