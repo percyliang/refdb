@@ -174,8 +174,27 @@ entry!('weissenborn2017fastqa',
   conll(2017),
 nil)
 
+entry!('radford2016dcgan',
+  author('Alec Radford and Luke Metz and Soumith Chintala'),
+  title('Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks'),
+  arxiv(2016),
+nil)
 
+entry!('salimans2016gan',
+  author('Tim Salimans and Ian Goodfellow and Wojciech Zaremba and Vicki Cheung and Alec Radford and Xi Chen'),
+  title('Improved Techniques for Training GANs'),
+  nips(2016),
+nil)
 
+entry!('arjovsky2017gan',
+  author('Martin Arjovsky and Leon Bottou'),
+  title('Towards Principled Methods for Training Generative Adversarial Networks'),
+  iclr(2017),
+nil)
 
-
+entry!('bousmalis2017domain',
+  author('Konstantinos Bousmalis and Nathan Silberman and David Dohan and Dumitru Erhan and Dilip Krishnan'),
+  title('Unsupervised Pixel-Level Domain Adaptation with Generative Adversarial Networks'),
+  cvpr(2017),
+nil)
 
