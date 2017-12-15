@@ -229,7 +229,7 @@ entry!('lewis2017deal',
   emnlp(2017),
 )
 
-entry!('visdial',
+entry!('das2017visdial',
   title('Visual Dialog'),
   author('Abhishek Das and Satwik Kottur and Khushi Gupta and Avi Singh and Deshraj Yadav and Jos\'e M.F. Moura and Devi Parikh and Dhruv Batra'),
   cvpr(2017),
@@ -257,4 +257,10 @@ entry!('guillaume2017fader',
   title('Fader Networks: Manipulating Images by Sliding Attributes'),
   author('Guillaume Lample and Neil Zeghidour and Nicolas Usunier and Antoine Bordes and Ludovic Denoyer and Marc\'Aurelio Ranzato'),
   nips(2017),
+)
+
+entry!('gan2017style',
+  title('StyleNet: Generating Attractive Visual Captions with Styles'),
+  author('Chuang Gan and Zhe Gan and Xiaodong He and Jianfeng Gao and Li Deng'),
+  cvpr(2017),
 )
