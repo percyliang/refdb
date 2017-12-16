@@ -198,3 +198,9 @@ entry!('bousmalis2017domain',
   cvpr(2017),
 nil)
 
+entry!('wang2012baselines',
+  author('Sida Wang and Christopher D. Manning'),
+  title('Baselines and Bigrams: Simple, Good Sentiment and Topic Classification'),
+  acl(2012),
+nil)
+
