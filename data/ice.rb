@@ -88,3 +88,21 @@ entry!('levine2013guided',
   author('Sergey Levine and Vladlen Koltun'),
   icml(2013),
 nil)
+
+entry!('ross2014reinforce',
+  title('Reinforcement and Imitation Learning via Interactive No-Regret Learning'),
+  author('St{\'{e}}phane Ross and J. Andrew Bagnell'),
+  arxiv(2014, '1406.5979'),
+nil)
+
+entry!('sun2017deeply',
+  title('Deeply AggreVaTeD: Differentiable Imitation Learning for Sequential Prediction'),
+  author('Wen Sun and Arun Venkatraman and Geoffrey J. Gordon and Byron Boots and J. Andrew Bagnell'),
+  icml(2017),
+nil)
+
+entry!('ziebart2008maximum',
+  title('Maximum Entropy Inverse Reinforcement Learning'),
+  author('Brian D. Ziebart and Andrew L. Maas and J. Andrew Bagnell and Anind K. Dey'),
+	aaai(2008),
+nil)
