@@ -242,6 +242,13 @@ entry!('hester2017learning',
   author('Todd Hester and Matej Vecerik and Olivier Pietquin and Marc Lanctot and Tom Schaul and Bilal Piot and Andrew Sendonaris and Gabriel Dulac-Arnold and Ian Osband and John Agapiou and others'),
 nil)
 
+# This is their new version
+entry!('hester2018deep',
+  aaai(2018),
+  title('Deep {Q}-learning from Demonstrations'),
+  author('Todd Hester and Matej Vecerik and Olivier Pietquin and Marc Lanctot and Tom Schaul and Bilal Piot and Andrew Sendonaris and Gabriel Dulac{-}Arnold and Ian Osband and John Agapiou and Joel Z. Leibo and Audrunas Gruslys'),
+nil)
+
 entry!('kim2013learning',
   nips(2013),
   title('Learning from limited demonstrations'),
