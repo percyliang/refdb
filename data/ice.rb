@@ -106,3 +106,10 @@ entry!('ziebart2008maximum',
   author('Brian D. Ziebart and Andrew L. Maas and J. Andrew Bagnell and Anind K. Dey'),
 	aaai(2008),
 nil)
+
+entry!('hosu2016playing',
+  title('Playing {A}tari Games with Deep Reinforcement Learning and Human Checkpoint Replay'),
+  author('Ionel-Alexandru Hosu and Traian Rebedea'),
+  inproceedings('Evaluating General Purpose AI', 2016),
+  year(2016),
+nil)
