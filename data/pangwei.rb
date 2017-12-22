@@ -373,3 +373,13 @@ entry!('moosavi2016deepfool',
   author('Seyed-Mohsen Moosavi-Dezfooli and Alhussein Fawzi and Pascal Frossard'),
   pages(2574, 2582),
 nil)
+
+entry!('lakhina2004diagnosing',
+  inproceedings('ACM SIGCOMM Computer Communication Review', 2004),
+  title('Diagnosing network-wide traffic anomalies'),
+  author('Anukool Lakhina and Mark Crovella and Christophe Diot'),
+  volume(34),
+  number(4),
+  pages(219, 230),
+  organization('ACM'),
+nil)

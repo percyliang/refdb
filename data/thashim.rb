@@ -62,7 +62,6 @@ entry!('hu2017toward',
        author('Zhiting Hu and Zichao Yang and Xiaodan Liang and Ruslan Salakhutdinov and Eric P Xing'),
        title('Toward Controlled Generation of Text'),
        icml(2017),
-       year(2017),
        nil)
 
 entry!('ficler2017controlling',

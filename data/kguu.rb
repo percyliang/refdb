@@ -113,7 +113,6 @@ entry!('sutton1998reinforcement',
   book('MIT Press', 1998),
   volume(1),
   number(1),
-  year(1998),
   publisher('MIT press Cambridge'),
 nil)
 
@@ -221,4 +220,72 @@ entry!('nallapati2016abstractive',
   arxiv(2016, '1602.06023'),
   title('Abstractive text summarization using sequence-to-sequence rnns and beyond'),
   author('Ramesh Nallapati and Bowen Zhou and Caglar Gulcehre and Bing Xiang and others'),
+nil)
+
+entry!('euzenat2007ontology',
+  title('Ontology matching'),
+  author('Jerome Euzenat and Pavel Shvaiko and others'),
+  volume(18),
+  publisher('Springer'),
+  book('Springer', 2007),
+nil)
+
+entry!('stone2014amazon',
+  title('Amazon Unveils a Listening, Talking, Music-Playing Speaker for Your Home'),
+  author('Brad Stone and Spencer Soper'),
+  book('Bloomberg L. P.', 2014),
+nil)
+
+entry!('hester2017learning',
+  arxiv(2017, '1704.03732'),
+  title('Learning from Demonstrations for Real World Reinforcement Learning'),
+  author('Todd Hester and Matej Vecerik and Olivier Pietquin and Marc Lanctot and Tom Schaul and Bilal Piot and Andrew Sendonaris and Gabriel Dulac-Arnold and Ian Osband and John Agapiou and others'),
+nil)
+
+entry!('kim2013learning',
+  nips(2013),
+  title('Learning from limited demonstrations'),
+  author('Beomjoon Kim and Amir massoud Farahmand and Joelle Pineau and Doina Precup'),
+  pages(2859, 2867),
+nil)
+
+entry!('pomerleau1991efficient',
+  article('Neural Computation', 1991, 3),
+  title('Efficient training of artificial neural networks for autonomous navigation'),
+  author('Dean A Pomerleau'),
+  number(1),
+  pages(88, 97),
+  publisher('MIT Press'),
+nil)
+
+entry!('goodfellow2016deep',
+  title('Deep Learning'),
+  author('Ian Goodfellow and Yoshua Bengio and Aaron Courville'),
+  book('MIT Press', 2016),
+  publisher('MIT Press'),
+  note('\url{http://www.deeplearningbook.org}'),
+nil)
+
+entry!('bitzer2010using',
+  iros(2010),
+  title('Using dimensionality reduction to exploit constraints in reinforcement learning'),
+  author('Sebastian Bitzer and Matthew Howard and Sethu Vijayakumar'),
+  pages(3219, 3225),
+  organization('IEEE'),
+nil)
+
+entry!('deka2016erica',
+  uist(2016),
+  title('ERICA: Interaction Mining Mobile Apps'),
+  author('Biplab Deka and Zifeng Huang and Ranjitha Kumar'),
+  pages(767, 776),
+  organization('ACM'),
+nil)
+
+entry!('atkeson1997robot',
+  icml(1997),
+  title('Robot learning from demonstration'),
+  author('Christopher G Atkeson and Stefan Schaal'),
+  volume(97),
+  pages(12, 20),
 nil)
