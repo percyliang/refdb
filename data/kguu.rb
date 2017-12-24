@@ -222,6 +222,12 @@ entry!('nallapati2016abstractive',
   author('Ramesh Nallapati and Bowen Zhou and Caglar Gulcehre and Bing Xiang and others'),
 nil)
 
+entry!('doersch2016tutorial',
+  arxiv(2016, '1606.05908'),
+  title('Tutorial on variational autoencoders'),
+  author('Carl Doersch'),
+nil)
+
 entry!('euzenat2007ontology',
   title('Ontology matching'),
   author('Jerome Euzenat and Pavel Shvaiko and others'),
@@ -240,6 +246,13 @@ entry!('hester2017learning',
   arxiv(2017, '1704.03732'),
   title('Learning from Demonstrations for Real World Reinforcement Learning'),
   author('Todd Hester and Matej Vecerik and Olivier Pietquin and Marc Lanctot and Tom Schaul and Bilal Piot and Andrew Sendonaris and Gabriel Dulac-Arnold and Ian Osband and John Agapiou and others'),
+nil)
+
+# This is their new version
+entry!('hester2018deep',
+  aaai(2018),
+  title('Deep {Q}-learning from Demonstrations'),
+  author('Todd Hester and Matej Vecerik and Olivier Pietquin and Marc Lanctot and Tom Schaul and Bilal Piot and Andrew Sendonaris and Gabriel Dulac{-}Arnold and Ian Osband and John Agapiou and Joel Z. Leibo and Audrunas Gruslys'),
 nil)
 
 entry!('kim2013learning',

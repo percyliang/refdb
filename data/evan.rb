@@ -32,7 +32,7 @@ nil)
 
 entry!('vecerik2017leveraging',
   title('Leveraging Demonstrations for Deep Reinforcement Learning on Robotics Problems with Sparse Rewards'),
-  author('M. Veceriki and T. Hester and J. Scholz and F. Wang and O. Pietquin and B. Piot and N. Heess and T. Rothorl and T. Lampe and M. Riedmiller'),
+  author('M. Vecerik and T. Hester and J. Scholz and F. Wang and O. Pietquin and B. Piot and N. Heess and T. Rothorl and T. Lampe and M. Riedmiller'),
   arxiv(2017, '1707.08817'),
 nil)
 
