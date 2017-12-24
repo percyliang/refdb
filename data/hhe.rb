@@ -162,3 +162,105 @@ entry!('clark1986collaborative',
   author('Herbert H. Clark and Deanna Wilkes-Gibbs'),
   article('Cognition', 1986, 22),
 )
+
+entry!('shen2017style',
+  title('Style Transfer from Non-Parallel Text by Cross-Alignment'),
+  author('Tianxiao Shen and Tao Lei and Regina Barzilay and Tommi Jaakkola'),
+  nips(2017),
+)
+
+entry!('fu2018style',
+  title('Style Transfer in Text: Exploration and Evaluation'),
+  author('Zhenxin Fu and Xiaoye Tan and Nanyun Peng and Dongyan Zhao and Rui Yan'),
+  aaai(2018),
+)
+
+entry!('vincent2008denoise',
+  title('Extracting and Composing Robust Features with Denoising Autoencoders'),
+  author('Pascal Vincent and Hugo Larochelle and Yoshua Bengio and and Pierre-Antoine Manzagol'),
+  icml(2008),
+)
+
+entry!('lample2017unsupervised',
+  title('Unsupervised Machine Translation Using Monolingual Corpora Only'),
+  author('Guillaume Lample and Ludovic Denoyer and Marc\'Aurelio Ranzato'),
+  arxiv(2017, '1711.00043'),
+)
+
+entry!('zhu2017cycle',
+  title('Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks'),
+  author('Zhu, Jun-Yan and Park, Taesung and Isola, Phillip and Efros, Alexei A'),
+  iccv(2017),
+)
+
+entry!('artetxe2017nmt',
+  title('Unsupervised Neural Machine Translation'),
+  author('Mikel Artetxe and Gorka Labaka and Eneko Agirre and Kyunghyun Cho'),
+  arxiv(2017, '1710.11041'),
+)
+
+entry!('pavlick2017style',
+  title('An Empirical Analysis of Formality in Online Communication'),
+  author('Ellie Pavlick and Joel Tetreault'),
+  tacl(2017, 4),
+)
+
+entry!('recasens2013bias',
+  title('Linguistic Models for Analyzing and Detecting Biased Language'),
+  author('Marta Recasens and Cristian Danescu-Niculescu-Mizil and Dan Jurafsky'),
+  acl(2013),
+)
+
+entry!('newman2003lying',
+  title('Lying Words: Predicting Deception From Linguistic Styles'),
+  author('Matthew L. Newman and James W. Pennebaker and Diane S. Berry and J. Michael Richards'),
+  article('Personality and Social Psychology Bulletin', 2003, 29),
+)
+
+entry!('schwartz2017roc',
+  title('The Effect of Different Writing Tasks on Linguistic Style: A Case Study of the {ROC} Story Cloze Task'),
+  author('Roy Schwartz and Maarten Sap and Yannis Konstas and Li Zilles and Yejin Choi and Noah A. Smith'),
+  conll(2017),
+)
+
+entry!('lewis2017deal',
+  title('Deal or No Deal? End-to-End Learning for Negotiation Dialogues'),
+  author('Mike Lewis and Denis Yarats and Yann N. Dauphin and Devi Parikh and Dhruv Batra'),
+  emnlp(2017),
+)
+
+entry!('das2017visdial',
+  title('Visual Dialog'),
+  author('Abhishek Das and Satwik Kottur and Khushi Gupta and Avi Singh and Deshraj Yadav and Jos\'e M.F. Moura and Devi Parikh and Dhruv Batra'),
+  cvpr(2017),
+)
+
+entry!('lu2017best',
+  title('Best of Both Worlds: Transferring Knowledge from Discriminative Learning to a Generative Visual Dialog Model'),
+  author('Jiasen Lu and Anitha Kannan and Jianwei Yang and Devi Parikh and Dhruv Batra'),
+  nips(2017),
+)
+
+entry!('matthew2012adadelta',
+  title('{ADADELTA:} An Adaptive Learning Rate Method'),
+  author('Matthew D. Zeiler'),
+  arxiv(2012, '1212.5701'),
+)
+
+entry!('igor2017attribute',
+  title('Improved Neural Text Attribute Transfer with Non-parallel Data'),
+  author('Igor Melnyk and Cicero Nogueira dos Santos and Kahini Wadhawan and Inkit Padhi and Abhishek Kumar'),
+  arxiv(2017, '1711.09395'),
+)
+
+entry!('guillaume2017fader',
+  title('Fader Networks: Manipulating Images by Sliding Attributes'),
+  author('Guillaume Lample and Neil Zeghidour and Nicolas Usunier and Antoine Bordes and Ludovic Denoyer and Marc\'Aurelio Ranzato'),
+  nips(2017),
+)
+
+entry!('gan2017style',
+  title('StyleNet: Generating Attractive Visual Captions with Styles'),
+  author('Chuang Gan and Zhe Gan and Xiaodong He and Jianfeng Gao and Li Deng'),
+  cvpr(2017),
+)

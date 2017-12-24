@@ -62,7 +62,6 @@ entry!('hu2017toward',
        author('Zhiting Hu and Zichao Yang and Xiaodan Liang and Ruslan Salakhutdinov and Eric P Xing'),
        title('Toward Controlled Generation of Text'),
        icml(2017),
-       year(2017),
        nil)
 
 entry!('ficler2017controlling',
@@ -137,3 +136,11 @@ entry!('bengio2003neural',
   pages(1137, 1155),
 nil)
 
+entry!('he2015syntax',
+       emnlp(2015),
+       title('Syntax-based Rewriting for Simultaneous Machine Translation'),
+       author('He He and Alvin Grissom II and Jordan Boyd-Graber and Hal Daume III'),
+       pages(55, 64),
+       nil)
+       
+       

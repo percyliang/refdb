@@ -61,3 +61,54 @@ entry!('yeh2009sikuli',
   author('Tom Yeh and Tsung-Hsiang Chang and Rob Miller'),
   uist(2009),
 nil)
+
+################################################
+# Web agent paper
+
+entry!('mnih2016asynchronous',
+  title('Asynchronous Methods for Deep Reinforcement Learning'),
+  author('Volodymyr Mnih and Adri{\`{a}} Puigdom{\`{e}}nech Badia and Mehdi Mirza and Alex Graves and Timothy P. Lillicrap and Tim Harley and David Silver and Koray Kavukcuoglu'),
+  icml(2016),
+nil)
+
+entry!('brys2015reinforcement',
+  title('Reinforcement Learning from Demonstration through Shaping'),
+  author('Tim Brys and Anna Harutyunyan and Halit Bener Suay and Sonia Chernova and Matthew E. Taylor and Ann Now{\'{e}}'),
+  ijcai(2015),
+nil)
+
+entry!('hussein2017deep',
+  title('Deep reward shaping from demonstrations'),
+  author('Ahmed Hussein and Eyad Elyan and Mohamed Medhat Gaber and Chrisina Jayne'),
+  inproceedings('International Joint Conference on Neural Networks', 2017),
+nil)
+
+entry!('levine2013guided',
+  title('Guided Policy Search'),
+  author('Sergey Levine and Vladlen Koltun'),
+  icml(2013),
+nil)
+
+entry!('ross2014reinforce',
+  title('Reinforcement and Imitation Learning via Interactive No-Regret Learning'),
+  author('St{\'{e}}phane Ross and J. Andrew Bagnell'),
+  arxiv(2014, '1406.5979'),
+nil)
+
+entry!('sun2017deeply',
+  title('Deeply AggreVaTeD: Differentiable Imitation Learning for Sequential Prediction'),
+  author('Wen Sun and Arun Venkatraman and Geoffrey J. Gordon and Byron Boots and J. Andrew Bagnell'),
+  icml(2017),
+nil)
+
+entry!('ziebart2008maximum',
+  title('Maximum Entropy Inverse Reinforcement Learning'),
+  author('Brian D. Ziebart and Andrew L. Maas and J. Andrew Bagnell and Anind K. Dey'),
+	aaai(2008),
+nil)
+
+entry!('hosu2016playing',
+  title('Playing {A}tari Games with Deep Reinforcement Learning and Human Checkpoint Replay'),
+  author('Ionel-Alexandru Hosu and Traian Rebedea'),
+  inproceedings('Evaluating General Purpose AI', 2016),
+nil)
