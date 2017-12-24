@@ -142,5 +142,3 @@ entry!('he2015syntax',
        author('He He and Alvin Grissom II and Jordan Boyd-Graber and Hal Daume III'),
        pages(55, 64),
        nil)
-       
-       
