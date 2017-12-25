@@ -142,3 +142,16 @@ entry!('he2015syntax',
        author('He He and Alvin Grissom II and Jordan Boyd-Graber and Hal Daume III'),
        pages(55, 64),
        nil)
+
+entry!('parzen1962',
+       article('Annals of Mathematical Statistics', 1962, 33),
+       title('On Estimation of a Probability Density Function and Mode'),
+       author('Emanuel Parzen'),
+       pages(1065, 1076),
+       nil)
+
+entry!('jones1992',
+       jasa(1992, 91),
+       title('A Brief Survey of Bandwidth Selection for Density Estimation'),
+       author('
+       
