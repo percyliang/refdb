@@ -302,3 +302,24 @@ entry!('atkeson1997robot',
   volume(97),
   pages(12, 20),
 nil)
+
+entry!('kuznetsova2013generalizing',
+  acl(2013),
+  title('Generalizing Image Captions for Image-Text Parallel Corpus'),
+  author('Polina Kuznetsova and Vicente Ordonez and Alexander C Berg and Tamara L Berg and Yejin Choi'),
+  pages(790, 796),
+nil)
+
+entry!('hodosh2013framing',
+  jair(2013, 47),
+  title('Framing image description as a ranking task: Data, models and evaluation metrics'),
+  author('Micah Hodosh and Peter Young and Julia Hockenmaier'),
+  pages(853, 899),
+nil)
+
+entry!('mason2014domain',
+  conll(2014),
+  title('Domain-Specific Image Captioning'),
+  author('Rebecca Mason and Eugene Charniak'),
+  pages(2, 10),
+nil)
