@@ -215,3 +215,27 @@ entry!('zhang2017matching',
   title('Adversarial Feature Matching for Text Generation'),
   icml(2017),
 nil)
+
+entry!('arora2017gan',
+  author('Sanjeev Arora and Rong Ge and Yingyu Liang and Tengyu Ma and Yi Zhang'),
+  title('Generalization and Equilibrium in Generative Adversarial Nets (GANs)'),
+  arxiv(2017),
+nil)
+
+entry!('tzeng2017domain',
+  author('Eric Tzeng and Judy Hoffman and Kate Saenko and Trevor Darrell'),
+  title('Adversarial Discriminative Domain Adaptation'),
+  cvpr(2017),
+nil)
+
+entry!('conneau2017word',
+  author('Alexis Conneau and Guillaume Lample and Marc\'Aurelio Ranzato and Ludovic Denoyer and Herve Jegou'),
+  title('Word Translation Without Parallel Data'),
+  arxiv(2017),
+nil)
+
+entry!('li2017demystifying',
+  author('Yanghao Li and Naiyan Wang and Jiaying Liu and Xiaodi Hou'),
+  title('Demystifying Neural Style Transfer'),
+  ijcai(2017),
+nil)
