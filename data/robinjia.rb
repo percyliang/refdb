@@ -204,3 +204,14 @@ entry!('wang2012baselines',
   acl(2012),
 nil)
 
+entry!('li2015gmmn',
+  author('Yujia Li and Kevin Swersky and Richard Zemel'),
+  title('Generative Moment Matching Networks'),
+  icml(2015),
+nil)
+
+entry!('zhang2017matching',
+  author('Yizhe Zhang and Zhe Gan and Kai Fan and Zhi Chen and Ricardo Henao and Dinghan Shen and Lawrence Carin'),
+  title('Adversarial Feature Matching for Text Generation'),
+  icml(2017),
+nil)
