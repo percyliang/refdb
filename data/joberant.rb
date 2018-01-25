@@ -443,3 +443,9 @@ entry!('salant2017contextualizing',
   author('Shimi Salant and Jonathan Berant'),
   url('https://arxiv.org/pdf/1712.03609.pdf'),
 nil)
+
+entry!('kovcisky2017narrativeqa',
+  arxiv(2017, '1712.07040'),
+  title('The NarrativeQA Reading Comprehension Challenge'),
+  author('Tom{\v{s}} Ko{\v{c}}isky and Jonathan Schwarz and Phil Blunsom and Chris Dyer and Karl Moritz Hermann and Gabor Melis and Edward Grefenstette'),
+nil)
