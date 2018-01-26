@@ -316,3 +316,136 @@ entry!('west2014knowledge',
   title('Knowledge base completion via search-based question answering'),
   author('Robert West and Evgeniy Gabrilovich and Kevin Murphy and Shaohua Sun and Rahul Gupta and Dekang Lin'),
 nil)
+
+entry!('vieira2017learning',
+  tacl(2017, 5),
+  title('Learning to Prune: Exploring the Frontier of Fast and Accurate Parsing'),
+  author('Tim Vieira and Jason Eisner'),
+  pages(263, 278),
+nil)
+
+entry!('squad2016url',
+  author('Pranav Rajpurkar'),
+  title('{SQuAD}'),
+  type('misc'),
+  howpublished('\url{https://rajpurkar.github.io/SQuAD-explorer/}'),
+  year(2016),
+nil)
+
+entry!('baltruvsaitis2017multimodal',
+  arxiv(2017, '1705.09406'),
+  title('Multimodal Machine Learning: A Survey and Taxonomy'),
+  author('Tadas Baltru{\v{s}}aitis and Chaitanya Ahuja and Louis-Philippe Morency'),
+nil)
+
+entry!('turney2001mining',
+  machineLearning(2001, 2167),
+  title('Mining the web for synonyms: {PMI}-{IR} versus {LSA} on {TOEFL}'),
+  author('Peter Turney'),
+  pages(491, 502),
+  publisher('Springer'),
+nil)
+
+entry!('littlestone1994weighted',
+  article('Information and computation', 1994, 108),
+  title('The weighted majority algorithm'),
+  author('Nick Littlestone and Manfred K Warmuth'),
+  number(2),
+  pages(212, 261),
+  publisher('Elsevier'),
+nil)
+
+entry!('beltagy2017representing',
+  computationalLinguistics(2017, 42),
+  title('Representing meaning with a combination of logical and distributional models'),
+  author('Islam Beltagy and Stephen Roller and Pengxiang Cheng and Katrin Erk and Raymond J Mooney'),
+  publisher('MIT Press'),
+nil)
+
+entry!('hu2017learning',
+  iccv(2017),
+  title('Learning to reason: End-to-end module networks for visual question answering'),
+  author('Ronghang Hu and Jacob Andreas and Marcus Rohrbach and Trevor Darrell and Kate Saenko'),
+nil)
+
+
+entry!('johnson2017clevr',
+  cvpr(2017),
+  title('CLEVR: A diagnostic dataset for compositional language and elementary visual reasoning'),
+  author('Justin Johnson and Bharath Hariharan and Laurens van der Maaten and Li Fei-Fei and C Lawrence Zitnick and Ross Girshick'),
+nil)
+
+entry!('wang2017gated',
+  acl(2017),
+  title('Gated self-matching networks for reading comprehension and question answering'),
+  author('Wenhui Wang and Nan Yang and Furu Wei and Baobao Chang and Ming Zhou'),
+nil)
+
+entry!('zhong2017seq2sql',
+  arxiv(2017, '1709.00103'),
+  title('Seq2SQL: Generating Structured Queries from Natural Language using Reinforcement Learning'),
+  author('Victor Zhong and Caiming Xiong and Richard Socher'),
+nil)
+
+entry!('welbl2017constructing',
+  arxiv(2017, '1710.06481'),
+  title('Constructing Datasets for Multi-hop Reading Comprehension Across Documents'),
+  author('Johannes Welbl and Pontus Stenetorp and Sebastian Riedel'),
+nil)
+
+entry!('clark2017simple',
+  arxiv(2017, '1710.10723'),
+  title('Simple and effective multi-paragraph reading comprehension'),
+  author('Christopher Clark and Matt Gardner'),
+nil)
+
+entry!('andor2016globally',
+  arxiv(2016, '1603.06042'),
+  title('Globally normalized transition-based neural networks'),
+  author('Daniel Andor and Chris Alberti and David Weiss and Aliaksei Severyn and Alessandro Presta and Kuzman Ganchev and Slav Petrov and Michael Collins'),
+nil)
+
+entry!('chen2017reading',
+  arxiv(2017, '1704.00051'),
+  title('Reading {W}ikipedia to Answer Open-Domain Questions'),
+  author('Danqi Chen and Adam Fisch and Jason Weston and Antoine Bordes'),
+nil)
+
+entry!('watanabe2017question',
+  arxiv(2017, '1703.08885'),
+  title('Question Answering from Unstructured Text by Retrieval and Comprehension'),
+  author('Yusuke Watanabe and Bhuwan Dhingra and Ruslan Salakhutdinov'),
+nil)
+
+entry!('xiao2016sequence',
+  acl(2016),
+  title('Sequence-based Structured Prediction for Semantic Parsing'),
+  author('Chunyang Xiao and Marc Dymetman and Claire Gardent'),
+nil)
+
+entry!('cohen2017inducing',
+  arxiv(2017, '1710.10453'),
+  title('Inducing Regular Grammars Using Recurrent Neural Networks'),
+  author('Mor Cohen and Avi Calciularu and idan Rejwan and Jonathan Berant'),
+  url('https://arxiv.org/pdf/1710.10453.pdf'),
+nil)
+
+entry!('goldman2017weakly',
+  arxiv('2017', '1711.05240'),
+  author('Omer Goldman and Veronika Latcinnik and Udi Naveh and Amir Globerson and Jonathan Berant'),
+  title('Weakly-supervised Semantic Parsing with Abstract Examples'),
+  url('https://arxiv.org/abs/1711.05240'),
+nil)
+
+entry!('salant2017contextualizing',
+  arxiv('2017', '1712.03609'),
+  title('Contextualized Word Representations for Reading Comprehension'),
+  author('Shimi Salant and Jonathan Berant'),
+  url('https://arxiv.org/pdf/1712.03609.pdf'),
+nil)
+
+entry!('kovcisky2017narrativeqa',
+  arxiv(2017, '1712.07040'),
+  title('The NarrativeQA Reading Comprehension Challenge'),
+  author('Tom{\v{s}} Ko{\v{c}}isky and Jonathan Schwarz and Phil Blunsom and Chris Dyer and Karl Moritz Hermann and Gabor Melis and Edward Grefenstette'),
+nil)
