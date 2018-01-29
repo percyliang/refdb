@@ -148,7 +148,7 @@ entry!('he2015syntax',
 
 entry!('amodei2016',
        author('Dario Amodei and others'),
-       title('Deep Speech 2: End-to-End Speech Recognition in English and Mandarin'),
+       title('Deep Speech 2 End to End Speech Recognition in English and Mandarin'),
        icml(2016),
        pages(173, 182),
        nil)
@@ -209,3 +209,26 @@ entry!('grother2011',
        techreport('NIST', 2011),
        nil)
 
+entry!('harsanyi1975',
+       title(' Can the Maximin Principle Serve as a Basis for Morality? A Critique of John Rawls\'s Theory'),
+       author('John C. Harsanyi'),
+       article('The American Political Science Review',1975),
+       volume(69),
+       pages(594, 606),
+       nil)
+
+entry!('mueller1974',
+       title('The Utilitarian Contract: A Generalization of Rawls\' Theory of Justice'),
+       author('Dennis C. Mueller and Robert D. Tollison and Thomas D. Willet'),
+       article('Theory and Decision', 1974),
+       volume(4),
+       pages(345,367),
+       nil)
+
+entry!('altham1973',
+       title('Rawls\' Difference Principle'),
+       author('JE J. Altham'),
+       article('Philosophy', 1973),
+       volume(48),
+       pages(75,78),
+       nil)
