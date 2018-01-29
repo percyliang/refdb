@@ -144,3 +144,62 @@ entry!('he2015syntax',
        nil)
        
        
+
+entry!('amodei2016',
+       author('Dario Amodei and others'),
+       title('Deep Speech 2: End-to-End Speech Recognition in English and Mandarin'),
+       icml(2016),
+       pages(173, 182),
+       nil)
+
+entry!('chouldechova2017',
+       article('Big Data', 2017),
+       author('Alexandra Chouldechova'),
+       title('A study of bias in recidivism prediciton instruments'),
+       pages(153, 163),
+       nil)
+       
+
+entry!('joseph2016',
+  inproceedings('FATML', 2016),
+  title('Rawlsian Fairness for Machine Learning'),
+  author('Matthew Joseph and Michael Kearns and Jamie Morgenstern and Seth Neel and Aaron Roth'),
+  nil)
+
+entry!('kroll2017',
+       article('University of Pennsylvania Law Review', 2017),
+       volume(3),
+       title('Accountable Algorithms'),
+       author('Joshua A. Kroll and Joanna Huey and Solon Baroca and Edward W. Felten and Joel R. Reidenberg and David G Robinson and Harlan Yu'),
+       pages(633, 706),
+       nil)
+
+
+entry!('rawls2009',
+       author('John Rawls'),
+       title('A theory of justice: Revised edition'),
+       book('Harvard University Press', 2009),
+       address('Cambridge, MA'),
+       nil)
+
+entry!('rawls2001',
+       author('John Rawls'),
+       title('Justice as fairness: a restatement'),
+       book('Harvard University Press', 2001),
+       address('Cambridge, MA'),
+       nil)
+
+entry!('duchi2016',
+  title('Statistics of Robust Optimization: A Generalized Empirical Likelihood Approach'),
+  author('John Duchi and Peter Glynn and Hongseok Namkoong'),
+  arxiv(2016),
+nil)
+
+entry!('kula2015',
+  inproceedings('Proceedings of the 2nd Workshop on New Trends on Content-Based Recommender Systems', 2015),
+  title('Metadata Embeddings for User and Item Cold-start Recommendations'),
+  author('Maciej Kula'),
+  pages(14,21),
+  nil)
+
+
