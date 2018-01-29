@@ -1,3 +1,4 @@
+# coding: utf-8
 entry!('tversky1986nearest',
        author('Amos Tversky and J. Wesley Hutchinson'),
        title('Nearest neighbor analysis of psychological spaces'),
@@ -202,4 +203,9 @@ entry!('kula2015',
   pages(14,21),
   nil)
 
+entry!('grother2011',
+       title('Report on the Evaluation of 2D Still-Image Face Recognition Algorithms'),
+       author('Patrick J. Grother and George W. Quinn and P. Jonathon Phillips'),
+       techreport('NIST', 2011),
+       nil)
 
