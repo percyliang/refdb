@@ -12193,3 +12193,9 @@ entry!('minka2001ep',
   title('Expectation propagation for approximate {B}ayesian inference'),
   uai(2001), pages(362,369),
 nil)
+
+entry!('hampel1968thesis',
+  author('Frank R. Hampel'),
+  title('Contributions to the theory of robust estimation'),
+  phdthesis('University of California at Berkeley', 1968),
+nil)
