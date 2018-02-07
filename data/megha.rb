@@ -20,4 +20,10 @@ entry!('jaillet2011online',
   title('Online Resource Allocation Problems'),
   author('Patrick Jaillet and Xin Lu'),
   mit(2011),   
+nil) 
+
+entry!('krishnan2014recommender',
+  title('A methodology for learning, analyzing, and mitigating social influence bias in recommender systems'),
+  author('Sanjay Krishnan and Jay Patel and Michael Frankling and Ken Goldberg'),
+  recsys(2014),   
 nil)
