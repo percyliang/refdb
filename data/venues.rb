@@ -70,7 +70,7 @@ def esa(year); inproceedings(Name.new('European Symposium on Algorithms', 'ESA')
 def sigir(year); inproceedings(Name.new('ACM Special Interest Group on Information Retreival', 'SIGIR'), year) end
 def uist(year); inproceedings(Name.new('User Interface Software and Technology', 'UIST'), year) end
 def chi(year); inproceedings(Name.new('Conference on Human Factors in Computing Systems', 'CHI'), year) end
-def reccsys(year); inproceedings(Name.new('ACM Conference on Recommender Systems', 'RecSys'), year) end
+def recsys(year); inproceedings(Name.new('ACM Conference on Recommender Systems', 'RECSYS'), year) end
 
 def infotheory(year, volume); [article('IEEE Transactions on Information Theory', year, volume)] end
 def dmin(year); [inproceedings(Name.new('International Conference on Data Mining', 'DMIN'), year)] end
