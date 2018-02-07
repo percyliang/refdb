@@ -28,5 +28,36 @@ entry!('krishnan2014recommender',
   title('A methodology for learning, analyzing, and mitigating social influence bias in recommender systems'),
   author('Sanjay Krishnan and Jay Patel and Michael Frankling and Ken Goldberg'),
   recsys(2014),   
+nil) 
+
+entry!('adomavicius2014bias',
+  author('Gediminas Adomavicius and Jesse Bockstedt and Shawn Curley and Jingjing Zhang'),
+  title('De-Biasing User Preference Ratings in Recommender Systems'),
+  article('CEUR Workshop Proceedings', 2014, 1253), pages(2, 9),
+nil) 
+
+entry!('priamuthu2012online',
+  author('Selwyn Piramuthu and Gaurav Kapoor and Wei Zhou and Sjouke Mauw'),
+  title('Input online review data and related bias in recommender systems'),
+  article('Decision Support Systems', 2012, 53), pages(418, 424),
+nil) 
+
+entry!('sharma2015causal',
+  author('Amit Sharma and Jake Hofman and Duncan Watts'),
+  title('Estimating the Causal Impact of Recommendation Systems from Observational Data'),
+  inproceedings('ACM Conference on Economics and Computation', 2015),
+  year(2015),
+nil)
+
+entry!('rubens2011active',
+  title('Active Learning in Recommender Systems'),
+  author('Neil Rubens and Dain Kaplan and Masashi Sugiyami'),
+  book('Springer', 2011),
+nil)
+
+entry!('yao2017parity',
+  title('Beyond Parity:Fairness Objectives for Collaborative Filtering'),
+  author('Sirui Yao and Bert Huang'),
+  nips(2017),   
 nil)
 
