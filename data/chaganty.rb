@@ -181,14 +181,14 @@ entry!('chaganty2017ondemand',
 nil)
 
 entry!('novikova2017why',
-       title('Why We Need New Evaluation Metrics for NLG'),
+       title('Why We Need New Evaluation Metrics for {NLG}'),
        author('Jekaterina Novikova and Ondřej Dušek and Amanda Cercas Curry and Verena Rieser'),
        emnlp(2017),
        url('https://arxiv.org/pdf/1707.06875.pdf'),
 nil)
 
 entry!('lin2004rouge',
-       title('Looking for a Few Good Metrics : ROUGE and its Evaluation.'),
+       title('Looking for a Few Good Metrics: {ROUGE} and its Evaluation'),
        author('Chin-yew Lin and Marina Rey'),
        inproceedings('NTCIR Workshop', 2004),
 nil)
