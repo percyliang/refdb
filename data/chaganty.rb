@@ -172,3 +172,23 @@ entry!('plank16nonstandard',
   arxiv(2016),
   url('http://arxiv.org/abs/1608.07836'),
 nil)
+
+entry!('chaganty2017ondemand',
+  author('Arun Tejasvi Chaganty and Ashwin Pradeep Paranjape and Percy Liang and Christopher D. Manning'),
+  title('Importance sampling for unbiased on-demand of knowledge base population'),
+  emnlp(2017),
+  url('https://nlp.stanford.edu/pubs/chaganty2017ondemand.pdf'),
+nil)
+
+entry!('novikova2017why',
+       title('Why We Need New Evaluation Metrics for NLG'),
+       author('Jekaterina Novikova and Ondřej Dušek and Amanda Cercas Curry and Verena Rieser'),
+       emnlp(2017),
+       url('https://arxiv.org/pdf/1707.06875.pdf'),
+nil)
+
+entry!('lin2004rouge',
+       title('Looking for a Few Good Metrics : ROUGE and its Evaluation.'),
+       author('Chin-yew Lin and Marina Rey'),
+       inproceedings('NTCIR Workshop', 2004),
+nil)
