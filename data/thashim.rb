@@ -232,3 +232,48 @@ entry!('altham1973',
        volume(48),
        pages(75,78),
        nil)
+
+entry!('sapiezynski2017',
+       title('Academic performance prediction in a gender-imbalanced environment'),
+       author('Piotr Sapiezynski and Valentin Kassarnig and Christo Wilson and Sune Lehmann and Alan Mislove'),
+       inproceedings('FATREC',2017),
+       volume(1),
+       pages(48, 51),
+nil)
+
+entry!('tatman2017',
+       title('Gender and Dialect Bias in YouTube’s Automatic Captions'),
+       author('Rachael Tatman'),
+       inproceedings('Workshop on Ethics in Natural Langauge Processing', 2017),
+       volume(1),
+       pages(53, 59),
+       nil)
+
+entry!('jurgens2017',
+       title('Incorporating Dialectal Variability for Socially Equitable Language Identification'),
+       author('David Jurgens and Yulia Tsvetkov and Dan Jurafsky'),
+       acl(2017),
+       pages(51, 57),
+       nil)
+
+entry!('hovy2015',
+       title('Tagging Performance Correlates with Age'),
+       author('Dirk Hovy and Anders Søgaard'),
+       acl(2015),
+       pages(483, 488),
+       nil)
+
+entry!('jorgensen2015',
+       title('Challenges of studying and processing dialects in social media'),
+       author('Anna Katrine Jørgensen and Dirk Hovy and Anders Søgaard'),
+       inproceedings('ACL Workshop on Noisy User-generated Text', 2015),
+       pages(9, 18),
+       nil)
+
+entry!('blodgett2016',
+       title('Demographic Dialectal Variation in Social Media: A Case Study of African-American English'),
+       author('Su Lin Blodgett and Lisa Green and Brendan O\'Connor'),
+       emnlp(2016),
+       pages(1119, 1130),
+       nil)
+       
