@@ -277,3 +277,53 @@ entry!('blodgett2016',
        pages(1119, 1130),
        nil)
        
+entry!('barocas2016',
+       title('Big Data\'s Disparate Impact'),
+       author('Solon Barocas and Andrew D. Selbst'),
+       article('104 California Law Review', 2016),
+       volume(3),
+       pages(671, 732),
+       nil)
+
+entry!('kusner2017',
+       title('Counterfactual Fairness'),
+       author('Matt J Kusner and Joshua R Loftus and Chris Russell and Ricardo Silva'),
+       nips(2017),
+       pages(4069,4079),
+       nil)
+
+entry!('dwork2012',
+       title('Fairness through awareness'),
+       author('Cynthia Dwork and Moritz Hardt and Toniann Pitassi and Omer Reingold and Rich Zemel'),
+       itcs(2012),
+       pages(214, 226),
+       nil)
+
+entry!('feldman2015',
+       title('Certifying and removing disparate impact'),
+       author('Michael Feldman and Sorelle Friedler and John Moeller and Carlos Scheidegger and Suresh Venkatasubramanian'),
+       kdd(2015),
+       pages(259, 268),
+       nil)
+
+entry!('hardt2016',
+       title('Equality of Opportunity in Supervised Learning'),
+       author('Moritz Hardt and Eric Price and Nathan Srebo'),
+       nips(2016),
+       pages(3315,3323),
+       nil)
+
+entry!('kleinberg2017',
+       title('Inherent Trade-offs in the Fair Determination of Risk Scores'),
+       author('Jon Kleinberg and Sendhil Mullainathan and Manish Raghavan'),
+       itcs(2017),
+       nil)
+
+entry!('pleiss2017',
+       title('On Fairness and Calibration'),
+       author('Geoff Pleiss and Manish Raghavan and Felix Wu and Jon Kleinberg and Kilian Q. Weinberger'),
+       nips(2017),
+       pages(5684, 5693),
+       nil)
+       
+       
