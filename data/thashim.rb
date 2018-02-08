@@ -167,6 +167,22 @@ entry!('joseph2016',
   author('Matthew Joseph and Michael Kearns and Jamie Morgenstern and Seth Neel and Aaron Roth'),
   nil)
 
+entry!('jabbari2017',
+       title('Fairness in Reinforcement Learning'),
+       author('Shahin Jabbari and Matthew Joseph and Michael Kearns and Jamie Morgenstern and Aaron Roth'),
+       icml(2017),
+       pages(1617, 1626),
+       nil)
+
+entry!('woodworth2017',
+       title('Learning Non-Discriminatory Predictors'),
+       author('Blake Woodworth and Suriya Gunasekar and Mesrob I. Ohannessian and Nathan Srebro'),
+       colt(2017),
+       pages(1920, 1953),
+       nil)
+
+
+
 entry!('kroll2017',
        article('University of Pennsylvania Law Review', 2017),
        volume(3),
@@ -325,5 +341,15 @@ entry!('pleiss2017',
        nips(2017),
        pages(5684, 5693),
        nil)
-       
-       
+
+entry!('kearns2018',
+       title('Preventing Fairness Gerrymandering: Auditing and Learning for Subgroup Fairness'),
+       author('Michael Kearns and Seth Neel and Aaron Roth and Zhiwei Steven Wu'),
+       arxiv(2018,'1711.05144'),
+       nil)
+
+entry!('hebertjohnson2017',
+       title('Calibration for the (Computationally-Identifiable) Masses'),
+       author('Úrsula Hébert-Johnson and Michael P. Kim and Omer Reingold and Guy N. Rothblum'),
+       arxiv(2017,'1711.08513'),
+       nil)
