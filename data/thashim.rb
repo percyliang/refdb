@@ -350,6 +350,6 @@ entry!('kearns2018',
 
 entry!('hebertjohnson2017',
        title('Calibration for the (Computationally-Identifiable) Masses'),
-       author('Úrsula Hébert-Johnson and Michael P. Kim and Omer Reingold and Guy N. Rothblum'),
+       author('{\\\'U}rsula H{\\\'e}bert-Johnson and Michael P. Kim and Omer Reingold and Guy N. Rothblum'),
        arxiv(2017,'1711.08513'),
        nil)
