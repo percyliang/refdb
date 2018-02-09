@@ -353,3 +353,10 @@ entry!('hebertjohnson2017',
        author('{\\\'U}rsula H{\\\'e}bert-Johnson and Michael P. Kim and Omer Reingold and Guy N. Rothblum'),
        arxiv(2017,'1711.08513'),
        nil)
+
+entry!('zemel2013',
+       title('Learning Fair Representations'),
+       author('Richard Zemel and Yu Wu and Kevin Swersky and Toniann Pitassi and Cynthia Dwork'),
+       icml(2013),
+       pages(325,333),
+       nil)
