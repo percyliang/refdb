@@ -192,3 +192,63 @@ entry!('lin2004rouge',
        author('Chin-yew Lin and Marina Rey'),
        inproceedings('NTCIR Workshop', 2004),
 nil)
+
+entry!('cohan2016revisiting', 
+       title('Revisiting Summarization Evaluation for Scientific Articles'),
+       author('Arman Cohan and Nazli Goharian'),
+       lrec(2016),
+       nil)
+
+entry!('lavie2009meteor',
+       title('The Meteor Metric for Automatic Evaluation of Machine Translation'),
+       author('Alon Lavie and Michael Denkowski'),
+       article('Machine Translation', 2009, 23),
+     nil)
+
+entry!('denkowski2014meteor', 
+       title('Meteor Universal: Language Specific Translation Evaluation for Any Target Language'),
+       author('Michael Denkowski and Alon Lavie'),
+       inproceedings('Workshop on Statistical Machine Translation', 2014),
+     nil)
+
+entry!('vedantam2015cider',
+  author('Ramakrishna Vedantam and C. Lawrence Zitnick and Devi Parikh'),
+  cvpr(2015),
+  pages(4566,4575),
+  title('{CIDEr}: Consensus-based image description evaluation'),
+  nil)
+
+entry!('miller1956psychological',
+  author('George A. Miller and J. G. Beebe-Center'),
+  article('Mechanical Translation', 1956, 3),
+  pages(73,80),
+  title('Some Psychological Methods for Evaluating the Quality of Translations'),
+  nil)
+
+entry!('lau2017grammaticality',
+  author('Jey Han Lau and Alexander Clark and Shalom Lappin'),
+  article('Cognitive Science', 2017, 41),
+  pages(1202, 1241),
+  title('Grammaticality, Acceptability, and Probability: A Probabilistic View of Linguistic Knowledge'),
+  nil)
+
+entry!('see2017point',
+  author('Abigail See and Peter J. Liu and Christopher D. Manning'),
+  acl(2017),
+  title('Get To The Point: Summarization with Pointer-Generator Networks'),
+  nil)
+
+entry!('paulus2018deep',
+  author('Romain Paulus and Caiming Xiong and Richard Socher'),
+  iclr(2018),
+  title('A Deep Reinforced Model for Abstractive Summarization'),
+  nil)
+
+
+
+#entry!('',
+#  author(''),
+#  inproceedings('', 2015),
+#  title(''),
+#  nil)
+#
