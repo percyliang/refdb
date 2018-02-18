@@ -239,3 +239,21 @@ entry!('li2017demystifying',
   title('Demystifying Neural Style Transfer'),
   ijcai(2017),
 nil)
+
+entry!('wang2007qa',
+  author('Mengqiu Wang and Noah A. Smith and Teruko Mitamura'),
+  title('What is the Jeopardy Model? A Quasi-Synchronous Grammar for {QA}'),
+  emnlp(2007),
+nil)
+
+entry!('yih2013enhanced',
+  author('Wen-tau Yih and Ming-Wei Chang and Christopher Meek and Andrzej Pastusiak'),
+  title('Question Answering Using Enhanced Lexical Semantic Models'),
+  acl(2013),
+nil)
+
+entry!('peters2018elmo',
+  author('Matthew E. Peters and Mark Neumann and Mohit Iyyer and Matt Gardner and Christopher Clark and Kenton Lee and Luke Zettlemoyer'),
+  title('Deep contextualized word representations'),
+  naacl(2018),
+nil)
