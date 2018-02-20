@@ -257,3 +257,15 @@ entry!('peters2018elmo',
   title('Deep contextualized word representations'),
   naacl(2018),
 nil)
+
+entry!('zhang2017tacred',
+  author('Yuhao Zhang and Victor Zhong and Danqi Chen and Gabor Angeli and Christopher D. Manning'),
+  title('Position-aware Attention and Supervised Data Improve Slot Filling'),
+  emnlp(2017),
+nil)
+
+entry!('hendrickx2010relations',
+  author('Iris Hendrickx and Su Nam Kim and Zornitsa Kozareva and Preslav Nakov and Diarmuid OSeaghdha and Sebastian Pado and Marco Pennacchiotti and Lorenza Romano and Stan Szpakowicz'),
+  title('SemEval-2010 Task 8: Multi-Way Classification of Semantic Relations Between Pairs of Nominals'),
+  inproceedings('5th International Workshop on Semantic Evaluation', 2010),
+nil)
