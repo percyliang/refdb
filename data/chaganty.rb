@@ -244,8 +244,6 @@ entry!('paulus2018deep',
   title('A Deep Reinforced Model for Abstractive Summarization'),
   nil)
 
-
-
 #entry!('',
 #  author(''),
 #  inproceedings('', 2015),
