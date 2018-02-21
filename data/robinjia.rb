@@ -269,3 +269,15 @@ entry!('hendrickx2010relations',
   title('SemEval-2010 Task 8: Multi-Way Classification of Semantic Relations Between Pairs of Nominals'),
   inproceedings('5th International Workshop on Semantic Evaluation', 2010),
 nil)
+
+entry!('marelli2014sick',
+  author('Marco Marelli and Stefano Menini and Marco Baroni and Luisa Bentivogli and Raffaella bernardi and Roberto Zamparelli'),
+  title('A {SICK} cure for the evaluation of compositional distributional semantic models'),
+  lrec(2014),
+nil)
+
+entry!('huang2018fusion',
+  author('Hsin-Yuan Huang and Chenguang Zhu and Yelong Shen and Weizhu Chen'),
+  title('FusionNet: Fusing via Fully-Aware Attention with Application to Machine Comprehension'),
+  iclr(2018),
+nil)
