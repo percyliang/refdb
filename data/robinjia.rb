@@ -146,7 +146,7 @@ nil)
 
 entry!('hu2017mnemonic',
   author('Minghao Hu and Yuxing Peng and Xipeng Qiu'),
-  title('Mnemonic Reader for Machine Comprehension'),
+  title('Reinforced Mnemonic Reader for Machine Comprehension'),
   arxiv(2017),
 nil)
 
