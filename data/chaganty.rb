@@ -244,6 +244,54 @@ entry!('paulus2018deep',
   title('A Deep Reinforced Model for Abstractive Summarization'),
   nil)
 
+entry!('nguyen2016msmarco',
+  author('Tri Nguyen and Mir Rosenberg and Xia Song and Jianfeng Gao and Saurabh Tiwary and Rangan Majumder and Li Deng'), 
+  nips(2016),
+  title('MS MARCO: A Human Generated MAchine Reading COmprehension Dataset'),
+  nil)
+
+entry!('kocisky2018narrativeqa',
+  author('Tomáš Kočiský and Jonathan Schwarz and Phil Blunsom and Chris Dyer and Karl Moritz Hermann and Gábor Melis and Edward Grefenstette'), 
+  arxiv(2017),
+  url('http://arxiv.org/abs/1712.07040'),
+  title('The NarrativeQA Reading Comprehension Challenge.'),
+  nil)
+
+entry!('lin2014microsoft',
+  author('Tsung-Yi Lin and Michael Maire and Serge Belongie and James Hays and Pietro Perona and  Deva Ramanan and Piotr Doll{\'a}r and C Lawrence Zitnick'), 
+  eccv(2014),
+  pages(740,755),
+  title('Microsoft {COCO}: Common objects in context'),
+  nil)
+
+entry!('liu2016how',
+  author('Chia-Wei Liu and Ryan Lowe and Iulian V. Serban and Michael Noseworthy and Laurent Charlin and and Joelle Pineau'), 
+  emnlp(2016),
+  pages(2122,2132),
+  title('How NOT To Evaluate Your Dialogue System: An Empirical Study of Unsupervised Evaluation Metrics for Dialogue Response Generation'),
+  nil)
+
+entry!('conroy2008mind',
+  author('John M Conroy and Hoa Trang Dang'), 
+  coling(2008),
+  pages(145,152),
+  title('Mind the Gap : Dangers of Divorcing Evaluations of Summary Content from Linguistic Quality'),
+  nil)
+
+entry!('snover2006ter',
+  author('Matthew Snover and Bonnie Dorr and Richard Schwartz and Linnea Micciulla and John Makhoul'), 
+  inproceedings('Association for Machine Translation in the Americas', 2006),
+  pages(223,231),
+  title('A Study of Translation Edit Rate with Targeted Human Annotation'),
+  nil)
+
+entry!('chang2017affordable',
+  author('Cheng Chang and Runzhe Yang and Lu Chen and Xiang Zhou and Kai Yu'), 
+  emnlp(2017),
+  pages(223,231),
+  title('Affordable On-Line Dialogue Policy Learning'),
+  nil)
+
 #entry!('',
 #  author(''),
 #  inproceedings('', 2015),
