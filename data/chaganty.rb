@@ -298,6 +298,26 @@ entry!('dang2006overview',
   title('Overview of DUC 2006'),
   nil)
 
+#entry!('weissenborn2017fastqa',
+#       author('Dirk Weissenborn and Georg Wiese and Laura Seiffe'),
+#       title('Making Neural QA as Simple as Possible but not Simpler'),
+#       arxiv(2017),
+#       url('https://arxiv.org/abs/1703.04816'),
+#       nil)
+
+entry!('tan2018s',
+  title('{S}-{N}et: From answer extraction to answer generation for machine reading comprehension'),
+  author('Chuanqi Tan and Furu Wei and Nan Yang and Weifeng Lv and Ming Zhou'),
+  aaai(2018),
+nil)
+
+entry!('pagliardini2017unsupervised',
+  title('Unsupervised learning of sentence embeddings using compositional n-gram features'),
+  author('Matteo Pagliardini and Prakhar Gupta and Martin Jaggi'),
+  arxiv(2017),
+  url('https://arxiv.org/abs/1703.02507'),
+nil)
+
 #entry!('',
 #  author(''),
 #  inproceedings('', 2015),
