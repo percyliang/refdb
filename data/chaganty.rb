@@ -292,6 +292,12 @@ entry!('chang2017affordable',
   title('Affordable On-Line Dialogue Policy Learning'),
   nil)
 
+entry!('dang2006overview',
+  author('Hoa Trang Dang'), 
+  inproceedings('Document Understanding Conference', 2006),
+  title('Overview of DUC 2006'),
+  nil)
+
 #entry!('',
 #  author(''),
 #  inproceedings('', 2015),
