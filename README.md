@@ -6,22 +6,6 @@ If you're in a hurry and just want a bib file, here you go:
 
     https://raw.githubusercontent.com/percyliang/refdb/master/all.bib
 
-## Printing/querying the database
-
-To output a bibtex file:
-
-    ./generate.rb bib out=all.bib
-
-To output an HTML file:
-
-    ./generate.rb html out=all.html
-
-To filter the entries:
-
-    ./generate.rb html author='Percy Liang' title=Publications out=pliang.html
-    ./generate.rb bib search='hidden markov model'
-    ./generate.rb bib tags='semantic parsing'
-
 ## Adding new entries to the database
 
 To add a new entry, append to `data/<username>.rb`, for example:
@@ -58,3 +42,19 @@ After you do this, make sure you rebuild `all.bib`:
 
 Then `git add data/<username>.rb` if necessary.  To commit your changes, do
 `git commit -am "add"`, `git push` or make a pull request.
+
+## Printing/querying the database
+
+To output a bibtex file:
+
+    ./generate.rb bib out=all.bib
+
+To output an HTML file:
+
+    ./generate.rb html out=all.html
+
+To filter the entries:
+
+    ./generate.rb html author='Percy Liang' title=Publications out=pliang.html
+    ./generate.rb bib search='hidden markov model'
+    ./generate.rb bib tags='semantic parsing'

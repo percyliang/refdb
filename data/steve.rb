@@ -12,7 +12,7 @@ entry!('ranganath2014black',
 nil)
 
 entry!('paisley2012variational',
-  title('Variational Bayesian inference with stochastic search'),
+  title('Variational {B}ayesian inference with stochastic search'),
   author('John Paisley and David M Blei and Michael I Jordan'),
   icml(2012),
   pages(1363,1370),

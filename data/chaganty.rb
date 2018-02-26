@@ -247,14 +247,14 @@ entry!('paulus2018deep',
 entry!('nguyen2016msmarco',
   author('Tri Nguyen and Mir Rosenberg and Xia Song and Jianfeng Gao and Saurabh Tiwary and Rangan Majumder and Li Deng'), 
   nips(2016),
-  title('MS MARCO: A Human Generated MAchine Reading COmprehension Dataset'),
+  title('{MS} {MARCO}: A Human Generated MAchine Reading COmprehension Dataset'),
   nil)
 
 entry!('kocisky2018narrativeqa',
   author('Tomáš Kočiský and Jonathan Schwarz and Phil Blunsom and Chris Dyer and Karl Moritz Hermann and Gábor Melis and Edward Grefenstette'), 
   arxiv(2017),
   url('http://arxiv.org/abs/1712.07040'),
-  title('The NarrativeQA Reading Comprehension Challenge.'),
+  title('The NarrativeQA Reading Comprehension Challenge'),
   nil)
 
 entry!('lin2014microsoft',
@@ -295,7 +295,7 @@ entry!('chang2017affordable',
 entry!('dang2006overview',
   author('Hoa Trang Dang'), 
   inproceedings('Document Understanding Conference', 2006),
-  title('Overview of DUC 2006'),
+  title('Overview of {DUC} 2006'),
   nil)
 
 #entry!('weissenborn2017fastqa',
