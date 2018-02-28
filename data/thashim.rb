@@ -148,7 +148,7 @@ entry!('he2015syntax',
 
 entry!('amodei2016',
        author('Dario Amodei and others'),
-       title('Deep Speech 2 End to End Speech Recognition in English and Mandarin'),
+       title('Deep Speech 2 End to End Speech Recognition in {E}nglish and Mandarin'),
        icml(2016),
        pages(173, 182),
        nil)
@@ -287,7 +287,7 @@ entry!('jorgensen2015',
        nil)
 
 entry!('blodgett2016',
-       title('Demographic Dialectal Variation in Social Media: A Case Study of African-American English'),
+       title('Demographic Dialectal Variation in Social Media: A Case Study of {A}frican-{A}merican {E}nglish'),
        author('Su Lin Blodgett and Lisa Green and Brendan O\'Connor'),
        emnlp(2016),
        pages(1119, 1130),

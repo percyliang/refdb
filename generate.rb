@@ -3,7 +3,20 @@
 $: << File.dirname(__FILE__)
 require 'refdb'
 
-checkEntries($entries)
+errors = checkEntries($entries)
+if errors.size > 0
+  puts "===== #{errors.size} errors"
+  errors.each_with_index { |error,i|
+    puts
+    puts "--- ERROR #{i + 1}/#{errors.size}: #{error[:message]}"
+    error[:entries].each { |entry|
+      puts '[' + entry.sourcePath + ']'
+      puts entry.toBibtex(0)
+    }
+  }
+  puts 'Please fix all errors before proceeding.'
+  exit 1
+end
 
 if ARGV.size == 0
   puts <<EOF
@@ -55,7 +68,7 @@ case command
   when 'text' then
     printText(entries, false, outPath)
   when 'html' then
-    entries = notMatchEntries(entries, 'extendedVersion', true)  # Don't display everything
+    entries = notMatchEntries(entries, 'extendedVersion', true)  # Don't display extended versions
     entries = makeYearList(entries)
     if !byYear
       entries.map! { |year,entries| entries }

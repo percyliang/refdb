@@ -79,9 +79,12 @@ class Name
 end
 
 class Entry
+  attr_accessor :sourcePath
+
   def initialize(fields)
     @fieldsMap = {} # name -> [value]
     addFields(fields)
+    @sourcePath = $sourcePath
   end
 
   def addFields(fields)
@@ -92,25 +95,26 @@ class Entry
   end
 
   def checkFields
-    def checkWarning(b, message)
-      $stderr.puts "WARNING: #{id}: #{message}" unless b
+    def checkWarning(errors, b, message)
+      errors << {:message => "WARNING: #{id}: #{message}", :entries => [self]} unless b
     end
+    errors = []
     getHard('id')
-    checkWarning(id =~ /^[a-z]+(\d+)\w*$/, 'id should be first-author/year/keyword (e.g., liang2006alignment)')
+    checkWarning(errors, id =~ /^[a-z]+(\d+)\w*$/, 'id should be first-author/year/keyword (e.g., liang2006alignment)')
     idYear = $1
 
-    checkWarning(year.to_s =~ /#{idYear}$/, "id's year doesn't match year '#{year}'")
-
-    checkWarning(title.to_s !~ /\.$/, "title ends with period '#{title}'")
+    checkWarning(errors, year.to_s =~ /#{idYear}$/, "id's year doesn't match year '#{year}'")
+    checkWarning(errors, title.to_s !~ /\.$/, "title ends with period '#{title}'")
 
     # Check that the fields are valid
-    checkWarning(year >= 1800 && year <= 2020, "year '#{year}'")
-    checkWarning(pages.check, "pages '#{pages}'") if pages
+    checkWarning(errors, year >= 1800 && year <= 2020, "year '#{year}'")
+    checkWarning(errors, pages.check, "pages '#{pages}'") if pages
 
     ['type', 'title', 'author', 'metaTitle'].each { |name|
       next if ['book', 'manual', 'misc'].member?(getFirst('type')) && name == 'metaTitle' # Don't have metatitles
-      checkWarning(get(name), "#{name} missing")
+      checkWarning(errors, get(name), "#{name} missing")
     }
+    errors
   end
 
   def get(name)
@@ -160,7 +164,6 @@ class Entry
     def verbatimLines(lines); lines ? "<pre>\n#{lines.join("\n")}\n</pre>" : nil end
     def formatLines(lines); lines ? lines.join("<br>\n") : nil end
     def hiddenText(id, contents)
-      #$stderr.puts id, contents
       return nil unless contents
       "<div id=\"#{id}\" style=\"display:none\">\n#{blockquote(latexToHTML(contents))}\n</div>"
     end
@@ -186,7 +189,6 @@ class Entry
     output << link(latexToHTML(displayTitle(title)), url) + (title[-1..-1] == '?' ? '' : '.') + newline
     output << author.names.map { |name|
       l = $links[name]
-      #$stderr.puts "No author link for #{name}" unless l
       link(spanClass(latexToHTML(name), authorClass), l)
     }.join(', ') + '.' + newline
     output << "#{metaTitle ? it(metaTitle.to_full_s + (type == 'techreport' ? ' Technical Report' : '')+', ') : ''}#{year}. #{note} "
@@ -233,7 +235,7 @@ class Entry
   def tags; get('tags') end
 
   def cite
-    case author.names.size 
+    case author.names.size
       when 1 then s1 = author.lastName(author.names[0])
       when 2 then s1 = author.lastName(author.names[0]) + " & " + author.lastName(author.names[1])
       else s1 = author.lastName(author.names[0]) + " et al."
@@ -253,10 +255,10 @@ def displayTitle(title)
     words = (0...words.size).map { |i| i == 0 ? words[i] : words[i].downcase }
     title = words.join(c)
   }
-  # Upcase things in {} 
+  # Upcase things in {}
   [" ", "-"].each { |c|
     words = title.split(c).map { |word|
-      while word =~ /\{(\w+)\}/ do 
+      while word =~ /\{(\w+)\}/ do
         word.sub!(/\{#{$1}\}/, $1.upcase)
       end
       word
@@ -383,8 +385,6 @@ def printStats(entries, outPath)
   out.puts "\n=== author ==="; authorMap.dump(out)
 
   dumpCounter.call('metaTitle')
-  #dumpCounter.call('year')
-  #dumpCounter.call('pages')
   dumpCounter.call('tags')
   out.close
 end
@@ -393,13 +393,14 @@ end
 # Error-checking
 
 def checkEntries(entries)
-  checkFields(entries)
-  checkTitleCapitalization(entries)
+  # Return list of errors
+  checkFields(entries) +
+  checkTitleCapitalization(entries) +
   checkDuplicates(entries)
 end
 
 def checkFields(entries)
-  entries.each { |entry| entry.checkFields }
+  entries.flat_map { |entry| entry.checkFields }
 end
 
 # In bibtex, {} is placed around words that should be capitalized;
@@ -411,21 +412,24 @@ end
 def checkTitleCapitalization(entries)
   # Find all the words which have been capitalized.
   capitalizedWords = {}
+  errors = []
   entries.each { |entry|
     entry.title.split(/[ -]/).each { |word|
       if word != 'A' && word =~ /^[A-Z]+$/ then # Acrynoms?
-        $stderr.puts "#{entry.id}: maybe '#{word}' should be '{#{word}}'"
+        errors << {:message => "#{entry.id}: maybe '#{word}' should be '{#{word}}'", :entries => [entry]}
       elsif word =~ /^\{(.)\}(.*)$/ then
         capitalizedWords[$1+$2] = true unless (entry.get("unusualCapitalization") || []).member?($1+$2)
       elsif capitalizedWords[word.capitalize] then
-        $stderr.puts "#{entry.id}: both capitalized and non-capitalized versions of '#{word}' were found"
+        errors << {:message => "#{entry.id}: both capitalized and non-capitalized versions of '#{word}' were found", :entries => [entry]}
       end
     }
   }
+  errors
 end
 
 def checkDuplicates(entries)
   map = {} # canonical title to entries
+  errors = []
   entries.each { |entry|
     canonicalTitle = entry.title.downcase.gsub(/[^a-z]/, '')
     next if entry.getFirst('extendedVersion') # Ok for longer versions to have same titles
@@ -433,10 +437,10 @@ def checkDuplicates(entries)
   }
   map.each { |canonicalTitle,list|
     if list.size > 1
-      puts "=== Possibly duplicate entries (#{canonicalTitle}) [#{list.size}]:"
-      list.each { |entry| puts entry.toBibtex(0) }
+      errors << {:message => "Duplicate entries (squished title: #{canonicalTitle}) [#{list.size}]", :entries => list}
     end
   }
+  errors
 end
 
 ############################################################
