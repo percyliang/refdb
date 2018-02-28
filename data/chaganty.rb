@@ -173,13 +173,6 @@ entry!('plank16nonstandard',
   url('http://arxiv.org/abs/1608.07836'),
 nil)
 
-entry!('chaganty2017ondemand',
-  author('Arun Tejasvi Chaganty and Ashwin Pradeep Paranjape and Percy Liang and Christopher D. Manning'),
-  title('Importance sampling for unbiased on-demand of knowledge base population'),
-  emnlp(2017),
-  url('https://nlp.stanford.edu/pubs/chaganty2017ondemand.pdf'),
-nil)
-
 entry!('novikova2017why',
        title('Why We Need New Evaluation Metrics for {NLG}'),
        author('Jekaterina Novikova and Ondřej Dušek and Amanda Cercas Curry and Verena Rieser'),
@@ -243,6 +236,86 @@ entry!('paulus2018deep',
   iclr(2018),
   title('A Deep Reinforced Model for Abstractive Summarization'),
   nil)
+
+entry!('lin2014microsoft',
+  author('Tsung-Yi Lin and Michael Maire and Serge Belongie and James Hays and Pietro Perona and  Deva Ramanan and Piotr Doll{\'a}r and C Lawrence Zitnick'), 
+  eccv(2014),
+  pages(740,755),
+  title('Microsoft {COCO}: Common objects in context'),
+  nil)
+
+entry!('conroy2008mind',
+  author('John M Conroy and Hoa Trang Dang'), 
+  coling(2008),
+  pages(145,152),
+  title('Mind the Gap : Dangers of Divorcing Evaluations of Summary Content from Linguistic Quality'),
+  nil)
+
+entry!('snover2006ter',
+  author('Matthew Snover and Bonnie Dorr and Richard Schwartz and Linnea Micciulla and John Makhoul'), 
+  inproceedings('Association for Machine Translation in the Americas', 2006),
+  pages(223,231),
+  title('A Study of Translation Edit Rate with Targeted Human Annotation'),
+  nil)
+
+entry!('chang2017affordable',
+  author('Cheng Chang and Runzhe Yang and Lu Chen and Xiang Zhou and Kai Yu'), 
+  emnlp(2017),
+  pages(223,231),
+  title('Affordable On-Line Dialogue Policy Learning'),
+  nil)
+
+entry!('dang2006overview',
+  author('Hoa Trang Dang'), 
+  inproceedings('Document Understanding Conference', 2006),
+  title('Overview of {DUC} 2006'),
+  nil)
+
+#entry!('weissenborn2017fastqa',
+#       author('Dirk Weissenborn and Georg Wiese and Laura Seiffe'),
+#       title('Making Neural QA as Simple as Possible but not Simpler'),
+#       arxiv(2017),
+#       url('https://arxiv.org/abs/1703.04816'),
+#       nil)
+
+entry!('tan2018s',
+  title('{S}-{N}et: From answer extraction to answer generation for machine reading comprehension'),
+  author('Chuanqi Tan and Furu Wei and Nan Yang and Weifeng Lv and Ming Zhou'),
+  aaai(2018),
+nil)
+
+entry!('pagliardini2017unsupervised',
+  title('Unsupervised learning of sentence embeddings using compositional n-gram features'),
+  author('Matteo Pagliardini and Prakhar Gupta and Martin Jaggi'),
+  arxiv(2017),
+  url('https://arxiv.org/abs/1703.02507'),
+nil)
+
+entry!('passonneau2014benefits',
+  title('The Benefits of a Model of Annotation'),
+  author('Rebecca J. Passonneau and Bob Carpenter'),
+  acl(2014),
+nil)
+
+entry!('lowe2017towards',
+  title('Towards an Automatic Turing Test: Learning to Evaluate Dialogue Responses'),
+  author('Ryan Lowe and Michael Noseworthy and Iulian V. Serban and Nicolas Angelard-Gontier and Yoshua Bengio and Joelle Pineau'),
+  acl(2017),
+nil)
+
+entry!('dusek2017referenceless',
+       title('Referenceless Quality Estimation for Natural Language Generation'),
+       author('Ondrej Dusek and Jekaterina Novikova and Verena Rieser'),
+       arxiv(2017),
+       url('https://arxiv.org/pdf/1708.01759.pdf'),
+nil)
+
+entry!('novikova2016crowd',
+  title('Crowd-sourcing {NLG} data: Pictures elicit better data'),
+  author('Jekaterina Novikova and Oliver Lemon and Verena Rieser'),
+  arxiv(2016),
+  url('https://arxiv.org/abs/1608.00339'),
+nil)
 
 #entry!('',
 #  author(''),
