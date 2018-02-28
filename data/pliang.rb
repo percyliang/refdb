@@ -12204,6 +12204,7 @@ entry!('mussmann2018gbs',
   title('Generalized Binary Search For Split-Neighborly Problems'),
   author('Stephen Mussmann and Percy Liang'),
   aistats(2018),
+  url('https://arxiv.org/pdf/1802.09751.pdf'),
 nil)
 
 entry!('guu2018edit',
@@ -12223,12 +12224,12 @@ entry!('liu2018workflow',
   author('Evan Zheran Liu and Kelvin Guu and Panupong Pasupat and Tianlin Shi and Percy Liang'),
   title('Reinforcement Learning on Web Interfaces using Workflow-Guided Exploration'),
   iclr(2018),
-  url('https://openreview.net/pdf?id=ryTp3f-0-'),
+  url('https://arxiv.org/pdf/1802.08802.pdf'),
 nil)
 
-entry!('liu2018workflow',
+entry!('raghunathan2018certified',
   author('Aditi Raghunathan and Jacob Steinhardt and Percy Liang'),
   title('Certified defenses against adversarial examples'),
   iclr(2018),
-  url('https://openreview.net/pdf?id=Bys4ob-Rb'),
+  url('https://arxiv.org/pdf/1801.09344.pdf'),
 nil)
