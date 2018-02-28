@@ -383,3 +383,26 @@ entry!('lakhina2004diagnosing',
   pages(219, 230),
   organization('ACM'),
 nil)
+
+entry!('paudice2018detection',
+  arxiv(2018, '1802.03041'),
+  title('Detection of Adversarial Training Examples in Poisoning Attacks through Anomaly Detection'),
+  author('Andrea Paudice and Luis Mu{\~n}oz-Gonz{\\\'a}lez and Andras Gyorgy and Emil C Lupu'),
+nil)
+
+entry!('nelson2008exploiting',
+  article('LEET', 2008, 8),
+  title('Exploiting Machine Learning to Subvert Your Spam Filter'),
+  author('Blaine Nelson and Marco Barreno and Fuching Jack Chi and Anthony D Joseph and Benjamin IP Rubinstein and Udam Saini and Charles A Sutton and J Doug Tygar and Kai Xia'),
+  pages(1, 9),
+nil)
+
+entry!('hodge2004survey',
+  article('Artificial intelligence review', 2004, 22),
+  title('A survey of outlier detection methodologies'),
+  author('Victoria Hodge and Jim Austin'),
+  number(2),
+  pages(85, 126),
+  publisher('Springer'),
+nil)
+
