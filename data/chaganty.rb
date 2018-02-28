@@ -318,6 +318,32 @@ entry!('pagliardini2017unsupervised',
   url('https://arxiv.org/abs/1703.02507'),
 nil)
 
+entry!('passonneau2014benefits',
+  title('The Benefits of a Model of Annotation'),
+  author('Rebecca J. Passonneau and Bob Carpenter'),
+  acl(2014),
+nil)
+
+entry!('lowe2017towards',
+  title('Towards an Automatic Turing Test: Learning to Evaluate Dialogue Responses'),
+  author('Ryan Lowe and Michael Noseworthy and Iulian V. Serban and Nicolas Angelard-Gontier and Yoshua Bengio and Joelle Pineau'),
+  acl(2017),
+nil)
+
+entry!('dusek2017referenceless',
+       title('Referenceless Quality Estimation for Natural Language Generation'),
+       author('Ondrej Dusek and Jekaterina Novikova and Verena Rieser'),
+       arxiv(2017),
+       url('https://arxiv.org/pdf/1708.01759.pdf'),
+nil)
+
+entry!('novikova2016crowd',
+  title('Crowd-sourcing {NLG} data: Pictures elicit better data'),
+  author('Jekaterina Novikova and Oliver Lemon and Verena Rieser'),
+  arxiv(2016),
+  url('https://arxiv.org/abs/1608.00339'),
+nil)
+
 #entry!('',
 #  author(''),
 #  inproceedings('', 2015),
