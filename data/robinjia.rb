@@ -146,7 +146,7 @@ nil)
 
 entry!('hu2017mnemonic',
   author('Minghao Hu and Yuxing Peng and Xipeng Qiu'),
-  title('Mnemonic Reader for Machine Comprehension'),
+  title('Reinforced Mnemonic Reader for Machine Comprehension'),
   arxiv(2017),
 nil)
 
@@ -238,4 +238,46 @@ entry!('li2017demystifying',
   author('Yanghao Li and Naiyan Wang and Jiaying Liu and Xiaodi Hou'),
   title('Demystifying Neural Style Transfer'),
   ijcai(2017),
+nil)
+
+entry!('wang2007qa',
+  author('Mengqiu Wang and Noah A. Smith and Teruko Mitamura'),
+  title('What is the Jeopardy Model? A Quasi-Synchronous Grammar for {QA}'),
+  emnlp(2007),
+nil)
+
+entry!('yih2013enhanced',
+  author('Wen-tau Yih and Ming-Wei Chang and Christopher Meek and Andrzej Pastusiak'),
+  title('Question Answering Using Enhanced Lexical Semantic Models'),
+  acl(2013),
+nil)
+
+entry!('peters2018elmo',
+  author('Matthew E. Peters and Mark Neumann and Mohit Iyyer and Matt Gardner and Christopher Clark and Kenton Lee and Luke Zettlemoyer'),
+  title('Deep contextualized word representations'),
+  naacl(2018),
+nil)
+
+entry!('zhang2017tacred',
+  author('Yuhao Zhang and Victor Zhong and Danqi Chen and Gabor Angeli and Christopher D. Manning'),
+  title('Position-aware Attention and Supervised Data Improve Slot Filling'),
+  emnlp(2017),
+nil)
+
+entry!('hendrickx2010relations',
+  author('Iris Hendrickx and Su Nam Kim and Zornitsa Kozareva and Preslav Nakov and Diarmuid OSeaghdha and Sebastian Pado and Marco Pennacchiotti and Lorenza Romano and Stan Szpakowicz'),
+  title('SemEval-2010 Task 8: Multi-Way Classification of Semantic Relations Between Pairs of Nominals'),
+  inproceedings('5th International Workshop on Semantic Evaluation', 2010),
+nil)
+
+entry!('marelli2014sick',
+  author('Marco Marelli and Stefano Menini and Marco Baroni and Luisa Bentivogli and Raffaella bernardi and Roberto Zamparelli'),
+  title('A {SICK} cure for the evaluation of compositional distributional semantic models'),
+  lrec(2014),
+nil)
+
+entry!('huang2018fusion',
+  author('Hsin-Yuan Huang and Chenguang Zhu and Yelong Shen and Weizhu Chen'),
+  title('FusionNet: Fusing via Fully-Aware Attention with Application to Machine Comprehension'),
+  iclr(2018),
 nil)

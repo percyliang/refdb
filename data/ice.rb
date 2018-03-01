@@ -112,3 +112,23 @@ entry!('hosu2016playing',
   author('Ionel-Alexandru Hosu and Traian Rebedea'),
   inproceedings('Evaluating General Purpose AI', 2016),
 nil)
+
+entry!('hamilton2017inductive',
+  title('Inductive Representation Learning on Large Graphs'),
+  author('William L. Hamilton and Rex Ying and Jure Leskovec'),
+  nips(2017),
+nil)
+
+entry!('kipf2017semi',
+  title('Semi-Supervised Classification with Graph Convolutional Networks'),
+  author('Thomas N. Kipf and Max Welling'),
+  iclr(2017),
+nil)
+
+entry!('pham2017column',
+  title('Column Networks for Collective Classification'),
+  author('Trang Pham and Truyen Tran and Dinh Phung and Svetha Venkatesh'),
+  aaai(2017),
+nil)
+
+
