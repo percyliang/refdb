@@ -539,7 +539,7 @@ nil)
 
 entry!('richardson2018polyglot',
   naacl(2018),
-  title('Polyglot Semantic Parsing in APIs'),
+  title('Polyglot Semantic Parsing in {API}s'),
   author('Kyle Richardson and Jonathan Berant and Jonas Kuhn'),
 )
 
