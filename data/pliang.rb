@@ -11372,13 +11372,6 @@ entry!('zhang2017hitting',
   award('Best paper award'),
 nil)
 
-entry!('kakade2017prediction',
-  author('Sham Kakade and Percy Liang and Vatsal Sharan and Gregory Valiant'),
-  title('Prediction with a Short Memory'),
-  arxiv(2017, '1612.02526'),
-  url('http://arxiv.org/pdf/1612.02526.pdf'),
-nil)
-
 entry!('bastani2017synthesizing',
   author('Osbert Bastani and Rahul Sharma and Alex Aiken and Percy Liang'),
   title('Synthesizing Program Input Grammars'),
@@ -12232,4 +12225,18 @@ entry!('raghunathan2018certified',
   title('Certified defenses against adversarial examples'),
   iclr(2018),
   url('https://arxiv.org/pdf/1801.09344.pdf'),
+nil)
+
+entry!('bastani2018active',
+  author('Osbert Bastani and Rahul Sharma and Alex Aiken and Percy Liang'),
+  title('Active Learning of Points-To Specifications'),
+  pldi(2018),
+  url('https://arxiv.org/pdf/1711.03239.pdf'),
+nil)
+
+entry!('kakade2018prediction',
+  author('Sham Kakade and Percy Liang and Vatsal Sharan and Gregory Valiant'),
+  title('Prediction with a Short Memory'),
+  stoc(2018),
+  url('http://arxiv.org/pdf/1612.02526.pdf'),
 nil)
