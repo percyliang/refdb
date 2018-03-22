@@ -359,49 +359,16 @@ entry!('andreas2016reasoning',
   author('Jacob Andreas and Dan Klein'),
 nil)
 
-entry!('zemel2013learning',
-  icml(2013),
-  title('Learning fair representations'),
-  author('Rich Zemel and Yu Wu and Kevin Swersky and Toni Pitassi and Cynthia Dwork'),
-  pages(325, 333),
-nil)
-
 entry!('louizos2015variational',
   arxiv(2015, '1511.00830'),
   title('The variational fair autoencoder'),
   author('Christos Louizos and Kevin Swersky and Yujia Li and Max Welling and Richard Zemel'),
 nil)
 
-entry!('hardt2016equality',
-  inproceedings('Advances in neural information processing systems', 2016),
-  title('Equality of opportunity in supervised learning'),
-  author('Moritz Hardt and Eric Price and Nati Srebro and others'),
-  pages(3315, 3323),
-nil)
-
-entry!('dwork2012fairness',
-  inproceedings('Proceedings of the 3rd innovations in theoretical computer science conference', 2012),
-  title('Fairness through awareness'),
-  author('Cynthia Dwork and Moritz Hardt and Toniann Pitassi and Omer Reingold and Richard Zemel'),
-  pages(214, 226),
-  organization('ACM'),
-nil)
-
-entry!('kleinberg2016inherent',
-  arxiv(2016, '1609.05807'),
-  title('Inherent trade-offs in the fair determination of risk scores'),
-  author('Jon Kleinberg and Sendhil Mullainathan and Manish Raghavan'),
-nil)
 
 entry!('bolukbasi2016man',
   nips(2016),
   title('Man is to computer programmer as woman is to homemaker? debiasing word embeddings'),
   author('Tolga Bolukbasi and Kai-Wei Chang and James Y Zou and Venkatesh Saligrama and Adam T Kalai'),
   pages(4349, 4357),
-nil)
-
-entry!('kearns2017preventing',
-  arxiv(2017, '1711.05144'),
-  title('Preventing Fairness Gerrymandering: Auditing and Learning for Subgroup Fairness'),
-  author('Michael Kearns and Seth Neel and Aaron Roth and Zhiwei Steven Wu'),
 nil)
