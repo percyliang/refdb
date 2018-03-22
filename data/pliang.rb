@@ -11289,13 +11289,6 @@ nil)
 ############################################################
 # 2017
 
-entry!('guu2017edit',
-  author('Kelvin Guu and Tatsunori B. Hashimoto and Yonatan Oren and Percy Liang'),
-  title('Generating Sentences by Editing Prototypes'),
-  arxiv(2017, '1709.08878'),
-  url('http://arxiv.org/pdf/1709.08878.pdf'),
-nil)
-
 entry!('steinhardt2017certified',
   author('Jacob Steinhardt and Pang Wei Koh and Percy Liang'),
   title('Certified Defenses for Data Poisoning Attacks'),
@@ -11377,13 +11370,6 @@ entry!('zhang2017hitting',
   colt(2017),
   url('http://arxiv.org/pdf/1702.05575.pdf'),
   award('Best paper award'),
-nil)
-
-entry!('kakade2017prediction',
-  author('Sham Kakade and Percy Liang and Vatsal Sharan and Gregory Valiant'),
-  title('Prediction with a Short Memory'),
-  arxiv(2017, '1612.02526'),
-  url('http://arxiv.org/pdf/1612.02526.pdf'),
 nil)
 
 entry!('bastani2017synthesizing',
@@ -11927,7 +11913,6 @@ entry!('narodytska2017verifying',
   author('Nina Narodytska and Shiva Prasad Kasiviswanathan and Leonid Ryzhyk and Mooly Sagiv and Toby Walsh'),
   title('Verifying Properties of Binarized Deep Neural Networks'),
   arxiv(2017, '1709.06662'),
-  url('http://arxiv.org/pdf/1709.06662.pdf'),
 nil)
 
 entry!('adamczak2015concentration',
@@ -12192,4 +12177,66 @@ entry!('minka2001ep',
   author('Thomas P. Minka'),
   title('Expectation propagation for approximate {B}ayesian inference'),
   uai(2001), pages(362,369),
+nil)
+
+entry!('hampel1968thesis',
+  author('Frank R. Hampel'),
+  title('Contributions to the theory of robust estimation'),
+  phdthesis('University of California at Berkeley', 1968),
+nil)
+
+############################################################
+
+entry!('selsam2018sat',
+  title('Learning a {SAT} Solver from Single-Bit Supervision'),
+  author('Daniel Selsam and Matthew Lamm and Benedikt Bünz and Percy Liang and Leonardo de Moura and David L. Dill'),
+  arxiv(2018, '1802.03685'),
+nil)
+
+entry!('mussmann2018gbs',
+  title('Generalized Binary Search For Split-Neighborly Problems'),
+  author('Stephen Mussmann and Percy Liang'),
+  aistats(2018),
+  url('https://arxiv.org/pdf/1802.09751.pdf'),
+nil)
+
+entry!('guu2018edit',
+  author('Kelvin Guu and Tatsunori B. Hashimoto and Yonatan Oren and Percy Liang'),
+  title('Generating Sentences by Editing Prototypes'),
+  tacl(2018, 0),
+  url('http://arxiv.org/pdf/1709.08878.pdf'),
+nil)
+
+entry!('li2018style',
+  author('Juncen Li and Robin Jia and He He and Percy Liang'),
+  title('Delete, Retrieve, Generate: A Simple Approach to Sentiment and Style Transfer'),
+  naacl(2018),
+nil)
+
+entry!('liu2018workflow',
+  author('Evan Zheran Liu and Kelvin Guu and Panupong Pasupat and Tianlin Shi and Percy Liang'),
+  title('Reinforcement Learning on Web Interfaces using Workflow-Guided Exploration'),
+  iclr(2018),
+  url('https://arxiv.org/pdf/1802.08802.pdf'),
+nil)
+
+entry!('raghunathan2018certified',
+  author('Aditi Raghunathan and Jacob Steinhardt and Percy Liang'),
+  title('Certified defenses against adversarial examples'),
+  iclr(2018),
+  url('https://arxiv.org/pdf/1801.09344.pdf'),
+nil)
+
+entry!('bastani2018active',
+  author('Osbert Bastani and Rahul Sharma and Alex Aiken and Percy Liang'),
+  title('Active Learning of Points-To Specifications'),
+  pldi(2018),
+  url('https://arxiv.org/pdf/1711.03239.pdf'),
+nil)
+
+entry!('kakade2018prediction',
+  author('Sham Kakade and Percy Liang and Vatsal Sharan and Gregory Valiant'),
+  title('Prediction with a Short Memory'),
+  stoc(2018),
+  url('http://arxiv.org/pdf/1612.02526.pdf'),
 nil)
