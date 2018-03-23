@@ -372,3 +372,10 @@ entry!('bolukbasi2016man',
   author('Tolga Bolukbasi and Kai-Wei Chang and James Y Zou and Venkatesh Saligrama and Adam T Kalai'),
   pages(4349, 4357),
 nil)
+
+
+entry!('maurer2009empirical',
+  arxiv(2009, '0907.3740'),
+  title('Empirical Bernstein bounds and sample variance penalization'),
+  author('Andreas Maurer and Massimiliano Pontil'),
+nil)
