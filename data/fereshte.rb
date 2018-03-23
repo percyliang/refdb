@@ -385,3 +385,9 @@ entry!('duchi2016variance',
   title('Variance-based regularization with convex objectives'),
   author('John Duchi and Hongseok Namkoong'),
 nil)
+
+entry!('rothblum2018probably',
+  arxiv(2018, '1803.03242'),
+  title('Probably Approximately Metric-Fair Learning'),
+  author('Guy N Rothblum and Gal Yona'),
+nil)
