@@ -224,13 +224,6 @@ entry!('vogel2013implicatures',
   pages(74, 80),
 nil)
 
-entry!('busoniu2008comprehensive',
-  article('IEEE Transactions on Systems Man and Cybernetics Part C Applications and Reviews', 2008, 38),
-  title('A comprehensive survey of multiagent reinforcement learning'),
-  author('Lucian Busoniu and Robert Babuska and Bart De Schutter'),
-  number(2),
-nil)
-
 entry!('grosz1986attention',
   article('Computational linguistics', 1986, 12),
   title('Attention, intentions, and the structure of discourse'),
@@ -405,4 +398,20 @@ entry!('andreas2016learning',
   publisher('Association for Computational Linguistics'),
   pages(1545, 1554),
   url('http://www.aclweb.org/anthology/N16-1181'),
+nil)
+
+entry!('busoniu2008comprehensive',
+  article('IEEE Trans. Systems, Man, and Cybernetics, Part C', 2008, 38),
+  title('A comprehensive survey of multiagent reinforcement learning'),
+  author('Lucian Busoniu and Robert Babuska and Bart De Schutter'),
+  number(2),
+  pages(156, 172),
+nil)
+
+entry!('golland2010game',
+  inproceedings('Proceedings of the 2010 conference on empirical methods in natural language processing', 2010),
+  title('A game-theoretic approach to generating spatial descriptions'),
+  author('Dave Golland and Percy Liang and Dan Klein'),
+  pages(410, 419),
+  organization('Association for Computational Linguistics'),
 nil)

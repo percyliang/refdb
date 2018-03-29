@@ -3762,17 +3762,6 @@ entry!('liang11minimal',
              'Found this answer using a new machine learning algorithm that exploits this sparsity.'),
 nil)
 
-entry!('golland10pragmatics',
-  author('Dave Golland and Percy Liang and Dan Klein'),
-  title('A Game-Theoretic Approach to Generating Spatial Descriptions'),
-  emnlp2010,
-  url('pragmatics-emnlp2010.pdf'),
-  slidesurl('pragmatics-emnlp2010-talk.pdf'),
-  abstract('Language is sensitive to both semantic and pragmatic effects.  To capture both effects, we model language use as a cooperative game between two players: a speaker, who generates an utterance, and a listener, who responds with an action.  Specifically, we consider the task of generating spatial references to objects, wherein the listener must accurately identify an object described by the speaker.  We show that a speaker model that acts optimally with respect to an explicit, embedded listener model substantially outperforms one that is trained to directly generate spatial descriptions.'),
-  punchlines('Observation: people say things to be understood (pragmatics), not simply what\'s technically correct (semantics).',
-             'Goal: model language as a game between speaker and listener.  Speaker maximizes utility (communictative success) with respect to its model of the listener.'),
-nil)
-
 entry!('angeli10generation',
   author('Gabor Angeli and Percy Liang and Dan Klein'),
   title('A Simple Domain-Independent Probabilistic Approach to Generation'),
