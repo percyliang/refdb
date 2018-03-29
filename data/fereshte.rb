@@ -112,14 +112,14 @@ entry!('foerster2016learning',
   pages(2137, 2145),
 nil)
 
-entry!('lazaridou2016multi',
-  arxiv(2016, '1612.07182'),
+entry!('lazaridou2017multi',
+  iclr(2017),
   title('Multi-agent cooperation and the emergence of (natural) language'),
   author('Angeliki Lazaridou and Alexander Peysakhovich and Marco Baroni'),
 nil)
 
-entry!('mordatch2017emergence',
-  arxiv(2017, '1703.04908'),
+entry!('mordatch2018emergence',
+  aaai(2018),
   title('Emergence of Grounded Compositional Language in Multi-Agent Populations'),
   author('Igor Mordatch and Pieter Abbeel'),
 nil)
@@ -177,7 +177,7 @@ nil)
 
 entry!('huttegger2010evolutionary',
   article('Synthese', 2010, 172),
-  title('Evolutionary dynamics of Lewis signaling games: signaling systems vs. partial pooling'),
+  title('Evolutionary dynamics of {L}ewis signaling games: signaling systems vs. partial pooling'),
   author('Simon M Huttegger and Brian Skyrms and Rory Smead and Kevin JS Zollman'),
   number(1),
   pages(177, 191),
@@ -256,14 +256,6 @@ entry!('weizenbaum1966eliza',
   number(1),
   pages(36, 45),
   publisher('ACM'),
-nil)
-
-entry!('clark1991grounding',
-  article('Perspectives on socially shared cognition', 1991, 13),
-  title('Grounding in communication'),
-  author('Herbert H Clark and Susan E Brennan and others'),
-  number(1991),
-  pages(127, 149),
 nil)
 
 entry!('allen1980analyzing',
@@ -352,13 +344,6 @@ entry!('tan1993multi',
   pages(330, 337),
 nil)
 
-
-entry!('andreas2016reasoning',
-  arxiv(2016, '1604.00562'),
-  title('Reasoning about pragmatics with neural listeners and speakers'),
-  author('Jacob Andreas and Dan Klein'),
-nil)
-
 entry!('louizos2015variational',
   arxiv(2015, '1511.00830'),
   title('The variational fair autoencoder'),
@@ -390,4 +375,34 @@ entry!('rothblum2018probably',
   arxiv(2018, '1803.03242'),
   title('Probably Approximately Metric-Fair Learning'),
   author('Guy N Rothblum and Gal Yona'),
+nil)
+
+entry!('clark1991grounding',
+  author('Herbert H. Clark and Susan E. Brennan'),
+  book('Perspectives on Socially Shared Cognition', 1991),
+  pages(127, 149),
+  title('Grounding in Communication'),
+nil)
+
+
+entry!('andreas2016reasoning',
+  emnlp(2016),
+  author('Jacob  Andreas and Dan  Klein'),
+  title('Reasoning about Pragmatics with Neural Listeners and Speakers'),
+       #month('November'),
+       #address('Austin, Texas'),
+  publisher('Association for Computational Linguistics'),
+  pages(1173, 1182),
+  url('https://aclweb.org/anthology/D16-1125'),
+nil)
+
+entry!('andreas2016learning',
+  acl(2016),
+  author('Jacob  Andreas and Marcus   Rohrbach and Trevor   Darrell and Dan  Klein'),
+  title('Learning to Compose Neural Networks for Question Answering'),
+       #month('June'),
+  address('San Diego, California'),
+  publisher('Association for Computational Linguistics'),
+  pages(1545, 1554),
+  url('http://www.aclweb.org/anthology/N16-1181'),
 nil)
