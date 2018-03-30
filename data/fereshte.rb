@@ -1,10 +1,3 @@
-
-entry!('hawkins2015you',
-  inproceedings('CogSci', 2015),
-  title('Why do you ask? Good questions provoke informative answers'),
-  author('Robert XD Hawkins and Andreas Stuhlm{\"u}ller and Judith Degen and Noah D Goodman'),
-nil)
-
 entry!('monroe2017colors',
   arxiv(2017, '1703.10186'),
   title('Colors in Context: A Pragmatic Neural Model for Grounded Language Understanding'),
@@ -89,7 +82,7 @@ entry!('kao2014formalizing',
 nil)
 
 entry!('qing2014gradable',
-  inproceedings('Semantics and linguistic theory', 2014),
+  inproceedings('Semantics and Linguistic Theory', 2014),
   title('Gradable adjectives, vagueness, and optimal language use: A speaker-oriented model'),
   author('Ciyang Qing and Michael Franke'),
   volume(24),
@@ -177,7 +170,7 @@ nil)
 
 entry!('huttegger2010evolutionary',
   article('Synthese', 2010, 172),
-  title('Evolutionary dynamics of {L}ewis signaling games: signaling systems vs. partial pooling'),
+       title('Evolutionary dynamics of {Lewis} signaling games: signaling systems vs. partial pooling'),
   author('Simon M Huttegger and Brian Skyrms and Rory Smead and Kevin JS Zollman'),
   number(1),
   pages(177, 191),
@@ -225,7 +218,7 @@ entry!('vogel2013implicatures',
 nil)
 
 entry!('grosz1986attention',
-  article('Computational linguistics', 1986, 12),
+  article('Computational Linguistics', 1986, 12),
   title('Attention, intentions, and the structure of discourse'),
   author('Barbara J Grosz and Candace L Sidner'),
   number(3),
@@ -234,7 +227,7 @@ entry!('grosz1986attention',
 nil)
 
 entry!('bobrow1977gus',
-  article('Artificial intelligence', 1977, 8),
+  article('Artificial Intelligence', 1977, 8),
   title('GUS, a frame-driven dialog system'),
   author('Daniel G Bobrow and Ronald M Kaplan and Martin Kay and Donald A Norman and Henry Thompson and Terry Winograd'),
   number(2),
@@ -252,7 +245,7 @@ entry!('weizenbaum1966eliza',
 nil)
 
 entry!('allen1980analyzing',
-  article('Artificial intelligence', 1980, 15),
+  article('Artificial Intelligence', 1980, 15),
   title('Analyzing intention in utterances'),
   author('James F Allen and C Raymond Perrault'),
   number(3),
@@ -311,6 +304,7 @@ entry!('lauer2000algorithm',
   title('An algorithm for distributed reinforcement learning in cooperative multi-agent systems'),
   author('Martin Lauer and Martin Riedmiller'),
   organization('Citeseer'),
+  pages(535,542),
 nil)
 
 entry!('littman2001value',
@@ -320,21 +314,6 @@ entry!('littman2001value',
   number(1),
   pages(55, 66),
   publisher('Elsevier'),
-nil)
-
-entry!('zhang2013coordinating',
-  inproceedings('Proceedings of the 2013 international conference on Autonomous agents and multi-agent systems', 2013),
-  title('Coordinating multi-agent reinforcement learning with limited communication'),
-  author('Chongjie Zhang and Victor Lesser'),
-  pages(1101, 1108),
-  organization('International Foundation for Autonomous Agents and Multiagent Systems'),
-nil)
-
-entry!('tan1993multi',
-  inproceedings('Proceedings of the tenth international conference on machine learning', 1993),
-  title('Multi-agent reinforcement learning: Independent vs. cooperative agents'),
-  author('Ming Tan'),
-  pages(330, 337),
 nil)
 
 entry!('louizos2015variational',
@@ -408,10 +387,32 @@ entry!('busoniu2008comprehensive',
   pages(156, 172),
 nil)
 
-entry!('golland2010game',
-  inproceedings('Proceedings of the 2010 conference on empirical methods in natural language processing', 2010),
-  title('A game-theoretic approach to generating spatial descriptions'),
+entry!('hawkins2015you',
+  inproceedings('Proceedings of the Thirty-Seventh Annual Conference of the {C}ognitive {S}cience {S}ociety', 2015),
+  author('Robert X. D. Hawkins and Andreas Stuhlm\"uller and Judith Degen and Noah D. Goodman'),
+       title('Why do you ask{? G}ood questions provoke informative answers'),
+nil)
+
+entry!('golland2010pragmatics',
+  emnlp(2010),
   author('Dave Golland and Percy Liang and Dan Klein'),
+  title('A Game-theoretic Approach to Generating Spatial Descriptions'),
   pages(410, 419),
-  organization('Association for Computational Linguistics'),
+       #publisher('Association for Computational Linguistics'),
+nil)
+
+entry!('zhang2013coordinating',
+  inproceedings('Proceedings of the 2013 International Conference on Autonomous Agents and Multi-agent Systems', 2013),
+  author('Chongjie Zhang and Victor Lesser'),
+  title('Coordinating Multi-agent Reinforcement Learning with Limited Communication'),
+  pages(1101, 1108),
+  publisher('International Foundation for Autonomous Agents and Multiagent Systems'),
+nil)
+
+entry!('tan1993multi',
+  icml(1993),
+  author('Ming Tan'),
+  title('Multi-Agent Reinforcement Learning: Independent vs. Cooperative Agents'),
+  pages(330, 337),
+  publisher('Morgan Kaufmann'),
 nil)

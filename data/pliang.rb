@@ -2550,7 +2550,7 @@ nil)
 entry!('grice75maxims',
   author('H. P. Grice'),
   title('Logic and Conversation'),
-  article('Syntax and semantics', 1975, 3),
+  article('Syntax and Semantics', 1975, 3),
   pages(41, 58),
 nil)
 
@@ -11377,6 +11377,7 @@ entry!('he2017symmetric',
   acl(2017),
   url('https://arxiv.org/pdf/1704.07130.pdf'),
   codalab('0xc757f29f5c794e5eb7bfa8ca9c945573'),
+  pages(1766,1776),
 nil)
 
 entry!('guu2017bridging',
