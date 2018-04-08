@@ -269,12 +269,6 @@ entry!('colby1971artificial',
   publisher('Elsevier'),
 nil)
 
-entry!('dekel2014epistemic',
-  article('Handbook of Game Theory', 2014, 4),
-  title('Epistemic game theory'),
-  author('Eddie Dekel and Marciano Siniscalchi and others'),
-nil)
-
 entry!('perea2012epistemic',
   title('Epistemic game theory: reasoning and choice'),
   author('Andr{\'e}s Perea'),
@@ -415,4 +409,14 @@ entry!('tan1993multi',
   title('Multi-Agent Reinforcement Learning: Independent vs. Cooperative Agents'),
   pages(330, 337),
   publisher('Morgan Kaufmann'),
+nil)
+
+entry!('dekel2015epistemic',
+  title('Epistemic game theory'),
+  author('Eddie Dekel and Marciano Siniscalchi'),
+  book('Handbook of Game Theory with Economic Applications', 2015),
+  volume(4),
+  pages(619, 702),
+#  year(2015),
+#  publisher('Elsevier'),
 nil)

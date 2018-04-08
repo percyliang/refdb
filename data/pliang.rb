@@ -9186,6 +9186,7 @@ entry!('smith2013pragmatics',
   title('Learning and using language via recursive pragmatic reasoning about other agents'),
   author('Nathaniel J. Smith and Noah D. Goodman and Michael C. Frank'),
   nips(2013),
+  pages(3039,3047),  
 nil)
 
 entry!('frank2012pragmatics',
@@ -10196,6 +10197,7 @@ entry!('potts2012cards',
   editor('Nathan Arnett and Ryan Bennett'),
   publisher('Cascadilla Press'),
   title('Goal-Driven Answers in the {C}ards Dialogue Corpus'),
+  pages(1,20),
 nil)
 
 entry!('serban2015survey',
@@ -10459,6 +10461,7 @@ entry!('wen2017network',
   eacl(2017),
   title('A Network-based End-to-End Trainable Task-oriented Dialogue System'),
   author('Tsung-Hsien Wen and Milica Gasic and Nikola Mrksic and Lina M Rojas-Barahona and Pei-Hao Su and Stefan Ultes and David Vandyke and Steve Young'),
+  pages(438,449), 
 nil)
 
 entry!('dong2016logical',
