@@ -264,3 +264,11 @@ entry!('gan2017style',
   author('Chuang Gan and Zhe Gan and Xiaodong He and Jianfeng Gao and Li Deng'),
   cvpr(2017),
 )
+
+entry!('zhao2018regularized',
+  title('Adversarially Regularized Autoencoders'),
+  author('Junbo Zhao and Yoon Kim and Kelly Zhang and Alexander M. Rush and Yann LeCun'),
+  iclr(2018),
+)
+
+
