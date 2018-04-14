@@ -271,4 +271,8 @@ entry!('zhao2018regularized',
   iclr(2018),
 )
 
-
+entry!('he2016amazonreview',
+  title('Ups and Downs: Modeling the Visual Evolution of Fashion Trends with One-class Collaborative Filtering'),
+  author('Ruining He and Julian McAuley'),
+  www(2016),
+)
