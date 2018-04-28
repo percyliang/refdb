@@ -11286,6 +11286,7 @@ entry!('hashimoto2017transformation',
   author('Tatsu Hashimoto and John Duchi and Percy Liang'),
   title('Unsupervised Transformation Learning via Convex Relaxations'),
   nips(2017),
+  url('https://arxiv.org/pdf/1711.02226.pdf'),
 nil)
 
 entry!('sharan2017overcomplete',
@@ -12198,6 +12199,7 @@ entry!('li2018style',
   author('Juncen Li and Robin Jia and He He and Percy Liang'),
   title('Delete, Retrieve, Generate: A Simple Approach to Sentiment and Style Transfer'),
   naacl(2018),
+  url('https://arxiv.org/pdf/1804.06437.pdf'),
 nil)
 
 entry!('liu2018workflow',
