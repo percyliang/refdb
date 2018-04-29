@@ -12175,6 +12175,25 @@ nil)
 
 ############################################################
 
+entry!('chaganty2018evaluation',
+  title('Training Classifiers with Natural Language Explanations'),
+  author('Braden Hancock and Paroma Varma and Stephanie Wang and Percy Liang and Christopher Ré'),
+  acl(2018),
+nil)
+
+entry!('chaganty2018evaluation',
+  title('Can We Obtain Cheaper Unbiased Evaluation of Natural Language Generation using Control Variates?'),
+  author('Arun Chaganty and Stephen Mussmann and Percy Liang'),
+  acl(2018),
+nil)
+
+entry!('rajpurkar2018squadrun',
+  title('Know What You Don\'t Know: Unanswerable Questions for {SQuAD}'),
+  author('Pranav Rajpurkar and Robin Jia and Percy Liang'),
+  acl(2018),
+  note('Short paper.'),
+nil)
+
 entry!('selsam2018sat',
   title('Learning a {SAT} Solver from Single-Bit Supervision'),
   author('Daniel Selsam and Matthew Lamm and Benedikt Bünz and Percy Liang and Leonardo de Moura and David L. Dill'),
