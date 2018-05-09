@@ -264,3 +264,15 @@ entry!('gan2017style',
   author('Chuang Gan and Zhe Gan and Xiaodong He and Jianfeng Gao and Li Deng'),
   cvpr(2017),
 )
+
+entry!('zhao2018regularized',
+  title('Adversarially Regularized Autoencoders'),
+  author('Junbo Zhao and Yoon Kim and Kelly Zhang and Alexander M. Rush and Yann LeCun'),
+  iclr(2018),
+)
+
+entry!('he2016amazonreview',
+  title('Ups and Downs: Modeling the Visual Evolution of Fashion Trends with One-class Collaborative Filtering'),
+  author('Ruining He and Julian McAuley'),
+  www(2016),
+)

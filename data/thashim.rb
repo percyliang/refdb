@@ -1,3 +1,4 @@
+# coding: utf-8
 entry!('tversky1986nearest',
        author('Amos Tversky and J. Wesley Hutchinson'),
        title('Nearest neighbor analysis of psychological spaces'),
@@ -150,8 +151,217 @@ entry!('parzen1962',
        pages(1065, 1076),
        nil)
 
-entry!('jones1992',
-       jasa(1992, 91),
-       title('A Brief Survey of Bandwidth Selection for Density Estimation'),
-       author('
+entry!('amodei2016',
+       author('Dario Amodei and others'),
+       title('Deep Speech 2 End to End Speech Recognition in {E}nglish and Mandarin'),
+       icml(2016),
+       pages(173, 182),
+       nil)
+
+entry!('chouldechova2017',
+       article('Big Data', 2017),
+       author('Alexandra Chouldechova'),
+       title('A study of bias in recidivism prediciton instruments'),
+       pages(153, 163),
+       nil)
        
+
+entry!('joseph2016',
+  inproceedings('FATML', 2016),
+  title('Rawlsian Fairness for Machine Learning'),
+  author('Matthew Joseph and Michael Kearns and Jamie Morgenstern and Seth Neel and Aaron Roth'),
+  nil)
+
+entry!('jabbari2017',
+       title('Fairness in Reinforcement Learning'),
+       author('Shahin Jabbari and Matthew Joseph and Michael Kearns and Jamie Morgenstern and Aaron Roth'),
+       icml(2017),
+       pages(1617, 1626),
+       nil)
+
+entry!('woodworth2017',
+       title('Learning Non-Discriminatory Predictors'),
+       author('Blake Woodworth and Suriya Gunasekar and Mesrob I. Ohannessian and Nathan Srebro'),
+       colt(2017),
+       pages(1920, 1953),
+       nil)
+
+
+
+entry!('kroll2017',
+       article('University of Pennsylvania Law Review', 2017),
+       volume(3),
+       title('Accountable Algorithms'),
+       author('Joshua A. Kroll and Joanna Huey and Solon Baroca and Edward W. Felten and Joel R. Reidenberg and David G Robinson and Harlan Yu'),
+       pages(633, 706),
+       nil)
+
+
+entry!('rawls2009',
+       author('John Rawls'),
+       title('A theory of justice: Revised edition'),
+       book('Harvard University Press', 2009),
+       address('Cambridge, MA'),
+       nil)
+
+entry!('rawls2001',
+       author('John Rawls'),
+       title('Justice as fairness: a restatement'),
+       book('Harvard University Press', 2001),
+       address('Cambridge, MA'),
+       nil)
+
+entry!('duchi2016',
+  title('Statistics of Robust Optimization: A Generalized Empirical Likelihood Approach'),
+  author('John Duchi and Peter Glynn and Hongseok Namkoong'),
+  arxiv(2016),
+nil)
+
+entry!('kula2015',
+  inproceedings('Proceedings of the 2nd Workshop on New Trends on Content-Based Recommender Systems', 2015),
+  title('Metadata Embeddings for User and Item Cold-start Recommendations'),
+  author('Maciej Kula'),
+  pages(14,21),
+  nil)
+
+entry!('grother2011',
+       title('Report on the Evaluation of 2D Still-Image Face Recognition Algorithms'),
+       author('Patrick J. Grother and George W. Quinn and P. Jonathon Phillips'),
+       techreport('NIST', 2011),
+       nil)
+
+entry!('harsanyi1975',
+       title(' Can the Maximin Principle Serve as a Basis for Morality? A Critique of John Rawls\'s Theory'),
+       author('John C. Harsanyi'),
+       article('The American Political Science Review',1975),
+       volume(69),
+       pages(594, 606),
+       nil)
+
+entry!('mueller1974',
+       title('The Utilitarian Contract: A Generalization of Rawls\' Theory of Justice'),
+       author('Dennis C. Mueller and Robert D. Tollison and Thomas D. Willet'),
+       article('Theory and Decision', 1974),
+       volume(4),
+       pages(345,367),
+       nil)
+
+entry!('altham1973',
+       title('Rawls\' Difference Principle'),
+       author('JE J. Altham'),
+       article('Philosophy', 1973),
+       volume(48),
+       pages(75,78),
+       nil)
+
+entry!('sapiezynski2017',
+       title('Academic performance prediction in a gender-imbalanced environment'),
+       author('Piotr Sapiezynski and Valentin Kassarnig and Christo Wilson and Sune Lehmann and Alan Mislove'),
+       inproceedings('FATREC',2017),
+       volume(1),
+       pages(48, 51),
+nil)
+
+entry!('tatman2017',
+       title('Gender and Dialect Bias in YouTube’s Automatic Captions'),
+       author('Rachael Tatman'),
+       inproceedings('Workshop on Ethics in Natural Langauge Processing', 2017),
+       volume(1),
+       pages(53, 59),
+       nil)
+
+entry!('jurgens2017',
+       title('Incorporating Dialectal Variability for Socially Equitable Language Identification'),
+       author('David Jurgens and Yulia Tsvetkov and Dan Jurafsky'),
+       acl(2017),
+       pages(51, 57),
+       nil)
+
+entry!('hovy2015',
+       title('Tagging Performance Correlates with Age'),
+       author('Dirk Hovy and Anders Søgaard'),
+       acl(2015),
+       pages(483, 488),
+       nil)
+
+entry!('jorgensen2015',
+       title('Challenges of studying and processing dialects in social media'),
+       author('Anna Katrine Jørgensen and Dirk Hovy and Anders Søgaard'),
+       inproceedings('ACL Workshop on Noisy User-generated Text', 2015),
+       pages(9, 18),
+       nil)
+
+entry!('blodgett2016',
+       title('Demographic Dialectal Variation in Social Media: A Case Study of {A}frican-{A}merican {E}nglish'),
+       author('Su Lin Blodgett and Lisa Green and Brendan O\'Connor'),
+       emnlp(2016),
+       pages(1119, 1130),
+       nil)
+       
+entry!('barocas2016',
+       title('Big Data\'s Disparate Impact'),
+       author('Solon Barocas and Andrew D. Selbst'),
+       article('104 California Law Review', 2016),
+       volume(3),
+       pages(671, 732),
+       nil)
+
+entry!('kusner2017',
+       title('Counterfactual Fairness'),
+       author('Matt J Kusner and Joshua R Loftus and Chris Russell and Ricardo Silva'),
+       nips(2017),
+       pages(4069,4079),
+       nil)
+
+entry!('dwork2012',
+       title('Fairness through awareness'),
+       author('Cynthia Dwork and Moritz Hardt and Toniann Pitassi and Omer Reingold and Rich Zemel'),
+       itcs(2012),
+       pages(214, 226),
+       nil)
+
+entry!('feldman2015',
+       title('Certifying and removing disparate impact'),
+       author('Michael Feldman and Sorelle Friedler and John Moeller and Carlos Scheidegger and Suresh Venkatasubramanian'),
+       kdd(2015),
+       pages(259, 268),
+       nil)
+
+entry!('hardt2016',
+       title('Equality of Opportunity in Supervised Learning'),
+       author('Moritz Hardt and Eric Price and Nathan Srebo'),
+       nips(2016),
+       pages(3315,3323),
+       nil)
+
+entry!('kleinberg2017',
+       title('Inherent Trade-offs in the Fair Determination of Risk Scores'),
+       author('Jon Kleinberg and Sendhil Mullainathan and Manish Raghavan'),
+       itcs(2017),
+       nil)
+
+entry!('pleiss2017',
+       title('On Fairness and Calibration'),
+       author('Geoff Pleiss and Manish Raghavan and Felix Wu and Jon Kleinberg and Kilian Q. Weinberger'),
+       nips(2017),
+       pages(5684, 5693),
+       nil)
+
+entry!('kearns2018',
+       title('Preventing Fairness Gerrymandering: Auditing and Learning for Subgroup Fairness'),
+       author('Michael Kearns and Seth Neel and Aaron Roth and Zhiwei Steven Wu'),
+       arxiv(2018,'1711.05144'),
+       nil)
+
+entry!('hebertjohnson2017',
+       title('Calibration for the (Computationally-Identifiable) Masses'),
+       author('{\\\'U}rsula H{\\\'e}bert-Johnson and Michael P. Kim and Omer Reingold and Guy N. Rothblum'),
+       arxiv(2017,'1711.08513'),
+       nil)
+
+entry!('zemel2013',
+       title('Learning Fair Representations'),
+       author('Richard Zemel and Yu Wu and Kevin Swersky and Toniann Pitassi and Cynthia Dwork'),
+       icml(2013),
+       pages(325,333),
+       nil)

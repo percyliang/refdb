@@ -1,10 +1,3 @@
-
-entry!('hawkins2015you',
-  inproceedings('CogSci', 2015),
-  title('Why do you ask? Good questions provoke informative answers'),
-  author('Robert XD Hawkins and Andreas Stuhlm{\"u}ller and Judith Degen and Noah D Goodman'),
-nil)
-
 entry!('monroe2017colors',
   arxiv(2017, '1703.10186'),
   title('Colors in Context: A Pragmatic Neural Model for Grounded Language Understanding'),
@@ -89,7 +82,7 @@ entry!('kao2014formalizing',
 nil)
 
 entry!('qing2014gradable',
-  inproceedings('Semantics and linguistic theory', 2014),
+  inproceedings('Semantics and Linguistic Theory', 2014),
   title('Gradable adjectives, vagueness, and optimal language use: A speaker-oriented model'),
   author('Ciyang Qing and Michael Franke'),
   volume(24),
@@ -112,14 +105,14 @@ entry!('foerster2016learning',
   pages(2137, 2145),
 nil)
 
-entry!('lazaridou2016multi',
-  arxiv(2016, '1612.07182'),
+entry!('lazaridou2017multi',
+  iclr(2017),
   title('Multi-agent cooperation and the emergence of (natural) language'),
   author('Angeliki Lazaridou and Alexander Peysakhovich and Marco Baroni'),
 nil)
 
-entry!('mordatch2017emergence',
-  arxiv(2017, '1703.04908'),
+entry!('mordatch2018emergence',
+  aaai(2018),
   title('Emergence of Grounded Compositional Language in Multi-Agent Populations'),
   author('Igor Mordatch and Pieter Abbeel'),
 nil)
@@ -177,7 +170,7 @@ nil)
 
 entry!('huttegger2010evolutionary',
   article('Synthese', 2010, 172),
-  title('Evolutionary dynamics of Lewis signaling games: signaling systems vs. partial pooling'),
+       title('Evolutionary dynamics of {Lewis} signaling games: signaling systems vs. partial pooling'),
   author('Simon M Huttegger and Brian Skyrms and Rory Smead and Kevin JS Zollman'),
   number(1),
   pages(177, 191),
@@ -224,15 +217,8 @@ entry!('vogel2013implicatures',
   pages(74, 80),
 nil)
 
-entry!('busoniu2008comprehensive',
-  article('IEEE Transactions on Systems Man and Cybernetics Part C Applications and Reviews', 2008, 38),
-  title('A comprehensive survey of multiagent reinforcement learning'),
-  author('Lucian Busoniu and Robert Babuska and Bart De Schutter'),
-  number(2),
-nil)
-
 entry!('grosz1986attention',
-  article('Computational linguistics', 1986, 12),
+  article('Computational Linguistics', 1986, 12),
   title('Attention, intentions, and the structure of discourse'),
   author('Barbara J Grosz and Candace L Sidner'),
   number(3),
@@ -241,7 +227,7 @@ entry!('grosz1986attention',
 nil)
 
 entry!('bobrow1977gus',
-  article('Artificial intelligence', 1977, 8),
+  article('Artificial Intelligence', 1977, 8),
   title('GUS, a frame-driven dialog system'),
   author('Daniel G Bobrow and Ronald M Kaplan and Martin Kay and Donald A Norman and Henry Thompson and Terry Winograd'),
   number(2),
@@ -258,16 +244,8 @@ entry!('weizenbaum1966eliza',
   publisher('ACM'),
 nil)
 
-entry!('clark1991grounding',
-  article('Perspectives on socially shared cognition', 1991, 13),
-  title('Grounding in communication'),
-  author('Herbert H Clark and Susan E Brennan and others'),
-  number(1991),
-  pages(127, 149),
-nil)
-
 entry!('allen1980analyzing',
-  article('Artificial intelligence', 1980, 15),
+  article('Artificial Intelligence', 1980, 15),
   title('Analyzing intention in utterances'),
   author('James F Allen and C Raymond Perrault'),
   number(3),
@@ -289,12 +267,6 @@ entry!('colby1971artificial',
   number(1),
   pages(1, 25),
   publisher('Elsevier'),
-nil)
-
-entry!('dekel2014epistemic',
-  article('Handbook of Game Theory', 2014, 4),
-  title('Epistemic game theory'),
-  author('Eddie Dekel and Marciano Siniscalchi and others'),
 nil)
 
 entry!('perea2012epistemic',
@@ -326,6 +298,7 @@ entry!('lauer2000algorithm',
   title('An algorithm for distributed reinforcement learning in cooperative multi-agent systems'),
   author('Martin Lauer and Martin Riedmiller'),
   organization('Citeseer'),
+  pages(535,542),
 nil)
 
 entry!('littman2001value',
@@ -337,24 +310,113 @@ entry!('littman2001value',
   publisher('Elsevier'),
 nil)
 
-entry!('zhang2013coordinating',
-  inproceedings('Proceedings of the 2013 international conference on Autonomous agents and multi-agent systems', 2013),
-  title('Coordinating multi-agent reinforcement learning with limited communication'),
-  author('Chongjie Zhang and Victor Lesser'),
-  pages(1101, 1108),
-  organization('International Foundation for Autonomous Agents and Multiagent Systems'),
+entry!('louizos2015variational',
+  arxiv(2015, '1511.00830'),
+  title('The variational fair autoencoder'),
+  author('Christos Louizos and Kevin Swersky and Yujia Li and Max Welling and Richard Zemel'),
 nil)
 
-entry!('tan1993multi',
-  inproceedings('Proceedings of the tenth international conference on machine learning', 1993),
-  title('Multi-agent reinforcement learning: Independent vs. cooperative agents'),
-  author('Ming Tan'),
-  pages(330, 337),
+
+entry!('bolukbasi2016man',
+  nips(2016),
+  title('Man is to computer programmer as woman is to homemaker? debiasing word embeddings'),
+  author('Tolga Bolukbasi and Kai-Wei Chang and James Y Zou and Venkatesh Saligrama and Adam T Kalai'),
+  pages(4349, 4357),
+nil)
+
+
+entry!('maurer2009empirical',
+  arxiv(2009, '0907.3740'),
+  title('Empirical Bernstein bounds and sample variance penalization'),
+  author('Andreas Maurer and Massimiliano Pontil'),
+nil)
+
+entry!('duchi2016variance',
+  arxiv(2016, '1610.02581'),
+  title('Variance-based regularization with convex objectives'),
+  author('John Duchi and Hongseok Namkoong'),
+nil)
+
+entry!('rothblum2018probably',
+  arxiv(2018, '1803.03242'),
+  title('Probably Approximately Metric-Fair Learning'),
+  author('Guy N Rothblum and Gal Yona'),
+nil)
+
+entry!('clark1991grounding',
+  author('Herbert H. Clark and Susan E. Brennan'),
+  book('Perspectives on Socially Shared Cognition', 1991),
+  pages(127, 149),
+  title('Grounding in Communication'),
 nil)
 
 
 entry!('andreas2016reasoning',
-  arxiv(2016, '1604.00562'),
-  title('Reasoning about pragmatics with neural listeners and speakers'),
-  author('Jacob Andreas and Dan Klein'),
+  emnlp(2016),
+  author('Jacob  Andreas and Dan  Klein'),
+  title('Reasoning about Pragmatics with Neural Listeners and Speakers'),
+       #month('November'),
+       #address('Austin, Texas'),
+  publisher('Association for Computational Linguistics'),
+  pages(1173, 1182),
+  url('https://aclweb.org/anthology/D16-1125'),
+nil)
+
+entry!('andreas2016learning',
+  acl(2016),
+  author('Jacob  Andreas and Marcus   Rohrbach and Trevor   Darrell and Dan  Klein'),
+  title('Learning to Compose Neural Networks for Question Answering'),
+       #month('June'),
+  address('San Diego, California'),
+  publisher('Association for Computational Linguistics'),
+  pages(1545, 1554),
+  url('http://www.aclweb.org/anthology/N16-1181'),
+nil)
+
+entry!('busoniu2008comprehensive',
+  article('IEEE Trans. Systems, Man, and Cybernetics, Part C', 2008, 38),
+  title('A comprehensive survey of multiagent reinforcement learning'),
+  author('Lucian Busoniu and Robert Babuska and Bart De Schutter'),
+  number(2),
+  pages(156, 172),
+nil)
+
+entry!('hawkins2015you',
+  inproceedings('Proceedings of the Thirty-Seventh Annual Conference of the {C}ognitive {S}cience {S}ociety', 2015),
+  author('Robert X. D. Hawkins and Andreas Stuhlm\"uller and Judith Degen and Noah D. Goodman'),
+       title('Why do you ask{? G}ood questions provoke informative answers'),
+nil)
+
+entry!('golland2010pragmatics',
+  emnlp(2010),
+  author('Dave Golland and Percy Liang and Dan Klein'),
+  title('A Game-theoretic Approach to Generating Spatial Descriptions'),
+  pages(410, 419),
+       #publisher('Association for Computational Linguistics'),
+nil)
+
+entry!('zhang2013coordinating',
+  inproceedings('Proceedings of the 2013 International Conference on Autonomous Agents and Multi-agent Systems', 2013),
+  author('Chongjie Zhang and Victor Lesser'),
+  title('Coordinating Multi-agent Reinforcement Learning with Limited Communication'),
+  pages(1101, 1108),
+  publisher('International Foundation for Autonomous Agents and Multiagent Systems'),
+nil)
+
+entry!('tan1993multi',
+  icml(1993),
+  author('Ming Tan'),
+  title('Multi-Agent Reinforcement Learning: Independent vs. Cooperative Agents'),
+  pages(330, 337),
+  publisher('Morgan Kaufmann'),
+nil)
+
+entry!('dekel2015epistemic',
+  title('Epistemic game theory'),
+  author('Eddie Dekel and Marciano Siniscalchi'),
+  book('Handbook of Game Theory with Economic Applications', 2015),
+  volume(4),
+  pages(619, 702),
+#  year(2015),
+#  publisher('Elsevier'),
 nil)

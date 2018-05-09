@@ -2550,7 +2550,7 @@ nil)
 entry!('grice75maxims',
   author('H. P. Grice'),
   title('Logic and Conversation'),
-  article('Syntax and semantics', 1975, 3),
+  article('Syntax and Semantics', 1975, 3),
   pages(41, 58),
 nil)
 
@@ -3760,17 +3760,6 @@ entry!('liang11minimal',
   punchlines('Question: how small is the smallest abstraction needed to prove a query?',
              'Empirical answer: very small (less than 2.5% sites need to be treated context-sensitively for k-limited analyses for race detection).',
              'Found this answer using a new machine learning algorithm that exploits this sparsity.'),
-nil)
-
-entry!('golland10pragmatics',
-  author('Dave Golland and Percy Liang and Dan Klein'),
-  title('A Game-Theoretic Approach to Generating Spatial Descriptions'),
-  emnlp2010,
-  url('pragmatics-emnlp2010.pdf'),
-  slidesurl('pragmatics-emnlp2010-talk.pdf'),
-  abstract('Language is sensitive to both semantic and pragmatic effects.  To capture both effects, we model language use as a cooperative game between two players: a speaker, who generates an utterance, and a listener, who responds with an action.  Specifically, we consider the task of generating spatial references to objects, wherein the listener must accurately identify an object described by the speaker.  We show that a speaker model that acts optimally with respect to an explicit, embedded listener model substantially outperforms one that is trained to directly generate spatial descriptions.'),
-  punchlines('Observation: people say things to be understood (pragmatics), not simply what\'s technically correct (semantics).',
-             'Goal: model language as a game between speaker and listener.  Speaker maximizes utility (communictative success) with respect to its model of the listener.'),
 nil)
 
 entry!('angeli10generation',
@@ -5268,14 +5257,6 @@ entry!('halko2011structure',
   title("Finding Structure with Randomness: Probabilistic Algorithms for
               Constructing Approximate Matrix Decompositions"),
   author("N. Halko and {P.-G.} Martinsson and J. Tropp"),
-nil)
-
-entry!('zhang2014crowdsourcing',
-  title("Spectral Methods meet {EM}: A Provably Optimal Algorithm for
-                   Crowdsourcing"),
-  author("Yuchen Zhang and Xi Chen and Dengyong Zhou and Michael I Jordan"),
-  arxiv(2014),
-  url('http://arxiv.org/pdf/1406.3824'),
 nil)
 
 entry!('huang2013fast',
@@ -9197,6 +9178,7 @@ entry!('smith2013pragmatics',
   title('Learning and using language via recursive pragmatic reasoning about other agents'),
   author('Nathaniel J. Smith and Noah D. Goodman and Michael C. Frank'),
   nips(2013),
+  pages(3039,3047),  
 nil)
 
 entry!('frank2012pragmatics',
@@ -9402,12 +9384,6 @@ entry!('yin2016neural',
   author('Pengcheng Yin and Zhengdong Lu and Hang Li and Ben Kao'),
   title('Neural Enquirer: Learning to Query Tables with Natural Language'),
   arxiv(2016),
-nil)
-
-entry!('andreas2016learning',
-  author('Jacob Andreas and Marcus Rohrbach and Trevor Darrell and Dan Klein'),
-  title('Learning to compose neural networks for question answering'),
-  naacl(2016),
 nil)
 
 entry!('miller1990empirical',
@@ -10213,6 +10189,7 @@ entry!('potts2012cards',
   editor('Nathan Arnett and Ryan Bennett'),
   publisher('Cascadilla Press'),
   title('Goal-Driven Answers in the {C}ards Dialogue Corpus'),
+  pages(1,20),
 nil)
 
 entry!('serban2015survey',
@@ -10476,6 +10453,7 @@ entry!('wen2017network',
   eacl(2017),
   title('A Network-based End-to-End Trainable Task-oriented Dialogue System'),
   author('Tsung-Hsien Wen and Milica Gasic and Nikola Mrksic and Lina M Rojas-Barahona and Pei-Hao Su and Stefan Ultes and David Vandyke and Steve Young'),
+  pages(438,449), 
 nil)
 
 entry!('dong2016logical',
@@ -11289,13 +11267,6 @@ nil)
 ############################################################
 # 2017
 
-entry!('guu2017edit',
-  author('Kelvin Guu and Tatsunori B. Hashimoto and Yonatan Oren and Percy Liang'),
-  title('Generating Sentences by Editing Prototypes'),
-  arxiv(2017, '1709.08878'),
-  url('http://arxiv.org/pdf/1709.08878.pdf'),
-nil)
-
 entry!('steinhardt2017certified',
   author('Jacob Steinhardt and Pang Wei Koh and Percy Liang'),
   title('Certified Defenses for Data Poisoning Attacks'),
@@ -11307,6 +11278,7 @@ entry!('hashimoto2017transformation',
   author('Tatsu Hashimoto and John Duchi and Percy Liang'),
   title('Unsupervised Transformation Learning via Convex Relaxations'),
   nips(2017),
+  url('https://arxiv.org/pdf/1711.02226.pdf'),
 nil)
 
 entry!('sharan2017overcomplete',
@@ -11379,13 +11351,6 @@ entry!('zhang2017hitting',
   award('Best paper award'),
 nil)
 
-entry!('kakade2017prediction',
-  author('Sham Kakade and Percy Liang and Vatsal Sharan and Gregory Valiant'),
-  title('Prediction with a Short Memory'),
-  arxiv(2017, '1612.02526'),
-  url('http://arxiv.org/pdf/1612.02526.pdf'),
-nil)
-
 entry!('bastani2017synthesizing',
   author('Osbert Bastani and Rahul Sharma and Alex Aiken and Percy Liang'),
   title('Synthesizing Program Input Grammars'),
@@ -11408,6 +11373,7 @@ entry!('he2017symmetric',
   acl(2017),
   url('https://arxiv.org/pdf/1704.07130.pdf'),
   codalab('0xc757f29f5c794e5eb7bfa8ca9c945573'),
+  pages(1766,1776),
 nil)
 
 entry!('guu2017bridging',
@@ -11927,7 +11893,6 @@ entry!('narodytska2017verifying',
   author('Nina Narodytska and Shiva Prasad Kasiviswanathan and Leonid Ryzhyk and Mooly Sagiv and Toby Walsh'),
   title('Verifying Properties of Binarized Deep Neural Networks'),
   arxiv(2017, '1709.06662'),
-  url('http://arxiv.org/pdf/1709.06662.pdf'),
 nil)
 
 entry!('adamczak2015concentration',
@@ -12192,4 +12157,86 @@ entry!('minka2001ep',
   author('Thomas P. Minka'),
   title('Expectation propagation for approximate {B}ayesian inference'),
   uai(2001), pages(362,369),
+nil)
+
+entry!('hampel1968thesis',
+  author('Frank R. Hampel'),
+  title('Contributions to the theory of robust estimation'),
+  phdthesis('University of California at Berkeley', 1968),
+nil)
+
+############################################################
+
+entry!('chaganty2018evaluation',
+  title('Training Classifiers with Natural Language Explanations'),
+  author('Braden Hancock and Paroma Varma and Stephanie Wang and Percy Liang and Christopher Ré'),
+  acl(2018),
+nil)
+
+entry!('chaganty2018evaluation',
+  title('Can We Obtain Cheaper Unbiased Evaluation of Natural Language Generation using Control Variates?'),
+  author('Arun Chaganty and Stephen Mussmann and Percy Liang'),
+  acl(2018),
+nil)
+
+entry!('rajpurkar2018squadrun',
+  title('Know What You Don\'t Know: Unanswerable Questions for {SQuAD}'),
+  author('Pranav Rajpurkar and Robin Jia and Percy Liang'),
+  acl(2018),
+  note('Short paper.'),
+nil)
+
+entry!('selsam2018sat',
+  title('Learning a {SAT} Solver from Single-Bit Supervision'),
+  author('Daniel Selsam and Matthew Lamm and Benedikt Bünz and Percy Liang and Leonardo de Moura and David L. Dill'),
+  arxiv(2018, '1802.03685'),
+nil)
+
+entry!('mussmann2018gbs',
+  title('Generalized Binary Search For Split-Neighborly Problems'),
+  author('Stephen Mussmann and Percy Liang'),
+  aistats(2018),
+  url('https://arxiv.org/pdf/1802.09751.pdf'),
+nil)
+
+entry!('guu2018edit',
+  author('Kelvin Guu and Tatsunori B. Hashimoto and Yonatan Oren and Percy Liang'),
+  title('Generating Sentences by Editing Prototypes'),
+  tacl(2018, 0),
+  url('http://arxiv.org/pdf/1709.08878.pdf'),
+nil)
+
+entry!('li2018style',
+  author('Juncen Li and Robin Jia and He He and Percy Liang'),
+  title('Delete, Retrieve, Generate: A Simple Approach to Sentiment and Style Transfer'),
+  naacl(2018),
+  url('https://arxiv.org/pdf/1804.06437.pdf'),
+nil)
+
+entry!('liu2018workflow',
+  author('Evan Zheran Liu and Kelvin Guu and Panupong Pasupat and Tianlin Shi and Percy Liang'),
+  title('Reinforcement Learning on Web Interfaces using Workflow-Guided Exploration'),
+  iclr(2018),
+  url('https://arxiv.org/pdf/1802.08802.pdf'),
+nil)
+
+entry!('raghunathan2018certified',
+  author('Aditi Raghunathan and Jacob Steinhardt and Percy Liang'),
+  title('Certified defenses against adversarial examples'),
+  iclr(2018),
+  url('https://arxiv.org/pdf/1801.09344.pdf'),
+nil)
+
+entry!('bastani2018active',
+  author('Osbert Bastani and Rahul Sharma and Alex Aiken and Percy Liang'),
+  title('Active Learning of Points-To Specifications'),
+  pldi(2018),
+  url('https://arxiv.org/pdf/1711.03239.pdf'),
+nil)
+
+entry!('kakade2018prediction',
+  author('Sham Kakade and Percy Liang and Vatsal Sharan and Gregory Valiant'),
+  title('Prediction with a Short Memory'),
+  stoc(2018),
+  url('http://arxiv.org/pdf/1612.02526.pdf'),
 nil)
