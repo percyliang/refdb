@@ -317,6 +317,13 @@ entry!('novikova2016crowd',
   url('https://arxiv.org/abs/1608.00339'),
 nil)
 
+entry!('mnih2008empirical',
+  title('Empirical Berstein stopping'),
+  author('Volodymyr Mnih and Csaba Szepesv{\'{a}}ri and Jean-Yves Audibert'),
+  icml(2008),
+  url('http://portal.acm.org/citation.cfm?doid=1390156.1390241'),
+nil)
+
 #entry!('',
 #  author(''),
 #  inproceedings('', 2015),
