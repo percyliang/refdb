@@ -5259,14 +5259,6 @@ entry!('halko2011structure',
   author("N. Halko and {P.-G.} Martinsson and J. Tropp"),
 nil)
 
-entry!('zhang2014crowdsourcing',
-  title("Spectral Methods meet {EM}: A Provably Optimal Algorithm for
-                   Crowdsourcing"),
-  author("Yuchen Zhang and Xi Chen and Dengyong Zhou and Michael I Jordan"),
-  arxiv(2014),
-  url('http://arxiv.org/pdf/1406.3824'),
-nil)
-
 entry!('huang2013fast',
   title("Fast Detection of Overlapping Communities via Online Tensor Methods"),
   author("Furong Huang and U N Niranjan and Mohammad Umar Hakeem and Animashree Anandkumar"),
