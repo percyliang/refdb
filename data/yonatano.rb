@@ -2,7 +2,7 @@
 entry!('cho2014statmt',
        author('Kyunghyun Cho and Bart van Merrienboer and Caglar Gulcehre and Dzmitry Bahdanau and Fethi Bougares and Holger Schwenk and Yoshua Bengio'),
        title('
-Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation'),
+Learning Phrase Representations using {RNN} Encoder-Decoder for Statistical Machine Translation'),
        emnlp(2014),
        pages(1724, 1734),
 nil)

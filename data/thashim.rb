@@ -365,3 +365,9 @@ entry!('zemel2013',
        icml(2013),
        pages(325,333),
        nil)
+
+entry!('cifka2018',
+       title('Eval all, trust a few, do wrong to none: Comparing sentence generation models'),
+       author('Ondřej Cífka and Aliaksei Severyn and Enrique Alfonseca and Katja Filippova'),
+       arxiv(2018,'1804.07972'),
+       nil)
