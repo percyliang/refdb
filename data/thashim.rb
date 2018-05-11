@@ -371,3 +371,9 @@ entry!('cifka2018',
        author('Ondřej Cífka and Aliaksei Severyn and Enrique Alfonseca and Katja Filippova'),
        arxiv(2018,'1804.07972'),
        nil)
+
+entry!('davidson2018',
+       title('Hyperspherical Variational Auto-Encoders'),
+       author('Tim R. Davidson and Luca Falorsi and Nicola De Cao and Thomas Kipf and Jakub M. Tomczak'),
+       arxiv(2018,'1804.00891'),
+       nil)
