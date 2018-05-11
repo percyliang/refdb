@@ -12171,6 +12171,7 @@ entry!('chaganty2018evaluation',
   title('Training Classifiers with Natural Language Explanations'),
   author('Braden Hancock and Paroma Varma and Stephanie Wang and Percy Liang and Christopher Ré'),
   acl(2018),
+  url('https://arxiv.org/pdf/1805.03818.pdf'),
 nil)
 
 entry!('chaganty2018evaluation',
