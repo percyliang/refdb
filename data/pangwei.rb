@@ -500,3 +500,21 @@ entry!('campbell2017uncovering',
   author('Kieran Campbell and Christopher Yau'),
   publisher('Cold Spring Harbor Laboratory'),
 nil)
+
+entry!('kraemer2000can',
+  article('American Journal of Psychiatry', 2000, 157),
+  title('How can we learn about developmental processes from cross-sectional studies, or can we?'),
+  author('Helena Chmura Kraemer and Jerome A Yesavage and Joy L Taylor and David Kupfer'),
+  number(2),
+  pages(163, 171),
+  publisher('Am Psychiatric Assoc'),
+nil)
+
+entry!('louis1986explaining',
+  article('Journal of Clinical Epidemiology', 1986, 39),
+  title('Explaining discrepancies between longitudinal and cross-sectional models'),
+  author('Thomas A Louis and James Robins and Douglas W Dockery and Avron Spiro and James H Ware'),
+  number(10),
+  pages(831, 839),
+  publisher('Elsevier'),
+nil)
