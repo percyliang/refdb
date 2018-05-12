@@ -143,8 +143,13 @@ entry!('he2015syntax',
        author('He He and Alvin Grissom II and Jordan Boyd-Graber and Hal Daume III'),
        pages(55, 64),
        nil)
-       
-       
+
+entry!('parzen1962',
+       article('Annals of Mathematical Statistics', 1962, 33),
+       title('On Estimation of a Probability Density Function and Mode'),
+       author('Emanuel Parzen'),
+       pages(1065, 1076),
+       nil)
 
 entry!('amodei2016',
        author('Dario Amodei and others'),
@@ -359,4 +364,16 @@ entry!('zemel2013',
        author('Richard Zemel and Yu Wu and Kevin Swersky and Toniann Pitassi and Cynthia Dwork'),
        icml(2013),
        pages(325,333),
+       nil)
+
+entry!('cifka2018',
+       title('Eval all, trust a few, do wrong to none: Comparing sentence generation models'),
+       author('Ondřej Cífka and Aliaksei Severyn and Enrique Alfonseca and Katja Filippova'),
+       arxiv(2018,'1804.07972'),
+       nil)
+
+entry!('davidson2018',
+       title('Hyperspherical Variational Auto-Encoders'),
+       author('Tim R. Davidson and Luca Falorsi and Nicola De Cao and Thomas Kipf and Jakub M. Tomczak'),
+       arxiv(2018,'1804.00891'),
        nil)
