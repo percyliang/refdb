@@ -147,7 +147,7 @@ nil)
 entry!('hu2017mnemonic',
   author('Minghao Hu and Yuxing Peng and Xipeng Qiu'),
   title('Reinforced Mnemonic Reader for Machine Comprehension'),
-  arxiv(2017),
+  arxiv(2017, '1705.02798'),
 nil)
 
 entry!('liu2017sect',
