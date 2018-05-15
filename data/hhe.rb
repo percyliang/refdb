@@ -300,3 +300,22 @@ entry!('cao2018emergent',
   author('Kris Cao and Angeliki Lazaridou and Marc Lanctot and Joel Z Leibo and Karl Tuyls and Stephen Clark'),
   iclr(2018),
 )
+
+entry!('cao2017latent',
+  title('Latent Variable Dialogue Models and Their Diversity'),
+  author('Kris Cao and Stephen Clark'),
+  eacl(2017),
+)
+
+entry!('zhao2017learning',
+  title('Learning Discourse-level Diversity for Neural Dialog Models using Conditional Variational Autoencoders'),
+  author('Tiancheng Zhao and Ran Zhao and Maxine Eskenazi'),
+  acl(2017),
+)
+
+entry!('jang2016categorical',
+  title('Categorical Reparameterization with Gumbel-Softmax'),
+  author('Eric Jang and Shixiang Gu and Ben Poole'),
+  arxiv(2017, '1611.01144'),
+  url('https://arxiv.org/pdf/1611.01144.pdf'),
+)
