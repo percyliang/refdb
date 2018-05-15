@@ -580,3 +580,25 @@ entry!('margolick2015accelerating',
   pages(78, 80),
   publisher('Elsevier'),
 nil)
+
+entry!('hashimoto2016learning',
+  icml(2016),
+  title('Learning Population-Level Diffusions with Generative RNNs'),
+  author('Tatsunori Hashimoto and David Gifford and Tommi Jaakkola'),
+  pages(2417, 2426),
+nil)
+
+entry!('waddington1940organisers',
+  title('Organisers and Genes'),
+  author('Conrad Hal Waddington'),  
+  book('University Press; Cambridge', 1940),
+nil)
+
+entry!('nowell1976clonal',
+  article('Science', 1976, 194),
+  title('The clonal evolution of tumor cell populations'),
+  author('Peter C Nowell'),
+  number(4260),
+  pages(23, 28),
+  publisher('American Association for the Advancement of Science'),
+nil)
