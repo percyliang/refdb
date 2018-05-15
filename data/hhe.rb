@@ -282,3 +282,21 @@ entry!('devault2015toward',
   author('DeVault, David and Mell, Johnathan and Gratch, Jonathan'),
   aaai(2015),
 )
+
+entry!('wen2017latent',
+  title('Latent Intention Dialogue Models'),
+  author('Wen, Tsung-Hsien and Miao, Yishu and Blunsom, Phil and Young, Steve'),
+  icml(2017),
+)
+
+entry!('zhao2018unsupervised',
+  title('Unsupervised Discrete Sentence Representation Learning for Interpretable Neural Dialog Generation'),
+  author('Tiancheng Zhao and Kyusong Lee and Maxine Eskenazi'),
+  acl(2018),
+)
+
+entry!('cao2018emergent',
+  title('Emergent Communication through Negotiation'),
+  author('Kris Cao and Angeliki Lazaridou and Marc Lanctot and Joel Z Leibo and Karl Tuyls and Stephen Clark'),
+  iclr(2018),
+)
