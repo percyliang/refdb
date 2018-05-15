@@ -276,3 +276,9 @@ entry!('he2016amazonreview',
   author('Ruining He and Julian McAuley'),
   www(2016),
 )
+
+entry!('devault2015toward',
+  title('Toward Natural Turn-taking in a Virtual Human Negotiation Agent'),
+  author('DeVault, David and Mell, Johnathan and Gratch, Jonathan'),
+  aaai(2015),
+)
