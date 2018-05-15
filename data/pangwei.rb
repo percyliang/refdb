@@ -460,7 +460,7 @@ entry!('sudlow2015uk',
 nil)
 
 entry!('fry2017comparison',
-  article('American journal of epidemiology', 2017, 186),
+  article('American Journal of Epidemiology', 2017, 186),
   title('Comparison of sociodemographic and health-related characteristics of {UK Biobank} participants with those of the general population'),
   author('Anna Fry and Thomas J Littlejohns and Cathie Sudlow and Nicola Doherty and Ligia Adamska and Tim Sprosen and Rory Collins and Naomi E Allen'),
   number(9),
@@ -469,7 +469,7 @@ entry!('fry2017comparison',
 nil)
 
 entry!('zhang2016predicting',
-  article('Aging cell', 2016, 15),
+  article('Aging Cell', 2016, 15),
   title('Predicting all-cause mortality from basic physiology in the {Framingham Heart Study}'),
   author('William B Zhang and Zachary Pincus'),
   number(1),
@@ -478,7 +478,7 @@ entry!('zhang2016predicting',
 nil)
 
 entry!('trapnell2014dynamics',
-  article('Nature biotechnology', 2014, 32),
+  article('Nature Biotechnology', 2014, 32),
   title('The dynamics and regulators of cell fate decisions are revealed by pseudotemporal ordering of single cells'),
   author('Cole Trapnell and Davide Cacchiarelli and Jonna Grimsby and Prapti Pokharel and Shuqiang Li and Michael Morse and Niall J Lennon and Kenneth J Livak and Tarjei S Mikkelsen and John L Rinn'),
   number(4),
@@ -516,5 +516,67 @@ entry!('louis1986explaining',
   author('Thomas A Louis and James Robins and Douglas W Dockery and Avron Spiro and James H Ware'),
   number(10),
   pages(831, 839),
+  publisher('Elsevier'),
+nil)
+
+entry!('economos1982rate',
+  article('Archives of Gerontology and Geriatrics', 1982, 1),
+  title('Rate of aging, rate of dying and the mechanism of mortality'),
+  author('Angelos C Economos'),
+  number(1),
+  pages(3, 27),
+  publisher('Elsevier'),
+nil)
+
+entry!('klemera2006new',
+  article('Mechanisms of Ageing and Development', 2006, 127),
+  title('A new approach to the concept and computation of biological age'),
+  author('Petr Klemera and Stanislav Doubal'),
+  number(3),
+  pages(240, 248),
+  publisher('Elsevier'),
+nil)
+
+entry!('levine2012modeling',
+  article('Journals of Gerontology Series A: Biomedical Sciences and Medical Sciences', 2012, 68),
+  title('Modeling the rate of senescence: can estimated biological age predict mortality more accurately than chronological age?'),
+  author('Morgan E Levine'),
+  number(6),
+  pages(667, 674),
+  publisher('Oxford University Press US'),
+nil)
+
+entry!('putin2016deep',
+  article('Aging', 2016, 8),
+  title('Deep biomarkers of human aging: application of deep neural networks to biomarker development'),
+  author('Evgeny Putin and Polina Mamoshina and Alexander Aliper and Mikhail Korzinkin and Alexey Moskalev and Alexey Kolosov and Alexander Ostrovskiy and Charles Cantor and Jan Vijg and Alex Zhavoronkov'),
+  number(5),
+  # pages(1021),
+  publisher('Impact Journals, LLC'),
+nil)
+
+entry!('pyrkov2018extracting',
+  article('Scientific Reports', 2018, 8),
+  title('Extracting biological age from biomedical data via deep learning: too much of a good thing?'),
+  author('Timothy V Pyrkov and Konstantin Slipensky and Mikhail Barg and Alexey Kondrashin and Boris Zhurov and Alexander Zenin and Mikhail Pyatnitskiy and Leonid Menshikov and Sergei Markov and Peter O Fedichev'),
+  number(1),
+  # pages(5210),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('mcclearn1997biogerontologic',
+  article('Experimental Gerontology', 1997, 32),
+  title('Biogerontologic theories'),
+  author('Gerald E McClearn'),
+  number('1-2'),
+  pages(3, 10),
+  publisher('Elsevier'),
+nil)
+
+entry!('margolick2015accelerating',
+  article('Experimental Gerontology', 2015, 64),
+  title('Accelerating aging research: how can we measure the rate of biologic aging?'),
+  author('Joseph B Margolick and Luigi Ferrucci'),
+  pages(78, 80),
   publisher('Elsevier'),
 nil)
