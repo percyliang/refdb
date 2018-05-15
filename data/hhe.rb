@@ -279,13 +279,13 @@ entry!('he2016amazonreview',
 
 entry!('devault2015toward',
   title('Toward Natural Turn-taking in a Virtual Human Negotiation Agent'),
-  author('DeVault, David and Mell, Johnathan and Gratch, Jonathan'),
+  author('David DeVault and Johnathan Mell and Jonathan Gratch'),
   aaai(2015),
 )
 
 entry!('wen2017latent',
   title('Latent Intention Dialogue Models'),
-  author('Wen, Tsung-Hsien and Miao, Yishu and Blunsom, Phil and Young, Steve'),
+  author('Tsung-Hsien Wen and Yishu Miao and Phil Blunsom and Steve Young'),
   icml(2017),
 )
 
