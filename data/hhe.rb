@@ -276,3 +276,27 @@ entry!('he2016amazonreview',
   author('Ruining He and Julian McAuley'),
   www(2016),
 )
+
+entry!('devault2015toward',
+  title('Toward Natural Turn-taking in a Virtual Human Negotiation Agent'),
+  author('David DeVault and Johnathan Mell and Jonathan Gratch'),
+  aaai(2015),
+)
+
+entry!('wen2017latent',
+  title('Latent Intention Dialogue Models'),
+  author('Tsung-Hsien Wen and Yishu Miao and Phil Blunsom and Steve Young'),
+  icml(2017),
+)
+
+entry!('zhao2018unsupervised',
+  title('Unsupervised Discrete Sentence Representation Learning for Interpretable Neural Dialog Generation'),
+  author('Tiancheng Zhao and Kyusong Lee and Maxine Eskenazi'),
+  acl(2018),
+)
+
+entry!('cao2018emergent',
+  title('Emergent Communication through Negotiation'),
+  author('Kris Cao and Angeliki Lazaridou and Marc Lanctot and Joel Z Leibo and Karl Tuyls and Stephen Clark'),
+  iclr(2018),
+)

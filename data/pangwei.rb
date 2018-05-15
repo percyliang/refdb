@@ -406,3 +406,177 @@ entry!('hodge2004survey',
   publisher('Springer'),
 nil)
 
+# UKBB
+entry!('gupta2016monotonic',
+  jmlr(2016, 17),
+  title('Monotonic calibrated interpolated look-up tables'),
+  author('Maya Gupta and Andrew Cotter and Jan Pfeifer and Konstantin Voevodski and Kevin Canini and Alexander Mangylov and Wojciech Moczydlowski and Alexander Van Esbroeck'),
+  number(1),
+  pages(3790, 3836),
+  publisher('JMLR. org'),
+nil)
+
+entry!('nakamura1988assessment',
+  article('Mechanisms of ageing and development', 1988, 46),
+  title('Assessment of biological age by principal component analysis'),
+  author('E Nakamura and K Miyao and T Ozeki'),
+  number('1-3'),
+  pages(1, 18),
+  publisher('Elsevier'),
+nil)
+
+entry!('kumar2017understanding',
+  article('Development', 2017, 144),
+  title('Understanding development and stem cells using single cell-based analyses of gene expression'),
+  author('Pavithra Kumar and Yuqi Tan and Patrick Cahan'),
+  number(1),
+  pages(17, 32),
+  publisher('Oxford University Press for The Company of Biologists Limited'),
+nil)
+
+entry!('sprott2010biomarkers',
+  article('Experimental gerontology', 2010, 45),
+  title('Biomarkers of aging and disease: introduction and definitions'),
+  author('Richard L Sprott'),
+  number(1),
+  pages(2, 4),
+  publisher('Elsevier'),
+nil)
+
+entry!('belsky2015quantification',
+  article('Proceedings of the National Academy of Sciences', 2015, 112),
+  title('Quantification of biological aging in young adults'),
+  author('Daniel W Belsky and Avshalom Caspi and Renate Houts and Harvey J Cohen and David L Corcoran and Andrea Danese and HonaLee Harrington and Salomon Israel and Morgan E Levine and Jonathan D Schaefer and others'),
+  number(30),
+  publisher('National Acad Sciences'),
+nil)
+
+entry!('sudlow2015uk',
+  article('PLoS medicine', 2015, 12),
+  title('{UK Biobank}: an open access resource for identifying the causes of a wide range of complex diseases of middle and old age'),
+  author('Cathie Sudlow and John Gallacher and Naomi Allen and Valerie Beral and Paul Burton and John Danesh and Paul Downey and Paul Elliott and Jane Green and Martin Landray and others'),
+  number(3),
+  publisher('Public Library of Science'),
+nil)
+
+entry!('fry2017comparison',
+  article('American Journal of Epidemiology', 2017, 186),
+  title('Comparison of sociodemographic and health-related characteristics of {UK Biobank} participants with those of the general population'),
+  author('Anna Fry and Thomas J Littlejohns and Cathie Sudlow and Nicola Doherty and Ligia Adamska and Tim Sprosen and Rory Collins and Naomi E Allen'),
+  number(9),
+  pages(1026, 1034),
+  publisher('Oxford University Press'),
+nil)
+
+entry!('zhang2016predicting',
+  article('Aging Cell', 2016, 15),
+  title('Predicting all-cause mortality from basic physiology in the {Framingham Heart Study}'),
+  author('William B Zhang and Zachary Pincus'),
+  number(1),
+  pages(39, 48),
+  publisher('Wiley Online Library'),
+nil)
+
+entry!('trapnell2014dynamics',
+  article('Nature Biotechnology', 2014, 32),
+  title('The dynamics and regulators of cell fate decisions are revealed by pseudotemporal ordering of single cells'),
+  author('Cole Trapnell and Davide Cacchiarelli and Jonna Grimsby and Prapti Pokharel and Shuqiang Li and Michael Morse and Niall J Lennon and Kenneth J Livak and Tarjei S Mikkelsen and John L Rinn'),
+  number(4),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('bendall2014single',
+  article('Cell', 2014, 157),
+  title('Single-cell trajectory detection uncovers progression and regulatory coordination in human {B} cell development'),
+  author('Sean C Bendall and Kara L Davis and El-ad David Amir and Michelle D Tadmor and Erin F Simonds and Tiffany J Chen and Daniel K Shenfeld and Garry P Nolan and Dana Pe’er'),
+  number(3),
+  pages(714, 725),
+  publisher('Elsevier'),
+nil)
+
+entry!('campbell2017uncovering',
+  article('bioRxiv', 2017),
+  title('Uncovering genomic trajectories with heterogeneous genetic and environmental backgrounds across single-cells and populations'),
+  author('Kieran Campbell and Christopher Yau'),
+  publisher('Cold Spring Harbor Laboratory'),
+nil)
+
+entry!('kraemer2000can',
+  article('American Journal of Psychiatry', 2000, 157),
+  title('How can we learn about developmental processes from cross-sectional studies, or can we?'),
+  author('Helena Chmura Kraemer and Jerome A Yesavage and Joy L Taylor and David Kupfer'),
+  number(2),
+  pages(163, 171),
+  publisher('Am Psychiatric Assoc'),
+nil)
+
+entry!('louis1986explaining',
+  article('Journal of Clinical Epidemiology', 1986, 39),
+  title('Explaining discrepancies between longitudinal and cross-sectional models'),
+  author('Thomas A Louis and James Robins and Douglas W Dockery and Avron Spiro and James H Ware'),
+  number(10),
+  pages(831, 839),
+  publisher('Elsevier'),
+nil)
+
+entry!('economos1982rate',
+  article('Archives of Gerontology and Geriatrics', 1982, 1),
+  title('Rate of aging, rate of dying and the mechanism of mortality'),
+  author('Angelos C Economos'),
+  number(1),
+  pages(3, 27),
+  publisher('Elsevier'),
+nil)
+
+entry!('klemera2006new',
+  article('Mechanisms of Ageing and Development', 2006, 127),
+  title('A new approach to the concept and computation of biological age'),
+  author('Petr Klemera and Stanislav Doubal'),
+  number(3),
+  pages(240, 248),
+  publisher('Elsevier'),
+nil)
+
+entry!('levine2012modeling',
+  article('Journals of Gerontology Series A: Biomedical Sciences and Medical Sciences', 2012, 68),
+  title('Modeling the rate of senescence: can estimated biological age predict mortality more accurately than chronological age?'),
+  author('Morgan E Levine'),
+  number(6),
+  pages(667, 674),
+  publisher('Oxford University Press US'),
+nil)
+
+entry!('putin2016deep',
+  article('Aging', 2016, 8),
+  title('Deep biomarkers of human aging: application of deep neural networks to biomarker development'),
+  author('Evgeny Putin and Polina Mamoshina and Alexander Aliper and Mikhail Korzinkin and Alexey Moskalev and Alexey Kolosov and Alexander Ostrovskiy and Charles Cantor and Jan Vijg and Alex Zhavoronkov'),
+  number(5),
+  # pages(1021),
+  publisher('Impact Journals, LLC'),
+nil)
+
+entry!('pyrkov2018extracting',
+  article('Scientific Reports', 2018, 8),
+  title('Extracting biological age from biomedical data via deep learning: too much of a good thing?'),
+  author('Timothy V Pyrkov and Konstantin Slipensky and Mikhail Barg and Alexey Kondrashin and Boris Zhurov and Alexander Zenin and Mikhail Pyatnitskiy and Leonid Menshikov and Sergei Markov and Peter O Fedichev'),
+  number(1),
+  # pages(5210),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('mcclearn1997biogerontologic',
+  article('Experimental Gerontology', 1997, 32),
+  title('Biogerontologic theories'),
+  author('Gerald E McClearn'),
+  number('1-2'),
+  pages(3, 10),
+  publisher('Elsevier'),
+nil)
+
+entry!('margolick2015accelerating',
+  article('Experimental Gerontology', 2015, 64),
+  title('Accelerating aging research: how can we measure the rate of biologic aging?'),
+  author('Joseph B Margolick and Luigi Ferrucci'),
+  pages(78, 80),
+  publisher('Elsevier'),
+nil)

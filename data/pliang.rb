@@ -12167,15 +12167,15 @@ nil)
 
 ############################################################
 
-entry!('chaganty2018evaluation',
+entry!('hancock2018babble',
   title('Training Classifiers with Natural Language Explanations'),
-  author('Braden Hancock and Paroma Varma and Stephanie Wang and Percy Liang and Christopher Ré'),
+  author('Braden Hancock and Paroma Varma and Stephanie Wang and Martin Bringmann and Percy Liang and Christopher Ré'),
   acl(2018),
   url('https://arxiv.org/pdf/1805.03818.pdf'),
 nil)
 
 entry!('chaganty2018evaluation',
-  title('Can We Obtain Cheaper Unbiased Evaluation of Natural Language Generation using Control Variates?'),
+  title('The price of debiasing automatic metrics in natural language evaluation'),
   author('Arun Chaganty and Stephen Mussmann and Percy Liang'),
   acl(2018),
 nil)
