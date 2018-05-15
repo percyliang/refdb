@@ -377,3 +377,9 @@ entry!('davidson2018',
        author('Tim R. Davidson and Luca Falorsi and Nicola De Cao and Thomas Kipf and Jakub M. Tomczak'),
        arxiv(2018,'1804.00891'),
        nil)
+
+entry!('stone1977',
+       title('Consistent Nonparametric Regression'),
+       author('Charles J Stone'),
+       annalsOfStatistics(1977, 5),
+       nil)
