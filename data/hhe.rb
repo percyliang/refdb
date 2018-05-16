@@ -319,3 +319,9 @@ entry!('jang2017categorical',
   arxiv(2017, '1611.01144'),
   url('https://arxiv.org/pdf/1611.01144.pdf'),
 )
+
+entry!('das2017learning',
+  title('Learning Cooperative Visual Dialog Agents with Deep Reinforcement Learning'),
+  author('Abhishek Das and Satwik Kottur and Jos{\'e} MF Moura and Stefan Lee and Dhruv Batra'),
+  iccv(2017),
+)
