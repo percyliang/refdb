@@ -602,3 +602,146 @@ entry!('nowell1976clonal',
   pages(23, 28),
   publisher('American Association for the Advancement of Science'),
 nil)
+
+entry!('comfort1969test',
+  article('The Lancet', 1969, 294),
+  title('Test-battery to measure ageing-rate in man'),
+  author('Alex Comfort'),
+  number(7635),
+  pages(1411, 1415),
+  publisher('Elsevier'),
+nil)
+
+entry!('furukawa1975assessment',
+  article('Journal of Gerontology', 1975, 30),
+  title('Assessment of biological age by multiple regression analysis'),
+  author('Toshiyuki Furukawa and Michitoshi Inoue and Fumihiko Kajiya and Hiroshi Inada and Seiichi Takasugi and Sugao Fukui and Hiroshi Takeda and Hiroshi Abe'),
+  number(4),
+  pages(422, 434),
+  publisher('The Gerontological Society of America'),
+nil)
+
+entry!('borkan1980assessment',
+  article('Journal of Gerontology', 1980, 35),
+  title('Assessment of biological age using a profile of physical parameters'),
+  author('Gary A Borkan and Arthur H Norris'),
+  number(2),
+  pages(177, 184),
+  publisher('The Gerontological Society of America'),
+nil)
+
+entry!('chen2016dna',
+  article('Aging (Albany NY)', 2016, 8),
+  title('{DNA} methylation-based measures of biological age: meta-analysis predicting time to death'),
+  author('Brian H Chen and Riccardo E Marioni and Elena Colicino and Marjolein J Peters and Cavin K Ward-Caviness and Pei-Chien Tsai and Nicholas S Roetker and Allan C Just and Ellen W Demerath and Weihua Guan and others'),
+  number(9),
+  # pages(1844),
+  publisher('Impact Journals, LLC'),
+nil)
+
+entry!('horvath2013dna',
+  article('Genome Biology', 2013, 14),
+  title('{DNA} methylation age of human tissues and cell types'),
+  author('Steve Horvath'),
+  number(10),
+  # pages(3156),
+  publisher('BioMed Central'),
+nil)
+
+entry!('macdonald2004biological',
+  article('Gerontology', 2004, 50),
+  title('Biological age and 12-year cognitive change in older adults: findings from the Victoria Longitudinal Study'),
+  author('Stuart WS MacDonald and Roger A Dixon and Anna-Lisa Cohen and Janine E Hazlitt'),
+  number(2),
+  pages(64, 81),
+  publisher('Karger Publishers'),
+nil)
+
+entry!('gupta2008extracting',
+  article('IEEE/ACM Transactions on Computational Biology and Bioinformatics (TCBB)', 2008, 5),
+  title('Extracting dynamics from static cancer expression data'),
+  author('Anupam Gupta and Ziv Bar-Joseph'),
+  number(2),
+  pages(172, 182),
+  publisher('IEEE Computer Society Press'),
+nil)
+
+entry!('reid2016pseudotime',
+  article('Bioinformatics', 2016, 32),
+  title('Pseudotime estimation: deconfounding single cell time series'),
+  author('John E Reid and Lorenz Wernisch'),
+  number(19),
+  pages(2973, 2980),
+  publisher('Oxford University Press'),
+nil)
+
+entry!('aijo2014methods',
+  article('Bioinformatics', 2014, 30),
+  title('Methods for time series analysis of {RNA}-seq data with application to human {Th17} cell differentiation'),
+  author('Tarmo {\"A}ij{\"o} and Vincent Butty and Zhi Chen and Verna Salo and Subhash Tripathi and Christopher B Burge and Riitta Lahesmaa and Harri L{\"a}hdesm{\"a}ki'),
+  number(12),
+  # pages(i113--i120),
+  publisher('Oxford University Press'),
+nil)
+
+entry!('magwene2003reconstructing',
+  article('Bioinformatics', 2003, 19),
+  title('Reconstructing the temporal ordering of biological samples using microarray data'),
+  author('Paul M Magwene and Paul Lizardi and Junhyong Kim'),
+  number(7),
+  pages(842, 850),
+  publisher('Oxford University Press'),
+nil)
+
+entry!('qiu2011discovering',
+  article('PLoS Computational Biology', 2011, 7),
+  title('Discovering biological progression underlying microarray samples'),
+  author('Peng Qiu and Andrew J Gentles and Sylvia K Plevritis'),
+  number(4),
+  # pages(e1001123),
+  publisher('Public Library of Science'),
+nil)
+
+entry!('di2009multilevel',
+  article('The Annals of Applied Statistics', 2009, 3),
+  title('Multilevel functional principal component analysis'),
+  author('Chong-Zhi Di and Ciprian M Crainiceanu and Brian S Caffo and Naresh M Punjabi'),
+  number(1),
+  # pages(458),
+  publisher('NIH Public Access'),
+nil)
+
+entry!('greven2011longitudinal',
+  article('Recent Advances in Functional Data Analysis and Related Topics', 2011),
+  title('Longitudinal functional principal component analysis'),
+  author('Sonja Greven and Ciprian Crainiceanu and Brian Caffo and Daniel Reich'),
+  # pages(149, 154),
+  # year(2011),
+  publisher('Springer'),
+nil)
+
+entry!('verbeke1997linear',
+  article('Linear Mixed Models in Practice', 1997),
+  title('Linear mixed models for longitudinal data'),
+  author('Geert Verbeke'),
+  pages(63, 153),
+  # year(1997),
+  publisher('Springer'),
+nil)
+
+
+
+entry!('bair2006prediction',
+  jasa(2006, 101),
+  title('Prediction by supervised principal components'),
+  author('Eric Bair and Trevor Hastie and Debashis Paul and Robert Tibshirani'),
+  number(473),
+  pages(119, 137),
+  publisher('Taylor \& Francis'),
+nil)
+
+entry!('abid2017contrastive',
+  arxiv(2017, '1709.06716'),
+  title('Contrastive principal component analysis'),
+  author('Abubakar Abid and Vivek K Bagaria and Martin J Zhang and James Zou'),
+nil)
