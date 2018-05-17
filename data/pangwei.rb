@@ -745,3 +745,21 @@ entry!('abid2017contrastive',
   title('Contrastive principal component analysis'),
   author('Abubakar Abid and Vivek K Bagaria and Martin J Zhang and James Zou'),
 nil)
+
+entry!('jonsen2005robust',
+  article('Ecology', 2005, 86),
+  title('Robust state--space modeling of animal movement data'),
+  author('Ian D Jonsen and Joanna Mills Flemming and Ransom A Myers'),
+  number(11),
+  pages(2874, 2880),
+  publisher('Wiley Online Library'),
+nil)
+
+entry!('ram1986government',
+  article('The American Economic Review', 1986, 76),
+  title('Government size and economic growth: A new framework and some evidence from cross-section and time-series data'),
+  author('Rati Ram'),
+  number(1),
+  pages(191, 203),
+  publisher('JSTOR'),
+nil)
