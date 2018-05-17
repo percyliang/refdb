@@ -12244,7 +12244,7 @@ nil)
 
 entry!('shivaswamy2010empirical',
   aistats(2010),
-  title('Empirical bernstein boosting'),
+  title('Empirical {B}ernstein boosting'),
   author('Pannagadatta Shivaswamy and Tony Jebara'),
   pages(733, 740),
 nil)
