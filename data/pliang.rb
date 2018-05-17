@@ -12241,3 +12241,16 @@ entry!('kakade2018prediction',
   stoc(2018),
   url('http://arxiv.org/pdf/1612.02526.pdf'),
 nil)
+
+entry!('shivaswamy2010empirical',
+  aistats(2010),
+  title('Empirical {B}ernstein boosting'),
+  author('Pannagadatta Shivaswamy and Tony Jebara'),
+  pages(733, 740),
+nil)
+
+entry!('namkoong2017variance',
+  nips(2017),
+  title('Variance regularization with convex objectives'),
+  author('Hongseok Namkoong and John Duchi'),
+nil)

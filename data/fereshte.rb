@@ -420,3 +420,10 @@ entry!('dekel2015epistemic',
 #  year(2015),
 #  publisher('Elsevier'),
 nil)
+
+entry!('kilbertus2017avoiding',
+  nips(2017),
+  title('Avoiding discrimination through causal reasoning'),
+  author('Niki Kilbertus and Mateo Rojas Carulla and Giambattista Parascandolo and Moritz Hardt and Dominik Janzing and Bernhard Sch{\"o}lkopf'),
+  pages(656, 666),
+nil)

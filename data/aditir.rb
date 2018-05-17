@@ -10,3 +10,9 @@ entry!('kolter2017provable',
   title('Provable defenses against adversarial examples via the convex outer adversarial polytope'),
   author('J Zico Kolter and Eric Wong'),
 nil)
+
+entry!('dvijotham2018dual',
+  arxiv(2018, '1803.06567'),
+  title('A Dual Approach to Scalable Verification of Deep Networks'),
+  author('Krishnamurthy Dvijotham and Robert Stanforth and Sven Gowal and Timothy Mann and Pushmeet Kohli'),
+nil)
