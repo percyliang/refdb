@@ -427,3 +427,9 @@ entry!('kilbertus2017avoiding',
   author('Niki Kilbertus and Mateo Rojas Carulla and Giambattista Parascandolo and Moritz Hardt and Dominik Janzing and Bernhard Sch{\"o}lkopf'),
   pages(656, 666),
 nil)
+
+entry!('liu2018delayed',
+  arxiv(2018, '1803.04383'),
+  title('Delayed Impact of Fair Machine Learning'),
+  author('Lydia T Liu and Sarah Dean and Esther Rolf and Max Simchowitz and Moritz Hardt'),
+nil)
