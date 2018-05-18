@@ -824,3 +824,38 @@ entry!('shively2009bayesian',
   pages(159, 175),
   publisher('Wiley Online Library'),
 nil)
+
+entry!('mozaffarian2011changes',
+  article('New England Journal of Medicine', 2011, 364),
+  title('Changes in diet and lifestyle and long-term weight gain in women and men'),
+  author('Dariush Mozaffarian and Tao Hao and Eric B Rimm and Walter C Willett and Frank B Hu'),
+  number(25),
+  pages(2392, 2404),
+  publisher('Mass Medical Soc'),
+nil)
+
+entry!('hoffmann2015effect',
+  article('Clinical Chemistry and Laboratory Medicine (CCLM)', 2015, 53),
+  title('Effect of age and gender on reference intervals of red blood cell distribution width (RDW) and mean red cell volume (MCV)'),
+  author('Johannes JML Hoffmann and Karin CAM Nabbe and Nicole MA van den Broek'),
+  number(12),
+  publisher('De Gruyter'),
+nil)
+
+entry!('stanojevic2008reference',
+  article('American journal of respiratory and critical care medicine', 2008, 177),
+  title('Reference ranges for spirometry across all ages: a new approach'),
+  author('Sanja Stanojevic and Angie Wade and Janet Stocks and John Hankinson and Allan L Coates and Huiqi Pan and Mark Rosenthal and Mary Corey and Patrick Lebecque and Tim J Cole'),
+  number(3),
+  pages(253, 260),
+  publisher('Am Thoracic Soc'),
+nil)
+
+entry!('goodpaster2006loss',
+  article('The Journals of Gerontology Series A: Biological Sciences and Medical Sciences', 2006, 61),
+  title('The loss of skeletal muscle strength, mass, and quality in older adults: the health, aging and body composition study'),
+  author('Bret H Goodpaster and Seok Won Park and Tamara B Harris and Steven B Kritchevsky and Michael Nevitt and Ann V Schwartz and Eleanor M Simonsick and Frances A Tylavsky and Marjolein Visser and Anne B Newman'),
+  number(10),
+  pages(1059, 1064),
+  publisher('Oxford University Press'),
+nil)
