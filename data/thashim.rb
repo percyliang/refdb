@@ -420,3 +420,11 @@ entry!('srivastava2012multimodal',
   author('Nitish Srivastava and Ruslan R Salakhutdinov'),
   pages(2222, 2230),
 nil)
+
+entry!('green2013efficacy',
+  chi(2013),
+  title('The efficacy of human post-editing for language translation'),
+  author('Spence Green and Jeffrey Heer and Christopher D Manning'),
+  pages(439, 448),
+  organization('ACM'),
+nil)
