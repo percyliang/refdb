@@ -33,7 +33,7 @@ entry!('rossol2012cd14brightcd16',
 nil)
 
 entry!('milovanovic2004relationships',
-  article('Clinica chimica acta', 2004, 343),
+  article('Clinica {C}himica {A}cta', 2004, 343),
   title('Relationships between platelets and inflammatory markers in rheumatoid arthritis'),
   author('Micha Milovanovic and E Nilsson and Petter J{\"a}remo'),
   number('1-2'),
