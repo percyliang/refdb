@@ -40,3 +40,9 @@ entry!('milovanovic2004relationships',
   pages(237, 240),
   publisher('Elsevier'),
 nil)
+
+entry!('maddison2016concrete',
+  arxiv(2016, '1611.00712'),
+  title('The concrete distribution: A continuous relaxation of discrete random variables'),
+  author('Chris J Maddison and Andriy Mnih and Yee Whye Teh'),
+nil)
