@@ -12254,3 +12254,35 @@ entry!('namkoong2017variance',
   title('Variance regularization with convex objectives'),
   author('Hongseok Namkoong and John Duchi'),
 nil)
+
+entry!('berk2017convex',
+  arxiv(2017, '1706.02409'),
+  title('A convex framework for fair regression'),
+  author('Richard Berk and Hoda Heidari and Shahin Jabbari and Matthew Joseph and Michael Kearns and Jamie Morgenstern and Seth Neel and Aaron Roth'),
+nil)
+
+entry!('kim2018fairness',
+  arxiv(2018, '1803.03239'),
+  title('Fairness Through Computationally-Bounded Awareness'),
+  author('Michael P Kim and Omer Reingold and Guy N Rothblum'),
+nil)
+
+entry!('angwin2016machine',
+  article('ProPublica', 2016, 23),
+  title('Machine bias: There’s software used across the country to predict future criminals. and it’s biased against blacks'),
+  author('Julia Angwin and Jeff Larson and Surya Mattu and Lauren Kirchner'),
+nil)
+
+entry!('waddell2016algorithms',
+  article('The Atlantic', 2016),
+  title('How algorithms can bring down minorities\' credit scores'),
+  author('Kaveh Waddell'),
+nil)
+
+entry!('corbett2017algorithmic',
+  kdd(2017),
+  title('Algorithmic decision making and the cost of fairness'),
+  author('Sam Corbett-Davies and Emma Pierson and Avi Feller and Sharad Goel and Aziz Huq'),
+  pages(797, 806),
+  organization('ACM'),
+nil)
