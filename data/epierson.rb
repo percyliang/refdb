@@ -25,7 +25,7 @@ nil)
 
 entry!('rossol2012cd14brightcd16',
   article('Arthritis \& Rheumatology', 2012, 64),
-  title('The CD14brightCD16+ monocyte subset is expanded in rheumatoid arthritis and promotes expansion of the Th17 cell population'),
+  title('The {CD}14bright{CD}16+ monocyte subset is expanded in rheumatoid arthritis and promotes expansion of the {T}h17 cell population'),
   author('Manuela Rossol and Stephan Kraus and Matthias Pierer and Christoph Baerwald and Ulf Wagner'),
   number(3),
   pages(671, 677),
