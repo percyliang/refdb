@@ -797,3 +797,30 @@ entry!('you2017deep',
   author('Seungil You and David Ding and Kevin Canini and Jan Pfeifer and Maya Gupta'),
   pages(2985, 2993),
 nil)
+
+entry!('daniels2010monotone',
+  article('IEEE Transactions on Neural Networks', 2010, 21),
+  title('Monotone and partially monotone neural networks'),
+  author('Hennie Daniels and Marina Velikova'),
+  number(6),
+  pages(906, 917),
+  publisher('IEEE'),
+nil)
+
+entry!('qu2011generalized',
+  article('IEEE Transactions on Neural Networks', 2011, 22),
+  title('Generalized constraint neural network regression model subject to linear priors'),
+  author('Ya-Jun Qu and Bao-Gang Hu'),
+  number(12),
+  pages(2447, 2459),
+  publisher('IEEE'),
+nil)
+
+entry!('shively2009bayesian',
+  article('Journal of the Royal Statistical Society: Series B (Statistical Methodology)', 2009, 71),
+  title('A Bayesian approach to non-parametric monotone function estimation'),
+  author('Thomas S Shively and Thomas W Sager and Stephen G Walker'),
+  number(1),
+  pages(159, 175),
+  publisher('Wiley Online Library'),
+nil)
