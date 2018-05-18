@@ -493,3 +493,10 @@ entry!('charikar2002similarity',
   pages(380, 388),
   organization('ACM'),
 nil)
+
+entry!('stein2011fourier',
+  title('Fourier analysis: an introduction'),
+  author('Elias M Stein and Rami Shakarchi'),
+  book('Princeton University Press',2011),
+  volume(1),
+nil)
