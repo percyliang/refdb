@@ -486,6 +486,14 @@ entry!('hawkins2000estimating',
   publisher('Wiley Online Library'),
 nil)
 
+entry!('charikar2002similarity',
+  inproceedings('Proceedings of the thiry-fourth annual ACM symposium on Theory of computing', 2002),
+  title('Similarity estimation techniques from rounding algorithms'),
+  author('Moses S Charikar'),
+  pages(380, 388),
+  organization('ACM'),
+nil)
+
 entry!('stein2011fourier',
   title('Fourier analysis: an introduction'),
   author('Elias M Stein and Rami Shakarchi'),
