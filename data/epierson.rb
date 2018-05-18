@@ -22,3 +22,21 @@ entry!('o2012multiphen',
   number(5),
   publisher('Public Library of Science'),
 nil)
+
+entry!('rossol2012cd14brightcd16',
+  article('Arthritis \& Rheumatology', 2012, 64),
+  title('The CD14brightCD16+ monocyte subset is expanded in rheumatoid arthritis and promotes expansion of the Th17 cell population'),
+  author('Manuela Rossol and Stephan Kraus and Matthias Pierer and Christoph Baerwald and Ulf Wagner'),
+  number(3),
+  pages(671, 677),
+  publisher('Wiley Online Library'),
+nil)
+
+entry!('milovanovic2004relationships',
+  article('Clinica chimica acta', 2004, 343),
+  title('Relationships between platelets and inflammatory markers in rheumatoid arthritis'),
+  author('Micha Milovanovic and E Nilsson and Petter J{\"a}remo'),
+  number('1-2'),
+  pages(237, 240),
+  publisher('Elsevier'),
+nil)
