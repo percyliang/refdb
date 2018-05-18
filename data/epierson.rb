@@ -14,3 +14,11 @@ entry!('wain2015novel',
   pages(769, 781),
   publisher('Elsevier'),
 nil)
+
+entry!('o2012multiphen',
+  article('PloS One', 2012, 7),
+  title('Multi{P}hen: joint model of multiple phenotypes can increase discovery in {GWAS}'),
+  author('Paul F O’Reilly and Clive J Hoggart and Yotsawat Pomyen and Federico CF Calboli and Paul Elliott and Marjo-Riitta Jarvelin and Lachlan JM Coin'),
+  number(5),
+  publisher('Public Library of Science'),
+nil)
