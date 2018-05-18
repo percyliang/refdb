@@ -500,3 +500,23 @@ entry!('stein2011fourier',
   book('Princeton University Press',2011),
   volume(1),
 nil)
+
+entry!('balog2016deepcoder',
+  arxiv(2016, '1611.01989'),
+  title('Deepcoder: Learning to write programs'),
+  author('Matej Balog and Alexander L Gaunt and Marc Brockschmidt and Sebastian Nowozin and Daniel Tarlow'),
+nil)
+
+entry!('maddison2014structured',
+  icml(2014),
+  title('Structured generative models of natural source code'),
+  author('Chris Maddison and Daniel Tarlow'),
+  pages(649, 657),
+nil)
+
+entry!('allamanis2015bimodal',
+  icml(2015),
+  title('Bimodal modelling of source code and natural language'),
+  author('Miltos Allamanis and Daniel Tarlow and Andrew Gordon and Yi Wei'),
+  pages(2123, 2132),
+nil)
