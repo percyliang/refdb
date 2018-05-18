@@ -428,3 +428,60 @@ entry!('green2013efficacy',
   pages(439, 448),
   organization('ACM'),
 nil)
+
+entry!('kalbfleisch1984least',
+  article('Canadian Journal of Statistics', 1984, 12),
+  title('Least-squares estimation of transition probabilities from aggregate data'),
+  author('John David Kalbfleisch and Jerald F Lawless'),
+  number(3),
+  pages(169, 182),
+  publisher('Wiley Online Library'),
+nil)
+
+entry!('bernstein2016consistently',
+  aistats(2016),
+  title('Consistently Estimating {M}arkov Chains with Noisy Aggregate Data'),
+  author('Garrett Bernstein and Daniel Sheldon'),
+  pages(1142, 1150),
+nil)
+
+entry!('van1983estimation',
+  annalsOfStatistics(1983, 1),
+  title('On the estimation of the parameters of {M}arkov probability models using macro data'),
+  author('Adriaan P Van Der Plas'),
+  pages(78, 85),
+  publisher('JSTOR'),
+nil)
+
+entry!('king2013solution',
+  title('A solution to the ecological inference problem: Reconstructing individual behavior from aggregate data'),
+  author('Gary King'),
+  book('Princeton University Press', 2013),
+nil)
+
+entry!('moffitt1993identification',
+  article('Journal of Econometrics', 1993, 59),
+  title('Identification and estimation of dynamic models with a time series of repeated cross-sections'),
+  author('Robert Moffitt'),
+  number('1-2'),
+  pages(99, 123),
+  publisher('Elsevier'),
+nil)
+
+entry!('collado1997estimating',
+  article('Journal of Econometrics', 1997, 82),
+  title('Estimating dynamic models from time series of independent cross-sections'),
+  author('M Dolores Collado'),
+  number(1),
+  pages(37, 62),
+  publisher('Elsevier'),
+nil)
+
+entry!('hawkins2000estimating',
+  article('Biometrics', 2000, 56),
+  title('Estimating transition probabilities from aggregate samples plus partial transition data'),
+  author('DL Hawkins and Chien-Pai Han'),
+  number(3),
+  pages(848, 854),
+  publisher('Wiley Online Library'),
+nil)
