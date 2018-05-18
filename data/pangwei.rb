@@ -763,3 +763,11 @@ entry!('ram1986government',
   pages(191, 203),
   publisher('JSTOR'),
 nil)
+
+entry!('relethford1978use',
+  article('Human Biology', 1978),
+  title('The use of principal components in the analysis of cross-sectional growth data'),
+  author('John H Relethford and Francis C Lees and Pamela J Byard'),
+  pages(461, 475),
+  publisher('JSTOR'),
+nil)

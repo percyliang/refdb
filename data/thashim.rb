@@ -297,7 +297,7 @@ entry!('blodgett2016',
        emnlp(2016),
        pages(1119, 1130),
        nil)
-       
+
 entry!('barocas2016',
        title('Big Data\'s Disparate Impact'),
        author('Solon Barocas and Andrew D. Selbst'),
@@ -347,7 +347,7 @@ entry!('pleiss2017',
        pages(5684, 5693),
        nil)
 
-entry!('kearns2018',
+entry!('kearns2018gerrymandering',
        title('Preventing Fairness Gerrymandering: Auditing and Learning for Subgroup Fairness'),
        author('Michael Kearns and Seth Neel and Aaron Roth and Zhiwei Steven Wu'),
        arxiv(2018,'1711.05144'),
