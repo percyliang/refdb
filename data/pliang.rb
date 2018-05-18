@@ -11819,9 +11819,15 @@ entry!('steinhardt2017clique',
 nil)
 
 entry!('madry2017towards',
-  title('Towards deep learning models resistant to adversarial attacks'),
+  title('Towards deep learning models resistant to adversarial attacks (published at {ICLR} 2018)'),
   author('Aleksander Madry and Aleksandar Makelov and Ludwig Schmidt and Dimitris Tsipras and Adrian Vladu'),
   arxiv(2017),
+nil)
+
+entry!('madry2018towards',
+  title('Towards deep learning models resistant to adversarial attacks'),
+  author('Aleksander Madry and Aleksandar Makelov and Ludwig Schmidt and Dimitris Tsipras and Adrian Vladu'),
+  iclr(2018),
 nil)
 
 entry!('carlini2017adversarial',
@@ -12304,4 +12310,46 @@ entry!('binns2018fairness',
   pages(1, 11),
   title('Fairness in Machine Learning: Lessons from Political Philosophy'),
   author('Reuben Binns'),
+nil)
+
+entry!('athalye2018obfuscated',
+  arxiv(2018, '1802.00420'),
+  title('Obfuscated gradients give a false sense of security: Circumventing defenses to adversarial examples'),
+  author('Anish Athalye and Nicholas Carlini and David Wagner'),
+nil)
+
+entry!('sinha2018certifiable',
+  iclr(2018),
+  title('Certifiable Distributional Robustness with Principled Adversarial Training'),
+  author('Aman Sinha and Hongseok Namkoong and John Duchi'),
+nil)
+
+entry!('lu2017no',
+  arxiv(2017, '1707.03501'),
+  title('No need to worry about adversarial examples in object detection in autonomous vehicles'),
+  author('Jiajun Lu and Hussein Sibai and Evan Fabry and David Forsyth'),
+nil)
+
+entry!('athalye2017synthesizing',
+  arxiv(2017, '1707.07397'),
+  title('Synthesizing robust adversarial examples'),
+  author('Anish Athalye and Ilya Sutskever'),
+nil)
+
+entry!('weng2018towards',
+  arxiv(2018, '1804.09699'),
+  title('Towards Fast Computation of Certified Robustness for ReLU Networks'),
+  author('Tsui-Wei Weng and Huan Zhang and Hongge Chen and Zhao Song and Cho-Jui Hsieh and Duane Boning and Inderjit S Dhillon and Luca Daniel'),
+nil)
+
+entry!('brown2017adversarial',
+  arxiv(2017, '1712.09665'),
+  title('Adversarial patch'),
+  author('Tom B Brown and Dandelion Mané and Aurko Roy and Martín Abadi and Justin Gilmer'),
+nil)
+
+entry!('tjeng2017verifying',
+  arxiv(2017, '1711.07356'),
+  title('Verifying Neural Networks with Mixed Integer Programming'),
+  author('Vincent Tjeng and Russ Tedrake'),
 nil)
