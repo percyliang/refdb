@@ -485,3 +485,10 @@ entry!('hawkins2000estimating',
   pages(848, 854),
   publisher('Wiley Online Library'),
 nil)
+
+entry!('stein2011fourier',
+  title('Fourier analysis: an introduction'),
+  author('Elias M Stein and Rami Shakarchi'),
+  book('Princeton University Press',2011),
+  volume(1),
+nil)
