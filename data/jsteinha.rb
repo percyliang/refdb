@@ -72,9 +72,11 @@ entry!('huang2017safety',
 nil)
 
 entry!('ehlers2017formal',
-  arxiv(2017, '1705.01320'),
-  title('Formal Verification of Piece-Wise Linear Feed-Forward Neural Networks'),
+  inproceedings('International Symposium on Automated Technology for Verification and Analysis (ATVA)', 2017),
+  title('Formal verification of piece-wise linear feed-forward neural networks'),
   author('Ruediger Ehlers'),
+  pages(269, 286),
+  organization('Springer'),
 nil)
 
 entry!('lomuscio2017approach',
