@@ -12298,3 +12298,10 @@ entry!('corbett2017algorithmic',
   pages(797, 806),
   organization('ACM'),
 nil)
+
+entry!('binns2018fairness',
+  jmlr(2018, 81),
+  pages(1, 11),
+  title('Fairness in Machine Learning: Lessons from Political Philosophy'),
+  author('Reuben Binns'),
+nil)
