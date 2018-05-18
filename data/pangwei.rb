@@ -771,3 +771,29 @@ entry!('relethford1978use',
   pages(461, 475),
   publisher('JSTOR'),
 nil)
+
+# entry!('euyu2012monomial',
+#   title('A non-negative matrix has a non-negative inverse.'),
+#   author('EuYu'),
+#   type('misc'),
+#   publisher('StackExchange'),
+#   howpublished('\url{https://math.stackexchange.com/questions/214401/}'),
+# nil)
+
+entry!('euyu2012monomial',
+  title('A non-negative matrix has a non-negative inverse. {What} other properties does it have?'),
+  author('EuYu'),
+  type('misc'),
+  publisher('Mathematics Stack Exchange'),
+  year(2012),
+  # howpublished('Mathematics Stack Exchange'),
+  # note('URL:https://math.stackexchange.com/q/214401 (version: 2012-10-15)'),
+  howpublished('\url{https://math.stackexchange.com/q/214401}'),
+nil)
+
+entry!('you2017deep',
+  nips(2017),
+  title('Deep Lattice Networks and Partial Monotonic Functions'),
+  author('Seungil You and David Ding and Kevin Canini and Jan Pfeifer and Maya Gupta'),
+  pages(2985, 2993),
+nil)
