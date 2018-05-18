@@ -12167,6 +12167,18 @@ nil)
 
 ############################################################
 
+entry!('mussmann2018accuracy',
+  title('On the Relationship between Data Efficiency and Error in Active Learning'),
+  author('Stephen Mussmann and Percy Liang'),
+  icml(2018),
+nil)
+
+entry!('hashimoto2018repeated',
+  title('Fairness Without Demographics in Repeated Loss Minimization'),
+  author('Tatsunori B. Hashimoto and Megha Srivastava and Hongseok Namkoong and Percy Liang'),
+  icml(2018),
+nil)
+
 entry!('hancock2018babble',
   title('Training Classifiers with Natural Language Explanations'),
   author('Braden Hancock and Paroma Varma and Stephanie Wang and Martin Bringmann and Percy Liang and Christopher Ré'),
