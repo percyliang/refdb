@@ -11,7 +11,7 @@ entry!('kolter2017provable',
   author('J Zico Kolter and Eric Wong'),
 nil)
 
-entry!('kolter2018provable',
+entry!('wong2018provable',
   icml(2018),
   title('Provable defenses against adversarial examples via the convex outer adversarial polytope'),
   author('Eric Wong and J. Zico Kolter'),
