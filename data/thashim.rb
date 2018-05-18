@@ -383,3 +383,40 @@ entry!('stone1977',
        author('Charles J Stone'),
        annalsOfStatistics(1977, 5),
        nil)
+
+
+entry!('andrew2013deep',
+  icml(2013),
+  title('Deep canonical correlation analysis'),
+  author('Galen Andrew and Raman Arora and Jeff Bilmes and Karen Livescu'),
+  pages(1247, 1255),
+nil)
+
+entry!('yan2015deep',
+  cvpr(2015),
+  title('Deep correlation for matching images and text'),
+  author('Fei Yan and Krystian Mikolajczyk'),
+  pages(3441, 3450),
+  organization('IEEE'),
+nil)
+
+entry!('severyn2015learning',
+  sigir(2015),
+  title('Learning to rank short text pairs with convolutional deep neural networks'),
+  author('Aliaksei Severyn and Alessandro Moschitti'),
+  pages(373, 382),
+  organization('ACM'),
+nil)
+
+entry!('tan2015lstm',
+  arxiv(2015, '1511.04108'),
+  title('{LSTM}-based deep learning models for non-factoid answer selection'),
+  author('Ming Tan and Cicero dos Santos and Bing Xiang and Bowen Zhou'),
+nil)
+
+entry!('srivastava2012multimodal',
+  nips(2012),
+  title('Multimodal Learning with Deep {B}oltzmann Machines'),
+  author('Nitish Srivastava and Ruslan R Salakhutdinov'),
+  pages(2222, 2230),
+nil)
