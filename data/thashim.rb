@@ -454,7 +454,7 @@ entry!('van1983estimation',
 nil)
 
 entry!('king2013solution',
-  title('A solution to the ecological inference problem: Reconstructing individual behavior from aggregate data'),
+  title('A Solution to the Ecological Inference Problem: Reconstructing Individual Behavior from Aggregate Data'),
   author('Gary King'),
   book('Princeton University Press', 2013),
 nil)
@@ -495,7 +495,7 @@ entry!('charikar2002similarity',
 nil)
 
 entry!('stein2011fourier',
-  title('Fourier analysis: an introduction'),
+  title('Fourier Analysis: an Introduction'),
   author('Elias M Stein and Rami Shakarchi'),
   book('Princeton University Press',2011),
   volume(1),

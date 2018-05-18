@@ -417,7 +417,7 @@ entry!('gupta2016monotonic',
 nil)
 
 entry!('nakamura1988assessment',
-  article('Mechanisms of ageing and development', 1988, 46),
+  article('Mechanisms of Ageing and Development', 1988, 46),
   title('Assessment of biological age by principal component analysis'),
   author('E Nakamura and K Miyao and T Ozeki'),
   number('1-3'),
@@ -452,7 +452,7 @@ entry!('belsky2015quantification',
 nil)
 
 entry!('sudlow2015uk',
-  article('PLoS medicine', 2015, 12),
+  article('PLoS Medicine', 2015, 12),
   title('{UK Biobank}: an open access resource for identifying the causes of a wide range of complex diseases of middle and old age'),
   author('Cathie Sudlow and John Gallacher and Naomi Allen and Valerie Beral and Paul Burton and John Danesh and Paul Downey and Paul Elliott and Jane Green and Martin Landray and others'),
   number(3),
@@ -583,7 +583,7 @@ nil)
 
 entry!('hashimoto2016learning',
   icml(2016),
-  title('Learning Population-Level Diffusions with Generative RNNs'),
+  title('Learning Population-Level Diffusions with Generative {RNNs}'),
   author('Tatsunori Hashimoto and David Gifford and Tommi Jaakkola'),
   pages(2417, 2426),
 nil)
@@ -836,14 +836,14 @@ nil)
 
 entry!('hoffmann2015effect',
   article('Clinical Chemistry and Laboratory Medicine (CCLM)', 2015, 53),
-  title('Effect of age and gender on reference intervals of red blood cell distribution width (RDW) and mean red cell volume (MCV)'),
+  title('Effect of age and gender on reference intervals of red blood cell distribution width ({RDW}) and mean red cell volume ({MCV})'),
   author('Johannes JML Hoffmann and Karin CAM Nabbe and Nicole MA van den Broek'),
   number(12),
   publisher('De Gruyter'),
 nil)
 
 entry!('stanojevic2008reference',
-  article('American journal of respiratory and critical care medicine', 2008, 177),
+  article('American Journal of Respiratory and Critical Care Medicine', 2008, 177),
   title('Reference ranges for spirometry across all ages: a new approach'),
   author('Sanja Stanojevic and Angie Wade and Janet Stocks and John Hankinson and Allan L Coates and Huiqi Pan and Mark Rosenthal and Mary Corey and Patrick Lebecque and Tim J Cole'),
   number(3),

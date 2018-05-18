@@ -314,7 +314,7 @@ entry!('zhao2017learning',
 )
 
 entry!('jang2017categorical',
-  title('Categorical Reparameterization with Gumbel-Softmax'),
+  title('Categorical Reparameterization with {G}umbel-Softmax'),
   author('Eric Jang and Shixiang Gu and Ben Poole'),
   arxiv(2017, '1611.01144'),
   url('https://arxiv.org/pdf/1611.01144.pdf'),
