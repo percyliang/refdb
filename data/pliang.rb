@@ -12167,15 +12167,15 @@ nil)
 
 ############################################################
 
-entry!('chaganty2018evaluation',
+entry!('hancock2018babble',
   title('Training Classifiers with Natural Language Explanations'),
-  author('Braden Hancock and Paroma Varma and Stephanie Wang and Percy Liang and Christopher Ré'),
+  author('Braden Hancock and Paroma Varma and Stephanie Wang and Martin Bringmann and Percy Liang and Christopher Ré'),
   acl(2018),
   url('https://arxiv.org/pdf/1805.03818.pdf'),
 nil)
 
 entry!('chaganty2018evaluation',
-  title('Can We Obtain Cheaper Unbiased Evaluation of Natural Language Generation using Control Variates?'),
+  title('The price of debiasing automatic metrics in natural language evaluation'),
   author('Arun Chaganty and Stephen Mussmann and Percy Liang'),
   acl(2018),
 nil)
@@ -12240,4 +12240,49 @@ entry!('kakade2018prediction',
   title('Prediction with a Short Memory'),
   stoc(2018),
   url('http://arxiv.org/pdf/1612.02526.pdf'),
+nil)
+
+entry!('shivaswamy2010empirical',
+  aistats(2010),
+  title('Empirical {B}ernstein boosting'),
+  author('Pannagadatta Shivaswamy and Tony Jebara'),
+  pages(733, 740),
+nil)
+
+entry!('namkoong2017variance',
+  nips(2017),
+  title('Variance regularization with convex objectives'),
+  author('Hongseok Namkoong and John Duchi'),
+nil)
+
+entry!('berk2017convex',
+  arxiv(2017, '1706.02409'),
+  title('A convex framework for fair regression'),
+  author('Richard Berk and Hoda Heidari and Shahin Jabbari and Matthew Joseph and Michael Kearns and Jamie Morgenstern and Seth Neel and Aaron Roth'),
+nil)
+
+entry!('kim2018fairness',
+  arxiv(2018, '1803.03239'),
+  title('Fairness Through Computationally-Bounded Awareness'),
+  author('Michael P Kim and Omer Reingold and Guy N Rothblum'),
+nil)
+
+entry!('angwin2016machine',
+  article('ProPublica', 2016, 23),
+  title('Machine bias: There’s software used across the country to predict future criminals. and it’s biased against blacks'),
+  author('Julia Angwin and Jeff Larson and Surya Mattu and Lauren Kirchner'),
+nil)
+
+entry!('waddell2016algorithms',
+  article('The Atlantic', 2016),
+  title('How algorithms can bring down minorities\' credit scores'),
+  author('Kaveh Waddell'),
+nil)
+
+entry!('corbett2017algorithmic',
+  kdd(2017),
+  title('Algorithmic decision making and the cost of fairness'),
+  author('Sam Corbett-Davies and Emma Pierson and Avi Feller and Sharad Goel and Aziz Huq'),
+  pages(797, 806),
+  organization('ACM'),
 nil)

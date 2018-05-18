@@ -420,3 +420,16 @@ entry!('dekel2015epistemic',
 #  year(2015),
 #  publisher('Elsevier'),
 nil)
+
+entry!('kilbertus2017avoiding',
+  nips(2017),
+  title('Avoiding discrimination through causal reasoning'),
+  author('Niki Kilbertus and Mateo Rojas Carulla and Giambattista Parascandolo and Moritz Hardt and Dominik Janzing and Bernhard Sch{\"o}lkopf'),
+  pages(656, 666),
+nil)
+
+entry!('liu2018delayed',
+  arxiv(2018, '1803.04383'),
+  title('Delayed Impact of Fair Machine Learning'),
+  author('Lydia T Liu and Sarah Dean and Esther Rolf and Max Simchowitz and Moritz Hardt'),
+nil)
