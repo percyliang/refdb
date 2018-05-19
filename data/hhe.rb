@@ -325,3 +325,9 @@ entry!('das2017learning',
   author('Abhishek Das and Satwik Kottur and Jos{\'e} MF Moura and Stefan Lee and Dhruv Batra'),
   iccv(2017),
 )
+
+entry!('cuayahuitl2015strategic',
+  title('Strategic Dialogue Management via Deep Reinforcement Learning'),
+  author('Heriberto Cuay{\'a}huitl and Simon Keizer and Oliver Lemon'),
+  nips('2015')
+)
