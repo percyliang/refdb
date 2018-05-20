@@ -331,3 +331,17 @@ entry!('cuayahuitl2015strategic',
   author('Heriberto Cuay{\'a}huitl and Simon Keizer and Oliver Lemon'),
   nips('2015')
 )
+
+entry!('afantenos2012modelling',
+  title('Modelling Strategic Conversation: Model, Annotation Design and Corpus'),
+  author('Stergos Afantenos and Nicholas Asher and Farah Benamara and Anais Cadilhac and Cedric D{\'e}gremont and Pascal Denis and Markus Guhe and Simon Keizer and Alex Lascarides and Oliver Lemon and others'),
+  inproceedings('Proceedings of SemDial 2012: Workshop on the Semantics and Pragmatics of Dialogue', 2012),
+  pages(167, 168),
+)
+
+entry!('traum2008multi',
+  title('Multi-party, Multi-issue, Multi-strategy Negotiation for Multi-modal Virtual Agents'),
+  author('David Traum and Stacy C Marsella and Jonathan Gratch and Jina Lee and Arno Hartholt'),
+  inproceedings('International Workshop on Intelligent Virtual Agents', 2008),
+  pages(117, 130),
+)
