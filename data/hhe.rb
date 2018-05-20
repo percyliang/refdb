@@ -328,13 +328,13 @@ entry!('das2017learning',
 
 entry!('cuayahuitl2015strategic',
   title('Strategic Dialogue Management via Deep Reinforcement Learning'),
-  author('Heriberto Cuay{\'a}huitl and Simon Keizer and Oliver Lemon'),
+  author('Heriberto Cuayáhuitl and Simon Keizer and Oliver Lemon'),
   nips('2015')
 )
 
 entry!('afantenos2012modelling',
   title('Modelling Strategic Conversation: Model, Annotation Design and Corpus'),
-  author('Stergos Afantenos and Nicholas Asher and Farah Benamara and Anais Cadilhac and Cedric D{\'e}gremont and Pascal Denis and Markus Guhe and Simon Keizer and Alex Lascarides and Oliver Lemon and others'),
+  author('Stergos Afantenos and Nicholas Asher and Farah Benamara and Anais Cadilhac and Cedric Dégremont and Pascal Denis and Markus Guhe and Simon Keizer and Alex Lascarides and Oliver Lemon and others'),
   inproceedings('Proceedings of SemDial 2012: Workshop on the Semantics and Pragmatics of Dialogue', 2012),
   pages(167, 168),
 )
