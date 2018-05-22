@@ -181,3 +181,35 @@ entry!('zajicek1998blind',
   author('Mary Zajicek and Chris Powell and Chris Reeves'),
   inproceedings('International ACM Conference on Assistive Technologies', 1998),
 nil)
+
+entry!('soh2017tagui',
+  title('{TagUI}: {RPA} / {CLI} tool for automating user interactions'),
+  author('Ken Soh'),
+  type('misc'),
+  howpublished('\url{https://github.com/kelaberetiv/TagUI}'),
+  year(2017),
+nil)
+
+entry!('spalteholz2008keysurf',
+  title('Keysurf: a character controlled browser for people with physical disabilities'),
+  author('Leo Spalteholz and Kin Fun Li and Nigel Livingston and Foad Hamidi'),
+  www(2008),
+nil)
+
+entry!('yu2005haptics',
+  title('A novel multimodal interface for improving visually impaired people\'s web accessibility'),
+  author('Wai Yu and Ravi Kuber and Emma Murphy and Philip Strain and Graham McAllister'),
+  article('Virtual Reality', 2005, 9),
+nil)
+
+entry!('kumar2007eyepoint',
+  title('EyePoint: practical pointing and selection using gaze and keyboard'),
+  author('Manu Kumar and Andreas Paepcke and Terry Winograd'),
+  chi(2007),
+nil)
+
+entry!('ashok2014wizard',
+  title('Wizard-of-{O}z evaluation of speech-driven web browsing interface for people with vision impairments'),
+  author('Vikas Ashok and Yevgen Borodin and Svetlana Stoyanchev and Yury Puzis and I. V. Ramakrishnan'),
+  inproceedings('Web for All Conference', 2014),
+nil)
