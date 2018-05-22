@@ -157,3 +157,27 @@ entry!('su2017building',
   author('Yu Su and Ahmed Hassan Awadallah and Madian Khabsa and Patrick Pantel and Michael Gamon and Mark J. Encarnaci\\\'{o}n'),
   cikm(2017),
 nil)
+
+entry!('yin2016abcnn',
+  title('{ABCNN}: Attention-Based Convolutional Neural Network for Modeling Sentence Pairs'),
+  author('Wenpeng Yin and Hinrich Sch{\"u}tze and Bing Xiang and Bowen Zhou'),
+  tacl(2016, 4),
+nil)
+
+entry!('yu2018qanet',
+  title('{QANet}: Combining Local Convolution with Global Self-Attention for Reading Comprehension'),
+  author('Adams Wei Yu and David Dohan and Minh-Thang Luong and Rui Zhao and Kai Chen and Mohammad Norouzi and Quoc V. Le'),
+  iclr(2018),
+nil)
+
+entry!('kiros2015skip',
+  title('Skip-Thought Vectors'),
+  author('Ryan Kiros and Yukun Zhu and Ruslan Salakhutdinov and Richard S. Zemel and Raquel Urtasun and Antonio Torralba and Sanja Fidler'),
+  nips(2015),
+nil)
+
+entry!('zajicek1998blind',
+  title('A Web Navigation Tool for the Blind'),
+  author('Mary Zajicek and Chris Powell and Chris Reeves'),
+  inproceedings('International ACM Conference on Assistive Technologies', 1998),
+nil)
