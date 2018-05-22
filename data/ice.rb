@@ -131,4 +131,23 @@ entry!('pham2017column',
   aaai(2017),
 nil)
 
+################################################################
+# EMNLP 2018
 
+entry!('hammoudi2016why',
+  title('Why do Record/Replay Tests of Web Applications Break?'),
+  author('Mouna Hammoudi, Gregg Rothermel, Paolo Tonella'),
+  article('IEEE International Conference on Software Testing, Verification and Validation', 2016),
+nil)
+
+entry!('janner2018representation',
+  title('Representation Learning for Grounded Spatial Reasoning'),
+  author('Michael Janner, Karthik Narasimhan, Regina Barzilay'),
+  tacl(2018, 6),
+nil)
+
+entry!('fried2018unified',
+  title('Unified Pragmatic Models for Generating and Following Instructions'),
+  author('Daniel Fried and Jacob Andreas and Dan Klein'),
+  naacl(2018),
+nil)
