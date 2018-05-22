@@ -10158,7 +10158,7 @@ nil)
 entry!('young2013pomdp',
   article('Proceedings of the IEEE', 2013, 101),
   title('{POMDP}-based statistical spoken dialog systems: A review'),
-  author('Stephanie Young and Milica Gasic and Blaise Thomson and John D Williams'),
+  author('Steve Young and Milica Gašić and Blaise Thomson and Jason D Williams'),
   number(5),
   pages(1160, 1179),
   publisher('IEEE'),
@@ -10453,7 +10453,7 @@ entry!('wen2017network',
   eacl(2017),
   title('A Network-based End-to-End Trainable Task-oriented Dialogue System'),
   author('Tsung-Hsien Wen and Milica Gasic and Nikola Mrksic and Lina M Rojas-Barahona and Pei-Hao Su and Stefan Ultes and David Vandyke and Steve Young'),
-  pages(438,449), 
+  pages(438,449),
 nil)
 
 entry!('dong2016logical',
@@ -10476,18 +10476,18 @@ entry!('roundy1985identifying',
 nil)
 
 entry!('kirkpatrick2012significance',
-   author('Taylor Berg-Kirkpatrick and David Burkett and Dan Klein'),
-   title('An empirical investigation of statistical significance in {NLP}'),
-   emnlp(2012),
-   pages(995,1005),
+  author('Taylor Berg-Kirkpatrick and David Burkett and Dan Klein'),
+  title('An empirical investigation of statistical significance in {NLP}'),
+  emnlp(2012),
+  pages(995,1005),
 nil)
 
 entry!('maccartney2007natural',
-     author('Bill MacCartney and Christopher D. Manning'),
-     title('Natural Logic for Textual Inference'),
-     inproceedings('ACL-PASCAL Workshop on Textual Entailment and Paraphrasing', 2007),
-     year(2007),
-     pages(193,200),
+  author('Bill MacCartney and Christopher D. Manning'),
+  title('Natural Logic for Textual Inference'),
+  inproceedings('ACL-PASCAL Workshop on Textual Entailment and Paraphrasing', 2007),
+  year(2007),
+  pages(193,200),
 nil)
 
 entry!('angeli2014naturalli',
