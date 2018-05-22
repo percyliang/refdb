@@ -213,3 +213,15 @@ entry!('ashok2014wizard',
   author('Vikas Ashok and Yevgen Borodin and Svetlana Stoyanchev and Yury Puzis and I. V. Ramakrishnan'),
   inproceedings('Web for All Conference', 2014),
 nil)
+
+entry!('yu2017joint',
+  title('A Joint Speaker-Listener-Reinforcer Model for Referring Expressions'),
+  author('Licheng Yu and Hao Tan and Mohit Bansal and Tamara L. Berg'),
+  cvpr(2017),
+nil)
+
+entry!('celikyilmaz2014resolving',
+  title('Resolving Referring Expressions in Conversational Dialogs for Natural User Interfaces'),
+  author('Asli \c{C}elikyilmaz and Zhaleh Feizollahi and Dilek Z. Hakkani-T{\"u}r and Ruhi Sarikaya'),
+  emnlp(2014),
+nil)
