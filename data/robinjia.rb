@@ -281,3 +281,23 @@ entry!('huang2018fusion',
   title('FusionNet: Fusing via Fully-Aware Attention with Application to Machine Comprehension'),
   iclr(2018),
 nil)
+
+entry!('golub2017transfer',
+  author('David Golub and Po-Sen Huang and Xiaodong He and Li Deng'),
+  title('Two-Stage Synthesis Networks for Transfer Learning in Machine Comprehension'),
+  emnlp(2017),
+nil)
+
+entry!('michael2018qamr',
+  author('Julian Michael and Gabriel Stanovsky and Luheng He and Ido Dagan and Luke Zettlemoyer'),
+  title('Crowdsourcing Question--Answer Meaning Representations'),
+  naacl(2018),
+nil)
+
+entry!('min2017transfer',
+  author('Sewon Min and Minjoon Seo and Hannaneh Hajishirzi'),
+  title('Question Answering through Transfer Learning from Large Fine-grained Supervision Data'),
+  acl(2017),
+nil)
+
+
