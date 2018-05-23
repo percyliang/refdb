@@ -345,3 +345,10 @@ entry!('traum2008multi',
   inproceedings('International Workshop on Intelligent Virtual Agents', 2008),
   pages(117, 130),
 )
+
+entry!('asher2016catan',
+  title('Discourse Structure and Dialogue Acts in Multiparty Dialogue: the {STAC} Corpus
+'),
+  author('Nicholas Asher and Julie Hunter and Mathieu Morey and Farah Benamara and Stergos Afantenos'),
+  lrec(2016),
+)

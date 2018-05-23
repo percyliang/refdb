@@ -488,7 +488,7 @@ nil)
 entry!('bendall2014single',
   article('Cell', 2014, 157),
   title('Single-cell trajectory detection uncovers progression and regulatory coordination in human {B} cell development'),
-  author('Sean C Bendall and Kara L Davis and El-ad David Amir and Michelle D Tadmor and Erin F Simonds and Tiffany J Chen and Daniel K Shenfeld and Garry P Nolan and Dana Pe’er'),
+  author('Sean C Bendall and Kara L Davis and El-ad David Amir and Michelle D Tadmor and Erin F Simonds and Tiffany J Chen and Daniel K Shenfeld and Garry P Nolan and Dana Pe\'er'),
   number(3),
   pages(714, 725),
   publisher('Elsevier'),
