@@ -300,4 +300,20 @@ entry!('min2017transfer',
   acl(2017),
 nil)
 
+entry!('zhai2017chunking',
+  title('Neural Models for Sequence Chunking'),
+  author('Feifei Zhai and Saloni Potdar and Bing Xiang and Bowen Zhou'),
+  aaai(2017),
+nil)
 
+entry!('hakkanitur2016multidomain',
+  title('Multi-Domain Joint Semantic Frame Parsing using Bi-directional {RNN}-{LSTM}'),
+  author('Dilek Hakkani-T{\"u}r and Gokhan Tur and Asli Celikyilmaz and Yun-Nung Chen and Jianfeng Gao and Li Deng and Ye-Yi Wang'),
+  inproceedings('InterSpeech', 2016),
+nil)
+
+entry!('vrandecic2014wikidata',
+  title('Wikidata: A free collaborative knowledgebase'),
+  author('Denny Vrande\v{c}i\\\'{c} and Markus Kr\H{o}tzsch'),
+  article('Communications of the ACM', 2014, 57),
+nil)
