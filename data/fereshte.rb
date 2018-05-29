@@ -433,3 +433,12 @@ entry!('liu2018delayed',
   title('Delayed Impact of Fair Machine Learning'),
   author('Lydia T Liu and Sarah Dean and Esther Rolf and Max Simchowitz and Moritz Hardt'),
 nil)
+
+entry!('hawkins2015conducting',
+  article('Behavior Research Methods', 2015, 47),
+  title('Conducting real-time multiplayer experiments on the web'),
+  author('Robert XD Hawkins'),
+  number(4),
+  pages(966, 976),
+  publisher('Springer'),
+nil)
