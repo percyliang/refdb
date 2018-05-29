@@ -175,7 +175,7 @@ nil)
 
 entry!('novikova2017why',
        title('Why We Need New Evaluation Metrics for {NLG}'),
-       author('Jekaterina Novikova and Ondřej Dušek and Amanda Cercas Curry and Verena Rieser'),
+       author('Jekaterina Novikova and Ond\\v{r}ej Du\\v{s}ek and Amanda Cercas Curry and Verena Rieser'),
        emnlp(2017),
        url('https://arxiv.org/pdf/1707.06875.pdf'),
 nil)
