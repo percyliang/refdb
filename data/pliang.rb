@@ -11272,6 +11272,7 @@ entry!('steinhardt2017certified',
   title('Certified Defenses for Data Poisoning Attacks'),
   nips(2017),
   url('http://arxiv.org/pdf/1706.03691.pdf'),
+  codalab('0xbdd35bdd83b14f6287b24c9418983617'),
 nil)
 
 entry!('hashimoto2017transformation',
@@ -11279,6 +11280,7 @@ entry!('hashimoto2017transformation',
   title('Unsupervised Transformation Learning via Convex Relaxations'),
   nips(2017),
   url('https://arxiv.org/pdf/1711.02226.pdf'),
+  codalab('0x4412d72b55df47e5b457dacdba91f105'),
 nil)
 
 entry!('sharan2017overcomplete',
@@ -12223,6 +12225,7 @@ entry!('khani2018pip',
   author('Fereshte Khani and Noah D. Goodman and Percy Liang'),
   tacl(2018, 0),
   url('https://arxiv.org/pdf/1805.11774.pdf'),
+  codalab('0x052129c7afa9498481185b553d23f0f9'),
 nil)
 
 entry!('guu2018edit',
@@ -12237,6 +12240,7 @@ entry!('li2018style',
   title('Delete, Retrieve, Generate: A Simple Approach to Sentiment and Style Transfer'),
   naacl(2018),
   url('https://arxiv.org/pdf/1804.06437.pdf'),
+  codalab('0xe3eb416773ed4883bb737662b31b4948'),
 nil)
 
 entry!('liu2018workflow',
@@ -12251,6 +12255,7 @@ entry!('raghunathan2018certified',
   title('Certified defenses against adversarial examples'),
   iclr(2018),
   url('https://arxiv.org/pdf/1801.09344.pdf'),
+  codalab('0xa21e794020bb474d8804ec7bc0543f52'),
 nil)
 
 entry!('bastani2018active',
