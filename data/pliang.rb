@@ -12218,6 +12218,13 @@ entry!('mussmann2018gbs',
   url('https://arxiv.org/pdf/1802.09751.pdf'),
 nil)
 
+entry!('khani2018pip',
+  title('Planning, Inference and Pragmatics in Sequential Language Games'),
+  author('Fereshte Khani and Noah D. Goodman and Percy Liang'),
+  tacl(2018, 0),
+  url('https://arxiv.org/pdf/1805.11774.pdf'),
+nil)
+
 entry!('guu2018edit',
   author('Kelvin Guu and Tatsunori B. Hashimoto and Yonatan Oren and Percy Liang'),
   title('Generating Sentences by Editing Prototypes'),
