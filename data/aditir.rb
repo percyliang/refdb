@@ -29,3 +29,9 @@ entry!('hein2017formal',
   author('Matthias Hein and Maksym Andriushchenko'),
   pages(2263, 2273),
 nil)
+
+entry!('ahmadi2017dsos',
+  arxiv(2017, '1706.02586'),
+  title('{DSOS} and {SDSOS} optimization: more tractable alternatives to sum of squares and semidefinite optimization'),
+  author('Amir Ali Ahmadi and Anirudha Majumdar'),
+nil)
