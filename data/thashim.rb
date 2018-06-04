@@ -520,3 +520,27 @@ entry!('allamanis2015bimodal',
   author('Miltos Allamanis and Daniel Tarlow and Andrew Gordon and Yi Wei'),
   pages(2123, 2132),
 nil)
+
+entry!('hu2018does',
+  author('Weihua Hu and Gang Niu and Issei Sato and Masashi Sugiyama'),
+  title('Does Distributionally Robust Supervised Learning Give Robust Classifiers?'),
+  icml(2018),
+nil)
+
+entry!('luo2012regularity',
+  title('Regularity and complexity in dynamical systems'),
+  author('Albert CJ Luo'),
+  book('Springer', 2012),
+nil)
+
+entry!('ensign2017runaway',
+  arxiv(2017, '1706.09847'),
+  title('Runaway feedback loops in predictive policing'),
+  author('Danielle Ensign and Sorelle A Friedler and Scott Neville and Carlos Scheidegger and Suresh Venkatasubramanian'),
+nil)
+
+entry!('fuster2017predictably',
+  title('Predictably Unequal? The Effects of Machine Learning on Credit Markets'),
+  author('Andreas Fuster and Paul Goldsmith-Pinkham and Tarun Ramadorai and Ansgar Walther'),
+  techreport('CEPR Discussion Papers', 2017),
+nil)
