@@ -451,3 +451,12 @@ entry!('bennett1962probability',
   pages(33, 45),
   publisher('Taylor \& Francis'),
 nil)
+
+entry!('audibert2009exploration',
+  article('Theoretical Computer Science', 2009, 410),
+  title('Exploration--exploitation tradeoff using variance estimates in multi-armed bandits'),
+  author('Jean-Yves Audibert and R{\'e}mi Munos and Csaba Szepesv{\'a}ri'),
+  number(19),
+  pages(1876, 1902),
+  publisher('Elsevier'),
+nil)
