@@ -442,3 +442,12 @@ entry!('hawkins2015conducting',
   pages(966, 976),
   publisher('Springer'),
 nil)
+
+entry!('bennett1962probability',
+  jasa(1962, 57),
+  title('Probability inequalities for the sum of independent random variables'),
+  author('George Bennett'),
+  number(297),
+  pages(33, 45),
+  publisher('Taylor \& Francis'),
+nil)
