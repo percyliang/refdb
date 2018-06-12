@@ -12206,6 +12206,7 @@ entry!('rajpurkar2018squadrun',
   acl(2018),
   award('Best short paper award'),
   url('https://arxiv.org/pdf/1806.03822.pdf'),
+  codalab('0x9a15a170809f4e2cb7940e1f256dee55'),
 nil)
 
 entry!('selsam2018sat',
