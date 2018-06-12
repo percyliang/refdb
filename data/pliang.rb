@@ -12204,7 +12204,8 @@ entry!('rajpurkar2018squadrun',
   title('Know What You Don\'t Know: Unanswerable Questions for {SQuAD}'),
   author('Pranav Rajpurkar and Robin Jia and Percy Liang'),
   acl(2018),
-  note('Short paper.'),
+  award('Best short paper award'),
+  url('https://arxiv.org/pdf/1806.03822.pdf'),
 nil)
 
 entry!('selsam2018sat',
