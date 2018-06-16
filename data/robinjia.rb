@@ -147,7 +147,7 @@ nil)
 entry!('hu2017mnemonic',
   author('Minghao Hu and Yuxing Peng and Xipeng Qiu'),
   title('Reinforced Mnemonic Reader for Machine Comprehension'),
-  arxiv(2017),
+  arxiv(2017, '1705.02798'),
 nil)
 
 entry!('liu2017sect',
@@ -280,4 +280,40 @@ entry!('huang2018fusion',
   author('Hsin-Yuan Huang and Chenguang Zhu and Yelong Shen and Weizhu Chen'),
   title('FusionNet: Fusing via Fully-Aware Attention with Application to Machine Comprehension'),
   iclr(2018),
+nil)
+
+entry!('golub2017transfer',
+  author('David Golub and Po-Sen Huang and Xiaodong He and Li Deng'),
+  title('Two-Stage Synthesis Networks for Transfer Learning in Machine Comprehension'),
+  emnlp(2017),
+nil)
+
+entry!('michael2018qamr',
+  author('Julian Michael and Gabriel Stanovsky and Luheng He and Ido Dagan and Luke Zettlemoyer'),
+  title('Crowdsourcing Question--Answer Meaning Representations'),
+  naacl(2018),
+nil)
+
+entry!('min2017transfer',
+  author('Sewon Min and Minjoon Seo and Hannaneh Hajishirzi'),
+  title('Question Answering through Transfer Learning from Large Fine-grained Supervision Data'),
+  acl(2017),
+nil)
+
+entry!('zhai2017chunking',
+  title('Neural Models for Sequence Chunking'),
+  author('Feifei Zhai and Saloni Potdar and Bing Xiang and Bowen Zhou'),
+  aaai(2017),
+nil)
+
+entry!('hakkanitur2016multidomain',
+  title('Multi-Domain Joint Semantic Frame Parsing using Bi-directional {RNN}-{LSTM}'),
+  author('Dilek Hakkani-T{\"u}r and Gokhan Tur and Asli Celikyilmaz and Yun-Nung Chen and Jianfeng Gao and Li Deng and Ye-Yi Wang'),
+  inproceedings('InterSpeech', 2016),
+nil)
+
+entry!('vrandecic2014wikidata',
+  title('Wikidata: A free collaborative knowledgebase'),
+  author('Denny Vrande\v{c}i\\\'{c} and Markus Kr\H{o}tzsch'),
+  article('Communications of the ACM', 2014, 57),
 nil)

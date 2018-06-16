@@ -175,7 +175,7 @@ nil)
 
 entry!('novikova2017why',
        title('Why We Need New Evaluation Metrics for {NLG}'),
-       author('Jekaterina Novikova and Ondřej Dušek and Amanda Cercas Curry and Verena Rieser'),
+       author('Jekaterina Novikova and Ond\\v{r}ej Du\\v{s}ek and Amanda Cercas Curry and Verena Rieser'),
        emnlp(2017),
        url('https://arxiv.org/pdf/1707.06875.pdf'),
 nil)
@@ -315,6 +315,13 @@ entry!('novikova2016crowd',
   author('Jekaterina Novikova and Oliver Lemon and Verena Rieser'),
   arxiv(2016),
   url('https://arxiv.org/abs/1608.00339'),
+nil)
+
+entry!('mnih2008empirical',
+  title('Empirical Berstein stopping'),
+  author('Volodymyr Mnih and Csaba Szepesv{\'{a}}ri and Jean-Yves Audibert'),
+  icml(2008),
+  url('http://portal.acm.org/citation.cfm?doid=1390156.1390241'),
 nil)
 
 #entry!('',

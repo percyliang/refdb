@@ -243,29 +243,22 @@ class Entry
     s2 = ", #{year}"
     s1+s2
   end
-
-  #def to_s; "#{author}. #{title}. #{metaTitle}, #{year}." end
-  #def to_short_s; "#{author.to_short_s}. #{title}. #{metaTitle.to_short_s}, #{year}." end
 end
 
 def displayTitle(title)
-  # Downcase everything except for the first word
-  [" ", "-"].each { |c|
-    words = title.split(c)
-    words = (0...words.size).map { |i| i == 0 ? words[i] : words[i].downcase }
-    title = words.join(c)
+  # Downcase everything except for the first word and things in {}
+  words = title.split(/ /)
+  words = (0...words.size).map { |i|
+    word = words[i]
+    newWord = ''
+    while word =~ /^([^\{]*)\{([^\}]+)\}(.*)$/ do
+      newWord += (i == 0 ? $1 : $1.downcase) + $2
+      word = $3
+    end
+    newWord += (i == 0 ? word : word.downcase)
+    newWord
   }
-  # Upcase things in {}
-  [" ", "-"].each { |c|
-    words = title.split(c).map { |word|
-      while word =~ /\{(\w+)\}/ do
-        word.sub!(/\{#{$1}\}/, $1.upcase)
-      end
-      word
-    }
-    title = words.join(c)
-  }
-  title
+  words.join(' ')
 end
 
 def field(n, *x)   Field.new(n, x)                              end

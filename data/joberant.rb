@@ -406,7 +406,7 @@ entry!('andor2016globally',
 nil)
 
 entry!('chen2017reading',
-  arxiv(2017, '1704.00051'),
+  acl(2017),
   title('Reading {W}ikipedia to Answer Open-Domain Questions'),
   author('Danqi Chen and Adam Fisch and Jason Weston and Antoine Bordes'),
 nil)
@@ -437,15 +437,120 @@ entry!('goldman2017weakly',
   url('https://arxiv.org/abs/1711.05240'),
 nil)
 
-entry!('salant2017contextualizing',
-  arxiv('2017', '1712.03609'),
-  title('Contextualized Word Representations for Reading Comprehension'),
-  author('Shimi Salant and Jonathan Berant'),
-  url('https://arxiv.org/pdf/1712.03609.pdf'),
-nil)
-
 entry!('kovcisky2017narrativeqa',
   arxiv(2017, '1712.07040'),
-  title('The NarrativeQA Reading Comprehension Challenge'),
+  title('The {NarrativeQA} Reading Comprehension Challenge'),
   author('Tom{\v{s}} Ko{\v{c}}isky and Jonathan Schwarz and Phil Blunsom and Chris Dyer and Karl Moritz Hermann and Gabor Melis and Edward Grefenstette'),
 nil)
+
+entry!('hewlett2017accurate',
+  emnlp(2017),
+  title('Accurate Supervised and Semi-Supervised Machine Reading for Long Documents'),
+  author('Daniel Hewlett and Llion Jones and Alexandre Lacoste and others'),
+  pages(2011, 2020),
+nil)
+
+entry!('hessel2017rainbow',
+  arxiv(2017, '1710.02298'),
+  title('Rainbow: Combining Improvements in Deep Reinforcement Learning'),
+  author('Matteo Hessel and Joseph Modayil and Hado Van Hasselt and Tom Schaul and Georg Ostrovski and Will Dabney and Dan Horgan and Bilal Piot and Mohammad Azar and David Silver'),
+nil)
+
+entry!('van2016deep',
+  aaai(2016),
+  title('Deep Reinforcement Learning with Double {Q}-Learning'),
+  author('Hado van Hasselt and Arthur Guez and David Silver'),
+  volume(16),
+  pages(2094, 2100),
+nil)
+
+entry!('wang2016dueling',
+  icml(2016),
+  title('Dueling network architectures for deep reinforcement learning'),
+  author('Ziyu Wang and Tom Schaul and Matteo Hessel and Hado Van Hasselt and Marc Lanctot and Nando De Freitas'),
+nil)
+
+entry!('lao2015learning',
+  acl(2015),
+  title('Learning relational features with backward random walks'),
+  author('Ni Lao and Einat Minkov and William Cohen'),
+nil)
+
+entry!('cheng2016long',
+  emnlp(2016),
+  title('Long short-term memory-networks for machine reading'),
+  author('Jianpeng Cheng and Li Dong and Mirella Lapata'),
+nil)
+
+entry!('salant2018contextualized',
+  naacl(2018),
+  title('Contextualized Word Representations for Reading Comprehension'),
+  author('Shimi Salant and Jonathan Berant'),
+  url('https://arxiv.org/abs/1712.03609'),
+nil)
+
+entry!('wang2018r3',
+  aaai(2018),
+  title('{R3}: Reinforced Ranker-Reader for Open-Domain Question Answering'),
+  author('Shuohang Wang and Mo Yu and Xiaoxiao Guo and Zhiguo Wang and Tim Klinger and Wei Zhang and Shiyu Chang and Gerald Tesauro and Bowen Zhou and Jing Jiang'),
+nil)
+
+entry!('ba2015multiple',
+  iclr(2015),
+  title('Multiple object recognition with visual attention'),
+  author('Jimmy Ba and Volodymyr Mnih and Koray Kavukcuoglu'),
+nil)
+
+entry!('swayamdipta2018multi',
+  iclr(2018),
+  title('Multi-Mention Learning for Reading Comprehension with Neural Cascades'),
+  author('Swabha Swayamdipta and Ankur P Parikh and Tom Kwiatkowski'),
+nil)
+
+entry!('das2018go',
+  iclr(2018),
+  title('Go for a Walk and Arrive at the Answer: Reasoning Over Paths in Knowledge Bases using Reinforcement Learning'),
+  author('Rajarshi Das and Shehzaad Dhuliawala and Manzil Zaheer and Luke Vilnis and Ishan Durugkar and Akshay Krishnamurthy and Alex Smola and Andrew McCallum'),
+nil)
+
+entry!('yu2017skim',
+  acl(2017),
+  title('Learning to Skim Text'),
+  author('Adams Wei Yu and Hongrae Lee and Quoc V. Le'),
+nil)
+
+entry!('seo2018neural',
+  iclr(2018),
+  title('Neural Speed Reading via Skim-{RNN}'),
+  author('Minjoon Seo and Sewon Min and Ali Farhadi and Hannaneh Hajishirzi'),
+nil)
+
+entry!('campos2018skip',
+  iclr(2018),
+  title('Skip {RNN}: Learning to Skip State Updates in Recurrent Neural Networks'),
+  author('Victor Campos and Brendan Jou and Xavier Giro-i-Nieto and Jordi Torres and Shih-Fu Chang'),
+nil)
+
+entry!('bradbury2017quasi',
+  iclr(2017),
+  title('Quasi-recurrent neural networks'),
+  author('James Bradbury and Stephen Merity and Caiming Xiong and Richard Socher'),
+nil)
+
+entry!('richardson2018polyglot',
+  naacl(2018),
+  title('Polyglot Semantic Parsing in {API}s'),
+  author('Kyle Richardson and Jonathan Berant and Jonas Kuhn'),
+)
+
+entry!('koshorek2018segmentation',
+  naacl(2018),
+  title('Text Segmentation as a Supervised Learning Task'),
+  author('Omri Koshorek and Noam Mor and Adir Cohen and Michael Rotman and Jonathan Berant'),
+)
+
+entry!('talmor2018web',
+  naacl(2018),
+  title('The Web as Knowledge-base for Answering Complex Questions'),
+  author('Alon Talmor and Jonathan Berant'),
+  )
