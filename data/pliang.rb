@@ -12179,6 +12179,7 @@ entry!('mussmann2018accuracy',
   title('On the Relationship between Data Efficiency and Error in Active Learning'),
   author('Stephen Mussmann and Percy Liang'),
   icml(2018),
+  url('https://arxiv.org/pdf/1806.06123.pdf'),
 nil)
 
 entry!('hashimoto2018repeated',

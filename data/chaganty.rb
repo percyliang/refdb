@@ -324,6 +324,37 @@ entry!('mnih2008empirical',
   url('http://portal.acm.org/citation.cfm?doid=1390156.1390241'),
 nil)
 
+entry!('luhn1958automatic',
+  author('Henry P. Luhn'),
+  article('{IBM} Journal of Research and Development', 1958, 2), pages(159,165),
+  title('The Automatic Creation of Literature Abstracts'),
+  nil)
+
+entry!('passonneau2005applying',
+  author('Rebecca J. Passonneau and Ani Nenkova and Kathleen McKeown and Sergey Sigelman'),
+  inproceedings('Document Understanding Conference', 2005),
+  title('Applying the pyramid method in {DUC} 2005'),
+  nil)
+
+
+entry!('brandow1995automatic',
+  author('Ronald Brandow and Karl Mitze and Lisa F. Rau'),
+  article('Information Processing and Management', 1995, 31), pages(675, 685),
+  title('Automatic condensation of electronic publications by sentence selection'),
+  nil)
+
+entry!('mani1999tipster',
+  author('Inderjeet Mani and Gary Klein and Lynette Hirschman and Therese Firmin and David House and Beth Sundheim'),
+  eacl(1999),
+  title('The {TIPSTER} {SUMMAC} text summarization evaluation'),
+  nil)
+
+entry!('mckeown2005summaries',
+  author('Kathleen Mckeown and Rebecca J Passonneau and David K Elson and Julia Hirschberg'),
+  sigir(2005),
+  title('Do Summaries Help? A Task-Based Evaluation of Multi-Document Summarization'),
+  nil)
+
 #entry!('',
 #  author(''),
 #  inproceedings('', 2015),
