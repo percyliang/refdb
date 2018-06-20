@@ -859,3 +859,11 @@ entry!('goodpaster2006loss',
   pages(1059, 1064),
   publisher('Oxford University Press'),
 nil)
+
+entry!('munoz2017towards',
+  inproceedings('Proceedings of the 10th ACM Workshop on Artificial Intelligence and Security', 2017),
+  title('Towards poisoning of deep learning algorithms with back-gradient optimization'),
+  author('Luis Mu{\~n}oz-Gonz{\\\'a}lez and Battista Biggio and Ambra Demontis and Andrea Paudice and Vasin Wongrassamee and Emil C Lupu and Fabio Roli'),
+  pages(27, 38),
+  organization('ACM'),
+nil)
