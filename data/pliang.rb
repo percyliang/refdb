@@ -12185,7 +12185,8 @@ entry!('hashimoto2018repeated',
   title('Fairness Without Demographics in Repeated Loss Minimization'),
   author('Tatsunori B. Hashimoto and Megha Srivastava and Hongseok Namkoong and Percy Liang'),
   icml(2018),
-  codalab('0x17a501d37bbe49279b0c70ae10813f4c')
+  url('https://arxiv.org/pdf/1806.08010.pdf'),
+  codalab('0x17a501d37bbe49279b0c70ae10813f4c'),
 nil)
 
 entry!('hancock2018babble',
