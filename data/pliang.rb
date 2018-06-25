@@ -12238,6 +12238,7 @@ entry!('guu2018edit',
   title('Generating Sentences by Editing Prototypes'),
   tacl(2018, 0),
   url('http://arxiv.org/pdf/1709.08878.pdf'),
+  codalab('0xa915ba2f8b664ddf8537c83bde80cc8c'),
 nil)
 
 entry!('li2018style',
