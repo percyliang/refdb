@@ -460,3 +460,19 @@ entry!('audibert2009exploration',
   pages(1876, 1902),
   publisher('Elsevier'),
 nil)
+
+entry!('wang2013learning',
+  ecml(2013),
+  title('Learning to detect patterns of crime'),
+  author('Tong Wang and Cynthia Rudin and Daniel Wagner and Rich Sevieri'),
+  pages(515, 530),
+  organization('Springer'),
+nil)
+
+entry!('zafar2017fairness',
+  www(2017),
+  title('Fairness beyond disparate treatment \& disparate impact: Learning classification without disparate mistreatment'),
+  author('Muhammad Bilal Zafar and Isabel Valera and Manuel Gomez Rodriguez and Krishna P Gummadi'),
+  pages(1171, 1180),
+  organization('International World Wide Web Conferences Steering Committee'),
+nil)
