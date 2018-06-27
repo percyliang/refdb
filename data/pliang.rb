@@ -12179,12 +12179,15 @@ entry!('mussmann2018accuracy',
   title('On the Relationship between Data Efficiency and Error in Active Learning'),
   author('Stephen Mussmann and Percy Liang'),
   icml(2018),
+  url('https://arxiv.org/pdf/1806.06123.pdf'),
 nil)
 
 entry!('hashimoto2018repeated',
   title('Fairness Without Demographics in Repeated Loss Minimization'),
   author('Tatsunori B. Hashimoto and Megha Srivastava and Hongseok Namkoong and Percy Liang'),
   icml(2018),
+  url('https://arxiv.org/pdf/1806.08010.pdf'),
+  codalab('0x17a501d37bbe49279b0c70ae10813f4c'),
 nil)
 
 entry!('hancock2018babble',
@@ -12204,7 +12207,9 @@ entry!('rajpurkar2018squadrun',
   title('Know What You Don\'t Know: Unanswerable Questions for {SQuAD}'),
   author('Pranav Rajpurkar and Robin Jia and Percy Liang'),
   acl(2018),
-  note('Short paper.'),
+  award('Best short paper award'),
+  url('https://arxiv.org/pdf/1806.03822.pdf'),
+  codalab('0x9a15a170809f4e2cb7940e1f256dee55'),
 nil)
 
 entry!('selsam2018sat',
@@ -12233,6 +12238,7 @@ entry!('guu2018edit',
   title('Generating Sentences by Editing Prototypes'),
   tacl(2018, 0),
   url('http://arxiv.org/pdf/1709.08878.pdf'),
+  codalab('0xa915ba2f8b664ddf8537c83bde80cc8c'),
 nil)
 
 entry!('li2018style',
