@@ -3513,7 +3513,7 @@ entry!('fellbaum1998wordnet',
 nil)
 
 entry!('mikolov2013efficient',
-  arxiv(2013),
+  arxiv(2013, '1301.3781'),
   title('Efficient Estimation of Word Representations in Vector Space'),
   url('http://arxiv.org/pdf/1301.3781v3.pdf'),
   author('Tomas Mikolov and Kai Chen and Greg Corrado and Jeffrey'),
@@ -7304,8 +7304,9 @@ nil)
 
 entry!('pennington2014glove',
   emnlp(2014),
-  title('Glove: Global vectors for word representation'),
+  title('Glo{V}e: Global {V}ectors for word representation'),
   author('Jeffrey Pennington and Richard Socher and Christopher D Manning'),
+  pages(1532, 1543),
 nil)
 
 entry!('niculescu2005predicting',
@@ -9353,7 +9354,7 @@ nil)
 entry!('kingma2014variational',
   author('Diederik P. Kingma and Max Welling'),
   title('Auto-Encoding Variational {B}ayes'),
-  arxiv(2014),
+  arxiv(2014, '1312.6114'),
 nil)
 
 entry!('zhang2015character',

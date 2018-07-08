@@ -27,6 +27,7 @@ entry!('li2016diversity',
   title('A Diversity-Promoting Objective Function for Neural Conversation Models'),
   hltnaacl(2016),
   url('https://pdfs.semanticscholar.org/c102/147a4b0c038d08507f7d0c9f76d732c74e79.pdf'),
+  pages(110, 119),
 nil)
 
 entry!('serban2017hierarchical',
