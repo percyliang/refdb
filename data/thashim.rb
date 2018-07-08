@@ -122,7 +122,7 @@ entry!('hayes1986writing',
 nil)
 
 entry!('mikolov2013linguistic',
-  inproceedings('hlt-Naacl', 2013),
+  inproceedings('Human Language Technology and North American Association for Computational Linguistics (HLT/NAACL)', 2013),
   title('Linguistic regularities in continuous space word representations'),
   author('Tomas Mikolov and Wen-tau Yih and Geoffrey Zweig'),
   volume(13),
