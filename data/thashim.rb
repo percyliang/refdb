@@ -297,7 +297,7 @@ entry!('blodgett2016',
        emnlp(2016),
        pages(1119, 1130),
        nil)
-       
+
 entry!('barocas2016',
        title('Big Data\'s Disparate Impact'),
        author('Solon Barocas and Andrew D. Selbst'),
@@ -347,7 +347,7 @@ entry!('pleiss2017',
        pages(5684, 5693),
        nil)
 
-entry!('kearns2018',
+entry!('kearns2018gerrymandering',
        title('Preventing Fairness Gerrymandering: Auditing and Learning for Subgroup Fairness'),
        author('Michael Kearns and Seth Neel and Aaron Roth and Zhiwei Steven Wu'),
        arxiv(2018,'1711.05144'),
@@ -377,3 +377,170 @@ entry!('davidson2018',
        author('Tim R. Davidson and Luca Falorsi and Nicola De Cao and Thomas Kipf and Jakub M. Tomczak'),
        arxiv(2018,'1804.00891'),
        nil)
+
+entry!('stone1977',
+       title('Consistent Nonparametric Regression'),
+       author('Charles J Stone'),
+       annalsOfStatistics(1977, 5),
+       nil)
+
+
+entry!('andrew2013deep',
+  icml(2013),
+  title('Deep canonical correlation analysis'),
+  author('Galen Andrew and Raman Arora and Jeff Bilmes and Karen Livescu'),
+  pages(1247, 1255),
+nil)
+
+entry!('yan2015deep',
+  cvpr(2015),
+  title('Deep correlation for matching images and text'),
+  author('Fei Yan and Krystian Mikolajczyk'),
+  pages(3441, 3450),
+  organization('IEEE'),
+nil)
+
+entry!('severyn2015learning',
+  sigir(2015),
+  title('Learning to rank short text pairs with convolutional deep neural networks'),
+  author('Aliaksei Severyn and Alessandro Moschitti'),
+  pages(373, 382),
+  organization('ACM'),
+nil)
+
+entry!('tan2015lstm',
+  arxiv(2015, '1511.04108'),
+  title('{LSTM}-based deep learning models for non-factoid answer selection'),
+  author('Ming Tan and Cicero dos Santos and Bing Xiang and Bowen Zhou'),
+nil)
+
+entry!('srivastava2012multimodal',
+  nips(2012),
+  title('Multimodal Learning with Deep {B}oltzmann Machines'),
+  author('Nitish Srivastava and Ruslan R Salakhutdinov'),
+  pages(2222, 2230),
+nil)
+
+entry!('green2013efficacy',
+  chi(2013),
+  title('The efficacy of human post-editing for language translation'),
+  author('Spence Green and Jeffrey Heer and Christopher D Manning'),
+  pages(439, 448),
+  organization('ACM'),
+nil)
+
+entry!('kalbfleisch1984least',
+  article('Canadian Journal of Statistics', 1984, 12),
+  title('Least-squares estimation of transition probabilities from aggregate data'),
+  author('John David Kalbfleisch and Jerald F Lawless'),
+  number(3),
+  pages(169, 182),
+  publisher('Wiley Online Library'),
+nil)
+
+entry!('bernstein2016consistently',
+  aistats(2016),
+  title('Consistently Estimating {M}arkov Chains with Noisy Aggregate Data'),
+  author('Garrett Bernstein and Daniel Sheldon'),
+  pages(1142, 1150),
+nil)
+
+entry!('van1983estimation',
+  annalsOfStatistics(1983, 1),
+  title('On the estimation of the parameters of {M}arkov probability models using macro data'),
+  author('Adriaan P Van Der Plas'),
+  pages(78, 85),
+  publisher('JSTOR'),
+nil)
+
+entry!('king2013solution',
+  title('A Solution to the Ecological Inference Problem: Reconstructing Individual Behavior from Aggregate Data'),
+  author('Gary King'),
+  book('Princeton University Press', 2013),
+nil)
+
+entry!('moffitt1993identification',
+  article('Journal of Econometrics', 1993, 59),
+  title('Identification and estimation of dynamic models with a time series of repeated cross-sections'),
+  author('Robert Moffitt'),
+  number('1-2'),
+  pages(99, 123),
+  publisher('Elsevier'),
+nil)
+
+entry!('collado1997estimating',
+  article('Journal of Econometrics', 1997, 82),
+  title('Estimating dynamic models from time series of independent cross-sections'),
+  author('M Dolores Collado'),
+  number(1),
+  pages(37, 62),
+  publisher('Elsevier'),
+nil)
+
+entry!('hawkins2000estimating',
+  article('Biometrics', 2000, 56),
+  title('Estimating transition probabilities from aggregate samples plus partial transition data'),
+  author('DL Hawkins and Chien-Pai Han'),
+  number(3),
+  pages(848, 854),
+  publisher('Wiley Online Library'),
+nil)
+
+entry!('charikar2002similarity',
+  inproceedings('Proceedings of the thiry-fourth annual ACM symposium on Theory of computing', 2002),
+  title('Similarity estimation techniques from rounding algorithms'),
+  author('Moses S Charikar'),
+  pages(380, 388),
+  organization('ACM'),
+nil)
+
+entry!('stein2011fourier',
+  title('Fourier Analysis: an Introduction'),
+  author('Elias M Stein and Rami Shakarchi'),
+  book('Princeton University Press',2011),
+  volume(1),
+nil)
+
+entry!('balog2016deepcoder',
+  arxiv(2016, '1611.01989'),
+  title('Deepcoder: Learning to write programs'),
+  author('Matej Balog and Alexander L Gaunt and Marc Brockschmidt and Sebastian Nowozin and Daniel Tarlow'),
+nil)
+
+entry!('maddison2014structured',
+  icml(2014),
+  title('Structured generative models of natural source code'),
+  author('Chris Maddison and Daniel Tarlow'),
+  pages(649, 657),
+nil)
+
+entry!('allamanis2015bimodal',
+  icml(2015),
+  title('Bimodal modelling of source code and natural language'),
+  author('Miltos Allamanis and Daniel Tarlow and Andrew Gordon and Yi Wei'),
+  pages(2123, 2132),
+nil)
+
+entry!('hu2018does',
+  author('Weihua Hu and Gang Niu and Issei Sato and Masashi Sugiyama'),
+  title('Does Distributionally Robust Supervised Learning Give Robust Classifiers?'),
+  icml(2018),
+nil)
+
+entry!('luo2012regularity',
+  title('Regularity and complexity in dynamical systems'),
+  author('Albert CJ Luo'),
+  book('Springer', 2012),
+nil)
+
+entry!('ensign2017runaway',
+  arxiv(2017, '1706.09847'),
+  title('Runaway feedback loops in predictive policing'),
+  author('Danielle Ensign and Sorelle A Friedler and Scott Neville and Carlos Scheidegger and Suresh Venkatasubramanian'),
+nil)
+
+entry!('fuster2017predictably',
+  title('Predictably Unequal? The Effects of Machine Learning on Credit Markets'),
+  author('Andreas Fuster and Paul Goldsmith-Pinkham and Tarun Ramadorai and Ansgar Walther'),
+  techreport('CEPR Discussion Papers', 2017),
+nil)

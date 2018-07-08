@@ -10159,7 +10159,7 @@ nil)
 entry!('young2013pomdp',
   article('Proceedings of the IEEE', 2013, 101),
   title('{POMDP}-based statistical spoken dialog systems: A review'),
-  author('Stephanie Young and Milica Gasic and Blaise Thomson and John D Williams'),
+  author('Steve Young and Milica Gašić and Blaise Thomson and Jason D Williams'),
   number(5),
   pages(1160, 1179),
   publisher('IEEE'),
@@ -10454,7 +10454,7 @@ entry!('wen2017network',
   eacl(2017),
   title('A Network-based End-to-End Trainable Task-oriented Dialogue System'),
   author('Tsung-Hsien Wen and Milica Gasic and Nikola Mrksic and Lina M Rojas-Barahona and Pei-Hao Su and Stefan Ultes and David Vandyke and Steve Young'),
-  pages(438,449), 
+  pages(438,449),
 nil)
 
 entry!('dong2016logical',
@@ -10477,18 +10477,18 @@ entry!('roundy1985identifying',
 nil)
 
 entry!('kirkpatrick2012significance',
-   author('Taylor Berg-Kirkpatrick and David Burkett and Dan Klein'),
-   title('An empirical investigation of statistical significance in {NLP}'),
-   emnlp(2012),
-   pages(995,1005),
+  author('Taylor Berg-Kirkpatrick and David Burkett and Dan Klein'),
+  title('An empirical investigation of statistical significance in {NLP}'),
+  emnlp(2012),
+  pages(995,1005),
 nil)
 
 entry!('maccartney2007natural',
-     author('Bill MacCartney and Christopher D. Manning'),
-     title('Natural Logic for Textual Inference'),
-     inproceedings('ACL-PASCAL Workshop on Textual Entailment and Paraphrasing', 2007),
-     year(2007),
-     pages(193,200),
+  author('Bill MacCartney and Christopher D. Manning'),
+  title('Natural Logic for Textual Inference'),
+  inproceedings('ACL-PASCAL Workshop on Textual Entailment and Paraphrasing', 2007),
+  year(2007),
+  pages(193,200),
 nil)
 
 entry!('angeli2014naturalli',
@@ -11273,6 +11273,7 @@ entry!('steinhardt2017certified',
   title('Certified Defenses for Data Poisoning Attacks'),
   nips(2017),
   url('http://arxiv.org/pdf/1706.03691.pdf'),
+  codalab('0xbdd35bdd83b14f6287b24c9418983617'),
 nil)
 
 entry!('hashimoto2017transformation',
@@ -11280,6 +11281,7 @@ entry!('hashimoto2017transformation',
   title('Unsupervised Transformation Learning via Convex Relaxations'),
   nips(2017),
   url('https://arxiv.org/pdf/1711.02226.pdf'),
+  codalab('0x4412d72b55df47e5b457dacdba91f105'),
 nil)
 
 entry!('sharan2017overcomplete',
@@ -11820,9 +11822,15 @@ entry!('steinhardt2017clique',
 nil)
 
 entry!('madry2017towards',
-  title('Towards deep learning models resistant to adversarial attacks'),
+  title('Towards deep learning models resistant to adversarial attacks (published at {ICLR} 2018)'),
   author('Aleksander Madry and Aleksandar Makelov and Ludwig Schmidt and Dimitris Tsipras and Adrian Vladu'),
   arxiv(2017),
+nil)
+
+entry!('madry2018towards',
+  title('Towards deep learning models resistant to adversarial attacks'),
+  author('Aleksander Madry and Aleksandar Makelov and Ludwig Schmidt and Dimitris Tsipras and Adrian Vladu'),
+  iclr(2018),
 nil)
 
 entry!('carlini2017adversarial',
@@ -12168,15 +12176,30 @@ nil)
 
 ############################################################
 
-entry!('chaganty2018evaluation',
+entry!('mussmann2018accuracy',
+  title('On the Relationship between Data Efficiency and Error in Active Learning'),
+  author('Stephen Mussmann and Percy Liang'),
+  icml(2018),
+  url('https://arxiv.org/pdf/1806.06123.pdf'),
+nil)
+
+entry!('hashimoto2018repeated',
+  title('Fairness Without Demographics in Repeated Loss Minimization'),
+  author('Tatsunori B. Hashimoto and Megha Srivastava and Hongseok Namkoong and Percy Liang'),
+  icml(2018),
+  url('https://arxiv.org/pdf/1806.08010.pdf'),
+  codalab('0x17a501d37bbe49279b0c70ae10813f4c'),
+nil)
+
+entry!('hancock2018babble',
   title('Training Classifiers with Natural Language Explanations'),
-  author('Braden Hancock and Paroma Varma and Stephanie Wang and Percy Liang and Christopher Ré'),
+  author('Braden Hancock and Paroma Varma and Stephanie Wang and Martin Bringmann and Percy Liang and Christopher Ré'),
   acl(2018),
   url('https://arxiv.org/pdf/1805.03818.pdf'),
 nil)
 
 entry!('chaganty2018evaluation',
-  title('Can We Obtain Cheaper Unbiased Evaluation of Natural Language Generation using Control Variates?'),
+  title('The price of debiasing automatic metrics in natural language evaluation'),
   author('Arun Chaganty and Stephen Mussmann and Percy Liang'),
   acl(2018),
 nil)
@@ -12185,7 +12208,9 @@ entry!('rajpurkar2018squadrun',
   title('Know What You Don\'t Know: Unanswerable Questions for {SQuAD}'),
   author('Pranav Rajpurkar and Robin Jia and Percy Liang'),
   acl(2018),
-  note('Short paper.'),
+  award('Best short paper award'),
+  url('https://arxiv.org/pdf/1806.03822.pdf'),
+  codalab('0x9a15a170809f4e2cb7940e1f256dee55'),
 nil)
 
 entry!('selsam2018sat',
@@ -12201,11 +12226,20 @@ entry!('mussmann2018gbs',
   url('https://arxiv.org/pdf/1802.09751.pdf'),
 nil)
 
+entry!('khani2018pip',
+  title('Planning, Inference and Pragmatics in Sequential Language Games'),
+  author('Fereshte Khani and Noah D. Goodman and Percy Liang'),
+  tacl(2018, 0),
+  url('https://arxiv.org/pdf/1805.11774.pdf'),
+  codalab('0x052129c7afa9498481185b553d23f0f9'),
+nil)
+
 entry!('guu2018edit',
   author('Kelvin Guu and Tatsunori B. Hashimoto and Yonatan Oren and Percy Liang'),
   title('Generating Sentences by Editing Prototypes'),
   tacl(2018, 0),
   url('http://arxiv.org/pdf/1709.08878.pdf'),
+  codalab('0xa915ba2f8b664ddf8537c83bde80cc8c'),
 nil)
 
 entry!('li2018style',
@@ -12213,6 +12247,7 @@ entry!('li2018style',
   title('Delete, Retrieve, Generate: A Simple Approach to Sentiment and Style Transfer'),
   naacl(2018),
   url('https://arxiv.org/pdf/1804.06437.pdf'),
+  codalab('0xe3eb416773ed4883bb737662b31b4948'),
 nil)
 
 entry!('liu2018workflow',
@@ -12227,6 +12262,7 @@ entry!('raghunathan2018certified',
   title('Certified defenses against adversarial examples'),
   iclr(2018),
   url('https://arxiv.org/pdf/1801.09344.pdf'),
+  codalab('0xa21e794020bb474d8804ec7bc0543f52'),
 nil)
 
 entry!('bastani2018active',
@@ -12241,4 +12277,98 @@ entry!('kakade2018prediction',
   title('Prediction with a Short Memory'),
   stoc(2018),
   url('http://arxiv.org/pdf/1612.02526.pdf'),
+nil)
+
+entry!('shivaswamy2010empirical',
+  aistats(2010),
+  title('Empirical {B}ernstein boosting'),
+  author('Pannagadatta Shivaswamy and Tony Jebara'),
+  pages(733, 740),
+nil)
+
+entry!('namkoong2017variance',
+  nips(2017),
+  title('Variance regularization with convex objectives'),
+  author('Hongseok Namkoong and John Duchi'),
+nil)
+
+entry!('berk2017convex',
+  arxiv(2017, '1706.02409'),
+  title('A convex framework for fair regression'),
+  author('Richard Berk and Hoda Heidari and Shahin Jabbari and Matthew Joseph and Michael Kearns and Jamie Morgenstern and Seth Neel and Aaron Roth'),
+nil)
+
+entry!('kim2018fairness',
+  arxiv(2018, '1803.03239'),
+  title('Fairness Through Computationally-Bounded Awareness'),
+  author('Michael P Kim and Omer Reingold and Guy N Rothblum'),
+nil)
+
+entry!('angwin2016machine',
+  article('ProPublica', 2016, 23),
+  title('Machine bias: There’s software used across the country to predict future criminals. and it’s biased against blacks'),
+  author('Julia Angwin and Jeff Larson and Surya Mattu and Lauren Kirchner'),
+nil)
+
+entry!('waddell2016algorithms',
+  article('The Atlantic', 2016),
+  title('How algorithms can bring down minorities\' credit scores'),
+  author('Kaveh Waddell'),
+nil)
+
+entry!('corbett2017algorithmic',
+  kdd(2017),
+  title('Algorithmic decision making and the cost of fairness'),
+  author('Sam Corbett-Davies and Emma Pierson and Avi Feller and Sharad Goel and Aziz Huq'),
+  pages(797, 806),
+  organization('ACM'),
+nil)
+
+entry!('binns2018fairness',
+  jmlr(2018, 81),
+  pages(1, 11),
+  title('Fairness in Machine Learning: Lessons from Political Philosophy'),
+  author('Reuben Binns'),
+nil)
+
+entry!('athalye2018obfuscated',
+  arxiv(2018, '1802.00420'),
+  title('Obfuscated gradients give a false sense of security: Circumventing defenses to adversarial examples'),
+  author('Anish Athalye and Nicholas Carlini and David Wagner'),
+nil)
+
+entry!('sinha2018certifiable',
+  iclr(2018),
+  title('Certifiable Distributional Robustness with Principled Adversarial Training'),
+  author('Aman Sinha and Hongseok Namkoong and John Duchi'),
+nil)
+
+entry!('lu2017no',
+  arxiv(2017, '1707.03501'),
+  title('No need to worry about adversarial examples in object detection in autonomous vehicles'),
+  author('Jiajun Lu and Hussein Sibai and Evan Fabry and David Forsyth'),
+nil)
+
+entry!('athalye2017synthesizing',
+  arxiv(2017, '1707.07397'),
+  title('Synthesizing robust adversarial examples'),
+  author('Anish Athalye and Ilya Sutskever'),
+nil)
+
+entry!('weng2018towards',
+  arxiv(2018, '1804.09699'),
+  title('Towards Fast Computation of Certified Robustness for ReLU Networks'),
+  author('Tsui-Wei Weng and Huan Zhang and Hongge Chen and Zhao Song and Cho-Jui Hsieh and Duane Boning and Inderjit S Dhillon and Luca Daniel'),
+nil)
+
+entry!('brown2017adversarial',
+  arxiv(2017, '1712.09665'),
+  title('Adversarial patch'),
+  author('Tom B Brown and Dandelion Mané and Aurko Roy and Martín Abadi and Justin Gilmer'),
+nil)
+
+entry!('tjeng2017verifying',
+  arxiv(2017, '1711.07356'),
+  title('Verifying Neural Networks with Mixed Integer Programming'),
+  author('Vincent Tjeng and Russ Tedrake'),
 nil)

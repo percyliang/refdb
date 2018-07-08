@@ -420,3 +420,43 @@ entry!('dekel2015epistemic',
 #  year(2015),
 #  publisher('Elsevier'),
 nil)
+
+entry!('kilbertus2017avoiding',
+  nips(2017),
+  title('Avoiding discrimination through causal reasoning'),
+  author('Niki Kilbertus and Mateo Rojas Carulla and Giambattista Parascandolo and Moritz Hardt and Dominik Janzing and Bernhard Sch{\"o}lkopf'),
+  pages(656, 666),
+nil)
+
+entry!('liu2018delayed',
+  arxiv(2018, '1803.04383'),
+  title('Delayed Impact of Fair Machine Learning'),
+  author('Lydia T Liu and Sarah Dean and Esther Rolf and Max Simchowitz and Moritz Hardt'),
+nil)
+
+entry!('hawkins2015conducting',
+  article('Behavior Research Methods', 2015, 47),
+  title('Conducting real-time multiplayer experiments on the web'),
+  author('Robert XD Hawkins'),
+  number(4),
+  pages(966, 976),
+  publisher('Springer'),
+nil)
+
+entry!('bennett1962probability',
+  jasa(1962, 57),
+  title('Probability inequalities for the sum of independent random variables'),
+  author('George Bennett'),
+  number(297),
+  pages(33, 45),
+  publisher('Taylor \& Francis'),
+nil)
+
+entry!('audibert2009exploration',
+  article('Theoretical Computer Science', 2009, 410),
+  title('Exploration--exploitation tradeoff using variance estimates in multi-armed bandits'),
+  author('Jean-Yves Audibert and R{\'e}mi Munos and Csaba Szepesv{\'a}ri'),
+  number(19),
+  pages(1876, 1902),
+  publisher('Elsevier'),
+nil)

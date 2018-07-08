@@ -277,3 +277,79 @@ entry!('he2016amazonreview',
   author('Ruining He and Julian McAuley'),
   www(2016),
 )
+
+entry!('devault2015toward',
+  title('Toward Natural Turn-taking in a Virtual Human Negotiation Agent'),
+  author('David DeVault and Johnathan Mell and Jonathan Gratch'),
+  aaai(2015),
+)
+
+entry!('wen2017latent',
+  title('Latent Intention Dialogue Models'),
+  author('Tsung-Hsien Wen and Yishu Miao and Phil Blunsom and Steve Young'),
+  icml(2017),
+)
+
+entry!('zhao2018unsupervised',
+  title('Unsupervised Discrete Sentence Representation Learning for Interpretable Neural Dialog Generation'),
+  author('Tiancheng Zhao and Kyusong Lee and Maxine Eskenazi'),
+  acl(2018),
+)
+
+entry!('cao2018emergent',
+  title('Emergent Communication through Negotiation'),
+  author('Kris Cao and Angeliki Lazaridou and Marc Lanctot and Joel Z Leibo and Karl Tuyls and Stephen Clark'),
+  iclr(2018),
+)
+
+entry!('cao2017latent',
+  title('Latent Variable Dialogue Models and Their Diversity'),
+  author('Kris Cao and Stephen Clark'),
+  eacl(2017),
+)
+
+entry!('zhao2017learning',
+  title('Learning Discourse-level Diversity for Neural Dialog Models using Conditional Variational Autoencoders'),
+  author('Tiancheng Zhao and Ran Zhao and Maxine Eskenazi'),
+  acl(2017),
+)
+
+entry!('jang2017categorical',
+  title('Categorical Reparameterization with {G}umbel-Softmax'),
+  author('Eric Jang and Shixiang Gu and Ben Poole'),
+  arxiv(2017, '1611.01144'),
+  url('https://arxiv.org/pdf/1611.01144.pdf'),
+)
+
+entry!('das2017learning',
+  title('Learning Cooperative Visual Dialog Agents with Deep Reinforcement Learning'),
+  author('Abhishek Das and Satwik Kottur and Jos{\'e} MF Moura and Stefan Lee and Dhruv Batra'),
+  iccv(2017),
+)
+
+entry!('cuayahuitl2015strategic',
+  title('Strategic Dialogue Management via Deep Reinforcement Learning'),
+  author('Heriberto Cuayáhuitl and Simon Keizer and Oliver Lemon'),
+  nips('2015')
+)
+
+entry!('afantenos2012modelling',
+  title('Modelling Strategic Conversation: Model, Annotation Design and Corpus'),
+  author('Stergos Afantenos and Nicholas Asher and Farah Benamara and Anais Cadilhac and Cedric Dégremont and Pascal Denis and Markus Guhe and Simon Keizer and Alex Lascarides and Oliver Lemon and others'),
+  inproceedings('Proceedings of SemDial 2012: Workshop on the Semantics and Pragmatics of Dialogue', 2012),
+  pages(167, 168),
+)
+
+entry!('traum2008multi',
+  title('Multi-party, Multi-issue, Multi-strategy Negotiation for Multi-modal Virtual Agents'),
+  author('David Traum and Stacy C Marsella and Jonathan Gratch and Jina Lee and Arno Hartholt'),
+  inproceedings('International Workshop on Intelligent Virtual Agents', 2008),
+  pages(117, 130),
+)
+
+entry!('asher2016catan',
+  title('Discourse Structure and Dialogue Acts in Multiparty Dialogue: the {STAC} Corpus
+'),
+  author('Nicholas Asher and Julie Hunter and Mathieu Morey and Farah Benamara and Stergos Afantenos'),
+  lrec(2016),
+)

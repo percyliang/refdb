@@ -325,3 +325,102 @@ entry!('mason2014domain',
   author('Rebecca Mason and Eugene Charniak'),
   pages(2, 10),
 nil)
+
+entry!('kolesnyk2016generating',
+  arxiv(2016, '1606.01404'),
+  title('Generating natural language inference chains'),
+  author('Vladyslav Kolesnyk and Tim Rockt{\"a}schel and Sebastian Riedel'),
+nil)
+
+entry!('yuan2017machine',
+  arxiv(2017, '1705.02012'),
+  title('Machine Comprehension by Text-to-Text Neural Question Generation'),
+  author('Xingdi Yuan and Tong Wang and Caglar Gulcehre and Alessandro Sordoni and Philip Bachman and Sandeep Subramanian and Saizheng Zhang and Adam Trischler'),
+nil)
+
+entry!('ali2010automation',
+  inproceedings('Proceedings of QG2010: The Third Workshop on Question Generation', 2010),
+  title('Automation of question generation from sentences'),
+  author('Husam Ali and Yllias Chali and Sadid A Hasan'),
+  pages(58, 67),
+nil)
+
+entry!('mannem2010question',
+  inproceedings('Proceedings of QG2010: The Third Workshop on Question Generation', 2010),
+  title('Question generation from paragraphs at UPenn: {QGSTEC} system description'),
+  author('Prashanth Mannem and Rashmi Prasad and Aravind Joshi'),
+  pages(84, 91),
+nil)
+
+entry!('williams2017broad',
+  arxiv(2017, '1704.05426'),
+  title('A broad-coverage challenge corpus for sentence understanding through inference'),
+  author('Adina Williams and Nikita Nangia and Samuel R Bowman'),
+nil)
+
+entry!('dozat2017stanford',
+  conll(2017),
+  title('Stanford\'s Graph-based Neural Dependency Parser at the CoNLL 2017 Shared Task'),
+  author('Timothy Dozat and Peng Qi and Christopher D Manning'),
+  pages(20, 30),
+nil)
+
+entry!('conneau2017supervised',
+  arxiv(2017, '1705.02364'),
+  title('Supervised learning of universal sentence representations from natural language inference data'),
+  author('Alexis Conneau and Douwe Kiela and Holger Schwenk and Loic Barrault and Antoine Bordes'),
+nil)
+
+entry!('gururangan2018annotation',
+  arxiv(2018, '1803.02324'),
+  title('Annotation artifacts in natural language inference data'),
+  author('Suchin Gururangan and Swabha Swayamdipta and Omer Levy and Roy Schwartz and Samuel R Bowman and Noah A Smith'),
+nil)
+
+entry!('poliak2018hypothesis',
+  arxiv(2018, '1805.01042'),
+  title('Hypothesis Only Baselines in Natural Language Inference'),
+  author('Adam Poliak and Jason Naradowsky and Aparajita Haldar and Rachel Rudinger and Benjamin Van Durme'),
+nil)
+
+entry!('dagan2006pascal',
+  title('The {PASCAL} recognising textual entailment challenge'),
+  author('Ido Dagan and Oren Glickman and Bernardo Magnini'),
+  book('Machine learning challenges. evaluating predictive uncertainty, visual object classification, and recognising tectual entailment', 2006),
+  pages(177, 190),
+nil)
+
+entry!('tapaswi2016movieqa',
+  cvpr(2016),
+  title('Movieqa: Understanding stories in movies through question-answering'),
+  author('Makarand Tapaswi and Yukun Zhu and Rainer Stiefelhagen and Antonio Torralba and Raquel Urtasun and Sanja Fidler'),
+  pages(4631, 4640),
+nil)
+entry!('pavlick2016most',
+  acl(2016),
+  title('Most" babies" are" little" and most" problems" are" huge": Compositional Entailment in Adjective-Nouns'),
+  author('Ellie Pavlick and Chris Callison-Burch'),
+  volume(1),
+  pages(2164, 2173),
+nil)
+
+entry!('lai2017natural',
+  arxiv(2017, '1710.02925'),
+  title('Natural Language Inference from Multiple Premises'),
+  author('Alice Lai and Yonatan Bisk and Julia Hockenmaier'),
+nil)
+
+entry!('bojar2017findings',
+  inproceedings('Proceedings of the Second Conference on Machine Translation', 2017),
+  title('Findings of the 2017 conference on machine translation (wmt17)'),
+  author('Ond{\v{r}}ej Bojar and Rajen Chatterjee and Christian Federmann and Yvette Graham and Barry Haddow and Shujian Huang and Matthias Huck and Philipp Koehn and Qun Liu and Varvara Logacheva and others'),
+  pages(169, 214),
+nil)
+
+entry!('chandrasekar1996motivations',
+  inproceedings('Proceedings of the 16th conference on Computational linguistics-Volume 2', 1996),
+  title('Motivations and methods for text simplification'),
+  author('Raman Chandrasekar and Christine Doran and Bangalore Srinivas'),
+  pages(1041, 1044),
+  organization('Association for Computational Linguistics'),
+nil)
