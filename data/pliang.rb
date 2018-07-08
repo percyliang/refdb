@@ -7304,7 +7304,7 @@ nil)
 
 entry!('pennington2014glove',
   emnlp(2014),
-  title('Glo{V}e: Global {V}ectors for word representation'),
+  title('Glo{V}e: Global Vectors for word representation'),
   author('Jeffrey Pennington and Richard Socher and Christopher D Manning'),
   pages(1532, 1543),
 nil)
