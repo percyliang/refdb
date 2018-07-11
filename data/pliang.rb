@@ -12202,6 +12202,8 @@ entry!('chaganty2018evaluation',
   title('The price of debiasing automatic metrics in natural language evaluation'),
   author('Arun Chaganty and Stephen Mussmann and Percy Liang'),
   acl(2018),
+  codalab('0xbda93e6519134c1ab1893ceaa19c8a5c'),
+  url('https://arxiv.org/pdf/1807.02202.pdf'),
 nil)
 
 entry!('rajpurkar2018squadrun',
