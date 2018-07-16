@@ -383,3 +383,487 @@ entry!('lakhina2004diagnosing',
   pages(219, 230),
   organization('ACM'),
 nil)
+
+entry!('paudice2018detection',
+  arxiv(2018, '1802.03041'),
+  title('Detection of Adversarial Training Examples in Poisoning Attacks through Anomaly Detection'),
+  author('Andrea Paudice and Luis Mu{\~n}oz-Gonz{\\\'a}lez and Andras Gyorgy and Emil C Lupu'),
+nil)
+
+entry!('nelson2008exploiting',
+  article('LEET', 2008, 8),
+  title('Exploiting Machine Learning to Subvert Your Spam Filter'),
+  author('Blaine Nelson and Marco Barreno and Fuching Jack Chi and Anthony D Joseph and Benjamin IP Rubinstein and Udam Saini and Charles A Sutton and J Doug Tygar and Kai Xia'),
+  pages(1, 9),
+nil)
+
+entry!('hodge2004survey',
+  article('Artificial intelligence review', 2004, 22),
+  title('A survey of outlier detection methodologies'),
+  author('Victoria Hodge and Jim Austin'),
+  number(2),
+  pages(85, 126),
+  publisher('Springer'),
+nil)
+
+# UKBB
+entry!('gupta2016monotonic',
+  jmlr(2016, 17),
+  title('Monotonic calibrated interpolated look-up tables'),
+  author('Maya Gupta and Andrew Cotter and Jan Pfeifer and Konstantin Voevodski and Kevin Canini and Alexander Mangylov and Wojciech Moczydlowski and Alexander Van Esbroeck'),
+  number(1),
+  pages(3790, 3836),
+  publisher('JMLR. org'),
+nil)
+
+entry!('nakamura1988assessment',
+  article('Mechanisms of Ageing and Development', 1988, 46),
+  title('Assessment of biological age by principal component analysis'),
+  author('E Nakamura and K Miyao and T Ozeki'),
+  number('1-3'),
+  pages(1, 18),
+  publisher('Elsevier'),
+nil)
+
+entry!('kumar2017understanding',
+  article('Development', 2017, 144),
+  title('Understanding development and stem cells using single cell-based analyses of gene expression'),
+  author('Pavithra Kumar and Yuqi Tan and Patrick Cahan'),
+  number(1),
+  pages(17, 32),
+  publisher('Oxford University Press for The Company of Biologists Limited'),
+nil)
+
+entry!('sprott2010biomarkers',
+  article('Experimental gerontology', 2010, 45),
+  title('Biomarkers of aging and disease: introduction and definitions'),
+  author('Richard L Sprott'),
+  number(1),
+  pages(2, 4),
+  publisher('Elsevier'),
+nil)
+
+entry!('belsky2015quantification',
+  article('Proceedings of the National Academy of Sciences', 2015, 112),
+  title('Quantification of biological aging in young adults'),
+  author('Daniel W Belsky and Avshalom Caspi and Renate Houts and Harvey J Cohen and David L Corcoran and Andrea Danese and HonaLee Harrington and Salomon Israel and Morgan E Levine and Jonathan D Schaefer and others'),
+  number(30),
+  publisher('National Acad Sciences'),
+nil)
+
+entry!('sudlow2015uk',
+  article('PLoS Medicine', 2015, 12),
+  title('{UK Biobank}: an open access resource for identifying the causes of a wide range of complex diseases of middle and old age'),
+  author('Cathie Sudlow and John Gallacher and Naomi Allen and Valerie Beral and Paul Burton and John Danesh and Paul Downey and Paul Elliott and Jane Green and Martin Landray and others'),
+  number(3),
+  publisher('Public Library of Science'),
+nil)
+
+entry!('fry2017comparison',
+  article('American Journal of Epidemiology', 2017, 186),
+  title('Comparison of sociodemographic and health-related characteristics of {UK Biobank} participants with those of the general population'),
+  author('Anna Fry and Thomas J Littlejohns and Cathie Sudlow and Nicola Doherty and Ligia Adamska and Tim Sprosen and Rory Collins and Naomi E Allen'),
+  number(9),
+  pages(1026, 1034),
+  publisher('Oxford University Press'),
+nil)
+
+entry!('zhang2016predicting',
+  article('Aging Cell', 2016, 15),
+  title('Predicting all-cause mortality from basic physiology in the {Framingham Heart Study}'),
+  author('William B Zhang and Zachary Pincus'),
+  number(1),
+  pages(39, 48),
+  publisher('Wiley Online Library'),
+nil)
+
+entry!('trapnell2014dynamics',
+  article('Nature Biotechnology', 2014, 32),
+  title('The dynamics and regulators of cell fate decisions are revealed by pseudotemporal ordering of single cells'),
+  author('Cole Trapnell and Davide Cacchiarelli and Jonna Grimsby and Prapti Pokharel and Shuqiang Li and Michael Morse and Niall J Lennon and Kenneth J Livak and Tarjei S Mikkelsen and John L Rinn'),
+  number(4),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('bendall2014single',
+  article('Cell', 2014, 157),
+  title('Single-cell trajectory detection uncovers progression and regulatory coordination in human {B} cell development'),
+  author('Sean C Bendall and Kara L Davis and El-ad David Amir and Michelle D Tadmor and Erin F Simonds and Tiffany J Chen and Daniel K Shenfeld and Garry P Nolan and Dana Pe\'er'),
+  number(3),
+  pages(714, 725),
+  publisher('Elsevier'),
+nil)
+
+entry!('campbell2017uncovering',
+  article('bioRxiv', 2017),
+  title('Uncovering genomic trajectories with heterogeneous genetic and environmental backgrounds across single-cells and populations'),
+  author('Kieran Campbell and Christopher Yau'),
+  publisher('Cold Spring Harbor Laboratory'),
+nil)
+
+entry!('kraemer2000can',
+  article('American Journal of Psychiatry', 2000, 157),
+  title('How can we learn about developmental processes from cross-sectional studies, or can we?'),
+  author('Helena Chmura Kraemer and Jerome A Yesavage and Joy L Taylor and David Kupfer'),
+  number(2),
+  pages(163, 171),
+  publisher('Am Psychiatric Assoc'),
+nil)
+
+entry!('louis1986explaining',
+  article('Journal of Clinical Epidemiology', 1986, 39),
+  title('Explaining discrepancies between longitudinal and cross-sectional models'),
+  author('Thomas A Louis and James Robins and Douglas W Dockery and Avron Spiro and James H Ware'),
+  number(10),
+  pages(831, 839),
+  publisher('Elsevier'),
+nil)
+
+entry!('economos1982rate',
+  article('Archives of Gerontology and Geriatrics', 1982, 1),
+  title('Rate of aging, rate of dying and the mechanism of mortality'),
+  author('Angelos C Economos'),
+  number(1),
+  pages(3, 27),
+  publisher('Elsevier'),
+nil)
+
+entry!('klemera2006new',
+  article('Mechanisms of Ageing and Development', 2006, 127),
+  title('A new approach to the concept and computation of biological age'),
+  author('Petr Klemera and Stanislav Doubal'),
+  number(3),
+  pages(240, 248),
+  publisher('Elsevier'),
+nil)
+
+entry!('levine2012modeling',
+  article('Journals of Gerontology Series A: Biomedical Sciences and Medical Sciences', 2012, 68),
+  title('Modeling the rate of senescence: can estimated biological age predict mortality more accurately than chronological age?'),
+  author('Morgan E Levine'),
+  number(6),
+  pages(667, 674),
+  publisher('Oxford University Press US'),
+nil)
+
+entry!('putin2016deep',
+  article('Aging', 2016, 8),
+  title('Deep biomarkers of human aging: application of deep neural networks to biomarker development'),
+  author('Evgeny Putin and Polina Mamoshina and Alexander Aliper and Mikhail Korzinkin and Alexey Moskalev and Alexey Kolosov and Alexander Ostrovskiy and Charles Cantor and Jan Vijg and Alex Zhavoronkov'),
+  number(5),
+  # pages(1021),
+  publisher('Impact Journals, LLC'),
+nil)
+
+entry!('pyrkov2018extracting',
+  article('Scientific Reports', 2018, 8),
+  title('Extracting biological age from biomedical data via deep learning: too much of a good thing?'),
+  author('Timothy V Pyrkov and Konstantin Slipensky and Mikhail Barg and Alexey Kondrashin and Boris Zhurov and Alexander Zenin and Mikhail Pyatnitskiy and Leonid Menshikov and Sergei Markov and Peter O Fedichev'),
+  number(1),
+  # pages(5210),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('mcclearn1997biogerontologic',
+  article('Experimental Gerontology', 1997, 32),
+  title('Biogerontologic theories'),
+  author('Gerald E McClearn'),
+  number('1-2'),
+  pages(3, 10),
+  publisher('Elsevier'),
+nil)
+
+entry!('margolick2015accelerating',
+  article('Experimental Gerontology', 2015, 64),
+  title('Accelerating aging research: how can we measure the rate of biologic aging?'),
+  author('Joseph B Margolick and Luigi Ferrucci'),
+  pages(78, 80),
+  publisher('Elsevier'),
+nil)
+
+entry!('hashimoto2016learning',
+  icml(2016),
+  title('Learning Population-Level Diffusions with Generative {RNNs}'),
+  author('Tatsunori Hashimoto and David Gifford and Tommi Jaakkola'),
+  pages(2417, 2426),
+nil)
+
+entry!('waddington1940organisers',
+  title('Organisers and Genes'),
+  author('Conrad Hal Waddington'),  
+  book('University Press; Cambridge', 1940),
+nil)
+
+entry!('nowell1976clonal',
+  article('Science', 1976, 194),
+  title('The clonal evolution of tumor cell populations'),
+  author('Peter C Nowell'),
+  number(4260),
+  pages(23, 28),
+  publisher('American Association for the Advancement of Science'),
+nil)
+
+entry!('comfort1969test',
+  article('The Lancet', 1969, 294),
+  title('Test-battery to measure ageing-rate in man'),
+  author('Alex Comfort'),
+  number(7635),
+  pages(1411, 1415),
+  publisher('Elsevier'),
+nil)
+
+entry!('furukawa1975assessment',
+  article('Journal of Gerontology', 1975, 30),
+  title('Assessment of biological age by multiple regression analysis'),
+  author('Toshiyuki Furukawa and Michitoshi Inoue and Fumihiko Kajiya and Hiroshi Inada and Seiichi Takasugi and Sugao Fukui and Hiroshi Takeda and Hiroshi Abe'),
+  number(4),
+  pages(422, 434),
+  publisher('The Gerontological Society of America'),
+nil)
+
+entry!('borkan1980assessment',
+  article('Journal of Gerontology', 1980, 35),
+  title('Assessment of biological age using a profile of physical parameters'),
+  author('Gary A Borkan and Arthur H Norris'),
+  number(2),
+  pages(177, 184),
+  publisher('The Gerontological Society of America'),
+nil)
+
+entry!('chen2016dna',
+  article('Aging (Albany NY)', 2016, 8),
+  title('{DNA} methylation-based measures of biological age: meta-analysis predicting time to death'),
+  author('Brian H Chen and Riccardo E Marioni and Elena Colicino and Marjolein J Peters and Cavin K Ward-Caviness and Pei-Chien Tsai and Nicholas S Roetker and Allan C Just and Ellen W Demerath and Weihua Guan and others'),
+  number(9),
+  # pages(1844),
+  publisher('Impact Journals, LLC'),
+nil)
+
+entry!('horvath2013dna',
+  article('Genome Biology', 2013, 14),
+  title('{DNA} methylation age of human tissues and cell types'),
+  author('Steve Horvath'),
+  number(10),
+  # pages(3156),
+  publisher('BioMed Central'),
+nil)
+
+entry!('macdonald2004biological',
+  article('Gerontology', 2004, 50),
+  title('Biological age and 12-year cognitive change in older adults: findings from the Victoria Longitudinal Study'),
+  author('Stuart WS MacDonald and Roger A Dixon and Anna-Lisa Cohen and Janine E Hazlitt'),
+  number(2),
+  pages(64, 81),
+  publisher('Karger Publishers'),
+nil)
+
+entry!('gupta2008extracting',
+  article('IEEE/ACM Transactions on Computational Biology and Bioinformatics (TCBB)', 2008, 5),
+  title('Extracting dynamics from static cancer expression data'),
+  author('Anupam Gupta and Ziv Bar-Joseph'),
+  number(2),
+  pages(172, 182),
+  publisher('IEEE Computer Society Press'),
+nil)
+
+entry!('reid2016pseudotime',
+  article('Bioinformatics', 2016, 32),
+  title('Pseudotime estimation: deconfounding single cell time series'),
+  author('John E Reid and Lorenz Wernisch'),
+  number(19),
+  pages(2973, 2980),
+  publisher('Oxford University Press'),
+nil)
+
+entry!('aijo2014methods',
+  article('Bioinformatics', 2014, 30),
+  title('Methods for time series analysis of {RNA}-seq data with application to human {Th17} cell differentiation'),
+  author('Tarmo {\"A}ij{\"o} and Vincent Butty and Zhi Chen and Verna Salo and Subhash Tripathi and Christopher B Burge and Riitta Lahesmaa and Harri L{\"a}hdesm{\"a}ki'),
+  number(12),
+  # pages(i113--i120),
+  publisher('Oxford University Press'),
+nil)
+
+entry!('magwene2003reconstructing',
+  article('Bioinformatics', 2003, 19),
+  title('Reconstructing the temporal ordering of biological samples using microarray data'),
+  author('Paul M Magwene and Paul Lizardi and Junhyong Kim'),
+  number(7),
+  pages(842, 850),
+  publisher('Oxford University Press'),
+nil)
+
+entry!('qiu2011discovering',
+  article('PLoS Computational Biology', 2011, 7),
+  title('Discovering biological progression underlying microarray samples'),
+  author('Peng Qiu and Andrew J Gentles and Sylvia K Plevritis'),
+  number(4),
+  # pages(e1001123),
+  publisher('Public Library of Science'),
+nil)
+
+entry!('di2009multilevel',
+  article('The Annals of Applied Statistics', 2009, 3),
+  title('Multilevel functional principal component analysis'),
+  author('Chong-Zhi Di and Ciprian M Crainiceanu and Brian S Caffo and Naresh M Punjabi'),
+  number(1),
+  # pages(458),
+  publisher('NIH Public Access'),
+nil)
+
+entry!('greven2011longitudinal',
+  article('Recent Advances in Functional Data Analysis and Related Topics', 2011),
+  title('Longitudinal functional principal component analysis'),
+  author('Sonja Greven and Ciprian Crainiceanu and Brian Caffo and Daniel Reich'),
+  # pages(149, 154),
+  # year(2011),
+  publisher('Springer'),
+nil)
+
+entry!('verbeke1997linear',
+  article('Linear Mixed Models in Practice', 1997),
+  title('Linear mixed models for longitudinal data'),
+  author('Geert Verbeke'),
+  pages(63, 153),
+  # year(1997),
+  publisher('Springer'),
+nil)
+
+
+
+entry!('bair2006prediction',
+  jasa(2006, 101),
+  title('Prediction by supervised principal components'),
+  author('Eric Bair and Trevor Hastie and Debashis Paul and Robert Tibshirani'),
+  number(473),
+  pages(119, 137),
+  publisher('Taylor \& Francis'),
+nil)
+
+entry!('abid2017contrastive',
+  arxiv(2017, '1709.06716'),
+  title('Contrastive principal component analysis'),
+  author('Abubakar Abid and Vivek K Bagaria and Martin J Zhang and James Zou'),
+nil)
+
+entry!('jonsen2005robust',
+  article('Ecology', 2005, 86),
+  title('Robust state--space modeling of animal movement data'),
+  author('Ian D Jonsen and Joanna Mills Flemming and Ransom A Myers'),
+  number(11),
+  pages(2874, 2880),
+  publisher('Wiley Online Library'),
+nil)
+
+entry!('ram1986government',
+  article('The American Economic Review', 1986, 76),
+  title('Government size and economic growth: A new framework and some evidence from cross-section and time-series data'),
+  author('Rati Ram'),
+  number(1),
+  pages(191, 203),
+  publisher('JSTOR'),
+nil)
+
+entry!('relethford1978use',
+  article('Human Biology', 1978),
+  title('The use of principal components in the analysis of cross-sectional growth data'),
+  author('John H Relethford and Francis C Lees and Pamela J Byard'),
+  pages(461, 475),
+  publisher('JSTOR'),
+nil)
+
+# entry!('euyu2012monomial',
+#   title('A non-negative matrix has a non-negative inverse.'),
+#   author('EuYu'),
+#   type('misc'),
+#   publisher('StackExchange'),
+#   howpublished('\url{https://math.stackexchange.com/questions/214401/}'),
+# nil)
+
+entry!('euyu2012monomial',
+  title('A non-negative matrix has a non-negative inverse. {What} other properties does it have?'),
+  author('EuYu'),
+  type('misc'),
+  publisher('Mathematics Stack Exchange'),
+  year(2012),
+  # howpublished('Mathematics Stack Exchange'),
+  # note('URL:https://math.stackexchange.com/q/214401 (version: 2012-10-15)'),
+  howpublished('\url{https://math.stackexchange.com/q/214401}'),
+nil)
+
+entry!('you2017deep',
+  nips(2017),
+  title('Deep Lattice Networks and Partial Monotonic Functions'),
+  author('Seungil You and David Ding and Kevin Canini and Jan Pfeifer and Maya Gupta'),
+  pages(2985, 2993),
+nil)
+
+entry!('daniels2010monotone',
+  article('IEEE Transactions on Neural Networks', 2010, 21),
+  title('Monotone and partially monotone neural networks'),
+  author('Hennie Daniels and Marina Velikova'),
+  number(6),
+  pages(906, 917),
+  publisher('IEEE'),
+nil)
+
+entry!('qu2011generalized',
+  article('IEEE Transactions on Neural Networks', 2011, 22),
+  title('Generalized constraint neural network regression model subject to linear priors'),
+  author('Ya-Jun Qu and Bao-Gang Hu'),
+  number(12),
+  pages(2447, 2459),
+  publisher('IEEE'),
+nil)
+
+entry!('shively2009bayesian',
+  article('Journal of the Royal Statistical Society: Series B (Statistical Methodology)', 2009, 71),
+  title('A Bayesian approach to non-parametric monotone function estimation'),
+  author('Thomas S Shively and Thomas W Sager and Stephen G Walker'),
+  number(1),
+  pages(159, 175),
+  publisher('Wiley Online Library'),
+nil)
+
+entry!('mozaffarian2011changes',
+  article('New England Journal of Medicine', 2011, 364),
+  title('Changes in diet and lifestyle and long-term weight gain in women and men'),
+  author('Dariush Mozaffarian and Tao Hao and Eric B Rimm and Walter C Willett and Frank B Hu'),
+  number(25),
+  pages(2392, 2404),
+  publisher('Mass Medical Soc'),
+nil)
+
+entry!('hoffmann2015effect',
+  article('Clinical Chemistry and Laboratory Medicine (CCLM)', 2015, 53),
+  title('Effect of age and gender on reference intervals of red blood cell distribution width ({RDW}) and mean red cell volume ({MCV})'),
+  author('Johannes JML Hoffmann and Karin CAM Nabbe and Nicole MA van den Broek'),
+  number(12),
+  publisher('De Gruyter'),
+nil)
+
+entry!('stanojevic2008reference',
+  article('American Journal of Respiratory and Critical Care Medicine', 2008, 177),
+  title('Reference ranges for spirometry across all ages: a new approach'),
+  author('Sanja Stanojevic and Angie Wade and Janet Stocks and John Hankinson and Allan L Coates and Huiqi Pan and Mark Rosenthal and Mary Corey and Patrick Lebecque and Tim J Cole'),
+  number(3),
+  pages(253, 260),
+  publisher('Am Thoracic Soc'),
+nil)
+
+entry!('goodpaster2006loss',
+  article('The Journals of Gerontology Series A: Biological Sciences and Medical Sciences', 2006, 61),
+  title('The loss of skeletal muscle strength, mass, and quality in older adults: the health, aging and body composition study'),
+  author('Bret H Goodpaster and Seok Won Park and Tamara B Harris and Steven B Kritchevsky and Michael Nevitt and Ann V Schwartz and Eleanor M Simonsick and Frances A Tylavsky and Marjolein Visser and Anne B Newman'),
+  number(10),
+  pages(1059, 1064),
+  publisher('Oxford University Press'),
+nil)
+
+entry!('munoz2017towards',
+  inproceedings('Proceedings of the 10th ACM Workshop on Artificial Intelligence and Security', 2017),
+  title('Towards poisoning of deep learning algorithms with back-gradient optimization'),
+  author('Luis Mu{\~n}oz-Gonz{\\\'a}lez and Battista Biggio and Ambra Demontis and Andrea Paudice and Vasin Wongrassamee and Emil C Lupu and Fabio Roli'),
+  pages(27, 38),
+  organization('ACM'),
+nil)

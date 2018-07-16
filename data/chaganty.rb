@@ -172,3 +172,192 @@ entry!('plank16nonstandard',
   arxiv(2016),
   url('http://arxiv.org/abs/1608.07836'),
 nil)
+
+entry!('novikova2017why',
+       title('Why We Need New Evaluation Metrics for {NLG}'),
+       author('Jekaterina Novikova and Ond\\v{r}ej Du\\v{s}ek and Amanda Cercas Curry and Verena Rieser'),
+       emnlp(2017),
+       url('https://arxiv.org/pdf/1707.06875.pdf'),
+nil)
+
+entry!('lin2004rouge',
+       title('Looking for a Few Good Metrics: {ROUGE} and its Evaluation'),
+       author('Chin-yew Lin and Marina Rey'),
+       inproceedings('NTCIR Workshop', 2004),
+nil)
+
+entry!('cohan2016revisiting', 
+       title('Revisiting Summarization Evaluation for Scientific Articles'),
+       author('Arman Cohan and Nazli Goharian'),
+       lrec(2016),
+       nil)
+
+entry!('lavie2009meteor',
+       title('The Meteor Metric for Automatic Evaluation of Machine Translation'),
+       author('Alon Lavie and Michael Denkowski'),
+       article('Machine Translation', 2009, 23),
+     nil)
+
+entry!('denkowski2014meteor', 
+       title('Meteor Universal: Language Specific Translation Evaluation for Any Target Language'),
+       author('Michael Denkowski and Alon Lavie'),
+       inproceedings('Workshop on Statistical Machine Translation', 2014),
+     nil)
+
+entry!('vedantam2015cider',
+  author('Ramakrishna Vedantam and C. Lawrence Zitnick and Devi Parikh'),
+  cvpr(2015),
+  pages(4566,4575),
+  title('{CIDEr}: Consensus-based image description evaluation'),
+  nil)
+
+entry!('miller1956psychological',
+  author('George A. Miller and J. G. Beebe-Center'),
+  article('Mechanical Translation', 1956, 3),
+  pages(73,80),
+  title('Some Psychological Methods for Evaluating the Quality of Translations'),
+  nil)
+
+entry!('lau2017grammaticality',
+  author('Jey Han Lau and Alexander Clark and Shalom Lappin'),
+  article('Cognitive Science', 2017, 41),
+  pages(1202, 1241),
+  title('Grammaticality, Acceptability, and Probability: A Probabilistic View of Linguistic Knowledge'),
+  nil)
+
+entry!('see2017point',
+  author('Abigail See and Peter J. Liu and Christopher D. Manning'),
+  acl(2017),
+  title('Get To The Point: Summarization with Pointer-Generator Networks'),
+  nil)
+
+entry!('paulus2018deep',
+  author('Romain Paulus and Caiming Xiong and Richard Socher'),
+  iclr(2018),
+  title('A Deep Reinforced Model for Abstractive Summarization'),
+  nil)
+
+entry!('lin2014microsoft',
+  author('Tsung-Yi Lin and Michael Maire and Serge Belongie and James Hays and Pietro Perona and  Deva Ramanan and Piotr Doll{\'a}r and C Lawrence Zitnick'), 
+  eccv(2014),
+  pages(740,755),
+  title('Microsoft {COCO}: Common objects in context'),
+  nil)
+
+entry!('conroy2008mind',
+  author('John M Conroy and Hoa Trang Dang'), 
+  coling(2008),
+  pages(145,152),
+  title('Mind the Gap : Dangers of Divorcing Evaluations of Summary Content from Linguistic Quality'),
+  nil)
+
+entry!('snover2006ter',
+  author('Matthew Snover and Bonnie Dorr and Richard Schwartz and Linnea Micciulla and John Makhoul'), 
+  inproceedings('Association for Machine Translation in the Americas', 2006),
+  pages(223,231),
+  title('A Study of Translation Edit Rate with Targeted Human Annotation'),
+  nil)
+
+entry!('chang2017affordable',
+  author('Cheng Chang and Runzhe Yang and Lu Chen and Xiang Zhou and Kai Yu'), 
+  emnlp(2017),
+  pages(223,231),
+  title('Affordable On-Line Dialogue Policy Learning'),
+  nil)
+
+entry!('dang2006overview',
+  author('Hoa Trang Dang'), 
+  inproceedings('Document Understanding Conference', 2006),
+  title('Overview of {DUC} 2006'),
+  nil)
+
+#entry!('weissenborn2017fastqa',
+#       author('Dirk Weissenborn and Georg Wiese and Laura Seiffe'),
+#       title('Making Neural QA as Simple as Possible but not Simpler'),
+#       arxiv(2017),
+#       url('https://arxiv.org/abs/1703.04816'),
+#       nil)
+
+entry!('tan2018s',
+  title('{S}-{N}et: From answer extraction to answer generation for machine reading comprehension'),
+  author('Chuanqi Tan and Furu Wei and Nan Yang and Weifeng Lv and Ming Zhou'),
+  aaai(2018),
+nil)
+
+entry!('pagliardini2017unsupervised',
+  title('Unsupervised learning of sentence embeddings using compositional n-gram features'),
+  author('Matteo Pagliardini and Prakhar Gupta and Martin Jaggi'),
+  arxiv(2017),
+  url('https://arxiv.org/abs/1703.02507'),
+nil)
+
+entry!('passonneau2014benefits',
+  title('The Benefits of a Model of Annotation'),
+  author('Rebecca J. Passonneau and Bob Carpenter'),
+  acl(2014),
+nil)
+
+entry!('lowe2017towards',
+  title('Towards an Automatic Turing Test: Learning to Evaluate Dialogue Responses'),
+  author('Ryan Lowe and Michael Noseworthy and Iulian V. Serban and Nicolas Angelard-Gontier and Yoshua Bengio and Joelle Pineau'),
+  acl(2017),
+nil)
+
+entry!('dusek2017referenceless',
+       title('Referenceless Quality Estimation for Natural Language Generation'),
+       author('Ondrej Dusek and Jekaterina Novikova and Verena Rieser'),
+       arxiv(2017),
+       url('https://arxiv.org/pdf/1708.01759.pdf'),
+nil)
+
+entry!('novikova2016crowd',
+  title('Crowd-sourcing {NLG} data: Pictures elicit better data'),
+  author('Jekaterina Novikova and Oliver Lemon and Verena Rieser'),
+  arxiv(2016),
+  url('https://arxiv.org/abs/1608.00339'),
+nil)
+
+entry!('mnih2008empirical',
+  title('Empirical Berstein stopping'),
+  author('Volodymyr Mnih and Csaba Szepesv{\'{a}}ri and Jean-Yves Audibert'),
+  icml(2008),
+  url('http://portal.acm.org/citation.cfm?doid=1390156.1390241'),
+nil)
+
+entry!('luhn1958automatic',
+  author('Henry P. Luhn'),
+  article('{IBM} Journal of Research and Development', 1958, 2), pages(159,165),
+  title('The Automatic Creation of Literature Abstracts'),
+  nil)
+
+entry!('passonneau2005applying',
+  author('Rebecca J. Passonneau and Ani Nenkova and Kathleen McKeown and Sergey Sigelman'),
+  inproceedings('Document Understanding Conference', 2005),
+  title('Applying the pyramid method in {DUC} 2005'),
+  nil)
+
+
+entry!('brandow1995automatic',
+  author('Ronald Brandow and Karl Mitze and Lisa F. Rau'),
+  article('Information Processing and Management', 1995, 31), pages(675, 685),
+  title('Automatic condensation of electronic publications by sentence selection'),
+  nil)
+
+entry!('mani1999tipster',
+  author('Inderjeet Mani and Gary Klein and Lynette Hirschman and Therese Firmin and David House and Beth Sundheim'),
+  eacl(1999),
+  title('The {TIPSTER} {SUMMAC} text summarization evaluation'),
+  nil)
+
+entry!('mckeown2005summaries',
+  author('Kathleen Mckeown and Rebecca J Passonneau and David K Elson and Julia Hirschberg'),
+  sigir(2005),
+  title('Do Summaries Help? A Task-Based Evaluation of Multi-Document Summarization'),
+  nil)
+
+#entry!('',
+#  author(''),
+#  inproceedings('', 2015),
+#  title(''),
+#  nil)
+#

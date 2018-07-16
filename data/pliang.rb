@@ -2550,7 +2550,7 @@ nil)
 entry!('grice75maxims',
   author('H. P. Grice'),
   title('Logic and Conversation'),
-  article('Syntax and semantics', 1975, 3),
+  article('Syntax and Semantics', 1975, 3),
   pages(41, 58),
 nil)
 
@@ -3513,7 +3513,7 @@ entry!('fellbaum1998wordnet',
 nil)
 
 entry!('mikolov2013efficient',
-  arxiv(2013),
+  arxiv(2013, '1301.3781'),
   title('Efficient Estimation of Word Representations in Vector Space'),
   url('http://arxiv.org/pdf/1301.3781v3.pdf'),
   author('Tomas Mikolov and Kai Chen and Greg Corrado and Jeffrey'),
@@ -3760,17 +3760,6 @@ entry!('liang11minimal',
   punchlines('Question: how small is the smallest abstraction needed to prove a query?',
              'Empirical answer: very small (less than 2.5% sites need to be treated context-sensitively for k-limited analyses for race detection).',
              'Found this answer using a new machine learning algorithm that exploits this sparsity.'),
-nil)
-
-entry!('golland10pragmatics',
-  author('Dave Golland and Percy Liang and Dan Klein'),
-  title('A Game-Theoretic Approach to Generating Spatial Descriptions'),
-  emnlp2010,
-  url('pragmatics-emnlp2010.pdf'),
-  slidesurl('pragmatics-emnlp2010-talk.pdf'),
-  abstract('Language is sensitive to both semantic and pragmatic effects.  To capture both effects, we model language use as a cooperative game between two players: a speaker, who generates an utterance, and a listener, who responds with an action.  Specifically, we consider the task of generating spatial references to objects, wherein the listener must accurately identify an object described by the speaker.  We show that a speaker model that acts optimally with respect to an explicit, embedded listener model substantially outperforms one that is trained to directly generate spatial descriptions.'),
-  punchlines('Observation: people say things to be understood (pragmatics), not simply what\'s technically correct (semantics).',
-             'Goal: model language as a game between speaker and listener.  Speaker maximizes utility (communictative success) with respect to its model of the listener.'),
 nil)
 
 entry!('angeli10generation',
@@ -5268,14 +5257,6 @@ entry!('halko2011structure',
   title("Finding Structure with Randomness: Probabilistic Algorithms for
               Constructing Approximate Matrix Decompositions"),
   author("N. Halko and {P.-G.} Martinsson and J. Tropp"),
-nil)
-
-entry!('zhang2014crowdsourcing',
-  title("Spectral Methods meet {EM}: A Provably Optimal Algorithm for
-                   Crowdsourcing"),
-  author("Yuchen Zhang and Xi Chen and Dengyong Zhou and Michael I Jordan"),
-  arxiv(2014),
-  url('http://arxiv.org/pdf/1406.3824'),
 nil)
 
 entry!('huang2013fast',
@@ -7323,8 +7304,9 @@ nil)
 
 entry!('pennington2014glove',
   emnlp(2014),
-  title('Glove: Global vectors for word representation'),
+  title('Glo{V}e: Global Vectors for word representation'),
   author('Jeffrey Pennington and Richard Socher and Christopher D Manning'),
+  pages(1532, 1543),
 nil)
 
 entry!('niculescu2005predicting',
@@ -9197,6 +9179,7 @@ entry!('smith2013pragmatics',
   title('Learning and using language via recursive pragmatic reasoning about other agents'),
   author('Nathaniel J. Smith and Noah D. Goodman and Michael C. Frank'),
   nips(2013),
+  pages(3039,3047),  
 nil)
 
 entry!('frank2012pragmatics',
@@ -9371,7 +9354,7 @@ nil)
 entry!('kingma2014variational',
   author('Diederik P. Kingma and Max Welling'),
   title('Auto-Encoding Variational {B}ayes'),
-  arxiv(2014),
+  arxiv(2014, '1312.6114'),
 nil)
 
 entry!('zhang2015character',
@@ -9402,12 +9385,6 @@ entry!('yin2016neural',
   author('Pengcheng Yin and Zhengdong Lu and Hang Li and Ben Kao'),
   title('Neural Enquirer: Learning to Query Tables with Natural Language'),
   arxiv(2016),
-nil)
-
-entry!('andreas2016learning',
-  author('Jacob Andreas and Marcus Rohrbach and Trevor Darrell and Dan Klein'),
-  title('Learning to compose neural networks for question answering'),
-  naacl(2016),
 nil)
 
 entry!('miller1990empirical',
@@ -9453,7 +9430,7 @@ nil)
 
 entry!('rajpurkar2016squad',
   author('Pranav Rajpurkar and Jian Zhang and Konstantin Lopyrev and Percy Liang'),
-  title('SQuAD: 100,000+ Questions for Machine Comprehension of Text'),
+  title('{SQuAD}: 100,000+ Questions for Machine Comprehension of Text'),
   emnlp(2016),
   award('Best resource paper award'),
   url('https://arxiv.org/pdf/1606.05250.pdf'),
@@ -10182,7 +10159,7 @@ nil)
 entry!('young2013pomdp',
   article('Proceedings of the IEEE', 2013, 101),
   title('{POMDP}-based statistical spoken dialog systems: A review'),
-  author('Stephanie Young and Milica Gasic and Blaise Thomson and John D Williams'),
+  author('Steve Young and Milica Gašić and Blaise Thomson and Jason D Williams'),
   number(5),
   pages(1160, 1179),
   publisher('IEEE'),
@@ -10213,6 +10190,7 @@ entry!('potts2012cards',
   editor('Nathan Arnett and Ryan Bennett'),
   publisher('Cascadilla Press'),
   title('Goal-Driven Answers in the {C}ards Dialogue Corpus'),
+  pages(1,20),
 nil)
 
 entry!('serban2015survey',
@@ -10476,6 +10454,7 @@ entry!('wen2017network',
   eacl(2017),
   title('A Network-based End-to-End Trainable Task-oriented Dialogue System'),
   author('Tsung-Hsien Wen and Milica Gasic and Nikola Mrksic and Lina M Rojas-Barahona and Pei-Hao Su and Stefan Ultes and David Vandyke and Steve Young'),
+  pages(438,449),
 nil)
 
 entry!('dong2016logical',
@@ -10498,18 +10477,18 @@ entry!('roundy1985identifying',
 nil)
 
 entry!('kirkpatrick2012significance',
-   author('Taylor Berg-Kirkpatrick and David Burkett and Dan Klein'),
-   title('An empirical investigation of statistical significance in {NLP}'),
-   emnlp(2012),
-   pages(995,1005),
+  author('Taylor Berg-Kirkpatrick and David Burkett and Dan Klein'),
+  title('An empirical investigation of statistical significance in {NLP}'),
+  emnlp(2012),
+  pages(995,1005),
 nil)
 
 entry!('maccartney2007natural',
-     author('Bill MacCartney and Christopher D. Manning'),
-     title('Natural Logic for Textual Inference'),
-     inproceedings('ACL-PASCAL Workshop on Textual Entailment and Paraphrasing', 2007),
-     year(2007),
-     pages(193,200),
+  author('Bill MacCartney and Christopher D. Manning'),
+  title('Natural Logic for Textual Inference'),
+  inproceedings('ACL-PASCAL Workshop on Textual Entailment and Paraphrasing', 2007),
+  year(2007),
+  pages(193,200),
 nil)
 
 entry!('angeli2014naturalli',
@@ -11289,30 +11268,27 @@ nil)
 ############################################################
 # 2017
 
-entry!('guu2017edit',
-  author('Kelvin Guu and Tatsunori B. Hashimoto and Yonatan Oren and Percy Liang'),
-  title('Generating Sentences by Editing Prototypes'),
-  arxiv(2017, '1709.08878'),
-  url('http://arxiv.org/pdf/1709.08878.pdf'),
-nil)
-
 entry!('steinhardt2017certified',
   author('Jacob Steinhardt and Pang Wei Koh and Percy Liang'),
   title('Certified Defenses for Data Poisoning Attacks'),
   nips(2017),
   url('http://arxiv.org/pdf/1706.03691.pdf'),
+  codalab('0xbdd35bdd83b14f6287b24c9418983617'),
 nil)
 
 entry!('hashimoto2017transformation',
   author('Tatsu Hashimoto and John Duchi and Percy Liang'),
   title('Unsupervised Transformation Learning via Convex Relaxations'),
   nips(2017),
+  url('https://arxiv.org/pdf/1711.02226.pdf'),
+  codalab('0x4412d72b55df47e5b457dacdba91f105'),
 nil)
 
-entry!('kakade2017long',
-  author('Sham Kakade and Percy Liang and Vatsal Sharan and Gregory Valiant'),
-  title('Learning {HMM}s with Long-Term Dependencies'),
+entry!('sharan2017overcomplete',
+  author('Vatsal Sharan and Sham Kakade and Percy Liang and Gregory Valiant'),
+  title('Learning Overcomplete {HMM}s'),
   nips(2017),
+  url('https://arxiv.org/pdf/1711.02309.pdf'),
 nil)
 
 entry!('jia2017adversarial',
@@ -11378,13 +11354,6 @@ entry!('zhang2017hitting',
   award('Best paper award'),
 nil)
 
-entry!('kakade2017prediction',
-  author('Sham Kakade and Percy Liang and Vatsal Sharan and Gregory Valiant'),
-  title('Prediction with a Short Memory'),
-  arxiv(2017, '1612.02526'),
-  url('http://arxiv.org/pdf/1612.02526.pdf'),
-nil)
-
 entry!('bastani2017synthesizing',
   author('Osbert Bastani and Rahul Sharma and Alex Aiken and Percy Liang'),
   title('Synthesizing Program Input Grammars'),
@@ -11407,6 +11376,7 @@ entry!('he2017symmetric',
   acl(2017),
   url('https://arxiv.org/pdf/1704.07130.pdf'),
   codalab('0xc757f29f5c794e5eb7bfa8ca9c945573'),
+  pages(1766,1776),
 nil)
 
 entry!('guu2017bridging',
@@ -11852,9 +11822,15 @@ entry!('steinhardt2017clique',
 nil)
 
 entry!('madry2017towards',
-  title('Towards deep learning models resistant to adversarial attacks'),
+  title('Towards deep learning models resistant to adversarial attacks (published at {ICLR} 2018)'),
   author('Aleksander Madry and Aleksandar Makelov and Ludwig Schmidt and Dimitris Tsipras and Adrian Vladu'),
   arxiv(2017),
+nil)
+
+entry!('madry2018towards',
+  title('Towards deep learning models resistant to adversarial attacks'),
+  author('Aleksander Madry and Aleksandar Makelov and Ludwig Schmidt and Dimitris Tsipras and Adrian Vladu'),
+  iclr(2018),
 nil)
 
 entry!('carlini2017adversarial',
@@ -11926,7 +11902,6 @@ entry!('narodytska2017verifying',
   author('Nina Narodytska and Shiva Prasad Kasiviswanathan and Leonid Ryzhyk and Mooly Sagiv and Toby Walsh'),
   title('Verifying Properties of Binarized Deep Neural Networks'),
   arxiv(2017, '1709.06662'),
-  url('http://arxiv.org/pdf/1709.06662.pdf'),
 nil)
 
 entry!('adamczak2015concentration',
@@ -12095,7 +12070,7 @@ entry!('manski1988identification',
 nil)
 
 entry!('manski1985semiparametric',
-  title('Semiparametric analysis of discrete response: {A}symptotic properties of the maximum score estimator'),
+  title('Semiparametric analysis of discrete response: Asymptotic properties of the maximum score estimator'),
   author('Charles F. Manski'),
   article('Journal of Econometrics', 1985, 27), number(3),
   pages(313,333),
@@ -12235,4 +12210,209 @@ entry!('donoho1982breakdown',
   howpublished('Ph.D.~qualifying paper'),
   field('school', 'Department of Statistics, Harvard University'),
   year(1982),
+nil)
+
+entry!('hampel1968thesis',
+  author('Frank R. Hampel'),
+  title('Contributions to the theory of robust estimation'),
+  phdthesis('University of California at Berkeley', 1968),
+nil)
+
+entry!('mussmann2018accuracy',
+  title('On the Relationship between Data Efficiency and Error in Active Learning'),
+  author('Stephen Mussmann and Percy Liang'),
+  icml(2018),
+  url('https://arxiv.org/pdf/1806.06123.pdf'),
+nil)
+
+entry!('hashimoto2018repeated',
+  title('Fairness Without Demographics in Repeated Loss Minimization'),
+  author('Tatsunori B. Hashimoto and Megha Srivastava and Hongseok Namkoong and Percy Liang'),
+  icml(2018),
+  url('https://arxiv.org/pdf/1806.08010.pdf'),
+  codalab('0x17a501d37bbe49279b0c70ae10813f4c'),
+nil)
+
+entry!('hancock2018babble',
+  title('Training Classifiers with Natural Language Explanations'),
+  author('Braden Hancock and Paroma Varma and Stephanie Wang and Martin Bringmann and Percy Liang and Christopher Ré'),
+  acl(2018),
+  url('https://arxiv.org/pdf/1805.03818.pdf'),
+nil)
+
+entry!('chaganty2018evaluation',
+  title('The price of debiasing automatic metrics in natural language evaluation'),
+  author('Arun Chaganty and Stephen Mussmann and Percy Liang'),
+  acl(2018),
+  codalab('0xbda93e6519134c1ab1893ceaa19c8a5c'),
+  url('https://arxiv.org/pdf/1807.02202.pdf'),
+nil)
+
+entry!('rajpurkar2018squadrun',
+  title('Know What You Don\'t Know: Unanswerable Questions for {SQuAD}'),
+  author('Pranav Rajpurkar and Robin Jia and Percy Liang'),
+  acl(2018),
+  award('Best short paper award'),
+  url('https://arxiv.org/pdf/1806.03822.pdf'),
+  codalab('0x9a15a170809f4e2cb7940e1f256dee55'),
+nil)
+
+entry!('selsam2018sat',
+  title('Learning a {SAT} Solver from Single-Bit Supervision'),
+  author('Daniel Selsam and Matthew Lamm and Benedikt Bünz and Percy Liang and Leonardo de Moura and David L. Dill'),
+  arxiv(2018, '1802.03685'),
+nil)
+
+entry!('mussmann2018gbs',
+  title('Generalized Binary Search For Split-Neighborly Problems'),
+  author('Stephen Mussmann and Percy Liang'),
+  aistats(2018),
+  url('https://arxiv.org/pdf/1802.09751.pdf'),
+nil)
+
+entry!('khani2018pip',
+  title('Planning, Inference and Pragmatics in Sequential Language Games'),
+  author('Fereshte Khani and Noah D. Goodman and Percy Liang'),
+  tacl(2018, 0),
+  url('https://arxiv.org/pdf/1805.11774.pdf'),
+  codalab('0x052129c7afa9498481185b553d23f0f9'),
+nil)
+
+entry!('guu2018edit',
+  author('Kelvin Guu and Tatsunori B. Hashimoto and Yonatan Oren and Percy Liang'),
+  title('Generating Sentences by Editing Prototypes'),
+  tacl(2018, 0),
+  url('http://arxiv.org/pdf/1709.08878.pdf'),
+  codalab('0xa915ba2f8b664ddf8537c83bde80cc8c'),
+nil)
+
+entry!('li2018style',
+  author('Juncen Li and Robin Jia and He He and Percy Liang'),
+  title('Delete, Retrieve, Generate: A Simple Approach to Sentiment and Style Transfer'),
+  naacl(2018),
+  url('https://arxiv.org/pdf/1804.06437.pdf'),
+  codalab('0xe3eb416773ed4883bb737662b31b4948'),
+nil)
+
+entry!('liu2018workflow',
+  author('Evan Zheran Liu and Kelvin Guu and Panupong Pasupat and Tianlin Shi and Percy Liang'),
+  title('Reinforcement Learning on Web Interfaces using Workflow-Guided Exploration'),
+  iclr(2018),
+  url('https://arxiv.org/pdf/1802.08802.pdf'),
+nil)
+
+entry!('raghunathan2018certified',
+  author('Aditi Raghunathan and Jacob Steinhardt and Percy Liang'),
+  title('Certified defenses against adversarial examples'),
+  iclr(2018),
+  url('https://arxiv.org/pdf/1801.09344.pdf'),
+  codalab('0xa21e794020bb474d8804ec7bc0543f52'),
+nil)
+
+entry!('bastani2018active',
+  author('Osbert Bastani and Rahul Sharma and Alex Aiken and Percy Liang'),
+  title('Active Learning of Points-To Specifications'),
+  pldi(2018),
+  url('https://arxiv.org/pdf/1711.03239.pdf'),
+nil)
+
+entry!('kakade2018prediction',
+  author('Sham Kakade and Percy Liang and Vatsal Sharan and Gregory Valiant'),
+  title('Prediction with a Short Memory'),
+  stoc(2018),
+  url('http://arxiv.org/pdf/1612.02526.pdf'),
+nil)
+
+entry!('shivaswamy2010empirical',
+  aistats(2010),
+  title('Empirical {B}ernstein boosting'),
+  author('Pannagadatta Shivaswamy and Tony Jebara'),
+  pages(733, 740),
+nil)
+
+entry!('namkoong2017variance',
+  nips(2017),
+  title('Variance regularization with convex objectives'),
+  author('Hongseok Namkoong and John Duchi'),
+nil)
+
+entry!('berk2017convex',
+  arxiv(2017, '1706.02409'),
+  title('A convex framework for fair regression'),
+  author('Richard Berk and Hoda Heidari and Shahin Jabbari and Matthew Joseph and Michael Kearns and Jamie Morgenstern and Seth Neel and Aaron Roth'),
+nil)
+
+entry!('kim2018fairness',
+  arxiv(2018, '1803.03239'),
+  title('Fairness Through Computationally-Bounded Awareness'),
+  author('Michael P Kim and Omer Reingold and Guy N Rothblum'),
+nil)
+
+entry!('angwin2016machine',
+  article('ProPublica', 2016, 23),
+  title('Machine bias: There’s software used across the country to predict future criminals. and it’s biased against blacks'),
+  author('Julia Angwin and Jeff Larson and Surya Mattu and Lauren Kirchner'),
+nil)
+
+entry!('waddell2016algorithms',
+  article('The Atlantic', 2016),
+  title('How algorithms can bring down minorities\' credit scores'),
+  author('Kaveh Waddell'),
+nil)
+
+entry!('corbett2017algorithmic',
+  kdd(2017),
+  title('Algorithmic decision making and the cost of fairness'),
+  author('Sam Corbett-Davies and Emma Pierson and Avi Feller and Sharad Goel and Aziz Huq'),
+  pages(797, 806),
+  organization('ACM'),
+nil)
+
+entry!('binns2018fairness',
+  jmlr(2018, 81),
+  pages(1, 11),
+  title('Fairness in Machine Learning: Lessons from Political Philosophy'),
+  author('Reuben Binns'),
+nil)
+
+entry!('athalye2018obfuscated',
+  arxiv(2018, '1802.00420'),
+  title('Obfuscated gradients give a false sense of security: Circumventing defenses to adversarial examples'),
+  author('Anish Athalye and Nicholas Carlini and David Wagner'),
+nil)
+
+entry!('sinha2018certifiable',
+  iclr(2018),
+  title('Certifiable Distributional Robustness with Principled Adversarial Training'),
+  author('Aman Sinha and Hongseok Namkoong and John Duchi'),
+nil)
+
+entry!('lu2017no',
+  arxiv(2017, '1707.03501'),
+  title('No need to worry about adversarial examples in object detection in autonomous vehicles'),
+  author('Jiajun Lu and Hussein Sibai and Evan Fabry and David Forsyth'),
+nil)
+
+entry!('athalye2017synthesizing',
+  arxiv(2017, '1707.07397'),
+  title('Synthesizing robust adversarial examples'),
+  author('Anish Athalye and Ilya Sutskever'),
+nil)
+
+entry!('weng2018towards',
+  arxiv(2018, '1804.09699'),
+  title('Towards Fast Computation of Certified Robustness for ReLU Networks'),
+  author('Tsui-Wei Weng and Huan Zhang and Hongge Chen and Zhao Song and Cho-Jui Hsieh and Duane Boning and Inderjit S Dhillon and Luca Daniel'),
+nil)
+
+entry!('brown2017adversarial',
+  arxiv(2017, '1712.09665'),
+  title('Adversarial patch'),
+  author('Tom B Brown and Dandelion Mané and Aurko Roy and Martín Abadi and Justin Gilmer'),
+nil)
+
+entry!('tjeng2017verifying',
+  arxiv(2017, '1711.07356'),
+  title('Verifying Neural Networks with Mixed Integer Programming'),
+  author('Vincent Tjeng and Russ Tedrake'),
 nil)

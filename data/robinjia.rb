@@ -66,6 +66,7 @@ entry!('bowman2016continuous',
   author('Samuel R. Bowman and Luke Vilnis and Oriol Vinyals and Andrew M. Dai and Rafal Jozefowicz and Samy Bengio'),
   title('Generating Sentences from a Continuous Space'),
   conll(2016),
+  pages(10, 21),
   url('https://arxiv.org/abs/1511.06349'),
 nil)
 
@@ -146,8 +147,8 @@ nil)
 
 entry!('hu2017mnemonic',
   author('Minghao Hu and Yuxing Peng and Xipeng Qiu'),
-  title('Mnemonic Reader for Machine Comprehension'),
-  arxiv(2017),
+  title('Reinforced Mnemonic Reader for Machine Comprehension'),
+  arxiv(2017, '1705.02798'),
 nil)
 
 entry!('liu2017sect',
@@ -174,8 +175,146 @@ entry!('weissenborn2017fastqa',
   conll(2017),
 nil)
 
+entry!('radford2016dcgan',
+  author('Alec Radford and Luke Metz and Soumith Chintala'),
+  title('Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks'),
+  arxiv(2016),
+nil)
 
+entry!('salimans2016gan',
+  author('Tim Salimans and Ian Goodfellow and Wojciech Zaremba and Vicki Cheung and Alec Radford and Xi Chen'),
+  title('Improved Techniques for Training GANs'),
+  nips(2016),
+nil)
 
+entry!('arjovsky2017gan',
+  author('Martin Arjovsky and Leon Bottou'),
+  title('Towards Principled Methods for Training Generative Adversarial Networks'),
+  iclr(2017),
+nil)
 
+entry!('bousmalis2017domain',
+  author('Konstantinos Bousmalis and Nathan Silberman and David Dohan and Dumitru Erhan and Dilip Krishnan'),
+  title('Unsupervised Pixel-Level Domain Adaptation with Generative Adversarial Networks'),
+  cvpr(2017),
+nil)
 
+entry!('wang2012baselines',
+  author('Sida Wang and Christopher D. Manning'),
+  title('Baselines and Bigrams: Simple, Good Sentiment and Topic Classification'),
+  acl(2012),
+nil)
 
+entry!('li2015gmmn',
+  author('Yujia Li and Kevin Swersky and Richard Zemel'),
+  title('Generative Moment Matching Networks'),
+  icml(2015),
+nil)
+
+entry!('zhang2017matching',
+  author('Yizhe Zhang and Zhe Gan and Kai Fan and Zhi Chen and Ricardo Henao and Dinghan Shen and Lawrence Carin'),
+  title('Adversarial Feature Matching for Text Generation'),
+  icml(2017),
+nil)
+
+entry!('arora2017gan',
+  author('Sanjeev Arora and Rong Ge and Yingyu Liang and Tengyu Ma and Yi Zhang'),
+  title('Generalization and Equilibrium in Generative Adversarial Nets (GANs)'),
+  arxiv(2017),
+nil)
+
+entry!('tzeng2017domain',
+  author('Eric Tzeng and Judy Hoffman and Kate Saenko and Trevor Darrell'),
+  title('Adversarial Discriminative Domain Adaptation'),
+  cvpr(2017),
+nil)
+
+entry!('conneau2017word',
+  author('Alexis Conneau and Guillaume Lample and Marc\'Aurelio Ranzato and Ludovic Denoyer and Herve Jegou'),
+  title('Word Translation Without Parallel Data'),
+  arxiv(2017),
+nil)
+
+entry!('li2017demystifying',
+  author('Yanghao Li and Naiyan Wang and Jiaying Liu and Xiaodi Hou'),
+  title('Demystifying Neural Style Transfer'),
+  ijcai(2017),
+nil)
+
+entry!('wang2007qa',
+  author('Mengqiu Wang and Noah A. Smith and Teruko Mitamura'),
+  title('What is the Jeopardy Model? A Quasi-Synchronous Grammar for {QA}'),
+  emnlp(2007),
+nil)
+
+entry!('yih2013enhanced',
+  author('Wen-tau Yih and Ming-Wei Chang and Christopher Meek and Andrzej Pastusiak'),
+  title('Question Answering Using Enhanced Lexical Semantic Models'),
+  acl(2013),
+nil)
+
+entry!('peters2018elmo',
+  author('Matthew E. Peters and Mark Neumann and Mohit Iyyer and Matt Gardner and Christopher Clark and Kenton Lee and Luke Zettlemoyer'),
+  title('Deep contextualized word representations'),
+  naacl(2018),
+nil)
+
+entry!('zhang2017tacred',
+  author('Yuhao Zhang and Victor Zhong and Danqi Chen and Gabor Angeli and Christopher D. Manning'),
+  title('Position-aware Attention and Supervised Data Improve Slot Filling'),
+  emnlp(2017),
+nil)
+
+entry!('hendrickx2010relations',
+  author('Iris Hendrickx and Su Nam Kim and Zornitsa Kozareva and Preslav Nakov and Diarmuid OSeaghdha and Sebastian Pado and Marco Pennacchiotti and Lorenza Romano and Stan Szpakowicz'),
+  title('SemEval-2010 Task 8: Multi-Way Classification of Semantic Relations Between Pairs of Nominals'),
+  inproceedings('5th International Workshop on Semantic Evaluation', 2010),
+nil)
+
+entry!('marelli2014sick',
+  author('Marco Marelli and Stefano Menini and Marco Baroni and Luisa Bentivogli and Raffaella bernardi and Roberto Zamparelli'),
+  title('A {SICK} cure for the evaluation of compositional distributional semantic models'),
+  lrec(2014),
+nil)
+
+entry!('huang2018fusion',
+  author('Hsin-Yuan Huang and Chenguang Zhu and Yelong Shen and Weizhu Chen'),
+  title('FusionNet: Fusing via Fully-Aware Attention with Application to Machine Comprehension'),
+  iclr(2018),
+nil)
+
+entry!('golub2017transfer',
+  author('David Golub and Po-Sen Huang and Xiaodong He and Li Deng'),
+  title('Two-Stage Synthesis Networks for Transfer Learning in Machine Comprehension'),
+  emnlp(2017),
+nil)
+
+entry!('michael2018qamr',
+  author('Julian Michael and Gabriel Stanovsky and Luheng He and Ido Dagan and Luke Zettlemoyer'),
+  title('Crowdsourcing Question--Answer Meaning Representations'),
+  naacl(2018),
+nil)
+
+entry!('min2017transfer',
+  author('Sewon Min and Minjoon Seo and Hannaneh Hajishirzi'),
+  title('Question Answering through Transfer Learning from Large Fine-grained Supervision Data'),
+  acl(2017),
+nil)
+
+entry!('zhai2017chunking',
+  title('Neural Models for Sequence Chunking'),
+  author('Feifei Zhai and Saloni Potdar and Bing Xiang and Bowen Zhou'),
+  aaai(2017),
+nil)
+
+entry!('hakkanitur2016multidomain',
+  title('Multi-Domain Joint Semantic Frame Parsing using Bi-directional {RNN}-{LSTM}'),
+  author('Dilek Hakkani-T{\"u}r and Gokhan Tur and Asli Celikyilmaz and Yun-Nung Chen and Jianfeng Gao and Li Deng and Ye-Yi Wang'),
+  inproceedings('InterSpeech', 2016),
+nil)
+
+entry!('vrandecic2014wikidata',
+  title('Wikidata: A free collaborative knowledgebase'),
+  author('Denny Vrande\v{c}i\\\'{c} and Markus Kr\H{o}tzsch'),
+  article('Communications of the ACM', 2014, 57),
+nil)
