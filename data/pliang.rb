@@ -12192,3 +12192,47 @@ entry!('minka2001ep',
   title('Expectation propagation for approximate {B}ayesian inference'),
   uai(2001), pages(362,369),
 nil)
+
+entry!('geyer1995annealing',
+  title('Annealing {M}arkov chain {M}onte {C}arlo with applications to ancestral inference'),
+  author('Charles J. Geyer and Elizabeth A. Thompson'),
+  article('Journal of the American Statistical Association', 1995, 90), pages(909,920),
+  publisher('Taylor \& Francis'),
+nil)
+
+entry!('halpern2011dealing',
+  title('Dealing with logical omniscience: Expressiveness and pragmatics'),
+  author('Joseph Y. Halpern and Riccardo Pucella'),
+  article('Artificial intelligence', 2011, 175),
+  pages(220, 235),
+nil)
+
+entry!('fagin1987belief',
+  title('Belief, awareness, and limited reasoning'),
+  author('Ronald Fagin and Joseph Y. Halpern'),
+  article('Artificial intelligence', 1987, 34),
+  pages(39,76),
+nil)
+
+entry!('hintikka1975impossible',
+  title('Impossible Possible Worlds Vindicated'),
+  author('Jaakko Hintikka'),
+  article('Journal of Philosophical Logic', 1975, 4),
+  number(4),
+nil)
+
+entry!('donoho1992breakdown',
+  title('Breakdown properties of location estimates based on halfspace depth and projected outlyingness'),
+  author('David L. Donoho and Miriam Gasko'),
+  annalsOfStatistics(1992, 20), number(4),
+  pages(1803,1827),
+nil)
+
+entry!('donoho1982breakdown',
+  title('Breakdown properties of multivariate location estimators'),
+  author('David L. Donoho'),
+  type('misc'),
+  howpublished('Ph.D.~qualifying paper'),
+  field('school', 'Department of Statistics, Harvard University'),
+  year(1982),
+nil)
