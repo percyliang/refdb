@@ -13,6 +13,7 @@ require 'data/links'
 # Load entries
 Dir['data/*.rb'].sort.each { |path|
   next if ['data/venues.rb', 'data/links.rb'].index(path)
+  $sourcePath = path  # Allow each entry to be marked with the entry
   begin
     require path
   rescue => exception
