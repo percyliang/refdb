@@ -3513,7 +3513,7 @@ entry!('fellbaum1998wordnet',
 nil)
 
 entry!('mikolov2013efficient',
-  arxiv(2013),
+  arxiv(2013, '1301.3781'),
   title('Efficient Estimation of Word Representations in Vector Space'),
   url('http://arxiv.org/pdf/1301.3781v3.pdf'),
   author('Tomas Mikolov and Kai Chen and Greg Corrado and Jeffrey'),
@@ -7304,8 +7304,9 @@ nil)
 
 entry!('pennington2014glove',
   emnlp(2014),
-  title('Glove: Global vectors for word representation'),
+  title('Glo{V}e: Global Vectors for word representation'),
   author('Jeffrey Pennington and Richard Socher and Christopher D Manning'),
+  pages(1532, 1543),
 nil)
 
 entry!('niculescu2005predicting',
@@ -9353,7 +9354,7 @@ nil)
 entry!('kingma2014variational',
   author('Diederik P. Kingma and Max Welling'),
   title('Auto-Encoding Variational {B}ayes'),
-  arxiv(2014),
+  arxiv(2014, '1312.6114'),
 nil)
 
 entry!('zhang2015character',
@@ -11264,6 +11265,12 @@ entry!('steinhardt2009coloring',
   article('Electronic Journal of Combinatorics', 2009, 16),
 nil)
 
+entry!('balcan2008discriminative',
+  title('A discriminative framework for clustering via similarity functions'),
+  author('Maria-Florina Balcan and Avrim Blum and Santosh Vempala'),
+  stoc(2008), pages(671, 680),
+nil)
+
 ############################################################
 # 2017
 
@@ -11568,6 +11575,20 @@ entry!('awasthi2014power',
   title('The power of localization for efficiently learning linear separators with noise'),
   author('Pranjal Awasthi and Maria Florina Balcan and Philip M. Long'),
   stoc(2014), pages(449, 458),
+nil)
+
+entry!('balcan2009agnostic',
+  title('Agnostic clustering'),
+  author('Maria Florina Balcan and Heiko R{\"o}glin and Shang-Hua Teng'),
+  inproceedings('International Conference on Algorithmic Learning Theory', 2009),
+  pages(384, 398),
+nil)
+
+entry!('kushagra2016finding',
+  title('Finding Meaningful Cluster Structure Amidst Background Noise'),
+  author('Shrinu Kushagra and Samira Samadi and Shai Ben-David'),
+  inproceedings('International Conference on Algorithmic Learning Theory', 2016),
+  pages(339,354),
 nil)
 
 entry!('nguyen2013exact',
@@ -12167,13 +12188,55 @@ entry!('minka2001ep',
   uai(2001), pages(362,369),
 nil)
 
+entry!('geyer1995annealing',
+  title('Annealing {M}arkov chain {M}onte {C}arlo with applications to ancestral inference'),
+  author('Charles J. Geyer and Elizabeth A. Thompson'),
+  article('Journal of the American Statistical Association', 1995, 90), pages(909,920),
+  publisher('Taylor \& Francis'),
+nil)
+
+entry!('halpern2011dealing',
+  title('Dealing with logical omniscience: Expressiveness and pragmatics'),
+  author('Joseph Y. Halpern and Riccardo Pucella'),
+  article('Artificial intelligence', 2011, 175),
+  pages(220, 235),
+nil)
+
+entry!('fagin1987belief',
+  title('Belief, awareness, and limited reasoning'),
+  author('Ronald Fagin and Joseph Y. Halpern'),
+  article('Artificial intelligence', 1987, 34),
+  pages(39,76),
+nil)
+
+entry!('hintikka1975impossible',
+  title('Impossible Possible Worlds Vindicated'),
+  author('Jaakko Hintikka'),
+  article('Journal of Philosophical Logic', 1975, 4),
+  number(4),
+nil)
+
+entry!('donoho1992breakdown',
+  title('Breakdown properties of location estimates based on halfspace depth and projected outlyingness'),
+  author('David L. Donoho and Miriam Gasko'),
+  annalsOfStatistics(1992, 20), number(4),
+  pages(1803,1827),
+nil)
+
+entry!('donoho1982breakdown',
+  title('Breakdown properties of multivariate location estimators'),
+  author('David L. Donoho'),
+  type('misc'),
+  howpublished('Ph.D.~qualifying paper'),
+  field('school', 'Department of Statistics, Harvard University'),
+  year(1982),
+nil)
+
 entry!('hampel1968thesis',
   author('Frank R. Hampel'),
   title('Contributions to the theory of robust estimation'),
   phdthesis('University of California at Berkeley', 1968),
 nil)
-
-############################################################
 
 entry!('mussmann2018accuracy',
   title('On the Relationship between Data Efficiency and Error in Active Learning'),
@@ -12186,6 +12249,7 @@ entry!('hashimoto2018repeated',
   title('Fairness Without Demographics in Repeated Loss Minimization'),
   author('Tatsunori B. Hashimoto and Megha Srivastava and Hongseok Namkoong and Percy Liang'),
   icml(2018),
+  url('https://arxiv.org/pdf/1806.08010.pdf'),
   codalab('0x17a501d37bbe49279b0c70ae10813f4c'),
 nil)
 
@@ -12200,6 +12264,8 @@ entry!('chaganty2018evaluation',
   title('The price of debiasing automatic metrics in natural language evaluation'),
   author('Arun Chaganty and Stephen Mussmann and Percy Liang'),
   acl(2018),
+  codalab('0xbda93e6519134c1ab1893ceaa19c8a5c'),
+  url('https://arxiv.org/pdf/1807.02202.pdf'),
 nil)
 
 entry!('rajpurkar2018squadrun',
@@ -12237,6 +12303,7 @@ entry!('guu2018edit',
   title('Generating Sentences by Editing Prototypes'),
   tacl(2018, 0),
   url('http://arxiv.org/pdf/1709.08878.pdf'),
+  codalab('0xa915ba2f8b664ddf8537c83bde80cc8c'),
 nil)
 
 entry!('li2018style',
