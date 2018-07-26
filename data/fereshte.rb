@@ -476,3 +476,24 @@ entry!('zafar2017fairness',
   pages(1171, 1180),
   organization('International World Wide Web Conferences Steering Committee'),
 nil)
+
+entry!('kenney2013mathematics',
+  title('Mathematics of statistics'),
+  author('John Francis Kenney'),
+  book('D. Van Nostrand Company Inc; Toronto; Princeton; New Jersey; London; New York,; Affiliated East-West Press Pvt-Ltd; New Delhi',2013),
+nil)
+
+entry!('kamiran2012data',
+  article('Knowledge and Information Systems', 2012, 33),
+  title('Data preprocessing techniques for classification without discrimination'),
+  author('Faisal Kamiran and Toon Calders'),
+  number(1),
+  pages(1, 33),
+  publisher('Springer'),
+nil)
+
+entry!('agarwal2018reductions',
+  arxiv(2018, '1803.02453'),
+  title('A reductions approach to fair classification'),
+  author('Alekh Agarwal and Alina Beygelzimer and Miroslav Dud{\'\\i}k and John Langford and Hanna Wallach'),
+nil)
