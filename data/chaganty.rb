@@ -355,6 +355,47 @@ entry!('mckeown2005summaries',
   title('Do Summaries Help? A Task-Based Evaluation of Multi-Document Summarization'),
   nil)
 
+entry!('white1994arpa',
+  author("John White and Theresa O'Connell and Francis O'Mara"),
+  inproceedings("First Conference of the Association for Machine Translation in the Americas", 1994),
+  title('The {ARPA} {MT} evaluation methodologies: evaluation, lessons, and future approaches'),
+  nil)
+
+entry!('toutanova2016dataset',
+  author('Kristina Toutanova and Chris Brockett'),
+  emnlp(2016),
+  title('A Dataset and Evaluation Metrics for Abstractive Compression of Sentences and Short Paragraphs'),
+  pages(340, 350),
+  nil)
+
+entry!('culy2003limits',
+  author('Christopher Culy and Susanne Z Riehemann'),
+  inproceedings('MT Summit IX', 2003),
+  title('The Limits of n-gram Translation Evaluation Metrics'),
+  pages(71, 78),
+  nil)
+
+entry!('vanhalteren2003factoid',
+  author('Hans Van Halteren and Simone Teufel'),
+  hltnaacl(2003),
+  title('Examining the consensus between human summaries: initial experiments with factoid analysis'),
+  pages(57, 64),
+  nil)
+
+entry!('kumar2009attribute',
+  author('Neeraj Kumar and Alexander C Berg and Peter N Belhumeur and Shree K Nayar'),
+  iccv(2009),
+  title('Attribute and simile classifiers for face verification'),
+  pages(365, 372),
+  nil)
+
+entry!('casella1990statistical',
+  author('George Casella and Roger L. Berger'),
+  book('Wadsworth and Brooks', 1990),
+  title('Statistical Inference'),
+  nil)
+
+
 #entry!('',
 #  author(''),
 #  inproceedings('', 2015),
