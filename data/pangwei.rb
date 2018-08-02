@@ -892,3 +892,12 @@ entry!('chen2017targeted',
   author('Xinyun Chen and Chang Liu and Bo Li and Kimberly Lu and Dawn Song'),
 nil)
 
+
+entry!('bard1991some',
+  article('Journal of optimization theory and applications', 1991, 68),
+  title('Some properties of the bilevel programming problem'),
+  author('Jonathan F Bard'),
+  number(2),
+  pages(371, 378),
+  publisher('Springer'),
+nil)
