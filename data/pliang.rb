@@ -9410,7 +9410,7 @@ nil)
 
 entry!('vogel2013emergence',
   naacl(2013),
-  title('Emergence of Gricean Maxims from Multi-Agent Decision Theory'),
+  title('Emergence of {Gricean} Maxims from Multi-Agent Decision Theory'),
   author('Adam Vogel and Max Bodoia and Christopher Potts and Daniel Jurafsky'),
   pages(1072, 1081),
 nil)
@@ -10154,15 +10154,6 @@ entry!('young2000probabilistic',
   number(1769),
   pages(1389, 1402),
   publisher('The Royal Society'),
-nil)
-
-entry!('young2013pomdp',
-  article('Proceedings of the IEEE', 2013, 101),
-  title('{POMDP}-based statistical spoken dialog systems: A review'),
-  author('Steve Young and Milica Gašić and Blaise Thomson and Jason D Williams'),
-  number(5),
-  pages(1160, 1179),
-  publisher('IEEE'),
 nil)
 
 entry!('williams2013dialog',
