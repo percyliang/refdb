@@ -867,3 +867,28 @@ entry!('munoz2017towards',
   pages(27, 38),
   organization('ACM'),
 nil)
+
+entry!('suciu2018does',
+  arxiv(2018, '1803.06975'),
+  title('When Does Machine Learning FAIL? Generalized Transferability for Evasion and Poisoning Attacks'),
+  author('Octavian Suciu and Radu M{\u{a}}rginean and Yi{\u{g}}itcan Kaya and Hal Daum{\\\'e} III and Tudor Dumitra{\c{s}}'),
+nil)
+
+entry!('shafahi2018poison',
+  arxiv(2018, '1804.00792'),
+  title('Poison Frogs! Targeted Clean-Label Poisoning Attacks on Neural Networks'),
+  author('Ali Shafahi and W Ronny Huang and Mahyar Najibi and Octavian Suciu and Christoph Studer and Tudor Dumitras and Tom Goldstein'),
+nil)
+
+entry!('gu2017badnets',
+  arxiv(2017, '1708.06733'),
+  title('Badnets: Identifying vulnerabilities in the machine learning model supply chain'),
+  author('Tianyu Gu and Brendan Dolan-Gavitt and Siddharth Garg'),
+nil)
+
+entry!('chen2017targeted',
+  arxiv(2017, '1712.05526'),
+  title('Targeted backdoor attacks on deep learning systems using data poisoning'),
+  author('Xinyun Chen and Chang Liu and Bo Li and Kimberly Lu and Dawn Song'),
+nil)
+

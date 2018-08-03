@@ -236,12 +236,6 @@ entry!('kothari2017outlier',
   arxiv(2017),
 nil)
 
-entry!('balcan2008discriminative',
-  author('Maria-Florina Balcan and Avrim Blum and Santosh Vempala'),
-  title('A discriminative framework for clustering via similarity functions'),
-  stoc(2008),
-nil)
-
 entry!('kothari2017agnostic',
   author('Pravesh Kothari and Jacob Steinhardt'),
   title('Better Agnostic Clustering via Tensor Norms'),

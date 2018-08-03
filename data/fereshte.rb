@@ -212,7 +212,7 @@ nil)
 
 entry!('vogel2013implicatures',
   acl(2013),
-  title('Implicatures and Nested Beliefs in Approximate Decentralized-POMDPs'),
+  title('Implicatures and Nested Beliefs in Approximate Decentralized-{POMDP}s'),
   author('Adam Vogel and Christopher Potts and Dan Jurafsky'),
   pages(74, 80),
 nil)
@@ -303,7 +303,7 @@ nil)
 
 entry!('littman2001value',
   article('Cognitive Systems Research', 2001, 2),
-  title('Value-function reinforcement learning in Markov games'),
+  title('Value-function reinforcement learning in {Markov} games'),
   author('Michael L Littman'),
   number(1),
   pages(55, 66),
@@ -461,6 +461,7 @@ entry!('audibert2009exploration',
   publisher('Elsevier'),
 nil)
 
+<<<<<<< HEAD
 entry!('wang2013learning',
   ecml(2013),
   title('Learning to detect patterns of crime'),
@@ -496,4 +497,13 @@ entry!('agarwal2018reductions',
   arxiv(2018, '1803.02453'),
   title('A reductions approach to fair classification'),
   author('Alekh Agarwal and Alina Beygelzimer and Miroslav Dud{\'\\i}k and John Langford and Hanna Wallach'),
+=======
+entry!('young2013pomdp',
+  inproceedings('Proceedings of the IEEE', 2013),
+  title('{POMDP}-based statistical spoken dialog systems: A review'),
+  author('Steve Young and Milica Ga{\v{s}}i{\\\'c} and Blaise Thomson and Jason D Williams'),
+  number(5),
+  pages(1160, 1179),
+  publisher('IEEE'),
+>>>>>>> 462f05d4c096295657d42fb3874d3fcfeaca2a60
 nil)
