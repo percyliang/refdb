@@ -395,10 +395,63 @@ entry!('casella1990statistical',
   title('Statistical Inference'),
   nil)
 
+entry!('recht2018cifar',
+  author('Benjamin Recht and Rebecca Roelofs and Ludwig Schmidt and Vaishaal Shankar'),
+  arxiv(2018),
+  url('http://arxiv.org/abs/1806.00451'),
+  title('Do {CIFAR}-10 Classifiers Generalize to {CIFAR}-10?'),
+  nil)
+
+ entry!('mcclosky2010any',
+   author('David McClosky'),
+   phdthesis('Brown University', 2010),
+   title('Any domain parsing: automatic domain adaptation for natural language parsing'),
+   nil)
+ 
+entry!('foster2011news',
+  author('Jennifer Foster and Ozlem Cetinoglu and Joachim Wagner and Joseph Le Roux and Joakim Nivre and Deirdre Hogan and Josef VanGenabith'),
+  aclijcnlp(2011),
+  title('From news to comment: Resources and benchmarks for parsing the language of {Web} 2.0'),
+  nil)
+
+entry!('branson2017lean',
+  author('Steve Branson and Grant Van Horn and Pietro Perona'),
+  cvpr(2017),
+  title('Lean Crowdsourcing : Combining Humans and Machines in an Online System'),
+  pages(7474,7483),
+  nil)
+
+
+entry!('ahn2004labeling',
+  author('Luis von Ahn and Laura A. Dabbish'),
+  chi(2004),
+  title('Labeling images with a computer game'),
+  nil)
+
+entry!('poesio2013phrase',
+  author('Massimo Poesio and Jon Chamberlain and Udo Kruschwitz and Livio Robaldo and Luca Ducceschi'),
+  ijcai(2013),
+  title('Phrase {D}etectives: Utilizing collective intelligence for internet-scale language resource creation'),
+  nil)
+
+entry!('krishna2016embracing',
+  author('Ranjay Krishna and Kenji Hata and Stephanie Chen and Joshua Kravitz and David A. Shamma and Li Fei-Fei and Michael S. Bernstein'),
+  chi(2016),
+  title('Embracing Error to Enable Rapid Crowdsourcing'),
+  nil)
+
+entry!('christiano2017deep',
+  author('Paul Christiano and Jan Leike and Tom B. Brown and Miljan Martic and Shane Legg and Dario Amodei'),
+  nips(2017),
+  title('Deep Reinforcement Learning from Human Preferences'),
+  nil)
+
+
 
 #entry!('',
 #  author(''),
 #  inproceedings('', 2015),
 #  title(''),
 #  nil)
+#
 #
