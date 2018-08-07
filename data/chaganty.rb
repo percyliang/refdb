@@ -446,7 +446,17 @@ entry!('christiano2017deep',
   title('Deep Reinforcement Learning from Human Preferences'),
   nil)
 
+entry!('stanford2017kbp',
+  author('Arun Tejasvi Chaganty and Ashwin Paranjape and Jason Bolton and Matthew Lamm and Jinhao Lei and Abigail See and Kevin Clark and Yuhao Zhang and Peng Qi and Christopher D Manning'),
+  inproceedings('Text Analytics Conference', 2017),
+  title('Stanford at {TAC} {KBP} 2017: Building a Trilingual Relational Knowledge Graph'),
+  nil)
 
+entry!('mayfield2012evaluating',
+  author('James Mayfield and Tim Finin'),
+  inproceedings('Joint Workshop on Automatic Knowledge Base Construction and Web-scale Knowledge Extraction', 2012),
+  title('Evaluating the quality of a knowledge base populated from text'),
+  nil)
 
 #entry!('',
 #  author(''),
