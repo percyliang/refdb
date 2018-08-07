@@ -12427,3 +12427,9 @@ entry!('tjeng2017verifying',
   title('Verifying Neural Networks with Mixed Integer Programming'),
   author('Vincent Tjeng and Russ Tedrake'),
 nil)
+
+entry!('diakonikolas2018sever',
+  arxiv(2018, '1803.02815'),
+  title('Sever: A Robust Meta-Algorithm for Stochastic Optimization'),
+  author('Ilias Diakonikolas and Gautam Kamath and Daniel M. Kane and Jerry Li and Jacob Steinhardt and Alistair Stewart'),
+nil)
