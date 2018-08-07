@@ -12433,3 +12433,15 @@ entry!('diakonikolas2018sever',
   title('Sever: A Robust Meta-Algorithm for Stochastic Optimization'),
   author('Ilias Diakonikolas and Gautam Kamath and Daniel M. Kane and Jerry Li and Jacob Steinhardt and Alistair Stewart'),
 nil)
+
+entry!('prasad2018robust',
+  title('Robust estimation via robust gradient estimation'),
+  author('Adarsh Prasad and Arun Sai Suggala and Sivaram Balakrishnan and Pradeep Ravikumar'),
+  arxiv(2018, '1802.06485'),
+nil)
+
+entry!('du2017sparse',
+  title('Computationally efficient robust estimation of sparse functionals'),
+  author('Simon S. Du and Sivaraman Balakrishnan and Aarti Singh'),
+  arxiv(2017, '1702.07709'),
+nil)
