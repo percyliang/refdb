@@ -241,3 +241,27 @@ entry!('kothari2017agnostic',
   title('Better Agnostic Clustering via Tensor Norms'),
   arxiv(2017),
 nil)
+
+entry!('huber1964robust',
+  title('Robust estimation of a location parameter'),
+  author('Peter J. Huber'), 
+  article('The Annals of Mathematical Statistics', 1964, 35),
+  number(1),
+  pages(73,101),
+  publisher('Institute of Mathematical Statistics'),
+nil)
+
+entry!('box1953robust',
+  title('Non-normality and tests on variances'),
+  author('George E.P. Box'),
+  article('Biometrika', 1953, 40),
+  pages(318, 335),
+nil)
+
+entry!('newcomb1886generalized',
+  title('A Generalized Theory of the Combination of Observations so as to Obtain the Best Result'),
+  author('Simon Newcomb'),
+  article('American Journal of Mathematics', 1886, 8),
+  number(4), pages(343, 366),
+  publisher('The Johns Hopkins University Press'),
+nil)
