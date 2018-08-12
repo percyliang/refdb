@@ -12234,6 +12234,7 @@ entry!('mussmann2018accuracy',
   author('Stephen Mussmann and Percy Liang'),
   icml(2018),
   url('https://arxiv.org/pdf/1806.06123.pdf'),
+  codalab('0x8ef22fd3cd384029bf1d1cae5b268f2d'),
 nil)
 
 entry!('hashimoto2018repeated',
