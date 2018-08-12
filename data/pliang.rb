@@ -11274,7 +11274,7 @@ entry!('steinhardt2017certified',
 nil)
 
 entry!('hashimoto2017transformation',
-  author('Tatsu Hashimoto and John Duchi and Percy Liang'),
+  author('Tatsunori B. Hashimoto and John Duchi and Percy Liang'),
   title('Unsupervised Transformation Learning via Convex Relaxations'),
   nips(2017),
   url('https://arxiv.org/pdf/1711.02226.pdf'),
@@ -12242,6 +12242,7 @@ entry!('hashimoto2018repeated',
   icml(2018),
   url('https://arxiv.org/pdf/1806.08010.pdf'),
   codalab('0x17a501d37bbe49279b0c70ae10813f4c'),
+  award('Best paper runner up'),
 nil)
 
 entry!('hancock2018babble',
