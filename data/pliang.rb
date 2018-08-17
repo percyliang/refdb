@@ -12447,3 +12447,20 @@ entry!('du2017sparse',
   author('Simon S. Du and Sivaraman Balakrishnan and Aarti Singh'),
   arxiv(2017, '1702.07709'),
 nil)
+
+entry!('barak2016tutorial',
+  title('Proofs, beliefs, and algorithms through the lens of sum-of-squares'),
+  author('Boaz Barak and David Steurer'),
+  type('misc'),
+  howpublished('\url{https://www.sumofsquares.org/public/index.html}'),
+  year(2016),
+nil)
+
+entry!('frenkel2014minkowski',
+  title('Minkowski\'s inequality and sums of squares'),
+  author('P{\\\'e}ter E. Frenkel and P{\\\'e}ter Horv{\\\'a}th'),
+  article('Central European Journal of Mathematics', 2014, 12), 
+  number(3), 
+  pages(510,516),
+  publisher('Springer Vienna'),
+nil)
