@@ -12464,3 +12464,15 @@ entry!('frenkel2014minkowski',
   pages(510,516),
   publisher('Springer Vienna'),
 nil)
+
+entry!('hopkins2018mixture',
+  title('Mixture Models, Robustness, and Sum of Squares Proofs'),
+  author('Samuel B. Hopkins and Jerry Li'),
+  stoc(2018),
+nil)
+
+entry!('diakonikolas2018list',
+  title('List-Decodable Robust Mean Estimation and Learning Mixtures of Spherical {G}aussians'),
+  author('Ilias Diakonikolas and Daniel M. Kane and Alistair Stewart'),
+  stoc(2018),
+nil)  

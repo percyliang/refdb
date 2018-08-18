@@ -230,16 +230,16 @@ entry!('regev2017learning',
   focs(2017),
 nil)
 
-entry!('kothari2017outlier',
+entry!('kothari2018outlier',
   title('Outlier-robust moment-estimation via sum-of-squares'),
   author('Pravesh Kothari and David Steurer'),
-  arxiv(2017),
+  stoc(2018),
 nil)
 
-entry!('kothari2017agnostic',
+entry!('kothari2018agnostic',
   author('Pravesh Kothari and Jacob Steinhardt'),
   title('Better Agnostic Clustering via Tensor Norms'),
-  arxiv(2017),
+  stoc(2018),
 nil)
 
 entry!('huber1964robust',
