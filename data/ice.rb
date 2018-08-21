@@ -225,3 +225,10 @@ entry!('celikyilmaz2014resolving',
   author('Asli \c{C}elikyilmaz and Zhaleh Feizollahi and Dilek Z. Hakkani-T{\"u}r and Ruhi Sarikaya'),
   emnlp(2014),
 nil)
+
+entry!('zarriass2017obtaining',
+  title('Obtaining referential word meanings from visual and distributional information: Experiments on object naming'),
+  author('Sina Zarriai{\ss} and David Schlangen'),
+  acl(2017),
+nil)
+
