@@ -348,8 +348,43 @@ entry!('traum2008multi',
 )
 
 entry!('asher2016catan',
-  title('Discourse Structure and Dialogue Acts in Multiparty Dialogue: the {STAC} Corpus
-'),
+  title('Discourse Structure and Dialogue Acts in Multiparty Dialogue: the {STAC} Corpus'),
   author('Nicholas Asher and Julie Hunter and Mathieu Morey and Farah Benamara and Stergos Afantenos'),
   lrec(2016),
+)
+
+entry!('efstathiou2014catan',
+  title('Learning Non-Cooperative Dialogue Behaviours'),
+  author('Ioannis Efstathiou and Oliver Lemon'),
+  inproceedings('Special Interest Group on Discourse and Dialogue (SIGDIAL)', 2014),
+)
+
+entry!('hiraoka2015trading',
+  title('Reinforcement Learning in Multi-Party Trading Dialog'),
+  author('Takuya Hiraoka and Kallirroi Georgila and Elnaz Nouri and David Traum'),
+  inproceedings('Special Interest Group on Discourse and Dialogue (SIGDIAL)', 2015),
+)
+
+entry!('english2005mixed',
+  title('Learning Mixed Initiative Dialog Strategies by Using Reinforcement Learning on Both Conversants'),
+  author('Michael S. English and Peter A. Heeman'),
+  emnlp(2005),
+)
+
+entry!('brams2003negotiation',
+  title('Negotiation Games: Applying Game Theory to Bargaining and Arbitration'),
+  author('Steven J Brams'),
+  book('Psychology Press', 2003),
+)
+
+entry!('hiraoka2014framing',
+  title('Reinforcement Learning of Cooperative Persuasive Dialogue Policies using Framing'),
+  author('Hiraoka, Takuya and Neubig, Graham and Sakti, Sakriani and Toda, Tomoki and Nakamura, Satoshi'),
+  coling(2014),
+)
+
+entry!('nouri2012cultural',
+  title('A Cultural Decision-making Model for Negotiation based on Inverse Reinforcement Learning'),
+  author('Nouri, Elnaz and Georgila, Kallirroi and Traum, David'),
+  inproceedings('The Annual Meeting of the Cognitive Science Society', 2012),
 )
