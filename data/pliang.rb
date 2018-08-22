@@ -12476,3 +12476,9 @@ entry!('diakonikolas2018list',
   author('Ilias Diakonikolas and Daniel M. Kane and Alistair Stewart'),
   stoc(2018),
 nil)  
+
+entry!('ledoux1991probability',
+  author('Michel Ledoux and Michel Talagrand'),
+  title('Probability in Banach Spaces: Isoperimetry and Processes'),
+  book('Springer Berlin Heidelberg', 1991),
+nil)
