@@ -5996,7 +5996,6 @@ entry!('lasecki2013realtime',
   inproceedings('Conference on Computer Supported Cooperative Work', 2013),
   author("Walter S Lasecki and Young Chol Song and Henry Kautz and Jeffrey P. Bigham"),
   pages(1203, 1212),
-  year(2013),
 nil)
 
 entry!('cheng2015flock',

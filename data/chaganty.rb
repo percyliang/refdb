@@ -458,6 +458,66 @@ entry!('mayfield2012evaluating',
   title('Evaluating the quality of a knowledge base populated from text'),
   nil)
 
+entry!('paek2007toward',
+  author('Tim Paek'),
+  naacl(2007),
+  title('Toward evaluation that leads to best practices: reconciling dialog evaluation in research and industry'),
+  nil)
+
+entry!('plank2011domain',
+  author('Barbara Plank'),
+  phdthesis('University of Groningen', 2011),
+  title('Domain adaptation for parsing'),
+  nil)
+
+
+entry!('weiss2016survey',
+  author('Karl Weiss and Taghi M Khoshgoftaar and DingDing Wang'),
+  article('Journal of Big Data', 2016, 3),
+  title('A survey of transfer learning'),
+  nil)
+
+entry!('pierce1970whither',
+  author('J. R. Pierce'),
+  article('Journal of the Acoustical Society of America', 1970, 47),
+  pages(1616, 1617),
+  title('Whither Speech Recognition?'),
+  nil)
+
+entry!('salton1965smart',
+  author('Gerard Salton and Michael E. Lesk'),
+  title('The {SMART} automatic document retrieval systems—an illustration'),
+  pages(391, 398),
+  article('Communications of the ACM', 1965, 8), number(6), 
+  nil)
+
+entry!('cleverdon1962report',
+  author('Cyril W. Cleverdon'),
+  title('Report on the testing and analysis of an investigation into the comparative efficiency of indexing systems'),
+  inproceedings('{ASLIB}', 1962),
+  nil)
+
+entry!('cleverdon1967cranfield',
+  author('Cyril W. Cleverdon'),
+  title('The Cranfield tests on index language devices'),
+  inproceedings('{ASLIB}', 1967),
+  nil)
+
+entry!('harman1992overview',
+       author('D. K. Harman'),
+       title('Overview of the first {TREC} Text Retrieval Conference'),
+       inproceedings('Text Retrieval Conference', 1992),
+       nil)
+
+entry!('voorhees2007trec',
+  author('Ellen M. Voorhees '),
+  pages(51, 54),
+  article('Communications of the ACM', 2007, 50), number(11), 
+  title("TREC: Continuing Information Retrieval's Tradition of Experimentation"),
+  nil)
+
+
+
 #entry!('',
 #  author(''),
 #  inproceedings('', 2015),
