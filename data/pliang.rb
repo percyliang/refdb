@@ -11273,7 +11273,7 @@ entry!('steinhardt2017certified',
 nil)
 
 entry!('hashimoto2017transformation',
-  author('Tatsu Hashimoto and John Duchi and Percy Liang'),
+  author('Tatsunori B. Hashimoto and John Duchi and Percy Liang'),
   title('Unsupervised Transformation Learning via Convex Relaxations'),
   nips(2017),
   url('https://arxiv.org/pdf/1711.02226.pdf'),
@@ -12233,6 +12233,7 @@ entry!('mussmann2018accuracy',
   author('Stephen Mussmann and Percy Liang'),
   icml(2018),
   url('https://arxiv.org/pdf/1806.06123.pdf'),
+  codalab('0x8ef22fd3cd384029bf1d1cae5b268f2d'),
 nil)
 
 entry!('hashimoto2018repeated',
@@ -12241,6 +12242,7 @@ entry!('hashimoto2018repeated',
   icml(2018),
   url('https://arxiv.org/pdf/1806.08010.pdf'),
   codalab('0x17a501d37bbe49279b0c70ae10813f4c'),
+  award('Best paper runner up'),
 nil)
 
 entry!('hancock2018babble',
@@ -12443,4 +12445,39 @@ entry!('du2017sparse',
   title('Computationally efficient robust estimation of sparse functionals'),
   author('Simon S. Du and Sivaraman Balakrishnan and Aarti Singh'),
   arxiv(2017, '1702.07709'),
+nil)
+
+entry!('barak2016tutorial',
+  title('Proofs, beliefs, and algorithms through the lens of sum-of-squares'),
+  author('Boaz Barak and David Steurer'),
+  type('misc'),
+  howpublished('\url{https://www.sumofsquares.org/public/index.html}'),
+  year(2016),
+nil)
+
+entry!('frenkel2014minkowski',
+  title('Minkowski\'s inequality and sums of squares'),
+  author('P{\\\'e}ter E. Frenkel and P{\\\'e}ter Horv{\\\'a}th'),
+  article('Central European Journal of Mathematics', 2014, 12), 
+  number(3), 
+  pages(510,516),
+  publisher('Springer Vienna'),
+nil)
+
+entry!('hopkins2018mixture',
+  title('Mixture Models, Robustness, and Sum of Squares Proofs'),
+  author('Samuel B. Hopkins and Jerry Li'),
+  stoc(2018),
+nil)
+
+entry!('diakonikolas2018list',
+  title('List-Decodable Robust Mean Estimation and Learning Mixtures of Spherical {G}aussians'),
+  author('Ilias Diakonikolas and Daniel M. Kane and Alistair Stewart'),
+  stoc(2018),
+nil)  
+
+entry!('ledoux1991probability',
+  author('Michel Ledoux and Michel Talagrand'),
+  title('Probability in Banach Spaces: Isoperimetry and Processes'),
+  book('Springer Berlin Heidelberg', 1991),
 nil)
