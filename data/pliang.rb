@@ -12482,3 +12482,16 @@ entry!('ledoux1991probability',
   title('Probability in Banach Spaces: Isoperimetry and Processes'),
   book('Springer Berlin Heidelberg', 1991),
 nil)
+
+
+entry!('leek2010tackling',
+  title('Tackling the widespread and critical impact of batch effects in high-throughput data'),
+  author('Jeffrey T. Leek and Robert B. Scharpf and H{\\\'e}ctor Corrada Bravo and David Simcha and Benjamin Langmead and W. Evan Johnson and Donald Geman and Keith Baggerly and Rafael A. Irizarry'),
+  article('Nature Reviews Genetics', 2010, 11), number(10),
+nil)
+
+entry!('johnson2007adjusting',
+  title('Adjusting batch effects in microarray expression data using empirical {B}ayes methods'),
+  author('W. Evan Johnson and Cheng Li and Ariel Rabinovic'),
+  article('Biostatistics', 2007, 8), pages(118, 127),
+nil)
