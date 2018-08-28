@@ -12250,6 +12250,7 @@ entry!('hancock2018babble',
   author('Braden Hancock and Paroma Varma and Stephanie Wang and Martin Bringmann and Percy Liang and Christopher Ré'),
   acl(2018),
   url('https://arxiv.org/pdf/1805.03818.pdf'),
+  codalab('0x900e7e41deaa4ec5b2fe41dc50594548'),
 nil)
 
 entry!('chaganty2018evaluation',
