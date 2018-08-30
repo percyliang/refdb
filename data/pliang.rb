@@ -12495,3 +12495,9 @@ entry!('johnson2007adjusting',
   author('W. Evan Johnson and Cheng Li and Ariel Rabinovic'),
   article('Biostatistics', 2007, 8), pages(118, 127),
 nil)
+
+entry!('mckenzie2018robust',
+  author('Theo McKenzie and Hermish Mehta and Luca Trevisan'),
+  title('A New Algorithm for the Robust Semi-Random Independent Set Problem'),
+  arxiv(2018),
+nil)
