@@ -859,3 +859,45 @@ entry!('goodpaster2006loss',
   pages(1059, 1064),
   publisher('Oxford University Press'),
 nil)
+
+entry!('munoz2017towards',
+  inproceedings('Proceedings of the 10th ACM Workshop on Artificial Intelligence and Security', 2017),
+  title('Towards poisoning of deep learning algorithms with back-gradient optimization'),
+  author('Luis Mu{\~n}oz-Gonz{\\\'a}lez and Battista Biggio and Ambra Demontis and Andrea Paudice and Vasin Wongrassamee and Emil C Lupu and Fabio Roli'),
+  pages(27, 38),
+  organization('ACM'),
+nil)
+
+entry!('suciu2018does',
+  arxiv(2018, '1803.06975'),
+  title('When Does Machine Learning FAIL? Generalized Transferability for Evasion and Poisoning Attacks'),
+  author('Octavian Suciu and Radu M{\u{a}}rginean and Yi{\u{g}}itcan Kaya and Hal Daum{\\\'e} III and Tudor Dumitra{\c{s}}'),
+nil)
+
+entry!('shafahi2018poison',
+  arxiv(2018, '1804.00792'),
+  title('Poison Frogs! Targeted Clean-Label Poisoning Attacks on Neural Networks'),
+  author('Ali Shafahi and W Ronny Huang and Mahyar Najibi and Octavian Suciu and Christoph Studer and Tudor Dumitras and Tom Goldstein'),
+nil)
+
+entry!('gu2017badnets',
+  arxiv(2017, '1708.06733'),
+  title('Badnets: Identifying vulnerabilities in the machine learning model supply chain'),
+  author('Tianyu Gu and Brendan Dolan-Gavitt and Siddharth Garg'),
+nil)
+
+entry!('chen2017targeted',
+  arxiv(2017, '1712.05526'),
+  title('Targeted backdoor attacks on deep learning systems using data poisoning'),
+  author('Xinyun Chen and Chang Liu and Bo Li and Kimberly Lu and Dawn Song'),
+nil)
+
+
+entry!('bard1991some',
+  article('Journal of optimization theory and applications', 1991, 68),
+  title('Some properties of the bilevel programming problem'),
+  author('Jonathan F Bard'),
+  number(2),
+  pages(371, 378),
+  publisher('Springer'),
+nil)

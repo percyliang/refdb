@@ -174,6 +174,7 @@ entry!('shao2017generating',
   title('Generating High-Quality and Informative Conversation Responses with Sequence-to-Sequence Models'),
   author('Louis Shao and Stephan Gouws and Denny Britz and Anna Goldie and Brian Strope and Ray Kurzweil'),
   emnlp(2017),
+  pages(2210, 2219),
 nil)
 
 entry!('gehring2017convolutional',
@@ -199,6 +200,7 @@ entry!('kalchbrenner2013recurrent',
   emnlp(2013),
   title('Recurrent Continuous Translation Models'),
   author('Nal Kalchbrenner and Phil Blunsom'),
+  pages(1700, 1709),
 nil)
 
 entry!('koehn2007moses',

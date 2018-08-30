@@ -3513,7 +3513,7 @@ entry!('fellbaum1998wordnet',
 nil)
 
 entry!('mikolov2013efficient',
-  arxiv(2013),
+  arxiv(2013, '1301.3781'),
   title('Efficient Estimation of Word Representations in Vector Space'),
   url('http://arxiv.org/pdf/1301.3781v3.pdf'),
   author('Tomas Mikolov and Kai Chen and Greg Corrado and Jeffrey'),
@@ -5996,7 +5996,6 @@ entry!('lasecki2013realtime',
   inproceedings('Conference on Computer Supported Cooperative Work', 2013),
   author("Walter S Lasecki and Young Chol Song and Henry Kautz and Jeffrey P. Bigham"),
   pages(1203, 1212),
-  year(2013),
 nil)
 
 entry!('cheng2015flock',
@@ -7304,8 +7303,9 @@ nil)
 
 entry!('pennington2014glove',
   emnlp(2014),
-  title('Glove: Global vectors for word representation'),
+  title('Glo{V}e: Global Vectors for word representation'),
   author('Jeffrey Pennington and Richard Socher and Christopher D Manning'),
+  pages(1532, 1543),
 nil)
 
 entry!('niculescu2005predicting',
@@ -9353,7 +9353,7 @@ nil)
 entry!('kingma2014variational',
   author('Diederik P. Kingma and Max Welling'),
   title('Auto-Encoding Variational {B}ayes'),
-  arxiv(2014),
+  arxiv(2014, '1312.6114'),
 nil)
 
 entry!('zhang2015character',
@@ -9409,7 +9409,7 @@ nil)
 
 entry!('vogel2013emergence',
   naacl(2013),
-  title('Emergence of Gricean Maxims from Multi-Agent Decision Theory'),
+  title('Emergence of {Gricean} Maxims from Multi-Agent Decision Theory'),
   author('Adam Vogel and Max Bodoia and Christopher Potts and Daniel Jurafsky'),
   pages(1072, 1081),
 nil)
@@ -10153,15 +10153,6 @@ entry!('young2000probabilistic',
   number(1769),
   pages(1389, 1402),
   publisher('The Royal Society'),
-nil)
-
-entry!('young2013pomdp',
-  article('Proceedings of the IEEE', 2013, 101),
-  title('{POMDP}-based statistical spoken dialog systems: A review'),
-  author('Steve Young and Milica Gašić and Blaise Thomson and Jason D Williams'),
-  number(5),
-  pages(1160, 1179),
-  publisher('IEEE'),
 nil)
 
 entry!('williams2013dialog',
@@ -11264,6 +11255,12 @@ entry!('steinhardt2009coloring',
   article('Electronic Journal of Combinatorics', 2009, 16),
 nil)
 
+entry!('balcan2008discriminative',
+  title('A discriminative framework for clustering via similarity functions'),
+  author('Maria-Florina Balcan and Avrim Blum and Santosh Vempala'),
+  stoc(2008), pages(671, 680),
+nil)
+
 ############################################################
 # 2017
 
@@ -11272,13 +11269,15 @@ entry!('steinhardt2017certified',
   title('Certified Defenses for Data Poisoning Attacks'),
   nips(2017),
   url('http://arxiv.org/pdf/1706.03691.pdf'),
+  codalab('0xbdd35bdd83b14f6287b24c9418983617'),
 nil)
 
 entry!('hashimoto2017transformation',
-  author('Tatsu Hashimoto and John Duchi and Percy Liang'),
+  author('Tatsunori B. Hashimoto and John Duchi and Percy Liang'),
   title('Unsupervised Transformation Learning via Convex Relaxations'),
   nips(2017),
   url('https://arxiv.org/pdf/1711.02226.pdf'),
+  codalab('0x4412d72b55df47e5b457dacdba91f105'),
 nil)
 
 entry!('sharan2017overcomplete',
@@ -11566,6 +11565,20 @@ entry!('awasthi2014power',
   title('The power of localization for efficiently learning linear separators with noise'),
   author('Pranjal Awasthi and Maria Florina Balcan and Philip M. Long'),
   stoc(2014), pages(449, 458),
+nil)
+
+entry!('balcan2009agnostic',
+  title('Agnostic clustering'),
+  author('Maria Florina Balcan and Heiko R{\"o}glin and Shang-Hua Teng'),
+  inproceedings('International Conference on Algorithmic Learning Theory', 2009),
+  pages(384, 398),
+nil)
+
+entry!('kushagra2016finding',
+  title('Finding Meaningful Cluster Structure Amidst Background Noise'),
+  author('Shrinu Kushagra and Samira Samadi and Shai Ben-David'),
+  inproceedings('International Conference on Algorithmic Learning Theory', 2016),
+  pages(339,354),
 nil)
 
 entry!('nguyen2013exact',
@@ -12165,24 +12178,71 @@ entry!('minka2001ep',
   uai(2001), pages(362,369),
 nil)
 
+entry!('geyer1995annealing',
+  title('Annealing {M}arkov chain {M}onte {C}arlo with applications to ancestral inference'),
+  author('Charles J. Geyer and Elizabeth A. Thompson'),
+  article('Journal of the American Statistical Association', 1995, 90), pages(909,920),
+  publisher('Taylor \& Francis'),
+nil)
+
+entry!('halpern2011dealing',
+  title('Dealing with logical omniscience: Expressiveness and pragmatics'),
+  author('Joseph Y. Halpern and Riccardo Pucella'),
+  article('Artificial intelligence', 2011, 175),
+  pages(220, 235),
+nil)
+
+entry!('fagin1987belief',
+  title('Belief, awareness, and limited reasoning'),
+  author('Ronald Fagin and Joseph Y. Halpern'),
+  article('Artificial intelligence', 1987, 34),
+  pages(39,76),
+nil)
+
+entry!('hintikka1975impossible',
+  title('Impossible Possible Worlds Vindicated'),
+  author('Jaakko Hintikka'),
+  article('Journal of Philosophical Logic', 1975, 4),
+  number(4),
+nil)
+
+entry!('donoho1992breakdown',
+  title('Breakdown properties of location estimates based on halfspace depth and projected outlyingness'),
+  author('David L. Donoho and Miriam Gasko'),
+  annalsOfStatistics(1992, 20), number(4),
+  pages(1803,1827),
+nil)
+
+entry!('donoho1982breakdown',
+  title('Breakdown properties of multivariate location estimators'),
+  author('David L. Donoho'),
+  type('misc'),
+  howpublished('Ph.D.~qualifying paper'),
+  field('school', 'Department of Statistics, Harvard University'),
+  year(1982),
+nil)
+
 entry!('hampel1968thesis',
   author('Frank R. Hampel'),
   title('Contributions to the theory of robust estimation'),
   phdthesis('University of California at Berkeley', 1968),
 nil)
 
-############################################################
-
 entry!('mussmann2018accuracy',
   title('On the Relationship between Data Efficiency and Error in Active Learning'),
   author('Stephen Mussmann and Percy Liang'),
   icml(2018),
+  url('https://arxiv.org/pdf/1806.06123.pdf'),
+  codalab('0x8ef22fd3cd384029bf1d1cae5b268f2d'),
 nil)
 
 entry!('hashimoto2018repeated',
   title('Fairness Without Demographics in Repeated Loss Minimization'),
   author('Tatsunori B. Hashimoto and Megha Srivastava and Hongseok Namkoong and Percy Liang'),
   icml(2018),
+  url('https://arxiv.org/pdf/1806.08010.pdf'),
+  codalab('0x17a501d37bbe49279b0c70ae10813f4c'),
+  award('Best paper runner up'),
 nil)
 
 entry!('hancock2018babble',
@@ -12190,19 +12250,24 @@ entry!('hancock2018babble',
   author('Braden Hancock and Paroma Varma and Stephanie Wang and Martin Bringmann and Percy Liang and Christopher Ré'),
   acl(2018),
   url('https://arxiv.org/pdf/1805.03818.pdf'),
+  codalab('0x900e7e41deaa4ec5b2fe41dc50594548'),
 nil)
 
 entry!('chaganty2018evaluation',
   title('The price of debiasing automatic metrics in natural language evaluation'),
   author('Arun Chaganty and Stephen Mussmann and Percy Liang'),
   acl(2018),
+  codalab('0xbda93e6519134c1ab1893ceaa19c8a5c'),
+  url('https://arxiv.org/pdf/1807.02202.pdf'),
 nil)
 
 entry!('rajpurkar2018squadrun',
   title('Know What You Don\'t Know: Unanswerable Questions for {SQuAD}'),
   author('Pranav Rajpurkar and Robin Jia and Percy Liang'),
   acl(2018),
-  note('Short paper.'),
+  award('Best short paper award'),
+  url('https://arxiv.org/pdf/1806.03822.pdf'),
+  codalab('0x9a15a170809f4e2cb7940e1f256dee55'),
 nil)
 
 entry!('selsam2018sat',
@@ -12218,11 +12283,20 @@ entry!('mussmann2018gbs',
   url('https://arxiv.org/pdf/1802.09751.pdf'),
 nil)
 
+entry!('khani2018pip',
+  title('Planning, Inference and Pragmatics in Sequential Language Games'),
+  author('Fereshte Khani and Noah D. Goodman and Percy Liang'),
+  tacl(2018, 0),
+  url('https://arxiv.org/pdf/1805.11774.pdf'),
+  codalab('0x052129c7afa9498481185b553d23f0f9'),
+nil)
+
 entry!('guu2018edit',
   author('Kelvin Guu and Tatsunori B. Hashimoto and Yonatan Oren and Percy Liang'),
   title('Generating Sentences by Editing Prototypes'),
   tacl(2018, 0),
   url('http://arxiv.org/pdf/1709.08878.pdf'),
+  codalab('0xa915ba2f8b664ddf8537c83bde80cc8c'),
 nil)
 
 entry!('li2018style',
@@ -12230,6 +12304,7 @@ entry!('li2018style',
   title('Delete, Retrieve, Generate: A Simple Approach to Sentiment and Style Transfer'),
   naacl(2018),
   url('https://arxiv.org/pdf/1804.06437.pdf'),
+  codalab('0xe3eb416773ed4883bb737662b31b4948'),
 nil)
 
 entry!('liu2018workflow',
@@ -12244,6 +12319,7 @@ entry!('raghunathan2018certified',
   title('Certified defenses against adversarial examples'),
   iclr(2018),
   url('https://arxiv.org/pdf/1801.09344.pdf'),
+  codalab('0xa21e794020bb474d8804ec7bc0543f52'),
 nil)
 
 entry!('bastani2018active',
@@ -12352,4 +12428,70 @@ entry!('tjeng2017verifying',
   arxiv(2017, '1711.07356'),
   title('Verifying Neural Networks with Mixed Integer Programming'),
   author('Vincent Tjeng and Russ Tedrake'),
+nil)
+
+entry!('diakonikolas2018sever',
+  arxiv(2018, '1803.02815'),
+  title('Sever: A Robust Meta-Algorithm for Stochastic Optimization'),
+  author('Ilias Diakonikolas and Gautam Kamath and Daniel M. Kane and Jerry Li and Jacob Steinhardt and Alistair Stewart'),
+nil)
+
+entry!('prasad2018robust',
+  title('Robust estimation via robust gradient estimation'),
+  author('Adarsh Prasad and Arun Sai Suggala and Sivaram Balakrishnan and Pradeep Ravikumar'),
+  arxiv(2018, '1802.06485'),
+nil)
+
+entry!('du2017sparse',
+  title('Computationally efficient robust estimation of sparse functionals'),
+  author('Simon S. Du and Sivaraman Balakrishnan and Aarti Singh'),
+  arxiv(2017, '1702.07709'),
+nil)
+
+entry!('barak2016tutorial',
+  title('Proofs, beliefs, and algorithms through the lens of sum-of-squares'),
+  author('Boaz Barak and David Steurer'),
+  type('misc'),
+  howpublished('\url{https://www.sumofsquares.org/public/index.html}'),
+  year(2016),
+nil)
+
+entry!('frenkel2014minkowski',
+  title('Minkowski\'s inequality and sums of squares'),
+  author('P{\\\'e}ter E. Frenkel and P{\\\'e}ter Horv{\\\'a}th'),
+  article('Central European Journal of Mathematics', 2014, 12), 
+  number(3), 
+  pages(510,516),
+  publisher('Springer Vienna'),
+nil)
+
+entry!('hopkins2018mixture',
+  title('Mixture Models, Robustness, and Sum of Squares Proofs'),
+  author('Samuel B. Hopkins and Jerry Li'),
+  stoc(2018),
+nil)
+
+entry!('diakonikolas2018list',
+  title('List-Decodable Robust Mean Estimation and Learning Mixtures of Spherical {G}aussians'),
+  author('Ilias Diakonikolas and Daniel M. Kane and Alistair Stewart'),
+  stoc(2018),
+nil)  
+
+entry!('ledoux1991probability',
+  author('Michel Ledoux and Michel Talagrand'),
+  title('Probability in Banach Spaces: Isoperimetry and Processes'),
+  book('Springer Berlin Heidelberg', 1991),
+nil)
+
+
+entry!('leek2010tackling',
+  title('Tackling the widespread and critical impact of batch effects in high-throughput data'),
+  author('Jeffrey T. Leek and Robert B. Scharpf and H{\\\'e}ctor Corrada Bravo and David Simcha and Benjamin Langmead and W. Evan Johnson and Donald Geman and Keith Baggerly and Rafael A. Irizarry'),
+  article('Nature Reviews Genetics', 2010, 11), number(10),
+nil)
+
+entry!('johnson2007adjusting',
+  title('Adjusting batch effects in microarray expression data using empirical {B}ayes methods'),
+  author('W. Evan Johnson and Cheng Li and Ariel Rabinovic'),
+  article('Biostatistics', 2007, 8), pages(118, 127),
 nil)

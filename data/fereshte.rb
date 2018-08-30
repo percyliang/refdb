@@ -212,7 +212,7 @@ nil)
 
 entry!('vogel2013implicatures',
   acl(2013),
-  title('Implicatures and Nested Beliefs in Approximate Decentralized-POMDPs'),
+  title('Implicatures and Nested Beliefs in Approximate Decentralized-{POMDP}s'),
   author('Adam Vogel and Christopher Potts and Dan Jurafsky'),
   pages(74, 80),
 nil)
@@ -303,7 +303,7 @@ nil)
 
 entry!('littman2001value',
   article('Cognitive Systems Research', 2001, 2),
-  title('Value-function reinforcement learning in Markov games'),
+  title('Value-function reinforcement learning in {Markov} games'),
   author('Michael L Littman'),
   number(1),
   pages(55, 66),
@@ -441,4 +441,68 @@ entry!('hawkins2015conducting',
   number(4),
   pages(966, 976),
   publisher('Springer'),
+nil)
+
+entry!('bennett1962probability',
+  jasa(1962, 57),
+  title('Probability inequalities for the sum of independent random variables'),
+  author('George Bennett'),
+  number(297),
+  pages(33, 45),
+  publisher('Taylor \& Francis'),
+nil)
+
+entry!('audibert2009exploration',
+  article('Theoretical Computer Science', 2009, 410),
+  title('Exploration--exploitation tradeoff using variance estimates in multi-armed bandits'),
+  author('Jean-Yves Audibert and R{\'e}mi Munos and Csaba Szepesv{\'a}ri'),
+  number(19),
+  pages(1876, 1902),
+  publisher('Elsevier'),
+nil)
+
+entry!('wang2013learning',
+  ecml(2013),
+  title('Learning to detect patterns of crime'),
+  author('Tong Wang and Cynthia Rudin and Daniel Wagner and Rich Sevieri'),
+  pages(515, 530),
+  organization('Springer'),
+nil)
+
+entry!('zafar2017fairness',
+  www(2017),
+  title('Fairness beyond disparate treatment \& disparate impact: Learning classification without disparate mistreatment'),
+  author('Muhammad Bilal Zafar and Isabel Valera and Manuel Gomez Rodriguez and Krishna P Gummadi'),
+  pages(1171, 1180),
+  organization('International World Wide Web Conferences Steering Committee'),
+nil)
+
+entry!('kenney2013mathematics',
+  title('Mathematics of statistics'),
+  author('John Francis Kenney'),
+  book('D. Van Nostrand Company Inc; Toronto; Princeton; New Jersey; London; New York,; Affiliated East-West Press Pvt-Ltd; New Delhi',2013),
+nil)
+
+entry!('kamiran2012data',
+  article('Knowledge and Information Systems', 2012, 33),
+  title('Data preprocessing techniques for classification without discrimination'),
+  author('Faisal Kamiran and Toon Calders'),
+  number(1),
+  pages(1, 33),
+  publisher('Springer'),
+nil)
+
+entry!('agarwal2018reductions',
+  arxiv(2018, '1803.02453'),
+  title('A reductions approach to fair classification'),
+  author('Alekh Agarwal and Alina Beygelzimer and Miroslav Dud{\'\\i}k and John Langford and Hanna Wallach'),
+nil)
+
+entry!('young2013pomdp',
+  inproceedings('Proceedings of the IEEE', 2013),
+  title('{POMDP}-based statistical spoken dialog systems: A review'),
+  author('Steve Young and Milica Ga{\v{s}}i{\\\'c} and Blaise Thomson and Jason D Williams'),
+  number(5),
+  pages(1160, 1179),
+  publisher('IEEE'),
 nil)

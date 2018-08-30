@@ -48,7 +48,7 @@ entry!('alexandrescu2009graph',
 
 entry!('agirre2014semeval',
        author('Eneko Agirre and Carmen Banea and Claire Cardie and Daniel M Cer and Mona T Diab and Aitor Gonzalez-Agirre and Weiwei Guo and Rada Mihalcea and German Rigau and Janyce Wiebe'),
-       title('SemEval-2014 Task 10: Multilingual Semantic Textual Similarity'),
+       title('Sem{E}val-2014 {T}ask 10: Multilingual Semantic Textual Similarity'),
        coling(2014),
        pages(81,91),
        nil)
@@ -87,13 +87,13 @@ entry!('hashimoto2016word',
 
 entry!('heafield2013scalable',
        author('Kenneth Heafield and Ivan Pouzyrevsky and Jonathan H. Clark and Philipp Koehn'),
-       title(' Scalable Modified Kneser-Ney Language Model Estimation'),
+       title(' Scalable Modified {K}neser-{N}ey Language Model Estimation'),
        acl(2013),
        pages(690, 696),
        nil)
 
 entry!('yelp2017yelp',
-       title('Yelp Dataset Challenge'),
+       title('Yelp {D}ataset {C}hallenge, {R}ound 8'),
        author('Yelp'),
        type('misc'),
        howpublished('\url{https://www.yelp.com/dataset_challenge}'),
@@ -122,7 +122,7 @@ entry!('hayes1986writing',
 nil)
 
 entry!('mikolov2013linguistic',
-  inproceedings('hlt-Naacl', 2013),
+  inproceedings('Human Language Technology and North American Association for Computational Linguistics (HLT/NAACL)', 2013),
   title('Linguistic regularities in continuous space word representations'),
   author('Tomas Mikolov and Wen-tau Yih and Geoffrey Zweig'),
   volume(13),
@@ -519,4 +519,28 @@ entry!('allamanis2015bimodal',
   title('Bimodal modelling of source code and natural language'),
   author('Miltos Allamanis and Daniel Tarlow and Andrew Gordon and Yi Wei'),
   pages(2123, 2132),
+nil)
+
+entry!('hu2018does',
+  author('Weihua Hu and Gang Niu and Issei Sato and Masashi Sugiyama'),
+  title('Does Distributionally Robust Supervised Learning Give Robust Classifiers?'),
+  icml(2018),
+nil)
+
+entry!('luo2012regularity',
+  title('Regularity and complexity in dynamical systems'),
+  author('Albert CJ Luo'),
+  book('Springer', 2012),
+nil)
+
+entry!('ensign2017runaway',
+  arxiv(2017, '1706.09847'),
+  title('Runaway feedback loops in predictive policing'),
+  author('Danielle Ensign and Sorelle A Friedler and Scott Neville and Carlos Scheidegger and Suresh Venkatasubramanian'),
+nil)
+
+entry!('fuster2017predictably',
+  title('Predictably Unequal? The Effects of Machine Learning on Credit Markets'),
+  author('Andreas Fuster and Paul Goldsmith-Pinkham and Tarun Ramadorai and Ansgar Walther'),
+  techreport('CEPR Discussion Papers', 2017),
 nil)
