@@ -422,3 +422,168 @@ entry!('chandrasekar1996motivations',
   pages(1041, 1044),
   organization('Association for Computational Linguistics'),
 nil)
+
+entry!('hannun2014deep',
+  arxiv(2014, '1412.5567'),
+  title('Deep speech: Scaling up end-to-end speech recognition'),
+  author('Awni Hannun and Carl Case and Jared Casper and Bryan Catanzaro and Greg Diamos and Erich Elsen and Ryan Prenger and Sanjeev Satheesh and Shubho Sengupta and Adam Coates and others'),
+nil)
+
+entry!('boulanger2012modeling',
+  arxiv(2012, '1206.6392'),
+  title('Modeling temporal dependencies in high-dimensional sequences: Application to polyphonic music generation and transcription'),
+  author('Nicolas Boulanger-Lewandowski and Yoshua Bengio and Pascal Vincent'),
+nil)
+
+entry!('johnson2016perceptual',
+  eccv(2016),
+  title('Perceptual losses for real-time style transfer and super-resolution'),
+  author('Justin Johnson and Alexandre Alahi and Li Fei-Fei'),
+  pages(694, 711),
+  organization('Springer'),
+nil)
+
+entry!('taskar2005learning',
+  inproceedings('Proceedings of the 22nd international conference on Machine learning', 2005),
+  title('Learning structured prediction models: A large margin approach'),
+  author('Ben Taskar and Vassil Chatalbashev and Daphne Koller and Carlos Guestrin'),
+  pages(896, 903),
+  organization('ACM'),
+nil)
+
+entry!('oord2016pixel',
+  arxiv(2016, '1601.06759'),
+  title('Pixel recurrent neural networks'),
+  author('Aaron van den Oord and Nal Kalchbrenner and Koray Kavukcuoglu'),
+nil)
+
+entry!('nivre2003efficient',
+  inproceedings('Proceedings of the 8th International Workshop on Parsing Technologies (IWPT', 2003),
+  title('An efficient algorithm for projective dependency parsing'),
+  author('Joakim Nivre'),
+  organization('Citeseer'),
+nil)
+
+entry!('friedman2001elements',
+  title('The elements of statistical learning'),
+  author('Jerome Friedman and Trevor Hastie and Robert Tibshirani'),
+  volume(1),
+  number(10),
+  year(2001),
+  publisher('Springer series in statistics New York, NY, USA:'),
+  book('Springer series in statistics New York, NY, USA:', 2001),
+nil)
+
+entry!('gelman1995bayesian',
+  title('Bayesian data analysis'),
+  author('Andrew Gelman and John B Carlin and Hal S Stern and Donald B Rubin'),
+  year(1995),
+  book('Chapman and Hall/CRC', 1995),
+  publisher('Chapman and Hall/CRC'),
+nil)
+
+entry!('breiman1977variable',
+  article('Technometrics', 1977, 19),
+  title('Variable kernel estimates of multivariate densities'),
+  author('Leo Breiman and William Meisel and Edward Purcell'),
+  number(2),
+  pages(135, 144),
+  publisher('Taylor \& Francis Group'),
+nil)
+
+entry!('wand1994kernel',
+  title('Kernel smoothing'),
+  author('Matt P Wand and M Chris Jones'),
+  year(1994),
+  publisher('Chapman and Hall/CRC'),
+  book('Chapman and Hall/CRC', 1994),
+nil)
+
+entry!('graves2014neural',
+  arxiv(2014, '1410.5401'),
+  title('Neural turing machines'),
+  author('Alex Graves and Greg Wayne and Ivo Danihelka'),
+nil)
+
+entry!('sutskever2011generating',
+  icml(2011),
+  title('Generating text with recurrent neural networks'),
+  author('Ilya Sutskever and James Martens and Geoffrey E Hinton'),
+  pages(1017, 1024),
+nil)
+
+entry!('graves2013generating',
+  arxiv(2013, '1308.0850'),
+  title('Generating sequences with recurrent neural networks'),
+  author('Alex Graves'),
+nil)
+
+entry!('deemter2005real',
+  computationalLinguistics(2005, 31),
+  title('Real versus template-based natural language generation: A false opposition?'),
+  author('Kees Van Deemter and Mari{\"e}t Theune and Emiel Krahmer'),
+  number(1),
+  pages(15, 24),
+  publisher('MIT Press'),
+nil)
+
+entry!('dvzeroski2004combining',
+  article('Machine learning', 2004, 54),
+  title('Is combining classifiers with stacking better than selecting the best one?'),
+  author('Saso D{\v{z}}eroski and Bernard {\v{Z}}enko'),
+  number(3),
+  pages(255, 273),
+  publisher('Springer'),
+nil)
+
+entry!('vijayakumar2016diverse',
+  arxiv(2016, '1610.02424'),
+  title('Diverse beam search: Decoding diverse solutions from neural sequence models'),
+  author('Ashwin K Vijayakumar and Michael Cogswell and Ramprasath R Selvaraju and Qing Sun and Stefan Lee and David Crandall and Dhruv Batra'),
+nil)
+
+entry!('gimpel2013systematic',
+  emnlp(2013),
+  title('A systematic exploration of diversity in machine translation'),
+  author('Kevin Gimpel and Dhruv Batra and Chris Dyer and Gregory Shakhnarovich'),
+  pages(1100, 1111),
+nil)
+
+entry!('brill1995transformation',
+  article('Computational linguistics', 1995, 21),
+  title('Transformation-based error-driven learning and natural language processing: A case study in part-of-speech tagging'),
+  author('Eric Brill'),
+  number(4),
+  pages(543, 565),
+  publisher('MIT Press'),
+nil)
+
+entry!('marcus1993building',
+  article('Computational linguistics', 1993, 19),
+  title('Building a large annotated corpus of English: The Penn Treebank'),
+  author('Mitchell P Marcus and Mary Ann Marcinkiewicz and Beatrice Santorini'),
+  number(2),
+  pages(313, 330),
+  publisher('MIT Press'),
+nil)
+
+entry!('khandelwal2018sharp',
+  arxiv(2018, '1805.04623'),
+  title('Sharp nearby, fuzzy far away: How neural language models use context'),
+  author('Urvashi Khandelwal and He He and Peng Qi and Dan Jurafsky'),
+nil)
+
+entry!('deb2002fast',
+  article('IEEE transactions on evolutionary computation', 2002, 6),
+  title('A fast and elitist multiobjective genetic algorithm: NSGA-II'),
+  author('Kalyanmoy Deb and Amrit Pratap and Sameer Agarwal and TAMT Meyarivan'),
+  number(2),
+  pages(182, 197),
+  publisher('IEEE'),
+nil)
+
+entry!('abolafia2018neural',
+  arxiv(2018, '1801.03526'),
+  title('Neural Program Synthesis with Priority Queue Training'),
+  author('Daniel A Abolafia and Mohammad Norouzi and Quoc V Le'),
+nil)
