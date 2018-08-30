@@ -560,15 +560,6 @@ entry!('brill1995transformation',
   publisher('MIT Press'),
 nil)
 
-entry!('marcus1993building',
-  article('Computational linguistics', 1993, 19),
-  title('Building a large annotated corpus of English: The Penn Treebank'),
-  author('Mitchell P Marcus and Mary Ann Marcinkiewicz and Beatrice Santorini'),
-  number(2),
-  pages(313, 330),
-  publisher('MIT Press'),
-nil)
-
 entry!('khandelwal2018sharp',
   arxiv(2018, '1805.04623'),
   title('Sharp nearby, fuzzy far away: How neural language models use context'),
@@ -577,7 +568,7 @@ nil)
 
 entry!('deb2002fast',
   article('IEEE transactions on evolutionary computation', 2002, 6),
-  title('A fast and elitist multiobjective genetic algorithm: NSGA-II'),
+  title('A fast and elitist multiobjective genetic algorithm: {NSGA}-{II}'),
   author('Kalyanmoy Deb and Amrit Pratap and Sameer Agarwal and TAMT Meyarivan'),
   number(2),
   pages(182, 197),
