@@ -1,6 +1,24 @@
 ############################################################
 # 2018
 
+entry!('raghunathan2018sdp',
+  title('Semidefinite relaxations for certifying robustness to adversarial examples'),
+  author('Aditi Raghunathan and Jacob Steinhardt and Percy Liang'),
+  nips(2018),
+nil)
+
+entry!('mussmann2018sgd',
+  title('Uncertainty Sampling is Preconditioned Stochastic Gradient Descent on Zero-One Loss'),
+  author('Stephen Mussmann and Percy Liang'),
+  nips(2018),
+nil)
+
+entry!('hashimoto2018edit',
+  title('A Retrieve-and-Edit Framework for Predicting Structured Outputs'),
+  author('Tatsunori Hashimoto and Kelvin Guu and Yonatan Oren and Percy Liang'),
+  nips(2018),
+nil)
+
 entry!('choi2018quac',
   title('QuAC: Question Answering in Context'),
   author('Eunsol Choi and He He and Mohit Iyyer and Mark Yatskar and Wen-tau Yih and Yejin Choi and Percy Liang and Luke Zettlemoyer'),
