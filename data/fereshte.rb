@@ -506,3 +506,11 @@ entry!('young2013pomdp',
   pages(1160, 1179),
   publisher('IEEE'),
 nil)
+
+entry!('calders2009building',
+  inproceedings('Data mining workshops, 2009. ICDMW\'09. IEEE international conference on', 2009),
+  title('Building classifiers with independency constraints'),
+  author('Toon Calders and Faisal Kamiran and Mykola Pechenizkiy'),
+  pages(13, 18),
+  organization('IEEE'),
+nil)
