@@ -514,3 +514,9 @@ entry!('calders2009building',
   pages(13, 18),
   organization('IEEE'),
 nil)
+
+entry!('zliobaite2015relation',
+  arxiv(2015, '1505.05723'),
+  title('On the relation between accuracy and fairness in binary classification'),
+  author('Indre Zliobaite'),
+nil)
