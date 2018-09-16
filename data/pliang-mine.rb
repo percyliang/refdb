@@ -604,19 +604,11 @@ nil)
 ############################################################
 # 2013
 
-entry!('liang2013lambda',
-  arxiv(2013, '1309.4408'),
-  title('Lambda dependency-based compositional semantics'),
-  author('Percy Liang'),
-  url('http://arxiv.org/pdf/1309.4408.pdf'),
-nil)
-
 entry!('liang2013lambdadcs',
   author('Percy Liang'),
   title('Lambda Dependency-Based Compositional Semantics'),
   arxiv(2013, '1309.4408'),
-  url('http://arxiv.org/pdf/1309.4408v2.pdf'),
-  extendedVersion,
+  url('http://arxiv.org/pdf/1309.4408.pdf'),
 nil)
 
 entry!('berant2013freebase',
