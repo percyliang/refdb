@@ -150,8 +150,8 @@ entry!('bastani2018active',
   url('https://arxiv.org/pdf/1711.03239.pdf'),
 nil)
 
-entry!('kakade2018prediction',
-  author('Sham Kakade and Percy Liang and Vatsal Sharan and Gregory Valiant'),
+entry!('sharan2018prediction',
+  author('Vatsal Sharan and Sham Kakade and Percy Liang and Gregory Valiant'),
   title('Prediction with a Short Memory'),
   stoc(2018),
   url('http://arxiv.org/pdf/1612.02526.pdf'),
