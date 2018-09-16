@@ -736,6 +736,13 @@ entry!('liang11minimal',
              'Found this answer using a new machine learning algorithm that exploits this sparsity.'),
 nil)
 
+entry!('golland2010pragmatics',
+  emnlp(2010),
+  author('Dave Golland and Percy Liang and Dan Klein'),
+  title('A Game-theoretic Approach to Generating Spatial Descriptions'),
+  pages(410, 419),
+nil)
+
 entry!('angeli10generation',
   author('Gabor Angeli and Percy Liang and Dan Klein'),
   title('A Simple Domain-Independent Probabilistic Approach to Generation'),
