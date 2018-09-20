@@ -210,3 +210,23 @@ entry!('marthi2005concurrent',
   author('B. Marthi and C. Guestrin'),
   ijcai(2005),
 nil)
+
+entry!('ostrovski2017count',
+  title('Count-based exploration with neural density models'),
+  author('G. Ostrovski and M. G. Bellemare and A. Oord and R. Munos'),
+  icml(2017),
+  pages(2721, 2730),
+nil)
+
+entry!('martin2017count',
+  title('Count-based exploration in feature space for reinforcement learning'),
+  author('J. Martin and S. N. Sasikumar and T. Everitt and M. Hutter'),
+  ijcai(2017),
+nil)
+
+entry!('tang2017exploration',
+  title('\#Exploration: A study of count-based exploration for deep reinforcement learning'),
+  author('H. Tang and R. Houthooft and D. Foote and A. Stooke and X. Chen and Y. Duan and J. Schulman and F. DeTurck and P. Abbeel'),
+  nips(2017),
+  pages(2753, 2762),
+nil)
