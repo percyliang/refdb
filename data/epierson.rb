@@ -46,3 +46,11 @@ entry!('maddison2016concrete',
   title('The concrete distribution: A continuous relaxation of discrete random variables'),
   author('Chris J Maddison and Andriy Mnih and Yee Whye Teh'),
 nil)
+
+entry!('abid2018exploring',
+  article('Nature communications', 2018, 9),
+  title('Exploring patterns enriched in a dataset with contrastive principal component analysis'),
+  author('Abubakar Abid and Martin J Zhang and Vivek K Bagaria and James Zou'),
+  number(1),
+  publisher('Nature Publishing Group'),
+nil)
