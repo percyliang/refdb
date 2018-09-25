@@ -48,7 +48,7 @@ entry!('maddison2016concrete',
 nil)
 
 entry!('abid2018exploring',
-  article('Nature communications', 2018, 9),
+  article('Nature Communications', 2018, 9),
   title('Exploring patterns enriched in a dataset with contrastive principal component analysis'),
   author('Abubakar Abid and Martin J Zhang and Vivek K Bagaria and James Zou'),
   number(1),
