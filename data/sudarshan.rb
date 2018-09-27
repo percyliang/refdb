@@ -155,3 +155,15 @@ entry!('machado2017revisiting',
   author('M. C. Machado and M. G. Bellemare and E. Talvitie and J. Veness and M. Hausknecht and M. Bowling'),
   arxiv(2017, '1709.06009'),
 )
+entry!('talvitie2014model',
+  title('Model Regularization for Stable Sample Rollouts'),
+  author('E. Talvitie'),
+  uai(2014),
+  pages(780, 789),
+)
+entry!('talvitie2017self',
+  title('Self-Correcting Models for Model-Based Reinforcement Learning'),
+  author('E. Talvitie'),
+  aaai(2017),
+  pages(2597, 2603),
+)
