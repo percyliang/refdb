@@ -117,3 +117,15 @@ entry!('oh2018self',
   author('Oh, Junhyuk and Guo, Yijie and Singh, Satinder and Lee, Honglak'),
   arxiv(2018, ':1806.05635'),
 )
+
+entry!('dann2018polynomial',
+  title('On Polynomial Time {PAC} Reinforcement Learning with Rich Observations'),
+  author('Dann, Christoph and Jiang, Nan and Krishnamurthy, Akshay and Agarwal, Alekh and Langford, John and Schapire, Robert E'),
+  arxiv(2018, '1803.00606'),
+)
+
+entry!('jiang2016contextual',
+  title('Contextual decision processes with low Bellman rank are {PAC}-learnable'),
+  author('Jiang, Nan and Krishnamurthy, Akshay and Agarwal, Alekh and Langford, John and Schapire, Robert E'),
+  arxiv(2016, '1610.09512'),
+)
