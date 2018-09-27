@@ -194,10 +194,3 @@ entry!('oh2017value',
   article('Advances in Neural Information Processing Systems', 2017),
   pages(6118, 6128),
 )
-
-entry!('jong2008hierarchical',
-  title('Hierarchical model-based reinforcement learning: {R}-max+ {MAXQ}'),
-  author('N. K. Jong and P. Stone'),
-  article('Proceedings of the 25th international conference on Machine learning', 2008),
-  pages(432, 439),
-)
