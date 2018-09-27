@@ -261,7 +261,7 @@ nil)
 
 entry!('jong2008hierarchical',
   title('Hierarchical model-based reinforcement learning: {R}-max+ MAX{Q}'),
-  author('Jong, Nicholas K and Stone, Peter'),
+  author('N. K. Jong and P. Stone'),
   pages(432, 439),
   icml(2008),
 nil)
