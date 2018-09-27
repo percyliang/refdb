@@ -26,7 +26,6 @@ entry!('silver2017mastering',
   article('Nature', 2017, 550),
   number(7676),
   pages(354, 359),
-  year(2017),
   publisher('Nature Publishing Group'),
 nil)
 
