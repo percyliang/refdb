@@ -129,3 +129,17 @@ entry!('jiang2016contextual',
   author('Jiang, Nan and Krishnamurthy, Akshay and Agarwal, Alekh and Langford, John and Schapire, Robert E'),
   arxiv(2016, '1610.09512'),
 )
+
+entry!('russo2013eluder',
+  title('Eluder dimension and the sample complexity of optimistic exploration'),
+  author('Russo, Daniel and Van Roy, Benjamin'),
+  article('Advances in Neural Information Processing Systems', 2013),
+  pages(2256, 2264),
+)
+
+entry!('wen2013efficient',
+  title('Efficient exploration and value function generalization in deterministic systems'),
+  author('Wen, Zheng and Van Roy, Benjamin'),
+  article('Advances in Neural Information Processing Systems', 2013),
+  pages(3021, 3029),
+)
