@@ -230,3 +230,33 @@ entry!('tang2017exploration',
   nips(2017),
   pages(2753, 2762),
 nil)
+
+entry!('abbeel2006using',
+  title('Using inaccurate models in reinforcement learning'),
+  author('P. Abbeel and M. Quigley and A. Y. Ng'),
+	icml(2006),
+  pages(1, 8),
+nil)
+
+entry!('sutton1990integrated',
+  title('Integrated architectures for learning, planning, and reacting based on approximating dynamic programming'),
+  author('R. S. Sutton'),
+  article('Machine Learning Proceedings', 1990),
+  pages(216, 224),
+  year(1990),
+  publisher('Elsevier'),
+nil)
+
+entry!('zhang2018solar',
+  title('SOLAR: Deep Structured Latent Representations for Model-Based Reinforcement Learning'),
+  author('M. Zhang and S. Vikram and L. Smith and P. Abbeel and M. J. Johnson and S. Levine'),
+	arxiv(2018, '1808.09105'),
+nil)
+
+entry!('nagabandi2018neural',
+  title('Neural network dynamics for model-based deep reinforcement learning with model-free fine-tuning'),
+  author('A. Nagabandi and G. Kahn and R. S. Fearing and S. Levine'),
+	icra(2018),
+  pages(7559, 7566),
+  organization('IEEE'),
+nil)
