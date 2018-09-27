@@ -112,3 +112,8 @@ entry!('keramati2018strategic',
    arxiv(2018, '1806.00175'),
  )
 
+entry!('oh2018self',
+  title('Self-Imitation Learning'),
+  author('Oh, Junhyuk and Guo, Yijie and Singh, Satinder and Lee, Honglak'),
+  arxiv(2018, ':1806.05635'),
+)
