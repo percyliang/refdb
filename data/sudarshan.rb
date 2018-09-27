@@ -99,3 +99,16 @@ entry!('vezhnevets2017feudal',
   arxiv(2017, '1703.01161'),
 )
 
+entry!('kirkpatrick2017overcoming',
+  title('Overcoming catastrophic forgetting in neural networks'),
+  author('Kirkpatrick, James and Pascanu, Razvan and Rabinowitz, Neil and Veness, Joel and Desjardins, Guillaume and Rusu, Andrei A and Milan, Kieran and Quan, John and Ramalho, Tiago and Grabska-Barwinska, Agnieszka and others'),
+  article('Proceedings of the national academy of sciences', 2017),
+  publisher('National Acad Sciences'),
+)
+
+entry!('keramati2018strategic',
+   title('Strategic Object Oriented Reinforcement Learning'),
+   author('Keramati, Ramtin and Whang, Jay and Cho, Patrick and Brunskill, Emma'),
+   arxiv(2018, '1806.00175'),
+ )
+
