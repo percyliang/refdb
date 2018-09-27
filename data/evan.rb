@@ -243,7 +243,6 @@ entry!('sutton1990integrated',
   author('R. S. Sutton'),
   article('Machine Learning Proceedings', 1990),
   pages(216, 224),
-  year(1990),
   publisher('Elsevier'),
 nil)
 
