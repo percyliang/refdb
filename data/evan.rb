@@ -258,3 +258,10 @@ entry!('nagabandi2018neural',
   pages(7559, 7566),
   organization('IEEE'),
 nil)
+
+entry!('jong2008hierarchical',
+  title('Hierarchical model-based reinforcement learning: {R}-max+ MAX{Q}'),
+  author('Jong, Nicholas K and Stone, Peter'),
+  pages(432, 439),
+  icml(2008),
+nil)
