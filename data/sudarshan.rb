@@ -167,3 +167,37 @@ entry!('talvitie2017self',
   aaai(2017),
   pages(2597, 2603),
 )
+
+entry!('nair2010rectified',
+  title('Rectified linear units improve restricted {boltzmann} machines'),
+  author('V. Nair and G. E. Hinton'),
+  icml(2010),
+  pages(807, 814)
+)
+
+entry!('watkins1989learning',
+  title('Learning from delayed rewards'),
+  author('C. Watkins'),
+  article('King\'s College, Cambridge', 1989),
+)
+
+entry!('auer1995gambling',
+  title('Gambling in a rigged casino: The adversarial multi-armed bandit problem'),
+  author('P. Auer and N. Cesa-Bianchi and Y. Freund and R. E. Schapire'),
+  icra(1995),
+  pages(322, 322),
+  organization('IEEE'),
+)
+entry!('oh2017value',
+  title('Value prediction network'),
+  author('J. Oh and S. Singh and H. Lee'),
+  article('Advances in Neural Information Processing Systems', 2017),
+  pages(6118, 6128),
+)
+
+entry!('jong2008hierarchical',
+  title('Hierarchical model-based reinforcement learning: {R}-max+ {MAXQ}'),
+  author('N. K. Jong and P. Stone'),
+  article('Proceedings of the 25th international conference on Machine learning', 2008),
+  pages(432, 439),
+)
