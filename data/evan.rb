@@ -265,3 +265,9 @@ entry!('jong2008hierarchical',
   pages(432, 439),
   icml(2008),
 nil)
+
+entry!('henderson2017deep',
+  title('Deep reinforcement learning that matters'),
+  author('P. Henderson and R. Islam and P. Bachman and J. Pineau and D. Precup and D. Meger'),
+  arxiv(2017, '1709.06560'),
+nil)
