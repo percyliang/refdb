@@ -907,3 +907,11 @@ entry!('wang2018learning',
   title('Learning Deep Hidden Nonlinear Dynamics from Aggregate Data'),
   author('Yisen Wang and Bo Dai and Lingkai Kong and Xingjun Ma and Sarah Monazam Erfani and James Bailey and Shu-Tao Xia and Le Song and Hongyuan Zha'),
 nil)
+
+entry!('wang2014unsupervised',
+  kdd(2014),
+  title('Unsupervised learning of disease progression models'),
+  author('Xiang Wang and David Sontag and Fei Wang'),
+  pages(85, 94),
+  organization('ACM'),
+nil)
