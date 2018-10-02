@@ -901,3 +901,9 @@ entry!('bard1991some',
   pages(371, 378),
   publisher('Springer'),
 nil)
+
+entry!('wang2018learning',
+  uai(2018),
+  title('Learning Deep Hidden Nonlinear Dynamics from Aggregate Data'),
+  author('Yisen Wang and Bo Dai and Lingkai Kong and Xingjun Ma and Sarah Monazam Erfani and James Bailey and Shu-Tao Xia and Le Song and Hongyuan Zha'),
+nil)
