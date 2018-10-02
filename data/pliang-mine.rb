@@ -150,8 +150,8 @@ entry!('bastani2018active',
   url('https://arxiv.org/pdf/1711.03239.pdf'),
 nil)
 
-entry!('kakade2018prediction',
-  author('Sham Kakade and Percy Liang and Vatsal Sharan and Gregory Valiant'),
+entry!('sharan2018prediction',
+  author('Vatsal Sharan and Sham Kakade and Percy Liang and Gregory Valiant'),
   title('Prediction with a Short Memory'),
   stoc(2018),
   url('http://arxiv.org/pdf/1612.02526.pdf'),
@@ -604,19 +604,11 @@ nil)
 ############################################################
 # 2013
 
-entry!('liang2013lambda',
-  arxiv(2013, '1309.4408'),
-  title('Lambda dependency-based compositional semantics'),
-  author('Percy Liang'),
-  url('http://arxiv.org/pdf/1309.4408.pdf'),
-nil)
-
 entry!('liang2013lambdadcs',
   author('Percy Liang'),
   title('Lambda Dependency-Based Compositional Semantics'),
   arxiv(2013, '1309.4408'),
-  url('http://arxiv.org/pdf/1309.4408v2.pdf'),
-  extendedVersion,
+  url('http://arxiv.org/pdf/1309.4408.pdf'),
 nil)
 
 entry!('berant2013freebase',
@@ -734,6 +726,13 @@ entry!('liang11minimal',
   punchlines('Question: how small is the smallest abstraction needed to prove a query?',
              'Empirical answer: very small (less than 2.5% sites need to be treated context-sensitively for k-limited analyses for race detection).',
              'Found this answer using a new machine learning algorithm that exploits this sparsity.'),
+nil)
+
+entry!('golland2010pragmatics',
+  emnlp(2010),
+  author('Dave Golland and Percy Liang and Dan Klein'),
+  title('A Game-theoretic Approach to Generating Spatial Descriptions'),
+  pages(410, 419),
 nil)
 
 entry!('angeli10generation',

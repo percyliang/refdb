@@ -387,14 +387,6 @@ entry!('hawkins2015you',
        title('Why do you ask{? G}ood questions provoke informative answers'),
 nil)
 
-entry!('golland2010pragmatics',
-  emnlp(2010),
-  author('Dave Golland and Percy Liang and Dan Klein'),
-  title('A Game-theoretic Approach to Generating Spatial Descriptions'),
-  pages(410, 419),
-       #publisher('Association for Computational Linguistics'),
-nil)
-
 entry!('zhang2013coordinating',
   inproceedings('Proceedings of the 2013 International Conference on Autonomous Agents and Multi-agent Systems', 2013),
   author('Chongjie Zhang and Victor Lesser'),
