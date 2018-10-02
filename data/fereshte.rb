@@ -513,9 +513,4 @@ entry!('zliobaite2015relation',
   author('Indre Zliobaite'),
 nil)
 
-entry!('propublica',
-  author('Ryan McDonald and Koby Crammer and Fernando Pereira'),
-  title('feri'),
-  url('http://acl.ldc.upenn.edu/P/P05/P05-1012.pdf'),
-nil)
 
