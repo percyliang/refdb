@@ -487,7 +487,7 @@ nil)
 entry!('agarwal2018reductions',
   arxiv(2018, '1803.02453'),
   title('A reductions approach to fair classification'),
-  author('Alekh Agarwal and Alina Beygelzimer and Miroslav Dud{\'\\i}k and John Langford and Hanna Wallach'),
+  author('Alekh Agarwal and Alina Beygelzimer and Miroslav Dud{\\\'\i}k and John Langford and Hanna Wallach'),
 nil)
 
 entry!('young2013pomdp',
@@ -514,3 +514,9 @@ entry!('zliobaite2015relation',
 nil)
 
 
+
+entry!('zhang2016identifying',
+  arxiv(2016, '1611.08292'),
+  title('Identifying significant predictive bias in classifiers'),
+  author('Zhe Zhang and Daniel B Neill'),
+nil)
