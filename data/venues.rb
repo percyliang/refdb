@@ -142,3 +142,6 @@ def icse(year); inproceedings(Name.new('International Conference on Software Eng
 def pldi(year); inproceedings(Name.new('Programming Language Design and Implementation', 'PLDI'), year) end
 def popl(year); inproceedings(Name.new('Principles of Programming Languages', 'POPL'), year) end
 def cav(year); inproceedings(Name.new('Computer Aided Verification', 'CAV'), year) end
+
+# Databases
+def icde(year); inproceedings(Name.new('International Conference on Data Engineering', 'ICDE'), year) end

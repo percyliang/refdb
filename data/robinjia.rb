@@ -66,6 +66,7 @@ entry!('bowman2016continuous',
   author('Samuel R. Bowman and Luke Vilnis and Oriol Vinyals and Andrew M. Dai and Rafal Jozefowicz and Samy Bengio'),
   title('Generating Sentences from a Continuous Space'),
   conll(2016),
+  pages(10, 21),
   url('https://arxiv.org/abs/1511.06349'),
 nil)
 
