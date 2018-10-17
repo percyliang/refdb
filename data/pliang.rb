@@ -11440,7 +11440,7 @@ entry!('papernot2016towards',
 nil)
 
 entry!('gardiner2016security',
-  title('On the Security of Machine Learning in Malware C\&C Detection: A Survey'),
+  title('On the Security of Machine Learning in Malware {C\&C} Detection: A Survey'),
   author('Joseph Gardiner and Shishir Nagaraja'),
   article('ACM Computing Surveys (CSUR)', 2016, 49),
   number(3),
