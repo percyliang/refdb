@@ -915,3 +915,9 @@ entry!('wang2014unsupervised',
   pages(85, 94),
   organization('ACM'),
 nil)
+
+entry!('papernot2018deep',
+  arxiv(2018, '1803.04765'),
+  title('Deep k-nearest neighbors: Towards confident, interpretable and robust deep learning'),
+  author('Nicolas Papernot and Patrick McDaniel'),
+nil)
