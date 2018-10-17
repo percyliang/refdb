@@ -26,7 +26,6 @@ entry!('silver2017mastering',
   article('Nature', 2017, 550),
   number(7676),
   pages(354, 359),
-  year(2017),
   publisher('Nature Publishing Group'),
 nil)
 
@@ -209,4 +208,66 @@ entry!('marthi2005concurrent',
   title('Concurrent hierarchical reinforcement learning'),
   author('B. Marthi and C. Guestrin'),
   ijcai(2005),
+nil)
+
+entry!('ostrovski2017count',
+  title('Count-based exploration with neural density models'),
+  author('G. Ostrovski and M. G. Bellemare and A. Oord and R. Munos'),
+  icml(2017),
+  pages(2721, 2730),
+nil)
+
+entry!('martin2017count',
+  title('Count-based exploration in feature space for reinforcement learning'),
+  author('J. Martin and S. N. Sasikumar and T. Everitt and M. Hutter'),
+  ijcai(2017),
+nil)
+
+entry!('tang2017exploration',
+  title('\#Exploration: A study of count-based exploration for deep reinforcement learning'),
+  author('H. Tang and R. Houthooft and D. Foote and A. Stooke and X. Chen and Y. Duan and J. Schulman and F. DeTurck and P. Abbeel'),
+  nips(2017),
+  pages(2753, 2762),
+nil)
+
+entry!('abbeel2006using',
+  title('Using inaccurate models in reinforcement learning'),
+  author('P. Abbeel and M. Quigley and A. Y. Ng'),
+	icml(2006),
+  pages(1, 8),
+nil)
+
+entry!('sutton1990integrated',
+  title('Integrated architectures for learning, planning, and reacting based on approximating dynamic programming'),
+  author('R. S. Sutton'),
+  article('Machine Learning Proceedings', 1990),
+  pages(216, 224),
+  publisher('Elsevier'),
+nil)
+
+entry!('zhang2018solar',
+  title('SOLAR: Deep Structured Latent Representations for Model-Based Reinforcement Learning'),
+  author('M. Zhang and S. Vikram and L. Smith and P. Abbeel and M. J. Johnson and S. Levine'),
+	arxiv(2018, '1808.09105'),
+nil)
+
+entry!('nagabandi2018neural',
+  title('Neural network dynamics for model-based deep reinforcement learning with model-free fine-tuning'),
+  author('A. Nagabandi and G. Kahn and R. S. Fearing and S. Levine'),
+	icra(2018),
+  pages(7559, 7566),
+  organization('IEEE'),
+nil)
+
+entry!('jong2008hierarchical',
+  title('Hierarchical model-based reinforcement learning: {R}-max+ MAX{Q}'),
+  author('N. K. Jong and P. Stone'),
+  pages(432, 439),
+  icml(2008),
+nil)
+
+entry!('henderson2017deep',
+  title('Deep reinforcement learning that matters'),
+  author('P. Henderson and R. Islam and P. Bachman and J. Pineau and D. Precup and D. Meger'),
+  arxiv(2017, '1709.06560'),
 nil)
