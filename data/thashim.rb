@@ -520,3 +520,37 @@ entry!('allamanis2015bimodal',
   author('Miltos Allamanis and Daniel Tarlow and Andrew Gordon and Yi Wei'),
   pages(2123, 2132),
 nil)
+
+entry!('hayati2018retrieval',
+       emnlp(2018),
+       title('Retrieval-based neural code generation'),
+       author('Shirley Anugrah Hayati and Raphael Olivier and Pravalika Avvaru and Pengcheng Yin and Anthony Tomasic and Graham Neubig'),
+       nil)
+
+entry!('sun2018contextual',
+       arxiv(2018, '1807.06473'),
+       title('Contextual memory trees'),
+       author('Wen Sun and Alina Beygelzimer and Hal Daume and John Langford and Paul Mineiro'),
+       nil)
+
+entry!('shen2018nash',
+       acl(2018),
+       title('NASH: Toward End-to-End Neural Architecture for Generative Semantic Hashing'),
+       author('Dinghan Shen and Qinliang Su and Paidamoyo Chapfuwa and Wenlin Wang and Guoyin Wang and Ricardo Henao and Lawrence Carin'),
+       pages(2041,2050),
+       nil)
+
+entry!('chaidaroon2017variational',
+       sigir(2017),
+       title('Variational Deep Semantic Hashing for Text Documents'),
+       author('Suthee Chaidaroon and Yi Fang'),
+       pages(75, 84),
+       nil)
+
+entry!('goldenshluger1997spatially',
+       article('Mathematical Methods of Statistics', 1997, 6),
+       title('On spatially adaptive estimation of nonparametric regression'),
+       author('Alexander Goldenshluger and Arkadi Nemirovski'),
+       pages(135,170),
+       nil)
+
