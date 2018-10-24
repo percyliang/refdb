@@ -67,7 +67,7 @@ nil)
 
 entry!('pearlmutter1994fast',
   article('Neural Computation', 1994, 6),
-  title('Fast exact multiplication by the Hessian'),
+  title('Fast exact multiplication by the {Hessian}'),
   author('Barak A Pearlmutter'),
   number(1),
   pages(147, 160),
@@ -417,7 +417,7 @@ entry!('gupta2016monotonic',
 nil)
 
 entry!('nakamura1988assessment',
-  article('Mechanisms of ageing and development', 1988, 46),
+  article('Mechanisms of Ageing and Development', 1988, 46),
   title('Assessment of biological age by principal component analysis'),
   author('E Nakamura and K Miyao and T Ozeki'),
   number('1-3'),
@@ -452,7 +452,7 @@ entry!('belsky2015quantification',
 nil)
 
 entry!('sudlow2015uk',
-  article('PLoS medicine', 2015, 12),
+  article('PLoS Medicine', 2015, 12),
   title('{UK Biobank}: an open access resource for identifying the causes of a wide range of complex diseases of middle and old age'),
   author('Cathie Sudlow and John Gallacher and Naomi Allen and Valerie Beral and Paul Burton and John Danesh and Paul Downey and Paul Elliott and Jane Green and Martin Landray and others'),
   number(3),
@@ -488,7 +488,7 @@ nil)
 entry!('bendall2014single',
   article('Cell', 2014, 157),
   title('Single-cell trajectory detection uncovers progression and regulatory coordination in human {B} cell development'),
-  author('Sean C Bendall and Kara L Davis and El-ad David Amir and Michelle D Tadmor and Erin F Simonds and Tiffany J Chen and Daniel K Shenfeld and Garry P Nolan and Dana Pe’er'),
+  author('Sean C Bendall and Kara L Davis and El-ad David Amir and Michelle D Tadmor and Erin F Simonds and Tiffany J Chen and Daniel K Shenfeld and Garry P Nolan and Dana Pe\'er'),
   number(3),
   pages(714, 725),
   publisher('Elsevier'),
@@ -583,7 +583,7 @@ nil)
 
 entry!('hashimoto2016learning',
   icml(2016),
-  title('Learning Population-Level Diffusions with Generative RNNs'),
+  title('Learning Population-Level Diffusions with Generative {RNNs}'),
   author('Tatsunori Hashimoto and David Gifford and Tommi Jaakkola'),
   pages(2417, 2426),
 nil)
@@ -770,4 +770,178 @@ entry!('relethford1978use',
   author('John H Relethford and Francis C Lees and Pamela J Byard'),
   pages(461, 475),
   publisher('JSTOR'),
+nil)
+
+# entry!('euyu2012monomial',
+#   title('A non-negative matrix has a non-negative inverse.'),
+#   author('EuYu'),
+#   type('misc'),
+#   publisher('StackExchange'),
+#   howpublished('\url{https://math.stackexchange.com/questions/214401/}'),
+# nil)
+
+entry!('euyu2012monomial',
+  title('A non-negative matrix has a non-negative inverse. {What} other properties does it have?'),
+  author('EuYu'),
+  type('misc'),
+  publisher('Mathematics Stack Exchange'),
+  year(2012),
+  # howpublished('Mathematics Stack Exchange'),
+  # note('URL:https://math.stackexchange.com/q/214401 (version: 2012-10-15)'),
+  howpublished('\url{https://math.stackexchange.com/q/214401}'),
+nil)
+
+entry!('you2017deep',
+  nips(2017),
+  title('Deep Lattice Networks and Partial Monotonic Functions'),
+  author('Seungil You and David Ding and Kevin Canini and Jan Pfeifer and Maya Gupta'),
+  pages(2985, 2993),
+nil)
+
+entry!('daniels2010monotone',
+  article('IEEE Transactions on Neural Networks', 2010, 21),
+  title('Monotone and partially monotone neural networks'),
+  author('Hennie Daniels and Marina Velikova'),
+  number(6),
+  pages(906, 917),
+  publisher('IEEE'),
+nil)
+
+entry!('qu2011generalized',
+  article('IEEE Transactions on Neural Networks', 2011, 22),
+  title('Generalized constraint neural network regression model subject to linear priors'),
+  author('Ya-Jun Qu and Bao-Gang Hu'),
+  number(12),
+  pages(2447, 2459),
+  publisher('IEEE'),
+nil)
+
+entry!('shively2009bayesian',
+  article('Journal of the Royal Statistical Society: Series B (Statistical Methodology)', 2009, 71),
+  title('A Bayesian approach to non-parametric monotone function estimation'),
+  author('Thomas S Shively and Thomas W Sager and Stephen G Walker'),
+  number(1),
+  pages(159, 175),
+  publisher('Wiley Online Library'),
+nil)
+
+entry!('mozaffarian2011changes',
+  article('New England Journal of Medicine', 2011, 364),
+  title('Changes in diet and lifestyle and long-term weight gain in women and men'),
+  author('Dariush Mozaffarian and Tao Hao and Eric B Rimm and Walter C Willett and Frank B Hu'),
+  number(25),
+  pages(2392, 2404),
+  publisher('Mass Medical Soc'),
+nil)
+
+entry!('hoffmann2015effect',
+  article('Clinical Chemistry and Laboratory Medicine (CCLM)', 2015, 53),
+  title('Effect of age and gender on reference intervals of red blood cell distribution width ({RDW}) and mean red cell volume ({MCV})'),
+  author('Johannes JML Hoffmann and Karin CAM Nabbe and Nicole MA van den Broek'),
+  number(12),
+  publisher('De Gruyter'),
+nil)
+
+entry!('stanojevic2008reference',
+  article('American Journal of Respiratory and Critical Care Medicine', 2008, 177),
+  title('Reference ranges for spirometry across all ages: a new approach'),
+  author('Sanja Stanojevic and Angie Wade and Janet Stocks and John Hankinson and Allan L Coates and Huiqi Pan and Mark Rosenthal and Mary Corey and Patrick Lebecque and Tim J Cole'),
+  number(3),
+  pages(253, 260),
+  publisher('Am Thoracic Soc'),
+nil)
+
+entry!('goodpaster2006loss',
+  article('The Journals of Gerontology Series A: Biological Sciences and Medical Sciences', 2006, 61),
+  title('The loss of skeletal muscle strength, mass, and quality in older adults: the health, aging and body composition study'),
+  author('Bret H Goodpaster and Seok Won Park and Tamara B Harris and Steven B Kritchevsky and Michael Nevitt and Ann V Schwartz and Eleanor M Simonsick and Frances A Tylavsky and Marjolein Visser and Anne B Newman'),
+  number(10),
+  pages(1059, 1064),
+  publisher('Oxford University Press'),
+nil)
+
+entry!('munoz2017towards',
+  inproceedings('Proceedings of the 10th ACM Workshop on Artificial Intelligence and Security', 2017),
+  title('Towards poisoning of deep learning algorithms with back-gradient optimization'),
+  author('Luis Mu{\~n}oz-Gonz{\\\'a}lez and Battista Biggio and Ambra Demontis and Andrea Paudice and Vasin Wongrassamee and Emil C Lupu and Fabio Roli'),
+  pages(27, 38),
+  organization('ACM'),
+nil)
+
+entry!('suciu2018does',
+  arxiv(2018, '1803.06975'),
+  title('When Does Machine Learning FAIL? Generalized Transferability for Evasion and Poisoning Attacks'),
+  author('Octavian Suciu and Radu M{\u{a}}rginean and Yi{\u{g}}itcan Kaya and Hal Daum{\\\'e} III and Tudor Dumitra{\c{s}}'),
+nil)
+
+entry!('shafahi2018poison',
+  arxiv(2018, '1804.00792'),
+  title('Poison {F}rogs! {Targeted} Clean-Label Poisoning Attacks on Neural Networks'),
+  author('Ali Shafahi and W Ronny Huang and Mahyar Najibi and Octavian Suciu and Christoph Studer and Tudor Dumitras and Tom Goldstein'),
+nil)
+
+entry!('gu2017badnets',
+  arxiv(2017, '1708.06733'),
+  title('Badnets: Identifying vulnerabilities in the machine learning model supply chain'),
+  author('Tianyu Gu and Brendan Dolan-Gavitt and Siddharth Garg'),
+nil)
+
+entry!('chen2017targeted',
+  arxiv(2017, '1712.05526'),
+  title('Targeted backdoor attacks on deep learning systems using data poisoning'),
+  author('Xinyun Chen and Chang Liu and Bo Li and Kimberly Lu and Dawn Song'),
+nil)
+
+
+entry!('bard1991some',
+  article('Journal of optimization theory and applications', 1991, 68),
+  title('Some properties of the bilevel programming problem'),
+  author('Jonathan F Bard'),
+  number(2),
+  pages(371, 378),
+  publisher('Springer'),
+nil)
+
+entry!('crammer2002learnability',
+  article('Machine learning', 2002, 47),
+  title('On the learnability and design of output codes for multiclass problems'),
+  author('Koby Crammer and Yoram Singer'),
+  number('2-3'),
+  pages(201, 233),
+  publisher('Springer'),
+nil)
+
+entry!('mirrokni2015tight',
+  arxiv(2015, '1512.08602'),
+  title('Tight Bounds for Approximate {C}arath{\\\'e}odory and Beyond'),
+  author('Vahab Mirrokni and Renato Paes Leme and Adrian Vladu and Sam Chiu-wai Wong'),
+nil)
+
+entry!('barany2012notes',
+  article('Discrete \& Computational Geometry', 2012, 48),
+  title('Notes about the {C}arath{\\\'e}odory number'),
+  author('Imre B{\\\'a}r{\\\'a}ny and Roman Karasev'),
+  number(3),
+  pages(783, 792),
+  publisher('Springer'),
+nil)
+
+entry!('wang2018learning',
+  uai(2018),
+  title('Learning Deep Hidden Nonlinear Dynamics from Aggregate Data'),
+  author('Yisen Wang and Bo Dai and Lingkai Kong and Xingjun Ma and Sarah Monazam Erfani and James Bailey and Shu-Tao Xia and Le Song and Hongyuan Zha'),
+nil)
+
+entry!('wang2014unsupervised',
+  kdd(2014),
+  title('Unsupervised learning of disease progression models'),
+  author('Xiang Wang and David Sontag and Fei Wang'),
+  pages(85, 94),
+  organization('ACM'),
+nil)
+
+entry!('papernot2018deep',
+  arxiv(2018, '1803.04765'),
+  title('Deep k-nearest neighbors: Towards confident, interpretable and robust deep learning'),
+  author('Nicolas Papernot and Patrick McDaniel'),
 nil)

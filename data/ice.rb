@@ -131,4 +131,104 @@ entry!('pham2017column',
   aaai(2017),
 nil)
 
+################################################################
+# EMNLP 2018
+
+entry!('hammoudi2016why',
+  title('Why do Record/Replay Tests of Web Applications Break?'),
+  author('Mouna Hammoudi and Gregg Rothermel and Paolo Tonella'),
+  article('IEEE International Conference on Software Testing, Verification and Validation', 2016),
+nil)
+
+entry!('janner2018representation',
+  title('Representation Learning for Grounded Spatial Reasoning'),
+  author('Michael Janner and Karthik Narasimhan and Regina Barzilay'),
+  tacl(2018, 6),
+nil)
+
+entry!('fried2018unified',
+  title('Unified Pragmatic Models for Generating and Following Instructions'),
+  author('Daniel Fried and Jacob Andreas and Dan Klein'),
+  naacl(2018),
+nil)
+
+entry!('su2017building',
+  title('Building Natural Language Interfaces to Web APIs'),
+  author('Yu Su and Ahmed Hassan Awadallah and Madian Khabsa and Patrick Pantel and Michael Gamon and Mark J. Encarnaci\\\'{o}n'),
+  cikm(2017),
+nil)
+
+entry!('yin2016abcnn',
+  title('{ABCNN}: Attention-Based Convolutional Neural Network for Modeling Sentence Pairs'),
+  author('Wenpeng Yin and Hinrich Sch{\"u}tze and Bing Xiang and Bowen Zhou'),
+  tacl(2016, 4),
+nil)
+
+entry!('yu2018qanet',
+  title('{QANet}: Combining Local Convolution with Global Self-Attention for Reading Comprehension'),
+  author('Adams Wei Yu and David Dohan and Minh-Thang Luong and Rui Zhao and Kai Chen and Mohammad Norouzi and Quoc V. Le'),
+  iclr(2018),
+nil)
+
+entry!('kiros2015skip',
+  title('Skip-Thought Vectors'),
+  author('Ryan Kiros and Yukun Zhu and Ruslan Salakhutdinov and Richard S. Zemel and Raquel Urtasun and Antonio Torralba and Sanja Fidler'),
+  nips(2015),
+nil)
+
+entry!('zajicek1998blind',
+  title('A Web Navigation Tool for the Blind'),
+  author('Mary Zajicek and Chris Powell and Chris Reeves'),
+  inproceedings('International ACM Conference on Assistive Technologies', 1998),
+nil)
+
+entry!('soh2017tagui',
+  title('{TagUI}: {RPA} / {CLI} tool for automating user interactions'),
+  author('Ken Soh'),
+  type('misc'),
+  howpublished('\url{https://github.com/kelaberetiv/TagUI}'),
+  year(2017),
+nil)
+
+entry!('spalteholz2008keysurf',
+  title('Keysurf: a character controlled browser for people with physical disabilities'),
+  author('Leo Spalteholz and Kin Fun Li and Nigel Livingston and Foad Hamidi'),
+  www(2008),
+nil)
+
+entry!('yu2005haptics',
+  title('A novel multimodal interface for improving visually impaired people\'s web accessibility'),
+  author('Wai Yu and Ravi Kuber and Emma Murphy and Philip Strain and Graham McAllister'),
+  article('Virtual Reality', 2005, 9),
+nil)
+
+entry!('kumar2007eyepoint',
+  title('EyePoint: practical pointing and selection using gaze and keyboard'),
+  author('Manu Kumar and Andreas Paepcke and Terry Winograd'),
+  chi(2007),
+nil)
+
+entry!('ashok2014wizard',
+  title('Wizard-of-{O}z evaluation of speech-driven web browsing interface for people with vision impairments'),
+  author('Vikas Ashok and Yevgen Borodin and Svetlana Stoyanchev and Yury Puzis and I. V. Ramakrishnan'),
+  inproceedings('Web for All Conference', 2014),
+nil)
+
+entry!('yu2017joint',
+  title('A Joint Speaker-Listener-Reinforcer Model for Referring Expressions'),
+  author('Licheng Yu and Hao Tan and Mohit Bansal and Tamara L. Berg'),
+  cvpr(2017),
+nil)
+
+entry!('celikyilmaz2014resolving',
+  title('Resolving Referring Expressions in Conversational Dialogs for Natural User Interfaces'),
+  author('Asli \c{C}elikyilmaz and Zhaleh Feizollahi and Dilek Z. Hakkani-T{\"u}r and Ruhi Sarikaya'),
+  emnlp(2014),
+nil)
+
+entry!('zarriass2017obtaining',
+  title('Obtaining referential word meanings from visual and distributional information: Experiments on object naming'),
+  author('Sina Zarriai{\ss} and David Schlangen'),
+  acl(2017),
+nil)
 

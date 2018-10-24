@@ -424,17 +424,18 @@ entry!('xiao2016sequence',
 nil)
 
 entry!('cohen2017inducing',
-  arxiv(2017, '1710.10453'),
+  inproceedings('Workshop on Learning and Reasoning: Principles & Applications to Everyday Spatial and Temporal Knowledge', 2017),
   title('Inducing Regular Grammars Using Recurrent Neural Networks'),
-  author('Mor Cohen and Avi Calciularu and idan Rejwan and Jonathan Berant'),
+  author('Mor Cohen and Avi Calciularu and Idan Rejwan and Jonathan Berant'),
   url('https://arxiv.org/pdf/1710.10453.pdf'),
 nil)
 
-entry!('goldman2017weakly',
-  arxiv('2017', '1711.05240'),
+entry!('goldman2018weakly',
+  acl(2018),
   author('Omer Goldman and Veronika Latcinnik and Udi Naveh and Amir Globerson and Jonathan Berant'),
   title('Weakly-supervised Semantic Parsing with Abstract Examples'),
-  url('https://arxiv.org/abs/1711.05240'),
+  url('https://arxiv.org/pdf/1711.05240.pdf'),
+  code('https://github.com/udiNaveh/nlvr_tau_nlp_final_proj'),
 nil)
 
 entry!('kovcisky2017narrativeqa',
@@ -486,7 +487,8 @@ entry!('salant2018contextualized',
   naacl(2018),
   title('Contextualized Word Representations for Reading Comprehension'),
   author('Shimi Salant and Jonathan Berant'),
-  url('https://arxiv.org/abs/1712.03609'),
+  url('https://arxiv.org/pdf/1712.03609.pdf'),
+  code('https://github.com/shimisalant/CWR'),
 nil)
 
 entry!('wang2018r3',
@@ -541,16 +543,117 @@ entry!('richardson2018polyglot',
   naacl(2018),
   title('Polyglot Semantic Parsing in {API}s'),
   author('Kyle Richardson and Jonathan Berant and Jonas Kuhn'),
-)
+  url('https://arxiv.org/pdf/1803.06966.pdf'),
+  code('https://github.com/yakazimir/zubr_public'),
+nil)
 
 entry!('koshorek2018segmentation',
   naacl(2018),
   title('Text Segmentation as a Supervised Learning Task'),
   author('Omri Koshorek and Noam Mor and Adir Cohen and Michael Rotman and Jonathan Berant'),
-)
+  url('https://arxiv.org/pdf/1803.09337.pdf'),
+  code('https://github.com/koomri/text-segmentation'),
+nil)
 
 entry!('talmor2018web',
   naacl(2018),
   title('The Web as Knowledge-base for Answering Complex Questions'),
   author('Alon Talmor and Jonathan Berant'),
-  )
+  url('https://arxiv.org/pdf/1803.06643.pdf'),
+  project('https://www.tau-nlp.org/compwebq'),
+  code('https://github.com/alontalmor/WebAsKB'),
+nil)
+
+entry!('herzig2018mapping',
+  nips(2018),
+  url('https://arxiv.org/pdf/1802.05451.pdf'),
+  author('Roei Herzig and Moshiko Raboh and Gal Chechik and Jonathan Berant and Amir Globerson'),
+  title('Mapping Images to Scene Graphs with Permutation-Invariant Structured Prediction'),
+nil)
+
+entry!('herzig2018zeroshot',
+  emnlp(2018),
+  author('Jonathan Herzig and Jonathan Berant'),
+  title('Decoupling Structure and Lexicon for Zero-Shot Semantic Parsing'),
+  url('https://arxiv.org/pdf/1804.07918.pdf'),
+  code('https://github.com/jonathanherzig/zero-shot-semantic-parsing'),
+nil)
+
+entry!('geva2018long',
+  coling(2018),
+  author('Mor Geva and Jonathan Berant'),
+  title('Learning to Search in Long Documents using Document Structure'),
+  url('https://arxiv.org/pdf/1806.03529.pdf'),
+  code('https://github.com/mega002/DocQN'),
+nil)
+
+entry!('liang2018mapo',
+  nips(2018),
+  url('https://arxiv.org/pdf/1807.02322.pdf'),
+  author('Chen Liang and Mohammad Norouzi and Jonathan Berant and Quoc Le and Ni Lao'),
+  title('Memory Augmented Policy Optimization for Program Synthesis with Generalization'),
+  code('https://github.com/crazydonkey200/neural-symbolic-machines'),
+  award('Spotlight presentation'),
+nil)
+
+entry!('berant2019explaining',
+  author('Jonathan Berant and Daniel Deutch and Amir Globerson and Tova Milo and Tomer Wolfson'),
+  title('Explaining Relational Queries to Non-Experts'),
+  icde(2019),
+  techreporturl('https://arxiv.org/pdf/1808.04614.pdf'),
+nil)
+
+entry!('bisk2016natural',
+  naacl(2016),
+  title('Natural language communication with robots'),
+  author('Yonatan Bisk and Deniz Yuret and Daniel Marcu'),
+nil)
+
+entry!('suhr2018situated',
+  author('Alane Suhr and Yoav Artzi'),
+  title('Situated Mapping of Sequential Instructions to Actions with Single-step Reward Observation'),
+  acl(2018),
+nil)
+
+
+entry!('misra2018mapping',
+  emnlp(2018),
+  title('Mapping Instructions to Actions in {3D} Environments with Visual Goal Prediction'),
+  author('Dipendra Misra and Andrew Bennett and Valts Blukis and Eyvind Niklasson and Max Shatkhin and Artzi, Yoav'),
+nil)
+
+entry!('anderson2018vision',
+  cvpr(2018),
+  title('Vision-and-language navigation: Interpreting visually-grounded navigation instructions in real environments'),
+  author('Peter Anderson and Qi Wu and Damien Teney and Jake Bruce and Mark Johnson and Niko S{\"u}nderhauf and Ian Reid and Stephen Gould and Anton van den Hengel'),
+nil)
+
+entry!('tan2018source',
+  aaai(2018),
+  title('Source-target inference models for spatial instruction understanding'),
+  author('Hao Tan and Mohit Bansal'),
+nil)
+
+entry!('wiseman2016beam',
+  emnlp(2016),
+  title('Sequence-to-Sequence Learning as Beam-Search Optimization'),
+  author('Sam Wiseman and Alexander M. Rush'),
+nil)
+
+entry!('goyal2018continuous',
+  aaai(2018),
+  title('A continuous relaxation of beam search for end-to-end training of neural sequence models'),
+  author('Kartik Goyal and Graham Neubig and Chris Dyer and Taylor Berg-Kirkpatrick'),
+nil)
+
+entry!('yang2018breaking',
+  emnlp(2018),
+  title('Breaking the beam search curse: A study of (re-) scoring methods and stopping criteria for neural machine translation'),
+  author('Yilin Yang and Liang Huang and Mingbo Ma'),
+nil)
+
+entry!('devries2018talk',
+  arxiv(2018, '1807.03367'),
+  title('Talk the Walk: Navigating New York City through Grounded Dialogue'),
+  author('Harm de Vries and Kurt Shuster and Dhruv Batra and Devi Parikh and Jason Weston and Douwe Kiela'),
+nil)

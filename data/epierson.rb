@@ -18,14 +18,14 @@ nil)
 entry!('o2012multiphen',
   article('PloS One', 2012, 7),
   title('Multi{P}hen: joint model of multiple phenotypes can increase discovery in {GWAS}'),
-  author('Paul F O’Reilly and Clive J Hoggart and Yotsawat Pomyen and Federico CF Calboli and Paul Elliott and Marjo-Riitta Jarvelin and Lachlan JM Coin'),
+  author('Paul F O\'Reilly and Clive J Hoggart and Yotsawat Pomyen and Federico CF Calboli and Paul Elliott and Marjo-Riitta Jarvelin and Lachlan JM Coin'),
   number(5),
   publisher('Public Library of Science'),
 nil)
 
 entry!('rossol2012cd14brightcd16',
   article('Arthritis \& Rheumatology', 2012, 64),
-  title('The CD14brightCD16+ monocyte subset is expanded in rheumatoid arthritis and promotes expansion of the Th17 cell population'),
+  title('The {CD}14bright{CD}16+ monocyte subset is expanded in rheumatoid arthritis and promotes expansion of the {T}h17 cell population'),
   author('Manuela Rossol and Stephan Kraus and Matthias Pierer and Christoph Baerwald and Ulf Wagner'),
   number(3),
   pages(671, 677),
@@ -33,10 +33,24 @@ entry!('rossol2012cd14brightcd16',
 nil)
 
 entry!('milovanovic2004relationships',
-  article('Clinica chimica acta', 2004, 343),
+  article('Clinica {C}himica {A}cta', 2004, 343),
   title('Relationships between platelets and inflammatory markers in rheumatoid arthritis'),
   author('Micha Milovanovic and E Nilsson and Petter J{\"a}remo'),
   number('1-2'),
   pages(237, 240),
   publisher('Elsevier'),
+nil)
+
+entry!('maddison2016concrete',
+  arxiv(2016, '1611.00712'),
+  title('The concrete distribution: A continuous relaxation of discrete random variables'),
+  author('Chris J Maddison and Andriy Mnih and Yee Whye Teh'),
+nil)
+
+entry!('abid2018exploring',
+  article('Nature Communications', 2018, 9),
+  title('Exploring patterns enriched in a dataset with contrastive principal component analysis'),
+  author('Abubakar Abid and Martin J Zhang and Vivek K Bagaria and James Zou'),
+  number(1),
+  publisher('Nature Publishing Group'),
 nil)

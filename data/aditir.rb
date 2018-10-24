@@ -29,3 +29,15 @@ entry!('hein2017formal',
   author('Matthias Hein and Maksym Andriushchenko'),
   pages(2263, 2273),
 nil)
+
+entry!('ahmadi2017dsos',
+  arxiv(2017, '1706.02586'),
+  title('{DSOS} and {SDSOS} optimization: more tractable alternatives to sum of squares and semidefinite optimization'),
+  author('Amir Ali Ahmadi and Anirudha Majumdar'),
+nil)
+
+entry!('dvijotham2018training',
+  arxiv(2018, '1805.10265'),
+  title('Training verified learners with learned verifiers'),
+  author('Krishnamurthy Dvijotham and Sven Gowal and Robert Stanforth and Relja Arandjelovic and Brendan O\'Donoghue and Jonathan Uesato and Pushmeet Kohli'),
+nil)

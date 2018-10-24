@@ -27,6 +27,7 @@ entry!('li2016diversity',
   title('A Diversity-Promoting Objective Function for Neural Conversation Models'),
   hltnaacl(2016),
   url('https://pdfs.semanticscholar.org/c102/147a4b0c038d08507f7d0c9f76d732c74e79.pdf'),
+  pages(110, 119),
 nil)
 
 entry!('serban2017hierarchical',
@@ -314,7 +315,7 @@ entry!('zhao2017learning',
 )
 
 entry!('jang2017categorical',
-  title('Categorical Reparameterization with Gumbel-Softmax'),
+  title('Categorical Reparameterization with {G}umbel-Softmax'),
   author('Eric Jang and Shixiang Gu and Ben Poole'),
   arxiv(2017, '1611.01144'),
   url('https://arxiv.org/pdf/1611.01144.pdf'),
@@ -324,4 +325,66 @@ entry!('das2017learning',
   title('Learning Cooperative Visual Dialog Agents with Deep Reinforcement Learning'),
   author('Abhishek Das and Satwik Kottur and Jos{\'e} MF Moura and Stefan Lee and Dhruv Batra'),
   iccv(2017),
+)
+
+entry!('cuayahuitl2015strategic',
+  title('Strategic Dialogue Management via Deep Reinforcement Learning'),
+  author('Heriberto Cuayáhuitl and Simon Keizer and Oliver Lemon'),
+  nips('2015')
+)
+
+entry!('afantenos2012modelling',
+  title('Modelling Strategic Conversation: Model, Annotation Design and Corpus'),
+  author('Stergos Afantenos and Nicholas Asher and Farah Benamara and Anais Cadilhac and Cedric Dégremont and Pascal Denis and Markus Guhe and Simon Keizer and Alex Lascarides and Oliver Lemon and others'),
+  inproceedings('Proceedings of SemDial 2012: Workshop on the Semantics and Pragmatics of Dialogue', 2012),
+  pages(167, 168),
+)
+
+entry!('traum2008multi',
+  title('Multi-party, Multi-issue, Multi-strategy Negotiation for Multi-modal Virtual Agents'),
+  author('David Traum and Stacy C Marsella and Jonathan Gratch and Jina Lee and Arno Hartholt'),
+  inproceedings('International Workshop on Intelligent Virtual Agents', 2008),
+  pages(117, 130),
+)
+
+entry!('asher2016catan',
+  title('Discourse Structure and Dialogue Acts in Multiparty Dialogue: the {STAC} Corpus'),
+  author('Nicholas Asher and Julie Hunter and Mathieu Morey and Farah Benamara and Stergos Afantenos'),
+  lrec(2016),
+)
+
+entry!('efstathiou2014catan',
+  title('Learning Non-Cooperative Dialogue Behaviours'),
+  author('Ioannis Efstathiou and Oliver Lemon'),
+  inproceedings('Special Interest Group on Discourse and Dialogue (SIGDIAL)', 2014),
+)
+
+entry!('hiraoka2015trading',
+  title('Reinforcement Learning in Multi-Party Trading Dialog'),
+  author('Takuya Hiraoka and Kallirroi Georgila and Elnaz Nouri and David Traum'),
+  inproceedings('Special Interest Group on Discourse and Dialogue (SIGDIAL)', 2015),
+)
+
+entry!('english2005mixed',
+  title('Learning Mixed Initiative Dialog Strategies by Using Reinforcement Learning on Both Conversants'),
+  author('Michael S. English and Peter A. Heeman'),
+  emnlp(2005),
+)
+
+entry!('brams2003negotiation',
+  title('Negotiation Games: Applying Game Theory to Bargaining and Arbitration'),
+  author('Steven J Brams'),
+  book('Psychology Press', 2003),
+)
+
+entry!('hiraoka2014framing',
+  title('Reinforcement Learning of Cooperative Persuasive Dialogue Policies using Framing'),
+  author('Hiraoka, Takuya and Neubig, Graham and Sakti, Sakriani and Toda, Tomoki and Nakamura, Satoshi'),
+  coling(2014),
+)
+
+entry!('nouri2012cultural',
+  title('A Cultural Decision-making Model for Negotiation based on Inverse Reinforcement Learning'),
+  author('Nouri, Elnaz and Georgila, Kallirroi and Traum, David'),
+  inproceedings('The Annual Meeting of the Cognitive Science Society', 2012),
 )

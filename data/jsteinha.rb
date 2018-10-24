@@ -230,20 +230,38 @@ entry!('regev2017learning',
   focs(2017),
 nil)
 
-entry!('kothari2017outlier',
+entry!('kothari2018outlier',
   title('Outlier-robust moment-estimation via sum-of-squares'),
   author('Pravesh Kothari and David Steurer'),
-  arxiv(2017),
+  stoc(2018),
 nil)
 
-entry!('balcan2008discriminative',
-  author('Maria-Florina Balcan and Avrim Blum and Santosh Vempala'),
-  title('A discriminative framework for clustering via similarity functions'),
-  stoc(2008),
-nil)
-
-entry!('kothari2017agnostic',
+entry!('kothari2018agnostic',
   author('Pravesh Kothari and Jacob Steinhardt'),
   title('Better Agnostic Clustering via Tensor Norms'),
-  arxiv(2017),
+  stoc(2018),
+nil)
+
+entry!('huber1964robust',
+  title('Robust estimation of a location parameter'),
+  author('Peter J. Huber'), 
+  article('The Annals of Mathematical Statistics', 1964, 35),
+  number(1),
+  pages(73,101),
+  publisher('Institute of Mathematical Statistics'),
+nil)
+
+entry!('box1953robust',
+  title('Non-normality and tests on variances'),
+  author('George E.P. Box'),
+  article('Biometrika', 1953, 40),
+  pages(318, 335),
+nil)
+
+entry!('newcomb1886generalized',
+  title('A Generalized Theory of the Combination of Observations so as to Obtain the Best Result'),
+  author('Simon Newcomb'),
+  article('American Journal of Mathematics', 1886, 8),
+  number(4), pages(343, 366),
+  publisher('The Johns Hopkins University Press'),
 nil)
