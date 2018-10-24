@@ -11416,3 +11416,9 @@ entry!('steinhardt2018thesis',
   title('Robust Learning: Information Theory and Algorithms'),
   phdthesis('Stanford University', 2018),
 nil)
+
+entry!('li2018thesis',
+  author('Jerry Li'),
+  title('Principled Approaches to Robust Machine Learning and Beyond'),
+  phdthesis('Massachusetts Institute of Technology', 2018),
+nil)
