@@ -11410,3 +11410,15 @@ entry!('mckenzie2018robust',
   title('A New Algorithm for the Robust Semi-Random Independent Set Problem'),
   arxiv(2018),
 nil)
+
+entry!('steinhardt2018thesis',
+  author('Jacob Steinhardt'),
+  title('Robust Learning: Information Theory and Algorithms'),
+  phdthesis('Stanford University', 2018),
+nil)
+
+entry!('li2018thesis',
+  author('Jerry Li'),
+  title('Principled Approaches to Robust Machine Learning and Beyond'),
+  phdthesis('Massachusetts Institute of Technology', 2018),
+nil)
