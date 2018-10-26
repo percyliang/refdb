@@ -521,6 +521,39 @@ entry!('allamanis2015bimodal',
   pages(2123, 2132),
 nil)
 
+entry!('hayati2018retrieval',
+       emnlp(2018),
+       title('Retrieval-based neural code generation'),
+       author('Shirley Anugrah Hayati and Raphael Olivier and Pravalika Avvaru and Pengcheng Yin and Anthony Tomasic and Graham Neubig'),
+       nil)
+
+entry!('sun2018contextual',
+       arxiv(2018, '1807.06473'),
+       title('Contextual memory trees'),
+       author('Wen Sun and Alina Beygelzimer and Hal Daume and John Langford and Paul Mineiro'),
+       nil)
+
+entry!('shen2018nash',
+       acl(2018),
+       title('NASH: Toward End-to-End Neural Architecture for Generative Semantic Hashing'),
+       author('Dinghan Shen and Qinliang Su and Paidamoyo Chapfuwa and Wenlin Wang and Guoyin Wang and Ricardo Henao and Lawrence Carin'),
+       pages(2041,2050),
+       nil)
+
+entry!('chaidaroon2017variational',
+       sigir(2017),
+       title('Variational Deep Semantic Hashing for Text Documents'),
+       author('Suthee Chaidaroon and Yi Fang'),
+       pages(75, 84),
+       nil)
+
+entry!('goldenshluger1997spatially',
+       article('Mathematical Methods of Statistics', 1997, 6),
+       title('On spatially adaptive estimation of nonparametric regression'),
+       author('Alexander Goldenshluger and Arkadi Nemirovski'),
+       pages(135,170),
+       nil)
+
 entry!('hu2018does',
   author('Weihua Hu and Gang Niu and Issei Sato and Masashi Sugiyama'),
   title('Does Distributionally Robust Supervised Learning Give Robust Classifiers?'),
@@ -544,3 +577,24 @@ entry!('fuster2017predictably',
   author('Andreas Fuster and Paul Goldsmith-Pinkham and Tarun Ramadorai and Ansgar Walther'),
   techreport('CEPR Discussion Papers', 2017),
 nil)
+
+entry!('yan2016learning',
+       sigir(2016),
+       title('Learning to respond with deep neural networks for retrieval-based human-computer conversation system'),
+       author('Rui Yan and Yiping Song and Hua Wu'),
+       pages(55, 64),
+       nil)
+
+entry!('lei2016semisupervised',
+       naacl(2016),
+       title('Semi-supervised Question Retrieval with Gated Convolutions'),
+       author('Tao Lei and Hrishikesh Joshi and Regina Barzilay and Tommi Jaakkola and Kateryna Tymoshenko and Alessandro Moschitti and Lluis Marquez'),
+       pages(1279, 1289),
+       nil)
+
+entry!('wu2018response',
+       arxiv(2018,'1806.07042'),
+       title('Response Generation by Context-aware Prototype Editing'),
+       author('Yu Wu and Furu Wei and SHaohan Huang and Zhoujun Li and Ming Zhou'),
+       nil)
+       
