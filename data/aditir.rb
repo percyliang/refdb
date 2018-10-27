@@ -5,12 +5,6 @@ entry!('bastani2016measuring',
   pages(2613, 2621),
 nil)
 
-entry!('kolter2017provable',
-  arxiv(2017, '1711.00851'),
-  title('Provable defenses against adversarial examples via the convex outer adversarial polytope (published at {ICML} 2018)'),
-  author('J Zico Kolter and Eric Wong'),
-nil)
-
 entry!('wong2018provable',
   icml(2018),
   title('Provable defenses against adversarial examples via the convex outer adversarial polytope'),
