@@ -598,3 +598,8 @@ entry!('wu2018response',
        author('Yu Wu and Furu Wei and SHaohan Huang and Zhoujun Li and Ming Zhou'),
        nil)
        
+entry!('xu2018spherical',
+       emnlp(2018),
+       title('Spherical Latent Spaces for Stable Variational Autoencoders'),
+       author('Jiacheng Xu and Greg Durrett'),
+       nil)
