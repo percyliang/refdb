@@ -41,3 +41,9 @@ entry!('dvijotham2018training',
   title('Training verified learners with learned verifiers'),
   author('Krishnamurthy Dvijotham and Sven Gowal and Robert Stanforth and Relja Arandjelovic and Brendan O\'Donoghue and Jonathan Uesato and Pushmeet Kohli'),
 nil)
+
+entry!('wong2018scaling',
+  arxiv(2018, '1805.12514'),
+  title('Scaling provable adversarial defenses'),
+  author('Eric Wong and Frank Schmidt and Jan Hendrik Metzen and J Zico Kolter'),
+nil)
