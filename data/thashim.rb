@@ -603,3 +603,9 @@ entry!('xu2018spherical',
        title('Spherical Latent Spaces for Stable Variational Autoencoders'),
        author('Jiacheng Xu and Greg Durrett'),
        nil)
+
+entry!('sumita1991experiments',
+       acl(1991),
+       title('Experiments and prospects of Example-Based Machine Translation'),
+       author('Eiichiro Sumita and Hitoshi Iida'),
+       nil)
