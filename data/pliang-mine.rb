@@ -1,10 +1,27 @@
 ############################################################
+# 2019
+
+entry!('shi2019frangel',
+  title('{F}r{A}ngel: Component-Based Synthesis with Control Structures'),
+  author('Kensen Shi and Jacob Steinhardt and Percy Liang'),
+  popl(2019),
+  url('https://arxiv.org/pdf/1811.05175.pdf'),
+nil)
+
+############################################################
 # 2018
+
+entry!('koh2018stronger',
+  title('Stronger Data Poisoning Attacks Bypass Data Sanitization Defenses'),
+  author('Pang Wei Koh and Jacob Steinhardt and Percy Liang'),
+  arxiv(2018, '1811.00741'),
+nil)
 
 entry!('raghunathan2018sdp',
   title('Semidefinite relaxations for certifying robustness to adversarial examples'),
   author('Aditi Raghunathan and Jacob Steinhardt and Percy Liang'),
   nips(2018),
+  url('https://arxiv.org/pdf/1811.01057.pdf'),
 nil)
 
 entry!('mussmann2018sgd',
@@ -47,6 +64,7 @@ entry!('lamm2018tap',
   title('Textual Analogy Parsing: What\'s Shared and What\'s Compared among Analogous Facts'),
   author('Matthew Lamm and Arun Chaganty and Christopher D. Manning and Dan Jurafsky and Percy Liang'),
   emnlp(2018),
+  url('https://arxiv.org/pdf/1809.02700.pdf'),
 nil)
 
 entry!('mussmann2018accuracy',
