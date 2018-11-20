@@ -284,3 +284,11 @@ entry!('oh2015action',
   author('Junhyuk Oh and Xiaoxiao Guo and Honglak Lee and Richard L Lewis and Satinder Singh'),
   pages(2863, 2871),
 nil)
+
+entry!('schmidhuber1993planning',
+  inproceedings('From Animals to Animats 2: Proceedings of the Second International Conference on Simulation of Adaptive Behavior', 1993),
+  title('Planning simple trajectories using neural subgoal generators'),
+  author('J{\"u}rgen Schmidhuber'),
+  volume(2),
+  organization('MIT Press'),
+nil)
