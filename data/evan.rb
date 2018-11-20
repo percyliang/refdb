@@ -271,3 +271,16 @@ entry!('henderson2017deep',
   author('P. Henderson and R. Islam and P. Bachman and J. Pineau and D. Precup and D. Meger'),
   arxiv(2017, '1709.06560'),
 nil)
+
+entry!('ha2018world',
+  arxiv(2018, '1803.10122'),
+  title('World Models'),
+  author('David Ha and J{\"u}rgen Schmidhuber'),
+nil)
+
+entry!('oh2015action',
+  inproceedings('Advances in neural information processing systems', 2015),
+  title('Action-conditional video prediction using deep networks in atari games'),
+  author('Junhyuk Oh and Xiaoxiao Guo and Honglak Lee and Richard L Lewis and Satinder Singh'),
+  pages(2863, 2871),
+nil)
