@@ -292,3 +292,25 @@ entry!('schmidhuber1993planning',
   volume(2),
   organization('MIT Press'),
 nil)
+
+entry!('strehl2008analysis',
+  article('Journal of Computer and System Sciences', 2008, 74),
+  title('An analysis of model-based interval estimation for Markov decision processes'),
+  author('Alexander L Strehl and Michael L Littman'),
+  number(8),
+  pages(1309, 1331),
+  publisher('Elsevier'),
+nil)
+
+entry!('talvitie2015agnostic',
+  aaai(2015),
+  title('Agnostic System Identification for Monte Carlo Planning'),
+  author('Erik Talvitie'),
+  pages(2986, 2992),
+nil)
+
+entry!('kakade2003sample',
+  title('On the sample complexity of reinforcement learning'),
+  author('Sham Machandranath Kakade and others'),
+  phdthesis('University of London', 2003),
+nil)
