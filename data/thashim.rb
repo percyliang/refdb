@@ -617,3 +617,9 @@ entry!('jiao2016minimax',
        pages(750, 754),
        organization('IEEE'),
        nil)
+
+entry!('ali1966general',
+       jrssb(1966, 28),
+       title('A General Class of Coefficients of Divergence of One Distribution from Another'),
+       author('S M Ali and Samuel David Silvey'),
+       nil)

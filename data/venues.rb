@@ -8,6 +8,7 @@ def bayesianAnalysis(year, volume);    article('Bayesian Analysis', year, volume
 def dukeMath(year, volume);            article('Duke Mathematical Journal', year, volume) end
 def jasa(year, volume);                article(Name.new('Journal of the American Statistical Association', 'JASA'), year, volume) end
 def biometrika(year, volume);          article('Biometrika', year, volume) end
+def jrssb(year, volume);               article('Journal of the Royal Statistical Society. Series B (Methodological)', year, volume) end
 def mathops(year, volume);             article('Mathematics of Operations Research', year, volume) end
 def jmlr(year, volume);                article(Name.new('Journal of Machine Learning Research', 'JMLR'), year, volume) end
 def pami(year, volume);                article(Name.new('IEEE Transactions on Pattern Analysis and Machine Intelligence', 'PAMI'), year, volume) end
