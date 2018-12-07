@@ -388,3 +388,39 @@ entry!('nouri2012cultural',
   author('Nouri, Elnaz and Georgila, Kallirroi and Traum, David'),
   inproceedings('The Annual Meeting of the Cognitive Science Society', 2012),
 )
+
+entry!('kao2015pun',
+  title('A Computational Model of Linguistic Humor in Puns'),
+  author('Justine T. Kao and Roger Levy and Noah D. Goodman'),
+  article('Cognitive Science', 2015),
+)
+
+entry!('veale2004incongruity',
+  title('Incongruity in humor: Root cause or epiphenomenon?'),
+  author('Veale, Tony'),
+  article('Humor: International Journal of Humor Research', 2004, 17),
+)
+
+entry!('semeval2017pun',
+  title('Idiom Savant at {S}em{E}val-2017 Task 7: Detection and Interpretation of {E}nglish Puns'),
+  author('Samuel Doogan and Aniruddha Ghosh and Hanyang Chen and Tony Veale'),
+  inproceedings('The 11th International Workshop on Semantic Evaluation', 2017),
+)
+
+entry!('zhu2015moviebook',
+  title('Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books'),
+  author('Yukun Zhu and Ryan Kiros and Richard Zemel and Ruslan Salakhutdinov and Raquel Urtasun and Antonio Torralba and Sanja Fidler'),
+  arxiv(2015, '1506.06724'),
+)
+
+entry!('merity2016pointer',
+  title('Pointer Sentinel Mixture Models'),
+  author('Stephen Merity and Caiming Xiong and James Bradbury and Richard Socher'),
+  arxiv(2016, '1609.07843'),
+)
+
+entry!('pauls2012treelets',
+  title('Large-Scale Syntactic Language Modeling with Treelets'),
+  author('Adam Pauls and Dan Klein'),
+  acl(2012),
+)
