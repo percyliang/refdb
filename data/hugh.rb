@@ -6,27 +6,27 @@ entry!('banerjee2005meteor',
 entry!('languagegans2018',
        title('Language GANs Falling Short'),
        author('Massimo Caccia and Lucas Caccia and William Fedus and Hugo Larochelle and Joelle Pineau and Laurent Charlin '),
-       arxiv(2018),
+       arxiv(2018, "1811.02549"),
 nil)
 entry!('fan2018hierarchical',
        title('Hierarchical Neural Story Generation'),
        author('Angela Fan and Mike Lewis and Yann Dauphin'),
-       arxiv(2018),
+       arxiv(2018, "1805.04833"),
 nil)
 entry!('theis2015note',
        title('A note on the evaluation of generative models'),
        author('Lucas Theis and Aaron van den Oord and Matthias Bethge'),
-       arxiv(2015),
+       arxiv(2015, "1511.01844"),
 nil)
 entry!('karras2017progressive',
-       title('Progressive growing of gans for improved quality, stability, and variation'),
+       title('Progressive Growing of GANs for Improved Quality, Stability, and Variation'),
        author('Tero Karras and Timo Aila and Samuli Laine and Jaakko Lehtinen'),
-       arxiv(2017),
+       arxiv(2017, "1710.10196"),
 nil)
 entry!('sajjadi2018precision',
        title('Assessing Generative Models via Precision and Recall'),
        author('Mehdi S. M. Sajjadi and Olivier Bachem and Mario Lucic and Olivier Bousquet and Sylvain Gelly'),
-       arxiv(2018),
+       arxiv(2018, "1806.00035"),
 nil)
 entry!('clarke2008diversity',
   author('Charles L. A. Clarke and Maheedhar Kolla and Gordon V. Cormack and Olga Vechtomova and Azin Ashkan and Stefan Büttcher and Ian MacKinnon'),
@@ -41,18 +41,15 @@ entry!('nenkova2007pyramid',
 entry!('olsson2018skill',
        title('Skill Rating for Generative Models'),
        author('Catherine Olsson and Surya Bhupatiraju and Tom Brown and Augustus Odena and Ian Goodfellow'),
-       arxiv(2018),
+       arxiv(2018, "1808.04888"),
 nil)
 entry!('klein2017opennmt',
        title('OpenNMT: Open-Source Toolkit for Neural Machine Translation'),
        author('Guillaume Klein and Yoon Kim and Yuntian Deng and Jean Senellart and Alexander M. Rush'),
-       arxiv(2017),
+       arxiv(2017, "1701.02810"),
 nil)
 entry!('jozefowicz2016exploring',
        title('Exploring the Limits of Language Modeling'),
        author('Rafal Jozefowicz and Oriol Vinyals and Mike Schuster and Noam Shazeer and Yonghui Wu'),
-       arxiv(2016),
+       arxiv(2016, "1602.02410"),
 nil)
-
-
-
