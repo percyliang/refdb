@@ -609,3 +609,11 @@ entry!('sumita1991experiments',
        title('Experiments and prospects of Example-Based Machine Translation'),
        author('Eiichiro Sumita and Hitoshi Iida'),
        nil)
+
+entry!('jiao2016minimax',
+       title('Minimax estimation of the $L_1$ distance'),
+       author('Jiantao Jiao and Yanjun Han and Tsachy Weissman'),
+       inproceedings('IEEE International Symposium on Information Theory', 2016),
+       pages(750, 754),
+       organization('IEEE'),
+       nil)
