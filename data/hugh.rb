@@ -25,23 +25,34 @@ entry!('karras2017progressive',
 nil)
 entry!('sajjadi2018precision',
        title('Assessing Generative Models via Precision and Recall'),
-       author('Mehdi S. M. Sajjadi, Olivier Bachem, Mario Lucic, Olivier Bousquet, Sylvain Gelly'),
+       author('Mehdi S. M. Sajjadi and Olivier Bachem and Mario Lucic and Olivier Bousquet and Sylvain Gelly'),
        arxiv(2018),
 nil)
 entry!('clarke2008diversity',
-  author('Charles L. A. Clarke, Maheedhar Kolla, Gordon V. Cormack, Olga Vechtomova, Azin Ashkan, Stefan Büttcher, Ian MacKinnon'),
+  author('Charles L. A. Clarke and Maheedhar Kolla and Gordon V. Cormack and Olga Vechtomova and Azin Ashkan and Stefan Büttcher and Ian MacKinnon'),
   inproceedings('ACM SIGIR', 2008),
   title('Novelty and diversity in information retrieval evaluation'),
   nil)
 entry!('nenkova2007pyramid',
-  author('Ani Nenkova, Rebecca J. Passonneau, Kathleen McKeown'),
+  author('Ani Nenkova and Rebecca J. Passonneau and Kathleen McKeown'),
   inproceedings('ACM Transactions on Speech and Language Processing', 2007),
   title('The Pyramid Method: Incorporating human content selection variation in summarization evaluation'),
   nil)
 entry!('olsson2018skill',
        title('Skill Rating for Generative Models'),
-       author('Catherine Olsson, Surya Bhupatiraju, Tom Brown, Augustus Odena, Ian Goodfellow'),
+       author('Catherine Olsson and Surya Bhupatiraju and Tom Brown and Augustus Odena and Ian Goodfellow'),
        arxiv(2018),
 nil)
+entry!('klein2017opennmt',
+       title('OpenNMT: Open-Source Toolkit for Neural Machine Translation'),
+       author('Guillaume Klein and Yoon Kim and Yuntian Deng and Jean Senellart and Alexander M. Rush'),
+       arxiv(2017),
+nil)
+entry!('jozefowicz2016exploring',
+       title('Exploring the Limits of Language Modeling'),
+       author('Rafal Jozefowicz and Oriol Vinyals and Mike Schuster and Noam Shazeer and Yonghui Wu'),
+       arxiv(2016),
+nil)
+
 
 
