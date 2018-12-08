@@ -48,6 +48,12 @@ entry!('klein2017opennmt',
        author('Guillaume Klein and Yoon Kim and Yuntian Deng and Jean Senellart and Alexander M. Rush'),
        arxiv(2017, "1701.02810"),
 nil)
+entry!('trunk1979problem',
+       title('A Problem of Dimensionality: A Simple Example'),
+       author('G. V. Trunk'),
+       article('IEEE Transactions on Pattern Analysis and Machine Intelligence', 1979, 3), pages(306, 307),
+nil)
+
 entry!('jozefowicz2016exploring',
        title('Exploring the Limits of Language Modeling'),
        author('Rafal Jozefowicz and Oriol Vinyals and Mike Schuster and Noam Shazeer and Yonghui Wu'),
