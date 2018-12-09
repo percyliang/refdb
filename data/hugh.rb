@@ -48,6 +48,16 @@ entry!('klein2017opennmt',
        author('Guillaume Klein and Yoon Kim and Yuntian Deng and Jean Senellart and Alexander M. Rush'),
        arxiv(2017, "1701.02810"),
 nil)
+entry!('vinyals2015convo',
+       title('A Neural Conversational Model'),
+       author('Oriol Vinyals and Quoc V. Le'),
+       arxiv(2015, "1506.05869"),
+nil)
+entry!('roemmele2016writing',
+       title('Writing Stories with Help from Recurrent Neural Networks'),
+       author('Melissa Roemmele'),
+       aaai(2016),
+nil)
 entry!('trunk1979problem',
        title('A Problem of Dimensionality: A Simple Example'),
        author('G. V. Trunk'),
