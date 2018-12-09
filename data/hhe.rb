@@ -424,3 +424,9 @@ entry!('pauls2012treelets',
   author('Adam Pauls and Dan Klein'),
   acl(2012),
 )
+
+entry!('ghazvininejad2016poem',
+  title('Generating Topical Poetry'),
+  author('Marjan Ghazvininejad and Xing Shi and Yejin Choi and Kevin Knight'),
+  emnlp(2016),
+)
