@@ -53,7 +53,11 @@ entry!('trunk1979problem',
        author('G. V. Trunk'),
        article('IEEE Transactions on Pattern Analysis and Machine Intelligence', 1979, 3), pages(306, 307),
 nil)
-
+entry!('gehrmann2018bottom',
+       title('Bottom-Up Abstractive Summarization'),
+       author('Sebastian Gehrmann and Yuntian Deng and Alexander M. Rush'),
+       emnlp(2018),
+nil)
 entry!('jozefowicz2016exploring',
        title('Exploring the Limits of Language Modeling'),
        author('Rafal Jozefowicz and Oriol Vinyals and Mike Schuster and Noam Shazeer and Yonghui Wu'),
