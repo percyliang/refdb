@@ -643,3 +643,29 @@ entry!('singh2018nonparametric',
        author('Shashank Singh and Ananya Uppal and Boyue Li and Chun-Liang Li and Manzil Zaheer and Barnabas Poczos'),
        pages(246, 257),
        nil)
+
+entry!('bental2013robust',
+       article('Management Science', 2013, 59),
+       title('Robust Solutions of Optimization Problems Affected by Uncertain Probabilities'),
+       author('Aharon Ben-Tal and Dick den Hertog and Anja De Waegenaere and Bertrand Melenberg and Gijs Rennen'),
+       pages(341,357),
+       nil)
+
+entry!('duchi2018learning',
+       arxiv(2018,'1810.08750'),
+       title('Learning Models with Uniform Performance via Distributionally Robust Optimization'),
+       author('John Duchi and Hongseok Namkoong'),
+       nil)
+
+entry!('devlin2018BERT',
+      arxiv(2018,'1810.04805'),
+      title('BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding'),
+      author('Jacob Devlin and Ming-Wei Chang and Kenton Lee and Kristina Toutanova'),
+      nil)
+
+entry!('vaswani2013decoding',
+      emnlp(2013),
+      title('Decoding with Large-Scale Neural Language Models Improves Translation'),
+      author('Ashish Vaswani and Yinggong Zhao and Victoria Fossum and David Chiang'),
+      pages(1387,1392),
+      nil)

@@ -424,3 +424,53 @@ entry!('pauls2012treelets',
   author('Adam Pauls and Dan Klein'),
   acl(2012),
 )
+
+entry!('ghazvininejad2016poem',
+  title('Generating Topical Poetry'),
+  author('Marjan Ghazvininejad and Xing Shi and Yejin Choi and Kevin Knight'),
+  emnlp(2016),
+)
+
+entry!('zhang2014chinese',
+  title('Chinese Poetry Generation with Recurrent Neural Networks'),
+  author('Xingxing Zhang and Mirella Lapata'),
+  emnlp(2014),
+)
+
+entry!('peng2019plan',
+  title('Plan-And-Write: Towards Better Automatic Storytelling'),
+  author('Lili Yao and Nanyun Peng and Ralph Weischedel and Kevin Knight and Dongyan Zhao and Rui Yan'),
+  aaai(2019),
+)
+
+entry!('fang2018sounding',
+  title('Sounding Board: A User-Centric and Content-Driven Social Chatbot'),
+  author('Fang, Hao and Cheng, Hao and Sap, Maarten and Clark, Elizabeth and Holtzman, Ari and Choi, Yejin and Smith, Noah A and Ostendorf, Mari'),
+  arxiv(2018, '1804.10202'),
+)
+
+entry!('binsted1996jape',
+  phdthesis('University of Edinburgh', 1996),
+  title('Machine Humour: An Implemented Model of Puns'),
+  author('Kim Binsted'),
+  nil,
+)
+
+entry!('ritchie2005computational',
+  title('Computational Mechanisms for Pun Generation'),
+  author('Graeme Ritchie'),
+  inproceedings('the 10th European Natural Language Generation Workshop', 2005),
+)
+
+entry!('petrovic2013unsupervised',
+  title('Unsupervised Joke Generation from Big Data'),
+  author('Sas\u{a} Petrovi\'{c} and David Matthews'),
+  acl(2013),
+)
+
+entry!('valitutti2013adult',
+  title('``Let Everything Turn Well in Your Wife'': Generation of Adult Humor Using Lexical Constraints'),
+  author('Alessandro Valitutti and Hannu Toivonen and Antoine Doucet and Jukka M. Toivanen'),
+  acl(2013),
+)
+
