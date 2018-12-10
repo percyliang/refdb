@@ -69,3 +69,80 @@ entry!('clinchant2013aggregating',
        acl(2013),
        pages(100, 109),
        nil)
+
+entry!('tzeng2014domain',
+       title('Deep Domain Confusion: Maximizing for Domain Invariance'),
+       author('Eric Tzeng and Judy Hoffman and Ning Zhang and Kate Saenko and Trevor Darrell'),
+       arxiv(2014, '1412.3474'),
+       nil)
+
+entry!('ganin2015domain',
+       title('Unsupervised Domain Adaptation by Backpropagation'),
+       author('Yaroslav Ganin and Victor Lempitsky'),
+       icml(2015),
+       pages(1180,1189),
+       nil)
+
+entry!('fu2017domain',
+       title('Domain Adaptation for Relation Extraction with Domain Adversarial Neural Network'),
+       author('Lisheng Fu and Thien Huu Nguyen and Bonan Min and Ralph Grishman'),
+       inproceedings('Proceedings of the The 8th International Joint Conference on Natural Language Processing', 2017),
+       pages(425,429),
+       nil)
+
+entry!('yang2018nmtadv',
+       title('Improving Neural Machine Translation with Conditional Sequence Generative Adversarial Nets'),
+       author('Zhen Yang and Wei Chen and Feng Wang and Bo Xu'),
+       hltnaacl(2018),
+       pages(1346,1355),
+       nil)
+
+entry!('zhang2017aspect',
+       title('Aspect-augmented Adversarial Networks for Domain Adaptation'),
+       author('Yuan Zhang and Regina Barzilay and Tommi Jaakkola'),
+       tacl(2017, 5),
+       pages(515, 528),
+       nil)
+
+entry!('pryzant2017domainmix',
+       title('Effective Domain Mixing for Neural Machine Translation'),
+       author('Reid Pryzant and Denny Britz and Quoc V. Le'),
+       inproceedings('Proceedings of the Second Conference on Machine Translation', 2017),
+       pages(118,126),
+       nil)
+
+entry!('chen2018adversarial',
+       title('Adversarial Deep Averaging Networks for Cross-Lingual Sentiment Classification'),
+       author('Xilun Chen and Yu Sun and Ben Athiwaratkun and Claire Cardie and Kilian Weinberger'),
+       arxiv(2018, 'arXiv:1606.01614'),
+       nil)
+
+entry!('purushotham2017variational',
+       title('Variational Recurrent Adversarial Deep Domain Adaptation'),
+       author('Sanjay Purushotham and Wilka Carvalho and Tanachat Nilanon and Yan Liu'),
+       iclr(2017),
+       nil)
+
+entry!('shen2018WassersteinDG',
+       title('Wasserstein Distance Guided Representation Learning for Domain Adaptation'),
+       author('Jian Shen and Yanru Qu and Weinan Zhang and Yong Yu'),
+       aaai(2018),
+       nil)
+
+entry!('sun2016return',
+       title('Return of Frustratingly Easy Domain Adaptation'),
+       author('Baochen Sun and Jiashi Feng and Kate Saenko'),
+       aaai(2016),
+       nil)
+
+entry!('liu2015addressing',
+       title('Addressing Covariate Shift in Active Learning with Adversarial Prediction'),
+       author('Anqi Liu and Kaiser Asif'),
+       icml(2015),
+       nil)
+
+entry!('zhao2017multiple',
+       title('Multiple Source Domain Adaptation with Adversarial Training of Neural Networks'),
+       author('Han Zhao and Shanghang Zhang and Guanhang Wu and Jo{\~a}o P. Costeira and Jos{\'e} M. F. Moura and Geoffrey J. Gordon'),
+       article('CoRR', 2017, 'abs/1705.09684'),
+       nil)
