@@ -68,8 +68,18 @@ entry!('gehrmann2018bottom',
        author('Sebastian Gehrmann and Yuntian Deng and Alexander M. Rush'),
        emnlp(2018),
 nil)
+entry!('galley2015delta',
+       title('deltaBLEU: A Discriminative Metric for Generation Tasks with Intrinsically Diverse Targets'),
+       author('Michel Galley and Chris Brockett and Alessandro Sordoni and Yangfeng Ji and Michael Auli and Chris Quirk and Margaret Mitchell and Jianfeng Gao and Bill Dolan'),
+       arxiv(2015, "1506.06863"),
+nil)
 entry!('jozefowicz2016exploring',
        title('Exploring the Limits of Language Modeling'),
        author('Rafal Jozefowicz and Oriol Vinyals and Mike Schuster and Noam Shazeer and Yonghui Wu'),
        arxiv(2016, "1602.02410"),
+nil)
+entry!('shima2011diversity',
+       title('Diversity-aware Evaluation for Paraphrase Patterns '),
+       author('Hideki Shima and Teruko Mitamura'),
+       emnlp(2011),
 nil)
