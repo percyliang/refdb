@@ -81,7 +81,7 @@ nil)
 entry!('surowiecki2004wisdom',
        title('The wisdom of crowds: Why the many are smarter than the few and how collective wisdom shapes business, economies, societies, and nations'),
        author('James Surowiecki'),
-       book("Doubleday & Co.", 2004),
+       book("Doubleday \& Co", 2004),
 nil)
 entry!('shima2011diversity',
        title('Diversity-aware Evaluation for Paraphrase Patterns '),
