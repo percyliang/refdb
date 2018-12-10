@@ -146,3 +146,10 @@ entry!('zhao2017multiple',
        author('Han Zhao and Shanghang Zhang and Guanhang Wu and Jo{\~a}o P. Costeira and Jos{\'e} M. F. Moura and Geoffrey J. Gordon'),
        article('CoRR', 2017, 'abs/1705.09684'),
        nil)
+
+entry!('hoffman2012discovering',
+       title('Discovering Latent Domains for Multisource Domain Adaptation'),
+       author('Judy Hoffman and Brian Kulis and Trevor Darrell and Kate Saenko'),
+       eccv(2012),
+       pages(702,715),
+       nil)
