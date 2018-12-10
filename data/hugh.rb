@@ -78,8 +78,18 @@ entry!('jozefowicz2016exploring',
        author('Rafal Jozefowicz and Oriol Vinyals and Mike Schuster and Noam Shazeer and Yonghui Wu'),
        arxiv(2016, "1602.02410"),
 nil)
+entry!('surowiecki2004wisdom',
+       title('The wisdom of crowds: Why the many are smarter than the few and how collective wisdom shapes business, economies, societies, and nations'),
+       author('James Surowiecki'),
+       book("Doubleday & Co.", 2004),
+nil)
 entry!('shima2011diversity',
        title('Diversity-aware Evaluation for Paraphrase Patterns '),
        author('Hideki Shima and Teruko Mitamura'),
        emnlp(2011),
+nil)
+entry!('ungar2012judgement',
+       title('The Good Judgment Project: A Large Scale Test of Different Methods of Combining Expert Predictions'),
+       author('Lyle Ungar and Barb Mellors and Ville Satopää and Jon Baron and Phil Tetlock and Jaime Ramos and Sam Swift'),
+       aaai(2012),
 nil)
