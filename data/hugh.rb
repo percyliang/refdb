@@ -38,6 +38,11 @@ entry!('nenkova2007pyramid',
   inproceedings('ACM Transactions on Speech and Language Processing', 2007),
   title('The Pyramid Method: Incorporating human content selection variation in summarization evaluation'),
   nil)
+entry!('yu2017seq',
+       title('SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient'),
+       author('Lantao Yu and Weinan Zhang and Jun Wang and Yong Yu'),
+       arxiv(2017, "1609.05473"),
+nil)
 entry!('olsson2018skill',
        title('Skill Rating for Generative Models'),
        author('Catherine Olsson and Surya Bhupatiraju and Tom Brown and Augustus Odena and Ian Goodfellow'),
@@ -68,8 +73,33 @@ entry!('gehrmann2018bottom',
        author('Sebastian Gehrmann and Yuntian Deng and Alexander M. Rush'),
        emnlp(2018),
 nil)
+entry!('galley2015delta',
+       title('deltaBLEU: A Discriminative Metric for Generation Tasks with Intrinsically Diverse Targets'),
+       author('Michel Galley and Chris Brockett and Alessandro Sordoni and Yangfeng Ji and Michael Auli and Chris Quirk and Margaret Mitchell and Jianfeng Gao and Bill Dolan'),
+       arxiv(2015, "1506.06863"),
+nil)
 entry!('jozefowicz2016exploring',
        title('Exploring the Limits of Language Modeling'),
        author('Rafal Jozefowicz and Oriol Vinyals and Mike Schuster and Noam Shazeer and Yonghui Wu'),
        arxiv(2016, "1602.02410"),
+nil)
+entry!('surowiecki2004wisdom',
+       title('The wisdom of crowds: Why the many are smarter than the few and how collective wisdom shapes business, economies, societies, and nations'),
+       author('James Surowiecki'),
+       book("Doubleday and Co", 2004),
+nil)
+entry!('shima2011diversity',
+       title('Diversity-aware Evaluation for Paraphrase Patterns '),
+       author('Hideki Shima and Teruko Mitamura'),
+       emnlp(2011),
+nil)
+entry!('sun2012joint',
+       title('Joint learning of a dual {SMT} system for paraphrase generation'),
+       author('Hong Sun and Ming Zhou'),
+       acl(2012),
+nil)
+entry!('ungar2012judgement',
+       title('The Good Judgment Project: A Large Scale Test of Different Methods of Combining Expert Predictions'),
+       author('Lyle Ungar and Barb Mellors and Ville Satopää and Jon Baron and Phil Tetlock and Jaime Ramos and Sam Swift'),
+       aaai(2012),
 nil)

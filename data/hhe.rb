@@ -448,3 +448,29 @@ entry!('fang2018sounding',
   author('Fang, Hao and Cheng, Hao and Sap, Maarten and Clark, Elizabeth and Holtzman, Ari and Choi, Yejin and Smith, Noah A and Ostendorf, Mari'),
   arxiv(2018, '1804.10202'),
 )
+
+entry!('binsted1996jape',
+  phdthesis('University of Edinburgh', 1996),
+  title('Machine Humour: An Implemented Model of Puns'),
+  author('Kim Binsted'),
+  nil,
+)
+
+entry!('ritchie2005computational',
+  title('Computational Mechanisms for Pun Generation'),
+  author('Graeme Ritchie'),
+  inproceedings('the 10th European Natural Language Generation Workshop', 2005),
+)
+
+entry!('petrovic2013unsupervised',
+  title('Unsupervised Joke Generation from Big Data'),
+  author('Sas\u{a} Petrovi\'{c} and David Matthews'),
+  acl(2013),
+)
+
+entry!('valitutti2013adult',
+  title('``Let Everything Turn Well in Your Wife'': Generation of Adult Humor Using Lexical Constraints'),
+  author('Alessandro Valitutti and Hannu Toivonen and Antoine Doucet and Jukka M. Toivanen'),
+  acl(2013),
+)
+
