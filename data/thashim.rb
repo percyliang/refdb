@@ -624,6 +624,26 @@ entry!('ali1966general',
        author('S M Ali and Samuel David Silvey'),
        nil)
 
+entry!('balakrishnan2017hypothesis',
+       arxiv(2017,'1712.06120'),
+       title('Hypothesis Testing for High-Dimensional Multinomials: A Selective Review'),
+       author('Sivaraman Balakrishnan and Larry Wasserman'),
+       nil)
+
+entry!('tolstikhin2016minimax',
+       nips(2016),
+       title('Minimax Estimation of Maximum Mean Discrepancy With Radial Kernels'),
+       author('Ilya Tolstikhin and Bharath K. Sriperumbudur and Bernhard Scholkopf'),
+       pages(1930, 1938),
+       nil)
+
+entry!('singh2018nonparametric',
+       nips(2018),
+       title('Nonparametric Density Estimation under Adversarial Losses'),
+       author('Shashank Singh and Ananya Uppal and Boyue Li and Chun-Liang Li and Manzil Zaheer and Barnabas Poczos'),
+       pages(246, 257),
+       nil)
+
 entry!('bental2013robust',
        article('Management Science', 2013, 59),
        title('Robust Solutions of Optimization Problems Affected by Uncertain Probabilities'),
