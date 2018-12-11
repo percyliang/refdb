@@ -88,6 +88,11 @@ entry!('shima2011diversity',
        author('Hideki Shima and Teruko Mitamura'),
        emnlp(2011),
 nil)
+entry!('sun2012joint',
+       title('Joint learning of a dual {SMT} system for paraphrase generation'),
+       author('Hong Sun and Ming Zhou'),
+       acl(2012),
+nil)
 entry!('ungar2012judgement',
        title('The Good Judgment Project: A Large Scale Test of Different Methods of Combining Expert Predictions'),
        author('Lyle Ungar and Barb Mellors and Ville Satopää and Jon Baron and Phil Tetlock and Jaime Ramos and Sam Swift'),
