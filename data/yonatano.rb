@@ -153,3 +153,10 @@ entry!('hoffman2012discovering',
        eccv(2012),
        pages(702,715),
        nil)
+
+entry!('lau2015unsupervised',
+       title('Unsupervised Prediction of Acceptability Judgements'),
+       author('Jey Han Lau and Alexander Clark and Shalom Lappin'),
+       acl(2015),
+       pages(1618,1628),
+       nil)
