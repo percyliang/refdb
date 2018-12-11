@@ -166,3 +166,9 @@ entry!('xiong2014latent',
        author('Caiming Xiong and Scott McCloskey and Shao-Hang Hsieh and Jason J. Corso'),
        aaai(2014),
        nil)
+
+entry!('gong2013reshaping',
+       title('Reshaping Visual Datasets for Domain Adaptation'),
+       author('Boqing Gong and Kristen Grauman and Fei Sha'),
+       nips(2013),
+       nil)
