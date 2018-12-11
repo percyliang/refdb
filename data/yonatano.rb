@@ -160,3 +160,9 @@ entry!('lau2015unsupervised',
        acl(2015),
        pages(1618,1628),
        nil)
+
+entry!('xiong2014latent',
+       title('Latent Domains Modeling for Visual Domain Adaptation'),
+       author('Caiming Xiong and Scott McCloskey and Shao-Hang Hsieh and Jason J. Corso'),
+       aaai(2014),
+       nil)
