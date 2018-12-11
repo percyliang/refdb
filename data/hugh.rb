@@ -38,6 +38,11 @@ entry!('nenkova2007pyramid',
   inproceedings('ACM Transactions on Speech and Language Processing', 2007),
   title('The Pyramid Method: Incorporating human content selection variation in summarization evaluation'),
   nil)
+entry!('yu2017seq',
+       title('SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient'),
+       author('Lantao Yu and Weinan Zhang and Jun Wang and Yong Yu'),
+       arxiv(2017, "1609.05473"),
+nil)
 entry!('olsson2018skill',
        title('Skill Rating for Generative Models'),
        author('Catherine Olsson and Surya Bhupatiraju and Tom Brown and Augustus Odena and Ian Goodfellow'),
