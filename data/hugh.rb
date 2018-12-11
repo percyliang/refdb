@@ -93,6 +93,21 @@ entry!('shima2011diversity',
        author('Hideki Shima and Teruko Mitamura'),
        emnlp(2011),
 nil)
+entry!('huesel2017gans',
+       title('GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium'),
+       author('Martin Heusel and Hubert Ramsauer and Thomas Unterthiner and Bernhard Nessler and Sepp Hochreiter'),
+       nips(2017),
+nil)
+entry!('bruni2017adversarial',
+       title('Adversarial Evaluation for Open-Domain Dialogue Generation'),
+       author('Elia Bruni and Raquel Fernandez'),
+       inproceedings('Proceedings of the SIGDIAL 2017 Conference', 2017),
+nil)
+entry!('kannan2016adversarial',
+       title('Adversarial Evaluation of Dialogue Models'),
+       author('Anjuli Kannan and Oriol Vinyals'),
+       inproceedings('NIPS 2016 Workshop on Adversarial Training', 2016),
+nil)
 entry!('sun2012joint',
        title('Joint learning of a dual {SMT} system for paraphrase generation'),
        author('Hong Sun and Ming Zhou'),
