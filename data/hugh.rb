@@ -103,6 +103,11 @@ entry!('bruni2017adversarial',
        author('Elia Bruni and Raquel Fernandez'),
        inproceedings('Proceedings of the SIGDIAL 2017 Conference', 2017),
 nil)
+entry!('kannan2016adversarial',
+       title('Adversarial Evaluation of Dialogue Models'),
+       author('Anjuli Kannan and Oriol Vinyals'),
+       inproceedings('NIPS 2016 Workshop on Adversarial Training', 2016),
+nil)
 entry!('sun2012joint',
        title('Joint learning of a dual {SMT} system for paraphrase generation'),
        author('Hong Sun and Ming Zhou'),
