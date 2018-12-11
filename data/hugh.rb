@@ -98,6 +98,11 @@ entry!('huesel2017gans',
        author('Martin Heusel and Hubert Ramsauer and Thomas Unterthiner and Bernhard Nessler and Sepp Hochreiter'),
        nips(2017),
 nil)
+entry!('bruni2017adversarial',
+       title('Adversarial Evaluation for Open-Domain Dialogue Generation'),
+       author('Elia Bruni and Raquel Fernandez'),
+       inproceedings('Proceedings of the SIGDIAL 2017 Conference', 2017),
+nil)
 entry!('sun2012joint',
        title('Joint learning of a dual {SMT} system for paraphrase generation'),
        author('Hong Sun and Ming Zhou'),
