@@ -464,7 +464,7 @@ entry!('ritchie2005computational',
 
 entry!('petrovic2013unsupervised',
   title('Unsupervised Joke Generation from Big Data'),
-  author('Sas\u{a} Petrovi\'{c} and David Matthews'),
+  author('Sasa Petrovic and David Matthews'),
   acl(2013),
 )
 
