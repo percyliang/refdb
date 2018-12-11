@@ -93,6 +93,11 @@ entry!('shima2011diversity',
        author('Hideki Shima and Teruko Mitamura'),
        emnlp(2011),
 nil)
+entry!('huesel2017gans',
+       title('GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium'),
+       author('Martin Heusel and Hubert Ramsauer and Thomas Unterthiner and Bernhard Nessler and Sepp Hochreiter'),
+       nips(2017),
+nil)
 entry!('sun2012joint',
        title('Joint learning of a dual {SMT} system for paraphrase generation'),
        author('Hong Sun and Ming Zhou'),
