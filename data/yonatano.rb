@@ -172,3 +172,9 @@ entry!('gong2013reshaping',
        author('Boqing Gong and Kristen Grauman and Fei Sha'),
        nips(2013),
        nil)
+
+entry!('marcheggiani2014hierarchical',
+       title('Hierarchical Multi-Label Conditional Random Fields for Aspect-Oriented Opinion Mining'),
+       author('Marcheggiani, D. and Täckström, O. and Esuli, A and Sebastiani, F'),
+       inproceedings('ECIR', 2014),
+       nil)
