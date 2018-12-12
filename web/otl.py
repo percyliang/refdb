@@ -17,5 +17,5 @@ prefix = prefix[:-1]  # Remove last indent
 
 result = lookup_query(query)
 sys.stdout = codecs.getwriter('utf8')(sys.stdout)
-print '%s%s, %s: %s' % (prefix, '/'.join(result['authors']), result['year'], result['title'])
+print u'%s%s, %s: %s' % (prefix, u'/'.join(result['authors']), result['year'], result['title'])
 print '%s\t%s' % (prefix, result['pdf_url'])
