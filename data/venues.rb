@@ -8,6 +8,7 @@ def bayesianAnalysis(year, volume);    article('Bayesian Analysis', year, volume
 def dukeMath(year, volume);            article('Duke Mathematical Journal', year, volume) end
 def jasa(year, volume);                article(Name.new('Journal of the American Statistical Association', 'JASA'), year, volume) end
 def biometrika(year, volume);          article('Biometrika', year, volume) end
+def jrssb(year, volume);               article('Journal of the Royal Statistical Society. Series B (Methodological)', year, volume) end
 def mathops(year, volume);             article('Mathematics of Operations Research', year, volume) end
 def jmlr(year, volume);                article(Name.new('Journal of Machine Learning Research', 'JMLR'), year, volume) end
 def pami(year, volume);                article(Name.new('IEEE Transactions on Pattern Analysis and Machine Intelligence', 'PAMI'), year, volume) end
@@ -35,7 +36,7 @@ def manual(year); [type('manual'), year(year)] end
 
 ### Machine learning / AI
 def colt(year); inproceedings(Name.new('Conference on Learning Theory', 'COLT'), year) end
-def nips(year); [inproceedings(Name.new('Advances in Neural Information Processing Systems', 'NIPS'), year), mitpress] end
+def nips(year); [inproceedings(Name.new('Advances in Neural Information Processing Systems', 'NeurIPS'), year), mitpress] end
 def iclr(year); [inproceedings(Name.new('International Conference on Learning Representations', 'ICLR'), year), publisher('Omnipress')] end
 def iclrWorkshop(year); [inproceedings(Name.new('International Conference on Learning Representations Workshop', 'ICLR'), year), publisher('Omnipress')] end
 def icml(year); [inproceedings(Name.new('International Conference on Machine Learning', 'ICML'), year), publisher('Omnipress')] end

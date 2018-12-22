@@ -1,7 +1,7 @@
 # encoding: utf-8    
 
 entry!('blodgett2017racial',
-  title('Racial Disparity in Natural Language Processing: A Case Study of Social Media African-American English'),
+  title('Racial Disparity in Natural Language Processing: A Case Study of Social Media African-American {E}nglish'),
   author('Su Lin Blodgett and Brendan OConnor'),
   arxiv(2017, '1707.00061'),
 nil)

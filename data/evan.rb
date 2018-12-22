@@ -271,3 +271,46 @@ entry!('henderson2017deep',
   author('P. Henderson and R. Islam and P. Bachman and J. Pineau and D. Precup and D. Meger'),
   arxiv(2017, '1709.06560'),
 nil)
+
+entry!('ha2018world',
+  arxiv(2018, '1803.10122'),
+  title('World Models'),
+  author('David Ha and J{\"u}rgen Schmidhuber'),
+nil)
+
+entry!('oh2015action',
+  inproceedings('Advances in neural information processing systems', 2015),
+  title('Action-conditional video prediction using deep networks in atari games'),
+  author('Junhyuk Oh and Xiaoxiao Guo and Honglak Lee and Richard L Lewis and Satinder Singh'),
+  pages(2863, 2871),
+nil)
+
+entry!('schmidhuber1993planning',
+  inproceedings('From Animals to Animats 2: Proceedings of the Second International Conference on Simulation of Adaptive Behavior', 1993),
+  title('Planning simple trajectories using neural subgoal generators'),
+  author('J{\"u}rgen Schmidhuber'),
+  volume(2),
+  organization('MIT Press'),
+nil)
+
+entry!('strehl2008analysis',
+  article('Journal of Computer and System Sciences', 2008, 74),
+  title('An analysis of model-based interval estimation for Markov decision processes'),
+  author('Alexander L Strehl and Michael L Littman'),
+  number(8),
+  pages(1309, 1331),
+  publisher('Elsevier'),
+nil)
+
+entry!('talvitie2015agnostic',
+  aaai(2015),
+  title('Agnostic System Identification for Monte Carlo Planning'),
+  author('Erik Talvitie'),
+  pages(2986, 2992),
+nil)
+
+entry!('kakade2003sample',
+  title('On the sample complexity of reinforcement learning'),
+  author('Sham Machandranath Kakade and others'),
+  phdthesis('University of London', 2003),
+nil)

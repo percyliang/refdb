@@ -67,7 +67,7 @@ nil)
 
 entry!('pearlmutter1994fast',
   article('Neural Computation', 1994, 6),
-  title('Fast exact multiplication by the Hessian'),
+  title('Fast exact multiplication by the {Hessian}'),
   author('Barak A Pearlmutter'),
   number(1),
   pages(147, 160),
@@ -876,7 +876,7 @@ nil)
 
 entry!('shafahi2018poison',
   arxiv(2018, '1804.00792'),
-  title('Poison Frogs! Targeted Clean-Label Poisoning Attacks on Neural Networks'),
+  title('Poison {F}rogs! {Targeted} Clean-Label Poisoning Attacks on Neural Networks'),
   author('Ali Shafahi and W Ronny Huang and Mahyar Najibi and Octavian Suciu and Christoph Studer and Tudor Dumitras and Tom Goldstein'),
 nil)
 
@@ -902,6 +902,30 @@ entry!('bard1991some',
   publisher('Springer'),
 nil)
 
+entry!('crammer2002learnability',
+  article('Machine learning', 2002, 47),
+  title('On the learnability and design of output codes for multiclass problems'),
+  author('Koby Crammer and Yoram Singer'),
+  number('2-3'),
+  pages(201, 233),
+  publisher('Springer'),
+nil)
+
+entry!('mirrokni2015tight',
+  arxiv(2015, '1512.08602'),
+  title('Tight Bounds for Approximate {C}arath{\\\'e}odory and Beyond'),
+  author('Vahab Mirrokni and Renato Paes Leme and Adrian Vladu and Sam Chiu-wai Wong'),
+nil)
+
+entry!('barany2012notes',
+  article('Discrete \& Computational Geometry', 2012, 48),
+  title('Notes about the {C}arath{\\\'e}odory number'),
+  author('Imre B{\\\'a}r{\\\'a}ny and Roman Karasev'),
+  number(3),
+  pages(783, 792),
+  publisher('Springer'),
+nil)
+
 entry!('wang2018learning',
   uai(2018),
   title('Learning Deep Hidden Nonlinear Dynamics from Aggregate Data'),
@@ -914,4 +938,10 @@ entry!('wang2014unsupervised',
   author('Xiang Wang and David Sontag and Fei Wang'),
   pages(85, 94),
   organization('ACM'),
+nil)
+
+entry!('papernot2018deep',
+  arxiv(2018, '1803.04765'),
+  title('Deep k-nearest neighbors: Towards confident, interpretable and robust deep learning'),
+  author('Nicolas Papernot and Patrick McDaniel'),
 nil)

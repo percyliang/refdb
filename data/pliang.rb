@@ -10456,7 +10456,7 @@ entry!('papernot2016towards',
 nil)
 
 entry!('gardiner2016security',
-  title('On the Security of Machine Learning in Malware C\&C Detection: A Survey'),
+  title('On the Security of Machine Learning in Malware {C\&C} Detection: A Survey'),
   author('Joseph Gardiner and Shishir Nagaraja'),
   article('ACM Computing Surveys (CSUR)', 2016, 49),
   number(3),
@@ -11409,4 +11409,16 @@ entry!('mckenzie2018robust',
   author('Theo McKenzie and Hermish Mehta and Luca Trevisan'),
   title('A New Algorithm for the Robust Semi-Random Independent Set Problem'),
   arxiv(2018),
+nil)
+
+entry!('steinhardt2018thesis',
+  author('Jacob Steinhardt'),
+  title('Robust Learning: Information Theory and Algorithms'),
+  phdthesis('Stanford University', 2018),
+nil)
+
+entry!('li2018thesis',
+  author('Jerry Li'),
+  title('Principled Approaches to Robust Machine Learning and Beyond'),
+  phdthesis('Massachusetts Institute of Technology', 2018),
 nil)

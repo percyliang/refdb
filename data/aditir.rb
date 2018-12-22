@@ -5,12 +5,6 @@ entry!('bastani2016measuring',
   pages(2613, 2621),
 nil)
 
-entry!('kolter2017provable',
-  arxiv(2017, '1711.00851'),
-  title('Provable defenses against adversarial examples via the convex outer adversarial polytope (published at {ICML} 2018)'),
-  author('J Zico Kolter and Eric Wong'),
-nil)
-
 entry!('wong2018provable',
   icml(2018),
   title('Provable defenses against adversarial examples via the convex outer adversarial polytope'),
@@ -40,4 +34,10 @@ entry!('dvijotham2018training',
   arxiv(2018, '1805.10265'),
   title('Training verified learners with learned verifiers'),
   author('Krishnamurthy Dvijotham and Sven Gowal and Robert Stanforth and Relja Arandjelovic and Brendan O\'Donoghue and Jonathan Uesato and Pushmeet Kohli'),
+nil)
+
+entry!('wong2018scaling',
+  arxiv(2018, '1805.12514'),
+  title('Scaling provable adversarial defenses'),
+  author('Eric Wong and Frank Schmidt and Jan Hendrik Metzen and J Zico Kolter'),
 nil)

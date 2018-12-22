@@ -388,3 +388,89 @@ entry!('nouri2012cultural',
   author('Nouri, Elnaz and Georgila, Kallirroi and Traum, David'),
   inproceedings('The Annual Meeting of the Cognitive Science Society', 2012),
 )
+
+entry!('kao2015pun',
+  title('A Computational Model of Linguistic Humor in Puns'),
+  author('Justine T. Kao and Roger Levy and Noah D. Goodman'),
+  article('Cognitive Science', 2015),
+)
+
+entry!('veale2004incongruity',
+  title('Incongruity in humor: Root cause or epiphenomenon?'),
+  author('Veale, Tony'),
+  article('Humor: International Journal of Humor Research', 2004, 17),
+)
+
+entry!('semeval2017pun',
+  title('Idiom Savant at {S}em{E}val-2017 Task 7: Detection and Interpretation of {E}nglish Puns'),
+  author('Samuel Doogan and Aniruddha Ghosh and Hanyang Chen and Tony Veale'),
+  inproceedings('The 11th International Workshop on Semantic Evaluation', 2017),
+)
+
+entry!('zhu2015moviebook',
+  title('Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books'),
+  author('Yukun Zhu and Ryan Kiros and Richard Zemel and Ruslan Salakhutdinov and Raquel Urtasun and Antonio Torralba and Sanja Fidler'),
+  arxiv(2015, '1506.06724'),
+)
+
+entry!('merity2016pointer',
+  title('Pointer Sentinel Mixture Models'),
+  author('Stephen Merity and Caiming Xiong and James Bradbury and Richard Socher'),
+  arxiv(2016, '1609.07843'),
+)
+
+entry!('pauls2012treelets',
+  title('Large-Scale Syntactic Language Modeling with Treelets'),
+  author('Adam Pauls and Dan Klein'),
+  acl(2012),
+)
+
+entry!('ghazvininejad2016poem',
+  title('Generating Topical Poetry'),
+  author('Marjan Ghazvininejad and Xing Shi and Yejin Choi and Kevin Knight'),
+  emnlp(2016),
+)
+
+entry!('zhang2014chinese',
+  title('Chinese Poetry Generation with Recurrent Neural Networks'),
+  author('Xingxing Zhang and Mirella Lapata'),
+  emnlp(2014),
+)
+
+entry!('peng2019plan',
+  title('Plan-And-Write: Towards Better Automatic Storytelling'),
+  author('Lili Yao and Nanyun Peng and Ralph Weischedel and Kevin Knight and Dongyan Zhao and Rui Yan'),
+  aaai(2019),
+)
+
+entry!('fang2018sounding',
+  title('Sounding Board: A User-Centric and Content-Driven Social Chatbot'),
+  author('Fang, Hao and Cheng, Hao and Sap, Maarten and Clark, Elizabeth and Holtzman, Ari and Choi, Yejin and Smith, Noah A and Ostendorf, Mari'),
+  arxiv(2018, '1804.10202'),
+)
+
+entry!('binsted1996jape',
+  phdthesis('University of Edinburgh', 1996),
+  title('Machine Humour: An Implemented Model of Puns'),
+  author('Kim Binsted'),
+  nil,
+)
+
+entry!('ritchie2005computational',
+  title('Computational Mechanisms for Pun Generation'),
+  author('Graeme Ritchie'),
+  inproceedings('the 10th European Natural Language Generation Workshop', 2005),
+)
+
+entry!('petrovic2013unsupervised',
+  title('Unsupervised Joke Generation from Big Data'),
+  author('Sasa Petrovic and David Matthews'),
+  acl(2013),
+)
+
+entry!('valitutti2013adult',
+  title('``Let Everything Turn Well in Your Wife'': Generation of Adult Humor Using Lexical Constraints'),
+  author('Alessandro Valitutti and Hannu Toivonen and Antoine Doucet and Jukka M. Toivanen'),
+  acl(2013),
+)
+
