@@ -28,12 +28,16 @@ entry!('mussmann2018sgd',
   title('Uncertainty Sampling is Preconditioned Stochastic Gradient Descent on Zero-One Loss'),
   author('Stephen Mussmann and Percy Liang'),
   nips(2018),
+  codalab('0xf8dfe5bcc1dc408fb54b3cc15a5abce8'),
+  url('https://arxiv.org/pdf/1812.01815.pdf'),
 nil)
 
 entry!('hashimoto2018edit',
   title('A Retrieve-and-Edit Framework for Predicting Structured Outputs'),
   author('Tatsunori Hashimoto and Kelvin Guu and Yonatan Oren and Percy Liang'),
   nips(2018),
+  url('https://arxiv.org/pdf/1812.01194.pdf'),
+  codalab('0x1ad3f387005c492ea913cf0f20c9bb89'),
 nil)
 
 entry!('choi2018quac',
