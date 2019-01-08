@@ -90,7 +90,7 @@ nil)
 
 entry!('hancock2018babble',
   title('Training Classifiers with Natural Language Explanations'),
-  author('Braden Hancock and Paroma Varma and Stephanie Wang and Martin Bringmann and Percy Liang and Christopher Ré'),
+  author('Braden Hancock and Paroma Varma and Stephanie Wang and Martin Bringmann and Percy Liang and Christopher R\\\'e'),
   acl(2018),
   url('https://arxiv.org/pdf/1805.03818.pdf'),
   codalab('0x900e7e41deaa4ec5b2fe41dc50594548'),
