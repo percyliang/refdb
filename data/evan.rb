@@ -314,3 +314,22 @@ entry!('kakade2003sample',
   author('Sham Machandranath Kakade and others'),
   phdthesis('University of London', 2003),
 nil)
+
+entry!('choi2018contingency',
+  arxiv(2018, '1811.01483'),
+  title('Contingency-Aware Exploration in Reinforcement Learning'),
+  author('Jongwook Choi and Yijie Guo and Marcin Moczulski and Junhyuk Oh and Neal Wu and Mohammad Norouzi and Honglak Lee'),
+nil)
+
+entry!('finn2016unsupervised',
+  inproceedings('Advances in neural information processing systems', 2016),
+  title('Unsupervised learning for physical interaction through video prediction'),
+  author('Chelsea Finn and Ian Goodfellow and Sergey Levine'),
+  pages(64, 72),
+nil)
+
+entry!('chiappa2017recurrent',
+  arxiv(2017, '1704.02254'),
+  title('Recurrent environment simulators'),
+  author('Silvia Chiappa and S{\'e}bastien Racaniere and Daan Wierstra and Shakir Mohamed'),
+nil)
