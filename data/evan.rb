@@ -339,3 +339,10 @@ entry!('burda2018exploration',
   title('Exploration by random network distillation'),
   author('Yuri Burda and Harrison Edwards and Amos Storkey and Oleg Klimov'),
 nil)
+
+entry!('guo2014deep',
+  inproceedings('Advances in neural information processing systems', 2014),
+  title('Deep learning for real-time Atari game play using offline Monte-Carlo tree search planning'),
+  author('Xiaoxiao Guo and Satinder Singh and Honglak Lee and Richard L Lewis and Xiaoshi Wang'),
+  pages(3338, 3346),
+nil)
