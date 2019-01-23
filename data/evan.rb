@@ -346,3 +346,24 @@ entry!('guo2014deep',
   author('Xiaoxiao Guo and Satinder Singh and Honglak Lee and Richard L Lewis and Xiaoshi Wang'),
   pages(3338, 3346),
 nil)
+
+entry!('laroche2017transfer',
+  aaai(2017),
+  title('Transfer Reinforcement Learning with Shared Dynamics'),
+  author('Romain Laroche and Merwan Barlier'),
+  pages(2147, 2153),
+nil)
+
+entry!('andre2002state',
+  aaai(2002),
+  title('State abstraction for programmable reinforcement learning agents'),
+  author('David Andre and Stuart J Russell'),
+  pages(119, 125),
+nil)
+
+entry!('dietterich2000state',
+  nips(2000),
+  title('State abstraction in {MAXQ} hierarchical reinforcement learning'),
+  author('Thomas G Dietterich'),
+  pages(994, 1000),
+nil)
