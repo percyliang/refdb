@@ -367,3 +367,10 @@ entry!('dietterich2000state',
   author('Thomas G Dietterich'),
   pages(994, 1000),
 nil)
+
+entry!('martins2016softmax',
+  icml(2016),
+  title('From softmax to sparsemax: A sparse model of attention and multi-label classification'),
+  author('Andre Martins and Ramon Astudillo'),
+  pages(1614, 1623),
+nil)
