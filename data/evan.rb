@@ -333,3 +333,9 @@ entry!('chiappa2017recurrent',
   title('Recurrent environment simulators'),
   author('Silvia Chiappa and S{\'e}bastien Racaniere and Daan Wierstra and Shakir Mohamed'),
 nil)
+
+entry!('burda2018exploration',
+  arxiv(2018, '1810.12894'),
+  title('Exploration by random network distillation'),
+  author('Yuri Burda and Harrison Edwards and Amos Storkey and Oleg Klimov'),
+nil)
