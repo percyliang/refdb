@@ -1,13 +1,6 @@
 ############################################################
 # 2019
 
-entry!('shi2019frangel',
-  title('{F}r{A}ngel: Component-Based Synthesis with Control Structures'),
-  author('Kensen Shi and Jacob Steinhardt and Percy Liang'),
-  popl(2019),
-  url('https://arxiv.org/pdf/1811.05175.pdf'),
-nil)
-
 entry!('koh2019stronger',
   title('Stronger Data Poisoning Attacks Break Data Sanitization Defenses'),
   author('Pang Wei Koh and Jacob Steinhardt and Percy Liang'),
@@ -33,6 +26,13 @@ entry!('pierson2019aging',
   author('Emma Pierson and Pang Wei Koh and Tatsunori Hashimoto and Daphne Koller and Jure Leskovec and Nick Eriksson and Percy Liang'),
   aistats(2019),
   url('https://arxiv.org/pdf/1807.04709.pdf'),
+nil)
+
+entry!('shi2019frangel',
+  title('{F}r{A}ngel: Component-Based Synthesis with Control Structures'),
+  author('Kensen Shi and Jacob Steinhardt and Percy Liang'),
+  popl(2019),
+  url('https://arxiv.org/pdf/1811.05175.pdf'),
 nil)
 
 ############################################################
