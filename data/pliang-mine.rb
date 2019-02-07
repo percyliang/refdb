@@ -8,6 +8,33 @@ entry!('shi2019frangel',
   url('https://arxiv.org/pdf/1811.05175.pdf'),
 nil)
 
+entry!('koh2019stronger',
+  title('Stronger Data Poisoning Attacks Break Data Sanitization Defenses'),
+  author('Pang Wei Koh and Jacob Steinhardt and Percy Liang'),
+  arxiv(2019, '1811.00741'),
+  #url('https://arxiv.org/pdf/1811.00741.pdf'),
+nil)
+
+entry!('selsam2019sat',
+  title('Learning a {SAT} Solver from Single-Bit Supervision'),
+  author('Daniel Selsam and Matthew Lamm and Benedikt Bünz and Percy Liang and Leonardo de Moura and David L. Dill'),
+  iclr(2019),
+  url('https://arxiv.org/pdf/1802.03685.pdf'),
+nil)
+
+entry!('zhang2019discretization',
+  title('Defending against Whitebox Adversarial Attacks via Randomized Discretization'),
+  author('Yuchen Zhang and Percy Liang'),
+  aistats(2019),
+nil)
+
+entry!('pierson2019aging',
+  title('Inferring Multidimensional Rates of Aging from Cross-Sectional Data'),
+  author('Emma Pierson and Pang Wei Koh and Tatsunori Hashimoto and Daphne Koller and Jure Leskovec and Nick Eriksson and Percy Liang'),
+  aistats(2019),
+  url('https://arxiv.org/pdf/1807.04709.pdf'),
+nil)
+
 ############################################################
 # 2018
 
@@ -111,12 +138,6 @@ entry!('rajpurkar2018squadrun',
   award('Best short paper award'),
   url('https://arxiv.org/pdf/1806.03822.pdf'),
   codalab('0x9a15a170809f4e2cb7940e1f256dee55'),
-nil)
-
-entry!('selsam2018sat',
-  title('Learning a {SAT} Solver from Single-Bit Supervision'),
-  author('Daniel Selsam and Matthew Lamm and Benedikt Bünz and Percy Liang and Leonardo de Moura and David L. Dill'),
-  arxiv(2018, '1802.03685'),
 nil)
 
 entry!('mussmann2018gbs',
