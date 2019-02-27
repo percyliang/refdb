@@ -945,3 +945,10 @@ entry!('papernot2018deep',
   title('Deep k-nearest neighbors: Towards confident, interpretable and robust deep learning'),
   author('Nicolas Papernot and Patrick McDaniel'),
 nil)
+
+entry!('hsu2012tail',
+  article('Electronic Communications in Probability', 2012, 17),
+  title('A tail inequality for quadratic forms of subgaussian random vectors'),
+  author('Daniel Hsu and Sham Kakade and Tong Zhang and others'),
+  publisher('The Institute of Mathematical Statistics and the Bernoulli Society'),
+nil)
