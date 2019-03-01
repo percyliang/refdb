@@ -1,6 +1,51 @@
 ############################################################
 # 2019
 
+entry!('zhang2019huse',
+  title('Unifying Human and Statistical Evaluation for Natural Language Generation'),
+  author('Tatsu Hashimoto and Hugh Zhang and Percy Liang'),
+  naacl(2019),
+nil)
+
+entry!('oren2019dro',
+  title('Distributionally Robust Language Modeling'),
+  author('Yonatan Oren and Tatsu Hashimoto and Kelvin Guu and Percy Liang'),
+  naacl(2019),
+nil)
+
+entry!('peng2019pun',
+  title('Pun Generation with Surprise'),
+  author('Nanyun Peng and He He and Percy Liang'),
+  naacl(2019),
+nil)
+
+entry!('koh2019stronger',
+  title('Stronger Data Poisoning Attacks Break Data Sanitization Defenses'),
+  author('Pang Wei Koh and Jacob Steinhardt and Percy Liang'),
+  arxiv(2019, '1811.00741'),
+  #url('https://arxiv.org/pdf/1811.00741.pdf'),
+nil)
+
+entry!('selsam2019sat',
+  title('Learning a {SAT} Solver from Single-Bit Supervision'),
+  author('Daniel Selsam and Matthew Lamm and Benedikt Bünz and Percy Liang and Leonardo de Moura and David L. Dill'),
+  iclr(2019),
+  url('https://arxiv.org/pdf/1802.03685.pdf'),
+nil)
+
+entry!('zhang2019discretization',
+  title('Defending against Whitebox Adversarial Attacks via Randomized Discretization'),
+  author('Yuchen Zhang and Percy Liang'),
+  aistats(2019),
+nil)
+
+entry!('pierson2019aging',
+  title('Inferring Multidimensional Rates of Aging from Cross-Sectional Data'),
+  author('Emma Pierson and Pang Wei Koh and Tatsunori Hashimoto and Daphne Koller and Jure Leskovec and Nick Eriksson and Percy Liang'),
+  aistats(2019),
+  url('https://arxiv.org/pdf/1807.04709.pdf'),
+nil)
+
 entry!('shi2019frangel',
   title('{F}r{A}ngel: Component-Based Synthesis with Control Structures'),
   author('Kensen Shi and Jacob Steinhardt and Percy Liang'),
@@ -28,12 +73,16 @@ entry!('mussmann2018sgd',
   title('Uncertainty Sampling is Preconditioned Stochastic Gradient Descent on Zero-One Loss'),
   author('Stephen Mussmann and Percy Liang'),
   nips(2018),
+  codalab('0xf8dfe5bcc1dc408fb54b3cc15a5abce8'),
+  url('https://arxiv.org/pdf/1812.01815.pdf'),
 nil)
 
 entry!('hashimoto2018edit',
   title('A Retrieve-and-Edit Framework for Predicting Structured Outputs'),
   author('Tatsunori Hashimoto and Kelvin Guu and Yonatan Oren and Percy Liang'),
   nips(2018),
+  url('https://arxiv.org/pdf/1812.01194.pdf'),
+  codalab('0x1ad3f387005c492ea913cf0f20c9bb89'),
 nil)
 
 entry!('choi2018quac',
@@ -86,7 +135,7 @@ nil)
 
 entry!('hancock2018babble',
   title('Training Classifiers with Natural Language Explanations'),
-  author('Braden Hancock and Paroma Varma and Stephanie Wang and Martin Bringmann and Percy Liang and Christopher Ré'),
+  author('Braden Hancock and Paroma Varma and Stephanie Wang and Martin Bringmann and Percy Liang and Christopher R\\\'e'),
   acl(2018),
   url('https://arxiv.org/pdf/1805.03818.pdf'),
   codalab('0x900e7e41deaa4ec5b2fe41dc50594548'),
@@ -107,12 +156,6 @@ entry!('rajpurkar2018squadrun',
   award('Best short paper award'),
   url('https://arxiv.org/pdf/1806.03822.pdf'),
   codalab('0x9a15a170809f4e2cb7940e1f256dee55'),
-nil)
-
-entry!('selsam2018sat',
-  title('Learning a {SAT} Solver from Single-Bit Supervision'),
-  author('Daniel Selsam and Matthew Lamm and Benedikt Bünz and Percy Liang and Leonardo de Moura and David L. Dill'),
-  arxiv(2018, '1802.03685'),
 nil)
 
 entry!('mussmann2018gbs',

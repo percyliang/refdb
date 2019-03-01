@@ -10227,13 +10227,6 @@ entry!('sedghi2016training',
   author('Hanie Sedghi and Anima Anandkumar'),
 nil)
 
-entry!('li2016dialogue',
-  author('Jiwei Li and Alexander H. Miller and Sumit Chopra and Marc\'Aurelio Ranzato and Jason Weston'),
-  title('Dialogue Learning With Human-In-The-Loop'),
-  arxiv(2016, '1611.09823'),
-  url('http://arxiv.org/pdf/1611.09823.pdf'),
-nil)
-
 entry!('amodei2016concrete',
   arxiv(2016, '1606.06565'),
   title('Concrete problems in {AI} safety'),

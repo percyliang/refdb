@@ -33,7 +33,7 @@ class String
   def to_full_s; to_s end
 end
 
-class Fixnum
+class Integer
   def matches(value)
     if value.is_a?(String)
       return self >= $1.to_f if value =~ /^>=(.+)$/

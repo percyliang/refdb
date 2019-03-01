@@ -24,8 +24,13 @@ def read_url(url):
         #print >>sys.stderr, 'REQUEST', url
         f = urllib2.urlopen(url)
         data = f.read()
-        with codecs.open(cached_path, 'w', encoding='utf-8') as f:
-            f.write(data)
+        data = data.decode('utf-8')
+        try:
+            with codecs.open(cached_path, 'w', encoding='utf-8') as f:
+                f.write(data)
+        except:
+            os.unlink(cached_path)  # Don't cache if failed
+            raise
     return data
 
 def read_url_lines(url):
