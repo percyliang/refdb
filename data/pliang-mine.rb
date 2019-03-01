@@ -1,6 +1,24 @@
 ############################################################
 # 2019
 
+entry!('zhang2019huse',
+  title('Unifying Human and Statistical Evaluation for Natural Language Generation'),
+  author('Tatsu Hashimoto and Hugh Zhang and Percy Liang'),
+  naacl(2019),
+nil)
+
+entry!('oren2019dro',
+  title('Distributionally Robust Language Modeling'),
+  author('Yonatan Oren and Tatsu Hashimoto and Kelvin Guu and Percy Liang'),
+  naacl(2019),
+nil)
+
+entry!('peng2019pun',
+  title('Pun Generation with Surprise'),
+  author('Nanyun Peng and He He and Percy Liang'),
+  naacl(2019),
+nil)
+
 entry!('koh2019stronger',
   title('Stronger Data Poisoning Attacks Break Data Sanitization Defenses'),
   author('Pang Wei Koh and Jacob Steinhardt and Percy Liang'),
