@@ -41,3 +41,27 @@ entry!('wong2018scaling',
   title('Scaling provable adversarial defenses'),
   author('Eric Wong and Frank Schmidt and Jan Hendrik Metzen and J Zico Kolter'),
 nil)
+
+entry!('alzantot2018generating',
+  arxiv(2018, '1804.07998'),
+  title('Generating natural language adversarial examples'),
+  author('Moustafa Alzantot and Yash Sharma and Ahmed Elgohary and Bo-Jhang Ho and Mani Srivastava and Kai-Wei Chang'),
+nil)
+
+entry!('gowal2018effectiveness',
+  arxiv(2018, '1810.12715'),
+  title('On the Effectiveness of Interval Bound Propagation for Training Verifiably Robust Models'),
+  author('Sven Gowal and Krishnamurthy Dvijotham and Robert Stanforth and Rudy Bunel and Chongli Qin and Jonathan Uesato and Timothy Mann and Pushmeet Kohli'),
+nil)
+
+entry!('belinkov2017synthetic',
+  arxiv(2017, '1711.02173'),
+  title('Synthetic and natural noise both break neural machine translation'),
+  author('Yonatan Belinkov and Yonatan Bisk'),
+nil)
+
+entry!('ebrahimi2017hotflip',
+  arxiv(2017, '1712.06751'),
+  title('Hotflip: White-box adversarial examples for text classification'),
+  author('Javid Ebrahimi and Anyi Rao and Daniel Lowd and Dejing Dou'),
+nil)
