@@ -669,3 +669,88 @@ entry!('vaswani2013decoding',
       author('Ashish Vaswani and Yinggong Zhao and Victoria Fossum and David Chiang'),
       pages(1387,1392),
       nil)
+
+entry!('kannan2016smart',
+      kdd(2016),
+      title('Smart Reply: Automated Response Suggestion for Email'),
+      author('Anjuli Kannan and Karol Kurach and Sujith Ravi and Tobias Kaufmann and Andrew Tomkins and Balint Miklos and Greg Corrado and Laszlo Lukacs and Marina Ganea and Peter Young and 	Vivek Ramavajjala'),
+      pages(955,964),
+      nil)
+
+entry!('levy2007speakers',
+       nips(2007),
+       title('Speakers optimize information density through syntactic reduction'),
+       author('Roger Levy and T. Florian Jaeger'),
+       pages(849, 856),
+       nil)
+
+entry!('levy2018communicative',
+       title('Communicative Efficiency, Uniform Information Density, and the Rational Speech Act Theory'),
+       author('Roger Levy'),
+       inproceedings('Proceedings of the 40th Annual Meeting of the Cognitive Science Society', 2018),
+       pages(684, 689),
+       organization('CogSci'),
+       nil)
+
+entry!('fedus2018maskgan',
+       title('MaskGAN: Better Text Generation via Filling in the '),
+       author('William Fedus and Ian Goodfellow and Andrew M. Dai'),
+       iclr(2018),
+       nil)
+
+entry!('miao2016language',
+       emnlp(2016),
+       title('Language as a Latent Variable: Discrete Generative Models for Sentence Compression'),
+       author('Yishu Miao and Phil Blunsom'),
+       pages(319, 328),
+       nil)
+
+entry!('turner2005supervised',
+       acl(2005),
+       title('Supervised and unsupervised learning for sentence compression'),
+       author('Jenine Turner and Eugene Charniak'),
+       pages(290, 297),
+       nil)
+
+entry!('filippova2013overcoming',
+       emnlp(2013),
+       title('Overcoming the Lack of Parallel Data in Sentence Compression'),
+       author('Katja Filippova and Yasemin Altun'),
+       nil)
+
+entry!('knight2002summarization',
+  article('Artifical Intelligence', 2002, 139),
+  title('Summarization beyond sentence extraction: A probabilistic approach to sentence compression'),
+  author('Kevin Knight and Daniel Marcu'),
+  pages(91, 107),
+  publisher('Elsevier'),
+nil)
+
+entry!('cohn2008sentence',
+       coling(2008),
+       title('Sentence Compression Beyond Word Deletion'),
+       author('Trevor Cohn and Mirella Lapata'),
+       pages(137,144),
+       nil)
+
+entry!('fevry2018unsupervised',
+       conll(2018),
+       title('Unsupervised Sentence Compression using Denoising Auto-Encoders'),
+       author('Thibault Fevry and Jason Phang'),
+       pages(413, 422),
+       nil)
+
+entry!('yossef2011context',
+       www(2011),
+       title('Context-sensitive query auto-completion'),
+       author('Ziv Bar-Yossef and Naama Kraus'),
+       pages(107, 116),
+       nil)
+
+
+entry!('hwang1979multiple',
+       author('Ching-Lai Hwang and Abu Syed Md. Masud'),
+       title('Multiple Objective Decision Making  Methods and Applications'),
+       book('Springer', 1979),
+       address('New York City, NY'),
+       nil)
