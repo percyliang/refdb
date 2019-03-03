@@ -318,3 +318,9 @@ entry!('vrandecic2014wikidata',
   author('Denny Vrande\v{c}i\\\'{c} and Markus Kr\H{o}tzsch'),
   article('Communications of the ACM', 2014, 57),
 nil)
+
+entry!('alzantot2018adversarial',
+  title('Generating Natural Language Adversarial Examples'),
+  author('Moustafa Alzantot and Yash Sharma and Ahmed Elgohary and Bo-Jhang Ho and Mani Srivastava and Kai-Wei Chang'),
+  emnlp(2018),
+nil)

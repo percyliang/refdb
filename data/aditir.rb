@@ -42,12 +42,6 @@ entry!('wong2018scaling',
   author('Eric Wong and Frank Schmidt and Jan Hendrik Metzen and J Zico Kolter'),
 nil)
 
-entry!('alzantot2018generating',
-  arxiv(2018, '1804.07998'),
-  title('Generating natural language adversarial examples'),
-  author('Moustafa Alzantot and Yash Sharma and Ahmed Elgohary and Bo-Jhang Ho and Mani Srivastava and Kai-Wei Chang'),
-nil)
-
 entry!('gowal2018effectiveness',
   arxiv(2018, '1810.12715'),
   title('On the Effectiveness of Interval Bound Propagation for Training Verifiably Robust Models'),
