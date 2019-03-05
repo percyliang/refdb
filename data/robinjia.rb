@@ -318,3 +318,33 @@ entry!('vrandecic2014wikidata',
   author('Denny Vrande\v{c}i\\\'{c} and Markus Kr\H{o}tzsch'),
   article('Communications of the ACM', 2014, 57),
 nil)
+
+entry!('alzantot2018adversarial',
+  title('Generating Natural Language Adversarial Examples'),
+  author('Moustafa Alzantot and Yash Sharma and Ahmed Elgohary and Bo-Jhang Ho and Mani Srivastava and Kai-Wei Chang'),
+  emnlp(2018),
+nil)
+
+entry!('iyyer2018adversarial',
+  title('Adversarial Example Generation with Syntactically Controlled Paraphrase Networks'),
+  author('Mohit Iyyer and John Wieting and Kevin Gimpel and Luke Zettlemoyer'),
+  naacl(2018),
+nil)
+
+entry!('parikh2016decomposable',
+  title('A Decomposable Attention Model for Natural Language Inference'),
+  author('Ankur Parikh and Oscar T\"{a}ckstr\"{o}m and Dipanjan Das and Jakob Uszkoreit'),
+  emnlp(2016),
+nil)
+
+entry!('mrksic2016counterfitting',
+  title('Counter-fitting Word Vectors to Linguistic Constraints'),
+  author('Nikola Mrk\v{s}i\\\'{c} and Diarmuid \\\'{O} S\\\'{e}aghdha and Blaise Thomson and Milica Ga\v{s}i\\\'{c} and Lina Rojas-Barahona and Pei-Hao Su and David Vandyke and Tsung-Hsien Wen and Steve Young'),
+  naacl(2016),
+nil)
+
+entry!('ribeiro2018sears',
+  title('Semantically Equivalent Adversarial Rules for Debugging {NLP} Models'),
+  author('Marco Tulio Ribeiro and Sameer Singh and Carlos Guestrin'),
+  acl(2018),
+nil)
