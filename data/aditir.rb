@@ -59,3 +59,15 @@ entry!('ebrahimi2017hotflip',
   title('Hotflip: White-box adversarial examples for text classification'),
   author('Javid Ebrahimi and Anyi Rao and Daniel Lowd and Dejing Dou'),
 nil)
+
+entry!('tsipras2018there',
+  arxiv(2018, '1805.12152'),
+  title('There is no free lunch in adversarial robustness (but there are unexpected benefits)'),
+  author('Dimitris Tsipras and Shibani Santurkar and Logan Engstrom and Alexander Turner and Aleksander Madry'),
+nil)
+
+entry!('zhang2019theoretically',
+  arxiv(2019, '1901.08573'),
+  title('Theoretically Principled Trade-off between Robustness and Accuracy'),
+  author('Hongyang Zhang and Yaodong Yu and Jiantao Jiao and Eric P Xing and Laurent El Ghaoui and Michael I Jordan'),
+nil)
