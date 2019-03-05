@@ -754,3 +754,10 @@ entry!('hwang1979multiple',
        book('Springer', 1979),
        address('New York City, NY'),
        nil)
+
+entry!('witten1987arithmetic',
+       author('Ian H. Witten and Radford M. Neal and John G. Cleary'),
+       title('Arithmetic coding for data compression'),
+       article('Communications of the ACM', 1987, 30),
+       pages(520,540),
+       nil)
