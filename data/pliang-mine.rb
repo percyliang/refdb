@@ -56,12 +56,6 @@ nil)
 ############################################################
 # 2018
 
-entry!('koh2018stronger',
-  title('Stronger Data Poisoning Attacks Bypass Data Sanitization Defenses'),
-  author('Pang Wei Koh and Jacob Steinhardt and Percy Liang'),
-  arxiv(2018, '1811.00741'),
-nil)
-
 entry!('raghunathan2018sdp',
   title('Semidefinite relaxations for certifying robustness to adversarial examples'),
   author('Aditi Raghunathan and Jacob Steinhardt and Percy Liang'),
