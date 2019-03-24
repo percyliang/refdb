@@ -761,3 +761,12 @@ entry!('witten1987arithmetic',
        article('Communications of the ACM', 1987, 30),
        pages(520,540),
        nil)
+
+entry!('mccann2017learned',
+       author('Bryan McCann and James Bradbury and Caiming Xiong and Richard Socher'),
+       title('Learned in translation: Contextualized word vectors'),
+       nips(2017),
+       pages(6297, 6308),
+       nil)
+
+       
