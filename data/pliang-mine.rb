@@ -37,6 +37,8 @@ entry!('zhang2019discretization',
   title('Defending against Whitebox Adversarial Attacks via Randomized Discretization'),
   author('Yuchen Zhang and Percy Liang'),
   aistats(2019),
+  url('https://arxiv.org/pdf/1903.10586.pdf'),
+  codalab('0x822ba2f9005f49f08755a84443c76456'),
 nil)
 
 entry!('pierson2019aging',
@@ -51,6 +53,7 @@ entry!('shi2019frangel',
   author('Kensen Shi and Jacob Steinhardt and Percy Liang'),
   popl(2019),
   url('https://arxiv.org/pdf/1811.05175.pdf'),
+  codalab('0x882075c0b92c4a2d85abdbd3d76aad78'),
 nil)
 
 ############################################################
