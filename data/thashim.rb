@@ -769,4 +769,10 @@ entry!('mccann2017learned',
        pages(6297, 6308),
        nil)
 
-       
+entry!('wen2014robust',
+       author('Junfeng Wen and Chun-Nam Yu and Russell Greiner'),
+       title('Robust Learning under Uncertain Test Distributions: Relating Covariate Shift to Model Misspecification'),
+       icml(2014),
+       pages(631,639),
+       nil)
+
