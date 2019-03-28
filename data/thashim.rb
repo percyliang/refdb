@@ -669,3 +669,17 @@ entry!('vaswani2013decoding',
       author('Ashish Vaswani and Yinggong Zhao and Victoria Fossum and David Chiang'),
       pages(1387,1392),
       nil)
+
+entry!('feder1994relations',
+       infotheory(1994,40),
+       title('Relations between entropy and error probability'),
+       author('Meir Feder and Neri Merhav'),
+       pages(259,266),
+       nil)
+       
+entry!('sudhakar2015bayesian',
+       infotheory(2015,19),
+       title('{B}ayesian Error-Based Sequences of Statistical Information Bounds'),
+       author('Sudhakar Prasad'),
+       pages(5052,5062),
+       nil)
