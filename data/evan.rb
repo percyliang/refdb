@@ -314,3 +314,63 @@ entry!('kakade2003sample',
   author('Sham Machandranath Kakade and others'),
   phdthesis('University of London', 2003),
 nil)
+
+entry!('choi2018contingency',
+  arxiv(2018, '1811.01483'),
+  title('Contingency-Aware Exploration in Reinforcement Learning'),
+  author('Jongwook Choi and Yijie Guo and Marcin Moczulski and Junhyuk Oh and Neal Wu and Mohammad Norouzi and Honglak Lee'),
+nil)
+
+entry!('finn2016unsupervised',
+  inproceedings('Advances in neural information processing systems', 2016),
+  title('Unsupervised learning for physical interaction through video prediction'),
+  author('Chelsea Finn and Ian Goodfellow and Sergey Levine'),
+  pages(64, 72),
+nil)
+
+entry!('chiappa2017recurrent',
+  arxiv(2017, '1704.02254'),
+  title('Recurrent environment simulators'),
+  author('Silvia Chiappa and S{\'e}bastien Racaniere and Daan Wierstra and Shakir Mohamed'),
+nil)
+
+entry!('burda2018exploration',
+  arxiv(2018, '1810.12894'),
+  title('Exploration by random network distillation'),
+  author('Yuri Burda and Harrison Edwards and Amos Storkey and Oleg Klimov'),
+nil)
+
+entry!('guo2014deep',
+  inproceedings('Advances in neural information processing systems', 2014),
+  title('Deep learning for real-time Atari game play using offline Monte-Carlo tree search planning'),
+  author('Xiaoxiao Guo and Satinder Singh and Honglak Lee and Richard L Lewis and Xiaoshi Wang'),
+  pages(3338, 3346),
+nil)
+
+entry!('laroche2017transfer',
+  aaai(2017),
+  title('Transfer Reinforcement Learning with Shared Dynamics'),
+  author('Romain Laroche and Merwan Barlier'),
+  pages(2147, 2153),
+nil)
+
+entry!('andre2002state',
+  aaai(2002),
+  title('State abstraction for programmable reinforcement learning agents'),
+  author('David Andre and Stuart J Russell'),
+  pages(119, 125),
+nil)
+
+entry!('dietterich2000state',
+  nips(2000),
+  title('State abstraction in {MAXQ} hierarchical reinforcement learning'),
+  author('Thomas G Dietterich'),
+  pages(994, 1000),
+nil)
+
+entry!('martins2016softmax',
+  icml(2016),
+  title('From softmax to sparsemax: A sparse model of attention and multi-label classification'),
+  author('Andre Martins and Ramon Astudillo'),
+  pages(1614, 1623),
+nil)
