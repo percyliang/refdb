@@ -7,12 +7,6 @@ entry!('zhang2019huse',
   naacl(2019),
 nil)
 
-entry!('oren2019dro',
-  title('Distributionally Robust Language Modeling'),
-  author('Yonatan Oren and Tatsu Hashimoto and Kelvin Guu and Percy Liang'),
-  naacl(2019),
-nil)
-
 entry!('peng2019pun',
   title('Pun Generation with Surprise'),
   author('Nanyun Peng and He He and Percy Liang'),
