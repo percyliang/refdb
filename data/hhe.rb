@@ -474,3 +474,56 @@ entry!('valitutti2013adult',
   acl(2013),
 )
 
+entry!('ginzburg2015understanding',
+  title('Understanding Laughter'),
+  author('Ginzburg, Jonathan and Breithholtz, Ellen and Cooper, Robin and Hough, Julian and Tian, Ye'),
+  inproceedings('Proceedings of the 20th Amsterdam Colloquium', 2015),
+)
+
+entry!('peng2018towards',
+  title('Towards Controllable Story Generation'),
+  author('Peng, Nanyun and Ghazvininejad, Marjan and May, Jonathan and Knight, Kevin'),
+  inproceedings('NAACL Workshop', 2018),
+)
+
+entry!('aarons2017puns',
+  title('Puns and Tacit Linguistic Knowledge'),
+  author('Aarons, Debra'),
+  article('The Routledge Handbook of Language and Humor, Routledge, New York, NY, Routledge Handbooks in Linguistics', 2017),
+)
+
+entry!('miller2017semeval',
+  title('{S}em{E}val-2017 Task 7: Detection and Interpretation of {E}nglish Puns'),
+  author('Miller, Tristan and Hempelmann, Christian and Gurevych, Iryna'),
+  inproceedings('Proceedings of the 11th International Workshop on Semantic Evaluation', 2017),
+)
+
+entry!('yu2018neural',
+  title('A Neural Approach to Pun Generation'),
+  author('Yu, Zhiwei and Tan, Jiwei and Wan, Xiaojun'),
+  acl(2018),
+)
+
+entry!('manurung2000towards',
+  title('Towards a Computational Model of Poetry Generation'),
+  author('Manurung, Hisar and Ritchie, Graeme and Thompson, Henry'),
+  article('The University of Edinburgh Technical Report', 2000),
+)
+
+entry!('meehan1977tale',
+  title('{TALE-SPIN}, An Interactive Program that Writes Stories'),
+  author('Meehan, James R'),
+  ijcai(1977),
+)
+
+entry!('levy2013surprisal',
+  title('Surprisal, the {PDC}, and the Primary Locus of Processing Difficulty in Relative Clauses'),
+  author('Levy, Roger and Gibson, Edward'),
+  article('Frontiers in Psychology', 2013, 4),
+)
+
+entry!('levy2013memory',
+  title('Memory and Surprisal in Human Sentence Comprehension'),
+  author('Levy, Roger'),
+  incollection('Sentence Processing', 2013),
+)
