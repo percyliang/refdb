@@ -522,9 +522,17 @@ entry!('zhang2016identifying',
 nil)
 
 entry!('law1983sensitive',
-title('Division of consumer and community affairs. 2011-07. 12 cfr supplement i to part l02'),
+title('Division of consumer and community affairs. 2011-07. 12 cfr supplement \i to part l02'),
 author('official staff interpretations'),
 url('https://www.law.cornell.edu/cfr/text/12/appendix-Supplement_I_to_part_202'),
 year('1983'),
 type('misc'),
+nil)
+
+entry!('massart1990tight',
+  article('The annals of Probability', 1990),
+  title('The tight constant in the Dvoretzky-Kiefer-Wolfowitz inequality'),
+  author('Pascal Massart'),
+  pages(1269, 1283),
+  publisher('JSTOR'),
 nil)
