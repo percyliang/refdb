@@ -42,12 +42,6 @@ entry!('wong2018scaling',
   author('Eric Wong and Frank Schmidt and Jan Hendrik Metzen and J Zico Kolter'),
 nil)
 
-entry!('alzantot2018generating',
-  arxiv(2018, '1804.07998'),
-  title('Generating natural language adversarial examples'),
-  author('Moustafa Alzantot and Yash Sharma and Ahmed Elgohary and Bo-Jhang Ho and Mani Srivastava and Kai-Wei Chang'),
-nil)
-
 entry!('gowal2018effectiveness',
   arxiv(2018, '1810.12715'),
   title('On the Effectiveness of Interval Bound Propagation for Training Verifiably Robust Models'),
@@ -64,4 +58,16 @@ entry!('ebrahimi2017hotflip',
   arxiv(2017, '1712.06751'),
   title('Hotflip: White-box adversarial examples for text classification'),
   author('Javid Ebrahimi and Anyi Rao and Daniel Lowd and Dejing Dou'),
+nil)
+
+entry!('tsipras2018there',
+  arxiv(2018, '1805.12152'),
+  title('There is no free lunch in adversarial robustness (but there are unexpected benefits)'),
+  author('Dimitris Tsipras and Shibani Santurkar and Logan Engstrom and Alexander Turner and Aleksander Madry'),
+nil)
+
+entry!('zhang2019theoretically',
+  arxiv(2019, '1901.08573'),
+  title('Theoretically Principled Trade-off between Robustness and Accuracy'),
+  author('Hongyang Zhang and Yaodong Yu and Jiantao Jiao and Eric P Xing and Laurent El Ghaoui and Michael I Jordan'),
 nil)
