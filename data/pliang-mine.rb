@@ -5,12 +5,15 @@ entry!('zhang2019huse',
   title('Unifying Human and Statistical Evaluation for Natural Language Generation'),
   author('Tatsu Hashimoto and Hugh Zhang and Percy Liang'),
   naacl(2019),
+  url('https://arxiv.org/pdf/1904.02792.pdf'),
+  codalab('0x88644b5ee189402eb19d39d721d1005c'),
 nil)
 
 entry!('peng2019pun',
   title('Pun Generation with Surprise'),
   author('Nanyun Peng and He He and Percy Liang'),
   naacl(2019),
+  codalab('0x5a7d0fe35b144ad68998d74891a31ed6'),
 nil)
 
 entry!('koh2019stronger',
