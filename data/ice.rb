@@ -236,7 +236,7 @@ nil)
 # synlp
 
 entry!('zavershynskyi2018naps',
-  title('{NAPS}: Natural Program Synthesis Dataset}'),
+  title('{NAPS}: Natural Program Synthesis Dataset'),
   author('Maksym Zavershynskyi and Alexander Skidanov and Illia Polosukhin'),
   inproceedings('Workshop on Neural Abstract Machines \\& Program Induction (NAMPI)', 2018),
 nil)
