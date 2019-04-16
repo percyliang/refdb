@@ -393,8 +393,8 @@ entry!('welbl2017constructing',
   author('Johannes Welbl and Pontus Stenetorp and Sebastian Riedel'),
 nil)
 
-entry!('clark2017simple',
-  arxiv(2017, '1710.10723'),
+entry!('clark2018simple',
+  acl(2018),
   title('Simple and effective multi-paragraph reading comprehension'),
   author('Christopher Clark and Matt Gardner'),
 nil)
@@ -598,9 +598,10 @@ nil)
 
 entry!('berant2019explaining',
   author('Jonathan Berant and Daniel Deutch and Amir Globerson and Tova Milo and Tomer Wolfson'),
-  title('Explaining Relational Queries to Non-Experts'),
+  title('Explaining Queries over Web Tables to Non-Experts'),
   icde(2019),
   techreporturl('https://arxiv.org/pdf/1808.04614.pdf'),
+  url('https://www.cs.tau.ac.il/~tomerwol/icde2019/icde-2019_camera_ready.pdf'),
 nil)
 
 entry!('bisk2016natural',
@@ -665,24 +666,217 @@ entry!('bogin2018emergence',
   url('https://arxiv.org/pdf/1809.00549.pdf'),
 nil)
 
-entry!('muhlgay2018value',
-  arxiv(2018, '1811.01090'),
+entry!('muhlgay2019value',
+  naacl(2019),
   title('Value-based Search in Execution Space for Mapping Instructions to Programs'),
   author('Dor Muhlgay and Jonathan Herzig and Jonathan Berant'),
+  code('https://gitlab.com/tau-nlp/vbsix-lang2program'),
   url('https://arxiv.org/pdf/1811.01090.pdf'),
 nil)
 
-entry!('talmor2018commonsenseqa',
-  arxiv(2018, '1811.00937'),
+entry!('talmor2019commonsenseqa',
+  naacl(2019),
   title('CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge'),
   author('Alon Talmor and Jonathan Herzig and Nicholas Lourie and Jonathan Berant'),
   url('https://arxiv.org/pdf/1811.00937.pdf'),
+  project('https://www.tau-nlp.org/commonsenseqa'),
+  code('https://github.com/jonathanherzig/commonsenseqa'),
+  award('Best resource paper award'),
 nil)
 
-entry!('tevet2018evaluating',
-  arxiv(2018, '1810.12686'),
+entry!('tevet2019evaluating',
+  naacl(2019),
   title('Evaluating Text {GAN}s as Language Models'),
   author('Guy Tevet and Gavriel Habib and Vered Shwartz and Jonathan Berant'),
-  url('https://arxiv.org//1810.12686.pdf'),
-  
+  url('https://arxiv.org/pdf/1810.12686.pdf'),
+  code('https://github.com/GuyTevet/SeqGAN-eval'),
 nil)
+
+entry!('jacovi2019blackbox',
+  author('Alon Jacovi and Guy Hadash and Einat Kermany and Boaz Carmeli and Ofer Lavi and George Kour and Jonathan Berant'),
+  iclr(2019),
+  title('Neural network gradient-based learning of black-box function interfaces'),
+  url('https://arxiv.org/pdf/1901.03995.pdf'),
+nil)
+
+
+entry!('yang2018hotpotqa',
+  emnlp(2018),
+  title('{HotpotQA}: A Dataset for Diverse, Explainable Multi-hop Question Answering'),
+  author('Zhilin Yang and Peng Qi and Saizheng Zhang and Yoshua Bengio and William W. Cohen and Ruslan Salakhutdinov and Christopher D. Manning'),
+nil)
+
+entry!('abujabal2018comqa',
+  arxiv(2018, '1809.09528'),
+  title('ComQA: A Community-sourced Dataset for Complex Factoid Question Answering with Paraphrase Clusters'),
+  author('Abdalghani Abujabal and Rishiraj Saha Roy and Mohamed Yahya and Gerhard Weikum'),
+nil)
+
+entry!('devlin2019bert',
+  naacl(2019),
+  title('Bert: Pre-training of deep bidirectional transformers for language understanding'),
+  author('Jacob Devlin and Ming-Wei Chang and Kenton Lee and Kristina Toutanova'),
+nil)
+
+
+entry!('yu2018spider',
+  arxiv(2018, '1809.08887'),
+  title('Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-{SQL} Task'),
+  author('Tao Yu and Rui Zhang and Kai Yang and Michihiro Yasunaga and Dongxu Wang and Zifan Li and James Ma and Irene Li and Qingning Yao and Shanelle Roman and others'),
+nil)
+
+entry!('gardner2018allennlp',
+  arxiv(2018, '1803.07640'),
+  title('{AllenNLP}: A deep semantic natural language processing platform'),
+  author('Matt Gardner and Joel Grus and Mark Neumann and Oyvind Tafjord and Pradeep Dasigi and Nelson Liu and Matthew Peters and Michael Schmitz and Luke Zettlemoyer'),
+nil)
+
+entry!('geva2019discofuse',
+  naacl(2019),
+  title('Disco{F}use: A Large-Scale Dataset for Discourse-based Sentence Fusion'),
+  author('Mor Geva and Eric Malmi and Idan Szpektor and Jonathan Berant'),
+  url('https://arxiv.org/pdf/1902.10526.pdf'),
+  project('https://github.com/google-research-datasets/discofuse'),
+nil)
+
+entry!('gorodissky2019white',
+  naacl(2019),
+  author('Or Gorodissky and Yotam Gil and Yoav Chai and Jonathan Berant'),
+  title('White-to-Black: Efficient Distillation of Black-Box Adversarial Attacks'),
+  url('https://arxiv.org/pdf/1904.02405.pdf'),
+  code('https://github.com/orgoro/white-2-black'),
+nil)
+
+entry!('fruchterman1991graph',
+  article('Software: Practice and experience', 1991, 21),
+  title('Graph drawing by force-directed placement'),
+  author('Thomas MJ Fruchterman and Edward M Reingold'),
+  number(11),
+  pages(1129, 1164),
+  publisher('Wiley Online Library'),
+nil)
+
+entry!('finegan2018improving',
+  acl(2018),
+  title('Improving text-to-sql evaluation methodology'),
+  author('Catherine Finegan-Dollak and Jonathan K Kummerfeld and Li Zhang and Karthik Ramanathan and Sesh Sadasivam and Rui Zhang and Dragomir Radev'),
+nil)
+
+entry!('yu2018syntaxsqlnet',
+  emnlp(2018),
+  title('{SyntaxSQLNet}: Syntax Tree Networks for Complex and Cross-DomainText-to-{SQL} Task'),
+  author('Tao Yu and Michihiro Yasunaga and Kai Yang and Rui Zhang and Dongxu Wang and Zifan Li and Dragomir Radev'),
+nil)
+
+entry!('li2016gated',
+  iclr(2016), 
+  title('Gated graph sequence neural networks'),
+  author('Yujia Li and Daniel Tarlow and Marc Brockschmidt and Richard Zemel'),
+nil)
+
+entry!('decao2018question',
+  arxiv(2018, '1808.09920'),
+  title('Question answering by reasoning across documents with graph convolutional networks'),
+  author('Nicola De Cao and Wilker Aziz and Ivan Titov'),
+nil)
+
+entry!('yogatama2019learning',
+  arxiv(2019, '1901.11373'),
+  title('Learning and Evaluating General Linguistic Intelligence'),
+  author('Dani Yogatama and Cyprien de Masson d\'Autume and Jerome Connor and Tomas Kocisky and Mike Chrzanowski and Lingpeng Kong and Angeliki Lazaridou and Wang Ling and Lei Yu and Chris Dyer and others'),
+nil)
+
+entry!('liu2019multi',
+  arxiv(2019, '1901.11504'),
+  title('Multi-Task Deep Neural Networks for Natural Language Understanding'),
+  author('Xiaodong Liu and Pengcheng He and Weizhu Chen and Jianfeng Gao'),
+nil)
+
+entry!('pan2019improving',
+  arxiv(2019, '1902.00993'),
+  title('Improving Question Answering with External Knowledge'),
+  author('Xiaoman Pan and Kai Sun and Dian Yu and Heng Ji and Dong Yu'),
+nil)
+
+entry!('reddy2018coqa',
+  arxiv(2018, '1808.07042'),
+  title('Coqa: A conversational question answering challenge'),
+  author('Siva Reddy and Danqi Chen and Christopher D Manning'),
+nil)
+
+
+entry!('xu2017sqlnet',
+  arxiv(2017, '1711.04436'),
+  title('Sqlnet: Generating structured queries from natural language without reinforcement learning'),
+  author('Xiaojun Xu and Chang Liu and Dawn Song'),
+nil)
+
+entry!('sorokin2018modeling',
+  coling(2018),
+  title('Modeling semantics with gated graph neural networks for knowledge base question answering'),
+  author('Daniil Sorokin and Iryna Gurevych'),
+nil)
+
+entry!('latentgraph2019raboh',
+  arxiv(2019, '1902.10200'),
+  title('Differentiable Scene Graphs'),
+  author('Moshiko Raboh and Roei Herzig and Gal Chechik and Jonathan Berant and Amir Globerson'),
+  url('https://arxiv.org/pdf/1902.10200.pdf'),
+nil)
+
+entry!('chung2018supervised',
+  naacl(2018),
+  title('Supervised and unsupervised transfer learning for question answering'),
+  author('Yu-An Chung and Hung-Yi Lee and James Glass'),
+nil)
+
+entry!('sun2018improving',
+  arxiv(2018, '1810.13441'),
+  title('Improving Machine Reading Comprehension with General Reading Strategies'),
+  author('Kai Sun and Dian Yu and Dong Yu and Claire Cardie'),
+nil)
+
+entry!('chronopoulou2019transfer',
+  arxiv(2019, '1902.10547'),
+  title('An Embarrassingly Simple Approach for Transfer Learning from Pretrained Language Models'),
+  author('Alexandra Chronopoulou and Christos Baziotis and Alexandros Potamianos'),
+nil)
+
+entry!('phang2018sentence',
+  arxiv(2018, '1811.01088'),
+  title('Sentence encoders on stilts: Supplementary training on intermediate labeled-data tasks'),
+  author('Jason Phang and Thibault Fevry and Samuel R Bowman'),
+nil)
+
+entry!('howard2018universal',
+  acl(2018),
+  title('Universal language model fine-tuning for text classification'),
+  author('Jeremy Howard and Sebastian Ruder'),
+nil)
+
+entry!('dua2019drop',
+  naacl(2019),
+  title('DROP: A Reading Comprehension Benchmark Requiring Discrete Reasoning Over Paragraphs'),
+  author('Dheeru Dua and Yizhong Wang and Pradeep Dasigi and Gabriel Stanovsky and Sameer Singh and Matt Gardner'),
+nil)
+
+entry!('lin2018denoising',
+  acl(2018),
+  title('Denoising distantly supervised open-domain question answering'),
+  author('Yankai Lin and Haozhe Ji and Zhiyuan Liu and Maosong Sun'),
+  volume(1),
+  pages(1736, 1745),
+nil)
+
+entry!('das2019multi',
+  iclr(2019),
+  title('Multi-step Retriever-Reader Interaction for Scalable Open-domain Question Answering'),
+  author('Rajarshi Das and Shehzaad Dhuliawala and Manzil Zaheer and Andrew McCallum'),
+nil)
+
+entry!('talmor2018repartitioning',
+  arxiv(2018, '1807.09623'),
+  title('Repartitioning of the {ComplexWebQuestions} Dataset'),
+  author('Alon Talmor and Jonathan Berant'),
+nil)
+

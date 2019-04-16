@@ -145,10 +145,10 @@ entry!('shen2017reasonet',
   kdd(2017),
 nil)
 
-entry!('hu2017mnemonic',
+entry!('hu2018mnemonic',
   author('Minghao Hu and Yuxing Peng and Xipeng Qiu'),
-  title('Reinforced Mnemonic Reader for Machine Comprehension'),
-  arxiv(2017, '1705.02798'),
+  title('Reinforced Mnemonic Reader for Machine Reading Comprehension'),
+  ijcai(2018),
 nil)
 
 entry!('liu2017sect',

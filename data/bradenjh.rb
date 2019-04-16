@@ -336,8 +336,8 @@ entry!('zhang2018interactive',
   author('Haichao Zhang and Haonan Yu and Wei Xu'),
 nil)
 
-entry!('wang2018glue',
-  arxiv(2018, '1804.07461'),
+entry!('wang2019glue',
+  iclr(2019),
   title('GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding'),
   author('Alex Wang and Amapreet Singh and Julian Michael and Felix Hill and Omer Levy and Samuel R Bowman'),
 nil)

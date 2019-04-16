@@ -657,11 +657,6 @@ entry!('duchi2018learning',
        author('John Duchi and Hongseok Namkoong'),
        nil)
 
-entry!('devlin2018BERT',
-      arxiv(2018,'1810.04805'),
-      title('BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding'),
-      author('Jacob Devlin and Ming-Wei Chang and Kenton Lee and Kristina Toutanova'),
-      nil)
 
 entry!('vaswani2013decoding',
       emnlp(2013),
