@@ -383,7 +383,7 @@ nil)
 
 entry!('zhong2017seq2sql',
   arxiv(2017, '1709.00103'),
-  title('Seq2SQL: Generating Structured Queries from Natural Language using Reinforcement Learning'),
+  title('Seq2{SQL}: Generating Structured Queries from Natural Language using Reinforcement Learning'),
   author('Victor Zhong and Caiming Xiong and Richard Socher'),
 nil)
 
