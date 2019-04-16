@@ -13,6 +13,7 @@ entry!('peng2019pun',
   title('Pun Generation with Surprise'),
   author('Nanyun Peng and He He and Percy Liang'),
   naacl(2019),
+  url('https://arxiv.org/pdf/1904.06828.pdf'),
   codalab('0x5a7d0fe35b144ad68998d74891a31ed6'),
 nil)
 
