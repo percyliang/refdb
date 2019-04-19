@@ -536,3 +536,30 @@ entry!('massart1990tight',
   pages(1269, 1283),
   publisher('JSTOR'),
 nil)
+
+entry!('delage2010distributionally',
+  article('Operations research', 2010, 58),
+  title('Distributionally robust optimization under moment uncertainty with application to data-driven problems'),
+  author('Erick Delage and Yinyu Ye'),
+  number(3),
+  pages(595, 612),
+  publisher('INFORMS'),
+nil)
+
+entry!('wang2016likelihood',
+  article('Computational Management Science', 2016, 13),
+  title('Likelihood robust optimization for data-driven problems'),
+  author('Zizhuo Wang and Peter W Glynn and Yinyu Ye'),
+  number(2),
+  pages(241, 261),
+  publisher('Springer'),
+nil)
+
+entry!('esfahani2018data',
+  article('Mathematical Programming', 2018, 171),
+  title('Data-driven distributionally robust optimization using the Wasserstein metric: Performance guarantees and tractable reformulations'),
+  author('Peyman Mohajerin Esfahani and Daniel Kuhn'),
+  number('1-2'),
+  pages(115, 166),
+  publisher('Springer'),
+nil)
