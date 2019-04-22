@@ -71,3 +71,10 @@ entry!('zhang2019theoretically',
   title('Theoretically Principled Trade-off between Robustness and Accuracy'),
   author('Hongyang Zhang and Yaodong Yu and Jiantao Jiao and Eric P Xing and Laurent El Ghaoui and Michael I Jordan'),
 nil)
+
+entry!('schmidt2018adversarially',
+  nips(2018),
+  title('Adversarially robust generalization requires more data'),
+  author('Ludwig Schmidt and Shibani Santurkar and Dimitris Tsipras and Kunal Talwar and Aleksander Madry'),
+  pages(5014, 5026),
+nil)
