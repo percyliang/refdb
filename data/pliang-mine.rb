@@ -5,18 +5,16 @@ entry!('zhang2019huse',
   title('Unifying Human and Statistical Evaluation for Natural Language Generation'),
   author('Tatsu Hashimoto and Hugh Zhang and Percy Liang'),
   naacl(2019),
-nil)
-
-entry!('oren2019dro',
-  title('Distributionally Robust Language Modeling'),
-  author('Yonatan Oren and Tatsu Hashimoto and Kelvin Guu and Percy Liang'),
-  naacl(2019),
+  url('https://arxiv.org/pdf/1904.02792.pdf'),
+  codalab('0x88644b5ee189402eb19d39d721d1005c'),
 nil)
 
 entry!('peng2019pun',
   title('Pun Generation with Surprise'),
   author('Nanyun Peng and He He and Percy Liang'),
   naacl(2019),
+  url('https://arxiv.org/pdf/1904.06828.pdf'),
+  codalab('0x5a7d0fe35b144ad68998d74891a31ed6'),
 nil)
 
 entry!('koh2019stronger',
@@ -37,6 +35,8 @@ entry!('zhang2019discretization',
   title('Defending against Whitebox Adversarial Attacks via Randomized Discretization'),
   author('Yuchen Zhang and Percy Liang'),
   aistats(2019),
+  url('https://arxiv.org/pdf/1903.10586.pdf'),
+  codalab('0x822ba2f9005f49f08755a84443c76456'),
 nil)
 
 entry!('pierson2019aging',
@@ -51,16 +51,11 @@ entry!('shi2019frangel',
   author('Kensen Shi and Jacob Steinhardt and Percy Liang'),
   popl(2019),
   url('https://arxiv.org/pdf/1811.05175.pdf'),
+  codalab('0x882075c0b92c4a2d85abdbd3d76aad78'),
 nil)
 
 ############################################################
 # 2018
-
-entry!('koh2018stronger',
-  title('Stronger Data Poisoning Attacks Bypass Data Sanitization Defenses'),
-  author('Pang Wei Koh and Jacob Steinhardt and Percy Liang'),
-  arxiv(2018, '1811.00741'),
-nil)
 
 entry!('raghunathan2018sdp',
   title('Semidefinite relaxations for certifying robustness to adversarial examples'),
