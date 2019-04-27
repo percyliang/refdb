@@ -952,3 +952,15 @@ entry!('hsu2012tail',
   author('Daniel Hsu and Sham Kakade and Tong Zhang and others'),
   publisher('The Institute of Mathematical Statistics and the Bernoulli Society'),
 nil)
+
+entry!('ghorbani2019data',
+  arxiv(2019, '1904.02868'),
+  title('Data Shapley: Equitable Valuation of Data for Machine Learning'),
+  author('Amirata Ghorbani and James Zou'),
+nil)
+
+entry!('jia2019towards',
+  arxiv(2019, '1902.10275'),
+  title('Towards Efficient Data Valuation Based on the Shapley Value'),
+  author('Ruoxi Jia and David Dao and Boxin Wang and Frances Ann Hubis and Nick Hynes and Nezihe Merve Gurel and Bo Li and Ce Zhang and Dawn Song and Costas Spanos'),
+nil)
