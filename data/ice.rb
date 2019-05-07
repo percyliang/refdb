@@ -259,3 +259,12 @@ entry!('oda2015learning',
   article('IEEE/ACM International Conference on Automated Software Engineering (ASE)', 2015, 30),
   pages(574, 584),
 nil)
+
+################################################
+# thesis
+
+entry!('mudrakarta2018it',
+  title('It was the training data pruning too!'),
+  author('Pramod Kaushik Mudrakarta and Ankur Taly and Mukund Sundararajan and Kedar Dhamdhere'),
+  arxiv(2018, '1803.04579'),
+nil)
