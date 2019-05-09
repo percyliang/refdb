@@ -964,3 +964,30 @@ entry!('jia2019towards',
   title('Towards Efficient Data Valuation Based on the Shapley Value'),
   author('Ruoxi Jia and David Dao and Boxin Wang and Frances Ann Hubis and Nick Hynes and Nezihe Merve Gurel and Bo Li and Ce Zhang and Dawn Song and Costas Spanos'),
 nil)
+
+entry!('schulam2019can',
+  aistats(2019),
+  title('Can You Trust This Prediction? Auditing Pointwise Reliability After Learning'),
+  author('Peter Schulam and Suchi Saria'),
+  pages(1022, 1031),
+nil)
+
+entry!('wang2019repairing',
+  arxiv(2019, '1901.10501'),
+  title('Repairing without Retraining: Avoiding Disparate Impact with Counterfactual Distributions'),
+  author('Hao Wang and Berk Ustun and Flavio P Calmon'),
+nil)
+
+entry!('zhou2019effects',
+  chi(2019),
+  title('Effects of Influence on User Trust in Predictive Decision Making'),
+  author('Jianlong Zhou and Zhidong Li and Huaiwen Hu and Kun Yu and Fang Chen and Zelin Li and Yang Wang'),
+  organization('ACM'),
+nil)
+
+entry!('giordano2019swiss',
+  aistats(2019),
+  title('A Swiss Army Infinitesimal Jackknife'),
+  author('Ryan Giordano and William Stephenson and Runjing Liu and Michael Jordan and Tamara Broderick'),
+  pages(1139, 1147),
+nil)
