@@ -964,3 +964,10 @@ entry!('jia2019towards',
   title('Towards Efficient Data Valuation Based on the Shapley Value'),
   author('Ruoxi Jia and David Dao and Boxin Wang and Frances Ann Hubis and Nick Hynes and Nezihe Merve Gurel and Bo Li and Ce Zhang and Dawn Song and Costas Spanos'),
 nil)
+
+entry!('giordano2019swiss',
+  aistats(2019),
+  title('A Swiss Army Infinitesimal Jackknife'),
+  author('Ryan Giordano and William Stephenson and Runjing Liu and Michael Jordan and Tamara Broderick'),
+  pages(1139, 1147),
+nil)
