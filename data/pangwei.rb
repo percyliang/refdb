@@ -991,3 +991,9 @@ entry!('giordano2019swiss',
   author('Ryan Giordano and William Stephenson and Runjing Liu and Michael Jordan and Tamara Broderick'),
   pages(1139, 1147),
 nil)
+
+entry!('boyd2004convex',
+  title('Convex optimization'),
+  author('Stephen Boyd and Lieven Vandenberghe'),
+  book('Cambridge University Press', 2004),
+nil)
