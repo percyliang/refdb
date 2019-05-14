@@ -991,3 +991,12 @@ entry!('giordano2019swiss',
   author('Ryan Giordano and William Stephenson and Runjing Liu and Michael Jordan and Tamara Broderick'),
   pages(1139, 1147),
 nil)
+
+entry!('pregibon1981logistic',
+  annalsOfStatistics(1981, 9),
+  title('Logistic regression diagnostics'),
+  author('Daryl Pregibon and others'),
+  number(4),
+  pages(705, 724),
+  publisher('Institute of Mathematical Statistics'),
+nil)
