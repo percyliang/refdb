@@ -268,3 +268,9 @@ entry!('mudrakarta2018it',
   author('Pramod Kaushik Mudrakarta and Ankur Taly and Mukund Sundararajan and Kedar Dhamdhere'),
   arxiv(2018, '1803.04579'),
 nil)
+
+entry!('yu2018spider',
+  title('Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-{SQL} Task'),
+  author('Tao Yu and Rui Zhang and Kai Yang and Michihiro Yasunaga and Dongxu Wang and Zifan Li and James Ma and Irene Li and Qingning Yao and Shanelle Roman and Zilin Zhang and Dragomir R. Radev'),
+  emnlp(2018),
+nil)
