@@ -1000,3 +1000,30 @@ entry!('pregibon1981logistic',
   pages(705, 724),
   publisher('Institute of Mathematical Statistics'),
 nil)
+
+entry!('boyd2004convex',
+  title('Convex optimization'),
+  author('Stephen Boyd and Lieven Vandenberghe'),
+  book('Cambridge University Press', 2004),
+nil)
+
+entry!('arrieta2018should',
+  inproceedings('American Economic Association Papers and Proceedings', 2018),
+  title('Should We Treat Data as Labor? Moving beyond" Free"'),
+  author('Imanol Arrieta-Ibarra and Leonard Goff and Diego Jim{\\\'e}nez-Hern{\\\'a}ndez and Jaron Lanier and E Glen Weyl'),
+  volume(108),
+  pages(38, 42),
+nil)
+
+entry!('hayes2018contamination',
+  nips(2018),
+  title('Contamination Attacks and Mitigation in Multi-Party Machine Learning'),
+  author('Jamie Hayes and Olga Ohrimenko'),
+  pages(6604, 6615),
+nil)
+
+entry!('rad2018scalable',
+  arxiv(2018, '1801.10243'),
+  title('A scalable estimate of the extra-sample prediction error via approximate leave-one-out'),
+  author('Kamiar Rahnama Rad and Arian Maleki'),
+nil)
