@@ -175,6 +175,6 @@ entry!('gong2013reshaping',
 
 entry!('marcheggiani2014hierarchical',
        title('Hierarchical Multi-Label Conditional Random Fields for Aspect-Oriented Opinion Mining'),
-       author('Marcheggiani, D. and Täckström, O. and Esuli, A and Sebastiani, F'),
+       author('D Marcheggiani and O T\"ackstr\"om and A Esuli and F Sebastiani'),
        inproceedings('ECIR', 2014),
        nil)

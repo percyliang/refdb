@@ -232,3 +232,45 @@ entry!('zarriass2017obtaining',
   acl(2017),
 nil)
 
+################################################
+# synlp
+
+entry!('zavershynskyi2018naps',
+  title('{NAPS}: Natural Program Synthesis Dataset'),
+  author('Maksym Zavershynskyi and Alexander Skidanov and Illia Polosukhin'),
+  inproceedings('Workshop on Neural Abstract Machines \\& Program Induction (NAMPI)', 2018),
+nil)
+
+entry!('yu2018syntaxsqlnet',
+  title('{SyntaxSQLNet}: Syntax Tree Networks for Complex and Cross-DomainText-to-{SQL} Task'),
+  author('Tao Yu and Michihiro Yasunaga and Kai Yang and Rui Zhang and Dongxu Wang and Zifan Li and Dragomir R. Radev'),
+  emnlp(2018),
+nil)
+
+entry!('dong2018coarse',
+  title('Coarse-to-Fine Decoding for Neural Semantic Parsing'),
+  author('Li Dong and Mirella Lapata'),
+  acl(2018),
+nil)
+
+entry!('oda2015learning',
+  title('Learning to Generate Pseudo-Code from Source Code Using Statistical Machine Translation'),
+  author('Yusuke Oda and Hiroyuki Fudaba and Graham Neubig and Hideaki Hata and Sakriani Sakti and Tomoki Toda and Satoshi Nakamura'),
+  article('IEEE/ACM International Conference on Automated Software Engineering (ASE)', 2015, 30),
+  pages(574, 584),
+nil)
+
+################################################
+# thesis
+
+entry!('mudrakarta2018it',
+  title('It was the training data pruning too!'),
+  author('Pramod Kaushik Mudrakarta and Ankur Taly and Mukund Sundararajan and Kedar Dhamdhere'),
+  arxiv(2018, '1803.04579'),
+nil)
+
+entry!('yu2018spider',
+  title('Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-{SQL} Task'),
+  author('Tao Yu and Rui Zhang and Kai Yang and Michihiro Yasunaga and Dongxu Wang and Zifan Li and James Ma and Irene Li and Qingning Yao and Shanelle Roman and Zilin Zhang and Dragomir R. Radev'),
+  emnlp(2018),
+nil)
