@@ -348,3 +348,9 @@ entry!('ribeiro2018sears',
   author('Marco Tulio Ribeiro and Sameer Singh and Carlos Guestrin'),
   acl(2018),
 nil)
+
+entry!('liu2019inoculation',
+  title('Inoculation by Fine-Tuning: A Method for Analyzing Challenge Datasets'),
+  author('Nelson F. Liu and Roy Schwartz and Noah A. Smith'),
+  naacl(2019),
+nil)
