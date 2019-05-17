@@ -36,3 +36,10 @@ entry!('degroot1983forecasters',
   jrssd(1983, 32),
   pages(12, 22),
 nil)
+
+entry!('kull2017sigmoids',
+  title('Beyond sigmoids: How to obtain well-calibrated probabilities from binary classifiers with beta calibration'),
+  author('Meelis Kull and Telmo M. Silva Filho and Peter Flach'),
+  ejstats(2017, 11),
+  pages(5052, 5080),
+nil)
