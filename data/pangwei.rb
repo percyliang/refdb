@@ -1060,3 +1060,21 @@ entry!('hampel1974influence',
   pages(383, 393),
   publisher('Taylor \& Francis'),
 nil)
+
+entry!('wang2018approximate',
+  arxiv(2018, '1810.02716'),
+  title('Approximate Leave-One-Out for High-Dimensional Non-Differentiable Learning Problems'),
+  author('Shuaiwen Wang and Wenda Zhou and Arian Maleki and Haihao Lu and Vahab Mirrokni'),
+nil)
+
+entry!('sharchilev2018finding',
+  arxiv(2018, '1802.06640'),
+  title('Finding influential training samples for gradient boosted decision trees'),
+  author('Boris Sharchilev and Yury Ustinovsky and Pavel Serdyukov and Maarten de Rijke'),
+nil)
+
+entry!('khanna2018interpreting',
+  arxiv(2018, '1810.10118'),
+  title('Interpreting Black Box Predictions using Fisher Kernels'),
+  author('Rajiv Khanna and Been Kim and Joydeep Ghosh and Oluwasanmi Koyejo'),
+nil)
