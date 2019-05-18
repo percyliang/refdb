@@ -1028,3 +1028,35 @@ entry!('rad2018scalable',
   author('Kamiar Rahnama Rad and Arian Maleki'),
 nil)
 
+
+entry!('vershynin2018high',
+  title('High-dimensional probability: An introduction with applications in data science'),
+  author('Roman Vershynin'),
+  volume(47),
+  book('Cambridge University Press', 2018),
+nil)
+
+
+entry!('bach2010self',
+  article('Electronic Journal of Statistics', 2010, 4),
+  title('Self-concordant analysis for logistic regression'),
+  author('Francis Bach and others'),
+  pages(384, 414),
+  publisher('The Institute of Mathematical Statistics and the Bernoulli Society'),
+nil)
+
+entry!('chen2018my',
+  nips(2018),
+  title('Why Is My Classifier Discriminatory?'),
+  author('Irene Chen and Fredrik D Johansson and David Sontag'),
+  pages(3539, 3550),
+nil)
+
+entry!('hampel1974influence',
+  article('Journal of the american statistical association', 1974, 69),
+  title('The influence curve and its role in robust estimation'),
+  author('Frank R Hampel'),
+  number(346),
+  pages(383, 393),
+  publisher('Taylor \& Francis'),
+nil)
