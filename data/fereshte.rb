@@ -520,3 +520,46 @@ entry!('zhang2016identifying',
   title('Identifying significant predictive bias in classifiers'),
   author('Zhe Zhang and Daniel B Neill'),
 nil)
+
+entry!('law1983sensitive',
+title('Division of consumer and community affairs. 2011-07. 12 cfr supplement \i to part l02'),
+author('official staff interpretations'),
+url('https://www.law.cornell.edu/cfr/text/12/appendix-Supplement_I_to_part_202'),
+year('1983'),
+type('misc'),
+nil)
+
+entry!('massart1990tight',
+  article('The annals of Probability', 1990),
+  title('The tight constant in the Dvoretzky-Kiefer-Wolfowitz inequality'),
+  author('Pascal Massart'),
+  pages(1269, 1283),
+  publisher('JSTOR'),
+nil)
+
+entry!('delage2010distributionally',
+  article('Operations research', 2010, 58),
+  title('Distributionally robust optimization under moment uncertainty with application to data-driven problems'),
+  author('Erick Delage and Yinyu Ye'),
+  number(3),
+  pages(595, 612),
+  publisher('INFORMS'),
+nil)
+
+entry!('wang2016likelihood',
+  article('Computational Management Science', 2016, 13),
+  title('Likelihood robust optimization for data-driven problems'),
+  author('Zizhuo Wang and Peter W Glynn and Yinyu Ye'),
+  number(2),
+  pages(241, 261),
+  publisher('Springer'),
+nil)
+
+entry!('esfahani2018data',
+  article('Mathematical Programming', 2018, 171),
+  title('Data-driven distributionally robust optimization using the Wasserstein metric: Performance guarantees and tractable reformulations'),
+  author('Peyman Mohajerin Esfahani and Daniel Kuhn'),
+  number('1-2'),
+  pages(115, 166),
+  publisher('Springer'),
+nil)

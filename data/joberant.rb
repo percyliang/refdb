@@ -383,7 +383,7 @@ nil)
 
 entry!('zhong2017seq2sql',
   arxiv(2017, '1709.00103'),
-  title('Seq2SQL: Generating Structured Queries from Natural Language using Reinforcement Learning'),
+  title('Seq2{SQL}: Generating Structured Queries from Natural Language using Reinforcement Learning'),
   author('Victor Zhong and Caiming Xiong and Richard Socher'),
 nil)
 
@@ -593,7 +593,7 @@ entry!('liang2018mapo',
   author('Chen Liang and Mohammad Norouzi and Jonathan Berant and Quoc Le and Ni Lao'),
   title('Memory Augmented Policy Optimization for Program Synthesis with Generalization'),
   code('https://github.com/crazydonkey200/neural-symbolic-machines'),
-  award('Spotlight presentation'),
+  award('Spotlight talk (4% of submissions)'),
 nil)
 
 entry!('berant2019explaining',
@@ -656,4 +656,33 @@ entry!('devries2018talk',
   arxiv(2018, '1807.03367'),
   title('Talk the Walk: Navigating New York City through Grounded Dialogue'),
   author('Harm de Vries and Kurt Shuster and Dhruv Batra and Devi Parikh and Jason Weston and Douwe Kiela'),
+nil)
+
+entry!('bogin2018emergence',
+  inproceedings('Emergent Communication Workshop@NIPS',2018),
+  author('Ben Bogin and Mor Geva and Jonathan Berant'),
+  title('Emergence of Communication in an Interactive World with Consistent Speakers'),
+  url('https://arxiv.org/pdf/1809.00549.pdf'),
+nil)
+
+entry!('muhlgay2018value',
+  arxiv(2018, '1811.01090'),
+  title('Value-based Search in Execution Space for Mapping Instructions to Programs'),
+  author('Dor Muhlgay and Jonathan Herzig and Jonathan Berant'),
+  url('https://arxiv.org/pdf/1811.01090.pdf'),
+nil)
+
+entry!('talmor2018commonsenseqa',
+  arxiv(2018, '1811.00937'),
+  title('CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge'),
+  author('Alon Talmor and Jonathan Herzig and Nicholas Lourie and Jonathan Berant'),
+  url('https://arxiv.org/pdf/1811.00937.pdf'),
+nil)
+
+entry!('tevet2018evaluating',
+  arxiv(2018, '1810.12686'),
+  title('Evaluating Text {GAN}s as Language Models'),
+  author('Guy Tevet and Gavriel Habib and Vered Shwartz and Jonathan Berant'),
+  url('https://arxiv.org//1810.12686.pdf'),
+  
 nil)

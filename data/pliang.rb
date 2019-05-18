@@ -9825,10 +9825,10 @@ entry!('maronna2006robust',
   book('Wiley', 2006),
 nil)
 
-entry!('hampel2011robust',
+entry!('hampel1986robust',
   title('Robust Statistics: The Approach Based on Influence Functions'),
   author('Frank R. Hampel and Elvezio M. Ronchetti and Peter J. Rousseeuw and Werner A. Stahel'),
-  book('Wiley', 2011),
+  book('Wiley', 1986),
 nil)
 
 entry!('huber2009robust',
@@ -10225,13 +10225,6 @@ entry!('sedghi2016training',
   arxiv(2016, '1603.00954'),
   title('Training Input-Output Recurrent Neural Networks through Spectral Methods'),
   author('Hanie Sedghi and Anima Anandkumar'),
-nil)
-
-entry!('li2016dialogue',
-  author('Jiwei Li and Alexander H. Miller and Sumit Chopra and Marc\'Aurelio Ranzato and Jason Weston'),
-  title('Dialogue Learning With Human-In-The-Loop'),
-  arxiv(2016, '1611.09823'),
-  url('http://arxiv.org/pdf/1611.09823.pdf'),
 nil)
 
 entry!('amodei2016concrete',
