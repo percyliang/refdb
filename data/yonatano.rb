@@ -178,3 +178,9 @@ entry!('marcheggiani2014hierarchical',
        author('D Marcheggiani and O T\"ackstr\"om and A Esuli and F Sebastiani'),
        inproceedings('ECIR', 2014),
        nil)
+
+entry!('yuan2015lightlda',
+       title('LightLDA: Big Topic Models on Modest Compute Clusters'),
+       author('Jinhui Yuan and Fei Gao and Qirong Ho and Wei Dai and Jinliang Wei and Xun Zheng and Eric P. Xing and Tie-Yan Liu and Wei-Ying Ma'),
+       www(2015),
+       nil)

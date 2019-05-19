@@ -9825,10 +9825,10 @@ entry!('maronna2006robust',
   book('Wiley', 2006),
 nil)
 
-entry!('hampel2011robust',
+entry!('hampel1986robust',
   title('Robust Statistics: The Approach Based on Influence Functions'),
   author('Frank R. Hampel and Elvezio M. Ronchetti and Peter J. Rousseeuw and Werner A. Stahel'),
-  book('Wiley', 2011),
+  book('Wiley', 1986),
 nil)
 
 entry!('huber2009robust',

@@ -952,3 +952,129 @@ entry!('hsu2012tail',
   author('Daniel Hsu and Sham Kakade and Tong Zhang and others'),
   publisher('The Institute of Mathematical Statistics and the Bernoulli Society'),
 nil)
+
+entry!('ghorbani2019data',
+  arxiv(2019, '1904.02868'),
+  title('Data Shapley: Equitable Valuation of Data for Machine Learning'),
+  author('Amirata Ghorbani and James Zou'),
+nil)
+
+entry!('jia2019towards',
+  arxiv(2019, '1902.10275'),
+  title('Towards Efficient Data Valuation Based on the Shapley Value'),
+  author('Ruoxi Jia and David Dao and Boxin Wang and Frances Ann Hubis and Nick Hynes and Nezihe Merve Gurel and Bo Li and Ce Zhang and Dawn Song and Costas Spanos'),
+nil)
+
+entry!('schulam2019can',
+  aistats(2019),
+  title('Can You Trust This Prediction? Auditing Pointwise Reliability After Learning'),
+  author('Peter Schulam and Suchi Saria'),
+  pages(1022, 1031),
+nil)
+
+entry!('wang2019repairing',
+  arxiv(2019, '1901.10501'),
+  title('Repairing without Retraining: Avoiding Disparate Impact with Counterfactual Distributions'),
+  author('Hao Wang and Berk Ustun and Flavio P Calmon'),
+nil)
+
+entry!('zhou2019effects',
+  chi(2019),
+  title('Effects of Influence on User Trust in Predictive Decision Making'),
+  author('Jianlong Zhou and Zhidong Li and Huaiwen Hu and Kun Yu and Fang Chen and Zelin Li and Yang Wang'),
+  organization('ACM'),
+nil)
+
+entry!('giordano2019swiss',
+  aistats(2019),
+  title('A Swiss Army Infinitesimal Jackknife'),
+  author('Ryan Giordano and William Stephenson and Runjing Liu and Michael Jordan and Tamara Broderick'),
+  pages(1139, 1147),
+nil)
+
+entry!('pregibon1981logistic',
+  annalsOfStatistics(1981, 9),
+  title('Logistic regression diagnostics'),
+  author('Daryl Pregibon and others'),
+  number(4),
+  pages(705, 724),
+  publisher('Institute of Mathematical Statistics'),
+nil)
+
+entry!('boyd2004convex',
+  title('Convex optimization'),
+  author('Stephen Boyd and Lieven Vandenberghe'),
+  book('Cambridge University Press', 2004),
+nil)
+
+entry!('arrieta2018should',
+  inproceedings('American Economic Association Papers and Proceedings', 2018),
+  title('Should We Treat Data as Labor? Moving beyond" Free"'),
+  author('Imanol Arrieta-Ibarra and Leonard Goff and Diego Jim{\\\'e}nez-Hern{\\\'a}ndez and Jaron Lanier and E Glen Weyl'),
+  volume(108),
+  pages(38, 42),
+nil)
+
+entry!('hayes2018contamination',
+  nips(2018),
+  title('Contamination Attacks and Mitigation in Multi-Party Machine Learning'),
+  author('Jamie Hayes and Olga Ohrimenko'),
+  pages(6604, 6615),
+nil)
+
+entry!('rad2018scalable',
+  arxiv(2018, '1801.10243'),
+  title('A scalable estimate of the extra-sample prediction error via approximate leave-one-out'),
+  author('Kamiar Rahnama Rad and Arian Maleki'),
+nil)
+
+
+entry!('vershynin2018high',
+  title('High-dimensional probability: An introduction with applications in data science'),
+  author('Roman Vershynin'),
+  volume(47),
+  book('Cambridge University Press', 2018),
+nil)
+
+
+entry!('bach2010self',
+  article('Electronic Journal of Statistics', 2010, 4),
+  title('Self-concordant analysis for logistic regression'),
+  author('Francis Bach and others'),
+  pages(384, 414),
+  publisher('The Institute of Mathematical Statistics and the Bernoulli Society'),
+nil)
+
+entry!('chen2018my',
+  nips(2018),
+  title('Why Is My Classifier Discriminatory?'),
+  author('Irene Chen and Fredrik D Johansson and David Sontag'),
+  pages(3539, 3550),
+nil)
+
+entry!('hampel1974influence',
+  article('Journal of the american statistical association', 1974, 69),
+  title('The influence curve and its role in robust estimation'),
+  author('Frank R Hampel'),
+  number(346),
+  pages(383, 393),
+  publisher('Taylor \& Francis'),
+nil)
+
+entry!('wang2018approximate',
+  arxiv(2018, '1810.02716'),
+  title('Approximate Leave-One-Out for High-Dimensional Non-Differentiable Learning Problems'),
+  author('Shuaiwen Wang and Wenda Zhou and Arian Maleki and Haihao Lu and Vahab Mirrokni'),
+nil)
+
+entry!('sharchilev2018finding',
+  arxiv(2018, '1802.06640'),
+  title('Finding influential training samples for gradient boosted decision trees'),
+  author('Boris Sharchilev and Yury Ustinovsky and Pavel Serdyukov and Maarten de Rijke'),
+nil)
+
+entry!('khanna2018interpreting',
+  arxiv(2018, '1810.10118'),
+  title('Interpreting Black Box Predictions using Fisher Kernels'),
+  author('Rajiv Khanna and Been Kim and Joydeep Ghosh and Oluwasanmi Koyejo'),
+nil)
