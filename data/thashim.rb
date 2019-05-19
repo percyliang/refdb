@@ -791,3 +791,16 @@ entry!('wen2014robust',
        nil)
 
 
+entry!('hu2014polylingual',
+       author('Yuening Hu and Ke Zhai and Vladimir Eidelman and Jordan Boyd-Graber'),
+       title('Polylingual Tree-Based Topic Models for Translation Domain Adaptation'),
+       acl(2014),
+       pages(1166,1176),
+       nil)
+
+entry!('eidelman2012topic',
+       author('Vladimir Eidelman and Jordan Boyd-Graber and Philip Resnik'),
+       title('Topic Models for Dynamic Translation Model Adaptation'),
+       acl(2012),
+       pages(115,119),
+       nil)
