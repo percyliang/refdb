@@ -184,3 +184,19 @@ entry!('yuan2015lightlda',
        author('Jinhui Yuan and Fei Gao and Qirong Ho and Wei Dai and Jinliang Wei and Xun Zheng and Eric P. Xing and Tie-Yan Liu and Wei-Ying Ma'),
        www(2015),
        nil)
+
+entry!('honnibal2015nmdp',
+  emnlp(2015),
+  author('Matthew  Honnibal and Mark  Johnson'),
+  title('An Improved Non-monotonic Transition System for Dependency Parsing'),
+  publisher('Association for Computational Linguistics'),
+  pages(1373, 1378),
+  url('https://aclweb.org/anthology/D/D15/D15-1162'),
+nil)
+
+# entry!('honnibal2017spacy2',
+#   author('Matthew Honnibal and Ines Montani'),
+#   title('spaCy 2: Natural language understanding with Bloom embeddings, convolutional neural networks and incremental parsing'),
+#   # journal('To appear'),
+#   # year(2017),
+# nil)
