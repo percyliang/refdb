@@ -70,6 +70,24 @@ entry!('devlin2017robustfill',
        icml(2017),
        nil)
 
+entry!('devlin2017varreplace',
+       author('Jacob Devlin and Jonathan Uesato and Rishabh Singh and Pushmeet Kohli'),
+       title('Semantic Code Repair Using Neuro-Symbolic Transformation Networks'),
+       arxiv(2017, '1710.11054'),
+       nil)
+
+entry!('gupta2017deepfix',
+       author('Rahul Gupta and Soham Pal and Aditya Kanade and Shirish K. Shevade'),
+       title('Deepfix: Fixing Common {C} Language Errors by Deep Learning'),
+       aaai(2017),
+       nil)
+
+entry!('bhatia2018synfix',
+       author('Sahil Bhatia and Pushmeet Kohli and Rishabh Singh'),
+       title('Neuro-Symbolic Program Corrector for Introductory Programming Assignments'),
+       icse(2018),
+       nil)
+
 entry!('lin2018nl2bash',
       author('Xi Victoria Lin and Chenglong Wang and Luke S. Zettlemoyer and Michael D. Ernst'),
       title('NL2Bash: A Corpus and Semantic Parser for Natural Language Interface to the Linux Operating System'),
@@ -86,4 +104,10 @@ entry!('bavishi2018api',
        author('Rohan Bavishi and Caroline Lemieux and Neel Kant and Roy Fox and Koushik Sen and Ion Stoica'),
        title('Neural Inference of {API} Functions from Input–Output Examples'),
        nips(2018),
+       nil)
+
+entry!('allamanis2018varmisuse',
+       author('Miltiadis Allamanis and Marc Brockschmidt and Mahmoud Khademi'),
+       title('Learning to Represent Programs with Graphs'),
+       iclr(2018),
        nil)
