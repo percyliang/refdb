@@ -1,13 +1,55 @@
+entry!('massalin1987superoptimizer',
+       author('Henry Massalin'),
+       title('Superoptimizer -- A Look at the Smallest Program'),
+       asplos(1987),
+       nil)
+
 entry!('vadas2005programming',
        author('David Vadas and James R. Curran'),
        title('Programming With Unrestricted Natural Language'),
        inproceedings(Name.new('Australasian Language Technology Workshop', 'ALTA'), 2005),
        nil)
 
+entry!('bansal2006automatic',
+       author('Automatic Generation of Peephole Superoptimizers'),
+       title('Sorav Bansal and Alex Aiken'),
+       asplos(2006),
+       nil)
+
+entry!('solar2006combinatorial',
+       author('Armando Solar-Lezama and Liviu Tancau and Rastislav Bodik and Vijay Saraswat and Sanjit Seshia'),
+       title('Combinatorial Sketching for Finite Programs'),
+       asplos(2006),
+       nil)
+
 entry!('armando2008sketch',
        author('Armando Solar-Lezama'),
        title('Program Synthesis by Sketching'),
        phdthesis('University of California at Berkeley', 2008),
+       nil)
+
+entry!('tate2009equality',
+       author('Ross Tate and Michael Stepp and Zachary Tatlock and Sorin Lerner'),
+       title('Equality Saturation: a New Approach to Optimization'),
+       popl(2009),
+       nil)
+
+entry!('jha2010oracle',
+       author('Susmit Jha and Sumit Gulwani and Sanjit A. Seshia and Ashish Tiwari'),
+       title('Oracle-Guided Component-Based Program Synthesis'),
+       icse(2010),
+       nil)
+
+entry!('schkufza2013stochastic',
+       author('Eric Schkufza and Rahul Sharma and Alex Aiken'),
+       title('Stochastic Superoptimization'),
+       asplos(2013),
+       nil)
+
+entry!('feser2015synthesizing',
+       author('John K. Feser and Swarat Chaudhuri and Isil Dillig'),
+       title('Synthesizing Data Structure Transformations from Input-Output Examples'),
+       pldi(2015),
        nil)
 
 entry!('parisotto2017sql',
