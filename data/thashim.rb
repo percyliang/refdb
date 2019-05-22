@@ -791,3 +791,34 @@ entry!('wen2014robust',
        nil)
 
 
+entry!('hu2014polylingual',
+       author('Yuening Hu and Ke Zhai and Vladimir Eidelman and Jordan Boyd-Graber'),
+       title('Polylingual Tree-Based Topic Models for Translation Domain Adaptation'),
+       acl(2014),
+       pages(1166,1176),
+       nil)
+
+entry!('eidelman2012topic',
+       author('Vladimir Eidelman and Jordan Boyd-Graber and Philip Resnik'),
+       title('Topic Models for Dynamic Translation Model Adaptation'),
+       acl(2012),
+       pages(115,119),
+       nil)
+
+entry!('duchi2019distributionally',
+       author('John C Duchi and Tatsunori B Hashimoto and Hongseok Namkoong'),
+       title('Distributionally Robust Losses Against Mixture Covariate Shifts'),
+       preprint(2019),
+       nil)
+
+entry!('rakhlin2013optimization',
+       author('Alexander Rakhlin and Karthik Sridharan'),
+       title('Optimization, Learning, and Games with Predictable Sequences'),
+       colt(2013),
+       nil)
+
+entry!('namkoong2016stochastic',
+       author('Hongseok Namkoong and John Duchi'),
+       title('Stochastic Gradient Methods for Distributionally Robust Optimization with f-Divergences'),
+       nips(2016),
+       nil)
