@@ -9,6 +9,7 @@ def dukeMath(year, volume);            article('Duke Mathematical Journal', year
 def jasa(year, volume);                article(Name.new('Journal of the American Statistical Association', 'JASA'), year, volume) end
 def biometrika(year, volume);          article('Biometrika', year, volume) end
 def jrssb(year, volume);               article('Journal of the Royal Statistical Society. Series B (Methodological)', year, volume) end
+def jrssc(year, volume);               article('Journal of the Royal Statistical Society. Series C (Applied Statistics)', year, volume) end
 def jrssd(year, volume);               article('Journal of the Royal Statistical Society. Series D (The Statistician)', year, volume) end
 def mathops(year, volume);             article('Mathematics of Operations Research', year, volume) end
 def jmlr(year, volume);                article(Name.new('Journal of Machine Learning Research', 'JMLR'), year, volume) end
@@ -17,6 +18,7 @@ def tacl(year, volume);                article(Name.new('Transactions of the Ass
 def jair(year, volume);                article(Name.new('Journal of Artificial Intelligence Research', 'JAIR'), year, volume) end
 def jacm(year, volume);                article(Name.new('Journal of the ACM', 'JACM'), year, volume) end
 def ejstats(year, volume);             article('Electronic Journal of Statistics', year, volume) end
+def science(year, volume);			   article('Science', year, volume) end
 
 def computationalLinguistics(year, volume); article('Computational Linguistics', year, volume) end
 def machineLearning(year, volume); article('Machine Learning', year, volume) end
