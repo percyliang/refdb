@@ -47,7 +47,7 @@ nil)
 entry!('ferro2012bias',
   article('Quarterly Journal of the Royal Meteorological Society', 2012, 138),
   author('C. A. T. Ferro and Thomas E. Fricker'),
-  title('A bias‐corrected decomposition of the Brier score'),
+  title('A bias-corrected decomposition of the Brier score'),
   number(668),
   pages(1954, 1960),
 nil)
