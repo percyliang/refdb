@@ -43,3 +43,37 @@ entry!('kull2017sigmoids',
   ejstats(2017, 11),
   pages(5052, 5080),
 nil)
+
+entry!('ferro2012bias',
+  article('Quarterly Journal of the Royal Meteorological Society', 2012, 138),
+  author('C. A. T. Ferro and Thomas E. Fricker'),
+  title('A bias‐corrected decomposition of the Brier score'),
+  number(668),
+  pages(1954, 1960),
+nil)
+
+entry!('crowson2017calibration',
+  article('Statistical Methods in Medical Research', 2017, 25),
+  author('Cynthia S. Crowson and Elizabeth J. Atkinson and Terry M. Therneau'),
+  title('Assessing Calibration of Prognostic Risk Scores'),
+  pages(1692, 1706),
+nil)
+
+entry!('malik2019calibrated',
+  title('Calibrated Model-Based Deep Reinforcement Learning'),
+  author('Ali Malik and Volodymyr Kuleshov and Jiaming Song and Danny Nemer and Harlan Seymour and Stefano Ermon'),
+  icml(2019),
+nil)
+
+entry!('kuleshov2018accurate',
+  title('Accurate Uncertainties for Deep Learning Using Calibrated Regression'),
+  author('Volodymyr Kuleshov and Nathan Fenner and Stefano Ermon'),
+  icml(2018),
+nil)
+
+entry!('hosmer1980goodness',
+  article('Communications in Statistics - Theory and Methods', 1980, 9),
+  author('David W. Hosmer and Stanley Lemesbow'),
+  title('Goodness of fit tests for the multiple logistic regression model'),
+  pages(1043, 1069),
+nil)
