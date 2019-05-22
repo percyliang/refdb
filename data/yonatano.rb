@@ -202,7 +202,6 @@ entry!('mansour2009dams',
 nil)
 
 entry!('hoffman2018msda',
-  inproceedings('Proceedings of the 32Nd International Conference on Neural Information Processing Systems', 2018),
   author('Judy Hoffman and Mehryar Mohri and Ningshan Zhang'),
   title('Algorithms and Theory for Multiple-source Adaptation'),
   nips(2018),
