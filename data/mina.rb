@@ -1,13 +1,55 @@
+entry!('massalin1987superoptimizer',
+       author('Henry Massalin'),
+       title('Superoptimizer -- A Look at the Smallest Program'),
+       asplos(1987),
+       nil)
+
 entry!('vadas2005programming',
        author('David Vadas and James R. Curran'),
        title('Programming With Unrestricted Natural Language'),
        inproceedings(Name.new('Australasian Language Technology Workshop', 'ALTA'), 2005),
        nil)
 
+entry!('bansal2006automatic',
+       author('Automatic Generation of Peephole Superoptimizers'),
+       title('Sorav Bansal and Alex Aiken'),
+       asplos(2006),
+       nil)
+
+entry!('solar2006combinatorial',
+       author('Armando Solar-Lezama and Liviu Tancau and Rastislav Bodik and Vijay Saraswat and Sanjit Seshia'),
+       title('Combinatorial Sketching for Finite Programs'),
+       asplos(2006),
+       nil)
+
 entry!('armando2008sketch',
        author('Armando Solar-Lezama'),
        title('Program Synthesis by Sketching'),
        phdthesis('University of California at Berkeley', 2008),
+       nil)
+
+entry!('tate2009equality',
+       author('Ross Tate and Michael Stepp and Zachary Tatlock and Sorin Lerner'),
+       title('Equality Saturation: a New Approach to Optimization'),
+       popl(2009),
+       nil)
+
+entry!('jha2010oracle',
+       author('Susmit Jha and Sumit Gulwani and Sanjit A. Seshia and Ashish Tiwari'),
+       title('Oracle-Guided Component-Based Program Synthesis'),
+       icse(2010),
+       nil)
+
+entry!('schkufza2013stochastic',
+       author('Eric Schkufza and Rahul Sharma and Alex Aiken'),
+       title('Stochastic Superoptimization'),
+       asplos(2013),
+       nil)
+
+entry!('feser2015synthesizing',
+       author('John K. Feser and Swarat Chaudhuri and Isil Dillig'),
+       title('Synthesizing Data Structure Transformations from Input-Output Examples'),
+       pldi(2015),
        nil)
 
 entry!('parisotto2017sql',
@@ -28,6 +70,24 @@ entry!('devlin2017robustfill',
        icml(2017),
        nil)
 
+entry!('devlin2017varreplace',
+       author('Jacob Devlin and Jonathan Uesato and Rishabh Singh and Pushmeet Kohli'),
+       title('Semantic Code Repair Using Neuro-Symbolic Transformation Networks'),
+       arxiv(2017, '1710.11054'),
+       nil)
+
+entry!('gupta2017deepfix',
+       author('Rahul Gupta and Soham Pal and Aditya Kanade and Shirish K. Shevade'),
+       title('Deepfix: Fixing Common {C} Language Errors by Deep Learning'),
+       aaai(2017),
+       nil)
+
+entry!('bhatia2018synfix',
+       author('Sahil Bhatia and Pushmeet Kohli and Rishabh Singh'),
+       title('Neuro-Symbolic Program Corrector for Introductory Programming Assignments'),
+       icse(2018),
+       nil)
+
 entry!('lin2018nl2bash',
       author('Xi Victoria Lin and Chenglong Wang and Luke S. Zettlemoyer and Michael D. Ernst'),
       title('NL2Bash: A Corpus and Semantic Parser for Natural Language Interface to the Linux Operating System'),
@@ -44,4 +104,10 @@ entry!('bavishi2018api',
        author('Rohan Bavishi and Caroline Lemieux and Neel Kant and Roy Fox and Koushik Sen and Ion Stoica'),
        title('Neural Inference of {API} Functions from Input–Output Examples'),
        nips(2018),
+       nil)
+
+entry!('allamanis2018varmisuse',
+       author('Miltiadis Allamanis and Marc Brockschmidt and Mahmoud Khademi'),
+       title('Learning to Represent Programs with Graphs'),
+       iclr(2018),
        nil)
