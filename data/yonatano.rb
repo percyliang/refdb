@@ -194,9 +194,16 @@ entry!('honnibal2015nmdp',
   url('https://aclweb.org/anthology/D/D15/D15-1162'),
 nil)
 
-# entry!('honnibal2017spacy2',
-#   author('Matthew Honnibal and Ines Montani'),
-#   title('spaCy 2: Natural language understanding with Bloom embeddings, convolutional neural networks and incremental parsing'),
-#   # journal('To appear'),
-#   # year(2017),
-# nil)
+entry!('mansour2009dams',
+  nips(2009),
+  title('Domain Adaptation with Multiple Sources'),
+  author('Yishay Mansour and Mehryar Mohri and Afshin Rostamizadeh'),
+  pages(1041, 1048),
+nil)
+
+entry!('hoffman2018msda',
+  author('Judy Hoffman and Mehryar Mohri and Ningshan Zhang'),
+  title('Algorithms and Theory for Multiple-source Adaptation'),
+  nips(2018),
+  pages(8256, 8266),
+nil)
