@@ -1,3 +1,4 @@
+# coding: utf-8
 entry!('bastani2016measuring',
   nips(2016),
   title('Measuring neural net robustness with constraints'),
@@ -207,4 +208,37 @@ entry!('degwekar2019computational',
   arxiv(2019, '1902.01086'),
   title('Computational Limitations in Robust Classification and Win-Win Results'),
   author('Akshay Degwekar and Vinod Vaikuntanathan'),
+nil)
+
+entry!('gilmer2018adversarial',
+  arxiv(2018, '1801.02774'),
+  title('Adversarial spheres'),
+  author('Justin Gilmer and Luke Metz and Fartash Faghri and Samuel S Schoenholz and Maithra Raghu and Martin Wattenberg and Ian Goodfellow'),
+nil)
+
+entry!('tsipras2019robustness',
+  iclr(2019), 
+  title('Robustness may be at odds with accuracy'),
+  author('Dimitris Tsipras and Shibani Santurkar and Logan Engstrom and Alexander Turner and Aleksander Madry'),
+nil)
+
+entry!('fawzi2018analysis',
+  machineLearning(2018, 107),
+  title('Analysis of classifiers’ robustness to adversarial perturbations'),
+  author('Alhussein Fawzi and Omar Fawzi and Pascal Frossard'),
+  number(3),
+  pages(481, 508),
+  publisher('Springer'),
+nil)
+
+entry!('kannan2018adversarial',
+  arxiv(2018, '1803.06373'),
+  title('Adversarial logit pairing'),
+  author('Harini Kannan and Alexey Kurakin and Ian Goodfellow'),
+nil)
+
+entry!('engstrom2018evaluating',
+  arxiv(2018, '1807.10272'),
+  title('Evaluating and understanding the robustness of adversarial logit pairing'),
+  author('Logan Engstrom and Andrew Ilyas and Anish Athalye'),
 nil)
