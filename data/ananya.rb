@@ -131,3 +131,10 @@ entry!('murphy1977reliability',
   jrssc(1977, 26),
   pages(41, 47),
 nil)
+
+entry!('lei2016distribution',
+  article('Journal of the American Statistical Association', 2016, 113),
+  author('Jing Lei and Max G\'Sell and Alessandro Rinaldo and Ryan J. Tibshirani and Larry Wasserman'),
+  title('Distribution-Free Predictive Inference For Regression'),
+  pages(1094, 1111),
+nil)
