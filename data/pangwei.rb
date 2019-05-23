@@ -590,7 +590,7 @@ nil)
 
 entry!('waddington1940organisers',
   title('Organisers and Genes'),
-  author('Conrad Hal Waddington'),  
+  author('Conrad Hal Waddington'),
   book('University Press; Cambridge', 1940),
 nil)
 
@@ -987,7 +987,7 @@ nil)
 
 entry!('giordano2019swiss',
   aistats(2019),
-  title('A {S}wiss {A}rmy Infinitesimal Jackknife'),
+  title('A {Swiss Army} Infinitesimal Jackknife'),
   author('Ryan Giordano and William Stephenson and Runjing Liu and Michael Jordan and Tamara Broderick'),
   pages(1139, 1147),
 nil)
@@ -1073,8 +1073,9 @@ entry!('sharchilev2018finding',
   author('Boris Sharchilev and Yury Ustinovsky and Pavel Serdyukov and Maarten de Rijke'),
 nil)
 
-entry!('khanna2018interpreting',
-  arxiv(2018, '1810.10118'),
+entry!('khanna2019interpreting',
+  aistats(2019),
   title('Interpreting Black Box Predictions using {Fisher} Kernels'),
   author('Rajiv Khanna and Been Kim and Joydeep Ghosh and Oluwasanmi Koyejo'),
+  pages(3382, 3390),
 nil)

@@ -169,7 +169,7 @@ entry!('corney2016million',
 nil)
 
 entry!('wei2015overview',
-  inproceedings('Proceedings of the fifth BioCreative challenge evaluation workshop', 2015),
+  inproceedings('Proceedings of the Fifth BioCreative Challenge Evaluation Workshop', 2015),
   title('Overview of the {BioCreative} {V} chemical disease relation (CDR) task'),
   author('Chih-Hsuan Wei and Yifan Peng and Robert Leaman and Allan Peter Davis and Carolyn J Mattingly and Jiao Li and Thomas C Wiegers and Zhiyong Lu'),
   pages(154, 166),
