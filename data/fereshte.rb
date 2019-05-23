@@ -563,3 +563,10 @@ entry!('esfahani2018data',
   pages(115, 166),
   publisher('Springer'),
 nil)
+
+entry!('berk2012criminal',
+  title('Criminal justice forecasts of risk: A machine learning approach'),
+  author('Richard Berk'),
+ # year(2012),
+  book('Springer Science \& Business Media', 2012),
+nil)
