@@ -52,6 +52,18 @@ entry!('feser2015synthesizing',
        pldi(2015),
        nil)
 
+entry!('yaghmazadeh2016hierarchy',
+       author('Navid Yaghmazadeh and Christian Klinger and Isil Dillig and Swarat Chaudhuri'),
+       title('Synthesizing Transformations on Hierarchically Structured Data '),
+       pldi(2016),
+       nil)
+
+entry!('feng2017api',
+       author('Yu Feng and Ruben Martins and Yuepeng Wang and Isil Dillig and Tomas W. Reps'),
+       title('Component-Based Synthesis for Complex APIs'),
+       popl(2017),
+       nil)
+
 entry!('parisotto2017sql',
        author('Emilio Parisotto and Abdel-rahman Mohamed and Rishabh Singh and Lihong Li and Dengyong Zhou and Pushmeet Kohli'),
        title('Neuro-symbolic Program Synthesis'),
@@ -80,6 +92,12 @@ entry!('gupta2017deepfix',
        author('Rahul Gupta and Soham Pal and Aditya Kanade and Shirish K. Shevade'),
        title('Deepfix: Fixing Common {C} Language Errors by Deep Learning'),
        aaai(2017),
+       nil)
+
+entry!('yaghmazadeh2017sqlizer',
+       author('Navid Yaghmazadeh and Yuepeng Wang and Isil Dillig and Thomas Dillig'),
+       title('SQLizer: Query Synthesis from Natural Language'),
+       oopsla(2017),
        nil)
 
 entry!('bhatia2018synfix',
