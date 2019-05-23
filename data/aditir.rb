@@ -254,3 +254,9 @@ entry!('papernot2018cleverhans',
   Jonathan Uesato and Willi Gierke and Yinpeng Dong and David Berthelot and
   Paul Hendricks and Jonas Rauber and Rujun Long'), 
 nil)
+
+entry!('netzer2011reading',
+       inproceedings('NIPS Workshop on Deep Learning and Unsupervised Feature Learning', 2011),  
+       title('Reading Digits in Natural Images with Unsupervised Feature Learning '),
+  author('Netzer, Yuval and Wang, Tao and Coates, Adam and Bissacco, Alessandro and Wu, Bo and Ng, Andrew Y'),
+nil)
