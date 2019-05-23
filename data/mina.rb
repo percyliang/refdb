@@ -11,8 +11,8 @@ entry!('vadas2005programming',
        nil)
 
 entry!('bansal2006automatic',
-       author('Automatic Generation of Peephole Superoptimizers'),
-       title('Sorav Bansal and Alex Aiken'),
+       author('Sorav Bansal and Alex Aiken'),
+       title('Automatic Generation of Peephole Superoptimizers'),
        asplos(2006),
        nil)
 
@@ -52,6 +52,18 @@ entry!('feser2015synthesizing',
        pldi(2015),
        nil)
 
+entry!('yaghmazadeh2016hierarchy',
+       author('Navid Yaghmazadeh and Christian Klinger and Isil Dillig and Swarat Chaudhuri'),
+       title('Synthesizing Transformations on Hierarchically Structured Data '),
+       pldi(2016),
+       nil)
+
+entry!('feng2017api',
+       author('Yu Feng and Ruben Martins and Yuepeng Wang and Isil Dillig and Tomas W. Reps'),
+       title('Component-Based Synthesis for Complex APIs'),
+       popl(2017),
+       nil)
+
 entry!('parisotto2017sql',
        author('Emilio Parisotto and Abdel-rahman Mohamed and Rishabh Singh and Lihong Li and Dengyong Zhou and Pushmeet Kohli'),
        title('Neuro-symbolic Program Synthesis'),
@@ -82,6 +94,12 @@ entry!('gupta2017deepfix',
        aaai(2017),
        nil)
 
+entry!('yaghmazadeh2017sqlizer',
+       author('Navid Yaghmazadeh and Yuepeng Wang and Isil Dillig and Thomas Dillig'),
+       title('SQLizer: Query Synthesis from Natural Language'),
+       oopsla(2017),
+       nil)
+
 entry!('bhatia2018synfix',
        author('Sahil Bhatia and Pushmeet Kohli and Rishabh Singh'),
        title('Neuro-Symbolic Program Corrector for Introductory Programming Assignments'),
@@ -98,12 +116,6 @@ entry!('iyer2018mapping',
        author('Srinivasan Iyer and Ioannis Konstas and Alvin Cheung and Luke S. Zettlemoyer'),
        title('Mapping Language to Code in Programmatic Context'),
        emnlp(2018),
-       nil)
-
-entry!('bavishi2018api',
-       author('Rohan Bavishi and Caroline Lemieux and Neel Kant and Roy Fox and Koushik Sen and Ion Stoica'),
-       title('Neural Inference of {API} Functions from Input–Output Examples'),
-       nips(2018),
        nil)
 
 entry!('allamanis2018varmisuse',

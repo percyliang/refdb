@@ -260,6 +260,19 @@ entry!('oda2015learning',
   pages(574, 584),
 nil)
 
+entry!('hartmann2010what',
+  title('What would other programmers do: suggesting solutions to error messages'),
+  author('Bj{\"o}rn Hartmann and Daniel MacDougall and Joel Brandt and Scott R. Klemmer'),
+  chi(2010),
+nil)
+
+entry!('vasic2019neural',
+  title('Neural Program Repair by Jointly Learning to Localize and Repair'),
+  author('Vasic, Marko and Kanade, Aditya and Maniatis, Petros and Bieber, David and Singh, Rishabh'),
+  iclr(2019),
+nil)
+
+
 ################################################
 # thesis
 
