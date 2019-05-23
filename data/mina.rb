@@ -11,8 +11,8 @@ entry!('vadas2005programming',
        nil)
 
 entry!('bansal2006automatic',
-       author('Automatic Generation of Peephole Superoptimizers'),
-       title('Sorav Bansal and Alex Aiken'),
+       author('Sorav Bansal and Alex Aiken'),
+       title('Automatic Generation of Peephole Superoptimizers'),
        asplos(2006),
        nil)
 
