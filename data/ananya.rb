@@ -43,3 +43,91 @@ entry!('kull2017sigmoids',
   ejstats(2017, 11),
   pages(5052, 5080),
 nil)
+
+entry!('ferro2012bias',
+  article('Quarterly Journal of the Royal Meteorological Society', 2012, 138),
+  author('C. A. T. Ferro and Thomas E. Fricker'),
+  title('A bias-corrected decomposition of the Brier score'),
+  number(668),
+  pages(1954, 1960),
+nil)
+
+entry!('crowson2017calibration',
+  article('Statistical Methods in Medical Research', 2017, 25),
+  author('Cynthia S. Crowson and Elizabeth J. Atkinson and Terry M. Therneau'),
+  title('Assessing Calibration of Prognostic Risk Scores'),
+  pages(1692, 1706),
+nil)
+
+entry!('malik2019calibrated',
+  title('Calibrated Model-Based Deep Reinforcement Learning'),
+  author('Ali Malik and Volodymyr Kuleshov and Jiaming Song and Danny Nemer and Harlan Seymour and Stefano Ermon'),
+  icml(2019),
+nil)
+
+entry!('kuleshov2018accurate',
+  title('Accurate Uncertainties for Deep Learning Using Calibrated Regression'),
+  author('Volodymyr Kuleshov and Nathan Fenner and Stefano Ermon'),
+  icml(2018),
+nil)
+
+entry!('hosmer1980goodness',
+  article('Communications in Statistics - Theory and Methods', 1980, 9),
+  author('David W. Hosmer and Stanley Lemeshow'),
+  title('Goodness of fit tests for the multiple logistic regression model'),
+  pages(1043, 1069),
+nil)
+
+entry!('brocker2007reliability',
+  article('Weather and Forecasting', 2007, 22),
+  author('Jochen Bröcker and Leonard A. Smith'),
+  title('Increasing the Reliability of Reliability Diagrams'),
+  number(3),
+  pages(651, 661),
+nil)
+
+entry!('harrell1996prognostic',
+  article('Statistics in medicine', 1996, 15),
+  author('Frank E. Harrell and Kerry Lamont Lee and Daniel B. Mark'),
+  title('Multivariable prognostic models: issues in developing models, evaluating assumptions and adequacy, and measuring and reducing errors'),
+  number(4),
+  pages(361, 387),
+nil)
+
+entry!('paninski2003entropy',
+  article('Neural Computation', 2003, 15),
+  author('Liam Paninski'),
+  title('Estimation of Entropy and Mutual Information'),
+  pages(1191, 1253),
+nil)
+
+entry!('gneiting2005weather',
+  title('Weather Forecasting with Ensemble Methods'),
+  author('Tilmann Gneiting and Adrian E. Raftery'),
+  science(2005, 310),
+nil)
+
+entry!('naeini2015obtaining',
+  title('Obtaining Well Calibrated Probabilities Using Bayesian Binning'),
+  author('Mahdi Pakdaman Naeini and Gregory F. Cooper and Milos Hauskrecht'),
+  aaai(2015),
+nil)
+
+entry!('nixon2019calibration',
+  title('Measuring Calibration in Deep Learning'),
+  author('Jeremy V. Nixon and Michael W. Dusenberry and Linchuan Zhang and Ghassen Jerfel and Dustin Tran'),
+  arxiv(2019),
+nil)
+
+entry!('card2018calibration',
+  title('The Importance of Calibration for Estimating Proportions from Annotations'),
+  author('Dallas Card and Noah A. Smith'),
+  acl(2018),
+nil)
+
+entry!('murphy1977reliability',
+  author('Allan H. Murphy and Robert L. Winkler'),
+  title('Reliability of Subjective Probability Forecasts of Precipitation and Temperature'),
+  jrssc(1977, 26),
+  pages(41, 47),
+nil)

@@ -184,3 +184,26 @@ entry!('yuan2015lightlda',
        author('Jinhui Yuan and Fei Gao and Qirong Ho and Wei Dai and Jinliang Wei and Xun Zheng and Eric P. Xing and Tie-Yan Liu and Wei-Ying Ma'),
        www(2015),
        nil)
+
+entry!('honnibal2015nmdp',
+  emnlp(2015),
+  author('Matthew  Honnibal and Mark  Johnson'),
+  title('An Improved Non-monotonic Transition System for Dependency Parsing'),
+  publisher('Association for Computational Linguistics'),
+  pages(1373, 1378),
+  url('https://aclweb.org/anthology/D/D15/D15-1162'),
+nil)
+
+entry!('mansour2009dams',
+  nips(2009),
+  title('Domain Adaptation with Multiple Sources'),
+  author('Yishay Mansour and Mehryar Mohri and Afshin Rostamizadeh'),
+  pages(1041, 1048),
+nil)
+
+entry!('hoffman2018msda',
+  author('Judy Hoffman and Mehryar Mohri and Ningshan Zhang'),
+  title('Algorithms and Theory for Multiple-source Adaptation'),
+  nips(2018),
+  pages(8256, 8266),
+nil)
