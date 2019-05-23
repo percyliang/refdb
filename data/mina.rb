@@ -118,12 +118,6 @@ entry!('iyer2018mapping',
        emnlp(2018),
        nil)
 
-entry!('bavishi2018api',
-       author('Rohan Bavishi and Caroline Lemieux and Neel Kant and Roy Fox and Koushik Sen and Ion Stoica'),
-       title('Neural Inference of {API} Functions from Input–Output Examples'),
-       nips(2018),
-       nil)
-
 entry!('allamanis2018varmisuse',
        author('Miltiadis Allamanis and Marc Brockschmidt and Mahmoud Khademi'),
        title('Learning to Represent Programs with Graphs'),
