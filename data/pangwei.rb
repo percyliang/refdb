@@ -241,7 +241,7 @@ nil)
 
 entry!('strack2014impact',
   article('BioMed Research International', 2014, 2014),
-  title('Impact of {HbA1c} measurement on hospital readmission rates: analysis of 70,000 clinical database patient records'),
+  title('Impact of {HbA1c} measurement on hospital readmission rates: {Analysis} of 70,000 clinical database patient records'),
   author('Beata Strack and Jonathan P DeShazo and Chris Gennings and Juan L Olmo and Sebastian Ventura and Krzysztof J Cios and John N Clore'),
   publisher('Hindawi Publishing Corporation'),
 nil)
@@ -967,7 +967,7 @@ nil)
 
 entry!('schulam2019can',
   aistats(2019),
-  title('Can You Trust This Prediction? Auditing Pointwise Reliability After Learning'),
+  title('Can You Trust This Prediction? {Auditing} Pointwise Reliability After Learning'),
   author('Peter Schulam and Suchi Saria'),
   pages(1022, 1031),
 nil)
@@ -987,7 +987,7 @@ nil)
 
 entry!('giordano2019swiss',
   aistats(2019),
-  title('A Swiss Army Infinitesimal Jackknife'),
+  title('A {S}wiss {A}rmy Infinitesimal Jackknife'),
   author('Ryan Giordano and William Stephenson and Runjing Liu and Michael Jordan and Tamara Broderick'),
   pages(1139, 1147),
 nil)
@@ -1002,14 +1002,14 @@ entry!('pregibon1981logistic',
 nil)
 
 entry!('boyd2004convex',
-  title('Convex optimization'),
+  title('Convex {Optimization}'),
   author('Stephen Boyd and Lieven Vandenberghe'),
   book('Cambridge University Press', 2004),
 nil)
 
 entry!('arrieta2018should',
   inproceedings('American Economic Association Papers and Proceedings', 2018),
-  title('Should We Treat Data as Labor? Moving beyond" Free"'),
+  title('Should We Treat Data as Labor? {Moving} beyond ``Free\'\''),
   author('Imanol Arrieta-Ibarra and Leonard Goff and Diego Jim{\\\'e}nez-Hern{\\\'a}ndez and Jaron Lanier and E Glen Weyl'),
   volume(108),
   pages(38, 42),
@@ -1053,7 +1053,7 @@ entry!('chen2018my',
 nil)
 
 entry!('hampel1974influence',
-  article('Journal of the american statistical association', 1974, 69),
+  article('Journal of the American Statistical Association', 1974, 69),
   title('The influence curve and its role in robust estimation'),
   author('Frank R Hampel'),
   number(346),
@@ -1075,6 +1075,6 @@ nil)
 
 entry!('khanna2018interpreting',
   arxiv(2018, '1810.10118'),
-  title('Interpreting Black Box Predictions using Fisher Kernels'),
+  title('Interpreting Black Box Predictions using {Fisher} Kernels'),
   author('Rajiv Khanna and Been Kim and Joydeep Ghosh and Oluwasanmi Koyejo'),
 nil)
