@@ -242,3 +242,15 @@ entry!('engstrom2018evaluating',
   title('Evaluating and understanding the robustness of adversarial logit pairing'),
   author('Logan Engstrom and Andrew Ilyas and Anish Athalye'),
 nil)
+
+entry!('papernot2018cleverhans',
+  arxiv(2018, '1610.00768'),
+  title('Technical Report on the CleverHans v2.1.0 Adversarial Examples Library'),
+  author('Nicolas Papernot and Fartash Faghri and Nicholas Carlini and
+  Ian Goodfellow and Reuben Feinman and Alexey Kurakin and Cihang Xie and
+  Yash Sharma and Tom Brown and Aurko Roy and Alexander Matyasko and
+  Vahid Behzadan and Karen Hambardzumyan and Zhishuai Zhang and
+  Yi-Lin Juang and Zhi Li and Ryan Sheatsley and Abhibhav Garg and
+  Jonathan Uesato and Willi Gierke and Yinpeng Dong and David Berthelot and
+  Paul Hendricks and Jonas Rauber and Rujun Long'), 
+nil)
