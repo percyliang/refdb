@@ -1075,6 +1075,6 @@ nil)
 
 entry!('khanna2018interpreting',
   arxiv(2018, '1810.10118'),
-  title('Interpreting Black Box Predictions using Fisher Kernels'),
+  title('Interpreting Black Box Predictions using {Fisher} Kernels'),
   author('Rajiv Khanna and Been Kim and Joydeep Ghosh and Oluwasanmi Koyejo'),
 nil)
