@@ -260,3 +260,9 @@ entry!('netzer2011reading',
        title('Reading Digits in Natural Images with Unsupervised Feature Learning '),
   author('Netzer, Yuval and Wang, Tao and Coates, Adam and Bissacco, Alessandro and Wu, Bo and Ng, Andrew Y'),
 nil)
+
+entry!('loshchilov2017sgdr',
+  iclr(2017),
+  title('Sgdr: Stochastic gradient descent with warm restarts'),
+  author('Ilya Loshchilov and Frank Hutter'),
+nil)
