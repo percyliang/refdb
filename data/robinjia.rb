@@ -354,3 +354,21 @@ entry!('liu2019inoculation',
   author('Nelson F. Liu and Roy Schwartz and Noah A. Smith'),
   naacl(2019),
 nil)
+
+entry!('ribeiro2018anchors',
+  title('Anchors: High-Precision Model-Agnostic Explanations'),
+  author('Marco Tulio Ribeiro and Sameer Singh and Carlos Guestrin'),
+  aaai(2018),
+nil)
+
+entry!('mudrakarta2018question',
+  title('Did the Model Understand the Question?'),
+  author('Pramod K. Mudrakarta and Ankur Taly and Mukund Sundararajan and Kedar Dhamdhere'),
+  acl(2018),
+nil)
+
+entry!('feng2018pathologies',
+  title('Pathologies of Neural Models Make Interpretations Difficult'),
+  author('Shi Feng and Eric Wallace and Alvin Grissom II and Mohit Iyyer and Pedro Rodriguez and Jordan Boyd-Graber'),
+  emnlp(2018),
+nil)
