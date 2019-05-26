@@ -3017,7 +3017,7 @@ nil)
 entry!('masaum2012open',
   emnlpconll(2012),
   url('https://homes.cs.washington.edu/~mausam/papers/emnlp12a.pdf'),
-  author('Masaum and Michael Schmitz and Robert Bart and Stephen Soderland and Oren Etzioni'),
+  author('Mausam and Michael Schmitz and Robert Bart and Stephen Soderland and Oren Etzioni'),
   pages(523, 534),
   title('Open language learning for information extraction'),
 nil)

@@ -287,3 +287,10 @@ entry!('yu2018spider',
   author('Tao Yu and Rui Zhang and Kai Yang and Michihiro Yasunaga and Dongxu Wang and Zifan Li and James Ma and Irene Li and Qingning Yao and Shanelle Roman and Zilin Zhang and Dragomir R. Radev'),
   emnlp(2018),
 nil)
+
+entry!('embley2016converting',
+  title('Converting heterogeneous statistical tables on the web to searchable databases'),
+  author('David W. Embley and Mukkai S. Krishnamoorthy and George Nagy and Sharad C. Seth'),
+  article('International Journal on Document Analysis and Recognition (IJDAR)', 2016, 19),
+  pages(119, 138),
+nil)
