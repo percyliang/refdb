@@ -294,3 +294,46 @@ entry!('embley2016converting',
   article('International Journal on Document Analysis and Recognition (IJDAR)', 2016, 19),
   pages(119, 138),
 nil)
+
+entry!('omari2016lossless',
+  title('Lossless Separation of Web Pages into Layout Code and Data'),
+  author('Adi Omari and Benny Kimelfeld and Eran Yahav and Sharon Shoham'),
+  kdd(2016),
+nil)
+
+entry!('kreuzer2015quantitative',
+  title('A Quantitative Comparison of Semantic Web Page Segmentation Approaches'),
+  author('Robert Kreuzer and Jurriaan Hage and A. J. Feelders'),
+  article('International Conference on Web Engineering (ICWE)', 2015),
+nil)
+
+entry!('bing2014web',
+  title('Web page segmentation with structured prediction and its application in web page classification'),
+  author('Lidong Bing and Rui Guo and Wai Lam and Zheng-Yu Niu and Haifeng Wang'),
+  sigir(2014),
+nil)
+
+entry!('grigalis2014unsupervised',
+  title('Unsupervised structured data extraction from template-generated web pages'),
+  author('Tomas Grigalis and Antanas Cenys'),
+  article('Journal of Universal Computer Science', 2014, 20),
+  pages(169, 192),
+nil)
+
+entry!('kumar2011bricolage',
+  title('Bricolage: example-based retargeting for web design'),
+  author('Ranjitha Kumar and Jerry O. Talton and Salman Ahmad and Scott R. Klemmer'),
+  chi(2011),
+nil)
+
+entry!('kumar2013webzeitgeist',
+  title('Webzeitgeist: design mining the web'),
+  author('Ranjitha Kumar and Arvind Satyanarayan and C{\'e}sar Torres and Maxine Lim and Salman Ahmad and Scott R. Klemmer and Jerry O. Talton'),
+  chi(2013),
+nil)
+
+entry!('spengler2010document',
+  title('Document structure meets page layout: loopy random fields for web news content extraction'),
+  author('Alex Spengler and Patrick Gallinari'),
+  article('ACM Symposium on Document Engineering', 2010),
+nil)
