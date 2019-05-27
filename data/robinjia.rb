@@ -372,3 +372,9 @@ entry!('feng2018pathologies',
   author('Shi Feng and Eric Wallace and Alvin Grissom II and Mohit Iyyer and Pedro Rodriguez and Jordan Boyd-Graber'),
   emnlp(2018),
 nil)
+
+entry!('hu2019parabank',
+  title('ParaBank: Monolingual Bitext Generation and Sentential Paraphrasing via Lexically-constrained Neural Machine Translation'),
+  author('J. Edward Hu and Rachel Rudinger and Matt Post and Benjamin Van Durme'),
+  aaai(2019),
+nil)
