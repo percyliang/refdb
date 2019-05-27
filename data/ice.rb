@@ -379,3 +379,10 @@ entry!('polosukhin2018neural',
   author('Illia Polosukhin and Alexander Skidanov'),
   iclr(2018),
 nil)
+
+entry!('he2006spoken',
+  title('Spoken language understanding using the hidden vector state model'),
+  author('Yulan He and Steve Young'),
+  article('Speech Communication', 2006, 48),
+  pages(262, 275),
+nil)
