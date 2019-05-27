@@ -4933,7 +4933,6 @@ entry!('venetis2011recovering',
   volume(4),
   title('Recovering semantics of tables on the web'),
   author('Petros Venetis and Alon Halevy and Jayant Madhavan and Marius Pa{\c{s}}ca and Warren Shen and Fei Wu and Gengxin Miao and Chung Wu'),
-  number(9),
   pages(528, 538),
   publisher('VLDB Endowment'),
 nil)

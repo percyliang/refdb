@@ -1,10 +1,10 @@
 ################################################
 # Yuchen's paper
 
-entry!('haug2017neural',
+entry!('haug2018neural',
   title('Neural Multi-Step Reasoning for Question Answering on Semi-Structured Tables'),
   author('Till Haug and Octavian-Eugen Ganea and Paulina Grnarova'),
-  arxiv(2017, '1702.06589'),
+  inproceedings('European Conference on Information Retrieval', 2018),
 nil)
 
 entry!('desai2016program',
@@ -336,4 +336,46 @@ entry!('spengler2010document',
   title('Document structure meets page layout: loopy random fields for web news content extraction'),
   author('Alex Spengler and Patrick Gallinari'),
   article('ACM Symposium on Document Engineering', 2010),
+nil)
+
+entry!('suhr2018nlvr2',
+  title('A Corpus for Reasoning About Natural Language Grounded in Photographs'),
+  author('Alane Suhr and Stephanie Zhou and Iris F. Zhang and Huajun Bai and Yoav Artzi'),
+  arxiv(2018, '1811.00491'),
+nil)
+
+entry!('gordon2018iqa',
+  title('{IQA}: Visual Question Answering in Interactive Environments'),
+  author('Daniel Gordon and Aniruddha Kembhavi and Mohammad Rastegari and Joseph Redmon and Dieter Fox and Ali Farhadi'),
+  cvpr(2018),
+nil)
+
+entry!('hudson2019gqa',
+  title('{GQA}: A New Dataset for Real-World Visual Reasoning and Compositional Question Answering'),
+  author('Drew A. Hudson and Christopher D. Manning'),
+  cvpr(2019),
+nil)
+
+entry!('bisk2016evaluating',
+  title('Evaluating Induced {CCG} Parsers on Grounded Semantic Parsing'),
+  author('Yonatan Bisk and Siva Reddy and John Blitzer and Julia Hockenmaier and Mark Steedman'),
+  emnlp(2016),
+nil)
+
+entry!('su2016graphquestions',
+  title('On Generating Characteristic-rich Question Sets for {QA} Evaluation'),
+  author('Yu Su and Huan Sun and Brian M. Sadler and Mudhakar Srivatsa and Izzeddin Gur and Zenghui Yan and Xifeng Yan'),
+  emnlp(2016),
+nil)
+
+entry!('locascio2016regex',
+  title('Neural Generation of Regular Expressions from Natural Language with Minimal Domain Knowledge'),
+  author('Nicholas Locascio and Kumaravelu Narasimhan and Eduardo DeLeon and Nate Kushman and Regina Barzilay'),
+  emnlp(2016),
+nil)
+
+entry!('polosukhin2018neural',
+  title('Neural Program Search: Solving Programming Tasks from Description and Examples'),
+  author('Illia Polosukhin and Alexander Skidanov'),
+  iclr(2018),
 nil)
