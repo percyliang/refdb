@@ -386,3 +386,22 @@ entry!('he2006spoken',
   article('Speech Communication', 2006, 48),
   pages(262, 275),
 nil)
+
+entry!('hendrix1978developing',
+  title('Developing a natural language interface to complex data'),
+  author('Gary G Hendrix and Earl D Sacerdoti and Daniel Sagalowicz and Jonathan Slocum'),
+  article('ACM Transactions on Database Systems (TODS)', 1978, 3),
+  pages(105, 147),
+nil)
+
+entry!('szegedy2015googlenet',
+  title('Going deeper with convolutions'),
+  author('Christian Szegedy and Wei Liu and Yangqing Jia and Pierre Sermanet and Scott E. Reed and Dragomir Anguelov and Dumitru Erhan and Vincent Vanhoucke and Andrew Rabinovich'),
+  cvpr(2015),
+nil)
+
+entry!('he2016resnet',
+  title('Deep Residual Learning for Image Recognition'),
+  author('Kaiming He and Xiangyu Zhang and Shaoqing Ren and Jian Sun'),
+  cvpr(2016),
+nil)
