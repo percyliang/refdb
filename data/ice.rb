@@ -405,3 +405,22 @@ entry!('he2016resnet',
   author('Kaiming He and Xiangyu Zhang and Shaoqing Ren and Jian Sun'),
   cvpr(2016),
 nil)
+
+entry!('pieraccini1991stochastic',
+  inproceedings('Human Language Technology (HLT)', 1991),
+  title('Stochastic Representation of Conceptual Structure in the {ATIS} Task'),
+  author('Roberto Pieraccini and Esther Levin and Chin-Hui Lee'),
+nil)
+
+entry!('raymond2007generative',
+  inproceedings('InterSpeech', 2007),
+  title('Generative and discriminative algorithms for spoken language understanding'),
+  author('Christian Raymond and Giuseppe Riccardi'),
+nil)
+
+entry!('mesnil2014using',
+  article('IEEE/ACM Transactions on Audio, Speech, and Language Processing', 2014, 23),
+  title('Using recurrent neural networks for slot filling in spoken language understanding'),
+  author("Gr{\\'e}goire Mesnil and Yann Dauphin and Kaisheng Yao and Yoshua Bengio and Li Deng and Dilek Hakkani-Tur and Xiaodong He and Larry Heck and Gokhan Tur and Dong Yu"),
+  publisher('IEEE'),
+nil)
