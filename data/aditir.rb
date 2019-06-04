@@ -266,3 +266,9 @@ entry!('loshchilov2017sgdr',
   title('Sgdr: Stochastic gradient descent with warm restarts'),
   author('Ilya Loshchilov and Frank Hutter'),
 nil)
+
+entry!('uesato2019are',
+  arxiv(2019, '1905.13725'),
+  title('Are Labels Required for Improving Adversarial Robustness?'),
+  author('Jonathan Uesato and Jean-Baptiste Alayrac and Po-Sen Huang and Robert Stanforth and Alhussein Fawzi and Pushmeet Kohli'),
+nil)
