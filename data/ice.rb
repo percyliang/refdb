@@ -456,3 +456,15 @@ entry!('goyal2017making',
   author('Yash Goyal and Tejas Khot and Douglas Summers-Stay and Dhruv Batra and Devi Parikh'),
   cvpr(2017),
 nil)
+
+entry!('andreas2016neural',
+  cvpr(2016),
+  title('Neural module networks'),
+  author('Jacob Andreas and Marcus Rohrbach and Trevor Darrell and Dan Klein'),
+nil)
+
+entry!('lopez2013evaluating',
+  www(2013),
+  title('Evaluating question answering over linked data'),
+  author('Vanessa Lopez and Christina Unger and Philipp Cimiano and Enrico Motta'),
+nil)
