@@ -424,3 +424,11 @@ entry!('mesnil2014using',
   author("Gr{\\'e}goire Mesnil and Yann Dauphin and Kaisheng Yao and Yoshua Bengio and Li Deng and Dilek Hakkani-Tur and Xiaodong He and Larry Heck and Gokhan Tur and Dong Yu"),
   publisher('IEEE'),
 nil)
+
+entry!('gabrilovich2013facc1',
+  title('FACC1: Freebase annotation of ClueWeb corpora'),
+  author('Evgeniy Gabrilovich and Michael Ringgaard and Amarnag Subramanya'),
+  year(2013),
+  type('misc'),
+  howpublished('\url{http://lemurproject.org/clueweb09/}'),
+nil)
