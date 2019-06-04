@@ -432,3 +432,27 @@ entry!('gabrilovich2013facc1',
   type('misc'),
   howpublished('\url{http://lemurproject.org/clueweb09/}'),
 nil)
+
+entry!('fang2015captions',
+  title('From captions to visual concepts and back'),
+  author('Hao Fang and Saurabh Gupta and Forrest Iandola and Rupesh K Srivastava and Li Deng and Piotr Doll{\\\'a}r and Jianfeng Gao and Xiaodong He and Margaret Mitchell and John C Platt and others'),
+  cvpr(2015),
+nil)
+
+entry!('mao2015deep',
+  title('Deep captioning with multimodal recurrent neural networks (m-{RNN})'),
+  author('Junhua Mao and Wei Xu and Yi Yang and Jiang Wang and Zhiheng Huang and Alan Yuille'),
+  iclr(2015),
+nil)
+
+entry!('agrawal2016analyzing',
+  title('Analyzing the behavior of visual question answering models'),
+  author('Aishwarya Agrawal and Dhruv Batra and Devi Parikh'),
+  emnlp(2016),
+nil)
+
+entry!('goyal2017making',
+  title('Making the {V} in {VQA} matter: Elevating the role of image understanding in Visual Question Answering'),
+  author('Yash Goyal and Tejas Khot and Douglas Summers-Stay and Dhruv Batra and Devi Parikh'),
+  cvpr(2017),
+nil)
