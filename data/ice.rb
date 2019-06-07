@@ -468,3 +468,9 @@ entry!('lopez2013evaluating',
   title('Evaluating question answering over linked data'),
   author('Vanessa Lopez and Christina Unger and Philipp Cimiano and Enrico Motta'),
 nil)
+
+entry!('wang2018robust',
+  arxiv(2018, '1807.03100'),
+  title('Robust text-to-{SQL} generation with execution-guided decoding'),
+  author('Chenglong Wang and Kedar Tatwawadi and Marc Brockschmidt and Po-Sen Huang and Yi Mao and Oleksandr Polozov and Rishabh Singh'),
+nil)

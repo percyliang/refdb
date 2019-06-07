@@ -38,7 +38,7 @@ entry!('dvijotham2018training',
 nil)
 
 entry!('wong2018scaling',
-  arxiv(2018, '1805.12514'),
+  nips(2018),
   title('Scaling provable adversarial defenses'),
   author('Eric Wong and Frank Schmidt and Jan Hendrik Metzen and J Zico Kolter'),
 nil)
@@ -301,4 +301,16 @@ entry!('carmon2019unlabeled',
   arxiv(2019, '1905.13736'),
   title('Unlabeled Data Improves Adversarial Robustness'),
   author('Yair Carmon and Aditi Raghunathan and Ludwig Schmidt and Percy Liang and John C. Duchi'),
+  nil)
+
+entry!('najafi2019robustness',
+  arxiv(2019, '1905.13021'),
+  title('Robustness to Adversarial Perturbations in Learning from Incomplete Data'),
+  author('Amir Najafi and Shin-ichi Maeda and Masanori Koyama and Takeru Miyato'),
+nil)
+
+entry!('zhai2019adversarially',
+  arxiv(2019, '1906.00555'),
+  title('Adversarially Robust Generalization Just Requires More Unlabeled Data'),
+  author('Runtian Zhai and Tianle Cai and Di He and Chen Dan and Kun He and John Hopcroft and Liwei Wang'),
 nil)
