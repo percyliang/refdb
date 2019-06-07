@@ -272,3 +272,33 @@ entry!('uesato2019are',
   title('Are Labels Required for Improving Adversarial Robustness?'),
   author('Jonathan Uesato and Jean-Baptiste Alayrac and Po-Sen Huang and Robert Stanforth and Alhussein Fawzi and Pushmeet Kohli'),
 nil)
+
+entry!('nakkiran2019adversarial',
+  arxiv(2019, '1901.00532'),
+  title('Adversarial robustness may be at odds with simplicity'),
+  author('Preetum Nakkiran'),
+nil)
+
+entry!('yin2018rademacher',
+  arxiv(2018, '1810.11914'),
+  title('Rademacher Complexity for Adversarially Robust Generalization'),
+  author('Dong Yin and Kannan Ramchandran and Peter Bartlett'),
+nil)
+
+entry!('stutz2018disentangling',
+  arxiv(2018, '1812.00740'),
+  title('Disentangling adversarial robustness and generalization'),
+  author('David Stutz and Matthias Hein and Bernt Schiele'),
+nil)
+
+entry!('khim2018adversarial',
+  arxiv(2018, '1810.09519'),
+  title('Adversarial risk bounds for binary classification via function transformation'),
+  author('Justin Khim and Po-Ling Loh'),
+nil)
+
+entry!('carmon2019unlabeled',
+  arxiv(2019, '1905.13736'),
+  title('Unlabeled Data Improves Adversarial Robustness'),
+  author('Yair Carmon and Aditi Raghunathan and Ludwig Schmidt and Percy Liang and John C. Duchi'),
+nil)
