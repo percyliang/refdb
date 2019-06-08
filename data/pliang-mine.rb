@@ -1,6 +1,35 @@
 ############################################################
 # 2019
 
+entry!('carmon2019unlabeled',
+  title('Unlabeled Data Improves Adversarial Robustness'),
+  author('Yair Carmon and Aditi Raghunathan and Ludwig Schmidt and Percy Liang and John C. Duchi'),
+  arxiv(2019, '1905.13736'),
+  url('https://arxiv.org/pdf/1905.13736.pdf'),
+nil)
+
+entry!('koh2019influence',
+  title('On the Accuracy of Influence Functions for Measuring Group Effects'),
+  author('Pang Wei Koh and Kai-Siang Ang and Hubert H. K. Teo and Percy Liang'),
+  arxiv(2019, '1905.13289'),
+  url('https://arxiv.org/pdf/1905.13289.pdf'),
+  codalab('0x43e8ecea53bf4186a7992c9028409320'),
+nil)
+
+entry!('hu2019pretraining',
+  title('Pre-training Graph Neural Networks'),
+  author('Weihua Hu and Bowen Liu and Joseph Gomes and Marinka Zitnik and Percy Liang and Vijay S. Pande and Jure Leskovec'),
+  arxiv(2019, '1905.12265'),
+  url('https://arxiv.org/pdf/1905.12265.pdf'),
+nil)
+
+entry!('monajemi2019painless',
+  title('Ambitious Data Science Can Be Painless'),
+  author('Hatef Monajemi and Riccardo Murri and Eric Jonas and Percy Liang and Victoria Stodden and David L. Donoho'),
+  article('Harvard Data Science Review', 2019, 0),  # TODO: update this
+  url('https://arxiv.org/pdf/1901.08705.pdf'),
+nil)
+
 entry!('zhang2019huse',
   title('Unifying Human and Statistical Evaluation for Natural Language Generation'),
   author('Tatsu Hashimoto and Hugh Zhang and Percy Liang'),
@@ -211,6 +240,12 @@ entry!('sharan2018prediction',
   title('Prediction with a Short Memory'),
   stoc(2018),
   url('http://arxiv.org/pdf/1612.02526.pdf'),
+nil)
+
+entry!('demszky2018transforming',
+  author('Dorottya Demszky and Kelvin Guu and Percy Liang'),
+  title('Transforming Question Answering Datasets Into Natural Language Inference Datasets'),
+  arxiv(2018, '1809.02922.pdf'),
 nil)
 
 ############################################################

@@ -297,12 +297,6 @@ entry!('khim2018adversarial',
   author('Justin Khim and Po-Ling Loh'),
 nil)
 
-entry!('carmon2019unlabeled',
-  arxiv(2019, '1905.13736'),
-  title('Unlabeled Data Improves Adversarial Robustness'),
-  author('Yair Carmon and Aditi Raghunathan and Ludwig Schmidt and Percy Liang and John C. Duchi'),
-  nil)
-
 entry!('najafi2019robustness',
   arxiv(2019, '1905.13021'),
   title('Robustness to Adversarial Perturbations in Learning from Incomplete Data'),

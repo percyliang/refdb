@@ -184,14 +184,20 @@ class Entry
     newline = ''
     #newline = '<br>'  # Put title, author, venues on separate lines
 
+    # Gray out things which are not published
+    isPub = getFirst('journal') !~ /^arXiv/
+    pubWrap = lambda { |s|
+      isPub ? s : color(s, 'gray')
+    }
+
     url = getFirst('url') || getFirst('url') || getFirst('slidesurl') || getFirst('posterurl')
     output = []
-    output << link(latexToHTML(displayTitle(title)), url) + (title[-1..-1] == '?' ? '' : '.') + newline
+    output << link(pubWrap.call(latexToHTML(displayTitle(title))), url) + (title[-1..-1] == '?' ? '' : '.') + newline
     output << author.names.map { |name|
       l = $links[name]
       link(spanClass(latexToHTML(name), authorClass), l)
     }.join(', ') + '.' + newline
-    output << "#{metaTitle ? it(metaTitle.to_full_s + (type == 'techreport' ? ' Technical Report' : '')+', ') : ''}#{year}. #{note} "
+    output << pubWrap.call("#{metaTitle ? it(metaTitle.to_full_s + (type == 'techreport' ? ' Technical Report' : '')+', ') : ''}#{year}. #{note} ")
     output << hiddenText("abstract#{id}", formatLines(get('abstract')))
     output << hiddenText("brief#{id}", formatLines(get('punchlines')))
     output << hiddenText("bib#{id}", verbatimLines(toBibtex(false)))
