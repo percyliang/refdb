@@ -435,7 +435,7 @@ nil)
 
 entry!('fang2015captions',
   title('From captions to visual concepts and back'),
-  author('Hao Fang and Saurabh Gupta and Forrest Iandola and Rupesh K Srivastava and Li Deng and Piotr Doll{\\\'a}r and Jianfeng Gao and Xiaodong He and Margaret Mitchell and John C Platt and others'),
+  author('Hao Fang and Saurabh Gupta and Forrest Iandola and Rupesh K Srivastava and Li Deng and Piotr Doll{\\\'a}r and Jianfeng Gao and Xiaodong He and Margaret Mitchell and John C Platt'),
   cvpr(2015),
 nil)
 
@@ -473,4 +473,209 @@ entry!('wang2018robust',
   arxiv(2018, '1807.03100'),
   title('Robust text-to-{SQL} generation with execution-guided decoding'),
   author('Chenglong Wang and Kedar Tatwawadi and Marc Brockschmidt and Po-Sen Huang and Yi Mao and Oleksandr Polozov and Rishabh Singh'),
+nil)
+
+entry!('robertson2009probabilistic',
+  article('Foundations and Trends in Information Retrieval', 2009, 3),
+  title('The probabilistic relevance framework: {BM25} and beyond'),
+  author('Stephen Robertson and Hugo Zaragoza'),
+  publisher('Now Publishers, Inc.'),
+nil)
+
+entry!('agichtein2000snowball',
+  inproceedings('Proceedings of the fifth ACM conference on Digital Libraries', 2000),
+  title('Snowball: Extracting relations from large plain-text collections'),
+  author('Eugene Agichtein and Luis Gravano'),
+nil)
+
+entry!('wang2015transition',
+  acl(2015),
+  title('A transition-based algorithm for {AMR} parsing'),
+  author('Chuan Wang and Nianwen Xue and Sameer Pradhan'),
+nil)
+
+entry!('yakout2012infogather',
+  inproceedings('International Conference on Management of Data (SIGMOD)', 2012),
+  title('Infogather: entity augmentation and attribute discovery by holistic matching with web tables'),
+  author('Mohamed Yakout and Kris Ganjam and Kaushik Chakrabarti and Surajit Chaudhuri'),
+nil)
+
+entry!('dua2019drop',
+  naacl(2019),
+  author('Dheeru Dua and Yizhong Wang and Pradeep Dasigi and Gabriel Stanovsky and Sameer Singh and Matt Gardner'),
+  title('{DROP}: A Reading Comprehension Benchmark Requiring Discrete Reasoning Over Paragraphs'),
+nil)
+
+entry!('mitchell2015nell',
+  aaai(2015),
+  title('Never-ending learning'),
+  author('Tom Mitchell and William Cohen and Estevam Hruschka and Partha Talukdar and Bo Yang and Justin Betteridge and Andrew Carlson and B Dalvi and Matt Gardner and Bryan Kisiel and others'),
+nil)
+
+entry!('yang2018hotpotqa',
+  emnlp(2018),
+  title('{HotpotQA}: A dataset for diverse, explainable multi-hop question answering'),
+  author('Zhilin Yang and Peng Qi and Saizheng Zhang and Yoshua Bengio and William W Cohen and Ruslan Salakhutdinov and Christopher D Manning'),
+nil)
+
+entry!('hermann2014semantic',
+  acl(2014),
+  title('Semantic frame identification with distributed word representations'),
+  author('Karl Moritz Hermann and Dipanjan Das and Jason Weston and Kuzman Ganchev'),
+nil)
+
+entry!('pasca2003open',
+  title('Open-domain question answering from large text collections'),
+  author('Marius Pa{\c{s}}ca'),
+  computationalLinguistics(2003, 29),
+nil)
+
+entry!('hearst1998automated',
+  article('WordNet: an electronic lexical database', 1998),
+  title('Automated discovery of WordNet relations'),
+  author('Marti A Hearst'),
+nil)
+
+entry!('zeng2014relation',
+  coling(2014),
+  title('Relation classification via convolutional deep neural network'),
+  author('Daojian Zeng and Kang Liu and Siwei Lai and Guangyou Zhou and Jun Zhao'),
+nil)
+
+entry!('miwa2016end',
+  acl(2016),
+  title('End-to-end relation extraction using lstms on sequences and tree structures'),
+  author('Makoto Miwa and Mohit Bansal'),
+nil)
+
+entry!('ritter2013modeling',
+  tacl(2013, 1),
+  title('Modeling missing data in distant supervision for information extraction'),
+  author('Alan Ritter and Luke Zettlemoyer and Mausam and Oren Etzioni'),
+nil)
+
+entry!('riedel2011robust',
+  inproceedings('Proceedings of the BioNLP Shared Task 2011 Workshop', 2011),
+  title('Robust biomedical event extraction with dual decomposition and minimal domain adaptation'),
+  author('Sebastian Riedel and Andrew McCallum'),
+nil)
+
+entry!('iyer2019learning',
+  arxiv(2019, '1904.09086'),
+  title('Learning Programmatic Idioms for Scalable Semantic Parsing'),
+  author('Srinivasan Iyer and Alvin Cheung and Luke Zettlemoyer'),
+nil)
+
+entry!('li2013joint',
+  acl(2013),
+  title('Joint event extraction via structured prediction with global features'),
+  author('Qi Li and Heng Ji and Liang Huang'),
+nil)
+
+entry!('chen2015event',
+  acl(2015),
+  title('Event extraction via dynamic multi-pooling convolutional neural networks'),
+  author('Yubo Chen and Liheng Xu and Kang Liu and Daojian Zeng and Jun Zhao'),
+nil)
+
+entry!('gamon2013identifying',
+  cikm(2013),
+  title('Identifying salient entities in web pages'),
+  author('Michael Gamon and Tae Yano and Xinying Song and Johnson Apacible and Patrick Pantel'),
+nil)
+
+entry!('shen2014webpage',
+  eccv(2014),
+  title('Webpage saliency'),
+  author('Chengyao Shen and Qi Zhao'),
+nil)
+
+entry!('bhagavatula2015tabel',
+  inproceedings('International Semantic Web Conference (ISWC)', 2015),
+  title('{TabEL}: entity linking in web tables'),
+  author('Chandra Sekhar Bhagavatula and Thanapon Noraset and Doug Downey'),
+nil)
+
+entry!('madaan2016numerical',
+  aaai(2016),
+  title('Numerical relation extraction with minimal supervision'),
+  author('Aman Madaan and Ashish Mittal and Ganesh Ramakrishnan and Sunita Sarawagi'),
+nil)
+
+entry!('govindaraju2013understanding',
+  acl(2013),
+  title('Understanding tables in context using standard {NLP} toolkits'),
+  author('Vidhya Govindaraju and Ce Zhang and Christopher R{\\\'e}'),
+nil)
+
+entry!('zhang2015deepdive',
+  phdthesis('University of Wisconsin-Madison', 2015),
+  title('{DeepDive}: a data management system for automatic knowledge base construction'),
+  author('Ce Zhang'),
+nil)
+
+entry!('labutov2018learning',
+  emnlp(2018),
+  title('Learning to Learn Semantic Parsers from Natural Language Supervision'),
+  author('Igor Labutov and Bishan Yang and Tom Mitchell'),
+nil)
+
+entry!('wang2017program',
+  popl(2017),
+  title('Program synthesis using abstraction refinement'),
+  author('Xinyu Wang and Isil Dillig and Rishabh Singh'),
+nil)
+
+entry!('misra2018policy',
+  emnlp(2018),
+  title('Policy Shaping and Generalized Update Equations for Semantic Parsing from Denotations'),
+  author('Dipendra Misra and Ming-Wei Chang and Xiaodong He and Wen-tau Yih'),
+nil)
+
+entry!('neelakantan2017learning',
+  iclr(2017),
+  title('Learning a natural language interface with neural programmer'),
+  author('Arvind Neelakantan and Quoc V Le and Martin Abadi and Andrew McCallum and Dario Amodei'),
+nil)
+
+entry!('dhamdhere2017abductive',
+  arxiv(2017, '1709.03036'),
+  title('Abductive Matching in Question Answering'),
+  author('Kedar Dhamdhere and Kevin S McCurley and Mukund Sundararajan and Ankur Taly'),
+nil)
+
+entry!('dhamdhere2017analyza',
+  inproceedings('Proceedings of the 22nd International Conference on Intelligent User Interfaces', 2017),
+  title('Analyza: Exploring data with conversation'),
+  author('Kedar Dhamdhere and Kevin S McCurley and Ralfi Nahmias and Mukund Sundararajan and Qiqi Yan'),
+nil)
+
+entry!('biloki2019neural',
+  inproceedings('Deep Reinforcement Learning Meets Structured Prediction Workshop at ICLR 2019', 2019),
+  title('Neural Program Planner for Structured Predictions'),
+  author('Jacob Biloki and Chen Liang and Ni Lao'),
+nil)
+
+entry!('agarwal2019learning',
+  arxiv(2019, '1902.07198'),
+  title('Learning to Generalize from Sparse and Underspecified Rewards'),
+  author('Rishabh Agarwal and Chen Liang and Dale Schuurmans and Mohammad Norouzi'),
+nil)
+
+entry!('mou2017coupling',
+  icml(2017),
+  title('Coupling distributed and symbolic execution for natural language queries'),
+  author('Lili Mou and Zhengdong Lu and Hang Li and Zhi Jin'),
+nil)
+
+entry!('iyyer2017search',
+  acl(2017),
+  title('Search-based neural structured learning for sequential question answering'),
+  author('Mohit Iyyer and Wen-tau Yih and Ming-Wei Chang'),
+nil)
+
+entry!('dong2018confidence',
+  acl(2018),
+  title('Confidence modeling for neural semantic parsing'),
+  author('Li Dong and Chris Quirk and Mirella Lapata'),
 nil)
