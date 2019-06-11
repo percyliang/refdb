@@ -23,6 +23,14 @@ entry!('hu2019pretraining',
   url('https://arxiv.org/pdf/1905.12265.pdf'),
 nil)
 
+entry!('khani2019mwld',
+  title('Maximum Weighted Loss Discrepancy'),
+  author('Fereshte Khani and Aditi Raghunathan and Percy Liang'),
+  arxiv(2019, '1906.03518'),
+  url('https://arxiv.org/pdf/1906.03518.pdf'),
+  codalab('0x578f01269d644524b0d4ab2a7a2a6984'),
+nil)
+
 entry!('monajemi2019painless',
   title('Ambitious Data Science Can Be Painless'),
   author('Hatef Monajemi and Riccardo Murri and Eric Jonas and Percy Liang and Victoria Stodden and David L. Donoho'),
