@@ -314,3 +314,12 @@ entry!('zhai2019adversarially',
   title('Adversarially Robust Generalization Just Requires More Unlabeled Data'),
   author('Runtian Zhai and Tianle Cai and Di He and Chen Dan and Kun He and John Hopcroft and Liwei Wang'),
 nil)
+
+entry!('tibshirani1996regression',
+  article('Journal of the Royal Statistical Society: Series B (Methodological)', 1996, 58),
+  title('Regression shrinkage and selection via the lasso'),
+  author('Robert Tibshirani'),
+  number(1),
+  pages(267, 288),
+  publisher('Wiley Online Library'),
+nil)
