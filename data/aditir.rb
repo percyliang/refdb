@@ -317,3 +317,15 @@ entry!('tibshirani1996regression',
   pages(267, 288),
   publisher('Wiley Online Library'),
 nil)
+
+entry!('nagarajan2019uniform',
+  arxiv(2019, '1902.04742'),
+  title('Uniform convergence may be unable to explain generalization in deep learning'),
+  author('Vaishnavh Nagarajan and J Zico Kolter'),
+nil)
+
+entry!('ilyas2019adversarial',
+  arxiv(2019, '1905.02175'),
+  title('Adversarial examples are not bugs, they are features'),
+  author('Andrew Ilyas and Shibani Santurkar and Dimitris Tsipras and Logan Engstrom and Brandon Tran and Aleksander Madry'),
+nil)
