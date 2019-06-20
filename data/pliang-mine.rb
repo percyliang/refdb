@@ -1,11 +1,25 @@
 ############################################################
 # 2019
 
+entry!('kulal2019spoc',
+  title('SPoC: Search-based Pseudocode to Code'),
+  author('Sumith Kulal and Panupong Pasupat and Kartik Chandra and Mina Lee and Oded Padon and Alex Aiken and Percy Liang'),
+  arxiv(2019, '1906.04908'),
+  url('https://arxiv.org/pdf/1906.04908.pdf'),
+nil)
+
 entry!('carmon2019unlabeled',
   title('Unlabeled Data Improves Adversarial Robustness'),
   author('Yair Carmon and Aditi Raghunathan and Ludwig Schmidt and Percy Liang and John C. Duchi'),
   arxiv(2019, '1905.13736'),
   url('https://arxiv.org/pdf/1905.13736.pdf'),
+nil)
+
+entry!('raghunathan2019hurt',
+  title('Adversarial Training Can Hurt Generalization'),
+  author('Aditi Raghunathan and Sang Michael Xie and Fanny Yang and John C. Duchi and Percy Liang'),
+  arxiv(2019, '1906.06032'),
+  url('https://arxiv.org/pdf/1906.06032.pdf'),
 nil)
 
 entry!('koh2019influence',
