@@ -45,6 +45,13 @@ entry!('khani2019mwld',
   codalab('0x578f01269d644524b0d4ab2a7a2a6984'),
 nil)
 
+entry!('li2019greedy',
+  title('A Tight Analysis of Greedy Yields Subexponential Time Approximation for Uniform Decision Tree'),
+  author('Ray Li and Percy Liang and Stephen Mussmann'),
+  arxiv(2019, '1906.11385'),
+  url('https://arxiv.org/pdf/1906.11385.pdf'),
+nil)
+
 entry!('monajemi2019painless',
   title('Ambitious Data Science Can Be Painless'),
   author('Hatef Monajemi and Riccardo Murri and Eric Jonas and Percy Liang and Victoria Stodden and David L. Donoho'),
