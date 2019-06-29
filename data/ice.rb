@@ -679,3 +679,57 @@ entry!('dong2018confidence',
   title('Confidence modeling for neural semantic parsing'),
   author('Li Dong and Chris Quirk and Mirella Lapata'),
 nil)
+
+entry!('lehnert1977conceptual',
+  title('A conceptual theory of question answering'),
+  author('Wendy G Lehnert'),
+  ijcai(1977),
+nil)
+
+entry!('hirschman2001natural',
+  article('Natural Language Engineering', 2001, 7),
+  title('Natural language question answering: the view from here'),
+  author('Lynette Hirschman and Robert Gaizauskas'),
+nil)
+
+entry!('abiteboul1997querying',
+  inproceedings('International Conference on Database Theory', 1997),
+  title('Querying semi-structured data'),
+  author('Serge Abiteboul'),
+nil)
+
+entry!('mchugh1997lore',
+  article('SIGMOD record', 1997, 26),
+  title('Lore: A database management system for semistructured data'),
+  author('Jason McHugh and Serge Abiteboul and Roy Goldman and Dallan Quass and Jennifer Widom'),
+nil)
+
+entry!('burke1997question',
+  article('AI magazine', 1997, 18),
+  title('Question answering from frequently asked question files: Experiences with the {FAQ} finder system'),
+  author('Robin D Burke and Kristian J Hammond and Vladimir Kulyukin and Steven L Lytinen and Noriko Tomuro and Scott Schoenberg'),
+nil)
+
+entry!('soricut2006automatic',
+  article('Information Retrieval', 2006, 9),
+  title('Automatic question answering using the web: Beyond the factoid'),
+  author('Radu Soricut and Eric Brill'),
+nil)
+
+entry!('kwiatkowski2019natural',
+  acl(2019),
+  title('Natural Questions: a Benchmark for Question Answering Research'),
+  author('Tom Kwiatkowski and Jennimaria Palomaki and Olivia Redfield and Michael Collins and Ankur Parikh and Chris Alberti and Danielle Epstein and Illia Polosukhin and Matthew Kelcey and Jacob Devlin and Kenton Lee and Kristina N. Toutanova and Llion Jones and Ming-Wei Chang and Andrew Dai and Jakob Uszkoreit and Quoc Le and Slav Petrov'),
+nil)
+
+entry!('cafarella2009data',
+  vldb(2009),
+  title('Data integration for the relational web'),
+  author('Michael J Cafarella and Alon Halevy and Nodira Khoussainova'),
+nil)
+
+entry!('katz2002omnibase',
+  inproceedings('International Conference on Application of Natural Language to Information Systems', 2002),
+  title('Omnibase: Uniform access to heterogeneous data for question answering'),
+  author('Boris Katz and Sue Felshin and Deniz Yuret and Ali Ibrahim and Jimmy Lin and Gregory Marton and Alton Jerome McFarland and Baris Temelkuran'),
+nil)
