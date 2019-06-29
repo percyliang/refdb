@@ -740,7 +740,7 @@ entry!('yang2016stacked',
   author('Zichao Yang and Xiaodong He and Jianfeng Gao and Li Deng and Alex Smola'),
 nil)
 
-entry!('sparck1972tfidf',
+entry!('jones1972tfidf',
   article('Journal of documentation', 1972, 28),
   title('A statistical interpretation of term specificity and its application in retrieval'),
   author('Karen Sparck Jones'),
