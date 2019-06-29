@@ -4897,7 +4897,6 @@ entry!('limaye2010annotating',
   volume(3),
   title('Annotating and searching web tables using entities, types and relationships'),
   author('Girija Limaye and Sunita Sarawagi and Soumen Chakrabarti'),
-  number('1-2'),
   pages(1338, 1347),
   publisher('VLDB Endowment'),
 nil)
