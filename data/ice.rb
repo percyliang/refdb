@@ -733,3 +733,46 @@ entry!('katz2002omnibase',
   title('Omnibase: Uniform access to heterogeneous data for question answering'),
   author('Boris Katz and Sue Felshin and Deniz Yuret and Ali Ibrahim and Jimmy Lin and Gregory Marton and Alton Jerome McFarland and Baris Temelkuran'),
 nil)
+
+entry!('yang2016stacked',
+  cvpr(2016),
+  title('Stacked attention networks for image question answering'),
+  author('Zichao Yang and Xiaodong He and Jianfeng Gao and Li Deng and Alex Smola'),
+nil)
+
+entry!('sparck1972tfidf',
+  article('Journal of documentation', 1972, 28),
+  title('A statistical interpretation of term specificity and its application in retrieval'),
+  author('Karen Sparck Jones'),
+nil)
+
+entry!('carpineto2012expansion',
+  article('ACM Computing Surveys (CSUR)', 2012, 44),
+  title('A survey of automatic query expansion in information retrieval'),
+  author('Claudio Carpineto and Giovanni Romano'),
+nil)
+
+entry!('cao2006adapting',
+  sigir(2006),
+  title('Adapting ranking {SVM} to document retrieval'),
+  author('Yunbo Cao and Jun Xu and Tie-Yan Liu and Hang Li and Yalou Huang and Hsiao-Wuen Hon'),
+nil)
+
+entry!('yue2007support',
+  sigir(2007),
+  title('A support vector method for optimizing average precision'),
+  author('Yisong Yue and Thomas Finley and Filip Radlinski and Thorsten Joachims'),
+nil)
+
+entry!('haveliwala2002topic',
+  www(2002),
+  title('Topic-sensitive pagerank'),
+  author('Taher H Haveliwala'),
+ organization('ACM'),
+nil)
+
+entry!('gyongyi2004combating',
+  vldb(2004),
+  title('Combating web spam with trustrank'),
+  author('Zolt{\\\'a}n Gy{\"o}ngyi and Hector Garcia-Molina and Jan Pedersen'),
+nil)
