@@ -570,3 +570,10 @@ entry!('berk2012criminal',
  # year(2012),
   book('Springer Science \& Business Media', 2012),
 nil)
+
+entry!('becker2010economics',
+  title('The economics of discrimination'),
+  author('Gary S Becker'),
+ # year(2010),
+  book('University of Chicago press', 2010),
+nil)
