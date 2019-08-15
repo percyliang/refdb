@@ -1,6 +1,24 @@
 ############################################################
 # 2019
 
+entry!('jia2019certified',
+  title('Certified Robustness to Adversarial Word Substitutions'),
+  author('Robin Jia and Aditi Raghunathan and Kerem Göksel and Percy Liang'),
+  emnlp(2019),
+nil)
+
+entry!('oren2019drolm',
+  title('Distributionally Robust Language Modeling'),
+  author('Yonatan Oren and Shiori Sagawa and Tatsunori Hashimoto and Percy Liang'),
+  emnlp(2019),
+nil)
+
+entry!('hewitt2019control',
+  title('Designing and Interpreting Probes with Control Tasks'),
+  author('John Hewitt and Percy Liang'),
+  emnlp(2019),
+nil)
+
 entry!('kulal2019spoc',
   title('SPoC: Search-based Pseudocode to Code'),
   author('Sumith Kulal and Panupong Pasupat and Kartik Chandra and Mina Lee and Oded Padon and Alex Aiken and Percy Liang'),
@@ -55,7 +73,7 @@ nil)
 entry!('monajemi2019painless',
   title('Ambitious Data Science Can Be Painless'),
   author('Hatef Monajemi and Riccardo Murri and Eric Jonas and Percy Liang and Victoria Stodden and David L. Donoho'),
-  article('Harvard Data Science Review', 2019, 0),  # TODO: update this
+  article('Harvard Data Science Review', 2019, 1),
   url('https://arxiv.org/pdf/1901.08705.pdf'),
 nil)
 
