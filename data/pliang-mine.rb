@@ -1,6 +1,98 @@
 ############################################################
 # 2019
 
+entry!('jia2019certified',
+  title('Certified Robustness to Adversarial Word Substitutions'),
+  author('Robin Jia and Aditi Raghunathan and Kerem Göksel and Percy Liang'),
+  emnlp(2019),
+nil)
+
+entry!('oren2019drolm',
+  title('Distributionally Robust Language Modeling'),
+  author('Yonatan Oren and Shiori Sagawa and Tatsunori Hashimoto and Percy Liang'),
+  emnlp(2019),
+nil)
+
+entry!('hewitt2019control',
+  title('Designing and Interpreting Probes with Control Tasks'),
+  author('John Hewitt and Percy Liang'),
+  emnlp(2019),
+nil)
+
+entry!('kulal2019spoc',
+  title('SPoC: Search-based Pseudocode to Code'),
+  author('Sumith Kulal and Panupong Pasupat and Kartik Chandra and Mina Lee and Oded Padon and Alex Aiken and Percy Liang'),
+  arxiv(2019, '1906.04908'),
+  url('https://arxiv.org/pdf/1906.04908.pdf'),
+nil)
+
+entry!('carmon2019unlabeled',
+  title('Unlabeled Data Improves Adversarial Robustness'),
+  author('Yair Carmon and Aditi Raghunathan and Ludwig Schmidt and Percy Liang and John C. Duchi'),
+  arxiv(2019, '1905.13736'),
+  url('https://arxiv.org/pdf/1905.13736.pdf'),
+nil)
+
+entry!('raghunathan2019hurt',
+  title('Adversarial Training Can Hurt Generalization'),
+  author('Aditi Raghunathan and Sang Michael Xie and Fanny Yang and John C. Duchi and Percy Liang'),
+  arxiv(2019, '1906.06032'),
+  url('https://arxiv.org/pdf/1906.06032.pdf'),
+nil)
+
+entry!('koh2019influence',
+  title('On the Accuracy of Influence Functions for Measuring Group Effects'),
+  author('Pang Wei Koh and Kai-Siang Ang and Hubert H. K. Teo and Percy Liang'),
+  arxiv(2019, '1905.13289'),
+  url('https://arxiv.org/pdf/1905.13289.pdf'),
+  codalab('0x43e8ecea53bf4186a7992c9028409320'),
+nil)
+
+entry!('hu2019pretraining',
+  title('Pre-training Graph Neural Networks'),
+  author('Weihua Hu and Bowen Liu and Joseph Gomes and Marinka Zitnik and Percy Liang and Vijay S. Pande and Jure Leskovec'),
+  arxiv(2019, '1905.12265'),
+  url('https://arxiv.org/pdf/1905.12265.pdf'),
+nil)
+
+entry!('khani2019mwld',
+  title('Maximum Weighted Loss Discrepancy'),
+  author('Fereshte Khani and Aditi Raghunathan and Percy Liang'),
+  arxiv(2019, '1906.03518'),
+  url('https://arxiv.org/pdf/1906.03518.pdf'),
+  codalab('0x578f01269d644524b0d4ab2a7a2a6984'),
+nil)
+
+entry!('li2019greedy',
+  title('A Tight Analysis of Greedy Yields Subexponential Time Approximation for Uniform Decision Tree'),
+  author('Ray Li and Percy Liang and Stephen Mussmann'),
+  arxiv(2019, '1906.11385'),
+  url('https://arxiv.org/pdf/1906.11385.pdf'),
+nil)
+
+entry!('monajemi2019painless',
+  title('Ambitious Data Science Can Be Painless'),
+  author('Hatef Monajemi and Riccardo Murri and Eric Jonas and Percy Liang and Victoria Stodden and David L. Donoho'),
+  article('Harvard Data Science Review', 2019, 1),
+  url('https://arxiv.org/pdf/1901.08705.pdf'),
+nil)
+
+entry!('zhang2019huse',
+  title('Unifying Human and Statistical Evaluation for Natural Language Generation'),
+  author('Tatsu Hashimoto and Hugh Zhang and Percy Liang'),
+  naacl(2019),
+  url('https://arxiv.org/pdf/1904.02792.pdf'),
+  codalab('0x88644b5ee189402eb19d39d721d1005c'),
+nil)
+
+entry!('peng2019pun',
+  title('Pun Generation with Surprise'),
+  author('Nanyun Peng and He He and Percy Liang'),
+  naacl(2019),
+  url('https://arxiv.org/pdf/1904.06828.pdf'),
+  codalab('0x5a7d0fe35b144ad68998d74891a31ed6'),
+nil)
+
 entry!('koh2019stronger',
   title('Stronger Data Poisoning Attacks Break Data Sanitization Defenses'),
   author('Pang Wei Koh and Jacob Steinhardt and Percy Liang'),
@@ -19,6 +111,8 @@ entry!('zhang2019discretization',
   title('Defending against Whitebox Adversarial Attacks via Randomized Discretization'),
   author('Yuchen Zhang and Percy Liang'),
   aistats(2019),
+  url('https://arxiv.org/pdf/1903.10586.pdf'),
+  codalab('0x822ba2f9005f49f08755a84443c76456'),
 nil)
 
 entry!('pierson2019aging',
@@ -33,16 +127,11 @@ entry!('shi2019frangel',
   author('Kensen Shi and Jacob Steinhardt and Percy Liang'),
   popl(2019),
   url('https://arxiv.org/pdf/1811.05175.pdf'),
+  codalab('0x882075c0b92c4a2d85abdbd3d76aad78'),
 nil)
 
 ############################################################
 # 2018
-
-entry!('koh2018stronger',
-  title('Stronger Data Poisoning Attacks Bypass Data Sanitization Defenses'),
-  author('Pang Wei Koh and Jacob Steinhardt and Percy Liang'),
-  arxiv(2018, '1811.00741'),
-nil)
 
 entry!('raghunathan2018sdp',
   title('Semidefinite relaxations for certifying robustness to adversarial examples'),
@@ -198,6 +287,12 @@ entry!('sharan2018prediction',
   title('Prediction with a Short Memory'),
   stoc(2018),
   url('http://arxiv.org/pdf/1612.02526.pdf'),
+nil)
+
+entry!('demszky2018transforming',
+  author('Dorottya Demszky and Kelvin Guu and Percy Liang'),
+  title('Transforming Question Answering Datasets Into Natural Language Inference Datasets'),
+  arxiv(2018, '1809.02922.pdf'),
 nil)
 
 ############################################################

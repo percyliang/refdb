@@ -352,10 +352,11 @@ entry!('mannem2010question',
   pages(84, 91),
 nil)
 
-entry!('williams2017broad',
-  arxiv(2017, '1704.05426'),
-  title('A broad-coverage challenge corpus for sentence understanding through inference'),
-  author('Adina Williams and Nikita Nangia and Samuel R Bowman'),
+entry!('williams2018broad',
+  acl(2018),
+  title('A Broad-Coverage Challenge Corpus for Sentence Understanding through Inference'),
+  author('Adina Williams and Nikita Nangia and Samuel Bowman'),
+  pages(1112, 1122),
 nil)
 
 entry!('dozat2017stanford',

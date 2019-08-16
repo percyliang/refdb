@@ -318,3 +318,63 @@ entry!('vrandecic2014wikidata',
   author('Denny Vrande\v{c}i\\\'{c} and Markus Kr\H{o}tzsch'),
   article('Communications of the ACM', 2014, 57),
 nil)
+
+entry!('alzantot2018adversarial',
+  title('Generating Natural Language Adversarial Examples'),
+  author('Moustafa Alzantot and Yash Sharma and Ahmed Elgohary and Bo-Jhang Ho and Mani Srivastava and Kai-Wei Chang'),
+  emnlp(2018),
+nil)
+
+entry!('iyyer2018adversarial',
+  title('Adversarial Example Generation with Syntactically Controlled Paraphrase Networks'),
+  author('Mohit Iyyer and John Wieting and Kevin Gimpel and Luke Zettlemoyer'),
+  naacl(2018),
+nil)
+
+entry!('parikh2016decomposable',
+  title('A Decomposable Attention Model for Natural Language Inference'),
+  author('Ankur Parikh and Oscar T\"{a}ckstr\"{o}m and Dipanjan Das and Jakob Uszkoreit'),
+  emnlp(2016),
+nil)
+
+entry!('mrksic2016counterfitting',
+  title('Counter-fitting Word Vectors to Linguistic Constraints'),
+  author('Nikola Mrk\v{s}i\\\'{c} and Diarmuid \\\'{O} S\\\'{e}aghdha and Blaise Thomson and Milica Ga\v{s}i\\\'{c} and Lina Rojas-Barahona and Pei-Hao Su and David Vandyke and Tsung-Hsien Wen and Steve Young'),
+  naacl(2016),
+nil)
+
+entry!('ribeiro2018sears',
+  title('Semantically Equivalent Adversarial Rules for Debugging {NLP} Models'),
+  author('Marco Tulio Ribeiro and Sameer Singh and Carlos Guestrin'),
+  acl(2018),
+nil)
+
+entry!('liu2019inoculation',
+  title('Inoculation by Fine-Tuning: A Method for Analyzing Challenge Datasets'),
+  author('Nelson F. Liu and Roy Schwartz and Noah A. Smith'),
+  naacl(2019),
+nil)
+
+entry!('ribeiro2018anchors',
+  title('Anchors: High-Precision Model-Agnostic Explanations'),
+  author('Marco Tulio Ribeiro and Sameer Singh and Carlos Guestrin'),
+  aaai(2018),
+nil)
+
+entry!('mudrakarta2018question',
+  title('Did the Model Understand the Question?'),
+  author('Pramod K. Mudrakarta and Ankur Taly and Mukund Sundararajan and Kedar Dhamdhere'),
+  acl(2018),
+nil)
+
+entry!('feng2018pathologies',
+  title('Pathologies of Neural Models Make Interpretations Difficult'),
+  author('Shi Feng and Eric Wallace and Alvin Grissom II and Mohit Iyyer and Pedro Rodriguez and Jordan Boyd-Graber'),
+  emnlp(2018),
+nil)
+
+entry!('hu2019parabank',
+  title('ParaBank: Monolingual Bitext Generation and Sentential Paraphrasing via Lexically-constrained Neural Machine Translation'),
+  author('J. Edward Hu and Rachel Rudinger and Matt Post and Benjamin Van Durme'),
+  aaai(2019),
+nil)

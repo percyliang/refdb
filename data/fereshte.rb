@@ -520,3 +520,121 @@ entry!('zhang2016identifying',
   title('Identifying significant predictive bias in classifiers'),
   author('Zhe Zhang and Daniel B Neill'),
 nil)
+
+entry!('law1983sensitive',
+title('Division of consumer and community affairs. 2011-07. 12 cfr supplement \i to part l02'),
+author('official staff interpretations'),
+url('https://www.law.cornell.edu/cfr/text/12/appendix-Supplement_I_to_part_202'),
+year('1983'),
+type('misc'),
+nil)
+
+entry!('massart1990tight',
+  article('The annals of Probability', 1990),
+  title('The tight constant in the Dvoretzky-Kiefer-Wolfowitz inequality'),
+  author('Pascal Massart'),
+  pages(1269, 1283),
+  publisher('JSTOR'),
+nil)
+
+entry!('delage2010distributionally',
+  article('Operations research', 2010, 58),
+  title('Distributionally robust optimization under moment uncertainty with application to data-driven problems'),
+  author('Erick Delage and Yinyu Ye'),
+  number(3),
+  pages(595, 612),
+  publisher('INFORMS'),
+nil)
+
+entry!('wang2016likelihood',
+  article('Computational Management Science', 2016, 13),
+  title('Likelihood robust optimization for data-driven problems'),
+  author('Zizhuo Wang and Peter W Glynn and Yinyu Ye'),
+  number(2),
+  pages(241, 261),
+  publisher('Springer'),
+nil)
+
+entry!('esfahani2018data',
+  article('Mathematical Programming', 2018, 171),
+  title('Data-driven distributionally robust optimization using the Wasserstein metric: Performance guarantees and tractable reformulations'),
+  author('Peyman Mohajerin Esfahani and Daniel Kuhn'),
+  number('1-2'),
+  pages(115, 166),
+  publisher('Springer'),
+nil)
+
+entry!('berk2012criminal',
+  title('Criminal justice forecasts of risk: A machine learning approach'),
+  author('Richard Berk'),
+ # year(2012),
+  book('Springer Science \& Business Media', 2012),
+nil)
+
+entry!('becker2010economics',
+  title('The economics of discrimination'),
+  author('Gary S Becker'),
+ # year(2010),
+  book('University of Chicago press', 2010),
+nil)
+
+entry!('corbett2018measure',
+  arxiv(2018, '1808.00023'),
+  title('The measure and mismeasure of fairness: A critical review of fair machine learning'),
+  author('Sam Corbett-Davies and Sharad Goel'),
+nil)
+
+entry!('arrow1973theory',
+  article('Discrimination in labor markets', 1973, 3),
+  title('The theory of discrimination'),
+  author('Kenneth Arrow and others'),
+  number(10),
+  pages(3, 33),
+  publisher('Princeton'),
+nil)
+
+entry!('phelps1972statistical',
+  article('The american economic review', 1972, 62),
+  title('The statistical theory of racism and sexism'),
+  author('Edmund S Phelps'),
+  number(4),
+  pages(659, 661),
+  publisher('JSTOR'),
+nil)
+
+entry!('madras2019fairness',
+  inproceedings('Proceedings of the Conference on Fairness, Accountability, and Transparency', 2019),
+  title('Fairness through causal awareness: Learning causal latent-variable models for biased data'),
+  author('David Madras and Elliot Creager and Toniann Pitassi and Richard Zemel'),
+  pages(349, 358),
+  organization('ACM'),
+nil)
+
+entry!('ustun2019fairness',
+  icml(2019),
+  title('Fairness without harm: Decoupled classifiers with preference guarantees'),
+  author('Berk Ustun and Yang Liu and David Parkes'),
+  pages(6373, 6382),
+nil)
+
+entry!('lipton2018does',
+  nips(2018),
+  title('Does mitigating ML\'s impact disparity require treatment disparity?'),
+  author('Zachary Lipton and Julian McAuley and Alexandra Chouldechova'),
+  pages(8125, 8135),
+nil)
+
+entry!('pearl2000causality',
+  title('Causality: models, reasoning and inference'),
+  author('Judea Pearl'),
+  volume(29),
+  #year(2000),
+  book('Springer',2000),
+nil)
+
+entry!('dwork2018decoupled',
+  inproceedings('Conference on Fairness, Accountability and Transparency', 2018),
+  title('Decoupled classifiers for group-fair and efficient machine learning'),
+  author('Cynthia Dwork and Nicole Immorlica and Adam Tauman Kalai and Max Leiserson'),
+  pages(119, 133),
+nil)

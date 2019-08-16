@@ -3017,7 +3017,7 @@ nil)
 entry!('masaum2012open',
   emnlpconll(2012),
   url('https://homes.cs.washington.edu/~mausam/papers/emnlp12a.pdf'),
-  author('Masaum and Michael Schmitz and Robert Bart and Stephen Soderland and Oren Etzioni'),
+  author('Mausam and Michael Schmitz and Robert Bart and Stephen Soderland and Oren Etzioni'),
   pages(523, 534),
   title('Open language learning for information extraction'),
 nil)
@@ -4897,7 +4897,6 @@ entry!('limaye2010annotating',
   volume(3),
   title('Annotating and searching web tables using entities, types and relationships'),
   author('Girija Limaye and Sunita Sarawagi and Soumen Chakrabarti'),
-  number('1-2'),
   pages(1338, 1347),
   publisher('VLDB Endowment'),
 nil)
@@ -4933,7 +4932,6 @@ entry!('venetis2011recovering',
   volume(4),
   title('Recovering semantics of tables on the web'),
   author('Petros Venetis and Alon Halevy and Jayant Madhavan and Marius Pa{\c{s}}ca and Warren Shen and Fei Wu and Gengxin Miao and Chung Wu'),
-  number(9),
   pages(528, 538),
   publisher('VLDB Endowment'),
 nil)
@@ -9825,10 +9823,10 @@ entry!('maronna2006robust',
   book('Wiley', 2006),
 nil)
 
-entry!('hampel2011robust',
+entry!('hampel1986robust',
   title('Robust Statistics: The Approach Based on Influence Functions'),
   author('Frank R. Hampel and Elvezio M. Ronchetti and Peter J. Rousseeuw and Werner A. Stahel'),
-  book('Wiley', 2011),
+  book('Wiley', 1986),
 nil)
 
 entry!('huber2009robust',

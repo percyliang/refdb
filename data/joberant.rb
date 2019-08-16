@@ -700,11 +700,6 @@ entry!('jacovi2019blackbox',
 nil)
 
 
-entry!('yang2018hotpotqa',
-  emnlp(2018),
-  title('{HotpotQA}: A Dataset for Diverse, Explainable Multi-hop Question Answering'),
-  author('Zhilin Yang and Peng Qi and Saizheng Zhang and Yoshua Bengio and William W. Cohen and Ruslan Salakhutdinov and Christopher D. Manning'),
-nil)
 
 entry!('abujabal2018comqa',
   arxiv(2018, '1809.09528'),
@@ -712,18 +707,6 @@ entry!('abujabal2018comqa',
   author('Abdalghani Abujabal and Rishiraj Saha Roy and Mohamed Yahya and Gerhard Weikum'),
 nil)
 
-entry!('devlin2019bert',
-  naacl(2019),
-  title('Bert: Pre-training of deep bidirectional transformers for language understanding'),
-  author('Jacob Devlin and Ming-Wei Chang and Kenton Lee and Kristina Toutanova'),
-nil)
-
-
-entry!('yu2018spider',
-  arxiv(2018, '1809.08887'),
-  title('Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-{SQL} Task'),
-  author('Tao Yu and Rui Zhang and Kai Yang and Michihiro Yasunaga and Dongxu Wang and Zifan Li and James Ma and Irene Li and Qingning Yao and Shanelle Roman and others'),
-nil)
 
 entry!('gardner2018allennlp',
   arxiv(2018, '1803.07640'),
@@ -848,11 +831,6 @@ entry!('howard2018universal',
   author('Jeremy Howard and Sebastian Ruder'),
 nil)
 
-entry!('dua2019drop',
-  naacl(2019),
-  title('DROP: A Reading Comprehension Benchmark Requiring Discrete Reasoning Over Paragraphs'),
-  author('Dheeru Dua and Yizhong Wang and Pradeep Dasigi and Gabriel Stanovsky and Sameer Singh and Matt Gardner'),
-nil)
 
 entry!('lin2018denoising',
   acl(2018),

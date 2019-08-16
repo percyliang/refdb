@@ -374,3 +374,15 @@ entry!('martins2016softmax',
   author('Andre Martins and Ramon Astudillo'),
   pages(1614, 1623),
 nil)
+
+entry!('ecoffet2019go',
+  arxiv(2019, '1901.10995'),
+  title('Go-Explore: a New Approach for Hard-Exploration Problems'),
+  author('Adrien Ecoffet and Joost Huizinga and Joel Lehman and Kenneth O Stanley and Jeff Clune'),
+nil)
+
+entry!('stanton2018deep',
+  arxiv(2018, '1806.00553'),
+  title('Deep curiosity search: Intra-life exploration improves performance on challenging deep reinforcement learning problems'),
+  author('Christopher Stanton and Jeff Clune'),
+nil)
