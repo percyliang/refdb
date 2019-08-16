@@ -22,6 +22,12 @@ entry!('solar2006combinatorial',
        asplos(2006),
        nil)
 
+entry!('little2007keyword',
+       author('Greg Little and Robert C. Miller'),
+       title('Keyword Programming in Java'),
+       ase(2007),
+       nil)
+
 entry!('armando2008sketch',
        author('Armando Solar-Lezama'),
        title('Program Synthesis by Sketching'),

@@ -148,6 +148,7 @@ def pldi(year); inproceedings(Name.new('Programming Language Design and Implemen
 def popl(year); inproceedings(Name.new('Principles of Programming Languages', 'POPL'), year) end
 def cav(year); inproceedings(Name.new('Computer Aided Verification', 'CAV'), year) end
 def asplos(year); inproceedings(Name.new('Architectural Support for Programming Languages and Operating Systems', 'ASPLOS'), year) end
+def ase(year); inproceedings(Name.new('Automated Software Engineering', 'ASE'), year) end
 
 # Databases
 def icde(year); inproceedings(Name.new('International Conference on Data Engineering', 'ICDE'), year) end
