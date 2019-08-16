@@ -383,7 +383,7 @@ nil)
 
 entry!('zhong2017seq2sql',
   arxiv(2017, '1709.00103'),
-  title('Seq2SQL: Generating Structured Queries from Natural Language using Reinforcement Learning'),
+  title('Seq2{SQL}: Generating Structured Queries from Natural Language using Reinforcement Learning'),
   author('Victor Zhong and Caiming Xiong and Richard Socher'),
 nil)
 
@@ -762,12 +762,6 @@ entry!('finegan2018improving',
   author('Catherine Finegan-Dollak and Jonathan K Kummerfeld and Li Zhang and Karthik Ramanathan and Sesh Sadasivam and Rui Zhang and Dragomir Radev'),
 nil)
 
-entry!('yu2018syntaxsqlnet',
-  emnlp(2018),
-  title('{SyntaxSQLNet}: Syntax Tree Networks for Complex and Cross-DomainText-to-{SQL} Task'),
-  author('Tao Yu and Michihiro Yasunaga and Kai Yang and Rui Zhang and Dongxu Wang and Zifan Li and Dragomir Radev'),
-nil)
-
 entry!('li2016gated',
   iclr(2016), 
   title('Gated graph sequence neural networks'),
@@ -880,3 +874,26 @@ entry!('talmor2018repartitioning',
   author('Alon Talmor and Jonathan Berant'),
 nil)
 
+entry!('bogin2019representing',
+  acl(2019),
+  title('Representing Schema Structure with Graph Neural Networks for Text-to-{SQL} Parsing'),
+  author('Ben Bogin and Matt Gardner and Jonathan Berant'),
+  url('https://arxiv.org/pdf/1905.06241.pdf'),
+  code('https://github.com/benbogin/spider-schema-gnn'),
+nil)
+
+entry!('talmor2019generalization',
+  acl(2019),
+  author('Alon Talmor and Jonathan Berant'),
+  title('Multi{QA}: An Empirical Investigation of Generalization and Transfer in Reading Comprehension'),
+  url('https://arxiv.org/pdf/1905.13453.pdf'),
+  code('https://github.com/alontalmor/MultiQA_for_AllenNLP'),
+  project('https://www.tau-nlp.org/multiqa'),
+nil)
+
+entry!('lin2019grammar',
+  author('Kevin Lin and Ben Bogin and Mark Neumann and Jonathan Berant and Matt Gardner'),
+  arxiv(2019, '1905.13326'),
+  url('https://arxiv.org/pdf/1905.13326.pdf'),
+  title('Grammar-based Neural Text-to-{SQL} Generation'),
+nil)
