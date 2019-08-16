@@ -875,3 +875,21 @@ entry!('lin2019grammar',
   url('https://arxiv.org/pdf/1905.13326.pdf'),
   title('Grammar-based Neural Text-to-{SQL} Generation'),
 nil)
+
+entry!('bogin2019global',
+  author('Ben Bogin and Matt Gardner and Jonathan Berant'),
+  emnlp(2019),
+  title('Global Reasoning over Database Structures for Text-to-{SQL} Parsing'),
+  nil)
+
+entry!('geva2019annotator',
+  author('Mor Geva and Yoav Goldberg and Jonathan Berant'),
+  emnlp(2019),
+  title('Are We Modeling the Task or the Annotator? An Investigation ofAnnotator Bias in Natural Language Understanding Datasets'),
+  nil)
+
+entry!('herzig2019detect',
+  author('Jonathan Herzig and Jonathan Berant'),
+  emnlp(2019),
+  title('Don’t paraphrase, detect! Rapid and Effective Data Collection forSemantic Parsing'),
+  nil)
