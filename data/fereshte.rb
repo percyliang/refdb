@@ -587,7 +587,7 @@ nil)
 entry!('arrow1973theory',
   article('Discrimination in labor markets', 1973, 3),
   title('The theory of discrimination'),
-  author('Kenneth Arrow and others'),
+  author('Kenneth Arrow'),
   number(10),
   pages(3, 33),
   publisher('Princeton'),
@@ -637,4 +637,13 @@ entry!('dwork2018decoupled',
   title('Decoupled classifiers for group-fair and efficient machine learning'),
   author('Cynthia Dwork and Nicole Immorlica and Adam Tauman Kalai and Max Leiserson'),
   pages(119, 133),
+nil)
+
+entry!('lehr2017playing',
+  article('UCDL Rev.', 2017, 51),
+  title('Playing with the data: what legal scholars should learn about machine learning'),
+  author('David Lehr and Paul Ohm'),
+  pages(653,717),
+  year(2017),
+  publisher('HeinOnline'),
 nil)
