@@ -378,3 +378,15 @@ entry!('hu2019parabank',
   author('J. Edward Hu and Rachel Rudinger and Matt Post and Benjamin Van Durme'),
   aaai(2019),
 nil)
+
+entry!('pruthi2019misspellings',
+  title('Combating Adversarial Misspellings with Robust Word Recognition'),
+  author('Danish Pruthi and Bhuwan Dhingra and Zachary C. Lipton'),
+  acl(2019),
+nil)
+
+entry!('michel2019adversarial',
+  title('On Evaluation of Adversarial Perturbations for Sequence-to-Sequence Models'),
+  author('Paul Michel and Xian Li and Graham Neubig and Juan Miguel Pino'),
+  naacl(2019),
+nil)
