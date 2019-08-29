@@ -138,3 +138,9 @@ entry!('lei2016distribution',
   title('Distribution-Free Predictive Inference For Regression'),
   pages(1094, 1111),
 nil)
+
+entry!('hubbard1998vector',
+  author('John H. Hubbard and Barbara B. Hubbard'),
+  title('Vector Calculus, Linear Algebra, And Differential Forms'),
+  book('Prentice Hall', 1998), address('New Jersey, USA'),
+nil)
