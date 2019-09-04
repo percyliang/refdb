@@ -5,18 +5,22 @@ entry!('jia2019certified',
   title('Certified Robustness to Adversarial Word Substitutions'),
   author('Robin Jia and Aditi Raghunathan and Kerem Göksel and Percy Liang'),
   emnlp(2019),
+  url('https://arxiv.org/pdf/1909.00986.pdf'),
+  codalab('0x79feda5f1998497db75422eca8fcd689'),
 nil)
 
 entry!('oren2019drolm',
   title('Distributionally Robust Language Modeling'),
   author('Yonatan Oren and Shiori Sagawa and Tatsunori Hashimoto and Percy Liang'),
   emnlp(2019),
+  codalab('0xf8122ebd24e94209a2a1764007509098'),
 nil)
 
 entry!('hewitt2019control',
   title('Designing and Interpreting Probes with Control Tasks'),
   author('John Hewitt and Percy Liang'),
   emnlp(2019),
+  codalab('0xb0c351d6f1ac4c51b54f1023786bf6b2'),
 nil)
 
 entry!('kulal2019spoc',
