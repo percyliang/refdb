@@ -644,6 +644,46 @@ entry!('lehr2017playing',
   title('Playing with the data: what legal scholars should learn about machine learning'),
   author('David Lehr and Paul Ohm'),
   pages(653,717),
-  year(2017),
   publisher('HeinOnline'),
+nil)
+
+entry!('domingos2000unified',
+  icml(2000),
+  title('A unified bias-variance decomposition'),
+  author('Pedro Domingos'),
+  pages(231, 238),
+nil)
+
+entry!('abel2017classical',
+  title('Classical measurement error with several regressors'),
+  author('Andrew B Abel'),
+  techreport('Working Paper', 2017),
+nil)
+
+entry!('miller1981inverse',
+  article('Mathematics magazine', 1981, 54),
+  title('On the inverse of the sum of matrices'),
+  author('Kenneth S Miller'),
+  number(2),
+  pages(67, 72),
+  publisher('Taylor \& Francis'),
+nil)
+
+entry!('carroll2006measurement',
+  title('Measurement error in nonlinear models: a modern perspective'),
+  author('Raymond J Carroll and David Ruppert and Leonard A Stefanski and Ciprian M Crainiceanu'),
+  book('Chapman and Hall/CRC',2006),
+nil)
+
+entry!('o2016weapons',
+  title('Weapons of math destruction: How big data increases inequality and threatens democracy'),
+  author('Cathy O\'neil'),
+  book('Broadway Books', 2016),
+nil)
+
+entry!('chouldechova2018case',
+  inproceedings('Conference on Fairness, Accountability and Transparency', 2018),
+  title('A case study of algorithm-assisted decision making in child maltreatment hotline screening decisions'),
+  author('Alexandra Chouldechova and Diana Benavides-Prado and Oleksandr Fialko and Rhema Vaithianathan'),
+  pages(134, 148),
 nil)
