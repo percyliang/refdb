@@ -329,3 +329,15 @@ entry!('ilyas2019adversarial',
   title('Adversarial examples are not bugs, they are features'),
   author('Andrew Ilyas and Shibani Santurkar and Dimitris Tsipras and Logan Engstrom and Brandon Tran and Aleksander Madry'),
 nil)
+
+entry!('hastie2019surprises',
+  arxiv(2019, '1903.08560'),
+  title('Surprises in high-dimensional ridgeless least squares interpolation'),
+  author('Trevor Hastie and Andrea Montanari and Saharon Rosset and Ryan J Tibshirani'),
+nil)
+
+entry!('chen2019invariance',
+  arxiv(2019, '1907.10905'),
+  title('Invariance reduces Variance: Understanding Data Augmentation in Deep Learning and Beyond'),
+  author('Shuxiao Chen and Edgar Dobriban and Jane H Lee'),
+nil)
