@@ -13,6 +13,7 @@ entry!('oren2019drolm',
   title('Distributionally Robust Language Modeling'),
   author('Yonatan Oren and Shiori Sagawa and Tatsunori Hashimoto and Percy Liang'),
   emnlp(2019),
+  url('https://arxiv.org/pdf/1909.02060.pdf'),
   codalab('0xf8122ebd24e94209a2a1764007509098'),
 nil)
 
