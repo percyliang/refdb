@@ -21,6 +21,7 @@ entry!('hewitt2019control',
   title('Designing and Interpreting Probes with Control Tasks'),
   author('John Hewitt and Percy Liang'),
   emnlp(2019),
+  url('https://arxiv.org/pdf/1909.03368.pdf'),
   codalab('0xb0c351d6f1ac4c51b54f1023786bf6b2'),
 nil)
 
