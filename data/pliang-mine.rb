@@ -28,15 +28,29 @@ nil)
 entry!('kulal2019spoc',
   title('SPoC: Search-based Pseudocode to Code'),
   author('Sumith Kulal and Panupong Pasupat and Kartik Chandra and Mina Lee and Oded Padon and Alex Aiken and Percy Liang'),
-  arxiv(2019, '1906.04908'),
+  nips(2019),
   url('https://arxiv.org/pdf/1906.04908.pdf'),
 nil)
 
 entry!('carmon2019unlabeled',
   title('Unlabeled Data Improves Adversarial Robustness'),
   author('Yair Carmon and Aditi Raghunathan and Ludwig Schmidt and Percy Liang and John C. Duchi'),
-  arxiv(2019, '1905.13736'),
+  nips(2019),
   url('https://arxiv.org/pdf/1905.13736.pdf'),
+nil)
+
+entry!('kumar2019calibration',
+  title('Verified Uncertainty Calibration'),
+  author('Ananya Kumar and Percy Liang and Tengyu Ma'),
+  nips(2019),
+nil)
+
+entry!('koh2019influence',
+  title('On the Accuracy of Influence Functions for Measuring Group Effects'),
+  author('Pang Wei Koh and Kai-Siang Ang and Hubert H. K. Teo and Percy Liang'),
+  nips(2019),
+  url('https://arxiv.org/pdf/1905.13289.pdf'),
+  codalab('0x43e8ecea53bf4186a7992c9028409320'),
 nil)
 
 entry!('raghunathan2019hurt',
@@ -44,14 +58,6 @@ entry!('raghunathan2019hurt',
   author('Aditi Raghunathan and Sang Michael Xie and Fanny Yang and John C. Duchi and Percy Liang'),
   arxiv(2019, '1906.06032'),
   url('https://arxiv.org/pdf/1906.06032.pdf'),
-nil)
-
-entry!('koh2019influence',
-  title('On the Accuracy of Influence Functions for Measuring Group Effects'),
-  author('Pang Wei Koh and Kai-Siang Ang and Hubert H. K. Teo and Percy Liang'),
-  arxiv(2019, '1905.13289'),
-  url('https://arxiv.org/pdf/1905.13289.pdf'),
-  codalab('0x43e8ecea53bf4186a7992c9028409320'),
 nil)
 
 entry!('hu2019pretraining',
