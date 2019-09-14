@@ -83,7 +83,7 @@ entry!('monajemi2019painless',
   url('https://arxiv.org/pdf/1901.08705.pdf'),
 nil)
 
-entry!('zhang2019huse',
+entry!('hashimoto2019huse',
   title('Unifying Human and Statistical Evaluation for Natural Language Generation'),
   author('Tatsu Hashimoto and Hugh Zhang and Percy Liang'),
   naacl(2019),
