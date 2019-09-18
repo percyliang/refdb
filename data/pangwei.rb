@@ -1092,3 +1092,11 @@ entry!('buolamwini2018gender',
   author('Joy Buolamwini and Timnit Gebru'),
   pages(77, 91),
 nil)
+
+entry!('bagnell2005robust',
+  inproceedings('Proceedings of the 20th national conference on Artificial intelligence-Volume 2', 2005),
+  title('Robust supervised learning'),
+  author('J Andrew Bagnell'),
+  pages(714, 719),
+  organization('AAAI Press'),
+nil)
