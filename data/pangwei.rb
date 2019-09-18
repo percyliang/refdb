@@ -18,7 +18,7 @@ entry!('goodman2016eu',
   title('European Union regulations on algorithmic decision-making and a ``right to explanation\'\''),
   arxiv(2016, '1606.08813'),
   url('https://arxiv.org/abs/1606.08813'),
-nil)
+  nil)
 
 entry!('amershi2015modeltracker',
   chi(2015),
@@ -1078,4 +1078,17 @@ entry!('khanna2019interpreting',
   title('Interpreting Black Box Predictions using {Fisher} Kernels'),
   author('Rajiv Khanna and Been Kim and Joydeep Ghosh and Oluwasanmi Koyejo'),
   pages(3382, 3390),
+nil)
+
+entry!('mccoy2019right',
+  title('Right for the Wrong Reasons: Diagnosing Syntactic Heuristics in Natural Language Inference'),
+  author('R Thomas McCoy and Ellie Pavlick and Tal Linzen'),
+  acl(2019),
+nil)
+
+entry!('buolamwini2018gender',
+  inproceedings('Conference on Fairness, Accountability and Transparency', 2018),
+  title('Gender shades: Intersectional accuracy disparities in commercial gender classification'),
+  author('Joy Buolamwini and Timnit Gebru'),
+  pages(77, 91),
 nil)
