@@ -1100,3 +1100,16 @@ entry!('bagnell2005robust',
   pages(714, 719),
   organization('AAAI Press'),
 nil)
+
+entry!('zhang2017understanding',
+  iclr(2017),
+  title('Understanding deep learning requires rethinking generalization'),
+  author('Chiyuan Zhang and Samy Bengio and Moritz Hardt and Benjamin Recht and Oriol Vinyals'),
+nil)
+
+entry!('hoffer2017train',
+  nips(2017),
+  title('Train longer, generalize better: closing the generalization gap in large batch training of neural networks'),
+  author('Elad Hoffer and Itay Hubara and Daniel Soudry'),
+  pages(1731, 1741),
+nil)
