@@ -1113,3 +1113,9 @@ entry!('hoffer2017train',
   author('Elad Hoffer and Itay Hubara and Daniel Soudry'),
   pages(1731, 1741),
 nil)
+
+entry!('wah2011cub',
+  techreport('California Institute of Technology', 2011),
+  title('The Caltech-{UCSD} Birds-200-2011 dataset'),
+  author('Wah, C. and Branson, S. and Welinder, P. and Perona, P. and Belongie, S.'),
+nil)
