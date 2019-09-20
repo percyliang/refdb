@@ -1128,3 +1128,10 @@ entry!('zhou2017places',
   pages(1452, 1464),
   publisher('IEEE'),
 nil)
+
+entry!('liu2015deep',
+  inproceedings('Proceedings of the IEEE international conference on computer vision', 2015),
+  title('Deep learning face attributes in the wild'),
+  author('Ziwei Liu and Ping Luo and Xiaogang Wang and Xiaoou Tang'),
+  pages(3730, 3738),
+nil)
