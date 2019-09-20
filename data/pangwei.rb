@@ -1119,3 +1119,12 @@ entry!('wah2011cub',
   title('The Caltech-{UCSD} Birds-200-2011 dataset'),
   author('Wah, C. and Branson, S. and Welinder, P. and Perona, P. and Belongie, S.'),
 nil)
+
+entry!('zhou2017places',
+  article('IEEE transactions on pattern analysis and machine intelligence', 2017, 40),
+  title('Places: A 10 million image database for scene recognition'),
+  author('Bolei Zhou and Agata Lapedriza and Aditya Khosla and Aude Oliva and Antonio Torralba'),
+  number(6),
+  pages(1452, 1464),
+  publisher('IEEE'),
+nil)
