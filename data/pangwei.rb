@@ -1135,3 +1135,45 @@ entry!('liu2015deep',
   author('Ziwei Liu and Ping Luo and Xiaogang Wang and Xiaoou Tang'),
   pages(3730, 3738),
 nil)
+
+entry!('byrd2019effect',
+  icml(2019),
+  title('What is the Effect of Importance Weighting in Deep Learning?'),
+  author('Jonathon Byrd and Zachary Lipton'),
+  pages(872, 881),
+nil)
+
+entry!('shen2016relay',
+  inproceedings('European conference on computer vision', 2016),
+  title('Relay backpropagation for effective learning of deep convolutional neural networks'),
+  author('Li Shen and Zhouchen Lin and Qingming Huang'),
+  pages(467, 482),
+  organization('Springer'),
+nil)
+
+entry!('buda2018systematic',
+  article('Neural Networks', 2018, 106),
+  title('A systematic study of the class imbalance problem in convolutional neural networks'),
+  author('Mateusz Buda and Atsuto Maki and Maciej A Mazurowski'),
+  pages(249, 259),
+  publisher('Elsevier'),
+nil)
+
+entry!('bertsekas2009convex',
+  title('Convex optimization theory'),
+  author('Dimitri P Bertsekas'),
+  book('Athena Scientific Belmont', 2009),
+nil)
+
+entry!('cao2019learning',
+  nips(2019),
+  title('Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss'),
+  author('Kaidi Cao and Colin Wei and Adrien Gaidon and Nikos Arechiga and Tengyu Ma'),
+nil)
+
+entry!('cui2019class',
+  cvpr(2019),
+  title('Class-balanced loss based on effective number of samples'),
+  author('Yin Cui and Menglin Jia and Tsung-Yi Lin and Yang Song and Serge Belongie'),
+  pages(9268, 9277),
+nil)
