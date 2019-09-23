@@ -129,3 +129,9 @@ entry!('allamanis2018varmisuse',
        title('Learning to Represent Programs with Graphs'),
        iclr(2018),
        nil)
+
+entry!('svyatkovskiy2019pythia',
+       author('Alexey Svyatkovskiy and Ying Zhao and Shengyo Fu and Neel Sundaresan'),
+       title('Pythia: {AI}-assisted Code Completion System'),
+       kdd(2019),
+       nil)

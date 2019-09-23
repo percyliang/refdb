@@ -13,6 +13,7 @@ entry!('oren2019drolm',
   title('Distributionally Robust Language Modeling'),
   author('Yonatan Oren and Shiori Sagawa and Tatsunori Hashimoto and Percy Liang'),
   emnlp(2019),
+  url('https://arxiv.org/pdf/1909.02060.pdf'),
   codalab('0xf8122ebd24e94209a2a1764007509098'),
 nil)
 
@@ -20,21 +21,36 @@ entry!('hewitt2019control',
   title('Designing and Interpreting Probes with Control Tasks'),
   author('John Hewitt and Percy Liang'),
   emnlp(2019),
+  url('https://arxiv.org/pdf/1909.03368.pdf'),
   codalab('0xb0c351d6f1ac4c51b54f1023786bf6b2'),
 nil)
 
 entry!('kulal2019spoc',
   title('SPoC: Search-based Pseudocode to Code'),
   author('Sumith Kulal and Panupong Pasupat and Kartik Chandra and Mina Lee and Oded Padon and Alex Aiken and Percy Liang'),
-  arxiv(2019, '1906.04908'),
+  nips(2019),
   url('https://arxiv.org/pdf/1906.04908.pdf'),
 nil)
 
 entry!('carmon2019unlabeled',
   title('Unlabeled Data Improves Adversarial Robustness'),
   author('Yair Carmon and Aditi Raghunathan and Ludwig Schmidt and Percy Liang and John C. Duchi'),
-  arxiv(2019, '1905.13736'),
+  nips(2019),
   url('https://arxiv.org/pdf/1905.13736.pdf'),
+nil)
+
+entry!('kumar2019calibration',
+  title('Verified Uncertainty Calibration'),
+  author('Ananya Kumar and Percy Liang and Tengyu Ma'),
+  nips(2019),
+nil)
+
+entry!('koh2019influence',
+  title('On the Accuracy of Influence Functions for Measuring Group Effects'),
+  author('Pang Wei Koh and Kai-Siang Ang and Hubert H. K. Teo and Percy Liang'),
+  nips(2019),
+  url('https://arxiv.org/pdf/1905.13289.pdf'),
+  codalab('0x43e8ecea53bf4186a7992c9028409320'),
 nil)
 
 entry!('raghunathan2019hurt',
@@ -42,14 +58,6 @@ entry!('raghunathan2019hurt',
   author('Aditi Raghunathan and Sang Michael Xie and Fanny Yang and John C. Duchi and Percy Liang'),
   arxiv(2019, '1906.06032'),
   url('https://arxiv.org/pdf/1906.06032.pdf'),
-nil)
-
-entry!('koh2019influence',
-  title('On the Accuracy of Influence Functions for Measuring Group Effects'),
-  author('Pang Wei Koh and Kai-Siang Ang and Hubert H. K. Teo and Percy Liang'),
-  arxiv(2019, '1905.13289'),
-  url('https://arxiv.org/pdf/1905.13289.pdf'),
-  codalab('0x43e8ecea53bf4186a7992c9028409320'),
 nil)
 
 entry!('hu2019pretraining',
@@ -81,7 +89,7 @@ entry!('monajemi2019painless',
   url('https://arxiv.org/pdf/1901.08705.pdf'),
 nil)
 
-entry!('zhang2019huse',
+entry!('hashimoto2019huse',
   title('Unifying Human and Statistical Evaluation for Natural Language Generation'),
   author('Tatsu Hashimoto and Hugh Zhang and Percy Liang'),
   naacl(2019),

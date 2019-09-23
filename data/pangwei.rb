@@ -18,7 +18,7 @@ entry!('goodman2016eu',
   title('European Union regulations on algorithmic decision-making and a ``right to explanation\'\''),
   arxiv(2016, '1606.08813'),
   url('https://arxiv.org/abs/1606.08813'),
-nil)
+  nil)
 
 entry!('amershi2015modeltracker',
   chi(2015),
@@ -1078,4 +1078,102 @@ entry!('khanna2019interpreting',
   title('Interpreting Black Box Predictions using {Fisher} Kernels'),
   author('Rajiv Khanna and Been Kim and Joydeep Ghosh and Oluwasanmi Koyejo'),
   pages(3382, 3390),
+nil)
+
+entry!('mccoy2019right',
+  title('Right for the Wrong Reasons: Diagnosing Syntactic Heuristics in Natural Language Inference'),
+  author('R Thomas McCoy and Ellie Pavlick and Tal Linzen'),
+  acl(2019),
+nil)
+
+entry!('buolamwini2018gender',
+  inproceedings('Conference on Fairness, Accountability and Transparency', 2018),
+  title('Gender shades: Intersectional accuracy disparities in commercial gender classification'),
+  author('Joy Buolamwini and Timnit Gebru'),
+  pages(77, 91),
+nil)
+
+entry!('bagnell2005robust',
+  inproceedings('Proceedings of the 20th national conference on Artificial intelligence-Volume 2', 2005),
+  title('Robust supervised learning'),
+  author('J Andrew Bagnell'),
+  pages(714, 719),
+  organization('AAAI Press'),
+nil)
+
+entry!('zhang2017understanding',
+  iclr(2017),
+  title('Understanding deep learning requires rethinking generalization'),
+  author('Chiyuan Zhang and Samy Bengio and Moritz Hardt and Benjamin Recht and Oriol Vinyals'),
+nil)
+
+entry!('hoffer2017train',
+  nips(2017),
+  title('Train longer, generalize better: closing the generalization gap in large batch training of neural networks'),
+  author('Elad Hoffer and Itay Hubara and Daniel Soudry'),
+  pages(1731, 1741),
+nil)
+
+entry!('wah2011cub',
+  techreport('California Institute of Technology', 2011),
+  title('The Caltech-{UCSD} Birds-200-2011 dataset'),
+  author('Wah, C. and Branson, S. and Welinder, P. and Perona, P. and Belongie, S.'),
+nil)
+
+entry!('zhou2017places',
+  article('IEEE transactions on pattern analysis and machine intelligence', 2017, 40),
+  title('Places: A 10 million image database for scene recognition'),
+  author('Bolei Zhou and Agata Lapedriza and Aditya Khosla and Aude Oliva and Antonio Torralba'),
+  number(6),
+  pages(1452, 1464),
+  publisher('IEEE'),
+nil)
+
+entry!('liu2015deep',
+  inproceedings('Proceedings of the IEEE international conference on computer vision', 2015),
+  title('Deep learning face attributes in the wild'),
+  author('Ziwei Liu and Ping Luo and Xiaogang Wang and Xiaoou Tang'),
+  pages(3730, 3738),
+nil)
+
+entry!('byrd2019effect',
+  icml(2019),
+  title('What is the Effect of Importance Weighting in Deep Learning?'),
+  author('Jonathon Byrd and Zachary Lipton'),
+  pages(872, 881),
+nil)
+
+entry!('shen2016relay',
+  inproceedings('European conference on computer vision', 2016),
+  title('Relay backpropagation for effective learning of deep convolutional neural networks'),
+  author('Li Shen and Zhouchen Lin and Qingming Huang'),
+  pages(467, 482),
+  organization('Springer'),
+nil)
+
+entry!('buda2018systematic',
+  article('Neural Networks', 2018, 106),
+  title('A systematic study of the class imbalance problem in convolutional neural networks'),
+  author('Mateusz Buda and Atsuto Maki and Maciej A Mazurowski'),
+  pages(249, 259),
+  publisher('Elsevier'),
+nil)
+
+entry!('bertsekas2009convex',
+  title('Convex optimization theory'),
+  author('Dimitri P Bertsekas'),
+  book('Athena Scientific Belmont', 2009),
+nil)
+
+entry!('cao2019learning',
+  nips(2019),
+  title('Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss'),
+  author('Kaidi Cao and Colin Wei and Adrien Gaidon and Nikos Arechiga and Tengyu Ma'),
+nil)
+
+entry!('cui2019class',
+  cvpr(2019),
+  title('Class-balanced loss based on effective number of samples'),
+  author('Yin Cui and Menglin Jia and Tsung-Yi Lin and Yang Song and Serge Belongie'),
+  pages(9268, 9277),
 nil)
