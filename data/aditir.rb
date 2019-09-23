@@ -341,3 +341,34 @@ entry!('chen2019invariance',
   title('Invariance reduces Variance: Understanding Data Augmentation in Deep Learning and Beyond'),
   author('Shuxiao Chen and Edgar Dobriban and Jane H Lee'),
 nil)
+
+entry!('engstrom2019exploring',
+  icml(2019),
+  title('Exploring the Landscape of Spatial Robustness'),
+  author('Logan Engstrom and Brandon Tran and Dimitris Tsipras and Ludwig Schmidt and Aleksander Madry'),
+  pages(1802, 1811),
+nil)
+
+entry!('yang2019invariance',
+  arxiv(2019, '1906.11235'),
+  title('Invariance-inducing regularization using worst-case transformations suffices to boost accuracy and spatial robustness'),
+  author('Fanny Yang and Zuowen Wang and Christina Heinze-Deml'),
+nil)
+
+entry!('ma2018power',
+  icml(2018),
+  title('The power of interpolation: Understanding the effectiveness of {SGD} in modern over-parametrized learning'),
+  author('Siyuan Ma and Raef Bassily and Mikhail Belkin'),
+nil)
+
+entry!('belkin2018understand',
+  icml(2018),
+  title('To understand deep learning we need to understand kernel learning'),
+  author('Mikhail Belkin and Siyuan Ma and Soumik Mandal'),
+nil)
+
+entry!('liang2018just',
+  arxiv(2018, '1808.00387'),
+  title('Just interpolate: Kernel" ridgeless" regression can generalize'),
+  author('Tengyuan Liang and Alexander Rakhlin'),
+nil)
