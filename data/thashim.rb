@@ -822,3 +822,59 @@ entry!('namkoong2016stochastic',
        title('Stochastic Gradient Methods for Distributionally Robust Optimization with f-Divergences'),
        nips(2016),
        nil)
+
+entry!('peters2016causal',
+       author('Jonas Peters and Peter b{\"u}hlmann and Nicolai Meinshausen'),
+       title('Causal inference by using invariant prediction: identification and confidence intervals'),
+       jrssb(2016, 78),
+       nil)
+
+entry!('meinshausen2015maximin',
+       author('Nicolai Meinshausen and Peter B{\"u}hlmann}'),
+       title('Maximin effects in inhomogeneous large-scale data'),
+       annalsOfStatistics(2015,43),
+       nil)
+
+entry!('rothenhausler2018anchor',
+       author('Domink Rothenh{\"a}usler and Peter B{\"u}hlmann} and Nicolai Meinshausen and Jonas Peters'),
+       title('Anchor regression: heterogeneous data meets causality'),
+       arxiv(2018,'1801.06229'),
+       nil)
+
+entry!('buhlmann2016magging',
+       author('Peter B{\"u}hlmann and Nicolai Meinshausen'),
+       title('Magging: maximin aggregation for inhomogeneous large-scale data'),
+       inproceedings('IEEE',2016),
+       nil)
+
+entry!('bertsimas2018data',
+       author('Dimitris Bertsimas and Vishal Gupta and Nathan Kallus'),
+       title('Data-driven robust optimization'),
+       article('Mathematical Programming Series A', 2018, 167),
+       nil)
+
+entry!('lam2015quantifying',
+       author('Henry Lam and Enlu Zhou'),
+       inproceedings('2015 Winter Simulation Conference', 2015),
+       title('Quantifying Input Uncertainty in Stochastic Optimization'),
+       nil)
+
+entry!('shafieezadeh2015distributionally',
+       author('Soroosh Shafieezadeh-Abadeh and Peyman Mohajerin Esfahani and Daniel Kuhn'),
+       title('Distributionally Robust Logistic Regression'),
+       nips(2015),
+       nil)
+
+entry!('blanchet2016quantifying',
+       author('Jose Blanchet and Karthyek Murthy'),
+       title('Quantifying Distributional Model Risk Via Optimal Transport'),
+       arxiv(2016, '1605.01446'),
+       nil)
+
+entry!('lee2017minimax',
+       author('Jaeho Lee and Maxim Raginsky'),
+       title('Minimax Statistical Learning and Domain Adaptation with Wasserstein Distances'),
+       arxiv(2017, '1705.07815'),
+       nil)
+
+
