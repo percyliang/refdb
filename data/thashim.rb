@@ -877,4 +877,8 @@ entry!('lee2017minimax',
        arxiv(2017, '1705.07815'),
        nil)
 
-
+entry!('heinze2017grouping',
+       author('Christina Heinze-Deml and Nicolai Meinshausen'),
+       title('Grouping-By-ID: Guarding Against Adversarial Domain Shifts'),
+       arxiv(2017,'1710.11469'),
+       nil)
