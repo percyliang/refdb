@@ -43,6 +43,7 @@ entry!('kumar2019calibration',
   title('Verified Uncertainty Calibration'),
   author('Ananya Kumar and Percy Liang and Tengyu Ma'),
   nips(2019),
+  url('https://arxiv.org/pdf/1909.10155.pdf'),
 nil)
 
 entry!('koh2019influence',
