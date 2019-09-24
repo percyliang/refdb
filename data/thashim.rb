@@ -824,25 +824,25 @@ entry!('namkoong2016stochastic',
        nil)
 
 entry!('peters2016causal',
-       author('Jonas Peters and Peter b{\"u}hlmann and Nicolai Meinshausen'),
+       author('Jonas Peters and Peter B\"uhlmann and Nicolai Meinshausen'),
        title('Causal inference by using invariant prediction: identification and confidence intervals'),
        jrssb(2016, 78),
        nil)
 
 entry!('meinshausen2015maximin',
-       author('Nicolai Meinshausen and Peter B{\"u}hlmann}'),
+       author('Nicolai Meinshausen and Peter B\"uhlmann}'),
        title('Maximin effects in inhomogeneous large-scale data'),
        annalsOfStatistics(2015,43),
        nil)
 
 entry!('rothenhausler2018anchor',
-       author('Domink Rothenh{\"a}usler and Peter B{\"u}hlmann} and Nicolai Meinshausen and Jonas Peters'),
+       author('Domink Rothenh\"ausler and Peter B\"uhlmann} and Nicolai Meinshausen and Jonas Peters'),
        title('Anchor regression: heterogeneous data meets causality'),
        arxiv(2018,'1801.06229'),
        nil)
 
 entry!('buhlmann2016magging',
-       author('Peter B{\"u}hlmann and Nicolai Meinshausen'),
+       author('Peter B\"uhlmann and Nicolai Meinshausen'),
        title('Magging: maximin aggregation for inhomogeneous large-scale data'),
        inproceedings('IEEE',2016),
        nil)
