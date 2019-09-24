@@ -830,13 +830,13 @@ entry!('peters2016causal',
        nil)
 
 entry!('meinshausen2015maximin',
-       author('Nicolai Meinshausen and Peter B\"uhlmann}'),
+       author('Nicolai Meinshausen and Peter B\"uhlmann'),
        title('Maximin effects in inhomogeneous large-scale data'),
        annalsOfStatistics(2015,43),
        nil)
 
 entry!('rothenhausler2018anchor',
-       author('Domink Rothenh\"ausler and Peter B\"uhlmann} and Nicolai Meinshausen and Jonas Peters'),
+       author('Domink Rothenh\"ausler and Peter B\"uhlmann and Nicolai Meinshausen and Jonas Peters'),
        title('Anchor regression: heterogeneous data meets causality'),
        arxiv(2018,'1801.06229'),
        nil)
