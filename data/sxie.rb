@@ -56,4 +56,10 @@ entry!('bartlett2019benign',
   arxiv(2019),
 nil)
 
+entry!('kleinman1968design',
+  author('D. Kleinman and M. Athans'),
+  title('The design of suboptimal linear time-varying systems'),
+  article('IEEE Transactions on Automatic Control', 1968, 13),
+  pages(150, 159),
+nil)
 

@@ -372,3 +372,9 @@ entry!('liang2018just',
   title('Just interpolate: Kernel" ridgeless" regression can generalize'),
   author('Tengyuan Liang and Alexander Rakhlin'),
 nil)
+
+entry!('zoph2016neural',
+  arxiv(2016, '1611.01578'),
+  title('Neural architecture search with reinforcement learning'),
+  author('Barret Zoph and Quoc V Le'),
+nil)
