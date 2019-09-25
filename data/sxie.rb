@@ -38,13 +38,6 @@ entry!('lamb2019interpolated',
   arxiv(2019),
 nil)
 
-entry!('yang2019invariance',
-  author('Fanny Yang and Zuowen Wang and Christina Heinze-Deml'),
-  title('Invariance-inducing regularization using worst-case transformations suffices to boost accuracy and spatial robustness'),
-  arxiv(2019),
-nil)
-
-
 entry!('prabhu2019understanding',
   author('Vinay Uday Prabhu and Joyce Xu and Dian Ang Yap and John Whaley'),
   title('Understanding Adversarial Robustness Through Loss Landscape Geometries'),
