@@ -1190,3 +1190,10 @@ entry!('radford2019language',
   author('Alec Radford and Jeffrey Wu and Rewon Child and David Luan and Dario Amodei and Ilya Sutskever'),
   number(8),
 nil)
+
+entry!('vapnik1992principles',
+  inproceedings('Advances in neural information processing systems', 1992),
+  title('Principles of risk minimization for learning theory'),
+  author('Vladimir Vapnik'),
+  pages(831, 838),
+nil)
