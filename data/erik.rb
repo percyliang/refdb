@@ -42,3 +42,19 @@ entry!('davies2008COCA',
   title('The Corpus of Contemporary American English (COCA): 560 million words, 1990-present'),
   author('Mark Davies'),
 nil)
+
+entry!('rawlison1976letterpos',
+  year(1976), 
+  type('misc'),
+  howpublished('Ph.D. thesis, University of Nottingham'),
+  title('The significance of letter position in word recognition'),
+  author('Graham Ernest Rawlinson'),
+nil)
+
+entry!('davis2003psycholinguistic',
+  year(2003), 
+  type('misc'),
+  howpublished('\url{https://www.mrc-cbu.cam.ac.uk/}'),
+  title('Psycholinguistic evidence on scrambled letters in reading'),
+  author('Matt Davis'),
+nil)
