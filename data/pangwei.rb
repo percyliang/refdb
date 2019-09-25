@@ -1177,3 +1177,23 @@ entry!('cui2019class',
   author('Yin Cui and Menglin Jia and Tsung-Yi Lin and Yang Song and Serge Belongie'),
   pages(9268, 9277),
 nil)
+
+entry!('ioffe2015batch',
+  arxiv(2015, '1502.03167'),
+  title('Batch normalization: Accelerating deep network training by reducing internal covariate shift'),
+  author('Sergey Ioffe and Christian Szegedy'),
+nil)
+
+entry!('radford2019language',
+  article('OpenAI Blog', 2019, 1),
+  title('Language models are unsupervised multitask learners'),
+  author('Alec Radford and Jeffrey Wu and Rewon Child and David Luan and Dario Amodei and Ilya Sutskever'),
+  number(8),
+nil)
+
+entry!('vapnik1992principles',
+  inproceedings('Advances in neural information processing systems', 1992),
+  title('Principles of risk minimization for learning theory'),
+  author('Vladimir Vapnik'),
+  pages(831, 838),
+nil)
