@@ -1116,12 +1116,12 @@ nil)
 
 entry!('wah2011cub',
   techreport('California Institute of Technology', 2011),
-  title('The Caltech-{UCSD} Birds-200-2011 dataset'),
-  author('Wah, C. and Branson, S. and Welinder, P. and Perona, P. and Belongie, S.'),
+  title('The {Caltech}-{UCSD} {Birds}-200-2011 dataset'),
+  author('C Wah and S Branson and P Welinder and P Perona and S Belongie'),
 nil)
 
 entry!('zhou2017places',
-  article('IEEE transactions on pattern analysis and machine intelligence', 2017, 40),
+  article('IEEE Transactions on Pattern Analysis and Machine Intelligence', 2017, 40),
   title('Places: A 10 million image database for scene recognition'),
   author('Bolei Zhou and Agata Lapedriza and Aditya Khosla and Aude Oliva and Antonio Torralba'),
   number(6),
@@ -1144,7 +1144,7 @@ entry!('byrd2019effect',
 nil)
 
 entry!('shen2016relay',
-  inproceedings('European conference on computer vision', 2016),
+  inproceedings('European Conference on Computer Vision', 2016),
   title('Relay backpropagation for effective learning of deep convolutional neural networks'),
   author('Li Shen and Zhouchen Lin and Qingming Huang'),
   pages(467, 482),
@@ -1160,7 +1160,7 @@ entry!('buda2018systematic',
 nil)
 
 entry!('bertsekas2009convex',
-  title('Convex optimization theory'),
+  title('Convex Optimization Theory'),
   author('Dimitri P Bertsekas'),
   book('Athena Scientific Belmont', 2009),
 nil)
@@ -1192,7 +1192,7 @@ entry!('radford2019language',
 nil)
 
 entry!('vapnik1992principles',
-  inproceedings('Advances in neural information processing systems', 1992),
+  inproceedings('Advances in Neural Information Processing Systems', 1992),
   title('Principles of risk minimization for learning theory'),
   author('Vladimir Vapnik'),
   pages(831, 838),
