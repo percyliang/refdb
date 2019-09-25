@@ -416,3 +416,8 @@ entry!('huang2019achieving',
   emnlp(2019),
 nil)
 
+entry!('arora2018linear',
+  title('Linear Algebraic Structure of Word Senses, with Applications to Polysemy'),
+  author('Sanjeev Arora and Yuanzhi Li and Yingyu Liang and Tengyu Ma and Andrej Risteski'),
+  tacl(2018, 6),
+nil)
