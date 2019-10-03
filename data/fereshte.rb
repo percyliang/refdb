@@ -733,3 +733,17 @@ entry!('sherman1950adjustment',
   pages(124, 127),
   publisher('JSTOR'),
 nil)
+
+entry!('chiappa2019path',
+  aaai(2019),
+  title('Path-specific counterfactual fairness'),
+  author('Silvia Chiappa'),
+  volume(33),
+  pages(7801, 7808),
+nil)
+
+entry!('loftus2018causal',
+  arxiv(2018, '1805.05859'),
+  title('Causal reasoning for algorithmic fairness'),
+  author('Joshua R Loftus and Chris Russell and Matt J Kusner and Ricardo Silva'),
+nil)
