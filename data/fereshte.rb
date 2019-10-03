@@ -747,3 +747,31 @@ entry!('loftus2018causal',
   title('Causal reasoning for algorithmic fairness'),
   author('Joshua R Loftus and Chris Russell and Matt J Kusner and Ricardo Silva'),
 nil)
+
+entry!('nabi2018fair',
+  aaai(2018),
+  title('Fair inference on outcomes'),
+  author('Razieh Nabi and Ilya Shpitser'),
+nil)
+
+entry!('pierson2017fast',
+  arxiv(2017, '1702.08536'),
+  title('Fast threshold tests for detecting discrimination'),
+  author('Emma Pierson and Sam Corbett-Davies and Sharad Goel'),
+nil)
+
+entry!('simoiu2017problem',
+  article('The Annals of Applied Statistics', 2017, 11),
+  title('The problem of infra-marginality in outcome tests for discrimination'),
+  author('Camelia Simoiu and Sam Corbett-Davies and Sharad Goel and others'),
+  number(3),
+  pages(1193, 1216),
+  publisher('Institute of Mathematical Statistics'),
+nil)
+
+entry!('calmon2017optimized',
+  nips(2017),
+  title('Optimized pre-processing for discrimination prevention'),
+  author('Flavio Calmon and Dennis Wei and Bhanukiran Vinzamuri and Karthikeyan Natesan Ramamurthy and Kush R Varshney'),
+  pages(3992, 4001),
+nil)
