@@ -61,3 +61,15 @@ entry!('yao2017parity',
   nips(2017),   
 nil)
 
+entry!('landeiro2016confounder',
+  author('Virgile Landeiro and Aron Culotta'),
+  title('Robust Text Classification in the Presence of Confounding Bias'),
+  aaai(2016),
+nil)
+
+entry!('kaushik2019difference',
+  title('Learning the Difference that Makes a Difference with Counterfactually-Augmented Data'),
+  author('Divyansh Kaushik and Eduard Hovy and Zachary C. Lipton'),
+  arxiv(2019, '1909.12434'),
+  nil)
+
