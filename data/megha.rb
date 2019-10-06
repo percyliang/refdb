@@ -73,3 +73,28 @@ entry!('kaushik2019difference',
   arxiv(2019, '1909.12434'),
   nil)
 
+entry!('goel2016stopandfrisk',
+  title('Precinct or Prejudice? Understanding Racial Disparities in New York City\'s Stop-and-Frisk Policy'),
+  author('Sharad Goel and Justin M. Rao and Ravi Shroff'),
+  inproceedings('The Annals of Applied Statistics', 2016),
+  year(2016),
+  nil)
+
+entry!('roemmele2011copa',
+  author('Melissa Roemmele and Cosmin Adrian Bejan and Andrew S. Gordon'),
+  title('Choice of Plausible Alternatives: An Evaluation of Commonsense Causal Reasoning'),
+  aaai(2011),
+nil)
+
+entry!('sap2019atomic',
+  author('Maarten Sap and Ronan LeBras and Emily Allaway and Chandra Bhagavatula and Nicholas Lourie and Hannah Rashkin and Brendan Roof and Noah A. Smith and Yejin Choi'),
+  title('ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning'),
+  aaai(2019),
+nil)
+
+entry!('heinze2019robustness',
+  title('Conditional Variance Penalties and Domain Shift Robustness'),
+  author('Christina Heinze-Deml and Nicolai Meinshausen'),
+  arxiv(2019, '1710.11469'),
+  nil)
+
