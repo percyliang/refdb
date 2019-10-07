@@ -106,3 +106,10 @@ entry!('nyclu2019data',
   year(2019),
   nil)
 
+entry!('zhao2016teen',
+  author('Jessie Zhao and May Lau and David Vermette and David Liang and Glenn Flores'),
+  title('Communication Between Asian American Adolescents and Health Care Providers About Sexual Activity, Sexually Transmitted Infections, and Pregnancy Prevention'),
+  inproceedings('Journal of Adolescent Research', 2016),
+  year(2016),
+nil)
+
