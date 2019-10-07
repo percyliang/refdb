@@ -98,3 +98,11 @@ entry!('heinze2019robustness',
   arxiv(2019, '1710.11469'),
   nil)
 
+entry!('nyclu',
+  title('Stop-and-Frisk Data'),
+  type('misc').
+  author('New York Civil Liberties Union'),
+  howpublished('https://www.nyclu.org/en/stop-and-frisk-data'),
+  year(2019),
+  nil)
+
