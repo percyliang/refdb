@@ -120,3 +120,9 @@ entry!('zech2018radio',
   year(2018),
 nil)
 
+entry!('honein2001accutane',
+  title('Continued occurrence of Accutane®‐exposed pregnancies'),
+  author('M.A. Honein and L.J. Paulozzi and J.D. Erickson'),
+  inproceedings('Teratology', 2001),
+  nil)
+
