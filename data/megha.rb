@@ -113,3 +113,10 @@ entry!('zhao2016teen',
   year(2016),
 nil)
 
+entry!('zech2018radio',
+  author('John R. Zech and Marcus A. Badgeley and Manway Liu and Anthony B. Costa and Joseph J. Titano and Eric Karl Oermann'),
+  title('Variable generalization performance of a deep learning model to detect pneumonia in chest radiographs: A cross-sectional study'),
+  inproceedings('PLOS Medicine', 2018),
+  year(2018),
+nil)
+
