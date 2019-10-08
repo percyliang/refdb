@@ -126,3 +126,15 @@ entry!('honein2001accutane',
   inproceedings('Teratology', 2001),
   nil)
 
+entry!('gelman2007police',
+  title('An Analysis of the New York City Police Department’s “Stop-and-Frisk” Policy in the Context of Claims of Racial Bias'),
+  author('Andrew Gelmand and Jeffrey Fagan and Alex Kiss'),
+  inproceedings('Journal of the American Statistical Association', 2007),
+  nil)
+
+entry!('kozor2014drug',
+  title('Regular Cocaine Use Is Associated with Increased Systolic Blood Pressure, Aortic Stiffness and Left Ventricular Mass in Young Otherwise Healthy Individuals'),
+  author('Rebecca Kozor and Stuart M. Grieve and Stefan Buchholz and Sharlene Kaye and Shane Darke and Ravinay Bhindi and Gemma A. Figtree'),
+  inproceedings('PLos ONE', 2014),
+  nil)
+
