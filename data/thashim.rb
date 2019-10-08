@@ -805,12 +805,6 @@ entry!('eidelman2012topic',
        pages(115,119),
        nil)
 
-entry!('duchi2019distributionally',
-       author('John C Duchi and Tatsunori B Hashimoto and Hongseok Namkoong'),
-       title('Distributionally Robust Losses Against Mixture Covariate Shifts'),
-       preprint(2019),
-       nil)
-
 entry!('rakhlin2013optimization',
        author('Alexander Rakhlin and Karthik Sridharan'),
        title('Optimization, Learning, and Games with Predictable Sequences'),
@@ -881,4 +875,12 @@ entry!('heinze2017grouping',
        author('Christina Heinze-Deml and Nicolai Meinshausen'),
        title('Grouping-By-ID: Guarding Against Adversarial Domain Shifts'),
        arxiv(2017,'1710.11469'),
+       nil)
+
+entry!('duchi2019distributionally',
+       title('Distributionally Robust Losses Against Mixture Covariate Shifts'),
+       author('John Duchi and Tatsunori Hashimoto and Hongseok Namkoong'),
+       type('misc'),
+       howpublished('\url{https://cs.stanford.edu/~thashim/assets/publications/condrisk.pdf}'),
+       year(2019),
        nil)
