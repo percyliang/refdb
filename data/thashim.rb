@@ -884,3 +884,9 @@ entry!('duchi2019distributionally',
        howpublished('\url{https://cs.stanford.edu/~thashim/assets/publications/condrisk.pdf}'),
        year(2019),
        nil)
+
+entry!('michele2004eliminating',
+       title('Eliminating Health Disparities: Measurement and Data Needs'),
+       author('Michele Ver Ploeg and Edward Perrin and Panel on DHHS Collection of Race and Ethnic Data'),
+       book('National Academies Press', 2004),
+       nil)
