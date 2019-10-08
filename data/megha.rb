@@ -113,3 +113,28 @@ entry!('zhao2016teen',
   year(2016),
 nil)
 
+entry!('zech2018radio',
+  author('John R. Zech and Marcus A. Badgeley and Manway Liu and Anthony B. Costa and Joseph J. Titano and Eric Karl Oermann'),
+  title('Variable generalization performance of a deep learning model to detect pneumonia in chest radiographs: A cross-sectional study'),
+  inproceedings('PLOS Medicine', 2018),
+  year(2018),
+nil)
+
+entry!('honein2001accutane',
+  title('Continued occurrence of Accutane‐exposed pregnancies'),
+  author('M.A. Honein and L.J. Paulozzi and J.D. Erickson'),
+  inproceedings('Teratology', 2001),
+  nil)
+
+entry!('gelman2007police',
+  title('An Analysis of the New York City Police Department’s “Stop-and-Frisk” Policy in the Context of Claims of Racial Bias'),
+  author('Andrew Gelmand and Jeffrey Fagan and Alex Kiss'),
+  inproceedings('Journal of the American Statistical Association', 2007),
+  nil)
+
+entry!('kozor2014drug',
+  title('Regular Cocaine Use Is Associated with Increased Systolic Blood Pressure, Aortic Stiffness and Left Ventricular Mass in Young Otherwise Healthy Individuals'),
+  author('Rebecca Kozor and Stuart M. Grieve and Stefan Buchholz and Sharlene Kaye and Shane Darke and Ravinay Bhindi and Gemma A. Figtree'),
+  inproceedings('PLos ONE', 2014),
+  nil)
+
