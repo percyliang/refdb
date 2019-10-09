@@ -775,3 +775,9 @@ entry!('calmon2017optimized',
   author('Flavio Calmon and Dennis Wei and Bhanukiran Vinzamuri and Karthikeyan Natesan Ramamurthy and Kush R Varshney'),
   pages(3992, 4001),
 nil)
+
+entry!('chouldechova2018frontiers',
+  arxiv(2018, '1810.08810'),
+  title('The frontiers of fairness in machine learning'),
+  author('Alexandra Chouldechova and Aaron Roth'),
+nil)
