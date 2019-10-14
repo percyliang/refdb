@@ -63,3 +63,10 @@ entry!('kleinman1968design',
   pages(150, 159),
 nil)
 
+entry!('kovanic1979pseudoinverse',
+  author('Pavel Kovanic'),
+  title('On the Pseudoinverse of a Sum of Symmetric
+        Matrices with Applications to Estimation'),
+  article('Kybernetika', 1979, 15),
+nil)
+
