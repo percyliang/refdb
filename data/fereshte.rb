@@ -781,3 +781,9 @@ entry!('chouldechova2018frontiers',
   title('The frontiers of fairness in machine learning'),
   author('Alexandra Chouldechova and Aaron Roth'),
 nil)
+
+entry!('bechavod2017penalizing',
+  arxiv(2017, '1707.00044'),
+  title('Penalizing unfairness in binary classification'),
+  author('Yahav Bechavod and Katrina Ligett'),
+nil)
