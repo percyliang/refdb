@@ -144,3 +144,15 @@ entry!('hubbard1998vector',
   title('Vector Calculus, Linear Algebra, And Differential Forms'),
   book('Prentice Hall', 1998), address('New Jersey, USA'),
 nil)
+
+entry!('liu2019implicit',
+  title('The Implicit Fairness Criterion of Unconstrained Learning'),
+  author('Lydia T. Liu and Max Simchowitz and Moritz Hardt'),
+  icml(2019),
+nil)
+
+entry!('johnson2018multicalibration',
+  title('Multicalibration: Calibration for the (Computationally-Identifiable) Masses'),
+  author('Ursula Hebert-Johnson and Michael P. Kim and Omer Reingold and Guy N. Rothblum'),
+  icml(2018),
+nil)
