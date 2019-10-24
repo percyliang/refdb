@@ -156,3 +156,21 @@ entry!('johnson2018multicalibration',
   author('Ursula Hebert-Johnson and Michael P. Kim and Omer Reingold and Guy N. Rothblum'),
   icml(2018),
 nil)
+
+entry!('yadlowsky2019calibration',
+  article('Machine Learning for Healthcare', 2019),
+  author('Steve Yadlowsky and Sanjay Basu and Lu Tian'),
+  title('A Calibration Metric for Risk Scores with Survival Data'),
+nil)
+
+entry!('kull2019temperature',
+  title('Beyond temperature scaling: Obtaining well-calibrated multi-class probabilities with Dirichlet calibration'),
+  author('Meelis Kull and Miquel Perello Nieto and Markus Kängsepp and Telmo Silva Filho and Hao Song and Peter Flach'),
+  nips(2019),
+nil)
+
+entry!('efron1979bootstrap',
+  title('Bootstrap Methods: Another Look at the Jackknife'),
+  author('Brad Efron'),
+  annalsOfStatistics(1979, 7),
+nil)
