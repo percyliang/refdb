@@ -1197,3 +1197,9 @@ entry!('vapnik1992principles',
   author('Vladimir Vapnik'),
   pages(831, 838),
 nil)
+
+entry!('brunet2018understanding',
+  arxiv(2018, '1810.03611'),
+  title('Understanding the origins of bias in word embeddings'),
+  author('Marc-Etienne Brunet and Colleen Alkalay-Houlihan and Ashton Anderson and Richard Zemel'),
+nil)
