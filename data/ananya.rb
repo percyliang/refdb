@@ -174,3 +174,15 @@ entry!('efron1979bootstrap',
   author('Brad Efron'),
   annalsOfStatistics(1979, 7),
 nil)
+
+entry!('widmann2019calibration',
+  title('Calibration tests in multi-class classification: A unifying framework'),
+  author('David Widmann and Fredrik Lindsten and Dave Zachariah'),
+  nips(2019),
+nil)
+
+entry!('vaicenavicius2019calibration',
+  title('Evaluating model calibration in classification'),
+  author('Juozas Vaicenavicius and David Widmann and Carl Andersson and Fredrik Lindsten and Jacob Roll and  Thomas B. Schön'),
+  aistats(2019),
+nil)
