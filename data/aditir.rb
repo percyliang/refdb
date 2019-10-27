@@ -279,12 +279,6 @@ entry!('nakkiran2019adversarial',
   author('Preetum Nakkiran'),
 nil)
 
-entry!('yin2018rademacher',
-  arxiv(2018, '1810.11914'),
-  title('Rademacher Complexity for Adversarially Robust Generalization'),
-  author('Dong Yin and Kannan Ramchandran and Peter Bartlett'),
-nil)
-
 entry!('stutz2018disentangling',
   arxiv(2018, '1812.00740'),
   title('Disentangling adversarial robustness and generalization'),
@@ -430,4 +424,24 @@ entry!('long2013transfer',
   title('Transfer feature learning with joint distribution adaptation'),
   author('Mingsheng Long and Jianmin Wang and Guiguang Ding and Jiaguang Sun and Philip S Yu'),
   pages(2200, 2207),
+nil)
+
+entry!('zou2019confidence',
+  arxiv(2019, '1908.09822'),
+  title('Confidence regularized self-training'),
+  author('Yang Zou and Zhiding Yu and Xiaofeng Liu and BVK Kumar and Jinsong Wang'),
+nil)
+
+entry!('attias2019improved',
+  inproceedings('Algorithmic Learning Theory', 2019),
+  title('Improved Generalization Bounds for Robust Learning'),
+  author('Idan Attias and Aryeh Kontorovich and Yishay Mansour'),
+  pages(162, 183),
+nil)
+
+entry!('yin2019rademacher',
+  icml(2019),
+  title('Rademacher Complexity for Adversarially Robust Generalization'),
+  author('Dong Yin and Ramchandran Kannan and Peter Bartlett'),
+  pages(7085, 7094),
 nil)
