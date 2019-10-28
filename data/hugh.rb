@@ -49,7 +49,7 @@ entry!('olsson2018skill',
        arxiv(2018, "1808.04888"),
 nil)
 entry!('klein2017opennmt',
-       title('OpenNMT: Open-Source Toolkit for Neural Machine Translation'),
+       title('Open{NMT}: Open-Source Toolkit for Neural Machine Translation'),
        author('Guillaume Klein and Yoon Kim and Yuntian Deng and Jean Senellart and Alexander M. Rush'),
        arxiv(2017, "1701.02810"),
 nil)
