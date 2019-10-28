@@ -272,6 +272,12 @@ entry!('vasic2019neural',
   iclr(2019),
 nil)
 
+entry!('brockschmidt2019generative',
+  title('Generative Code Modeling with Graphs'),
+  author('Marc Brockschmidt and Miltiadis Allamanis and Alexander L. Gaunt and Oleksandr Polozov'),
+  iclr(2019),
+nil)
+
 
 ################################################
 # thesis
