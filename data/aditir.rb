@@ -453,3 +453,11 @@ entry!('biggio2013evasion',
   pages(387, 402),
   organization('Springer'),
 nil)
+
+entry!('biggio2018wild',
+  article('Pattern Recognition', 2018, 84),
+  title('Wild patterns: Ten years after the rise of adversarial machine learning'),
+  author('Battista Biggio and Fabio Roli'),
+  pages(317, 331),
+  publisher('Elsevier'),
+nil)
