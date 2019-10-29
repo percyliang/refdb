@@ -1203,3 +1203,9 @@ entry!('brunet2018understanding',
   title('Understanding the origins of bias in word embeddings'),
   author('Marc-Etienne Brunet and Colleen Alkalay-Houlihan and Ashton Anderson and Richard Zemel'),
 nil)
+
+entry!('giordano2019higher',
+  arxiv(2019, '1907.12116'),
+  title('A Higher-Order Swiss Army Infinitesimal Jackknife'),
+  author('Ryan Giordano and Michael I Jordan and Tamara Broderick'),
+nil)
