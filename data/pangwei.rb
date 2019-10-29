@@ -1206,6 +1206,6 @@ nil)
 
 entry!('giordano2019higher',
   arxiv(2019, '1907.12116'),
-  title('A Higher-Order Swiss Army Infinitesimal Jackknife'),
+  title('A Higher-Order {Swiss Army} Infinitesimal Jackknife'),
   author('Ryan Giordano and Michael I Jordan and Tamara Broderick'),
 nil)
