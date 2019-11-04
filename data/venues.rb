@@ -84,6 +84,7 @@ def dmin(year); [inproceedings(Name.new('International Conference on Data Mining
 def eccv(year); [inproceedings(Name.new('European Conference on Computer Vision', 'ECCV'), year)] end
 def iccv(year); inproceedings(Name.new('International Conference on Computer Vision', 'ICCV'), year) end
 def cvpr(year); inproceedings(Name.new('Computer Vision and Pattern Recognition', 'CVPR'), year) end
+def wacv(year); inproceedings(Name.new('Winter Conference on Applications of Computer Vision', 'WACV'), year) end
 
 # Robotics
 def icra(year); inproceedings(Name.new('International Conference on Robotics and Automation', 'ICRA'), year) end
