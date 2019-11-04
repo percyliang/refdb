@@ -392,3 +392,10 @@ entry!('krishnamurthy2018semiparametric',
   title('Semiparametric contextual bandits'),
   author('Akshay Krishnamurthy and Zhiwei Steven Wu and Vasilis Syrgkanis'),
 nil)
+
+entry!('greenewald2017action',
+  inproceedings('Advances in neural information processing systems', 2017),
+  title('Action centered contextual bandits'),
+  author('Kristjan Greenewald and Ambuj Tewari and Susan Murphy and Predag Klasnja'),
+  pages(5977, 5985),
+nil)
