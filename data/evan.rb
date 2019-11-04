@@ -386,3 +386,9 @@ entry!('stanton2018deep',
   title('Deep curiosity search: Intra-life exploration improves performance on challenging deep reinforcement learning problems'),
   author('Christopher Stanton and Jeff Clune'),
 nil)
+
+entry!('krishnamurthy2018semiparametric',
+  arxiv(2018, '1803.04204'),
+  title('Semiparametric contextual bandits'),
+  author('Akshay Krishnamurthy and Zhiwei Steven Wu and Vasilis Syrgkanis'),
+nil)
