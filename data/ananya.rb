@@ -144,3 +144,45 @@ entry!('hubbard1998vector',
   title('Vector Calculus, Linear Algebra, And Differential Forms'),
   book('Prentice Hall', 1998), address('New Jersey, USA'),
 nil)
+
+entry!('liu2019implicit',
+  title('The Implicit Fairness Criterion of Unconstrained Learning'),
+  author('Lydia T. Liu and Max Simchowitz and Moritz Hardt'),
+  icml(2019),
+nil)
+
+entry!('johnson2018multicalibration',
+  title('Multicalibration: Calibration for the (Computationally-Identifiable) Masses'),
+  author('Ursula Hebert-Johnson and Michael P. Kim and Omer Reingold and Guy N. Rothblum'),
+  icml(2018),
+nil)
+
+entry!('yadlowsky2019calibration',
+  article('Machine Learning for Healthcare', 2019),
+  author('Steve Yadlowsky and Sanjay Basu and Lu Tian'),
+  title('A Calibration Metric for Risk Scores with Survival Data'),
+nil)
+
+entry!('kull2019temperature',
+  title('Beyond temperature scaling: Obtaining well-calibrated multi-class probabilities with Dirichlet calibration'),
+  author('Meelis Kull and Miquel Perello Nieto and Markus Kängsepp and Telmo Silva Filho and Hao Song and Peter Flach'),
+  nips(2019),
+nil)
+
+entry!('efron1979bootstrap',
+  title('Bootstrap Methods: Another Look at the Jackknife'),
+  author('Brad Efron'),
+  annalsOfStatistics(1979, 7),
+nil)
+
+entry!('widmann2019calibration',
+  title('Calibration tests in multi-class classification: A unifying framework'),
+  author('David Widmann and Fredrik Lindsten and Dave Zachariah'),
+  nips(2019),
+nil)
+
+entry!('vaicenavicius2019calibration',
+  title('Evaluating model calibration in classification'),
+  author('Juozas Vaicenavicius and David Widmann and Carl Andersson and Fredrik Lindsten and Jacob Roll and  Thomas B. Schön'),
+  aistats(2019),
+nil)

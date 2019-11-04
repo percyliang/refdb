@@ -390,3 +390,40 @@ entry!('michel2019adversarial',
   author('Paul Michel and Xian Li and Graham Neubig and Juan Miguel Pino'),
   naacl(2019),
 nil)
+
+entry!('hosseini2017deceiving',
+  author('Hossein Hosseini and Sreeram Kannan and Baosen Zhang and Radha Poovendran'),
+  title('Deceiving {G}oogle’s {P}erspective {API} Built for Detecting Toxic Comments'),
+  arxiv(2017),
+  url('https://arxiv.org/pdf/1702.08138.pdf'),
+nil)
+
+entry!('ebrahimi2018adversarial',
+  title('On Adversarial Examples for Character-Level Neural Machine Translation'),
+  author('Javid Ebrahimi and Daniel Lowd and Dejing Dou'),
+  coling(2018),
+nil)
+
+entry!('lee2005spam',
+  title('Spam Deobfuscation using a Hidden {M}arkov Model'),
+  author('Honglak Lee and Andrew Y. Ng'),
+  ceas(2005),
+nil)
+
+entry!('huang2019achieving',
+  title('Achieving Verified Robustness to Symbol Substitutions via Interval Bound Propagation'),
+  author('Po-Sen Huang and Robert Stanforth and Johannes Welbl and Chris Dyer and Dani Yogatama and Sven Gowal and Krishnamurthy Dvijotham and Pushmeet Kohli'),
+  emnlp(2019),
+nil)
+
+entry!('arora2018linear',
+  title('Linear Algebraic Structure of Word Senses, with Applications to Polysemy'),
+  author('Sanjeev Arora and Yuanzhi Li and Yingyu Liang and Tengyu Ma and Andrej Risteski'),
+  tacl(2018, 6),
+nil)
+
+entry!('kocijan2019winograd',
+  title('A Surprisingly Robust Trick for the {W}inograd Schema Challenge'),
+  author('Vid Kocijan and Ana-Maria Cretu and Oana-Maria Camburu and Yordan Yordanov and Thomas Lukasiewicz'),
+  acl(2019),
+nil)

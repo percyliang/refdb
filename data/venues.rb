@@ -140,6 +140,8 @@ def lrec(year); [inproceedings(Name.new('Language Resources and Evaluation Confe
 def icassp(year); [inproceedings(Name.new('International Conference on Acoustics, Speech, and Signal Processing', 'ICASSP'), year)] end
 def icslp(year); [inproceedings(Name.new('International Conference on Spoken Language Processing', 'ICSLP'), year)] end
 def konvens(year); [inproceedings(Name.new('Conference on Natural Language Processing', 'KONVENS'), year)] end
+def ceas(year); [inproceedings(Name.new('Conference on Email and Anti-Spam', 'CEAS'), year)] end
+def iwp(year); [inproceedings(Name.new('International Workshop on Paraphrasing', 'IWP'), year)] end
 
 ### Programming languages / software engineering
 def oopsla(year); inproceedings(Name.new('Object-Oriented Programming, Systems, Languages, and Applications', 'OOPSLA'), year) end
@@ -151,5 +153,9 @@ def cav(year); inproceedings(Name.new('Computer Aided Verification', 'CAV'), yea
 def asplos(year); inproceedings(Name.new('Architectural Support for Programming Languages and Operating Systems', 'ASPLOS'), year) end
 def ase(year); inproceedings(Name.new('Automated Software Engineering', 'ASE'), year) end
 
+#Security
+def iieeeurosp(year); inproceedings(Name.new('IEEE European Symposium on Security and Privacy', 'EuroS\&P'), year) end
+
 # Databases
 def icde(year); inproceedings(Name.new('International Conference on Data Engineering', 'ICDE'), year) end
+

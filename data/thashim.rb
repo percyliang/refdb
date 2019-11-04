@@ -805,12 +805,6 @@ entry!('eidelman2012topic',
        pages(115,119),
        nil)
 
-entry!('duchi2019distributionally',
-       author('John C Duchi and Tatsunori B Hashimoto and Hongseok Namkoong'),
-       title('Distributionally Robust Losses Against Mixture Covariate Shifts'),
-       preprint(2019),
-       nil)
-
 entry!('rakhlin2013optimization',
        author('Alexander Rakhlin and Karthik Sridharan'),
        title('Optimization, Learning, and Games with Predictable Sequences'),
@@ -821,4 +815,78 @@ entry!('namkoong2016stochastic',
        author('Hongseok Namkoong and John Duchi'),
        title('Stochastic Gradient Methods for Distributionally Robust Optimization with f-Divergences'),
        nips(2016),
+       nil)
+
+entry!('peters2016causal',
+       author('Jonas Peters and Peter B\"uhlmann and Nicolai Meinshausen'),
+       title('Causal inference by using invariant prediction: identification and confidence intervals'),
+       jrssb(2016, 78),
+       nil)
+
+entry!('meinshausen2015maximin',
+       author('Nicolai Meinshausen and Peter B\"uhlmann'),
+       title('Maximin effects in inhomogeneous large-scale data'),
+       annalsOfStatistics(2015,43),
+       nil)
+
+entry!('rothenhausler2018anchor',
+       author('Domink Rothenh\"ausler and Peter B\"uhlmann and Nicolai Meinshausen and Jonas Peters'),
+       title('Anchor regression: heterogeneous data meets causality'),
+       arxiv(2018,'1801.06229'),
+       nil)
+
+entry!('buhlmann2016magging',
+       author('Peter B\"uhlmann and Nicolai Meinshausen'),
+       title('Magging: maximin aggregation for inhomogeneous large-scale data'),
+       inproceedings('IEEE',2016),
+       nil)
+
+entry!('bertsimas2018data',
+       author('Dimitris Bertsimas and Vishal Gupta and Nathan Kallus'),
+       title('Data-driven robust optimization'),
+       article('Mathematical Programming Series A', 2018, 167),
+       nil)
+
+entry!('lam2015quantifying',
+       author('Henry Lam and Enlu Zhou'),
+       inproceedings('2015 Winter Simulation Conference', 2015),
+       title('Quantifying Input Uncertainty in Stochastic Optimization'),
+       nil)
+
+entry!('shafieezadeh2015distributionally',
+       author('Soroosh Shafieezadeh-Abadeh and Peyman Mohajerin Esfahani and Daniel Kuhn'),
+       title('Distributionally Robust Logistic Regression'),
+       nips(2015),
+       nil)
+
+entry!('blanchet2016quantifying',
+       author('Jose Blanchet and Karthyek Murthy'),
+       title('Quantifying Distributional Model Risk Via Optimal Transport'),
+       arxiv(2016, '1605.01446'),
+       nil)
+
+entry!('lee2017minimax',
+       author('Jaeho Lee and Maxim Raginsky'),
+       title('Minimax Statistical Learning and Domain Adaptation with Wasserstein Distances'),
+       arxiv(2017, '1705.07815'),
+       nil)
+
+entry!('heinze2017grouping',
+       author('Christina Heinze-Deml and Nicolai Meinshausen'),
+       title('Grouping-By-ID: Guarding Against Adversarial Domain Shifts'),
+       arxiv(2017,'1710.11469'),
+       nil)
+
+entry!('duchi2019distributionally',
+       title('Distributionally Robust Losses Against Mixture Covariate Shifts'),
+       author('John Duchi and Tatsunori Hashimoto and Hongseok Namkoong'),
+       type('misc'),
+       howpublished('\url{https://cs.stanford.edu/~thashim/assets/publications/condrisk.pdf}'),
+       year(2019),
+       nil)
+
+entry!('michele2004eliminating',
+       title('Eliminating Health Disparities: Measurement and Data Needs'),
+       author('Michele Ver Ploeg and Edward Perrin and Panel on DHHS Collection of Race and Ethnic Data'),
+       book('National Academies Press', 2004),
        nil)
