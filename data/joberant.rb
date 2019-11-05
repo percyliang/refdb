@@ -794,8 +794,8 @@ entry!('sorokin2018modeling',
   author('Daniil Sorokin and Iryna Gurevych'),
 nil)
 
-entry!('latentgraph2019raboh',
-  arxiv(2019, '1902.10200'),
+entry!('latentgraph2020raboh',
+  wacv(2020),
   title('Differentiable Scene Graphs'),
   author('Moshiko Raboh and Roei Herzig and Gal Chechik and Jonathan Berant and Amir Globerson'),
   url('https://arxiv.org/pdf/1902.10200.pdf'),
@@ -880,16 +880,38 @@ entry!('bogin2019global',
   author('Ben Bogin and Matt Gardner and Jonathan Berant'),
   emnlp(2019),
   title('Global Reasoning over Database Structures for Text-to-{SQL} Parsing'),
+  url('https://arxiv.org/pdf/1908.11214.pdf'),
+  code('https://github.com/benbogin/spider-schema-gnn-global'),
   nil)
 
 entry!('geva2019annotator',
   author('Mor Geva and Yoav Goldberg and Jonathan Berant'),
   emnlp(2019),
   title('Are We Modeling the Task or the Annotator? An Investigation ofAnnotator Bias in Natural Language Understanding Datasets'),
+  url('https://arxiv.org/pdf/1908.07898.pdf'),
+  code('https://github.com/mega002/annotator_bias'),
   nil)
 
 entry!('herzig2019detect',
   author('Jonathan Herzig and Jonathan Berant'),
   emnlp(2019),
-  title('Don’t paraphrase, detect! Rapid and Effective Data Collection forSemantic Parsing'),
+  title('Don\'t paraphrase, detect! Rapid and Effective Data Collection for Semantic Parsing'),
+  url('https://arxiv.org/pdf/1908.09940.pdf'),
+  code('https://github.com/jonathanherzig/semantic-parsing-annotation'),
   nil)
+
+entry!('koshorek2019active',
+  title('On the Limits of Learning to Actively Learn Semantic Representations'),
+  conll(2019),
+  author('Omri Koshorek and Gabriel Stanovsky and Yichu Zhou and Vivek Srikumar and Jonathan Berant'),
+  code('https://github.com/koomri/LTAL_SR/'),
+  url('https://arxiv.org/pdf/1910.02228.pdf'),
+  nil)
+
+entry!('garder2019qaforamt',
+  title('Question Answering is a Format; When is it Useful?'),
+  arxiv(2019, '1909.11291'),
+  author('Matt Gardner and Jonathan Berant and Hannaneh Hajishirzi and Alon Talmor and Sewon Min'),
+  url('https://arxiv.org/pdf/1909.11291.pdf'),
+  nil)
+

@@ -445,3 +445,19 @@ entry!('yin2019rademacher',
   author('Dong Yin and Ramchandran Kannan and Peter Bartlett'),
   pages(7085, 7094),
 nil)
+
+entry!('biggio2013evasion',
+  inproceedings('Joint European conference on machine learning and knowledge discovery in databases', 2013),
+  title('Evasion attacks against machine learning at test time'),
+  author('Battista Biggio and Igino Corona and Davide Maiorca and Blaine Nelson and Nedim {\v{S}}rndi{\\\'c} and Pavel Laskov and Giorgio Giacinto and Fabio Roli'),
+  pages(387, 402),
+  organization('Springer'),
+nil)
+
+entry!('biggio2018wild',
+  article('Pattern Recognition', 2018, 84),
+  title('Wild patterns: Ten years after the rise of adversarial machine learning'),
+  author('Battista Biggio and Fabio Roli'),
+  pages(317, 331),
+  publisher('Elsevier'),
+nil)
