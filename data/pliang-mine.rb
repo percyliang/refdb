@@ -1,4 +1,14 @@
 ############################################################
+# 2020
+
+entry!('li2020greedy',
+  title('A Tight Analysis of Greedy Yields Subexponential Time Approximation for Uniform Decision Tree'),
+  author('Ray Li and Percy Liang and Stephen Mussmann'),
+  soda(2020),
+  url('https://arxiv.org/pdf/1906.11385.pdf'),
+nil)
+
+############################################################
 # 2019
 
 entry!('jia2019certified',
@@ -30,6 +40,7 @@ entry!('kulal2019spoc',
   author('Sumith Kulal and Panupong Pasupat and Kartik Chandra and Mina Lee and Oded Padon and Alex Aiken and Percy Liang'),
   nips(2019),
   url('https://arxiv.org/pdf/1906.04908.pdf'),
+  codalab('0x23b27b2131634a158c8149d5b82adecf'),
 nil)
 
 entry!('carmon2019unlabeled',
@@ -37,6 +48,7 @@ entry!('carmon2019unlabeled',
   author('Yair Carmon and Aditi Raghunathan and Ludwig Schmidt and Percy Liang and John C. Duchi'),
   nips(2019),
   url('https://arxiv.org/pdf/1905.13736.pdf'),
+  codalab('0x9df253b24dac4a2b930108be9c6e5496'),
 nil)
 
 entry!('kumar2019calibration',
@@ -44,6 +56,7 @@ entry!('kumar2019calibration',
   author('Ananya Kumar and Percy Liang and Tengyu Ma'),
   nips(2019),
   url('https://arxiv.org/pdf/1909.10155.pdf'),
+  codalab('0xb6d027ee127e422989ab9115726c5411'),
 nil)
 
 entry!('koh2019influence',
@@ -74,13 +87,6 @@ entry!('khani2019mwld',
   arxiv(2019, '1906.03518'),
   url('https://arxiv.org/pdf/1906.03518.pdf'),
   codalab('0x578f01269d644524b0d4ab2a7a2a6984'),
-nil)
-
-entry!('li2019greedy',
-  title('A Tight Analysis of Greedy Yields Subexponential Time Approximation for Uniform Decision Tree'),
-  author('Ray Li and Percy Liang and Stephen Mussmann'),
-  arxiv(2019, '1906.11385'),
-  url('https://arxiv.org/pdf/1906.11385.pdf'),
 nil)
 
 entry!('monajemi2019painless',
