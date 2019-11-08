@@ -421,3 +421,9 @@ entry!('arora2018linear',
   author('Sanjeev Arora and Yuanzhi Li and Yingyu Liang and Tengyu Ma and Andrej Risteski'),
   tacl(2018, 6),
 nil)
+
+entry!('kocijan2019winograd',
+  title('A Surprisingly Robust Trick for the {W}inograd Schema Challenge'),
+  author('Vid Kocijan and Ana-Maria Cretu and Oana-Maria Camburu and Yordan Yordanov and Thomas Lukasiewicz'),
+  acl(2019),
+nil)

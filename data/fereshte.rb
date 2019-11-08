@@ -677,7 +677,7 @@ nil)
 
 entry!('o2016weapons',
   title('Weapons of math destruction: How big data increases inequality and threatens democracy'),
-  author('Cathy O\'neil'),
+  author('Cathy O\'Neil'),
   book('Broadway Books', 2016),
 nil)
 
@@ -686,4 +686,104 @@ entry!('chouldechova2018case',
   title('A case study of algorithm-assisted decision making in child maltreatment hotline screening decisions'),
   author('Alexandra Chouldechova and Diana Benavides-Prado and Oleksandr Fialko and Rhema Vaithianathan'),
   pages(134, 148),
+nil)
+
+entry!('fuller2009measurement',
+  title('Measurement error models'),
+  author('Wayne A Fuller'),
+  volume(305),
+  book('John Wiley \& Sons', 2009),
+nil)
+
+
+entry!('frisch1934statistical',
+  title('Statistical confluence analysis by means of complete regression systems'),
+  author('Ragnar Frisch'),
+  volume(5),
+  book('Universitetets {\O}konomiske Instituut', 1934),
+nil)
+
+entry!('wightman1998lsac',
+  title('{LSAC} national longitudinal bar passage study'),
+  author('Linda F Wightman and Henry Ramsey'),
+  book('Law School Admission Council',1998),
+nil)
+
+entry!('cortez2008using',
+  article('Proceedings of 5th FUture BUsiness TEChnology Conference', 2008),
+  title('Using data mining to predict secondary school student performance'),
+  author('Paulo Cortez and Alice Maria Gon{\c{c}}alves Silva'),
+  publisher('EUROSIS-ETI'),
+nil)
+
+entry!('redmond2002data',
+  article('European Journal of Operational Research', 2002, 141),
+  title('A data-driven software tool for enabling cooperative information sharing among police departments'),
+  author('Michael Redmond and Alok Baveja'),
+  number(3),
+  pages(660, 678),
+  publisher('Elsevier'),
+nil)
+
+entry!('sherman1950adjustment',
+  article('The Annals of Mathematical Statistics', 1950, 21),
+  title('Adjustment of an inverse matrix corresponding to a change in one element of a given matrix'),
+  author('Jack Sherman and Winifred J Morrison'),
+  number(1),
+  pages(124, 127),
+  publisher('JSTOR'),
+nil)
+
+entry!('chiappa2019path',
+  aaai(2019),
+  title('Path-specific counterfactual fairness'),
+  author('Silvia Chiappa'),
+  volume(33),
+  pages(7801, 7808),
+nil)
+
+entry!('loftus2018causal',
+  arxiv(2018, '1805.05859'),
+  title('Causal reasoning for algorithmic fairness'),
+  author('Joshua R Loftus and Chris Russell and Matt J Kusner and Ricardo Silva'),
+nil)
+
+entry!('nabi2018fair',
+  aaai(2018),
+  title('Fair inference on outcomes'),
+  author('Razieh Nabi and Ilya Shpitser'),
+nil)
+
+entry!('pierson2017fast',
+  arxiv(2017, '1702.08536'),
+  title('Fast threshold tests for detecting discrimination'),
+  author('Emma Pierson and Sam Corbett-Davies and Sharad Goel'),
+nil)
+
+entry!('simoiu2017problem',
+  article('The Annals of Applied Statistics', 2017, 11),
+  title('The problem of infra-marginality in outcome tests for discrimination'),
+  author('Camelia Simoiu and Sam Corbett-Davies and Sharad Goel and others'),
+  number(3),
+  pages(1193, 1216),
+  publisher('Institute of Mathematical Statistics'),
+nil)
+
+entry!('calmon2017optimized',
+  nips(2017),
+  title('Optimized pre-processing for discrimination prevention'),
+  author('Flavio Calmon and Dennis Wei and Bhanukiran Vinzamuri and Karthikeyan Natesan Ramamurthy and Kush R Varshney'),
+  pages(3992, 4001),
+nil)
+
+entry!('chouldechova2018frontiers',
+  arxiv(2018, '1810.08810'),
+  title('The frontiers of fairness in machine learning'),
+  author('Alexandra Chouldechova and Aaron Roth'),
+nil)
+
+entry!('bechavod2017penalizing',
+  arxiv(2017, '1707.00044'),
+  title('Penalizing unfairness in binary classification'),
+  author('Yahav Bechavod and Katrina Ligett'),
 nil)
