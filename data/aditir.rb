@@ -378,3 +378,9 @@ entry!('zoph2016neural',
   title('Neural architecture search with reinforcement learning'),
   author('Barret Zoph and Quoc V Le'),
 nil)
+
+entry!('cubuk2017intriguing',
+  arxiv(2017, '1711.02846'),
+  title('Intriguing properties of adversarial examples'),
+  author('Ekin D Cubuk and Barret Zoph and Samuel S Schoenholz and Quoc V Le'),
+nil)
