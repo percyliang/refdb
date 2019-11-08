@@ -465,5 +465,4 @@ entry!('biggio2018wild',
   author('Battista Biggio and Fabio Roli'),
   pages(317, 331),
   publisher('Elsevier'),
->>>>>>> 32f70af5cb3799bae71f200aceb34b2e2c985d91
 nil)
