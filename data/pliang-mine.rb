@@ -33,6 +33,7 @@ entry!('hewitt2019control',
   emnlp(2019),
   url('https://arxiv.org/pdf/1909.03368.pdf'),
   codalab('0xb0c351d6f1ac4c51b54f1023786bf6b2'),
+  award('Best paper runner up'),
 nil)
 
 entry!('kulal2019spoc',
