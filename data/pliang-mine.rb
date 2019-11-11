@@ -11,6 +11,13 @@ nil)
 ############################################################
 # 2019
 
+entry!('mu2019shaping',
+  title('Shaping Visual Representations with Language for Few-shot Classification'),
+  author('Jesse Mu and Percy Liang and Noah Goodman'),
+  arxiv(2019, '1911.02683'),
+  url('https://arxiv.org/pdf/1911.02683.pdf'),
+nil)
+
 entry!('jia2019certified',
   title('Certified Robustness to Adversarial Word Substitutions'),
   author('Robin Jia and Aditi Raghunathan and Kerem Göksel and Percy Liang'),
