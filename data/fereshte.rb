@@ -787,3 +787,11 @@ entry!('bechavod2017penalizing',
   title('Penalizing unfairness in binary classification'),
   author('Yahav Bechavod and Katrina Ligett'),
 nil)
+
+entry!('canetti2019soft',
+  inproceedings('Proceedings of the Conference on Fairness, Accountability, and Transparency', 2019),
+  title('From soft classifiers to hard decisions: How fair can we be?'),
+  author('Ran Canetti and Aloni Cohen and Nishanth Dikkala and Govind Ramnarayan and Sarah Scheffler and Adam Smith'),
+  pages(309, 318),
+  organization('ACM'),
+nil)
