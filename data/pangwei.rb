@@ -1197,3 +1197,68 @@ entry!('vapnik1992principles',
   author('Vladimir Vapnik'),
   pages(831, 838),
 nil)
+
+entry!('gururangan2018annotation',
+  acl(2018),
+  title('Annotation Artifacts in Natural Language Inference Data'),
+  author('Suchin Gururangan and Swabha Swayamdipta and Omer Levy and Roy Schwartz and Samuel Bowman and Noah A Smith'),
+  pages(107, 112),
+nil)
+
+entry!('naik2018stress',
+  coling(2018),
+  title('Stress Test Evaluation for Natural Language Inference'),
+  author('Aakanksha Naik and Abhilasha Ravichander and Norman Sadeh and Carolyn Rose and Graham Neubig'),
+  pages(2340, 2353),
+nil)
+
+entry!('merler2019diversity',
+  arxiv(2019, '1901.10436'),
+  title('Diversity in faces'),
+  author('Michele Merler and Nalini Ratha and Rogerio S Feris and John R Smith'),
+nil)
+
+entry!('dosovitskiy2017carla',
+  inproceedings('Conference on Robot Learning', 2017),
+  title('CARLA: An Open Urban Driving Simulator'),
+  author('Alexey Dosovitskiy and German Ros and Felipe Codevilla and Antonio Lopez and Vladlen Koltun'),
+  pages(1, 16),
+nil)
+
+entry!('agarwal2018reductions',
+  icml(2018),
+  title('A Reductions Approach to Fair Classification'),
+  author('Alekh Agarwal and Alina Beygelzimer and Miroslav Dudik and John Langford and Hanna Wallach'),
+  pages(60, 69),
+nil)
+
+entry!('hicks2017missing',
+  article('Biostatistics', 2017, 19),
+  title('Missing data and technical variability in single-cell {RNA}-sequencing experiments'),
+  author('Stephanie C Hicks and F William Townes and Mingxiang Teng and Rafael A Irizarry'),
+  number(4),
+  pages(562, 578),
+  publisher('Oxford University Press'),
+nil)
+
+entry!('meyer2014identifying',
+  article('Nature Reviews Genetics', 2014, 15),
+  title('Identifying and mitigating bias in next-generation sequencing methods for chromatin biology'),
+  author('Clifford A Meyer and X Shirley Liu'),
+  number(11),
+  pages(709, 721),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('badgeley2019deep',
+  article('npj Digital Medicine', 2019, 2),
+  title('Deep learning predicts hip fracture using confounding patient and healthcare variables'),
+  author('Marcus A Badgeley and John R Zech and Luke Oakden-Rayner and Benjamin S Glicksberg and Manway Liu and William Gale and Michael V McConnell and Bethany Percha and Thomas M Snyder and Joel T Dudley'),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('oakden2019hidden',
+  arxiv(2019, '1909.12475'),
+  title('Hidden Stratification Causes Clinically Meaningful Failures in Machine Learning for Medical Imaging'),
+  author('Luke Oakden-Rayner and Jared Dunnmon and Gustavo Carneiro and Christopher R{\\\'e}'),
+nil)

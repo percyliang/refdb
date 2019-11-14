@@ -484,12 +484,6 @@ entry!('kamiran2012data',
   publisher('Springer'),
 nil)
 
-entry!('agarwal2018reductions',
-  arxiv(2018, '1803.02453'),
-  title('A reductions approach to fair classification'),
-  author('Alekh Agarwal and Alina Beygelzimer and Miroslav Dud{\\\'\i}k and John Langford and Hanna Wallach'),
-nil)
-
 entry!('young2013pomdp',
   inproceedings('Proceedings of the IEEE', 2013),
   title('{POMDP}-based statistical spoken dialog systems: A review'),

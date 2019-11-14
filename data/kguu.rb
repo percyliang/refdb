@@ -372,12 +372,6 @@ entry!('conneau2017supervised',
   author('Alexis Conneau and Douwe Kiela and Holger Schwenk and Loic Barrault and Antoine Bordes'),
 nil)
 
-entry!('gururangan2018annotation',
-  arxiv(2018, '1803.02324'),
-  title('Annotation artifacts in natural language inference data'),
-  author('Suchin Gururangan and Swabha Swayamdipta and Omer Levy and Roy Schwartz and Samuel R Bowman and Noah A Smith'),
-nil)
-
 entry!('poliak2018hypothesis',
   arxiv(2018, '1805.01042'),
   title('Hypothesis Only Baselines in Natural Language Inference'),
