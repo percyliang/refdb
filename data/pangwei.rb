@@ -1262,3 +1262,15 @@ entry!('oakden2019hidden',
   title('Hidden Stratification Causes Clinically Meaningful Failures in Machine Learning for Medical Imaging'),
   author('Luke Oakden-Rayner and Jared Dunnmon and Gustavo Carneiro and Christopher R{\\\'e}'),
 nil)
+
+entry!('brunet2018understanding',
+  arxiv(2018, '1810.03611'),
+  title('Understanding the origins of bias in word embeddings'),
+  author('Marc-Etienne Brunet and Colleen Alkalay-Houlihan and Ashton Anderson and Richard Zemel'),
+nil)
+
+entry!('giordano2019higher',
+  arxiv(2019, '1907.12116'),
+  title('A Higher-Order {Swiss Army} Infinitesimal Jackknife'),
+  author('Ryan Giordano and Michael I Jordan and Tamara Broderick'),
+nil)

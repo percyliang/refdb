@@ -61,3 +61,80 @@ entry!('yao2017parity',
   nips(2017),   
 nil)
 
+entry!('landeiro2016confounder',
+  author('Virgile Landeiro and Aron Culotta'),
+  title('Robust Text Classification in the Presence of Confounding Bias'),
+  aaai(2016),
+nil)
+
+entry!('kaushik2019difference',
+  title('Learning the Difference that Makes a Difference with Counterfactually-Augmented Data'),
+  author('Divyansh Kaushik and Eduard Hovy and Zachary C. Lipton'),
+  arxiv(2019, '1909.12434'),
+  nil)
+
+entry!('goel2016stopandfrisk',
+  title('Precinct or Prejudice? Understanding Racial Disparities in New York City\'s Stop-and-Frisk Policy'),
+  author('Sharad Goel and Justin M. Rao and Ravi Shroff'),
+  inproceedings('The Annals of Applied Statistics', 2016),
+  year(2016),
+  nil)
+
+entry!('roemmele2011copa',
+  author('Melissa Roemmele and Cosmin Adrian Bejan and Andrew S. Gordon'),
+  title('Choice of Plausible Alternatives: An Evaluation of Commonsense Causal Reasoning'),
+  aaai(2011),
+nil)
+
+entry!('sap2019atomic',
+  author('Maarten Sap and Ronan LeBras and Emily Allaway and Chandra Bhagavatula and Nicholas Lourie and Hannah Rashkin and Brendan Roof and Noah A. Smith and Yejin Choi'),
+  title('ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning'),
+  aaai(2019),
+nil)
+
+entry!('heinze2019robustness',
+  title('Conditional Variance Penalties and Domain Shift Robustness'),
+  author('Christina Heinze-Deml and Nicolai Meinshausen'),
+  arxiv(2019, '1710.11469'),
+  nil)
+
+entry!('nyclu2019data',
+  title('Stop-and-Frisk Data'),
+  type('misc'),
+  author('New York Civil Liberties Union'),
+  howpublished('https://www.nyclu.org/en/stop-and-frisk-data'),
+  year(2019),
+  nil)
+
+entry!('zhao2016teen',
+  author('Jessie Zhao and May Lau and David Vermette and David Liang and Glenn Flores'),
+  title('Communication Between Asian American Adolescents and Health Care Providers About Sexual Activity, Sexually Transmitted Infections, and Pregnancy Prevention'),
+  inproceedings('Journal of Adolescent Research', 2016),
+  year(2016),
+nil)
+
+entry!('zech2018radio',
+  author('John R. Zech and Marcus A. Badgeley and Manway Liu and Anthony B. Costa and Joseph J. Titano and Eric Karl Oermann'),
+  title('Variable generalization performance of a deep learning model to detect pneumonia in chest radiographs: A cross-sectional study'),
+  inproceedings('PLOS Medicine', 2018),
+  year(2018),
+nil)
+
+entry!('honein2001accutane',
+  title('Continued occurrence of Accutane exposed pregnancies'),
+  author('M.A. Honein and L.J. Paulozzi and J.D. Erickson'),
+  inproceedings('Teratology', 2001),
+  nil)
+
+entry!('gelman2007police',
+  title('An Analysis of the New York City Police Department’s “Stop-and-Frisk” Policy in the Context of Claims of Racial Bias'),
+  author('Andrew Gelmand and Jeffrey Fagan and Alex Kiss'),
+  inproceedings('Journal of the American Statistical Association', 2007),
+  nil)
+
+entry!('kozor2014drug',
+  title('Regular Cocaine Use Is Associated with Increased Systolic Blood Pressure, Aortic Stiffness and Left Ventricular Mass in Young Otherwise Healthy Individuals'),
+  author('Rebecca Kozor and Stuart M. Grieve and Stefan Buchholz and Sharlene Kaye and Shane Darke and Ravinay Bhindi and Gemma A. Figtree'),
+  inproceedings('PLos ONE', 2014),
+  nil)
+

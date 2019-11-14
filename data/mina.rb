@@ -135,3 +135,15 @@ entry!('svyatkovskiy2019pythia',
        title('Pythia: {AI}-assisted Code Completion System'),
        kdd(2019),
        nil)
+
+entry!('baziotis2019seq',
+       author('Christos Baziotis and Ion Androutsopoulos and Ioannis Konstas and Alexandros Potamianos'),
+       title('SEQ\({}^{\mbox{3}}\): Differentiable Sequence-to-Sequence-to-Sequence Autoencoder for Unsupervised Abstractive Sentence Compression'),
+       naacl(2019),
+       nil)
+
+entry!('west2019bottlesum',
+       author('Peter West and Ari Holtzman and Jan Buys and Yejin Choi'),
+       title('BottleSum: Self-Supervised and Unsupervised Sentence Summarization using the Information Bottleneck Principle'),
+       emnlp(2019),
+       nil)

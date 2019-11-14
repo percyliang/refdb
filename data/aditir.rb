@@ -279,12 +279,6 @@ entry!('nakkiran2019adversarial',
   author('Preetum Nakkiran'),
 nil)
 
-entry!('yin2018rademacher',
-  arxiv(2018, '1810.11914'),
-  title('Rademacher Complexity for Adversarially Robust Generalization'),
-  author('Dong Yin and Kannan Ramchandran and Peter Bartlett'),
-nil)
-
 entry!('stutz2018disentangling',
   arxiv(2018, '1812.00740'),
   title('Disentangling adversarial robustness and generalization'),
@@ -377,4 +371,98 @@ entry!('zoph2016neural',
   arxiv(2016, '1611.01578'),
   title('Neural architecture search with reinforcement learning'),
   author('Barret Zoph and Quoc V Le'),
+nil)
+entry!('cubuk2017intriguing',
+  arxiv(2017, '1711.02846'),
+  title('Intriguing properties of adversarial examples'),
+  author('Ekin D Cubuk and Barret Zoph and Samuel S Schoenholz and Quoc V Le'),
+  nil)
+
+entry!('scudder1965probability',
+  infotheory(1965, 11),
+  title('Probability of error of some adaptive pattern-recognition machines'),
+  author('H Scudder'),
+  number(3),
+  pages(363, 371),
+  publisher('IEEE'),
+nil)
+
+entry!('zou2018unsupervised',
+  eccv(2018),
+  title('Unsupervised domain adaptation for semantic segmentation via class-balanced self-training'),
+  author('Yang Zou and Zhiding Yu and BVK Vijaya Kumar and Jinsong Wang'),
+  pages(289, 305),
+nil)
+
+entry!('inoue2018cross',
+  inproceedings('Proceedings of the IEEE conference on computer vision and pattern recognition', 2018),
+  title('Cross-domain weakly-supervised object detection through progressive domain adaptation'),
+  author('Naoto Inoue and Ryosuke Furuta and Toshihiko Yamasaki and Kiyoharu Aizawa'),
+  pages(5001, 5009),
+  #}@inproceedings{chen2017no,
+nil)
+
+entry!('saito2017asymmetric',
+  icml(2017),
+  title('Asymmetric tri-training for unsupervised domain adaptation'),
+  author('Kuniaki Saito and Yoshitaka Ushiku and Tatsuya Harada'),
+  pages(2988, 2997),
+  organization('JMLR. org'),
+nil)
+
+entry!('zhang2018collaborative',
+  cvpr(2018),
+  title('Collaborative and adversarial network for unsupervised domain adaptation'),
+  author('Weichen Zhang and Wanli Ouyang and Wen Li and Dong Xu'),
+  pages(3801, 3809),
+nil)
+
+entry!('chen2017no',
+  iccv(2017),
+  title('No more discrimination: Cross city adaptation of road scene segmenters'),
+  author('Yi-Hsin Chen and Wei-Yu Chen and Yu-Ting Chen and Bo-Cheng Tsai and Yu-Chiang Frank Wang and Min Sun'),
+  pages(1992, 2001),
+nil)
+
+entry!('long2013transfer',
+  inproceedings('Proceedings of the IEEE international conference on computer vision', 2013),
+  title('Transfer feature learning with joint distribution adaptation'),
+  author('Mingsheng Long and Jianmin Wang and Guiguang Ding and Jiaguang Sun and Philip S Yu'),
+  pages(2200, 2207),
+nil)
+
+entry!('zou2019confidence',
+  arxiv(2019, '1908.09822'),
+  title('Confidence regularized self-training'),
+  author('Yang Zou and Zhiding Yu and Xiaofeng Liu and BVK Kumar and Jinsong Wang'),
+nil)
+
+entry!('attias2019improved',
+  inproceedings('Algorithmic Learning Theory', 2019),
+  title('Improved Generalization Bounds for Robust Learning'),
+  author('Idan Attias and Aryeh Kontorovich and Yishay Mansour'),
+  pages(162, 183),
+nil)
+
+entry!('yin2019rademacher',
+  icml(2019),
+  title('Rademacher Complexity for Adversarially Robust Generalization'),
+  author('Dong Yin and Ramchandran Kannan and Peter Bartlett'),
+  pages(7085, 7094),
+nil)
+
+entry!('biggio2013evasion',
+  inproceedings('Joint European conference on machine learning and knowledge discovery in databases', 2013),
+  title('Evasion attacks against machine learning at test time'),
+  author('Battista Biggio and Igino Corona and Davide Maiorca and Blaine Nelson and Nedim {\v{S}}rndi{\\\'c} and Pavel Laskov and Giorgio Giacinto and Fabio Roli'),
+  pages(387, 402),
+  organization('Springer'),
+nil)
+
+entry!('biggio2018wild',
+  article('Pattern Recognition', 2018, 84),
+  title('Wild patterns: Ten years after the rise of adversarial machine learning'),
+  author('Battista Biggio and Fabio Roli'),
+  pages(317, 331),
+  publisher('Elsevier'),
 nil)

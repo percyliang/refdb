@@ -466,7 +466,6 @@ entry!('friedman2001elements',
   author('Jerome Friedman and Trevor Hastie and Robert Tibshirani'),
   volume(1),
   number(10),
-  year(2001),
   publisher('Springer series in statistics New York, NY, USA:'),
   book('Springer series in statistics New York, NY, USA:', 2001),
 nil)

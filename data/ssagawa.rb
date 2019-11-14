@@ -10,3 +10,12 @@ entry!('hardt2015train',
   title('Train faster, generalize better: Stability of stochastic gradient descent'),
   author('Moritz Hardt and Benjamin Recht and Yoram Singer'),
 nil)
+
+entry!('nemirovski2009robust',
+  article('SIAM Journal on optimization', 2009, 19),
+  title('Robust stochastic approximation approach to stochastic programming'),
+  author('Arkadi Nemirovski and Anatoli Juditsky and Guanghui Lan and Alexander Shapiro'),
+  number(4),
+  pages(1574, 1609),
+  publisher('SIAM'),
+nil)

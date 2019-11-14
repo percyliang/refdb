@@ -769,3 +769,23 @@ entry!('calmon2017optimized',
   author('Flavio Calmon and Dennis Wei and Bhanukiran Vinzamuri and Karthikeyan Natesan Ramamurthy and Kush R Varshney'),
   pages(3992, 4001),
 nil)
+
+entry!('chouldechova2018frontiers',
+  arxiv(2018, '1810.08810'),
+  title('The frontiers of fairness in machine learning'),
+  author('Alexandra Chouldechova and Aaron Roth'),
+nil)
+
+entry!('bechavod2017penalizing',
+  arxiv(2017, '1707.00044'),
+  title('Penalizing unfairness in binary classification'),
+  author('Yahav Bechavod and Katrina Ligett'),
+nil)
+
+entry!('canetti2019soft',
+  inproceedings('Proceedings of the Conference on Fairness, Accountability, and Transparency', 2019),
+  title('From soft classifiers to hard decisions: How fair can we be?'),
+  author('Ran Canetti and Aloni Cohen and Nishanth Dikkala and Govind Ramnarayan and Sarah Scheffler and Adam Smith'),
+  pages(309, 318),
+  organization('ACM'),
+nil)
