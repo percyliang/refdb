@@ -76,3 +76,9 @@ entry!('berthelot2019mixmatch',
   arxiv(2019),
 nil)
 
+entry!('belkin2019two',
+  author('Mikhail Belkin and Daniel Hsu and Ji Xu'),
+  title('Two models of double descent for weak features'),
+  arxiv(2019),
+nil)
+
