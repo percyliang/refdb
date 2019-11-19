@@ -326,15 +326,9 @@ nil)
 
 
 entry!('maurer2009empirical',
-  arxiv(2009, '0907.3740'),
+  colt(2009),
   title('Empirical Bernstein bounds and sample variance penalization'),
   author('Andreas Maurer and Massimiliano Pontil'),
-nil)
-
-entry!('duchi2016variance',
-  arxiv(2016, '1610.02581'),
-  title('Variance-based regularization with convex objectives'),
-  author('John Duchi and Hongseok Namkoong'),
 nil)
 
 entry!('rothblum2018probably',
@@ -482,12 +476,6 @@ entry!('kamiran2012data',
   number(1),
   pages(1, 33),
   publisher('Springer'),
-nil)
-
-entry!('agarwal2018reductions',
-  arxiv(2018, '1803.02453'),
-  title('A reductions approach to fair classification'),
-  author('Alekh Agarwal and Alina Beygelzimer and Miroslav Dud{\\\'\i}k and John Langford and Hanna Wallach'),
 nil)
 
 entry!('young2013pomdp',

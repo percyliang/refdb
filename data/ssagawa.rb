@@ -5,12 +5,6 @@ entry!('rockafellar2000optimization',
        article('Journal of Risk', 2000, 2), pages(21, 41),
 nil)
 
-entry!('hardt2015train',
-  arxiv(2015, '1509.01240'),
-  title('Train faster, generalize better: Stability of stochastic gradient descent'),
-  author('Moritz Hardt and Benjamin Recht and Yoram Singer'),
-nil)
-
 entry!('nemirovski2009robust',
   article('SIAM Journal on optimization', 2009, 19),
   title('Robust stochastic approximation approach to stochastic programming'),
