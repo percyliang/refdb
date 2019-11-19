@@ -1130,7 +1130,7 @@ entry!('zhou2017places',
 nil)
 
 entry!('liu2015deep',
-  inproceedings('Proceedings of the IEEE international conference on computer vision', 2015),
+  inproceedings('Proceedings of the IEEE International Conference on Computer Vision', 2015),
   title('Deep learning face attributes in the wild'),
   author('Ziwei Liu and Ping Luo and Xiaogang Wang and Xiaoou Tang'),
   pages(3730, 3738),
@@ -1176,12 +1176,6 @@ entry!('cui2019class',
   title('Class-balanced loss based on effective number of samples'),
   author('Yin Cui and Menglin Jia and Tsung-Yi Lin and Yang Song and Serge Belongie'),
   pages(9268, 9277),
-nil)
-
-entry!('ioffe2015batch',
-  arxiv(2015, '1502.03167'),
-  title('Batch normalization: Accelerating deep network training by reducing internal covariate shift'),
-  author('Sergey Ioffe and Christian Szegedy'),
 nil)
 
 entry!('radford2019language',
@@ -1273,4 +1267,41 @@ entry!('giordano2019higher',
   arxiv(2019, '1907.12116'),
   title('A Higher-Order {Swiss Army} Infinitesimal Jackknife'),
   author('Ryan Giordano and Michael I Jordan and Tamara Broderick'),
+nil)
+
+entry!('blanchet2019quantifying',
+  mathops(2019, 44),
+  title('Quantifying distributional model risk via optimal transport'),
+  author('Jose Blanchet and Karthyek Murthy'),
+  number(2),
+  pages(565, 600),
+  publisher('INFORMS'),
+nil)
+
+entry!('devlin2019bert',
+  acl(2019),
+  title('BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding'),
+  author('Jacob Devlin and Ming-Wei Chang and Kenton Lee and Kristina Toutanova'),
+  pages(4171, 4186),
+nil)
+
+
+entry!('hardt2016train',
+  icml(2016),
+  title('Train faster, generalize better: Stability of stochastic gradient descent'),
+  author('Moritz Hardt and Ben Recht and Yoram Singer'),
+  pages(1225, 1234),
+nil)
+
+entry!('heinze2017conditional',
+  arxiv(2017, '1710.11469'),
+  title('Conditional variance penalties and domain shift robustness'),
+  author('Christina Heinze-Deml and Nicolai Meinshausen'),
+nil)
+
+entry!('ioffe2015batch',
+  icml(2015),
+  title('Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift'),
+  author('Sergey Ioffe and Christian Szegedy'),
+  pages(448, 456),
 nil)
