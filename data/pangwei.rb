@@ -1209,3 +1209,16 @@ entry!('giordano2019higher',
   title('A Higher-Order {Swiss Army} Infinitesimal Jackknife'),
   author('Ryan Giordano and Michael I Jordan and Tamara Broderick'),
 nil)
+
+entry!('badgeley2019deep',
+  article('npj Digital Medicine', 2019, 2),
+  title('Deep learning predicts hip fracture using confounding patient and healthcare variables'),
+  author('Marcus A Badgeley and John R Zech and Luke Oakden-Rayner and Benjamin S Glicksberg and Manway Liu and William Gale and Michael V McConnell and Bethany Percha and Thomas M Snyder and Joel T Dudley'),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('oakden2019hidden',
+  arxiv(2019, '1909.12475'),
+  title('Hidden Stratification Causes Clinically Meaningful Failures in Machine Learning for Medical Imaging'),
+  author('Luke Oakden-Rayner and Jared Dunnmon and Gustavo Carneiro and Christopher R{\\\'e}'),
+nil)
