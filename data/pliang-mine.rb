@@ -11,6 +11,13 @@ nil)
 ############################################################
 # 2019
 
+entry!('sagawa2019group',
+  title('Distributionally Robust Neural Networks for Group Shifts: On the Importance of Regularization for Worst-Case Generalization'),
+  author('Shiori Sagawa and Pang Wei Koh and Tatsunori B. Hashimoto and Percy Liang'),
+  arxiv(2019, '1911.08731'),
+  url('https://arxiv.org/pdf/1911.08731.pdf'),
+nil)
+
 entry!('mu2019shaping',
   title('Shaping Visual Representations with Language for Few-shot Classification'),
   author('Jesse Mu and Percy Liang and Noah Goodman'),
