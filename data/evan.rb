@@ -399,3 +399,9 @@ entry!('greenewald2017action',
   author('Kristjan Greenewald and Ambuj Tewari and Susan Murphy and Predag Klasnja'),
   pages(5977, 5985),
 nil)
+
+entry!('jin2019provably',
+  arxiv(2019, '1907.05388'),
+  title('Provably efficient reinforcement learning with linear function approximation'),
+  author('Chi Jin and Zhuoran Yang and Zhaoran Wang and Michael I Jordan'),
+nil)
