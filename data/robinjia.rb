@@ -394,7 +394,7 @@ nil)
 entry!('hosseini2017deceiving',
   author('Hossein Hosseini and Sreeram Kannan and Baosen Zhang and Radha Poovendran'),
   title('Deceiving {G}oogle’s {P}erspective {API} Built for Detecting Toxic Comments'),
-  arxiv(2017),
+  arxiv(2017, '1702.08138'),
   url('https://arxiv.org/pdf/1702.08138.pdf'),
 nil)
 
@@ -426,4 +426,40 @@ entry!('kocijan2019winograd',
   title('A Surprisingly Robust Trick for the {W}inograd Schema Challenge'),
   author('Vid Kocijan and Ana-Maria Cretu and Oana-Maria Camburu and Yordan Yordanov and Thomas Lukasiewicz'),
   acl(2019),
+nil)
+
+entry!('jia2019document',
+  title('Document-Level {N}-ary Relation Extraction with Multiscale Representation Learning'),
+  author('Robin Jia and Cliff Wong and and Hoifung Poon'),
+  naacl(2019),
+nil)
+
+entry!('marcovitz2016reverse',
+  title('``{R}everse {G}enomics\'\' Predicts Function of Human Conserved Noncoding Elements'),
+  author('Amir Marcovitz and Robin Jia and Gill Bejerano'),
+  inproceedings('Molecular Biology and Evolution', 2016),
+nil)
+
+entry!('braun2015mx',
+  title('{M}x1 and {M}x2 key antiviral proteins are surprisingly lost in toothed whales'),
+  author('Benjamin A. Braun and Amir Marcovitz and J. Gray Camp and Robin Jia and Gill Bejerano'),
+  inproceedings('Proceedings of the National Academy of Sciences of the United States of America', 2015),
+nil)
+
+entry!('zhao2017gender',
+  title('Men Also Like Shopping: Reducing Gender Bias Amplification using Corpus-level Constraints'),
+  author('Jieyu Zhao and Tianlu Wang and Mark Yatskar and Vicente Ordóñez and Kai-Wei Chang'),
+  emnlp(2017),
+nil)
+
+entry!('lake2018generalization',
+  title('Generalization without Systematicity: On the Compositional Skills of Sequence-to-Sequence Recurrent Networks'),
+  author('Brenden Lake and Marco Baroni'),
+  icml(2018),
+nil)
+
+entry!('fisch2019mrqa',
+  title('{MRQA} 2019 Shared Task: Evaluating Generalization in Reading Comprehension'),
+  author('Adam Fisch and Alon Talmor and Robin Jia and Minjoon Seo and Eunsol Choi and Danqi Chen'),
+  inproceedings('Proceedings of the Second Workshop on Machine Reading for Question Answering', 2019),
 nil)

@@ -49,16 +49,18 @@ entry!('gowal2018effectiveness',
   author('Sven Gowal and Krishnamurthy Dvijotham and Robert Stanforth and Rudy Bunel and Chongli Qin and Jonathan Uesato and Timothy Mann and Pushmeet Kohli'),
 nil)
 
-entry!('belinkov2017synthetic',
-  arxiv(2017, '1711.02173'),
+entry!('belinkov2018synthetic',
+  #arxiv(2017, '1711.02173'),
   title('Synthetic and natural noise both break neural machine translation'),
   author('Yonatan Belinkov and Yonatan Bisk'),
+  iclr(2018),
 nil)
 
-entry!('ebrahimi2017hotflip',
-  arxiv(2017, '1712.06751'),
+entry!('ebrahimi2018hotflip',
+  #arxiv(2017, '1712.06751'),
   title('Hotflip: White-box adversarial examples for text classification'),
   author('Javid Ebrahimi and Anyi Rao and Daniel Lowd and Dejing Dou'),
+  acl(2018),
 nil)
 
 entry!('tsipras2018there',
