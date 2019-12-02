@@ -1280,7 +1280,7 @@ nil)
 
 entry!('devlin2019bert',
   acl(2019),
-  title('BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding'),
+  title('{BERT}: Pre-training of Deep Bidirectional Transformers for Language Understanding'),
   author('Jacob Devlin and Ming-Wei Chang and Kenton Lee and Kristina Toutanova'),
   pages(4171, 4186),
 nil)
