@@ -220,7 +220,7 @@ nil)
 
 entry!('fawzi2018analysis',
   machineLearning(2018, 107),
-  title('Analysis of classifiers’ robustness to adversarial perturbations'),
+  title('Analysis of classifiers\' robustness to adversarial perturbations'),
   author('Alhussein Fawzi and Omar Fawzi and Pascal Frossard'),
   number(3),
   pages(481, 508),
@@ -264,7 +264,7 @@ entry!('loshchilov2017sgdr',
 nil)
 
 entry!('uesato2019are',
-  arxiv(2019, '1905.13725'),
+  nips(2019),
   title('Are Labels Required for Improving Adversarial Robustness?'),
   author('Jonathan Uesato and Jean-Baptiste Alayrac and Po-Sen Huang and Robert Stanforth and Alhussein Fawzi and Pushmeet Kohli'),
 nil)
@@ -288,7 +288,7 @@ entry!('khim2018adversarial',
 nil)
 
 entry!('najafi2019robustness',
-  arxiv(2019, '1905.13021'),
+  nips(2019),
   title('Robustness to Adversarial Perturbations in Learning from Incomplete Data'),
   author('Amir Najafi and Shin-ichi Maeda and Masanori Koyama and Takeru Miyato'),
 nil)
