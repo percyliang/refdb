@@ -206,12 +206,6 @@ entry!('bubeck2019adversarial',
   author('Sebastien Bubeck and Eric Price and Ilya Razenshteyn'),
 nil)
 
-entry!('degwekar2019computational',
-  arxiv(2019, '1902.01086'),
-  title('Computational Limitations in Robust Classification and Win-Win Results'),
-  author('Akshay Degwekar and Vinod Vaikuntanathan'),
-nil)
-
 entry!('gilmer2018adversarial',
   arxiv(2018, '1801.02774'),
   title('Adversarial spheres'),
@@ -467,4 +461,10 @@ entry!('biggio2018wild',
   author('Battista Biggio and Fabio Roli'),
   pages(317, 331),
   publisher('Elsevier'),
+nil)
+
+entry!('degwekar2019computational',
+  colt(2019),
+  title('Computational Limitations in Robust Classification and Win-Win Results'),
+  author('Akshay Degwekar and Preetum Nakkiran and Vinod Vaikuntanathan'),
 nil)
