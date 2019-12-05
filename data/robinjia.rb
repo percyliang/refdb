@@ -463,3 +463,9 @@ entry!('fisch2019mrqa',
   author('Adam Fisch and Alon Talmor and Robin Jia and Minjoon Seo and Eunsol Choi and Danqi Chen'),
   inproceedings('Proceedings of the Second Workshop on Machine Reading for Question Answering (MRQA)', 2019),
 nil)
+
+entry!('lehnert1977process',
+  author('Wendy Lehnert'),
+  title('The Process of Question Answering'),
+  phdthesis('Yale University', 1977),
+nil)
