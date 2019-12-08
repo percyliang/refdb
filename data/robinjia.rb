@@ -554,3 +554,9 @@ entry!('lakshminarayanan2017simple',
   author('Balaji Lakshminarayanan and Alexander Pritzel and Charles Blundell'),
   neurips(2017),
 nil)
+
+entry!('li2019reducing',
+  title('Reducing Over-confident Errors outside the Known Distribution'),
+  author('Zhizhong Li and Derek Hoiem'),
+  arxiv(2019, '1804.03166'),
+nil)
