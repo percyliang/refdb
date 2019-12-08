@@ -469,3 +469,82 @@ entry!('lehnert1977process',
   title('The Process of Question Answering'),
   phdthesis('Yale University', 1977),
 nil)
+
+entry!('elyaniv2010foundations',
+  title('On the Foundations of Noise-free Selective Classification'),
+  author('Ran El-Yaniv and Yair Wiener'),
+  jmlr(2010, 11),
+nil)
+
+entry!('chow1957optimum',
+  title('An optimum character recognition system using decision functions'),
+  author('C. K. Chow'),
+  inproceedings('IRE Transactions on Electronic Computers', 1957),
+nil)
+
+entry!('blitzer2006domain',
+  title('Domain Adaptation with Structural Correspondence Learning'),
+  author('John Blitzer and Ryan McDonald and Fernando Pereira'),
+  emnlp(2006),
+nil)
+
+entry!('penas2009respubliqa',
+  title('Overview of {ResPubliQA} 2009: Question Answering Evaluation over
+        European Legislation'),
+  author('Anselmo Pe{\\~n}as and Pamela Forner and Richard Sutcliffe and \\\'{A}lvaro Rodrigo and Corina For\\u{a}scu and I\\={n}aki Alegria and Danilo Giampiccolo and Nicolas Moreau and Petya Osenova'),
+  inproceedings('Cross Language Evaluation Forum', 2009),
+nil)
+
+entry!('penas2013mre',
+  title('{QA4MRE} 2011-2013: Overview of Question Answering for Machine Reading Evaluation'),
+  author('Anselmo Pe{\\~n}as and Eduard Hovy and Pamela Forner and \\\'{A}lvaro Rodrigo and Richard Sutcliffe and Roser Morante'),
+  inproceedings('Cross Language Evaluation Forum', 2013),
+nil)
+
+entry!('gondek2012framework',
+  title('A framework for merging and ranking of answers in {DeepQA}'),
+  author('D. C. Gondek and A. Lally and A. Kalyanpur and J. W. Murdock and P. A. Duboue and L. Zhang and Y. Pan and Z. M. Qiu and C. Welty'),
+  article('{IBM} Journal of Research and Development', 2012, 56),
+nil)
+
+entry!('rodriguez2019quizbowl',
+  title('Quizbowl: The Case for Incremental Question Answering'),
+  author('Pedro Rodriguez and Shi Feng and Mohit Iyyer and He He and Jordan Boyd-Graber'),
+  arxiv(2019, '1904.04792'),  
+nil)
+
+entry!('feng2019selective',
+  title('Selective prediction-set models with coverage guarantees'),
+  author('Jean Feng and Arjun Sondhi and Jessica Perry and Noah Simon'),
+  arxiv(2019, '1906.05473'),
+nil)
+
+entry!('toplak2014assessment',
+  title('Assessment of Machine Learning Reliability Methods for Quantifying the Applicability Domain of {QSAR} Regression Models'),
+  author('Marko Toplak and Rok Mo\\v{c}nik and Matija Polajnar and Zoran Bosni\\\'{c} and Lars Carlsson and Catrin Hasselgren and Janez Dem\\v{s}ar and Scott Boyer and Blaz Zupan and Jonna St{\\aa}lring'),
+  article('Journal of Chemical Information and Modeling', 2014, 54),
+nil)
+
+entry!('geifman2017selective',
+  title('Selective classification for deep neural networks'),
+  author('Yonatan Geifman and Ran El-Yaniv'),
+  nips(2017),
+nil)
+
+entry!('thorne2018fever',
+  title('FEVER: a large-scale dataset for Fact Extraction and VERification'),
+  author('James Thorne and Andreas Vlachos and Christos Christodoulopoulos and Arpit Mittal'),
+  naacl(2018),
+nil)
+
+entry!('geiger2019posing',
+  title('Posing Fair Generalization Tasks for Natural Language Inference'),
+  author('Atticus Geiger and Ignacio Cases and Lauri Karttunen and Chris Potts'),
+  emnlp(2019),
+nil)
+
+entry!('hendrycks2017baseline',
+  title('A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks'),
+  author('Dan Hendrycks and Kevin Gimpel'),
+  iclr(2017),
+nil)
