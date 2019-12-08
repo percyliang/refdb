@@ -528,7 +528,7 @@ nil)
 entry!('geifman2017selective',
   title('Selective classification for deep neural networks'),
   author('Yonatan Geifman and Ran El-Yaniv'),
-  nips(2017),
+  neurips(2017),
 nil)
 
 entry!('thorne2018fever',
@@ -547,4 +547,10 @@ entry!('hendrycks2017baseline',
   title('A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks'),
   author('Dan Hendrycks and Kevin Gimpel'),
   iclr(2017),
+nil)
+
+entry!('lakshminarayanan2017simple',
+  title('Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles'),
+  author('Balaji Lakshminarayanan and Alexander Pritzel and Charles Blundell'),
+  neurips(2017),
 nil)
