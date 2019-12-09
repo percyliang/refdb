@@ -560,3 +560,45 @@ entry!('li2019reducing',
   author('Zhizhong Li and Derek Hoiem'),
   arxiv(2019, '1804.03166'),
 nil)
+
+entry!('magnini2002right',
+  title('Is It the Right Answer? Exploiting Web Redundancy for Answer Validation'),
+  author('Bernardo Magnini and Matteo Negri and Roberto Prevete and Hristo Tanev'),
+  acl(2002),
+nil)
+
+entry!('ko2007probabilistic',
+  title('A Probabilistic Framework for Answer Selection in Question Answering'),
+  author('Jeongwoo Ko and Luo Si and Eric Nyberg'),
+  naacl(2007),
+nil)
+
+entry!('gal2016dropout',
+  title('Dropout as a {Bayesian} Approximation: Representing Model Uncertainty in Deep Learning'),
+  author('Yarin Gal and Zoubin Ghahramani'),
+  icml(2016),
+nil)
+
+entry!('smith2018understanding',
+  title('Understanding Measures of Uncertainty for Adversarial Example Detection'),
+  author('Lewis Smith and Yarin Gal'),
+  uai(2018),
+nil)
+
+entry!('liang2018enhancing',
+  title('Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks'),
+  author('Shiyu Liang and Yixuan Li and R. Srikant'),
+  iclr(2018),
+nil)
+
+entry!('wallace2019universal',
+  title('Universal Adversarial Triggers for Attacking and Analyzing {NLP}'),
+  author('Eric Wallace and Shi Feng and Nikhil Kandpal and Matt Gardner and Sameer Singh'),
+  emnlp(2019),
+nil)
+
+entry!('cheng2020seq',
+  title('{Seq2Sick}: Evaluating the Robustness of Sequence-to-Sequence Models with Adversarial Examples'),
+  author('Minhao Cheng and Jinfeng Yi and Huan Zhang and Pin-Yu Chen and Cho-Jui Hsieh'),
+  aaai(2020),
+nil)
