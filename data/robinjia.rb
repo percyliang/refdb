@@ -461,7 +461,7 @@ nil)
 entry!('fisch2019mrqa',
   title('{MRQA} 2019 Shared Task: Evaluating Generalization in Reading Comprehension'),
   author('Adam Fisch and Alon Talmor and Robin Jia and Minjoon Seo and Eunsol Choi and Danqi Chen'),
-  inproceedings('Proceedings of the Second Workshop on Machine Reading for Question Answering (MRQA)', 2019),
+  inproceedings('Workshop on Machine Reading for Question Answering (MRQA)', 2019),
 nil)
 
 entry!('lehnert1977process',
@@ -601,4 +601,28 @@ entry!('cheng2020seq',
   title('{Seq2Sick}: Evaluating the Robustness of Sequence-to-Sequence Models with Adversarial Examples'),
   author('Minhao Cheng and Jinfeng Yi and Huan Zhang and Pin-Yu Chen and Cho-Jui Hsieh'),
   aaai(2020),
+nil)
+
+entry!('pedregosa2011sklearn',
+  title('Scikit-learn: Machine Learning in {P}ython'),
+  author('F. Pedregosa and G. Varoquaux and A. Gramfort and V. Michel and B. Thirion and O. Grisel and M. Blondel and P. Prettenhofer and R. Weiss and V. Dubourg and J. Vanderplas and A. Passos and D. Cournapeau and M. Brucher and M. Perrot and E. Duchesnay'),
+  jmlr(2011, 12),
+nil)
+
+entry!('chen2019evaluating',
+  title('Evaluating Question Answering Evaluation'),
+  author('Anthony Chen and Gabriel Stanovsky and Sameer Singh and Matt Gardner'),
+  inproceedings('Workshop on Machine Reading for Question Answering (MRQA)', 2019),
+nil)
+
+entry!('chen2019understanding',
+  title('Understanding Dataset Design Choices for Multi-hop Reasoning'),
+  author('Jifan Chen and Greg Durrett'),
+  naacl(2019),
+nil)
+
+entry!('min2019compositional',
+  title('Compositional Questions Do Not Necessitate Multi-hop Reasoning'),
+  author('Sewon Min and Eric Wallace and Sameer Singh and Matt Gardner and Hannaneh Hajishirzi and Luke Zettlemoyer'),
+  acl(2019),
 nil)
