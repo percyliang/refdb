@@ -626,3 +626,9 @@ entry!('min2019compositional',
   author('Sewon Min and Eric Wallace and Sameer Singh and Matt Gardner and Hannaneh Hajishirzi and Luke Zettlemoyer'),
   acl(2019),
 nil)
+
+entry!('scholkopf1999support',
+  title('Support vector method for novelty detection'),
+  author('Bernhard Sch{\"o}lkopf and Robert Williamson and Alex Smola and John Shawe-Taylor and John Platt'),
+  neurips(1999),
+nil)
