@@ -787,3 +787,13 @@ entry!('bechavod2017penalizing',
   title('Penalizing unfairness in binary classification'),
   author('Yahav Bechavod and Katrina Ligett'),
 nil)
+
+
+entry!('clarke2005phantom',
+  article('Conflict management and peace science', 2005, 22),
+  title('The phantom menace: Omitted variable bias in econometric research'),
+  author('Kevin A Clarke'),
+  number(4),
+  pages(341, 352),
+  publisher('SAGE Publications Sage UK: London, England'),
+nil)
