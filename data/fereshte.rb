@@ -326,15 +326,9 @@ nil)
 
 
 entry!('maurer2009empirical',
-  arxiv(2009, '0907.3740'),
+  colt(2009),
   title('Empirical Bernstein bounds and sample variance penalization'),
   author('Andreas Maurer and Massimiliano Pontil'),
-nil)
-
-entry!('duchi2016variance',
-  arxiv(2016, '1610.02581'),
-  title('Variance-based regularization with convex objectives'),
-  author('John Duchi and Hongseok Namkoong'),
 nil)
 
 entry!('rothblum2018probably',
@@ -482,12 +476,6 @@ entry!('kamiran2012data',
   number(1),
   pages(1, 33),
   publisher('Springer'),
-nil)
-
-entry!('agarwal2018reductions',
-  arxiv(2018, '1803.02453'),
-  title('A reductions approach to fair classification'),
-  author('Alekh Agarwal and Alina Beygelzimer and Miroslav Dud{\\\'\i}k and John Langford and Hanna Wallach'),
 nil)
 
 entry!('young2013pomdp',
@@ -788,7 +776,6 @@ entry!('bechavod2017penalizing',
   author('Yahav Bechavod and Katrina Ligett'),
 nil)
 
-
 entry!('clarke2005phantom',
   article('Conflict management and peace science', 2005, 22),
   title('The phantom menace: Omitted variable bias in econometric research'),
@@ -796,4 +783,11 @@ entry!('clarke2005phantom',
   number(4),
   pages(341, 352),
   publisher('SAGE Publications Sage UK: London, England'),
+
+entry!('canetti2019soft',
+  inproceedings('Proceedings of the Conference on Fairness, Accountability, and Transparency', 2019),
+  title('From soft classifiers to hard decisions: How fair can we be?'),
+  author('Ran Canetti and Aloni Cohen and Nishanth Dikkala and Govind Ramnarayan and Sarah Scheffler and Adam Smith'),
+  pages(309, 318),
+  organization('ACM'),
 nil)

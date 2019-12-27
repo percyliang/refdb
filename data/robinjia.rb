@@ -393,8 +393,8 @@ nil)
 
 entry!('hosseini2017deceiving',
   author('Hossein Hosseini and Sreeram Kannan and Baosen Zhang and Radha Poovendran'),
-  title('Deceiving {G}oogle’s {P}erspective {API} Built for Detecting Toxic Comments'),
-  arxiv(2017),
+  title('Deceiving {G}oogle\'s {P}erspective {API} Built for Detecting Toxic Comments'),
+  arxiv(2017, '1702.08138'),
   url('https://arxiv.org/pdf/1702.08138.pdf'),
 nil)
 
@@ -426,4 +426,209 @@ entry!('kocijan2019winograd',
   title('A Surprisingly Robust Trick for the {W}inograd Schema Challenge'),
   author('Vid Kocijan and Ana-Maria Cretu and Oana-Maria Camburu and Yordan Yordanov and Thomas Lukasiewicz'),
   acl(2019),
+nil)
+
+entry!('jia2019document',
+  title('Document-Level {N}-ary Relation Extraction with Multiscale Representation Learning'),
+  author('Robin Jia and Cliff Wong and Hoifung Poon'),
+  naacl(2019),
+nil)
+
+entry!('marcovitz2016reverse',
+  title('``{R}everse {G}enomics\'\' Predicts Function of Human Conserved Noncoding Elements'),
+  author('Amir Marcovitz and Robin Jia and Gill Bejerano'),
+  inproceedings('Molecular Biology and Evolution (MBE)', 2016),
+nil)
+
+entry!('braun2015mx',
+  title('{M}x1 and {M}x2 key antiviral proteins are surprisingly lost in toothed whales'),
+  author('Benjamin A. Braun and Amir Marcovitz and J. Gray Camp and Robin Jia and Gill Bejerano'),
+  inproceedings('Proceedings of the National Academy of Sciences of the United States of America (PNAS)', 2015),
+nil)
+
+entry!('zhao2017gender',
+  title('Men Also Like Shopping: Reducing Gender Bias Amplification using Corpus-level Constraints'),
+  author('Jieyu Zhao and Tianlu Wang and Mark Yatskar and Vicente Ordóñez and Kai-Wei Chang'),
+  emnlp(2017),
+nil)
+
+entry!('lake2018generalization',
+  title('Generalization without Systematicity: On the Compositional Skills of Sequence-to-Sequence Recurrent Networks'),
+  author('Brenden Lake and Marco Baroni'),
+  icml(2018),
+nil)
+
+entry!('fisch2019mrqa',
+  title('{MRQA} 2019 Shared Task: Evaluating Generalization in Reading Comprehension'),
+  author('Adam Fisch and Alon Talmor and Robin Jia and Minjoon Seo and Eunsol Choi and Danqi Chen'),
+  inproceedings('Workshop on Machine Reading for Question Answering (MRQA)', 2019),
+nil)
+
+entry!('lehnert1977process',
+  author('Wendy Lehnert'),
+  title('The Process of Question Answering'),
+  phdthesis('Yale University', 1977),
+nil)
+
+entry!('elyaniv2010foundations',
+  title('On the Foundations of Noise-free Selective Classification'),
+  author('Ran El-Yaniv and Yair Wiener'),
+  jmlr(2010, 11),
+nil)
+
+entry!('chow1957optimum',
+  title('An optimum character recognition system using decision functions'),
+  author('C. K. Chow'),
+  inproceedings('IRE Transactions on Electronic Computers', 1957),
+nil)
+
+entry!('blitzer2006domain',
+  title('Domain Adaptation with Structural Correspondence Learning'),
+  author('John Blitzer and Ryan McDonald and Fernando Pereira'),
+  emnlp(2006),
+nil)
+
+entry!('penas2009respubliqa',
+  title('Overview of {ResPubliQA} 2009: Question Answering Evaluation over
+        European Legislation'),
+  author('Anselmo Pe{\\~n}as and Pamela Forner and Richard Sutcliffe and \\\'{A}lvaro Rodrigo and Corina For\\u{a}scu and I\\={n}aki Alegria and Danilo Giampiccolo and Nicolas Moreau and Petya Osenova'),
+  inproceedings('Cross Language Evaluation Forum', 2009),
+nil)
+
+entry!('penas2013mre',
+  title('{QA4MRE} 2011-2013: Overview of Question Answering for Machine Reading Evaluation'),
+  author('Anselmo Pe{\\~n}as and Eduard Hovy and Pamela Forner and \\\'{A}lvaro Rodrigo and Richard Sutcliffe and Roser Morante'),
+  inproceedings('Cross Language Evaluation Forum', 2013),
+nil)
+
+entry!('gondek2012framework',
+  title('A framework for merging and ranking of answers in {DeepQA}'),
+  author('D. C. Gondek and A. Lally and A. Kalyanpur and J. W. Murdock and P. A. Duboue and L. Zhang and Y. Pan and Z. M. Qiu and C. Welty'),
+  article('{IBM} Journal of Research and Development', 2012, 56),
+nil)
+
+entry!('rodriguez2019quizbowl',
+  title('Quizbowl: The Case for Incremental Question Answering'),
+  author('Pedro Rodriguez and Shi Feng and Mohit Iyyer and He He and Jordan Boyd-Graber'),
+  arxiv(2019, '1904.04792'),  
+nil)
+
+entry!('feng2019selective',
+  title('Selective prediction-set models with coverage guarantees'),
+  author('Jean Feng and Arjun Sondhi and Jessica Perry and Noah Simon'),
+  arxiv(2019, '1906.05473'),
+nil)
+
+entry!('toplak2014assessment',
+  title('Assessment of Machine Learning Reliability Methods for Quantifying the Applicability Domain of {QSAR} Regression Models'),
+  author('Marko Toplak and Rok Mo\\v{c}nik and Matija Polajnar and Zoran Bosni\\\'{c} and Lars Carlsson and Catrin Hasselgren and Janez Dem\\v{s}ar and Scott Boyer and Blaz Zupan and Jonna St{\\aa}lring'),
+  article('Journal of Chemical Information and Modeling', 2014, 54),
+nil)
+
+entry!('geifman2017selective',
+  title('Selective classification for deep neural networks'),
+  author('Yonatan Geifman and Ran El-Yaniv'),
+  neurips(2017),
+nil)
+
+entry!('thorne2018fever',
+  title('FEVER: a large-scale dataset for Fact Extraction and VERification'),
+  author('James Thorne and Andreas Vlachos and Christos Christodoulopoulos and Arpit Mittal'),
+  naacl(2018),
+nil)
+
+entry!('geiger2019posing',
+  title('Posing Fair Generalization Tasks for Natural Language Inference'),
+  author('Atticus Geiger and Ignacio Cases and Lauri Karttunen and Chris Potts'),
+  emnlp(2019),
+nil)
+
+entry!('hendrycks2017baseline',
+  title('A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks'),
+  author('Dan Hendrycks and Kevin Gimpel'),
+  iclr(2017),
+nil)
+
+entry!('lakshminarayanan2017simple',
+  title('Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles'),
+  author('Balaji Lakshminarayanan and Alexander Pritzel and Charles Blundell'),
+  neurips(2017),
+nil)
+
+entry!('li2019reducing',
+  title('Reducing Over-confident Errors outside the Known Distribution'),
+  author('Zhizhong Li and Derek Hoiem'),
+  arxiv(2019, '1804.03166'),
+nil)
+
+entry!('magnini2002right',
+  title('Is It the Right Answer? Exploiting Web Redundancy for Answer Validation'),
+  author('Bernardo Magnini and Matteo Negri and Roberto Prevete and Hristo Tanev'),
+  acl(2002),
+nil)
+
+entry!('ko2007probabilistic',
+  title('A Probabilistic Framework for Answer Selection in Question Answering'),
+  author('Jeongwoo Ko and Luo Si and Eric Nyberg'),
+  naacl(2007),
+nil)
+
+entry!('gal2016dropout',
+  title('Dropout as a {Bayesian} Approximation: Representing Model Uncertainty in Deep Learning'),
+  author('Yarin Gal and Zoubin Ghahramani'),
+  icml(2016),
+nil)
+
+entry!('smith2018understanding',
+  title('Understanding Measures of Uncertainty for Adversarial Example Detection'),
+  author('Lewis Smith and Yarin Gal'),
+  uai(2018),
+nil)
+
+entry!('liang2018enhancing',
+  title('Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks'),
+  author('Shiyu Liang and Yixuan Li and R. Srikant'),
+  iclr(2018),
+nil)
+
+entry!('wallace2019universal',
+  title('Universal Adversarial Triggers for Attacking and Analyzing {NLP}'),
+  author('Eric Wallace and Shi Feng and Nikhil Kandpal and Matt Gardner and Sameer Singh'),
+  emnlp(2019),
+nil)
+
+entry!('cheng2020seq',
+  title('{Seq2Sick}: Evaluating the Robustness of Sequence-to-Sequence Models with Adversarial Examples'),
+  author('Minhao Cheng and Jinfeng Yi and Huan Zhang and Pin-Yu Chen and Cho-Jui Hsieh'),
+  aaai(2020),
+nil)
+
+entry!('pedregosa2011sklearn',
+  title('Scikit-learn: Machine Learning in {P}ython'),
+  author('F. Pedregosa and G. Varoquaux and A. Gramfort and V. Michel and B. Thirion and O. Grisel and M. Blondel and P. Prettenhofer and R. Weiss and V. Dubourg and J. Vanderplas and A. Passos and D. Cournapeau and M. Brucher and M. Perrot and E. Duchesnay'),
+  jmlr(2011, 12),
+nil)
+
+entry!('chen2019evaluating',
+  title('Evaluating Question Answering Evaluation'),
+  author('Anthony Chen and Gabriel Stanovsky and Sameer Singh and Matt Gardner'),
+  inproceedings('Workshop on Machine Reading for Question Answering (MRQA)', 2019),
+nil)
+
+entry!('chen2019understanding',
+  title('Understanding Dataset Design Choices for Multi-hop Reasoning'),
+  author('Jifan Chen and Greg Durrett'),
+  naacl(2019),
+nil)
+
+entry!('min2019compositional',
+  title('Compositional Questions Do Not Necessitate Multi-hop Reasoning'),
+  author('Sewon Min and Eric Wallace and Sameer Singh and Matt Gardner and Hannaneh Hajishirzi and Luke Zettlemoyer'),
+  acl(2019),
+nil)
+
+entry!('scholkopf1999support',
+  title('Support vector method for novelty detection'),
+  author('Bernhard Sch{\"o}lkopf and Robert Williamson and Alex Smola and John Shawe-Taylor and John Platt'),
+  neurips(1999),
 nil)

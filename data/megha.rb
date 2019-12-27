@@ -92,12 +92,6 @@ entry!('sap2019atomic',
   aaai(2019),
 nil)
 
-entry!('heinze2019robustness',
-  title('Conditional Variance Penalties and Domain Shift Robustness'),
-  author('Christina Heinze-Deml and Nicolai Meinshausen'),
-  arxiv(2019, '1710.11469'),
-  nil)
-
 entry!('nyclu2019data',
   title('Stop-and-Frisk Data'),
   type('misc'),

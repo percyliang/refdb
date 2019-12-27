@@ -41,6 +41,7 @@ def manual(year); [type('manual'), year(year)] end
 ### Machine learning / AI
 def colt(year); inproceedings(Name.new('Conference on Learning Theory', 'COLT'), year) end
 def nips(year); [inproceedings(Name.new('Advances in Neural Information Processing Systems', 'NeurIPS'), year), mitpress] end
+def neurips(year); [inproceedings(Name.new('Advances in Neural Information Processing Systems', 'NeurIPS'), year), mitpress] end
 def iclr(year); [inproceedings(Name.new('International Conference on Learning Representations', 'ICLR'), year), publisher('Omnipress')] end
 def iclrWorkshop(year); [inproceedings(Name.new('International Conference on Learning Representations Workshop', 'ICLR'), year), publisher('Omnipress')] end
 def icml(year); [inproceedings(Name.new('International Conference on Machine Learning', 'ICML'), year), publisher('Omnipress')] end
@@ -84,6 +85,7 @@ def dmin(year); [inproceedings(Name.new('International Conference on Data Mining
 def eccv(year); [inproceedings(Name.new('European Conference on Computer Vision', 'ECCV'), year)] end
 def iccv(year); inproceedings(Name.new('International Conference on Computer Vision', 'ICCV'), year) end
 def cvpr(year); inproceedings(Name.new('Computer Vision and Pattern Recognition', 'CVPR'), year) end
+def wacv(year); inproceedings(Name.new('Winter Conference on Applications of Computer Vision', 'WACV'), year) end
 
 # Robotics
 def icra(year); inproceedings(Name.new('International Conference on Robotics and Automation', 'ICRA'), year) end

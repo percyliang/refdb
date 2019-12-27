@@ -1130,7 +1130,7 @@ entry!('zhou2017places',
 nil)
 
 entry!('liu2015deep',
-  inproceedings('Proceedings of the IEEE international conference on computer vision', 2015),
+  inproceedings('Proceedings of the IEEE International Conference on Computer Vision', 2015),
   title('Deep learning face attributes in the wild'),
   author('Ziwei Liu and Ping Luo and Xiaogang Wang and Xiaoou Tang'),
   pages(3730, 3738),
@@ -1178,12 +1178,6 @@ entry!('cui2019class',
   pages(9268, 9277),
 nil)
 
-entry!('ioffe2015batch',
-  arxiv(2015, '1502.03167'),
-  title('Batch normalization: Accelerating deep network training by reducing internal covariate shift'),
-  author('Sergey Ioffe and Christian Szegedy'),
-nil)
-
 entry!('radford2019language',
   article('OpenAI Blog', 2019, 1),
   title('Language models are unsupervised multitask learners'),
@@ -1196,4 +1190,117 @@ entry!('vapnik1992principles',
   title('Principles of risk minimization for learning theory'),
   author('Vladimir Vapnik'),
   pages(831, 838),
+nil)
+
+entry!('gururangan2018annotation',
+  acl(2018),
+  title('Annotation Artifacts in Natural Language Inference Data'),
+  author('Suchin Gururangan and Swabha Swayamdipta and Omer Levy and Roy Schwartz and Samuel Bowman and Noah A Smith'),
+  pages(107, 112),
+nil)
+
+entry!('naik2018stress',
+  coling(2018),
+  title('Stress Test Evaluation for Natural Language Inference'),
+  author('Aakanksha Naik and Abhilasha Ravichander and Norman Sadeh and Carolyn Rose and Graham Neubig'),
+  pages(2340, 2353),
+nil)
+
+entry!('merler2019diversity',
+  arxiv(2019, '1901.10436'),
+  title('Diversity in faces'),
+  author('Michele Merler and Nalini Ratha and Rogerio S Feris and John R Smith'),
+nil)
+
+entry!('dosovitskiy2017carla',
+  inproceedings('Conference on Robot Learning', 2017),
+  title('CARLA: An Open Urban Driving Simulator'),
+  author('Alexey Dosovitskiy and German Ros and Felipe Codevilla and Antonio Lopez and Vladlen Koltun'),
+  pages(1, 16),
+nil)
+
+entry!('agarwal2018reductions',
+  icml(2018),
+  title('A Reductions Approach to Fair Classification'),
+  author('Alekh Agarwal and Alina Beygelzimer and Miroslav Dudik and John Langford and Hanna Wallach'),
+  pages(60, 69),
+nil)
+
+entry!('hicks2017missing',
+  article('Biostatistics', 2017, 19),
+  title('Missing data and technical variability in single-cell {RNA}-sequencing experiments'),
+  author('Stephanie C Hicks and F William Townes and Mingxiang Teng and Rafael A Irizarry'),
+  number(4),
+  pages(562, 578),
+  publisher('Oxford University Press'),
+nil)
+
+entry!('meyer2014identifying',
+  article('Nature Reviews Genetics', 2014, 15),
+  title('Identifying and mitigating bias in next-generation sequencing methods for chromatin biology'),
+  author('Clifford A Meyer and X Shirley Liu'),
+  number(11),
+  pages(709, 721),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('brunet2018understanding',
+  arxiv(2018, '1810.03611'),
+  title('Understanding the origins of bias in word embeddings'),
+  author('Marc-Etienne Brunet and Colleen Alkalay-Houlihan and Ashton Anderson and Richard Zemel'),
+nil)
+
+entry!('giordano2019higher',
+  arxiv(2019, '1907.12116'),
+  title('A Higher-Order {Swiss Army} Infinitesimal Jackknife'),
+  author('Ryan Giordano and Michael I Jordan and Tamara Broderick'),
+nil)
+
+entry!('badgeley2019deep',
+  article('npj Digital Medicine', 2019, 2),
+  title('Deep learning predicts hip fracture using confounding patient and healthcare variables'),
+  author('Marcus A Badgeley and John R Zech and Luke Oakden-Rayner and Benjamin S Glicksberg and Manway Liu and William Gale and Michael V McConnell and Bethany Percha and Thomas M Snyder and Joel T Dudley'),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('oakden2019hidden',
+  arxiv(2019, '1909.12475'),
+  title('Hidden Stratification Causes Clinically Meaningful Failures in Machine Learning for Medical Imaging'),
+  author('Luke Oakden-Rayner and Jared Dunnmon and Gustavo Carneiro and Christopher R{\\\'e}'),
+nil)
+
+entry!('blanchet2019quantifying',
+  mathops(2019, 44),
+  title('Quantifying distributional model risk via optimal transport'),
+  author('Jose Blanchet and Karthyek Murthy'),
+  number(2),
+  pages(565, 600),
+  publisher('INFORMS'),
+nil)
+
+entry!('devlin2019bert',
+  acl(2019),
+  title('{BERT}: Pre-training of Deep Bidirectional Transformers for Language Understanding'),
+  author('Jacob Devlin and Ming-Wei Chang and Kenton Lee and Kristina Toutanova'),
+  pages(4171, 4186),
+nil)
+
+entry!('hardt2016train',
+  icml(2016),
+  title('Train faster, generalize better: Stability of stochastic gradient descent'),
+  author('Moritz Hardt and Ben Recht and Yoram Singer'),
+  pages(1225, 1234),
+nil)
+
+entry!('heinze2017conditional',
+  arxiv(2017, '1710.11469'),
+  title('Conditional variance penalties and domain shift robustness'),
+  author('Christina Heinze-Deml and Nicolai Meinshausen'),
+nil)
+
+entry!('ioffe2015batch',
+  icml(2015),
+  title('Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift'),
+  author('Sergey Ioffe and Christian Szegedy'),
+  pages(448, 456),
 nil)
