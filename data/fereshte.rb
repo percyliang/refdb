@@ -783,6 +783,7 @@ entry!('clarke2005phantom',
   number(4),
   pages(341, 352),
   publisher('SAGE Publications Sage UK: London, England'),
+nil)
 
 entry!('canetti2019soft',
   inproceedings('Proceedings of the Conference on Fairness, Accountability, and Transparency', 2019),
@@ -790,4 +791,25 @@ entry!('canetti2019soft',
   author('Ran Canetti and Aloni Cohen and Nishanth Dikkala and Govind Ramnarayan and Sarah Scheffler and Adam Smith'),
   pages(309, 318),
   organization('ACM'),
+nil)
+
+entry!('gan2017equivalence',
+  article('Communications in Statistics-Theory and Methods', 2017, 46),
+  title('Equivalence of predictors under real and over-parameterized linear models'),
+  author('Shengjun Gan and Yuqin Sun and Yongge Tian'),
+  number(11),
+  pages(5368, 5383),
+  publisher('Taylor \& Francis'),
+nil)
+
+entry!('shah2018minimum',
+  article('stat', 2018, 1050),
+  title('Minimum norm solutions do not always generalize well for over-parameterized problems'),
+  author('Vatsal Shah and Anastasios Kyrillidis and Sujay Sanghavi'),
+nil)
+
+entry!('jung2018omitted',
+  arxiv(2018, '1809.05651'),
+  title('Omitted and Included Variable Bias in Tests for Disparate Impact'),
+  author('Jongbin Jung and Sam Corbett-Davies and Ravi Shroff and Sharad Goel'),
 nil)
