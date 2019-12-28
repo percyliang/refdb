@@ -813,3 +813,20 @@ entry!('jung2018omitted',
   title('Omitted and Included Variable Bias in Tests for Disparate Impact'),
   author('Jongbin Jung and Sam Corbett-Davies and Ravi Shroff and Sharad Goel'),
 nil)
+
+entry!('jammalamadaka2007inclusion',
+  article('Statistics \& probability letters', 2007, 77),
+  title('Inclusion and exclusion of data or parameters in the general linear model'),
+  author('S Rao Jammalamadaka and D Sengupta'),
+  number(12),
+  pages(1235, 1247),
+  publisher('Elsevier'),
+nil)
+
+entry!('haslett1996updating',
+  article('Linear algebra and its applications', 1996, 237),
+  title('Updating linear models with dependent errors to include additional data and/or parameters'),
+  author('Stephen Haslett'),
+  pages(329, 349),
+  publisher('Elsevier'),
+nil)
