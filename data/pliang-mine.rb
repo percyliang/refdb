@@ -8,15 +8,29 @@ entry!('li2020greedy',
   url('https://arxiv.org/pdf/1906.11385.pdf'),
 nil)
 
-############################################################
-# 2019
-
-entry!('sagawa2019group',
+entry!('sagawa2020group',
   title('Distributionally Robust Neural Networks for Group Shifts: On the Importance of Regularization for Worst-Case Generalization'),
   author('Shiori Sagawa and Pang Wei Koh and Tatsunori B. Hashimoto and Percy Liang'),
-  arxiv(2019, '1911.08731'),
+  iclr(2020),
   url('https://arxiv.org/pdf/1911.08731.pdf'),
 nil)
+
+entry!('hu2020pretraining',
+  title('Strategies for Pre-training Graph Neural Networks'),
+  author('Weihua Hu and Bowen Liu and Joseph Gomes and Marinka Zitnik and Percy Liang and Vijay Pande and Jure Leskovec'),
+  iclr(2020),
+  url('https://arxiv.org/pdf/1905.12265.pdf'),
+nil)
+
+entry!('coleman2020selection',
+  title('Selection via Proxy: Efficient Data Selection for Deep Learning'),
+  author('Cody Coleman and Christopher Yeh and Stephen Mussmann and Baharan Mirzasoleiman and Peter Bailis and Percy Liang and Jure Leskovec and Matei Zaharia'),
+  iclr(2020),
+  url('https://openreview.net/pdf?id=HJg2b0VYDr'),
+nil)
+
+############################################################
+# 2019
 
 entry!('mu2019shaping',
   title('Shaping Visual Representations with Language for Few-shot Classification'),
@@ -87,13 +101,6 @@ entry!('raghunathan2019hurt',
   author('Aditi Raghunathan and Sang Michael Xie and Fanny Yang and John C. Duchi and Percy Liang'),
   arxiv(2019, '1906.06032'),
   url('https://arxiv.org/pdf/1906.06032.pdf'),
-nil)
-
-entry!('hu2019pretraining',
-  title('Pre-training Graph Neural Networks'),
-  author('Weihua Hu and Bowen Liu and Joseph Gomes and Marinka Zitnik and Percy Liang and Vijay S. Pande and Jure Leskovec'),
-  arxiv(2019, '1905.12265'),
-  url('https://arxiv.org/pdf/1905.12265.pdf'),
 nil)
 
 entry!('khani2019mwld',
