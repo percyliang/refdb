@@ -386,3 +386,22 @@ entry!('stanton2018deep',
   title('Deep curiosity search: Intra-life exploration improves performance on challenging deep reinforcement learning problems'),
   author('Christopher Stanton and Jeff Clune'),
 nil)
+
+entry!('krishnamurthy2018semiparametric',
+  arxiv(2018, '1803.04204'),
+  title('Semiparametric contextual bandits'),
+  author('Akshay Krishnamurthy and Zhiwei Steven Wu and Vasilis Syrgkanis'),
+nil)
+
+entry!('greenewald2017action',
+  inproceedings('Advances in neural information processing systems', 2017),
+  title('Action centered contextual bandits'),
+  author('Kristjan Greenewald and Ambuj Tewari and Susan Murphy and Predag Klasnja'),
+  pages(5977, 5985),
+nil)
+
+entry!('jin2019provably',
+  arxiv(2019, '1907.05388'),
+  title('Provably efficient reinforcement learning with linear function approximation'),
+  author('Chi Jin and Zhuoran Yang and Zhaoran Wang and Michael I Jordan'),
+nil)
