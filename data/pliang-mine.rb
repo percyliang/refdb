@@ -1,13 +1,6 @@
 ############################################################
 # 2020
 
-entry!('li2020greedy',
-  title('A Tight Analysis of Greedy Yields Subexponential Time Approximation for Uniform Decision Tree'),
-  author('Ray Li and Percy Liang and Stephen Mussmann'),
-  soda(2020),
-  url('https://arxiv.org/pdf/1906.11385.pdf'),
-nil)
-
 entry!('sagawa2020group',
   title('Distributionally Robust Neural Networks for Group Shifts: On the Importance of Regularization for Worst-Case Generalization'),
   author('Shiori Sagawa and Pang Wei Koh and Tatsunori B. Hashimoto and Percy Liang'),
@@ -27,6 +20,13 @@ entry!('coleman2020selection',
   author('Cody Coleman and Christopher Yeh and Stephen Mussmann and Baharan Mirzasoleiman and Peter Bailis and Percy Liang and Jure Leskovec and Matei Zaharia'),
   iclr(2020),
   url('https://openreview.net/pdf?id=HJg2b0VYDr'),
+nil)
+
+entry!('li2020greedy',
+  title('A Tight Analysis of Greedy Yields Subexponential Time Approximation for Uniform Decision Tree'),
+  author('Ray Li and Percy Liang and Stephen Mussmann'),
+  soda(2020),
+  url('https://arxiv.org/pdf/1906.11385.pdf'),
 nil)
 
 ############################################################
@@ -94,6 +94,13 @@ entry!('koh2019influence',
   nips(2019),
   url('https://arxiv.org/pdf/1905.13289.pdf'),
   codalab('0x43e8ecea53bf4186a7992c9028409320'),
+nil)
+
+entry!('lee2019autocomplete',
+  title('Learning Autocomplete Systems as a Communication Game'),
+  author('Mina Lee and Tatsunori Hashimoto and Percy Liang'),
+  inproceedings('Emergent Communication Workshop at Neural Information Processing Systems (NeurIPS)', 2019),
+  url('https://arxiv.org/pdf/1911.06964.pdf'),
 nil)
 
 entry!('raghunathan2019hurt',
