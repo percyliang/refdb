@@ -461,3 +461,9 @@ entry!('biggio2018wild',
   pages(317, 331),
   publisher('Elsevier'),
 nil)
+
+entry!('yin2019fourier',
+  arxiv(2019, '1906.08988'),
+  title('A fourier perspective on model robustness in computer vision'),
+  author('Dong Yin and Raphael Gontijo Lopes and Jonathon Shlens and Ekin D Cubuk and Justin Gilmer'),
+nil)
