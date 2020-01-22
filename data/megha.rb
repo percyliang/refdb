@@ -132,3 +132,20 @@ entry!('kozor2014drug',
   inproceedings('PLos ONE', 2014),
   nil)
 
+entry!('schulz2008unobserved',
+  title('Going beyond the evidence: Abstract laws and preschoolers’ responses to anomalous data'),
+  author('Laura E. Schulz and Noah D. Goodman and Joshua B. Tenenbaum and Adrianna C. Jenkins'),
+  inproceedings('Cognition', 2008),
+  nil)
+
+entry!('saxe2007causal',
+  title('Knowing Who Dunnit: Infants Identify the Causal Agent in an Unseen Causal Interaction'),
+  author('Rebecca Saxe and Tania Tzelnic and Susan Carey'),
+  inproceedings('Developmental Psychology', 2007),
+  nil)
+
+entry!('ullman2018physics',
+  title('Learning physical parameters from dynamic scenes'),
+  author('Tomer D. Ullman and Andreas Stuhmuller and Noah D. Goodman and Joshua B. Tenenbaum'),
+  inproceedings('Cognitive Psychology', 2018),
+  nil)
