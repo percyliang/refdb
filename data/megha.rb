@@ -92,12 +92,6 @@ entry!('sap2019atomic',
   aaai(2019),
 nil)
 
-entry!('heinze2019robustness',
-  title('Conditional Variance Penalties and Domain Shift Robustness'),
-  author('Christina Heinze-Deml and Nicolai Meinshausen'),
-  arxiv(2019, '1710.11469'),
-  nil)
-
 entry!('nyclu2019data',
   title('Stop-and-Frisk Data'),
   type('misc'),
@@ -138,3 +132,26 @@ entry!('kozor2014drug',
   inproceedings('PLos ONE', 2014),
   nil)
 
+entry!('schulz2008unobserved',
+  title('Going beyond the evidence: Abstract laws and preschoolers’ responses to anomalous data'),
+  author('Laura E. Schulz and Noah D. Goodman and Joshua B. Tenenbaum and Adrianna C. Jenkins'),
+  inproceedings('Cognition', 2008),
+  nil)
+
+entry!('saxe2007causal',
+  title('Knowing Who Dunnit: Infants Identify the Causal Agent in an Unseen Causal Interaction'),
+  author('Rebecca Saxe and Tania Tzelnic and Susan Carey'),
+  inproceedings('Developmental Psychology', 2007),
+  nil)
+
+entry!('ullman2018physics',
+  title('Learning physical parameters from dynamic scenes'),
+  author('Tomer D. Ullman and Andreas Stuhmuller and Noah D. Goodman and Joshua B. Tenenbaum'),
+  inproceedings('Cognitive Psychology', 2018),
+  nil)
+
+entry!('van2013confounder',
+  title('On the definition of a confounder'),
+  author('Tyler J. VanderWeele and Ilya Shpitser'),
+  inproceedings('Annals of Statistics', 2013),
+  nil)

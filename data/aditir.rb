@@ -49,16 +49,18 @@ entry!('gowal2018effectiveness',
   author('Sven Gowal and Krishnamurthy Dvijotham and Robert Stanforth and Rudy Bunel and Chongli Qin and Jonathan Uesato and Timothy Mann and Pushmeet Kohli'),
 nil)
 
-entry!('belinkov2017synthetic',
-  arxiv(2017, '1711.02173'),
+entry!('belinkov2018synthetic',
+  #arxiv(2017, '1711.02173'),
   title('Synthetic and natural noise both break neural machine translation'),
   author('Yonatan Belinkov and Yonatan Bisk'),
+  iclr(2018),
 nil)
 
-entry!('ebrahimi2017hotflip',
-  arxiv(2017, '1712.06751'),
+entry!('ebrahimi2018hotflip',
+  #arxiv(2017, '1712.06751'),
   title('Hotflip: White-box adversarial examples for text classification'),
   author('Javid Ebrahimi and Anyi Rao and Daniel Lowd and Dejing Dou'),
+  acl(2018),
 nil)
 
 entry!('tsipras2018there',
@@ -75,7 +77,7 @@ entry!('schmidt2018adversarially',
 nil)
 
 entry!('zhang2019theoretically',
-  icml(2019), 
+  icml(2019),
   title('Theoretically principled trade-off between robustness and accuracy'),
   author('Hongyang Zhang and Yaodong Yu and Jiantao Jiao and Eric P Xing and Laurent El Ghaoui and Michael I Jordan'),
 nil)
@@ -101,14 +103,14 @@ entry!('rosenberg2005semi',
  nil)
 
 entry!('miyato2018virtual',
-  article('IEEE transactions on pattern analysis and machine intelligence', 2018, ),
+  article('IEEE Transactions on Pattern Analysis and Machine Intelligence', 2018),
   title('Virtual adversarial training: a regularization method for supervised and semi-supervised learning'),
   author('Takeru Miyato and Shin-ichi Maeda and Shin Ishii and Masanori Koyama'),
   publisher('IEEE'),
 nil)
 
 entry!('cubuk2019autoaugment',
-  cvpr(2019), 
+  cvpr(2019),
   title('Autoaugment: Learning augmentation policies from data'),
   author('Ekin D Cubuk and Barret Zoph and Dandelion Mane and Vijay Vasudevan and Quoc V Le'),
 nil)
@@ -129,7 +131,7 @@ entry!('torralba2008million',
 nil)
 
 entry!('lecuyer2019certified',
-       inproceedings('In IEEE Symposium on Security and Privacy (SP)', 2019), 
+       inproceedings('In IEEE Symposium on Security and Privacy (SP)', 2019),
        title('Certified robustness to adversarial examples with differential privacy'),
        author('Mathias Lecuyer and Vaggelis Atlidakis and Roxana Geambasu and Daniel Hsu and Suman Jana'),
        nil)
@@ -160,7 +162,7 @@ entry!('xie2019unsupervised',
 nil)
 
 entry!('laine2017temporal',
-  iclr(2017), 
+  iclr(2017),
   title('Temporal ensembling for semi-supervised learning'),
   author('Samuli Laine and Timo Aila'),
 nil)
@@ -199,15 +201,9 @@ entry!('montasser2019vc',
 nil)
 
 entry!('bubeck2019adversarial',
-  icml(2019), 
+  icml(2019),
   title('Adversarial examples from computational constraints'),
   author('Sebastien Bubeck and Eric Price and Ilya Razenshteyn'),
-nil)
-
-entry!('degwekar2019computational',
-  arxiv(2019, '1902.01086'),
-  title('Computational Limitations in Robust Classification and Win-Win Results'),
-  author('Akshay Degwekar and Vinod Vaikuntanathan'),
 nil)
 
 entry!('gilmer2018adversarial',
@@ -217,14 +213,14 @@ entry!('gilmer2018adversarial',
 nil)
 
 entry!('tsipras2019robustness',
-  iclr(2019), 
+  iclr(2019),
   title('Robustness may be at odds with accuracy'),
   author('Dimitris Tsipras and Shibani Santurkar and Logan Engstrom and Alexander Turner and Aleksander Madry'),
 nil)
 
 entry!('fawzi2018analysis',
   machineLearning(2018, 107),
-  title('Analysis of classifiers’ robustness to adversarial perturbations'),
+  title('Analysis of classifiers\' robustness to adversarial perturbations'),
   author('Alhussein Fawzi and Omar Fawzi and Pascal Frossard'),
   number(3),
   pages(481, 508),
@@ -252,11 +248,11 @@ entry!('papernot2018cleverhans',
   Vahid Behzadan and Karen Hambardzumyan and Zhishuai Zhang and
   Yi-Lin Juang and Zhi Li and Ryan Sheatsley and Abhibhav Garg and
   Jonathan Uesato and Willi Gierke and Yinpeng Dong and David Berthelot and
-  Paul Hendricks and Jonas Rauber and Rujun Long'), 
+  Paul Hendricks and Jonas Rauber and Rujun Long'),
 nil)
 
 entry!('netzer2011reading',
-       inproceedings('NIPS Workshop on Deep Learning and Unsupervised Feature Learning', 2011),  
+       inproceedings('NIPS Workshop on Deep Learning and Unsupervised Feature Learning', 2011),
        title('Reading Digits in Natural Images with Unsupervised Feature Learning '),
   author('Netzer, Yuval and Wang, Tao and Coates, Adam and Bissacco, Alessandro and Wu, Bo and Ng, Andrew Y'),
 nil)
@@ -268,7 +264,7 @@ entry!('loshchilov2017sgdr',
 nil)
 
 entry!('uesato2019are',
-  arxiv(2019, '1905.13725'),
+  nips(2019),
   title('Are Labels Required for Improving Adversarial Robustness?'),
   author('Jonathan Uesato and Jean-Baptiste Alayrac and Po-Sen Huang and Robert Stanforth and Alhussein Fawzi and Pushmeet Kohli'),
 nil)
@@ -292,7 +288,7 @@ entry!('khim2018adversarial',
 nil)
 
 entry!('najafi2019robustness',
-  arxiv(2019, '1905.13021'),
+  nips(2019),
   title('Robustness to Adversarial Perturbations in Learning from Incomplete Data'),
   author('Amir Najafi and Shin-ichi Maeda and Masanori Koyama and Takeru Miyato'),
 nil)
@@ -344,7 +340,7 @@ entry!('engstrom2019exploring',
 nil)
 
 entry!('yang2019invariance',
-  arxiv(2019, '1906.11235'),
+  nips(2019),
   title('Invariance-inducing regularization using worst-case transformations suffices to boost accuracy and spatial robustness'),
   author('Fanny Yang and Zuowen Wang and Christina Heinze-Deml'),
 nil)
@@ -372,6 +368,11 @@ entry!('zoph2016neural',
   title('Neural architecture search with reinforcement learning'),
   author('Barret Zoph and Quoc V Le'),
 nil)
+entry!('cubuk2017intriguing',
+  arxiv(2017, '1711.02846'),
+  title('Intriguing properties of adversarial examples'),
+  author('Ekin D Cubuk and Barret Zoph and Samuel S Schoenholz and Quoc V Le'),
+  nil)
 
 entry!('scudder1965probability',
   infotheory(1965, 11),
@@ -463,7 +464,13 @@ entry!('biggio2018wild',
 nil)
 
 entry!('yin2019fourier',
-  arxiv(2019, '1906.08988'),
-  title('A fourier perspective on model robustness in computer vision'),
-  author('Dong Yin and Raphael Gontijo Lopes and Jonathon Shlens and Ekin D Cubuk and Justin Gilmer'),
+   arxiv(2019, '1906.08988'),
+   title('A fourier perspective on model robustness in computer vision'),
+   author('Dong Yin and Raphael Gontijo Lopes and Jonathon Shlens and Ekin D Cubuk and Justin Gilmer'),
+   nil)
+
+entry!('degwekar2019computational',
+   colt(2019),
+   title('Computational Limitations in Robust Classification and Win-Win Results'),
+   author('Akshay Degwekar and Preetum Nakkiran and Vinod Vaikuntanathan'),
 nil)

@@ -1,6 +1,27 @@
 ############################################################
 # 2020
 
+entry!('sagawa2020group',
+  title('Distributionally Robust Neural Networks for Group Shifts: On the Importance of Regularization for Worst-Case Generalization'),
+  author('Shiori Sagawa and Pang Wei Koh and Tatsunori B. Hashimoto and Percy Liang'),
+  iclr(2020),
+  url('https://arxiv.org/pdf/1911.08731.pdf'),
+nil)
+
+entry!('hu2020pretraining',
+  title('Strategies for Pre-training Graph Neural Networks'),
+  author('Weihua Hu and Bowen Liu and Joseph Gomes and Marinka Zitnik and Percy Liang and Vijay Pande and Jure Leskovec'),
+  iclr(2020),
+  url('https://arxiv.org/pdf/1905.12265.pdf'),
+nil)
+
+entry!('coleman2020selection',
+  title('Selection via Proxy: Efficient Data Selection for Deep Learning'),
+  author('Cody Coleman and Christopher Yeh and Stephen Mussmann and Baharan Mirzasoleiman and Peter Bailis and Percy Liang and Jure Leskovec and Matei Zaharia'),
+  iclr(2020),
+  url('https://openreview.net/pdf?id=HJg2b0VYDr'),
+nil)
+
 entry!('li2020greedy',
   title('A Tight Analysis of Greedy Yields Subexponential Time Approximation for Uniform Decision Tree'),
   author('Ray Li and Percy Liang and Stephen Mussmann'),
@@ -10,6 +31,13 @@ nil)
 
 ############################################################
 # 2019
+
+entry!('mu2019shaping',
+  title('Shaping Visual Representations with Language for Few-shot Classification'),
+  author('Jesse Mu and Percy Liang and Noah Goodman'),
+  arxiv(2019, '1911.02683'),
+  url('https://arxiv.org/pdf/1911.02683.pdf'),
+nil)
 
 entry!('jia2019certified',
   title('Certified Robustness to Adversarial Word Substitutions'),
@@ -33,6 +61,7 @@ entry!('hewitt2019control',
   emnlp(2019),
   url('https://arxiv.org/pdf/1909.03368.pdf'),
   codalab('0xb0c351d6f1ac4c51b54f1023786bf6b2'),
+  award('Best paper runner up'),
 nil)
 
 entry!('kulal2019spoc',
@@ -67,18 +96,18 @@ entry!('koh2019influence',
   codalab('0x43e8ecea53bf4186a7992c9028409320'),
 nil)
 
+entry!('lee2019autocomplete',
+  title('Learning Autocomplete Systems as a Communication Game'),
+  author('Mina Lee and Tatsunori Hashimoto and Percy Liang'),
+  inproceedings('Emergent Communication Workshop at Neural Information Processing Systems (NeurIPS)', 2019),
+  url('https://arxiv.org/pdf/1911.06964.pdf'),
+nil)
+
 entry!('raghunathan2019hurt',
   title('Adversarial Training Can Hurt Generalization'),
   author('Aditi Raghunathan and Sang Michael Xie and Fanny Yang and John C. Duchi and Percy Liang'),
   arxiv(2019, '1906.06032'),
   url('https://arxiv.org/pdf/1906.06032.pdf'),
-nil)
-
-entry!('hu2019pretraining',
-  title('Pre-training Graph Neural Networks'),
-  author('Weihua Hu and Bowen Liu and Joseph Gomes and Marinka Zitnik and Percy Liang and Vijay S. Pande and Jure Leskovec'),
-  arxiv(2019, '1905.12265'),
-  url('https://arxiv.org/pdf/1905.12265.pdf'),
 nil)
 
 entry!('khani2019mwld',
@@ -890,6 +919,8 @@ entry!('golland2010pragmatics',
   author('Dave Golland and Percy Liang and Dan Klein'),
   title('A Game-theoretic Approach to Generating Spatial Descriptions'),
   pages(410, 419),
+  url('pragmatics-emnlp2010.pdf'),
+  slidesurl('pragmatics-emnlp2010-talk.pdf'),
 nil)
 
 entry!('angeli10generation',

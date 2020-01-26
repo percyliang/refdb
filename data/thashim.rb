@@ -657,12 +657,6 @@ entry!('duchi2018learning',
        author('John Duchi and Hongseok Namkoong'),
        nil)
 
-entry!('devlin2018BERT',
-      arxiv(2018,'1810.04805'),
-      title('BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding'),
-      author('Jacob Devlin and Ming-Wei Chang and Kenton Lee and Kristina Toutanova'),
-      nil)
-
 entry!('vaswani2013decoding',
       emnlp(2013),
       title('Decoding with Large-Scale Neural Language Models Improves Translation'),
@@ -859,22 +853,10 @@ entry!('shafieezadeh2015distributionally',
        nips(2015),
        nil)
 
-entry!('blanchet2016quantifying',
-       author('Jose Blanchet and Karthyek Murthy'),
-       title('Quantifying Distributional Model Risk Via Optimal Transport'),
-       arxiv(2016, '1605.01446'),
-       nil)
-
 entry!('lee2017minimax',
        author('Jaeho Lee and Maxim Raginsky'),
        title('Minimax Statistical Learning and Domain Adaptation with Wasserstein Distances'),
        arxiv(2017, '1705.07815'),
-       nil)
-
-entry!('heinze2017grouping',
-       author('Christina Heinze-Deml and Nicolai Meinshausen'),
-       title('Grouping-By-ID: Guarding Against Adversarial Domain Shifts'),
-       arxiv(2017,'1710.11469'),
        nil)
 
 entry!('duchi2019distributionally',

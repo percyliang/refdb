@@ -70,3 +70,15 @@ entry!('kovanic1979pseudoinverse',
   article('Kybernetika', 1979, 15),
 nil)
 
+entry!('berthelot2019mixmatch',
+  author('David Berthelot and Nicholas Carlini and Ian Goodfellow and Nicolas Papernot and Avital Oliver and Colin Raffel'),
+  title('MixMatch: A Holistic Approach to Semi-Supervised Learning'),
+  arxiv(2019),
+nil)
+
+entry!('belkin2019two',
+  author('Mikhail Belkin and Daniel Hsu and Ji Xu'),
+  title('Two models of double descent for weak features'),
+  arxiv(2019),
+nil)
+
