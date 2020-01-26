@@ -149,3 +149,9 @@ entry!('ullman2018physics',
   author('Tomer D. Ullman and Andreas Stuhmuller and Noah D. Goodman and Joshua B. Tenenbaum'),
   inproceedings('Cognitive Psychology', 2018),
   nil)
+
+entry!('van2013confounder',
+  title('On the definition of a confounder'),
+  author('Tyler J. VanderWeele and Ilya Shpitser'),
+  inproceedings('Annals of Statistics', 2013),
+  nil)
