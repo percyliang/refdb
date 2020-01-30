@@ -155,3 +155,9 @@ entry!('van2013confounder',
   author('Tyler J. VanderWeele and Ilya Shpitser'),
   inproceedings('Annals of Statistics', 2013),
   nil)
+
+entry!('jarvik1991nicotine',
+  title('Beneficial effects of nicotine'),
+  author('Murray E. Jarvik'),
+  inproceedings('British Journal of Addiction', 1991),
+  nil)
