@@ -1304,3 +1304,12 @@ entry!('ioffe2015batch',
   author('Sergey Ioffe and Christian Szegedy'),
   pages(448, 456),
 nil)
+
+entry!('lecun2015deep',
+  article('Nature', 2015, 521),
+  title('Deep Learning'),
+  titleHash('Deep Learning (article)'),
+  author('Yann LeCun and Yoshua Bengio and Geoffrey Hinton'),
+  number(7553),
+  publisher('Nature Publishing Group'),
+nil)
