@@ -1313,3 +1313,39 @@ entry!('lecun2015deep',
   number(7553),
   publisher('Nature Publishing Group'),
 nil)
+
+
+entry!('lampert2009learning',
+  cvpr(2009),
+  title('Learning to detect unseen object classes by between-class attribute transfer'),
+  author('Christoph H Lampert and Hannes Nickisch and Stefan Harmeling'),
+  pages(951, 958),
+  organization('IEEE'),
+nil)
+
+entry!('kim2018interpretability',
+  icml(2018),
+  title('Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV)'),
+  author('Been Kim and Martin Wattenberg and Justin Gilmer and Carrie Cai and James Wexler and Fernanda Viegas and others'),
+  pages(2668, 2677),
+nil)
+
+entry!('bau2017network',
+  inproceedings('Proceedings of the IEEE conference on computer vision and pattern recognition', 2017),
+  title('Network dissection: Quantifying interpretability of deep visual representations'),
+  author('David Bau and Bolei Zhou and Aditya Khosla and Aude Oliva and Antonio Torralba'),
+  pages(6541, 6549),
+nil)
+
+entry!('fong2017interpretable',
+  iccv(2017),
+  title('Interpretable explanations of black boxes by meaningful perturbation'),
+  author('Ruth C Fong and Andrea Vedaldi'),
+  pages(3429, 3437),
+nil)
+
+entry!('nevitt2006osteoarthritis',
+  article('Cohort study protocol', 2006),
+  title('The {O}steoarthritis {I}nitiative'),
+  author('M Nevitt and David T Felson and Gayle Lester'),
+nil)
