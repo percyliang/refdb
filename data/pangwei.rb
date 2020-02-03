@@ -1372,3 +1372,12 @@ entry!('kellgren1957radiological',
   number(4),
   publisher('BMJ Publishing Group'),
 nil)
+
+entry!('tiulpin2018automatic',
+  article('Scientific reports', 2018, 8),
+  title('Automatic knee osteoarthritis diagnosis from plain radiographs: A deep learning-based approach'),
+  author('Aleksei Tiulpin and J{\\\'e}r{\^o}me Thevenot and Esa Rahtu and Petri Lehenkari and Simo Saarakkala'),
+  number(1),
+  pages(1, 10),
+  publisher('Nature Publishing Group'),
+nil)
