@@ -1346,6 +1346,29 @@ nil)
 
 entry!('nevitt2006osteoarthritis',
   article('Cohort study protocol', 2006),
-  title('The {O}steoarthritis {I}nitiative'),
+  title('The {Osteoarthritis Initiative}'),
   author('M Nevitt and David T Felson and Gayle Lester'),
+nil)
+
+entry!('pierson2019using',
+  article('NBER Machine Learning and Healthcare Conference', 2019),
+  title('Using machine learning to understand racial and socioeconomic differences in knee pain'),
+  author('Emma Pierson and David Cutler and Jure Leskovec and Sendhil Mullainathan and Ziad Obermeyer'),
+nil)
+
+entry!('kohn2016classifications',
+  article('Clinical orthopaedics and related research', 2016, 474),
+  title('Classifications in Brief: {Kellgren-Lawrence} Classification of Osteoarthritis'),
+  author('MD Kohn and AA Sassoon and ND Fernando'),
+  number(8),
+  pages(1886, 1893),
+  publisher('Association of Bone and Joint Surgeons'),
+nil)
+
+entry!('kellgren1957radiological',
+  article('Annals of the rheumatic diseases', 1957, 16),
+  title('Radiological assessment of osteo-arthrosis'),
+  author('JH Kellgren and JS Lawrence'),
+  number(4),
+  publisher('BMJ Publishing Group'),
 nil)
