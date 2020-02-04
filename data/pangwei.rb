@@ -1381,3 +1381,10 @@ entry!('tiulpin2018automatic',
   pages(1, 10),
   publisher('Nature Publishing Group'),
 nil)
+
+entry!('melis2018towards',
+  nips(2018),
+  title('Towards robust interpretability with self-explaining neural networks'),
+  author('David Alvarez Melis and Tommi Jaakkola'),
+  pages(7775, 7784),
+nil)
