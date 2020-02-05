@@ -257,7 +257,7 @@ entry!('sugiyama2007covariate',
 nil)
 
 entry!('shu2018dirtt',
-  title('A dirt-t Approach to Unsupervised Domain Adaptation'),
+  title('A {DIRT}-{T} Approach to Unsupervised Domain Adaptation'),
   author('Rui Shu and Hung H. Bui and Hirokazu Narui and Stefano Ermon'),
   iclr(2018),
 nil)
@@ -266,4 +266,42 @@ entry!('zhao2019zhao',
   title('On Learning Invariant Representation for Domain Adaptation'),
   author('Han Zhao and Remi Tachet des Combes and Kun Zhang and Geoffrey J. Gordon'),
   icml(2019),
+nil)
+
+entry!('ginosar2017portraits',
+  article('IEEE Transactions on Computational Imaging', 2017, 3),
+  author('Shiry Ginosar and Kate Rakelly and Sarah M. Sachs and Brian Yin and Crystal Lee and Philipp Krähenbühl and Alexei A. Efros'),
+  title('A Century of Portraits: A Visual Historical Record of American High School Yearbooks'),
+nil)
+
+entry!('luo2019towards',
+  title('Towards Understanding Regularization in Batch Normalization'),
+  author('Ping Luo and Xinjiang Wang and Wenqi Shao and Zhanglin Peng'),
+  iclr(2019),
+nil)
+
+entry!('fralick1967learning',
+  article('IEEE Transactions on Information Theory', 1967, 13),
+  author('Stanley C. Fralick'),
+  title('Learning to recognize patterns without a teacher'),
+nil)
+
+entry!('agrawala1970learning',
+  article('IEEE Transactions on Information Theory', 1970, 16),
+  author('Ashok K. Agrawala'),
+  title('Learning with a probabilistic teacher'),
+  pages(373, 379),
+nil)
+
+entry!('celeux1992classification',
+  article('Computational Statistics & Data Analysis', 1992, 14),
+  author('Gilles Celeux and Gérard Govaert'),
+  title('A classification {EM} algorithm for clustering and two stochastic versions'),
+  pages(315, 332),
+nil)
+
+entry!('sohn2020fixmatch',
+  title('FixMatch: Simplifying Semi-Supervised Learning with Consistency and Confidence'),
+  author('Kihyuk Sohn and David Berthelot and Chun-Liang Li and Zizhao Zhang and Nicholas Carlini and Ekin D. Cubuk and Alex Kurakin and Han Zhang and Colin Raffel'),
+  arxiv(2020),
 nil)
