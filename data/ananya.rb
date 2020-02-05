@@ -186,3 +186,24 @@ entry!('vaicenavicius2019calibration',
   author('Juozas Vaicenavicius and David Widmann and Carl Andersson and Fredrik Lindsten and Jacob Roll and  Thomas B. Schön'),
   aistats(2019),
 nil)
+
+entry!('vergara2012Chemical',
+  article('Journal of the American Statistical Association', 2012, 166-167),
+  author('Alexander Vergara and Shankar Vembu and Tuba Ayhan and Margaret A. Ryan and Margie L. Homer and Ramón Huerta'),
+  title('Chemical gas sensor drift compensation using classifier ensembles'),
+  pages(320, 329),
+nil)
+
+entry!('bobu2018adapting',
+  title('Adapting to Continuously Shifting Domains'),
+  author('Andreea Bobu and Eric Tzeng and Judy Hoffman and Trevor Darrell'),
+  iclrWorkshop(2018),
+nil)
+
+entry!('farshchian2019adversarial',
+  title('Adversarial Domain Adaptation for Stable Brain-Machine Interfaces'),
+  author('Ali Farshchian and Juan A. Gallego and Joseph P. Cohen and Yoshua Bengio and Lee E. Miller and Sara A. Solla'),
+  iclr(2019),
+nil)
+
+
