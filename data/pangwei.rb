@@ -1388,3 +1388,57 @@ entry!('melis2018towards',
   author('David Alvarez Melis and Tommi Jaakkola'),
   pages(7775, 7784),
 nil)
+
+entry!('de2018clinically',
+  article('Nature medicine', 2018, 24),
+  title('Clinically applicable deep learning for diagnosis and referral in retinal disease'),
+  author('Jeffrey De Fauw and Joseph R Ledsam and Bernardino Romera-Paredes and Stanislav Nikolov and Nenad Tomasev and Sam Blackwell and Harry Askham and Xavier Glorot and Brendan O’Donoghue and Daniel Visentin and others'),
+  number(9),
+  pages(1342, 1350),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('yi2018neural',
+  nips(2018),
+  title('Neural-symbolic vqa: Disentangling reasoning from vision and language understanding'),
+  author('Kexin Yi and Jiajun Wu and Chuang Gan and Antonio Torralba and Pushmeet Kohli and Josh Tenenbaum'),
+  pages(1031, 1042),
+nil)
+
+entry!('zhou2018interpretable',
+  eccv(2018),
+  title('Interpretable basis decomposition for visual explanation'),
+  author('Bolei Zhou and Yiyou Sun and David Bau and Antonio Torralba'),
+  pages(119, 134),
+nil)
+
+entry!('huang2016part',
+  inproceedings('Proceedings of the IEEE conference on computer vision and pattern recognition', 2016),
+  title('Part-stacked cnn for fine-grained visual categorization'),
+  author('Shaoli Huang and Zhe Xu and Dacheng Tao and Ya Zhang'),
+  pages(1173, 1182),
+nil)
+
+entry!('sundararajan2017axiomatic',
+  icml(2017),
+  title('Axiomatic attribution for deep networks'),
+  author('Mukund Sundararajan and Ankur Taly and Qiqi Yan'),
+  pages(3319, 3328),
+  organization('JMLR. org'),
+nil)
+
+entry!('bengio2013representation',
+  article('IEEE transactions on pattern analysis and machine intelligence', 2013, 35),
+  title('Representation learning: A review and new perspectives'),
+  author('Yoshua Bengio and Aaron Courville and Pascal Vincent'),
+  number(8),
+  pages(1798, 1828),
+  publisher('IEEE'),
+nil)
+
+entry!('cui2018large',
+  inproceedings('Proceedings of the IEEE conference on computer vision and pattern recognition', 2018),
+  title('Large scale fine-grained categorization and domain-specific transfer learning'),
+  author('Yin Cui and Yang Song and Chen Sun and Andrew Howard and Serge Belongie'),
+  pages(4109, 4118),
+nil)
