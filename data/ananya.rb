@@ -305,3 +305,40 @@ entry!('sohn2020fixmatch',
   author('Kihyuk Sohn and David Berthelot and Chun-Liang Li and Zizhao Zhang and Nicholas Carlini and Ekin D. Cubuk and Alex Kurakin and Han Zhang and Colin Raffel'),
   arxiv(2020),
 nil)
+
+entry!('rigollet2007generalization',
+  title('Generalization Error Bounds in Semi-supervised Classification Under the Cluster Assumption'),
+  author('Philippe Rigollet'),
+  jmlr(2007, 8),
+  pages(1369, 1392),
+nil)
+
+entry!('singh2008unlabeled',
+  title('Unlabeled data: Now it helps, now it doesn\'t'),
+  author('Aarti Singh and Robert Nowak and Jerry Zhu'),
+  nips(2008),
+nil)
+
+entry!('shai2008unlabeled',
+  title('Does Unlabeled Data Provably Help? Worst-case Analysis of the Sample Complexity of Semi-Supervised Learning'),
+  author('Shai Ben-David and Tyler Lu and David Pal'),
+  colt(2008),
+nil)
+
+entry!('hoffman2018cycada',
+  title('CyCADA: Cycle Consistent Adversarial Domain Adaptation'),
+  author('Judy Hoffman and Eric Tzeng and Taesung Park and Jun-Yan Zhu and Phillip Isola and Kate Saenko and Alexei A. Efros and Trevor Darrell'),
+  icml(2018),
+nil)
+
+entry!('peng2019moment',
+  title('Moment Matching for Multi-Source Domain Adaptation'),
+  author('Xingchao Peng and Qinxun Bai and Xide Xia and Zijun Huang and Kate Saenko and Bo Wang'),
+  iccv(2019),
+nil)
+
+entry!('bartlett1992learning',
+  title('Learning with a slowly changing distribution'),
+  author('Peter L. Bartlett'),
+  colt(1992),
+nil)
