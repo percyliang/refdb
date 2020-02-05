@@ -206,4 +206,33 @@ entry!('farshchian2019adversarial',
   iclr(2019),
 nil)
 
+entry!('amini2003semisupervised',
+  title('Semi-Supervised Learning with Explicit Misclassification Modeling'),
+  author('Massih-Reza Amini and Patrick Gallinari'),
+  ijcai(2003),
+nil)
 
+entry!('hoffman2014continuous',
+  title('Continuous Manifold Based Adaptation for Evolving Visual Domains'),
+  author('Judy Hoffman and Trevor Darrell and Kate Saenko'),
+  cvpr(2014),
+nil)
+
+entry!('bartlett2000learning',
+  title('Learning Changing Concepts by Exploiting the Structure of Change'),
+  author('Peter L. Bartlett, Shai Ben-David & Sanjeev R. Kulkarni'),
+  machineLearning(2000, 41),
+nil)
+
+entry!('sethi2017reliable',
+  article('Expert Systems with Applications', 2017, 82),
+  author('Tegjyot Singh Sethi and Mehmed Kantardzic'),
+  title('On the reliable detection of concept drift from streaming unlabeled data'),
+  pages(77, 99),
+nil)
+
+entry!('gama2014survey',
+  article('ACM Computing Surveys (CSUR)', 2014, 46),
+  author('Gama, João and Žliobaitė, Indrė and Bifet, Albert and Pechenizkiy, Mykola and Bouchachia, Hamid'),
+  title('A Survey on Concept Drift Adaptation'),
+nil)
