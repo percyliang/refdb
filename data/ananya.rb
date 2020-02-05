@@ -186,3 +186,122 @@ entry!('vaicenavicius2019calibration',
   author('Juozas Vaicenavicius and David Widmann and Carl Andersson and Fredrik Lindsten and Jacob Roll and  Thomas B. Schön'),
   aistats(2019),
 nil)
+
+entry!('vergara2012Chemical',
+  article('Journal of the American Statistical Association', 2012, 166-167),
+  author('Alexander Vergara and Shankar Vembu and Tuba Ayhan and Margaret A. Ryan and Margie L. Homer and Ramón Huerta'),
+  title('Chemical gas sensor drift compensation using classifier ensembles'),
+  pages(320, 329),
+nil)
+
+entry!('bobu2018adapting',
+  title('Adapting to Continuously Shifting Domains'),
+  author('Andreea Bobu and Eric Tzeng and Judy Hoffman and Trevor Darrell'),
+  iclrWorkshop(2018),
+nil)
+
+entry!('farshchian2019adversarial',
+  title('Adversarial Domain Adaptation for Stable Brain-Machine Interfaces'),
+  author('Ali Farshchian and Juan A. Gallego and Joseph P. Cohen and Yoshua Bengio and Lee E. Miller and Sara A. Solla'),
+  iclr(2019),
+nil)
+
+entry!('amini2003semisupervised',
+  title('Semi-Supervised Learning with Explicit Misclassification Modeling'),
+  author('Massih-Reza Amini and Patrick Gallinari'),
+  ijcai(2003),
+nil)
+
+entry!('hoffman2014continuous',
+  title('Continuous Manifold Based Adaptation for Evolving Visual Domains'),
+  author('Judy Hoffman and Trevor Darrell and Kate Saenko'),
+  cvpr(2014),
+nil)
+
+entry!('bartlett2000learning',
+  title('Learning Changing Concepts by Exploiting the Structure of Change'),
+  author('Peter L. Bartlett, Shai Ben-David & Sanjeev R. Kulkarni'),
+  machineLearning(2000, 41),
+nil)
+
+entry!('sethi2017reliable',
+  article('Expert Systems with Applications', 2017, 82),
+  author('Tegjyot Singh Sethi and Mehmed Kantardzic'),
+  title('On the reliable detection of concept drift from streaming unlabeled data'),
+  pages(77, 99),
+nil)
+
+entry!('gama2014survey',
+  article('ACM Computing Surveys (CSUR)', 2014, 46),
+  author('Gama, João and Žliobaitė, Indrė and Bifet, Albert and Pechenizkiy, Mykola and Bouchachia, Hamid'),
+  title('A Survey on Concept Drift Adaptation'),
+nil)
+
+entry!('xie2020selftraining',
+  title('Self-training with Noisy Student improves ImageNet classification'),
+  author('Qizhe Xie and Minh-Thang Luong and Eduard Hovy and Quoc V. Le'),
+  arxiv(2020),
+nil)
+
+entry!('huang2006correcting',
+  title('Correcting Sample Selection Bias by Unlabeled Data'),
+  author('Huang, Jiayuan and Smola, Alexander J. and Gretton, Arthur and Borgwardt, Karsten M. and Scholkopf, Bernhard'),
+  nips(2006),
+nil)
+
+entry!('sugiyama2007covariate',
+  title('Covariate Shift Adaptation by Importance Weighted Cross Validation'),
+  author('Masashi Sugiyama and Matthias Krauledat and Klaus-Robert Muller'),
+  jmlr(2007, 8),
+  pages(985, 1005),
+nil)
+
+entry!('shu2018dirtt',
+  title('A {DIRT}-{T} Approach to Unsupervised Domain Adaptation'),
+  author('Rui Shu and Hung H. Bui and Hirokazu Narui and Stefano Ermon'),
+  iclr(2018),
+nil)
+
+entry!('zhao2019zhao',
+  title('On Learning Invariant Representation for Domain Adaptation'),
+  author('Han Zhao and Remi Tachet des Combes and Kun Zhang and Geoffrey J. Gordon'),
+  icml(2019),
+nil)
+
+entry!('ginosar2017portraits',
+  article('IEEE Transactions on Computational Imaging', 2017, 3),
+  author('Shiry Ginosar and Kate Rakelly and Sarah M. Sachs and Brian Yin and Crystal Lee and Philipp Krähenbühl and Alexei A. Efros'),
+  title('A Century of Portraits: A Visual Historical Record of American High School Yearbooks'),
+nil)
+
+entry!('luo2019towards',
+  title('Towards Understanding Regularization in Batch Normalization'),
+  author('Ping Luo and Xinjiang Wang and Wenqi Shao and Zhanglin Peng'),
+  iclr(2019),
+nil)
+
+entry!('fralick1967learning',
+  article('IEEE Transactions on Information Theory', 1967, 13),
+  author('Stanley C. Fralick'),
+  title('Learning to recognize patterns without a teacher'),
+nil)
+
+entry!('agrawala1970learning',
+  article('IEEE Transactions on Information Theory', 1970, 16),
+  author('Ashok K. Agrawala'),
+  title('Learning with a probabilistic teacher'),
+  pages(373, 379),
+nil)
+
+entry!('celeux1992classification',
+  article('Computational Statistics & Data Analysis', 1992, 14),
+  author('Gilles Celeux and Gérard Govaert'),
+  title('A classification {EM} algorithm for clustering and two stochastic versions'),
+  pages(315, 332),
+nil)
+
+entry!('sohn2020fixmatch',
+  title('FixMatch: Simplifying Semi-Supervised Learning with Consistency and Confidence'),
+  author('Kihyuk Sohn and David Berthelot and Chun-Liang Li and Zizhao Zhang and Nicholas Carlini and Ekin D. Cubuk and Alex Kurakin and Han Zhang and Colin Raffel'),
+  arxiv(2020),
+nil)

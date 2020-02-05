@@ -161,3 +161,9 @@ entry!('jarvik1991nicotine',
   author('Murray E. Jarvik'),
   inproceedings('British Journal of Addiction', 1991),
   nil)
+
+entry!('van2012effect',
+  title('Confounding and effect modification: distribution and measure'),
+  author('Tyler J. VanderWeele'),
+  inproceedings('Epidemiologic Methods', 2012),
+  nil)
