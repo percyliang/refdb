@@ -236,3 +236,34 @@ entry!('gama2014survey',
   author('Gama, João and Žliobaitė, Indrė and Bifet, Albert and Pechenizkiy, Mykola and Bouchachia, Hamid'),
   title('A Survey on Concept Drift Adaptation'),
 nil)
+
+entry!('xie2020selftraining',
+  title('Self-training with Noisy Student improves ImageNet classification'),
+  author('Qizhe Xie and Minh-Thang Luong and Eduard Hovy and Quoc V. Le'),
+  arxiv(2020),
+nil)
+
+entry!('huang2006correcting',
+  title('Correcting Sample Selection Bias by Unlabeled Data'),
+  author('Huang, Jiayuan and Smola, Alexander J. and Gretton, Arthur and Borgwardt, Karsten M. and Scholkopf, Bernhard'),
+  nips(2006),
+nil)
+
+entry!('sugiyama2007covariate',
+  title('Covariate Shift Adaptation by Importance Weighted Cross Validation'),
+  author('Masashi Sugiyama and Matthias Krauledat and Klaus-Robert Muller'),
+  jmlr(2007, 8),
+  pages(985, 1005),
+nil)
+
+entry!('shu2018dirtt',
+  title('A dirt-t Approach to Unsupervised Domain Adaptation'),
+  author('Rui Shu and Hung H. Bui and Hirokazu Narui and Stefano Ermon'),
+  iclr(2018),
+nil)
+
+entry!('zhao2019zhao',
+  title('On Learning Invariant Representation for Domain Adaptation'),
+  author('Han Zhao and Remi Tachet des Combes and Kun Zhang and Geoffrey J. Gordon'),
+  icml(2019),
+nil)
