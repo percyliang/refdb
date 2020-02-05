@@ -342,3 +342,16 @@ entry!('bartlett1992learning',
   author('Peter L. Bartlett'),
   colt(1992),
 nil)
+
+entry!('gadermayr2018gradual',
+  author('Gadermayr, Michael and Eschweiler, Dennis and Klinkhammer, Barbara Mara and Boor, Peter and Merhof, Dorit'),
+  title('Gradual Domain Adaptation for Segmenting Whole Slide Images Showing Pathological Variability'),
+  inproceedings('Image and Signal Processing', 2018),
+nil)
+
+entry!('wulfmeier2018incremental',
+  title('Incremental Adversarial Domain Adaptation for Continually Changing Environments'),
+  author('Wulfmeier, Markus and Bewley, Alex and Posner, Ingmar'),
+  icra(2018),
+nil)
+
