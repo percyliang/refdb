@@ -355,3 +355,20 @@ entry!('wulfmeier2018incremental',
   icra(2018),
 nil)
 
+entry!('hinton2015distilling',
+  title('Distilling the Knowledge in a Neural Network'),
+  author('Geoffrey Hinton and Oriol Vinyals and Jeffrey Dean'),
+  inproceedings('NIPS Deep Learning and Representation Learning Workshop', 2015),
+nil)
+
+entry!('sun2017revisiting',
+  title('Revisiting Unreasonable Effectiveness of Data in Deep Learning Era'),
+  author('Chen Sun and Abhinav Shrivastava and Saurabh Singh1 and Abhinav Gupta'),
+  iccv(2017),
+nil)
+
+entry!('hendrycks2017natural',
+  title('Natural Adversarial Examples'),
+  author('Dan Hendrycks and Kevin Zhao and Steven Basart and Jacob Steinhardt and Dawn Song'),
+  iccv(2017),
+nil)
