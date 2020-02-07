@@ -77,7 +77,6 @@ entry!('goel2016stopandfrisk',
   title('Precinct or Prejudice? Understanding Racial Disparities in New York City\'s Stop-and-Frisk Policy'),
   author('Sharad Goel and Justin M. Rao and Ravi Shroff'),
   inproceedings('The Annals of Applied Statistics', 2016),
-  year(2016),
   nil)
 
 entry!('roemmele2011copa',
@@ -104,7 +103,6 @@ entry!('zhao2016teen',
   author('Jessie Zhao and May Lau and David Vermette and David Liang and Glenn Flores'),
   title('Communication Between Asian American Adolescents and Health Care Providers About Sexual Activity, Sexually Transmitted Infections, and Pregnancy Prevention'),
   inproceedings('Journal of Adolescent Research', 2016),
-  year(2016),
 nil)
 
 entry!('zech2018radio',
