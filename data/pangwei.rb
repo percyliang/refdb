@@ -1442,3 +1442,34 @@ entry!('cui2018large',
   author('Yin Cui and Yang Song and Chen Sun and Andrew Howard and Serge Belongie'),
   pages(4109, 4118),
 nil)
+
+entry!('zelenko2003kernel',
+  article('Journal of machine learning research', 2003, 3),
+  title('Kernel methods for relation extraction'),
+  author('Dmitry Zelenko and Chinatsu Aone and Anthony Richardella'),
+  number('Feb'),
+  pages(1083, 1106),
+nil)
+
+entry!('bunescu2005shortest',
+  inproceedings('Proceedings of the conference on human language technology and empirical methods in natural language processing', 2005),
+  title('A shortest path dependency kernel for relation extraction'),
+  author('Razvan C Bunescu and Raymond J Mooney'),
+  pages(724, 731),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('sutton2005joint',
+  conll(2005),
+  title('Joint Parsing and Semantic Role Labeling'),
+  author('Charles Sutton and Andrew McCallum'),
+  organization('Citeseer'),
+nil)
+
+entry!('lindley1956measure',
+  article('The Annals of Mathematical Statistics', 1956),
+  title('On a measure of the information provided by an experiment'),
+  author('Dennis V Lindley'),
+  pages(986, 1005),
+  publisher('JSTOR'),
+nil)
