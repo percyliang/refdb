@@ -632,3 +632,15 @@ entry!('scholkopf1999support',
   author('Bernhard Sch{\"o}lkopf and Robert Williamson and Alex Smola and John Shawe-Taylor and John Platt'),
   neurips(1999),
 nil)
+
+entry!('gillick2019learning',
+  title('Learning Dense Representations for Entity Retrieval'),
+  author('Daniel Gillick and Sayali Kulkarni and Larry Lansing and Alessandro Presta and Jason Baldridge and Eugene Ie and Diego Garcia-Olano'),
+  conll(2019),
+nil)
+
+entry!('lee2019latent',
+  title('Latent Retrieval for Weakly Supervised Open Domain Question Answering'),
+  author('Kenton Lee and Ming-Wei Chang and Kristina Toutanova'),
+  acl(2019),
+nil)
