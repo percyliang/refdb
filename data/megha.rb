@@ -167,3 +167,15 @@ entry!('van2012effect',
   author('Tyler J. VanderWeele'),
   inproceedings('Epidemiologic Methods', 2012),
   nil)
+
+entry!('angrist2009econometrics',
+  title('Mostly Harmless Econometrics: An Empiricist\'s Companian'),
+  author('Joashua D. Angrist and Jorn-Steffen Pischke'),
+  book('Princeton University Press', 2009),
+  nil)
+
+entry!('van2015causal',
+  title('Explanation in Causal Inference: Methods for Mediation and Interaction'),
+  author('Tyler J. VanderWeele'),
+  book('Oxford University Press', 2015),
+  nil)
