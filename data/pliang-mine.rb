@@ -839,7 +839,7 @@ entry!('ramanathan2013event',
 nil)
 
 entry!('sharma13algebraic',
-  author('Rahul Sharma and Saurabh Gupta and Bharath Hariharan and Alex Aiken and Percy Liang and and Aditya V. Nori'),
+  author('Rahul Sharma and Saurabh Gupta and Bharath Hariharan and Alex Aiken and Percy Liang and Aditya V. Nori'),
   title('A Data Driven Approach for Algebraic Loop Invariants'),
   inproceedings('European Symposium on Programming (ESOP)', 2013),
   url('algebraic-esop2013.pdf'),
