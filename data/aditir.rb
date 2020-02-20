@@ -463,8 +463,68 @@ entry!('biggio2018wild',
   publisher('Elsevier'),
 nil)
 
+entry!('yin2019fourier',
+   arxiv(2019, '1906.08988'),
+   title('A fourier perspective on model robustness in computer vision'),
+   author('Dong Yin and Raphael Gontijo Lopes and Jonathon Shlens and Ekin D Cubuk and Justin Gilmer'),
+   nil)
+
 entry!('degwekar2019computational',
-  colt(2019),
-  title('Computational Limitations in Robust Classification and Win-Win Results'),
-  author('Akshay Degwekar and Preetum Nakkiran and Vinod Vaikuntanathan'),
+   colt(2019),
+   title('Computational Limitations in Robust Classification and Win-Win Results'),
+   author('Akshay Degwekar and Preetum Nakkiran and Vinod Vaikuntanathan'),
+nil)
+
+entry!('advani2017high',
+  arxiv(2017, '1710.03667'),
+  title('High-dimensional dynamics of generalization error in neural networks'),
+  author('Madhu S Advani and Andrew M Saxe'),
+nil)
+
+entry!('nakkiran2019deep',
+  arxiv(2019, '1912.02292'),
+  title('Deep double descent: Where bigger models and more data hurt'),
+  author('Preetum Nakkiran and Gal Kaplun and Yamini Bansal and Tristan Yang and Boaz Barak and Ilya Sutskever'),
+nil)
+
+entry!('opper1995statistical',
+  article('The Handbook of Brain Theory and Neural Networks,', 1995),
+  title('Statistical mechanics of learning: Generalization'),
+  author('Manfred Opper'),
+  pages(922, 925),
+nil)
+
+entry!('belkin2019reconciling',
+  science(2019, 116),
+  title('Reconciling modern machine-learning practice and the classical bias--variance trade-off'),
+  author('Mikhail Belkin and Daniel Hsu and Siyuan Ma and Soumik Mandal'),
+  number(32),
+  publisher('National Acad Sciences'),
+nil)
+
+entry!('mei2019generalization',
+  arxiv(2019, '1908.05355'),
+  title('The generalization error of random features regression: Precise asymptotics and double descent curve'),
+  author('Song Mei and Andrea Montanari'),
+nil)
+
+entry!('du2018power',
+  arxiv(2018, '1803.01206'),
+  title('On the power of over-parametrization in neural networks with quadratic activation'),
+  author('Simon S Du and Jason D Lee'),
+nil)
+
+entry!('nguyen2017loss',
+  icml(2017),
+  title('The loss surface of deep and wide neural networks'),
+  author('Quynh Nguyen and Matthias Hein'),
+  pages(2603, 2612),
+  organization('JMLR. org'),
+nil)
+
+entry!('arora2018optimization',
+  icml(2018),
+  title('On the Optimization of Deep Networks: Implicit Acceleration by Overparameterization'),
+  author('Sanjeev Arora and Nadav Cohen and Elad Hazan'),
+  pages(244, 253),
 nil)

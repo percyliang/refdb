@@ -1304,3 +1304,172 @@ entry!('ioffe2015batch',
   author('Sergey Ioffe and Christian Szegedy'),
   pages(448, 456),
 nil)
+
+entry!('lecun2015deep',
+  article('Nature', 2015, 521),
+  title('Deep Learning'),
+  titleHash('Deep Learning (article)'),
+  author('Yann LeCun and Yoshua Bengio and Geoffrey Hinton'),
+  number(7553),
+  publisher('Nature Publishing Group'),
+nil)
+
+
+entry!('lampert2009learning',
+  cvpr(2009),
+  title('Learning to detect unseen object classes by between-class attribute transfer'),
+  author('Christoph H Lampert and Hannes Nickisch and Stefan Harmeling'),
+  pages(951, 958),
+  organization('IEEE'),
+nil)
+
+entry!('kim2018interpretability',
+  icml(2018),
+  title('Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV)'),
+  author('Been Kim and Martin Wattenberg and Justin Gilmer and Carrie Cai and James Wexler and Fernanda Viegas and others'),
+  pages(2668, 2677),
+nil)
+
+entry!('bau2017network',
+  inproceedings('Proceedings of the IEEE conference on computer vision and pattern recognition', 2017),
+  title('Network dissection: Quantifying interpretability of deep visual representations'),
+  author('David Bau and Bolei Zhou and Aditya Khosla and Aude Oliva and Antonio Torralba'),
+  pages(6541, 6549),
+nil)
+
+entry!('fong2017interpretable',
+  iccv(2017),
+  title('Interpretable explanations of black boxes by meaningful perturbation'),
+  author('Ruth C Fong and Andrea Vedaldi'),
+  pages(3429, 3437),
+nil)
+
+entry!('nevitt2006osteoarthritis',
+  article('Cohort study protocol', 2006),
+  title('The {Osteoarthritis Initiative}'),
+  author('M Nevitt and David T Felson and Gayle Lester'),
+nil)
+
+entry!('pierson2019using',
+  article('NBER Machine Learning and Healthcare Conference', 2019),
+  title('Using machine learning to understand racial and socioeconomic differences in knee pain'),
+  author('Emma Pierson and David Cutler and Jure Leskovec and Sendhil Mullainathan and Ziad Obermeyer'),
+nil)
+
+entry!('kohn2016classifications',
+  article('Clinical orthopaedics and related research', 2016, 474),
+  title('Classifications in Brief: {Kellgren-Lawrence} Classification of Osteoarthritis'),
+  author('MD Kohn and AA Sassoon and ND Fernando'),
+  number(8),
+  pages(1886, 1893),
+  publisher('Association of Bone and Joint Surgeons'),
+nil)
+
+entry!('kellgren1957radiological',
+  article('Annals of the rheumatic diseases', 1957, 16),
+  title('Radiological assessment of osteo-arthrosis'),
+  author('JH Kellgren and JS Lawrence'),
+  number(4),
+  publisher('BMJ Publishing Group'),
+nil)
+
+entry!('tiulpin2018automatic',
+  article('Scientific reports', 2018, 8),
+  title('Automatic knee osteoarthritis diagnosis from plain radiographs: A deep learning-based approach'),
+  author('Aleksei Tiulpin and J{\\\'e}r{\^o}me Thevenot and Esa Rahtu and Petri Lehenkari and Simo Saarakkala'),
+  number(1),
+  pages(1, 10),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('melis2018towards',
+  nips(2018),
+  title('Towards robust interpretability with self-explaining neural networks'),
+  author('David Alvarez Melis and Tommi Jaakkola'),
+  pages(7775, 7784),
+nil)
+
+entry!('de2018clinically',
+  article('Nature medicine', 2018, 24),
+  title('Clinically applicable deep learning for diagnosis and referral in retinal disease'),
+  author('Jeffrey De Fauw and Joseph R Ledsam and Bernardino Romera-Paredes and Stanislav Nikolov and Nenad Tomasev and Sam Blackwell and Harry Askham and Xavier Glorot and Brendan O’Donoghue and Daniel Visentin and others'),
+  number(9),
+  pages(1342, 1350),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('yi2018neural',
+  nips(2018),
+  title('Neural-symbolic vqa: Disentangling reasoning from vision and language understanding'),
+  author('Kexin Yi and Jiajun Wu and Chuang Gan and Antonio Torralba and Pushmeet Kohli and Josh Tenenbaum'),
+  pages(1031, 1042),
+nil)
+
+entry!('zhou2018interpretable',
+  eccv(2018),
+  title('Interpretable basis decomposition for visual explanation'),
+  author('Bolei Zhou and Yiyou Sun and David Bau and Antonio Torralba'),
+  pages(119, 134),
+nil)
+
+entry!('huang2016part',
+  inproceedings('Proceedings of the IEEE conference on computer vision and pattern recognition', 2016),
+  title('Part-stacked cnn for fine-grained visual categorization'),
+  author('Shaoli Huang and Zhe Xu and Dacheng Tao and Ya Zhang'),
+  pages(1173, 1182),
+nil)
+
+entry!('sundararajan2017axiomatic',
+  icml(2017),
+  title('Axiomatic attribution for deep networks'),
+  author('Mukund Sundararajan and Ankur Taly and Qiqi Yan'),
+  pages(3319, 3328),
+  organization('JMLR. org'),
+nil)
+
+entry!('bengio2013representation',
+  article('IEEE transactions on pattern analysis and machine intelligence', 2013, 35),
+  title('Representation learning: A review and new perspectives'),
+  author('Yoshua Bengio and Aaron Courville and Pascal Vincent'),
+  number(8),
+  pages(1798, 1828),
+  publisher('IEEE'),
+nil)
+
+entry!('cui2018large',
+  inproceedings('Proceedings of the IEEE conference on computer vision and pattern recognition', 2018),
+  title('Large scale fine-grained categorization and domain-specific transfer learning'),
+  author('Yin Cui and Yang Song and Chen Sun and Andrew Howard and Serge Belongie'),
+  pages(4109, 4118),
+nil)
+
+entry!('zelenko2003kernel',
+  article('Journal of machine learning research', 2003, 3),
+  title('Kernel methods for relation extraction'),
+  author('Dmitry Zelenko and Chinatsu Aone and Anthony Richardella'),
+  number('Feb'),
+  pages(1083, 1106),
+nil)
+
+entry!('bunescu2005shortest',
+  inproceedings('Proceedings of the conference on human language technology and empirical methods in natural language processing', 2005),
+  title('A shortest path dependency kernel for relation extraction'),
+  author('Razvan C Bunescu and Raymond J Mooney'),
+  pages(724, 731),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('sutton2005joint',
+  conll(2005),
+  title('Joint Parsing and Semantic Role Labeling'),
+  author('Charles Sutton and Andrew McCallum'),
+  organization('Citeseer'),
+nil)
+
+entry!('lindley1956measure',
+  article('The Annals of Mathematical Statistics', 1956),
+  title('On a measure of the information provided by an experiment'),
+  author('Dennis V Lindley'),
+  pages(986, 1005),
+  publisher('JSTOR'),
+nil)
