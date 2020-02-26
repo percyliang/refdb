@@ -218,12 +218,6 @@ entry!('hoffman2014continuous',
   cvpr(2014),
 nil)
 
-entry!('bartlett2000learning',
-  title('Learning Changing Concepts by Exploiting the Structure of Change'),
-  author('Peter L. Bartlett, Shai Ben-David & Sanjeev R. Kulkarni'),
-  machineLearning(2000, 41),
-nil)
-
 entry!('sethi2017reliable',
   article('Expert Systems with Applications', 2017, 82),
   author('Tegjyot Singh Sethi and Mehmed Kantardzic'),
@@ -371,4 +365,28 @@ entry!('hendrycks2017natural',
   title('Natural Adversarial Examples'),
   author('Dan Hendrycks and Kevin Zhao and Steven Basart and Jacob Steinhardt and Dawn Song'),
   iccv(2017),
+nil)
+
+entry!('uesato2019rigorous',
+  title('Rigorous Agent Evaluation: An Adversarial Approach to Uncover Catastrophic Failures'),
+  author('Jonathan Uesato and Ananya Kumar and Csaba Szepesvari and Tom Erez and Avraham Ruderman and Keith Anderson and Krishmamurthy (Dj) Dvijotham and Nicolas Heess and Pushmeet Kohli'),
+  iclr(2019),
+nil)
+
+entry!('raghunathan2020understanding',
+  title('Understanding and Mitigating the Tradeoff Between Robustness and Accuracy'),
+  author('Aditi Raghunathan and Sang Michael Xie and Fanny Yang and John C. Duchi and Percy Liang'),
+  arxiv(2020),
+nil)
+
+entry!('bartlett1996learning',
+  title('Learning Changing Concepts by Exploiting the Structure of Change'),
+  author('Peter L. Bartlett and Shai Ben-David and Sanjeev R. Kulkarni'),
+  machineLearning(1996, 41),
+nil)
+
+entry!('kramer1988learning',
+  title('Learning despite distribution shift'),
+  author('Alan H. Kramer'),
+  inproceedings('Connectionist Models Summer School', 1988),
 nil)

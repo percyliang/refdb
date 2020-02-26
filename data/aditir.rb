@@ -189,7 +189,7 @@ entry!('zhu2003semi',
 nil)
 
 entry!('lee2013pseudo',
-  icml(2013),
+  inproceedings('ICML Workshop on Challenges in Representation Learning', 2013),
   title('Pseudo-label: The simple and efficient semi-supervised learning method for deep neural networks'),
   author('Dong-Hyun Lee'),
 nil)
