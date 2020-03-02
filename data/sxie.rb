@@ -90,6 +90,6 @@ entry!('shwartz2006ranking',
 
 entry!('duchi2008projections',
   author('J. Duchi and S. Shalev-Shwartz and Y. Singer and T. Chandra'),
-  title('Efficient Projections onto the ℓ1-Ball for Learning in High Dimensions'),
+  title('Efficient Projections onto the l1-Ball for Learning in High Dimensions'),
   icml(2008),
 )
