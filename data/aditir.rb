@@ -528,11 +528,3 @@ entry!('arora2018optimization',
   author('Sanjeev Arora and Nadav Cohen and Elad Hazan'),
   pages(244, 253),
 nil)
-
-entry!('diamond2016cvxpy',
-  jmlr(2016, 17),
-  title('CVXPY: A Python-Embedded Modeling Language for Convex Optimization'),
-  author('S. Diamond and S. Boyd'), 
-  pages(1, 5), 
-nil)
-
