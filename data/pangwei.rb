@@ -1473,3 +1473,12 @@ entry!('lindley1956measure',
   pages(986, 1005),
   publisher('JSTOR'),
 nil)
+
+entry!('japkowicz2002class',
+  article('Intelligent data analysis', 2002, 6),
+  title('The class imbalance problem: A systematic study'),
+  author('Nathalie Japkowicz and Shaju Stephen'),
+  number(5),
+  pages(429, 449),
+  publisher('IOS Press'),
+nil)
