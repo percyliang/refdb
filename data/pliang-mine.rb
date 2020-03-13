@@ -1,7 +1,7 @@
 ############################################################
 # 2020
 
-entry!('raghunathan2020tradeoff',
+entry!('raghunathan2020understanding',
   title('Understanding and Mitigating the Tradeoff Between Robustness and Accuracy'),
   author('Aditi Raghunathan and Sang Michael Xie and Fanny Yang and John C. Duchi and Percy Liang'),
   arxiv(2020, '2002.10716'),
