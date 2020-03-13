@@ -1,6 +1,20 @@
 ############################################################
 # 2020
 
+entry!('raghunathan2020tradeoff',
+  title('Understanding and Mitigating the Tradeoff Between Robustness and Accuracy'),
+  author('Aditi Raghunathan and Sang Michael Xie and Fanny Yang and John C. Duchi and Percy Liang'),
+  arxiv(2020, '2002.10716'),
+  url('https://arxiv.org/pdf/2002.10716.pdf'),
+nil)
+
+entry!('kumar2020gradual',
+  title('Understanding Self-Training for Gradual Domain Adaptation'),
+  author('Ananya Kumar and Tengyu Ma and Percy Liang'),
+  arxiv(2020, '2002.11361'),
+  url('https://arxiv.org/pdf/2002.11361.pdf'),
+nil)
+
 entry!('sagawa2020group',
   title('Distributionally Robust Neural Networks for Group Shifts: On the Importance of Regularization for Worst-Case Generalization'),
   author('Shiori Sagawa and Pang Wei Koh and Tatsunori B. Hashimoto and Percy Liang'),
@@ -31,6 +45,13 @@ nil)
 
 ############################################################
 # 2019
+
+entry!('khani2019noise',
+  title('Noise Induces Loss Discrepancy Across Groups for Linear Regression'),
+  author('Fereshte Khani and Percy Liang'),
+  arxiv(2019, '1911.09876'),
+  url('https://arxiv.org/pdf/1911.09876.pdf'),
+nil)
 
 entry!('mu2019shaping',
   title('Shaping Visual Representations with Language for Few-shot Classification'),
