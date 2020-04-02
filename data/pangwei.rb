@@ -1482,3 +1482,9 @@ entry!('japkowicz2002class',
   pages(429, 449),
   publisher('IOS Press'),
 nil)
+
+entry!('arjovsky2019invariant',
+  arxiv(2019, '1907.02893'),
+  title('Invariant risk minimization'),
+  author('Martin Arjovsky and L{\\\'e}on Bottou and Ishaan Gulrajani and David Lopez-Paz'),
+nil)
