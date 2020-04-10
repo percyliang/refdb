@@ -82,3 +82,14 @@ entry!('belkin2019two',
   arxiv(2019),
 nil)
 
+entry!('schwartz2006ranking',
+  author('S. Shalev-Schwartz and Y. Singer'),
+  title('Efficient learning of label ranking by soft projections onto polyhedra'),
+  jmlr(2006, 7),
+)
+
+entry!('duchi2008projections',
+  author('J. Duchi and S. Shalev-Shwartz and Y. Singer and T. Chandra'),
+  title('Efficient Projections onto the l1-Ball for Learning in High Dimensions'),
+  icml(2008),
+)
