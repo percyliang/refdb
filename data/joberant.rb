@@ -916,3 +916,19 @@ entry!('garder2019qaforamt',
   url('https://arxiv.org/pdf/1909.11291.pdf'),
   nil)
 
+entry!('talmor2019olmpics',
+  title('oLMpics - On what Language Model Pre-training Captures'),
+  arxiv(2019, '1912.13283'),
+  author('Alon Talmor and Yanai Elazar and Yoav Goldberg and Jonathan Berant'),
+  url('https://arxiv.org/pdf/1912.13283.pdf'),
+  nil)
+
+entry!('wolfson2020break',
+  tacl(2020, 8),
+  title('Break It Down: A Question Understanding Benchmark'),
+  author('Tomer Wolfson and Mor Geva and Ankit Gupta and Matt Gardner and Yoav Goldberg and Daniel Deutch and Jonathan Berant'),
+  url('https://arxiv.org/pdf/2001.11770.pdf'),
+  project('https://allenai.github.io/Break/'),
+  code('https://github.com/allenai/Break'),
+  nil)
+
