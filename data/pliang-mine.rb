@@ -361,7 +361,7 @@ nil)
 entry!('demszky2018transforming',
   author('Dorottya Demszky and Kelvin Guu and Percy Liang'),
   title('Transforming Question Answering Datasets Into Natural Language Inference Datasets'),
-  arxiv(2018, '1809.02922.pdf'),
+  arxiv(2018, '1809.02922'),
 nil)
 
 ############################################################
