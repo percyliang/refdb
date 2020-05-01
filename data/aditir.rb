@@ -528,3 +528,12 @@ entry!('arora2018optimization',
   author('Sanjeev Arora and Nadav Cohen and Elad Hazan'),
   pages(244, 253),
 nil)
+
+entry!('soudry2018implicit',
+  jmlr(2018, 19),
+  title('The implicit bias of gradient descent on separable data'),
+  author('Daniel Soudry and Elad Hoffer and Mor Shpigel Nacson and Suriya Gunasekar and Nathan Srebro'),
+  number(1),
+  pages(2822, 2878),
+  publisher('JMLR. org'),
+nil)
