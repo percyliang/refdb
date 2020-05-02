@@ -644,3 +644,9 @@ entry!('lee2019latent',
   author('Kenton Lee and Ming-Wei Chang and Kristina Toutanova'),
   acl(2019),
 nil)
+
+entry!('ovadia2019uncertainty',
+  title('Can You Trust Your Model\'s Uncertainty? Evaluating Predictive Uncertainty Under Dataset Shift'),
+  author('Yaniv Ovadia and Emily Fertig and Jie Ren and Zachary Nado and D Sculley and Sebastian Nowozin and Joshua V. Dillon and Balaji Lakshminarayanan and Jasper Snoek'),
+  neurips(2019),
+nil)
