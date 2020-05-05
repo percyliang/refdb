@@ -361,10 +361,10 @@ entry!('sun2017revisiting',
   iccv(2017),
 nil)
 
-entry!('hendrycks2017natural',
-  title('Natural Adversarial Examples'),
+entry!('hendrycks2019natural',
+  arxiv(2019, '1907.07174'),
+  title('Natural adversarial examples'),
   author('Dan Hendrycks and Kevin Zhao and Steven Basart and Jacob Steinhardt and Dawn Song'),
-  iccv(2017),
 nil)
 
 entry!('uesato2019rigorous',

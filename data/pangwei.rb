@@ -1488,3 +1488,15 @@ entry!('arjovsky2019invariant',
   title('Invariant risk minimization'),
   author('Martin Arjovsky and L{\\\'e}on Bottou and Ishaan Gulrajani and David Lopez-Paz'),
 nil)
+
+entry!('hendrycks2019benchmarking',
+  arxiv(2019, '1903.12261'),
+  title('Benchmarking neural network robustness to common corruptions and perturbations'),
+  author('Dan Hendrycks and Thomas Dietterich'),
+nil)
+
+entry!('yang2020rethinking',
+  arxiv(2020, '2002.11328'),
+  title('Rethinking bias-variance trade-off for generalization of neural networks'),
+  author('Zitong Yang and Yaodong Yu and Chong You and Jacob Steinhardt and Yi Ma'),
+nil)
