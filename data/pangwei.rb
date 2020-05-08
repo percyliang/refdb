@@ -1500,3 +1500,10 @@ entry!('yang2020rethinking',
   title('Rethinking bias-variance trade-off for generalization of neural networks'),
   author('Zitong Yang and Yaodong Yu and Chong You and Jacob Steinhardt and Yi Ma'),
 nil)
+
+entry!('rosset2004margin',
+  inproceedings('Advances in neural information processing systems', 2004),
+  title('Margin maximizing loss functions'),
+  author('Saharon Rosset and Ji Zhu and Trevor J Hastie'),
+  pages(1237, 1244),
+nil)
