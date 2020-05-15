@@ -650,3 +650,21 @@ entry!('ovadia2019uncertainty',
   author('Yaniv Ovadia and Emily Fertig and Jie Ren and Zachary Nado and D Sculley and Sebastian Nowozin and Joshua V. Dillon and Balaji Lakshminarayanan and Jasper Snoek'),
   neurips(2019),
 nil)
+
+entry!('nie2019adversarial',
+  title('Adversarial NLI: A New Benchmark for Natural Language Understanding'),
+  author('Yixin Nie and Adina Williams and Emily Dinan and Mohit Bansal and Jason Weston and Douwe Kiela'),
+  arxiv(2019, '1910.14599'),
+nil)
+
+entry!('glockner2018breaking',
+  title('Breaking {NLI} Systems with Sentences that Require Simple Lexical Inferences'),
+  author('Max Glockner and Vered Shwartz and Yoav Goldberg'),
+  acl(2018),
+nil)
+
+entry!('shi2020robustness',
+  title('Robustness Verification for Transformers'),
+  author('Zhouxing Shi and Huan Zhang and Kai-Wei Chang and Minlie Huang and Cho-Jui Hsieh'),
+  iclr(2020),
+nil)
