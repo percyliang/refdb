@@ -668,3 +668,9 @@ entry!('shi2020robustness',
   author('Zhouxing Shi and Huan Zhang and Kai-Wei Chang and Minlie Huang and Cho-Jui Hsieh'),
   iclr(2020),
 nil)
+
+entry!('garg2018robust',
+  title('A Spectral View of Adversarially Robust Features'),
+  author('Shivam Garg and Vatsal Sharan and Brian Hu Zhang and Gregory Valiant'),
+  neurips(2018),
+nil)
