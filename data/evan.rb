@@ -524,3 +524,9 @@ entry!('kamienny2020learning',
   title('Learning Adaptive Exploration Strategies in Dynamic Environments Through Informed Policy Regularization'),
   author('Pierre-Alexandre Kamienny and Matteo Pirotta and Alessandro Lazaric and Thibault Lavril and Nicolas Usunier and Ludovic Denoyer'),
 nil)
+
+entry!('barber2003algorithm',
+  inproceedings('Advances in neural information processing systems', 2003),
+  title('The {IM} algorithm: a variational approach to information maximization'),
+  author('David Barber and Felix V Agakov'),
+nil)
