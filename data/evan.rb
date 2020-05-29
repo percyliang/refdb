@@ -518,3 +518,9 @@ entry!('schmidhuber1987evolutionary',
   title('Evolutionary principles in self-referential learning, or on learning how to learn: the meta-meta-... hook'),
   author('J{\"u}rgen Schmidhuber'),
 nil)
+
+entry!('kamienny2020learning',
+  arxiv(2020, '2005.02934'),
+  title('Learning Adaptive Exploration Strategies in Dynamic Environments Through Informed Policy Regularization'),
+  author('Pierre-Alexandre Kamienny and Matteo Pirotta and Alessandro Lazaric and Thibault Lavril and Nicolas Usunier and Ludovic Denoyer'),
+nil)
