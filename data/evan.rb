@@ -576,3 +576,81 @@ entry!('warde2018unsupervised',
   title('Unsupervised control through non-parametric discriminative rewards'),
   author('David Warde-Farley and Tom Van de Wiele and Tejas Kulkarni and Catalin Ionescu and Steven Hansen and Volodymyr Mnih'),
 nil)
+
+entry!('thrun2012learning',
+  title('Learning to learn'),
+  author('Sebastian Thrun and Lorien Pratt'),
+  book('Springer Science \& Business Media', 2012),
+  publisher('Springer Science \& Business Media'),
+nil)
+
+entry!('naik1992meta',
+  inproceedings('[Proceedings 1992] IJCNN International Joint Conference on Neural Networks', 1992),
+  title('Meta-neural networks that learn by learning'),
+  author('Devang K Naik and Richard J Mammone'),
+  volume(1),
+  pages(437, 442),
+  organization('IEEE'),
+nil)
+
+entry!('bengio1992optimization',
+  inproceedings('Preprints Conf. Optimality in Artificial and Biological Neural Networks', 1992),
+  title('On the optimization of a synaptic learning rule'),
+  author('Samy Bengio and Yoshua Bengio and Jocelyn Cloutier and Jan Gecsei'),
+  volume(2),
+  organization('Univ. of Texas'),
+nil)
+
+entry!('hochreiter2001learning',
+  icann(2001),
+  title('Learning to learn using gradient descent'),
+  author('Sepp Hochreiter and A Steven Younger and Peter R Conwell'),
+  pages(87, 94),
+  organization('Springer'),
+nil)
+
+entry!('schmidhuber1992learning',
+  article('Neural Computation', 1992, 4),
+  title('Learning to control fast-weight memories: An alternative to dynamic recurrent networks'),
+  author('J{\"u}rgen Schmidhuber'),
+  number(1),
+  pages(131, 139),
+  publisher('MIT Press'),
+nil)
+
+entry!('andrychowicz2016learning',
+  inproceedings('Advances in neural information processing systems', 2016),
+  title('Learning to learn by gradient descent by gradient descent'),
+  author('Marcin Andrychowicz and Misha Denil and Sergio Gomez and Matthew W Hoffman and David Pfau and Tom Schaul and Brendan Shillingford and Nando De Freitas'),
+  pages(3981, 3989),
+nil)
+
+entry!('younger2001meta',
+  inproceedings('IJCNN\'01. International Joint Conference on Neural Networks. Proceedings (Cat. No. 01CH37222)', 2001),
+  title('Meta-learning with backpropagation'),
+  author('A Steven Younger and Sepp Hochreiter and Peter R Conwell'),
+  volume(3),
+  organization('IEEE'),
+nil)
+
+entry!('santoro2016one',
+  arxiv(2016, '1605.06065'),
+  title('One-shot learning with memory-augmented neural networks'),
+  author('Adam Santoro and Sergey Bartunov and Matthew Botvinick and Daan Wierstra and Timothy Lillicrap'),
+nil)
+
+entry!('vinyals2016matching',
+  inproceedings('Advances in neural information processing systems', 2016),
+  title('Matching networks for one shot learning'),
+  author('Oriol Vinyals and Charles Blundell and Timothy Lillicrap and Daan Wierstra and others'),
+  pages(3630, 3638),
+nil)
+
+entry!('bengio1991learning',
+  inproceedings('IJCNN-91-Seattle International Joint Conference on Neural Networks', 1991),
+  title('Learning a synaptic learning rule'),
+  author('Y Bengio and S Bengio and J Cloutier'),
+  volume(2),
+  pages(969, 969),
+  organization('IEEE'),
+nil)
