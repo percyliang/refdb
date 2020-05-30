@@ -542,3 +542,12 @@ entry!('ritter2018been',
   title('Been there, done that: Meta-learning with episodic recall'),
   author('Samuel Ritter and Jane X Wang and Zeb Kurth-Nelson and Siddhant M Jayakumar and Charles Blundell and Razvan Pascanu and Matthew Botvinick'),
 nil)
+
+entry!('kaelbling1998planning',
+  article('Artificial intelligence', 1998, 101),
+  title('Planning and acting in partially observable stochastic domains'),
+  author('Leslie Pack Kaelbling and Michael L Littman and Anthony R Cassandra'),
+  number('1-2'),
+  pages(99, 134),
+  publisher('Elsevier'),
+nil)
