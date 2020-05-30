@@ -776,10 +776,57 @@ entry!('bechavod2017penalizing',
   author('Yahav Bechavod and Katrina Ligett'),
 nil)
 
+entry!('clarke2005phantom',
+  article('Conflict management and peace science', 2005, 22),
+  title('The phantom menace: Omitted variable bias in econometric research'),
+  author('Kevin A Clarke'),
+  number(4),
+  pages(341, 352),
+  publisher('SAGE Publications Sage UK: London, England'),
+nil)
+
 entry!('canetti2019soft',
   inproceedings('Proceedings of the Conference on Fairness, Accountability, and Transparency', 2019),
   title('From soft classifiers to hard decisions: How fair can we be?'),
   author('Ran Canetti and Aloni Cohen and Nishanth Dikkala and Govind Ramnarayan and Sarah Scheffler and Adam Smith'),
   pages(309, 318),
   organization('ACM'),
+nil)
+
+entry!('gan2017equivalence',
+  article('Communications in Statistics-Theory and Methods', 2017, 46),
+  title('Equivalence of predictors under real and over-parameterized linear models'),
+  author('Shengjun Gan and Yuqin Sun and Yongge Tian'),
+  number(11),
+  pages(5368, 5383),
+  publisher('Taylor \& Francis'),
+nil)
+
+entry!('shah2018minimum',
+  article('stat', 2018, 1050),
+  title('Minimum norm solutions do not always generalize well for over-parameterized problems'),
+  author('Vatsal Shah and Anastasios Kyrillidis and Sujay Sanghavi'),
+nil)
+
+entry!('jung2018omitted',
+  arxiv(2018, '1809.05651'),
+  title('Omitted and Included Variable Bias in Tests for Disparate Impact'),
+  author('Jongbin Jung and Sam Corbett-Davies and Ravi Shroff and Sharad Goel'),
+nil)
+
+entry!('jammalamadaka2007inclusion',
+  article('Statistics \& probability letters', 2007, 77),
+  title('Inclusion and exclusion of data or parameters in the general linear model'),
+  author('S Rao Jammalamadaka and D Sengupta'),
+  number(12),
+  pages(1235, 1247),
+  publisher('Elsevier'),
+nil)
+
+entry!('haslett1996updating',
+  article('Linear algebra and its applications', 1996, 237),
+  title('Updating linear models with dependent errors to include additional data and/or parameters'),
+  author('Stephen Haslett'),
+  pages(329, 349),
+  publisher('Elsevier'),
 nil)

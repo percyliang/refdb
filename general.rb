@@ -239,6 +239,7 @@ class Entry
   def note; getFirst('note') end
   def metaTitle; getFirst('metaTitle') end
   def tags; get('tags') end
+  def titleHash; getFirst('titleHash') end
 
   def cite
     case author.names.size
@@ -267,7 +268,7 @@ def displayTitle(title)
   words.join(' ')
 end
 
-def field(n, *x)   Field.new(n, x)                              end
+def field(n, *x);     Field.new(n, x)                           end
 
 # Individual fields
 def id(x);            field('id', x)                            end
@@ -317,6 +318,7 @@ def data(x);            field('data', x)              end
 def project(x);         field('project', x)           end
 def codalab(x);         field('codalab', x)           end
 def demo(x);            field('demo', x)              end
+def titleHash(x);       field('titleHash', x)         end
 
 # Don't add these words to the set of generally capitalized words
 def unusualCapitalization(*x); field('unusualCapitalization', *x) end
@@ -430,7 +432,7 @@ def checkDuplicates(entries)
   map = {} # canonical title to entries
   errors = []
   entries.each { |entry|
-    canonicalTitle = entry.title.downcase.gsub(/[^a-z]/, '')
+    canonicalTitle = entry.titleHash || entry.title.downcase.gsub(/[^a-z]/, '')
     next if entry.getFirst('extendedVersion') # Ok for longer versions to have same titles
     (map[canonicalTitle] ||= []) << entry
   }

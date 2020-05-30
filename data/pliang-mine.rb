@@ -1,6 +1,41 @@
 ############################################################
 # 2020
 
+entry!('raghunathan2020understanding',
+  title('Understanding and Mitigating the Tradeoff Between Robustness and Accuracy'),
+  author('Aditi Raghunathan and Sang Michael Xie and Fanny Yang and John C. Duchi and Percy Liang'),
+  arxiv(2020, '2002.10716'),
+  url('https://arxiv.org/pdf/2002.10716.pdf'),
+nil)
+
+entry!('kumar2020gradual',
+  title('Understanding Self-Training for Gradual Domain Adaptation'),
+  author('Ananya Kumar and Tengyu Ma and Percy Liang'),
+  arxiv(2020, '2002.11361'),
+  url('https://arxiv.org/pdf/2002.11361.pdf'),
+nil)
+
+entry!('sagawa2020group',
+  title('Distributionally Robust Neural Networks for Group Shifts: On the Importance of Regularization for Worst-Case Generalization'),
+  author('Shiori Sagawa and Pang Wei Koh and Tatsunori B. Hashimoto and Percy Liang'),
+  iclr(2020),
+  url('https://arxiv.org/pdf/1911.08731.pdf'),
+nil)
+
+entry!('hu2020pretraining',
+  title('Strategies for Pre-training Graph Neural Networks'),
+  author('Weihua Hu and Bowen Liu and Joseph Gomes and Marinka Zitnik and Percy Liang and Vijay Pande and Jure Leskovec'),
+  iclr(2020),
+  url('https://arxiv.org/pdf/1905.12265.pdf'),
+nil)
+
+entry!('coleman2020selection',
+  title('Selection via Proxy: Efficient Data Selection for Deep Learning'),
+  author('Cody Coleman and Christopher Yeh and Stephen Mussmann and Baharan Mirzasoleiman and Peter Bailis and Percy Liang and Jure Leskovec and Matei Zaharia'),
+  iclr(2020),
+  url('https://openreview.net/pdf?id=HJg2b0VYDr'),
+nil)
+
 entry!('li2020greedy',
   title('A Tight Analysis of Greedy Yields Subexponential Time Approximation for Uniform Decision Tree'),
   author('Ray Li and Percy Liang and Stephen Mussmann'),
@@ -11,11 +46,11 @@ nil)
 ############################################################
 # 2019
 
-entry!('sagawa2019group',
-  title('Distributionally Robust Neural Networks for Group Shifts: On the Importance of Regularization for Worst-Case Generalization'),
-  author('Shiori Sagawa and Pang Wei Koh and Tatsunori B. Hashimoto and Percy Liang'),
-  arxiv(2019, '1911.08731'),
-  url('https://arxiv.org/pdf/1911.08731.pdf'),
+entry!('khani2019noise',
+  title('Noise Induces Loss Discrepancy Across Groups for Linear Regression'),
+  author('Fereshte Khani and Percy Liang'),
+  arxiv(2019, '1911.09876'),
+  url('https://arxiv.org/pdf/1911.09876.pdf'),
 nil)
 
 entry!('mu2019shaping',
@@ -82,18 +117,18 @@ entry!('koh2019influence',
   codalab('0x43e8ecea53bf4186a7992c9028409320'),
 nil)
 
+entry!('lee2019autocomplete',
+  title('Learning Autocomplete Systems as a Communication Game'),
+  author('Mina Lee and Tatsunori Hashimoto and Percy Liang'),
+  inproceedings('Emergent Communication Workshop at Neural Information Processing Systems (NeurIPS)', 2019),
+  url('https://arxiv.org/pdf/1911.06964.pdf'),
+nil)
+
 entry!('raghunathan2019hurt',
   title('Adversarial Training Can Hurt Generalization'),
   author('Aditi Raghunathan and Sang Michael Xie and Fanny Yang and John C. Duchi and Percy Liang'),
   arxiv(2019, '1906.06032'),
   url('https://arxiv.org/pdf/1906.06032.pdf'),
-nil)
-
-entry!('hu2019pretraining',
-  title('Pre-training Graph Neural Networks'),
-  author('Weihua Hu and Bowen Liu and Joseph Gomes and Marinka Zitnik and Percy Liang and Vijay S. Pande and Jure Leskovec'),
-  arxiv(2019, '1905.12265'),
-  url('https://arxiv.org/pdf/1905.12265.pdf'),
 nil)
 
 entry!('khani2019mwld',
@@ -326,7 +361,7 @@ nil)
 entry!('demszky2018transforming',
   author('Dorottya Demszky and Kelvin Guu and Percy Liang'),
   title('Transforming Question Answering Datasets Into Natural Language Inference Datasets'),
-  arxiv(2018, '1809.02922.pdf'),
+  arxiv(2018, '1809.02922'),
 nil)
 
 ############################################################
@@ -825,7 +860,7 @@ entry!('ramanathan2013event',
 nil)
 
 entry!('sharma13algebraic',
-  author('Rahul Sharma and Saurabh Gupta and Bharath Hariharan and Alex Aiken and Percy Liang and and Aditya V. Nori'),
+  author('Rahul Sharma and Saurabh Gupta and Bharath Hariharan and Alex Aiken and Percy Liang and Aditya V. Nori'),
   title('A Data Driven Approach for Algebraic Loop Invariants'),
   inproceedings('European Symposium on Programming (ESOP)', 2013),
   url('algebraic-esop2013.pdf'),
@@ -905,6 +940,8 @@ entry!('golland2010pragmatics',
   author('Dave Golland and Percy Liang and Dan Klein'),
   title('A Game-theoretic Approach to Generating Spatial Descriptions'),
   pages(410, 419),
+  url('pragmatics-emnlp2010.pdf'),
+  slidesurl('pragmatics-emnlp2010-talk.pdf'),
 nil)
 
 entry!('angeli10generation',

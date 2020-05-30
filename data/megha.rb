@@ -77,7 +77,6 @@ entry!('goel2016stopandfrisk',
   title('Precinct or Prejudice? Understanding Racial Disparities in New York City\'s Stop-and-Frisk Policy'),
   author('Sharad Goel and Justin M. Rao and Ravi Shroff'),
   inproceedings('The Annals of Applied Statistics', 2016),
-  year(2016),
   nil)
 
 entry!('roemmele2011copa',
@@ -104,7 +103,6 @@ entry!('zhao2016teen',
   author('Jessie Zhao and May Lau and David Vermette and David Liang and Glenn Flores'),
   title('Communication Between Asian American Adolescents and Health Care Providers About Sexual Activity, Sexually Transmitted Infections, and Pregnancy Prevention'),
   inproceedings('Journal of Adolescent Research', 2016),
-  year(2016),
 nil)
 
 entry!('zech2018radio',
@@ -132,3 +130,50 @@ entry!('kozor2014drug',
   inproceedings('PLos ONE', 2014),
   nil)
 
+entry!('schulz2008unobserved',
+  title('Going beyond the evidence: Abstract laws and preschoolers’ responses to anomalous data'),
+  author('Laura E. Schulz and Noah D. Goodman and Joshua B. Tenenbaum and Adrianna C. Jenkins'),
+  inproceedings('Cognition', 2008),
+  nil)
+
+entry!('saxe2007causal',
+  title('Knowing Who Dunnit: Infants Identify the Causal Agent in an Unseen Causal Interaction'),
+  author('Rebecca Saxe and Tania Tzelnic and Susan Carey'),
+  inproceedings('Developmental Psychology', 2007),
+  nil)
+
+entry!('ullman2018physics',
+  title('Learning physical parameters from dynamic scenes'),
+  author('Tomer D. Ullman and Andreas Stuhmuller and Noah D. Goodman and Joshua B. Tenenbaum'),
+  inproceedings('Cognitive Psychology', 2018),
+  nil)
+
+entry!('van2013confounder',
+  title('On the definition of a confounder'),
+  author('Tyler J. VanderWeele and Ilya Shpitser'),
+  inproceedings('Annals of Statistics', 2013),
+  nil)
+
+entry!('jarvik1991nicotine',
+  title('Beneficial effects of nicotine'),
+  author('Murray E. Jarvik'),
+  inproceedings('British Journal of Addiction', 1991),
+  nil)
+
+entry!('van2012effect',
+  title('Confounding and effect modification: distribution and measure'),
+  author('Tyler J. VanderWeele'),
+  inproceedings('Epidemiologic Methods', 2012),
+  nil)
+
+entry!('angrist2009econometrics',
+  title('Mostly Harmless Econometrics: An Empiricist\'s Companian'),
+  author('Joashua D. Angrist and Jorn-Steffen Pischke'),
+  book('Princeton University Press', 2009),
+  nil)
+
+entry!('van2015causal',
+  title('Explanation in Causal Inference: Methods for Mediation and Interaction'),
+  author('Tyler J. VanderWeele'),
+  book('Oxford University Press', 2015),
+  nil)

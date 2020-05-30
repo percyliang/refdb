@@ -887,7 +887,7 @@ entry!('bogin2019global',
 entry!('geva2019annotator',
   author('Mor Geva and Yoav Goldberg and Jonathan Berant'),
   emnlp(2019),
-  title('Are We Modeling the Task or the Annotator? An Investigation ofAnnotator Bias in Natural Language Understanding Datasets'),
+  title('Are We Modeling the Task or the Annotator? An Investigation of Annotator Bias in Natural Language Understanding Datasets'),
   url('https://arxiv.org/pdf/1908.07898.pdf'),
   code('https://github.com/mega002/annotator_bias'),
   nil)
@@ -906,6 +906,7 @@ entry!('koshorek2019active',
   author('Omri Koshorek and Gabriel Stanovsky and Yichu Zhou and Vivek Srikumar and Jonathan Berant'),
   code('https://github.com/koomri/LTAL_SR/'),
   url('https://arxiv.org/pdf/1910.02228.pdf'),
+  award('Best paper honorable mention'),
   nil)
 
 entry!('garder2019qaforamt',
@@ -913,5 +914,21 @@ entry!('garder2019qaforamt',
   arxiv(2019, '1909.11291'),
   author('Matt Gardner and Jonathan Berant and Hannaneh Hajishirzi and Alon Talmor and Sewon Min'),
   url('https://arxiv.org/pdf/1909.11291.pdf'),
+  nil)
+
+entry!('talmor2019olmpics',
+  title('oLMpics - On what Language Model Pre-training Captures'),
+  arxiv(2019, '1912.13283'),
+  author('Alon Talmor and Yanai Elazar and Yoav Goldberg and Jonathan Berant'),
+  url('https://arxiv.org/pdf/1912.13283.pdf'),
+  nil)
+
+entry!('wolfson2020break',
+  tacl(2020, 8),
+  title('Break It Down: A Question Understanding Benchmark'),
+  author('Tomer Wolfson and Mor Geva and Ankit Gupta and Matt Gardner and Yoav Goldberg and Daniel Deutch and Jonathan Berant'),
+  url('https://arxiv.org/pdf/2001.11770.pdf'),
+  project('https://allenai.github.io/Break/'),
+  code('https://github.com/allenai/Break'),
   nil)
 

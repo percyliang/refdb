@@ -53,6 +53,10 @@ To output an HTML file:
 
     ./generate.rb html out=all.html
 
+To output a text file:
+
+    ./generate.rb text out=all.txt
+
 To filter the entries:
 
     ./generate.rb html author='Percy Liang' title=Publications out=pliang.html

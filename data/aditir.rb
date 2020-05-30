@@ -49,16 +49,18 @@ entry!('gowal2018effectiveness',
   author('Sven Gowal and Krishnamurthy Dvijotham and Robert Stanforth and Rudy Bunel and Chongli Qin and Jonathan Uesato and Timothy Mann and Pushmeet Kohli'),
 nil)
 
-entry!('belinkov2017synthetic',
-  arxiv(2017, '1711.02173'),
+entry!('belinkov2018synthetic',
+  #arxiv(2017, '1711.02173'),
   title('Synthetic and natural noise both break neural machine translation'),
   author('Yonatan Belinkov and Yonatan Bisk'),
+  iclr(2018),
 nil)
 
-entry!('ebrahimi2017hotflip',
-  arxiv(2017, '1712.06751'),
+entry!('ebrahimi2018hotflip',
+  #arxiv(2017, '1712.06751'),
   title('Hotflip: White-box adversarial examples for text classification'),
   author('Javid Ebrahimi and Anyi Rao and Daniel Lowd and Dejing Dou'),
+  acl(2018),
 nil)
 
 entry!('tsipras2018there',
@@ -187,7 +189,7 @@ entry!('zhu2003semi',
 nil)
 
 entry!('lee2013pseudo',
-  icml(2013),
+  inproceedings('ICML Workshop on Challenges in Representation Learning', 2013),
   title('Pseudo-label: The simple and efficient semi-supervised learning method for deep neural networks'),
   author('Dong-Hyun Lee'),
 nil)
@@ -204,12 +206,6 @@ entry!('bubeck2019adversarial',
   author('Sebastien Bubeck and Eric Price and Ilya Razenshteyn'),
 nil)
 
-entry!('degwekar2019computational',
-  arxiv(2019, '1902.01086'),
-  title('Computational Limitations in Robust Classification and Win-Win Results'),
-  author('Akshay Degwekar and Vinod Vaikuntanathan'),
-nil)
-
 entry!('gilmer2018adversarial',
   arxiv(2018, '1801.02774'),
   title('Adversarial spheres'),
@@ -224,7 +220,7 @@ nil)
 
 entry!('fawzi2018analysis',
   machineLearning(2018, 107),
-  title('Analysis of classifiers’ robustness to adversarial perturbations'),
+  title('Analysis of classifiers\' robustness to adversarial perturbations'),
   author('Alhussein Fawzi and Omar Fawzi and Pascal Frossard'),
   number(3),
   pages(481, 508),
@@ -268,7 +264,7 @@ entry!('loshchilov2017sgdr',
 nil)
 
 entry!('uesato2019are',
-  arxiv(2019, '1905.13725'),
+  nips(2019),
   title('Are Labels Required for Improving Adversarial Robustness?'),
   author('Jonathan Uesato and Jean-Baptiste Alayrac and Po-Sen Huang and Robert Stanforth and Alhussein Fawzi and Pushmeet Kohli'),
 nil)
@@ -292,7 +288,7 @@ entry!('khim2018adversarial',
 nil)
 
 entry!('najafi2019robustness',
-  arxiv(2019, '1905.13021'),
+  nips(2019),
   title('Robustness to Adversarial Perturbations in Learning from Incomplete Data'),
   author('Amir Najafi and Shin-ichi Maeda and Masanori Koyama and Takeru Miyato'),
 nil)
@@ -465,4 +461,79 @@ entry!('biggio2018wild',
   author('Battista Biggio and Fabio Roli'),
   pages(317, 331),
   publisher('Elsevier'),
+nil)
+
+entry!('yin2019fourier',
+   arxiv(2019, '1906.08988'),
+   title('A fourier perspective on model robustness in computer vision'),
+   author('Dong Yin and Raphael Gontijo Lopes and Jonathon Shlens and Ekin D Cubuk and Justin Gilmer'),
+   nil)
+
+entry!('degwekar2019computational',
+   colt(2019),
+   title('Computational Limitations in Robust Classification and Win-Win Results'),
+   author('Akshay Degwekar and Preetum Nakkiran and Vinod Vaikuntanathan'),
+nil)
+
+entry!('advani2017high',
+  arxiv(2017, '1710.03667'),
+  title('High-dimensional dynamics of generalization error in neural networks'),
+  author('Madhu S Advani and Andrew M Saxe'),
+nil)
+
+entry!('nakkiran2019deep',
+  arxiv(2019, '1912.02292'),
+  title('Deep double descent: Where bigger models and more data hurt'),
+  author('Preetum Nakkiran and Gal Kaplun and Yamini Bansal and Tristan Yang and Boaz Barak and Ilya Sutskever'),
+nil)
+
+entry!('opper1995statistical',
+  article('The Handbook of Brain Theory and Neural Networks,', 1995),
+  title('Statistical mechanics of learning: Generalization'),
+  author('Manfred Opper'),
+  pages(922, 925),
+nil)
+
+entry!('belkin2019reconciling',
+  science(2019, 116),
+  title('Reconciling modern machine-learning practice and the classical bias--variance trade-off'),
+  author('Mikhail Belkin and Daniel Hsu and Siyuan Ma and Soumik Mandal'),
+  number(32),
+  publisher('National Acad Sciences'),
+nil)
+
+entry!('mei2019generalization',
+  arxiv(2019, '1908.05355'),
+  title('The generalization error of random features regression: Precise asymptotics and double descent curve'),
+  author('Song Mei and Andrea Montanari'),
+nil)
+
+entry!('du2018power',
+  arxiv(2018, '1803.01206'),
+  title('On the power of over-parametrization in neural networks with quadratic activation'),
+  author('Simon S Du and Jason D Lee'),
+nil)
+
+entry!('nguyen2017loss',
+  icml(2017),
+  title('The loss surface of deep and wide neural networks'),
+  author('Quynh Nguyen and Matthias Hein'),
+  pages(2603, 2612),
+  organization('JMLR. org'),
+nil)
+
+entry!('arora2018optimization',
+  icml(2018),
+  title('On the Optimization of Deep Networks: Implicit Acceleration by Overparameterization'),
+  author('Sanjeev Arora and Nadav Cohen and Elad Hazan'),
+  pages(244, 253),
+nil)
+
+entry!('soudry2018implicit',
+  jmlr(2018, 19),
+  title('The implicit bias of gradient descent on separable data'),
+  author('Daniel Soudry and Elad Hoffer and Mor Shpigel Nacson and Suriya Gunasekar and Nathan Srebro'),
+  number(1),
+  pages(2822, 2878),
+  publisher('JMLR. org'),
 nil)

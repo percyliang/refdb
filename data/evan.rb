@@ -405,3 +405,128 @@ entry!('jin2019provably',
   title('Provably efficient reinforcement learning with linear function approximation'),
   author('Chi Jin and Zhuoran Yang and Zhaoran Wang and Michael I Jordan'),
 nil)
+
+entry!('rakelly2019efficient',
+  arxiv(2019, '1903.08254'),
+  title('Efficient off-policy meta-reinforcement learning via probabilistic context variables'),
+  author('Kate Rakelly and Aurick Zhou and Deirdre Quillen and Chelsea Finn and Sergey Levine'),
+nil)
+
+entry!('mendonca2019guided',
+  nips(2019),
+  title('Guided meta-policy search'),
+  author('Russell Mendonca and Abhishek Gupta and Rosen Kralev and Pieter Abbeel and Sergey Levine and Chelsea Finn'),
+  pages(9653, 9664),
+nil)
+
+entry!('yu2019meta',
+  arxiv(2019, '1910.10897'),
+  title('Meta-world: A benchmark and evaluation for multi-task and meta reinforcement learning'),
+  author('Tianhe Yu and Deirdre Quillen and Zhanpeng He and Ryan Julian and Karol Hausman and Chelsea Finn and Sergey Levine'),
+nil)
+
+entry!('nagabandi2018learning',
+  arxiv(2018, '1803.11347'),
+  title('Learning to adapt in dynamic, real-world environments through meta-reinforcement learning'),
+  author('Anusha Nagabandi and Ignasi Clavera and Simin Liu and Ronald S Fearing and Pieter Abbeel and Sergey Levine and Chelsea Finn'),
+nil)
+
+entry!('saemundsson2018meta',
+  arxiv(2018, '1803.07551'),
+  title('Meta reinforcement learning with latent variable gaussian processes'),
+  author('Steind{\'o}r S{\ae}mundsson and Katja Hofmann and Marc Peter Deisenroth'),
+nil)
+
+entry!('rothfuss2018promp',
+  arxiv(2018, '1810.06784'),
+  title('Promp: Proximal meta-policy search'),
+  author('Jonas Rothfuss and Dennis Lee and Ignasi Clavera and Tamim Asfour and Pieter Abbeel'),
+nil)
+
+entry!('yang2019norml',
+  inproceedings('Proceedings of the 18th International Conference on Autonomous Agents and MultiAgent Systems', 2019),
+  title('Norml: No-reward meta learning'),
+  author('Yuxiang Yang and Ken Caluwaerts and Atil Iscen and Jie Tan and Chelsea Finn'),
+  pages(323, 331),
+  organization('International Foundation for Autonomous Agents and Multiagent Systems'),
+nil)
+
+entry!('mishra2017simple',
+  arxiv(2017, '1707.03141'),
+  title('A simple neural attentive meta-learner'),
+  author('Nikhil Mishra and Mostafa Rohaninejad and Xi Chen and Pieter Abbeel'),
+nil)
+
+entry!('wang2016learning',
+  arxiv(2016, '1611.05763'),
+  title('Learning to reinforcement learn'),
+  author('Jane X Wang and Zeb Kurth-Nelson and Dhruva Tirumala and Hubert Soyer and Joel Z Leibo and Remi Munos and Charles Blundell and Dharshan Kumaran and Matt Botvinick'),
+nil)
+
+entry!('duan2016rl',
+  arxiv(2016, '1611.02779'),
+  title('RL$^2$: Fast reinforcement learning via slow reinforcement learning'),
+  author('Yan Duan and John Schulman and Xi Chen and Peter L Bartlett and Ilya Sutskever and Pieter Abbeel'),
+nil)
+
+entry!('zintgraf2019varibad',
+  arxiv(2019, '1910.08348'),
+  title('VariBAD: A Very Good Method for Bayes-Adaptive Deep {RL} via Meta-Learning'),
+  author('Luisa Zintgraf and Kyriacos Shiarlis and Maximilian Igl and Sebastian Schulze and Yarin Gal and Katja Hofmann and Shimon Whiteson'),
+nil)
+
+entry!('humplik2019meta',
+  arxiv(2019, '1905.06424'),
+  title('Meta reinforcement learning as task inference'),
+  author('Jan Humplik and Alexandre Galashov and Leonard Hasenclever and Pedro A Ortega and Yee Whye Teh and Nicolas Heess'),
+nil)
+
+entry!('stadie2018importance',
+  nips(2018),
+  title('The importance of sampling inmeta-reinforcement learning'),
+  author('Bradly Stadie and Ge Yang and Rein Houthooft and Peter Chen and Yan Duan and Yuhuai Wu and Pieter Abbeel and Ilya Sutskever'),
+  pages(9280, 9290),
+nil)
+
+entry!('gupta2018meta',
+  nips(2018),
+  title('Meta-reinforcement learning of structured exploration strategies'),
+  author('Abhishek Gupta and Russell Mendonca and YuXuan Liu and Pieter Abbeel and Sergey Levine'),
+  pages(5302, 5311),
+nil)
+
+entry!('fakoor2019meta',
+  arxiv(2019, '1910.00125'),
+  title('Meta-{Q}-Learning'),
+  author('Rasool Fakoor and Pratik Chaudhari and Stefano Soatto and Alexander J Smola'),
+nil)
+
+entry!('gurumurthy2019mame',
+  arxiv(2019, '1911.04024'),
+  title('MAME: Model-Agnostic Meta-Exploration'),
+  author('Swaminathan Gurumurthy and Sumit Kumar and Katia Sycara'),
+nil)
+
+entry!('zhou2019environment',
+  arxiv(2019, '1907.11740'),
+  title('Environment probing interaction policies'),
+  author('Wenxuan Zhou and Lerrel Pinto and Abhinav Gupta'),
+nil)
+
+entry!('schmidhuber1987evolutionary',
+  phdthesis('Technische Universit{\"a}t M{\"u}nchen', 1987),
+  title('Evolutionary principles in self-referential learning, or on learning how to learn: the meta-meta-... hook'),
+  author('J{\"u}rgen Schmidhuber'),
+nil)
+
+entry!('kamienny2020learning',
+  arxiv(2020, '2005.02934'),
+  title('Learning Adaptive Exploration Strategies in Dynamic Environments Through Informed Policy Regularization'),
+  author('Pierre-Alexandre Kamienny and Matteo Pirotta and Alessandro Lazaric and Thibault Lavril and Nicolas Usunier and Ludovic Denoyer'),
+nil)
+
+entry!('barber2003algorithm',
+  inproceedings('Advances in neural information processing systems', 2003),
+  title('The {IM} algorithm: a variational approach to information maximization'),
+  author('David Barber and Felix V Agakov'),
+nil)
