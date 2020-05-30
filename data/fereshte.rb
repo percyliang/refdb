@@ -830,3 +830,11 @@ entry!('haslett1996updating',
   pages(329, 349),
   publisher('Elsevier'),
 nil)
+
+entry!('bertrand2004emily',
+  article('American economic review', 2004, 94),
+  title('Are Emily and Greg more employable than Lakisha and Jamal? A field experiment on labor market discrimination'),
+  author('Marianne Bertrand and Sendhil Mullainathan'),
+  number(4),
+  pages(991, 1013),
+nil)
