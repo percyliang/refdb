@@ -530,3 +530,9 @@ entry!('barber2003algorithm',
   title('The {IM} algorithm: a variational approach to information maximization'),
   author('David Barber and Felix V Agakov'),
 nil)
+
+entry!('zhou2019watch',
+  arxiv(2019, '1906.03352'),
+  title('Watch, try, learn: Meta-learning from demonstrations and reward'),
+  author('Allan Zhou and Eric Jang and Daniel Kappler and Alex Herzog and Mohi Khansari and Paul Wohlhart and Yunfei Bai and Mrinal Kalakrishnan and Sergey Levine and Chelsea Finn'),
+nil)
