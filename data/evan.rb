@@ -551,3 +551,28 @@ entry!('kaelbling1998planning',
   pages(99, 134),
   publisher('Elsevier'),
 nil)
+
+entry!('eysenbach2018diversity',
+  arxiv(2018, '1802.06070'),
+  title('Diversity is all you need: Learning skills without a reward function'),
+  author('Benjamin Eysenbach and Abhishek Gupta and Julian Ibarz and Sergey Levine'),
+nil)
+
+entry!('houthooft2016vime',
+  nips(2016),
+  title('Vime: Variational information maximizing exploration'),
+  author('Rein Houthooft and Xi Chen and Yan Duan and John Schulman and Filip De Turck and Pieter Abbeel'),
+  pages(1109, 1117),
+nil)
+
+entry!('gregor2016variational',
+  arxiv(2016, '1611.07507'),
+  title('Variational intrinsic control'),
+  author('Karol Gregor and Danilo Jimenez Rezende and Daan Wierstra'),
+nil)
+
+entry!('warde2018unsupervised',
+  arxiv(2018, '1811.11359'),
+  title('Unsupervised control through non-parametric discriminative rewards'),
+  author('David Warde-Farley and Tom Van de Wiele and Tejas Kulkarni and Catalin Ionescu and Steven Hansen and Volodymyr Mnih'),
+nil)
