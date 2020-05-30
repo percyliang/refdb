@@ -654,3 +654,15 @@ entry!('bengio1991learning',
   pages(969, 969),
   organization('IEEE'),
 nil)
+
+entry!('parisotto2015actor',
+  arxiv(2015, '1511.06342'),
+  title('Actor-mimic: Deep multitask and transfer reinforcement learning'),
+  author('Emilio Parisotto and Jimmy Lei Ba and Ruslan Salakhutdinov'),
+nil)
+
+entry!('rusu2015policy',
+  arxiv(2015, '1511.06295'),
+  title('Policy distillation'),
+  author('Andrei A Rusu and Sergio Gomez Colmenarejo and Caglar Gulcehre and Guillaume Desjardins and James Kirkpatrick and Razvan Pascanu and Volodymyr Mnih and Koray Kavukcuoglu and Raia Hadsell'),
+nil)
