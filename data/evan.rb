@@ -536,3 +536,9 @@ entry!('zhou2019watch',
   title('Watch, try, learn: Meta-learning from demonstrations and reward'),
   author('Allan Zhou and Eric Jang and Daniel Kappler and Alex Herzog and Mohi Khansari and Paul Wohlhart and Yunfei Bai and Mrinal Kalakrishnan and Sergey Levine and Chelsea Finn'),
 nil)
+
+entry!('ritter2018been',
+  arxiv(2018, '1805.09692'),
+  title('Been there, done that: Meta-learning with episodic recall'),
+  author('Samuel Ritter and Jane X Wang and Zeb Kurth-Nelson and Siddhant M Jayakumar and Charles Blundell and Razvan Pascanu and Matthew Botvinick'),
+nil)
