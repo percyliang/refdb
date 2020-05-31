@@ -666,3 +666,10 @@ entry!('rusu2015policy',
   title('Policy distillation'),
   author('Andrei A Rusu and Sergio Gomez Colmenarejo and Caglar Gulcehre and Guillaume Desjardins and James Kirkpatrick and Razvan Pascanu and Volodymyr Mnih and Koray Kavukcuoglu and Raia Hadsell'),
 nil)
+
+entry!('pathak2017curiosity',
+  cvpr(2017),
+  title('Curiosity-driven exploration by self-supervised prediction'),
+  author('Deepak Pathak and Pulkit Agrawal and Alexei A Efros and Trevor Darrell'),
+  pages(16, 17),
+nil)
