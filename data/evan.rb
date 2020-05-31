@@ -679,3 +679,9 @@ entry!('alemi2016deep',
   title('Deep variational information bottleneck'),
   author('Alexander A Alemi and Ian Fischer and Joshua V Dillon and Kevin Murphy'),
 nil)
+
+entry!('russo2017tutorial',
+  arxiv(2017, '1707.02038'),
+  title('A tutorial on thompson sampling'),
+  author('Daniel Russo and Benjamin Van Roy and Abbas Kazerouni and Ian Osband and Zheng Wen'),
+nil)
