@@ -138,4 +138,9 @@ entry!('eldan2016depth',
   title('The Power of Depth for Feedforward Neural Networks'),
   colt(2016),
 )
+entry!('parhi2019minnorm',
+         author('R. Parhi and R. D. Nowak'),
+  title('Minimum "Norm" Neural Networks are Splines'),
+  arxiv(2019),
+)
 
