@@ -673,3 +673,9 @@ entry!('pathak2017curiosity',
   author('Deepak Pathak and Pulkit Agrawal and Alexei A Efros and Trevor Darrell'),
   pages(16, 17),
 nil)
+
+entry!('alemi2016deep',
+  arxiv(2016, '1612.00410'),
+  title('Deep variational information bottleneck'),
+  author('Alexander A Alemi and Ian Fischer and Joshua V Dillon and Kevin Murphy'),
+nil)
