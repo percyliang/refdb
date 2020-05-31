@@ -883,3 +883,12 @@ entry!('rosenbaum1984consequences',
   pages(656, 666),
   publisher('Wiley Online Library'),
 nil)
+
+entry!('holland2003causation',
+  article('ETS Research Report Series', 2003, 2003),
+  title('Causation and race'),
+  author('Paul W Holland'),
+  number(1),
+  #pages(i--21),
+  publisher('Wiley Online Library'),
+nil)
