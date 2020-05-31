@@ -674,3 +674,51 @@ entry!('garg2018robust',
   author('Shivam Garg and Vatsal Sharan and Brian Hu Zhang and Gregory Valiant'),
   neurips(2018),
 nil)
+
+entry!('liu2019roberta',
+  title('{R}o{BERT}a: A Robustly Optimized {BERT} Pretraining Approach'),
+  author('Yinhan Liu and Myle Ott and Naman Goyal and Jingfei Du and Mandar Joshi and Danqi Chen and Omer Levy and Mike Lewis and Luke Zettlemoyer and Veselin Stoyanov'),
+  arxiv(2019, '1907.11692'),
+nil)
+
+entry!('lan2020albert',
+  title('{ALBERT}: A Lite {BERT} for Self-supervised Learning of Language Representations'),
+  author('Zhenzhong Lan and Mingda Chen and Sebastian Goodman and Kevin Gimpel and Piyush Sharma and Radu Soricut'),
+  iclr(2020),
+nil)
+
+entry!('reimers2019sentence',
+  title('Sentence-{BERT}: Sentence Embeddings using Siamese {BERT}-Networks'),
+  author('Nils Reimers and Iryna Gurevych'),
+  emnlp(2019),
+nil)
+
+entry!('garg2020tanda',
+  title('{TANDA}: Transfer and Adapt Pre-Trained Transformer Models for Answer Sentence Selection'),
+  author('Siddhant Garg and Thuy Vu and Alessandro Moschitti'),
+  aaai(2020),
+nil)
+
+entry!('yoon2019compare',
+  title('A Compare-Aggregate Model with Latent Clustering for Answer Selection'),
+  author('Seunghyun Yoon and Franck Dernoncourt and Doo Soon Kim and Trung Bui and Kyomin Jung'),
+  cikm(2019),
+nil)
+
+entry!('shen2017inter',
+  title('Inter-Weighted Alignment Network for Sentence Pair Modeling'),
+  author('Gehui Shen and Yunlun Yang and Zhi-Hong Deng'),
+  emnlp(2017),
+nil)
+
+entry!('zhang2019selection',
+  title('Selection Bias Explorations and Debias Methods for Natural Language Sentence Matching Datasets'),
+  author('Guanhua Zhang and Bing Bai and Jian Liang and Kun Bai and Shiyu Chang and Mo Yu and Conghui Zhu and Tiejun Zhao'),
+  acl(2019),
+nil)
+
+entry!('warstadt2018cola',
+  title('Neural Network Acceptability Judgments'),
+  author('Alex Warstadt and Amanpreet Singh and Samuel R. Bowman'),
+  arxiv(2018, '1805.12471'),
+nil)
