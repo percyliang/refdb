@@ -308,7 +308,7 @@ nil)
 entry!('khani2018pip',
   title('Planning, Inference and Pragmatics in Sequential Language Games'),
   author('Fereshte Khani and Noah D. Goodman and Percy Liang'),
-  tacl(2018, 0),
+  tacl(2018, 6),
   url('https://arxiv.org/pdf/1805.11774.pdf'),
   codalab('0x052129c7afa9498481185b553d23f0f9'),
 nil)

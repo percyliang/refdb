@@ -830,3 +830,65 @@ entry!('haslett1996updating',
   pages(329, 349),
   publisher('Elsevier'),
 nil)
+
+entry!('bertrand2004emily',
+  article('American economic review', 2004, 94),
+  title('Are Emily and Greg more employable than Lakisha and Jamal? A field experiment on labor market discrimination'),
+  author('Marianne Bertrand and Sendhil Mullainathan'),
+  number(4),
+  pages(991, 1013),
+nil)
+
+
+entry!('greiner2011causal',
+  article('Review of Economics and Statistics', 2011, 93),
+  title('Causal effects of perceived immutable characteristics'),
+  author('D James Greiner and Donald B Rubin'),
+  number(3),
+  pages(775, 785),
+  publisher('MIT Press'),
+nil)
+
+entry!('sen2016race',
+  science(2016, 19),
+  title('Race as a bundle of sticks: Designs that estimate effects of seemingly immutable characteristics'),
+  author('Maya Sen and Omar Wasow'),
+nil)
+
+entry!('holland1986statistics',
+  article('Journal of the American statistical Association', 1986, 81),
+  title('Statistics and causal inference'),
+  author('Paul W Holland'),
+  number(396),
+  pages(945, 960),
+  publisher('Taylor \& Francis'),
+nil)
+
+
+
+entry!('freedman2004graphical',
+  article('Evaluation Review', 2004, 28),
+  title('Graphical models for causation, and the identification problem'),
+  author('David A Freedman'),
+  number(4),
+  pages(267, 293),
+  publisher('Sage Publications Sage CA: Thousand Oaks, CA'),
+nil)
+
+entry!('rosenbaum1984consequences',
+  article('Journal of the Royal Statistical Society: Series A (General)', 1984, 147),
+  title('The consequences of adjustment for a concomitant variable that has been affected by the treatment'),
+  author('Paul R Rosenbaum'),
+  number(5),
+  pages(656, 666),
+  publisher('Wiley Online Library'),
+nil)
+
+entry!('holland2003causation',
+  article('ETS Research Report Series', 2003, 2003),
+  title('Causation and race'),
+  author('Paul W Holland'),
+  number(1),
+  #pages(i--21),
+  publisher('Wiley Online Library'),
+nil)

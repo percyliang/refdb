@@ -93,3 +93,49 @@ entry!('duchi2008projections',
   title('Efficient Projections onto the l1-Ball for Learning in High Dimensions'),
   icml(2008),
 )
+entry!('sennrich2016monolingual',
+  author('R. Sennrich and B. Haddow and A. Birch'),
+  title('Improving neural machine translation models with monolingual data'),
+  arxiv(2016),
+)
+entry!('cheng2016sslnlp',
+  author('Y. Cheng and W. Xu and Z. He and W. He and H. Wu and M. Sun and Y. Liu'),
+  title('Semi-supervised learning for neural machine translation'),
+  acl(2016),
+)
+entry!('ramachandran2018pretraining',
+       author('P. Ramachandran and P. J. Liu and Q. V. Le'),
+  title('Unsupervised pretraining for sequence to sequence learning'),
+  arxiv(2018),
+)
+entry!('skorokhodov2018ssl',
+  author('I. Skorokhodov and A. Rykachevskiy and D. Emelyanenko and S. Slotin and A. Ponkratov'),
+  title('Semi-supervised neural machine translation with language models'),
+  inproceedings(Name.new('AMTA 2018 Workshop on Technologies for MT of Low Resource Languages', 'LoResMT'), 2018),
+)
+entry!('yasunaga2020repair',
+       author('M. Yasunaga and P. Liang'),
+  title('Graph-based, Self-Supervised Program Repair from Diagnostic Feedback'),
+  arxiv(2020),
+)
+entry!('ronneberger2015unet',
+       author('Olaf Ronneberger and Philipp Fischer and Thomas Brox'),
+  title('{U-Net}: Convolutional Networks for Biomedical Image Segmentation'),
+  arxiv(2015),
+)
+entry!('savarese2019function',
+       author('Pedro Savarese and Itay Evron and Daniel Soudry and Nathan Srebro'),
+  title('How do infinite width bounded norm networks look in function space?'),
+  arxiv(2019),
+)
+entry!('neyshabur2014implicit',
+       author('Behnam Neyshabur and Ryota Tomioka and Nathan Srebro'),
+  title('In search of the real inductive bias: On the role of implicit regularization in deep learning'),
+  arxiv(2014),
+)
+entry!('eldan2016depth',
+       author('R. Eldan and O. Shamir'),
+  title('The Power of Depth for Feedforward Neural Networks'),
+  colt(2016),
+)
+
