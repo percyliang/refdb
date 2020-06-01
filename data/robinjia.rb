@@ -722,3 +722,51 @@ entry!('warstadt2018cola',
   author('Alex Warstadt and Amanpreet Singh and Samuel R. Bowman'),
   arxiv(2018, '1805.12471'),
 nil)
+
+entry!('lewis2004rcv1',
+  title('RCV1: A New Benchmark Collection for Text Categorization Research'),
+  author('David D. Lewis and Yiming Yang and Tony G. Rose and Fan Li'),
+  jmlr(2004, 5),
+nil)
+
+entry!('sun2009strategies',
+  title('On Strategies for Imbalanced Text Classification Using SVM: A Comparative Study'),
+  author('Aixin Sun and Ee-Peng Lim and Ying Liu'),
+  article('Decision Support Systems', 2009, 48, 1),
+nil)
+
+entry!('chawla2004imbalanced',
+  title('Editorial: Special Issue on Learning from Imbalanced Data Sets'),
+  author('Nitesh V. Chawla and Nathalie Japkowicz and Aleksander R. Kolcz'),
+  article('ACM SIGKDD Explorations Newsletter', 2004, 6, 1),
+nil)
+
+entry!('dendamrongvit2009undersampling',
+  title('Undersampling Approach for Imbalanced Training Sets and Induction from Multi-label Text-Categorization Domains'),
+  author('Sareewan Dendamrongvit and Miroslav Kubat'),
+  inproceedings('PAKDD Workshop on New Frontiers in Applied Data Mining', 2009),
+nil)
+
+entry!('attenberg2010why',
+  title('Why Label when you can Search? Alternatives to Active Learning for Applying Human Resources to Build Classification Models Under Extreme Class Imbalance'),
+  author('Josh Attenberg and Foster Provost'),
+  kdd(2010),
+nil)
+
+entry!('nogueira2019passage',
+  title('Passage Re-ranking with {BERT}'),
+  author('Rodrigo Nogueira and Kyunghyun Cho'),
+  arxiv(2019, '1901.04085'),
+nil)
+
+entry!('khattab2020colbert',
+  title('{ColBERT}: Efficient and Effective Passage Search via Contextualized Late Interaction over {BERT}'),
+  author('Omar Khattab and Matei Zaharia'),
+  sigir(2020),
+nil)
+
+entry!('roland2007frequency',
+  title('Frequency of Basic {E}nglish Grammatical Structures: A Corpus Analysis'),
+  author('Douglas Roland and Frederic Dick and Jeffrey Elman'),
+  article('Journal of Memory and Language', 2007, 57),
+nil)
