@@ -138,4 +138,24 @@ entry!('eldan2016depth',
   title('The Power of Depth for Feedforward Neural Networks'),
   colt(2016),
 )
+entry!('parhi2019minnorm',
+         author('R. Parhi and R. D. Nowak'),
+  title('Minimum "Norm" Neural Networks are Splines'),
+  arxiv(2019),
+)
+entry!('bernhardsson2016fonts',
+    author('E. Bernhardsson'),
+  title('Analyzing 50k fonts using deep neural networks'),
+  [type('misc'), year(2016)],
+)
+entry!('kudo2018sentencepiece',
+         author('Taku Kudo and John Richardson'),
+  title('SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing'),
+  emnlp(2018),
+)
+entry!('sennrich2016bpe',
+         author('Rico Sennrich and Barry Haddow and Alexandra Birch'),
+  title('Neural Machine Translation of Rare Words with Subword Units'),
+  acl(2016),
+)
 
