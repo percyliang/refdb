@@ -685,9 +685,3 @@ entry!('russo2017tutorial',
   title('A tutorial on thompson sampling'),
   author('Daniel Russo and Benjamin Van Roy and Abbas Kazerouni and Ian Osband and Zheng Wen'),
 nil)
-
-entry!('van2016deep',
-  aaai(2016),
-  title('Deep reinforcement learning with double q-learning'),
-  author('Hado Van Hasselt and Arthur Guez and David Silver'),
-nil)
