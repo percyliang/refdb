@@ -158,4 +158,26 @@ entry!('sennrich2016bpe',
   title('Neural Machine Translation of Rare Words with Subword Units'),
   acl(2016),
 )
+entry!('you2018moleculegraph',
+          author('J. You and B. Liu and Z. Ying and V. Pande and J. Leskovec'),
+  title('Graph Convolutional Policy Network for Goal-Directed Molecular Graph Generation'),
+  nips(2018),
+)
+entry!('tsuda2017chemts',
+    author('X. Yang and J. Zhang and K. Yoshizoe and K. Terayama and K. Tsuda'),
+  title('ChemTS: An Efficient {Python} Library for de novo Molecular Generation'),
+  arxiv(2017),
+)
+
+entry!('lipton2018labelshift',
+author('Z. C. Lipton and Y. Wang and A. J. Smola'),
+  title('Detecting and Correcting for Label Shift with Black Box Predictors'),
+  icml(2018),
+)
+
+entry!('azizzadenesheli2019reglabel',
+author('Kamyar Azizzadenesheli and Anqi Liu and Fanny Yang and Animashree Anandkumar'),
+  title('Regularized Learning for Domain Adaptation under Label Shifts'),
+  iclr(2019),
+)
 
