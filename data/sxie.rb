@@ -180,4 +180,10 @@ author('Kamyar Azizzadenesheli and Anqi Liu and Fanny Yang and Animashree Anandk
   title('Regularized Learning for Domain Adaptation under Label Shifts'),
   iclr(2019),
 )
+entry!('guzman2019flores',
+author('Guzm\'{a}n, Francisco and Chen, Peng-Jen and Ott, Myle and Pino, Juan and Lample, Guillaume and Koehn, Philipp and Chaudhary, Vishrav and Ranzato, Marc\'Aurelio'),
+  title('Two New Evaluation Datasets for Low-Resource Machine Translation: Nepali-{English} and Sinhala-{English}'),
+  arxiv(2019),
+)
+
 
