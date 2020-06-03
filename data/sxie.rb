@@ -186,4 +186,15 @@ author('Guzm\'{a}n, Francisco and Chen, Peng-Jen and Ott, Myle and Pino, Juan an
   arxiv(2019),
 )
 
+entry!('lucio2020molecule',
+author('Oscar Méndez-Lucio and Benoit Baillif and Djork-Arné Clevert and David Rouquié and Joerg Wichard'),
+  title('De novo generation of hit-like molecules from gene expression signatures using artificial intelligence'),
+  article('Nature Communications', 2020, 11),
+
+)
+entry!('senior2020protein',
+author('Andrew W. Senior and Richard Evans and John Jumper and James Kirkpatrick and Laurent Sifre and Tim Green and Chongli Qin and Augustin Žídek and Alexander W. R. Nelson and Alex Bridgland and Hugo Penedones and Stig Petersen and Karen Simonyan and Steve Crossan and Pushmeet Kohli and David T. Jones and David Silver and Koray Kavukcuoglu and Demis Hassabis'),
+  title('Improved protein structure prediction using potentials from deep learning'),
+  article('Nature', 2020, 577),
+)
 
