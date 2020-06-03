@@ -197,4 +197,9 @@ author('Andrew W. Senior and Richard Evans and John Jumper and James Kirkpatrick
   title('Improved protein structure prediction using potentials from deep learning'),
   article('Nature', 2020, 577),
 )
+entry!('neyshabur2017generalization',
+author('Behnam Neyshabur and Srinadh Bhojanapalli and David McAllester and Nathan Srebro'),
+  title('Exploring Generalization in Deep Learning'),
+  nips(2017),
+)
 
