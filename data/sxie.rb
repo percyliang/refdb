@@ -181,7 +181,7 @@ author('Kamyar Azizzadenesheli and Anqi Liu and Fanny Yang and Animashree Anandk
   iclr(2019),
 )
 entry!('guzman2019flores',
-author('Guzm\'{a}n, Francisco and Chen, Peng-Jen and Ott, Myle and Pino, Juan and Lample, Guillaume and Koehn, Philipp and Chaudhary, Vishrav and Ranzato, Marc\'Aurelio'),
+author('Francisco Guzm\'{a}n and Peng-Jen Chen and Myle Ott and Juan Pino and Guillaume Lample and Philipp Koehn and Vishrav Chaudhary and Marc\'Aurelio Ranzato'),
   title('Two New Evaluation Datasets for Low-Resource Machine Translation: Nepali-{English} and Sinhala-{English}'),
   arxiv(2019),
 )
