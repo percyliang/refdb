@@ -202,4 +202,10 @@ author('Behnam Neyshabur and Srinadh Bhojanapalli and David McAllester and Natha
   title('Exploring Generalization in Deep Learning'),
   nips(2017),
 )
+entry!('bartlett2017spectral',
+author('Peter Bartlett and Dylan J. Foster and Matus Telgarsky'),
+  title('Spectrally-normalized margin bounds for neural networks'),
+  nips(2017),
+)
+
 
