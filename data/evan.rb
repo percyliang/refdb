@@ -465,7 +465,7 @@ nil)
 
 entry!('duan2016rl',
   arxiv(2016, '1611.02779'),
-  title('RL$^2$: Fast reinforcement learning via slow reinforcement learning'),
+  title('{RL}$^2$: Fast reinforcement learning via slow reinforcement learning'),
   author('Yan Duan and John Schulman and Xi Chen and Peter L Bartlett and Ilya Sutskever and Pieter Abbeel'),
 nil)
 
