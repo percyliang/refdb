@@ -685,3 +685,11 @@ entry!('russo2017tutorial',
   title('A tutorial on thompson sampling'),
   author('Daniel Russo and Benjamin Van Roy and Abbas Kazerouni and Ian Osband and Zheng Wen'),
 nil)
+
+entry!('boisvert2018gym',
+  author('Maxime Chevalier-Boisvert'),
+  title('Gym-{M}iniworld environment for OpenAI Gym'),
+  year(2018),
+  type('misc'),
+  howpublished('\url{https://github.com/maximecb/gym-miniworld}'),
+nil)
