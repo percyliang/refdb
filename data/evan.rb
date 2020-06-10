@@ -693,3 +693,9 @@ entry!('boisvert2018gym',
   type('misc'),
   howpublished('\url{https://github.com/maximecb/gym-miniworld}'),
 nil)
+
+entry!('kapturowski2019recurrent',
+  title('Recurrent experience replay in distributed reinforcement learning'),
+  author('Steven Kapturowski and Georg Ostrovski and John Quan and Remi Munos and Will Dabney'),
+  iclr(2019),
+nil)
