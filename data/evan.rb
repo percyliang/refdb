@@ -699,3 +699,11 @@ entry!('kapturowski2019recurrent',
   author('Steven Kapturowski and Georg Ostrovski and John Quan and Remi Munos and Will Dabney'),
   iclr(2019),
 nil)
+
+entry!('maaten2008visualizing',
+  article('Journal of machine learning research', 2008, 9),
+  title('Visualizing data using {t}-{SNE}'),
+  author('Laurens van der Maaten and Geoffrey Hinton'),
+  number('Nov'),
+  pages(2579, 2605),
+nil)
