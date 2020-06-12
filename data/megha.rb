@@ -177,3 +177,16 @@ entry!('van2015causal',
   author('Tyler J. VanderWeele'),
   book('Oxford University Press', 2015),
   nil)
+
+entry!('singh2019fair',
+  title('Fair Predictors under Distribution Shift'),
+  author('Harvineet Singh and Rina Singh and Vishwali Mhasawade and Rumi Chunara'),
+  nips(2019),   
+nil)
+
+entry!('ghassemi2019health',
+  title('Practical guidance on artificial intelligence for health-care data'),
+  author('Marzyeh Ghassemi and Tristan Naumann and Peter Schulam and Andrew L Beam and Irene Y Chen and Rajesh Ranganath'),
+  inproceedings('The Lancet Digital Health', 2019),
+  pages(157, 159),
+  nil)
