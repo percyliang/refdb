@@ -770,3 +770,10 @@ entry!('roland2007frequency',
   author('Douglas Roland and Frederic Dick and Jeffrey Elman'),
   article('Journal of Memory and Language', 2007, 57),
 nil)
+
+entry!('lewis1995evaluating',
+  title('Evaluating and Optimizing Autonomous Text Classification Systems'),
+  author('David D. Lewis'),
+  sigir(1995),
+nil)
+
