@@ -777,3 +777,35 @@ entry!('lewis1995evaluating',
   sigir(1995),
 nil)
 
+entry!('johnson2017billion',
+  title('Billion-scale similarity search with GPUs'),
+  author('Jeff Johnson and Matthijs Douze and Herv{\'e} J{\'e}gou'),
+  arxiv(2017, '1702.08734'),
+nil)
+
+entry!('balcan2007margin',
+  title('Margin based active learning'),
+  author('Maria-Florina Balcan and Andrei Broder and Tong Zhang'),
+  inproceedings('International Conference on Computational Learning Theory', 2007),
+nil)
+
+entry!('balcan2013active',
+  title('Active and passive learning of linear separators under log-concave distributions'),
+  author('Maria-Florina Balcan and Phil Long'),
+  colt(2013),
+nil)
+
+entry!('iyer2017qqp',
+  title('First Quora Dataset Release: Question Pairs'),
+  author('Shankar Iyer and Nikhil Dandekar and Korn{\'e}l Csernai'),
+  type('misc'),
+  howpublished('\url{https://www.quora.com/q/quoradata/First-Quora-Dataset-Release-Question-Pairs}'),
+  year(2017),
+nil)
+
+entry!('yang2018benchmark',
+  title('A benchmark and comparison of active learning for logistic regression'),
+  author('Yazhou Yang and Marco Loog'),
+  article('Pattern Recognition', 2018, 83),
+nil)
+
