@@ -809,3 +809,9 @@ entry!('yang2018benchmark',
   article('Pattern Recognition', 2018, 83),
 nil)
 
+entry!('ertekin2007learning',
+  title('Learning on the border: active learning in imbalanced data classification'),
+  author('Seyda Ertekin and Jian Huang and Leon Bottou and Lee Giles'),
+  cikm(2007),
+nil)
+
