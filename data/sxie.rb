@@ -13,10 +13,8 @@ entry!('yaeger1996effective',
 nil)
 
 entry!('ciresan2011high',
-  author('Dan C. Ciresan and Ueli Meier and Jonathan Masci and
-Luca M. Gambardella and Jurgen Schmidhuber'),
-  title('High-Performance Neural Networks
-for Visual Object Classification'),
+  author('Dan C. Ciresan and Ueli Meier and Jonathan Masci and Luca M. Gambardella and Jurgen Schmidhuber'),
+  title('High-Performance Neural Networks for Visual Object Classification'),
   arxiv(2011),
 nil)
 
@@ -112,11 +110,6 @@ entry!('skorokhodov2018ssl',
   author('I. Skorokhodov and A. Rykachevskiy and D. Emelyanenko and S. Slotin and A. Ponkratov'),
   title('Semi-supervised neural machine translation with language models'),
   inproceedings(Name.new('AMTA 2018 Workshop on Technologies for MT of Low Resource Languages', 'LoResMT'), 2018),
-)
-entry!('yasunaga2020repair',
-       author('M. Yasunaga and P. Liang'),
-  title('Graph-based, Self-Supervised Program Repair from Diagnostic Feedback'),
-  arxiv(2020),
 )
 entry!('ronneberger2015unet',
        author('Olaf Ronneberger and Philipp Fischer and Thomas Brox'),

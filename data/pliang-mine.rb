@@ -1,18 +1,91 @@
 ############################################################
 # 2020
 
+entry!('sagawa2020overparameterization',
+  title('An investigation of why overparameterization exacerbates spurious correlations'),
+  author('Shiori Sagawa and Aditi Raghunathan and Pang Wei Koh and Percy Liang'),
+  icml(2020),
+  url('https://arxiv.org/pdf/2005.04345.pdf'),
+nil)
+
+entry!('koh2020bottleneck',
+  title('Concept Bottleneck Models'),
+  author('Pang Wei Koh and Thao Nguyen and Yew Siang Tang and Stephen Mussmann and Emma Pierson and Been Kim and Percy Liang'),
+  icml(2020),
+nil)
+
+entry!('khani2020noise',
+  title('Feature Noise Induces Loss Discrepancy Across Groups'),
+  author('Fereshte Khani and Percy Liang'),
+  icml(2020),
+  url('https://arxiv.org/pdf/1911.09876.pdf'),
+nil)
+
+entry!('yasunaga2020repair',
+  title('Graph-based, Self-Supervised Program Repair from Diagnostic Feedback'),
+  author('Michi Yasunaga and Percy Liang'),
+  icml(2020),
+  url('https://arxiv.org/pdf/2005.10636.pdf'),
+nil)
+
 entry!('raghunathan2020understanding',
   title('Understanding and Mitigating the Tradeoff Between Robustness and Accuracy'),
   author('Aditi Raghunathan and Sang Michael Xie and Fanny Yang and John C. Duchi and Percy Liang'),
-  arxiv(2020, '2002.10716'),
+  icml(2020),
   url('https://arxiv.org/pdf/2002.10716.pdf'),
 nil)
 
 entry!('kumar2020gradual',
   title('Understanding Self-Training for Gradual Domain Adaptation'),
   author('Ananya Kumar and Tengyu Ma and Percy Liang'),
-  arxiv(2020, '2002.11361'),
+  icml(2020),
   url('https://arxiv.org/pdf/2002.11361.pdf'),
+nil)
+
+entry!('srivasta2020human',
+  title('Robustness to Spurious Correlations via Human Annotations'),
+  author('Megha Srivastava and Tatsunori Hashimoto and Percy Liang'),
+  icml(2020),
+nil)
+
+entry!('jones2020roben',
+  title('Robust Encodings: A Framework for Combating Adversarial Typos'),
+  author('Erik Jones and Robin Jia and Aditi Raghunathan and Percy Liang'),
+  acl(2020),
+  url('https://arxiv.org/pdf/2005.01229.pdf'),
+  codalab('0x8fc01c7fc2b742fdb29c05669f0ad7d2'),
+nil)
+
+entry!('kamath2020squads',
+  title('Selective Question Answering under Domain Shift'),
+  author('Amita Kamath and Robin Jia and Percy Liang'),
+  acl(2020),
+nil)
+
+entry!('mu2020shaping',
+  title('Shaping Visual Representations with Language for Few-shot Classification'),
+  author('Jesse Mu and Percy Liang and Noah Goodman'),
+  acl(2020),
+  note('Short paper.'),
+  url('https://arxiv.org/pdf/1911.02683.pdf'),
+  codalab('0x55ed347e3beb4fa6971d3a226e48fc92'),
+nil)
+
+entry!('murty2020expbert',
+  title('ExpBERT: Representation Engineering with Natural Language Explanations'),
+  author('Shikhar Murty and Pang Wei Koh and Percy Liang'),
+  acl(2020),
+  note('Short paper.'),
+  url('https://arxiv.org/pdf/2005.01932.pdf'),
+  codalab('0x609d2d6a66194592a7f44fbb67ba9f49'),
+nil)
+
+entry!('donahue2020infilling',
+  title('Enabling Language Models to Fill in the Blanks'),
+  author('Chris Donahue and Mina Lee and Percy Liang'),
+  acl(2020),
+  note('Short paper.'),
+  url('https://arxiv.org/pdf/2005.05339.pdf'),
 nil)
 
 entry!('sagawa2020group',
@@ -45,20 +118,6 @@ nil)
 
 ############################################################
 # 2019
-
-entry!('khani2019noise',
-  title('Noise Induces Loss Discrepancy Across Groups for Linear Regression'),
-  author('Fereshte Khani and Percy Liang'),
-  arxiv(2019, '1911.09876'),
-  url('https://arxiv.org/pdf/1911.09876.pdf'),
-nil)
-
-entry!('mu2019shaping',
-  title('Shaping Visual Representations with Language for Few-shot Classification'),
-  author('Jesse Mu and Percy Liang and Noah Goodman'),
-  arxiv(2019, '1911.02683'),
-  url('https://arxiv.org/pdf/1911.02683.pdf'),
-nil)
 
 entry!('jia2019certified',
   title('Certified Robustness to Adversarial Word Substitutions'),
