@@ -465,7 +465,7 @@ nil)
 
 entry!('duan2016rl',
   arxiv(2016, '1611.02779'),
-  title('RL$^2$: Fast reinforcement learning via slow reinforcement learning'),
+  title('{RL}$^2$: Fast reinforcement learning via slow reinforcement learning'),
   author('Yan Duan and John Schulman and Xi Chen and Peter L Bartlett and Ilya Sutskever and Pieter Abbeel'),
 nil)
 
@@ -684,4 +684,26 @@ entry!('russo2017tutorial',
   arxiv(2017, '1707.02038'),
   title('A tutorial on thompson sampling'),
   author('Daniel Russo and Benjamin Van Roy and Abbas Kazerouni and Ian Osband and Zheng Wen'),
+nil)
+
+entry!('boisvert2018gym',
+  author('Maxime Chevalier-Boisvert'),
+  title('Gym-{M}iniworld environment for OpenAI Gym'),
+  year(2018),
+  type('misc'),
+  howpublished('\url{https://github.com/maximecb/gym-miniworld}'),
+nil)
+
+entry!('kapturowski2019recurrent',
+  title('Recurrent experience replay in distributed reinforcement learning'),
+  author('Steven Kapturowski and Georg Ostrovski and John Quan and Remi Munos and Will Dabney'),
+  iclr(2019),
+nil)
+
+entry!('maaten2008visualizing',
+  article('Journal of machine learning research', 2008, 9),
+  title('Visualizing data using {t}-{SNE}'),
+  author('Laurens van der Maaten and Geoffrey Hinton'),
+  number('Nov'),
+  pages(2579, 2605),
 nil)
