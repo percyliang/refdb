@@ -200,3 +200,14 @@ author('Peter Bartlett and Dylan J. Foster and Matus Telgarsky'),
   title('Spectrally-normalized margin bounds for neural networks'),
   nips(2017),
 )
+entry!('wei2020improved',
+author('Colin Wei and Tengyu Ma'),
+  title('Improved Sample Complexities for Deep Networks and Robust
+Classification via an All-Layer Margin'),
+  iclr(2020),
+)
+entry!('wei2019data',
+author('Colin Wei and Tengyu Ma'),
+  title('Data-dependent Sample Complexity of Deep Neural Networks via {Lipschitz} Augmentation'),
+  nips(2019),
+)
