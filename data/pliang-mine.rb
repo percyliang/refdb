@@ -60,6 +60,8 @@ entry!('kamath2020squads',
   title('Selective Question Answering under Domain Shift'),
   author('Amita Kamath and Robin Jia and Percy Liang'),
   acl(2020),
+  url('https://arxiv.org/pdf/2006.09462.pdf'),
+  codalab('0xea5a522788f743acb4fbf9e60065be8f'),
 nil)
 
 entry!('mu2020shaping',
