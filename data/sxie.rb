@@ -174,7 +174,7 @@ author('Kamyar Azizzadenesheli and Anqi Liu and Fanny Yang and Animashree Anandk
   iclr(2019),
 )
 entry!('guzman2019flores',
-author('Francisco Guzm\'{a}n and Peng-Jen Chen and Myle Ott and Juan Pino and Guillaume Lample and Philipp Koehn and Vishrav Chaudhary and Marc\'Aurelio Ranzato'),
+author('Francisco Guzmán and Peng-Jen Chen and Myle Ott and Juan Pino and Guillaume Lample and Philipp Koehn and Vishrav Chaudhary and Marc\'Aurelio Ranzato'),
   title('Two New Evaluation Datasets for Low-Resource Machine Translation: Nepali-{English} and Sinhala-{English}'),
   arxiv(2019),
 )
@@ -200,5 +200,14 @@ author('Peter Bartlett and Dylan J. Foster and Matus Telgarsky'),
   title('Spectrally-normalized margin bounds for neural networks'),
   nips(2017),
 )
-
-
+entry!('wei2020improved',
+author('Colin Wei and Tengyu Ma'),
+  title('Improved Sample Complexities for Deep Networks and Robust
+Classification via an All-Layer Margin'),
+  iclr(2020),
+)
+entry!('wei2019data',
+author('Colin Wei and Tengyu Ma'),
+  title('Data-dependent Sample Complexity of Deep Neural Networks via {Lipschitz} Augmentation'),
+  nips(2019),
+)

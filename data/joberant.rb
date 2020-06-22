@@ -777,7 +777,7 @@ nil)
 
 entry!('reddy2018coqa',
   arxiv(2018, '1808.07042'),
-  title('Coqa: A conversational question answering challenge'),
+  title('{CoQA}: A conversational question answering challenge'),
   author('Siva Reddy and Danqi Chen and Christopher D Manning'),
 nil)
 
