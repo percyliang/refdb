@@ -815,3 +815,15 @@ entry!('ertekin2007learning',
   cikm(2007),
 nil)
 
+entry!('wang2019superglue',
+  title('SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems'),
+  author('Alex Wang and Yada Pruksachatkun and Nikita Nangia and Amanpreet Singh and Julian Michael and Felix Hill and Omer Levy and Samuel R. Bowman'),
+  neurips(2019),
+nil)
+
+entry!('clark2019aristo',
+  title('From \'{F}\' to \'{A}\' on the {N.Y.} Regents Science Exams: An Overview of the Aristo Project'),
+  author('Peter Clark and Oren Etzioni and Daniel Khashabi and Tushar Khot and Bhavana Dalvi Mishra and Kyle Richardson and Ashish Sabharwal and Carissa Schoenick and Oyvind Tafjord and Niket Tandon and Sumithra Bhakthavatsalam and Dirk Groeneveld and Michal Guerquin and Michael Schmitz'),
+  arxiv(2019, '1909.01958'),
+nil)
+
