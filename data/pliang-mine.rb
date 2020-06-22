@@ -19,6 +19,7 @@ entry!('khani2020noise',
   author('Fereshte Khani and Percy Liang'),
   icml(2020),
   url('https://arxiv.org/pdf/1911.09876.pdf'),
+  codalab('0x7c3fb3bf981646c9bc11c538e881f37e'),
 nil)
 
 entry!('yasunaga2020repair',
