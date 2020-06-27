@@ -1507,3 +1507,18 @@ entry!('rosset2004margin',
   author('Saharon Rosset and Ji Zhu and Trevor J Hastie'),
   pages(1237, 1244),
 nil)
+
+entry!('chawla2002smote',
+  article('Journal of artificial intelligence research', 2002, 16),
+  title('SMOTE: synthetic minority over-sampling technique'),
+  author('Nitesh V Chawla and Kevin W Bowyer and Lawrence O Hall and W Philip Kegelmeyer'),
+  pages(321, 357),
+nil)
+
+entry!('haixiang2017learning',
+  article('Expert Systems with Applications', 2017, 73),
+  title('Learning from class-imbalanced data: Review of methods and applications'),
+  author('Guo Haixiang and Li Yijing and Jennifer Shang and Gu Mingyun and Huang Yuanyue and Gong Bing'),
+  pages(220, 239),
+  publisher('Elsevier'),
+nil)
