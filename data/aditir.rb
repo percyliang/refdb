@@ -537,3 +537,16 @@ entry!('soudry2018implicit',
   pages(2822, 2878),
   publisher('JMLR. org'),
 nil)
+
+entry!('min2020curious',
+  arxiv(2020, '2002.11080'),
+  title('The curious case of adversarially robust models: More data can help, double descend, or hurt generalization'),
+  author('Yifei Min and Lin Chen and Amin Karbasi'),
+nil)
+
+entry!('xie2020adversarial',
+  cvpr(2020),
+  title('Adversarial examples improve image recognition'),
+  author('Cihang Xie and Mingxing Tan and Boqing Gong and Jiang Wang and Alan L Yuille and Quoc V Le'),
+  pages(819, 828),
+nil)
