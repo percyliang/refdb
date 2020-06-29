@@ -707,3 +707,9 @@ entry!('maaten2008visualizing',
   number('Nov'),
   pages(2579, 2605),
 nil)
+
+entry!('badia2020never',
+  arxiv(2020, '2002.06038'),
+  title('Never Give Up: Learning Directed Exploration Strategies'),
+  author('Adri{\`a} Puigdom{\`e}nech Badia and Pablo Sprechmann and Alex Vitvitskyi and Daniel Guo and Bilal Piot and Steven Kapturowski and Olivier Tieleman and Mart{\'\i}n Arjovsky and Alexander Pritzel and Andew Bolt and others'),
+nil)

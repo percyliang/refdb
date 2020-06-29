@@ -27,6 +27,7 @@ entry!('yasunaga2020repair',
   author('Michi Yasunaga and Percy Liang'),
   icml(2020),
   url('https://arxiv.org/pdf/2005.10636.pdf'),
+  codalab('0x01838644724a433c932bef4cb5c42fbd'),
 nil)
 
 entry!('raghunathan2020understanding',
