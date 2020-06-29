@@ -1547,3 +1547,34 @@ entry!('goyal2019explaining',
   title('Explaining classifiers with causal concept effect ({CaCE})'),
   author('Yash Goyal and Uri Shalit and Been Kim'),
 nil)
+
+entry!('duan2012discovering',
+  cvpr(2012),
+  title('Discovering localized attributes for fine-grained recognition'),
+  author('Kun Duan and Devi Parikh and David Crandall and Kristen Grauman'),
+  pages(3474, 3481),
+  organization('IEEE'),
+nil)
+
+entry!('graziani2018regression',
+  inproceedings('Understanding and Interpreting Machine Learning in Medical Image Computing Applications', 2018),
+  title('Regression concept vectors for bidirectional explanations in histopathology'),
+  author('Mara Graziani and Vincent Andrearczyk and Henning M{\\"u}ller'),
+  pages(124, 132),
+  publisher('Springer'),
+nil)
+
+entry!('clough2019global',
+  inproceedings('International Conference on Medical Image Computing and Computer-Assisted Intervention', 2019),
+  title('Global and local interpretability for cardiac {MRI} classification'),
+  author('James R Clough and Ilkay Oksuz and Esther Puyol-Ant{\\\'o}n and Bram Ruijsink and Andrew P King and Julia A Schnabel'),
+  pages(656, 664),
+  organization('Springer'),
+nil)
+
+entry!('sprague2019interpretable',
+  inproceedings('99th American Meteorological Society Annual Meeting', 2019),
+  title('Interpretable {AI} for Deep Learning-Based Meteorological Applications'),
+  author('Conner Sprague and Eric B Wendoloski and Ingrid Guch'),
+  organization('AMS'),
+nil)
