@@ -1578,3 +1578,9 @@ entry!('sprague2019interpretable',
   author('Conner Sprague and Eric B Wendoloski and Ingrid Guch'),
   organization('AMS'),
 nil)
+
+entry!('o2020generative',
+  arxiv(2020, '2006.13913'),
+  title('Generative causal explanations of black-box classifiers'),
+  author('Matthew O\'Shaughnessy and Gregory Canal and Marissa Connor and Mark Davenport and Christopher Rozell'),
+nil)
