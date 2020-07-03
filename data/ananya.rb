@@ -384,3 +384,15 @@ entry!('kramer1988learning',
   author('Alan H. Kramer'),
   inproceedings('Connectionist Models Summer School', 1988),
 nil)
+
+entry!('mey2016softlabeled',
+  title('A Soft-Labeled Self-Training Approach'),
+  author('Alexander Mey and Marco Loog'),
+  inproceedings('d International Conference on Pattern Recognition', 2016),
+nil)
+
+entry!('blackard1999comparative',
+  title('Comparative accuracies of artificial neural networks and discriminant analysis in predicting forest cover types from cartographic variables'),
+  author('Jock A. Blackard and Denis J. Dean'),
+  inproceedings('Computers and Electronics in Agriculture', 1999),
+nil)
