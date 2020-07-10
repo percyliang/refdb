@@ -12,6 +12,8 @@ entry!('koh2020bottleneck',
   title('Concept Bottleneck Models'),
   author('Pang Wei Koh and Thao Nguyen and Yew Siang Tang and Stephen Mussmann and Emma Pierson and Been Kim and Percy Liang'),
   icml(2020),
+  url('https://arxiv.org/pdf/2007.04612.pdf'),
+  codalab('0x362911581fcd4e048ddfd84f47203fd2'),
 nil)
 
 entry!('khani2020noise',
