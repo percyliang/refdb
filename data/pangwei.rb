@@ -1584,3 +1584,22 @@ entry!('o2020generative',
   title('Generative causal explanations of black-box classifiers'),
   author('Matthew O\'Shaughnessy and Gregory Canal and Marissa Connor and Mark Davenport and Christopher Rozell'),
 nil)
+
+entry!('ghorbani2019towards',
+  nips(2019),
+  title('Towards automatic concept-based explanations'),
+  author('Amirata Ghorbani and James Wexler and James Y Zou and Been Kim'),
+  pages(9277, 9286),
+nil)
+
+entry!('higgins2017beta',
+  iclr(2017),
+  title('beta-vae: Learning basic visual concepts with a constrained variational framework'),
+  author('Irina Higgins and Loic Matthey and Arka Pal and Christopher Burgess and Xavier Glorot and Matthew Botvinick and Shakir Mohamed and Alexander Lerchner'),
+nil)
+
+entry!('chen2016infogan',
+  nips(2016),
+  title('{InfoGAN}: Interpretable representation learning by information maximizing generative adversarial nets'),
+  author('Xi Chen and Yan Duan and Rein Houthooft and John Schulman and Ilya Sutskever and Pieter Abbeel'),  
+nil)

@@ -78,7 +78,7 @@ entry!('mu2020shaping',
 nil)
 
 entry!('murty2020expbert',
-  title('ExpBERT: Representation Engineering with Natural Language Explanations'),
+  title('{ExpBERT}: Representation Engineering with Natural Language Explanations'),
   author('Shikhar Murty and Pang Wei Koh and Percy Liang'),
   acl(2020),
   note('Short paper.'),
