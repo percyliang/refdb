@@ -50,6 +50,8 @@ entry!('srivasta2020human',
   title('Robustness to Spurious Correlations via Human Annotations'),
   author('Megha Srivastava and Tatsunori Hashimoto and Percy Liang'),
   icml(2020),
+  url('https://arxiv.org/pdf/2007.06661.pdf'),
+  codalab('0xc8aa93946ffc48a69e59041144491fe1'),
 nil)
 
 entry!('jones2020roben',
