@@ -301,7 +301,7 @@ nil)
 
 entry!('linzen2016assessing',
   tacl(2016, 4),
-  author('Linzen, Tal and Dupoux, Emmanuel and Goldberg, Yoav'),
+  author('Tal Linzen and Emmanuel Dupoux and Yoav Goldberg'),
   title('Assessing the ability of {LSTMs} to learn syntax-sensitive dependencies'),
 nil)
 
