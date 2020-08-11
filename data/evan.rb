@@ -685,3 +685,31 @@ entry!('russo2017tutorial',
   title('A tutorial on thompson sampling'),
   author('Daniel Russo and Benjamin Van Roy and Abbas Kazerouni and Ian Osband and Zheng Wen'),
 nil)
+
+entry!('boisvert2018gym',
+  author('Maxime Chevalier-Boisvert'),
+  title('Gym-{M}iniworld environment for OpenAI Gym'),
+  year(2018),
+  type('misc'),
+  howpublished('\url{https://github.com/maximecb/gym-miniworld}'),
+nil)
+
+entry!('kapturowski2019recurrent',
+  title('Recurrent experience replay in distributed reinforcement learning'),
+  author('Steven Kapturowski and Georg Ostrovski and John Quan and Remi Munos and Will Dabney'),
+  iclr(2019),
+nil)
+
+entry!('maaten2008visualizing',
+  article('Journal of machine learning research', 2008, 9),
+  title('Visualizing data using {t}-{SNE}'),
+  author('Laurens van der Maaten and Geoffrey Hinton'),
+  number('Nov'),
+  pages(2579, 2605),
+nil)
+
+entry!('badia2020never',
+  arxiv(2020, '2002.06038'),
+  title('Never Give Up: Learning Directed Exploration Strategies'),
+  author('Adri{\`a} Puigdom{\`e}nech Badia and Pablo Sprechmann and Alex Vitvitskyi and Daniel Guo and Bilal Piot and Steven Kapturowski and Olivier Tieleman and Mart{\'\i}n Arjovsky and Alexander Pritzel and Andew Bolt and others'),
+nil)

@@ -613,7 +613,7 @@ entry!('lipton2018does',
 nil)
 
 entry!('pearl2000causality',
-  title('Causality: models, reasoning and inference'),
+  title('{Causality: Models, Reasoning and Inference}'),
   author('Judea Pearl'),
   volume(29),
   #year(2000),

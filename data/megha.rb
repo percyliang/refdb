@@ -94,7 +94,7 @@ nil)
 entry!('nyclu2019data',
   title('Stop-and-Frisk Data'),
   type('misc'),
-  author('New York Civil Liberties Union'),
+  author('NYCLU'),
   howpublished('https://www.nyclu.org/en/stop-and-frisk-data'),
   year(2019),
   nil)
@@ -176,4 +176,37 @@ entry!('van2015causal',
   title('Explanation in Causal Inference: Methods for Mediation and Interaction'),
   author('Tyler J. VanderWeele'),
   book('Oxford University Press', 2015),
+  nil)
+
+entry!('singh2019fair',
+  title('Fair Predictors under Distribution Shift'),
+  author('Harvineet Singh and Rina Singh and Vishwali Mhasawade and Rumi Chunara'),
+  nips(2019),   
+nil)
+
+entry!('ghassemi2019health',
+  title('Practical guidance on artificial intelligence for health-care data'),
+  author('Marzyeh Ghassemi and Tristan Naumann and Peter Schulam and Andrew L Beam and Irene Y Chen and Rajesh Ranganath'),
+  inproceedings('The Lancet Digital Health', 2019),
+  pages(157, 159),
+  nil)
+
+entry!('gerritsen2015addiction',
+  title('Self-report of Smoking Cessation in Cardiac Patients'),
+  author('Marielle Gerritsen and Nadine Berndt and Lilian Lechner and Hein de Vries and Aart Mudde and Catherine Bolmand'),
+  book('Journal of Addiction Medicine', 2015),
+  pages(308, 316),
+  nil)
+
+entry!('gordis1969reliability',
+  title('The Inaccuracy in Using Interviews to Estimate Patient Reliability in Taking Medications at Home'),
+  author('Leon Gordis and Milton Markowitz and Abraham M. Lilienfeld'),
+  book('Medical Care', 1969),
+  pages(49, 54),
+  nil)
+
+entry!('hoeck2015counterfactual',
+  title('Cognitive neuroscience of human counterfactual reasoning'),
+  author('Nicole Van Hoeck and Patrick D. Watson and Aron K. Barbey'),
+  book('Frontiers in Human Neuroscience', 2015),
   nil)
