@@ -850,7 +850,7 @@ entry!('greiner2011causal',
 nil)
 
 entry!('sen2016race',
-  science(2016, 19),
+  article('Annual Review of Political Science',2016, 19),
   title('Race as a bundle of sticks: Designs that estimate effects of seemingly immutable characteristics'),
   author('Maya Sen and Omar Wasow'),
 nil)
