@@ -211,3 +211,9 @@ author('Colin Wei and Tengyu Ma'),
   title('Data-dependent Sample Complexity of Deep Neural Networks via {Lipschitz} Augmentation'),
   nips(2019),
 )
+entry!('chen2020more',
+author('Lin Chen and Yifei Min and Mingrui Zhang and Amin Karbasi'),
+  title('More Data Can Expand the Generalization Gap Between Adversarially Robust and Standard Models'),
+  icml(2020),
+)
+
