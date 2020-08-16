@@ -799,6 +799,7 @@ entry!('latentgraph2020raboh',
   title('Differentiable Scene Graphs'),
   author('Moshiko Raboh and Roei Herzig and Gal Chechik and Jonathan Berant and Amir Globerson'),
   url('https://arxiv.org/pdf/1902.10200.pdf'),
+  code('https://github.com/shikorab/DSG'),
 nil)
 
 entry!('chung2018supervised',
@@ -921,6 +922,7 @@ entry!('talmor2019olmpics',
   arxiv(2019, '1912.13283'),
   author('Alon Talmor and Yanai Elazar and Yoav Goldberg and Jonathan Berant'),
   url('https://arxiv.org/pdf/1912.13283.pdf'),
+  code('https://github.com/alontalmor/oLMpics'),
   nil)
 
 entry!('wolfson2020break',
@@ -931,4 +933,76 @@ entry!('wolfson2020break',
   project('https://allenai.github.io/Break/'),
   code('https://github.com/allenai/Break'),
   nil)
+
+entry!('gardner2020contrast',
+  arxiv(2020, '2004.02709'),
+  author('Matt Gardner and Yoav Artzi and Victoria Basmova and Jonathan Berant and Ben Bogin and Sihao Chen and Pradeep Dasigi and Dheeru Dua and Yanai Elazar and Ananth Gottumukkala and Nitish Gupta and Hanna Hajishirzi and Gabriel Ilharco and Daniel Khashabi and Kevin Lin and Jiangming Liu and Nelson F. Liu and Phoebe Mulcaire and Qiang Ning and Sameer Singh and Noah A. Smith and Sanjay Subramanian and Reut Tsarfaty and Eric Wallace and Ally Zhang and Ben Zhou'),
+  url('https://arxiv.org/pdf/2004.02709.pdf'),
+  project('https://allennlp.org/contrast-sets'),
+  title('Evaluating {NLP} Models via Contrast Sets'),
+  nil)
+
+entry!('tevet2020diversity',
+  title('Evaluating the Evaluation of Diversity in Natural Language Generation'),
+  arxiv(2020, '2004.02990'),
+  author('Guy Tevet and Jonathan Berant'),
+  url('https://arxiv.org/pdf/2004.02990.pdf'),
+  code('https://github.com/GuyTevet/diversity-eval'),
+  nil)
+
+entry!('geva2020injecting',
+  title('Injecting Numerical Reasoning Skills into Language Models'),
+  acl(2020),
+  author('Mor Geva and Ankit Gupta and Jonathan Berant'),
+  url('https://arxiv.org/pdf/2004.04487.pdf'),
+  code('https://github.com/ag1988/injecting_numeracy'),
+  nil)
+
+entry!('latcinnik2020explaining',
+  title('Explaining Question Answering Models through Text Generation'),
+  author('Veronica Latcinnik and Jonathan Berant'),
+  code('https://github.com/nika2312/qa_explaination'),
+  arxiv(2020,'2004.05569'),
+  url('https://arxiv.org/pdf/2004.05569.pdf'),
+nil)
+
+entry!('subramanian2020interpretability',
+  title('Achieving Interpretability in Compositional Neural Networks'),
+  author('Sanjay Subramanian and Ben Bogin and Nitish Gupta and Tomer Wolfson and Sameer Singh and Jonathan Berant and Matt Gardner'),
+  acl(2020),
+  url('https://arxiv.org/pdf/2005.00724.pdf'),
+  code('https://github.com/allenai/faithful-nmn'),
+nil)
+
+entry!('segal2020multispan',
+  title('A Simple and Effective Model for Answering Multi-span Questions'),
+  author('Elad Segal and  Avia Efrat and Mor Shoham and Amir Globerson and Jonathan Berant'),
+  arxiv(2020, '1909.13375'),
+  url('https://arxiv.org/pdf/1909.13375.pdf'),
+  code('https://github.com/eladsegal/tag-based-multi-span-extraction'),
+nil)
+
+entry!('gupta2020gmat',
+  title('{GMAT}: Global Memory Augmentation for Transformers'),
+  author('Ankit Gupta and Jonathan Berant'),
+  arxiv(2020, '2006.03274'),
+  url('https://arxiv.org/pdf/2006.03274.pdf'),
+  code('https://github.com/ag1988/gmat'),
+nil)
+
+entry!('talmor2020teaching',
+  title('Teaching Pre-Trained Models to Systematically Reason Over Implicit Knowledge'),
+  author('Alon Talmor and Ojinvd Tafjord and Peter Clark and Yoav Goldberg and Jonathan Berant'),
+  arxiv(2020, '2006.06609'),
+  url('https://arxiv.org/pdf/2006.06609.pdf'),
+  code('https://github.com/alontalmor/TeachYourAI'),
+nil)
+
+entry!('bogin2020latent',
+  title('Latent Compositional Representations Improve Systematic Generalization in Grounded Question Answering'),
+  author('Ben Bogin and Sanjay Subramanian and Matt Gardner and Jonathan Berant'),
+  arxiv(2020, '2007.00266'),
+  url('https://arxiv.org/pdf/2007.00266.pdf'),
+  code('https://github.com/benbogin/glt-grounded-latent-trees-qa'),
+nil)
 
