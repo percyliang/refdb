@@ -28,12 +28,11 @@ entry!('amershi2015modeltracker',
   organization('ACM'),
 nil)
 
-entry!('shrikumar2016deeplift',
-  arxiv(2016, '1605.01713'),
-  title('Not just a black box: Learning important features through propagating activation differences'),
-  author('Avanti Shrikumar and Peyton Greenside and Anna Shcherbina and Anshul Kundaje'),
+entry!('shrikumar2017learning',
+  icml(2017),
+  title('Learning Important Features Through Propagating Activation Differences'),
+  author('Avanti Shrikumar and Peyton Greenside and Anshul Kundaje'),
 nil)
-
 
 # entry!('lecun1998mnist',
 #   title('The {MNIST} database of handwritten digits'),
@@ -1331,7 +1330,7 @@ entry!('kim2018interpretability',
 nil)
 
 entry!('bau2017network',
-  inproceedings('Proceedings of the IEEE conference on computer vision and pattern recognition', 2017),
+  cvpr(2017),
   title('Network dissection: Quantifying interpretability of deep visual representations'),
   author('David Bau and Bolei Zhou and Aditya Khosla and Aude Oliva and Antonio Torralba'),
   pages(6541, 6549),
@@ -1366,7 +1365,7 @@ entry!('kohn2016classifications',
 nil)
 
 entry!('kellgren1957radiological',
-  article('Annals of the rheumatic diseases', 1957, 16),
+  article('Annals of the Rheumatic Diseases', 1957, 16),
   title('Radiological assessment of osteo-arthrosis'),
   author('JH Kellgren and JS Lawrence'),
   number(4),
@@ -1374,7 +1373,7 @@ entry!('kellgren1957radiological',
 nil)
 
 entry!('tiulpin2018automatic',
-  article('Scientific reports', 2018, 8),
+  article('Scientific Reports', 2018, 8),
   title('Automatic knee osteoarthritis diagnosis from plain radiographs: A deep learning-based approach'),
   author('Aleksei Tiulpin and J{\\\'e}r{\^o}me Thevenot and Esa Rahtu and Petri Lehenkari and Simo Saarakkala'),
   number(1),
@@ -1390,7 +1389,7 @@ entry!('melis2018towards',
 nil)
 
 entry!('de2018clinically',
-  article('Nature medicine', 2018, 24),
+  article('Nature Medicine', 2018, 24),
   title('Clinically applicable deep learning for diagnosis and referral in retinal disease'),
   author('Jeffrey De Fauw and Joseph R Ledsam and Bernardino Romera-Paredes and Stanislav Nikolov and Nenad Tomasev and Sam Blackwell and Harry Askham and Xavier Glorot and Brendan O’Donoghue and Daniel Visentin and others'),
   number(9),
@@ -1413,8 +1412,8 @@ entry!('zhou2018interpretable',
 nil)
 
 entry!('huang2016part',
-  inproceedings('Proceedings of the IEEE conference on computer vision and pattern recognition', 2016),
-  title('Part-stacked cnn for fine-grained visual categorization'),
+  cvpr(2016),
+  title('Part-stacked {CNN} for fine-grained visual categorization'),
   author('Shaoli Huang and Zhe Xu and Dacheng Tao and Ya Zhang'),
   pages(1173, 1182),
 nil)
@@ -1428,7 +1427,7 @@ entry!('sundararajan2017axiomatic',
 nil)
 
 entry!('bengio2013representation',
-  article('IEEE transactions on pattern analysis and machine intelligence', 2013, 35),
+  article('IEEE Transactions on Pattern Analysis and Machine Intelligence', 2013, 35),
   title('Representation learning: A review and new perspectives'),
   author('Yoshua Bengio and Aaron Courville and Pascal Vincent'),
   number(8),
@@ -1437,14 +1436,14 @@ entry!('bengio2013representation',
 nil)
 
 entry!('cui2018large',
-  inproceedings('Proceedings of the IEEE conference on computer vision and pattern recognition', 2018),
+  cvpr(2018),
   title('Large scale fine-grained categorization and domain-specific transfer learning'),
   author('Yin Cui and Yang Song and Chen Sun and Andrew Howard and Serge Belongie'),
   pages(4109, 4118),
 nil)
 
 entry!('zelenko2003kernel',
-  article('Journal of machine learning research', 2003, 3),
+  article('Journal of Machine Learning Research', 2003, 3),
   title('Kernel methods for relation extraction'),
   author('Dmitry Zelenko and Chinatsu Aone and Anthony Richardella'),
   number('Feb'),
@@ -1452,7 +1451,7 @@ entry!('zelenko2003kernel',
 nil)
 
 entry!('bunescu2005shortest',
-  inproceedings('Proceedings of the conference on human language technology and empirical methods in natural language processing', 2005),
+  emnlp(2005),
   title('A shortest path dependency kernel for relation extraction'),
   author('Razvan C Bunescu and Raymond J Mooney'),
   pages(724, 731),
@@ -1475,7 +1474,7 @@ entry!('lindley1956measure',
 nil)
 
 entry!('japkowicz2002class',
-  article('Intelligent data analysis', 2002, 6),
+  article('Intelligent Data Analysis', 2002, 6),
   title('The class imbalance problem: A systematic study'),
   author('Nathalie Japkowicz and Shaju Stephen'),
   number(5),
@@ -1506,4 +1505,101 @@ entry!('rosset2004margin',
   title('Margin maximizing loss functions'),
   author('Saharon Rosset and Ji Zhu and Trevor J Hastie'),
   pages(1237, 1244),
+nil)
+
+entry!('chawla2002smote',
+  article('Journal of artificial intelligence research', 2002, 16),
+  title('SMOTE: synthetic minority over-sampling technique'),
+  author('Nitesh V Chawla and Kevin W Bowyer and Lawrence O Hall and W Philip Kegelmeyer'),
+  pages(321, 357),
+nil)
+
+entry!('haixiang2017learning',
+  article('Expert Systems with Applications', 2017, 73),
+  title('Learning from class-imbalanced data: Review of methods and applications'),
+  author('Guo Haixiang and Li Yijing and Jennifer Shang and Gu Mingyun and Huang Yuanyue and Gong Bing'),
+  pages(220, 239),
+  publisher('Elsevier'),
+nil)
+
+entry!('losch2019interpretability',
+  arxiv(2019, '1907.10882'),
+  title('Interpretability beyond classification output: Semantic bottleneck networks'),
+  author('Max Losch and Mario Fritz and Bernt Schiele'),
+nil)
+
+entry!('chen2020concept',
+  arxiv(2020, '2002.01650'),
+  title('Concept Whitening for Interpretable Image Recognition'),
+  author('Zhi Chen and Yijie Bei and Cynthia Rudin'),
+nil)
+
+entry!('bucher2018semantic',
+  inproceedings('Asian Conference on Computer Vision', 2018),
+  title('Semantic bottleneck for computer vision tasks'),
+  author('Maxime Bucher and St{\\\'e}phane Herbin and Fr{\\\'e}d{\\\'e}ric Jurie'),
+  pages(695, 712),
+  organization('Springer'),
+nil)
+
+entry!('goyal2019explaining',
+  arxiv(2019, '1907.07165'),
+  title('Explaining classifiers with causal concept effect ({CaCE})'),
+  author('Yash Goyal and Uri Shalit and Been Kim'),
+nil)
+
+entry!('duan2012discovering',
+  cvpr(2012),
+  title('Discovering localized attributes for fine-grained recognition'),
+  author('Kun Duan and Devi Parikh and David Crandall and Kristen Grauman'),
+  pages(3474, 3481),
+  organization('IEEE'),
+nil)
+
+entry!('graziani2018regression',
+  inproceedings('Understanding and Interpreting Machine Learning in Medical Image Computing Applications', 2018),
+  title('Regression concept vectors for bidirectional explanations in histopathology'),
+  author('Mara Graziani and Vincent Andrearczyk and Henning M{\\"u}ller'),
+  pages(124, 132),
+  publisher('Springer'),
+nil)
+
+entry!('clough2019global',
+  inproceedings('International Conference on Medical Image Computing and Computer-Assisted Intervention', 2019),
+  title('Global and local interpretability for cardiac {MRI} classification'),
+  author('James R Clough and Ilkay Oksuz and Esther Puyol-Ant{\\\'o}n and Bram Ruijsink and Andrew P King and Julia A Schnabel'),
+  pages(656, 664),
+  organization('Springer'),
+nil)
+
+entry!('sprague2019interpretable',
+  inproceedings('99th American Meteorological Society Annual Meeting', 2019),
+  title('Interpretable {AI} for Deep Learning-Based Meteorological Applications'),
+  author('Conner Sprague and Eric B Wendoloski and Ingrid Guch'),
+  organization('AMS'),
+nil)
+
+entry!('o2020generative',
+  arxiv(2020, '2006.13913'),
+  title('Generative causal explanations of black-box classifiers'),
+  author('Matthew O\'Shaughnessy and Gregory Canal and Marissa Connor and Mark Davenport and Christopher Rozell'),
+nil)
+
+entry!('ghorbani2019towards',
+  nips(2019),
+  title('Towards automatic concept-based explanations'),
+  author('Amirata Ghorbani and James Wexler and James Y Zou and Been Kim'),
+  pages(9277, 9286),
+nil)
+
+entry!('higgins2017beta',
+  iclr(2017),
+  title('beta-vae: Learning basic visual concepts with a constrained variational framework'),
+  author('Irina Higgins and Loic Matthey and Arka Pal and Christopher Burgess and Xavier Glorot and Matthew Botvinick and Shakir Mohamed and Alexander Lerchner'),
+nil)
+
+entry!('chen2016infogan',
+  nips(2016),
+  title('{InfoGAN}: Interpretable representation learning by information maximizing generative adversarial nets'),
+  author('Xi Chen and Yan Duan and Rein Houthooft and John Schulman and Ilya Sutskever and Pieter Abbeel'),  
 nil)

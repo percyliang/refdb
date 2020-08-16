@@ -13,10 +13,8 @@ entry!('yaeger1996effective',
 nil)
 
 entry!('ciresan2011high',
-  author('Dan C. Ciresan and Ueli Meier and Jonathan Masci and
-Luca M. Gambardella and Jurgen Schmidhuber'),
-  title('High-Performance Neural Networks
-for Visual Object Classification'),
+  author('Dan C. Ciresan and Ueli Meier and Jonathan Masci and Luca M. Gambardella and Jurgen Schmidhuber'),
+  title('High-Performance Neural Networks for Visual Object Classification'),
   arxiv(2011),
 nil)
 
@@ -113,11 +111,6 @@ entry!('skorokhodov2018ssl',
   title('Semi-supervised neural machine translation with language models'),
   inproceedings(Name.new('AMTA 2018 Workshop on Technologies for MT of Low Resource Languages', 'LoResMT'), 2018),
 )
-entry!('yasunaga2020repair',
-       author('M. Yasunaga and P. Liang'),
-  title('Graph-based, Self-Supervised Program Repair from Diagnostic Feedback'),
-  arxiv(2020),
-)
 entry!('ronneberger2015unet',
        author('Olaf Ronneberger and Philipp Fischer and Thomas Brox'),
   title('{U-Net}: Convolutional Networks for Biomedical Image Segmentation'),
@@ -181,7 +174,7 @@ author('Kamyar Azizzadenesheli and Anqi Liu and Fanny Yang and Animashree Anandk
   iclr(2019),
 )
 entry!('guzman2019flores',
-author('Francisco Guzm\'{a}n and Peng-Jen Chen and Myle Ott and Juan Pino and Guillaume Lample and Philipp Koehn and Vishrav Chaudhary and Marc\'Aurelio Ranzato'),
+author('Francisco Guzmán and Peng-Jen Chen and Myle Ott and Juan Pino and Guillaume Lample and Philipp Koehn and Vishrav Chaudhary and Marc\'Aurelio Ranzato'),
   title('Two New Evaluation Datasets for Low-Resource Machine Translation: Nepali-{English} and Sinhala-{English}'),
   arxiv(2019),
 )
@@ -207,5 +200,20 @@ author('Peter Bartlett and Dylan J. Foster and Matus Telgarsky'),
   title('Spectrally-normalized margin bounds for neural networks'),
   nips(2017),
 )
-
+entry!('wei2020improved',
+author('Colin Wei and Tengyu Ma'),
+  title('Improved Sample Complexities for Deep Networks and Robust
+Classification via an All-Layer Margin'),
+  iclr(2020),
+)
+entry!('wei2019data',
+author('Colin Wei and Tengyu Ma'),
+  title('Data-dependent Sample Complexity of Deep Neural Networks via {Lipschitz} Augmentation'),
+  nips(2019),
+)
+entry!('chen2020more',
+author('Lin Chen and Yifei Min and Mingrui Zhang and Amin Karbasi'),
+  title('More Data Can Expand the Generalization Gap Between Adversarially Robust and Standard Models'),
+  icml(2020),
+)
 

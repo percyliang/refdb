@@ -613,7 +613,7 @@ entry!('lipton2018does',
 nil)
 
 entry!('pearl2000causality',
-  title('Causality: models, reasoning and inference'),
+  title('{Causality: Models, Reasoning and Inference}'),
   author('Judea Pearl'),
   volume(29),
   #year(2000),
@@ -850,9 +850,11 @@ entry!('greiner2011causal',
 nil)
 
 entry!('sen2016race',
-  science(2016, 19),
+  article('Annual Review of Political Science',2016, 19),
   title('Race as a bundle of sticks: Designs that estimate effects of seemingly immutable characteristics'),
   author('Maya Sen and Omar Wasow'),
+  number(1),
+  pages(499,522),
 nil)
 
 entry!('holland1986statistics',
@@ -892,3 +894,5 @@ entry!('holland2003causation',
   #pages(i--21),
   publisher('Wiley Online Library'),
 nil)
+
+

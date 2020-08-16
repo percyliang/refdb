@@ -448,7 +448,7 @@ nil)
 
 entry!('zhao2017gender',
   title('Men Also Like Shopping: Reducing Gender Bias Amplification using Corpus-level Constraints'),
-  author('Jieyu Zhao and Tianlu Wang and Mark Yatskar and Vicente Ordóñez and Kai-Wei Chang'),
+  author('Jieyu Zhao and Tianlu Wang and Mark Yatskar and Vicente Ordo{\~n}ez and Kai-Wei Chang'),
   emnlp(2017),
 nil)
 
@@ -770,3 +770,242 @@ entry!('roland2007frequency',
   author('Douglas Roland and Frederic Dick and Jeffrey Elman'),
   article('Journal of Memory and Language', 2007, 57),
 nil)
+
+entry!('lewis1995evaluating',
+  title('Evaluating and Optimizing Autonomous Text Classification Systems'),
+  author('David D. Lewis'),
+  sigir(1995),
+nil)
+
+entry!('johnson2017billion',
+  title('Billion-scale similarity search with GPUs'),
+  author('Jeff Johnson and Matthijs Douze and Herv{\'e} J{\'e}gou'),
+  arxiv(2017, '1702.08734'),
+nil)
+
+entry!('balcan2007margin',
+  title('Margin based active learning'),
+  author('Maria-Florina Balcan and Andrei Broder and Tong Zhang'),
+  inproceedings('International Conference on Computational Learning Theory', 2007),
+nil)
+
+entry!('balcan2013active',
+  title('Active and passive learning of linear separators under log-concave distributions'),
+  author('Maria-Florina Balcan and Phil Long'),
+  colt(2013),
+nil)
+
+entry!('iyer2017qqp',
+  title('First Quora Dataset Release: Question Pairs'),
+  author('Shankar Iyer and Nikhil Dandekar and Korn{\'e}l Csernai'),
+  type('misc'),
+  howpublished('\url{https://www.quora.com/q/quoradata/First-Quora-Dataset-Release-Question-Pairs}'),
+  year(2017),
+nil)
+
+entry!('yang2018benchmark',
+  title('A benchmark and comparison of active learning for logistic regression'),
+  author('Yazhou Yang and Marco Loog'),
+  article('Pattern Recognition', 2018, 83),
+nil)
+
+entry!('ertekin2007learning',
+  title('Learning on the border: active learning in imbalanced data classification'),
+  author('Seyda Ertekin and Jian Huang and Leon Bottou and Lee Giles'),
+  cikm(2007),
+nil)
+
+entry!('wang2019superglue',
+  title('SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems'),
+  author('Alex Wang and Yada Pruksachatkun and Nikita Nangia and Amanpreet Singh and Julian Michael and Felix Hill and Omer Levy and Samuel R. Bowman'),
+  neurips(2019),
+nil)
+
+entry!('clark2019aristo',
+  title('From \'{F}\' to \'{A}\' on the {N.Y.} Regents Science Exams: An Overview of the Aristo Project'),
+  author('Peter Clark and Oren Etzioni and Daniel Khashabi and Tushar Khot and Bhavana Dalvi Mishra and Kyle Richardson and Ashish Sabharwal and Carissa Schoenick and Oyvind Tafjord and Niket Tandon and Sumithra Bhakthavatsalam and Dirk Groeneveld and Michal Guerquin and Michael Schmitz'),
+  arxiv(2019, '1909.01958'),
+nil)
+
+entry!('partee2011origins',
+  title('Formal Semantics: Origins, Issues, Early Impact'),
+  author('Barbara H. Partee'),
+  article('Baltic International Yearbook of Cognition, Logic and Communication', 2011, 6),
+nil)
+
+entry!('partee2007compositionality',
+  title('Compositionality and coercion in semantics: The dynamics of adjective meaning'),
+  author('Barbara H. Partee'),
+  article('Cognitive Foundations of Interpretation', 2007),
+nil)
+
+entry!('montague1970english',
+  title('{E}nglish as a Formal Language'),
+  author('Richard Montague'),
+  incollection('Linguaggi nella Societ\`{a} e nella Tecnica', 1970),
+  editor('Bruno Visentini et al.'), 
+  pages(189, 224), 
+  publisher('Edizioni di Comunita'),
+  address('Milan'),
+nil)
+
+entry!('fodor1988connectionism',
+  title('Connectionism and Cognitive Architecture: A Critical Analysis'),
+  author('Jerry A. Fodor and Zenon W. Pylyshyn'),
+  article('Cognition', 1988, 28),
+  pages(3, 71),
+nil)
+
+entry!('shieber2016principles',
+  title('Principles for Designing an {AI} Competition, or Why the {T}uring Test Fails as an Inducement Prize'),
+  author('Stuart Shieber'),
+  article('{AI} Magazine', 2016, 37, 1),
+  publisher('AAAI'),
+nil)
+
+entry!('sap2019risk',
+  title('The Risk of Racial Bias in Hate Speech Detection'),
+  author('Maarten Sap and Dallas Card and Saadia Gabriel and Yejin Choi and Noah A Smith'),
+  acl(2019),
+nil)
+
+entry!('zhao2018gender',
+  title('Gender Bias in Coreference Resolution: Evaluation and Debiasing Methods'),
+  author('Jieyu Zhao and Tianlu Wang and Mark Yatskar and Vicente Ordo{\~n}ez and Kai-Wei Chang'),
+  naacl(2018),
+nil)
+
+entry!('winograd1991thinking',
+  title('Thinking machines: Can there be? Are we?'),
+  author('Terry Winograd'),
+  # James Sheehan and Morton Sosna, eds., , Berkeley: University of California Press, 1991 pp. 198-223.
+  incollection('The Boundaries of Humanity: Humans, Animals, Machines', 1991),
+  editor('James Sheehan and Morton Sosna'), 
+  pages(198, 223), 
+  publisher('University of California Press'),
+  address('Berkeley'),
+nil)
+
+entry!('mccarthy1984some',
+  title('Some expert systems need common sense'),
+  author('John McCarthy'),
+  inproceedings('Proceedings of a symposium on Computer culture: the scientific, intellectual, and social impact of the computer', 1984),
+nil)
+
+entry!('lenat1985cyc',
+  title('CYC: Using Common Sense Knowledge to Overcome Brittleness and Knowledge Acquisition Bottlenecks'),
+  author('Doug Lenat and Mayank Prakash and Mary Shepherd'),
+  article('{AI} Magazine', 1985, 6, 4),
+  publisher('AAAI'),
+nil)
+
+entry!('yahia2000rough',
+  title('Rough neural expert systems'),
+  author('M.E. Yahia and R. Mahmood and N. Sulaiman and F. Ahmad'),
+  article('Expert Systems with Applications', 2000, 18),
+  pages(87, 99),
+nil)
+
+entry!('gallant1988connectionist',
+  title('Connectionist expert systems'),
+  author('Stephen I. Gallant'),
+  inproceedings('Communications of the ACM', 1988),
+nil)
+
+entry!('zadeh1983computational',
+  title('A computational approach to fuzzy quantifiers in natural languages'),
+  author('Lotfi A. Zadeh'),
+  article('Computers and Mathematics with Applications', 1983, 9, 1),
+nil)
+
+entry!('jin2020robust',
+  title('Is {BERT} Really Robust? A Strong Baseline for Natural Language Attack on Text Classification and Entailment'),
+  author('Di Jin and Zhijing Jin and Joey Tianyi Zhou and Peter Szolovits'),
+  aaai(2020),
+nil)
+
+entry!('rudinger2018gender',
+  title('Gender Bias in Coreference Resolution'),
+  author('Rachel Rudinger and Jason Naradowsky and Brian Leonard and Benjamin Van Durme'),
+  naacl(2018),
+nil)
+
+entry!('volpi2018generalizing',
+  title('Generalizing to Unseen Domains via Adversarial Data Augmentation'),
+  author('Riccardo Volpi and Hongseok Namkoong and Ozan Sener and John Duchi and Vittorio Murino and Silvio Savarese'),
+  neurips(2018),
+nil)
+
+entry!('ganin2016domain',
+  title('Domain-Adversarial Training of Neural Networks'),
+  author('Yaroslav Ganin and Evgeniya Ustinova and Hana Ajakan and Pascal Germain and Hugo Larochelle and Francois Laviolette and Mario March and Victor Lempitsky'),
+  jmlr(2016, 17),
+nil)
+
+entry!('zhu2020freelb',
+  title('FreeLB: Enhanced Adversarial Training for Natural Language Understanding'),
+  author('Chen Zhu and Yu Cheng and Zhe Gan and Siqi Sun and Tom Goldstein and Jingjing Liu'),
+  iclr(2020),
+nil)
+
+entry!('miyato2017adversarial',
+  title('Adversarial Training Methods for Semi-Supervised Text Classification'),
+  author('Takeru Miyato and Andrew M. Dai and Ian Goodfellow'),
+  iclr(2017),
+nil)
+
+entry!('kang2019testing',
+  title('Testing Robustness Against Unforeseen Adversaries'),
+  author('Daniel Kang and Yi Sun and Dan Hendrycks and Tom Brown and Jacob Steinhardt'),
+  arxiv(2019, '1908.08016'),
+nil)
+
+entry!('feng2019misleading',
+  title('Misleading Failures of Partial-input Baselines'),
+  author('Shi Feng and Eric Wallace and Jordan Boyd-Graber'),
+  acl(2019),
+nil)
+
+entry!('zhang2019paws',
+  title('PAWS: Paraphrase Adversaries from Word Scrambling'),
+  author('Yuan Zhang and Jason Baldridge and Luheng He'),
+  naacl(2019),
+nil)
+
+entry!('christian2018translate',
+  title('Why Is {G}oogle Translate Spitting Out Sinister Religious Prophecies?'),
+  author('Jon Christian'),
+  type('misc'),
+  howpublished('\url{https://www.vice.com/en_us/article/j5npeg/why-is-google-translate-spitting-out-sinister-religious-prophecies}'),
+  year(2018),
+nil)
+
+entry!('sussmann2007robust',
+  title('Building Robust Systems: an essay'),
+  author('Gerald Jay Sussman'),
+  type('misc'),
+  year(2007),
+nil)
+
+entry!('clark2019dont',
+  title("Don't Take the Easy Way Out: Ensemble Based Methods for Avoiding Known Dataset Biases"),
+  author('Christopher Clark and Mark Yatskar and Luke Zettlemoyer'),
+  emnlp(2019),
+nil)
+
+entry!('he2019unlearn',
+  title('Unlearn Dataset Bias in Natural Language Inference by Fitting the Residual'),
+  author('He He and Sheng Zha and Haohan Wang'),
+  inproceedings('Workshop on Deep Learning for Low-Resource Natural Language Processing (DeepLo)', 2019),
+nil)
+
+entry!('gretton2008covariate',
+  title('Covariate Shift by Kernel Mean Matching'),
+  author('Arthur Gretton and Alex Smola and Jiayuan Huang and Marcel Schmittfull and Karsten Borgwardt and Bernhard Sch{\"o}lkopf'),
+  incollection('Dataset Shift in Machine Learning', 2008),
+  editor('Joaquin Qui{\~n}onero-Candela and Masashi Sugiyama and Anton Schwaighofer and Neil D. Lawrence'),
+  publisher('MIT Press'),
+nil)
+
+
+

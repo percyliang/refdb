@@ -77,12 +77,6 @@ entry!('finn2017modelagnostic',
   icml(2017),
 nil)
 
-entry!('kamath2020squads',
-  title('Selective Question Answering under Domain Shift'),
-  author('Amita Kamath and Robin Jia and Percy Liang'),
-  acl(2020),
-nil)
-
 entry!('dalal2018safe',
   title('Safe Exploration in Continuous Action Spaces'),
   author('Gal Dalal and Krishnamurthy Dvijotham and Matej Vecerik and Todd Hester and Cosmin Paduraru and Yuval Tassa'),
