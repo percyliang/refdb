@@ -917,9 +917,9 @@ entry!('garder2019qaforamt',
   url('https://arxiv.org/pdf/1909.11291.pdf'),
   nil)
 
-entry!('talmor2019olmpics',
-  title('oLMpics - On what Language Model Pre-training Captures'),
-  arxiv(2019, '1912.13283'),
+entry!('talmor2020olmpics',
+  title('oLMpics -- On what Language Model Pre-training Captures'),
+  tacl(2020, 3)
   author('Alon Talmor and Yanai Elazar and Yoav Goldberg and Jonathan Berant'),
   url('https://arxiv.org/pdf/1912.13283.pdf'),
   code('https://github.com/alontalmor/oLMpics'),
