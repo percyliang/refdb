@@ -1007,5 +1007,16 @@ entry!('gretton2008covariate',
   publisher('MIT Press'),
 nil)
 
+entry!('bhagat2013paraphrase',
+  title('What Is a Paraphrase?'),
+  author('Rahul Bhagat and Eduard Hovy'),
+  computationalLinguistics(2013, 39),
+nil)
+
+entry!('drozdov2019unsupervised',
+  title('Unsupervised Latent Tree Induction with Deep Inside-Outside Recursive Autoencoders'),
+  author('Andrew Drozdov and Pat Verga and Mohit Yadav and Mohit Iyyer and Andrew McCallum'),
+  naacl(2019),
+nil)
 
 
