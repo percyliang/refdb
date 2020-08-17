@@ -1019,4 +1019,16 @@ entry!('drozdov2019unsupervised',
   naacl(2019),
 nil)
 
+entry!('liu2018stochastic',
+  title('Stochastic Answer Networks for Machine Reading Comprehension'),
+  author('Xiaodong Liu and Yelong Shen and Kevin Duh and Jianfeng Gao'),
+  acl(2018),
+nil)
+
+entry!('wang2018multi',
+  title('Multi-Granularity Hierarchical Attention Fusion Networks for Reading Comprehension and Question Answering'),
+  author('Wei Wang and Ming Yan and Chen Wu'),
+  acl(2018),
+nil)
+
 
