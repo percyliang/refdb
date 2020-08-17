@@ -919,7 +919,7 @@ entry!('garder2019qaforamt',
 
 entry!('talmor2020olmpics',
   title('oLMpics -- On what Language Model Pre-training Captures'),
-  tacl(2020, 3)
+  tacl(2020, 3),
   author('Alon Talmor and Yanai Elazar and Yoav Goldberg and Jonathan Berant'),
   url('https://arxiv.org/pdf/1912.13283.pdf'),
   code('https://github.com/alontalmor/oLMpics'),
