@@ -1031,4 +1031,26 @@ entry!('wang2018multi',
   acl(2018),
 nil)
 
+entry!('lowell2019practical',
+  title('Practical Obstacles to Deploying Active Learning'),
+  author('David Lowell and Zachary C. Lipton and Byron C. Wallace'),
+  emnlp(2019),
+nil)
 
+entry!('simeoni2019rethinking',
+  title('Rethinking deep active learning: Using unlabeled data at model training'),
+  author("Oriane Sim{'e}oni, Mateusz Budnik, Yannis Avrithis, Guillaume Gravier"),
+  arxiv(2019, '1911.08177'),
+nil)
+
+entry!('fathi2011combining',
+  title('Combining Self Training and Active Learning for Video Segmentation'),
+  author('Alireza Fathi and Maria-Florina Balcan and Xiaofeng Ren and James M. Rehg'),
+  inproceedings('British Machine Vision Conference (BMVC)', 2011),
+nil)
+
+entry!('ribeiro2019red',
+  title('Are Red Roses Red? Evaluating Consistency of Question-Answering Models'),
+  author('Marco Tulio Ribeiro and Carlos Guestrin and Sameer Singh'),
+  acl(2019),
+nil)
