@@ -94,3 +94,18 @@ entry!('yao2019model',
   title('Model-based Interactive Semantic Parsing: A Unified Framework and A Text-to-{SQL} Case Study'),
   author('Ziyu Yao and Yu Su and Huan Sun and Wen-tau Yih'),
 nil)
+
+entry!('scassellati2012robots',
+  article('Annual review of biomedical engineering', 2012, 14),
+  author('Brian Scassellati and Henny Admoni and Maja Mataric'),
+  title('Robots for Use in Autism Research'),
+  pages(275, 294),
+nil)
+
+
+entry!('knepper2013ikeabot',
+  icra(2013),
+  title('IkeaBot: An autonomous multi-robot coordinated furniture assembly system'),
+  author('Ross A. Knepper and Todd Layton and John Romanishin and Daniela Rus'),
+  pages(855, 862),
+nil)
