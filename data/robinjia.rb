@@ -651,10 +651,10 @@ entry!('ovadia2019uncertainty',
   neurips(2019),
 nil)
 
-entry!('nie2019adversarial',
+entry!('nie2020adversarial',
   title('Adversarial NLI: A New Benchmark for Natural Language Understanding'),
   author('Yixin Nie and Adina Williams and Emily Dinan and Mohit Bansal and Jason Weston and Douwe Kiela'),
-  arxiv(2019, '1910.14599'),
+  acl(2020),
 nil)
 
 entry!('glockner2018breaking',
@@ -1054,3 +1054,22 @@ entry!('ribeiro2019red',
   author('Marco Tulio Ribeiro and Carlos Guestrin and Sameer Singh'),
   acl(2019),
 nil)
+
+entry!('manning2011pos',
+  title('Part-of-Speech Tagging from 97% to 100%: Is It Time for Some Linguistics?'),
+  author('Christopher D. Manning'),
+  inproceedings('International Conference on Computational Linguistics and Intelligent Text Processing (CICLing)', 2011),
+nil)
+
+entry!('goodwin2020probing',
+  title('Probing Linguistic Systematicity'),
+  author("Emily Goodwin and Koustuv Sinha and Timothy J. O'Donnell"),
+  acl(2020),
+nil)
+
+entry!('brown2020gpt3',
+  title('Language Models are Few-Shot Learners'),
+  author('Tom B. Brown and Benjamin Mann and Nick Ryder and Melanie Subbiah and Jared Kaplan and Prafulla Dhariwal and Arvind Neelakantan and Pranav Shyam and Girish Sastry and Amanda Askell and Sandhini Agarwal and Ariel Herbert-Voss and Gretchen Krueger and Tom Henighan and Rewon Child and Aditya Ramesh and Daniel M. Ziegler and Jeffrey Wu and Clemens Winter and Christopher Hesse and Mark Chen and Eric Sigler and Mateusz Litwin and Scott Gray and Benjamin Chess and Jack Clark and Christopher Berner and Sam McCandlish and Alec Radford and Ilya Sutskever and Dario Amodei'),
+  arxiv(2020, '2005.14165'),
+nil)
+
