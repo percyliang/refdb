@@ -1073,3 +1073,17 @@ entry!('brown2020gpt3',
   arxiv(2020, '2005.14165'),
 nil)
 
+entry!('robey2020modelbased',
+  title('Model-Based Robust Deep Learning'),
+  author('Alexander Robey and Hamed Hassani and George J. Pappas'),
+  arxiv(2020, '2005.10247'),
+nil)
+
+entry!('berger2017translated',
+  title("Israel Arrests Palestinian Because Facebook Translated 'Good Morning' to 'Attack Them'"),
+  author('Yotam Berger'),
+  article('Haaretz', 2017),
+  url('https://www.haaretz.com/israel-news/palestinian-arrested-over-mistranslated-good-morning-facebook-post-1.5459427'),
+nil)
+
+
