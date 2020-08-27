@@ -126,7 +126,7 @@ entry!('lee2017rasor',
 nil)
 
 entry!('bender2017buildit',
-  author('Emily M. Bender and Hal {Daume III} and Allyson Ettinger and Harita Kannan and Sudha Rao and Ephraim Rothschild'),
+  author('Emily M. Bender and Hal {Daum{\\\'e} III} and Allyson Ettinger and Harita Kannan and Sudha Rao and Ephraim Rothschild'),
   title('Build It, Break It: The Language Edition'),
   type('misc'),
   howpublished('\url{https://bibinlp.umiacs.umd.edu/}'),

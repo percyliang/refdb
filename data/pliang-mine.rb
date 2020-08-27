@@ -1155,7 +1155,7 @@ entry!('liang08asymptotics',
 nil)
 
 entry!('liang08structure',
-  author('Percy Liang and Hal Daume and Dan Klein'),
+  author('Percy Liang and Hal {Daum{\\\'e} III} and Dan Klein'),
   title('Structure Compilation: Trading Structure for Features'),
   icml2008,
   url('structure-icml2008.pdf'),
