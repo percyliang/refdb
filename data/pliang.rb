@@ -3295,7 +3295,7 @@ nil)
 
 entry!('manning2008ir',
   book('Cambridge University Press', 2008),
-  author('Christopher Manning and Prabhakar Raghavan and Hinrich Schütze'),
+  author('Christopher Manning and Prabhakar Raghavan and Hinrich Sch{\"u}tze'),
   volume(1),
   url('http://www.langtoninfo.com/web_content/9780521865715_frontmatter.pdf'),
   title('Introduction to information retrieval'),
@@ -4647,7 +4647,7 @@ entry!('auli2011efficient',
 nil)
 
 entry!('manning2014stanford',
-  title('The Stanford Core{NLP} natural language processing toolkit'),
+  title('The {S}tanford {C}ore{NLP} natural language processing toolkit'),
   inproceedings('ACL system demonstrations',2014),
   author('Christopher D. Manning and Mihai Surdeanu and John Bauer and Jenny Finkel and Steven J. Bethard and Davic McClosky'),
 nil)
@@ -5214,7 +5214,7 @@ entry!('socher2011parsing',
 nil)
 
 entry!('weston2015towards',
-  arxiv(2015),
+  arxiv(2015, '1502.05698'),
   title('Towards {AI}-Complete Question Answering: A Set of Prerequisite Toy Tasks'),
   author('Jason Weston and Antoine Bordes and Sumit Chopra and Tomas Mikolov'),
 nil)
@@ -7629,7 +7629,7 @@ entry!('globerson2006nightmare',
   pages(353, 360),
   organization('ACM'),
   author('Amir Globerson and Sam Roweis'),
-  title('Nightmare at test time: robust learning by feature deletion'),
+  title('Nightmare at test time: Robust learning by feature deletion'),
 nil)
 
 entry!('bishop1995training',
@@ -9624,7 +9624,6 @@ entry!('maccartney2007natural',
   author('Bill MacCartney and Christopher D. Manning'),
   title('Natural Logic for Textual Inference'),
   inproceedings('ACL-PASCAL Workshop on Textual Entailment and Paraphrasing', 2007),
-  year(2007),
   pages(193,200),
 nil)
 
@@ -9732,10 +9731,11 @@ entry!('lai2016agnostic',
   focs(2016),
 nil)
 
-entry!('wang2016machine',
-  arxiv(2016, '1608.07905'),
+entry!('wang2017machine',
+  #arxiv(2016, '1608.07905'),
   title('Machine Comprehension Using Match-{LSTM} and Answer Pointer'),
   author('Shuohang Wang and Jing Jiang'),
+  iclr(2017),
 nil)
 
 entry!('awasthi2012improved',
@@ -11289,9 +11289,10 @@ entry!('binns2018fairness',
 nil)
 
 entry!('athalye2018obfuscated',
-  arxiv(2018, '1802.00420'),
+#  arxiv(2018, '1802.00420'),
   title('Obfuscated gradients give a false sense of security: Circumventing defenses to adversarial examples'),
   author('Anish Athalye and Nicholas Carlini and David Wagner'),
+  icml(2018),
 nil)
 
 entry!('sinha2018certifiable',

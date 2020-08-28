@@ -338,7 +338,7 @@ nil)
 
 entry!('wang2019glue',
   iclr(2019),
-  title('GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding'),
+  title('{GLUE}: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding'),
   author('Alex Wang and Amapreet Singh and Julian Michael and Felix Hill and Omer Levy and Samuel R Bowman'),
 nil)
 

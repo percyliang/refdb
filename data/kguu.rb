@@ -145,10 +145,11 @@ entry!('duff2002optimal',
   phdthesis('University of Massachusetts Amherst', 2002),
 nil)
 
-entry!('kingma2014adam',
-  arxiv(2014, '1412.6980'),
+entry!('kingma2015adam',
+  #arxiv(2014, '1412.6980'),
   title('Adam: A method for stochastic optimization'),
   author('Diederik Kingma and Jimmy Ba'),
+  iclr(2015),
 nil)
 entry!('smith2006minimum',
   colingacl(2006),
@@ -373,16 +374,19 @@ entry!('conneau2017supervised',
 nil)
 
 entry!('poliak2018hypothesis',
-  arxiv(2018, '1805.01042'),
+  #arxiv(2018, '1805.01042'),
   title('Hypothesis Only Baselines in Natural Language Inference'),
   author('Adam Poliak and Jason Naradowsky and Aparajita Haldar and Rachel Rudinger and Benjamin Van Durme'),
+  inproceedings('Joint Conference on Lexical and Computational Semantics', 2018),
 nil)
 
 entry!('dagan2006pascal',
   title('The {PASCAL} recognising textual entailment challenge'),
   author('Ido Dagan and Oren Glickman and Bernardo Magnini'),
-  book('Machine learning challenges. evaluating predictive uncertainty, visual object classification, and recognising tectual entailment', 2006),
+  incollection('Machine learning challenges. evaluating predictive uncertainty, visual object classification, and recognising tectual entailment', 2006),
   pages(177, 190),
+  publisher('Springer Berlin Heidelberg'),
+  address('Berlin, Heidelberg'),
 nil)
 
 entry!('tapaswi2016movieqa',

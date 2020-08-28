@@ -38,8 +38,8 @@ nil)
 entry!('davies2008COCA',
   year('2008-2019'),
   type('misc'),
-  howpublished('\url{https://www.english-corpora.org/faq.asp}'),
-  title('The Corpus of Contemporary American English (COCA): 560 million words, 1990-present'),
+  howpublished('\url{https://www.english-corpora.org/coca/}'),
+  title('The Corpus of Contemporary {A}merican {E}nglish ({COCA}): One billion words, 1990-2019'),
   author('Mark Davies'),
 nil)
 

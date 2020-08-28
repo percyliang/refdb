@@ -192,9 +192,10 @@ entry!('hu2016harnessing',
 nil)
 
 entry!('lai2017race',
-  arxiv(2017, '1704.04683'),
+  #arxiv(2017, '1704.04683'),
   title('RACE: Large-scale ReAding Comprehension Dataset From Examinations'),
   author('Guokun Lai and Qizhe Xie and Hanxiao Liu and Yiming Yang and Eduard Hovy'),
+  emnlp(2017),
 nil)
 
 entry!('cheng2017learning',

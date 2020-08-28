@@ -129,7 +129,7 @@ nil)
 
 entry!('jia2019certified',
   title('Certified Robustness to Adversarial Word Substitutions'),
-  author('Robin Jia and Aditi Raghunathan and Kerem Göksel and Percy Liang'),
+  author('Robin Jia and Aditi Raghunathan and Kerem G{\"o}ksel and Percy Liang'),
   emnlp(2019),
   url('https://arxiv.org/pdf/1909.00986.pdf'),
   codalab('0x79feda5f1998497db75422eca8fcd689'),
@@ -293,7 +293,7 @@ entry!('hashimoto2018edit',
 nil)
 
 entry!('choi2018quac',
-  title('QuAC: Question Answering in Context'),
+  title('{QuAC}: Question Answering in Context'),
   author('Eunsol Choi and He He and Mohit Iyyer and Mark Yatskar and Wen-tau Yih and Yejin Choi and Percy Liang and Luke Zettlemoyer'),
   url('https://arxiv.org/pdf/1808.07036.pdf'),
   emnlp(2018),

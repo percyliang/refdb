@@ -11,11 +11,10 @@ entry!('szegedy2014intriguing',
   url('https://arxiv.org/abs/1312.6199'),
 nil)
 
-entry!('seo2016bidaf',
+entry!('seo2017bidaf',
   author('Minjoon Seo and Aniruddha Kembhavi and Ali Farhadi and Hannaneh Hajishirzi'),
   title('Bidirectional Attention Flow for Machine Comprehension'),
-  arxiv(2016),
-  url('https://arxiv.org/abs/1611.01603'),
+  iclr(2017),
 nil)
 
 entry!('papernot2017blackbox',
@@ -25,10 +24,11 @@ entry!('papernot2017blackbox',
   url('https://arxiv.org/abs/1602.02697'),
 nil)
 
-entry!('narodytska2016blackbox',
+entry!('narodytska2017blackbox',
   author('Nina Narodytska and Shiva Prasad Kasiviswanathan'),
   title('Simple Black-Box Adversarial Perturbations for Deep Networks'),
-  arxiv(2016, '1612.06299'),
+  #arxiv(2016, '1612.06299'),
+  inproceedings('IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)', 2017),
 nil)
 
 entry!('paice1990lancaster',
@@ -73,7 +73,8 @@ nil)
 entry!('li2017adversarial',
   author('Jiwei Li and Will Monroe and Tianlin Shi and Alan Ritter and Dan Jurafsky'),
   title('Adversarial Learning for Neural Dialogue Generation'),
-  arxiv(2017, '1701.06547'),
+  #arxiv(2017, '1701.06547'),
+  emnlp(2017),
 nil)
 
 entry!('dalvi2004adversarial',
@@ -109,13 +110,13 @@ nil)
 entry!('zhang2017jnet',
   author('Junbei Zhang and Xiaodan Zhu and Qian Chen and Lirong Dai and Si Wei and Hui Jiang'),
   title('Exploring Question Understanding and Adaptation in Neural-Network-Based Question Answering'),
-  arxiv(2017),
+  arxiv(2017, '1703.04617'),
 nil)
 
 entry!('wang2016multi',
   author('Zhiguo Wang and Haitao Mi and Wael Hamza and Radu Florian'),
   title('Multi-Perspective Context Matching for Machine Comprehension'),
-  arxiv(2016),
+  arxiv(2016, '1612.04211'),
 nil)
 
 entry!('lee2017rasor',
@@ -141,7 +142,7 @@ nil)
 
 entry!('shen2017reasonet',
   author('Yelong Shen and Po-Sen Huang and Jianfeng Gao and Weizhu Chen'),
-  title('ReasoNet: Learning to Stop Reading in Machine Comprehension'),
+  title('{ReasoNet}: Learning to Stop Reading in Machine Comprehension'),
   kdd(2017),
 nil)
 
@@ -154,19 +155,19 @@ nil)
 entry!('liu2017sect',
   author('Rui Liu and Junjie Hu and Wei Wei and Zi Yang and Eric Nyberg'),
   title('Structural Embedding of Syntactic Trees for Machine Comprehension'),
-  arxiv(2017),
+  emnlp(2017),
 nil)
 
-entry!('gong2017ruminating',
+entry!('gong2018ruminating',
   author('Yichen Gong and Samuel R. Bowman'),
   title('Ruminating Reader: Reasoning with Gated Multi-Hop Attention'),
-  arxiv(2017),
+  inproceedings('Workshop on Machine Reading for Question Answering (MRQA)', 2018),
 nil)
 
 entry!('yu2016dcr',
   author('Yang Yu and Wei Zhang and Kazi Hasan and Mo Yu and Bing Xiang and Bowen Zhou'),
   title('End-to-End Answer Chunk Extraction and Ranking for Reading Comprehension'),
-  arxiv(2016),
+  arxiv(2016, '1610.09996'),
 nil)
 
 entry!('weissenborn2017fastqa',
@@ -369,7 +370,7 @@ nil)
 
 entry!('feng2018pathologies',
   title('Pathologies of Neural Models Make Interpretations Difficult'),
-  author('Shi Feng and Eric Wallace and Alvin Grissom II and Mohit Iyyer and Pedro Rodriguez and Jordan Boyd-Graber'),
+  author('Shi Feng and Eric Wallace and Alvin {Grissom II} and Mohit Iyyer and Pedro Rodriguez and Jordan Boyd-Graber'),
   emnlp(2018),
 nil)
 
@@ -652,7 +653,7 @@ entry!('ovadia2019uncertainty',
 nil)
 
 entry!('nie2020adversarial',
-  title('Adversarial NLI: A New Benchmark for Natural Language Understanding'),
+  title('Adversarial {NLI}: A New Benchmark for Natural Language Understanding'),
   author('Yixin Nie and Adina Williams and Emily Dinan and Mohit Bansal and Jason Weston and Douwe Kiela'),
   acl(2020),
 nil)
@@ -777,10 +778,11 @@ entry!('lewis1995evaluating',
   sigir(1995),
 nil)
 
-entry!('johnson2017billion',
+entry!('johnson2019billion',
   title('Billion-scale similarity search with GPUs'),
-  author('Jeff Johnson and Matthijs Douze and Herv{\'e} J{\'e}gou'),
-  arxiv(2017, '1702.08734'),
+  author('Jeff Johnson and Matthijs Douze and Herv{\\\'e} J{\\\'e}gou'),
+  #arxiv(2017, '1702.08734'),
+  inproceedings('IEEE Transactions on Big Data', 2019),
 nil)
 
 entry!('balcan2007margin',
@@ -816,13 +818,13 @@ entry!('ertekin2007learning',
 nil)
 
 entry!('wang2019superglue',
-  title('SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems'),
+  title('{SuperGLUE}: A Stickier Benchmark for General-Purpose Language Understanding Systems'),
   author('Alex Wang and Yada Pruksachatkun and Nikita Nangia and Amanpreet Singh and Julian Michael and Felix Hill and Omer Levy and Samuel R. Bowman'),
   neurips(2019),
 nil)
 
 entry!('clark2019aristo',
-  title('From \'{F}\' to \'{A}\' on the {N.Y.} Regents Science Exams: An Overview of the Aristo Project'),
+  title("From `{F}' to `{A}' on the {N.Y.} {R}egents Science Exams: An Overview of the {A}risto Project"),
   author('Peter Clark and Oren Etzioni and Daniel Khashabi and Tushar Khot and Bhavana Dalvi Mishra and Kyle Richardson and Ashish Sabharwal and Carissa Schoenick and Oyvind Tafjord and Niket Tandon and Sumithra Bhakthavatsalam and Dirk Groeneveld and Michal Guerquin and Michael Schmitz'),
   arxiv(2019, '1909.01958'),
 nil)
@@ -889,7 +891,7 @@ nil)
 entry!('mccarthy1984some',
   title('Some expert systems need common sense'),
   author('John McCarthy'),
-  inproceedings('Proceedings of a symposium on Computer culture: the scientific, intellectual, and social impact of the computer', 1984),
+  inproceedings('Proceedings of a symposium on Computer culture: The scientific, intellectual, and social impact of the computer', 1984),
 nil)
 
 entry!('lenat1985cyc',
@@ -943,7 +945,7 @@ entry!('ganin2016domain',
 nil)
 
 entry!('zhu2020freelb',
-  title('FreeLB: Enhanced Adversarial Training for Natural Language Understanding'),
+  title('{F}ree{LB}: Enhanced Adversarial Training for Natural Language Understanding'),
   author('Chen Zhu and Yu Cheng and Zhe Gan and Siqi Sun and Tom Goldstein and Jingjing Liu'),
   iclr(2020),
 nil)
@@ -975,15 +977,17 @@ nil)
 entry!('christian2018translate',
   title('Why Is {G}oogle Translate Spitting Out Sinister Religious Prophecies?'),
   author('Jon Christian'),
+  #article('Vice', 2018),
   type('misc'),
   howpublished('\url{https://www.vice.com/en_us/article/j5npeg/why-is-google-translate-spitting-out-sinister-religious-prophecies}'),
   year(2018),
 nil)
 
 entry!('sussmann2007robust',
-  title('Building Robust Systems: an essay'),
+  title('Building Robust Systems: An essay'),
   author('Gerald Jay Sussman'),
   type('misc'),
+  howpublished('\url{https://groups.csail.mit.edu/mac/users/gjs/6.945/readings/robust-systems.pdf}'),
   year(2007),
 nil)
 
@@ -1039,7 +1043,7 @@ nil)
 
 entry!('simeoni2019rethinking',
   title('Rethinking deep active learning: Using unlabeled data at model training'),
-  author("Oriane Sim{'e}oni, Mateusz Budnik, Yannis Avrithis, Guillaume Gravier"),
+  author('Oriane Sim{\\\'e}oni and Mateusz Budnik and Yannis Avrithis and Guillaume Gravier'),
   arxiv(2019, '1911.08177'),
 nil)
 
@@ -1080,10 +1084,42 @@ entry!('robey2020modelbased',
 nil)
 
 entry!('berger2017translated',
-  title("Israel Arrests Palestinian Because Facebook Translated 'Good Morning' to 'Attack Them'"),
+  title("Israel Arrests Palestinian Because Facebook Translated `Good Morning' to `Attack Them'"),
   author('Yotam Berger'),
-  article('Haaretz', 2017),
-  url('https://www.haaretz.com/israel-news/palestinian-arrested-over-mistranslated-good-morning-facebook-post-1.5459427'),
+  #article('Haaretz', 2017),
+  type('misc'),
+  howpublished('\url{https://www.haaretz.com/israel-news/palestinian-arrested-over-mistranslated-good-morning-facebook-post-1.5459427}'),
+  year(2017),
+nil)
+
+entry!('maccartney2008nli',
+  title('Modeling Semantic Containment and Exclusion in Natural Language Inference'),
+  author('Bill MacCartney and Christopher D. Manning'),
+  coling(2008),
+nil)
+
+entry!('schain2015robustness',
+  title('Machine Learning Algorithms and Robustness'),
+  author('Mariano Schain'),
+  phdthesis('Tel Aviv University', 2015),
+nil)
+
+entry!('gowal2019scalable',
+  title('Scalable Verified Training for Provably Robust Image Classification'),
+  author('Sven Gowal and Krishnamurthy Dvijotham and Robert Stanforth and Rudy Bunel and Chongli Qin and Jonathan Uesato and Relja Arandjelovi{\\\'c} and Timothy Mann and Pushmeet Kohli'),
+  iccv(2019),
+nil)
+
+entry!('ettinger2017generalizable',
+  title('Towards Linguistically Generalizable {NLP} Systems: A Workshop and Shared Task'),
+  author('Allyson Ettinger and Sudha Rao and Hal {Daum{\\\'e} III} and Emily M. Bender'),
+  inproceedings('Workshop on Building Linguistically Generalizable NLP Systems', 2017),
+nil)
+
+entry!('wallace2019trick',
+  title('Trick Me If You Can: Human-in-the-Loop Generation of Adversarial Examples for Question Answering'),
+  author('Eric Wallace and Pedro Rodriguez and Shi Feng and Ikuya Yamada and Jordan Boyd-Graber'),
+  tacl(2019, 7),
 nil)
 
 
