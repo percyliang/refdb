@@ -719,3 +719,15 @@ entry!('zhang2020learn',
   title('Learn to Effectively Explore in Context-Based Meta-{RL}'),
   author('Jin Zhang and Jianhao Wang and Hao Hu and Yingfeng Chen and Changjie Fan and Chongjie Zhang'),
 nil)
+
+entry!('dorfman2020offline',
+  arxiv(2020, '2008.02598'),
+  title('Offline Meta Reinforcement Learning'),
+  author('Ron Dorfman and Aviv Tamar'),
+nil)
+
+entry!('hiraoka2020meta',
+  arxiv(2020, '2006.02608'),
+  title('Meta-Model-Based Meta-Policy Optimization'),
+  author('Takuya Hiraoka and Takahisa Imagawa and Voot Tangkaratt and Takayuki Osa and Takashi Onishi and Yoshimasa Tsuruoka'),
+nil)
