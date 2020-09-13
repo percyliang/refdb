@@ -713,3 +713,9 @@ entry!('badia2020never',
   title('Never Give Up: Learning Directed Exploration Strategies'),
   author('Adri{\`a} Puigdom{\`e}nech Badia and Pablo Sprechmann and Alex Vitvitskyi and Daniel Guo and Bilal Piot and Steven Kapturowski and Olivier Tieleman and Mart{\'\i}n Arjovsky and Alexander Pritzel and Andew Bolt and others'),
 nil)
+
+entry!('zhang2020learn',
+  arxiv(2020, '2006.08170'),
+  title('Learn to Effectively Explore in Context-Based Meta-{RL}'),
+  author('Jin Zhang and Jianhao Wang and Hao Hu and Yingfeng Chen and Changjie Fan and Chongjie Zhang'),
+nil)
