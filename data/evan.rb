@@ -731,3 +731,10 @@ entry!('hiraoka2020meta',
   title('Meta-Model-Based Meta-Policy Optimization'),
   author('Takuya Hiraoka and Takahisa Imagawa and Voot Tangkaratt and Takayuki Osa and Takashi Onishi and Yoshimasa Tsuruoka'),
 nil)
+
+entry!('houthooft2018evolved',
+  nips(2018),
+  title('Evolved policy gradients'),
+  author('Rein Houthooft and Yuhua Chen and Phillip Isola and Bradly Stadie and Filip Wolski and OpenAI Jonathan Ho and Pieter Abbeel'),
+  pages(5400, 5409),
+nil)
