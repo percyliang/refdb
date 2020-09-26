@@ -180,7 +180,8 @@ entry!('west2019bottlesum',
 entry!('yang2019xlnet',
        author('Zhilin Yang and Zihang Dai and Yiming Yang and Jaime Carbonell and Ruslan Salakhutdinov and Quoc V. Le'),
        title('{XLN}et: Generalized Autoregressive Pretraining for Language Understanding'),
-       arxiv(2019, '1906.08237'),
+       #arxiv(2019, '1906.08237'),
+       neurips(2019),
        nil)
 
 entry!('zhu2019text',

@@ -2,8 +2,7 @@ import os
 import re
 import sys
 import urllib
-import urllib2
-import codecs
+import urllib.request
 
 def get_var_path(filename):
     return os.path.join(os.path.dirname(os.path.realpath(__file__)), 'var', filename)
@@ -18,15 +17,15 @@ def read_url(url):
         os.mkdir(CACHE_PATH)
     cached_path = os.path.join(CACHE_PATH, re.sub('[^\w-]', '.', url))
     if os.path.exists(cached_path):
-        with codecs.open(cached_path, encoding='utf-8') as f:
+        with open(cached_path) as f:
             data = f.read()
     else:
         #print >>sys.stderr, 'REQUEST', url
-        f = urllib2.urlopen(url)
+        f = urllib.request.urlopen(url)
         data = f.read()
         data = data.decode('utf-8')
         try:
-            with codecs.open(cached_path, 'w', encoding='utf-8') as f:
+            with open(cached_path, 'w') as f:
                 f.write(data)
         except:
             os.unlink(cached_path)  # Don't cache if failed

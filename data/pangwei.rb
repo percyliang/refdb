@@ -1489,9 +1489,10 @@ entry!('arjovsky2019invariant',
 nil)
 
 entry!('hendrycks2019benchmarking',
-  arxiv(2019, '1903.12261'),
+  #arxiv(2019, '1903.12261'),
   title('Benchmarking neural network robustness to common corruptions and perturbations'),
   author('Dan Hendrycks and Thomas Dietterich'),
+  iclr(2019),
 nil)
 
 entry!('yang2020rethinking',

@@ -140,7 +140,7 @@ nil)
 entry!('he2015syntax',
        emnlp(2015),
        title('Syntax-based Rewriting for Simultaneous Machine Translation'),
-       author('He He and Alvin Grissom II and Jordan Boyd-Graber and Hal Daume III'),
+       author('He He and Alvin {Grissom II} and Jordan Boyd-Graber and Hal {Daum{\\\'e} III}'),
        pages(55, 64),
        nil)
 
@@ -263,7 +263,7 @@ entry!('sapiezynski2017',
 nil)
 
 entry!('tatman2017',
-       title('Gender and Dialect Bias in YouTube’s Automatic Captions'),
+       title('Gender and Dialect Bias in {Y}ou{T}ube\'s Automatic Captions'),
        author('Rachael Tatman'),
        inproceedings('Workshop on Ethics in Natural Langauge Processing', 2017),
        volume(1),
@@ -530,7 +530,7 @@ entry!('hayati2018retrieval',
 entry!('sun2018contextual',
        arxiv(2018, '1807.06473'),
        title('Contextual memory trees'),
-       author('Wen Sun and Alina Beygelzimer and Hal Daume and John Langford and Paul Mineiro'),
+       author('Wen Sun and Alina Beygelzimer and Hal {Daum{\\\'e} III} and John Langford and Paul Mineiro'),
        nil)
 
 entry!('shen2018nash',

@@ -849,6 +849,15 @@ entry!('greiner2011causal',
   publisher('MIT Press'),
 nil)
 
+entry!('sen2016race',
+  article('Annual Review of Political Science',2016, 19),
+  title('Race as a bundle of sticks: Designs that estimate effects of seemingly immutable characteristics'),
+  author('Maya Sen and Omar Wasow'),
+  number(1),
+  pages(499,522),
+nil)
+
+
 entry!('holland1986statistics',
   article('Journal of the American statistical Association', 1986, 81),
   title('Statistics and causal inference'),
@@ -887,8 +896,3 @@ entry!('holland2003causation',
   publisher('Wiley Online Library'),
 nil)
 
-entry!('sen2016race',
-  science(2016, 19),
-  title('Race as a bundle of sticks: Designs that estimate effects of seemingly immutable characteristics'),
-  author('Maya Sen and Omar Wasow'),
-nil)

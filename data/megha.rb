@@ -1,7 +1,7 @@
 # encoding: utf-8    
 
 entry!('blodgett2017racial',
-  title('Racial Disparity in Natural Language Processing: A Case Study of Social Media African-American {E}nglish'),
+  title('Racial Disparity in Natural Language Processing: A Case Study of Social Media {A}frican-{A}merican {E}nglish'),
   author('Su Lin Blodgett and Brendan OConnor'),
   arxiv(2017, '1707.00061'),
 nil)
@@ -101,7 +101,7 @@ entry!('nyclu2019data',
 
 entry!('zhao2016teen',
   author('Jessie Zhao and May Lau and David Vermette and David Liang and Glenn Flores'),
-  title('Communication Between Asian American Adolescents and Health Care Providers About Sexual Activity, Sexually Transmitted Infections, and Pregnancy Prevention'),
+  title('Communication Between {A}sian {A}merican Adolescents and Health Care Providers About Sexual Activity, Sexually Transmitted Infections, and Pregnancy Prevention'),
   inproceedings('Journal of Adolescent Research', 2016),
 nil)
 
