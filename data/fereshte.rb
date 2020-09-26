@@ -896,3 +896,23 @@ entry!('holland2003causation',
   publisher('Wiley Online Library'),
 nil)
 
+
+entry!('kleinberg2019simplicity',
+  inproceedings('Proceedings of the 2019 ACM Conference on Economics and Computation', 2019),
+  title('Simplicity creates inequity: implications for fairness, stereotypes, and interpretability'),
+  author('Jon Kleinberg and Sendhil Mullainathan'),
+  pages(807, 808),
+nil)
+
+entry!('wang2019balanced',
+  iccv(2019),
+  title('Balanced datasets are not enough: Estimating and mitigating gender bias in deep image representations'),
+  author('Tianlu Wang and Jieyu Zhao and Mark Yatskar and Kai-Wei Chang and Vicente Ordonez'),
+  pages(5310, 5319),
+nil)
+
+entry!('yurochkin2020sensei',
+  arxiv(2020, '2006.14168'),
+  title('SenSeI: Sensitive Set Invariance for Enforcing Individual Fairness'),
+  author('Mikhail Yurochkin and Yuekai Sun'),
+nil)
