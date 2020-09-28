@@ -923,3 +923,10 @@ entry!('dixon2018measuring',
   author('Lucas Dixon and John Li and Jeffrey Sorensen and Nithum Thain and Lucy Vasserman'),
   pages(67, 73),
 nil)
+
+entry!('garg2019counterfactual',
+  aaai(2019),
+  title('Counterfactual fairness in text classification through robustness'),
+  author('Sahaj Garg and Vincent Perot and Nicole Limtiaco and Ankur Taly and Ed H Chi and Alex Beutel'),
+  pages(219, 226),
+nil)
