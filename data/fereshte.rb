@@ -916,3 +916,10 @@ entry!('yurochkin2020sensei',
   title('SenSeI: Sensitive Set Invariance for Enforcing Individual Fairness'),
   author('Mikhail Yurochkin and Yuekai Sun'),
 nil)
+
+entry!('dixon2018measuring',
+  aaai(2018),
+  title('Measuring and mitigating unintended bias in text classification'),
+  author('Lucas Dixon and John Li and Jeffrey Sorensen and Nithum Thain and Lucy Vasserman'),
+  pages(67, 73),
+nil)
