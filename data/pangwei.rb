@@ -1262,12 +1262,6 @@ entry!('badgeley2019deep',
   publisher('Nature Publishing Group'),
 nil)
 
-entry!('oakden2019hidden',
-  arxiv(2019, '1909.12475'),
-  title('Hidden Stratification Causes Clinically Meaningful Failures in Machine Learning for Medical Imaging'),
-  author('Luke Oakden-Rayner and Jared Dunnmon and Gustavo Carneiro and Christopher R{\\\'e}'),
-nil)
-
 entry!('blanchet2019quantifying',
   mathops(2019, 44),
   title('Quantifying distributional model risk via optimal transport'),
@@ -1602,5 +1596,53 @@ nil)
 entry!('chen2016infogan',
   nips(2016),
   title('{InfoGAN}: Interpretable representation learning by information maximizing generative adversarial nets'),
-  author('Xi Chen and Yan Duan and Rein Houthooft and John Schulman and Ilya Sutskever and Pieter Abbeel'),  
+  author('Xi Chen and Yan Duan and Rein Houthooft and John Schulman and Ilya Sutskever and Pieter Abbeel'),
+nil)
+
+entry!('joshi2018xgems',
+  arxiv(2018, '1806.08867'),
+  title('xGEMs: Generating examplars to explain black-box models'),
+  author('Shalmali Joshi and Oluwasanmi Koyejo and Been Kim and Joydeep Ghosh'),
+nil)
+
+entry!('borkan2019nuanced',
+  www(2019),
+  title('Nuanced metrics for measuring unintended bias with real data for text classification'),
+  author('Daniel Borkan and Lucas Dixon and Jeffrey Sorensen and Nithum Thain and Lucy Vasserman'),
+  pages(491, 500),
+nil)
+
+entry!('xiao2020noise',
+  arxiv(2020, '2006.09994'),
+  title('Noise or Signal: The Role of Image Backgrounds in Object Recognition'),
+  author('Kai Xiao and Logan Engstrom and Andrew Ilyas and Aleksander Madry'),
+nil)
+
+entry!('mozannar2020consistent',
+  arxiv(2020, '2006.01862'),
+  title('Consistent Estimators for Learning to Defer to an Expert'),
+  author('Hussein Mozannar and David Sontag'),
+nil)
+
+entry!('irvin2019chexpert',
+  aaai(2019),
+  title('Chexpert: A large chest radiograph dataset with uncertainty labels and expert comparison'),
+  author('Jeremy Irvin and Pranav Rajpurkar and Michael Ko and Yifan Yu and Silviana Ciurea-Ilcus and Chris Chute and Henrik Marklund and Behzad Haghgoo and Robyn Ball and Katie Shpanskaya and others'),
+  volume(33),
+  pages(590, 597),
+nil)
+
+entry!('porcel2018chest',
+  article('Tuberculosis and respiratory diseases', 2018, 81),
+  title('Chest tube drainage of the pleural space: a concise review for pulmonologists'),
+  author('Jos{\\\'e} M Porcel'),
+  number(2),
+  pages(106, 115),
+nil)
+
+entry!('oakden2020hidden',
+  inproceedings('Proceedings of the ACM Conference on Health, Inference, and Learning', 2020),
+  title('Hidden stratification causes clinically meaningful failures in machine learning for medical imaging'),
+  author('Luke Oakden-Rayner and Jared Dunnmon and Gustavo Carneiro and Christopher R{\\\'e}'),
+  pages(151, 159),
 nil)
