@@ -216,4 +216,36 @@ author('Lin Chen and Yifei Min and Mingrui Zhang and Amin Karbasi'),
   title('More Data Can Expand the Generalization Gap Between Adversarially Robust and Standard Models'),
   icml(2020),
 )
+entry!('gu2015robustdenoise',
+author('Shixiang Gu and Luca Rigazio'),
+  title('Towards deep neural network architectures robust to adversarial examples'),
+  iclrWorkshop(2015),
+)
+entry!('wong2020learningpert',
+author('Eric Wong and J. Zico Kolter'),
+  title('Learning perturbation sets for robust machine learning'),
+  arxiv(2020),
+)
+entry!('vincent2010stacked',
+author('Pascal Vincent and Hugo Larochelle and Isabelle Lajoie and Yoshua Bengio and Pierre-Antoine Manzagol'),
+  title('Stacked Denoising Autoencoders: Learning Useful Representations in a Deep Network with a Local Denoising Criterion'),
+  jmlr(2010, 11),
+)
+entry!('zhang2013denoising',
+author('Xiao-Lei Zhang and Ji Wu'),
+  title('Denoising deep neural networks based voice activity detection'),
+  arxiv(2013),
+)
+entry!('jagannatha2016structured',
+author('Abhyuday Jagannatha and Hong Yu'),
+  title('Structured prediction models for {RNN} based sequence labeling in clinical text'),
+  emnlp(2016),
+)
+entry!('huang2015bidirectional',
+author('Zhiheng Huang and Wei Xu and Kai Yu'),
+  title('Bidirectional {LSTM-CRF} Models for Sequence Tagging'),
+  arxiv(2015),
+)
+
+
 
