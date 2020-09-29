@@ -246,6 +246,10 @@ author('Zhiheng Huang and Wei Xu and Kai Yu'),
   title('Bidirectional {LSTM-CRF} Models for Sequence Tagging'),
   arxiv(2015),
 )
-
+entry!('recht2019doimagenet',
+author('Benjamin Recht and Rebecca Roelofs and Ludwig Schmidt and Vaishaal Shankar'),
+  title('Do ImageNet Classifiers Generalize to ImageNet?'),
+  icml(2019),
+)
 
 
