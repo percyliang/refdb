@@ -399,6 +399,6 @@ nil)
 
 entry!('kornblith2019better',
   title('Do Better ImageNet Models Transfer Better?'),
-  author('Simon Kornblith, Jonathon Shlens, and Quoc V. Le'),
+  author('Simon Kornblith and Jonathon Shlens and Quoc V. Le'),
   cvpr(2019),
 nil)
