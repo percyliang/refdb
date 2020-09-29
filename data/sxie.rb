@@ -272,7 +272,7 @@ author('Sherrie Wang and William Chen and Sang Michael Xie and George Azzari and
   article('Remote Sensing', 2020, 12),
 )
 entry!('albadawy2018tumor',
-author('AlBadawy, EA and Saha, A and Mazurowski, MA'),
+author('EA AlBadawy and A Saha and MA Mazurowski'),
   title('Deep learning for segmentation of brain tumors: Impact of cross-institutional training and testing'),
   article('Med Phys.', 2018, 45),
 )
@@ -285,6 +285,11 @@ entry!('du2020fewshot',
 author('Simon S. Du and Wei Hu and Sham M. Kakade and Jason D. Lee and Qi Lei'),
   title('Few-Shot Learning via Learning the Representation, Provably'),
   arxiv(2020),
+)
+entry!('wu2020multitask',
+author('Sen Wu and Hongyang R. Zhang and Christopher Ré'),
+  title('Understanding and Improving Information Transfer in Multi-Task Learning'),
+  iclr(2020),
 )
 entry!('caruana2003outputs',
        author('Rich Caruana and Virginia R. de Sa'),
@@ -301,6 +306,5 @@ entry!('zoph2020rethinking',
   title('Rethinking Pre-training and Self-training'),
   arxiv(2020),
 )
-
 
 
