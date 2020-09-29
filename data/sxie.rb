@@ -251,5 +251,44 @@ author('Benjamin Recht and Rebecca Roelofs and Ludwig Schmidt and Vaishaal Shank
   title('Do ImageNet Classifiers Generalize to ImageNet?'),
   icml(2019),
 )
-
+entry!('santurkar2020breeds',
+author('Shibani Santurkar and Dimitris Tsipras and Aleksander Madry'),
+  title('BREEDS: Benchmarks for Subpopulation Shift'),
+  arxiv(2020),
+)
+entry!('xie2016transfer',
+author('Michael Xie and Neal Jean and Marshall Burke and David Lobell and Stefano Ermon'),
+  title('Transfer Learning from Deep Features for Remote Sensing and Poverty Mapping'),
+  aaai(2016),
+)
+entry!('jean2016combining',
+author('Neal Jean and Marshall Burke and Michael Xie and W. Matthew Davis and David B. Lobell and Stefano Ermon'),
+  title('Combining satellite imagery and machine learning to predict poverty'),
+  science(2016, 353),
+)
+entry!('wang2020weakly',
+author('Sherrie Wang and William Chen and Sang Michael Xie and George Azzari and David B. Lobell'),
+  title('Weakly Supervised Deep Learning for Segmentation of Remote Sensing Imagery'),
+  article('Remote Sensing', 2020, 12),
+)
+entry!('albadawy2018tumor',
+author('AlBadawy, EA and Saha, A and Mazurowski, MA'),
+  title('Deep learning for segmentation of brain tumors: Impact of cross-institutional training and testing'),
+  article('Med Phys.', 2018, 45),
+)
+entry!('tripuraneni2020multitask',
+author('Nilesh Tripuraneni and Michael I. Jordan and Chi Jin'),
+  title('On the Theory of Transfer Learning: The Importance of Task Diversity'),
+  arxiv(2020),
+)
+entry!('du2020fewshot',
+author('Simon S. Du and Wei Hu and Sham M. Kakade and Jason D. Lee and Qi Lei'),
+  title('Few-Shot Learning via Learning the Representation, Provably'),
+  arxiv(2020),
+)
+entry!('wu2020multitask',
+author('Sen Wu and Hongyang R. Zhang and Christopher Ré'),
+  title('Understanding and Improving Information Transfer in Multi-Task Learning'),
+  iclr(2020),
+)
 
