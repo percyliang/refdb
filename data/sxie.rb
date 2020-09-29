@@ -286,9 +286,21 @@ author('Simon S. Du and Wei Hu and Sham M. Kakade and Jason D. Lee and Qi Lei'),
   title('Few-Shot Learning via Learning the Representation, Provably'),
   arxiv(2020),
 )
-entry!('wu2020multitask',
-author('Sen Wu and Hongyang R. Zhang and Christopher Ré'),
-  title('Understanding and Improving Information Transfer in Multi-Task Learning'),
-  iclr(2020),
+entry!('caruana2003outputs',
+       author('Rich Caruana and Virginia R. de Sa'),
+  title('Benefitting from the Variables that Variable Selection Discards'),
+  jmlr(2003, 3),
 )
+entry!('simonyan2015verydeep',
+        author('Simonyan, K and Zisserman, A.'),
+  title('Very deep convolutional networks for large-scale image recognition'),
+  iclr(2015),
+)
+entry!('zoph2020rethinking',
+        author('Barret Zoph and Golnaz Ghiasi and Tsung-Yi Lin and Yin Cui and Hanxiao Liu and Ekin D. Cubuk and Quoc V. Le'),
+  title('Rethinking Pre-training and Self-training'),
+  arxiv(2020),
+)
+
+
 
