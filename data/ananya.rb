@@ -396,3 +396,9 @@ entry!('blackard1999comparative',
   author('Jock A. Blackard and Denis J. Dean'),
   inproceedings('Computers and Electronics in Agriculture', 1999),
 nil)
+
+entry!('kornblith2019better',
+  title('Do Better ImageNet Models Transfer Better?'),
+  author('Simon Kornblith, Jonathon Shlens, and Quoc V. Le'),
+  cvpr(2019),
+nil)
