@@ -402,3 +402,9 @@ entry!('kornblith2019better',
   author('Simon Kornblith and Jonathon Shlens and Quoc V. Le'),
   cvpr(2019),
 nil)
+
+entry!('tao2012random',
+  author('Terrence Tao'),
+  title('Topics in random matrix theory'),
+  book('American Mathematical Society', 2012), address('Providence, Rhode Island'),
+nil)
