@@ -1664,5 +1664,5 @@ entry!('hill2020wrongfully',
   article('The New York Times', 2020),
   title('Wrongfully Accused by an Algorithm'),
   author('Kashmir Hill'),
-  url('https://www.nytimes.com/2020/06/24/technology/facial-recognition-arrest.html'),
+  url('https://www.nytimes.com/2020/06/24/technology/facial-recognition-arrest.html'),  
 nil)
