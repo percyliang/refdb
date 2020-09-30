@@ -7440,7 +7440,7 @@ entry!('jiang2012calibrating',
   number(2), pages(263, 274),
 nil)
 
-entry!('dong2011calibration',
+entry!('yu2011calibration',
   title('Calibration of Confidence Measures in Speech Recognition'),
   author('Dong Yu and Jinyu Li and Li Deng'),
   article('Trans. Audio, Speech and Lang. Proc.', 2011, 19),

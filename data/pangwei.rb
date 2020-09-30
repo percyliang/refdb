@@ -1653,3 +1653,16 @@ entry!('huang2017densely',
   author('Gao Huang and Zhuang Liu and Laurens Van Der Maaten and Kilian Q Weinberger'),
   pages(4700, 4708),
 nil)
+
+entry!('chen2020ethical',
+  arxiv(2020, '2009.10576'),
+  title('Ethical Machine Learning in Health'),
+  author('Irene Y Chen and Emma Pierson and Sherri Rose and Shalmali Joshi and Kadija Ferryman and Marzyeh Ghassemi'),
+nil)
+
+entry!('hill2020wrongfully',
+  article('The New York Times', 2020),
+  title('Wrongfully Accused by an Algorithm'),
+  author('Kashmir Hill'),
+  url('https://www.nytimes.com/2020/06/24/technology/facial-recognition-arrest.html'),
+nil)
