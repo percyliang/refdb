@@ -1646,3 +1646,10 @@ entry!('oakden2020hidden',
   author('Luke Oakden-Rayner and Jared Dunnmon and Gustavo Carneiro and Christopher R{\\\'e}'),
   pages(151, 159),
 nil)
+
+entry!('huang2017densely',
+  inproceedings('Proceedings of the IEEE conference on computer vision and pattern recognition', 2017),
+  title('Densely connected convolutional networks'),
+  author('Gao Huang and Zhuang Liu and Laurens Van Der Maaten and Kilian Q Weinberger'),
+  pages(4700, 4708),
+nil)
