@@ -50,3 +50,50 @@ entry!('russwurm2020meta',
   inproceedings('Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops', 2020),
   pages(200, 201),
 nil)
+
+entry!('li2007estimating',
+  author('Ainong Li and Shunlin Liang and Angsheng Wang and Jun Qin'),
+  title('Estimating crop yield from multi-temporal satellite data using multivariate regression and neural network techniques'),
+  article('Photogrammetric Engineering \& Remote Sensing', 2007, 73, 10),
+  pages(1149, 1157),
+  publisher('American Society for Photogrammetry and Remote Sensing'),
+nil)
+
+entry!('kussul2017classification',
+  author('N. {Kussul} and M. {Lavreniuk} and S. {Skakun} and A. {Shelestov}}'),
+  title('Deep Learning Classification of Land Cover and Crop Types Using Remote Sensing Data'),
+  article('IEEE Geoscience and Remote Sensing Letters', 2017, 14, 5),
+  pages(778, 782),
+nil)
+
+entry!('johnson2016crop',
+  author('Michael D. Johnson and William W. Hsieh and Alex J. Cannon and Andrew Davidson and Frédéric Bédard'),
+  title('Crop yield forecasting on the Canadian Prairies by remotely sensed vegetation indices and machine learning methods'),
+  article('Agricultural and Forest Meteorology', 2016, '218-219'),
+  pages(74,84),
+nil)
+
+entry!('cai2018crop',
+  author('Yaping Cai and Kaiyu Guan and Jian Peng and Shaowen Wang and Christopher Seifert and Brian Wardlow and Zhan Li'),
+  title('A high-performance and in-season classification system of field-level crop types using time-series Landsat data and a machine learning approach'),
+  article('Remote Sensing of Environment', 2018, 210),
+  pages(74,84),
+  url('http://www.sciencedirect.com/science/article/pii/S0034425718300610'),
+nil)
+
+entry!('modis2015landcover',
+  author('E. Vermote'),
+  title('{MYD09A1 MODIS}/{A}qua surface reflectance 8-Day {L3} global 500m {SIN} grid {V}006'),
+  type('misc'),
+  howpublished('\url{https://doi.org/10.5067/MODIS/MYD09A1.006}'),
+  year(2015),
+nil)
+
+entry!('dataset2017era5',
+  author('C3S'),
+  year(2017),
+  title('{ERA5}: Fifth generation of {ECMWF} atmospheric reanalyses of the global climate'),
+  note('Copernicus Climate Change Service Climate Data Store (CDS)'),
+  url('https://cds.climate.copernicus.eu/cdsapp#!/home'),
+  type('misc'),
+nil)
