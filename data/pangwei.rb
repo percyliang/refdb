@@ -1730,3 +1730,12 @@ entry!('hellman1970probability',
   pages(368, 372),
   publisher('IEEE'),
 nil)
+
+entry!('cordella1995method',
+  article('IEEE Transactions on Neural Networks', 1995, 6),
+  title('A method for improving classification reliability of multilayer perceptrons'),
+  author('Luigi Pietro Cordella and Claudio De Stefano and Francesco Tortorella and Mario Vento'),
+  number(5),
+  pages(1140, 1147),
+  publisher('IEEE'),
+nil)
