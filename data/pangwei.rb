@@ -1665,7 +1665,7 @@ entry!('hill2020wrongfully',
   title('Wrongfully Accused by an Algorithm'),
   author('Kashmir Hill'),
   url('https://www.nytimes.com/2020/06/24/technology/facial-recognition-arrest.html'),
-  visibleurl(),
+  isUrlVisible(),
 nil)
 
 entry!('de2000reject',
