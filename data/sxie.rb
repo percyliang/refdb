@@ -311,3 +311,13 @@ entry!('hendrycks2019selfsupervised',
   title('Using Self-Supervised Learning Can Improve Model Robustness and Uncertainty'),
   nips(2019),
 )
+entry!('blitzer2007adaptation',
+        author('John Blitzer and Fernando Pereira'),
+  title('Domain adaptation of natural language processing systems'),
+  article('University of Pennsylvania', 2007, nil),
+)
+entry!('yeh2020poverty',
+author('Christopher Yeh and Anthony Perez and Anne Driscoll and George Azzari and Zhongyi Tang and David Lobell and Stefano Ermon and Marshall Burke'),
+  title('Using publicly available satellite imagery and deep learning to understand economic well-being in Africa'),
+  article('Nature Communications', 2020, 11),
+)

@@ -83,9 +83,9 @@ nil)
 
 entry!('modis2015landcover',
   author('E. Vermote'),
-  title('{MYD09A1 MODIS}/{A}qua surface reflectance 8-Day {L3} global 500m {SIN} grid {V}006'),
+  title('{MOD09A1} {MODIS}/Terra surface reflectance 8-Day {L3} global 500m {SIN} grid {V006}'),
   type('misc'),
-  howpublished('\url{https://doi.org/10.5067/MODIS/MYD09A1.006}'),
+  howpublished('\url{https://doi.org/10.5067/MODIS/MOD09A1.006}'),
   year(2015),
 nil)
 
@@ -102,4 +102,27 @@ entry!('kiranyaz2019cnn1d',
   author('Serkan Kiranyaz and Onur Avci and Osama Abdeljaber and Turker Ince and Moncef Gabbouj and Daniel J Inman'),
   title('1D Convolutional Neural Networks and Applications: A Survey'),
   article('arXiv preprint arXiv:1905.03554', 2019),
+nil)
+
+entry!('lunetta2006land',
+  title('Land-cover change detection using multi-temporal {MODIS} {NDVI} data'),
+  author('Ross Lunetta and Joseph F Knight and Jayantha Ediriwickremaand John G Lyon and L Dorsey Worthy'),
+  article('Remote sensing of environment', 2006, 105, 2),
+  pages(142, 154),
+  publisher('Elsevier'),
+nil)
+
+entry!('defries1994ndvi',
+  title('{NDVI}-derived land cover classifications at a global scale'),
+  author('R Sꎬ DeFries and JRG Townshend'),
+  article('International Journal of Remote Sensing', 1994, 15, 17),
+  pages(3567, 3586),
+  publisher('Taylor \& Francis'),
+nil)
+
+entry!('defries1995AVHRR',
+  title('Global discrimination of land cover types from metrics derived from {AVHRR} pathfinder data'),
+  author('Ruth DeFries and Matthew Hansen and John Townshend'),
+  article('Remote Sensing of Environment', 1995, 54, 3),
+  pages(209, 222),
 nil)
