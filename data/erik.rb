@@ -1,3 +1,11 @@
+entry!('cule2010logconcave',
+  article('Journal of the Royal Statistical Society', 2010, 73),
+  title('Maximum likelihood estimation of a multi-dimensional log-concave density'),
+  author('Madeleine Cule and Richard Samworth and Michael Stewart'),
+  pages(545, 603),
+  publisher('Wiley Online Library'),
+nil)
+
 entry!('cheng2019robust',
   acl(2019),
   title('Robust Neural Machine Translation with Doubly Adversarial Inputs'),
