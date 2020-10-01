@@ -140,7 +140,7 @@ class Entry
   def toBibtex(verbose)
     fields = ['author', 'title', 'year', 'volume', 'number', 'pages', 'booktitle', 'journal', 'institution', 'school', 'howpublished', 'edition']
     fields += ['publisher'] if type == 'book'
-    fields += ['url'] if getFirst('visibleurl')    
+    fields += ['url'] if getFirst('visibleurl')
     fields += ['publisher', 'address', 'location'] if verbose == 2
 
     ["@#{type}{#{id},"] + @fieldsMap.map { |name,values|
