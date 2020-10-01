@@ -97,3 +97,9 @@ entry!('dataset2017era5',
   url('https://cds.climate.copernicus.eu/cdsapp#!/home'),
   type('misc'),
 nil)
+
+entry!('kiranyaz2019cnn1d',
+  author('Serkan Kiranyaz and Onur Avci and Osama Abdeljaber and Turker Ince and Moncef Gabbouj and Daniel J Inman'),
+  title('1D Convolutional Neural Networks and Applications: A Survey'),
+  article('arXiv preprint arXiv:1905.03554', 2019),
+nil)
