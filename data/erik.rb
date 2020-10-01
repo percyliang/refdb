@@ -1,3 +1,11 @@
+entry!('bagnoli2005logconcave',
+  article('Economic Theory', 2005, 26),
+  title('Log-concave probability and its applications'),
+  author('Mark Bagnoli and Ted Bergstrom'),
+  pages(445, 469),
+  publisher('Springer'),
+nil)
+
 entry!('cule2010logconcave',
   article('Journal of the Royal Statistical Society', 2010, 73),
   title('Maximum likelihood estimation of a multi-dimensional log-concave density'),
