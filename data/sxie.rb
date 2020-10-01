@@ -306,5 +306,8 @@ entry!('zoph2020rethinking',
   title('Rethinking Pre-training and Self-training'),
   arxiv(2020),
 )
-
-
+entry!('hendrycks2019selfsupervised',
+        author('Dan Hendrycks and Mantas Mazeika and Saurav Kadavath and Dawn Song'),
+  title('Using Self-Supervised Learning Can Improve Model Robustness and Uncertainty'),
+  nips(2019),
+)
