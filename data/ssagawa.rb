@@ -13,3 +13,12 @@ entry!('nemirovski2009robust',
   pages(1574, 1609),
   publisher('SIAM'),
 nil)
+
+entry!('azzalini2012some',
+  article('Annals of the Institute of Statistical Mathematics', 2012, 64),
+  title('Some properties of skew-symmetric distributions'),
+  author('Adelchi Azzalini and Giuliana Regoli'),
+  number(4),
+  pages(857, 879),
+  publisher('Springer'),
+nil)
