@@ -140,7 +140,7 @@ class Entry
   def toBibtex(verbose)
     fields = ['author', 'title', 'year', 'volume', 'number', 'pages', 'booktitle', 'journal', 'institution', 'school', 'howpublished', 'edition']
     fields += ['publisher'] if type == 'book'
-    fields += ['url'] if type == 'article'
+    fields += ['url'] if getFirst('visibleurl')    
     fields += ['publisher', 'address', 'location'] if verbose == 2
 
     ["@#{type}{#{id},"] + @fieldsMap.map { |name,values|
@@ -324,6 +324,7 @@ def titleHash(x);       field('titleHash', x)         end
 # Don't add these words to the set of generally capitalized words
 def unusualCapitalization(*x); field('unusualCapitalization', *x) end
 def extendedVersion(x=true); field('extendedVersion', x) end
+def visibleurl(x=true); field('visibleurl', x) end
 
 def entry(id, *args); Entry.new([id(id)] + args.flatten.compact) end
 
