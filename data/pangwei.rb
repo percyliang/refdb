@@ -1664,5 +1664,69 @@ entry!('hill2020wrongfully',
   article('The New York Times', 2020),
   title('Wrongfully Accused by an Algorithm'),
   author('Kashmir Hill'),
-  url('https://www.nytimes.com/2020/06/24/technology/facial-recognition-arrest.html'),  
+  url('https://www.nytimes.com/2020/06/24/technology/facial-recognition-arrest.html'),
+  isUrlVisible(),
+nil)
+
+entry!('de2000reject',
+  article('IEEE Transactions on Systems, Man, and Cybernetics, Part C (Applications and Reviews)', 2000, 30),
+  title('To reject or not to reject: that is the question-an answer in case of neural classifiers'),
+  author('Claudio De Stefano and Carlo Sansone and Mario Vento'),
+  number(1),
+  pages(84, 94),
+  publisher('IEEE'),
+nil)
+
+entry!('bartlett2008classification',
+  jmlr(2008, 9),
+  title('Classification with a reject option using a hinge loss'),
+  author('Peter L Bartlett and Marten H Wegkamp'),
+  number('Aug'),
+  pages(1823, 1840),
+nil)
+
+entry!('raghu2019direct',
+  icml(2019),
+  title('Direct uncertainty prediction for medical second opinions'),
+  author('Maithra Raghu and Katy Blumer and Rory Sayres and Ziad Obermeyer and Bobby Kleinberg and Sendhil Mullainathan and Jon Kleinberg'),
+  pages(5281, 5290),
+nil)
+
+entry!('geifman2018bias',
+  iclr(2018),
+  title('Bias-Reduced Uncertainty Estimation for Deep Neural Classifiers'),
+  author('Yonatan Geifman and Guy Uziel and Ran El-Yaniv'),
+nil)
+
+entry!('de2020regression',
+  aaai(2020),
+  title('Regression under Human Assistance'),
+  author('Abir De and Paramita Koley and Niloy Ganguly and Manuel Gomez-Rodriguez'),
+  pages(2611, 2620),
+nil)
+
+entry!('pimentel2014review',
+  article('Signal Processing', 2014, 99),
+  title('A review of novelty detection'),
+  author('Marco AF Pimentel and David A Clifton and Lei Clifton and Lionel Tarassenko'),
+  pages(215, 249),
+  publisher('Elsevier'),
+nil)
+
+entry!('hellman1970nearest',
+  science(1970, 6),
+  title('The nearest neighbor classification rule with a reject option'),
+  author('Martin E Hellman'),
+  number(3),
+  pages(179, 185),
+  publisher('IEEE'),
+nil)
+
+entry!('hellman1970probability',
+  infotheory(1970, 16),
+  title('Probability of error, equivocation, and the Chernoff bound'),
+  author('Martin Hellman and Josef Raviv'),
+  number(4),
+  pages(368, 372),
+  publisher('IEEE'),
 nil)
