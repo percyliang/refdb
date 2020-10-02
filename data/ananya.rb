@@ -408,3 +408,9 @@ entry!('tao2012random',
   title('Topics in random matrix theory'),
   book('American Mathematical Society', 2012), address('Providence, Rhode Island'),
 nil)
+
+entry!('hsu2012random',
+  title('Random Design Analysis of Ridge Regression'),
+  author('Daniel Hsu and Sham M. Kakade and Tong Zhang'),
+  colt(2012),
+nil)
