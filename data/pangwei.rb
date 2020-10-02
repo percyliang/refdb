@@ -1739,3 +1739,10 @@ entry!('cordella1995method',
   pages(1140, 1147),
   publisher('IEEE'),
 nil)
+
+entry!('park2018reducing',
+  emnlp(2018),
+  title('Reducing Gender Bias in Abusive Language Detection'),
+  author('Ji Ho Park and Jamin Shin and Pascale Fung'),
+  pages(2799, 2804),
+nil)
