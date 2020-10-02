@@ -1,6 +1,13 @@
 ############################################################
 # 2020
 
+entry!('semanticmachines2020dataflow',
+  title('Task-Oriented Dialogue as Dataflow Synthesis'),
+  author('Semantic Machines and Jacob Andreas and John Bufe and David Burkett and Charles Chen and Josh Clausman and Jean Crawford and Kate Crim and Jordan DeLoach and Leah Dorner and Jason Eisner and Hao Fang and Alan Guo and David Hall and Kristin Hayes and Kellie Hill and Diana Ho and Wendy Iwaszuk and Smriti Jha and Dan Klein and Jayant Krishnamurthy and Theo Lanman and Percy Liang and Christopher H. Lin and Ilya Lintsbakh and Andy McGovern and Aleksandr Nisnevich and Adam Pauls and Dmitrij Petters and Brent Read and Dan Roth and Subhro Roy and Jesse Rusak and Beth Short and Div Slomin and Ben Snyder and Stephon Striplin and Yu Su and Zachary Tellman and Sam Thomson and Andrei Vorobev and Izabela Witoszko and Jason Wolfe and Abby Wray and Yuchen Zhang and Alexander Zotov'),
+  tacl(2020, 8),
+  url('https://arxiv.org/pdf/2009.11423.pdf'),
+nil)
+
 entry!('sagawa2020overparameterization',
   title('An investigation of why overparameterization exacerbates spurious correlations'),
   author('Shiori Sagawa and Aditi Raghunathan and Pang Wei Koh and Percy Liang'),

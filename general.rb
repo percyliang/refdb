@@ -186,7 +186,7 @@ class Entry
     #newline = '<br>'  # Put title, author, venues on separate lines
 
     # Gray out things which are not published
-    isPub = getFirst('journal') !~ /^arXiv/
+    isPub = getFirst('journal').to_s !~ /^arXiv/
     pubWrap = lambda { |s|
       isPub ? s : color(s, 'gray')
     }
