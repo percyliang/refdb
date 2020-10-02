@@ -321,3 +321,9 @@ author('Christopher Yeh and Anthony Perez and Anne Driscoll and George Azzari an
   title('Using publicly available satellite imagery and deep learning to understand economic well-being in Africa'),
   article('Nature Communications', 2020, 11),
 )
+entry!('chen2020selftraining',
+        author('Yining Chen and Colin Wei and Ananya Kumar and Tengyu Ma'),
+  title('Self-Training Avoids Using Spurious Features Under Domain Shift'),
+  neurips(2020),
+)
+
