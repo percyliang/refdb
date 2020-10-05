@@ -930,3 +930,24 @@ entry!('garg2019counterfactual',
   author('Sahaj Garg and Vincent Perot and Nicole Limtiaco and Ankur Taly and Ed H Chi and Alex Beutel'),
   pages(219, 226),
 nil)
+
+entry!('elhabian2008moving',
+  article('Recent patents on computer science', 2008, 1),
+  title('Moving object detection in spatial domain using background removal techniques-state-of-art'),
+  author('Shireen Y Elhabian and Khaled M El-Sayed and Sumaya H Ahmed'),
+  number(1),
+  pages(32, 54),
+  publisher('Bentham Science Publishers'),
+nil)
+
+entry!('beutel2017data',
+  arxiv(2017, '1707.00075'),
+  title('Data decisions and theoretical implications when adversarially learning fair representations'),
+  author('Alex Beutel and Jilin Chen and Zhe Zhao and Ed H Chi'),
+nil)
+
+entry!('zhao2019inherent',
+  nips(2019),
+  title('Inherent Tradeoffs in Learning Fair Representations'),
+  author('H. Zhao and Geoff Gordon'),
+nil)
