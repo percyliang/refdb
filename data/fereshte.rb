@@ -951,3 +951,9 @@ entry!('zhao2019inherent',
   title('Inherent Tradeoffs in Learning Fair Representations'),
   author('H. Zhao and Geoff Gordon'),
 nil)
+
+entry!('dutta2020ista',
+  icml(2020),
+  title('Is There a Trade-Off Between Fairness and Accuracy? A Perspective Using Mismatched Hypothesis Testing'),
+  author('Sanghamitra Dutta and Dennis Wei and Hazar Yueksel and Pin-Yu Chen and Sijia Liu and Kush R. Varshney'),
+nil)
