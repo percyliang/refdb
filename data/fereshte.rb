@@ -957,3 +957,41 @@ entry!('dutta2020ista',
   title('Is There a Trade-Off Between Fairness and Accuracy? A Perspective Using Mismatched Hypothesis Testing'),
   author('Sanghamitra Dutta and Dennis Wei and Hazar Yueksel and Pin-Yu Chen and Sijia Liu and Kush R. Varshney'),
 nil)
+
+entry!('madras2018learning',
+  arxiv(2018, '1802.06309'),
+  title('Learning adversarially fair and transferable representations'),
+  author('David Madras and Elliot Creager and Toniann Pitassi and Richard Zemel'),
+nil)
+
+
+entry!('creager2019flexibly',
+  arxiv(2019, '1906.02589'),
+  title('Flexibly fair representation learning by disentanglement'),
+  author('Elliot Creager and David Madras and J{\"o}rn-Henrik Jacobsen and Marissa A Weis and Kevin Swersky and Toniann Pitassi and Richard Zemel'),
+nil)
+
+entry!('mcnamara2017provably',
+  arxiv(2017, '1710.04394'),
+  title('Provably fair representations'),
+  author('Daniel McNamara and Cheng Soon Ong and Robert C Williamson'),
+nil)
+
+entry!('sun2019mitigating',
+  arxiv(2019, '1906.08976'),
+  title('Mitigating gender bias in natural language processing: Literature review'),
+  author('Tony Sun and Andrew Gaut and Shirlyn Tang and Yuxin Huang and Mai ElSherief and Jieyu Zhao and Diba Mirza and Elizabeth Belding and Kai-Wei Chang and William Yang Wang'),
+nil)
+
+entry!('zhao2018learning',
+  arxiv(2018, '1809.01496'),
+  title('Learning gender-neutral word embeddings'),
+  author('Jieyu Zhao and Yichao Zhou and Zeyu Li and Wei Wang and Kai-Wei Chang'),
+nil)
+
+entry!('quadrianto2019discovering',
+  cvpr(2019),
+  title('Discovering fair representations in the data domain'),
+  author('Novi Quadrianto and Viktoriia Sharmanska and Oliver Thomas'),
+  pages(8227, 8236),
+nil)
