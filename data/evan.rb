@@ -744,3 +744,9 @@ entry!('liu2020learning',
   title('Learning Abstract Models for Strategic Exploration and Fast Reward Transfer'),
   author('Evan Zheran Liu and Ramtin Keramati and Sudarshan Seshadri and Kelvin Guu and Panupong Pasupat and Emma Brunskill and Percy Liang'),
 nil)
+
+entry!('liu2020imitation',
+  arxiv(2020, '2006.16239'),
+  title('An Imitation Learning Approach for Cache Replacement'),
+  author('Evan Zheran Liu and Milad Hashemi and Kevin Swersky and Parthasarathy Ranganathan and Junwhan Ahn'),
+nil)
