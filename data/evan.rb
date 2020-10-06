@@ -738,3 +738,15 @@ entry!('houthooft2018evolved',
   author('Rein Houthooft and Yuhua Chen and Phillip Isola and Bradly Stadie and Filip Wolski and OpenAI Jonathan Ho and Pieter Abbeel'),
   pages(5400, 5409),
 nil)
+
+entry!('liu2020learning',
+  arxiv(2020, '2007.05896'),
+  title('Learning Abstract Models for Strategic Exploration and Fast Reward Transfer'),
+  author('Evan Zheran Liu and Ramtin Keramati and Sudarshan Seshadri and Kelvin Guu and Panupong Pasupat and Emma Brunskill and Percy Liang'),
+nil)
+
+entry!('liu2020imitation',
+  arxiv(2020, '2006.16239'),
+  title('An Imitation Learning Approach for Cache Replacement'),
+  author('Evan Zheran Liu and Milad Hashemi and Kevin Swersky and Parthasarathy Ranganathan and Junwhan Ahn'),
+nil)
