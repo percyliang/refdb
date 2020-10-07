@@ -126,3 +126,12 @@ entry!('defries1995AVHRR',
   article('Remote Sensing of Environment', 1995, 54, 3),
   pages(209, 222),
 nil)
+
+entry!('rolnick2019tackling',
+  title('Tackling climate change with machine learning'),
+  author('David Rolnick and Priya L Donti and Lynn H Kaack and Kelly Kochanski
+          and Alexandre Lacoste and Kris Sankaran and Andrew Ross and
+          Nikola Milojevic-Dupont and Natasha Jaques and Anna Waldman-Brown
+          and others'),
+  arxiv(2019, '1906.05433'),
+nil)
