@@ -109,3 +109,44 @@ entry!('knepper2013ikeabot',
   author('Ross A. Knepper and Todd Layton and John Romanishin and Daniela Rus'),
   pages(855, 862),
 nil)
+
+
+entry!('weigelt2020programmingfuse',
+  acl(2020),
+  title('Programming in Natural Language with fuSE: Synthesizing Methods from Spoken Utterances Using Deep Natural Language Understanding'),
+  author('Sebastian Weigelt and Vanessa Steurer and Tobias Hey and W. Tichy'),
+nil)
+
+
+entry!('mussman2020pairwise',
+  emnlpfindings(2020),
+  title('On the Importance of Adaptive Data Collection for Extremely Imbalanced Pairwise Tasks'),
+  author('Stephen Mussman and Robin Jia and Percy Liang'),
+nil)
+
+entry!('damen2018kitchens',
+  eccv(2018),
+  title('Scaling Egocentric Vision: The {EPIC}-{KITCHENS} Dataset'),
+  author('Dima Damen and Hazel Doughty and Giovanni Maria Farinella and Sanja Fidler and Antonino Furnari and Evangelos Kazakos and Davide Moltisanti and Jonathan Munro and Toby Perrett and Will Price and Michael Wray'),
+nil)
+
+entry!('lee2019ikea',
+  arxiv(2019, '1911.07246'),
+  title('{IKEA} Furniture Assembly Environment for Long-Horizon Complex Manipulation Tasks'),
+  author('Youngwoon Lee and Edward S Hu and Zhengyu Yang and Alex Yin and Joseph J Lim'),
+  url('https://clvrai.com/furniture'),
+nil)
+
+
+entry!('gray2019craftassist',
+  arxiv(2019, '1907.08584'),
+  title('CraftAssist: A Framework for Dialogue-enabled Interactive Agents'),
+  author('Jonathan Gray and Kavya Srinet and Yacine Jernite and Haonan Yu and Zhuoyuan Chen and Demi Guo and Siddharth Goyal and C. Lawrence Zitnick and Arthur Szlam'),
+nil)
+
+
+entry!('johnson2016malmo',
+  ijcai(2016),
+  title('The Malmo Platform for Artificial Intelligence Experimentation'),
+  author('Matthew Johnson and K. Hofmann and T. Hutton and D. Bignell'),
+nil)
