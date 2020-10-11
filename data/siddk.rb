@@ -109,3 +109,10 @@ entry!('knepper2013ikeabot',
   author('Ross A. Knepper and Todd Layton and John Romanishin and Daniela Rus'),
   pages(855, 862),
 nil)
+
+
+entry!('weigelt2020programmingfuse',
+  acl(2020),
+  title('Programming in Natural Language with fuSE: Synthesizing Methods from Spoken Utterances Using Deep Natural Language Understanding'),
+  author('Sebastian Weigelt and Vanessa Steurer and Tobias Hey and W. Tichy'),
+nil)
