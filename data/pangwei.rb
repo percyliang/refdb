@@ -1668,6 +1668,14 @@ entry!('hill2020wrongfully',
   isUrlVisible(),
 nil)
 
+entry!('nyt2016jigsaw',
+  article('The New York Times', 2016),
+  title('The Times is Partnering with Jigsaw to Expand Comment Capabilities'),
+  author('{The New York Times Company}'),
+  url('https://www.nytco.com/press/the-times-is-partnering-with-jigsaw-to-expand-comment-capabilities/'),
+  isUrlVisible(),
+nil)
+
 entry!('de2000reject',
   article('IEEE Transactions on Systems, Man, and Cybernetics, Part C (Applications and Reviews)', 2000, 30),
   title('To reject or not to reject: that is the question-an answer in case of neural classifiers'),
@@ -1745,4 +1753,47 @@ entry!('park2018reducing',
   title('Reducing Gender Bias in Abusive Language Detection'),
   author('Ji Ho Park and Jamin Shin and Pascale Fung'),
   pages(2799, 2804),
+nil)
+
+
+entry!('hovy2016social',
+  acl(2016),
+  title('The social impact of natural language processing'),
+  author('Dirk Hovy and Shannon L Spruit'),
+  pages(591, 598),
+nil)
+
+entry!('koenecke2020racial',
+  science(2020, 117),
+  title('Racial disparities in automated speech recognition'),
+  author('Allison Koenecke and Andrew Nam and Emily Lake and Joe Nudell and Minnie Quartey and Zion Mengesha and Connor Toups and John R Rickford and Dan Jurafsky and Sharad Goel'),
+  number(14),
+  pages(7684, 7689),
+  publisher('National Acad Sciences'),
+nil)
+
+entry!('conneau2019cross',
+  nips(2019),
+  title('Cross-lingual language model pretraining'),
+  author('Alexis Conneau and Guillaume Lample'),
+  pages(7059, 7069),
+nil)
+
+entry!('conneau2018xnli',
+  emnlp(2018),
+  title('XNLI: Evaluating Cross-lingual Sentence Representations'),
+  author('Alexis Conneau and Ruty Rinott and Guillaume Lample and Adina Williams and Samuel Bowman and Holger Schwenk and Veselin Stoyanov'),
+  pages(2475, 2485),
+nil)
+
+entry!('hu2020xtreme',
+  arxiv(2020, '2003.11080'),
+  title('Xtreme: A massively multilingual multi-task benchmark for evaluating cross-lingual generalization'),
+  author('Junjie Hu and Sebastian Ruder and Aditya Siddhant and Graham Neubig and Orhan Firat and Melvin Johnson'),
+nil)
+
+entry!('clark2020tydi',
+  arxiv(2020, '2003.05002'),
+  title('TyDi QA: A benchmark for information-seeking question answering in typologically diverse languages'),
+  author('Jonathan H Clark and Eunsol Choi and Michael Collins and Dan Garrette and Tom Kwiatkowski and Vitaly Nikolaev and Jennimaria Palomaki'),
 nil)
