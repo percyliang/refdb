@@ -164,7 +164,7 @@ entry!('chouldechova2017',
        title('A study of bias in recidivism prediciton instruments'),
        pages(153, 163),
        nil)
-       
+
 
 entry!('joseph2016',
   inproceedings('FATML', 2016),
@@ -347,11 +347,12 @@ entry!('pleiss2017',
        pages(5684, 5693),
        nil)
 
-entry!('kearns2018gerrymandering',
-       title('Preventing Fairness Gerrymandering: Auditing and Learning for Subgroup Fairness'),
+entry!('kearns2018preventing',
+       icml(2018),
+       title('Preventing fairness gerrymandering: Auditing and learning for subgroup fairness'),
        author('Michael Kearns and Seth Neel and Aaron Roth and Zhiwei Steven Wu'),
-       arxiv(2018,'1711.05144'),
-       nil)
+       pages(2564, 2572),
+       nil)      
 
 entry!('hebertjohnson2017',
        title('Calibration for the (Computationally-Identifiable) Masses'),
@@ -597,7 +598,7 @@ entry!('wu2018response',
        title('Response Generation by Context-aware Prototype Editing'),
        author('Yu Wu and Furu Wei and SHaohan Huang and Zhoujun Li and Ming Zhou'),
        nil)
-       
+
 entry!('xu2018spherical',
        emnlp(2018),
        title('Spherical Latent Spaces for Stable Variational Autoencoders'),
@@ -670,7 +671,7 @@ entry!('feder1994relations',
        author('Meir Feder and Neri Merhav'),
        pages(259,266),
        nil)
-       
+
 entry!('sudhakar2015bayesian',
        infotheory(2015,19),
        title('{B}ayesian Error-Based Sequences of Statistical Information Bounds'),

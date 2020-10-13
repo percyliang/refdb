@@ -1797,3 +1797,10 @@ entry!('clark2020tydi',
   title('TyDi QA: A benchmark for information-seeking question answering in typologically diverse languages'),
   author('Jonathan H Clark and Eunsol Choi and Michael Collins and Dan Garrette and Tom Kwiatkowski and Vitaly Nikolaev and Jennimaria Palomaki'),
 nil)
+
+entry!('ribeiro2020beyond',
+  acl(2020),
+  title('Beyond Accuracy: Behavioral Testing of {NLP} Models with {C}heck{L}ist'),
+  pages(4902, 4912),
+  author('Marco Tulio Ribeiro and Tongshuang Wu and Carlos Guestrin and Sameer Singh'),
+nil)
