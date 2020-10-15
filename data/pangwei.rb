@@ -1804,3 +1804,131 @@ entry!('ribeiro2020beyond',
   pages(4902, 4912),
   author('Marco Tulio Ribeiro and Tongshuang Wu and Carlos Guestrin and Sameer Singh'),
 nil)
+
+entry!('nestor2019feature',
+  arxiv(2019, '1908.00690'),
+  title('Feature robustness in non-stationary health records: caveats to deployable model performance in common clinical machine learning tasks'),
+  author('Bret Nestor and Matthew McDermott and Willie Boag and Gabriela Berner and Tristan Naumann and Michael C Hughes and Anna Goldenberg and Marzyeh Ghassemi'),
+nil)
+
+entry!('veeling2018rotation',
+  inproceedings('International Conference on Medical image computing and computer-assisted intervention', 2018),
+  title('Rotation equivariant CNNs for digital pathology'),
+  author('Bastiaan S Veeling and Jasper Linmans and Jim Winkens and Taco Cohen and Max Welling'),
+  pages(210, 218),
+  organization('Springer'),
+nil)
+
+entry!('tellez2019quantifying',
+  article('Medical image analysis', 2019, 58),
+  title('Quantifying the effects of data augmentation and stain color normalization in convolutional neural networks for computational pathology'),
+  author('David Tellez and Geert Litjens and P{\\\'e}ter B{\\\'a}ndi and Wouter Bulten and John-Melle Bokhorst and Francesco Ciompi and Jeroen van der Laak'),
+  publisher('Elsevier'),
+nil)
+
+entry!('bandi2018detection',
+  article('IEEE transactions on medical imaging', 2018, 38),
+  title('From detection of individual metastases to classification of lymph node status at the patient level: the {CAMELYON17} challenge'),
+  author('Peter Bandi and Oscar Geessink and Quirine Manson and Marcory Van Dijk and Maschenka Balkenhol and Meyke Hermsen and Babak Ehteshami Bejnordi and Byungjae Lee and Kyunghyun Paeng and Aoxiao Zhong and others'),
+  number(2),
+  pages(550, 560),
+  publisher('IEEE'),
+nil)
+
+entry!('litjens2018camelyon',
+  science(2018, 7),
+  title('1399 H\&E-stained sentinel lymph node sections of breast cancer patients: the {CAMELYON} dataset'),
+  author('Geert Litjens and Peter Bandi and Babak Ehteshami Bejnordi and Oscar Geessink and Maschenka Balkenhol and Peter Bult and Altuna Halilovic and Meyke Hermsen and Rob van de Loo and Rob Vogels and others'),
+  number(6),
+  publisher('Oxford University Press'),
+nil)
+
+entry!('tellez2018whole',
+  article('IEEE transactions on medical imaging', 2018, 37),
+  title('Whole-slide mitosis detection in H\&E breast histology using PHH3 as a reference to train distilled stain-invariant convolutional networks'),
+  author('David Tellez and Maschenka Balkenhol and Irene Otte-H{\\\"o}ller and Rob van de Loo and Rob Vogels and Peter Bult and Carla Wauters and Willem Vreuls and Suzanne Mol and Nico Karssemeijer and others'),
+  number(9),
+  pages(2126, 2136),
+  publisher('IEEE'),
+nil)
+
+entry!('weinstein2013cancer',
+  article('Nature genetics', 2013, 45),
+  title('The cancer genome atlas pan-cancer analysis project'),
+  author('John N Weinstein and Eric A Collisson and Gordon B Mills and Kenna R Mills Shaw and Brad A Ozenberger and Kyle Ellrott and Ilya Shmulevich and Chris Sander and Joshua M Stuart and Cancer Genome Atlas Research Network and others'),
+  number(10),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('esteva2017dermatologist',
+  article('Nature', 2017, 542),
+  title('Dermatologist-level classification of skin cancer with deep neural networks'),
+  author('Andre Esteva and Brett Kuprel and Roberto A Novoa and Justin Ko and Susan M Swetter and Helen M Blau and Sebastian Thrun'),
+  number(7639),
+  pages(115, 118),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('codella2019skin',
+  arxiv(2019, '1902.03368'),
+  title('Skin lesion analysis toward melanoma detection 2018: A challenge hosted by the international skin imaging collaboration (isic)'),
+  author('Noel Codella and Veronica Rotemberg and Philipp Tschandl and M Emre Celebi and Stephen Dusza and David Gutman and Brian Helba and Aadi Kalloo and Konstantinos Liopyris and Michael Marchetti and others'),
+nil)
+
+entry!('campanella2019clinical',
+  article('Nature medicine', 2019, 25),
+  title('Clinical-grade computational pathology using weakly supervised deep learning on whole slide images'),
+  author('Gabriele Campanella and Matthew G Hanna and Luke Geneslaw and Allen Miraflor and Vitor Werneck Krauss Silva and Klaus J Busam and Edi Brogi and Victor E Reuter and David S Klimstra and Thomas J Fuchs'),
+  number(8),
+  pages(1301, 1309),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('beck2011systematic',
+  science(2011, 3),
+  title('Systematic analysis of breast cancer morphology uncovers stromal features associated with survival'),
+  author('Andrew H Beck and Ankur R Sangoi and Samuel Leung and Robert J Marinelli and Torsten O Nielsen and Marc J Van De Vijver and Robert B West and Matt Van De Rijn and Daphne Koller'),
+  number(108),
+  publisher('American Association for the Advancement of Science'),
+nil)
+
+entry!('janowczyk2016deep',
+  article('Journal of pathology informatics', 2016, 7),
+  title('Deep learning for digital pathology image analysis: A comprehensive tutorial with selected use cases'),
+  author('Andrew Janowczyk and Anant Madabhushi'),
+  publisher('Wolters Kluwer--Medknow Publications'),
+nil)
+
+entry!('gurcan2009histopathological',
+  article('IEEE reviews in biomedical engineering', 2009, 2),
+  title('Histopathological image analysis: A review'),
+  author('Metin N Gurcan and Laura E Boucheron and Ali Can and Anant Madabhushi and Nasir M Rajpoot and Bulent Yener'),
+  pages(147, 171),
+  publisher('IEEE'),
+nil)
+
+entry!('thagaard2020can',
+  inproceedings('International Conference on Medical Image Computing and Computer-Assisted Intervention', 2020),
+  title('Can you trust predictive uncertainty under real dataset shifts in digital pathology?'),
+  author('Jeppe Thagaard and S{\o}ren Hauberg and Bert van der Vegt and Thomas Ebstrup and Johan D Hansen and Anders B Dahl'),
+  pages(824, 833),
+  organization('Springer'),
+nil)
+
+entry!('phillips2020chexphoto',
+  arxiv(2020, '2007.06199'),
+  title('Chexphoto: 10,000+ smartphone photos and synthetic photographic transformations of chest x-rays for benchmarking deep learning robustness'),
+  author('Nick A Phillips and Pranav Rajpurkar and Mark Sabini and Rayan Krishnan and Sharon Zhou and Anuj Pareek and Nguyet Minh Phu and Chris Wang and Andrew Y Ng and Matthew P Lungren'),
+nil)
+
+entry!('zhou2020curse',
+  arxiv(2020, '2004.13606'),
+  title('The Curse of Performance Instability in Analysis Datasets: Consequences, Source, and Suggestions'),
+  author('Xiang Zhou and Yixin Nie and Hao Tan and Mohit Bansal'),
+nil)
+
+entry!('mccoy2019berts',
+  arxiv(2019, '1911.02969'),
+  title('Berts of a feather do not generalize together: Large variability in generalization across models with similar test set performance'),
+  author('R Thomas McCoy and Junghyun Min and Tal Linzen'),
+nil)
