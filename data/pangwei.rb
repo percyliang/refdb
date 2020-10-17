@@ -1932,3 +1932,89 @@ entry!('mccoy2019berts',
   title('Berts of a feather do not generalize together: Large variability in generalization across models with similar test set performance'),
   author('R Thomas McCoy and Junghyun Min and Tal Linzen'),
 nil)
+
+entry!('bejnordi2017diagnostic',
+  article('Jama', 2017, 318),
+  title('Diagnostic assessment of deep learning algorithms for detection of lymph node metastases in women with breast cancer'),
+  author('Babak Ehteshami Bejnordi and Mitko Veta and Paul Johannes Van Diest and Bram Van Ginneken and Nico Karssemeijer and Geert Litjens and Jeroen AWM Van Der Laak and Meyke Hermsen and Quirine F Manson and Maschenka Balkenhol and others'),
+  number(22),
+  pages(2199, 2210),
+  publisher('American Medical Association'),
+nil)
+
+entry!('veta2019predicting',
+  article('Medical image analysis', 2019, 54),
+  title('Predicting breast tumor proliferation from whole-slide images: the TUPAC16 challenge'),
+  author('Mitko Veta and Yujing J Heng and Nikolas Stathonikos and Babak Ehteshami Bejnordi and Francisco Beca and Thomas Wollmann and Karl Rohr and Manan A Shah and Dayong Wang and Mikael Rousson and others'),
+  pages(111, 121),
+  publisher('Elsevier'),
+nil)
+
+entry!('komura2018machine',
+  article('Computational and structural biotechnology journal', 2018, 16),
+  title('Machine learning methods for histopathological image analysis'),
+  author('Daisuke Komura and Shumpei Ishikawa'),
+  pages(34, 42),
+  publisher('Elsevier'),
+nil)
+
+entry!('veta2016mitosis',
+  article('PloS one', 2016, 11),
+  title('Mitosis counting in breast cancer: Object-level interobserver agreement and comparison to an automatic method'),
+  author('Mitko Veta and Paul J Van Diest and Mehdi Jiwa and Shaimaa Al-Janabi and Josien PW Pluim'),
+  number(8),
+  publisher('Public Library of Science San Francisco, CA USA'),
+nil)
+
+entry!('beede2020human',
+  chi(2020),
+  title('A Human-Centered Evaluation of a Deep Learning System Deployed in Clinics for the Detection of Diabetic Retinopathy'),
+  author('Emma Beede and Elizabeth Baylor and Fred Hersch and Anna Iurchenko and Lauren Wilcox and Paisan Ruamviboonsuk and Laura M Vardoulakis'),
+  pages(1, 12),
+nil)
+
+entry!('bentaieb2017adversarial',
+  article('IEEE transactions on medical imaging', 2017, 37),
+  title('Adversarial stain transfer for histopathology image analysis'),
+  author('A{\"\i}cha BenTaieb and Ghassan Hamarneh'),
+  number(3),
+  pages(792, 802),
+  publisher('IEEE'),
+nil)
+
+entry!('liu2017detecting',
+  arxiv(2017, '1703.02442'),
+  title('Detecting cancer metastases on gigapixel pathology images'),
+  author('Yun Liu and Krishna Gadepalli and Mohammad Norouzi and George E Dahl and Timo Kohlberger and Aleksey Boyko and Subhashini Venugopalan and Aleksei Timofeev and Philip Q Nelson and Greg S Corrado and others'),
+nil)
+
+entry!('bug2017context',
+  title('Context-based normalization of histological stains using deep convolutional features'),
+  author('Daniel Bug and Steffen Schneider and Anne Grote and Eva Oswald and Friedrich Feuerhake and Julia Sch{\"u}ler and Dorit Merhof'),
+  article('Deep Learning in Medical Image Analysis and Multimodal Learning for Clinical Decision Support', 2017),
+  pages(135, 142),
+  publisher('Springer'),
+nil)
+
+entry!('macenko2009method',
+  inproceedings('2009 IEEE International Symposium on Biomedical Imaging: From Nano to Macro', 2009),
+  title('A method for normalizing histology slides for quantitative analysis'),
+  author('Marc Macenko and Marc Niethammer and James S Marron and David Borland and John T Woosley and Xiaojun Guan and Charles Schmitt and Nancy E Thomas'),
+  pages(1107, 1110),
+  organization('IEEE'),
+nil)
+
+entry!('henderson2012influence',
+  article('Nature Reviews Cancer', 2012, 12),
+  title('The influence of race and ethnicity on the biology of cancer'),
+  author('Brian E Henderson and Norman H Lee and Victoria Seewaldt and Hongbing Shen'),
+  number(9),
+  pages(648, 653),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('kim2020cogs',
+  arxiv(2020, '2010.05465'),
+  title('COGS: A Compositional Generalization Challenge Based on Semantic Interpretation'),
+  author('Najoung Kim and Tal Linzen'),
+nil)
