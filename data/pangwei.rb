@@ -2018,3 +2018,31 @@ entry!('kim2020cogs',
   title('COGS: A Compositional Generalization Challenge Based on Semantic Interpretation'),
   author('Najoung Kim and Tal Linzen'),
 nil)
+
+entry!('mckinney2020international',
+  article('Nature', 2020, 577),
+  title('International evaluation of an {AI} system for breast cancer screening'),
+  author('Scott Mayer McKinney and Marcin Sieniek and Varun Godbole and Jonathan Godwin and Natasha Antropova and Hutan Ashrafian and Trevor Back and Mary Chesus and Greg C Corrado and Ara Darzi and others'),
+  number(7788),
+  pages(89, 94),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('beery2020iwildcam',
+  arxiv(2020, '2004.10340'),
+  title('The iWildCam 2020 Competition Dataset'),
+  author('Sara Beery and Elijah Cole and Arvi Gjoka'),
+nil)
+
+entry!('li2017deeper',
+  inproceedings('Proceedings of the IEEE international conference on computer vision', 2017),
+  title('Deeper, broader and artier domain generalization'),
+  author('Da Li and Yongxin Yang and Yi-Zhe Song and Timothy M Hospedales'),
+  pages(5542, 5550),
+nil)
+
+entry!('hendrycks2020many',
+  arxiv(2020, '2006.16241'),
+  title('The many faces of robustness: A critical analysis of out-of-distribution generalization'),
+  author('Dan Hendrycks and Steven Basart and Norman Mu and Saurav Kadavath and Frank Wang and Evan Dorundo and Rahul Desai and Tyler Zhu and Samyak Parajuli and Mike Guo and others'),
+nil)
