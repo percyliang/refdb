@@ -2046,3 +2046,85 @@ entry!('hendrycks2020many',
   title('The many faces of robustness: A critical analysis of out-of-distribution generalization'),
   author('Dan Hendrycks and Steven Basart and Norman Mu and Saurav Kadavath and Frank Wang and Evan Dorundo and Rahul Desai and Tyler Zhu and Samyak Parajuli and Mike Guo and others'),
 nil)
+
+entry!('obermeyer2019dissecting',
+  science(2019, 366),
+  title('Dissecting racial bias in an algorithm used to manage the health of populations'),
+  author('Ziad Obermeyer and Brian Powers and Christine Vogeli and Sendhil Mullainathan'),
+  number(6464),
+  pages(447, 453),
+  publisher('American Association for the Advancement of Science'),
+nil)
+
+entry!('bellamy2020evaluating',
+  arxiv(2020, '2010.01149'),
+  title('Evaluating Progress on Machine Learning for Longitudinal Electronic Healthcare Data'),
+  author('David Bellamy and Leo Celi and Andrew L Beam'),
+nil)
+
+entry!('chen2019can',
+  article('AMA Journal of Ethics', 2019, 21),
+  title('Can {AI} help reduce disparities in general medical and mental health care?'),
+  author('Irene Y Chen and Peter Szolovits and Marzyeh Ghassemi'),
+  number(2),
+  pages(167, 179),
+  publisher('American Medical Association'),
+nil)
+
+entry!('seyyed2020chexclusion',
+  arxiv(2020, '2003.00827'),
+  title('CheXclusion: Fairness gaps in deep chest {X-ray} classifiers'),
+  author('Laleh Seyyed-Kalantari and Guanxiong Liu and Matthew McDermott and Marzyeh Ghassemi'),
+nil)
+
+entry!('larrazabal2020gender',
+  article('Proceedings of the National Academy of Sciences', 2020),
+  title('Gender imbalance in medical imaging datasets produces biased classifiers for computer-aided diagnosis'),
+  author('Agostina J Larrazabal and Nicol{\\\'a}s Nieto and Victoria Peterson and Diego H Milone and Enzo Ferrante'),
+nil)
+
+entry!('davis2017calibration',
+  article('Journal of the American Medical Informatics Association', 2017, 24),
+  title('Calibration drift in regression and machine learning models for acute kidney injury'),
+  author('Sharon E Davis and Thomas A Lasko and Guanhua Chen and Edward D Siew and Michael E Matheny'),
+  number(6),
+  pages(1052, 1061),
+  publisher('Oxford University Press'),
+nil)
+
+entry!('ardila2020common',
+  lrec(2020),
+  title('Common Voice: A Massively-Multilingual Speech Corpus'),
+  author('Rosana Ardila and Megan Branson and Kelly Davis and Michael Kohler and Josh Meyer and Michael Henretty and Reuben Morais and Lindsay Saunders and Francis Tyers and Gregor Weber'),
+  pages(4218, 4222),
+nil)
+
+entry!('chung2018voxceleb2',
+  article('Proc. Interspeech', 2018),
+  title('VoxCeleb2: Deep Speaker Recognition'),
+  author('Joon Son Chung and Arsha Nagrani and Andrew Zisserman'),
+  pages(1086, 1090),
+nil)
+
+entry!('weinberger2015speech',
+  article('George Mason University', 2015),
+  title('Speech accent archive'),
+  author('Steven Weinberger'),
+nil)
+
+entry!('panayotov2015librispeech',
+  icassp(2015),
+  title('Librispeech: an asr corpus based on public domain audio books'),
+  author('Vassil Panayotov and Guoguo Chen and Daniel Povey and Sanjeev Khudanpur'),
+  pages(5206, 5210),
+  organization('IEEE'),
+nil)
+
+entry!('baumann2019spoken',
+  article('Language Resources and Evaluation', 2019, 53),
+  title('The {Spoken {W}ikipedia Corpus} collection: Harvesting, alignment and an application to hyperlistening'),
+  author('Timo Baumann and Arne K{\"o}hn and Felix Hennig'),
+  number(2),
+  pages(303, 329),
+  publisher('Springer'),
+nil)
