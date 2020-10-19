@@ -1668,6 +1668,14 @@ entry!('hill2020wrongfully',
   isUrlVisible(),
 nil)
 
+entry!('nyt2016jigsaw',
+  article('The New York Times', 2016),
+  title('The Times is Partnering with Jigsaw to Expand Comment Capabilities'),
+  author('{The New York Times Company}'),
+  url('https://www.nytco.com/press/the-times-is-partnering-with-jigsaw-to-expand-comment-capabilities/'),
+  isUrlVisible(),
+nil)
+
 entry!('de2000reject',
   article('IEEE Transactions on Systems, Man, and Cybernetics, Part C (Applications and Reviews)', 2000, 30),
   title('To reject or not to reject: that is the question-an answer in case of neural classifiers'),
@@ -1745,4 +1753,378 @@ entry!('park2018reducing',
   title('Reducing Gender Bias in Abusive Language Detection'),
   author('Ji Ho Park and Jamin Shin and Pascale Fung'),
   pages(2799, 2804),
+nil)
+
+
+entry!('hovy2016social',
+  acl(2016),
+  title('The social impact of natural language processing'),
+  author('Dirk Hovy and Shannon L Spruit'),
+  pages(591, 598),
+nil)
+
+entry!('koenecke2020racial',
+  science(2020, 117),
+  title('Racial disparities in automated speech recognition'),
+  author('Allison Koenecke and Andrew Nam and Emily Lake and Joe Nudell and Minnie Quartey and Zion Mengesha and Connor Toups and John R Rickford and Dan Jurafsky and Sharad Goel'),
+  number(14),
+  pages(7684, 7689),
+  publisher('National Acad Sciences'),
+nil)
+
+entry!('conneau2019cross',
+  nips(2019),
+  title('Cross-lingual language model pretraining'),
+  author('Alexis Conneau and Guillaume Lample'),
+  pages(7059, 7069),
+nil)
+
+entry!('conneau2018xnli',
+  emnlp(2018),
+  title('XNLI: Evaluating Cross-lingual Sentence Representations'),
+  author('Alexis Conneau and Ruty Rinott and Guillaume Lample and Adina Williams and Samuel Bowman and Holger Schwenk and Veselin Stoyanov'),
+  pages(2475, 2485),
+nil)
+
+entry!('hu2020xtreme',
+  arxiv(2020, '2003.11080'),
+  title('Xtreme: A massively multilingual multi-task benchmark for evaluating cross-lingual generalization'),
+  author('Junjie Hu and Sebastian Ruder and Aditya Siddhant and Graham Neubig and Orhan Firat and Melvin Johnson'),
+nil)
+
+entry!('clark2020tydi',
+  arxiv(2020, '2003.05002'),
+  title('TyDi QA: A benchmark for information-seeking question answering in typologically diverse languages'),
+  author('Jonathan H Clark and Eunsol Choi and Michael Collins and Dan Garrette and Tom Kwiatkowski and Vitaly Nikolaev and Jennimaria Palomaki'),
+nil)
+
+entry!('ribeiro2020beyond',
+  acl(2020),
+  title('Beyond Accuracy: Behavioral Testing of {NLP} Models with {C}heck{L}ist'),
+  pages(4902, 4912),
+  author('Marco Tulio Ribeiro and Tongshuang Wu and Carlos Guestrin and Sameer Singh'),
+nil)
+
+entry!('nestor2019feature',
+  arxiv(2019, '1908.00690'),
+  title('Feature robustness in non-stationary health records: caveats to deployable model performance in common clinical machine learning tasks'),
+  author('Bret Nestor and Matthew McDermott and Willie Boag and Gabriela Berner and Tristan Naumann and Michael C Hughes and Anna Goldenberg and Marzyeh Ghassemi'),
+nil)
+
+entry!('veeling2018rotation',
+  inproceedings('International Conference on Medical image computing and computer-assisted intervention', 2018),
+  title('Rotation equivariant CNNs for digital pathology'),
+  author('Bastiaan S Veeling and Jasper Linmans and Jim Winkens and Taco Cohen and Max Welling'),
+  pages(210, 218),
+  organization('Springer'),
+nil)
+
+entry!('tellez2019quantifying',
+  article('Medical image analysis', 2019, 58),
+  title('Quantifying the effects of data augmentation and stain color normalization in convolutional neural networks for computational pathology'),
+  author('David Tellez and Geert Litjens and P{\\\'e}ter B{\\\'a}ndi and Wouter Bulten and John-Melle Bokhorst and Francesco Ciompi and Jeroen van der Laak'),
+  publisher('Elsevier'),
+nil)
+
+entry!('bandi2018detection',
+  article('IEEE transactions on medical imaging', 2018, 38),
+  title('From detection of individual metastases to classification of lymph node status at the patient level: the {CAMELYON17} challenge'),
+  author('Peter Bandi and Oscar Geessink and Quirine Manson and Marcory Van Dijk and Maschenka Balkenhol and Meyke Hermsen and Babak Ehteshami Bejnordi and Byungjae Lee and Kyunghyun Paeng and Aoxiao Zhong and others'),
+  number(2),
+  pages(550, 560),
+  publisher('IEEE'),
+nil)
+
+entry!('litjens2018camelyon',
+  science(2018, 7),
+  title('1399 H\&E-stained sentinel lymph node sections of breast cancer patients: the {CAMELYON} dataset'),
+  author('Geert Litjens and Peter Bandi and Babak Ehteshami Bejnordi and Oscar Geessink and Maschenka Balkenhol and Peter Bult and Altuna Halilovic and Meyke Hermsen and Rob van de Loo and Rob Vogels and others'),
+  number(6),
+  publisher('Oxford University Press'),
+nil)
+
+entry!('tellez2018whole',
+  article('IEEE transactions on medical imaging', 2018, 37),
+  title('Whole-slide mitosis detection in H\&E breast histology using PHH3 as a reference to train distilled stain-invariant convolutional networks'),
+  author('David Tellez and Maschenka Balkenhol and Irene Otte-H{\\\"o}ller and Rob van de Loo and Rob Vogels and Peter Bult and Carla Wauters and Willem Vreuls and Suzanne Mol and Nico Karssemeijer and others'),
+  number(9),
+  pages(2126, 2136),
+  publisher('IEEE'),
+nil)
+
+entry!('weinstein2013cancer',
+  article('Nature genetics', 2013, 45),
+  title('The cancer genome atlas pan-cancer analysis project'),
+  author('John N Weinstein and Eric A Collisson and Gordon B Mills and Kenna R Mills Shaw and Brad A Ozenberger and Kyle Ellrott and Ilya Shmulevich and Chris Sander and Joshua M Stuart and Cancer Genome Atlas Research Network and others'),
+  number(10),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('esteva2017dermatologist',
+  article('Nature', 2017, 542),
+  title('Dermatologist-level classification of skin cancer with deep neural networks'),
+  author('Andre Esteva and Brett Kuprel and Roberto A Novoa and Justin Ko and Susan M Swetter and Helen M Blau and Sebastian Thrun'),
+  number(7639),
+  pages(115, 118),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('codella2019skin',
+  arxiv(2019, '1902.03368'),
+  title('Skin lesion analysis toward melanoma detection 2018: A challenge hosted by the international skin imaging collaboration (isic)'),
+  author('Noel Codella and Veronica Rotemberg and Philipp Tschandl and M Emre Celebi and Stephen Dusza and David Gutman and Brian Helba and Aadi Kalloo and Konstantinos Liopyris and Michael Marchetti and others'),
+nil)
+
+entry!('campanella2019clinical',
+  article('Nature medicine', 2019, 25),
+  title('Clinical-grade computational pathology using weakly supervised deep learning on whole slide images'),
+  author('Gabriele Campanella and Matthew G Hanna and Luke Geneslaw and Allen Miraflor and Vitor Werneck Krauss Silva and Klaus J Busam and Edi Brogi and Victor E Reuter and David S Klimstra and Thomas J Fuchs'),
+  number(8),
+  pages(1301, 1309),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('beck2011systematic',
+  science(2011, 3),
+  title('Systematic analysis of breast cancer morphology uncovers stromal features associated with survival'),
+  author('Andrew H Beck and Ankur R Sangoi and Samuel Leung and Robert J Marinelli and Torsten O Nielsen and Marc J Van De Vijver and Robert B West and Matt Van De Rijn and Daphne Koller'),
+  number(108),
+  publisher('American Association for the Advancement of Science'),
+nil)
+
+entry!('janowczyk2016deep',
+  article('Journal of pathology informatics', 2016, 7),
+  title('Deep learning for digital pathology image analysis: A comprehensive tutorial with selected use cases'),
+  author('Andrew Janowczyk and Anant Madabhushi'),
+  publisher('Wolters Kluwer--Medknow Publications'),
+nil)
+
+entry!('gurcan2009histopathological',
+  article('IEEE reviews in biomedical engineering', 2009, 2),
+  title('Histopathological image analysis: A review'),
+  author('Metin N Gurcan and Laura E Boucheron and Ali Can and Anant Madabhushi and Nasir M Rajpoot and Bulent Yener'),
+  pages(147, 171),
+  publisher('IEEE'),
+nil)
+
+entry!('thagaard2020can',
+  inproceedings('International Conference on Medical Image Computing and Computer-Assisted Intervention', 2020),
+  title('Can you trust predictive uncertainty under real dataset shifts in digital pathology?'),
+  author('Jeppe Thagaard and S{\o}ren Hauberg and Bert van der Vegt and Thomas Ebstrup and Johan D Hansen and Anders B Dahl'),
+  pages(824, 833),
+  organization('Springer'),
+nil)
+
+entry!('phillips2020chexphoto',
+  arxiv(2020, '2007.06199'),
+  title('Chexphoto: 10,000+ smartphone photos and synthetic photographic transformations of chest x-rays for benchmarking deep learning robustness'),
+  author('Nick A Phillips and Pranav Rajpurkar and Mark Sabini and Rayan Krishnan and Sharon Zhou and Anuj Pareek and Nguyet Minh Phu and Chris Wang and Andrew Y Ng and Matthew P Lungren'),
+nil)
+
+entry!('zhou2020curse',
+  arxiv(2020, '2004.13606'),
+  title('The Curse of Performance Instability in Analysis Datasets: Consequences, Source, and Suggestions'),
+  author('Xiang Zhou and Yixin Nie and Hao Tan and Mohit Bansal'),
+nil)
+
+entry!('mccoy2019berts',
+  arxiv(2019, '1911.02969'),
+  title('Berts of a feather do not generalize together: Large variability in generalization across models with similar test set performance'),
+  author('R Thomas McCoy and Junghyun Min and Tal Linzen'),
+nil)
+
+entry!('bejnordi2017diagnostic',
+  article('Jama', 2017, 318),
+  title('Diagnostic assessment of deep learning algorithms for detection of lymph node metastases in women with breast cancer'),
+  author('Babak Ehteshami Bejnordi and Mitko Veta and Paul Johannes Van Diest and Bram Van Ginneken and Nico Karssemeijer and Geert Litjens and Jeroen AWM Van Der Laak and Meyke Hermsen and Quirine F Manson and Maschenka Balkenhol and others'),
+  number(22),
+  pages(2199, 2210),
+  publisher('American Medical Association'),
+nil)
+
+entry!('veta2019predicting',
+  article('Medical image analysis', 2019, 54),
+  title('Predicting breast tumor proliferation from whole-slide images: the TUPAC16 challenge'),
+  author('Mitko Veta and Yujing J Heng and Nikolas Stathonikos and Babak Ehteshami Bejnordi and Francisco Beca and Thomas Wollmann and Karl Rohr and Manan A Shah and Dayong Wang and Mikael Rousson and others'),
+  pages(111, 121),
+  publisher('Elsevier'),
+nil)
+
+entry!('komura2018machine',
+  article('Computational and structural biotechnology journal', 2018, 16),
+  title('Machine learning methods for histopathological image analysis'),
+  author('Daisuke Komura and Shumpei Ishikawa'),
+  pages(34, 42),
+  publisher('Elsevier'),
+nil)
+
+entry!('veta2016mitosis',
+  article('PloS one', 2016, 11),
+  title('Mitosis counting in breast cancer: Object-level interobserver agreement and comparison to an automatic method'),
+  author('Mitko Veta and Paul J Van Diest and Mehdi Jiwa and Shaimaa Al-Janabi and Josien PW Pluim'),
+  number(8),
+  publisher('Public Library of Science San Francisco, CA USA'),
+nil)
+
+entry!('beede2020human',
+  chi(2020),
+  title('A Human-Centered Evaluation of a Deep Learning System Deployed in Clinics for the Detection of Diabetic Retinopathy'),
+  author('Emma Beede and Elizabeth Baylor and Fred Hersch and Anna Iurchenko and Lauren Wilcox and Paisan Ruamviboonsuk and Laura M Vardoulakis'),
+  pages(1, 12),
+nil)
+
+entry!('bentaieb2017adversarial',
+  article('IEEE transactions on medical imaging', 2017, 37),
+  title('Adversarial stain transfer for histopathology image analysis'),
+  author('A{\"\i}cha BenTaieb and Ghassan Hamarneh'),
+  number(3),
+  pages(792, 802),
+  publisher('IEEE'),
+nil)
+
+entry!('liu2017detecting',
+  arxiv(2017, '1703.02442'),
+  title('Detecting cancer metastases on gigapixel pathology images'),
+  author('Yun Liu and Krishna Gadepalli and Mohammad Norouzi and George E Dahl and Timo Kohlberger and Aleksey Boyko and Subhashini Venugopalan and Aleksei Timofeev and Philip Q Nelson and Greg S Corrado and others'),
+nil)
+
+entry!('bug2017context',
+  title('Context-based normalization of histological stains using deep convolutional features'),
+  author('Daniel Bug and Steffen Schneider and Anne Grote and Eva Oswald and Friedrich Feuerhake and Julia Sch{\"u}ler and Dorit Merhof'),
+  article('Deep Learning in Medical Image Analysis and Multimodal Learning for Clinical Decision Support', 2017),
+  pages(135, 142),
+  publisher('Springer'),
+nil)
+
+entry!('macenko2009method',
+  inproceedings('2009 IEEE International Symposium on Biomedical Imaging: From Nano to Macro', 2009),
+  title('A method for normalizing histology slides for quantitative analysis'),
+  author('Marc Macenko and Marc Niethammer and James S Marron and David Borland and John T Woosley and Xiaojun Guan and Charles Schmitt and Nancy E Thomas'),
+  pages(1107, 1110),
+  organization('IEEE'),
+nil)
+
+entry!('henderson2012influence',
+  article('Nature Reviews Cancer', 2012, 12),
+  title('The influence of race and ethnicity on the biology of cancer'),
+  author('Brian E Henderson and Norman H Lee and Victoria Seewaldt and Hongbing Shen'),
+  number(9),
+  pages(648, 653),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('kim2020cogs',
+  arxiv(2020, '2010.05465'),
+  title('COGS: A Compositional Generalization Challenge Based on Semantic Interpretation'),
+  author('Najoung Kim and Tal Linzen'),
+nil)
+
+entry!('mckinney2020international',
+  article('Nature', 2020, 577),
+  title('International evaluation of an {AI} system for breast cancer screening'),
+  author('Scott Mayer McKinney and Marcin Sieniek and Varun Godbole and Jonathan Godwin and Natasha Antropova and Hutan Ashrafian and Trevor Back and Mary Chesus and Greg C Corrado and Ara Darzi and others'),
+  number(7788),
+  pages(89, 94),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('beery2020iwildcam',
+  arxiv(2020, '2004.10340'),
+  title('The iWildCam 2020 Competition Dataset'),
+  author('Sara Beery and Elijah Cole and Arvi Gjoka'),
+nil)
+
+entry!('li2017deeper',
+  inproceedings('Proceedings of the IEEE international conference on computer vision', 2017),
+  title('Deeper, broader and artier domain generalization'),
+  author('Da Li and Yongxin Yang and Yi-Zhe Song and Timothy M Hospedales'),
+  pages(5542, 5550),
+nil)
+
+entry!('hendrycks2020many',
+  arxiv(2020, '2006.16241'),
+  title('The many faces of robustness: A critical analysis of out-of-distribution generalization'),
+  author('Dan Hendrycks and Steven Basart and Norman Mu and Saurav Kadavath and Frank Wang and Evan Dorundo and Rahul Desai and Tyler Zhu and Samyak Parajuli and Mike Guo and others'),
+nil)
+
+entry!('obermeyer2019dissecting',
+  science(2019, 366),
+  title('Dissecting racial bias in an algorithm used to manage the health of populations'),
+  author('Ziad Obermeyer and Brian Powers and Christine Vogeli and Sendhil Mullainathan'),
+  number(6464),
+  pages(447, 453),
+  publisher('American Association for the Advancement of Science'),
+nil)
+
+entry!('bellamy2020evaluating',
+  arxiv(2020, '2010.01149'),
+  title('Evaluating Progress on Machine Learning for Longitudinal Electronic Healthcare Data'),
+  author('David Bellamy and Leo Celi and Andrew L Beam'),
+nil)
+
+entry!('chen2019can',
+  article('AMA Journal of Ethics', 2019, 21),
+  title('Can {AI} help reduce disparities in general medical and mental health care?'),
+  author('Irene Y Chen and Peter Szolovits and Marzyeh Ghassemi'),
+  number(2),
+  pages(167, 179),
+  publisher('American Medical Association'),
+nil)
+
+entry!('seyyed2020chexclusion',
+  arxiv(2020, '2003.00827'),
+  title('CheXclusion: Fairness gaps in deep chest {X-ray} classifiers'),
+  author('Laleh Seyyed-Kalantari and Guanxiong Liu and Matthew McDermott and Marzyeh Ghassemi'),
+nil)
+
+entry!('larrazabal2020gender',
+  article('Proceedings of the National Academy of Sciences', 2020),
+  title('Gender imbalance in medical imaging datasets produces biased classifiers for computer-aided diagnosis'),
+  author('Agostina J Larrazabal and Nicol{\\\'a}s Nieto and Victoria Peterson and Diego H Milone and Enzo Ferrante'),
+nil)
+
+entry!('davis2017calibration',
+  article('Journal of the American Medical Informatics Association', 2017, 24),
+  title('Calibration drift in regression and machine learning models for acute kidney injury'),
+  author('Sharon E Davis and Thomas A Lasko and Guanhua Chen and Edward D Siew and Michael E Matheny'),
+  number(6),
+  pages(1052, 1061),
+  publisher('Oxford University Press'),
+nil)
+
+entry!('ardila2020common',
+  lrec(2020),
+  title('Common Voice: A Massively-Multilingual Speech Corpus'),
+  author('Rosana Ardila and Megan Branson and Kelly Davis and Michael Kohler and Josh Meyer and Michael Henretty and Reuben Morais and Lindsay Saunders and Francis Tyers and Gregor Weber'),
+  pages(4218, 4222),
+nil)
+
+entry!('chung2018voxceleb2',
+  article('Proc. Interspeech', 2018),
+  title('VoxCeleb2: Deep Speaker Recognition'),
+  author('Joon Son Chung and Arsha Nagrani and Andrew Zisserman'),
+  pages(1086, 1090),
+nil)
+
+entry!('weinberger2015speech',
+  article('George Mason University', 2015),
+  title('Speech accent archive'),
+  author('Steven Weinberger'),
+nil)
+
+entry!('panayotov2015librispeech',
+  icassp(2015),
+  title('Librispeech: an asr corpus based on public domain audio books'),
+  author('Vassil Panayotov and Guoguo Chen and Daniel Povey and Sanjeev Khudanpur'),
+  pages(5206, 5210),
+  organization('IEEE'),
+nil)
+
+entry!('baumann2019spoken',
+  article('Language Resources and Evaluation', 2019, 53),
+  title('The {Spoken {W}ikipedia Corpus} collection: Harvesting, alignment and an application to hyperlistening'),
+  author('Timo Baumann and Arne K{\"o}hn and Felix Hennig'),
+  number(2),
+  pages(303, 329),
+  publisher('Springer'),
 nil)

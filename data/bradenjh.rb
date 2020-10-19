@@ -419,7 +419,7 @@ nil)
 
 entry!('dinan2018wizard',
   arxiv(2018, '1811.01241'),
-  title('Wizard of Wikipedia: Knowledge-Powered Conversational agents'),
+  title('Wizard of {Wikipedia}: Knowledge-Powered Conversational agents'),
   author('Emily Dinan and Stephen Roller and Kurt Shuster and Angela Fan and Michael Auli and Jason Weston'),
 nil)
 
