@@ -70,3 +70,85 @@ entry!('lau2014social',
   pages(80, 94),
   publisher('Elsevier'),
 nil)
+
+entry!('muandet2013domain',
+  icml(2013),
+  title('Domain generalization via invariant feature representation'),
+  author('Krikamol Muandet and David Balduzzi and Bernhard Sch{\"o}lkopf'),
+  pages(10, 18),
+nil)
+
+entry!('blanchard2011generalizing',
+  inproceedings('Advances in neural information processing systems', 2011),
+  title('Generalizing from several related classification tasks to a new unlabeled sample'),
+  author('Gilles Blanchard and Gyemin Lee and Clayton Scott'),
+  pages(2178, 2186),
+nil)
+
+entry!('sun2020test',
+  icml(2020),
+  title('Test-time training with self-supervision for generalization under distribution shifts'),
+  author('Yu Sun and Xiaolong Wang and Zhuang Liu and John Miller and Alexei A Efros and Moritz Hardt'),
+nil)
+
+entry!('worrall2017harmonic',
+  cvpr(2017),
+  title('Harmonic networks: Deep translation and rotation equivariance'),
+  author('Daniel E Worrall and Stephan J Garbin and Daniyar Turmukhambetov and Gabriel J Brostow'),
+  pages(5028, 5037),
+nil)
+
+entry!('gulrajani2020search',
+  arxiv(2020, '2007.01434'),
+  title('In search of lost domain generalization'),
+  author('Ishaan Gulrajani and David Lopez-Paz'),
+nil)
+
+entry!('taori2020measuring',
+  arxiv(2020, '2007.00644'),
+  title('Measuring Robustness to Natural Distribution Shifts in Image Classification'),
+  author('Rohan Taori and Achal Dave and Vaishaal Shankar and Nicholas Carlini and Benjamin Recht and Ludwig Schmidt'),
+nil)
+
+entry!('ros2016synthia',
+  inproceedings('Proceedings of the IEEE conference on computer vision and pattern recognition', 2016),
+  title('The synthia dataset: A large collection of synthetic images for semantic segmentation of urban scenes'),
+  author('German Ros and Laura Sellart and Joanna Materzynska and David Vazquez and Antonio M Lopez'),
+  pages(3234, 3243),
+nil)
+
+entry!('richter2016playing',
+  inproceedings('European conference on computer vision', 2016),
+  title('Playing for data: Ground truth from computer games'),
+  author('Stephan R Richter and Vibhav Vineet and Stefan Roth and Vladlen Koltun'),
+  pages(102, 118),
+  organization('Springer'),
+nil)
+
+entry!('barbu2019objectnet',
+  neurips(2019),
+  title('Objectnet: A large-scale bias-controlled dataset for pushing the limits of object recognition models'),
+  author('Andrei Barbu and David Mayo and Julian Alverio and William Luo and Christopher Wang and Dan Gutfreund and Josh Tenenbaum and Boris Katz'),
+  pages(9453, 9463),
+nil)
+
+entry!('peng2018visda',
+  cvpr(2018),
+  title('Visda: A synthetic-to-real benchmark for visual domain adaptation'),
+  author('Xingchao Peng and Ben Usman and Neela Kaushik and Dequan Wang and Judy Hoffman and Kate Saenko'),
+  pages(2021, 2026),
+nil)
+
+entry!('venkateswara2017deep',
+  cvpr(2017),
+  title('Deep hashing network for unsupervised domain adaptation'),
+  author('Hemanth Venkateswara and Jose Eusebio and Shayok Chakraborty and Sethuraman Panchanathan'),
+  pages(5018, 5027),
+nil)
+
+entry!('fang2013unbiased',
+  iccv(2013),
+  title('Unbiased metric learning: On the utilization of multiple datasets and web images for softening bias'),
+  author('Chen Fang and Ye Xu and Daniel N Rockmore'),
+  pages(1657, 1664),
+nil)
