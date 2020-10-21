@@ -67,12 +67,6 @@ entry!('landeiro2016confounder',
   aaai(2016),
 nil)
 
-entry!('kaushik2019difference',
-  title('Learning the Difference that Makes a Difference with Counterfactually-Augmented Data'),
-  author('Divyansh Kaushik and Eduard Hovy and Zachary C. Lipton'),
-  arxiv(2019, '1909.12434'),
-  nil)
-
 entry!('goel2016stopandfrisk',
   title('Precinct or Prejudice? Understanding Racial Disparities in New York City\'s Stop-and-Frisk Policy'),
   author('Sharad Goel and Justin M. Rao and Ravi Shroff'),

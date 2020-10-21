@@ -8856,12 +8856,6 @@ entry!('resnick2007influence',
   pages(25,32),
 nil)
 
-entry!('piech2013tuned',
-  title('Tuned models of peer assessment in {MOOC}s'),
-  author('Chris Piech and Jonathan Huang and Zhenghao Chen and Chuong Do and Andrew Ng and Daphne Koller'),
-  arxiv(2013),
-nil)
-
 entry!('priedhorsky2007creating',
   title('Creating, destroying, and restoring value in {W}ikipedia'),
   author('Reid Priedhorsky and Jilin Chen and Shyong T. K. Lam and Katherine Panciera and Loren Terveen and John Riedl'),

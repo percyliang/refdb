@@ -1676,6 +1676,30 @@ entry!('nyt2016jigsaw',
   isUrlVisible(),
 nil)
 
+entry!('broussard2020grades',
+  article('The New York Times', 2020),
+  title('When Algorithms Give Real Students Imaginary Grades'),
+  author('Meredith Broussard'),
+  url('https://www.nytimes.com/2020/09/08/opinion/international-baccalaureate-algorithm-grades.html'),
+  isUrlVisible(),
+nil)
+
+entry!('bbc2020gcse',
+  article('The British Broadcasting Corporation', 2020),
+  title('A-levels and GCSEs: How did the exam algorithm work?'),
+  author('BBC'),
+  url('https://www.bbc.com/news/explainers-53807730'),
+  isUrlVisible(),
+nil)
+
+entry!('npr2018grading',
+  article('National Public Radio', 2018),
+  title("More States Opting To 'Robo-Grade' Student Essays By Computer"),
+  author('NPR'),
+  url('https://www.npr.org/2018/06/30/624373367/more-states-opting-to-robo-grade-student-essays-by-computer'),
+  isUrlVisible(),
+nil)
+
 entry!('de2000reject',
   article('IEEE Transactions on Systems, Man, and Cybernetics, Part C (Applications and Reviews)', 2000, 30),
   title('To reject or not to reject: that is the question-an answer in case of neural classifiers'),
@@ -2127,4 +2151,137 @@ entry!('baumann2019spoken',
   number(2),
   pages(303, 329),
   publisher('Springer'),
+nil)
+
+entry!('rabanser2019failing',
+  nips(2019),
+  title('Failing loudly: An empirical study of methods for detecting dataset shift'),
+  author('Stephan Rabanser and Stephan G{\"u}nnemann and Zachary Lipton'),
+  pages(1396, 1408),
+nil)
+
+entry!('kaushik2019learning',
+  iclr(2019),
+  title('Learning The Difference That Makes A Difference With Counterfactually-Augmented Data'),
+  author('Divyansh Kaushik and Eduard Hovy and Zachary Lipton'),
+nil)
+
+entry!('nekoto2020participatory',
+  emnlpfindings(2020),
+  title('Participatory Research for Low-resourced Machine Translation: A Case Study in {African} Languages'),
+  author('Wilhelmina Nekoto and Vukosi Marivate and Tshinondiwa Matsila and Timi Fasubaa and Tajudeen Kolawole and Taiwo Fagbohungbe and Solomon Oluwole Akinola and Shamsuddee Hassan Muhammad and Salomon Kabongo and Salomey Osei and Sackey Freshia and Rubungo Andre Niyongabo and Ricky Macharm and Perez Ogayo and Orevaoghene Ahia and Musie Meressa and Mofe Adeyemi and Masabata Mokgesi-Selinga and Lawrence Okegbemi and Laura Jane Martinus and Kolawole Tajudeen and Kevin Degila and Kelechi Ogueji and Kathleen Siminyu and Julia Kreutzer and Jason Webster and Jamiil Toure Ali and Jade Abbott and Iroro Orife and Ignatius Ezeani and Idris Abdulkabir Dangana and Herman Kamper and Hady Elsahar and Goodness Duru and Ghollah Kioko and Espoir Murhabazi and Elan van Biljon and Daniel Whitenack and Christopher Onyefuluchi and Chris Emezue and Bonaventure Dossou and Blessing Sibanda and Blessing Itoro Bassey and Ayodele Olabiyi and Arshath Ramkilowan and Alp Öktem and Adewale Akinfaderin and Abdallah Bashir'),
+nil)
+
+entry!('wu2020variational',
+  article("International Conference on Educational Data Mining", 2020),
+  title('Variational Item Response Theory: Fast, Accurate, and Expressive'),
+  author('Mike Wu and Richard L Davis and Benjamin W Domingue and Chris Piech and Noah Goodman'),
+nil)
+
+entry!('kulkarni2014scaling',
+  inproceedings('Proceedings of the first ACM conference on Learning@Scale conference', 2014),
+  title('Scaling short-answer grading by combining peer assessment with algorithmic scoring'),
+  author('Chinmay E Kulkarni and Richard Socher and Michael S Bernstein and Scott R Klemmer'),
+  pages(99, 108),
+nil)
+
+entry!('shermis2014state',
+  article('Assessing Writing', 2014, 20),
+  title('State-of-the-art automated essay scoring: Competition, results, and future directions from a United States demonstration'),
+  author('Mark D Shermis'),
+  pages(53, 76),
+  publisher('Elsevier'),
+nil)
+
+entry!('taghipour2016neural',
+  inproceedings('Proceedings of the 2016 conference on empirical methods in natural language processing', 2016),
+  title('A neural approach to automated essay scoring'),
+  author('Kaveh Taghipour and Hwee Tou Ng'),
+  pages(1882, 1891),
+nil)
+
+entry!('ahadi2015exploring',
+  inproceedings('Proceedings of the eleventh annual International Conference on International Computing Education Research', 2015),
+  title('Exploring machine learning methods to automatically identify students in need of assistance'),
+  author('Alireza Ahadi and Raymond Lister and Heikki Haapala and Arto Vihavainen'),
+  pages(121, 130),
+nil)
+
+entry!('williams2016axis',
+  inproceedings('Proceedings of the Third (2016) ACM Conference on Learning@Scale', 2016),
+  title('Axis: Generating explanations at scale with learnersourcing and machine learning'),
+  author('Joseph Jay Williams and Juho Kim and Anna Rafferty and Samuel Maldonado and Krzysztof Z Gajos and Walter S Lasecki and Neil Heffernan'),
+  pages(379, 388),
+nil)
+
+entry!('desmarais2012review',
+  article('User Modeling and User-Adapted Interaction', 2012, 22),
+  title('A review of recent advances in learner and skill modeling in intelligent learning environments'),
+  author('Michel C Desmarais and Ryan Baker'),
+  number('1-2'),
+  pages(9, 38),
+  publisher('Springer'),
+nil)
+
+entry!('wu2019zero',
+  aaai(2019),
+  title('Zero shot learning for code education: Rubric sampling with deep learning inference'),
+  author('Mike Wu and Milan Mosse and Noah Goodman and Chris Piech'),
+  volume(33),
+  pages(782, 790),
+nil)
+
+entry!('amorim2018automated',
+  acl(2018),
+  title('Automated essay scoring in the presence of biased ratings'),
+  author('Evelin Amorim and Marcia Can{\c{c}}ado and Adriano Veloso'),
+  pages(229, 237),
+nil)
+
+entry!('perelman2014state',
+  article('Assessing Writing', 2014, 21),
+  title('When “the state of the art” is counting words'),
+  author('Les Perelman'),
+  pages(104, 111),
+  publisher('Elsevier'),
+nil)
+
+entry!('piech2013tuned',
+  article('Educational Data Mining', 2013),
+  title('Tuned models of peer assessment in MOOCs'),
+  author('Chris Piech and Jonathan Huang and Zhenghao Chen and Chuong Do and Andrew Ng and Daphne Koller'),
+nil)
+
+entry!('han2020fortifying',
+  arxiv(2020, '2010.03154'),
+  title('Fortifying Toxic Speech Detectors Against Veiled Toxicity'),
+  author('Xiaochuang Han and Yulia Tsvetkov'),
+nil)
+
+entry!('kompa2020empirical',
+  arxiv(2020, '2010.03039'),
+  title('Empirical Frequentist Coverage of Deep Learning Uncertainty Quantification Procedures'),
+  author('Benjamin Kompa and Jasper Snoek and Andrew Beam'),
+nil)
+
+entry!('long2015learning',
+  inproceedings('International conference on machine learning', 2015),
+  title('Learning transferable features with deep adaptation networks'),
+  author('Mingsheng Long and Yue Cao and Jianmin Wang and Michael Jordan'),
+  pages(97, 105),
+  organization('PMLR'),
+nil)
+
+entry!('wu2019domain',
+  icml(2019),
+  title('Domain Adaptation with Asymmetrically-Relaxed Distribution Alignment'),
+  author('Yifan Wu and Ezra Winston and Divyansh Kaushik and Zachary Lipton'),
+  pages(6872, 6881),
+nil)
+
+entry!('degrave2020ai',
+  article('medRxiv', 2020),
+  title('{AI} for radiographic {COVID-19} detection selects shortcuts over signal'),
+  author('Alex J DeGrave and Joseph D Janizek and Su-In Lee'),
+  publisher('Cold Spring Harbor Laboratory Preprints'),
 nil)
