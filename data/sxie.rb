@@ -333,7 +333,7 @@ mobile phone metadata'),
   science(2015, 350),
 )
 entry!('epsey2015development',
-        author('Jessica Espey and Eric Swanson and Shaida Badiee and Zach Chistensen and Alex Fischer and Marc Levy and Greg Yetman and Alex de Sherbinin and Robert Chen, and Yue Qiu and Geoffrey Greenwell and Thilo Klein and and Johannes Jutting and Morten Jerven and Grant Cameron and Ana Milena Aguilar Rivera and Victoriano C. Arias and and Samuel Lantei Mills and Albert Motivans'),
+        author('Jessica Espey and Eric Swanson and Shaida Badiee and Zach Chistensen and Alex Fischer and Marc Levy and Greg Yetman and Alex de Sherbinin and Robert Chen and Yue Qiu and Geoffrey Greenwell and Thilo Klein and and Johannes Jutting and Morten Jerven and Grant Cameron and Ana Milena Aguilar Rivera and Victoriano C. Arias and and Samuel Lantei Mills and Albert Motivans'),
   title('Data for Development: A Needs Assessment for {SDG} Monitoring and Statistical Capacity Development'),
   article('Sustainable Development Solutions Network', 2015, nil),
 )
