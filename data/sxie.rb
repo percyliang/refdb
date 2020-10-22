@@ -430,4 +430,14 @@ entry!('digitalglobe2016spacenet',
   title('SpaceNet'),
   article('https://aws.amazon.com/publicdatasets/spacenet/', 2016, nil)
 )
+entry!('sahn2003asset',
+                author('David E. Sahn and David Stifel'),
+  title('Exploring Alternative Measures of Welfare in the Absence of Expenditure Data'),
+  article('The Review of Income and Wealth', 2003, 49)
+)
+entry!('filmer2011asset',
+                author('Deon Filmer and Kinnon Scott'),
+  title('Assessing Asset Indices'),
+  article('Demography', 2011, 49)
+)
 
