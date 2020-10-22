@@ -440,4 +440,10 @@ entry!('filmer2011asset',
   title('Assessing Asset Indices'),
   article('Demography', 2011, 49)
 )
+entry!('xie2020innout',
+    author('Sang Michael Xie and Ananya Kumar and Robert Jones and Fereshte Khani and Tengyu Ma and Percy Liang'),
+  title('In-{N}-Out: Pre-Training and Self-Training using Auxiliary Information for Out-of-Distribution Robustness'),
+  arxiv(2020),
+)
+
 
