@@ -380,5 +380,70 @@ entry!('jean2018ssdkl',
   title('Semi-supervised Deep Kernel Learning: Regression with Unlabeled Data by Minimizing Predictive Variance'),
   neurips(2018),
 )
+entry!('abelson2014poor',
+               author('Brian Abelson and Kush R. Varshney and Joy Sun'),
+  title('Targeting Direct Cash Transfers to the Extremely Poor'),
+  kdd(2014),
+)
+entry!('hansen2013forest',
+                      author('M. C. Hansen and P. V. Potapov and R. Moore and M. Hancher and S. A. Turubanova and A. Tyukavina and D. Thau and S. V. Stehman and S. J. Goetz and T. R. Loveland and A. Kommareddy and A. Egorov and L. Chini and C. O. Justice and J. R. G. Townshend'),
+  title('High-Resolution Global Maps of 21st-Century Forest Cover Change'),
+  science(2013, 342),
+)
+entry!('tiecke2017population',
+       author('Tobias G. Tiecke and Xianming Liu and Amy Zhang and Andreas Gros and Nan Li and Gregory Yetman and Talip Kilic and Siobhan Murray and Brian Blankespoor and Espen B. Prydz and Hai-Anh H. Dang'),
+  title('Mapping the world population one building at a time'),
+  arxiv(2017),
+)
+entry!('katona2018parking',
+  author('Zsolt Katona and Marcus Painter and Panos N. Patatoukas and Jean Zeng'),
+  title('On the Capital Market Consequences of Alternative Data: Evidence from Outer Space'),
+  article('Miami Behavioral Finance Conference', 2018, nil),
+)
+entry!('christie2018fmow',
+  author('Gordon Christie and Neil Fendley and James Wilson and Ryan Mukherjee'),
+  title('Functional Map of the World'),
+  cvpr(2018),
+)
+entry!('uzkent2020zoom',
+  author('Burak Uzkent and Stefano Ermon'),
+  title('Learning When and Where to Zoom with Deep Reinforcement Learning'),
+  cvpr(2020),
+)
+entry!('kim2016multiresolution',
+  author('Jae Hyun Kim and Michael Xie and Neal Jean and Stefano Ermon'),
+  title('Incorporating Spatial Context and Fine-grained Detail from Satellite Imagery to Predict Poverty'),
+  article('Stanford University', 2016, nil),
+)
+entry!('yang2010landuse',
+  author('Yi Yang and Shawn Newsam'),
+  title('Bag-of-visual-words and spatial extensions for land-use classification'),
+  article('Geographic Information Systems', 2010, nil),
+)
+entry!('wang2017torontocity',
+  author('Shenlong Wang and Min Bai and Gellert Mattyus and Hang Chu and Wenjie Luo and Bin Yang and Justin Liang and Joel Cheverie and Sanja Fidler and Raquel Urtasun'),
+  title('TorontoCity: Seeing the World with a Million Eyes'),
+  iccv(2017)
+)
+entry!('digitalglobe2016spacenet',
+         author('N. DigitalGlobe and CosmiQ Works'),
+  title('SpaceNet'),
+  article('https://aws.amazon.com/publicdatasets/spacenet/', 2016, nil)
+)
+entry!('sahn2003asset',
+                author('David E. Sahn and David Stifel'),
+  title('Exploring Alternative Measures of Welfare in the Absence of Expenditure Data'),
+  article('The Review of Income and Wealth', 2003, 49)
+)
+entry!('filmer2011asset',
+                author('Deon Filmer and Kinnon Scott'),
+  title('Assessing Asset Indices'),
+  article('Demography', 2011, 49)
+)
+entry!('xie2020innout',
+    author('Sang Michael Xie and Ananya Kumar and Robert Jones and Fereshte Khani and Tengyu Ma and Percy Liang'),
+  title('In-{N}-Out: Pre-Training and Self-Training using Auxiliary Information for Out-of-Distribution Robustness'),
+  arxiv(2020),
+)
 
 
