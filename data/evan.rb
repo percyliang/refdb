@@ -762,3 +762,9 @@ entry!('rieger2019interpretations',
   title('Interpretations are useful: penalizing explanations to align neural networks with prior knowledge'),
   author('Laura Rieger and Chandan Singh and W James Murdoch and Bin Yu'),
 nil)
+
+entry!('goel2020model',
+  arxiv(2020, '2008.06775'),
+  title('Model Patching: Closing the Subgroup Performance Gap with Data Augmentation'),
+  author('Karan Goel and Albert Gu and Yixuan Li and Christopher R{\\\'e}'),
+nil)
