@@ -756,3 +756,9 @@ entry!('liu2020explore',
   title('Explore then Execute: Adapting without Rewards via Factorized Meta-Reinforcement Learning'),
   author('Evan Zheran Liu and Aditi Raghunathan and Percy Liang and Chelsea Finn'),
 nil)
+
+entry!('rieger2019interpretations',
+  arxiv(2019, '1909.13584'),
+  title('Interpretations are useful: penalizing explanations to align neural networks with prior knowledge'),
+  author('Laura Rieger and Chandan Singh and W James Murdoch and Bin Yu'),
+nil)
