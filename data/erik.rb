@@ -1,3 +1,15 @@
+entry!('gebru2018datasheets',
+  arxiv(2018, '1803.09010'),
+  title('Datasheets for Datasets'),
+  author('Timnit Gebru and Jamie Morgenstern and Briana Vecchione and Jennifer Wortman Vaughan and Hanna Wallach and Hal Daumé Ill and Kate Crawford'),
+  nil)
+
+entry!('rajpurkar2020chexpedition',
+  arxiv(2020, '2002.11379'),
+  title('CheXpedition: Investigating Generalization Challenges for Translation of Chest X{-}ray Algorithms to the Clinical Setting'),
+  author('Pranav Rajpurkar and Anirudh Joshi and Anuj Pareek and Phil Chen and Amirhossein Kiani and Jeremy Irvin and Andrew Ng and Matthew Lungren'),
+nil)
+
 entry!('bagnoli2005logconcave',
   article('Economic Theory', 2005, 26),
   title('Log-concave probability and its applications'),

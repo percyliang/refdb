@@ -10074,7 +10074,7 @@ nil)
 entry!('ribeiro2016lime',
   kdd(2016),
   author('Marco Tulio Ribeiro and Sameer Singh and Carlos Guestrin'),
-  title(' "Why Should {I} Trust You?": Explaining the Predictions of Any Classifier '),
+  title(' "{Why Should {I} Trust You?}": Explaining the Predictions of Any Classifier '),
 nil)
 
 entry!('lei2016rationalizing',

@@ -1601,7 +1601,7 @@ nil)
 
 entry!('joshi2018xgems',
   arxiv(2018, '1806.08867'),
-  title('xGEMs: Generating examplars to explain black-box models'),
+  title('{xGEMs}: Generating examplars to explain black-box models'),
   author('Shalmali Joshi and Oluwasanmi Koyejo and Been Kim and Joydeep Ghosh'),
 nil)
 
@@ -1633,7 +1633,7 @@ entry!('irvin2019chexpert',
 nil)
 
 entry!('porcel2018chest',
-  article('Tuberculosis and respiratory diseases', 2018, 81),
+  article('Tuberculosis and Respiratory Diseases', 2018, 81),
   title('Chest tube drainage of the pleural space: a concise review for pulmonologists'),
   author('Jos{\\\'e} M Porcel'),
   number(2),
@@ -1648,7 +1648,7 @@ entry!('oakden2020hidden',
 nil)
 
 entry!('huang2017densely',
-  inproceedings('Proceedings of the IEEE conference on computer vision and pattern recognition', 2017),
+  inproceedings('Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition', 2017),
   title('Densely connected convolutional networks'),
   author('Gao Huang and Zhuang Liu and Laurens Van Der Maaten and Kilian Q Weinberger'),
   pages(4700, 4708),
@@ -1714,7 +1714,7 @@ entry!('pimentel2014review',
 nil)
 
 entry!('hellman1970nearest',
-  science(1970, 6),
+  article('IEEE Transactions on Systems Science and Cybernetics', 1970, 6),
   title('The nearest neighbor classification rule with a reject option'),
   author('Martin E Hellman'),
   number(3),
