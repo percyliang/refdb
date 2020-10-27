@@ -1,6 +1,21 @@
 ############################################################
 # 2020
 
+entry!('xie2020innout',
+  title('In-{N}-Out: Pre-Training and Self-Training using Auxiliary Information for Out-of-Distribution Robustness'),
+  author('Sang Michael Xie and Ananya Kumar and Robert Jones and Fereshte Khani and Tengyu Ma and Percy Liang'),
+  arxiv(2020),
+  extendedVersion,  # Hide for now
+  unusualCapitalization('N'),
+)
+
+entry!('karamcheti2020decomposition',
+  title('Learning Adaptive Language Interfaces through Decomposition'),
+  author('Evan Zheran Liu and Aditi Raghunathan and Percy Liang and Chelsea Finn'),
+  inproceedings('EMNLP Workshop for Interactive and Executable Semantic Parsing (IntEx-SemPar)', 2020),
+  url('https://arxiv.org/pdf/2010.05190.pdf'),
+nil)
+
 entry!('liu2020explore',
   title('Explore then Execute: Adapting without Rewards via Factorized Meta-Reinforcement Learning'),
   author('Evan Zheran Liu and Aditi Raghunathan and Percy Liang and Chelsea Finn'),
