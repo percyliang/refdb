@@ -1,6 +1,66 @@
 ############################################################
 # 2020
 
+entry!('xie2020innout',
+  title('In-{N}-Out: Pre-Training and Self-Training using Auxiliary Information for Out-of-Distribution Robustness'),
+  author('Sang Michael Xie and Ananya Kumar and Robert Jones and Fereshte Khani and Tengyu Ma and Percy Liang'),
+  arxiv(2020),
+  extendedVersion,  # Hide for now
+  unusualCapitalization('N'),
+)
+
+entry!('karamcheti2020decomposition',
+  title('Learning Adaptive Language Interfaces through Decomposition'),
+  author('Evan Zheran Liu and Aditi Raghunathan and Percy Liang and Chelsea Finn'),
+  inproceedings('EMNLP Workshop for Interactive and Executable Semantic Parsing (IntEx-SemPar)', 2020),
+  url('https://arxiv.org/pdf/2010.05190.pdf'),
+nil)
+
+entry!('liu2020explore',
+  title('Explore then Execute: Adapting without Rewards via Factorized Meta-Reinforcement Learning'),
+  author('Evan Zheran Liu and Aditi Raghunathan and Percy Liang and Chelsea Finn'),
+  arxiv(2020, '2008.02790'),
+  url('https://arxiv.org/pdf/2008.02790.pdf'),
+nil)
+
+entry!('liu2020learning',
+  title('Learning Abstract Models for Strategic Exploration and Fast Reward Transfer'),
+  author('Evan Zheran Liu and Ramtin Keramati and Sudarshan Seshadri and Kelvin Guu and Panupong Pasupat and Emma Brunskill and Percy Liang'),
+  arxiv(2020, '2007.05896'),
+  url('https://arxiv.org/pdf/2007.05896.pdf'),
+nil)
+
+entry!('mussmann2020pairwise',
+  title('On the Importance of Adaptive Data Collection for Extremely Imbalanced Pairwise Tasks'),
+  author('Stephen Mussmann and Robin Jia and Percy Liang'),
+  emnlpfindings(2020),
+  url('https://arxiv.org/pdf/2010.05103.pdf'),
+  codalab('0x39ba5559790b4099a7ff75f916ce19a4'),
+nil)
+
+entry!('hewitt2020rnn',
+  title('RNNs can generate bounded hierarchical languages with optimal memory'),
+  author('John Hewitt and Michael Hahn and Surya Ganguli and Percy Liang and Christopher D. Manning'),
+  emnlp(2020),
+  url('https://arxiv.org/pdf/2010.07515.pdf'),
+  codalab('0xd668cf62e9e0499089626e45affee864'),
+nil)
+
+entry!('dathathri2020sdp',
+  codalab('0x39ba5559790b4099a7ff75f916ce19a4'),
+  title('Enabling certification of verification-agnostic networks via memory-efficient semidefinite programming'),
+  author('Sumanth Dathathri and Krishnamurthy Dvijotham and Alexey Kurakin and Aditi Raghunathan and Jonathan Uesato and Rudy Bunel and Shreya Shankar and Jacob Steinhardt and Ian Goodfellow and Percy Liang and Pushmeet Kohli'),
+  nips(2020),
+  url('https://arxiv.org/pdf/2010.11645.pdf'),
+nil)
+
+entry!('semanticmachines2020dataflow',
+  title('Task-Oriented Dialogue as Dataflow Synthesis'),
+  author('Semantic Machines and Jacob Andreas and John Bufe and David Burkett and Charles Chen and Josh Clausman and Jean Crawford and Kate Crim and Jordan DeLoach and Leah Dorner and Jason Eisner and Hao Fang and Alan Guo and David Hall and Kristin Hayes and Kellie Hill and Diana Ho and Wendy Iwaszuk and Smriti Jha and Dan Klein and Jayant Krishnamurthy and Theo Lanman and Percy Liang and Christopher H. Lin and Ilya Lintsbakh and Andy McGovern and Aleksandr Nisnevich and Adam Pauls and Dmitrij Petters and Brent Read and Dan Roth and Subhro Roy and Jesse Rusak and Beth Short and Div Slomin and Ben Snyder and Stephon Striplin and Yu Su and Zachary Tellman and Sam Thomson and Andrei Vorobev and Izabela Witoszko and Jason Wolfe and Abby Wray and Yuchen Zhang and Alexander Zotov'),
+  tacl(2020, 8),
+  url('https://arxiv.org/pdf/2009.11423.pdf'),
+nil)
+
 entry!('sagawa2020overparameterization',
   title('An investigation of why overparameterization exacerbates spurious correlations'),
   author('Shiori Sagawa and Aditi Raghunathan and Pang Wei Koh and Percy Liang'),

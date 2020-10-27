@@ -326,4 +326,117 @@ entry!('chen2020selftraining',
   title('Self-Training Avoids Using Spurious Features Under Domain Shift'),
   neurips(2020),
 )
+entry!('blumenstock2015poverty',
+                             author('J. Blumenstock and G. Cadamuro and R. On'),
+  title('Predicting poverty and wealth from
+mobile phone metadata'),
+  science(2015, 350),
+)
+entry!('epsey2015development',
+        author('Jessica Espey and Eric Swanson and Shaida Badiee and Zach Chistensen and Alex Fischer and Marc Levy and Greg Yetman and Alex de Sherbinin and Robert Chen and Yue Qiu and Geoffrey Greenwell and Thilo Klein and and Johannes Jutting and Morten Jerven and Grant Cameron and Ana Milena Aguilar Rivera and Victoriano C. Arias and and Samuel Lantei Mills and Albert Motivans'),
+  title('Data for Development: A Needs Assessment for {SDG} Monitoring and Statistical Capacity Development'),
+  article('Sustainable Development Solutions Network', 2015, nil),
+)
+entry!('noor2008nighttime',
+        author('Abdisalan Noor and Victor Alegana and Peter Gething and Andrew Tatem and Robert Snow'),
+  title('Using remotely sensed night-time light as a proxy for poverty in Africa'),
+  article('Population Health Metrics', 2008, 6),
+)
+entry!('elvidge2009poverty',
+        author('Christopher D. Elvidge and Paul C. Sutton and Tilottama Ghosh and Benjamin T. Tuttle and Kimberly E. Baugh and Budhendra Bhaduri and Edward Bright'),
+  title('A global poverty map derived from satellite data'),
+  article('Computers and Geosciences', 2009, 35),
+)
+entry!('osgood2018mapping',
+        author('Aaron Osgood-Zimmerman and Anoushka I. Millear and Rebecca W. Stubbs and Chloe Shields and Brandon V. Pickering and Lucas Earl and Nicholas Graetz and Damaris K. Kinyoki and Sarah E. Ray and Samir Bhatt and Annie J. Browne and Roy Burstein and Ewan Cameron and Daniel C. Casey and Aniruddha Deshpande and Nancy Fullman and Peter W. Gething and Harry S. Gibson and Nathaniel J. Henry and Mario Herrero and L. Kendall Krause and Ian D. Letourneau and Aubrey J. Levine and Patrick Y. Liu and Joshua Longbottom and Benjamin K. Mayala and Jonathan F. Mosser and Abdisalan M. Noor and David M. Pigott and Ellen G. Piwoz and Puja Rao and Rahul Rawat and Robert C. Reiner and David L. Smith and Daniel J. Weiss and Kirsten E. Wiens and Ali H. Mokdad and Stephen S. Lim and Christopher J. L. Murray and Nicholas J. Kassebaum and Simon I. Hay'),
+  title('Mapping child growth failure in Africa between 2000 and 2015'),
+  article('Nature', 2018, 555),
+)
+entry!('reiner2018mortality',
+        author('Robert C. Reiner and Nicholas Graetz and Daniel C. Casey and Christopher Troeger and Gregory M. Garcia and Jonathan F. Mosser and Aniruddha Deshpande and Scott J. Swartz and  Sarah E. Ray and Brigette F. Blacker and Puja C. Rao and Aaron Osgood-Zimmerman and Roy Burstein and David M. Pigott and Ian M. Davis and Ian D. Letourneau and Lucas Earl and Jennifer M. Ross and Ibrahim A. Khalil and Tamer H. Farag and Oliver J. Brady and Moritz U.G. Kraemer and David L. Smith and Samir Bhatt and Daniel J. Weiss and Peter W. Gething and Nicholas J. Kassebaum and Ali H. Mokdad and Christopher J.L. Murray and Simon I. Hay'),
+  title('Variation in Childhood Diarrheal Morbidity and Mortality in Africa, 2000–2015'),
+  article('New England Journal of Medicine', 2018, 379),
 
+)
+entry!('burke2016mortality',
+        author('Marshall Burke and Sam Heft-Neal and Eran Bendavid'),
+  title('Sources of variation in under-5 mortality across sub-Saharan Africa: a spatial analysis'),
+  article('Lancet Global Health', 2016, 4),
+
+)
+
+entry!('graetz2018education',
+        author('Nicholas Graetz and Joseph Friedman and Aaron Osgood-Zimmerman and Roy Burstein and Molly H. Biehl and Chloe Shields and Jonathan F. Mosser and Daniel C. Casey and Aniruddha Deshpande and Lucas Earl and Robert C. Reiner and Sarah E. Ray and Nancy Fullman and Aubrey J. Levine and Rebecca W. Stubbs and Benjamin K. Mayala and Joshua Longbottom and Annie J. Browne and Samir Bhatt and Daniel J. Weiss and Peter W. Gething and Ali H. Mokdad and Stephen S. Lim and Christopher J. L. Murray and Emmanuela Gakidou and Simon I. Hay'),
+  title('Mapping local variation in educational attainment across Africa'),
+  article('Nature', 2018,555),
+)
+entry!('you2017crop',
+        author('Jiaxuan You and Xiaocheng Li and Melvin Low and David Lobell and Stefano Ermon'),
+  title('Deep {gaussian} process for crop yield prediction based on remote sensing data'),
+  aaai(2017),
+)
+entry!('jean2018ssdkl',
+        author('Neal Jean and Sang Michael Xie and Stefano Ermon'),
+  title('Semi-supervised Deep Kernel Learning: Regression with Unlabeled Data by Minimizing Predictive Variance'),
+  neurips(2018),
+)
+entry!('abelson2014poor',
+               author('Brian Abelson and Kush R. Varshney and Joy Sun'),
+  title('Targeting Direct Cash Transfers to the Extremely Poor'),
+  kdd(2014),
+)
+entry!('hansen2013forest',
+                      author('M. C. Hansen and P. V. Potapov and R. Moore and M. Hancher and S. A. Turubanova and A. Tyukavina and D. Thau and S. V. Stehman and S. J. Goetz and T. R. Loveland and A. Kommareddy and A. Egorov and L. Chini and C. O. Justice and J. R. G. Townshend'),
+  title('High-Resolution Global Maps of 21st-Century Forest Cover Change'),
+  science(2013, 342),
+)
+entry!('tiecke2017population',
+       author('Tobias G. Tiecke and Xianming Liu and Amy Zhang and Andreas Gros and Nan Li and Gregory Yetman and Talip Kilic and Siobhan Murray and Brian Blankespoor and Espen B. Prydz and Hai-Anh H. Dang'),
+  title('Mapping the world population one building at a time'),
+  arxiv(2017),
+)
+entry!('katona2018parking',
+  author('Zsolt Katona and Marcus Painter and Panos N. Patatoukas and Jean Zeng'),
+  title('On the Capital Market Consequences of Alternative Data: Evidence from Outer Space'),
+  article('Miami Behavioral Finance Conference', 2018, nil),
+)
+entry!('christie2018fmow',
+  author('Gordon Christie and Neil Fendley and James Wilson and Ryan Mukherjee'),
+  title('Functional Map of the World'),
+  cvpr(2018),
+)
+entry!('uzkent2020zoom',
+  author('Burak Uzkent and Stefano Ermon'),
+  title('Learning When and Where to Zoom with Deep Reinforcement Learning'),
+  cvpr(2020),
+)
+entry!('kim2016multiresolution',
+  author('Jae Hyun Kim and Michael Xie and Neal Jean and Stefano Ermon'),
+  title('Incorporating Spatial Context and Fine-grained Detail from Satellite Imagery to Predict Poverty'),
+  article('Stanford University', 2016, nil),
+)
+entry!('yang2010landuse',
+  author('Yi Yang and Shawn Newsam'),
+  title('Bag-of-visual-words and spatial extensions for land-use classification'),
+  article('Geographic Information Systems', 2010, nil),
+)
+entry!('wang2017torontocity',
+  author('Shenlong Wang and Min Bai and Gellert Mattyus and Hang Chu and Wenjie Luo and Bin Yang and Justin Liang and Joel Cheverie and Sanja Fidler and Raquel Urtasun'),
+  title('TorontoCity: Seeing the World with a Million Eyes'),
+  iccv(2017)
+)
+entry!('digitalglobe2016spacenet',
+         author('N. DigitalGlobe and CosmiQ Works'),
+  title('SpaceNet'),
+  article('https://aws.amazon.com/publicdatasets/spacenet/', 2016, nil)
+)
+entry!('sahn2003asset',
+                author('David E. Sahn and David Stifel'),
+  title('Exploring Alternative Measures of Welfare in the Absence of Expenditure Data'),
+  article('The Review of Income and Wealth', 2003, 49)
+)
+entry!('filmer2011asset',
+                author('Deon Filmer and Kinnon Scott'),
+  title('Assessing Asset Indices'),
+  article('Demography', 2011, 49)
+)

@@ -1,4 +1,4 @@
-# encoding: utf-8    
+# encoding: utf-8
 
 entry!('blodgett2017racial',
   title('Racial Disparity in Natural Language Processing: A Case Study of Social Media {A}frican-{A}merican {E}nglish'),
@@ -9,38 +9,38 @@ nil)
 entry!('gallego2015online',
   title('Online Resource Allocation with Customer Choice'),
   author('Guillermo Gallego and Anran Li and Van-Anh Truong and Xinshang Wang'),
-  arxiv(2015, '1511.01837'),  
+  arxiv(2015, '1511.01837'),
 nil)
 
 entry!('joseph2017fair',
   title('Fair Algorithms for Infinite and Contextual Bandits'),
   author('Matthew Joseph and Michael Kearns and Jamie Morgenstern and Seth Neel and Aaron Roth'),
-  arxiv(2017, '1610.09559'),   
+  arxiv(2017, '1610.09559'),
 nil)
 
 entry!('jaillet2011online',
   title('Online Resource Allocation Problems'),
   author('Patrick Jaillet and Xin Lu'),
-  mit(2011),   
-nil) 
+  mit(2011),
+nil)
 
 entry!('krishnan2014recommender',
   title('A methodology for learning, analyzing, and mitigating social influence bias in recommender systems'),
   author('Sanjay Krishnan and Jay Patel and Michael Frankling and Ken Goldberg'),
-  recsys(2014),   
-nil) 
+  recsys(2014),
+nil)
 
 entry!('adomavicius2014bias',
   author('Gediminas Adomavicius and Jesse Bockstedt and Shawn Curley and Jingjing Zhang'),
   title('De-Biasing User Preference Ratings in Recommender Systems'),
   article('CEUR Workshop Proceedings', 2014, 1253), pages(2, 9),
-nil) 
+nil)
 
 entry!('priamuthu2012online',
   author('Selwyn Piramuthu and Gaurav Kapoor and Wei Zhou and Sjouke Mauw'),
   title('Input online review data and related bias in recommender systems'),
   article('Decision Support Systems', 2012, 53), pages(418, 424),
-nil) 
+nil)
 
 entry!('sharma2015causal',
   author('Amit Sharma and Jake Hofman and Duncan Watts'),
@@ -58,7 +58,7 @@ nil)
 entry!('yao2017parity',
   title('Beyond Parity:Fairness Objectives for Collaborative Filtering'),
   author('Sirui Yao and Bert Huang'),
-  nips(2017),   
+  nips(2017),
 nil)
 
 entry!('landeiro2016confounder',
@@ -66,12 +66,6 @@ entry!('landeiro2016confounder',
   title('Robust Text Classification in the Presence of Confounding Bias'),
   aaai(2016),
 nil)
-
-entry!('kaushik2019difference',
-  title('Learning the Difference that Makes a Difference with Counterfactually-Augmented Data'),
-  author('Divyansh Kaushik and Eduard Hovy and Zachary C. Lipton'),
-  arxiv(2019, '1909.12434'),
-  nil)
 
 entry!('goel2016stopandfrisk',
   title('Precinct or Prejudice? Understanding Racial Disparities in New York City\'s Stop-and-Frisk Policy'),
@@ -109,7 +103,6 @@ entry!('zech2018radio',
   author('John R. Zech and Marcus A. Badgeley and Manway Liu and Anthony B. Costa and Joseph J. Titano and Eric Karl Oermann'),
   title('Variable generalization performance of a deep learning model to detect pneumonia in chest radiographs: A cross-sectional study'),
   inproceedings('PLOS Medicine', 2018),
-  year(2018),
 nil)
 
 entry!('honein2001accutane',
@@ -181,7 +174,7 @@ entry!('van2015causal',
 entry!('singh2019fair',
   title('Fair Predictors under Distribution Shift'),
   author('Harvineet Singh and Rina Singh and Vishwali Mhasawade and Rumi Chunara'),
-  nips(2019),   
+  nips(2019),
 nil)
 
 entry!('ghassemi2019health',

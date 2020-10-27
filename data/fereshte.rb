@@ -930,3 +930,76 @@ entry!('garg2019counterfactual',
   author('Sahaj Garg and Vincent Perot and Nicole Limtiaco and Ankur Taly and Ed H Chi and Alex Beutel'),
   pages(219, 226),
 nil)
+
+entry!('elhabian2008moving',
+  article('Recent patents on computer science', 2008, 1),
+  title('Moving object detection in spatial domain using background removal techniques-state-of-art'),
+  author('Shireen Y Elhabian and Khaled M El-Sayed and Sumaya H Ahmed'),
+  number(1),
+  pages(32, 54),
+  publisher('Bentham Science Publishers'),
+nil)
+
+entry!('beutel2017data',
+  arxiv(2017, '1707.00075'),
+  title('Data decisions and theoretical implications when adversarially learning fair representations'),
+  author('Alex Beutel and Jilin Chen and Zhe Zhao and Ed H Chi'),
+nil)
+
+entry!('zhao2019inherent',
+  nips(2019),
+  title('Inherent Tradeoffs in Learning Fair Representations'),
+  author('H. Zhao and Geoff Gordon'),
+nil)
+
+entry!('dutta2020ista',
+  icml(2020),
+  title('Is There a Trade-Off Between Fairness and Accuracy? A Perspective Using Mismatched Hypothesis Testing'),
+  author('Sanghamitra Dutta and Dennis Wei and Hazar Yueksel and Pin-Yu Chen and Sijia Liu and Kush R. Varshney'),
+nil)
+
+entry!('madras2018learning',
+  arxiv(2018, '1802.06309'),
+  title('Learning adversarially fair and transferable representations'),
+  author('David Madras and Elliot Creager and Toniann Pitassi and Richard Zemel'),
+nil)
+
+
+entry!('creager2019flexibly',
+  arxiv(2019, '1906.02589'),
+  title('Flexibly fair representation learning by disentanglement'),
+  author('Elliot Creager and David Madras and J{\"o}rn-Henrik Jacobsen and Marissa A Weis and Kevin Swersky and Toniann Pitassi and Richard Zemel'),
+nil)
+
+entry!('mcnamara2017provably',
+  arxiv(2017, '1710.04394'),
+  title('Provably fair representations'),
+  author('Daniel McNamara and Cheng Soon Ong and Robert C Williamson'),
+nil)
+
+entry!('sun2019mitigating',
+  arxiv(2019, '1906.08976'),
+  title('Mitigating gender bias in natural language processing: Literature review'),
+  author('Tony Sun and Andrew Gaut and Shirlyn Tang and Yuxin Huang and Mai ElSherief and Jieyu Zhao and Diba Mirza and Elizabeth Belding and Kai-Wei Chang and William Yang Wang'),
+nil)
+
+entry!('zhao2018learning',
+  arxiv(2018, '1809.01496'),
+  title('Learning gender-neutral word embeddings'),
+  author('Jieyu Zhao and Yichao Zhou and Zeyu Li and Wei Wang and Kai-Wei Chang'),
+nil)
+
+entry!('quadrianto2019discovering',
+  cvpr(2019),
+  title('Discovering fair representations in the data domain'),
+  author('Novi Quadrianto and Viktoriia Sharmanska and Oliver Thomas'),
+  pages(8227, 8236),
+nil)
+
+entry!('gunasekar2017implicit',
+  nips(2017),
+  title('Implicit regularization in matrix factorization'),
+  author('Suriya Gunasekar and Blake E Woodworth and Srinadh Bhojanapalli and Behnam Neyshabur and Nati Srebro'),
+  pages(6151, 6159),
+nil)
+
