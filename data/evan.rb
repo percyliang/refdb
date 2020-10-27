@@ -739,22 +739,10 @@ entry!('houthooft2018evolved',
   pages(5400, 5409),
 nil)
 
-entry!('liu2020learning',
-  arxiv(2020, '2007.05896'),
-  title('Learning Abstract Models for Strategic Exploration and Fast Reward Transfer'),
-  author('Evan Zheran Liu and Ramtin Keramati and Sudarshan Seshadri and Kelvin Guu and Panupong Pasupat and Emma Brunskill and Percy Liang'),
-nil)
-
 entry!('liu2020imitation',
   arxiv(2020, '2006.16239'),
   title('An Imitation Learning Approach for Cache Replacement'),
   author('Evan Zheran Liu and Milad Hashemi and Kevin Swersky and Parthasarathy Ranganathan and Junwhan Ahn'),
-nil)
-
-entry!('liu2020explore',
-  arxiv(2020, '2008.02790'),
-  title('Explore then Execute: Adapting without Rewards via Factorized Meta-Reinforcement Learning'),
-  author('Evan Zheran Liu and Aditi Raghunathan and Percy Liang and Chelsea Finn'),
 nil)
 
 entry!('rieger2019interpretations',

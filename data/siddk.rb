@@ -118,12 +118,6 @@ entry!('weigelt2020programmingfuse',
 nil)
 
 
-entry!('mussman2020pairwise',
-  emnlpfindings(2020),
-  title('On the Importance of Adaptive Data Collection for Extremely Imbalanced Pairwise Tasks'),
-  author('Stephen Mussman and Robin Jia and Percy Liang'),
-nil)
-
 entry!('damen2018kitchens',
   eccv(2018),
   title('Scaling Egocentric Vision: The {EPIC}-{KITCHENS} Dataset'),
