@@ -768,3 +768,10 @@ entry!('goel2020model',
   title('Model Patching: Closing the Subgroup Performance Gap with Data Augmentation'),
   author('Karan Goel and Albert Gu and Yixuan Li and Christopher R{\\\'e}'),
 nil)
+
+entry!('cidon2016cliffhanger',
+  inproceedings('13th $\{$USENIX$\}$ Symposium on Networked Systems Design and Implementation ($\{$NSDI$\}$ 16)', 2016),
+  title('Cliffhanger: Scaling performance cliffs in web memory caches'),
+  author('Asaf Cidon and Assaf Eisenman and Mohammad Alizadeh and Sachin Katti'),
+  pages(379, 392),
+nil)
