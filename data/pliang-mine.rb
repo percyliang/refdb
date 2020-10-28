@@ -1,12 +1,26 @@
 ############################################################
 # 2020
 
+entry!('jones2020selective',
+  title('Selective Classification Can Magnify Disparities Across Groups'),
+  author('Erik Jones and Shiori Sagawa and Pang Wei Koh and Ananya Kumar and Percy Liang'),
+  arxiv(2020),
+  url('https://arxiv.org/pdf/2010.14134.pdf'),
+)
+
 entry!('xie2020innout',
   title('In-{N}-Out: Pre-Training and Self-Training using Auxiliary Information for Out-of-Distribution Robustness'),
   author('Sang Michael Xie and Ananya Kumar and Robert Jones and Fereshte Khani and Tengyu Ma and Percy Liang'),
   arxiv(2020),
   extendedVersion,  # Hide for now
   unusualCapitalization('N'),
+)
+
+entry!('xie2020outputs',
+  title('Simplifying Models with Unlabeled Output Data'),
+  author('Sang Michael Xie and Tengyu Ma and Percy Liang'),
+  arxiv(2020),
+  url('https://arxiv.org/pdf/2006.16205.pdf'),
 )
 
 entry!('karamcheti2020decomposition',
