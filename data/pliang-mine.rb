@@ -25,7 +25,7 @@ entry!('xie2020outputs',
 
 entry!('karamcheti2020decomposition',
   title('Learning Adaptive Language Interfaces through Decomposition'),
-  author('Evan Zheran Liu and Aditi Raghunathan and Percy Liang and Chelsea Finn'),
+  author('Sidd Karamcheti and Dorsa Sadigh and Percy Liang'),
   inproceedings('EMNLP Workshop for Interactive and Executable Semantic Parsing (IntEx-SemPar)', 2020),
   url('https://arxiv.org/pdf/2010.05190.pdf'),
 nil)
