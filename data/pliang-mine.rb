@@ -1,19 +1,33 @@
 ############################################################
 # 2020
 
+entry!('koh2020wilds',
+  title('{WILDS}: A Survey and Benchmark of in-the-Wild Distribution Shifts'),
+  author('Pang Wei Koh* and Shiori Sagawa* and Michael Xie and Henrik Marklund and Marvin Zhang and Akshay Balsubramani and Richard Lanas Phillips and Sara Beery and Anshul Kundaje and Emma Pierson and Sergey Levine and Chelsea Finn and Percy Liang'),
+  arxiv(2020),
+  extendedVersion,  # Hide for now
+)
+
 entry!('jones2020selective',
   title('Selective Classification Can Magnify Disparities Across Groups'),
-  author('Erik Jones and Shiori Sagawa and Pang Wei Koh and Ananya Kumar and Percy Liang'),
+  author('Erik Jones* and Shiori Sagawa* and Pang Wei Koh* and Ananya Kumar and Percy Liang'),
   arxiv(2020),
   url('https://arxiv.org/pdf/2010.14134.pdf'),
 )
 
 entry!('xie2020innout',
   title('In-{N}-Out: Pre-Training and Self-Training using Auxiliary Information for Out-of-Distribution Robustness'),
-  author('Sang Michael Xie and Ananya Kumar and Robert Jones and Fereshte Khani and Tengyu Ma and Percy Liang'),
+  author('Sang Michael Xie* and Ananya Kumar* and Robert Jones* and Fereshte Khani and Tengyu Ma and Percy Liang'),
   arxiv(2020),
   extendedVersion,  # Hide for now
   unusualCapitalization('N'),
+)
+
+entry!('khani2020removing',
+  title('Removing Spurious Features can Hurt Accuracy and Affect Groups Disproportionately'),
+  author('Fereshte Khani and Percy Liang'),
+  arxiv(2020),
+  extendedVersion,  # Hide for now
 )
 
 entry!('xie2020outputs',
@@ -46,7 +60,7 @@ nil)
 
 entry!('mussmann2020pairwise',
   title('On the Importance of Adaptive Data Collection for Extremely Imbalanced Pairwise Tasks'),
-  author('Stephen Mussmann and Robin Jia and Percy Liang'),
+  author('Stephen Mussmann* and Robin Jia* and Percy Liang'),
   emnlpfindings(2020),
   url('https://arxiv.org/pdf/2010.05103.pdf'),
   codalab('0x39ba5559790b4099a7ff75f916ce19a4'),
@@ -63,7 +77,7 @@ nil)
 entry!('dathathri2020sdp',
   codalab('0x39ba5559790b4099a7ff75f916ce19a4'),
   title('Enabling certification of verification-agnostic networks via memory-efficient semidefinite programming'),
-  author('Sumanth Dathathri and Krishnamurthy Dvijotham and Alexey Kurakin and Aditi Raghunathan and Jonathan Uesato and Rudy Bunel and Shreya Shankar and Jacob Steinhardt and Ian Goodfellow and Percy Liang and Pushmeet Kohli'),
+  author('Sumanth Dathathri* and Krishnamurthy Dvijotham* and Alexey Kurakin* and Aditi Raghunathan* and Jonathan Uesato* and Rudy Bunel and Shreya Shankar and Jacob Steinhardt and Ian Goodfellow and Percy Liang and Pushmeet Kohli'),
   nips(2020),
   url('https://arxiv.org/pdf/2010.11645.pdf'),
 nil)
@@ -77,14 +91,14 @@ nil)
 
 entry!('sagawa2020overparameterization',
   title('An investigation of why overparameterization exacerbates spurious correlations'),
-  author('Shiori Sagawa and Aditi Raghunathan and Pang Wei Koh and Percy Liang'),
+  author('Shiori Sagawa* and Aditi Raghunathan* and Pang Wei Koh* and Percy Liang'),
   icml(2020),
   url('https://arxiv.org/pdf/2005.04345.pdf'),
 nil)
 
 entry!('koh2020bottleneck',
   title('Concept Bottleneck Models'),
-  author('Pang Wei Koh and Thao Nguyen and Yew Siang Tang and Stephen Mussmann and Emma Pierson and Been Kim and Percy Liang'),
+  author('Pang Wei Koh* and Thao Nguyen* and Yew Siang Tang* and Stephen Mussmann and Emma Pierson and Been Kim and Percy Liang'),
   icml(2020),
   url('https://arxiv.org/pdf/2007.04612.pdf'),
   codalab('0x362911581fcd4e048ddfd84f47203fd2'),
@@ -108,7 +122,7 @@ nil)
 
 entry!('raghunathan2020understanding',
   title('Understanding and Mitigating the Tradeoff Between Robustness and Accuracy'),
-  author('Aditi Raghunathan and Sang Michael Xie and Fanny Yang and John C. Duchi and Percy Liang'),
+  author('Aditi Raghunathan* and Sang Michael Xie* and Fanny Yang and John C. Duchi and Percy Liang'),
   icml(2020),
   url('https://arxiv.org/pdf/2002.10716.pdf'),
 nil)
@@ -130,7 +144,7 @@ nil)
 
 entry!('jones2020roben',
   title('Robust Encodings: A Framework for Combating Adversarial Typos'),
-  author('Erik Jones and Robin Jia and Aditi Raghunathan and Percy Liang'),
+  author('Erik Jones and Robin Jia* and Aditi Raghunathan* and Percy Liang'),
   acl(2020),
   url('https://arxiv.org/pdf/2005.01229.pdf'),
   codalab('0x8fc01c7fc2b742fdb29c05669f0ad7d2'),
@@ -172,7 +186,7 @@ nil)
 
 entry!('sagawa2020group',
   title('Distributionally Robust Neural Networks for Group Shifts: On the Importance of Regularization for Worst-Case Generalization'),
-  author('Shiori Sagawa and Pang Wei Koh and Tatsunori B. Hashimoto and Percy Liang'),
+  author('Shiori Sagawa* and Pang Wei Koh* and Tatsunori B. Hashimoto and Percy Liang'),
   iclr(2020),
   url('https://arxiv.org/pdf/1911.08731.pdf'),
 nil)
@@ -211,7 +225,7 @@ nil)
 
 entry!('oren2019drolm',
   title('Distributionally Robust Language Modeling'),
-  author('Yonatan Oren and Shiori Sagawa and Tatsunori Hashimoto and Percy Liang'),
+  author('Yonatan Oren* and Shiori Sagawa* and Tatsunori Hashimoto* and Percy Liang'),
   emnlp(2019),
   url('https://arxiv.org/pdf/1909.02060.pdf'),
   codalab('0xf8122ebd24e94209a2a1764007509098'),
@@ -236,7 +250,7 @@ nil)
 
 entry!('carmon2019unlabeled',
   title('Unlabeled Data Improves Adversarial Robustness'),
-  author('Yair Carmon and Aditi Raghunathan and Ludwig Schmidt and Percy Liang and John C. Duchi'),
+  author('Yair Carmon* and Aditi Raghunathan* and Ludwig Schmidt and Percy Liang and John C. Duchi'),
   nips(2019),
   url('https://arxiv.org/pdf/1905.13736.pdf'),
   codalab('0x9df253b24dac4a2b930108be9c6e5496'),
@@ -252,7 +266,7 @@ nil)
 
 entry!('koh2019influence',
   title('On the Accuracy of Influence Functions for Measuring Group Effects'),
-  author('Pang Wei Koh and Kai-Siang Ang and Hubert H. K. Teo and Percy Liang'),
+  author('Pang Wei Koh* and Kai-Siang Ang* and Hubert H. K. Teo* and Percy Liang'),
   nips(2019),
   url('https://arxiv.org/pdf/1905.13289.pdf'),
   codalab('0x43e8ecea53bf4186a7992c9028409320'),
@@ -267,7 +281,7 @@ nil)
 
 entry!('raghunathan2019hurt',
   title('Adversarial Training Can Hurt Generalization'),
-  author('Aditi Raghunathan and Sang Michael Xie and Fanny Yang and John C. Duchi and Percy Liang'),
+  author('Aditi Raghunathan* and Sang Michael Xie* and Fanny Yang and John C. Duchi and Percy Liang'),
   arxiv(2019, '1906.06032'),
   url('https://arxiv.org/pdf/1906.06032.pdf'),
 nil)
@@ -289,7 +303,7 @@ nil)
 
 entry!('hashimoto2019huse',
   title('Unifying Human and Statistical Evaluation for Natural Language Generation'),
-  author('Tatsu Hashimoto and Hugh Zhang and Percy Liang'),
+  author('Tatsu Hashimoto* and Hugh Zhang* and Percy Liang'),
   naacl(2019),
   url('https://arxiv.org/pdf/1904.02792.pdf'),
   codalab('0x88644b5ee189402eb19d39d721d1005c'),
@@ -297,7 +311,7 @@ nil)
 
 entry!('peng2019pun',
   title('Pun Generation with Surprise'),
-  author('Nanyun Peng and He He and Percy Liang'),
+  author('Nanyun Peng* and He He* and Percy Liang'),
   naacl(2019),
   url('https://arxiv.org/pdf/1904.06828.pdf'),
   codalab('0x5a7d0fe35b144ad68998d74891a31ed6'),
@@ -305,9 +319,9 @@ nil)
 
 entry!('koh2019stronger',
   title('Stronger Data Poisoning Attacks Break Data Sanitization Defenses'),
-  author('Pang Wei Koh and Jacob Steinhardt and Percy Liang'),
+  author('Pang Wei Koh* and Jacob Steinhardt* and Percy Liang'),
   arxiv(2019, '1811.00741'),
-  #url('https://arxiv.org/pdf/1811.00741.pdf'),
+  url('https://arxiv.org/pdf/1811.00741.pdf'),
 nil)
 
 entry!('selsam2019sat',
