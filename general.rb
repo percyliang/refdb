@@ -367,7 +367,7 @@ def printJs(entries, short, outPath)
     }
   }
   out = open(outPath, 'w')
-  out.puts "const bibEntries = " + JSON.generate(data)
+  out.puts "G.bibEntries = " + JSON.generate(data)
   out.close
 end
 
