@@ -67,7 +67,7 @@ entry!('mussmann2020pairwise',
 nil)
 
 entry!('hewitt2020rnn',
-  title('RNNs can generate bounded hierarchical languages with optimal memory'),
+  title('{RNN}s can generate bounded hierarchical languages with optimal memory'),
   author('John Hewitt and Michael Hahn and Surya Ganguli and Percy Liang and Christopher D. Manning'),
   emnlp(2020),
   url('https://arxiv.org/pdf/2010.07515.pdf'),
