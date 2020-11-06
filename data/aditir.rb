@@ -551,3 +551,19 @@ entry!('xie2020adversarial',
   author('Cihang Xie and Mingxing Tan and Boqing Gong and Jiang Wang and Alan L Yuille and Quoc V Le'),
   pages(819, 828),
 nil)
+
+
+
+entry!('stallkamp2011german',
+  inproceedings('The 2011 international joint conference on neural networks', 2011),
+  title('The German traffic sign recognition benchmark: a multi-class classification competition'),
+  author('Johannes Stallkamp and Marc Schlipsing and Jan Salmen and Christian Igel'),
+  pages(1453, 1460),
+  organization('IEEE'),
+nil)
+
+entry!('shankar2019image',
+  arxiv(2019, '1906.02168'),
+  title('Do Image Classifiers Generalize Across Time?'),
+  author('Vaishaal Shankar and Achal Dave and Rebecca Roelofs and Deva Ramanan and Benjamin Recht and Ludwig Schmidt'),
+nil)
