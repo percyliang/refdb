@@ -1,6 +1,8 @@
 # encoding: UTF-8
 $: << File.dirname(__FILE__)
 
+require 'json'
+
 # General utilities for constructing bib entries and outputting BibTeX, HTML, plain text, etc.
 # Each bibliography entry has the following fields:
 # identifier, type, author, title, year, volume, pages, tags, etc.
@@ -140,12 +142,13 @@ class Entry
   def toBibtex(verbose)
     fields = ['author', 'title', 'year', 'volume', 'number', 'pages', 'booktitle', 'journal', 'institution', 'school', 'howpublished', 'edition']
     fields += ['publisher'] if type == 'book'
+    fields += ['url'] if getFirst('isUrlVisible')
     fields += ['publisher', 'address', 'location'] if verbose == 2
 
     ["@#{type}{#{id},"] + @fieldsMap.map { |name,values|
       values = values.map { |value|
         if value.class == Author
-          value.to_short_s
+          value.to_short_s.gsub(/\*/, '')  # Remove stars (for joint first-authorship)
         elsif value.class == Name
           verbose == 0 ? value.to_short_s : value.to_full_s
         else
@@ -185,7 +188,7 @@ class Entry
     #newline = '<br>'  # Put title, author, venues on separate lines
 
     # Gray out things which are not published
-    isPub = getFirst('journal') !~ /^arXiv/
+    isPub = getFirst('journal').to_s !~ /^arXiv/
     pubWrap = lambda { |s|
       isPub ? s : color(s, 'gray')
     }
@@ -323,6 +326,7 @@ def titleHash(x);       field('titleHash', x)         end
 # Don't add these words to the set of generally capitalized words
 def unusualCapitalization(*x); field('unusualCapitalization', *x) end
 def extendedVersion(x=true); field('extendedVersion', x) end
+def isUrlVisible(x=true); field('isUrlVisible', x) end
 
 def entry(id, *args); Entry.new([id(id)] + args.flatten.compact) end
 
@@ -348,6 +352,22 @@ def printText(entries, short, outPath)
   entries.each { |entry|
     out.puts entry.id + "\t" + entry.cite + "\t" + entry.toText(short)
   }
+  out.close
+end
+
+def printJs(entries, short, outPath)
+  data = {}
+  entries.each { |entry|
+    data[entry.id] = {
+      'cite': entry.cite,
+      'title': entry.title,
+      'author': entry.author.names,
+      'url': entry.getFirst('url'),
+      'text': entry.toText(short),
+    }
+  }
+  out = open(outPath, 'w')
+  out.puts "G.bibEntries = " + JSON.generate(data)
   out.close
 end
 

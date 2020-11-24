@@ -713,3 +713,60 @@ entry!('badia2020never',
   title('Never Give Up: Learning Directed Exploration Strategies'),
   author('Adri{\`a} Puigdom{\`e}nech Badia and Pablo Sprechmann and Alex Vitvitskyi and Daniel Guo and Bilal Piot and Steven Kapturowski and Olivier Tieleman and Mart{\'\i}n Arjovsky and Alexander Pritzel and Andew Bolt and others'),
 nil)
+
+entry!('zhang2020learn',
+  arxiv(2020, '2006.08170'),
+  title('Learn to Effectively Explore in Context-Based Meta-{RL}'),
+  author('Jin Zhang and Jianhao Wang and Hao Hu and Yingfeng Chen and Changjie Fan and Chongjie Zhang'),
+nil)
+
+entry!('dorfman2020offline',
+  arxiv(2020, '2008.02598'),
+  title('Offline Meta Reinforcement Learning'),
+  author('Ron Dorfman and Aviv Tamar'),
+nil)
+
+entry!('hiraoka2020meta',
+  arxiv(2020, '2006.02608'),
+  title('Meta-Model-Based Meta-Policy Optimization'),
+  author('Takuya Hiraoka and Takahisa Imagawa and Voot Tangkaratt and Takayuki Osa and Takashi Onishi and Yoshimasa Tsuruoka'),
+nil)
+
+entry!('houthooft2018evolved',
+  nips(2018),
+  title('Evolved policy gradients'),
+  author('Rein Houthooft and Yuhua Chen and Phillip Isola and Bradly Stadie and Filip Wolski and OpenAI Jonathan Ho and Pieter Abbeel'),
+  pages(5400, 5409),
+nil)
+
+entry!('liu2020imitation',
+  arxiv(2020, '2006.16239'),
+  title('An Imitation Learning Approach for Cache Replacement'),
+  author('Evan Zheran Liu and Milad Hashemi and Kevin Swersky and Parthasarathy Ranganathan and Junwhan Ahn'),
+nil)
+
+entry!('rieger2019interpretations',
+  arxiv(2019, '1909.13584'),
+  title('Interpretations are useful: penalizing explanations to align neural networks with prior knowledge'),
+  author('Laura Rieger and Chandan Singh and W James Murdoch and Bin Yu'),
+nil)
+
+entry!('goel2020model',
+  arxiv(2020, '2008.06775'),
+  title('Model Patching: Closing the Subgroup Performance Gap with Data Augmentation'),
+  author('Karan Goel and Albert Gu and Yixuan Li and Christopher R{\\\'e}'),
+nil)
+
+entry!('cidon2016cliffhanger',
+  inproceedings('13th $\{$USENIX$\}$ Symposium on Networked Systems Design and Implementation ($\{$NSDI$\}$ 16)', 2016),
+  title('Cliffhanger: Scaling performance cliffs in web memory caches'),
+  author('Asaf Cidon and Assaf Eisenman and Mohammad Alizadeh and Sachin Katti'),
+  pages(379, 392),
+nil)
+
+entry!('leibfried2019unified',
+  neurips(2019),
+  title('A unified bellman optimality principle combining reward maximization and empowerment'),
+  author('Felix Leibfried and Sergio Pascual-Diaz and Jordi Grau-Moya'),
+  pages(7869, 7880),
+nil)

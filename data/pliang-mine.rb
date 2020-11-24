@@ -1,16 +1,104 @@
 ############################################################
 # 2020
 
+entry!('koh2020wilds',
+  title('{WILDS}: A Survey and Benchmark of in-the-Wild Distribution Shifts'),
+  author('Pang Wei Koh* and Shiori Sagawa* and Michael Xie and Henrik Marklund and Marvin Zhang and Akshay Balsubramani and Richard Lanas Phillips and Sara Beery and Anshul Kundaje and Emma Pierson and Sergey Levine and Chelsea Finn and Percy Liang'),
+  arxiv(2020),
+  extendedVersion,  # Hide for now
+)
+
+entry!('jones2020selective',
+  title('Selective Classification Can Magnify Disparities Across Groups'),
+  author('Erik Jones* and Shiori Sagawa* and Pang Wei Koh* and Ananya Kumar and Percy Liang'),
+  arxiv(2020),
+  url('https://arxiv.org/pdf/2010.14134.pdf'),
+)
+
+entry!('xie2020innout',
+  title('In-{N}-Out: Pre-Training and Self-Training using Auxiliary Information for Out-of-Distribution Robustness'),
+  author('Sang Michael Xie* and Ananya Kumar* and Robert Jones* and Fereshte Khani and Tengyu Ma and Percy Liang'),
+  arxiv(2020),
+  extendedVersion,  # Hide for now
+  unusualCapitalization('N'),
+)
+
+entry!('khani2020removing',
+  title('Removing Spurious Features can Hurt Accuracy and Affect Groups Disproportionately'),
+  author('Fereshte Khani and Percy Liang'),
+  arxiv(2020),
+  extendedVersion,  # Hide for now
+)
+
+entry!('xie2020outputs',
+  title('Simplifying Models with Unlabeled Output Data'),
+  author('Sang Michael Xie and Tengyu Ma and Percy Liang'),
+  arxiv(2020),
+  url('https://arxiv.org/pdf/2006.16205.pdf'),
+)
+
+entry!('karamcheti2020decomposition',
+  title('Learning Adaptive Language Interfaces through Decomposition'),
+  author('Sidd Karamcheti and Dorsa Sadigh and Percy Liang'),
+  inproceedings('EMNLP Workshop for Interactive and Executable Semantic Parsing (IntEx-SemPar)', 2020),
+  url('https://arxiv.org/pdf/2010.05190.pdf'),
+nil)
+
+entry!('liu2020explore',
+  title('Explore then Execute: Adapting without Rewards via Factorized Meta-Reinforcement Learning'),
+  author('Evan Zheran Liu and Aditi Raghunathan and Percy Liang and Chelsea Finn'),
+  arxiv(2020, '2008.02790'),
+  url('https://arxiv.org/pdf/2008.02790.pdf'),
+nil)
+
+entry!('liu2020learning',
+  title('Learning Abstract Models for Strategic Exploration and Fast Reward Transfer'),
+  author('Evan Zheran Liu and Ramtin Keramati and Sudarshan Seshadri and Kelvin Guu and Panupong Pasupat and Emma Brunskill and Percy Liang'),
+  arxiv(2020, '2007.05896'),
+  url('https://arxiv.org/pdf/2007.05896.pdf'),
+nil)
+
+entry!('mussmann2020pairwise',
+  title('On the Importance of Adaptive Data Collection for Extremely Imbalanced Pairwise Tasks'),
+  author('Stephen Mussmann* and Robin Jia* and Percy Liang'),
+  emnlpfindings(2020),
+  url('https://arxiv.org/pdf/2010.05103.pdf'),
+  codalab('0x39ba5559790b4099a7ff75f916ce19a4'),
+nil)
+
+entry!('hewitt2020rnn',
+  title('{RNN}s can generate bounded hierarchical languages with optimal memory'),
+  author('John Hewitt and Michael Hahn and Surya Ganguli and Percy Liang and Christopher D. Manning'),
+  emnlp(2020),
+  url('https://arxiv.org/pdf/2010.07515.pdf'),
+  codalab('0xd668cf62e9e0499089626e45affee864'),
+nil)
+
+entry!('dathathri2020sdp',
+  codalab('0x39ba5559790b4099a7ff75f916ce19a4'),
+  title('Enabling certification of verification-agnostic networks via memory-efficient semidefinite programming'),
+  author('Sumanth Dathathri* and Krishnamurthy Dvijotham* and Alexey Kurakin* and Aditi Raghunathan* and Jonathan Uesato* and Rudy Bunel and Shreya Shankar and Jacob Steinhardt and Ian Goodfellow and Percy Liang and Pushmeet Kohli'),
+  nips(2020),
+  url('https://arxiv.org/pdf/2010.11645.pdf'),
+nil)
+
+entry!('semanticmachines2020dataflow',
+  title('Task-Oriented Dialogue as Dataflow Synthesis'),
+  author('Semantic Machines and Jacob Andreas and John Bufe and David Burkett and Charles Chen and Josh Clausman and Jean Crawford and Kate Crim and Jordan DeLoach and Leah Dorner and Jason Eisner and Hao Fang and Alan Guo and David Hall and Kristin Hayes and Kellie Hill and Diana Ho and Wendy Iwaszuk and Smriti Jha and Dan Klein and Jayant Krishnamurthy and Theo Lanman and Percy Liang and Christopher H. Lin and Ilya Lintsbakh and Andy McGovern and Aleksandr Nisnevich and Adam Pauls and Dmitrij Petters and Brent Read and Dan Roth and Subhro Roy and Jesse Rusak and Beth Short and Div Slomin and Ben Snyder and Stephon Striplin and Yu Su and Zachary Tellman and Sam Thomson and Andrei Vorobev and Izabela Witoszko and Jason Wolfe and Abby Wray and Yuchen Zhang and Alexander Zotov'),
+  tacl(2020, 8),
+  url('https://arxiv.org/pdf/2009.11423.pdf'),
+nil)
+
 entry!('sagawa2020overparameterization',
   title('An investigation of why overparameterization exacerbates spurious correlations'),
-  author('Shiori Sagawa and Aditi Raghunathan and Pang Wei Koh and Percy Liang'),
+  author('Shiori Sagawa* and Aditi Raghunathan* and Pang Wei Koh* and Percy Liang'),
   icml(2020),
   url('https://arxiv.org/pdf/2005.04345.pdf'),
 nil)
 
 entry!('koh2020bottleneck',
   title('Concept Bottleneck Models'),
-  author('Pang Wei Koh and Thao Nguyen and Yew Siang Tang and Stephen Mussmann and Emma Pierson and Been Kim and Percy Liang'),
+  author('Pang Wei Koh* and Thao Nguyen* and Yew Siang Tang* and Stephen Mussmann and Emma Pierson and Been Kim and Percy Liang'),
   icml(2020),
   url('https://arxiv.org/pdf/2007.04612.pdf'),
   codalab('0x362911581fcd4e048ddfd84f47203fd2'),
@@ -34,7 +122,7 @@ nil)
 
 entry!('raghunathan2020understanding',
   title('Understanding and Mitigating the Tradeoff Between Robustness and Accuracy'),
-  author('Aditi Raghunathan and Sang Michael Xie and Fanny Yang and John C. Duchi and Percy Liang'),
+  author('Aditi Raghunathan* and Sang Michael Xie* and Fanny Yang and John C. Duchi and Percy Liang'),
   icml(2020),
   url('https://arxiv.org/pdf/2002.10716.pdf'),
 nil)
@@ -56,7 +144,7 @@ nil)
 
 entry!('jones2020roben',
   title('Robust Encodings: A Framework for Combating Adversarial Typos'),
-  author('Erik Jones and Robin Jia and Aditi Raghunathan and Percy Liang'),
+  author('Erik Jones and Robin Jia* and Aditi Raghunathan* and Percy Liang'),
   acl(2020),
   url('https://arxiv.org/pdf/2005.01229.pdf'),
   codalab('0x8fc01c7fc2b742fdb29c05669f0ad7d2'),
@@ -98,7 +186,7 @@ nil)
 
 entry!('sagawa2020group',
   title('Distributionally Robust Neural Networks for Group Shifts: On the Importance of Regularization for Worst-Case Generalization'),
-  author('Shiori Sagawa and Pang Wei Koh and Tatsunori B. Hashimoto and Percy Liang'),
+  author('Shiori Sagawa* and Pang Wei Koh* and Tatsunori B. Hashimoto and Percy Liang'),
   iclr(2020),
   url('https://arxiv.org/pdf/1911.08731.pdf'),
 nil)
@@ -129,7 +217,7 @@ nil)
 
 entry!('jia2019certified',
   title('Certified Robustness to Adversarial Word Substitutions'),
-  author('Robin Jia and Aditi Raghunathan and Kerem Göksel and Percy Liang'),
+  author('Robin Jia and Aditi Raghunathan and Kerem G{\"o}ksel and Percy Liang'),
   emnlp(2019),
   url('https://arxiv.org/pdf/1909.00986.pdf'),
   codalab('0x79feda5f1998497db75422eca8fcd689'),
@@ -137,7 +225,7 @@ nil)
 
 entry!('oren2019drolm',
   title('Distributionally Robust Language Modeling'),
-  author('Yonatan Oren and Shiori Sagawa and Tatsunori Hashimoto and Percy Liang'),
+  author('Yonatan Oren* and Shiori Sagawa* and Tatsunori Hashimoto* and Percy Liang'),
   emnlp(2019),
   url('https://arxiv.org/pdf/1909.02060.pdf'),
   codalab('0xf8122ebd24e94209a2a1764007509098'),
@@ -162,7 +250,7 @@ nil)
 
 entry!('carmon2019unlabeled',
   title('Unlabeled Data Improves Adversarial Robustness'),
-  author('Yair Carmon and Aditi Raghunathan and Ludwig Schmidt and Percy Liang and John C. Duchi'),
+  author('Yair Carmon* and Aditi Raghunathan* and Ludwig Schmidt and Percy Liang and John C. Duchi'),
   nips(2019),
   url('https://arxiv.org/pdf/1905.13736.pdf'),
   codalab('0x9df253b24dac4a2b930108be9c6e5496'),
@@ -178,7 +266,7 @@ nil)
 
 entry!('koh2019influence',
   title('On the Accuracy of Influence Functions for Measuring Group Effects'),
-  author('Pang Wei Koh and Kai-Siang Ang and Hubert H. K. Teo and Percy Liang'),
+  author('Pang Wei Koh* and Kai-Siang Ang* and Hubert H. K. Teo* and Percy Liang'),
   nips(2019),
   url('https://arxiv.org/pdf/1905.13289.pdf'),
   codalab('0x43e8ecea53bf4186a7992c9028409320'),
@@ -193,7 +281,7 @@ nil)
 
 entry!('raghunathan2019hurt',
   title('Adversarial Training Can Hurt Generalization'),
-  author('Aditi Raghunathan and Sang Michael Xie and Fanny Yang and John C. Duchi and Percy Liang'),
+  author('Aditi Raghunathan* and Sang Michael Xie* and Fanny Yang and John C. Duchi and Percy Liang'),
   arxiv(2019, '1906.06032'),
   url('https://arxiv.org/pdf/1906.06032.pdf'),
 nil)
@@ -215,7 +303,7 @@ nil)
 
 entry!('hashimoto2019huse',
   title('Unifying Human and Statistical Evaluation for Natural Language Generation'),
-  author('Tatsu Hashimoto and Hugh Zhang and Percy Liang'),
+  author('Tatsu Hashimoto* and Hugh Zhang* and Percy Liang'),
   naacl(2019),
   url('https://arxiv.org/pdf/1904.02792.pdf'),
   codalab('0x88644b5ee189402eb19d39d721d1005c'),
@@ -223,7 +311,7 @@ nil)
 
 entry!('peng2019pun',
   title('Pun Generation with Surprise'),
-  author('Nanyun Peng and He He and Percy Liang'),
+  author('Nanyun Peng* and He He* and Percy Liang'),
   naacl(2019),
   url('https://arxiv.org/pdf/1904.06828.pdf'),
   codalab('0x5a7d0fe35b144ad68998d74891a31ed6'),
@@ -231,9 +319,9 @@ nil)
 
 entry!('koh2019stronger',
   title('Stronger Data Poisoning Attacks Break Data Sanitization Defenses'),
-  author('Pang Wei Koh and Jacob Steinhardt and Percy Liang'),
+  author('Pang Wei Koh* and Jacob Steinhardt* and Percy Liang'),
   arxiv(2019, '1811.00741'),
-  #url('https://arxiv.org/pdf/1811.00741.pdf'),
+  url('https://arxiv.org/pdf/1811.00741.pdf'),
 nil)
 
 entry!('selsam2019sat',
@@ -293,7 +381,7 @@ entry!('hashimoto2018edit',
 nil)
 
 entry!('choi2018quac',
-  title('QuAC: Question Answering in Context'),
+  title('{QuAC}: Question Answering in Context'),
   author('Eunsol Choi and He He and Mohit Iyyer and Mark Yatskar and Wen-tau Yih and Yejin Choi and Percy Liang and Luke Zettlemoyer'),
   url('https://arxiv.org/pdf/1808.07036.pdf'),
   emnlp(2018),
@@ -1155,7 +1243,7 @@ entry!('liang08asymptotics',
 nil)
 
 entry!('liang08structure',
-  author('Percy Liang and Hal Daume and Dan Klein'),
+  author('Percy Liang and Hal {Daum{\\\'e} III} and Dan Klein'),
   title('Structure Compilation: Trading Structure for Features'),
   icml2008,
   url('structure-icml2008.pdf'),

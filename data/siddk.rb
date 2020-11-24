@@ -118,12 +118,6 @@ entry!('weigelt2020programmingfuse',
   author('Sebastian Weigelt and Vanessa Steurer and Tobias Hey and W. Tichy'),
 nil)
 
-entry!('mussman2020pairwise',
-  emnlpfindings(2020),
-  title('On the Importance of Adaptive Data Collection for Extremely Imbalanced Pairwise Tasks'),
-  author('Stephen Mussman and Robin Jia and Percy Liang'),
-nil)
-
 entry!('damen2018kitchens',
   eccv(2018),
   title('Scaling Egocentric Vision: The {EPIC}-{KITCHENS} Dataset'),
@@ -568,10 +562,4 @@ entry!('nie2020anli',
   acl(2020),
   title('Adversarial NLI: A New Benchmark for Natural Language Understanding'),
   author('Yixin Nie and Adina Williams and Emily Dinan and Mohit Bansal and J. Weston and Douwe Kiela'),
-nil)
-
-entry!('Chatzikyriakidis2017AnOO',
-  inproceedings(BOOKTITLE, 2017),
-  title('An overview of Natural Language Inference Data Collection: The way forward?'),
-  author('S. Chatzikyriakidis and R. Cooper and Simon Dobnik and Staffan Larsson'),
 nil)
