@@ -439,7 +439,7 @@ entry!('chen2013robots',
   pages(30, 39),
 nil)
 
-entry!('levine2016end2end',
+entry!('levine2016end',
   jmlr(2016, 17),
   title('End-to-End Training of Deep Visuomotor Policies'),
   author('S. Levine and Chelsea Finn and Trevor Darrell and P. Abbeel'),
@@ -558,7 +558,7 @@ entry!('grefenstette2019higher',
   author('Edward Grefenstette and Brandon Amos and Denis Yarats and Phu Mon Htut and Artem Molchanov and F. Meier and Douwe Kiela and Kyunghyun Cho and Soumith Chintala'),
 nil)
 
-entry!('nie2020anli',
+entry!('nie2020adversarial',
   acl(2020),
   title('Adversarial NLI: A New Benchmark for Natural Language Understanding'),
   author('Yixin Nie and Adina Williams and Emily Dinan and Mohit Bansal and J. Weston and Douwe Kiela'),
