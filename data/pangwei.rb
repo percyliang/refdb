@@ -1951,12 +1951,6 @@ entry!('zhou2020curse',
   author('Xiang Zhou and Yixin Nie and Hao Tan and Mohit Bansal'),
 nil)
 
-entry!('mccoy2019berts',
-  arxiv(2019, '1911.02969'),
-  title('Berts of a feather do not generalize together: Large variability in generalization across models with similar test set performance'),
-  author('R Thomas McCoy and Junghyun Min and Tal Linzen'),
-nil)
-
 entry!('bejnordi2017diagnostic',
   article('Jama', 2017, 318),
   title('Diagnostic assessment of deep learning algorithms for detection of lymph node metastases in women with breast cancer'),
