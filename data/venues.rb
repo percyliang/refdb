@@ -87,7 +87,8 @@ def iccv(year); inproceedings(Name.new('International Conference on Computer Vis
 def cvpr(year); inproceedings(Name.new('Computer Vision and Pattern Recognition', 'CVPR'), year) end
 def wacv(year); inproceedings(Name.new('Winter Conference on Applications of Computer Vision', 'WACV'), year) end
 
-# Robotics
+### Robotics
+def corl(year); inproceedings(Name.new('Conference on Robot Learning', 'CORL'), year) end
 def icra(year); inproceedings(Name.new('International Conference on Robotics and Automation', 'ICRA'), year) end
 def iros(year); inproceedings(Name.new('International Conference on Intelligent Robots and Systems', 'IROS'), year) end
 def rss(year); inproceedings(Name.new('Robotics: Science and Systems', 'RSS'), year) end
@@ -96,6 +97,14 @@ def ias(year); inproceedings(Name.new('International Conference on Intelligent A
 def aamas(year); inproceedings(Name.new('International Conference on Autonomous Agents and Multiagent Systems', 'AAMAS'), year) end
 def ijrr(year, volume); article(Name.new('International Journal of Robotics Research', 'IJRR'), year, volume) end
 def ijsr(year, volume); article(Name.new('International Journal of Social Robotics', 'IJSR'), year, volume) end
+def ral(year, volume); article(Name.new('IEEE Robotics and Automation Letters', 'RA-L'), year, volume) end
+def ram(year, volume); article(Name.new('IEEE Robotics \& Automation Magazine', 'RAM'), year, volume) end
+def tro(year, volume); article(Name.new('IEEE Transactions on Robotics', 'T-RO'), year, volume) end
+
+### Human-robot interaction & assistive robotics
+def hri(year); inproceedings(Name.new('ACM/IEEE International Conference on Human Robot Interaction', 'HRI'), year) end
+def icorr(year); inproceedings(Name.new('IEEE International Conference on Rehabilitation Robotics', 'ICORR'), year) end
+def thri(year, volume); article(Name.new('ACM Transactions on Human-Robot Interaction', 'THRI'), year, volume) end
 
 ### Natural language processing
 def naacl(year); [inproceedings(Name.new('North American Association for Computational Linguistics', 'NAACL'), year), aclpub] end
