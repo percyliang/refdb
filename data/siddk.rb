@@ -563,3 +563,15 @@ entry!('grefenstette2019higher',
   title('Generalized Inner Loop Meta-Learning'),
   author('Edward Grefenstette and Brandon Amos and Denis Yarats and Phu Mon Htut and Artem Molchanov and F. Meier and Douwe Kiela and Kyunghyun Cho and Soumith Chintala'),
 nil)
+
+entry!('nie2020anli',
+  acl(2020),
+  title('Adversarial NLI: A New Benchmark for Natural Language Understanding'),
+  author('Yixin Nie and Adina Williams and Emily Dinan and Mohit Bansal and J. Weston and Douwe Kiela'),
+nil)
+
+entry!('Chatzikyriakidis2017AnOO',
+  inproceedings(BOOKTITLE, 2017),
+  title('An overview of Natural Language Inference Data Collection: The way forward?'),
+  author('S. Chatzikyriakidis and R. Cooper and Simon Dobnik and Staffan Larsson'),
+nil)

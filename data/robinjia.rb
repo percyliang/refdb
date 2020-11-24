@@ -651,12 +651,6 @@ entry!('ovadia2019uncertainty',
   neurips(2019),
 nil)
 
-entry!('nie2019adversarial',
-  title('Adversarial NLI: A New Benchmark for Natural Language Understanding'),
-  author('Yixin Nie and Adina Williams and Emily Dinan and Mohit Bansal and Jason Weston and Douwe Kiela'),
-  arxiv(2019, '1910.14599'),
-nil)
-
 entry!('glockner2018breaking',
   title('Breaking {NLI} Systems with Sentences that Require Simple Lexical Inferences'),
   author('Max Glockner and Vered Shwartz and Yoav Goldberg'),
