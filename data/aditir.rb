@@ -464,9 +464,10 @@ entry!('biggio2018wild',
 nil)
 
 entry!('yin2019fourier',
-   arxiv(2019, '1906.08988'),
+   #arxiv(2019, '1906.08988'),
    title('A fourier perspective on model robustness in computer vision'),
    author('Dong Yin and Raphael Gontijo Lopes and Jonathon Shlens and Ekin D Cubuk and Justin Gilmer'),
+   neurips(2019),
    nil)
 
 entry!('degwekar2019computational',
@@ -549,4 +550,20 @@ entry!('xie2020adversarial',
   title('Adversarial examples improve image recognition'),
   author('Cihang Xie and Mingxing Tan and Boqing Gong and Jiang Wang and Alan L Yuille and Quoc V Le'),
   pages(819, 828),
+nil)
+
+
+
+entry!('stallkamp2011german',
+  inproceedings('The 2011 international joint conference on neural networks', 2011),
+  title('The German traffic sign recognition benchmark: a multi-class classification competition'),
+  author('Johannes Stallkamp and Marc Schlipsing and Jan Salmen and Christian Igel'),
+  pages(1453, 1460),
+  organization('IEEE'),
+nil)
+
+entry!('shankar2019image',
+  arxiv(2019, '1906.02168'),
+  title('Do Image Classifiers Generalize Across Time?'),
+  author('Vaishaal Shankar and Achal Dave and Rebecca Roelofs and Deva Ramanan and Benjamin Recht and Ludwig Schmidt'),
 nil)

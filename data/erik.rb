@@ -1,3 +1,31 @@
+entry!('gebru2018datasheets',
+  arxiv(2018, '1803.09010'),
+  title('Datasheets for Datasets'),
+  author('Timnit Gebru and Jamie Morgenstern and Briana Vecchione and Jennifer Wortman Vaughan and Hanna Wallach and Hal Daumé Ill and Kate Crawford'),
+  nil)
+
+entry!('rajpurkar2020chexpedition',
+  arxiv(2020, '2002.11379'),
+  title('CheXpedition: Investigating Generalization Challenges for Translation of Chest X{-}ray Algorithms to the Clinical Setting'),
+  author('Pranav Rajpurkar and Anirudh Joshi and Anuj Pareek and Phil Chen and Amirhossein Kiani and Jeremy Irvin and Andrew Ng and Matthew Lungren'),
+nil)
+
+entry!('bagnoli2005logconcave',
+  article('Economic Theory', 2005, 26),
+  title('Log-concave probability and its applications'),
+  author('Mark Bagnoli and Ted Bergstrom'),
+  pages(445, 469),
+  publisher('Springer'),
+nil)
+
+entry!('cule2010logconcave',
+  article('Journal of the Royal Statistical Society', 2010, 73),
+  title('Maximum likelihood estimation of a multi-dimensional log-concave density'),
+  author('Madeleine Cule and Richard Samworth and Michael Stewart'),
+  pages(545, 603),
+  publisher('Wiley Online Library'),
+nil)
+
 entry!('cheng2019robust',
   acl(2019),
   title('Robust Neural Machine Translation with Doubly Adversarial Inputs'),
@@ -38,8 +66,8 @@ nil)
 entry!('davies2008COCA',
   year('2008-2019'),
   type('misc'),
-  howpublished('\url{https://www.english-corpora.org/faq.asp}'),
-  title('The Corpus of Contemporary American English (COCA): 560 million words, 1990-present'),
+  howpublished('\url{https://www.english-corpora.org/coca/}'),
+  title('The Corpus of Contemporary {A}merican {E}nglish ({COCA}): One billion words, 1990-2019'),
   author('Mark Davies'),
 nil)
 

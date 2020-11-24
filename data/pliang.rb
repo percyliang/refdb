@@ -141,7 +141,7 @@ entry!('sudderth06transformed',
 nil)
 
 entry!('daume05clustering',
-  author('Hal Daume and Daniel Marcu'),
+  author('Hal {Daum{\\\'e} III} and Daniel Marcu'),
   title('A {B}ayesian Model for Supervised Clustering with the {D}irichlet Process Prior'),
   jmlr(2005, 1), pages(1, 48),
 nil)
@@ -172,7 +172,7 @@ entry!('kurihara07collapsed',
 nil)
 
 entry!('daume07astar',
-  author('H. Daume'),
+  author('Hal {Daum{\\\'e} III}'),
   title('Fast search for {D}irichlet process mixture models'),
   aistats(2007),
 nil)
@@ -498,7 +498,7 @@ entry!('haghighi07coref',
 nil)
 
 entry!('daume06sum',
-  author('Hal Daume and Daniel Marcu'),
+  author('Hal {Daum{\\\'e} III} and Daniel Marcu'),
   title('{B}ayesian Query-Focused Summarization'),
   colingacl2006,
 nil)
@@ -1243,7 +1243,7 @@ entry!('moore04improving',
 nil)
 
 entry!('daume04alignment',
-  author('Hal Daume and Daniel Marcu'),
+  author('Hal {Daum{\\\'e} III} and Daniel Marcu'),
   title('Phrase-Based {HMM} Approach to Document/Abstract Alignment'),
   emnlp(2004),
 nil)
@@ -1704,7 +1704,7 @@ nil)
 
 entry!('agarwal09hybrid',
   title('Exponential Family Hybrid Learning'),
-  author('Arvind Agarwal and Hal Daume'),
+  author('Arvind Agarwal and Hal {Daum{\\\'e} III}'),
   ijcai(2009),
 nil)
 
@@ -2514,7 +2514,7 @@ entry!('nocedal80lbfgs',
 nil)
 
 entry!('daume09searn',
-  author('Hal Daume and John Langford and Daniel Marcu'),
+  author('Hal {Daum{\\\'e} III} and John Langford and Daniel Marcu'),
   title('Search-based Structured Prediction'),
   machineLearning(2009, 75),
   pages(297, 325),
@@ -3295,7 +3295,7 @@ nil)
 
 entry!('manning2008ir',
   book('Cambridge University Press', 2008),
-  author('Christopher Manning and Prabhakar Raghavan and Hinrich Schütze'),
+  author('Christopher Manning and Prabhakar Raghavan and Hinrich Sch{\"u}tze'),
   volume(1),
   url('http://www.langtoninfo.com/web_content/9780521865715_frontmatter.pdf'),
   title('Introduction to information retrieval'),
@@ -4647,7 +4647,7 @@ entry!('auli2011efficient',
 nil)
 
 entry!('manning2014stanford',
-  title('The Stanford Core{NLP} natural language processing toolkit'),
+  title('The {S}tanford {C}ore{NLP} natural language processing toolkit'),
   inproceedings('ACL system demonstrations',2014),
   author('Christopher D. Manning and Mihai Surdeanu and John Bauer and Jenny Finkel and Steven J. Bethard and Davic McClosky'),
 nil)
@@ -4710,7 +4710,7 @@ nil)
 
 entry!('jiang2012learned',
   nips(2012),
-  author('Jiarong Jiang and Adam Teichert and Jason Eisner and Hal Daume'),
+  author('Jiarong Jiang and Adam Teichert and Jason Eisner and Hal {Daum{\\\'e} III}'),
   title('Learned prioritization for trading off accuracy and speed'),
 nil)
 
@@ -5195,7 +5195,7 @@ entry!('fitzgerald2013learning',
 nil)
 
 entry!('chang2015learning',
- author('Kai-Wei Chang and Akshay Krishnamurthy and Alekh Agarwal and Hal Daume and John Langford'),
+ author('Kai-Wei Chang and Akshay Krishnamurthy and Alekh Agarwal and Hal {Daum{\\\'e} III} and John Langford'),
  title('Learning to search better than your teacher'),
  arxiv(2015),
 nil)
@@ -5214,7 +5214,7 @@ entry!('socher2011parsing',
 nil)
 
 entry!('weston2015towards',
-  arxiv(2015),
+  arxiv(2015, '1502.05698'),
   title('Towards {AI}-Complete Question Answering: A Set of Prerequisite Toy Tasks'),
   author('Jason Weston and Antoine Bordes and Sumit Chopra and Tomas Mikolov'),
 nil)
@@ -7350,13 +7350,13 @@ entry!('ganchev10posterior',
 nil)
 
 entry!('he2012cost',
-  author('He He and Hal Daume and Jason Eisner'),
+  author('He He and Hal {Daum{\\\'e} III} and Jason Eisner'),
   title('Cost-sensitive dynamic feature selection'),
   inproceedings('ICML Inferning Workshop', 2012),
 nil)
 
 entry!('he2013dynamic',
-  author('He He and Hal Daume and Jason Eisner'),
+  author('He He and Hal {Daum{\\\'e} III} and Jason Eisner'),
   title('Dynamic Feature Selection for Dependency Parsing'),
   emnlp(2013), pages(1455, 1464),
 nil)
@@ -7434,7 +7434,7 @@ entry!('jiang2012calibrating',
   number(2), pages(263, 274),
 nil)
 
-entry!('dong2011calibration',
+entry!('yu2011calibration',
   title('Calibration of Confidence Measures in Speech Recognition'),
   author('Dong Yu and Jinyu Li and Li Deng'),
   article('Trans. Audio, Speech and Lang. Proc.', 2011, 19),
@@ -7623,7 +7623,7 @@ entry!('globerson2006nightmare',
   pages(353, 360),
   organization('ACM'),
   author('Amir Globerson and Sam Roweis'),
-  title('Nightmare at test time: robust learning by feature deletion'),
+  title('Nightmare at test time: Robust learning by feature deletion'),
 nil)
 
 entry!('bishop1995training',
@@ -8850,12 +8850,6 @@ entry!('resnick2007influence',
   pages(25,32),
 nil)
 
-entry!('piech2013tuned',
-  title('Tuned models of peer assessment in {MOOC}s'),
-  author('Chris Piech and Jonathan Huang and Zhenghao Chen and Chuong Do and Andrew Ng and Daphne Koller'),
-  arxiv(2013),
-nil)
-
 entry!('priedhorsky2007creating',
   title('Creating, destroying, and restoring value in {W}ikipedia'),
   author('Reid Priedhorsky and Jilin Chen and Shyong T. K. Lam and Katherine Panciera and Loren Terveen and John Riedl'),
@@ -9618,7 +9612,6 @@ entry!('maccartney2007natural',
   author('Bill MacCartney and Christopher D. Manning'),
   title('Natural Logic for Textual Inference'),
   inproceedings('ACL-PASCAL Workshop on Textual Entailment and Paraphrasing', 2007),
-  year(2007),
   pages(193,200),
 nil)
 
@@ -9726,10 +9719,11 @@ entry!('lai2016agnostic',
   focs(2016),
 nil)
 
-entry!('wang2016machine',
-  arxiv(2016, '1608.07905'),
+entry!('wang2017machine',
+  #arxiv(2016, '1608.07905'),
   title('Machine Comprehension Using Match-{LSTM} and Answer Pointer'),
   author('Shuohang Wang and Jing Jiang'),
+  iclr(2017),
 nil)
 
 entry!('awasthi2012improved',
@@ -9995,12 +9989,12 @@ nil)
 entry!('daume10easyss',
   inproceedings('Workshop on Domain Adaptation for NLP', 2010),
   title('Frustratingly Easy Semi-Supervised Domain Adaptation'),
-  author('Hal {Daume III} and Abhishek Kumar and Avishek Saha'),
+  author('Hal {Daum{\\\'e} III} and Abhishek Kumar and Avishek Saha'),
 nil)
 
 entry!('daume07easyadapt',
   acl(2007),
-  author('Hal {Daume III}'),
+  author('Hal {Daum{\\\'e} III}'),
   title('Frustratingly Easy Domain Adaptation'),
 nil)
 
@@ -10068,7 +10062,7 @@ nil)
 entry!('ribeiro2016lime',
   kdd(2016),
   author('Marco Tulio Ribeiro and Sameer Singh and Carlos Guestrin'),
-  title(' "Why Should {I} Trust You?": Explaining the Predictions of Any Classifier '),
+  title(' "{Why Should {I} Trust You?}": Explaining the Predictions of Any Classifier '),
 nil)
 
 entry!('lei2016rationalizing',
@@ -11283,9 +11277,10 @@ entry!('binns2018fairness',
 nil)
 
 entry!('athalye2018obfuscated',
-  arxiv(2018, '1802.00420'),
+#  arxiv(2018, '1802.00420'),
   title('Obfuscated gradients give a false sense of security: Circumventing defenses to adversarial examples'),
   author('Anish Athalye and Nicholas Carlini and David Wagner'),
+  icml(2018),
 nil)
 
 entry!('sinha2018certifiable',

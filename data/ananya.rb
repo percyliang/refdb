@@ -396,3 +396,21 @@ entry!('blackard1999comparative',
   author('Jock A. Blackard and Denis J. Dean'),
   inproceedings('Computers and Electronics in Agriculture', 1999),
 nil)
+
+entry!('kornblith2019better',
+  title('Do Better ImageNet Models Transfer Better?'),
+  author('Simon Kornblith and Jonathon Shlens and Quoc V. Le'),
+  cvpr(2019),
+nil)
+
+entry!('tao2012random',
+  author('Terrence Tao'),
+  title('Topics in random matrix theory'),
+  book('American Mathematical Society', 2012), address('Providence, Rhode Island'),
+nil)
+
+entry!('hsu2012random',
+  title('Random Design Analysis of Ridge Regression'),
+  author('Daniel Hsu and Sham M. Kakade and Tong Zhang'),
+  colt(2012),
+nil)
