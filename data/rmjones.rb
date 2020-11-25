@@ -60,7 +60,7 @@ entry!('li2007estimating',
 nil)
 
 entry!('kussul2017classification',
-  author('N. {Kussul} and M. {Lavreniuk} and S. {Skakun} and A. {Shelestov}}'),
+  author('N. {Kussul} and M. {Lavreniuk} and S. {Skakun} and A. {Shelestov}'),
   title('Deep Learning Classification of Land Cover and Crop Types Using Remote Sensing Data'),
   article('IEEE Geoscience and Remote Sensing Letters', 2017, 14, 5),
   pages(778, 782),
