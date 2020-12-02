@@ -1,3 +1,9 @@
+entry!('zhou2016cams',
+  cvpr(2016),
+  title('Learning Deep Features for Discriminative Localization'),
+  author('Bolei Zhou and Aditya Khosla and Agata Lapedriza and Aude Oliva and Antonio Torralba'),
+  nil)
+
 entry!('gebru2018datasheets',
   arxiv(2018, '1803.09010'),
   title('Datasheets for Datasets'),
