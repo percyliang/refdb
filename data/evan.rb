@@ -739,14 +739,34 @@ entry!('houthooft2018evolved',
   pages(5400, 5409),
 nil)
 
-entry!('liu2020learning',
-  arxiv(2020, '2007.05896'),
-  title('Learning Abstract Models for Strategic Exploration and Fast Reward Transfer'),
-  author('Evan Zheran Liu and Ramtin Keramati and Sudarshan Seshadri and Kelvin Guu and Panupong Pasupat and Emma Brunskill and Percy Liang'),
-nil)
-
 entry!('liu2020imitation',
   arxiv(2020, '2006.16239'),
   title('An Imitation Learning Approach for Cache Replacement'),
   author('Evan Zheran Liu and Milad Hashemi and Kevin Swersky and Parthasarathy Ranganathan and Junwhan Ahn'),
+nil)
+
+entry!('rieger2019interpretations',
+  arxiv(2019, '1909.13584'),
+  title('Interpretations are useful: penalizing explanations to align neural networks with prior knowledge'),
+  author('Laura Rieger and Chandan Singh and W James Murdoch and Bin Yu'),
+nil)
+
+entry!('goel2020model',
+  arxiv(2020, '2008.06775'),
+  title('Model Patching: Closing the Subgroup Performance Gap with Data Augmentation'),
+  author('Karan Goel and Albert Gu and Yixuan Li and Christopher R{\\\'e}'),
+nil)
+
+entry!('cidon2016cliffhanger',
+  inproceedings('13th $\{$USENIX$\}$ Symposium on Networked Systems Design and Implementation ($\{$NSDI$\}$ 16)', 2016),
+  title('Cliffhanger: Scaling performance cliffs in web memory caches'),
+  author('Asaf Cidon and Assaf Eisenman and Mohammad Alizadeh and Sachin Katti'),
+  pages(379, 392),
+nil)
+
+entry!('leibfried2019unified',
+  neurips(2019),
+  title('A unified bellman optimality principle combining reward maximization and empowerment'),
+  author('Felix Leibfried and Sergio Pascual-Diaz and Jordi Grau-Moya'),
+  pages(7869, 7880),
 nil)

@@ -6433,12 +6433,6 @@ entry!('ren2012rgb',
   organization('IEEE'),
 nil)
 
-entry!('levine2015end',
-  arxiv(2015, '1504.00702'),
-  author('S. Levine and C. Finn and T. Darrell and P. Abbeel'),
-  title('End-to-End Training of Deep Visuomotor Policies'),
-nil)
-
 entry!('ullman1985implementation',
   article('ACM Transactions on Database Systems (TODS)', 1985, 10),
   title('Implementation of logical query languages for databases'),
@@ -10068,7 +10062,7 @@ nil)
 entry!('ribeiro2016lime',
   kdd(2016),
   author('Marco Tulio Ribeiro and Sameer Singh and Carlos Guestrin'),
-  title(' "Why Should {I} Trust You?": Explaining the Predictions of Any Classifier '),
+  title(' "{Why Should {I} Trust You?}": Explaining the Predictions of Any Classifier '),
 nil)
 
 entry!('lei2016rationalizing',

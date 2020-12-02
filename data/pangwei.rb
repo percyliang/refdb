@@ -34,11 +34,11 @@ entry!('shrikumar2017learning',
   author('Avanti Shrikumar and Peyton Greenside and Anshul Kundaje'),
 nil)
 
-# entry!('lecun1998mnist',
-#   title('The {MNIST} database of handwritten digits'),
-#   author('Yann LeCun and Corinna Cortes and Christopher JC Burges'),
-#   year(1998),
-# nil)
+entry!('lecun1998mnist',
+  article('http://yann.lecun.com/exdb/mnist/', 1998),
+  title('The {MNIST} database of handwritten digits'),
+  author('Yann LeCun and Corinna Cortes and Christopher JC Burges'),
+nil)
 
 entry!('liu1989limited',
   article('Mathematical Programming', 1989, 45),
@@ -1601,7 +1601,7 @@ nil)
 
 entry!('joshi2018xgems',
   arxiv(2018, '1806.08867'),
-  title('xGEMs: Generating examplars to explain black-box models'),
+  title('{xGEMs}: Generating examplars to explain black-box models'),
   author('Shalmali Joshi and Oluwasanmi Koyejo and Been Kim and Joydeep Ghosh'),
 nil)
 
@@ -1633,7 +1633,7 @@ entry!('irvin2019chexpert',
 nil)
 
 entry!('porcel2018chest',
-  article('Tuberculosis and respiratory diseases', 2018, 81),
+  article('Tuberculosis and Respiratory Diseases', 2018, 81),
   title('Chest tube drainage of the pleural space: a concise review for pulmonologists'),
   author('Jos{\\\'e} M Porcel'),
   number(2),
@@ -1648,7 +1648,7 @@ entry!('oakden2020hidden',
 nil)
 
 entry!('huang2017densely',
-  inproceedings('Proceedings of the IEEE conference on computer vision and pattern recognition', 2017),
+  inproceedings('Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition', 2017),
   title('Densely connected convolutional networks'),
   author('Gao Huang and Zhuang Liu and Laurens Van Der Maaten and Kilian Q Weinberger'),
   pages(4700, 4708),
@@ -1746,7 +1746,7 @@ entry!('pimentel2014review',
 nil)
 
 entry!('hellman1970nearest',
-  science(1970, 6),
+  article('IEEE Transactions on Systems Science and Cybernetics', 1970, 6),
   title('The nearest neighbor classification rule with a reject option'),
   author('Martin E Hellman'),
   number(3),
@@ -1949,12 +1949,6 @@ entry!('zhou2020curse',
   arxiv(2020, '2004.13606'),
   title('The Curse of Performance Instability in Analysis Datasets: Consequences, Source, and Suggestions'),
   author('Xiang Zhou and Yixin Nie and Hao Tan and Mohit Bansal'),
-nil)
-
-entry!('mccoy2019berts',
-  arxiv(2019, '1911.02969'),
-  title('Berts of a feather do not generalize together: Large variability in generalization across models with similar test set performance'),
-  author('R Thomas McCoy and Junghyun Min and Tal Linzen'),
 nil)
 
 entry!('bejnordi2017diagnostic',
@@ -2284,4 +2278,92 @@ entry!('degrave2020ai',
   title('{AI} for radiographic {COVID-19} detection selects shortcuts over signal'),
   author('Alex J DeGrave and Joseph D Janizek and Su-In Lee'),
   publisher('Cold Spring Harbor Laboratory Preprints'),
+nil)
+
+entry!('li2019anchor',
+  article('Genome research', 2019, 29),
+  title('Anchor: trans-cell type prediction of transcription factor binding sites'),
+  author('Hongyang Li and Daniel Quang and Yuanfang Guan'),
+  number(2),
+  pages(281, 292),
+  publisher('Cold Spring Harbor Lab'),
+nil)
+
+entry!('blitzer2007biographies',
+  inproceedings('Proceedings of the 45th annual meeting of the association of computational linguistics', 2007),
+  title('Biographies, bollywood, boom-boxes and blenders: Domain adaptation for sentiment classification'),
+  author('John Blitzer and Mark Dredze and Fernando Pereira'),
+  pages(440, 447),
+nil)
+
+entry!('lecun2004learning',
+  cvpr(2004),
+  title('Learning methods for generic object recognition with invariance to pose and lighting'),
+  author('Yann LeCun and Fu Jie Huang and Leon Bottou'),
+  volume(2),
+  organization('IEEE'),
+nil)
+
+entry!('saenko2010adapting',
+  inproceedings('European conference on computer vision', 2010),
+  title('Adapting visual category models to new domains'),
+  author('Kate Saenko and Brian Kulis and Mario Fritz and Trevor Darrell'),
+  pages(213, 226),
+  organization('Springer'),
+nil)
+
+entry!('pan2010cross',
+  inproceedings('Proceedings of the 19th international conference on World wide web', 2010),
+  title('Cross-domain sentiment classification via spectral feature alignment'),
+  author('Sinno Jialin Pan and Xiaochuan Ni and Jian-Tao Sun and Qiang Yang and Zheng Chen'),
+  pages(751, 760),
+nil)
+
+entry!('bruzzone2009domain',
+  article('IEEE transactions on pattern analysis and machine intelligence', 2009, 32),
+  title('Domain adaptation problems: A {DASVM} classification technique and a circular validation strategy'),
+  author('Lorenzo Bruzzone and Mattia Marconcini'),
+  number(5),
+  pages(770, 787),
+  publisher('IEEE'),
+nil)
+
+entry!('yang2008estimating',
+  article('IEEE Intelligent Systems', 2008, 23),
+  title('Estimating Location Using Wi-Fi'),
+  author('Qiang Yang and Sinno Jialin Pan and Vincent Wenchen Zheng'),
+  number(1),
+  pages(8, 13),
+nil)
+
+entry!('gong2012geodesic',
+  cvpr(2012),
+  title('Geodesic flow kernel for unsupervised domain adaptation'),
+  author('Boqing Gong and Yuan Shi and Fei Sha and Kristen Grauman'),
+  pages(2066, 2073),
+  organization('IEEE'),
+nil)
+
+entry!('torralba2011unbiased',
+  cvpr(2011),
+  title('Unbiased look at dataset bias'),
+  author('Antonio Torralba and Alexei A Efros'),
+  pages(1521, 1528),
+  organization('IEEE'),
+nil)
+
+entry!('beery2018recognition',
+  eccv(2018),
+  title('Recognition in terra incognita'),
+  author('Sara Beery and Grant Van Horn and Pietro Perona'),
+  pages(456, 473),
+nil)
+
+entry!('courtiol2019deep',
+  article('Nature medicine', 2019, 25),
+  title('Deep learning-based classification of mesothelioma improves prediction of patient outcome'),
+  author('Pierre Courtiol and Charles Maussion and Matahi Moarii and Elodie Pronier and Samuel Pilcer and Meriem Sefta and Pierre Manceron and Sylvain Toldo and Mikhail Zaslavskiy and Nolwenn Le Stang and others'),
+  number(10),
+  pages(1519, 1525),
+  publisher('Nature Publishing Group'),
 nil)

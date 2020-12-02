@@ -1,6 +1,8 @@
 # encoding: UTF-8
 $: << File.dirname(__FILE__)
 
+require 'json'
+
 # General utilities for constructing bib entries and outputting BibTeX, HTML, plain text, etc.
 # Each bibliography entry has the following fields:
 # identifier, type, author, title, year, volume, pages, tags, etc.
@@ -146,7 +148,7 @@ class Entry
     ["@#{type}{#{id},"] + @fieldsMap.map { |name,values|
       values = values.map { |value|
         if value.class == Author
-          value.to_short_s
+          value.to_short_s.gsub(/\*/, '')  # Remove stars (for joint first-authorship)
         elsif value.class == Name
           verbose == 0 ? value.to_short_s : value.to_full_s
         else
@@ -350,6 +352,22 @@ def printText(entries, short, outPath)
   entries.each { |entry|
     out.puts entry.id + "\t" + entry.cite + "\t" + entry.toText(short)
   }
+  out.close
+end
+
+def printJs(entries, short, outPath)
+  data = {}
+  entries.each { |entry|
+    data[entry.id] = {
+      'cite': entry.cite,
+      'title': entry.title,
+      'author': entry.author.names,
+      'url': entry.getFirst('url'),
+      'text': entry.toText(short),
+    }
+  }
+  out = open(outPath, 'w')
+  out.puts "G.bibEntries = " + JSON.generate(data)
   out.close
 end
 
