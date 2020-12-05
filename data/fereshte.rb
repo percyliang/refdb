@@ -414,12 +414,6 @@ entry!('kilbertus2017avoiding',
   pages(656, 666),
 nil)
 
-entry!('liu2018delayed',
-  arxiv(2018, '1803.04383'),
-  title('Delayed Impact of Fair Machine Learning'),
-  author('Lydia T Liu and Sarah Dean and Esther Rolf and Max Simchowitz and Moritz Hardt'),
-nil)
-
 entry!('hawkins2015conducting',
   article('Behavior Research Methods', 2015, 47),
   title('Conducting real-time multiplayer experiments on the web'),
@@ -1002,4 +996,3 @@ entry!('gunasekar2017implicit',
   author('Suriya Gunasekar and Blake E Woodworth and Srinadh Bhojanapalli and Behnam Neyshabur and Nati Srebro'),
   pages(6151, 6159),
 nil)
-

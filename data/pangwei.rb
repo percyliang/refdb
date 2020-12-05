@@ -2062,7 +2062,7 @@ nil)
 entry!('hendrycks2020many',
   arxiv(2020, '2006.16241'),
   title('The many faces of robustness: A critical analysis of out-of-distribution generalization'),
-  author('Dan Hendrycks and Steven Basart and Norman Mu and Saurav Kadavath and Frank Wang and Evan Dorundo and Rahul Desai and Tyler Zhu and Samyak Parajuli and Mike Guo and others'),
+  author('Dan Hendrycks and Steven Basart and Norman Mu and Saurav Kadavath and Frank Wang and Evan Dorundo and Rahul Desai and Tyler Zhu and Samyak Parajuli and Mike Guo and Dawn Song and Jacob Steinhardt and Justin Gilmer'),
 nil)
 
 entry!('obermeyer2019dissecting',
@@ -2366,4 +2366,54 @@ entry!('courtiol2019deep',
   number(10),
   pages(1519, 1525),
   publisher('Nature Publishing Group'),
+nil)
+
+entry!('hu2020open',
+  arxiv(2020, '2005.00687'),
+  title('Open graph benchmark: Datasets for machine learning on graphs'),
+  author('Weihua Hu and Matthias Fey and Marinka Zitnik and Yuxiao Dong and Hongyu Ren and Bowen Liu and Michele Catasta and Jure Leskovec'),
+nil)
+
+entry!('xu2018powerful',
+  iclr(2018),
+  title('How Powerful are Graph Neural Networks?'),
+  author('Keyulu Xu and Weihua Hu and Jure Leskovec and Stefanie Jegelka'),
+nil)
+
+entry!('damour2020underspecification',
+  arxiv(2020, '2011.03395'),
+  title('Underspecification Presents Challenges for Credibility in Modern Machine Learning'),
+  author('Alexander D\'Amour and Katherine Heller and Dan Moldovan and Ben Adlam and Babak Alipanahi and Alex Beutel and Christina Chen and Jonathan Deaton and Jacob Eisenstein and Matthew D Hoffman and others'),
+nil)
+
+entry!('subbaswamy2020evaluating',
+  arxiv(2020, '2010.15100'),
+  title('Evaluating Model Robustness to Dataset Shift'),
+  author('Adarsh Subbaswamy and Roy Adams and Suchi Saria'),
+nil)
+
+entry!('borkan2019limitations',
+  arxiv(2019, '1903.02088'),
+  title('Limitations of pinned auc for measuring unintended bias'),
+  author('Daniel Borkan and Lucas Dixon and John Li and Jeffrey Sorensen and Nithum Thain and Lucy Vasserman'),
+nil)
+
+entry!('he2020towards',
+  article('Pattern Recognition', 2020, 110),
+  title('Towards Non-{IID} Image Classification: A Dataset and Baselines'),
+  author('Yue He and Zheyan Shen and Peng Cui'),
+  publisher('Elsevier'),
+nil)
+
+entry!('damour2020fairness',
+  inproceedings('Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency', 2020),
+  title('Fairness is not static: deeper understanding of long term fairness via simulation studies'),
+  author('Alexander D\'Amour and Hansa Srinivasan and James Atwood and Pallavi Baljekar and D Sculley and Yoni Halpern'),
+  pages(525, 534),
+nil)
+
+entry!('liu2018delayed',
+  icml(2018),
+  title('Delayed Impact of Fair Machine Learning'),
+  author('Lydia T Liu and Sarah Dean and Esther Rolf and Max Simchowitz and Moritz Hardt'),
 nil)
