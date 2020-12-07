@@ -763,3 +763,10 @@ entry!('cidon2016cliffhanger',
   author('Asaf Cidon and Assaf Eisenman and Mohammad Alizadeh and Sachin Katti'),
   pages(379, 392),
 nil)
+
+entry!('leibfried2019unified',
+  neurips(2019),
+  title('A unified bellman optimality principle combining reward maximization and empowerment'),
+  author('Felix Leibfried and Sergio Pascual-Diaz and Jordi Grau-Moya'),
+  pages(7869, 7880),
+nil)
