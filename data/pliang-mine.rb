@@ -245,7 +245,6 @@ entry!('kulal2019spoc',
   author('Sumith Kulal and Panupong Pasupat and Kartik Chandra and Mina Lee and Oded Padon and Alex Aiken and Percy Liang'),
   nips(2019),
   url('https://arxiv.org/pdf/1906.04908.pdf'),
-  codalab('0x23b27b2131634a158c8149d5b82adecf'),
 nil)
 
 entry!('carmon2019unlabeled',
