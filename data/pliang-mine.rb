@@ -2,8 +2,8 @@
 # 2020
 
 entry!('koh2020wilds',
-  title('{WILDS}: A Survey and Benchmark of in-the-Wild Distribution Shifts'),
-  author('Pang Wei Koh* and Shiori Sagawa* and Michael Xie and Henrik Marklund and Marvin Zhang and Akshay Balsubramani and Richard Lanas Phillips and Sara Beery and Anshul Kundaje and Emma Pierson and Sergey Levine and Chelsea Finn and Percy Liang'),
+  title('{WILDS}: A Benchmark of in-the-Wild Distribution Shifts'),
+  author('Pang Wei Koh* and Shiori Sagawa* and Henrik Marklund and Sang Michael Xie and Marvin Zhang and Akshay Balsubramani and Weihua Hu and Michihiro Yasunaga and Richard Lanas Phillips and Sara Beery and Jure Leskovec and Anshul Kundaje and Emma Pierson and Sergey Levine and Chelsea Finn and Percy Liang'),
   arxiv(2020),
   extendedVersion,  # Hide for now
 )

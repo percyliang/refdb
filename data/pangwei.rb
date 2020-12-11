@@ -2417,3 +2417,46 @@ entry!('liu2018delayed',
   title('Delayed Impact of Fair Machine Learning'),
   author('Lydia T Liu and Sarah Dean and Esther Rolf and Max Simchowitz and Moritz Hardt'),
 nil)
+
+entry!('bellemare2020autonomous',
+  article('Nature', 2020, 588),
+  title('Autonomous navigation of stratospheric balloons using reinforcement learning'),
+  author('Marc G. Bellemare and Salvatore Candido and Pablo Samuel Castro and Jun Gong and Marlos C. Machado and Subhodeep Moitra and Sameera S. Ponda and Ziyu Wang '),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('dan2020scaling',
+  arxiv(2020, '1911.11132'),
+  title('Scaling out-of-distribution detection for real-world settings'),
+  author('Dan Hendrycks and Steven Basart and Mantas Mazeika and Mohammadreza Mostajabi and Jacob Steinhardt and Dawn Song'),
+nil)
+
+entry!('saerens2002adjusting',
+  article('Neural computation', 2002, 14),
+  title('Adjusting the outputs of a classifier to new a priori probabilities: a simple procedure'),
+  author('Marco Saerens and Patrice Latinne and Christine Decaestecker'),
+  number(1),
+  pages(21, 41),
+  publisher('MIT Press'),
+nil)
+
+entry!('zhang2013domain',
+  icml(2013),
+  title('Domain adaptation under target and conditional shift'),
+  author('Kun Zhang and Bernhard Sch{\"o}lkopf and Krikamol Muandet and Zhikun Wang'),
+  pages(819, 827),
+nil)
+
+entry!('alexandari2020maximum',
+  icml(2020),
+  title('Maximum likelihood with bias-corrected calibration is hard-to-beat at label shift adaptation'),
+  author('Amr Alexandari and Anshul Kundaje and Avanti Shrikumar'),
+  pages(222, 232),
+  organization('PMLR'),
+nil)
+
+entry!('garg2020unified',
+  arxiv(2020, '2003.07554'),
+  title('A Unified View of Label Shift Estimation'),
+  author('Saurabh Garg and Yifan Wu and Sivaraman Balakrishnan and Zachary C Lipton'),
+nil)
