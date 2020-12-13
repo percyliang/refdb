@@ -2460,3 +2460,169 @@ entry!('garg2020unified',
   title('A Unified View of Label Shift Estimation'),
   author('Saurabh Garg and Yifan Wu and Sivaraman Balakrishnan and Zachary C Lipton'),
 nil)
+
+entry!('rigaki2018bringing',
+  inproceedings('2018 IEEE Security and Privacy Workshops (SPW)', 2018),
+  title('Bringing a gan to a knife-fight: Adapting malware communication to avoid detection'),
+  author('Maria Rigaki and Sebastian Garcia'),
+  pages(70, 75),
+  organization('IEEE'),
+nil)
+
+entry!('cuccarese2020functional',
+  article('bioRxiv', 2020),
+  title('Functional immune mapping with deep-learning enabled phenomics applied to immunomodulatory and {COVID-19} drug discovery'),
+  author('Michael F Cuccarese and Berton A Earnshaw and Katie Heiser and Ben Fogelson and Chadwick T Davis and Peter F McLean and Hannah B Gordon and Kathleen-Rose Skelly and Fiona L Weathersby and Vlad Rodic and others'),
+  publisher('Cold Spring Harbor Laboratory'),
+nil)
+
+entry!('encode2012integrated',
+  article('Nature', 2012, 489),
+  title('An integrated encyclopedia of {DNA} elements in the human genome'),
+  author('ENCODE Project Consortium and others'),
+  number(7414),
+  pages(57, 74),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('kundaje2015integrative',
+  article('Nature', 2015, 518),
+  title('Integrative analysis of 111 reference human epigenomes'),
+  author('Anshul Kundaje and Wouter Meuleman and Jason Ernst and Misha Bilenky and Angela Yen and Alireza Heravi-Moussavi and Pouya Kheradpour and Zhizhuo Zhang and Jianrong Wang and Michael J Ziller and others'),
+  number(7539),
+  pages(317, 330),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('moore2020expanded',
+  article('Nature', 2020, 583),
+  title('Expanded encyclopaedias of {DNA} elements in the human and mouse genomes'),
+  author('Jill E Moore and Michael J Purcaro and Henry E Pratt and Charles B Epstein and Noam Shoresh and Jessika Adrian and Trupti Kawli and Carrie A Davis and Alexander Dobin and Rajinder Kaul and others'),
+  number(7818),
+  pages(699, 710),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('gtex2020gtex',
+  science(2020, 369),
+  title('The {GTEx Consortium} atlas of genetic regulatory effects across human tissues'),
+  author('GTEx Consortium and others'),
+  number(6509),
+  pages(1318, 1330),
+  publisher('American Association for the Advancement of Science'),
+nil)
+
+entry!('ho2014comparative',
+  article('Nature', 2014, 512),
+  title('Comparative analysis of metazoan chromatin organization'),
+  author('Joshua WK Ho and Youngsook L Jung and Tao Liu and Burak H Alver and Soohyun Lee and Kohta Ikegami and Kyung-Ah Sohn and Aki Minoda and Michael Y Tolstorukov and Alex Appert and others'),
+  number(7515),
+  pages(449, 452),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('hubmap2019human',
+  article('Nature', 2019, 574),
+  title('The human body at cellular resolution: the {NIH} Human Biomolecular Atlas Program'),
+  author('HuBMAP Consortium and others'),
+  number(7777),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('aviv2017human',
+  article('Elife', 2017, 6),
+  title('The human cell atlas'),
+  author('Regev Aviv and Sarah A Teichmann and Eric S Lander and Amit Ido and Benoist Christophe and Birney Ewan and Bodenmiller Bernd and Peter Campbell and Carninci Piero and Clatworthy Menna and others'),
+  publisher('eLife Sciences Publications Ltd.'),
+nil)
+
+entry!('ching2018opportunities',
+  article('Journal of The Royal Society Interface', 2018, 15),
+  title('Opportunities and obstacles for deep learning in biology and medicine'),
+  author('Travers Ching and Daniel S Himmelstein and Brett K Beaulieu-Jones and Alexandr A Kalinin and Brian T Do and Gregory P Way and Enrico Ferrero and Paul-Michael Agapow and Michael Zietz and Michael M Hoffman and others'),
+  number(141),
+  publisher('The Royal Society'),
+nil)
+
+entry!('eraslan2019deep',
+  article('Nature Reviews Genetics', 2019, 20),
+  title('Deep learning: new computational modelling techniques for genomics'),
+  author('G{\"o}kcen Eraslan and {\v{Z}}iga Avsec and Julien Gagneur and Fabian J Theis'),
+  number(7),
+  pages(389, 403),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('libbrecht2015machine',
+  article('Nature Reviews Genetics', 2015, 16),
+  title('Machine learning applications in genetics and genomics'),
+  author('Maxwell W Libbrecht and William Stafford Noble'),
+  number(6),
+  pages(321, 332),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('avsec2019deep',
+  article('bioRxiv', 2019),
+  title('Deep learning at base-resolution reveals motif syntax of the cis-regulatory code'),
+  author('{\v{Z}}iga Avsec and Melanie Weilert and Avanti Shrikumar and Amr Alexandari and Sabrina Krueger and Khyati Dalal and Robin Fropf and Charles McAnany and Julien Gagneur and Anshul Kundaje and Julia Zeitlinger'),
+  publisher('Cold Spring Harbor Laboratory'),
+nil)
+
+entry!('zhou2015predicting',
+  article('Nature methods', 2015, 12),
+  title('Predicting effects of noncoding variants with deep learning--based sequence model'),
+  author('Jian Zhou and Olga G Troyanskaya'),
+  number(10),
+  pages(931, 934),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('kelley2016basset',
+  article('Genome research', 2016, 26),
+  title('Basset: learning the regulatory code of the accessible genome with deep convolutional neural networks'),
+  author('David R Kelley and Jasper Snoek and John L Rinn'),
+  number(7),
+  pages(990, 999),
+  publisher('Cold Spring Harbor Lab'),
+nil)
+
+entry!('jaganathan2019predicting',
+  article('Cell', 2019, 176),
+  title('Predicting splicing from primary sequence with deep learning'),
+  author('Kishore Jaganathan and Sofia Kyriazopoulou Panagiotopoulou and Jeremy F McRae and Siavash Fazel Darbandi and David Knowles and Yang I Li and Jack A Kosmicki and Juan Arbelaez and Wenwu Cui and Grace B Schwartz and others'),
+  number(3),
+  pages(535, 548),
+  publisher('Elsevier'),
+nil)
+
+entry!('srivastava2020sequence',
+  article('Biochimica et Biophysica Acta (BBA)-Gene Regulatory Mechanisms', 2020, 1863),
+  title('Sequence and chromatin determinants of transcription factor binding and the establishment of cell type-specific binding patterns'),
+  author('Divyanshi Srivastava and Shaun Mahony'),
+  number(6),
+  publisher('Elsevier'),
+nil)
+
+entry!('keilwagen2019accurate',
+  article('Genome biology', 2019, 20),
+  title('Accurate prediction of cell type-specific transcription factor binding'),
+  author('Jens Keilwagen and Stefan Posch and Jan Grau'),
+  number(1),
+  publisher('Springer'),
+nil)
+
+entry!('quang2019factornet',
+  article('Methods', 2019, 166),
+  title('FactorNet: a deep learning framework for predicting cell type specific transcription factor binding from nucleotide-resolution sequential data'),
+  author('Daniel Quang and Xiaohui Xie'),
+  pages(40, 47),
+  publisher('Elsevier'),
+nil)
+
+entry!('li2019leopard',
+  article('bioRxiv', 2019),
+  title('Leopard: fast decoding cell type-specific transcription factor binding landscape at single-nucleotide resolution'),
+  author('Hongyang Li and Yuanfang Guan'),
+  publisher('Cold Spring Harbor Laboratory'),
+nil)
