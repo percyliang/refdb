@@ -5,7 +5,7 @@ entry!('koh2020wilds',
   title('{WILDS}: A Benchmark of in-the-Wild Distribution Shifts'),
   author('Pang Wei Koh* and Shiori Sagawa* and Henrik Marklund and Sang Michael Xie and Marvin Zhang and Akshay Balsubramani and Weihua Hu and Michihiro Yasunaga and Richard Lanas Phillips and Sara Beery and Jure Leskovec and Anshul Kundaje and Emma Pierson and Sergey Levine and Chelsea Finn and Percy Liang'),
   arxiv(2020),
-  extendedVersion,  # Hide for now
+  url('https://arxiv.org/pdf/2012.07421.pdf'),
 )
 
 entry!('jones2020selective',
@@ -19,7 +19,7 @@ entry!('xie2020innout',
   title('In-{N}-Out: Pre-Training and Self-Training using Auxiliary Information for Out-of-Distribution Robustness'),
   author('Sang Michael Xie* and Ananya Kumar* and Robert Jones* and Fereshte Khani and Tengyu Ma and Percy Liang'),
   arxiv(2020),
-  extendedVersion,  # Hide for now
+  url('https://arxiv.org/pdf/2012.04550.pdf'),
   unusualCapitalization('N'),
 )
 
@@ -276,6 +276,7 @@ entry!('lee2019autocomplete',
   author('Mina Lee and Tatsunori Hashimoto and Percy Liang'),
   inproceedings('Emergent Communication Workshop at Neural Information Processing Systems (NeurIPS)', 2019),
   url('https://arxiv.org/pdf/1911.06964.pdf'),
+  codalab('0x627dc6dc62874a45ba8abc6ada10e753'),
 nil)
 
 entry!('raghunathan2019hurt',
