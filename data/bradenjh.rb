@@ -25,7 +25,7 @@ entry!('zhang2016spectral',
 nil)
 
 entry!('balsubramani2015scalable',
-  nips(2015),
+  neurips(2015),
   title('Scalable semi-supervised aggregation of classifiers'),
   author('Akshay Balsubramani and Yoav Freund'),
   pages(1351, 1359),
@@ -149,7 +149,7 @@ entry!('younger1967recognition',
 nil)
 
 entry!('ratner2016data',
-  nips(2016),
+  neurips(2016),
   title('Data programming: Creating large training sets, quickly'),
   author('Alexander J Ratner and Christopher M De Sa and Sen Wu and Daniel Selsam and Christopher R\\\'{e}'),
   pages(3567, 3575),
@@ -184,7 +184,7 @@ entry!('srivastava2017joint',
 nil)
 
 entry!('ling2017teaching',
-  nips(2017),
+  neurips(2017),
   title('Teaching Machines to Describe Images via Natural Language Feedback'),
   author('Huan Ling and Sanja Fidler'),
 nil)
@@ -202,7 +202,7 @@ entry!('andreas2017learning',
 nil)
 
 entry!('weston2016dialog',
-  nips(2016),
+  neurips(2016),
   title('Dialog-based language learning'),
   author('Jason E Weston'),
   pages(829, 837),

@@ -158,7 +158,7 @@ nil)
 entry!('dai2015semi',
   author('Andrew M. Dai and Quoc V. Le'),
   title('Semi-supervised sequence learning'),
-  nips(2015),
+  neurips(2015),
 nil)
 
 entry!('dyer2016recurrent',
@@ -566,7 +566,7 @@ entry!('talmor2018web',
 nil)
 
 entry!('herzig2018mapping',
-  nips(2018),
+  neurips(2018),
   url('https://arxiv.org/pdf/1802.05451.pdf'),
   author('Roei Herzig and Moshiko Raboh and Gal Chechik and Jonathan Berant and Amir Globerson'),
   title('Mapping Images to Scene Graphs with Permutation-Invariant Structured Prediction'),
@@ -589,7 +589,7 @@ entry!('geva2018long',
 nil)
 
 entry!('liang2018mapo',
-  nips(2018),
+  neurips(2018),
   url('https://arxiv.org/pdf/1807.02322.pdf'),
   author('Chen Liang and Mohammad Norouzi and Jonathan Berant and Quoc Le and Ni Lao'),
   title('Memory Augmented Policy Optimization for Program Synthesis with Generalization'),

@@ -1,7 +1,7 @@
 entry!('elyaniv2011finance',
   author('Ran El-Yaniv and Dmitry Pidan'),
   title('Selective Prediction of Financial Trends with Hidden Markov Models'),
-  nips(2011),
+  neurips(2011),
 nil)
 
 entry!('zhang2019molecular',

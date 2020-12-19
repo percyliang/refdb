@@ -1,6 +1,6 @@
 # coding: utf-8
 entry!('bastani2016measuring',
-  nips(2016),
+  neurips(2016),
   title('Measuring neural net robustness with constraints'),
   author('Osbert Bastani and Yani Ioannou and Leonidas Lampropoulos and Dimitrios Vytiniotis and Aditya Nori and Antonio Criminisi'),
   pages(2613, 2621),
@@ -19,7 +19,7 @@ entry!('dvijotham2018dual',
 nil)
 
 entry!('hein2017formal',
-  nips(2017),
+  neurips(2017),
   title('Formal guarantees on the robustness of a classifier against adversarial manipulation'),
   author('Matthias Hein and Maksym Andriushchenko'),
   pages(2263, 2273),
@@ -38,7 +38,7 @@ entry!('dvijotham2018training',
 nil)
 
 entry!('wong2018scaling',
-  nips(2018),
+  neurips(2018),
   title('Scaling provable adversarial defenses'),
   author('Eric Wong and Frank Schmidt and Jan Hendrik Metzen and J Zico Kolter'),
 nil)
@@ -70,7 +70,7 @@ entry!('tsipras2018there',
 nil)
 
 entry!('schmidt2018adversarially',
-  nips(2018),
+  neurips(2018),
   title('Adversarially robust generalization requires more data'),
   author('Ludwig Schmidt and Shibani Santurkar and Dimitris Tsipras and Kunal Talwar and Aleksander Madry'),
   pages(5014, 5026),
@@ -149,7 +149,7 @@ entry!('zagoruyko2016wide',
 nil)
 
 entry!('oliver2018realistic',
-  nips(2018),
+  neurips(2018),
   title('Realistic evaluation of deep semi-supervised learning algorithms'),
   author('Avital Oliver and Augustus Odena and Colin A Raffel and Ekin Dogus Cubuk and Ian Goodfellow'),
   pages(3235, 3246),
@@ -168,7 +168,7 @@ entry!('laine2017temporal',
 nil)
 
 entry!('sajjadi2016regularization',
-  nips(2016),
+  neurips(2016),
   title('Regularization with stochastic transformations and perturbations for deep semi-supervised learning'),
   author('Mehdi Sajjadi and Mehran Javanmardi and Tolga Tasdizen'),
   pages(1163, 1171),
@@ -264,7 +264,7 @@ entry!('loshchilov2017sgdr',
 nil)
 
 entry!('uesato2019are',
-  nips(2019),
+  neurips(2019),
   title('Are Labels Required for Improving Adversarial Robustness?'),
   author('Jonathan Uesato and Jean-Baptiste Alayrac and Po-Sen Huang and Robert Stanforth and Alhussein Fawzi and Pushmeet Kohli'),
 nil)
@@ -288,7 +288,7 @@ entry!('khim2018adversarial',
 nil)
 
 entry!('najafi2019robustness',
-  nips(2019),
+  neurips(2019),
   title('Robustness to Adversarial Perturbations in Learning from Incomplete Data'),
   author('Amir Najafi and Shin-ichi Maeda and Masanori Koyama and Takeru Miyato'),
 nil)
@@ -340,7 +340,7 @@ entry!('engstrom2019exploring',
 nil)
 
 entry!('yang2019invariance',
-  nips(2019),
+  neurips(2019),
   title('Invariance-inducing regularization using worst-case transformations suffices to boost accuracy and spatial robustness'),
   author('Fanny Yang and Zuowen Wang and Christina Heinze-Deml'),
 nil)

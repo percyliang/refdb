@@ -337,7 +337,7 @@ entry!('kansagara2011risk',
 nil)
 
 entry!('jaakkola1999exploiting',
-  nips(1999),
+  neurips(1999),
   title('Exploiting generative models in discriminative classifiers'),
   author('Tommi S Jaakkola and David Haussler and others'),
   pages(487, 493),
@@ -791,7 +791,7 @@ entry!('euyu2012monomial',
 nil)
 
 entry!('you2017deep',
-  nips(2017),
+  neurips(2017),
   title('Deep Lattice Networks and Partial Monotonic Functions'),
   author('Seungil You and David Ding and Kevin Canini and Jan Pfeifer and Maya Gupta'),
   pages(2985, 2993),
@@ -1015,7 +1015,7 @@ entry!('arrieta2018should',
 nil)
 
 entry!('hayes2018contamination',
-  nips(2018),
+  neurips(2018),
   title('Contamination Attacks and Mitigation in Multi-Party Machine Learning'),
   author('Jamie Hayes and Olga Ohrimenko'),
   pages(6604, 6615),
@@ -1045,7 +1045,7 @@ entry!('bach2010self',
 nil)
 
 entry!('chen2018my',
-  nips(2018),
+  neurips(2018),
   title('Why Is My Classifier Discriminatory?'),
   author('Irene Chen and Fredrik D Johansson and David Sontag'),
   pages(3539, 3550),
@@ -1107,7 +1107,7 @@ entry!('zhang2017understanding',
 nil)
 
 entry!('hoffer2017train',
-  nips(2017),
+  neurips(2017),
   title('Train longer, generalize better: closing the generalization gap in large batch training of neural networks'),
   author('Elad Hoffer and Itay Hubara and Daniel Soudry'),
   pages(1731, 1741),
@@ -1165,7 +1165,7 @@ entry!('bertsekas2009convex',
 nil)
 
 entry!('cao2019learning',
-  nips(2019),
+  neurips(2019),
   title('Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss'),
   author('Kaidi Cao and Colin Wei and Adrien Gaidon and Nikos Arechiga and Tengyu Ma'),
 nil)
@@ -1376,7 +1376,7 @@ entry!('tiulpin2018automatic',
 nil)
 
 entry!('melis2018towards',
-  nips(2018),
+  neurips(2018),
   title('Towards robust interpretability with self-explaining neural networks'),
   author('David Alvarez Melis and Tommi Jaakkola'),
   pages(7775, 7784),
@@ -1392,7 +1392,7 @@ entry!('de2018clinically',
 nil)
 
 entry!('yi2018neural',
-  nips(2018),
+  neurips(2018),
   title('Neural-symbolic vqa: Disentangling reasoning from vision and language understanding'),
   author('Kexin Yi and Jiajun Wu and Chuang Gan and Antonio Torralba and Pushmeet Kohli and Josh Tenenbaum'),
   pages(1031, 1042),
@@ -1581,7 +1581,7 @@ entry!('o2020generative',
 nil)
 
 entry!('ghorbani2019towards',
-  nips(2019),
+  neurips(2019),
   title('Towards automatic concept-based explanations'),
   author('Amirata Ghorbani and James Wexler and James Y Zou and Been Kim'),
   pages(9277, 9286),
@@ -1594,7 +1594,7 @@ entry!('higgins2017beta',
 nil)
 
 entry!('chen2016infogan',
-  nips(2016),
+  neurips(2016),
   title('{InfoGAN}: Interpretable representation learning by information maximizing generative adversarial nets'),
   author('Xi Chen and Yan Duan and Rein Houthooft and John Schulman and Ilya Sutskever and Pieter Abbeel'),
 nil)
@@ -1797,7 +1797,7 @@ entry!('koenecke2020racial',
 nil)
 
 entry!('conneau2019cross',
-  nips(2019),
+  neurips(2019),
   title('Cross-lingual language model pretraining'),
   author('Alexis Conneau and Guillaume Lample'),
   pages(7059, 7069),
@@ -2148,7 +2148,7 @@ entry!('baumann2019spoken',
 nil)
 
 entry!('rabanser2019failing',
-  nips(2019),
+  neurips(2019),
   title('Failing loudly: An empirical study of methods for detecting dataset shift'),
   author('Stephan Rabanser and Stephan G{\"u}nnemann and Zachary Lipton'),
   pages(1396, 1408),

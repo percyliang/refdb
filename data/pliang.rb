@@ -51,7 +51,7 @@ nil)
 entry!('snoek12hyper',
   author('Jasper Snoek and Hugo Larochelle and Ryan P. Adams'),
   title('Practical {B}ayesian Optimization of Machine Learning Algorithms'),
-  nips(2012),
+  neurips(2012),
 nil)
 
 entry!('west95hyper',
@@ -77,7 +77,7 @@ nil)
 entry!('griffiths06ibp',
   author('Tom Griffiths and Zoubin Ghahramani'),
   title('Infinite Latent Feature Models and the {I}ndian Buffet Process'),
-  nips(2006),
+  neurips(2006),
 nil)
 
 entry!('thibaux07hbp',
@@ -113,13 +113,13 @@ nil)
 entry!('beal02ihmm',
   author('M. Beal and Z. Ghahramani and C. Rasmussen'),
   title('The infinite hidden {M}arkov model'),
-  nips(2002), pages(577, 584),
+  neurips(2002), pages(577, 584),
 nil)
 
 entry!('sohn07ihmm',
   author('K. Sohn and E. P. Xing'),
   title('A Hidden {M}arkov {D}irichlet Process Model for Genetic Recombination in Open Ancestral Space'),
-  nips(2007),
+  neurips(2007),
 nil)
 
 entry!('teh06pitmanyor',
@@ -137,7 +137,7 @@ nil)
 entry!('sudderth06transformed',
   author('E. B. Sudderth and A. B. Torralba and W. T. Freeman and A. S. Willsky'),
   title('Describing Visual Scenes using Transformed {D}irichlet Processes'),
-  nips(2006), pages(1297, 1304),
+  neurips(2006), pages(1297, 1304),
 nil)
 
 entry!('daume05clustering',
@@ -156,13 +156,13 @@ entry!('teh07collapsed',
   author('Y. W. Teh and D. Newman and M. Welling'),
   title('A Collapsed Variational {B}ayesian Inference Algorithm for {L}atent {D}irichlet {A}llocation'),
   unusualCapitalization('Latent', 'Allocation'),
-  nips(2007), pages(1353, 1360),
+  neurips(2007), pages(1353, 1360),
 nil)
 
 entry!('kurihara07accelerated',
   author('K. Kurihara and M. Welling and N. Vlassis'),
   title('Accelerated Variational {D}irichlet Mixture Models'),
-  nips(2007),
+  neurips(2007),
 nil)
 
 entry!('kurihara07collapsed',
@@ -470,19 +470,19 @@ nil)
 entry!('johnson06adaptor',
   author('Mark Johnson and Tom Griffiths and Sharon Goldwater'),
   title('Adaptor Grammars: A Framework for Specifying Compositional Nonparametric {B}ayesian Models'),
-  nips(2006), pages(641, 648),
+  neurips(2006), pages(641, 648),
 nil)
 
 entry!('blei04nested',
   author('D. Blei and T. Griffiths and M. I. Jordan and J. Tenenbaum'),
   title('Hierarchical topic models and the nested {C}hinese restaurant process'),
-  nips(2004),
+  neurips(2004),
 nil)
 
 entry!('goldwater05interpolate',
   author('Sharon Goldwater and Tom Griffiths and Mark Johnson'),
   title('Interpolating Between Types and Tokens by Estimating Power-Law Generators'),
-  nips(2005),
+  neurips(2005),
 nil)
 
 entry!('johnson07mcmc',
@@ -598,7 +598,7 @@ nil)
 entry!('paskin02bigrams',
   author('Mark A. Paskin'),
   title('Grammatical Bigrams'),
-  nips(2002),
+  neurips(2002),
 nil)
 
 entry!('klein04induction',
@@ -754,7 +754,7 @@ nil)
 entry!('ng02compare',
   author('Andrew Y. Ng and Michael I. Jordan'),
   title('On Discriminative vs. Generative classifiers: A comparison of logistic regression and naive {B}ayes'),
-  nips(2002),
+  neurips(2002),
 nil)
 
 entry!('white82mis',
@@ -784,7 +784,7 @@ nil)
 entry!('raina04hybrid',
   author('R. Raina and Y. Shen and A. Ng and A. McCallum'),
   title('Classification with hybrid generative/discriminative models'),
-  nips(2004),
+  neurips(2004),
 nil)
 
 entry!('suzuki07hybrid',
@@ -936,7 +936,7 @@ nil)
 entry!('blunsom09synchronous',
   author('Phil Blunsom and Trevor Cohn and Miles Osborne'),
   title('{B}ayesian Synchronous Grammar Induction'),
-  nips(2009),
+  neurips(2009),
 nil)
 
 entry!('wu97itg',
@@ -1027,7 +1027,7 @@ nil)
 entry!('crammar07multiple',
   author('Koby Crammar and Michael Kearns and Jennifer Wortman'),
   title('Learning from Multiple Sources'),
-  nips(2007),
+  neurips(2007),
 nil)
 
 entry!('punyakanok05constrained',
@@ -1131,7 +1131,7 @@ nil)
 entry!('bottou08large',
   author('Léon Bottou and Olivier Bousquet'),
   title('The Tradeoffs of Large Scale Learning'),
-  nips(2008),
+  neurips(2008),
 nil)
 
 entry!('shalev08inverse',
@@ -1191,7 +1191,7 @@ nil)
 entry!('graca08em',
   title('Expectation Maximization and Posterior Constraints'),
   author('João Graça and Kuzman Ganchev and Ben Taskar'),
-  nips(2008), pages(569, 576),
+  neurips(2008), pages(569, 576),
 nil)
 
 entry!('druck08ge',
@@ -1520,13 +1520,13 @@ nil)
 entry!('argyriou07feature',
   author('A. Argyriou and T. Evgeniou and M. Pontil'),
   title('Multi-task feature learning'),
-  nips(2007), pages(41, 48),
+  neurips(2007), pages(41, 48),
 nil)
 
 entry!('jacob09cluster',
   author('Laurent Jacob and Francis Bach and Jean-Philippe Vert'),
   title('Clustered Multi-Task Learning: A Convex Formulation'),
-  nips(2009), pages(745, 752),
+  neurips(2009), pages(745, 752),
 nil)
 
 entry!('bickel06regularization',
@@ -1929,7 +1929,7 @@ nil)
 entry!('needell2014kaczmarz',
   author('Deanna Needell and Nathan Srebro and Rachel Ward'),
   title('Stochastic Gradient Descent, Weighted Sampling, and the Randomized Kaczmarz algorithm'),
-  nips(2014),
+  neurips(2014),
 nil)
 
 entry!('srebro10stochastic',
@@ -2010,7 +2010,7 @@ nil)
 entry!('leroux2012sag',
   title('A Stochastic Gradient Method with an Exponential Convergence Rate for Finite Training Sets'),
   author('N. Le Roux and M. Schmidt and F. Bach'),
-  nips(2012),
+  neurips(2012),
 nil)
 
 entry!('shalev13stochastic',
@@ -2035,7 +2035,7 @@ nil)
 entry!('lin2014accelerated',
   title('An Accelerated Proximal Coordinate Gradient Method'),
   author('Qihang Lin and Zhaosong Lu and Lin Xiao'),
-  nips(2014),
+  neurips(2014),
 nil)
 
 entry!('xiao2014proximal',
@@ -2048,13 +2048,13 @@ nil)
 entry!('defazio2014saga',
   title('SAGA: A Fast Incremental Gradient Method With Support for Non-Strongly Convex Composite Objectives'),
   author('Aaron Defazio and Francis Bach and Simon Lacoste-Julien'),
-  nips(2014),
+  neurips(2014),
 nil)
 
 entry!('johnson13svrg',
   title('Accelerating Stochastic Gradient Descent using Predictive Variance Reduction'),
   author('Rie Johnson and Tong Zhang'),
-  nips(2013),
+  neurips(2013),
 nil)
 
 entry!('schaul14unittests',
@@ -2067,7 +2067,7 @@ nil)
 entry!('orabona14simultaneous',
   title('Simultaneous Model Selection and Optimization through Parameter-free Stochastic Learning'),
   author('Francesco Orabona'),
-  nips(2014),
+  neurips(2014),
 nil)
 
 entry!('frostig15competing',
@@ -2105,7 +2105,7 @@ nil)
 entry!('arlot10penalty',
   title('Data-driven calibration of linear estimators with minimal penalties'),
   author('Sylvain Arlot and Francis Bach'),
-  nips(2010), pages(46, 54),
+  neurips(2010), pages(46, 54),
 nil)
 
 entry!('kollar10directions',
@@ -2607,7 +2607,7 @@ nil)
 entry!('anandkumar11tree',
   title('Spectral Methods for Learning Multivariate Latent Tree Structure'),
   author('Animashree Anandkumar and Kamalika Chaudhuri and Daniel Hsu and Sham M. Kakade and Le Song and Tong Zhang'),
-  nips(2011),
+  neurips(2011),
   tags('spectral'),
 nil)
 
@@ -2691,13 +2691,13 @@ nil)
 entry!('quattoni04crf',
   title('Conditional Random Fields for Object Recognition'),
   author('A. Quattoni and M. Collins and T. Darrell'),
-  nips(2004),
+  neurips(2004),
 nil)
 
 entry!('petrov08discriminative',
   title('Discriminative Log-Linear Grammars with Latent Variables'),
   author('Slav Petrov and Dan Klein'),
-  nips(2008),
+  neurips(2008),
 nil)
 
 entry!('wang09crf',
@@ -2709,7 +2709,7 @@ nil)
 entry!('anandkumar12lda',
   title('Two {SVD}s Suffice: Spectral decompositions for probabilistic topic modeling and latent {D}irichlet allocation'),
   author('Animashree Anandkumar and Dean P. Foster and Daniel Hsu and Sham M. Kakade and Yi-Kai Liu'),
-  nips(2012),
+  neurips(2012),
   tags('spectral'),
 nil)
 
@@ -2729,7 +2729,7 @@ nil)
 entry!('ohlsson12phase',
   title('{CPRL} -- An Extension of Compressive Sensing to the Phase Retrieval Problem'),
   author('Henrik Ohlsson and Allen Yang and Roy Dong and Shankar Sastry'),
-  nips(2012),
+  neurips(2012),
 nil)
 
 entry!('donoho95soft',
@@ -2767,7 +2767,7 @@ nil)
 entry!('jenatton12latent',
   author('R. Jenatton and N. Le Roux and A. Bordes and G. Obozinski'),
   title('A latent factor model for highly multi-relational data'),
-  nips(2012),
+  neurips(2012),
 nil)
 
 entry!('nickel12yago',
@@ -2817,7 +2817,7 @@ nil)
 entry!('balle12automata',
   author('B. Balle and M. Mohri'),
   title('Spectral Learning of General Weighted Automata via Constrained Matrix Completion'),
-  nips(2012),
+  neurips(2012),
   tags('spectral'),
 nil)
 
@@ -2851,7 +2851,7 @@ nil)
 entry!('salakhutdinov09softmax',
   title('Replicated Softmax: an Undirected Topic Model'),
   author('Ruslan Salakhutdinov and Geoff Hinton'),
-  nips(2009),
+  neurips(2009),
 nil)
 
 entry!('kirkpatrick10painless',
@@ -2914,7 +2914,7 @@ entry!('huang2005better',
 nil)
 
 entry!('globerson2007fixing',
-  nips(2007),
+  neurips(2007),
   author('Amir Globerson and Tommi Jaakkola'),
   title('Fixing max-product: Convergent message passing algorithms for {MAP} {LP}-relaxations'),
   url('http://people.csail.mit.edu/~gamir/pubs/GloJaa_nips07.pdf'),
@@ -3398,7 +3398,7 @@ entry!('chang2005toward',
 nil)
 
 entry!('socher2011paraphrase',
-  nips(2011),
+  neurips(2011),
   title('Dynamic pooling and unfolding recursive autoencoders for paraphrase detection'),
   author('Richard Socher and Eric H Huang and Jeffrey Pennin and Christopher D Manning and Andrew Ng'),
   url('http://machinelearning.wustl.edu/mlpapers/paper_files/NIPS2011_0538.pdf'),
@@ -3730,7 +3730,7 @@ entry!('singh2011large',
 nil)
 
 entry!('snow2004learning',
-  nips(2004),
+  neurips(2004),
   author('Rion Snow and Daniel Jurafsky and Andrew Y Ng'),
   url('http://ilpubs.stanford.edu:8090/665/1/2004-48.pdf'),
   title('Learning syntactic patterns for automatic hypernym discovery'),
@@ -3745,13 +3745,13 @@ entry!('pauls2009kbest',
 nil)
 
 entry!('klein2002fast',
-  nips(2002),
+  neurips(2002),
   title('Fast exact inference with a factored model for natural language parsing'),
   author('Dan Klein and Christopher D Manning'),
 nil)
 
 entry!('song2011kernel',
-  nips(2011),
+  neurips(2011),
   author('Le Song and Eric P Xing and Ankur P Parikh'),
   pages(2708, 2716),
   url('http://machinelearning.wustl.edu/mlpapers/paper_files/NIPS2011_1479.pdf'),
@@ -3826,7 +3826,7 @@ entry!('bertot2004interactive',
 nil)
 
 entry!('taskar03maxmargin',
-  nips(2003),
+  neurips(2003),
   author('Ben Taskar and Carlos Guestrin and Daphne Koller'),
   title('Max-margin {M}arkov Networks'),
 nil)
@@ -3842,7 +3842,7 @@ entry!('jaeger2000observable',
 nil)
 
 entry!('ghahramani1999variational',
-  nips(1999),
+  neurips(1999),
   title('Variational Inference for {B}ayesian Mixtures of Factor Analysers'),
   author('Z. Ghahramani and M. J Beal'),
 nil)
@@ -4239,14 +4239,14 @@ entry!('recht2013parallel',
 nil)
 
 entry!('lee2010practical',
-  nips(2010),
+  neurips(2010),
   title('Practical large-scale optimization for max-norm regularization'),
   author('J. Lee and B. Recht and N. Srebro and J. Tropp and R. Salakhutdinov'),
   pages(1297, 1305),
 nil)
 
 entry!('krahenbuhl2011efficient',
-  nips(2011),
+  neurips(2011),
   title('Efficient inference in fully connected {CRF}s with {G}aussian edge potentials'),
   author('P. Kr{\\"a}henb{\\"u}hl and V. Koltun'),
 nil)
@@ -4266,7 +4266,7 @@ entry!('rush2010dual',
 nil)
 
 entry!('sontag2008outer',
-  nips(2008),
+  neurips(2008),
   title('New Outer Bounds on the Marginal Polytope'),
   author('D. Sontag and T. Jaakkola'),
   pages(1393, 1400),
@@ -4500,7 +4500,7 @@ entry!('delathauwer2001independent',
 nil)
 
 entry!('sutskever2009modelling',
-  nips(2009),
+  neurips(2009),
   pages(1821, 1828),
   title('Modelling Relational Data using {B}ayesian Clustered Tensor Factorization'),
   author('Ilya Sutskever and Ruslan Salakhutdinov and Joshua B Tenenbaum'),
@@ -4687,7 +4687,7 @@ nil)
 entry!('sutton1999policy',
   title('Policy gradient methods for reinforcement learning with function approximation'),
   author('Richard Sutton and David McAllester and Satinder Singh and Yishai Mansour'),
-  nips(1999),
+  neurips(1999),
 nil)
 
 entry!('yang2014joint',
@@ -4709,7 +4709,7 @@ entry!('vlachos2012investigation',
 nil)
 
 entry!('jiang2012learned',
-  nips(2012),
+  neurips(2012),
   author('Jiarong Jiang and Adam Teichert and Jason Eisner and Hal {Daum{\\\'e} III}'),
   title('Learned prioritization for trading off accuracy and speed'),
 nil)
@@ -4820,7 +4820,7 @@ entry!('zhang2014greed',
 nil)
 
 entry!('wick2011query',
-  nips(2011),
+  neurips(2011),
   title('Query-Aware {MCMC}'),
   author('Michael L Wick and Andrew McCallum'),
   pages(2564, 2572),
@@ -4851,7 +4851,7 @@ nil)
 entry!('rahimi2007random',
   title('Random Features for Large-Scale Kernel Machines'),
   author('Ali Rahimi and Ben Recht'),
-  nips(2007),
+  neurips(2007),
 nil)
 
 entry!('guler1992ppa',
@@ -5339,7 +5339,7 @@ entry!('kneser1995improved',
 nil)
 
 entry!('recht2011hogwild',
-  nips(2011),
+  neurips(2011),
   title('Hogwild: A lock-free approach to parallelizing stochastic gradient descent'),
   author('Benjamin Recht and Christopher Ré and Stephen Wright and Feng Niu'),
   pages(693, 701),
@@ -5379,7 +5379,7 @@ entry!('poon2011sum',
 nil)
 
 entry!('kulesza2007structured',
-  nips(2007),
+  neurips(2007),
   title('Structured learning with approximate inference'),
   author('Alex Kulesza and Fernando Pereira'),
   pages(785, 792),
@@ -5429,7 +5429,7 @@ entry!('sontag2010approximate',
 nil)
 
 entry!('weiss2010sidestepping',
-  nips(2010),
+  neurips(2010),
   title('Sidestepping intractable inference with structured ensemble cascades'),
   author('David Weiss and Benjamin Sapp and Ben Taskar'),
   pages(2415, 2423),
@@ -5788,7 +5788,7 @@ entry!('neelakantan2015compositional',
 nil)
 
 entry!('socher2013reasoning',
-  nips(2013),
+  neurips(2013),
   title('Reasoning with neural tensor networks for knowledge base completion'),
   author('Richard Socher and Danqi Chen and Christopher D Manning and Andrew Ng'),
   pages(926, 934),
@@ -5802,7 +5802,7 @@ entry!('min2013distant',
 nil)
 
 entry!('bordes2013translating',
-  nips(2013),
+  neurips(2013),
   title('Translating embeddings for modeling multi-relational data'),
   author('Antoine Bordes and Nicolas Usunier and Alberto Garcia-Duran and Jason Weston and Oksana Yakhnenko'),
   pages(2787, 2795),
@@ -5864,7 +5864,7 @@ entry!('le2015simple',
 nil)
 
 entry!('livni2014computational',
-  nips(2014),
+  neurips(2014),
   title('On the Computational Efficiency of Training Neural Networks'),
   author('Roi Livni and Shai Shalev-Shwartz and Ohad Shamir'),
   pages(855, 863),
@@ -6244,7 +6244,7 @@ entry!('koppula2013anticipating',
 nil)
 
 entry!('koppula2011semantic',
-  nips(2011),
+  neurips(2011),
   title('Semantic Labeling of 3{D} Point Clouds for Indoor Scenes'),
   author('H.S. Koppula and A. Anand and T. Joachims and A. Saxena'),
 nil)
@@ -6481,7 +6481,7 @@ entry!('gardner2014incorporating',
 nil)
 
 entry!('nickel2014reducing',
-  nips(2014),
+  neurips(2014),
   title('Reducing the Rank in Relational Factorization Models by Including Observable Patterns'),
   author('Maximilian Nickel and Xueyan Jiang and Volker Tresp'),
   pages(1179, 1187),
@@ -6607,7 +6607,7 @@ entry!('chai2004test',
 nil)
 
 entry!('esmeir2007anytime',
-  nips(2007),
+  neurips(2007),
   title('Anytime induction of cost-sensitive trees'),
   author('Saher Esmeir and Shaul Markovitch'),
   pages(425, 432),
@@ -6907,7 +6907,7 @@ nil)
 entry!('mansinghka2013approximate',
   title('Approximate {B}ayesian image interpretation using generative probabilistic graphics programs'),
   author('Vikash Mansinghka and Tejas D. Kulkarni and Yura N. Perov and Josh Tenenbaum'),
-  nips(2013), pages(1520, 1528),
+  neurips(2013), pages(1520, 1528),
 nil)
 
 entry!('fisher2012example',
@@ -6940,7 +6940,7 @@ nil)
 entry!('krizhevsky2012imagenet',
   title('Imagenet classification with deep convolutional neural networks'),
   author('Alex Krizhevsky and Ilya Sutskever and  Geoffrey E Hinton'),
-  nips(2012), pages(1097, 1105),
+  neurips(2012), pages(1097, 1105),
 nil)
 
 entry!('viele2002regression',
@@ -7075,14 +7075,14 @@ entry!('chu2011unbiased',
 nil)
 
 entry!('golovin2010near',
-  nips(2010),
+  neurips(2010),
   title('Near-optimal {B}ayesian active learning with noisy observations'),
   author('Daniel Golovin and Andreas Krause and Debajyoti Ray'),
   pages(766, 774),
 nil)
 
 entry!('tong2000active',
-  nips(2000),
+  neurips(2000),
   title('Active learning for parameter estimation in {B}ayesian networks'),
   author('Simon Tong and Daphne Koller'),
   volume(13),
@@ -7141,7 +7141,7 @@ entry!('lasecki2011realtime',
 nil)
 
 entry!('gao2011active',
-  nips(2011),
+  neurips(2011),
   title('Active classification based on value of classifier'),
   author('Tianshi Gao and Daphne Koller'),
   pages(1062, 1070),
@@ -7171,7 +7171,7 @@ entry!('kocsis2006bandit',
 nil)
 
 entry!('weiss2013adaptive',
-  nips(2013),
+  neurips(2013),
   title('Learning adaptive value of information for structured prediction'),
   author('David J Weiss and Ben Taskar'),
   pages(953, 961),
@@ -7262,7 +7262,7 @@ entry!('vinyals2014show',
 nil)
 
 entry!('sutskever2014sequence',
-  nips(2014),
+  neurips(2014),
   title('Sequence to sequence learning with neural networks'),
   author('Ilya Sutskever and Oriol Vinyals and Quoc V. Le'),
   pages(3104, 3112),
@@ -7299,7 +7299,7 @@ entry!('yin2015convolutional',
 nil)
 
 entry!('hu2014convolutional',
-  nips(2014),
+  neurips(2014),
   title('Convolutional neural network architectures for matching natural language sentences'),
   author('Baotian Hu and Zhengdong Lu and Hang Li and Qingcai Chen'),
 nil)
@@ -7498,14 +7498,14 @@ entry!('hinton2012improving',
 nil)
 
 entry!('ba2013adaptive',
-  nips(2013),
+  neurips(2013),
   title('Adaptive dropout for training deep neural networks'),
   author('Jimmy Ba and Brendan Frey'),
   pages(3084, 3092),
 nil)
 
 entry!('baldi2013understanding',
-  nips(2013),
+  neurips(2013),
   title('Understanding dropout'),
   author('Pierre Baldi and Peter J Sadowski'),
   pages(2814, 2822),
@@ -7533,7 +7533,7 @@ entry!('goodfellow2013maxout',
 nil)
 
 entry!('vinyals2015grammar',
-  nips(2015),
+  neurips(2015),
   title('Grammar as a Foreign Language'),
   author('Oriol Vinyals and Lukasz Kaiser and Terry Koo and Slav Petrov and Ilya Sutskever and Geoffrey Hinton'),
   pages(2755, 2763),
@@ -7541,7 +7541,7 @@ entry!('vinyals2015grammar',
 nil)
 
 entry!('vinyals2015pointer',
-  nips(2015),
+  neurips(2015),
   title('Pointer Networks'),
   author('Oriol Vinyals and Meire Fortunato and Navdeep Jaitly'),
   pages(2674, 2682),
@@ -7644,7 +7644,7 @@ entry!('simard1998transformation',
 nil)
 
 entry!('scholkopf1997improving',
-  nips(1997),
+  neurips(1997),
   title('Improving the accuracy and speed of support vector machines'),
   pages(375, 381),
   author('Simard P Sch{\"o}lkopf and Patrice Simard and Vladimir Vapnik and AJ Smola'),
@@ -7821,7 +7821,7 @@ nil)
 entry!('sculley2015hidden',
   title('Hidden Technical Debt in Machine Learning Systems'),
   author('D. Sculley and Gary Holt and Daniel Golovin and Eugene Davydov and Todd Phillips and Dietmar Ebner and Vinay Chaudhary and Michael Young and Jean-Fran{\c{c}}ois Crespo and Dan Dennison'),
-  nips(2015), pages(2494, 2502),
+  neurips(2015), pages(2494, 2502),
 nil)
 
 entry!('bottou2015two',
@@ -8279,7 +8279,7 @@ nil)
 entry!('chow2015risk',
   title('Risk-Sensitive and Robust Decision-Making: a {CV}a{R} Optimization Approach'),
   author('Yinlam Chow and Aviv Tamar and Shie Mannor and Marco Pavone'),
-  nips(2015), pages(1522, 1530),
+  neurips(2015), pages(1522, 1530),
 nil)
 
 entry!('shafer2008tutorial',
@@ -8406,7 +8406,7 @@ nil)
 entry!('smith2013pragmatics',
   title('Learning and using language via recursive pragmatic reasoning about other agents'),
   author('Nathaniel J. Smith and Noah D. Goodman and Michael C. Frank'),
-  nips(2013),
+  neurips(2013),
   pages(3039,3047),
 nil)
 
@@ -8544,7 +8544,7 @@ nil)
 entry!('hermann2015read',
   title('Teaching Machines to Read and Comprehend'),
   author('Karl Moritz Hermann and Tomáš Kočiský and Edward Grefenstette and Lasse Espeholt and Will Kay and Mustafa Suleyman and Phil Blunsom'),
-  nips(2015),
+  neurips(2015),
 nil)
 
 entry!('iyyer2014factoid',
@@ -8588,7 +8588,7 @@ nil)
 entry!('zhang2015character',
   author('Xiang Zhang and Junbo Zhao and Yann LeCun'),
   title('Character-level Convolutional Networks for Text Classification'),
-  nips(2015),
+  neurips(2015),
 nil)
 
 entry!('wang2015petpeeves',
@@ -8755,7 +8755,7 @@ nil)
 entry!('lee2001algorithms',
   title('Algorithms for non-negative matrix factorization'),
   author('Daniel D. Lee and Sebastian H. Seung'),
-  nips(2001), pages(556, 562),
+  neurips(2001), pages(556, 562),
 nil)
 
 entry!('karger2014budget',
@@ -8777,7 +8777,7 @@ nil)
 entry!('shah2015double',
   title('Double or nothing: Multiplicative incentive mechanisms for crowdsourcing'),
   author('Nihar B. Shah and Denny Zhou'),
-  nips(2015),
+  neurips(2015),
 nil)
 
 entry!('zhou2015regularized',
@@ -9116,14 +9116,14 @@ entry!('goodman2014concepts',
 nil)
 
 entry!('kemp2007learning',
-  nips(2007),
+  neurips(2007),
   title('Learning and using relational theories'),
   author('Charles Kemp and Noah Goodman and Joshua B Tenenbaum'),
   pages(753, 760),
 nil)
 
 entry!('lake2013one',
-  nips(2013),
+  neurips(2013),
   title('One-shot learning by inverting a compositional causal process'),
   author('Brenden M Lake and Ruslan R Salakhutdinov and Josh Tenenbaum'),
   pages(2526, 2534),
@@ -9673,7 +9673,7 @@ nil)
 entry!('bach2010structured',
   title('Structured sparsity-inducing norms through submodular functions'),
   author('Francis R. Bach'),
-  nips(2010), pages(118, 126),
+  neurips(2010), pages(118, 126),
 nil)
 
 entry!('kumar2010clustering',
@@ -9704,7 +9704,7 @@ nil)
 entry!('bansal2014provable',
   title('A provable {SVD}-based algorithm for learning topics in dominant admixture corpus'),
   author('Trapit Bansal and Chiranjib Bhattacharyya and Ravindran Kannan'),
-  nips(2014),
+  neurips(2014),
 nil)
 
 entry!('diakonikolas2016robust',
@@ -9743,7 +9743,7 @@ nil)
 entry!('sontag2011complexity',
   title('Complexity of Inference in Latent {D}irichlet Allocation'),
   author('David Sontag and Dan Roy'),
-  nips(2011),
+  neurips(2011),
 nil)
 
 entry!('lei2015consistency',
@@ -9788,7 +9788,7 @@ nil)
 entry!('steinhardt2016avoiding',
   title(' Avoiding Imposters and Delinquents: Adversarial Crowdsourcing and Peer Prediction'),
   author('Jacob Steinhardt and Gregory Valiant and Moses Charikar'),
-  nips(2016),
+  neurips(2016),
 nil)
 
 entry!('kearns1993learning',
@@ -9826,7 +9826,7 @@ nil)
 entry!('bhatia2015robust',
   title('Robust regression via hard thresholding'),
   author('Kush Bhatia and Prateek Jain and Puroshottam Kar'),
-  nips(2015), pages(721, 729),
+  neurips(2015), pages(721, 729),
 nil)
 
 entry!('chandrasekaran2011rank',
@@ -9893,7 +9893,7 @@ nil)
 entry!('bendavid2006analysis',
   author('Shai Ben-David and John Blitzer and Koby Crammer and Fernando Pereira'),
   title('Analysis of representations for domain adaptation'),
-  nips(2006), pages(137, 144),
+  neurips(2006), pages(137, 144),
 nil)
 
 entry!('johansson2016learning',
@@ -10048,7 +10048,7 @@ entry!('kadlec2016text',
 nil)
 
 entry!('sukhbaatar2015end',
-  nips(2015),
+  neurips(2015),
   title('End-to-end memory networks'),
   author('Sainbayar Sukhbaatar and Jason Weston and Rob Fergus'),
 nil)
@@ -10159,7 +10159,7 @@ nil)
 entry!('zha2001spectral',
   author('Hongyuan Zha and Xiaofeng He and Chris Ding and Horst Simon and Ming Gu'),
   title('Spectral relaxation for {k}-means clustering'),
-  nips(2001),
+  neurips(2001),
   pages(1057, 1064),
 nil)
 
@@ -10475,7 +10475,7 @@ nil)
 entry!('li2016data',
   title('Data Poisoning Attacks on Factorization-Based Collaborative Filtering'),
   author('Bo Li and Yining Wang and Aarti Singh and Yevgeniy Vorobeychik'),
-  nips(2016),
+  neurips(2016),
 nil)
 
 entry!('biggio2014securitysvm',
@@ -10587,7 +10587,7 @@ nil)
 entry!('nasrabadi2011robust',
   title('Robust lasso with missing and grossly corrupted observations'),
   author('Nasser M. Nasrabadi and Trac D. Tran and Nam Nguyen'),
-  nips(2011),
+  neurips(2011),
 nil)
 
 entry!('newsome2006paragraph',
@@ -10636,7 +10636,7 @@ nil)
 entry!('kakade2009complexity',
   title('On the complexity of linear prediction: Risk bounds, margin bounds, and regularization'),
   author('Sham M. Kakade and Karthik Sridharan and Ambuj Tewari'),
-  nips(2009),
+  neurips(2009),
 nil)
 
 entry!('xiao2010rda',
@@ -11232,7 +11232,7 @@ entry!('shivaswamy2010empirical',
 nil)
 
 entry!('namkoong2017variance',
-  nips(2017),
+  neurips(2017),
   title('Variance regularization with convex objectives'),
   author('Hongseok Namkoong and John Duchi'),
 nil)

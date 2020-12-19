@@ -1,7 +1,7 @@
 entry!('liu2017imagetoimage',
   author('Ming-Yu Liu and Thomas Breuel and Jan Kautz'),
   title('Unsupervised Image-to-Image Translation Networks'),
-  nips(2017),
+  neurips(2017),
 nil)
 
 entry!('larsen2016autoencoding',

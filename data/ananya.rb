@@ -166,7 +166,7 @@ nil)
 entry!('kull2019temperature',
   title('Beyond temperature scaling: Obtaining well-calibrated multi-class probabilities with Dirichlet calibration'),
   author('Meelis Kull and Miquel Perello Nieto and Markus Kängsepp and Telmo Silva Filho and Hao Song and Peter Flach'),
-  nips(2019),
+  neurips(2019),
 nil)
 
 entry!('efron1979bootstrap',
@@ -178,7 +178,7 @@ nil)
 entry!('widmann2019calibration',
   title('Calibration tests in multi-class classification: A unifying framework'),
   author('David Widmann and Fredrik Lindsten and Dave Zachariah'),
-  nips(2019),
+  neurips(2019),
 nil)
 
 entry!('vaicenavicius2019calibration',
@@ -240,7 +240,7 @@ nil)
 entry!('huang2006correcting',
   title('Correcting Sample Selection Bias by Unlabeled Data'),
   author('Huang, Jiayuan and Smola, Alexander J. and Gretton, Arthur and Borgwardt, Karsten M. and Scholkopf, Bernhard'),
-  nips(2006),
+  neurips(2006),
 nil)
 
 entry!('sugiyama2007covariate',
@@ -310,7 +310,7 @@ nil)
 entry!('singh2008unlabeled',
   title('Unlabeled data: Now it helps, now it doesn\'t'),
   author('Aarti Singh and Robert Nowak and Jerry Zhu'),
-  nips(2008),
+  neurips(2008),
 nil)
 
 entry!('shai2008unlabeled',

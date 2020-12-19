@@ -442,7 +442,7 @@ entry!('krishna2016embracing',
 
 entry!('christiano2017deep',
   author('Paul Christiano and Jan Leike and Tom B. Brown and Miljan Martic and Shane Legg and Dario Amodei'),
-  nips(2017),
+  neurips(2017),
   title('Deep Reinforcement Learning from Human Preferences'),
   nil)
 

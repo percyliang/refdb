@@ -99,7 +99,7 @@ entry!('goodman2016pragmatic',
 nil)
 
 entry!('foerster2016learning',
-  nips(2016),
+  neurips(2016),
   title('Learning to communicate with deep multi-agent reinforcement learning'),
   author('Jakob Foerster and Yannis M Assael and Nando de Freitas and Shimon Whiteson'),
   pages(2137, 2145),
@@ -118,7 +118,7 @@ entry!('mordatch2018emergence',
 nil)
 
 entry!('sukhbaatar2016learning',
-  nips(2016),
+  neurips(2016),
   title('Learning multiagent communication with backpropagation'),
   author('Sainbayar Sukhbaatar and Rob Fergus and others'),
   pages(2244, 2252),
@@ -318,7 +318,7 @@ nil)
 
 
 entry!('bolukbasi2016man',
-  nips(2016),
+  neurips(2016),
   title('Man is to computer programmer as woman is to homemaker? debiasing word embeddings'),
   author('Tolga Bolukbasi and Kai-Wei Chang and James Y Zou and Venkatesh Saligrama and Adam T Kalai'),
   pages(4349, 4357),
@@ -408,7 +408,7 @@ entry!('dekel2015epistemic',
 nil)
 
 entry!('kilbertus2017avoiding',
-  nips(2017),
+  neurips(2017),
   title('Avoiding discrimination through causal reasoning'),
   author('Niki Kilbertus and Mateo Rojas Carulla and Giambattista Parascandolo and Moritz Hardt and Dominik Janzing and Bernhard Sch{\"o}lkopf'),
   pages(656, 666),
@@ -600,7 +600,7 @@ entry!('ustun2019fairness',
 nil)
 
 entry!('lipton2018does',
-  nips(2018),
+  neurips(2018),
   title('Does mitigating ML\'s impact disparity require treatment disparity?'),
   author('Zachary Lipton and Julian McAuley and Alexandra Chouldechova'),
   pages(8125, 8135),
@@ -752,7 +752,7 @@ entry!('simoiu2017problem',
 nil)
 
 entry!('calmon2017optimized',
-  nips(2017),
+  neurips(2017),
   title('Optimized pre-processing for discrimination prevention'),
   author('Flavio Calmon and Dennis Wei and Bhanukiran Vinzamuri and Karthikeyan Natesan Ramamurthy and Kush R Varshney'),
   pages(3992, 4001),
@@ -941,7 +941,7 @@ entry!('beutel2017data',
 nil)
 
 entry!('zhao2019inherent',
-  nips(2019),
+  neurips(2019),
   title('Inherent Tradeoffs in Learning Fair Representations'),
   author('H. Zhao and Geoff Gordon'),
 nil)
@@ -991,7 +991,7 @@ entry!('quadrianto2019discovering',
 nil)
 
 entry!('gunasekar2017implicit',
-  nips(2017),
+  neurips(2017),
   title('Implicit regularization in matrix factorization'),
   author('Suriya Gunasekar and Blake E Woodworth and Srinadh Bhojanapalli and Behnam Neyshabur and Nati Srebro'),
   pages(6151, 6159),

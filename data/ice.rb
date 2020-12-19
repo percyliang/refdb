@@ -53,7 +53,7 @@ nil)
 entry!('nogueira2016end',
   title('End-to-End Goal-Driven Web Navigation'),
   author('Rodrigo Nogueira and Kyunghyun Cho'),
-  nips(2016),
+  neurips(2016),
 nil)
 
 entry!('yeh2009sikuli',
@@ -116,7 +116,7 @@ nil)
 entry!('hamilton2017inductive',
   title('Inductive Representation Learning on Large Graphs'),
   author('William L. Hamilton and Rex Ying and Jure Leskovec'),
-  nips(2017),
+  neurips(2017),
 nil)
 
 entry!('kipf2017semi',
@@ -173,7 +173,7 @@ nil)
 entry!('kiros2015skip',
   title('Skip-Thought Vectors'),
   author('Ryan Kiros and Yukun Zhu and Ruslan Salakhutdinov and Richard S. Zemel and Raquel Urtasun and Antonio Torralba and Sanja Fidler'),
-  nips(2015),
+  neurips(2015),
 nil)
 
 entry!('zajicek1998blind',

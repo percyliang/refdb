@@ -96,7 +96,7 @@ nil)
 entry!('huesel2017gans',
        title('GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium'),
        author('Martin Heusel and Hubert Ramsauer and Thomas Unterthiner and Bernhard Nessler and Sepp Hochreiter'),
-       nips(2017),
+       neurips(2017),
 nil)
 entry!('bruni2017adversarial',
        title('Adversarial Evaluation for Open-Domain Dialogue Generation'),

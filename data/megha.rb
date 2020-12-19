@@ -58,7 +58,7 @@ nil)
 entry!('yao2017parity',
   title('Beyond Parity:Fairness Objectives for Collaborative Filtering'),
   author('Sirui Yao and Bert Huang'),
-  nips(2017),
+  neurips(2017),
 nil)
 
 entry!('landeiro2016confounder',
@@ -174,7 +174,7 @@ entry!('van2015causal',
 entry!('singh2019fair',
   title('Fair Predictors under Distribution Shift'),
   author('Harvineet Singh and Rina Singh and Vishwali Mhasawade and Rumi Chunara'),
-  nips(2019),
+  neurips(2019),
 nil)
 
 entry!('ghassemi2019health',

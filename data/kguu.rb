@@ -76,14 +76,14 @@ entry!('venkatraman2015improving',
 nil)
 
 entry!('bengio2015scheduled',
-  nips(2015),
+  neurips(2015),
   title('Scheduled sampling for sequence prediction with recurrent neural networks'),
   author('Samy Bengio and Oriol Vinyals and Navdeep Jaitly and Noam Shazeer'),
   pages(1171, 1179),
 nil)
 
 entry!('bellemare2016unifying',
-  nips(2016),
+  neurips(2016),
   title('Unifying count-based exploration and intrinsic motivation'),
   author('Marc Bellemare and Sriram Srinivasan and Georg Ostrovski and Tom Schaul and David Saxton and Remi Munos'),
   pages(1471, 1479),
@@ -259,7 +259,7 @@ entry!('hester2018deep',
 nil)
 
 entry!('kim2013learning',
-  nips(2013),
+  neurips(2013),
   title('Learning from limited demonstrations'),
   author('Beomjoon Kim and Amir massoud Farahmand and Joelle Pineau and Doina Precup'),
   pages(2859, 2867),

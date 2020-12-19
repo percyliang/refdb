@@ -78,7 +78,7 @@ entry!('dathathri2020sdp',
   codalab('0x39ba5559790b4099a7ff75f916ce19a4'),
   title('Enabling certification of verification-agnostic networks via memory-efficient semidefinite programming'),
   author('Sumanth Dathathri* and Krishnamurthy Dvijotham* and Alexey Kurakin* and Aditi Raghunathan* and Jonathan Uesato* and Rudy Bunel and Shreya Shankar and Jacob Steinhardt and Ian Goodfellow and Percy Liang and Pushmeet Kohli'),
-  nips(2020),
+  neurips(2020),
   url('https://arxiv.org/pdf/2010.11645.pdf'),
 nil)
 
@@ -243,14 +243,14 @@ nil)
 entry!('kulal2019spoc',
   title('SPoC: Search-based Pseudocode to Code'),
   author('Sumith Kulal and Panupong Pasupat and Kartik Chandra and Mina Lee and Oded Padon and Alex Aiken and Percy Liang'),
-  nips(2019),
+  neurips(2019),
   url('https://arxiv.org/pdf/1906.04908.pdf'),
 nil)
 
 entry!('carmon2019unlabeled',
   title('Unlabeled Data Improves Adversarial Robustness'),
   author('Yair Carmon* and Aditi Raghunathan* and Ludwig Schmidt and Percy Liang and John C. Duchi'),
-  nips(2019),
+  neurips(2019),
   url('https://arxiv.org/pdf/1905.13736.pdf'),
   codalab('0x9df253b24dac4a2b930108be9c6e5496'),
 nil)
@@ -258,7 +258,7 @@ nil)
 entry!('kumar2019calibration',
   title('Verified Uncertainty Calibration'),
   author('Ananya Kumar and Percy Liang and Tengyu Ma'),
-  nips(2019),
+  neurips(2019),
   url('https://arxiv.org/pdf/1909.10155.pdf'),
   codalab('0xb6d027ee127e422989ab9115726c5411'),
 nil)
@@ -266,7 +266,7 @@ nil)
 entry!('koh2019influence',
   title('On the Accuracy of Influence Functions for Measuring Group Effects'),
   author('Pang Wei Koh* and Kai-Siang Ang* and Hubert H. K. Teo* and Percy Liang'),
-  nips(2019),
+  neurips(2019),
   url('https://arxiv.org/pdf/1905.13289.pdf'),
   codalab('0x43e8ecea53bf4186a7992c9028409320'),
 nil)
@@ -360,14 +360,14 @@ nil)
 entry!('raghunathan2018sdp',
   title('Semidefinite relaxations for certifying robustness to adversarial examples'),
   author('Aditi Raghunathan and Jacob Steinhardt and Percy Liang'),
-  nips(2018),
+  neurips(2018),
   url('https://arxiv.org/pdf/1811.01057.pdf'),
 nil)
 
 entry!('mussmann2018sgd',
   title('Uncertainty Sampling is Preconditioned Stochastic Gradient Descent on Zero-One Loss'),
   author('Stephen Mussmann and Percy Liang'),
-  nips(2018),
+  neurips(2018),
   codalab('0xf8dfe5bcc1dc408fb54b3cc15a5abce8'),
   url('https://arxiv.org/pdf/1812.01815.pdf'),
 nil)
@@ -375,7 +375,7 @@ nil)
 entry!('hashimoto2018edit',
   title('A Retrieve-and-Edit Framework for Predicting Structured Outputs'),
   author('Tatsunori Hashimoto and Kelvin Guu and Yonatan Oren and Percy Liang'),
-  nips(2018),
+  neurips(2018),
   url('https://arxiv.org/pdf/1812.01194.pdf'),
   codalab('0x1ad3f387005c492ea913cf0f20c9bb89'),
 nil)
@@ -525,7 +525,7 @@ nil)
 entry!('steinhardt2017certified',
   author('Jacob Steinhardt and Pang Wei Koh and Percy Liang'),
   title('Certified Defenses for Data Poisoning Attacks'),
-  nips(2017),
+  neurips(2017),
   url('http://arxiv.org/pdf/1706.03691.pdf'),
   codalab('0xbdd35bdd83b14f6287b24c9418983617'),
 nil)
@@ -533,7 +533,7 @@ nil)
 entry!('hashimoto2017transformation',
   author('Tatsunori B. Hashimoto and John Duchi and Percy Liang'),
   title('Unsupervised Transformation Learning via Convex Relaxations'),
-  nips(2017),
+  neurips(2017),
   url('https://arxiv.org/pdf/1711.02226.pdf'),
   codalab('0x4412d72b55df47e5b457dacdba91f105'),
 nil)
@@ -541,7 +541,7 @@ nil)
 entry!('sharan2017overcomplete',
   author('Vatsal Sharan and Sham Kakade and Percy Liang and Gregory Valiant'),
   title('Learning Overcomplete {HMM}s'),
-  nips(2017),
+  neurips(2017),
   url('https://arxiv.org/pdf/1711.02309.pdf'),
 nil)
 
@@ -647,7 +647,7 @@ nil)
 entry!('steinhardt2016risk',
   author('Jacob Steinhardt and Percy Liang'),
   title('Unsupervised Risk Estimation Using Only Conditional Independence Structure'),
-  nips(2016),
+  neurips(2016),
   url('https://arxiv.org/pdf/1606.05313.pdf'),
 nil)
 
@@ -756,7 +756,7 @@ entry!('berant2015agenda',
 nil)
 
 entry!('steinhardt2015relaxed',
-  nips(2015),
+  neurips(2015),
   title('Learning with Relaxed Supervision'),
   author('Jacob Steinhardt and Percy Liang'),
   url('relaxed-nips2015.pdf'),
@@ -764,7 +764,7 @@ entry!('steinhardt2015relaxed',
 nil)
 
 entry!('wang2015polynomial',
-  nips(2015),
+  neurips(2015),
   title('Estimating Mixture Models via Mixture of Polynomials'),
   author('Sida I. Wang and Arun Chaganty and Percy Liang'),
   url('polynomial-nips2015.pdf'),
@@ -772,7 +772,7 @@ entry!('wang2015polynomial',
 nil)
 
 entry!('werling2015onthejob',
-  nips(2015),
+  neurips(2015),
   title('On-the-Job Learning with {B}ayesian Decision Theory'),
   author('Keenon Werling and Arun Chaganty and Percy Liang and Chris Manning'),
   url('onthejob-nips2015.pdf'),
@@ -780,7 +780,7 @@ entry!('werling2015onthejob',
 nil)
 
 entry!('kuleshov2015calibrated',
-  nips(2015),
+  neurips(2015),
   title('Calibrated Structured Prediction'),
   author('Volodymyr Kuleshov and Percy Liang'),
   url('calibration-nips2015.pdf'),
@@ -944,14 +944,14 @@ nil)
 entry!('wager2014altitude',
   title('Altitude Training: Strong Bounds for Single-Layer Dropout'),
   author('Stefan Wager and Will Fithian and Sida I. Wang and Percy Liang'),
-  nips(2014),
+  neurips(2014),
   url('http://arxiv.org/pdf/1407.3289.pdf'),
 nil)
 
 entry!('frostig2014lowrank',
   title('Simple {MAP} inference via low-rank relaxations'),
   author('Roy Frostig and Sida I. Wang and Percy Liang and Chris Manning'),
-  nips(2014),
+  neurips(2014),
   url('http://cs.stanford.edu/~rfrostig/pubs/lowrank-nips2014.pdf'),
   codalab('0x106abb3b47be492aa7387f528c943faa'),
 nil)
@@ -994,7 +994,7 @@ nil)
 entry!('wager2013dropout',
   author('Stefan Wager and Sida I. Wang and Percy Liang'),
   title('Dropout Training as Adaptive Regularization'),
-  nips(2013),
+  neurips(2013),
   url('http://arxiv.org/pdf/1307.1493.pdf'),
   posterurl('dropout-nips2013-poster.pdf'),
 nil)
@@ -1027,7 +1027,7 @@ nil)
 entry!('hsu12identifiability',
   author('Daniel Hsu and Sham M. Kakade and Percy Liang'),
   title('Identifiability and Unmixing of Latent Parse Trees'),
-  nips(2012),
+  neurips(2012),
   abstract('This paper explores unsupervised learning of parsing models along two directions. First, which models are identifiable from infinite data? We use a general technique for numerically checking identifiability based on the rank of a Jacobian matrix, and apply it to several standard constituency and dependency parsing models. Second, for identifiable models, how do we estimate the parameters efficiently? EM suffers from local optima, while recent work using spectral methods cannot be directly applied since the topology of the parse tree varies across sentences. We develop a strategy, unmixing, which deals with this additional complexity for restricted classes of parsing models.'),
   url('identifiability-nips2012.pdf'),
   posterurl('identifiability-nips2012-poster.pdf'),
@@ -1170,7 +1170,7 @@ nil)
 entry!('liang09regularization',
   author('Percy Liang and Francis Bach and Guillaume Bouchard and Michael I. Jordan'),
   title('Asymptotically Optimal Regularization in Smooth Parametric Models'),
-  nips(2009),
+  neurips(2009),
   url('regularization-nips2009.pdf'),
   techreporturl('regularization-techreport2010.pdf'),
   posterurl('regularization-nips2009-poster.pdf'),
@@ -1278,7 +1278,7 @@ nil)
 entry!('liang08agreement',
   author('Percy Liang and Dan Klein and Michael I. Jordan'),
   title('Agreement-Based Learning'),
-  nips(2008),
+  neurips(2008),
   url('agreement-nips2008.pdf'),
   posterurl('agreement-nips2008-poster.pdf'),
   abstract(<<EOF
@@ -1301,7 +1301,7 @@ nil)
 entry!('bouchard08language',
   author("Alexandre Bouchard-C\\^ot\\'e and Percy Liang and Tom Griffiths and Dan Klein"),
   title('A Probabilistic Approach to Language Change'),
-  nips(2008),
+  neurips(2008),
   url('language-nips2008.pdf'),
   posterurl('language-nips2008-poster.pdf'),
   abstract(<<EOF

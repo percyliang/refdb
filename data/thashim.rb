@@ -309,7 +309,7 @@ entry!('barocas2016',
 entry!('kusner2017',
        title('Counterfactual Fairness'),
        author('Matt J Kusner and Joshua R Loftus and Chris Russell and Ricardo Silva'),
-       nips(2017),
+       neurips(2017),
        pages(4069,4079),
        nil)
 
@@ -330,7 +330,7 @@ entry!('feldman2015',
 entry!('hardt2016',
        title('Equality of Opportunity in Supervised Learning'),
        author('Moritz Hardt and Eric Price and Nathan Srebo'),
-       nips(2016),
+       neurips(2016),
        pages(3315,3323),
        nil)
 
@@ -343,7 +343,7 @@ entry!('kleinberg2017',
 entry!('pleiss2017',
        title('On Fairness and Calibration'),
        author('Geoff Pleiss and Manish Raghavan and Felix Wu and Jon Kleinberg and Kilian Q. Weinberger'),
-       nips(2017),
+       neurips(2017),
        pages(5684, 5693),
        nil)
 
@@ -416,7 +416,7 @@ entry!('tan2015lstm',
 nil)
 
 entry!('srivastava2012multimodal',
-  nips(2012),
+  neurips(2012),
   title('Multimodal Learning with Deep {B}oltzmann Machines'),
   author('Nitish Srivastava and Ruslan R Salakhutdinov'),
   pages(2222, 2230),
@@ -632,14 +632,14 @@ entry!('balakrishnan2017hypothesis',
        nil)
 
 entry!('tolstikhin2016minimax',
-       nips(2016),
+       neurips(2016),
        title('Minimax Estimation of Maximum Mean Discrepancy With Radial Kernels'),
        author('Ilya Tolstikhin and Bharath K. Sriperumbudur and Bernhard Scholkopf'),
        pages(1930, 1938),
        nil)
 
 entry!('singh2018nonparametric',
-       nips(2018),
+       neurips(2018),
        title('Nonparametric Density Estimation under Adversarial Losses'),
        author('Shashank Singh and Ananya Uppal and Boyue Li and Chun-Liang Li and Manzil Zaheer and Barnabas Poczos'),
        pages(246, 257),
@@ -687,7 +687,7 @@ entry!('kannan2016smart',
       nil)
 
 entry!('levy2007speakers',
-       nips(2007),
+       neurips(2007),
        title('Speakers optimize information density through syntactic reduction'),
        author('Roger Levy and T. Florian Jaeger'),
        pages(849, 856),
@@ -774,7 +774,7 @@ entry!('witten1987arithmetic',
 entry!('mccann2017learned',
        author('Bryan McCann and James Bradbury and Caiming Xiong and Richard Socher'),
        title('Learned in translation: Contextualized word vectors'),
-       nips(2017),
+       neurips(2017),
        pages(6297, 6308),
        nil)
 
@@ -809,7 +809,7 @@ entry!('rakhlin2013optimization',
 entry!('namkoong2016stochastic',
        author('Hongseok Namkoong and John Duchi'),
        title('Stochastic Gradient Methods for Distributionally Robust Optimization with f-Divergences'),
-       nips(2016),
+       neurips(2016),
        nil)
 
 entry!('peters2016causal',
@@ -851,7 +851,7 @@ entry!('lam2015quantifying',
 entry!('shafieezadeh2015distributionally',
        author('Soroosh Shafieezadeh-Abadeh and Peyman Mohajerin Esfahani and Daniel Kuhn'),
        title('Distributionally Robust Logistic Regression'),
-       nips(2015),
+       neurips(2015),
        nil)
 
 entry!('lee2017minimax',

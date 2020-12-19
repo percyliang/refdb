@@ -24,7 +24,7 @@ nil)
 entry!('dosovitskiy2016generating',
        title('Generating Images with Perceptual Similarity Metrics based on Deep Networks'),
        author('Matt J Kusner and Joshua R Loftus and Chris Russell and Ricardo Silva'),
-       nips(2016),
+       neurips(2016),
        pages(658, 666),
        nil)
 
@@ -170,7 +170,7 @@ entry!('xiong2014latent',
 entry!('gong2013reshaping',
        title('Reshaping Visual Datasets for Domain Adaptation'),
        author('Boqing Gong and Kristen Grauman and Fei Sha'),
-       nips(2013),
+       neurips(2013),
        nil)
 
 entry!('marcheggiani2014hierarchical',
@@ -195,7 +195,7 @@ entry!('honnibal2015nmdp',
 nil)
 
 entry!('mansour2009dams',
-  nips(2009),
+  neurips(2009),
   title('Domain Adaptation with Multiple Sources'),
   author('Yishay Mansour and Mehryar Mohri and Afshin Rostamizadeh'),
   pages(1041, 1048),
@@ -204,6 +204,6 @@ nil)
 entry!('hoffman2018msda',
   author('Judy Hoffman and Mehryar Mohri and Ningshan Zhang'),
   title('Algorithms and Theory for Multiple-source Adaptation'),
-  nips(2018),
+  neurips(2018),
   pages(8256, 8266),
 nil)

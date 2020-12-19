@@ -167,7 +167,7 @@ entry!('clark1986collaborative',
 entry!('shen2017style',
   title('Style Transfer from Non-Parallel Text by Cross-Alignment'),
   author('Tianxiao Shen and Tao Lei and Regina Barzilay and Tommi Jaakkola'),
-  nips(2017),
+  neurips(2017),
 )
 
 entry!('fu2018style',
@@ -239,7 +239,7 @@ entry!('das2017visdial',
 entry!('lu2017best',
   title('Best of Both Worlds: Transferring Knowledge from Discriminative Learning to a Generative Visual Dialog Model'),
   author('Jiasen Lu and Anitha Kannan and Jianwei Yang and Devi Parikh and Dhruv Batra'),
-  nips(2017),
+  neurips(2017),
 )
 
 entry!('matthew2012adadelta',
@@ -257,7 +257,7 @@ entry!('igor2017attribute',
 entry!('guillaume2017fader',
   title('Fader Networks: Manipulating Images by Sliding Attributes'),
   author('Guillaume Lample and Neil Zeghidour and Nicolas Usunier and Antoine Bordes and Ludovic Denoyer and Marc\'Aurelio Ranzato'),
-  nips(2017),
+  neurips(2017),
 )
 
 entry!('gan2017style',
@@ -330,7 +330,7 @@ entry!('das2017learning',
 entry!('cuayahuitl2015strategic',
   title('Strategic Dialogue Management via Deep Reinforcement Learning'),
   author('Heriberto Cuayáhuitl and Simon Keizer and Oliver Lemon'),
-  nips('2015')
+  neurips('2015')
 )
 
 entry!('afantenos2012modelling',

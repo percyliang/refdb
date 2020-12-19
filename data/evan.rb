@@ -51,7 +51,7 @@ nil)
 entry!('ho2016generative',
   title('Generative adversarial imitation learning'),
   author('J. Ho and S. Ermon'),
-  nips(2016),
+  neurips(2016),
   pages(4565, 4573),
 nil)
 
@@ -105,7 +105,7 @@ nil)
 entry!('parr1998reinforcement',
   title('Reinforcement learning with hierarchies of machines'),
   author('R. Parr and S. J. Russell'),
-  nips(1998),
+  neurips(1998),
   pages(1043, 1049),
 nil)
 
@@ -171,7 +171,7 @@ nil)
 entry!('chentanez2005intrinsically',
   title('Intrinsically motivated reinforcement learning'),
   author('N. Chentanez and A. G. Barto and S. P. Singh'),
-  nips(2005),
+  neurips(2005),
   pages(1281, 1288),
 nil)
 
@@ -226,7 +226,7 @@ nil)
 entry!('tang2017exploration',
   title('\#Exploration: A study of count-based exploration for deep reinforcement learning'),
   author('H. Tang and R. Houthooft and D. Foote and A. Stooke and X. Chen and Y. Duan and J. Schulman and F. DeTurck and P. Abbeel'),
-  nips(2017),
+  neurips(2017),
   pages(2753, 2762),
 nil)
 
@@ -362,7 +362,7 @@ entry!('andre2002state',
 nil)
 
 entry!('dietterich2000state',
-  nips(2000),
+  neurips(2000),
   title('State abstraction in {MAXQ} hierarchical reinforcement learning'),
   author('Thomas G Dietterich'),
   pages(994, 1000),
@@ -413,7 +413,7 @@ entry!('rakelly2019efficient',
 nil)
 
 entry!('mendonca2019guided',
-  nips(2019),
+  neurips(2019),
   title('Guided meta-policy search'),
   author('Russell Mendonca and Abhishek Gupta and Rosen Kralev and Pieter Abbeel and Sergey Levine and Chelsea Finn'),
   pages(9653, 9664),
@@ -482,14 +482,14 @@ entry!('humplik2019meta',
 nil)
 
 entry!('stadie2018importance',
-  nips(2018),
+  neurips(2018),
   title('The importance of sampling inmeta-reinforcement learning'),
   author('Bradly Stadie and Ge Yang and Rein Houthooft and Peter Chen and Yan Duan and Yuhuai Wu and Pieter Abbeel and Ilya Sutskever'),
   pages(9280, 9290),
 nil)
 
 entry!('gupta2018meta',
-  nips(2018),
+  neurips(2018),
   title('Meta-reinforcement learning of structured exploration strategies'),
   author('Abhishek Gupta and Russell Mendonca and YuXuan Liu and Pieter Abbeel and Sergey Levine'),
   pages(5302, 5311),
@@ -559,7 +559,7 @@ entry!('eysenbach2018diversity',
 nil)
 
 entry!('houthooft2016vime',
-  nips(2016),
+  neurips(2016),
   title('Vime: Variational information maximizing exploration'),
   author('Rein Houthooft and Xi Chen and Yan Duan and John Schulman and Filip De Turck and Pieter Abbeel'),
   pages(1109, 1117),
@@ -733,7 +733,7 @@ entry!('hiraoka2020meta',
 nil)
 
 entry!('houthooft2018evolved',
-  nips(2018),
+  neurips(2018),
   title('Evolved policy gradients'),
   author('Rein Houthooft and Yuhua Chen and Phillip Isola and Bradly Stadie and Filip Wolski and OpenAI Jonathan Ho and Pieter Abbeel'),
   pages(5400, 5409),

@@ -104,7 +104,7 @@ nil)
 entry!('goodfellow2014gan',
   author('Ian J. Goodfellow and Jean Pouget-Abadie and Mehdi Mirza and Bing Xu and David Warde-Farley and Sherjil Ozair and Aaron Courville and Yoshua Bengio'),
   title('Generative Adversarial Nets'),
-  nips(2014),
+  neurips(2014),
 nil)
 
 entry!('zhang2017jnet',
@@ -185,7 +185,7 @@ nil)
 entry!('salimans2016gan',
   author('Tim Salimans and Ian Goodfellow and Wojciech Zaremba and Vicki Cheung and Alec Radford and Xi Chen'),
   title('Improved Techniques for Training GANs'),
-  nips(2016),
+  neurips(2016),
 nil)
 
 entry!('arjovsky2017gan',
