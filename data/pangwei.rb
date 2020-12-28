@@ -2626,3 +2626,21 @@ entry!('li2019leopard',
   author('Hongyang Li and Yuanfang Guan'),
   publisher('Cold Spring Harbor Laboratory'),
 nil)
+
+entry!('lewis1992feature',
+  inproceedings('Speech and Natural Language: Proceedings of a Workshop Held at Harriman, New York, February 23-26, 1992', 1992),
+  title('Feature selection and feature extract ion for text categorization'),
+  author('David D Lewis'),
+nil)
+
+entry!('zheng2018feature',
+  title('Feature engineering for machine learning: principles and techniques for data scientists'),
+  author('Alice Zheng and Amanda Casari'),  
+  book('" O\'Reilly Media, Inc."', 2018),
+nil)
+
+entry!('nixon2019feature',
+  title('Feature extraction and image processing for computer vision'),
+  author('Mark Nixon and Alberto Aguado'),
+  book('Academic press', 2019),
+nil)
