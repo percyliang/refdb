@@ -3,82 +3,82 @@ entry!('simard2003best',
   title('Best Practices for Convolutional Neural Networks Applied to Visual Document Analysis'),
   article('International Conference on Document Analysis and Recognition', 2003, 2),
   pages(958, 964),
-nil)
+)
 
 entry!('yaeger1996effective',
   author('Larry Yaeger and Richard Lyon and Brandyn Webb'),
   title('Effective Training of a Neural Network Character Classifier for Word Recognition'),
   neurips(1996),
   pages(807, 813),
-nil)
+)
 
 entry!('ciresan2011high',
   author('Dan C. Ciresan and Ueli Meier and Jonathan Masci and Luca M. Gambardella and Jurgen Schmidhuber'),
   title('High-Performance Neural Networks for Visual Object Classification'),
   arxiv(2011),
-nil)
+)
 
 entry!('ravuri2019seeing',
   author('Suman Ravuri and Oriol Vinyals'),
   title('Seeing is Not Necessarily Believing: Limitations of BigGANs for Data Augmentation'),
   iclrWorkshop(2019),
-nil)
+)
 
 entry!('rao2007linear',
   author('C. Radhakrishna Rao and Helge Toutenburg and Shalabh and Christian Heumann'),
   title('Linear Models and Generalizations: Least Squares and Alternatives'),
   book('Springer Publishing Company', 2007),
-nil)
+)
 
 entry!('lamb2019interpolated',
   author('Alex Lamb and Vikas Verma and Juho Kannala and Yoshua Bengio'),
   title('Interpolated Adversarial Training: Achieving Robust Neural Networks without Sacrificing Too Much Accuracy'),
   arxiv(2019),
-nil)
+)
 
 entry!('prabhu2019understanding',
   author('Vinay Uday Prabhu and Joyce Xu and Dian Ang Yap and John Whaley'),
   title('Understanding Adversarial Robustness Through Loss Landscape Geometries'),
   iclrWorkshop(2019),
-nil)
+)
 
 entry!('dobriban2015high',
   author('Edgar Dobriban and Stefan Wager'),
   title('High-Dimensional Asymptotics of Prediction: Ridge Regression and Classification'),
   arxiv(2015),
-nil)
+)
 
 entry!('bartlett2019benign',
   author('Peter L. Bartlett and Philip M. Long and G´abor Lugosi and Alexander Tsigler'),
   title('Benign Overfitting in Linear Regression'),
   arxiv(2019),
-nil)
+)
 
 entry!('kleinman1968design',
   author('D. Kleinman and M. Athans'),
   title('The design of suboptimal linear time-varying systems'),
   article('IEEE Transactions on Automatic Control', 1968, 13),
   pages(150, 159),
-nil)
+)
 
 entry!('kovanic1979pseudoinverse',
   author('Pavel Kovanic'),
   title('On the Pseudoinverse of a Sum of Symmetric
         Matrices with Applications to Estimation'),
   article('Kybernetika', 1979, 15),
-nil)
+)
 
 entry!('berthelot2019mixmatch',
   author('David Berthelot and Nicholas Carlini and Ian Goodfellow and Nicolas Papernot and Avital Oliver and Colin Raffel'),
   title('MixMatch: A Holistic Approach to Semi-Supervised Learning'),
   arxiv(2019),
-nil)
+)
 
 entry!('belkin2019two',
   author('Mikhail Belkin and Daniel Hsu and Ji Xu'),
   title('Two models of double descent for weak features'),
   arxiv(2019),
-nil)
+)
 
 entry!('schwartz2006ranking',
   author('S. Shalev-Schwartz and Y. Singer'),
@@ -314,7 +314,7 @@ entry!('hendrycks2019selfsupervised',
 entry!('blitzer2007adaptation',
         author('John Blitzer and Fernando Pereira'),
   title('Domain adaptation of natural language processing systems'),
-  article('University of Pennsylvania', 2007, nil),
+  article('University of Pennsylvania', 2007, ),
 )
 entry!('yeh2020poverty',
 author('Christopher Yeh and Anthony Perez and Anne Driscoll and George Azzari and Zhongyi Tang and David Lobell and Stefano Ermon and Marshall Burke'),
@@ -335,7 +335,7 @@ mobile phone metadata'),
 entry!('epsey2015development',
         author('Jessica Espey and Eric Swanson and Shaida Badiee and Zach Chistensen and Alex Fischer and Marc Levy and Greg Yetman and Alex de Sherbinin and Robert Chen and Yue Qiu and Geoffrey Greenwell and Thilo Klein and and Johannes Jutting and Morten Jerven and Grant Cameron and Ana Milena Aguilar Rivera and Victoriano C. Arias and and Samuel Lantei Mills and Albert Motivans'),
   title('Data for Development: A Needs Assessment for {SDG} Monitoring and Statistical Capacity Development'),
-  article('Sustainable Development Solutions Network', 2015, nil),
+  article('Sustainable Development Solutions Network', 2015, ),
 )
 entry!('noor2008nighttime',
         author('Abdisalan Noor and Victor Alegana and Peter Gething and Andrew Tatem and Robert Snow'),
@@ -398,7 +398,7 @@ entry!('tiecke2017population',
 entry!('katona2018parking',
   author('Zsolt Katona and Marcus Painter and Panos N. Patatoukas and Jean Zeng'),
   title('On the Capital Market Consequences of Alternative Data: Evidence from Outer Space'),
-  article('Miami Behavioral Finance Conference', 2018, nil),
+  article('Miami Behavioral Finance Conference', 2018, ),
 )
 entry!('christie2018fmow',
   author('Gordon Christie and Neil Fendley and James Wilson and Ryan Mukherjee'),
@@ -413,12 +413,12 @@ entry!('uzkent2020zoom',
 entry!('kim2016multiresolution',
   author('Jae Hyun Kim and Michael Xie and Neal Jean and Stefano Ermon'),
   title('Incorporating Spatial Context and Fine-grained Detail from Satellite Imagery to Predict Poverty'),
-  article('Stanford University', 2016, nil),
+  article('Stanford University', 2016, ),
 )
 entry!('yang2010landuse',
   author('Yi Yang and Shawn Newsam'),
   title('Bag-of-visual-words and spatial extensions for land-use classification'),
-  article('Geographic Information Systems', 2010, nil),
+  article('Geographic Information Systems', 2010, ),
 )
 entry!('wang2017torontocity',
   author('Shenlong Wang and Min Bai and Gellert Mattyus and Hang Chu and Wenjie Luo and Bin Yang and Justin Liang and Joel Cheverie and Sanja Fidler and Raquel Urtasun'),
@@ -428,7 +428,7 @@ entry!('wang2017torontocity',
 entry!('digitalglobe2016spacenet',
          author('N. DigitalGlobe and CosmiQ Works'),
   title('SpaceNet'),
-  article('https://aws.amazon.com/publicdatasets/spacenet/', 2016, nil)
+  article('https://aws.amazon.com/publicdatasets/spacenet/', 2016, )
 )
 entry!('sahn2003asset',
                 author('David E. Sahn and David Stifel'),

@@ -42,21 +42,21 @@ entry!('karamcheti2020decomposition',
   author('Sidd Karamcheti and Dorsa Sadigh and Percy Liang'),
   inproceedings('EMNLP Workshop for Interactive and Executable Semantic Parsing (IntEx-SemPar)', 2020),
   url('https://arxiv.org/pdf/2010.05190.pdf'),
-nil)
+)
 
 entry!('liu2020explore',
   title('Explore then Execute: Adapting without Rewards via Factorized Meta-Reinforcement Learning'),
   author('Evan Zheran Liu and Aditi Raghunathan and Percy Liang and Chelsea Finn'),
   arxiv(2020, '2008.02790'),
   url('https://arxiv.org/pdf/2008.02790.pdf'),
-nil)
+)
 
 entry!('liu2020learning',
   title('Learning Abstract Models for Strategic Exploration and Fast Reward Transfer'),
   author('Evan Zheran Liu and Ramtin Keramati and Sudarshan Seshadri and Kelvin Guu and Panupong Pasupat and Emma Brunskill and Percy Liang'),
   arxiv(2020, '2007.05896'),
   url('https://arxiv.org/pdf/2007.05896.pdf'),
-nil)
+)
 
 entry!('mussmann2020pairwise',
   title('On the Importance of Adaptive Data Collection for Extremely Imbalanced Pairwise Tasks'),
@@ -64,7 +64,7 @@ entry!('mussmann2020pairwise',
   emnlpfindings(2020),
   url('https://arxiv.org/pdf/2010.05103.pdf'),
   codalab('0x39ba5559790b4099a7ff75f916ce19a4'),
-nil)
+)
 
 entry!('hewitt2020rnn',
   title('{RNN}s can generate bounded hierarchical languages with optimal memory'),
@@ -72,14 +72,14 @@ entry!('hewitt2020rnn',
   emnlp(2020),
   url('https://arxiv.org/pdf/2010.07515.pdf'),
   codalab('0xd668cf62e9e0499089626e45affee864'),
-nil)
+)
 
 entry!('newman2020eos',
   author('Benjamin Newman and John Hewitt and Percy Liang and Christopher D. Manning'),
   title('The {EOS} Decision and Length Extrapolation'),
   inproceedings('Proceedings of the Third BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP', 2020),
   url('https://arxiv.org/abs/2010.07174'),
-nil)
+)
 
 entry!('dathathri2020sdp',
   codalab('0x39ba5559790b4099a7ff75f916ce19a4'),
@@ -87,21 +87,21 @@ entry!('dathathri2020sdp',
   author('Sumanth Dathathri* and Krishnamurthy Dvijotham* and Alexey Kurakin* and Aditi Raghunathan* and Jonathan Uesato* and Rudy Bunel and Shreya Shankar and Jacob Steinhardt and Ian Goodfellow and Percy Liang and Pushmeet Kohli'),
   neurips(2020),
   url('https://arxiv.org/pdf/2010.11645.pdf'),
-nil)
+)
 
 entry!('semanticmachines2020dataflow',
   title('Task-Oriented Dialogue as Dataflow Synthesis'),
   author('Semantic Machines and Jacob Andreas and John Bufe and David Burkett and Charles Chen and Josh Clausman and Jean Crawford and Kate Crim and Jordan DeLoach and Leah Dorner and Jason Eisner and Hao Fang and Alan Guo and David Hall and Kristin Hayes and Kellie Hill and Diana Ho and Wendy Iwaszuk and Smriti Jha and Dan Klein and Jayant Krishnamurthy and Theo Lanman and Percy Liang and Christopher H. Lin and Ilya Lintsbakh and Andy McGovern and Aleksandr Nisnevich and Adam Pauls and Dmitrij Petters and Brent Read and Dan Roth and Subhro Roy and Jesse Rusak and Beth Short and Div Slomin and Ben Snyder and Stephon Striplin and Yu Su and Zachary Tellman and Sam Thomson and Andrei Vorobev and Izabela Witoszko and Jason Wolfe and Abby Wray and Yuchen Zhang and Alexander Zotov'),
   tacl(2020, 8),
   url('https://arxiv.org/pdf/2009.11423.pdf'),
-nil)
+)
 
 entry!('sagawa2020overparameterization',
   title('An investigation of why overparameterization exacerbates spurious correlations'),
   author('Shiori Sagawa* and Aditi Raghunathan* and Pang Wei Koh* and Percy Liang'),
   icml(2020),
   url('https://arxiv.org/pdf/2005.04345.pdf'),
-nil)
+)
 
 entry!('koh2020bottleneck',
   title('Concept Bottleneck Models'),
@@ -109,7 +109,7 @@ entry!('koh2020bottleneck',
   icml(2020),
   url('https://arxiv.org/pdf/2007.04612.pdf'),
   codalab('0x362911581fcd4e048ddfd84f47203fd2'),
-nil)
+)
 
 entry!('khani2020noise',
   title('Feature Noise Induces Loss Discrepancy Across Groups'),
@@ -117,7 +117,7 @@ entry!('khani2020noise',
   icml(2020),
   url('https://arxiv.org/pdf/1911.09876.pdf'),
   codalab('0x7c3fb3bf981646c9bc11c538e881f37e'),
-nil)
+)
 
 entry!('yasunaga2020repair',
   title('Graph-based, Self-Supervised Program Repair from Diagnostic Feedback'),
@@ -125,21 +125,21 @@ entry!('yasunaga2020repair',
   icml(2020),
   url('https://arxiv.org/pdf/2005.10636.pdf'),
   codalab('0x01838644724a433c932bef4cb5c42fbd'),
-nil)
+)
 
 entry!('raghunathan2020understanding',
   title('Understanding and Mitigating the Tradeoff Between Robustness and Accuracy'),
   author('Aditi Raghunathan* and Sang Michael Xie* and Fanny Yang and John C. Duchi and Percy Liang'),
   icml(2020),
   url('https://arxiv.org/pdf/2002.10716.pdf'),
-nil)
+)
 
 entry!('kumar2020gradual',
   title('Understanding Self-Training for Gradual Domain Adaptation'),
   author('Ananya Kumar and Tengyu Ma and Percy Liang'),
   icml(2020),
   url('https://arxiv.org/pdf/2002.11361.pdf'),
-nil)
+)
 
 entry!('srivasta2020human',
   title('Robustness to Spurious Correlations via Human Annotations'),
@@ -147,7 +147,7 @@ entry!('srivasta2020human',
   icml(2020),
   url('https://arxiv.org/pdf/2007.06661.pdf'),
   codalab('0xc8aa93946ffc48a69e59041144491fe1'),
-nil)
+)
 
 entry!('jones2020roben',
   title('Robust Encodings: A Framework for Combating Adversarial Typos'),
@@ -155,7 +155,7 @@ entry!('jones2020roben',
   acl(2020),
   url('https://arxiv.org/pdf/2005.01229.pdf'),
   codalab('0x8fc01c7fc2b742fdb29c05669f0ad7d2'),
-nil)
+)
 
 entry!('kamath2020squads',
   title('Selective Question Answering under Domain Shift'),
@@ -163,7 +163,7 @@ entry!('kamath2020squads',
   acl(2020),
   url('https://arxiv.org/pdf/2006.09462.pdf'),
   codalab('0xea5a522788f743acb4fbf9e60065be8f'),
-nil)
+)
 
 entry!('mu2020shaping',
   title('Shaping Visual Representations with Language for Few-shot Classification'),
@@ -172,7 +172,7 @@ entry!('mu2020shaping',
   note('Short paper.'),
   url('https://arxiv.org/pdf/1911.02683.pdf'),
   codalab('0x55ed347e3beb4fa6971d3a226e48fc92'),
-nil)
+)
 
 entry!('murty2020expbert',
   title('{ExpBERT}: Representation Engineering with Natural Language Explanations'),
@@ -181,7 +181,7 @@ entry!('murty2020expbert',
   note('Short paper.'),
   url('https://arxiv.org/pdf/2005.01932.pdf'),
   codalab('0x609d2d6a66194592a7f44fbb67ba9f49'),
-nil)
+)
 
 entry!('donahue2020infilling',
   title('Enabling Language Models to Fill in the Blanks'),
@@ -189,35 +189,35 @@ entry!('donahue2020infilling',
   acl(2020),
   note('Short paper.'),
   url('https://arxiv.org/pdf/2005.05339.pdf'),
-nil)
+)
 
 entry!('sagawa2020group',
   title('Distributionally Robust Neural Networks for Group Shifts: On the Importance of Regularization for Worst-Case Generalization'),
   author('Shiori Sagawa* and Pang Wei Koh* and Tatsunori B. Hashimoto and Percy Liang'),
   iclr(2020),
   url('https://arxiv.org/pdf/1911.08731.pdf'),
-nil)
+)
 
 entry!('hu2020pretraining',
   title('Strategies for Pre-training Graph Neural Networks'),
   author('Weihua Hu and Bowen Liu and Joseph Gomes and Marinka Zitnik and Percy Liang and Vijay Pande and Jure Leskovec'),
   iclr(2020),
   url('https://arxiv.org/pdf/1905.12265.pdf'),
-nil)
+)
 
 entry!('coleman2020selection',
   title('Selection via Proxy: Efficient Data Selection for Deep Learning'),
   author('Cody Coleman and Christopher Yeh and Stephen Mussmann and Baharan Mirzasoleiman and Peter Bailis and Percy Liang and Jure Leskovec and Matei Zaharia'),
   iclr(2020),
   url('https://openreview.net/pdf?id=HJg2b0VYDr'),
-nil)
+)
 
 entry!('li2020greedy',
   title('A Tight Analysis of Greedy Yields Subexponential Time Approximation for Uniform Decision Tree'),
   author('Ray Li and Percy Liang and Stephen Mussmann'),
   soda(2020),
   url('https://arxiv.org/pdf/1906.11385.pdf'),
-nil)
+)
 
 ############################################################
 # 2019
@@ -228,7 +228,7 @@ entry!('jia2019certified',
   emnlp(2019),
   url('https://arxiv.org/pdf/1909.00986.pdf'),
   codalab('0x79feda5f1998497db75422eca8fcd689'),
-nil)
+)
 
 entry!('oren2019drolm',
   title('Distributionally Robust Language Modeling'),
@@ -236,7 +236,7 @@ entry!('oren2019drolm',
   emnlp(2019),
   url('https://arxiv.org/pdf/1909.02060.pdf'),
   codalab('0xf8122ebd24e94209a2a1764007509098'),
-nil)
+)
 
 entry!('hewitt2019control',
   title('Designing and Interpreting Probes with Control Tasks'),
@@ -245,14 +245,14 @@ entry!('hewitt2019control',
   url('https://arxiv.org/pdf/1909.03368.pdf'),
   codalab('0xb0c351d6f1ac4c51b54f1023786bf6b2'),
   award('Best paper runner up'),
-nil)
+)
 
 entry!('kulal2019spoc',
   title('SPoC: Search-based Pseudocode to Code'),
   author('Sumith Kulal and Panupong Pasupat and Kartik Chandra and Mina Lee and Oded Padon and Alex Aiken and Percy Liang'),
   neurips(2019),
   url('https://arxiv.org/pdf/1906.04908.pdf'),
-nil)
+)
 
 entry!('carmon2019unlabeled',
   title('Unlabeled Data Improves Adversarial Robustness'),
@@ -260,7 +260,7 @@ entry!('carmon2019unlabeled',
   neurips(2019),
   url('https://arxiv.org/pdf/1905.13736.pdf'),
   codalab('0x9df253b24dac4a2b930108be9c6e5496'),
-nil)
+)
 
 entry!('kumar2019calibration',
   title('Verified Uncertainty Calibration'),
@@ -268,7 +268,7 @@ entry!('kumar2019calibration',
   neurips(2019),
   url('https://arxiv.org/pdf/1909.10155.pdf'),
   codalab('0xb6d027ee127e422989ab9115726c5411'),
-nil)
+)
 
 entry!('koh2019influence',
   title('On the Accuracy of Influence Functions for Measuring Group Effects'),
@@ -276,7 +276,7 @@ entry!('koh2019influence',
   neurips(2019),
   url('https://arxiv.org/pdf/1905.13289.pdf'),
   codalab('0x43e8ecea53bf4186a7992c9028409320'),
-nil)
+)
 
 entry!('lee2019autocomplete',
   title('Learning Autocomplete Systems as a Communication Game'),
@@ -284,14 +284,14 @@ entry!('lee2019autocomplete',
   inproceedings('Emergent Communication Workshop at Neural Information Processing Systems (NeurIPS)', 2019),
   url('https://arxiv.org/pdf/1911.06964.pdf'),
   codalab('0x627dc6dc62874a45ba8abc6ada10e753'),
-nil)
+)
 
 entry!('raghunathan2019hurt',
   title('Adversarial Training Can Hurt Generalization'),
   author('Aditi Raghunathan* and Sang Michael Xie* and Fanny Yang and John C. Duchi and Percy Liang'),
   arxiv(2019, '1906.06032'),
   url('https://arxiv.org/pdf/1906.06032.pdf'),
-nil)
+)
 
 entry!('khani2019mwld',
   title('Maximum Weighted Loss Discrepancy'),
@@ -299,14 +299,14 @@ entry!('khani2019mwld',
   arxiv(2019, '1906.03518'),
   url('https://arxiv.org/pdf/1906.03518.pdf'),
   codalab('0x578f01269d644524b0d4ab2a7a2a6984'),
-nil)
+)
 
 entry!('monajemi2019painless',
   title('Ambitious Data Science Can Be Painless'),
   author('Hatef Monajemi and Riccardo Murri and Eric Jonas and Percy Liang and Victoria Stodden and David L. Donoho'),
   article('Harvard Data Science Review', 2019, 1),
   url('https://arxiv.org/pdf/1901.08705.pdf'),
-nil)
+)
 
 entry!('hashimoto2019huse',
   title('Unifying Human and Statistical Evaluation for Natural Language Generation'),
@@ -314,7 +314,7 @@ entry!('hashimoto2019huse',
   naacl(2019),
   url('https://arxiv.org/pdf/1904.02792.pdf'),
   codalab('0x88644b5ee189402eb19d39d721d1005c'),
-nil)
+)
 
 entry!('peng2019pun',
   title('Pun Generation with Surprise'),
@@ -322,21 +322,21 @@ entry!('peng2019pun',
   naacl(2019),
   url('https://arxiv.org/pdf/1904.06828.pdf'),
   codalab('0x5a7d0fe35b144ad68998d74891a31ed6'),
-nil)
+)
 
 entry!('koh2019stronger',
   title('Stronger Data Poisoning Attacks Break Data Sanitization Defenses'),
   author('Pang Wei Koh* and Jacob Steinhardt* and Percy Liang'),
   arxiv(2019, '1811.00741'),
   url('https://arxiv.org/pdf/1811.00741.pdf'),
-nil)
+)
 
 entry!('selsam2019sat',
   title('Learning a {SAT} Solver from Single-Bit Supervision'),
   author('Daniel Selsam and Matthew Lamm and Benedikt Bünz and Percy Liang and Leonardo de Moura and David L. Dill'),
   iclr(2019),
   url('https://arxiv.org/pdf/1802.03685.pdf'),
-nil)
+)
 
 entry!('zhang2019discretization',
   title('Defending against Whitebox Adversarial Attacks via Randomized Discretization'),
@@ -344,14 +344,14 @@ entry!('zhang2019discretization',
   aistats(2019),
   url('https://arxiv.org/pdf/1903.10586.pdf'),
   codalab('0x822ba2f9005f49f08755a84443c76456'),
-nil)
+)
 
 entry!('pierson2019aging',
   title('Inferring Multidimensional Rates of Aging from Cross-Sectional Data'),
   author('Emma Pierson and Pang Wei Koh and Tatsunori Hashimoto and Daphne Koller and Jure Leskovec and Nick Eriksson and Percy Liang'),
   aistats(2019),
   url('https://arxiv.org/pdf/1807.04709.pdf'),
-nil)
+)
 
 entry!('shi2019frangel',
   title('{F}r{A}ngel: Component-Based Synthesis with Control Structures'),
@@ -359,7 +359,7 @@ entry!('shi2019frangel',
   popl(2019),
   url('https://arxiv.org/pdf/1811.05175.pdf'),
   codalab('0x882075c0b92c4a2d85abdbd3d76aad78'),
-nil)
+)
 
 ############################################################
 # 2018
@@ -369,7 +369,7 @@ entry!('raghunathan2018sdp',
   author('Aditi Raghunathan and Jacob Steinhardt and Percy Liang'),
   neurips(2018),
   url('https://arxiv.org/pdf/1811.01057.pdf'),
-nil)
+)
 
 entry!('mussmann2018sgd',
   title('Uncertainty Sampling is Preconditioned Stochastic Gradient Descent on Zero-One Loss'),
@@ -377,7 +377,7 @@ entry!('mussmann2018sgd',
   neurips(2018),
   codalab('0xf8dfe5bcc1dc408fb54b3cc15a5abce8'),
   url('https://arxiv.org/pdf/1812.01815.pdf'),
-nil)
+)
 
 entry!('hashimoto2018edit',
   title('A Retrieve-and-Edit Framework for Predicting Structured Outputs'),
@@ -385,14 +385,14 @@ entry!('hashimoto2018edit',
   neurips(2018),
   url('https://arxiv.org/pdf/1812.01194.pdf'),
   codalab('0x1ad3f387005c492ea913cf0f20c9bb89'),
-nil)
+)
 
 entry!('choi2018quac',
   title('{QuAC}: Question Answering in Context'),
   author('Eunsol Choi and He He and Mohit Iyyer and Mark Yatskar and Wen-tau Yih and Yejin Choi and Percy Liang and Luke Zettlemoyer'),
   url('https://arxiv.org/pdf/1808.07036.pdf'),
   emnlp(2018),
-nil)
+)
 
 entry!('he2018negotiation',
   title('Decoupling Strategy and Generation in Negotiation Dialogues'),
@@ -400,7 +400,7 @@ entry!('he2018negotiation',
   emnlp(2018),
   url('https://arxiv.org/pdf/1808.09637.pdf'),
   codalab('0x453913e76b65495d8b9730d41c7e0a0c'),
-nil)
+)
 
 entry!('pasupat2018elements',
   title('Mapping Natural Language Commands to Web Elements'),
@@ -409,14 +409,14 @@ entry!('pasupat2018elements',
   url('https://arxiv.org/pdf/1808.09132.pdf'),
   note('Short paper.'),
   codalab('0x0097f249cd944284a81af331093c3579'),
-nil)
+)
 
 entry!('lamm2018tap',
   title('Textual Analogy Parsing: What\'s Shared and What\'s Compared among Analogous Facts'),
   author('Matthew Lamm and Arun Chaganty and Christopher D. Manning and Dan Jurafsky and Percy Liang'),
   emnlp(2018),
   url('https://arxiv.org/pdf/1809.02700.pdf'),
-nil)
+)
 
 entry!('mussmann2018accuracy',
   title('On the Relationship between Data Efficiency and Error in Active Learning'),
@@ -424,7 +424,7 @@ entry!('mussmann2018accuracy',
   icml(2018),
   url('https://arxiv.org/pdf/1806.06123.pdf'),
   codalab('0x8ef22fd3cd384029bf1d1cae5b268f2d'),
-nil)
+)
 
 entry!('hashimoto2018repeated',
   title('Fairness Without Demographics in Repeated Loss Minimization'),
@@ -433,7 +433,7 @@ entry!('hashimoto2018repeated',
   url('https://arxiv.org/pdf/1806.08010.pdf'),
   codalab('0x17a501d37bbe49279b0c70ae10813f4c'),
   award('Best paper runner up'),
-nil)
+)
 
 entry!('hancock2018babble',
   title('Training Classifiers with Natural Language Explanations'),
@@ -441,7 +441,7 @@ entry!('hancock2018babble',
   acl(2018),
   url('https://arxiv.org/pdf/1805.03818.pdf'),
   codalab('0x900e7e41deaa4ec5b2fe41dc50594548'),
-nil)
+)
 
 entry!('chaganty2018evaluation',
   title('The price of debiasing automatic metrics in natural language evaluation'),
@@ -449,7 +449,7 @@ entry!('chaganty2018evaluation',
   acl(2018),
   codalab('0xbda93e6519134c1ab1893ceaa19c8a5c'),
   url('https://arxiv.org/pdf/1807.02202.pdf'),
-nil)
+)
 
 entry!('rajpurkar2018squadrun',
   title('Know What You Don\'t Know: Unanswerable Questions for {SQuAD}'),
@@ -458,14 +458,14 @@ entry!('rajpurkar2018squadrun',
   award('Best short paper award'),
   url('https://arxiv.org/pdf/1806.03822.pdf'),
   codalab('0x9a15a170809f4e2cb7940e1f256dee55'),
-nil)
+)
 
 entry!('mussmann2018gbs',
   title('Generalized Binary Search For Split-Neighborly Problems'),
   author('Stephen Mussmann and Percy Liang'),
   aistats(2018),
   url('https://arxiv.org/pdf/1802.09751.pdf'),
-nil)
+)
 
 entry!('khani2018pip',
   title('Planning, Inference and Pragmatics in Sequential Language Games'),
@@ -473,7 +473,7 @@ entry!('khani2018pip',
   tacl(2018, 6),
   url('https://arxiv.org/pdf/1805.11774.pdf'),
   codalab('0x052129c7afa9498481185b553d23f0f9'),
-nil)
+)
 
 entry!('guu2018edit',
   author('Kelvin Guu and Tatsunori B. Hashimoto and Yonatan Oren and Percy Liang'),
@@ -481,7 +481,7 @@ entry!('guu2018edit',
   tacl(2018, 0),
   url('http://arxiv.org/pdf/1709.08878.pdf'),
   codalab('0xa915ba2f8b664ddf8537c83bde80cc8c'),
-nil)
+)
 
 entry!('li2018style',
   author('Juncen Li and Robin Jia and He He and Percy Liang'),
@@ -489,14 +489,14 @@ entry!('li2018style',
   naacl(2018),
   url('https://arxiv.org/pdf/1804.06437.pdf'),
   codalab('0xe3eb416773ed4883bb737662b31b4948'),
-nil)
+)
 
 entry!('liu2018workflow',
   author('Evan Zheran Liu and Kelvin Guu and Panupong Pasupat and Tianlin Shi and Percy Liang'),
   title('Reinforcement Learning on Web Interfaces using Workflow-Guided Exploration'),
   iclr(2018),
   url('https://arxiv.org/pdf/1802.08802.pdf'),
-nil)
+)
 
 entry!('raghunathan2018certified',
   author('Aditi Raghunathan and Jacob Steinhardt and Percy Liang'),
@@ -504,27 +504,27 @@ entry!('raghunathan2018certified',
   iclr(2018),
   url('https://arxiv.org/pdf/1801.09344.pdf'),
   codalab('0xa21e794020bb474d8804ec7bc0543f52'),
-nil)
+)
 
 entry!('bastani2018active',
   author('Osbert Bastani and Rahul Sharma and Alex Aiken and Percy Liang'),
   title('Active Learning of Points-To Specifications'),
   pldi(2018),
   url('https://arxiv.org/pdf/1711.03239.pdf'),
-nil)
+)
 
 entry!('sharan2018prediction',
   author('Vatsal Sharan and Sham Kakade and Percy Liang and Gregory Valiant'),
   title('Prediction with a Short Memory'),
   stoc(2018),
   url('http://arxiv.org/pdf/1612.02526.pdf'),
-nil)
+)
 
 entry!('demszky2018transforming',
   author('Dorottya Demszky and Kelvin Guu and Percy Liang'),
   title('Transforming Question Answering Datasets Into Natural Language Inference Datasets'),
   arxiv(2018, '1809.02922'),
-nil)
+)
 
 ############################################################
 # 2017
@@ -535,7 +535,7 @@ entry!('steinhardt2017certified',
   neurips(2017),
   url('http://arxiv.org/pdf/1706.03691.pdf'),
   codalab('0xbdd35bdd83b14f6287b24c9418983617'),
-nil)
+)
 
 entry!('hashimoto2017transformation',
   author('Tatsunori B. Hashimoto and John Duchi and Percy Liang'),
@@ -543,14 +543,14 @@ entry!('hashimoto2017transformation',
   neurips(2017),
   url('https://arxiv.org/pdf/1711.02226.pdf'),
   codalab('0x4412d72b55df47e5b457dacdba91f105'),
-nil)
+)
 
 entry!('sharan2017overcomplete',
   author('Vatsal Sharan and Sham Kakade and Percy Liang and Gregory Valiant'),
   title('Learning Overcomplete {HMM}s'),
   neurips(2017),
   url('https://arxiv.org/pdf/1711.02309.pdf'),
-nil)
+)
 
 entry!('jia2017adversarial',
   author('Robin Jia and Percy Liang'),
@@ -559,7 +559,7 @@ entry!('jia2017adversarial',
   codalab('0xc86d3ebe69a3427d91f9aaa63f7d1e7d'),
   award('Outstanding paper award'),
   url('http://arxiv.org/pdf/1707.07328.pdf'),
-nil)
+)
 
 entry!('zhang2017macro',
   author('Yuchen Zhang and Panupong Pasupat and Percy Liang'),
@@ -567,14 +567,14 @@ entry!('zhang2017macro',
   emnlp(2017),
   codalab('0x4d6dbfc5ec7f44a6a4da4ca2a9334d6e'),
   url('https://zhangyuc.github.io/files/zhang17emnlp.pdf'),
-nil)
+)
 
 entry!('chaganty2017unbiased',
   author('Arun Chaganty and Ashwin Paranjape and Percy Liang and Chris Manning'),
   title('Importance sampling for unbiased on-demand evaluation of knowledge base population'),
   url('https://nlp.stanford.edu/pubs/chaganty2017ondemand.pdf'),
   emnlp(2017),
-nil)
+)
 
 entry!('koh2017understanding',
   author('Pang Wei Koh and Percy Liang'),
@@ -583,14 +583,14 @@ entry!('koh2017understanding',
   icml(2017),
   url('http://arxiv.org/pdf/1703.04730.pdf'),
   codalab('0x2b314dc3536b482dbba02783a24719fd'),
-nil)
+)
 
 entry!('zhang2017convexified',
   author('Yuchen Zhang and Percy Liang and Martin J. Wainwright'),
   title('Convexified Convolutional Neural Networks'),
   icml(2017),
   url('http://arxiv.org/pdf/1609.01000.pdf'),
-nil)
+)
 
 entry!('selsam2017bugfree',
   author('Daniel Selsam and Percy Liang and David Dill'),
@@ -598,14 +598,14 @@ entry!('selsam2017bugfree',
   icml(2017),
   url('https://arxiv.org/pdf/1706.08605.pdf'),
   code('https://github.com/dselsam/certigrad'),
-nil)
+)
 
 entry!('shi2017wob',
   author('Tianlin Shi and Andrej Karpathy and Linxi Fan and Jonathan Hernandez and Percy Liang'),
   title('World of Bits: An Open-Domain Platform for Web-Based Agents'),
   icml(2017),
   url('http://proceedings.mlr.press/v70/shi17a/shi17a.pdf'),
-nil)
+)
 
 entry!('zhang2017hitting',
   author('Yuchen Zhang and Percy Liang and Moses Charikar'),
@@ -613,14 +613,14 @@ entry!('zhang2017hitting',
   colt(2017),
   url('http://arxiv.org/pdf/1702.05575.pdf'),
   award('Best paper award'),
-nil)
+)
 
 entry!('bastani2017synthesizing',
   author('Osbert Bastani and Rahul Sharma and Alex Aiken and Percy Liang'),
   title('Synthesizing Program Input Grammars'),
   pldi(2017),
   url('http://arxiv.org/pdf/1608.01723.pdf'),
-nil)
+)
 
 entry!('wang2017naturalizing',
   author('Sida I. Wang and Sam Ginn and Percy Liang and Christopher D. Manning'),
@@ -629,7 +629,7 @@ entry!('wang2017naturalizing',
   project('http://www.voxelurn.com'),
   url('https://arxiv.org/pdf/1704.06956.pdf'),
   codalab('0xbf8f4f5b42e54eba9921f7654b3c5c5d'),
-nil)
+)
 
 entry!('he2017symmetric',
   author('He He and Anusha Balakrishnan and Mihail Eric and Percy Liang'),
@@ -638,7 +638,7 @@ entry!('he2017symmetric',
   url('https://arxiv.org/pdf/1704.07130.pdf'),
   codalab('0xc757f29f5c794e5eb7bfa8ca9c945573'),
   pages(1766,1776),
-nil)
+)
 
 entry!('guu2017bridging',
   author('Kelvin Guu and Panupong Pasupat and Evan Zheran Liu and Percy Liang'),
@@ -646,7 +646,7 @@ entry!('guu2017bridging',
   acl(2017),
   url('https://arxiv.org/pdf/1704.07926.pdf'),
   codalab('0x88c914ee1d4b4a4587a07f36f090f3e5'),
-nil)
+)
 
 ############################################################
 # 2016
@@ -656,7 +656,7 @@ entry!('steinhardt2016risk',
   title('Unsupervised Risk Estimation Using Only Conditional Independence Structure'),
   neurips(2016),
   url('https://arxiv.org/pdf/1606.05313.pdf'),
-nil)
+)
 
 entry!('rajpurkar2016squad',
   author('Pranav Rajpurkar and Jian Zhang and Konstantin Lopyrev and Percy Liang'),
@@ -665,7 +665,7 @@ entry!('rajpurkar2016squad',
   award('Best resource paper award'),
   url('https://arxiv.org/pdf/1606.05250.pdf'),
   codalab('0xd53d03a48ef64b329c16b9baf0f99b0c'),
-nil)
+)
 
 entry!('wang2016games',
   author('Sida I. Wang and Percy Liang and Chris Manning'),
@@ -674,7 +674,7 @@ entry!('wang2016games',
   award('Outstanding paper award'),
   url('https://arxiv.org/pdf/1606.02447.pdf'),
   codalab('0x9fe4d080bac944e9a6bd58478cb05e5e'),
-nil)
+)
 
 entry!('jia2016recombination',
   author('Robin Jia and Percy Liang'),
@@ -682,7 +682,7 @@ entry!('jia2016recombination',
   acl(2016),
   url('http://arxiv.org/pdf/1606.03622.pdf'),
   codalab('0x50757a37779b485f89012e4ba03b6f4f'),
-nil)
+)
 
 entry!('long2016projections',
   author('Reginald Long and Panupong Pasupat and Percy Liang'),
@@ -690,7 +690,7 @@ entry!('long2016projections',
   acl(2016),
   url('https://arxiv.org/pdf/1606.05378.pdf'),
   codalab('0xad3fc9f52f514e849b282a105b1e3f02'),
-nil)
+)
 
 entry!('pasupat2016inferring',
   author('Panupong Pasupat and Percy Liang'),
@@ -698,7 +698,7 @@ entry!('pasupat2016inferring',
   acl(2016),
   url('https://arxiv.org/pdf/1606.06900.pdf'),
   codalab('0x47cc64d9c8ba4a878807c7c35bb22a42'),
-nil)
+)
 
 entry!('khani2016unanimity',
   author('Fereshte Khani and Martin Rinard and Percy Liang'),
@@ -706,7 +706,7 @@ entry!('khani2016unanimity',
   acl(2016),
   url('unanimity-acl2016.pdf'),
   codalab('0x593676a278fc4e5abe2d8bac1e3df486'),
-nil)
+)
 
 entry!('chaganty2016perspectives',
   author('Arun Tejasvi Chaganty and Percy Liang'),
@@ -714,7 +714,7 @@ entry!('chaganty2016perspectives',
   acl(2016),
   url('perspectives-acl2016.pdf'),
   codalab('0x243284b4d81d4590b46030cdd3b72633'),
-nil)
+)
 
 entry!('raghunathan2016linear',
   author('Aditi Raghunathan and Roy Frostig and John Duchi and Percy Liang'),
@@ -722,7 +722,7 @@ entry!('raghunathan2016linear',
   icml(2016),
   url('http://arxiv.org/pdf/1608.03100.pdf'),
   codalab('0x6a264a96efea41158847eef9ec2f76bc'),
-nil)
+)
 
 entry!('wager2016levy',
   title('Data Augmentation via {L}\\\'evy Processes'),
@@ -730,14 +730,14 @@ entry!('wager2016levy',
   incollection('Perturbations, Optimization and Statistics', 2016),
   url('http://arxiv.org/pdf/1603.06340.pdf'),
   code('https://github.com/swager/levythin'),
-nil)
+)
 
 entry!('liang2016executable',
   title('Learning Executable Semantic Parsers for Natural Language Understanding'),
   article('Communications of the ACM', 2016, 59),
   url('executable-cacm2016.pdf'),
   author('Percy Liang'),
-nil)
+)
 
 ############################################################
 # 2015
@@ -750,7 +750,7 @@ entry!('wang2015overnight',
   url('overnight-acl2015.pdf'),
   codalab('0x269ef752f8c344a28383240f7bb2be9c'),
   tags('semantic parsing'),
-nil)
+)
 
 entry!('berant2015agenda',
   tacl(2015, 3),
@@ -760,7 +760,7 @@ entry!('berant2015agenda',
   url('http://nlp.stanford.edu/pubs/berant-liang-tacl2015.pdf'),
   project('http://www-nlp.stanford.edu/software/sempre/'),
   codalab('0x8fdfad310dd84b7baf683b520b4b64d5'),
-nil)
+)
 
 entry!('steinhardt2015relaxed',
   neurips(2015),
@@ -768,7 +768,7 @@ entry!('steinhardt2015relaxed',
   author('Jacob Steinhardt and Percy Liang'),
   url('relaxed-nips2015.pdf'),
   codalab('0xc9db508bb80446d2b66cbc8e2c74c052'),
-nil)
+)
 
 entry!('wang2015polynomial',
   neurips(2015),
@@ -776,7 +776,7 @@ entry!('wang2015polynomial',
   author('Sida I. Wang and Arun Chaganty and Percy Liang'),
   url('polynomial-nips2015.pdf'),
   codalab('0xca42b883b1f9481989cfb02fe693649f'),
-nil)
+)
 
 entry!('werling2015onthejob',
   neurips(2015),
@@ -784,7 +784,7 @@ entry!('werling2015onthejob',
   author('Keenon Werling and Arun Chaganty and Percy Liang and Chris Manning'),
   url('onthejob-nips2015.pdf'),
   codalab('0x2ae89944846444539c2d08a0b7ff3f6f'),
-nil)
+)
 
 entry!('kuleshov2015calibrated',
   neurips(2015),
@@ -792,7 +792,7 @@ entry!('kuleshov2015calibrated',
   author('Volodymyr Kuleshov and Percy Liang'),
   url('calibration-nips2015.pdf'),
   codalab('0xecc9a01cfcbc4cd6b0444a92d259a87c'),
-nil)
+)
 
 entry!('kuleshov2015simultaneous',
   arxiv(2015),
@@ -800,7 +800,7 @@ entry!('kuleshov2015simultaneous',
   author('Volodymyr Kuleshov and Arun Chaganty and Percy Liang'),
   title('Simultaneous diagonalization: the asymmetric, low-rank, and noisy settings'),
   url('http://arxiv.org/pdf/1501.06318.4182.pdf'),
-nil)
+)
 
 entry!('guu2015traversing',
   emnlp(2015),
@@ -809,7 +809,7 @@ entry!('guu2015traversing',
   award('Best paper honorable mention'),
   url('http://arxiv.org/pdf/1506.01094.pdf'),
   codalab('0xfcace41fdeec45f3bc6ddf31107b829f'),
-nil)
+)
 
 entry!('pasupat2015compositional',
   acl(2015),
@@ -817,7 +817,7 @@ entry!('pasupat2015compositional',
   author('Panupong Pasupat and Percy Liang'),
   url('compositional-acl2015.pdf'),
   codalab('0xf26cd79d4d734287868923ad1067cf4c'),
-nil)
+)
 
 entry!('misra2015environment',
   acl(2015),
@@ -825,7 +825,7 @@ entry!('misra2015environment',
   author('Dipendra K. Misra and Kejia Tao and Percy Liang and Ashutosh Saxena'),
   url('environment-acl2015.pdf'),
   codalab('0x7f9151ec074f4f589e4d4786db7bb6de'),
-nil)
+)
 
 entry!('steinhardt2015rcm',
   author('Jacob Steinhardt and Percy Liang'),
@@ -833,7 +833,7 @@ entry!('steinhardt2015rcm',
   url('http://arxiv.org/pdf/1502.06665.pdf'),
   icml(2015),
   codalab('0x8967960a7c644492974871ee60198401'),
-nil)
+)
 
 entry!('steinhardt2015fast',
   author('Jacob Steinhardt and Percy Liang'),
@@ -841,7 +841,7 @@ entry!('steinhardt2015fast',
   url('http://arxiv.org/pdf/1502.06668.pdf'),
   icml(2015), pages(1063, 1072),
   codalab('0xc6edf0c9bec643ac9e74418bd6ad4136'),
-nil)
+)
 
 entry!('shi2015sample',
   aistats(2015),
@@ -850,7 +850,7 @@ entry!('shi2015sample',
   url('sample-aistats2015.pdf'),
   codalab('0x66df55eda5054cbf9e173520c7b6ac3d'),
   pages(875, 884),
-nil)
+)
 
 entry!('kuleshov2015tensor',
   aistats(2015),
@@ -858,7 +858,7 @@ entry!('kuleshov2015tensor',
   title('Tensor factorization via matrix factorization'),
   url('http://arxiv.org/pdf/1501.07320.pdf'),
   codalab('0x56dc93bcd3a647b197ad6e4b9d56f336'),
-nil)
+)
 
 entry!('liang2015semantics',
   author('Percy Liang and Christopher Potts'),
@@ -867,7 +867,7 @@ entry!('liang2015semantics',
   pages(355, 376),
   url('http://www.stanford.edu/~cgpotts/manuscripts/liang-potts-semantics.pdf'),
   tags('semantic parsing'),
-nil)
+)
 
 ############################################################
 # 2014
@@ -877,7 +877,7 @@ entry!('steinhardt2014sparse',
   author('Jacob Steinhardt and Stefan Wager and Percy Liang'),
   title('The Statistics of Streaming Sparse Regression'),
   url('http://arxiv.org/pdf/1412.4182.pdf'),
-nil)
+)
 
 entry!('ramanathan2014linking',
   eccv(2014),
@@ -885,7 +885,7 @@ entry!('ramanathan2014linking',
   author('Vignesh Ramanathan and Armand Joulin and Percy Liang and Li Fei-Fei'),
   url('linking-eccv2014.pdf'),
   supplementalurl('linking-eccv2014-supp.pdf'),
-nil)
+)
 
 entry!('liang2014talking',
   article('XRDS: Crossroads, The ACM Magazine for Students', 2014, 21),
@@ -895,7 +895,7 @@ entry!('liang2014talking',
   pages(18, 21),
   publisher('ACM'),
   url('talking-xrds2014.pdf'),
-nil)
+)
 
 entry!('berant2014paraphrasing',
   author('Jonathan Berant and Percy Liang'),
@@ -905,7 +905,7 @@ entry!('berant2014paraphrasing',
   award('Best long paper honorable mention'),
   project('http://www-nlp.stanford.edu/software/sempre/'),
   tags('semantic parsing'),
-nil)
+)
 
 entry!('pasupat2014extraction',
   author('Panupong Pasupat and Percy Liang'),
@@ -914,7 +914,7 @@ entry!('pasupat2014extraction',
   url('extraction-acl2014.pdf'),
   slidesurl('extraction-acl2014-talk.pdf'),
   project('http://www-nlp.stanford.edu/software/web-entity-extractor-ACL2014/'),
-nil)
+)
 
 entry!('chaganty2014graphical',
   author('Arun Chaganty and Percy Liang'),
@@ -923,14 +923,14 @@ entry!('chaganty2014graphical',
   slidesurl('graphical-icml2014-talk.pdf'),
   icml(2014),
   tags('spectral'),
-nil)
+)
 
 entry!('steinhardt2014eg',
   author('Jacob Steinhardt and Percy Liang'),
   title('Adaptivity and Optimism: An Improved Exponentiated Gradient Algorithm'),
   url('eg-icml2014.pdf'),
   icml(2014),
-nil)
+)
 
 entry!('steinhardt2014filtering',
   author('Jacob Steinhardt and Percy Liang'),
@@ -939,21 +939,21 @@ entry!('steinhardt2014filtering',
   pages(727, 735),
   url('filtering-icml2014.pdf'),
   supplementalurl('filtering-icml2014-appendix.pdf'),
-nil)
+)
 
 entry!('frostig2014subconstant',
   author('Roy Frostig and Sida I. Wang'),
   title('A sub-constant improvement in approximating the positive semidefinite {G}rothendieck problem'),
   arxiv(2014, '1408.2270'),
   url('http://arxiv.org/abs/1408.2270'),
-nil)
+)
 
 entry!('wager2014altitude',
   title('Altitude Training: Strong Bounds for Single-Layer Dropout'),
   author('Stefan Wager and Will Fithian and Sida I. Wang and Percy Liang'),
   neurips(2014),
   url('http://arxiv.org/pdf/1407.3289.pdf'),
-nil)
+)
 
 entry!('frostig2014lowrank',
   title('Simple {MAP} inference via low-rank relaxations'),
@@ -961,14 +961,14 @@ entry!('frostig2014lowrank',
   neurips(2014),
   url('http://cs.stanford.edu/~rfrostig/pubs/lowrank-nips2014.pdf'),
   codalab('0x106abb3b47be492aa7387f528c943faa'),
-nil)
+)
 
 entry!('wang2014iqp',
   author('Sida I. Wang and Roy Frostig and Percy Liang and Chris Manning'),
   title('Relaxations for inference in restricted {B}oltzmann machines'),
   iclrWorkshop(2014),
   url('http://arxiv.org/abs/1312.6205'),
-nil)
+)
 
 ############################################################
 # 2013
@@ -978,7 +978,7 @@ entry!('liang2013lambdadcs',
   title('Lambda Dependency-Based Compositional Semantics'),
   arxiv(2013, '1309.4408'),
   url('http://arxiv.org/pdf/1309.4408.pdf'),
-nil)
+)
 
 entry!('berant2013freebase',
   author('Jonathan Berant and Andrew Chou and Roy Frostig and Percy Liang'),
@@ -989,14 +989,14 @@ entry!('berant2013freebase',
   supplementalurl('http://arxiv.org/pdf/1309.4408.pdf'),
   project('http://www-nlp.stanford.edu/software/sempre/'),
   tags('semantic parsing'),
-nil)
+)
 
 entry!('wang2013noising',
   author('Sida I. Wang and Mengqiu Wang and Stefan Wager and Percy Liang and Chris Manning'),
   title('Feature Noising for Log-linear Structured Prediction'),
   emnlp(2013),
   url('noising-emnlp2013.pdf'),
-nil)
+)
 
 entry!('wager2013dropout',
   author('Stefan Wager and Sida I. Wang and Percy Liang'),
@@ -1004,7 +1004,7 @@ entry!('wager2013dropout',
   neurips(2013),
   url('http://arxiv.org/pdf/1307.1493.pdf'),
   posterurl('dropout-nips2013-poster.pdf'),
-nil)
+)
 
 entry!('chaganty13regression',
   author('Arun Chaganty and Percy Liang'),
@@ -1012,21 +1012,21 @@ entry!('chaganty13regression',
   icml(2013),
   url('http://arxiv.org/pdf/1306.3729.pdf'),
   tags('spectral'),
-nil)
+)
 
 entry!('ramanathan2013event',
   author('Vignesh Ramanathan and Percy Liang and Li Fei-Fei'),
   title('Video Event Understanding using Natural Language Descriptions'),
   iccv(2013),
   url('event-iccv2013.pdf'),
-nil)
+)
 
 entry!('sharma13algebraic',
   author('Rahul Sharma and Saurabh Gupta and Bharath Hariharan and Alex Aiken and Percy Liang and Aditya V. Nori'),
   title('A Data Driven Approach for Algebraic Loop Invariants'),
   inproceedings('European Symposium on Programming (ESOP)', 2013),
   url('algebraic-esop2013.pdf'),
-nil)
+)
 
 ############################################################
 # 2012 and earlier
@@ -1040,21 +1040,21 @@ entry!('hsu12identifiability',
   posterurl('identifiability-nips2012-poster.pdf'),
   techreporturl('http://arxiv.org/pdf/1206.3137.pdf'),
   tags('spectral'),
-nil)
+)
 
 entry!('liang13cl',
   author('Percy Liang and Michael Jordan and Dan Klein'),
   title('Learning Dependency-Based Compositional Semantics'),
   computationalLinguistics(2013, 39), pages(389, 446),
   extendedVersion,
-nil)
+)
 
 entry!('liang11thesis',
   author('Percy Liang'),
   title('Learning Dependency-Based Compositional Semantics'),
   phdthesis('University of California Berkeley at Berkeley', 2011),
   extendedVersion,
-nil)
+)
 
 entry!('liang11dcs',
   author('Percy Liang and Michael I. Jordan and Dan Klein'),
@@ -1070,7 +1070,7 @@ entry!('liang11dcs',
   punchlines('Task: learn to map questions to answers via latent logical forms.',
              'Contribution: new tree-based semantic representation.',
              'Result: surpass state-of-the-art on semantic parsing with less supervision.'),
-nil)
+)
 
 entry!('liang11pruning',
   author('Percy Liang and Mayur Naik'),
@@ -1083,7 +1083,7 @@ entry!('liang11pruning',
   punchlines('Idea: run cheap analysis, use client feedback to prune away irrelvant parts of program analysis (think program slicing); then run expensive analysis.',
              'Theoretical result: pruning is sound and complete.',
              'Empirical result: we can use much richer $k$-object-sensitivity abstractions.'),
-nil)
+)
 
 entry!('liang11minimal',
   author('Percy Liang and Omer Tripp and Mayur Naik'),
@@ -1095,7 +1095,7 @@ entry!('liang11minimal',
   punchlines('Question: how small is the smallest abstraction needed to prove a query?',
              'Empirical answer: very small (less than 2.5% sites need to be treated context-sensitively for k-limited analyses for race detection).',
              'Found this answer using a new machine learning algorithm that exploits this sparsity.'),
-nil)
+)
 
 entry!('golland2010pragmatics',
   emnlp(2010),
@@ -1104,7 +1104,7 @@ entry!('golland2010pragmatics',
   pages(410, 419),
   url('pragmatics-emnlp2010.pdf'),
   slidesurl('pragmatics-emnlp2010-talk.pdf'),
-nil)
+)
 
 entry!('angeli10generation',
   author('Gabor Angeli and Percy Liang and Dan Klein'),
@@ -1116,7 +1116,7 @@ entry!('angeli10generation',
   punchlines(
     'Model natural language generation as a sequence of local decisions, each backed by a log-linear model.',
     'Advantage: can use arbitrary expressive features, works across multiple domains.'),
-nil)
+)
 
 entry!('liang10abstraction',
   author('Percy Liang and Omer Tripp and Mayur Naik and Mooly Sagiv'),
@@ -1127,7 +1127,7 @@ entry!('liang10abstraction',
   abstract('The quality of a static analysis of heap-manipulating programs is largely determined by its heap abstraction.  Object allocation sites are a commonly-used abstraction, but are too coarse for some clients.  The goal of this paper is to investigate how various refinements of allocation sites can improve precision.  In particular, we consider abstractions that use call stack, object recency, and heap connectivity information.  We measure the precision of these abstractions dynamically for four different clients motivated by concurrency and on nine Java programs chosen from the DaCapo benchmark suite.  Our dynamic results shed new light on aspects of heap abstractions that matter for precision, which allows us to more effectively navigate the large space of possible heap abstractions.'),
   punchlines('Question: what aspects of a heap abstraction matter?',
              'Methodology: run program (9 DaCapo benchmarks) dynamically, compute static heap abstractions (3 dimensions of refinement: context sensitivity, object recency, and shape analysis), answer client queries (4 clients based on concurrency).'),
-nil)
+)
 
 entry!('liang10programs',
   author('Percy Liang and Michael I. Jordan and Dan Klein'),
@@ -1139,7 +1139,7 @@ entry!('liang10programs',
   code('../software/program-induction.zip'),
   abstract('We are interested in learning programs for multiple related tasks given only a few training examples per task.  Since the program for a single task is underdetermined by its data, we introduce a nonparametric hierarchical Bayesian prior over programs which shares statistical strength across multiple tasks.  The key challenge is to parametrize this multi-task sharing.  For this, we introduce a new representation of programs based on combinatory logic and provide an MCMC algorithm that can perform safe program transformations on this representation to reveal shared inter-program substructures.'),
   punchlines('Programs are trees, subprograms are subtrees, which can be shared across tasks.  Combinators refactor programs to expose the appropriate subprograms.'),
-nil)
+)
 
 entry!('liang10regimes',
   author('Percy Liang and Nati Srebro'),
@@ -1149,7 +1149,7 @@ entry!('liang10regimes',
   slidesurl('regimes-icml2010-talk.pdf'),
   abstract('A learning problem might have several measures of complexity (e.g., norm and dimensionality) that affect the generalization error.  What is the interaction between these complexities?  Dimension-free learning theory bounds and parametric asymptotic analyses each provide a partial picture of the full learning curve.  In this paper, we use high-dimensional asymptotics on two classical problems---mean estimation and linear regression---to explore the learning curve more completely.  We show that these curves exhibit multiple regimes, where in each regime, the excess risk is controlled by a subset of the problem complexities.'),
   punchlines('Goal: understand excess risk as a function of sample size and problem complexity.  On simple examples, show that asymptotic risk has multiple regimes, each controlled by different complexities.'),
-nil)
+)
 
 entry!('liang10type',
   author('Percy Liang and Michael I. Jordan and Dan Klein'),
@@ -1161,7 +1161,7 @@ entry!('liang10type',
   abstract('Most existing algorithms for learning latent-variable models---such as EM and existing Gibbs samplers---are token-based, meaning that they update the variables associated with one sentence at a time.  The incremental nature of these methods makes them susceptible to local optima/slow mixing.  In this paper, we introduce a type-based sampler, which updates a block of variables, identified by a type, which spans multiple sentences.  We show improvements on part-of-speech induction, word segmentation, and learning tree-substitution grammars.'),
   punchlines('NLP perspective: goal is to avoid local optima by processing all tokens associated with a type at once instead of one token or sentence at a time.',
              'Sampling perspective: new type of block sampling that exploits exchangeability.'),
-nil)
+)
 
 entry!('liang10regularizationTR',
   author('Percy Liang and Francis Bach and Guillaume Bouchard and Michael I. Jordan'),
@@ -1173,7 +1173,7 @@ entry!('liang10regularizationTR',
              'Question: what is the best regularizer to use?',
              'This is hard to optimize, so use a Taylor expansion instead.'),
 
-nil)
+)
 entry!('liang09regularization',
   author('Percy Liang and Francis Bach and Guillaume Bouchard and Michael I. Jordan'),
   title('Asymptotically Optimal Regularization in Smooth Parametric Models'),
@@ -1185,7 +1185,7 @@ entry!('liang09regularization',
   punchlines('Setting: estimator defined by minimizing loss plus regularization.',
              'Question: what is the best regularizer to use?',
              'This is hard to optimize, so use a Taylor expansion instead, yielding a interpretable closed form solution.'),
-nil)
+)
 
 entry!('liang09hdppcfg',
   author('Percy Liang and Michael I. Jordan and Dan Klein'),
@@ -1196,7 +1196,7 @@ entry!('liang09hdppcfg',
   url('hdppcfg-haba.pdf'),
   abstract('Probabilistic context-free grammars (PCFGs) have played an important role in the modeling of syntax in natural language processing and other applications, but choosing the proper model complexity is often difficult.  We present a nonparametric Bayesian generalization of the PCFG based on the hierarchical Dirichlet process (HDP).  In our HDP-PCFG model, the effective complexity of the grammar can grow with increasing data.  We describe an efficient variational inference algorithm for our model and present experiments on both a synthetic grammar induction task and a large-scale natural language parsing task.'),
   punchlines('Details of the EMNLP 2007 paper + general background, empirical intuitions, and derivations for structured mean-field + a small grammar induction experiment.'),
-nil)
+)
 
 entry!('liang09semantics',
   author('Percy Liang and Michael I. Jordan and Dan Klein'),
@@ -1210,7 +1210,7 @@ entry!('liang09semantics',
   abstract('A central problem in grounded language acquisition is learning the correspondences between a rich world state and a stream of text which references that world state.  To deal with the high degree of ambiguity present in this setting, we present a generative model that simultaneously segments the text into utterances and maps each utterance to a meaning representation grounded in the world state.  We show that our model generalizes across three domains of increasing difficulty---Robocup sportscasting, weather forecasts (a new domain), and NFL recaps.'),
   punchlines('Stuff happens in the world.  A text talks about it.  Our goal: learn the correspondence between the two.',
              'Approach: probabilistic model capturing identification of entities/events in the world, segmentation of the text, and alignment between the two.'),
-nil)
+)
 
 entry!('liang09measurements',
   author('Percy Liang and Michael I. Jordan and Dan Klein'),
@@ -1222,7 +1222,7 @@ entry!('liang09measurements',
   punchlines('Goal: learning with minimum human effort.',
              'Things human can do: label data, provide constraints---in general, make measurements.',
              'Use Bayesian decision theory to choose optimal measurements.'),
-nil)
+)
 
 entry!('liang09online',
   author('Percy Liang and Dan Klein'),
@@ -1235,7 +1235,7 @@ entry!('liang09online',
   abstract('The (batch) EM algorithm plays an important role in unsupervised induction, but it sometimes suffers from slow convergence.  In this paper, we show that online variants (1) provide significant speedups and (2) can even find better solutions than those found by batch EM.  We support these findings on four unsupervised tasks: part-of-speech tagging, document classification, word segmentation, and word alignment.'),
   punchlines('What you\'d expect: online is faster than batch.',
              'What you might not expect: online gets better accuarcy than batch.'),
-nil)
+)
 
 entry!('liang08asymptotics',
   author('Percy Liang and Michael I. Jordan'),
@@ -1247,7 +1247,7 @@ entry!('liang08asymptotics',
   abstract('Statistical and computational concerns have motivated parameter estimators based on various forms of likelihood, e.g., joint, conditional, and pseudolikelihood.  In this paper, we present a unified framework for studying these estimators, which allows us to compare their relative (statistical) efficiencies.  Our asymptotic analysis suggests that modeling more of the data tends to reduce variance, but at the cost of being more sensitive to model misspecification.  We present experiments validating our analysis.'),
   punchlines('Derive general expression for the asymptotic risk of composite likelihood estimators in exponential families.',
              'This allows us to compare the various estimators.'),
-nil)
+)
 
 entry!('liang08structure',
   author('Percy Liang and Hal {Daum{\\\'e} III} and Dan Klein'),
@@ -1258,7 +1258,7 @@ entry!('liang08structure',
   abstract('Structured models often achieve excellent performance but can be slow at test time.  We investigate structure compilation, where we replace structure with features, which are often computationally simpler but unfortunately statistically more complex.  We analyze this tradeoff theoretically and empirically on three natural language processing tasks.  We also introduce a simple method to transfer predictive power from structure to features via unlabeled data, while incurring a minimal statistical penalty.'),
   punchlines('How much do we lose by throwing out edge features in CRFs and adding node features?',
              'Studies the approximation, estimation, computational aspects of the tradeoff.'),
-nil)
+)
 
 entry!('liang08errors',
   author('Percy Liang and Dan Klein'),
@@ -1270,7 +1270,7 @@ entry!('liang08errors',
   punchlines('Error decomposition: approximation, identifiability, estimation, optimization errors.',
              'Used meta-model to analyze approximation error.',
              'Empirically observed that more data reduces optimization error.'),
-nil)
+)
 
 entry!('haghighi08lexicon',
   author('Aria Haghighi and Percy Liang and Taylor Berg-Kirkpatrick and Dan Klein'),
@@ -1280,7 +1280,7 @@ entry!('haghighi08lexicon',
   code('../software/unsuplex.zip'),
   abstract('We present a method for learning bilingual translation lexicons from monolingual corpora.  Word types in each language are characterized by purely monolingual features, such as context counts and orthographic substrings.  Translations are induced using a generative model based on canonical correlation analysis, which explains the monolingual lexicons in terms of latent matchings. We show that high-precision lexicons can be learned in a variety of language pairs and from a range of corpus types.'),
   punchlines('By using CCA, can do word alignment without the usual sentence-aligned corpora.'),
-nil)
+)
 
 entry!('liang08agreement',
   author('Percy Liang and Dan Klein and Michael I. Jordan'),
@@ -1303,7 +1303,7 @@ EOF
   punchlines('Setting: unsupervised learning.',
              'Alternative to approximate inference: make two tractable models and train them to agree.',
              'Advantage: maintain existing tractable inference procedures as black-boxes.'),
-nil)
+)
 
 entry!('bouchard08language',
   author("Alexandre Bouchard-C\\^ot\\'e and Percy Liang and Tom Griffiths and Dan Klein"),
@@ -1326,7 +1326,7 @@ generalized to support inferences about linguistic phylogenies.
 EOF
   ),
   punchlines('Feature-based generative model of phonemes of words in a phylogeny of languages.'),
-nil)
+)
 
 entry!('liang07tutorial',
   author('Percy Liang and Dan Klein'),
@@ -1334,7 +1334,7 @@ entry!('liang07tutorial',
   acl2007,
   url('tutorial-acl2007.pdf'),
   slidesurl('tutorial-acl2007-talk.pdf'),
-nil)
+)
 
 entry!('liang07permdp',
   author('Percy Liang and Michael I. Jordan and Ben Taskar'),
@@ -1364,7 +1364,7 @@ EOF
   slidesurl('permutation-dp-icml2007-talk.pdf'),
   punchlines('Idea: if data are ordered, can cluster using dynamic programming.',
              'Let this ordering be a random auxiliary variable and we get a sampler.'),
-nil)
+)
 
 entry!('liang07infpcfg',
   author('Percy Liang and Slav Petrov and Michael I. Jordan and Dan Klein'),
@@ -1386,7 +1386,7 @@ EOF
   punchlines(
     'A PCFG with an infinite number of states.',
     'Learning: variational inference.'),
-nil)
+)
 
 entry!('bouchard07diachronic',
   author("Alexandre Bouchard-C\\^ot\\'e and Percy Liang and Tom Griffiths and Dan Klein"),
@@ -1404,7 +1404,7 @@ quantitative results validating the model.
 EOF
   ),
   punchlines('Generative model of phonemes of words in a phylogeny of languages'),
-nil)
+)
 
 entry!('liang06discrimative',
   author("Percy Liang and Alexandre Bouchard-C\\^ot\\'e and Dan Klein and Ben Taskar"),
@@ -1432,7 +1432,7 @@ the initial phrase extraction process, which has previously been entirely
 heuristic.
 EOF
   ),
-nil)
+)
 
 entry!('liang06alignment',
   author('Percy Liang and Ben Taskar and Dan Klein'),
@@ -1458,7 +1458,7 @@ provides a 29\% reduction in AER over symmetrized IBM model 4
 predictions.
 EOF
   ),
-nil)
+)
 
 entry!('liang05meng',
   author('Percy Liang'),
@@ -1469,7 +1469,7 @@ entry!('liang05meng',
   punchlines('Task: named-entity recognition and Chinese word segmentation',
             'Idea: create features based on unlabeled data '+
             'to use in Perceptron learning in Markov or semi-Markov models'),
-nil)
+)
 
 entry!('liang05hypercycle',
   author('Percy Liang and Nathan Srebro'),
@@ -1481,7 +1481,7 @@ entry!('liang05hypercycle',
             'a generalization of acyclicity in graphs.',
             'We provide a dynamic data structure for maintaining hyperacyclicity, '+
             'a generalization of Tarjan\'s Union-Find algorithm.'),
-nil)
+)
 
 entry!('liang04markov',
   title('Methods and Experiments With Bounded Tree-width {M}arkov Networks'),
@@ -1492,7 +1492,7 @@ entry!('liang04markov',
   punchlines('Use a greedy procedure to find the maximum likelihood (or MDL) '+
             'bounded tree-width Markov network '+
             '(for tree-width 1, equivalent to Chow-Liu maximum spanning trees).'),
-nil)
+)
 
 entry!('liang03maxwmfarm',
   title('How Much Of A Hypertree Can Be Captured By Windmills?'),
@@ -1503,7 +1503,7 @@ entry!('liang03maxwmfarm',
   punchlines('Use linear programming to find worst case inputs to a dynamic program '+
             'in order to explore the tightness of a bound '+
             'for approximating maximum weight hypertrees with windmill farms.'),
-nil)
+)
 
 entry!('liang05mcmaster',
   title('Linear Programming in Bounded Tree-width {M}arkov Networks'),
@@ -1511,7 +1511,7 @@ entry!('liang05mcmaster',
   inproceedings('Mathematical Programing for Data Mining and Machine Learning Workshop at McMaster University', 2005),
   code('../software/hypertree.zip'),
   slidesurl('mcmaster2005-slides.pdf'),
-nil)
+)
 
 entry!('liang05geometric',
   title('Efficient Geometric Algorithms for Parsing in Two Dimensions'),
@@ -1523,4 +1523,4 @@ entry!('liang05geometric',
             'In parsing documents or images, '+
             'the subproblems would be subsets of the terminals (exponential in number of terminals). '+
             'We introduce (and unify) several ways to constrain these subsets using the geometric structure of the terminals.'),
-nil)
+)

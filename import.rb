@@ -165,7 +165,7 @@ def bibtexToRuby(bibtexLines)
     unprocessed.each { |line|
       lines << '  #' + line
     }
-    lines << "nil)"
+    lines << ")"
 
     output << lines.join("\n")
     # Reset
