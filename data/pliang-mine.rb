@@ -8,26 +8,26 @@ entry!('koh2020wilds',
   url('https://arxiv.org/pdf/2012.07421.pdf'),
 )
 
-entry!('jones2020selective',
+entry!('jones2021selective',
   title('Selective Classification Can Magnify Disparities Across Groups'),
   author('Erik Jones* and Shiori Sagawa* and Pang Wei Koh* and Ananya Kumar and Percy Liang'),
-  arxiv(2020),
+  iclr(2021),
   url('https://arxiv.org/pdf/2010.14134.pdf'),
 )
 
-entry!('xie2020innout',
+entry!('xie2021innout',
   title('In-{N}-Out: Pre-Training and Self-Training using Auxiliary Information for Out-of-Distribution Robustness'),
   author('Sang Michael Xie* and Ananya Kumar* and Robert Jones* and Fereshte Khani and Tengyu Ma and Percy Liang'),
-  arxiv(2020),
+  iclr(2021),
   url('https://arxiv.org/pdf/2012.04550.pdf'),
   unusualCapitalization('N'),
 )
 
-entry!('khani2020removing',
+entry!('khani2021removing',
   title('Removing Spurious Features can Hurt Accuracy and Affect Groups Disproportionately'),
   author('Fereshte Khani and Percy Liang'),
-  arxiv(2020),
-  extendedVersion,  # Hide for now
+  facct(2021),
+  url('https://arxiv.org/pdf/2012.04104.pdf'),
 )
 
 entry!('xie2020outputs',
@@ -72,6 +72,13 @@ entry!('hewitt2020rnn',
   emnlp(2020),
   url('https://arxiv.org/pdf/2010.07515.pdf'),
   codalab('0xd668cf62e9e0499089626e45affee864'),
+nil)
+
+entry!('newman2020eos',
+  author('Benjamin Newman and John Hewitt and Percy Liang and Christopher D. Manning'),
+  title('The {EOS} Decision and Length Extrapolation'),
+  inproceedings('Proceedings of the Third BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP', 2020),
+  url('https://arxiv.org/abs/2010.07174'),
 nil)
 
 entry!('dathathri2020sdp',

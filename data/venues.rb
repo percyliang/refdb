@@ -106,6 +106,8 @@ def hri(year); inproceedings(Name.new('ACM/IEEE International Conference on Huma
 def icorr(year); inproceedings(Name.new('IEEE International Conference on Rehabilitation Robotics', 'ICORR'), year) end
 def thri(year, volume); article(Name.new('ACM Transactions on Human-Robot Interaction', 'THRI'), year, volume) end
 
+def facct(year); inproceedings(Name.new('ACM Conference on Fairness, Accountability, and Transparency', 'FAccT'), year) end
+
 ### Natural language processing
 def naacl(year); [inproceedings(Name.new('North American Association for Computational Linguistics', 'NAACL'), year), aclpub] end
 def naacl2009; [naacl(2009), address('Boulder, Colorado')] end
@@ -164,7 +166,7 @@ def cav(year); inproceedings(Name.new('Computer Aided Verification', 'CAV'), yea
 def asplos(year); inproceedings(Name.new('Architectural Support for Programming Languages and Operating Systems', 'ASPLOS'), year) end
 def ase(year); inproceedings(Name.new('Automated Software Engineering', 'ASE'), year) end
 
-#Security
+# Security
 def iieeeurosp(year); inproceedings(Name.new('IEEE European Symposium on Security and Privacy', 'EuroS\&P'), year) end
 
 # Databases
