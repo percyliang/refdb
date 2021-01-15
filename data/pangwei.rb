@@ -2626,3 +2626,109 @@ entry!('li2019leopard',
   author('Hongyang Li and Yuanfang Guan'),
   publisher('Cold Spring Harbor Laboratory'),
 nil)
+
+entry!('raghu2020survey',
+  arxiv(2020, '2003.11755'),
+  title('A survey of deep learning for scientific discovery'),
+  author('Maithra Raghu and Eric Schmidt'),
+nil)
+
+entry!('geirhos2020shortcut',
+  arxiv(2020, '2004.07780'),
+  title('Shortcut Learning in Deep Neural Networks'),
+  author('Robert Geirhos and J{\"o}rn-Henrik Jacobsen and Claudio Michaelis and Richard Zemel and Wieland Brendel and Matthias Bethge and Felix A Wichmann'),
+nil)
+
+entry!('rolf2020generalizable',
+  article('NBER Working Paper', 2020),
+  title('A Generalizable and Accessible Approach to Machine Learning with Global Satellite Imagery'),
+  author('Esther Rolf and Jonathan Proctor and Tamma Carleton and Ian Bolliger and Vaishaal Shankar and Miyabi Ishihara and Benjamin Recht and Solomon Hsiang'),
+  number(28045),
+nil)
+
+entry!('djolonga2020robustness',
+  arxiv(2020, '2007.08558'),
+  title('On robustness and transferability of convolutional neural networks'),
+  author('Josip Djolonga and Jessica Yung and Michael Tschannen and Rob Romijnders and Lucas Beyer and Alexander Kolesnikov and Joan Puigcerver and Matthias Minderer and Alexander D\'Amour and Dan Moldovan and others'),
+nil)
+
+entry!('wang2019learning',
+  nips(2019),
+  title('Learning robust global representations by penalizing local predictive power'),
+  author('Haohan Wang and Songwei Ge and Zachary Lipton and Eric P Xing'),
+nil)
+
+entry!('miller2020effect',
+  arxiv(2020, '2004.14444'),
+  title('The Effect of Natural Distribution Shift on Question Answering Models'),
+  author('John Miller and Karl Krauth and Benjamin Recht and Ludwig Schmidt'),
+nil)
+
+entry!('geirhos2018generalisation',
+  article('Advances in neural information processing systems', 2018, 31),
+  title('Generalisation in humans and deep neural networks'),
+  author('Robert Geirhos and Carlos RM Temme and Jonas Rauber and Heiko H Sch{\"u}tt and Matthias Bethge and Felix A Wichmann'),
+  pages(7538, 7550),
+nil)
+
+entry!('adragna2020fairness',
+  arxiv(2020, '2011.06485'),
+  title('Fairness and Robustness in Invariant Learning: A Case Study in Toxicity Classification'),
+  author('Robert Adragna and Elliot Creager and David Madras and Richard Zemel'),
+nil)
+
+entry!('bohacek1996art',
+  article('Medicinal research reviews', 1996, 16),
+  title('The art and practice of structure-based drug design: a molecular modeling perspective'),
+  author('Regine S Bohacek and Colin McMartin and Wayne C Guida'),
+  number(1),
+  pages(3, 50),
+  publisher('Wiley Subscription Services, Inc., A Wiley Company New York'),
+nil)
+
+entry!('lyu2019ultra',
+  article('Nature', 2019, 566),
+  title('Ultra-large library docking for discovering new chemotypes'),
+  author('Jiankun Lyu and Sheng Wang and Trent E Balius and Isha Singh and Anat Levit and Yurii S Moroz and Matthew J O’Meara and Tao Che and Enkhjargal Algaa and Kateryna Tolmachova and others'),
+  number(7743),
+  pages(224, 229),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('mccloskey2020machine',
+  article('Journal of Medicinal Chemistry', 2020),
+  title('Machine Learning on {DNA}-Encoded Libraries: A New Paradigm for Hit Finding'),
+  author('Kevin McCloskey and Eric A Sigel and Steven Kearnes and Ling Xue and Xia Tian and Dennis Moccia and Diana Gikunju and Sana Bazzaz and Betty Chan and Matthew A Clark and others'),
+  publisher('ACS Publications'),
+nil)
+
+entry!('attene2013tox21',
+  article('Drug discovery today', 2013, 18),
+  title('The Tox21 robotic platform for the assessment of environmental chemicals--from vision to reality'),
+  author('Matias S Attene-Ramos and Nicole Miller and Ruili Huang and Sam Michael and Misha Itkin and Robert J Kavlock and Christopher P Austin and Paul Shinn and Anton Simeonov and Raymond R Tice and others'),
+  number('15-16'),
+  pages(716, 723),
+  publisher('Elsevier'),
+nil)
+
+entry!('collins2008transforming',
+  science(2008, 319),
+  title('Transforming environmental health protection'),
+  author('Francis S Collins and George M Gray and John R Bucher'),
+  number(5865),
+  publisher('NIH Public Access'),
+nil)
+
+entry!('reker2020practical',
+  article('Drug Discovery Today: Technologies', 2020),
+  title('Practical considerations for active machine learning in drug discovery'),
+  author('Daniel Reker'),
+  publisher('Elsevier'),
+nil)
+
+entry!('agrawal2018don',
+  cvpr(2018),
+  title('Don\'t just assume; look and answer: Overcoming priors for visual question answering'),
+  author('Aishwarya Agrawal and Dhruv Batra and Devi Parikh and Aniruddha Kembhavi'),
+  pages(4971, 4980),
+nil)
