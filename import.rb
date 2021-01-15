@@ -1,12 +1,13 @@
 #!/usr/bin/ruby
 
-# Reads in a bib file and prints out Ruby entries.
-# This script is a bit hacky, so double check the added entries before importing.
+# Reads in a bib file from stdin and writes out Ruby entries to your specific file.
+# Things that can't be quite interpreted are added as comments.
+# This script is a bit hacky, so double check the added entries.
 
 $: << '.'
 require 'refdb'
 
-# Figure out wher to write
+# Figure out where to write Ruby entries
 usernamePath = File.expand_path(File.dirname(__FILE__)) + '/username'
 if File.exists?(usernamePath)
   username = IO.readlines(usernamePath)[0].strip
@@ -21,8 +22,6 @@ else
   out.puts username
   out.close
 end
-
-$stderr.puts 'Enter bibtex:'
 
 # Build up a map to macros (so we can standardize names)
 $venues = [] # list of [name, macros]
@@ -67,9 +66,7 @@ def bibtexToRuby(bibtexLines)
       value.gsub!('\'', '\\\\\'')
 
       if key == 'pages'
-        if value =~ /^(\d+)\s*--\s*(\d+)$/
-          value = $1 + ', ' + $2
-        elsif value =~ /^(\d+)\s*-\s*(\d+)$/
+        if value =~ /^(\d+)\s*[-–]+\s*(\d+)$/
           value = $1 + ', ' + $2
         end
       elsif value =~ /^(\d+)$/
@@ -87,9 +84,18 @@ def bibtexToRuby(bibtexLines)
     lines = []
     lines << "entry!('#{id}',"
 
-    # Call more succinct functions rather than just using key-value pairs
-    addItem = lambda { |func,fields|
-      lines << "  #{func}(" + fields.map { |f| (map[f] || f.upcase) }.join(', ') + "),"
+    # Call more succinct functions rather than just using key-value pairs (given by keys)
+    # (e.g., 'icml(2020)' instead of 'inproceedings(...), year(...)')
+    # Return whether all the arguments exists
+    addItem = lambda { |func,keys|
+      values = keys.map { |k| map[k] }
+      # Make sure all arguments exist
+      if values.all? { |value| value }
+        lines << "  #{func}(" + values.join(', ') + "),"
+        true
+      else
+        false
+      end
     }
 
     # Special case arXiv
@@ -107,44 +113,59 @@ def bibtexToRuby(bibtexLines)
     if not usedMacro
       $venues.each { |name,func|
         if map['booktitle'] =~ /#{name}/
-          addItem.call(func, ['year'])
-          map.delete('booktitle')
-          map.delete('year')
-          usedMacro = true
-          break
+          if addItem.call(func, ['year'])
+            map.delete('booktitle')
+            map.delete('year')
+            usedMacro = true
+            break
+          end
         elsif map['journal'] =~ /#{name}/
-          p name
-          addItem.call(func, ['year', 'volume'])
-          map.delete('journal')
-          map.delete('year')
-          map.delete('volume')
-          usedMacro = true
-          break
+          if addItem.call(func, ['year', 'volume'])
+            map.delete('journal')
+            map.delete('year')
+            map.delete('volume')
+            usedMacro = true
+            break
+          end
         end
       }
     end
 
-    # Conferences and journals
+    # Conferences and journals (e.g., 'inproceedings(...)')
     if not usedMacro
       if type == 'inproceedings'
-        addItem.call(type, ['booktitle', 'year'])
-        map.delete('booktitle')
-        map.delete('year')
+        if addItem.call(type, ['booktitle', 'year'])
+          map.delete('booktitle')
+          map.delete('year')
+        end
       elsif type == 'article'
-        addItem.call(type, ['journal', 'year', 'volume'])
-        map.delete('journal')
-        map.delete('year')
-        map.delete('volume')
+        if addItem.call(type, ['journal', 'year', 'volume'])
+          map.delete('journal')
+          map.delete('year')
+          map.delete('volume')
+        end
       end
     end
 
     map.each { |key,value|
-      lines << '  ' + key + '(' + value + '),'
+      begin
+        eval key
+        defined = true
+      rescue NameError
+        defined = false
+      rescue ArgumentError
+        defined = true
+      end
+      if defined
+        lines << '  ' + key + '(' + value + '),'
+      else
+        lines << '  #' + key + '(' + value + '),'
+      end
     }
     unprocessed.each { |line|
       lines << '  #' + line
     }
-    lines << "nil)"
+    lines << ")"
 
     output << lines.join("\n")
     # Reset
@@ -155,41 +176,73 @@ def bibtexToRuby(bibtexLines)
   }
 
   bibtexLines.each { |line|
-    line = line.sub(/^\s*/, '').sub(/\s*$/, '')
     next if line == ''
     if line =~ /^@(\w+)\s*\{\s*([^,]+)/
-      type, id = $1, $2
+      type, id = $1.downcase, $2
     elsif line =~ /^(\w+)\s*=\s*\{(.+)\}[^}]*/ # title = {...}
-      map[$1] = $2
+      map[$1.downcase] = $2
     elsif line =~ /^(\w+)\s*=\s*"(.+)"[^"]*/ # title = "..."
-      map[$1] = $2
+      map[$1.downcase] = $2
     elsif line =~ /^(\w+)\s*=\s*(\d+)/ # volume = 19
-      map[$1] = $2
+      map[$1.downcase] = $2
     elsif line =~ /^\}$/
       flush.call
-    elsif line =~ /^%/
-      # Comment
     else
-      p line
       unprocessed << line
     end
   }
   output
 end
 
+def isContinuation(line)
+  return false if line =~ /@\w+{/  # Ignore entries
+  return true if line.count('{') > line.count('}')
+  return true if line.count('"') % 2 == 1
+  return false
+end
+
+def mergeMultiLines(lines)
+  newLines = []
+  lines.each { |line|
+    if newLines.size > 0 && isContinuation(newLines[-1])
+      # Continuation of previous line
+      newLines[-1] += ' ' + line
+    else
+      newLines << line
+    end
+  }
+  #newLines.each { |line| puts 'AA ' + line}
+  newLines
+end
+
+# Read raw bibtex from stdin
+$stderr.puts '### Enter bibtex entries (and press ctrl-D when done):'
 bibtexLines = []
-while line = gets
+while line = $stdin.gets
+  line = line.sub(/^\s*/, '').sub(/\s*$/, '')
+  line = line.gsub(/\s+/, ' ')
   bibtexLines << line
 end
 
+bibtexLines = mergeMultiLines(bibtexLines)
+
+# Convert to Ruby
 rubyLines = []
 bibtexToRuby(bibtexLines).each { |ruby|
   rubyLines << ''
   rubyLines << ruby
 }
+rubyLines.each { |line| puts line }
 
+# Write to output
+pretend = ARGV.include?('--pretend')
 outPath = 'data/' + username + '.rb'
-puts "### Writing the following to #{outPath} ###"
-out = open(outPath, 'a+')
-rubyLines.each { |line| puts line; out.puts line }
-out.close
+puts
+if pretend
+  puts "### Not writing to #{outPath}"
+else
+  out = open(outPath, 'a+')
+  rubyLines.each { |line| out.puts line }
+  out.close
+  puts "### Type `make` and edit #{outPath} to double check the import!"
+end

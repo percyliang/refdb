@@ -109,7 +109,7 @@ class Entry
     checkWarning(errors, title.to_s !~ /\.$/, "title ends with period '#{title}'")
 
     # Check that the fields are valid
-    checkWarning(errors, year >= 1800 && year <= 2020, "year '#{year}'")
+    checkWarning(errors, year >= 1800 && year <= 2100, "year '#{year}'")
     checkWarning(errors, pages.check, "pages '#{pages}'") if pages
 
     ['type', 'title', 'author', 'metaTitle'].each { |name|
@@ -148,7 +148,7 @@ class Entry
     ["@#{type}{#{id},"] + @fieldsMap.map { |name,values|
       values = values.map { |value|
         if value.class == Author
-          value.to_short_s.gsub(/\*/, '')  # Remove stars (for joint first-authorship)
+          value.to_full_s.gsub(/\*/, '')  # Remove stars (for joint first-authorship)
         elsif value.class == Name
           verbose == 0 ? value.to_short_s : value.to_full_s
         else

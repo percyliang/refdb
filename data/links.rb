@@ -39,4 +39,4 @@ link!(
   ['Rong Ge', 'http://www.cs.princeton.edu/~rongge/'],
   ['Sham M. Kakade', 'http://research.microsoft.com/en-us/um/people/skakade/'],
   ['Aaron Sidford', 'http://www.aaronsidford.com/'],
-nil)
+)

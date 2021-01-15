@@ -4,7 +4,7 @@ entry!('lane2016genome',
   title('Genome-wide association analysis identifies novel loci for chronotype in 100,420 individuals from the {UK} Biobank'),
   author('Jacqueline M Lane and Irma Vlasac and Simon G Anderson and Simon D Kyle and William G Dixon and David A Bechtold and Shubhroz Gill and Max A Little and Annemarie Luik and Andrew Loudon and others'),
   publisher('Nature Publishing Group'),
-nil)
+)
 
 entry!('wain2015novel',
   article('The Lancet Respiratory Medicine', 2015, 3),
@@ -13,7 +13,7 @@ entry!('wain2015novel',
   number(10),
   pages(769, 781),
   publisher('Elsevier'),
-nil)
+)
 
 entry!('o2012multiphen',
   article('PloS One', 2012, 7),
@@ -21,7 +21,7 @@ entry!('o2012multiphen',
   author('Paul F O\'Reilly and Clive J Hoggart and Yotsawat Pomyen and Federico CF Calboli and Paul Elliott and Marjo-Riitta Jarvelin and Lachlan JM Coin'),
   number(5),
   publisher('Public Library of Science'),
-nil)
+)
 
 entry!('rossol2012cd14brightcd16',
   article('Arthritis \& Rheumatology', 2012, 64),
@@ -30,7 +30,7 @@ entry!('rossol2012cd14brightcd16',
   number(3),
   pages(671, 677),
   publisher('Wiley Online Library'),
-nil)
+)
 
 entry!('milovanovic2004relationships',
   article('Clinica {C}himica {A}cta', 2004, 343),
@@ -39,13 +39,13 @@ entry!('milovanovic2004relationships',
   number('1-2'),
   pages(237, 240),
   publisher('Elsevier'),
-nil)
+)
 
 entry!('maddison2016concrete',
   arxiv(2016, '1611.00712'),
   title('The concrete distribution: A continuous relaxation of discrete random variables'),
   author('Chris J Maddison and Andriy Mnih and Yee Whye Teh'),
-nil)
+)
 
 entry!('abid2018exploring',
   article('Nature Communications', 2018, 9),
@@ -53,4 +53,4 @@ entry!('abid2018exploring',
   author('Abubakar Abid and Martin J Zhang and Vivek K Bagaria and James Zou'),
   number(1),
   publisher('Nature Publishing Group'),
-nil)
+)
