@@ -2653,7 +2653,7 @@ entry!('djolonga2020robustness',
 nil)
 
 entry!('wang2019learning',
-  nips(2019),
+  neurips(2019),
   title('Learning robust global representations by penalizing local predictive power'),
   author('Haohan Wang and Songwei Ge and Zachary Lipton and Eric P Xing'),
 nil)
