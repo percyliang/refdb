@@ -1,4 +1,14 @@
 ############################################################
+# 2021
+
+entry!('li2021prefix',
+  title('Prefix-Tuning: Optimizing Continuous Prompts for Generation'),
+  author('Xiang Lisa Li and Percy Liang'),
+  arxiv(2021),
+  url('https://arxiv.org/pdf/2101.00190.pdf'),
+)
+
+############################################################
 # 2020
 
 entry!('koh2020wilds',
@@ -79,6 +89,7 @@ entry!('newman2020eos',
   title('The {EOS} Decision and Length Extrapolation'),
   inproceedings('Proceedings of the Third BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP', 2020),
   url('https://arxiv.org/abs/2010.07174'),
+  award('Outstanding paper award'),
 )
 
 entry!('dathathri2020sdp',
