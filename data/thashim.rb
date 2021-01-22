@@ -352,7 +352,7 @@ entry!('kearns2018preventing',
        title('Preventing fairness gerrymandering: Auditing and learning for subgroup fairness'),
        author('Michael Kearns and Seth Neel and Aaron Roth and Zhiwei Steven Wu'),
        pages(2564, 2572),
-       )      
+       )
 
 entry!('hebertjohnson2017',
        title('Calibration for the (Computationally-Identifiable) Masses'),
@@ -652,8 +652,8 @@ entry!('bental2013robust',
        pages(341,357),
        )
 
-entry!('duchi2018learning',
-       arxiv(2018,'1810.08750'),
+entry!('duchi2021learning',
+       article('Annals of Statistics', 2021),
        title('Learning Models with Uniform Performance via Distributionally Robust Optimization'),
        author('John Duchi and Hongseok Namkoong'),
        )
