@@ -356,8 +356,13 @@ entry!('reiner2018mortality',
         author('Robert C. Reiner and Nicholas Graetz and Daniel C. Casey and Christopher Troeger and Gregory M. Garcia and Jonathan F. Mosser and Aniruddha Deshpande and Scott J. Swartz and  Sarah E. Ray and Brigette F. Blacker and Puja C. Rao and Aaron Osgood-Zimmerman and Roy Burstein and David M. Pigott and Ian M. Davis and Ian D. Letourneau and Lucas Earl and Jennifer M. Ross and Ibrahim A. Khalil and Tamer H. Farag and Oliver J. Brady and Moritz U.G. Kraemer and David L. Smith and Samir Bhatt and Daniel J. Weiss and Peter W. Gething and Nicholas J. Kassebaum and Ali H. Mokdad and Christopher J.L. Murray and Simon I. Hay'),
   title('Variation in Childhood Diarrheal Morbidity and Mortality in Africa, 2000–2015'),
   article('New England Journal of Medicine', 2018, 379),
-
+      )
+entry!('bengio2013estimating',
+author('Yoshua Bengio and Nicholas Leonard and Aaron Courville'),
+  title('Estimating or Propagating Gradients Through Stochastic Neurons for Conditional Computation'),
+  arxiv(2013),
 )
+
 entry!('burke2016mortality',
         author('Marshall Burke and Sam Heft-Neal and Eran Bendavid'),
   title('Sources of variation in under-5 mortality across sub-Saharan Africa: a spatial analysis'),
