@@ -450,4 +450,25 @@ entry!('rolf2020post',
   title('Post-Estimation Smoothing: A Simple Baseline for Learning with Side Information'),
   aistats(2020),
 )
+entry!('lewis2020bart',
+  author('Mike Lewis and Yinhan Liu and Naman Goyal and Marjan Ghazvininejad and Abdelrahman Mohamed and Omer Levy and Ves Stoyanov and Luke Zettlemoyer'),
+  title('BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension'),
+  acl(2020),
+      )
+entry!('french1999catastrophic',
+  author('Robert M French'),
+  title('Catastrophic forgetting in connectionist networks'),
+  article('Trends in cognitive sciences', 1999, 3),
+      )
+entry!('mccloskey1989catastrphic',
+  author('Michael McCloskey and Neal J Cohen'),
+  title('Catastrophic interference in connectionist networks: The sequential learning problem'),
+  article('The psychology of learning and motivation', 1989, 24),
+      )
+entry!('ratcliff1990connectionist',
+  author('Roger Ratcliff'),
+  title('Connectionist models of recognition memory: constraints imposed by learning and forgetting functions'),
+  article('Psychological review', 1990, 97),
+      )
+
 
