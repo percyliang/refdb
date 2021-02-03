@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 ########################################################################################################################
 ###      IntEx-SemPar Workshop @ EMNLP 2020 --> Learning Adaptive Language Interfaces through Decomposition          ###
 ########################################################################################################################
@@ -562,4 +564,429 @@ entry!('nie2020adversarial',
   acl(2020),
   title('Adversarial NLI: A New Benchmark for Natural Language Understanding'),
   author('Yixin Nie and Adina Williams and Emily Dinan and Mohit Bansal and J. Weston and Douwe Kiela'),
+nil)
+
+entry!('mccoy2020berts',
+  inproceedings('Proceedings of the Third BlackBoxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP @ EMNLP', 2020),
+  title('BERTs of a feather do not generalize together: Large variability in generalization across models with similar test set performance'),
+  author('R. Thomas McCoy and Junghyun Min and Tal Linzen'),
+nil)
+
+entry!('young2014image',
+  tacl(2014, 2),
+  title('From image descriptions to visual denotations: New similarity metrics for semantic inference over event descriptions'),
+  author('P. Young and A. Lai and M. Hodosh and J. Hockenmaier'),
+  pages(67, 78),
+nil)
+
+entry!('romanov2018mednli',
+  emnlp(2018),
+  title('Lessons from Natural Language Inference in the Clinical Domain'),
+  author('Alexey Romanov and Chaitanya Shivade'),
+nil)
+
+entry!('freund1995adaboost',
+  colt(1995),
+  title('A decision-theoretic generalization of on-line learning and an application to boosting'),
+  author('Y. Freund and R. Schapire'),
+nil)
+
+########################################################################################################################
+###                        ACL 2021 - *Title Redacted until end of anonymity Period*                                 ###
+########################################################################################################################
+
+entry!('lewis1994heterogeneous',
+  icml(1994),
+  title('Heterogeneous uncertainty sampling for supervised learning'),
+  author('David D Lewis and Jason Catlett'),
+  pages(148, 156),
+nil)
+
+entry!('cohn1994active',
+  nips(1994),
+  title('Active Learning with Statistical Models'),
+  author('David A. Cohn and Zoubin Ghahramani and Michael I. Jordan'),
+nil)
+
+entry!('han2000datamining',
+  author('Jiawei Han and Micheline Kamber'),
+  title('Data Mining: Concepts and Techniques'),
+  book('Morgan Kaufmann', 2000),
+nil)
+
+entry!('scheffer2001active',
+  inproceedings('International Symposium on Intelligent Data Analysis', 2001),
+  title('Active hidden {M}arkov models for information extraction'),
+  author('Tobias Scheffer and Christian Decomain and Stefan Wrobel'),
+  pages(309, 318),
+  organization('Springer'),
+nil)
+
+entry!('krymolowski2002distinguishing',
+  coling(2002),
+  title('Distinguishing easy and hard instances'),
+  author('Yuval Krymolowski'),
+nil)
+
+entry!('jones2003active',
+  kdd(2003),
+  title('Active learning for information extraction with multiple view feature sets'),
+  author('Rosie Jones and Rayid Ghani and Tom Mitchell and Ellen Riloff'),
+  pages(26, 34),
+nil)
+
+entry!('finn2003active',
+  inproceedings('Proceedings of the International Workshop on Adaptive Text Extraction and Mining (ATEM-03)', 2003),
+  title('Active learning selection strategies for information extraction'),
+  author('Aidan Finn and Nicolas Kushmerick'),
+  pages(18, 25),
+nil)
+
+entry!('abramson2004active',
+  title('Active learning for visual object recognition'),
+  author('Yotam Abramson and Yoav Freund'),
+  techreport('University of California, San Diego', 2004),
+nil)
+
+entry!('hachey2005investigating',
+  conll(2005),
+  title('Investigating the effects of selective sampling on the annotation task'),
+  author('Ben Hachey and Beatrice Alex and Markus Becker'),
+  pages(144, 151),
+  organization('Association for Computational Linguistics'),
+nil)
+
+entry!('hoi2006batch',
+  inproceedings('Proceedings of the 23rd international conference on Machine learning', 2006),
+  title('Batch mode active learning and its application to medical image classification'),
+  author('Steven CH Hoi and Rong Jin and Jianke Zhu and Michael R Lyu'),
+  pages(417, 424),
+  organization('ACM'),
+nil)
+
+entry!('schein2007active',
+  machineLearning(2007, 68),
+  title('Active learning for logistic regression: an evaluation'),
+  author('A. Schein and Lyle H. Ungar'),
+  pages(235, 265),
+nil)
+
+entry!('collins2008towards',
+  eccv(2008),
+  title('Towards scalable dataset construction: An active learning approach'),
+  author('Brendan Collins and Jia Deng and Kai Li and Li Fei-Fei'),
+  pages(86, 98),
+  organization('Springer'),
+nil)
+
+entry!('joshi2009multi',
+  cvpr(2009),
+  title('Multi-class active learning for image classification'),
+  author('Ajay J Joshi and Fatih Porikli and Nikolaos Papanikolopoulos'),
+  pages(2372, 2379),
+  organization('IEEE'),
+nil)
+
+# Need to reconcile with pliang.rb (settles2010)
+entry!('settles2009active',
+  title('Active learning literature survey'),
+  author('Burr Settles'),
+  techreport('University of Wisconsin, Madison', 2009),
+nil)
+
+entry!('bigham2010vizwiz',
+  uist(2010),
+  title('Vizwiz: nearly real-time answers to visual questions'),
+  author('Jeffrey P Bigham and Chandrika Jayant and Hanjie Ji and Greg Little and Andrew Miller and Robert C Miller and Robin Miller and Aubrey Tatarowicz and Brandyn White and Samual White and Tom Yeh'),
+  pages(333, 342),
+nil)
+
+entry!('houlsby2011bayesian',
+  arxiv(2011, '1112.5745'),
+  title('{B}ayesian active learning for classification and preference learning'),
+  author('Neil Houlsby and Ferenc Husz{\'a}r and Zoubin Ghahramani and M{\'a}t{\'e} Lengyel'),
+nil)
+
+entry!('khosla2012undoing',
+  eccv(2012),
+  title('Undoing the damage of dataset bias'),
+  author('Aditya Khosla and Tinghui Zhou and Tomasz Malisiewicz and Alexei A Efros and Antonio Torralba'),
+  pages(158, 171),
+  organization('Springer'),
+nil)
+
+entry!('zhou2015simple',
+  arxiv(2015, '1512.02167'),
+  title('Simple baseline for visual question answering'),
+  author('Bolei Zhou and Yuandong Tian and Sainbayar Sukhbaatar and Arthur Szlam and Rob Fergus'),
+nil)
+
+entry!('ren2015frcnn',
+  pami(2015, 39),
+  title('Faster {R}-{CNN}: Towards Real-Time Object Detection with Region Proposal Networks'),
+  author('Shaoqing Ren and Kaiming He and Ross B. Girshick and Jian Sun'),
+  pages(1137, 1149),
+nil)
+
+# Need to reconcile with pliang.rb (antol2015vqa)
+entry!('agrawal2015vqa1',
+  article('International Journal of Computer Vision', 2015, 123),
+  title('{VQA}: Visual Question Answering'),
+  author('Aishwarya Agrawal and Jiasen Lu and Stanislaw Antol and Margaret Mitchell and C. Lawrence Zitnick and Devi Parikh and Dhruv Batra'),
+  pages(4, 31),
+nil)
+
+entry!('malinowski2015ask',
+  iccv(2015),
+  title('Ask your neurons: A neural-based approach to answering questions about images'),
+  author('Mateusz Malinowski and Marcus Rohrbach and Mario Fritz'),
+  pages(1, 9),
+nil)
+
+entry!('ren2015exploring',
+  nips(2015),
+  title('Exploring models and data for image question answering'),
+  author('Mengye Ren and Ryan Kiros and Richard Zemel'),
+  pages(2953, 2961),
+nil)
+
+entry!('lu2016hierarchical',
+  nips(2016),
+  title('Hierarchical question-image co-attention for visual question answering'),
+  author('Jiasen Lu and Jianwei Yang and Dhruv Batra and Devi Parikh'),
+nil)
+
+entry!('fukui2016multimodal',
+  emnlp(2016),
+  title('Multimodal compact bilinear pooling for visual question answering and visual grounding'),
+  author('Akira Fukui and Dong Huk Park and Daylen Yang and Anna Rohrbach and Trevor Darrell and Marcus Rohrbach'),
+nil)
+
+entry!('wu2016ask',
+  cvpr(2016),
+  title('Ask me anything: Free-form visual question answering based on knowledge from external sources'),
+  author('Qi Wu and Peng Wang and Chunhua Shen and Anthony Dick and Anton van den Hengel'),
+  pages(4622, 4630),
+nil)
+
+entry!('zhu2016visual7w',
+  cvpr(2016),
+  title('Visual7{W}: Grounded question answering in images'),
+  author('Yuke Zhu and Oliver Groth and Michael Bernstein and Li Fei-Fei'),
+  pages(4995, 5004),
+nil)
+
+entry!('lin2017active',
+  arxiv(2017, '1711.01732'),
+  title('Active Learning for Visual Question Answering: An Empirical Study'),
+  author('Xiao Lin and Devi Parikh'),
+nil)
+
+entry!('shen2017deep',
+  arxiv(2017, '1707.05928'),
+  title('Deep active learning for named entity recognition'),
+  author('Yanyao Shen and Hyokun Yun and Zachary C Lipton and Yakov Kronrod and Animashree Anandkumar'),
+nil)
+
+entry!('kendall2017uncertainties',
+  nips(2017),
+  title('What uncertainties do we need in {B}ayesian deep learning for computer vision?'),
+  author('Alex Kendall and Yarin Gal'),
+  pages(5574, 5584),
+nil)
+
+# Fix formatting from joberant.rb import of Visual Genome
+entry!('krishna2017visual',
+  title('Visual genome: Connecting language and vision using crowdsourced dense image annotations'),
+  author('Ranjay Krishna and Yuke Zhu and Oliver Groth and Justin Johnson and Kenji Hata and Joshua Kravitz and Stephanie Chen and Yannis Kalantidi and Li-Jia Li and David A. Shamma and Michael S. Bernstein and Fei-Fei Li'),
+  article('International Journal of Computer Vision', 2017, 123), pages(32, 73),
+nil)
+
+entry!('gal2017dbal',
+  icml(2017),
+  title('Deep {B}ayesian Active Learning with Image Data'),
+  author('Yarin Gal and R. Islam and Zoubin Ghahramani'),
+nil)
+
+entry!('deng2018adversarial',
+  ijcai(2018),
+  title('Adversarial Active Learning for Sequences Labeling and Generation'),
+  author('Yue Deng and KaWai Chen and Yilin Shen and Hongxia Jin'),
+  pages(4012, 4018),
+nil)
+
+entry!('teney2018tips',
+  cvpr(2018),
+  title('Tips and Tricks for Visual Question Answering: Learnings from the 2017 Challenge'),
+  author('Damien Teney and Peter Anderson and Xiaodong He and Anton V. D. Hengel'),
+  pages(4223, 4232),
+nil)
+
+entry!('anderson2018butd',
+  cvpr(2018),
+  title('Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering'),
+  author('Peter Anderson and X. He and C. Buehler and Damien Teney and Mark Johnson and Stephen Gould and Lei Zhang'),
+  pages(6077, 6086),
+nil)
+
+entry!('siddhant2018deep',
+  emnlp(2018),
+  title('Deep {B}ayesian active learning for natural language processing: Results of a large-scale empirical study'),
+  author('Aditya Siddhant and Zachary C Lipton'),
+nil)
+
+entry!('sener2018active',
+  iclr(2018),
+  title('Active learning for convolutional neural networks: A core-set approach'),
+  author('Ozan Sener and Silvio Savarese'),
+nil)
+
+entry!('perez2018film',
+  aaai(2018),
+  title('FiLM: Visual Reasoning with a General Conditioning Layer'),
+  author('Ethan Perez and Florian Strub and Harm D. Vries and Vincent Dumoulin and Aaron C. Courville'),
+nil)
+
+entry!('misra2018learning',
+  cvpr(2018),
+  title('Learning by asking questions'),
+  author('Ishan Misra and Ross Girshick and Rob Fergus and Martial Hebert and Abhinav Gupta and Laurens Van Der Maaten'),
+  pages(11, 20),
+nil)
+
+entry!('hudson2018mac',
+  iclr(2018),
+  title('Compositional Attention Networks for Machine Reasoning'),
+  author('Drew A. Hudson and Christopher D. Manning'),
+nil)
+
+entry!('park2019ai',
+  aaai(2019),
+  title('{AI}-based request augmentation to increase crowdsourcing participation'),
+  author('Junwon Park and Ranjay Krishna and Pranav Khadpe and Li Fei-Fei and Michael Bernstein'),
+  volume(7),
+  pages(115, 124),
+nil)
+
+# Need to reconcile with ice.rb (suhr2018nlvr2) -- more recent, ACL version below...
+entry!('suhr2019nlvr2',
+  acl(2019),
+  title('A corpus for reasoning about natural language grounded in photographs'),
+  author('Alane Suhr and Stephanie Zhou and Ally Zhang and Iris Zhang and Huajun Bai and Yoav Artzi'),
+nil)
+
+entry!('tan2019lxmert',
+  emnlp(2019),
+  title('LXMERT: Learning Cross-Modality Encoder Representations from Transformers'),
+  author('Hao Hao Tan and Mohit Bansal'),
+nil)
+
+entry!('paszke2019pytorch',
+  neurips(2019),
+  title('PyTorch: An Imperative Style, High-Performance Deep Learning Library'),
+  author('Adam Paszke and Sam Gross and Francisco Massa and Adam Lerer and James Bradbury and Gregory Chanan and Trevor Killeen and Zeming Lin and Natalia Gimelshein and Luca Antiga and Alban Desmaison and Andreas K{\"o}pf and Edward Yang and Zach DeVito and Martin Raison and Alykhan Tejani and Sasank Chilamkurthy and Benoit Steiner and Lu Fang and Junjie Bai and Soumith Chintala'),
+nil)
+
+entry!('zellers2019recognition',
+  cvpr(2019),
+  title('From recognition to cognition: Visual commonsense reasoning'),
+  author('Rowan Zellers and Yonatan Bisk and Ali Farhadi and Yejin Choi'),
+  pages(6720, 6731),
+nil)
+
+entry!('jedoui2019deep',
+  arxiv(2019, '1912.01119'),
+  title('Deep {B}ayesian active learning for multiple correct outputs'),
+  author('Khaled Jedoui and Ranjay Krishna and Michael Bernstein and Li Fei-Fei'),
+nil)
+
+entry!('li2019repair',
+  cvpr(2019),
+  title('Repair: Removing representation bias by dataset resampling'),
+  author('Yi Li and Nuno Vasconcelos'),
+  pages(9572, 9581),
+nil)
+
+entry!('toneva2019empirical',
+  iclr(2019),
+  title('An empirical study of example forgetting during deep neural network learning'),
+  author('Mariya Toneva and Alessandro Sordoni and Remi Tachet des Combes and Adam Trischler and Yoshua Bengio and Geoffrey J Gordon'),
+nil)
+
+entry!('hudson2019nsm',
+  neurips(2019),
+  title('Learning by Abstraction: The Neural State Machine'),
+  author('Drew A. Hudson and Christopher D. Manning'),
+nil)
+
+entry!('chen2020uniter',
+  eccv(2020),
+  title('Uniter: Universal image-text representation learning'),
+  author('Yen-Chun Chen and Linjie Li and Licheng Yu and Ahmed El Kholy and Faisal Ahmed and Zhe Gan and Yu Cheng and Jingjing Liu'),
+  pages(104, 120),
+  organization('Springer'),
+nil)
+
+entry!('le2020adversarial',
+  icml(2020),
+  title('Adversarial filters of dataset biases'),
+  author('Ronan Le Bras and Swabha Swayamdipta and Chandra Bhagavatula and Rowan Zellers and Matthew Peters and Ashish Sabharwal and Yejin Choi'),
+  pages(1078, 1088),
+  organization('PMLR'),
+nil)
+
+entry!('swayamdipta2020dataset',
+  emnlp(2020),
+  title('Dataset cartography: Mapping and diagnosing datasets with training dynamics'),
+  author('Swabha Swayamdipta and Roy Schwartz and Nicholas Lourie and Yizhong Wang and Hannaneh Hajishirzi and Noah A. Smith and Yejin Choi'),
+nil)
+
+########################################################################################################################
+###        ICML 2021a - ELLA: Exploration through Learned Language Abstraction: A Reward Shaping Approach            ###
+########################################################################################################################
+
+
+########################################################################################################################
+###                   ICML 2021b - Targeted Data Acquisition for Evolving Negotiation Agents                         ###
+########################################################################################################################
+entry!('yarats2018hierarchical',
+  icml(2018),
+  title('Hierarchical Text Generation and Planning for Strategic Dialogue'),
+  author('Denis Yarats and Mike Lewis'),
+nil)
+
+entry!('yang2018mastering',
+  iclr(2018),
+  title('Mastering the Dungeon: Grounded Language Learning by Mechanical Turker Descent'),
+  author('Z. Yang and Saizheng Zhang and Jack Urbanek and Will Feng and Alexander H. Miller and Arthur Szlam and Douwe Kiela and J. Weston'),
+nil)
+
+entry!('shuster2020deploying',
+  arxiv(2020, '2008.08076'),
+  title('Deploying Lifelong Open-Domain Dialogue Learning'),
+  author('Kurt Shuster and Jack Urbanek and Emily Dinan and Arthur Szlam and J. Weston'),
+nil)
+
+entry!('zhao2019rethinking',
+  naacl(2019),
+  title('Rethinking Action Spaces for Reinforcement Learning in End-to-end Dialog Agents with Latent Variable Models'),
+  author('Tiancheng Zhao and Kaige Xie and M. Eskenazi'),
+nil)
+
+entry!('yang2020generating',
+  arxiv(2020, '2010.09954'),
+  title('Generating Strategic Dialogue for Negotiation with Theory of Mind'),
+  author('Runzhe Yang and Jingxiao Chen and Karthik Narasimhan'),
+nil)
+
+entry!('he2016opponent',
+  icml(2016),
+  title('Opponent Modeling in Deep Reinforcement Learning'),
+  author('He He and Jordan L. Boyd-Graber'),
+nil)
+
+entry!('lowe2020selfplay',
+  iclr(2020),
+  title('On the interaction between supervision and self-play in emergent communication'),
+  author('Ryan Lowe and Abhinav Gupta and Jakob N. Foerster and Douwe Kiela and Joelle Pineau'),
 nil)

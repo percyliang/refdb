@@ -344,11 +344,12 @@ entry!('spengler2010document',
   article('ACM Symposium on Document Engineering', 2010),
 nil)
 
-entry!('suhr2018nlvr2',
-  title('A Corpus for Reasoning About Natural Language Grounded in Photographs'),
-  author('Alane Suhr and Stephanie Zhou and Iris F. Zhang and Huajun Bai and Yoav Artzi'),
-  arxiv(2018, '1811.00491'),
-nil)
+# Outdated - Full Paper Published in ACL 2019
+# entry!('suhr2018nlvr2',
+#   title('A Corpus for Reasoning About Natural Language Grounded in Photographs'),
+#   author('Alane Suhr and Stephanie Zhou and Iris F. Zhang and Huajun Bai and Yoav Artzi'),
+#   arxiv(2018, '1811.00491'),
+# nil)
 
 entry!('gordon2018iqa',
   title('{IQA}: Visual Question Answering in Interactive Environments'),
