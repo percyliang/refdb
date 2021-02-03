@@ -470,5 +470,25 @@ entry!('ratcliff1990connectionist',
   title('Connectionist models of recognition memory: constraints imposed by learning and forgetting functions'),
   article('Psychological review', 1990, 97),
       )
+entry!('zhang2021revisiting',
+       author('Tianyi Zhang and Felix Wu and Arzuo Katiyar and Kilian Q. Weinberger and Yoav Artzi'),
+  title('Revisiting Few-sample {BERT} Fine-tuning'),
+  iclr(2021),
+      )
+entry!('dodge2020finetuning',
+       author('Jesse Dodge and Gabriel Ilharco and Roy Schwartz and Ali Farhadi and Hannaneh Hajishirzi and Noah Smith'),
+  title('Finetuning pretrained language models: Weight initializations, data orders, and early stopping'),
+  arxiv(2020)
+      )
+entry!('lee2020mixout',
+       author('Cheolhyoung Lee and Kyunghyun Cho and and Wanmo Kang'),
+       title('Mixout: Effective regularization to finetune large-scale pretrained language models'),
+  iclr(2020)
+      )
+entry!('houlsby2019parameter',
+       author('Neil Houlsby and Andrei Giurgiu and Stanislaw Jastrzebski and Bruna Morrone and Quentin de Laroussilhe and Andrea Gesmundo and Mona Attariyan and Sylvain Gelly'),
+       title('Parameter-Efficient Transfer Learning for {NLP}'),
+  arxiv(2019)
+      )
 
 
