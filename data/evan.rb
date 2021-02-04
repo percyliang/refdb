@@ -770,3 +770,28 @@ entry!('leibfried2019unified',
   author('Felix Leibfried and Sergio Pascual-Diaz and Jordi Grau-Moya'),
   pages(7869, 7880),
 )
+
+entry!('sohoni2020no',
+  arxiv(2020, '2011.12945'),
+  title('No Subclass Left Behind: Fine-Grained Robustness in Coarse-Grained Classification Problems'),
+  author('Nimit S Sohoni and Jared A Dunnmon and Geoffrey Angus and Albert Gu and Christopher R{\\\'e}'),
+)
+
+entry!('pezeshki2020gradient',
+  arxiv(2020, '2011.09468'),
+  title('Gradient Starvation: A Learning Proclivity in Neural Networks'),
+  author('Mohammad Pezeshki and S{\\\'e}kou-Oumar Kaba and Yoshua Bengio and Aaron Courville and Doina Precup and Guillaume Lajoie'),
+)
+
+entry!('nam2020learning',
+  arxiv(2020, '2007.02561'),
+  title('Learning from failure: Training debiased classifier from biased classifier'),
+  author('Junhyun Nam and Hyuntak Cha and Sungsoo Ahn and Jaeho Lee and Jinwoo Shin'),
+)
+
+entry!('kim2019multiaccuracy',
+  aaai(2019),
+  title('Multiaccuracy: Black-box post-processing for fairness in classification'),
+  author('Michael P Kim and Amirata Ghorbani and James Zou'),
+  pages(247, 254),
+)
