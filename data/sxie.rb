@@ -490,5 +490,12 @@ entry!('houlsby2019parameter',
        title('Parameter-Efficient Transfer Learning for {NLP}'),
   arxiv(2019)
       )
+entry!('github2021repos',
+       title('Repository search for public repositories'),
+       author('Github'),
+       type('misc'),
+       howpublished('\url{https://github.com/search?q=is:public}'),
+       year(2021),
+       )
 
 
