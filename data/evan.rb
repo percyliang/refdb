@@ -795,3 +795,9 @@ entry!('kim2019multiaccuracy',
   author('Michael P Kim and Amirata Ghorbani and James Zou'),
   pages(247, 254),
 )
+
+entry!('cao2020heteroskedastic',
+  arxiv(2020, '2006.15766'),
+  title('Heteroskedastic and imbalanced deep learning with adaptive regularization'),
+  author('Kaidi Cao and Yining Chen and Junwei Lu and Nikos Arechiga and Adrien Gaidon and Tengyu Ma'),
+)
