@@ -801,3 +801,9 @@ entry!('cao2020heteroskedastic',
   title('Heteroskedastic and imbalanced deep learning with adaptive regularization'),
   author('Kaidi Cao and Yining Chen and Junwei Lu and Nikos Arechiga and Adrien Gaidon and Tengyu Ma'),
 )
+
+entry!('nagarajan2020understanding',
+  arxiv(2020, '2010.15775'),
+  title('Understanding the failure modes of out-of-distribution generalization'),
+  author('Vaishnavh Nagarajan and Anders Andreassen and Behnam Neyshabur'),
+)
