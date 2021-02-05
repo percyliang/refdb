@@ -109,7 +109,7 @@ class Entry
     checkWarning(errors, title.to_s !~ /\.$/, "title ends with period '#{title}'")
 
     # Check that the fields are valid
-    checkWarning(errors, year >= 1800 && year <= 2020, "year '#{year}'")
+    checkWarning(errors, year >= 1800 && year <= 2100, "year '#{year}'")
     checkWarning(errors, pages.check, "pages '#{pages}'") if pages
 
     ['type', 'title', 'author', 'metaTitle'].each { |name|

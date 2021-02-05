@@ -147,11 +147,12 @@ entry!('li2006towards',
   isaim(2006),
 nil)
 
-entry!('andreas2016modular',
-  title('Modular multitask reinforcement learning with policy sketches'),
-  author('J. Andreas and D. Klein and S. Levine'),
-  arxiv(2016, '1611.01796'),
-nil)
+# Outdated Cite --> Change to ICML 2017 in siddk.rb
+# entry!('andreas2016modular',
+#   title('Modular multitask reinforcement learning with policy sketches'),
+#   author('J. Andreas and D. Klein and S. Levine'),
+#   arxiv(2016, '1611.01796'),
+# nil)
 
 entry!('daniel2016hierarchical',
   title('Hierarchical relative entropy policy search'),
