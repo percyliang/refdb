@@ -1087,7 +1087,7 @@ nil)
 
 entry!('randlov1998learning',
   icml(1998),
-  author('Jette Randl{\o{}} and Preben Alstr{\o{}}m'),
+  author('Jette Randl{\o{}}v and Preben Alstr{\o{}}m'),
   title('Learning to Drive a Bicycle Using Reinforcement Learning and Shaping'),
 nil)
 
