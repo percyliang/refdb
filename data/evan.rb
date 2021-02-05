@@ -813,3 +813,9 @@ entry!('levy2020large',
   title('Large-Scale Methods for Distributionally Robust Optimization'),
   author('Daniel Levy and Yair Carmon and John C Duchi and Aaron Sidford'),
 )
+
+entry!('zhang2020coping',
+  arxiv(2020, '2010.12230'),
+  title('Coping with Label Shift via Distributionally Robust Optimisation'),
+  author('Jingzhao Zhang and Aditya Menon and Andreas Veit and Srinadh Bhojanapalli and Sanjiv Kumar and Suvrit Sra'),
+)
