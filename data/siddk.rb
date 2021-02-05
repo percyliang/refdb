@@ -942,12 +942,7 @@ entry!('swayamdipta2020dataset',
 nil)
 
 ########################################################################################################################
-###        ICML 2021a - ELLA: Exploration through Learned Language Abstraction: A Reward Shaping Approach            ###
-########################################################################################################################
-
-
-########################################################################################################################
-###                   ICML 2021b - Targeted Data Acquisition for Evolving Negotiation Agents                         ###
+###                            Targeted Data Acquisition for Evolving Negotiation Agents                             ###
 ########################################################################################################################
 entry!('yarats2018hierarchical',
   icml(2018),
@@ -990,3 +985,99 @@ entry!('lowe2020selfplay',
   title('On the interaction between supervision and self-play in emergent communication'),
   author('Ryan Lowe and Abhinav Gupta and Jakob N. Foerster and Douwe Kiela and Joelle Pineau'),
 nil)
+
+entry!('vries2020ecological',
+  arxiv(2020, '2007.14435'),
+  title('Towards Ecologically Valid Research on Language User Interfaces'),
+  author('Harm D. Vries and Dzmitry Bahdanau and Christopher D. Manning'),
+nil)
+
+entry!('dafoe2020open',
+  arxiv(2020, '2012.08630'),
+  title('Open Problems in Cooperative {AI}'),
+  author('Allan Dafoe and Edward Hughes and Yoram Bachrach and Tantum Collins and Kevin R McKee and Joel Z Leibo and Kate Larson and Thore Graepel'),
+nil)
+
+entry!('deming1944theory',
+  jasa(1944, 40),
+  title('Theory of Games and Economic Behavior'),
+  author('W. E. Deming and J. Neumann and O. Morgenstern'),
+nil)
+
+entry!('nash1950bargaining',
+  article('Econometrica', 1950, 18),
+  title('The Bargaining Problem'),
+  author('John Nash'),
+  pages(155, 162),
+nil)
+
+entry!('nash1951noncooperative',
+  article('Annals of Mathematics', 1951, 54),
+  title('Non-Cooperative Games'),
+  author('John Nash'),
+nil)
+
+entry!('baarslag2016negotiation',
+  chi(2016),
+  title('Negotiation as an Interaction Mechanism for Deciding App Permissions'),
+  author('Tim Baarslag and Alper T. Alan and Richard C. Gomer and Ilaria Liccardi and Helia Marreiros and Enrico Gerding and M. C. Schraefel'),
+nil)
+
+entry!('le2018preference',
+  aamas(2018),
+  title('Preference Elicitation with Interdependency and User Bother Cost'),
+  author('Tiep Le and Atena M. Tabakhi and Long Tran-Thanh and William Yeoh and Tran Cao Son'),
+nil)
+
+entry!('raileanu2018modeling',
+  icml(2018),
+  title('Modeling Others using Oneself in Multi-Agent Reinforcement Learning'),
+  author('Roberta Raileanu and Emily L. Denton and Arthur Szlam and Rob Fergus'),
+nil)
+
+entry!('xie2020lili',
+  corl(2020),
+  title('Learning Latent Representations to Influence Multi-Agent Interaction'),
+  author('Annie Xie and Dylan P. Losey and Ryan Tolsma and Chelsea Finn and Dorsa Sadigh'),
+nil)
+
+entry!('kang2019recommendation',
+  emnlp(2019),
+  title('Recommendation as a Communication Game: Self-Supervised Bot-Play for Goal-oriented Dialogue'),
+  author('Dongyeop Kang and Anusha Balakrishnan and Pararth Shah and Paul A. Crook and Y-Lan Boureau and Jason Weston'),
+nil)
+
+entry!('panait2005cooperative',
+  aamas(2005),
+  title('Cooperative Multi-Agent Learning: The State of the Art'),
+  author('Liviu Panait and Sean Luke'),
+  pages(387, 434),
+nil)
+
+entry!('hawkins2020continual',
+  conll(2020),
+  title('Continual adaptation for efficient machine communication'),
+  author('Robert D. Hawkins and Minae Kwon and Dorsa Sadigh and Noah D. Goodman'),
+nil)
+
+entry!('chen2018planning',
+  hri(2018),
+  title('Planning with Trust for Human-Robot Collaboration'),
+  author('Min Chen and Stefanos Nikolaidis and Harold Soh and David Hsu and Siddhartha Srinivasa'),
+nil)
+
+entry!('shih2021critical',
+  iclr(2021),
+  title('On the Critical Role of Conventions in Adaptive Human-{AI} Collaboration'),
+  author('Andy Shih and Arjun Sawhney and Jovana Kondic and Stefano Ermon and Dorsa Sadigh'),
+nil)
+
+entry!('coreyes2019guiding',
+  iclr(2019),
+  title('Guiding Policies with Language via Meta-Learning'),
+  author('John D. Co-Reyes and Abhishek Gupta and Suvansh Sanjeev and Nick Altieri and John DeNero and Pieter Abbeel and Sergey Levine'),
+nil)
+
+########################################################################################################################
+###                             ELLA: Exploration through Learned Language Abstraction                               ###
+########################################################################################################################
