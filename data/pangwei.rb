@@ -3,7 +3,7 @@
 #   title(''),
 #   arxiv(2016, ''),
 #   url(''),
-# nil)
+# )
 
 
 entry!('wojnowicz2016sketching',
@@ -11,14 +11,14 @@ entry!('wojnowicz2016sketching',
   title('``{I}nfluence Sketching\'\': Finding Influential Samples In Large-Scale Regressions'),
   arxiv(2016, '1611.05923'),
   url('https://arxiv.org/abs/1611.05923'),
-nil)
+)
 
 entry!('goodman2016eu',
   author('Bryce Goodman and Seth Flaxman'),
   title('European Union regulations on algorithmic decision-making and a ``right to explanation\'\''),
   arxiv(2016, '1606.08813'),
   url('https://arxiv.org/abs/1606.08813'),
-  nil)
+  )
 
 entry!('amershi2015modeltracker',
   chi(2015),
@@ -26,19 +26,19 @@ entry!('amershi2015modeltracker',
   author('Saleema Amershi and Max Chickering and Steven M Drucker and Bongshin Lee and Patrice Simard and Jina Suh'),
   pages(337, 346),
   organization('ACM'),
-nil)
+)
 
 entry!('shrikumar2017learning',
   icml(2017),
   title('Learning Important Features Through Propagating Activation Differences'),
   author('Avanti Shrikumar and Peyton Greenside and Anshul Kundaje'),
-nil)
+)
 
 entry!('lecun1998mnist',
   article('http://yann.lecun.com/exdb/mnist/', 1998),
   title('The {MNIST} database of handwritten digits'),
   author('Yann LeCun and Corinna Cortes and Christopher JC Burges'),
-nil)
+)
 
 entry!('liu1989limited',
   article('Mathematical Programming', 1989, 45),
@@ -47,7 +47,7 @@ entry!('liu1989limited',
   number(1),
   pages(503, 528),
   publisher('Springer'),
-nil)
+)
 
 entry!('lecun1998gradient',
   article('Proceedings of the IEEE', 1998, 86),
@@ -56,13 +56,13 @@ entry!('lecun1998gradient',
   number(11),
   pages(2278, 2324),
   publisher('IEEE'),
-nil)
+)
 
 entry!('springenberg2014striving',
   arxiv(2014, '1412.6806'),
   title('Striving for simplicity: The all convolutional net'),
   author('Jost Tobias Springenberg and Alexey Dosovitskiy and Thomas Brox and Martin Riedmiller'),
-nil)
+)
 
 entry!('pearlmutter1994fast',
   article('Neural Computation', 1994, 6),
@@ -71,20 +71,20 @@ entry!('pearlmutter1994fast',
   number(1),
   pages(147, 160),
   publisher('MIT Press'),
-nil)
+)
 
 entry!('theano2016theano',
   author('{Theano Development Team}'),
   title('{Theano: A {Python} framework for fast computation of mathematical expressions}'),
   arxiv(2016, '1605.02688'),
   url('http://arxiv.org/abs/1605.02688'),
-nil)
+)
 
 entry!('agarwal2016second',
   arxiv(2016, '1602.03943'),
   title('Second order stochastic optimization in linear time'),
   author('Naman Agarwal and Brian Bullins and Elad Hazan'),
-nil)
+)
 
 entry!('biggio2012poisoning',
   icml(2012),
@@ -92,13 +92,13 @@ entry!('biggio2012poisoning',
   title('Poisoning Attacks Against Support Vector Machines'),
   pages(1467, 1474),
   url('http://dl.acm.org/citation.cfm?id=3042573.3042761'),
-nil)
+)
 
 entry!('cadamuro2016debugging',
   author('Gabriel Cadamuro and Ran Gilad-Bachrach and Xiaojin Zhu'),
   title('Debugging machine learning models'),
   inproceedings('ICML Workshop on Reliable Machine Learning in the Wild', 2016),
-nil)
+)
 
 entry!('frenay2014classification',
   article('IEEE Transactions on Neural Networks and Learning Systems', 2014, 25),
@@ -106,14 +106,14 @@ entry!('frenay2014classification',
   author('Beno{\^\i}t Fr{\\\'e}nay and Michel Verleysen'),
   pages(845, 869),
   publisher('IEEE'),
-nil)
+)
 
 entry!('biggio2011label',
   article('ACML', 2011, 20),
   title('Support Vector Machines Under Adversarial Label Noise'),
   author('Battista Biggio and Blaine Nelson and Pavel Laskov'),
   pages(97, 112),
-nil)
+)
 
 entry!('jaeckel1972infinitesimal',
   title('The infinitesimal jackknife'),
@@ -121,7 +121,7 @@ entry!('jaeckel1972infinitesimal',
   article('Unpublished memorandum, Bell Telephone Laboratories, Murray Hill, NJ', 1972),
   # year(1972),
   # manual(1972),
-nil)
+)
 
 # Cook's distance
 entry!('cook1977detection',
@@ -129,20 +129,20 @@ entry!('cook1977detection',
   title('Detection of influential observation in linear regression'),
   author('R Dennis Cook'),
   pages(15, 18),
-nil)
+)
 
 entry!('cook1980influence',
   article('Technometrics', 1980, 22),
   title('Characterizations of an empirical influence function for detecting influential cases in regression'),
   author('R Dennis Cook and Sanford Weisberg'),
   pages(495, 508),
-nil)
+)
 
 entry!('cook1982residuals',
   title('Residuals and influence in regression'),
   author('R Dennis Cook and Sanford Weisberg'),
   book('New York: Chapman and Hall', 1982),
-nil)
+)
 
 # This is more general stuff
 entry!('cook1986assessment',
@@ -151,13 +151,13 @@ entry!('cook1986assessment',
   author('R Dennis Cook'),
   pages(133, 169),
   publisher('JSTOR'),
-nil)
+)
 
 # entry!('mallows1975some',
 #   article('Unpublished memorandum, Bell Telephone Laboratories, Murray Hill, NJ', 1975, VOLUME),
 #   title('On some topics in robustness'),
 #   author('Colin L Mallows'),
-# nil)
+# )
 
 entry!('thomas1990assessing',
   article('Technometrics', 1990, 32),
@@ -166,7 +166,7 @@ entry!('thomas1990assessing',
   number(1),
   pages(59, 65),
   publisher('Taylor \& Francis'),
-nil)
+)
 
 entry!('wei1998generalized',
   article('Scandinavian Journal of Statistics', 1998, 25),
@@ -174,7 +174,7 @@ entry!('wei1998generalized',
   author('Bo-Cheng Wei and Yue-Qing Hu and Wing-Kam Fung'),
   pages(25, 37),
   publisher('Wiley Online Library'),
-nil)
+)
 
 entry!('chatterjee1986influential',
   article('Statistical Science', 1986),
@@ -182,14 +182,14 @@ entry!('chatterjee1986influential',
   author('Samprit Chatterjee and Ali S Hadi'),
   pages(379, 393),
   publisher('JSTOR'),
-nil)
+)
 
 entry!('liu2014efficient',
   icml(2014),
   title('Efficient Approximation of Cross-Validation for Kernel Methods using {B}ouligand Influence Function'),
   author('Yong Liu and Shali Jiang and Shizhong Liao'),
   pages(324, 332),
-nil)
+)
 
 entry!('debruyne2008model',
   jmlr(2008, 9),
@@ -197,14 +197,14 @@ entry!('debruyne2008model',
   author('Michiel Debruyne and Mia Hubert and Johan AK Suykens'),
   number('Oct'),
   pages(2377, 2400),
-nil)
+)
 
 entry!('martens2010deep',
   icml(2010),
   title('Deep learning via Hessian-free optimization'),
   author('James Martens'),
   pages(735, 742),
-nil)
+)
 
 entry!('chollet2015keras',
   title('Keras'),
@@ -212,14 +212,14 @@ entry!('chollet2015keras',
   manual(2015),
   publisher('GitHub'),
   howpublished('\url{https://github.com/fchollet/keras}'),
-nil)
+)
 
 entry!('szegedy2016rethinking',
   cvpr(2016),
   title('Rethinking the {I}nception architecture for computer vision'),
   author('Christian Szegedy and Vincent Vanhoucke and Sergey Ioffe and Jon Shlens and Zbigniew Wojna'),
   pages(2818, 2826),
-nil)
+)
 
 entry!('huang2011adversarial',
   inproceedings('Proceedings of the 4th ACM workshop on Security and artificial intelligence', 2011),
@@ -227,7 +227,7 @@ entry!('huang2011adversarial',
   author('Ling Huang and Anthony D Joseph and Blaine Nelson and Benjamin IP Rubinstein and JD Tygar'),
   pages(43, 58),
   organization('ACM'),
-nil)
+)
 
 entry!('ben2010theory',
   article('Machine Learning', 2010, 79),
@@ -236,20 +236,20 @@ entry!('ben2010theory',
   number('1-2'),
   pages(151, 175),
   publisher('Springer'),
-nil)
+)
 
 entry!('strack2014impact',
   article('BioMed Research International', 2014, 2014),
   title('Impact of {HbA1c} measurement on hospital readmission rates: {Analysis} of 70,000 clinical database patient records'),
   author('Beata Strack and Jonathan P DeShazo and Chris Gennings and Juan L Olmo and Sebastian Ventura and Krzysztof J Cios and John N Clore'),
   publisher('Hindawi Publishing Corporation'),
-nil)
+)
 
 entry!('lakkaraju2017identifying',
   aaai(2017),
   title('Identifying Unknown Unknowns in the Open World: Representations and Policies for Guided Exploration'),
   author('Himabindu Lakkaraju and Ece Kamar and Rich Caruana and Eric Horvitz'),
-nil)
+)
 
 entry!('datta2016algorithmic',
   inproceedings('Security and Privacy (SP), 2016 IEEE Symposium on', 2016),
@@ -257,19 +257,19 @@ entry!('datta2016algorithmic',
   author('Anupam Datta and Shayak Sen and Yair Zick'),
   pages(598, 617),
   organization('IEEE'),
-nil)
+)
 
 entry!('adler2016auditing',
   arxiv(2016, '1602.07043'),
   title('Auditing Black-box Models for Indirect Influence'),
   author('Philip Adler and Casey Falk and Sorelle A Friedler and Gabriel Rybeck and Carlos Scheidegger and Brandon Smith and Suresh Venkatasubramanian'),
-nil)
+)
 
 entry!('lundberg2016unexpected',
   arxiv(2016, '1611.07478'),
   title('An unexpected unity among methods for interpreting model predictions'),
   author('Scott Lundberg and Su-In Lee'),
-nil)
+)
 
 entry!('vstrumbelj2014explaining',
   article('Knowledge and information systems', 2014, 41),
@@ -278,20 +278,20 @@ entry!('vstrumbelj2014explaining',
   number(3),
   pages(647, 665),
   publisher('Springer'),
-nil)
+)
 
 entry!('simonyan2013deep',
   arxiv(2013, '1312.6034'),
   title('Deep inside convolutional networks: Visualising image classification models and saliency maps'),
   author('Karen Simonyan and Andrea Vedaldi and Andrew Zisserman'),
-nil)
+)
 
 entry!('kim2016examples',
   inproceedings('Advances In Neural Information Processing Systems', 2016),
   title('Examples are not enough, learn to criticize! Criticism for Interpretability'),
   author('Been Kim and Oluwasanmi O Koyejo and Rajiv Khanna'),
   pages(2280, 2288),
-nil)
+)
 
 entry!('caruana2015intelligible',
   kdd(2015),
@@ -299,7 +299,7 @@ entry!('caruana2015intelligible',
   author('Rich Caruana and Yin Lou and Johannes Gehrke and Paul Koch and Marc Sturm and Noemie Elhadad'),
   pages(1721, 1730),
   organization('ACM'),
-nil)
+)
 
 entry!('debruyne2010detecting',
   article('Computational Statistics \& Data Analysis', 2010, 54),
@@ -308,7 +308,7 @@ entry!('debruyne2010detecting',
   number(12),
   pages(3007, 3019),
   publisher('Elsevier'),
-nil)
+)
 
 entry!('christmann2004robustness',
   jmlr(2004, 5),
@@ -316,7 +316,7 @@ entry!('christmann2004robustness',
   author('Andreas Christmann and Ingo Steinwart'),
   number('Aug'),
   pages(1007, 1034),
-nil)
+)
 
 entry!('russakovsky2015imagenet',
   article('International Journal of Computer Vision', 2015, 115),
@@ -325,7 +325,7 @@ entry!('russakovsky2015imagenet',
   number(3),
   pages(211, 252),
   publisher('Springer'),
-nil)
+)
 
 entry!('kansagara2011risk',
   article('JAMA', 2011, 306),
@@ -334,21 +334,21 @@ entry!('kansagara2011risk',
   number(15),
   pages(1688, 1698),
   publisher('American Medical Association'),
-nil)
+)
 
 entry!('jaakkola1999exploiting',
-  nips(1999),
+  neurips(1999),
   title('Exploiting generative models in discriminative classifiers'),
   author('Tommi S Jaakkola and David Haussler and others'),
   pages(487, 493),
   publisher('MIT; 1998'),
-nil)
+)
 
 entry!('li2016understanding',
   arxiv(2016, '1612.08220'),
   title('Understanding Neural Networks through Representation Erasure'),
   author('Jiwei Li and Will Monroe and Dan Jurafsky'),
-nil)
+)
 
 entry!('donahue2014decaf',
   icml(2014),
@@ -356,7 +356,7 @@ entry!('donahue2014decaf',
   author('Jeff Donahue and Yangqing Jia and Oriol Vinyals and Judy Hoffman and Ning Zhang and Eric Tzeng and Trevor Darrell'),
   volume(32),
   pages(647, 655),
-nil)
+)
 
 entry!('diamond2016cvxpy',
   jmlr(2016, 17),
@@ -364,14 +364,14 @@ entry!('diamond2016cvxpy',
   title('{CVXPY}: A {P}ython-Embedded Modeling Language for Convex Optimization'),
   number(83),
   pages(1, 5),
-nil)
+)
 
 entry!('moosavi2016deepfool',
   cvpr(2016),
   title('Deepfool: a simple and accurate method to fool deep neural networks'),
   author('Seyed-Mohsen Moosavi-Dezfooli and Alhussein Fawzi and Pascal Frossard'),
   pages(2574, 2582),
-nil)
+)
 
 entry!('lakhina2004diagnosing',
   inproceedings('ACM SIGCOMM Computer Communication Review', 2004),
@@ -381,20 +381,20 @@ entry!('lakhina2004diagnosing',
   number(4),
   pages(219, 230),
   organization('ACM'),
-nil)
+)
 
 entry!('paudice2018detection',
   arxiv(2018, '1802.03041'),
   title('Detection of Adversarial Training Examples in Poisoning Attacks through Anomaly Detection'),
   author('Andrea Paudice and Luis Mu{\~n}oz-Gonz{\\\'a}lez and Andras Gyorgy and Emil C Lupu'),
-nil)
+)
 
 entry!('nelson2008exploiting',
   article('LEET', 2008, 8),
   title('Exploiting Machine Learning to Subvert Your Spam Filter'),
   author('Blaine Nelson and Marco Barreno and Fuching Jack Chi and Anthony D Joseph and Benjamin IP Rubinstein and Udam Saini and Charles A Sutton and J Doug Tygar and Kai Xia'),
   pages(1, 9),
-nil)
+)
 
 entry!('hodge2004survey',
   article('Artificial intelligence review', 2004, 22),
@@ -403,7 +403,7 @@ entry!('hodge2004survey',
   number(2),
   pages(85, 126),
   publisher('Springer'),
-nil)
+)
 
 # UKBB
 entry!('gupta2016monotonic',
@@ -413,7 +413,7 @@ entry!('gupta2016monotonic',
   number(1),
   pages(3790, 3836),
   publisher('JMLR. org'),
-nil)
+)
 
 entry!('nakamura1988assessment',
   article('Mechanisms of Ageing and Development', 1988, 46),
@@ -422,7 +422,7 @@ entry!('nakamura1988assessment',
   number('1-3'),
   pages(1, 18),
   publisher('Elsevier'),
-nil)
+)
 
 entry!('kumar2017understanding',
   article('Development', 2017, 144),
@@ -431,7 +431,7 @@ entry!('kumar2017understanding',
   number(1),
   pages(17, 32),
   publisher('Oxford University Press for The Company of Biologists Limited'),
-nil)
+)
 
 entry!('sprott2010biomarkers',
   article('Experimental gerontology', 2010, 45),
@@ -440,7 +440,7 @@ entry!('sprott2010biomarkers',
   number(1),
   pages(2, 4),
   publisher('Elsevier'),
-nil)
+)
 
 entry!('belsky2015quantification',
   article('Proceedings of the National Academy of Sciences', 2015, 112),
@@ -448,7 +448,7 @@ entry!('belsky2015quantification',
   author('Daniel W Belsky and Avshalom Caspi and Renate Houts and Harvey J Cohen and David L Corcoran and Andrea Danese and HonaLee Harrington and Salomon Israel and Morgan E Levine and Jonathan D Schaefer and others'),
   number(30),
   publisher('National Acad Sciences'),
-nil)
+)
 
 entry!('sudlow2015uk',
   article('PLoS Medicine', 2015, 12),
@@ -456,7 +456,7 @@ entry!('sudlow2015uk',
   author('Cathie Sudlow and John Gallacher and Naomi Allen and Valerie Beral and Paul Burton and John Danesh and Paul Downey and Paul Elliott and Jane Green and Martin Landray and others'),
   number(3),
   publisher('Public Library of Science'),
-nil)
+)
 
 entry!('fry2017comparison',
   article('American Journal of Epidemiology', 2017, 186),
@@ -465,7 +465,7 @@ entry!('fry2017comparison',
   number(9),
   pages(1026, 1034),
   publisher('Oxford University Press'),
-nil)
+)
 
 entry!('zhang2016predicting',
   article('Aging Cell', 2016, 15),
@@ -474,7 +474,7 @@ entry!('zhang2016predicting',
   number(1),
   pages(39, 48),
   publisher('Wiley Online Library'),
-nil)
+)
 
 entry!('trapnell2014dynamics',
   article('Nature Biotechnology', 2014, 32),
@@ -482,7 +482,7 @@ entry!('trapnell2014dynamics',
   author('Cole Trapnell and Davide Cacchiarelli and Jonna Grimsby and Prapti Pokharel and Shuqiang Li and Michael Morse and Niall J Lennon and Kenneth J Livak and Tarjei S Mikkelsen and John L Rinn'),
   number(4),
   publisher('Nature Publishing Group'),
-nil)
+)
 
 entry!('bendall2014single',
   article('Cell', 2014, 157),
@@ -491,14 +491,14 @@ entry!('bendall2014single',
   number(3),
   pages(714, 725),
   publisher('Elsevier'),
-nil)
+)
 
 entry!('campbell2017uncovering',
   article('bioRxiv', 2017),
   title('Uncovering genomic trajectories with heterogeneous genetic and environmental backgrounds across single-cells and populations'),
   author('Kieran Campbell and Christopher Yau'),
   publisher('Cold Spring Harbor Laboratory'),
-nil)
+)
 
 entry!('kraemer2000can',
   article('American Journal of Psychiatry', 2000, 157),
@@ -507,7 +507,7 @@ entry!('kraemer2000can',
   number(2),
   pages(163, 171),
   publisher('Am Psychiatric Assoc'),
-nil)
+)
 
 entry!('louis1986explaining',
   article('Journal of Clinical Epidemiology', 1986, 39),
@@ -516,7 +516,7 @@ entry!('louis1986explaining',
   number(10),
   pages(831, 839),
   publisher('Elsevier'),
-nil)
+)
 
 entry!('economos1982rate',
   article('Archives of Gerontology and Geriatrics', 1982, 1),
@@ -525,7 +525,7 @@ entry!('economos1982rate',
   number(1),
   pages(3, 27),
   publisher('Elsevier'),
-nil)
+)
 
 entry!('klemera2006new',
   article('Mechanisms of Ageing and Development', 2006, 127),
@@ -534,7 +534,7 @@ entry!('klemera2006new',
   number(3),
   pages(240, 248),
   publisher('Elsevier'),
-nil)
+)
 
 entry!('levine2012modeling',
   article('Journals of Gerontology Series A: Biomedical Sciences and Medical Sciences', 2012, 68),
@@ -543,7 +543,7 @@ entry!('levine2012modeling',
   number(6),
   pages(667, 674),
   publisher('Oxford University Press US'),
-nil)
+)
 
 entry!('putin2016deep',
   article('Aging', 2016, 8),
@@ -552,7 +552,7 @@ entry!('putin2016deep',
   number(5),
   # pages(1021),
   publisher('Impact Journals, LLC'),
-nil)
+)
 
 entry!('pyrkov2018extracting',
   article('Scientific Reports', 2018, 8),
@@ -561,7 +561,7 @@ entry!('pyrkov2018extracting',
   number(1),
   # pages(5210),
   publisher('Nature Publishing Group'),
-nil)
+)
 
 entry!('mcclearn1997biogerontologic',
   article('Experimental Gerontology', 1997, 32),
@@ -570,7 +570,7 @@ entry!('mcclearn1997biogerontologic',
   number('1-2'),
   pages(3, 10),
   publisher('Elsevier'),
-nil)
+)
 
 entry!('margolick2015accelerating',
   article('Experimental Gerontology', 2015, 64),
@@ -578,20 +578,20 @@ entry!('margolick2015accelerating',
   author('Joseph B Margolick and Luigi Ferrucci'),
   pages(78, 80),
   publisher('Elsevier'),
-nil)
+)
 
 entry!('hashimoto2016learning',
   icml(2016),
   title('Learning Population-Level Diffusions with Generative {RNNs}'),
   author('Tatsunori Hashimoto and David Gifford and Tommi Jaakkola'),
   pages(2417, 2426),
-nil)
+)
 
 entry!('waddington1940organisers',
   title('Organisers and Genes'),
   author('Conrad Hal Waddington'),
   book('University Press; Cambridge', 1940),
-nil)
+)
 
 entry!('nowell1976clonal',
   article('Science', 1976, 194),
@@ -600,7 +600,7 @@ entry!('nowell1976clonal',
   number(4260),
   pages(23, 28),
   publisher('American Association for the Advancement of Science'),
-nil)
+)
 
 entry!('comfort1969test',
   article('The Lancet', 1969, 294),
@@ -609,7 +609,7 @@ entry!('comfort1969test',
   number(7635),
   pages(1411, 1415),
   publisher('Elsevier'),
-nil)
+)
 
 entry!('furukawa1975assessment',
   article('Journal of Gerontology', 1975, 30),
@@ -618,7 +618,7 @@ entry!('furukawa1975assessment',
   number(4),
   pages(422, 434),
   publisher('The Gerontological Society of America'),
-nil)
+)
 
 entry!('borkan1980assessment',
   article('Journal of Gerontology', 1980, 35),
@@ -627,7 +627,7 @@ entry!('borkan1980assessment',
   number(2),
   pages(177, 184),
   publisher('The Gerontological Society of America'),
-nil)
+)
 
 entry!('chen2016dna',
   article('Aging (Albany NY)', 2016, 8),
@@ -636,7 +636,7 @@ entry!('chen2016dna',
   number(9),
   # pages(1844),
   publisher('Impact Journals, LLC'),
-nil)
+)
 
 entry!('horvath2013dna',
   article('Genome Biology', 2013, 14),
@@ -645,7 +645,7 @@ entry!('horvath2013dna',
   number(10),
   # pages(3156),
   publisher('BioMed Central'),
-nil)
+)
 
 entry!('macdonald2004biological',
   article('Gerontology', 2004, 50),
@@ -654,7 +654,7 @@ entry!('macdonald2004biological',
   number(2),
   pages(64, 81),
   publisher('Karger Publishers'),
-nil)
+)
 
 entry!('gupta2008extracting',
   article('IEEE/ACM Transactions on Computational Biology and Bioinformatics (TCBB)', 2008, 5),
@@ -663,7 +663,7 @@ entry!('gupta2008extracting',
   number(2),
   pages(172, 182),
   publisher('IEEE Computer Society Press'),
-nil)
+)
 
 entry!('reid2016pseudotime',
   article('Bioinformatics', 2016, 32),
@@ -672,7 +672,7 @@ entry!('reid2016pseudotime',
   number(19),
   pages(2973, 2980),
   publisher('Oxford University Press'),
-nil)
+)
 
 entry!('aijo2014methods',
   article('Bioinformatics', 2014, 30),
@@ -681,7 +681,7 @@ entry!('aijo2014methods',
   number(12),
   # pages(i113--i120),
   publisher('Oxford University Press'),
-nil)
+)
 
 entry!('magwene2003reconstructing',
   article('Bioinformatics', 2003, 19),
@@ -690,7 +690,7 @@ entry!('magwene2003reconstructing',
   number(7),
   pages(842, 850),
   publisher('Oxford University Press'),
-nil)
+)
 
 entry!('qiu2011discovering',
   article('PLoS Computational Biology', 2011, 7),
@@ -699,7 +699,7 @@ entry!('qiu2011discovering',
   number(4),
   # pages(e1001123),
   publisher('Public Library of Science'),
-nil)
+)
 
 entry!('di2009multilevel',
   article('The Annals of Applied Statistics', 2009, 3),
@@ -708,7 +708,7 @@ entry!('di2009multilevel',
   number(1),
   # pages(458),
   publisher('NIH Public Access'),
-nil)
+)
 
 entry!('greven2011longitudinal',
   article('Recent Advances in Functional Data Analysis and Related Topics', 2011),
@@ -717,7 +717,7 @@ entry!('greven2011longitudinal',
   # pages(149, 154),
   # year(2011),
   publisher('Springer'),
-nil)
+)
 
 entry!('verbeke1997linear',
   article('Linear Mixed Models in Practice', 1997),
@@ -726,7 +726,7 @@ entry!('verbeke1997linear',
   pages(63, 153),
   # year(1997),
   publisher('Springer'),
-nil)
+)
 
 
 
@@ -737,13 +737,13 @@ entry!('bair2006prediction',
   number(473),
   pages(119, 137),
   publisher('Taylor \& Francis'),
-nil)
+)
 
 entry!('abid2017contrastive',
   arxiv(2017, '1709.06716'),
   title('Contrastive principal component analysis'),
   author('Abubakar Abid and Vivek K Bagaria and Martin J Zhang and James Zou'),
-nil)
+)
 
 entry!('jonsen2005robust',
   article('Ecology', 2005, 86),
@@ -752,7 +752,7 @@ entry!('jonsen2005robust',
   number(11),
   pages(2874, 2880),
   publisher('Wiley Online Library'),
-nil)
+)
 
 entry!('ram1986government',
   article('The American Economic Review', 1986, 76),
@@ -761,7 +761,7 @@ entry!('ram1986government',
   number(1),
   pages(191, 203),
   publisher('JSTOR'),
-nil)
+)
 
 entry!('relethford1978use',
   article('Human Biology', 1978),
@@ -769,7 +769,7 @@ entry!('relethford1978use',
   author('John H Relethford and Francis C Lees and Pamela J Byard'),
   pages(461, 475),
   publisher('JSTOR'),
-nil)
+)
 
 # entry!('euyu2012monomial',
 #   title('A non-negative matrix has a non-negative inverse.'),
@@ -777,7 +777,7 @@ nil)
 #   type('misc'),
 #   publisher('StackExchange'),
 #   howpublished('\url{https://math.stackexchange.com/questions/214401/}'),
-# nil)
+# )
 
 entry!('euyu2012monomial',
   title('A non-negative matrix has a non-negative inverse. {What} other properties does it have?'),
@@ -788,14 +788,14 @@ entry!('euyu2012monomial',
   # howpublished('Mathematics Stack Exchange'),
   # note('URL:https://math.stackexchange.com/q/214401 (version: 2012-10-15)'),
   howpublished('\url{https://math.stackexchange.com/q/214401}'),
-nil)
+)
 
 entry!('you2017deep',
-  nips(2017),
+  neurips(2017),
   title('Deep Lattice Networks and Partial Monotonic Functions'),
   author('Seungil You and David Ding and Kevin Canini and Jan Pfeifer and Maya Gupta'),
   pages(2985, 2993),
-nil)
+)
 
 entry!('daniels2010monotone',
   article('IEEE Transactions on Neural Networks', 2010, 21),
@@ -804,7 +804,7 @@ entry!('daniels2010monotone',
   number(6),
   pages(906, 917),
   publisher('IEEE'),
-nil)
+)
 
 entry!('qu2011generalized',
   article('IEEE Transactions on Neural Networks', 2011, 22),
@@ -813,7 +813,7 @@ entry!('qu2011generalized',
   number(12),
   pages(2447, 2459),
   publisher('IEEE'),
-nil)
+)
 
 entry!('shively2009bayesian',
   article('Journal of the Royal Statistical Society: Series B (Statistical Methodology)', 2009, 71),
@@ -822,7 +822,7 @@ entry!('shively2009bayesian',
   number(1),
   pages(159, 175),
   publisher('Wiley Online Library'),
-nil)
+)
 
 entry!('mozaffarian2011changes',
   article('New England Journal of Medicine', 2011, 364),
@@ -831,7 +831,7 @@ entry!('mozaffarian2011changes',
   number(25),
   pages(2392, 2404),
   publisher('Mass Medical Soc'),
-nil)
+)
 
 entry!('hoffmann2015effect',
   article('Clinical Chemistry and Laboratory Medicine (CCLM)', 2015, 53),
@@ -839,7 +839,7 @@ entry!('hoffmann2015effect',
   author('Johannes JML Hoffmann and Karin CAM Nabbe and Nicole MA van den Broek'),
   number(12),
   publisher('De Gruyter'),
-nil)
+)
 
 entry!('stanojevic2008reference',
   article('American Journal of Respiratory and Critical Care Medicine', 2008, 177),
@@ -848,7 +848,7 @@ entry!('stanojevic2008reference',
   number(3),
   pages(253, 260),
   publisher('Am Thoracic Soc'),
-nil)
+)
 
 entry!('goodpaster2006loss',
   article('The Journals of Gerontology Series A: Biological Sciences and Medical Sciences', 2006, 61),
@@ -857,7 +857,7 @@ entry!('goodpaster2006loss',
   number(10),
   pages(1059, 1064),
   publisher('Oxford University Press'),
-nil)
+)
 
 entry!('munoz2017towards',
   inproceedings('Proceedings of the 10th ACM Workshop on Artificial Intelligence and Security', 2017),
@@ -865,31 +865,31 @@ entry!('munoz2017towards',
   author('Luis Mu{\~n}oz-Gonz{\\\'a}lez and Battista Biggio and Ambra Demontis and Andrea Paudice and Vasin Wongrassamee and Emil C Lupu and Fabio Roli'),
   pages(27, 38),
   organization('ACM'),
-nil)
+)
 
 entry!('suciu2018does',
   arxiv(2018, '1803.06975'),
   title('When Does Machine Learning FAIL? Generalized Transferability for Evasion and Poisoning Attacks'),
   author('Octavian Suciu and Radu M{\u{a}}rginean and Yi{\u{g}}itcan Kaya and Hal Daum{\\\'e} III and Tudor Dumitra{\c{s}}'),
-nil)
+)
 
 entry!('shafahi2018poison',
   arxiv(2018, '1804.00792'),
   title('Poison {F}rogs! {Targeted} Clean-Label Poisoning Attacks on Neural Networks'),
   author('Ali Shafahi and W Ronny Huang and Mahyar Najibi and Octavian Suciu and Christoph Studer and Tudor Dumitras and Tom Goldstein'),
-nil)
+)
 
 entry!('gu2017badnets',
   arxiv(2017, '1708.06733'),
   title('Badnets: Identifying vulnerabilities in the machine learning model supply chain'),
   author('Tianyu Gu and Brendan Dolan-Gavitt and Siddharth Garg'),
-nil)
+)
 
 entry!('chen2017targeted',
   arxiv(2017, '1712.05526'),
   title('Targeted backdoor attacks on deep learning systems using data poisoning'),
   author('Xinyun Chen and Chang Liu and Bo Li and Kimberly Lu and Dawn Song'),
-nil)
+)
 
 
 entry!('bard1991some',
@@ -899,7 +899,7 @@ entry!('bard1991some',
   number(2),
   pages(371, 378),
   publisher('Springer'),
-nil)
+)
 
 entry!('crammer2002learnability',
   article('Machine learning', 2002, 47),
@@ -908,13 +908,13 @@ entry!('crammer2002learnability',
   number('2-3'),
   pages(201, 233),
   publisher('Springer'),
-nil)
+)
 
 entry!('mirrokni2015tight',
   arxiv(2015, '1512.08602'),
   title('Tight Bounds for Approximate {C}arath{\\\'e}odory and Beyond'),
   author('Vahab Mirrokni and Renato Paes Leme and Adrian Vladu and Sam Chiu-wai Wong'),
-nil)
+)
 
 entry!('barany2012notes',
   article('Discrete \& Computational Geometry', 2012, 48),
@@ -923,13 +923,13 @@ entry!('barany2012notes',
   number(3),
   pages(783, 792),
   publisher('Springer'),
-nil)
+)
 
 entry!('wang2018learning',
   uai(2018),
   title('Learning Deep Hidden Nonlinear Dynamics from Aggregate Data'),
   author('Yisen Wang and Bo Dai and Lingkai Kong and Xingjun Ma and Sarah Monazam Erfani and James Bailey and Shu-Tao Xia and Le Song and Hongyuan Zha'),
-nil)
+)
 
 entry!('wang2014unsupervised',
   kdd(2014),
@@ -937,59 +937,59 @@ entry!('wang2014unsupervised',
   author('Xiang Wang and David Sontag and Fei Wang'),
   pages(85, 94),
   organization('ACM'),
-nil)
+)
 
 entry!('papernot2018deep',
   arxiv(2018, '1803.04765'),
   title('Deep k-nearest neighbors: Towards confident, interpretable and robust deep learning'),
   author('Nicolas Papernot and Patrick McDaniel'),
-nil)
+)
 
 entry!('hsu2012tail',
   article('Electronic Communications in Probability', 2012, 17),
   title('A tail inequality for quadratic forms of subgaussian random vectors'),
   author('Daniel Hsu and Sham Kakade and Tong Zhang and others'),
   publisher('The Institute of Mathematical Statistics and the Bernoulli Society'),
-nil)
+)
 
 entry!('ghorbani2019data',
   arxiv(2019, '1904.02868'),
   title('Data Shapley: Equitable Valuation of Data for Machine Learning'),
   author('Amirata Ghorbani and James Zou'),
-nil)
+)
 
 entry!('jia2019towards',
   arxiv(2019, '1902.10275'),
   title('Towards Efficient Data Valuation Based on the Shapley Value'),
   author('Ruoxi Jia and David Dao and Boxin Wang and Frances Ann Hubis and Nick Hynes and Nezihe Merve Gurel and Bo Li and Ce Zhang and Dawn Song and Costas Spanos'),
-nil)
+)
 
 entry!('schulam2019can',
   aistats(2019),
   title('Can You Trust This Prediction? {Auditing} Pointwise Reliability After Learning'),
   author('Peter Schulam and Suchi Saria'),
   pages(1022, 1031),
-nil)
+)
 
 entry!('wang2019repairing',
   arxiv(2019, '1901.10501'),
   title('Repairing without Retraining: Avoiding Disparate Impact with Counterfactual Distributions'),
   author('Hao Wang and Berk Ustun and Flavio P Calmon'),
-nil)
+)
 
 entry!('zhou2019effects',
   chi(2019),
   title('Effects of Influence on User Trust in Predictive Decision Making'),
   author('Jianlong Zhou and Zhidong Li and Huaiwen Hu and Kun Yu and Fang Chen and Zelin Li and Yang Wang'),
   organization('ACM'),
-nil)
+)
 
 entry!('giordano2019swiss',
   aistats(2019),
   title('A {Swiss Army} Infinitesimal Jackknife'),
   author('Ryan Giordano and William Stephenson and Runjing Liu and Michael Jordan and Tamara Broderick'),
   pages(1139, 1147),
-nil)
+)
 
 entry!('pregibon1981logistic',
   annalsOfStatistics(1981, 9),
@@ -998,13 +998,13 @@ entry!('pregibon1981logistic',
   number(4),
   pages(705, 724),
   publisher('Institute of Mathematical Statistics'),
-nil)
+)
 
 entry!('boyd2004convex',
   title('Convex {Optimization}'),
   author('Stephen Boyd and Lieven Vandenberghe'),
   book('Cambridge University Press', 2004),
-nil)
+)
 
 entry!('arrieta2018should',
   inproceedings('American Economic Association Papers and Proceedings', 2018),
@@ -1012,20 +1012,20 @@ entry!('arrieta2018should',
   author('Imanol Arrieta-Ibarra and Leonard Goff and Diego Jim{\\\'e}nez-Hern{\\\'a}ndez and Jaron Lanier and E Glen Weyl'),
   volume(108),
   pages(38, 42),
-nil)
+)
 
 entry!('hayes2018contamination',
-  nips(2018),
+  neurips(2018),
   title('Contamination Attacks and Mitigation in Multi-Party Machine Learning'),
   author('Jamie Hayes and Olga Ohrimenko'),
   pages(6604, 6615),
-nil)
+)
 
 entry!('rad2018scalable',
   arxiv(2018, '1801.10243'),
   title('A scalable estimate of the extra-sample prediction error via approximate leave-one-out'),
   author('Kamiar Rahnama Rad and Arian Maleki'),
-nil)
+)
 
 
 entry!('vershynin2018high',
@@ -1033,7 +1033,7 @@ entry!('vershynin2018high',
   author('Roman Vershynin'),
   volume(47),
   book('Cambridge University Press', 2018),
-nil)
+)
 
 
 entry!('bach2010self',
@@ -1042,14 +1042,14 @@ entry!('bach2010self',
   author('Francis Bach and others'),
   pages(384, 414),
   publisher('The Institute of Mathematical Statistics and the Bernoulli Society'),
-nil)
+)
 
 entry!('chen2018my',
-  nips(2018),
+  neurips(2018),
   title('Why Is My Classifier Discriminatory?'),
   author('Irene Chen and Fredrik D Johansson and David Sontag'),
   pages(3539, 3550),
-nil)
+)
 
 entry!('hampel1974influence',
   article('Journal of the American Statistical Association', 1974, 69),
@@ -1058,39 +1058,39 @@ entry!('hampel1974influence',
   number(346),
   pages(383, 393),
   publisher('Taylor \& Francis'),
-nil)
+)
 
 entry!('wang2018approximate',
   arxiv(2018, '1810.02716'),
   title('Approximate Leave-One-Out for High-Dimensional Non-Differentiable Learning Problems'),
   author('Shuaiwen Wang and Wenda Zhou and Arian Maleki and Haihao Lu and Vahab Mirrokni'),
-nil)
+)
 
 entry!('sharchilev2018finding',
   arxiv(2018, '1802.06640'),
   title('Finding influential training samples for gradient boosted decision trees'),
   author('Boris Sharchilev and Yury Ustinovsky and Pavel Serdyukov and Maarten de Rijke'),
-nil)
+)
 
 entry!('khanna2019interpreting',
   aistats(2019),
   title('Interpreting Black Box Predictions using {Fisher} Kernels'),
   author('Rajiv Khanna and Been Kim and Joydeep Ghosh and Oluwasanmi Koyejo'),
   pages(3382, 3390),
-nil)
+)
 
 entry!('mccoy2019right',
   title('Right for the Wrong Reasons: Diagnosing Syntactic Heuristics in Natural Language Inference'),
   author('R Thomas McCoy and Ellie Pavlick and Tal Linzen'),
   acl(2019),
-nil)
+)
 
 entry!('buolamwini2018gender',
   inproceedings('Conference on Fairness, Accountability and Transparency', 2018),
   title('Gender shades: Intersectional accuracy disparities in commercial gender classification'),
   author('Joy Buolamwini and Timnit Gebru'),
   pages(77, 91),
-nil)
+)
 
 entry!('bagnell2005robust',
   inproceedings('Proceedings of the 20th national conference on Artificial intelligence-Volume 2', 2005),
@@ -1098,26 +1098,26 @@ entry!('bagnell2005robust',
   author('J Andrew Bagnell'),
   pages(714, 719),
   organization('AAAI Press'),
-nil)
+)
 
 entry!('zhang2017understanding',
   iclr(2017),
   title('Understanding deep learning requires rethinking generalization'),
   author('Chiyuan Zhang and Samy Bengio and Moritz Hardt and Benjamin Recht and Oriol Vinyals'),
-nil)
+)
 
 entry!('hoffer2017train',
-  nips(2017),
+  neurips(2017),
   title('Train longer, generalize better: closing the generalization gap in large batch training of neural networks'),
   author('Elad Hoffer and Itay Hubara and Daniel Soudry'),
   pages(1731, 1741),
-nil)
+)
 
 entry!('wah2011cub',
   techreport('California Institute of Technology', 2011),
   title('The {Caltech}-{UCSD} {Birds}-200-2011 dataset'),
   author('C Wah and S Branson and P Welinder and P Perona and S Belongie'),
-nil)
+)
 
 entry!('zhou2017places',
   article('IEEE Transactions on Pattern Analysis and Machine Intelligence', 2017, 40),
@@ -1126,21 +1126,21 @@ entry!('zhou2017places',
   number(6),
   pages(1452, 1464),
   publisher('IEEE'),
-nil)
+)
 
 entry!('liu2015deep',
   inproceedings('Proceedings of the IEEE International Conference on Computer Vision', 2015),
   title('Deep learning face attributes in the wild'),
   author('Ziwei Liu and Ping Luo and Xiaogang Wang and Xiaoou Tang'),
   pages(3730, 3738),
-nil)
+)
 
 entry!('byrd2019effect',
   icml(2019),
   title('What is the Effect of Importance Weighting in Deep Learning?'),
   author('Jonathon Byrd and Zachary Lipton'),
   pages(872, 881),
-nil)
+)
 
 entry!('shen2016relay',
   inproceedings('European Conference on Computer Vision', 2016),
@@ -1148,7 +1148,7 @@ entry!('shen2016relay',
   author('Li Shen and Zhouchen Lin and Qingming Huang'),
   pages(467, 482),
   organization('Springer'),
-nil)
+)
 
 entry!('buda2018systematic',
   article('Neural Networks', 2018, 106),
@@ -1156,74 +1156,74 @@ entry!('buda2018systematic',
   author('Mateusz Buda and Atsuto Maki and Maciej A Mazurowski'),
   pages(249, 259),
   publisher('Elsevier'),
-nil)
+)
 
 entry!('bertsekas2009convex',
   title('Convex Optimization Theory'),
   author('Dimitri P Bertsekas'),
   book('Athena Scientific Belmont', 2009),
-nil)
+)
 
 entry!('cao2019learning',
-  nips(2019),
+  neurips(2019),
   title('Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss'),
   author('Kaidi Cao and Colin Wei and Adrien Gaidon and Nikos Arechiga and Tengyu Ma'),
-nil)
+)
 
 entry!('cui2019class',
   cvpr(2019),
   title('Class-balanced loss based on effective number of samples'),
   author('Yin Cui and Menglin Jia and Tsung-Yi Lin and Yang Song and Serge Belongie'),
   pages(9268, 9277),
-nil)
+)
 
 entry!('radford2019language',
   article('OpenAI Blog', 2019, 1),
   title('Language models are unsupervised multitask learners'),
   author('Alec Radford and Jeffrey Wu and Rewon Child and David Luan and Dario Amodei and Ilya Sutskever'),
   number(8),
-nil)
+)
 
 entry!('vapnik1992principles',
   inproceedings('Advances in Neural Information Processing Systems', 1992),
   title('Principles of risk minimization for learning theory'),
   author('Vladimir Vapnik'),
   pages(831, 838),
-nil)
+)
 
 entry!('gururangan2018annotation',
   acl(2018),
   title('Annotation Artifacts in Natural Language Inference Data'),
   author('Suchin Gururangan and Swabha Swayamdipta and Omer Levy and Roy Schwartz and Samuel Bowman and Noah A Smith'),
   pages(107, 112),
-nil)
+)
 
 entry!('naik2018stress',
   coling(2018),
   title('Stress Test Evaluation for Natural Language Inference'),
   author('Aakanksha Naik and Abhilasha Ravichander and Norman Sadeh and Carolyn Rose and Graham Neubig'),
   pages(2340, 2353),
-nil)
+)
 
 entry!('merler2019diversity',
   arxiv(2019, '1901.10436'),
   title('Diversity in faces'),
   author('Michele Merler and Nalini Ratha and Rogerio S Feris and John R Smith'),
-nil)
+)
 
 entry!('dosovitskiy2017carla',
   inproceedings('Conference on Robot Learning', 2017),
   title('CARLA: An Open Urban Driving Simulator'),
   author('Alexey Dosovitskiy and German Ros and Felipe Codevilla and Antonio Lopez and Vladlen Koltun'),
   pages(1, 16),
-nil)
+)
 
 entry!('agarwal2018reductions',
   icml(2018),
   title('A Reductions Approach to Fair Classification'),
   author('Alekh Agarwal and Alina Beygelzimer and Miroslav Dudik and John Langford and Hanna Wallach'),
   pages(60, 69),
-nil)
+)
 
 entry!('hicks2017missing',
   article('Biostatistics', 2017, 19),
@@ -1232,7 +1232,7 @@ entry!('hicks2017missing',
   number(4),
   pages(562, 578),
   publisher('Oxford University Press'),
-nil)
+)
 
 entry!('meyer2014identifying',
   article('Nature Reviews Genetics', 2014, 15),
@@ -1241,26 +1241,26 @@ entry!('meyer2014identifying',
   number(11),
   pages(709, 721),
   publisher('Nature Publishing Group'),
-nil)
+)
 
 entry!('brunet2018understanding',
   arxiv(2018, '1810.03611'),
   title('Understanding the origins of bias in word embeddings'),
   author('Marc-Etienne Brunet and Colleen Alkalay-Houlihan and Ashton Anderson and Richard Zemel'),
-nil)
+)
 
 entry!('giordano2019higher',
   arxiv(2019, '1907.12116'),
   title('A Higher-Order {Swiss Army} Infinitesimal Jackknife'),
   author('Ryan Giordano and Michael I Jordan and Tamara Broderick'),
-nil)
+)
 
 entry!('badgeley2019deep',
   article('npj Digital Medicine', 2019, 2),
   title('Deep learning predicts hip fracture using confounding patient and healthcare variables'),
   author('Marcus A Badgeley and John R Zech and Luke Oakden-Rayner and Benjamin S Glicksberg and Manway Liu and William Gale and Michael V McConnell and Bethany Percha and Thomas M Snyder and Joel T Dudley'),
   publisher('Nature Publishing Group'),
-nil)
+)
 
 entry!('blanchet2019quantifying',
   mathops(2019, 44),
@@ -1269,34 +1269,34 @@ entry!('blanchet2019quantifying',
   number(2),
   pages(565, 600),
   publisher('INFORMS'),
-nil)
+)
 
 entry!('devlin2019bert',
   acl(2019),
   title('{BERT}: Pre-training of Deep Bidirectional Transformers for Language Understanding'),
   author('Jacob Devlin and Ming-Wei Chang and Kenton Lee and Kristina Toutanova'),
   pages(4171, 4186),
-nil)
+)
 
 entry!('hardt2016train',
   icml(2016),
   title('Train faster, generalize better: Stability of stochastic gradient descent'),
   author('Moritz Hardt and Ben Recht and Yoram Singer'),
   pages(1225, 1234),
-nil)
+)
 
 entry!('heinze2017conditional',
   arxiv(2017, '1710.11469'),
   title('Conditional variance penalties and domain shift robustness'),
   author('Christina Heinze-Deml and Nicolai Meinshausen'),
-nil)
+)
 
 entry!('ioffe2015batch',
   icml(2015),
   title('Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift'),
   author('Sergey Ioffe and Christian Szegedy'),
   pages(448, 456),
-nil)
+)
 
 entry!('lecun2015deep',
   article('Nature', 2015, 521),
@@ -1305,7 +1305,7 @@ entry!('lecun2015deep',
   author('Yann LeCun and Yoshua Bengio and Geoffrey Hinton'),
   number(7553),
   publisher('Nature Publishing Group'),
-nil)
+)
 
 
 entry!('lampert2009learning',
@@ -1314,40 +1314,40 @@ entry!('lampert2009learning',
   author('Christoph H Lampert and Hannes Nickisch and Stefan Harmeling'),
   pages(951, 958),
   organization('IEEE'),
-nil)
+)
 
 entry!('kim2018interpretability',
   icml(2018),
   title('Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV)'),
   author('Been Kim and Martin Wattenberg and Justin Gilmer and Carrie Cai and James Wexler and Fernanda Viegas and others'),
   pages(2668, 2677),
-nil)
+)
 
 entry!('bau2017network',
   cvpr(2017),
   title('Network dissection: Quantifying interpretability of deep visual representations'),
   author('David Bau and Bolei Zhou and Aditya Khosla and Aude Oliva and Antonio Torralba'),
   pages(6541, 6549),
-nil)
+)
 
 entry!('fong2017interpretable',
   iccv(2017),
   title('Interpretable explanations of black boxes by meaningful perturbation'),
   author('Ruth C Fong and Andrea Vedaldi'),
   pages(3429, 3437),
-nil)
+)
 
 entry!('nevitt2006osteoarthritis',
   article('Cohort study protocol', 2006),
   title('The {Osteoarthritis Initiative}'),
   author('M Nevitt and David T Felson and Gayle Lester'),
-nil)
+)
 
 entry!('pierson2019using',
   article('NBER Machine Learning and Healthcare Conference', 2019),
   title('Using machine learning to understand racial and socioeconomic differences in knee pain'),
   author('Emma Pierson and David Cutler and Jure Leskovec and Sendhil Mullainathan and Ziad Obermeyer'),
-nil)
+)
 
 entry!('kohn2016classifications',
   article('Clinical orthopaedics and related research', 2016, 474),
@@ -1356,7 +1356,7 @@ entry!('kohn2016classifications',
   number(8),
   pages(1886, 1893),
   publisher('Association of Bone and Joint Surgeons'),
-nil)
+)
 
 entry!('kellgren1957radiological',
   article('Annals of the Rheumatic Diseases', 1957, 16),
@@ -1364,7 +1364,7 @@ entry!('kellgren1957radiological',
   author('JH Kellgren and JS Lawrence'),
   number(4),
   publisher('BMJ Publishing Group'),
-nil)
+)
 
 entry!('tiulpin2018automatic',
   article('Scientific Reports', 2018, 8),
@@ -1373,14 +1373,14 @@ entry!('tiulpin2018automatic',
   number(1),
   pages(1, 10),
   publisher('Nature Publishing Group'),
-nil)
+)
 
 entry!('melis2018towards',
-  nips(2018),
+  neurips(2018),
   title('Towards robust interpretability with self-explaining neural networks'),
   author('David Alvarez Melis and Tommi Jaakkola'),
   pages(7775, 7784),
-nil)
+)
 
 entry!('de2018clinically',
   article('Nature Medicine', 2018, 24),
@@ -1389,28 +1389,28 @@ entry!('de2018clinically',
   number(9),
   pages(1342, 1350),
   publisher('Nature Publishing Group'),
-nil)
+)
 
 entry!('yi2018neural',
-  nips(2018),
+  neurips(2018),
   title('Neural-symbolic vqa: Disentangling reasoning from vision and language understanding'),
   author('Kexin Yi and Jiajun Wu and Chuang Gan and Antonio Torralba and Pushmeet Kohli and Josh Tenenbaum'),
   pages(1031, 1042),
-nil)
+)
 
 entry!('zhou2018interpretable',
   eccv(2018),
   title('Interpretable basis decomposition for visual explanation'),
   author('Bolei Zhou and Yiyou Sun and David Bau and Antonio Torralba'),
   pages(119, 134),
-nil)
+)
 
 entry!('huang2016part',
   cvpr(2016),
   title('Part-stacked {CNN} for fine-grained visual categorization'),
   author('Shaoli Huang and Zhe Xu and Dacheng Tao and Ya Zhang'),
   pages(1173, 1182),
-nil)
+)
 
 entry!('sundararajan2017axiomatic',
   icml(2017),
@@ -1418,7 +1418,7 @@ entry!('sundararajan2017axiomatic',
   author('Mukund Sundararajan and Ankur Taly and Qiqi Yan'),
   pages(3319, 3328),
   organization('JMLR. org'),
-nil)
+)
 
 entry!('bengio2013representation',
   article('IEEE Transactions on Pattern Analysis and Machine Intelligence', 2013, 35),
@@ -1427,14 +1427,14 @@ entry!('bengio2013representation',
   number(8),
   pages(1798, 1828),
   publisher('IEEE'),
-nil)
+)
 
 entry!('cui2018large',
   cvpr(2018),
   title('Large scale fine-grained categorization and domain-specific transfer learning'),
   author('Yin Cui and Yang Song and Chen Sun and Andrew Howard and Serge Belongie'),
   pages(4109, 4118),
-nil)
+)
 
 entry!('zelenko2003kernel',
   article('Journal of Machine Learning Research', 2003, 3),
@@ -1442,7 +1442,7 @@ entry!('zelenko2003kernel',
   author('Dmitry Zelenko and Chinatsu Aone and Anthony Richardella'),
   number('Feb'),
   pages(1083, 1106),
-nil)
+)
 
 entry!('bunescu2005shortest',
   emnlp(2005),
@@ -1450,14 +1450,14 @@ entry!('bunescu2005shortest',
   author('Razvan C Bunescu and Raymond J Mooney'),
   pages(724, 731),
   organization('Association for Computational Linguistics'),
-nil)
+)
 
 entry!('sutton2005joint',
   conll(2005),
   title('Joint Parsing and Semantic Role Labeling'),
   author('Charles Sutton and Andrew McCallum'),
   organization('Citeseer'),
-nil)
+)
 
 entry!('lindley1956measure',
   article('The Annals of Mathematical Statistics', 1956),
@@ -1465,7 +1465,7 @@ entry!('lindley1956measure',
   author('Dennis V Lindley'),
   pages(986, 1005),
   publisher('JSTOR'),
-nil)
+)
 
 entry!('japkowicz2002class',
   article('Intelligent Data Analysis', 2002, 6),
@@ -1474,40 +1474,40 @@ entry!('japkowicz2002class',
   number(5),
   pages(429, 449),
   publisher('IOS Press'),
-nil)
+)
 
 entry!('arjovsky2019invariant',
   arxiv(2019, '1907.02893'),
   title('Invariant risk minimization'),
   author('Martin Arjovsky and L{\\\'e}on Bottou and Ishaan Gulrajani and David Lopez-Paz'),
-nil)
+)
 
 entry!('hendrycks2019benchmarking',
   #arxiv(2019, '1903.12261'),
   title('Benchmarking neural network robustness to common corruptions and perturbations'),
   author('Dan Hendrycks and Thomas Dietterich'),
   iclr(2019),
-nil)
+)
 
 entry!('yang2020rethinking',
   arxiv(2020, '2002.11328'),
   title('Rethinking bias-variance trade-off for generalization of neural networks'),
   author('Zitong Yang and Yaodong Yu and Chong You and Jacob Steinhardt and Yi Ma'),
-nil)
+)
 
 entry!('rosset2004margin',
   inproceedings('Advances in neural information processing systems', 2004),
   title('Margin maximizing loss functions'),
   author('Saharon Rosset and Ji Zhu and Trevor J Hastie'),
   pages(1237, 1244),
-nil)
+)
 
 entry!('chawla2002smote',
   article('Journal of artificial intelligence research', 2002, 16),
   title('SMOTE: synthetic minority over-sampling technique'),
   author('Nitesh V Chawla and Kevin W Bowyer and Lawrence O Hall and W Philip Kegelmeyer'),
   pages(321, 357),
-nil)
+)
 
 entry!('haixiang2017learning',
   article('Expert Systems with Applications', 2017, 73),
@@ -1515,19 +1515,19 @@ entry!('haixiang2017learning',
   author('Guo Haixiang and Li Yijing and Jennifer Shang and Gu Mingyun and Huang Yuanyue and Gong Bing'),
   pages(220, 239),
   publisher('Elsevier'),
-nil)
+)
 
 entry!('losch2019interpretability',
   arxiv(2019, '1907.10882'),
   title('Interpretability beyond classification output: Semantic bottleneck networks'),
   author('Max Losch and Mario Fritz and Bernt Schiele'),
-nil)
+)
 
 entry!('chen2020concept',
   arxiv(2020, '2002.01650'),
   title('Concept Whitening for Interpretable Image Recognition'),
   author('Zhi Chen and Yijie Bei and Cynthia Rudin'),
-nil)
+)
 
 entry!('bucher2018semantic',
   inproceedings('Asian Conference on Computer Vision', 2018),
@@ -1535,13 +1535,13 @@ entry!('bucher2018semantic',
   author('Maxime Bucher and St{\\\'e}phane Herbin and Fr{\\\'e}d{\\\'e}ric Jurie'),
   pages(695, 712),
   organization('Springer'),
-nil)
+)
 
 entry!('goyal2019explaining',
   arxiv(2019, '1907.07165'),
   title('Explaining classifiers with causal concept effect ({CaCE})'),
   author('Yash Goyal and Uri Shalit and Been Kim'),
-nil)
+)
 
 entry!('duan2012discovering',
   cvpr(2012),
@@ -1549,7 +1549,7 @@ entry!('duan2012discovering',
   author('Kun Duan and Devi Parikh and David Crandall and Kristen Grauman'),
   pages(3474, 3481),
   organization('IEEE'),
-nil)
+)
 
 entry!('graziani2018regression',
   inproceedings('Understanding and Interpreting Machine Learning in Medical Image Computing Applications', 2018),
@@ -1557,7 +1557,7 @@ entry!('graziani2018regression',
   author('Mara Graziani and Vincent Andrearczyk and Henning M{\\"u}ller'),
   pages(124, 132),
   publisher('Springer'),
-nil)
+)
 
 entry!('clough2019global',
   inproceedings('International Conference on Medical Image Computing and Computer-Assisted Intervention', 2019),
@@ -1565,64 +1565,64 @@ entry!('clough2019global',
   author('James R Clough and Ilkay Oksuz and Esther Puyol-Ant{\\\'o}n and Bram Ruijsink and Andrew P King and Julia A Schnabel'),
   pages(656, 664),
   organization('Springer'),
-nil)
+)
 
 entry!('sprague2019interpretable',
   inproceedings('99th American Meteorological Society Annual Meeting', 2019),
   title('Interpretable {AI} for Deep Learning-Based Meteorological Applications'),
   author('Conner Sprague and Eric B Wendoloski and Ingrid Guch'),
   organization('AMS'),
-nil)
+)
 
 entry!('o2020generative',
   arxiv(2020, '2006.13913'),
   title('Generative causal explanations of black-box classifiers'),
   author('Matthew O\'Shaughnessy and Gregory Canal and Marissa Connor and Mark Davenport and Christopher Rozell'),
-nil)
+)
 
 entry!('ghorbani2019towards',
-  nips(2019),
+  neurips(2019),
   title('Towards automatic concept-based explanations'),
   author('Amirata Ghorbani and James Wexler and James Y Zou and Been Kim'),
   pages(9277, 9286),
-nil)
+)
 
 entry!('higgins2017beta',
   iclr(2017),
   title('beta-vae: Learning basic visual concepts with a constrained variational framework'),
   author('Irina Higgins and Loic Matthey and Arka Pal and Christopher Burgess and Xavier Glorot and Matthew Botvinick and Shakir Mohamed and Alexander Lerchner'),
-nil)
+)
 
 entry!('chen2016infogan',
-  nips(2016),
+  neurips(2016),
   title('{InfoGAN}: Interpretable representation learning by information maximizing generative adversarial nets'),
   author('Xi Chen and Yan Duan and Rein Houthooft and John Schulman and Ilya Sutskever and Pieter Abbeel'),
-nil)
+)
 
 entry!('joshi2018xgems',
   arxiv(2018, '1806.08867'),
   title('{xGEMs}: Generating examplars to explain black-box models'),
   author('Shalmali Joshi and Oluwasanmi Koyejo and Been Kim and Joydeep Ghosh'),
-nil)
+)
 
 entry!('borkan2019nuanced',
   www(2019),
   title('Nuanced metrics for measuring unintended bias with real data for text classification'),
   author('Daniel Borkan and Lucas Dixon and Jeffrey Sorensen and Nithum Thain and Lucy Vasserman'),
   pages(491, 500),
-nil)
+)
 
 entry!('xiao2020noise',
   arxiv(2020, '2006.09994'),
   title('Noise or Signal: The Role of Image Backgrounds in Object Recognition'),
   author('Kai Xiao and Logan Engstrom and Andrew Ilyas and Aleksander Madry'),
-nil)
+)
 
 entry!('mozannar2020consistent',
   arxiv(2020, '2006.01862'),
   title('Consistent Estimators for Learning to Defer to an Expert'),
   author('Hussein Mozannar and David Sontag'),
-nil)
+)
 
 entry!('irvin2019chexpert',
   aaai(2019),
@@ -1630,7 +1630,7 @@ entry!('irvin2019chexpert',
   author('Jeremy Irvin and Pranav Rajpurkar and Michael Ko and Yifan Yu and Silviana Ciurea-Ilcus and Chris Chute and Henrik Marklund and Behzad Haghgoo and Robyn Ball and Katie Shpanskaya and others'),
   volume(33),
   pages(590, 597),
-nil)
+)
 
 entry!('porcel2018chest',
   article('Tuberculosis and Respiratory Diseases', 2018, 81),
@@ -1638,27 +1638,27 @@ entry!('porcel2018chest',
   author('Jos{\\\'e} M Porcel'),
   number(2),
   pages(106, 115),
-nil)
+)
 
 entry!('oakden2020hidden',
   inproceedings('Proceedings of the ACM Conference on Health, Inference, and Learning', 2020),
   title('Hidden stratification causes clinically meaningful failures in machine learning for medical imaging'),
   author('Luke Oakden-Rayner and Jared Dunnmon and Gustavo Carneiro and Christopher R{\\\'e}'),
   pages(151, 159),
-nil)
+)
 
 entry!('huang2017densely',
   inproceedings('Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition', 2017),
   title('Densely connected convolutional networks'),
   author('Gao Huang and Zhuang Liu and Laurens Van Der Maaten and Kilian Q Weinberger'),
   pages(4700, 4708),
-nil)
+)
 
 entry!('chen2020ethical',
   arxiv(2020, '2009.10576'),
   title('Ethical Machine Learning in Health'),
   author('Irene Y Chen and Emma Pierson and Sherri Rose and Shalmali Joshi and Kadija Ferryman and Marzyeh Ghassemi'),
-nil)
+)
 
 entry!('hill2020wrongfully',
   article('The New York Times', 2020),
@@ -1666,7 +1666,7 @@ entry!('hill2020wrongfully',
   author('Kashmir Hill'),
   url('https://www.nytimes.com/2020/06/24/technology/facial-recognition-arrest.html'),
   isUrlVisible(),
-nil)
+)
 
 entry!('nyt2016jigsaw',
   article('The New York Times', 2016),
@@ -1674,7 +1674,7 @@ entry!('nyt2016jigsaw',
   author('{The New York Times Company}'),
   url('https://www.nytco.com/press/the-times-is-partnering-with-jigsaw-to-expand-comment-capabilities/'),
   isUrlVisible(),
-nil)
+)
 
 entry!('broussard2020grades',
   article('The New York Times', 2020),
@@ -1682,7 +1682,7 @@ entry!('broussard2020grades',
   author('Meredith Broussard'),
   url('https://www.nytimes.com/2020/09/08/opinion/international-baccalaureate-algorithm-grades.html'),
   isUrlVisible(),
-nil)
+)
 
 entry!('bbc2020gcse',
   article('The British Broadcasting Corporation', 2020),
@@ -1690,7 +1690,7 @@ entry!('bbc2020gcse',
   author('BBC'),
   url('https://www.bbc.com/news/explainers-53807730'),
   isUrlVisible(),
-nil)
+)
 
 entry!('npr2018grading',
   article('National Public Radio', 2018),
@@ -1698,7 +1698,7 @@ entry!('npr2018grading',
   author('NPR'),
   url('https://www.npr.org/2018/06/30/624373367/more-states-opting-to-robo-grade-student-essays-by-computer'),
   isUrlVisible(),
-nil)
+)
 
 entry!('de2000reject',
   article('IEEE Transactions on Systems, Man, and Cybernetics, Part C (Applications and Reviews)', 2000, 30),
@@ -1707,7 +1707,7 @@ entry!('de2000reject',
   number(1),
   pages(84, 94),
   publisher('IEEE'),
-nil)
+)
 
 entry!('bartlett2008classification',
   jmlr(2008, 9),
@@ -1715,27 +1715,27 @@ entry!('bartlett2008classification',
   author('Peter L Bartlett and Marten H Wegkamp'),
   number('Aug'),
   pages(1823, 1840),
-nil)
+)
 
 entry!('raghu2019direct',
   icml(2019),
   title('Direct uncertainty prediction for medical second opinions'),
   author('Maithra Raghu and Katy Blumer and Rory Sayres and Ziad Obermeyer and Bobby Kleinberg and Sendhil Mullainathan and Jon Kleinberg'),
   pages(5281, 5290),
-nil)
+)
 
 entry!('geifman2018bias',
   iclr(2018),
   title('Bias-Reduced Uncertainty Estimation for Deep Neural Classifiers'),
   author('Yonatan Geifman and Guy Uziel and Ran El-Yaniv'),
-nil)
+)
 
 entry!('de2020regression',
   aaai(2020),
   title('Regression under Human Assistance'),
   author('Abir De and Paramita Koley and Niloy Ganguly and Manuel Gomez-Rodriguez'),
   pages(2611, 2620),
-nil)
+)
 
 entry!('pimentel2014review',
   article('Signal Processing', 2014, 99),
@@ -1743,7 +1743,7 @@ entry!('pimentel2014review',
   author('Marco AF Pimentel and David A Clifton and Lei Clifton and Lionel Tarassenko'),
   pages(215, 249),
   publisher('Elsevier'),
-nil)
+)
 
 entry!('hellman1970nearest',
   article('IEEE Transactions on Systems Science and Cybernetics', 1970, 6),
@@ -1752,7 +1752,7 @@ entry!('hellman1970nearest',
   number(3),
   pages(179, 185),
   publisher('IEEE'),
-nil)
+)
 
 entry!('hellman1970probability',
   infotheory(1970, 16),
@@ -1761,7 +1761,7 @@ entry!('hellman1970probability',
   number(4),
   pages(368, 372),
   publisher('IEEE'),
-nil)
+)
 
 entry!('cordella1995method',
   article('IEEE Transactions on Neural Networks', 1995, 6),
@@ -1770,14 +1770,14 @@ entry!('cordella1995method',
   number(5),
   pages(1140, 1147),
   publisher('IEEE'),
-nil)
+)
 
 entry!('park2018reducing',
   emnlp(2018),
   title('Reducing Gender Bias in Abusive Language Detection'),
   author('Ji Ho Park and Jamin Shin and Pascale Fung'),
   pages(2799, 2804),
-nil)
+)
 
 
 entry!('hovy2016social',
@@ -1785,7 +1785,7 @@ entry!('hovy2016social',
   title('The social impact of natural language processing'),
   author('Dirk Hovy and Shannon L Spruit'),
   pages(591, 598),
-nil)
+)
 
 entry!('koenecke2020racial',
   science(2020, 117),
@@ -1794,46 +1794,46 @@ entry!('koenecke2020racial',
   number(14),
   pages(7684, 7689),
   publisher('National Acad Sciences'),
-nil)
+)
 
 entry!('conneau2019cross',
-  nips(2019),
+  neurips(2019),
   title('Cross-lingual language model pretraining'),
   author('Alexis Conneau and Guillaume Lample'),
   pages(7059, 7069),
-nil)
+)
 
 entry!('conneau2018xnli',
   emnlp(2018),
   title('XNLI: Evaluating Cross-lingual Sentence Representations'),
   author('Alexis Conneau and Ruty Rinott and Guillaume Lample and Adina Williams and Samuel Bowman and Holger Schwenk and Veselin Stoyanov'),
   pages(2475, 2485),
-nil)
+)
 
 entry!('hu2020xtreme',
   arxiv(2020, '2003.11080'),
   title('Xtreme: A massively multilingual multi-task benchmark for evaluating cross-lingual generalization'),
   author('Junjie Hu and Sebastian Ruder and Aditya Siddhant and Graham Neubig and Orhan Firat and Melvin Johnson'),
-nil)
+)
 
 entry!('clark2020tydi',
   arxiv(2020, '2003.05002'),
   title('TyDi QA: A benchmark for information-seeking question answering in typologically diverse languages'),
   author('Jonathan H Clark and Eunsol Choi and Michael Collins and Dan Garrette and Tom Kwiatkowski and Vitaly Nikolaev and Jennimaria Palomaki'),
-nil)
+)
 
 entry!('ribeiro2020beyond',
   acl(2020),
   title('Beyond Accuracy: Behavioral Testing of {NLP} Models with {C}heck{L}ist'),
   pages(4902, 4912),
   author('Marco Tulio Ribeiro and Tongshuang Wu and Carlos Guestrin and Sameer Singh'),
-nil)
+)
 
 entry!('nestor2019feature',
   arxiv(2019, '1908.00690'),
   title('Feature robustness in non-stationary health records: caveats to deployable model performance in common clinical machine learning tasks'),
   author('Bret Nestor and Matthew McDermott and Willie Boag and Gabriela Berner and Tristan Naumann and Michael C Hughes and Anna Goldenberg and Marzyeh Ghassemi'),
-nil)
+)
 
 entry!('veeling2018rotation',
   inproceedings('International Conference on Medical image computing and computer-assisted intervention', 2018),
@@ -1841,14 +1841,14 @@ entry!('veeling2018rotation',
   author('Bastiaan S Veeling and Jasper Linmans and Jim Winkens and Taco Cohen and Max Welling'),
   pages(210, 218),
   organization('Springer'),
-nil)
+)
 
 entry!('tellez2019quantifying',
   article('Medical image analysis', 2019, 58),
   title('Quantifying the effects of data augmentation and stain color normalization in convolutional neural networks for computational pathology'),
   author('David Tellez and Geert Litjens and P{\\\'e}ter B{\\\'a}ndi and Wouter Bulten and John-Melle Bokhorst and Francesco Ciompi and Jeroen van der Laak'),
   publisher('Elsevier'),
-nil)
+)
 
 entry!('bandi2018detection',
   article('IEEE transactions on medical imaging', 2018, 38),
@@ -1857,7 +1857,7 @@ entry!('bandi2018detection',
   number(2),
   pages(550, 560),
   publisher('IEEE'),
-nil)
+)
 
 entry!('litjens2018camelyon',
   science(2018, 7),
@@ -1865,7 +1865,7 @@ entry!('litjens2018camelyon',
   author('Geert Litjens and Peter Bandi and Babak Ehteshami Bejnordi and Oscar Geessink and Maschenka Balkenhol and Peter Bult and Altuna Halilovic and Meyke Hermsen and Rob van de Loo and Rob Vogels and others'),
   number(6),
   publisher('Oxford University Press'),
-nil)
+)
 
 entry!('tellez2018whole',
   article('IEEE transactions on medical imaging', 2018, 37),
@@ -1874,7 +1874,7 @@ entry!('tellez2018whole',
   number(9),
   pages(2126, 2136),
   publisher('IEEE'),
-nil)
+)
 
 entry!('weinstein2013cancer',
   article('Nature genetics', 2013, 45),
@@ -1882,7 +1882,7 @@ entry!('weinstein2013cancer',
   author('John N Weinstein and Eric A Collisson and Gordon B Mills and Kenna R Mills Shaw and Brad A Ozenberger and Kyle Ellrott and Ilya Shmulevich and Chris Sander and Joshua M Stuart and Cancer Genome Atlas Research Network and others'),
   number(10),
   publisher('Nature Publishing Group'),
-nil)
+)
 
 entry!('esteva2017dermatologist',
   article('Nature', 2017, 542),
@@ -1891,13 +1891,13 @@ entry!('esteva2017dermatologist',
   number(7639),
   pages(115, 118),
   publisher('Nature Publishing Group'),
-nil)
+)
 
 entry!('codella2019skin',
   arxiv(2019, '1902.03368'),
   title('Skin lesion analysis toward melanoma detection 2018: A challenge hosted by the international skin imaging collaboration (isic)'),
   author('Noel Codella and Veronica Rotemberg and Philipp Tschandl and M Emre Celebi and Stephen Dusza and David Gutman and Brian Helba and Aadi Kalloo and Konstantinos Liopyris and Michael Marchetti and others'),
-nil)
+)
 
 entry!('campanella2019clinical',
   article('Nature medicine', 2019, 25),
@@ -1906,7 +1906,7 @@ entry!('campanella2019clinical',
   number(8),
   pages(1301, 1309),
   publisher('Nature Publishing Group'),
-nil)
+)
 
 entry!('beck2011systematic',
   science(2011, 3),
@@ -1914,14 +1914,14 @@ entry!('beck2011systematic',
   author('Andrew H Beck and Ankur R Sangoi and Samuel Leung and Robert J Marinelli and Torsten O Nielsen and Marc J Van De Vijver and Robert B West and Matt Van De Rijn and Daphne Koller'),
   number(108),
   publisher('American Association for the Advancement of Science'),
-nil)
+)
 
 entry!('janowczyk2016deep',
   article('Journal of pathology informatics', 2016, 7),
   title('Deep learning for digital pathology image analysis: A comprehensive tutorial with selected use cases'),
   author('Andrew Janowczyk and Anant Madabhushi'),
   publisher('Wolters Kluwer--Medknow Publications'),
-nil)
+)
 
 entry!('gurcan2009histopathological',
   article('IEEE reviews in biomedical engineering', 2009, 2),
@@ -1929,7 +1929,7 @@ entry!('gurcan2009histopathological',
   author('Metin N Gurcan and Laura E Boucheron and Ali Can and Anant Madabhushi and Nasir M Rajpoot and Bulent Yener'),
   pages(147, 171),
   publisher('IEEE'),
-nil)
+)
 
 entry!('thagaard2020can',
   inproceedings('International Conference on Medical Image Computing and Computer-Assisted Intervention', 2020),
@@ -1937,19 +1937,19 @@ entry!('thagaard2020can',
   author('Jeppe Thagaard and S{\o}ren Hauberg and Bert van der Vegt and Thomas Ebstrup and Johan D Hansen and Anders B Dahl'),
   pages(824, 833),
   organization('Springer'),
-nil)
+)
 
 entry!('phillips2020chexphoto',
   arxiv(2020, '2007.06199'),
   title('Chexphoto: 10,000+ smartphone photos and synthetic photographic transformations of chest x-rays for benchmarking deep learning robustness'),
   author('Nick A Phillips and Pranav Rajpurkar and Mark Sabini and Rayan Krishnan and Sharon Zhou and Anuj Pareek and Nguyet Minh Phu and Chris Wang and Andrew Y Ng and Matthew P Lungren'),
-nil)
+)
 
 entry!('zhou2020curse',
   arxiv(2020, '2004.13606'),
   title('The Curse of Performance Instability in Analysis Datasets: Consequences, Source, and Suggestions'),
   author('Xiang Zhou and Yixin Nie and Hao Tan and Mohit Bansal'),
-nil)
+)
 
 entry!('bejnordi2017diagnostic',
   article('Jama', 2017, 318),
@@ -1958,7 +1958,7 @@ entry!('bejnordi2017diagnostic',
   number(22),
   pages(2199, 2210),
   publisher('American Medical Association'),
-nil)
+)
 
 entry!('veta2019predicting',
   article('Medical image analysis', 2019, 54),
@@ -1966,7 +1966,7 @@ entry!('veta2019predicting',
   author('Mitko Veta and Yujing J Heng and Nikolas Stathonikos and Babak Ehteshami Bejnordi and Francisco Beca and Thomas Wollmann and Karl Rohr and Manan A Shah and Dayong Wang and Mikael Rousson and others'),
   pages(111, 121),
   publisher('Elsevier'),
-nil)
+)
 
 entry!('komura2018machine',
   article('Computational and structural biotechnology journal', 2018, 16),
@@ -1974,7 +1974,7 @@ entry!('komura2018machine',
   author('Daisuke Komura and Shumpei Ishikawa'),
   pages(34, 42),
   publisher('Elsevier'),
-nil)
+)
 
 entry!('veta2016mitosis',
   article('PloS one', 2016, 11),
@@ -1982,14 +1982,14 @@ entry!('veta2016mitosis',
   author('Mitko Veta and Paul J Van Diest and Mehdi Jiwa and Shaimaa Al-Janabi and Josien PW Pluim'),
   number(8),
   publisher('Public Library of Science San Francisco, CA USA'),
-nil)
+)
 
 entry!('beede2020human',
   chi(2020),
   title('A Human-Centered Evaluation of a Deep Learning System Deployed in Clinics for the Detection of Diabetic Retinopathy'),
   author('Emma Beede and Elizabeth Baylor and Fred Hersch and Anna Iurchenko and Lauren Wilcox and Paisan Ruamviboonsuk and Laura M Vardoulakis'),
   pages(1, 12),
-nil)
+)
 
 entry!('bentaieb2017adversarial',
   article('IEEE transactions on medical imaging', 2017, 37),
@@ -1998,13 +1998,13 @@ entry!('bentaieb2017adversarial',
   number(3),
   pages(792, 802),
   publisher('IEEE'),
-nil)
+)
 
 entry!('liu2017detecting',
   arxiv(2017, '1703.02442'),
   title('Detecting cancer metastases on gigapixel pathology images'),
   author('Yun Liu and Krishna Gadepalli and Mohammad Norouzi and George E Dahl and Timo Kohlberger and Aleksey Boyko and Subhashini Venugopalan and Aleksei Timofeev and Philip Q Nelson and Greg S Corrado and others'),
-nil)
+)
 
 entry!('bug2017context',
   title('Context-based normalization of histological stains using deep convolutional features'),
@@ -2012,7 +2012,7 @@ entry!('bug2017context',
   article('Deep Learning in Medical Image Analysis and Multimodal Learning for Clinical Decision Support', 2017),
   pages(135, 142),
   publisher('Springer'),
-nil)
+)
 
 entry!('macenko2009method',
   inproceedings('2009 IEEE International Symposium on Biomedical Imaging: From Nano to Macro', 2009),
@@ -2020,7 +2020,7 @@ entry!('macenko2009method',
   author('Marc Macenko and Marc Niethammer and James S Marron and David Borland and John T Woosley and Xiaojun Guan and Charles Schmitt and Nancy E Thomas'),
   pages(1107, 1110),
   organization('IEEE'),
-nil)
+)
 
 entry!('henderson2012influence',
   article('Nature Reviews Cancer', 2012, 12),
@@ -2029,13 +2029,13 @@ entry!('henderson2012influence',
   number(9),
   pages(648, 653),
   publisher('Nature Publishing Group'),
-nil)
+)
 
 entry!('kim2020cogs',
   arxiv(2020, '2010.05465'),
   title('COGS: A Compositional Generalization Challenge Based on Semantic Interpretation'),
   author('Najoung Kim and Tal Linzen'),
-nil)
+)
 
 entry!('mckinney2020international',
   article('Nature', 2020, 577),
@@ -2044,26 +2044,26 @@ entry!('mckinney2020international',
   number(7788),
   pages(89, 94),
   publisher('Nature Publishing Group'),
-nil)
+)
 
 entry!('beery2020iwildcam',
   arxiv(2020, '2004.10340'),
   title('The iWildCam 2020 Competition Dataset'),
   author('Sara Beery and Elijah Cole and Arvi Gjoka'),
-nil)
+)
 
 entry!('li2017deeper',
   inproceedings('Proceedings of the IEEE international conference on computer vision', 2017),
   title('Deeper, broader and artier domain generalization'),
   author('Da Li and Yongxin Yang and Yi-Zhe Song and Timothy M Hospedales'),
   pages(5542, 5550),
-nil)
+)
 
 entry!('hendrycks2020many',
   arxiv(2020, '2006.16241'),
   title('The many faces of robustness: A critical analysis of out-of-distribution generalization'),
-  author('Dan Hendrycks and Steven Basart and Norman Mu and Saurav Kadavath and Frank Wang and Evan Dorundo and Rahul Desai and Tyler Zhu and Samyak Parajuli and Mike Guo and others'),
-nil)
+  author('Dan Hendrycks and Steven Basart and Norman Mu and Saurav Kadavath and Frank Wang and Evan Dorundo and Rahul Desai and Tyler Zhu and Samyak Parajuli and Mike Guo and Dawn Song and Jacob Steinhardt and Justin Gilmer'),
+)
 
 entry!('obermeyer2019dissecting',
   science(2019, 366),
@@ -2072,13 +2072,13 @@ entry!('obermeyer2019dissecting',
   number(6464),
   pages(447, 453),
   publisher('American Association for the Advancement of Science'),
-nil)
+)
 
 entry!('bellamy2020evaluating',
   arxiv(2020, '2010.01149'),
   title('Evaluating Progress on Machine Learning for Longitudinal Electronic Healthcare Data'),
   author('David Bellamy and Leo Celi and Andrew L Beam'),
-nil)
+)
 
 entry!('chen2019can',
   article('AMA Journal of Ethics', 2019, 21),
@@ -2087,19 +2087,19 @@ entry!('chen2019can',
   number(2),
   pages(167, 179),
   publisher('American Medical Association'),
-nil)
+)
 
 entry!('seyyed2020chexclusion',
   arxiv(2020, '2003.00827'),
   title('CheXclusion: Fairness gaps in deep chest {X-ray} classifiers'),
   author('Laleh Seyyed-Kalantari and Guanxiong Liu and Matthew McDermott and Marzyeh Ghassemi'),
-nil)
+)
 
 entry!('larrazabal2020gender',
   article('Proceedings of the National Academy of Sciences', 2020),
   title('Gender imbalance in medical imaging datasets produces biased classifiers for computer-aided diagnosis'),
   author('Agostina J Larrazabal and Nicol{\\\'a}s Nieto and Victoria Peterson and Diego H Milone and Enzo Ferrante'),
-nil)
+)
 
 entry!('davis2017calibration',
   article('Journal of the American Medical Informatics Association', 2017, 24),
@@ -2108,27 +2108,27 @@ entry!('davis2017calibration',
   number(6),
   pages(1052, 1061),
   publisher('Oxford University Press'),
-nil)
+)
 
 entry!('ardila2020common',
   lrec(2020),
   title('Common Voice: A Massively-Multilingual Speech Corpus'),
   author('Rosana Ardila and Megan Branson and Kelly Davis and Michael Kohler and Josh Meyer and Michael Henretty and Reuben Morais and Lindsay Saunders and Francis Tyers and Gregor Weber'),
   pages(4218, 4222),
-nil)
+)
 
 entry!('chung2018voxceleb2',
   article('Proc. Interspeech', 2018),
   title('VoxCeleb2: Deep Speaker Recognition'),
   author('Joon Son Chung and Arsha Nagrani and Andrew Zisserman'),
   pages(1086, 1090),
-nil)
+)
 
 entry!('weinberger2015speech',
   article('George Mason University', 2015),
   title('Speech accent archive'),
   author('Steven Weinberger'),
-nil)
+)
 
 entry!('panayotov2015librispeech',
   icassp(2015),
@@ -2136,7 +2136,7 @@ entry!('panayotov2015librispeech',
   author('Vassil Panayotov and Guoguo Chen and Daniel Povey and Sanjeev Khudanpur'),
   pages(5206, 5210),
   organization('IEEE'),
-nil)
+)
 
 entry!('baumann2019spoken',
   article('Language Resources and Evaluation', 2019, 53),
@@ -2145,39 +2145,39 @@ entry!('baumann2019spoken',
   number(2),
   pages(303, 329),
   publisher('Springer'),
-nil)
+)
 
 entry!('rabanser2019failing',
-  nips(2019),
+  neurips(2019),
   title('Failing loudly: An empirical study of methods for detecting dataset shift'),
   author('Stephan Rabanser and Stephan G{\"u}nnemann and Zachary Lipton'),
   pages(1396, 1408),
-nil)
+)
 
 entry!('kaushik2019learning',
   iclr(2019),
   title('Learning The Difference That Makes A Difference With Counterfactually-Augmented Data'),
   author('Divyansh Kaushik and Eduard Hovy and Zachary Lipton'),
-nil)
+)
 
 entry!('nekoto2020participatory',
   emnlpfindings(2020),
   title('Participatory Research for Low-resourced Machine Translation: A Case Study in {African} Languages'),
   author('Wilhelmina Nekoto and Vukosi Marivate and Tshinondiwa Matsila and Timi Fasubaa and Tajudeen Kolawole and Taiwo Fagbohungbe and Solomon Oluwole Akinola and Shamsuddee Hassan Muhammad and Salomon Kabongo and Salomey Osei and Sackey Freshia and Rubungo Andre Niyongabo and Ricky Macharm and Perez Ogayo and Orevaoghene Ahia and Musie Meressa and Mofe Adeyemi and Masabata Mokgesi-Selinga and Lawrence Okegbemi and Laura Jane Martinus and Kolawole Tajudeen and Kevin Degila and Kelechi Ogueji and Kathleen Siminyu and Julia Kreutzer and Jason Webster and Jamiil Toure Ali and Jade Abbott and Iroro Orife and Ignatius Ezeani and Idris Abdulkabir Dangana and Herman Kamper and Hady Elsahar and Goodness Duru and Ghollah Kioko and Espoir Murhabazi and Elan van Biljon and Daniel Whitenack and Christopher Onyefuluchi and Chris Emezue and Bonaventure Dossou and Blessing Sibanda and Blessing Itoro Bassey and Ayodele Olabiyi and Arshath Ramkilowan and Alp Öktem and Adewale Akinfaderin and Abdallah Bashir'),
-nil)
+)
 
 entry!('wu2020variational',
   article("International Conference on Educational Data Mining", 2020),
   title('Variational Item Response Theory: Fast, Accurate, and Expressive'),
   author('Mike Wu and Richard L Davis and Benjamin W Domingue and Chris Piech and Noah Goodman'),
-nil)
+)
 
 entry!('kulkarni2014scaling',
   inproceedings('Proceedings of the first ACM conference on Learning@Scale conference', 2014),
   title('Scaling short-answer grading by combining peer assessment with algorithmic scoring'),
   author('Chinmay E Kulkarni and Richard Socher and Michael S Bernstein and Scott R Klemmer'),
   pages(99, 108),
-nil)
+)
 
 entry!('shermis2014state',
   article('Assessing Writing', 2014, 20),
@@ -2185,28 +2185,28 @@ entry!('shermis2014state',
   author('Mark D Shermis'),
   pages(53, 76),
   publisher('Elsevier'),
-nil)
+)
 
 entry!('taghipour2016neural',
   inproceedings('Proceedings of the 2016 conference on empirical methods in natural language processing', 2016),
   title('A neural approach to automated essay scoring'),
   author('Kaveh Taghipour and Hwee Tou Ng'),
   pages(1882, 1891),
-nil)
+)
 
 entry!('ahadi2015exploring',
   inproceedings('Proceedings of the eleventh annual International Conference on International Computing Education Research', 2015),
   title('Exploring machine learning methods to automatically identify students in need of assistance'),
   author('Alireza Ahadi and Raymond Lister and Heikki Haapala and Arto Vihavainen'),
   pages(121, 130),
-nil)
+)
 
 entry!('williams2016axis',
   inproceedings('Proceedings of the Third (2016) ACM Conference on Learning@Scale', 2016),
   title('Axis: Generating explanations at scale with learnersourcing and machine learning'),
   author('Joseph Jay Williams and Juho Kim and Anna Rafferty and Samuel Maldonado and Krzysztof Z Gajos and Walter S Lasecki and Neil Heffernan'),
   pages(379, 388),
-nil)
+)
 
 entry!('desmarais2012review',
   article('User Modeling and User-Adapted Interaction', 2012, 22),
@@ -2215,7 +2215,7 @@ entry!('desmarais2012review',
   number('1-2'),
   pages(9, 38),
   publisher('Springer'),
-nil)
+)
 
 entry!('wu2019zero',
   aaai(2019),
@@ -2223,14 +2223,14 @@ entry!('wu2019zero',
   author('Mike Wu and Milan Mosse and Noah Goodman and Chris Piech'),
   volume(33),
   pages(782, 790),
-nil)
+)
 
 entry!('amorim2018automated',
   acl(2018),
   title('Automated essay scoring in the presence of biased ratings'),
   author('Evelin Amorim and Marcia Can{\c{c}}ado and Adriano Veloso'),
   pages(229, 237),
-nil)
+)
 
 entry!('perelman2014state',
   article('Assessing Writing', 2014, 21),
@@ -2238,25 +2238,25 @@ entry!('perelman2014state',
   author('Les Perelman'),
   pages(104, 111),
   publisher('Elsevier'),
-nil)
+)
 
 entry!('piech2013tuned',
   article('Educational Data Mining', 2013),
   title('Tuned models of peer assessment in MOOCs'),
   author('Chris Piech and Jonathan Huang and Zhenghao Chen and Chuong Do and Andrew Ng and Daphne Koller'),
-nil)
+)
 
 entry!('han2020fortifying',
   arxiv(2020, '2010.03154'),
   title('Fortifying Toxic Speech Detectors Against Veiled Toxicity'),
   author('Xiaochuang Han and Yulia Tsvetkov'),
-nil)
+)
 
 entry!('kompa2020empirical',
   arxiv(2020, '2010.03039'),
   title('Empirical Frequentist Coverage of Deep Learning Uncertainty Quantification Procedures'),
   author('Benjamin Kompa and Jasper Snoek and Andrew Beam'),
-nil)
+)
 
 entry!('long2015learning',
   inproceedings('International conference on machine learning', 2015),
@@ -2264,21 +2264,21 @@ entry!('long2015learning',
   author('Mingsheng Long and Yue Cao and Jianmin Wang and Michael Jordan'),
   pages(97, 105),
   organization('PMLR'),
-nil)
+)
 
 entry!('wu2019domain',
   icml(2019),
   title('Domain Adaptation with Asymmetrically-Relaxed Distribution Alignment'),
   author('Yifan Wu and Ezra Winston and Divyansh Kaushik and Zachary Lipton'),
   pages(6872, 6881),
-nil)
+)
 
 entry!('degrave2020ai',
   article('medRxiv', 2020),
   title('{AI} for radiographic {COVID-19} detection selects shortcuts over signal'),
   author('Alex J DeGrave and Joseph D Janizek and Su-In Lee'),
   publisher('Cold Spring Harbor Laboratory Preprints'),
-nil)
+)
 
 entry!('li2019anchor',
   article('Genome research', 2019, 29),
@@ -2287,14 +2287,14 @@ entry!('li2019anchor',
   number(2),
   pages(281, 292),
   publisher('Cold Spring Harbor Lab'),
-nil)
+)
 
 entry!('blitzer2007biographies',
   inproceedings('Proceedings of the 45th annual meeting of the association of computational linguistics', 2007),
   title('Biographies, bollywood, boom-boxes and blenders: Domain adaptation for sentiment classification'),
   author('John Blitzer and Mark Dredze and Fernando Pereira'),
   pages(440, 447),
-nil)
+)
 
 entry!('lecun2004learning',
   cvpr(2004),
@@ -2302,7 +2302,7 @@ entry!('lecun2004learning',
   author('Yann LeCun and Fu Jie Huang and Leon Bottou'),
   volume(2),
   organization('IEEE'),
-nil)
+)
 
 entry!('saenko2010adapting',
   inproceedings('European conference on computer vision', 2010),
@@ -2310,14 +2310,14 @@ entry!('saenko2010adapting',
   author('Kate Saenko and Brian Kulis and Mario Fritz and Trevor Darrell'),
   pages(213, 226),
   organization('Springer'),
-nil)
+)
 
 entry!('pan2010cross',
   inproceedings('Proceedings of the 19th international conference on World wide web', 2010),
   title('Cross-domain sentiment classification via spectral feature alignment'),
   author('Sinno Jialin Pan and Xiaochuan Ni and Jian-Tao Sun and Qiang Yang and Zheng Chen'),
   pages(751, 760),
-nil)
+)
 
 entry!('bruzzone2009domain',
   article('IEEE transactions on pattern analysis and machine intelligence', 2009, 32),
@@ -2326,7 +2326,7 @@ entry!('bruzzone2009domain',
   number(5),
   pages(770, 787),
   publisher('IEEE'),
-nil)
+)
 
 entry!('yang2008estimating',
   article('IEEE Intelligent Systems', 2008, 23),
@@ -2334,7 +2334,7 @@ entry!('yang2008estimating',
   author('Qiang Yang and Sinno Jialin Pan and Vincent Wenchen Zheng'),
   number(1),
   pages(8, 13),
-nil)
+)
 
 entry!('gong2012geodesic',
   cvpr(2012),
@@ -2342,7 +2342,7 @@ entry!('gong2012geodesic',
   author('Boqing Gong and Yuan Shi and Fei Sha and Kristen Grauman'),
   pages(2066, 2073),
   organization('IEEE'),
-nil)
+)
 
 entry!('torralba2011unbiased',
   cvpr(2011),
@@ -2350,14 +2350,14 @@ entry!('torralba2011unbiased',
   author('Antonio Torralba and Alexei A Efros'),
   pages(1521, 1528),
   organization('IEEE'),
-nil)
+)
 
 entry!('beery2018recognition',
   eccv(2018),
   title('Recognition in terra incognita'),
   author('Sara Beery and Grant Van Horn and Pietro Perona'),
   pages(456, 473),
-nil)
+)
 
 entry!('courtiol2019deep',
   article('Nature medicine', 2019, 25),
@@ -2366,4 +2366,387 @@ entry!('courtiol2019deep',
   number(10),
   pages(1519, 1525),
   publisher('Nature Publishing Group'),
+)
+
+entry!('hu2020open',
+  arxiv(2020, '2005.00687'),
+  title('Open graph benchmark: Datasets for machine learning on graphs'),
+  author('Weihua Hu and Matthias Fey and Marinka Zitnik and Yuxiao Dong and Hongyu Ren and Bowen Liu and Michele Catasta and Jure Leskovec'),
+)
+
+entry!('xu2018powerful',
+  iclr(2018),
+  title('How Powerful are Graph Neural Networks?'),
+  author('Keyulu Xu and Weihua Hu and Jure Leskovec and Stefanie Jegelka'),
+)
+
+entry!('damour2020underspecification',
+  arxiv(2020, '2011.03395'),
+  title('Underspecification Presents Challenges for Credibility in Modern Machine Learning'),
+  author('Alexander D\'Amour and Katherine Heller and Dan Moldovan and Ben Adlam and Babak Alipanahi and Alex Beutel and Christina Chen and Jonathan Deaton and Jacob Eisenstein and Matthew D Hoffman and others'),
+)
+
+entry!('subbaswamy2020evaluating',
+  arxiv(2020, '2010.15100'),
+  title('Evaluating Model Robustness to Dataset Shift'),
+  author('Adarsh Subbaswamy and Roy Adams and Suchi Saria'),
+)
+
+entry!('borkan2019limitations',
+  arxiv(2019, '1903.02088'),
+  title('Limitations of pinned auc for measuring unintended bias'),
+  author('Daniel Borkan and Lucas Dixon and John Li and Jeffrey Sorensen and Nithum Thain and Lucy Vasserman'),
+)
+
+entry!('he2020towards',
+  article('Pattern Recognition', 2020, 110),
+  title('Towards Non-{IID} Image Classification: A Dataset and Baselines'),
+  author('Yue He and Zheyan Shen and Peng Cui'),
+  publisher('Elsevier'),
+)
+
+entry!('damour2020fairness',
+  inproceedings('Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency', 2020),
+  title('Fairness is not static: deeper understanding of long term fairness via simulation studies'),
+  author('Alexander D\'Amour and Hansa Srinivasan and James Atwood and Pallavi Baljekar and D Sculley and Yoni Halpern'),
+  pages(525, 534),
+)
+
+entry!('liu2018delayed',
+  icml(2018),
+  title('Delayed Impact of Fair Machine Learning'),
+  author('Lydia T Liu and Sarah Dean and Esther Rolf and Max Simchowitz and Moritz Hardt'),
+)
+
+entry!('bellemare2020autonomous',
+  article('Nature', 2020, 588),
+  title('Autonomous navigation of stratospheric balloons using reinforcement learning'),
+  author('Marc G. Bellemare and Salvatore Candido and Pablo Samuel Castro and Jun Gong and Marlos C. Machado and Subhodeep Moitra and Sameera S. Ponda and Ziyu Wang '),
+  publisher('Nature Publishing Group'),
+)
+
+entry!('dan2020scaling',
+  arxiv(2020, '1911.11132'),
+  title('Scaling out-of-distribution detection for real-world settings'),
+  author('Dan Hendrycks and Steven Basart and Mantas Mazeika and Mohammadreza Mostajabi and Jacob Steinhardt and Dawn Song'),
+)
+
+entry!('saerens2002adjusting',
+  article('Neural computation', 2002, 14),
+  title('Adjusting the outputs of a classifier to new a priori probabilities: a simple procedure'),
+  author('Marco Saerens and Patrice Latinne and Christine Decaestecker'),
+  number(1),
+  pages(21, 41),
+  publisher('MIT Press'),
+)
+
+entry!('zhang2013domain',
+  icml(2013),
+  title('Domain adaptation under target and conditional shift'),
+  author('Kun Zhang and Bernhard Sch{\"o}lkopf and Krikamol Muandet and Zhikun Wang'),
+  pages(819, 827),
+)
+
+entry!('alexandari2020maximum',
+  icml(2020),
+  title('Maximum likelihood with bias-corrected calibration is hard-to-beat at label shift adaptation'),
+  author('Amr Alexandari and Anshul Kundaje and Avanti Shrikumar'),
+  pages(222, 232),
+  organization('PMLR'),
+)
+
+entry!('garg2020unified',
+  arxiv(2020, '2003.07554'),
+  title('A Unified View of Label Shift Estimation'),
+  author('Saurabh Garg and Yifan Wu and Sivaraman Balakrishnan and Zachary C Lipton'),
+)
+
+entry!('rigaki2018bringing',
+  inproceedings('2018 IEEE Security and Privacy Workshops (SPW)', 2018),
+  title('Bringing a gan to a knife-fight: Adapting malware communication to avoid detection'),
+  author('Maria Rigaki and Sebastian Garcia'),
+  pages(70, 75),
+  organization('IEEE'),
+)
+
+entry!('cuccarese2020functional',
+  article('bioRxiv', 2020),
+  title('Functional immune mapping with deep-learning enabled phenomics applied to immunomodulatory and {COVID-19} drug discovery'),
+  author('Michael F Cuccarese and Berton A Earnshaw and Katie Heiser and Ben Fogelson and Chadwick T Davis and Peter F McLean and Hannah B Gordon and Kathleen-Rose Skelly and Fiona L Weathersby and Vlad Rodic and others'),
+  publisher('Cold Spring Harbor Laboratory'),
+)
+
+entry!('encode2012integrated',
+  article('Nature', 2012, 489),
+  title('An integrated encyclopedia of {DNA} elements in the human genome'),
+  author('ENCODE Project Consortium and others'),
+  number(7414),
+  pages(57, 74),
+  publisher('Nature Publishing Group'),
+)
+
+entry!('kundaje2015integrative',
+  article('Nature', 2015, 518),
+  title('Integrative analysis of 111 reference human epigenomes'),
+  author('Anshul Kundaje and Wouter Meuleman and Jason Ernst and Misha Bilenky and Angela Yen and Alireza Heravi-Moussavi and Pouya Kheradpour and Zhizhuo Zhang and Jianrong Wang and Michael J Ziller and others'),
+  number(7539),
+  pages(317, 330),
+  publisher('Nature Publishing Group'),
+)
+
+entry!('moore2020expanded',
+  article('Nature', 2020, 583),
+  title('Expanded encyclopaedias of {DNA} elements in the human and mouse genomes'),
+  author('Jill E Moore and Michael J Purcaro and Henry E Pratt and Charles B Epstein and Noam Shoresh and Jessika Adrian and Trupti Kawli and Carrie A Davis and Alexander Dobin and Rajinder Kaul and others'),
+  number(7818),
+  pages(699, 710),
+  publisher('Nature Publishing Group'),
+)
+
+entry!('gtex2020gtex',
+  science(2020, 369),
+  title('The {GTEx Consortium} atlas of genetic regulatory effects across human tissues'),
+  author('GTEx Consortium and others'),
+  number(6509),
+  pages(1318, 1330),
+  publisher('American Association for the Advancement of Science'),
+)
+
+entry!('ho2014comparative',
+  article('Nature', 2014, 512),
+  title('Comparative analysis of metazoan chromatin organization'),
+  author('Joshua WK Ho and Youngsook L Jung and Tao Liu and Burak H Alver and Soohyun Lee and Kohta Ikegami and Kyung-Ah Sohn and Aki Minoda and Michael Y Tolstorukov and Alex Appert and others'),
+  number(7515),
+  pages(449, 452),
+  publisher('Nature Publishing Group'),
+)
+
+entry!('hubmap2019human',
+  article('Nature', 2019, 574),
+  title('The human body at cellular resolution: the {NIH} Human Biomolecular Atlas Program'),
+  author('HuBMAP Consortium and others'),
+  number(7777),
+  publisher('Nature Publishing Group'),
+)
+
+entry!('aviv2017human',
+  article('Elife', 2017, 6),
+  title('The human cell atlas'),
+  author('Regev Aviv and Sarah A Teichmann and Eric S Lander and Amit Ido and Benoist Christophe and Birney Ewan and Bodenmiller Bernd and Peter Campbell and Carninci Piero and Clatworthy Menna and others'),
+  publisher('eLife Sciences Publications Ltd.'),
+)
+
+entry!('ching2018opportunities',
+  article('Journal of The Royal Society Interface', 2018, 15),
+  title('Opportunities and obstacles for deep learning in biology and medicine'),
+  author('Travers Ching and Daniel S Himmelstein and Brett K Beaulieu-Jones and Alexandr A Kalinin and Brian T Do and Gregory P Way and Enrico Ferrero and Paul-Michael Agapow and Michael Zietz and Michael M Hoffman and others'),
+  number(141),
+  publisher('The Royal Society'),
+)
+
+entry!('eraslan2019deep',
+  article('Nature Reviews Genetics', 2019, 20),
+  title('Deep learning: new computational modelling techniques for genomics'),
+  author('G{\"o}kcen Eraslan and {\v{Z}}iga Avsec and Julien Gagneur and Fabian J Theis'),
+  number(7),
+  pages(389, 403),
+  publisher('Nature Publishing Group'),
+)
+
+entry!('libbrecht2015machine',
+  article('Nature Reviews Genetics', 2015, 16),
+  title('Machine learning applications in genetics and genomics'),
+  author('Maxwell W Libbrecht and William Stafford Noble'),
+  number(6),
+  pages(321, 332),
+  publisher('Nature Publishing Group'),
+)
+
+entry!('avsec2019deep',
+  article('bioRxiv', 2019),
+  title('Deep learning at base-resolution reveals motif syntax of the cis-regulatory code'),
+  author('{\v{Z}}iga Avsec and Melanie Weilert and Avanti Shrikumar and Amr Alexandari and Sabrina Krueger and Khyati Dalal and Robin Fropf and Charles McAnany and Julien Gagneur and Anshul Kundaje and Julia Zeitlinger'),
+  publisher('Cold Spring Harbor Laboratory'),
+)
+
+entry!('zhou2015predicting',
+  article('Nature methods', 2015, 12),
+  title('Predicting effects of noncoding variants with deep learning--based sequence model'),
+  author('Jian Zhou and Olga G Troyanskaya'),
+  number(10),
+  pages(931, 934),
+  publisher('Nature Publishing Group'),
+)
+
+entry!('kelley2016basset',
+  article('Genome research', 2016, 26),
+  title('Basset: learning the regulatory code of the accessible genome with deep convolutional neural networks'),
+  author('David R Kelley and Jasper Snoek and John L Rinn'),
+  number(7),
+  pages(990, 999),
+  publisher('Cold Spring Harbor Lab'),
+)
+
+entry!('jaganathan2019predicting',
+  article('Cell', 2019, 176),
+  title('Predicting splicing from primary sequence with deep learning'),
+  author('Kishore Jaganathan and Sofia Kyriazopoulou Panagiotopoulou and Jeremy F McRae and Siavash Fazel Darbandi and David Knowles and Yang I Li and Jack A Kosmicki and Juan Arbelaez and Wenwu Cui and Grace B Schwartz and others'),
+  number(3),
+  pages(535, 548),
+  publisher('Elsevier'),
+)
+
+entry!('srivastava2020sequence',
+  article('Biochimica et Biophysica Acta (BBA)-Gene Regulatory Mechanisms', 2020, 1863),
+  title('Sequence and chromatin determinants of transcription factor binding and the establishment of cell type-specific binding patterns'),
+  author('Divyanshi Srivastava and Shaun Mahony'),
+  number(6),
+  publisher('Elsevier'),
+)
+
+entry!('keilwagen2019accurate',
+  article('Genome biology', 2019, 20),
+  title('Accurate prediction of cell type-specific transcription factor binding'),
+  author('Jens Keilwagen and Stefan Posch and Jan Grau'),
+  number(1),
+  publisher('Springer'),
+)
+
+entry!('quang2019factornet',
+  article('Methods', 2019, 166),
+  title('FactorNet: a deep learning framework for predicting cell type specific transcription factor binding from nucleotide-resolution sequential data'),
+  author('Daniel Quang and Xiaohui Xie'),
+  pages(40, 47),
+  publisher('Elsevier'),
+)
+
+entry!('li2019leopard',
+  article('bioRxiv', 2019),
+  title('Leopard: fast decoding cell type-specific transcription factor binding landscape at single-nucleotide resolution'),
+  author('Hongyang Li and Yuanfang Guan'),
+  publisher('Cold Spring Harbor Laboratory'),
 nil)
+
+entry!('raghu2020survey',
+  arxiv(2020, '2003.11755'),
+  title('A survey of deep learning for scientific discovery'),
+  author('Maithra Raghu and Eric Schmidt'),
+nil)
+
+entry!('geirhos2020shortcut',
+  arxiv(2020, '2004.07780'),
+  title('Shortcut Learning in Deep Neural Networks'),
+  author('Robert Geirhos and J{\"o}rn-Henrik Jacobsen and Claudio Michaelis and Richard Zemel and Wieland Brendel and Matthias Bethge and Felix A Wichmann'),
+nil)
+
+entry!('rolf2020generalizable',
+  article('NBER Working Paper', 2020),
+  title('A Generalizable and Accessible Approach to Machine Learning with Global Satellite Imagery'),
+  author('Esther Rolf and Jonathan Proctor and Tamma Carleton and Ian Bolliger and Vaishaal Shankar and Miyabi Ishihara and Benjamin Recht and Solomon Hsiang'),
+  number(28045),
+nil)
+
+entry!('djolonga2020robustness',
+  arxiv(2020, '2007.08558'),
+  title('On robustness and transferability of convolutional neural networks'),
+  author('Josip Djolonga and Jessica Yung and Michael Tschannen and Rob Romijnders and Lucas Beyer and Alexander Kolesnikov and Joan Puigcerver and Matthias Minderer and Alexander D\'Amour and Dan Moldovan and others'),
+nil)
+
+entry!('wang2019learning',
+  neurips(2019),
+  title('Learning robust global representations by penalizing local predictive power'),
+  author('Haohan Wang and Songwei Ge and Zachary Lipton and Eric P Xing'),
+nil)
+
+entry!('miller2020effect',
+  arxiv(2020, '2004.14444'),
+  title('The Effect of Natural Distribution Shift on Question Answering Models'),
+  author('John Miller and Karl Krauth and Benjamin Recht and Ludwig Schmidt'),
+nil)
+
+entry!('geirhos2018generalisation',
+  article('Advances in neural information processing systems', 2018, 31),
+  title('Generalisation in humans and deep neural networks'),
+  author('Robert Geirhos and Carlos RM Temme and Jonas Rauber and Heiko H Sch{\"u}tt and Matthias Bethge and Felix A Wichmann'),
+  pages(7538, 7550),
+nil)
+
+entry!('adragna2020fairness',
+  arxiv(2020, '2011.06485'),
+  title('Fairness and Robustness in Invariant Learning: A Case Study in Toxicity Classification'),
+  author('Robert Adragna and Elliot Creager and David Madras and Richard Zemel'),
+nil)
+
+entry!('bohacek1996art',
+  article('Medicinal research reviews', 1996, 16),
+  title('The art and practice of structure-based drug design: a molecular modeling perspective'),
+  author('Regine S Bohacek and Colin McMartin and Wayne C Guida'),
+  number(1),
+  pages(3, 50),
+  publisher('Wiley Subscription Services, Inc., A Wiley Company New York'),
+nil)
+
+entry!('lyu2019ultra',
+  article('Nature', 2019, 566),
+  title('Ultra-large library docking for discovering new chemotypes'),
+  author('Jiankun Lyu and Sheng Wang and Trent E Balius and Isha Singh and Anat Levit and Yurii S Moroz and Matthew J O’Meara and Tao Che and Enkhjargal Algaa and Kateryna Tolmachova and others'),
+  number(7743),
+  pages(224, 229),
+  publisher('Nature Publishing Group'),
+nil)
+
+entry!('mccloskey2020machine',
+  article('Journal of Medicinal Chemistry', 2020),
+  title('Machine Learning on {DNA}-Encoded Libraries: A New Paradigm for Hit Finding'),
+  author('Kevin McCloskey and Eric A Sigel and Steven Kearnes and Ling Xue and Xia Tian and Dennis Moccia and Diana Gikunju and Sana Bazzaz and Betty Chan and Matthew A Clark and others'),
+  publisher('ACS Publications'),
+nil)
+
+entry!('attene2013tox21',
+  article('Drug discovery today', 2013, 18),
+  title('The Tox21 robotic platform for the assessment of environmental chemicals--from vision to reality'),
+  author('Matias S Attene-Ramos and Nicole Miller and Ruili Huang and Sam Michael and Misha Itkin and Robert J Kavlock and Christopher P Austin and Paul Shinn and Anton Simeonov and Raymond R Tice and others'),
+  number('15-16'),
+  pages(716, 723),
+  publisher('Elsevier'),
+nil)
+
+entry!('collins2008transforming',
+  science(2008, 319),
+  title('Transforming environmental health protection'),
+  author('Francis S Collins and George M Gray and John R Bucher'),
+  number(5865),
+  publisher('NIH Public Access'),
+nil)
+
+entry!('reker2020practical',
+  article('Drug Discovery Today: Technologies', 2020),
+  title('Practical considerations for active machine learning in drug discovery'),
+  author('Daniel Reker'),
+  publisher('Elsevier'),
+nil)
+
+entry!('agrawal2018don',
+  cvpr(2018),
+  title('Don\'t just assume; look and answer: Overcoming priors for visual question answering'),
+  author('Aishwarya Agrawal and Dhruv Batra and Devi Parikh and Aniruddha Kembhavi'),
+  pages(4971, 4980),
+nil)
+
+entry!('lewis1992feature',
+  inproceedings('Speech and Natural Language: Proceedings of a Workshop Held at Harriman, New York, February 23-26, 1992', 1992),
+  title('Feature selection and feature extract ion for text categorization'),
+  author('David D Lewis'),
+)
+
+entry!('zheng2018feature',
+  title('Feature engineering for machine learning: principles and techniques for data scientists'),
+  author('Alice Zheng and Amanda Casari'),
+  book('" O\'Reilly Media, Inc."', 2018),
+)
+
+entry!('nixon2019feature',
+  title('Feature extraction and image processing for computer vision'),
+  author('Mark Nixon and Alberto Aguado'),
+  book('Academic press', 2019),
+)

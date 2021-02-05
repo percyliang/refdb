@@ -34,14 +34,12 @@ def dukeStat(year); techreport(Name.new('Department of Statistics, Duke Universi
 def berkeleyStat(year); techreport(Name.new('Department of Statistics, University of California at Berkeley', 'UC Berkeley'), year) end
 def berkeleyEECS(year); techreport(Name.new('EECS Department, University of California at Berkeley', 'UC Berkeley'), year) end
 def mit(year); techreport('Massachusetts Institute of Technology', year) end
-# def arxiv(year, id=nil); [article('arXiv' + (id != nil ? ' preprint arXiv:'+id : ''), year, nil), id && url('https://arxiv.org/pdf/' + id + '.pdf')].compact end
 def arxiv(year, id=nil); article('arXiv' + (id != nil ? ' preprint arXiv:'+id : ''), year, nil) end
 def preprint(year); article('preprint', year, nil) end
 def manual(year); [type('manual'), year(year)] end
 
 ### Machine learning / AI
 def colt(year); inproceedings(Name.new('Conference on Learning Theory', 'COLT'), year) end
-def nips(year); [inproceedings(Name.new('Advances in Neural Information Processing Systems', 'NeurIPS'), year), mitpress] end
 def neurips(year); [inproceedings(Name.new('Advances in Neural Information Processing Systems', 'NeurIPS'), year), mitpress] end
 def iclr(year); [inproceedings(Name.new('International Conference on Learning Representations', 'ICLR'), year), publisher('Omnipress')] end
 def iclrWorkshop(year); [inproceedings(Name.new('International Conference on Learning Representations Workshop', 'ICLR'), year), publisher('Omnipress')] end
@@ -107,6 +105,8 @@ def hri(year); inproceedings(Name.new('ACM/IEEE International Conference on Huma
 def icorr(year); inproceedings(Name.new('IEEE International Conference on Rehabilitation Robotics', 'ICORR'), year) end
 def thri(year, volume); article(Name.new('ACM Transactions on Human-Robot Interaction', 'THRI'), year, volume) end
 
+def facct(year); inproceedings(Name.new('ACM Conference on Fairness, Accountability, and Transparency', 'FAccT'), year) end
+
 ### Natural language processing
 def naacl(year); [inproceedings(Name.new('North American Association for Computational Linguistics', 'NAACL'), year), aclpub] end
 def naacl2009; [naacl(2009), address('Boulder, Colorado')] end
@@ -165,7 +165,7 @@ def cav(year); inproceedings(Name.new('Computer Aided Verification', 'CAV'), yea
 def asplos(year); inproceedings(Name.new('Architectural Support for Programming Languages and Operating Systems', 'ASPLOS'), year) end
 def ase(year); inproceedings(Name.new('Automated Software Engineering', 'ASE'), year) end
 
-#Security
+# Security
 def iieeeurosp(year); inproceedings(Name.new('IEEE European Symposium on Security and Privacy', 'EuroS\&P'), year) end
 
 # Databases

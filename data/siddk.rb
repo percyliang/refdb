@@ -599,7 +599,7 @@ entry!('lewis1994heterogeneous',
 nil)
 
 entry!('cohn1994active',
-  nips(1994),
+  neurips(1994),
   title('Active Learning with Statistical Models'),
   author('David A. Cohn and Zoubin Ghahramani and Michael I. Jordan'),
 nil)
@@ -740,14 +740,14 @@ entry!('malinowski2015ask',
 nil)
 
 entry!('ren2015exploring',
-  nips(2015),
+  neurips(2015),
   title('Exploring models and data for image question answering'),
   author('Mengye Ren and Ryan Kiros and Richard Zemel'),
   pages(2953, 2961),
 nil)
 
 entry!('lu2016hierarchical',
-  nips(2016),
+  neurips(2016),
   title('Hierarchical question-image co-attention for visual question answering'),
   author('Jiasen Lu and Jianwei Yang and Dhruv Batra and Devi Parikh'),
 nil)
@@ -785,7 +785,7 @@ entry!('shen2017deep',
 nil)
 
 entry!('kendall2017uncertainties',
-  nips(2017),
+  neurips(2017),
   title('What uncertainties do we need in {B}ayesian deep learning for computer vision?'),
   author('Alex Kendall and Yarin Gal'),
   pages(5574, 5584),
@@ -1146,7 +1146,7 @@ entry!('das2018modular',
 nil)
 
 entry!('zheng2018learning',
-  nips(2018),
+  neurips(2018),
   author('Zeyu Zheng and Junhyuk Oh and Satinder Singh'),
   title('On Learning Intrinsic Rewards for Policy Gradient Methods'),
 nil)

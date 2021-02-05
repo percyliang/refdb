@@ -148,7 +148,7 @@ class Entry
     ["@#{type}{#{id},"] + @fieldsMap.map { |name,values|
       values = values.map { |value|
         if value.class == Author
-          value.to_short_s.gsub(/\*/, '')  # Remove stars (for joint first-authorship)
+          value.to_full_s.gsub(/\*/, '')  # Remove stars (for joint first-authorship)
         elsif value.class == Name
           verbose == 0 ? value.to_short_s : value.to_full_s
         else

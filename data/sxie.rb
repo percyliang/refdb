@@ -3,82 +3,82 @@ entry!('simard2003best',
   title('Best Practices for Convolutional Neural Networks Applied to Visual Document Analysis'),
   article('International Conference on Document Analysis and Recognition', 2003, 2),
   pages(958, 964),
-nil)
+)
 
 entry!('yaeger1996effective',
   author('Larry Yaeger and Richard Lyon and Brandyn Webb'),
   title('Effective Training of a Neural Network Character Classifier for Word Recognition'),
-  nips(1996),
+  neurips(1996),
   pages(807, 813),
-nil)
+)
 
 entry!('ciresan2011high',
   author('Dan C. Ciresan and Ueli Meier and Jonathan Masci and Luca M. Gambardella and Jurgen Schmidhuber'),
   title('High-Performance Neural Networks for Visual Object Classification'),
   arxiv(2011),
-nil)
+)
 
 entry!('ravuri2019seeing',
   author('Suman Ravuri and Oriol Vinyals'),
   title('Seeing is Not Necessarily Believing: Limitations of BigGANs for Data Augmentation'),
   iclrWorkshop(2019),
-nil)
+)
 
 entry!('rao2007linear',
   author('C. Radhakrishna Rao and Helge Toutenburg and Shalabh and Christian Heumann'),
   title('Linear Models and Generalizations: Least Squares and Alternatives'),
   book('Springer Publishing Company', 2007),
-nil)
+)
 
 entry!('lamb2019interpolated',
   author('Alex Lamb and Vikas Verma and Juho Kannala and Yoshua Bengio'),
   title('Interpolated Adversarial Training: Achieving Robust Neural Networks without Sacrificing Too Much Accuracy'),
   arxiv(2019),
-nil)
+)
 
 entry!('prabhu2019understanding',
   author('Vinay Uday Prabhu and Joyce Xu and Dian Ang Yap and John Whaley'),
   title('Understanding Adversarial Robustness Through Loss Landscape Geometries'),
   iclrWorkshop(2019),
-nil)
+)
 
 entry!('dobriban2015high',
   author('Edgar Dobriban and Stefan Wager'),
   title('High-Dimensional Asymptotics of Prediction: Ridge Regression and Classification'),
   arxiv(2015),
-nil)
+)
 
 entry!('bartlett2019benign',
   author('Peter L. Bartlett and Philip M. Long and G´abor Lugosi and Alexander Tsigler'),
   title('Benign Overfitting in Linear Regression'),
   arxiv(2019),
-nil)
+)
 
 entry!('kleinman1968design',
   author('D. Kleinman and M. Athans'),
   title('The design of suboptimal linear time-varying systems'),
   article('IEEE Transactions on Automatic Control', 1968, 13),
   pages(150, 159),
-nil)
+)
 
 entry!('kovanic1979pseudoinverse',
   author('Pavel Kovanic'),
   title('On the Pseudoinverse of a Sum of Symmetric
         Matrices with Applications to Estimation'),
   article('Kybernetika', 1979, 15),
-nil)
+)
 
 entry!('berthelot2019mixmatch',
   author('David Berthelot and Nicholas Carlini and Ian Goodfellow and Nicolas Papernot and Avital Oliver and Colin Raffel'),
   title('MixMatch: A Holistic Approach to Semi-Supervised Learning'),
   arxiv(2019),
-nil)
+)
 
 entry!('belkin2019two',
   author('Mikhail Belkin and Daniel Hsu and Ji Xu'),
   title('Two models of double descent for weak features'),
   arxiv(2019),
-nil)
+)
 
 entry!('schwartz2006ranking',
   author('S. Shalev-Schwartz and Y. Singer'),
@@ -154,7 +154,7 @@ entry!('sennrich2016bpe',
 entry!('you2018moleculegraph',
           author('J. You and B. Liu and Z. Ying and V. Pande and J. Leskovec'),
   title('Graph Convolutional Policy Network for Goal-Directed Molecular Graph Generation'),
-  nips(2018),
+  neurips(2018),
 )
 entry!('tsuda2017chemts',
     author('X. Yang and J. Zhang and K. Yoshizoe and K. Terayama and K. Tsuda'),
@@ -193,12 +193,12 @@ author('Andrew W. Senior and Richard Evans and John Jumper and James Kirkpatrick
 entry!('neyshabur2017generalization',
 author('Behnam Neyshabur and Srinadh Bhojanapalli and David McAllester and Nathan Srebro'),
   title('Exploring Generalization in Deep Learning'),
-  nips(2017),
+  neurips(2017),
 )
 entry!('bartlett2017spectral',
 author('Peter Bartlett and Dylan J. Foster and Matus Telgarsky'),
   title('Spectrally-normalized margin bounds for neural networks'),
-  nips(2017),
+  neurips(2017),
 )
 entry!('wei2020improved',
 author('Colin Wei and Tengyu Ma'),
@@ -209,7 +209,7 @@ Classification via an All-Layer Margin'),
 entry!('wei2019data',
 author('Colin Wei and Tengyu Ma'),
   title('Data-dependent Sample Complexity of Deep Neural Networks via {Lipschitz} Augmentation'),
-  nips(2019),
+  neurips(2019),
 )
 entry!('chen2020more',
 author('Lin Chen and Yifei Min and Mingrui Zhang and Amin Karbasi'),
@@ -309,12 +309,12 @@ entry!('zoph2020rethinking',
 entry!('hendrycks2019selfsupervised',
         author('Dan Hendrycks and Mantas Mazeika and Saurav Kadavath and Dawn Song'),
   title('Using Self-Supervised Learning Can Improve Model Robustness and Uncertainty'),
-  nips(2019),
+  neurips(2019),
 )
 entry!('blitzer2007adaptation',
         author('John Blitzer and Fernando Pereira'),
   title('Domain adaptation of natural language processing systems'),
-  article('University of Pennsylvania', 2007, nil),
+  article('University of Pennsylvania', 2007, ),
 )
 entry!('yeh2020poverty',
 author('Christopher Yeh and Anthony Perez and Anne Driscoll and George Azzari and Zhongyi Tang and David Lobell and Stefano Ermon and Marshall Burke'),
@@ -335,7 +335,7 @@ mobile phone metadata'),
 entry!('epsey2015development',
         author('Jessica Espey and Eric Swanson and Shaida Badiee and Zach Chistensen and Alex Fischer and Marc Levy and Greg Yetman and Alex de Sherbinin and Robert Chen and Yue Qiu and Geoffrey Greenwell and Thilo Klein and and Johannes Jutting and Morten Jerven and Grant Cameron and Ana Milena Aguilar Rivera and Victoriano C. Arias and and Samuel Lantei Mills and Albert Motivans'),
   title('Data for Development: A Needs Assessment for {SDG} Monitoring and Statistical Capacity Development'),
-  article('Sustainable Development Solutions Network', 2015, nil),
+  article('Sustainable Development Solutions Network', 2015, ),
 )
 entry!('noor2008nighttime',
         author('Abdisalan Noor and Victor Alegana and Peter Gething and Andrew Tatem and Robert Snow'),
@@ -356,8 +356,13 @@ entry!('reiner2018mortality',
         author('Robert C. Reiner and Nicholas Graetz and Daniel C. Casey and Christopher Troeger and Gregory M. Garcia and Jonathan F. Mosser and Aniruddha Deshpande and Scott J. Swartz and  Sarah E. Ray and Brigette F. Blacker and Puja C. Rao and Aaron Osgood-Zimmerman and Roy Burstein and David M. Pigott and Ian M. Davis and Ian D. Letourneau and Lucas Earl and Jennifer M. Ross and Ibrahim A. Khalil and Tamer H. Farag and Oliver J. Brady and Moritz U.G. Kraemer and David L. Smith and Samir Bhatt and Daniel J. Weiss and Peter W. Gething and Nicholas J. Kassebaum and Ali H. Mokdad and Christopher J.L. Murray and Simon I. Hay'),
   title('Variation in Childhood Diarrheal Morbidity and Mortality in Africa, 2000–2015'),
   article('New England Journal of Medicine', 2018, 379),
-
+      )
+entry!('bengio2013estimating',
+author('Yoshua Bengio and Nicholas Leonard and Aaron Courville'),
+  title('Estimating or Propagating Gradients Through Stochastic Neurons for Conditional Computation'),
+  arxiv(2013),
 )
+
 entry!('burke2016mortality',
         author('Marshall Burke and Sam Heft-Neal and Eran Bendavid'),
   title('Sources of variation in under-5 mortality across sub-Saharan Africa: a spatial analysis'),
@@ -398,7 +403,7 @@ entry!('tiecke2017population',
 entry!('katona2018parking',
   author('Zsolt Katona and Marcus Painter and Panos N. Patatoukas and Jean Zeng'),
   title('On the Capital Market Consequences of Alternative Data: Evidence from Outer Space'),
-  article('Miami Behavioral Finance Conference', 2018, nil),
+  article('Miami Behavioral Finance Conference', 2018, ),
 )
 entry!('christie2018fmow',
   author('Gordon Christie and Neil Fendley and James Wilson and Ryan Mukherjee'),
@@ -413,12 +418,12 @@ entry!('uzkent2020zoom',
 entry!('kim2016multiresolution',
   author('Jae Hyun Kim and Michael Xie and Neal Jean and Stefano Ermon'),
   title('Incorporating Spatial Context and Fine-grained Detail from Satellite Imagery to Predict Poverty'),
-  article('Stanford University', 2016, nil),
+  article('Stanford University', 2016, ),
 )
 entry!('yang2010landuse',
   author('Yi Yang and Shawn Newsam'),
   title('Bag-of-visual-words and spatial extensions for land-use classification'),
-  article('Geographic Information Systems', 2010, nil),
+  article('Geographic Information Systems', 2010, ),
 )
 entry!('wang2017torontocity',
   author('Shenlong Wang and Min Bai and Gellert Mattyus and Hang Chu and Wenjie Luo and Bin Yang and Justin Liang and Joel Cheverie and Sanja Fidler and Raquel Urtasun'),
@@ -428,7 +433,7 @@ entry!('wang2017torontocity',
 entry!('digitalglobe2016spacenet',
          author('N. DigitalGlobe and CosmiQ Works'),
   title('SpaceNet'),
-  article('https://aws.amazon.com/publicdatasets/spacenet/', 2016, nil)
+  article('https://aws.amazon.com/publicdatasets/spacenet/', 2016, )
 )
 entry!('sahn2003asset',
                 author('David E. Sahn and David Stifel'),
@@ -440,3 +445,57 @@ entry!('filmer2011asset',
   title('Assessing Asset Indices'),
   article('Demography', 2011, 49)
 )
+entry!('rolf2020post',
+           author('Esther Rolf and Michael I. Jordan and Benjamin Recht'),
+  title('Post-Estimation Smoothing: A Simple Baseline for Learning with Side Information'),
+  aistats(2020),
+)
+entry!('lewis2020bart',
+  author('Mike Lewis and Yinhan Liu and Naman Goyal and Marjan Ghazvininejad and Abdelrahman Mohamed and Omer Levy and Ves Stoyanov and Luke Zettlemoyer'),
+  title('BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension'),
+  acl(2020),
+      )
+entry!('french1999catastrophic',
+  author('Robert M French'),
+  title('Catastrophic forgetting in connectionist networks'),
+  article('Trends in cognitive sciences', 1999, 3),
+      )
+entry!('mccloskey1989catastrphic',
+  author('Michael McCloskey and Neal J Cohen'),
+  title('Catastrophic interference in connectionist networks: The sequential learning problem'),
+  article('The psychology of learning and motivation', 1989, 24),
+      )
+entry!('ratcliff1990connectionist',
+  author('Roger Ratcliff'),
+  title('Connectionist models of recognition memory: constraints imposed by learning and forgetting functions'),
+  article('Psychological review', 1990, 97),
+      )
+entry!('zhang2021revisiting',
+       author('Tianyi Zhang and Felix Wu and Arzuo Katiyar and Kilian Q. Weinberger and Yoav Artzi'),
+  title('Revisiting Few-sample {BERT} Fine-tuning'),
+  iclr(2021),
+      )
+entry!('dodge2020finetuning',
+       author('Jesse Dodge and Gabriel Ilharco and Roy Schwartz and Ali Farhadi and Hannaneh Hajishirzi and Noah Smith'),
+  title('Finetuning pretrained language models: Weight initializations, data orders, and early stopping'),
+  arxiv(2020)
+      )
+entry!('lee2020mixout',
+       author('Cheolhyoung Lee and Kyunghyun Cho and and Wanmo Kang'),
+       title('Mixout: Effective regularization to finetune large-scale pretrained language models'),
+  iclr(2020)
+      )
+entry!('houlsby2019parameter',
+       author('Neil Houlsby and Andrei Giurgiu and Stanislaw Jastrzebski and Bruna Morrone and Quentin de Laroussilhe and Andrea Gesmundo and Mona Attariyan and Sylvain Gelly'),
+       title('Parameter-Efficient Transfer Learning for {NLP}'),
+  arxiv(2019)
+      )
+entry!('github2021repos',
+       title('Repository search for public repositories'),
+       author('Github'),
+       type('misc'),
+       howpublished('\url{https://github.com/search?q=is:public}'),
+       year(2021),
+       )
+
+
