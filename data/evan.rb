@@ -807,3 +807,9 @@ entry!('nagarajan2020understanding',
   title('Understanding the failure modes of out-of-distribution generalization'),
   author('Vaishnavh Nagarajan and Anders Andreassen and Behnam Neyshabur'),
 )
+
+entry!('levy2020large',
+  arxiv(2020, '2010.05893'),
+  title('Large-Scale Methods for Distributionally Robust Optimization'),
+  author('Daniel Levy and Yair Carmon and John C Duchi and Aaron Sidford'),
+)
