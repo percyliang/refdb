@@ -996,3 +996,11 @@ entry!('gunasekar2017implicit',
   author('Suriya Gunasekar and Blake E Woodworth and Srinadh Bhojanapalli and Behnam Neyshabur and Nati Srebro'),
   pages(6151, 6159),
 )
+
+entry!('oymak2019overparameterized',
+  icml(2019),
+  title('Overparameterized nonlinear learning: Gradient descent takes the shortest path?'),
+  author('Samet Oymak and Mahdi Soltanolkotabi'),
+  pages(4951, 4960),
+  organization('PMLR'),
+)
