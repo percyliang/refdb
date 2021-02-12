@@ -152,3 +152,9 @@ entry!('fang2013unbiased',
   author('Chen Fang and Ye Xu and Daniel N Rockmore'),
   pages(1657, 1664),
 )
+
+entry!('hendrycks2020pretrained',
+  arxiv(2020, '2004.06100'),
+  title('Pretrained transformers improve out-of-distribution robustness'),
+  author('Dan Hendrycks and Xiaoyuan Liu and Eric Wallace and Adam Dziedzic and Rishabh Krishnan and Dawn Song'),
+)
