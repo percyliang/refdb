@@ -2750,3 +2750,51 @@ entry!('nixon2019feature',
   author('Mark Nixon and Alberto Aguado'),
   book('Academic press', 2019),
 )
+
+entry!('li2018deep',
+  eccv(2018),
+  title('Deep domain generalization via conditional invariant adversarial networks'),
+  author('Ya Li and Xinmei Tian and Mingming Gong and Yajing Liu and Tongliang Liu and Kun Zhang and Dacheng Tao'),
+  pages(624, 639),
+)
+
+entry!('li2018domain',
+  cvpr(2018),
+  title('Domain generalization with adversarial feature learning'),
+  author('Haoliang Li and Sinno Jialin Pan and Shiqi Wang and Alex C Kot'),
+  pages(5400, 5409),
+)
+
+entry!('balaji2018metareg',
+  neurips(2018),
+  title('Metareg: Towards domain generalization using meta-regularization'),
+  author('Yogesh Balaji and Swami Sankaranarayanan and Rama Chellappa'),
+  pages(998, 1008),
+)
+
+entry!('carlucci2019domain',
+  cvpr(2019),
+  title('Domain generalization by solving jigsaw puzzles'),
+  author('Fabio M Carlucci and Antonio D\'Innocente and Silvia Bucci and Barbara Caputo and Tatiana Tommasi'),
+  pages(2229, 2238),
+)
+
+entry!('li2018learning',
+  aaai(2018),
+  title('Learning to generalize: Meta-learning for domain generalization'),
+  author('Da Li and Yongxin Yang and Yi-Zhe Song and Timothy Hospedales'),
+)
+
+entry!('hand2006classifier',
+  title('Classifier technology and the illusion of progress'),
+  author('David J Hand'),
+  article('Statistical science', 2006),
+  pages(1, 14),
+  publisher('JSTOR'),
+)
+
+entry!('shapiro2014lectures',
+  title('Lectures on stochastic programming: modeling and theory'),
+  author('Alexander Shapiro and Darinka Dentcheva and Andrzej Ruszczy{\\\'n}ski'),  
+  book('SIAM', 2014),
+)
