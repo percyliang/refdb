@@ -2795,6 +2795,12 @@ entry!('hand2006classifier',
 
 entry!('shapiro2014lectures',
   title('Lectures on stochastic programming: modeling and theory'),
-  author('Alexander Shapiro and Darinka Dentcheva and Andrzej Ruszczy{\\\'n}ski'),  
+  author('Alexander Shapiro and Darinka Dentcheva and Andrzej Ruszczy{\\\'n}ski'),
   book('SIAM', 2014),
+)
+
+entry!('loshchilov2019decoupled',
+  iclr(2019),
+  title('Decoupled Weight Decay Regularization'),
+  author('Ilya Loshchilov and Frank Hutter'),
 )
