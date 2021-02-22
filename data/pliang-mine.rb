@@ -8,16 +8,6 @@ entry!('li2021prefix',
   url('https://arxiv.org/pdf/2101.00190.pdf'),
 )
 
-############################################################
-# 2020
-
-entry!('koh2020wilds',
-  title('{WILDS}: A Benchmark of in-the-Wild Distribution Shifts'),
-  author('Pang Wei Koh* and Shiori Sagawa* and Henrik Marklund and Sang Michael Xie and Marvin Zhang and Akshay Balsubramani and Weihua Hu and Michihiro Yasunaga and Richard Lanas Phillips and Sara Beery and Jure Leskovec and Anshul Kundaje and Emma Pierson and Sergey Levine and Chelsea Finn and Percy Liang'),
-  arxiv(2020),
-  url('https://arxiv.org/pdf/2012.07421.pdf'),
-)
-
 entry!('jones2021selective',
   title('Selective Classification Can Magnify Disparities Across Groups'),
   author('Erik Jones* and Shiori Sagawa* and Pang Wei Koh* and Ananya Kumar and Percy Liang'),
@@ -38,6 +28,23 @@ entry!('khani2021removing',
   author('Fereshte Khani and Percy Liang'),
   facct(2021),
   url('https://arxiv.org/pdf/2012.04104.pdf'),
+)
+
+entry!('gu2021beyond',
+  title('Beyond I.I.D.: Three Levels of Generalization for Question Answering on Knowledge Bases'),
+  author('Yu Gu and Sue Kase and Michelle T. Vanni and Brian M. Sadler and Percy Liang and Xifeng Yan and Yu Su'),
+  www(2021),
+  url('https://arxiv.org/pdf/2011.07743.pdf'),
+)
+
+############################################################
+# 2020
+
+entry!('koh2020wilds',
+  title('{WILDS}: A Benchmark of in-the-Wild Distribution Shifts'),
+  author('Pang Wei Koh* and Shiori Sagawa* and Henrik Marklund and Sang Michael Xie and Marvin Zhang and Akshay Balsubramani and Weihua Hu and Michihiro Yasunaga and Richard Lanas Phillips and Sara Beery and Jure Leskovec and Anshul Kundaje and Emma Pierson and Sergey Levine and Chelsea Finn and Percy Liang'),
+  arxiv(2020),
+  url('https://arxiv.org/pdf/2012.07421.pdf'),
 )
 
 entry!('xie2020outputs',
