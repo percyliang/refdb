@@ -770,3 +770,52 @@ entry!('leibfried2019unified',
   author('Felix Leibfried and Sergio Pascual-Diaz and Jordi Grau-Moya'),
   pages(7869, 7880),
 )
+
+entry!('sohoni2020no',
+  arxiv(2020, '2011.12945'),
+  title('No Subclass Left Behind: Fine-Grained Robustness in Coarse-Grained Classification Problems'),
+  author('Nimit S Sohoni and Jared A Dunnmon and Geoffrey Angus and Albert Gu and Christopher R{\\\'e}'),
+)
+
+entry!('pezeshki2020gradient',
+  arxiv(2020, '2011.09468'),
+  title('Gradient Starvation: A Learning Proclivity in Neural Networks'),
+  author('Mohammad Pezeshki and S{\\\'e}kou-Oumar Kaba and Yoshua Bengio and Aaron Courville and Doina Precup and Guillaume Lajoie'),
+)
+
+entry!('nam2020learning',
+  arxiv(2020, '2007.02561'),
+  title('Learning from failure: Training debiased classifier from biased classifier'),
+  author('Junhyun Nam and Hyuntak Cha and Sungsoo Ahn and Jaeho Lee and Jinwoo Shin'),
+)
+
+entry!('kim2019multiaccuracy',
+  aaai(2019),
+  title('Multiaccuracy: Black-box post-processing for fairness in classification'),
+  author('Michael P Kim and Amirata Ghorbani and James Zou'),
+  pages(247, 254),
+)
+
+entry!('cao2020heteroskedastic',
+  arxiv(2020, '2006.15766'),
+  title('Heteroskedastic and imbalanced deep learning with adaptive regularization'),
+  author('Kaidi Cao and Yining Chen and Junwei Lu and Nikos Arechiga and Adrien Gaidon and Tengyu Ma'),
+)
+
+entry!('nagarajan2020understanding',
+  arxiv(2020, '2010.15775'),
+  title('Understanding the failure modes of out-of-distribution generalization'),
+  author('Vaishnavh Nagarajan and Anders Andreassen and Behnam Neyshabur'),
+)
+
+entry!('levy2020large',
+  arxiv(2020, '2010.05893'),
+  title('Large-Scale Methods for Distributionally Robust Optimization'),
+  author('Daniel Levy and Yair Carmon and John C Duchi and Aaron Sidford'),
+)
+
+entry!('zhang2020coping',
+  arxiv(2020, '2010.12230'),
+  title('Coping with Label Shift via Distributionally Robust Optimisation'),
+  author('Jingzhao Zhang and Aditya Menon and Andreas Veit and Srinadh Bhojanapalli and Sanjiv Kumar and Suvrit Sra'),
+)

@@ -356,8 +356,13 @@ entry!('reiner2018mortality',
         author('Robert C. Reiner and Nicholas Graetz and Daniel C. Casey and Christopher Troeger and Gregory M. Garcia and Jonathan F. Mosser and Aniruddha Deshpande and Scott J. Swartz and  Sarah E. Ray and Brigette F. Blacker and Puja C. Rao and Aaron Osgood-Zimmerman and Roy Burstein and David M. Pigott and Ian M. Davis and Ian D. Letourneau and Lucas Earl and Jennifer M. Ross and Ibrahim A. Khalil and Tamer H. Farag and Oliver J. Brady and Moritz U.G. Kraemer and David L. Smith and Samir Bhatt and Daniel J. Weiss and Peter W. Gething and Nicholas J. Kassebaum and Ali H. Mokdad and Christopher J.L. Murray and Simon I. Hay'),
   title('Variation in Childhood Diarrheal Morbidity and Mortality in Africa, 2000–2015'),
   article('New England Journal of Medicine', 2018, 379),
-
+      )
+entry!('bengio2013estimating',
+author('Yoshua Bengio and Nicholas Leonard and Aaron Courville'),
+  title('Estimating or Propagating Gradients Through Stochastic Neurons for Conditional Computation'),
+  arxiv(2013),
 )
+
 entry!('burke2016mortality',
         author('Marshall Burke and Sam Heft-Neal and Eran Bendavid'),
   title('Sources of variation in under-5 mortality across sub-Saharan Africa: a spatial analysis'),
@@ -445,4 +450,52 @@ entry!('rolf2020post',
   title('Post-Estimation Smoothing: A Simple Baseline for Learning with Side Information'),
   aistats(2020),
 )
+entry!('lewis2020bart',
+  author('Mike Lewis and Yinhan Liu and Naman Goyal and Marjan Ghazvininejad and Abdelrahman Mohamed and Omer Levy and Ves Stoyanov and Luke Zettlemoyer'),
+  title('BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension'),
+  acl(2020),
+      )
+entry!('french1999catastrophic',
+  author('Robert M French'),
+  title('Catastrophic forgetting in connectionist networks'),
+  article('Trends in cognitive sciences', 1999, 3),
+      )
+entry!('mccloskey1989catastrphic',
+  author('Michael McCloskey and Neal J Cohen'),
+  title('Catastrophic interference in connectionist networks: The sequential learning problem'),
+  article('The psychology of learning and motivation', 1989, 24),
+      )
+entry!('ratcliff1990connectionist',
+  author('Roger Ratcliff'),
+  title('Connectionist models of recognition memory: constraints imposed by learning and forgetting functions'),
+  article('Psychological review', 1990, 97),
+      )
+entry!('zhang2021revisiting',
+       author('Tianyi Zhang and Felix Wu and Arzuo Katiyar and Kilian Q. Weinberger and Yoav Artzi'),
+  title('Revisiting Few-sample {BERT} Fine-tuning'),
+  iclr(2021),
+      )
+entry!('dodge2020finetuning',
+       author('Jesse Dodge and Gabriel Ilharco and Roy Schwartz and Ali Farhadi and Hannaneh Hajishirzi and Noah Smith'),
+  title('Finetuning pretrained language models: Weight initializations, data orders, and early stopping'),
+  arxiv(2020)
+      )
+entry!('lee2020mixout',
+       author('Cheolhyoung Lee and Kyunghyun Cho and and Wanmo Kang'),
+       title('Mixout: Effective regularization to finetune large-scale pretrained language models'),
+  iclr(2020)
+      )
+entry!('houlsby2019parameter',
+       author('Neil Houlsby and Andrei Giurgiu and Stanislaw Jastrzebski and Bruna Morrone and Quentin de Laroussilhe and Andrea Gesmundo and Mona Attariyan and Sylvain Gelly'),
+       title('Parameter-Efficient Transfer Learning for {NLP}'),
+  arxiv(2019)
+      )
+entry!('github2021repos',
+       title('Repository search for public repositories'),
+       author('Github'),
+       type('misc'),
+       howpublished('\url{https://github.com/search?q=is:public}'),
+       year(2021),
+       )
+
 
