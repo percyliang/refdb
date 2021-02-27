@@ -1004,3 +1004,45 @@ entry!('oymak2019overparameterized',
   pages(4951, 4960),
   organization('PMLR'),
 )
+
+
+entry!('hardt2016strategic',
+  inproceedings('Proceedings of the 2016 ACM conference on innovations in theoretical computer science', 2016),
+  title('Strategic classification'),
+  author('Moritz Hardt and Nimrod Megiddo and Christos Papadimitriou and Mary Wootters'),
+  pages(111, 122),
+)
+
+entry!('jung2020fair',
+  inproceedings('Proceedings of the 21st ACM Conference on Economics and Computation', 2020),
+  title('Fair prediction with endogenous behavior'),
+  author('Christopher Jung and Sampath Kannan and Changhwa Lee and Mallesh Pai and Aaron Roth and Rakesh Vohra'),
+  pages(677, 678),
+)
+
+
+entry!('bessi2016users',
+  article('PloS one', 2016, 11),
+  title('Users polarization on Facebook and Youtube'),
+  author('Alessandro Bessi and Fabiana Zollo and Michela Del Vicario and Michelangelo Puliga and Antonio Scala and Guido Caldarelli and Brian Uzzi and Walter Quattrociocchi'),
+  number(8),
+#  pages(e0159641),
+  publisher('Public Library of Science San Francisco, CA USA'),
+)
+
+entry!('bojinov2020avoid',
+  article('Harvard Business Review', 2020, 98),
+  title('Avoid the Pitfalls of {A/B} Testing Make sure your experiments recognize customers\' varying needs'),
+  author('Iavor Bojinov and Guillaume Saint-Jacques and Martin Tingley'),
+  number(2),
+  pages(48, 53),
+  publisher('HARVARD BUSINESS SCHOOL PUBLISHING CORPORATION 300 NORTH BEACON STREET~…'),
+)
+
+entry!('luo2018efficient',
+  inproceedings('Conference On Learning Theory', 2018),
+  title('Efficient contextual bandits in non-stationary worlds'),
+  author('Haipeng Luo and Chen-Yu Wei and Alekh Agarwal and John Langford'),
+  pages(1739, 1776),
+  organization('PMLR'),
+)
