@@ -1046,3 +1046,11 @@ entry!('luo2018efficient',
   pages(1739, 1776),
   organization('PMLR'),
 )
+
+entry!('raghavan2018externalities',
+  colt(2018),
+  title('The externalities of exploration and how data diversity helps exploitation'),
+  author('Manish Raghavan and Aleksandrs Slivkins and Jennifer Vaughan Wortman and Zhiwei Steven Wu'),
+  pages(1724, 1738),
+  organization('PMLR'),
+)
