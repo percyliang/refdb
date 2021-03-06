@@ -2804,3 +2804,18 @@ entry!('loshchilov2019decoupled',
   title('Decoupled Weight Decay Regularization'),
   author('Ilya Loshchilov and Frank Hutter'),
 )
+
+entry!('xu2020adversarial',
+  aaai(2020),
+  title('Adversarial domain adaptation with domain mixup'),
+  author('Minghao Xu and Jian Zhang and Bingbing Ni and Teng Li and Chengjie Wang and Qi Tian and Wenjun Zhang'),
+  volume(34),
+  number(04),
+  pages(6502, 6509),
+)
+
+entry!('hendrycks2019augmix',
+  iclr(2019),
+  title('Augmix: A simple data processing method to improve robustness and uncertainty'),
+  author('Dan Hendrycks and Norman Mu and Ekin D Cubuk and Barret Zoph and Justin Gilmer and Balaji Lakshminarayanan'),
+)
