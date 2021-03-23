@@ -1,6 +1,13 @@
 ############################################################
 # 2021
 
+entry!('liu2021concur',
+  title('Can Small and Synthetic Benchmarks Drive Modeling Innovation?  A Retrospective Study of Question Answering Modeling Approaches'),
+  author('Nelson F. Liu and Tony Lee and Robin Jia and Percy Liang'),
+  arxiv(2021),
+  url('https://arxiv.org/pdf/2102.01065.pdf'),
+)
+
 entry!('li2021prefix',
   title('Prefix-Tuning: Optimizing Continuous Prompts for Generation'),
   author('Xiang Lisa Li and Percy Liang'),
@@ -13,6 +20,7 @@ entry!('jones2021selective',
   author('Erik Jones* and Shiori Sagawa* and Pang Wei Koh* and Ananya Kumar and Percy Liang'),
   iclr(2021),
   url('https://arxiv.org/pdf/2010.14134.pdf'),
+  codalab('0x7ceb817d53b94b0c8294a7a22643bf5e'),
 )
 
 entry!('xie2021innout',
@@ -21,6 +29,7 @@ entry!('xie2021innout',
   iclr(2021),
   url('https://arxiv.org/pdf/2012.04550.pdf'),
   unusualCapitalization('N'),
+  codalab('0x2613c72d4f3f4fbb94e0a32c17ce5fb0'),
 )
 
 entry!('khani2021removing',
