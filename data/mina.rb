@@ -268,3 +268,176 @@ entry!('joshi2019spanbert',
        title('Span{BERT}: Improving Pre-training by Representing and Predicting Spans'),
        arxiv(2019, '1907.10529'),
        )
+
+entry!('mccarthy2002ls',
+       author('Diana McCarthy'),
+       title('Lexical Substitution as a Task for {WSD} Evaluation'),
+       inproceedings('SIGLEX/SENSEVAL Workshop on Word Sense Disambiguation: Recent Successes and Future Direction', 2002),
+       )
+
+entry!('mccarthy2007semeval',
+       author('Diana McCarthy and Roberto Navigli'),
+       title('SemEval-2007 Task 10: {E}nglish Lexical Substitution Task'),
+       inproceedings('Workshop on Semantic Evaluations', 2007),
+       )
+
+entry!('kremer2014coinco',
+       author('Gerhard Kremer and Katrin Erk and Sabastian Pado and Stefan Thater'),
+       title('What Substitutes Tell Us -- Analysis of an ``All-Words'' Lexical Substitution Corpus'),
+       acl(2014),
+       )
+
+entry!('zhou2019bbls',
+       author('Wangchunshu Zhou and Tao Ge and Ke Xu and Furu Wei and Ming Zhou'),
+       title('{BERT}-based Lexical Substitution'),
+       acl(2019),
+       )
+
+entry!('arefyev2020lssurvey',
+       author('Nikolay Arefyev and Boris Sheludko and Alexander Podolskiy and Alexander Panchenko'),
+       title('A Comparative Study of Lexical Substitution Approaches based on Neural Language Models'),
+       arxiv(2020),
+       )
+
+entry!('sharoff2006corpora',
+       author('S. Sharoff'),
+       title('Open-source Corpora: Using the net to fish for linguistic data'),
+       article('International Journal of Corpus Linguistics', 2006, 11),
+       pages(435,462),
+       )
+
+entry!('ide2008masc',
+       author('Nancy Ide and Collin Baker and Christiane Fellbaum and Charles Fillmore and Rebecca Passonneau'),
+       title('{MASC}: the Manually Annotated Sub-Corpus of {A}merican {E}nglish'),
+       inproceedings('Language Resources and Evaluation (LREC)', 2008),
+       )
+
+entry!('ide2010masc',
+       author('Nancy Ide and Collin Baker and Christiane Fellbaum and Rebecca Passonneau'),
+       title('The Manually Annotated Sub-Corpus: A Community Resource for and by the People'),
+       acl(2010),
+       )
+
+entry!('kishida2005gap',
+       author('Kazuaki Kishida'),
+       techreport('National Institute of Informatics', 2005),
+       title('Property of Average Precision and its Generalization: An Examination of Evaluation Indicator for Information Retrieval Experiments'),
+       )
+
+entry!('webber2010rbo',
+       author('William Webber and Alistair Moffat and Justin Zobel'),
+       article('ACM Transactions on Information Systems (TOIS)', 2010),
+       title('A Similarity Measure for Indefinite Rankings'),
+       )
+
+entry!('murphy2010nearsynonym',
+       author('M. Lynne Murphy'),
+       title('Lexical Meaning'),
+       book('Cambridge University Press', 2010),
+       )
+
+entry!('ai2020wordtune',
+       type('misc'),
+       title('Wordtune (accessed 2020 {O}ct 30)'),
+       author('AI21'),
+       howpublished('\url{https://www.wordtune.com/}'),
+       year(2020),
+       )
+
+entry!('thater2010contextualizing',
+       title('Contextualizing semantic representations using syntactically enriched vector models'),
+       author('Thater, Stefan and F{\"u}rstenau, Hagen and Pinkal, Manfred'),
+       acl(2010),
+       )
+
+entry!('smith2011cloze',
+       title('Cloze but no cigar: The complex relationship between cloze, corpus, and subjective probabilities in language processing'),
+       author('Nathaniel Smith and Roger Levy'),
+       inproceedings('Proceedings of the Annual Meeting of the Cognitive Science Society', 2011),
+       )
+
+entry!('eisape2020cloze',
+       title('Cloze Distillation Improves Psychometric Predictive Power'),
+       author('Tiwalayo Eisape and Noga Zaslavsky and Roger Levy'),
+       conll(2020),
+       )
+
+entry!('navigli2009word',
+       title('Word sense disambiguation: A survey'),
+       author('Roberto Navigli'),
+       article('ACM computing surveys (CSUR)', 2009),
+       )
+
+entry!('edmonds2002near',
+       title('Near-synonymy and lexical choice'),
+       author('Philip Edmonds and Graeme Hirst'),
+       article('Computational linguistics', 2002),
+       )
+
+entry!('kilgarriff1997wordsense',
+       title('{I} Don’t Believe in Word Senses'),
+       author('A. Kilgarriff'),
+       article('Computers and the Humanities', 1997),
+       )
+
+entry!('pavlick2015ppdb',
+       title('{PPDB} 2.0: Better paraphrase ranking, fine-grained entailment relations, word embeddings, and style classification'),
+       author('Ellie Pavlick and Pushpendre Rastogi and Juri Ganitkevitch and Benjamin Van Durme and Chris Callison-Burch'),
+       acl(2015),
+       )
+
+entry!('wieting2018paranmt',
+       title('{P}ara{NMT}-50{M}: Pushing the Limits of Paraphrastic Sentence Embeddings with Millions of Machine Translations'),
+       author('John Wieting and Kevin Gimpel'),
+       acl(2018),
+       )
+
+entry!('pavlick2019inherent',
+       title('Inherent Disagreements in Human Textual Inferences'),
+       author('Ellie Pavlick and Tom Kwiatkowski'),
+       tacl(2019, 7),
+       )
+
+entry!('nie2020learn',
+       title('What Can We Learn from Collective Human Opinions on Natural Language Inference Data?'),
+       author('Yixin Nie and Xiang Zhou and Mohit Bansal'),
+       emnlp(2020),
+       )
+
+entry!('dimarco1993nearsynonym',
+       title('The semantic and stylistic differentiation of synonyms and near-synonyms'),
+       author('Chrysanne DiMarco and Graeme Hirst and Manfred Stede'),
+       inproceedings('AAAI Spring Symposium on Building Lexicons for Machine Translation', 1993),
+       )
+
+entry!('hayakawa1994ctrw',
+       title('Choose the Right Word: A Contemporary Guide to Selecting the Precise Word for Every Situation'),
+       author('Samuel Ichiye Hayakawa'),
+       book('Collins Reference', 1994),
+       )
+
+entry!('brants2006ngram',
+       author('Thorsten Brants and Alex Franz'),
+       title('Web 1T 5-gram version 1'),
+       type('misc'),
+       year(2006),
+       )
+
+entry!('melamud2015modeling',
+       title('Modeling word meaning in context with substitute vectors'),
+       author('Melamud, Oren and Dagan, Ido and Goldberger, Jacob'),
+       naacl(2015),
+       )
+
+entry!('szarvas2013learning',
+       title('Learning to rank lexical substitutions'),
+       author('Szarvas, Gy{\"o}rgy and Busa-Fekete, R{\'o}bert and H{\"u}llermeier, Eyke'),
+       emnlp(2013),
+       )
+
+entry!('hintz2016language',
+       title('Language transfer learning for supervised lexical substitution'),
+       author('Hintz, Gerold and Biemann, Chris'),
+       acl(2016),
+       )
+
