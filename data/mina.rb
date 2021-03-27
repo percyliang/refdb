@@ -272,12 +272,12 @@ entry!('joshi2019spanbert',
 entry!('mccarthy2002ls',
        author('Diana McCarthy'),
        title('Lexical Substitution as a Task for {WSD} Evaluation'),
-       inproceedings('SIGLEX/SENSEVAL Workshop on Word Sense Disambiguation: Recent Successes and Future Direction', 2002),
+       inproceedings('{SIGLEX}/{SENSEVAL} Workshop on Word Sense Disambiguation: Recent Successes and Future Direction', 2002),
        )
 
 entry!('mccarthy2007semeval',
        author('Diana McCarthy and Roberto Navigli'),
-       title('SemEval-2007 Task 10: {E}nglish Lexical Substitution Task'),
+       title('Sem{E}val-2007 Task 10: {E}nglish Lexical Substitution Task'),
        inproceedings('Workshop on Semantic Evaluations', 2007),
        )
 
@@ -365,13 +365,13 @@ entry!('eisape2020cloze',
 entry!('navigli2009word',
        title('Word sense disambiguation: A survey'),
        author('Roberto Navigli'),
-       article('ACM computing surveys (CSUR)', 2009),
+       article('ACM Computing Surveys (CSUR)', 2009),
        )
 
 entry!('edmonds2002near',
        title('Near-synonymy and lexical choice'),
        author('Philip Edmonds and Graeme Hirst'),
-       article('Computational linguistics', 2002),
+       article('Computational Linguistics', 2002),
        )
 
 entry!('kilgarriff1997wordsense',
@@ -418,7 +418,7 @@ entry!('hayakawa1994ctrw',
 
 entry!('brants2006ngram',
        author('Thorsten Brants and Alex Franz'),
-       title('Web 1T 5-gram version 1'),
+       title('Web 1{T} 5-gram version 1'),
        type('misc'),
        year(2006),
        )
