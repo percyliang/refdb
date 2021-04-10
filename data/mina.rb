@@ -441,3 +441,8 @@ entry!('hintz2016language',
        acl(2016),
        )
 
+entry!('kipfer2013roget',
+       title('Roget\'s 21st Century Thesaurus, Third Edition'),
+       author('Barbara Ann Kipfer'),
+       book('Random House Publishing Group', 2013),
+)
