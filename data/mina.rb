@@ -453,3 +453,9 @@ entry!('kipfer2013roget',
        author('Barbara Ann Kipfer'),
        book('Random House Publishing Group', 2013),
 )
+
+entry!('miller2016thesis',
+       author('Tristan Miller'),
+       title('Adjusting Sense Representations for Word Sense Disambiguation and Automatic Pun Interpretation'),
+       phdthesis('Technische Universität Darmstadt', 2016),
+)
