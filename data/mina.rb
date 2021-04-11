@@ -344,6 +344,13 @@ entry!('ai2020wordtune',
        year(2020),
        )
 
+entry!('speer2018wordfreq',
+       type('misc'),
+       title('Luminoso{I}nsight/wordfreq: v2.2'),
+       author('Robyn Speer and Joshua Chin and Andrew Lin and Sara Jewett and Lance Nathan'),
+       howpublished('\url{https://doi.org/10.5281/zenodo.1443582}'),
+       year(2018),
+       )
 entry!('thater2010contextualizing',
        title('Contextualizing semantic representations using syntactically enriched vector models'),
        author('Thater, Stefan and F{\"u}rstenau, Hagen and Pinkal, Manfred'),
