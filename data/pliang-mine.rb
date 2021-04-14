@@ -1,6 +1,14 @@
 ############################################################
 # 2021
 
+entry!('yasunaga2021qagnn',
+  title('{QA-GNN}: Reasoning with Language Models and Knowledge Graphs for Question Answering'),
+  author('Michihiro Yasunaga and Hongyu Ren and Antoine Bosselut and Percy Liang and Jure Leskovec'),
+  naacl(2021),
+  url('https://arxiv.org/pdf/2104.06378.pdf'),
+  codalab('0xf215deb05edf44a2ac353c711f52a25f'),
+)
+
 entry!('liu2021concur',
   title('Can Small and Synthetic Benchmarks Drive Modeling Innovation?  A Retrospective Study of Question Answering Modeling Approaches'),
   author('Nelson F. Liu and Tony Lee and Robin Jia and Percy Liang'),
