@@ -1,6 +1,21 @@
 ############################################################
 # 2021
 
+entry!('yasunaga2021qagnn',
+  title('{QA-GNN}: Reasoning with Language Models and Knowledge Graphs for Question Answering'),
+  author('Michihiro Yasunaga and Hongyu Ren and Antoine Bosselut and Percy Liang and Jure Leskovec'),
+  naacl(2021),
+  url('https://arxiv.org/pdf/2104.06378.pdf'),
+  codalab('0xf215deb05edf44a2ac353c711f52a25f'),
+)
+
+entry!('liu2021concur',
+  title('Can Small and Synthetic Benchmarks Drive Modeling Innovation?  A Retrospective Study of Question Answering Modeling Approaches'),
+  author('Nelson F. Liu and Tony Lee and Robin Jia and Percy Liang'),
+  arxiv(2021),
+  url('https://arxiv.org/pdf/2102.01065.pdf'),
+)
+
 entry!('li2021prefix',
   title('Prefix-Tuning: Optimizing Continuous Prompts for Generation'),
   author('Xiang Lisa Li and Percy Liang'),
@@ -8,21 +23,12 @@ entry!('li2021prefix',
   url('https://arxiv.org/pdf/2101.00190.pdf'),
 )
 
-############################################################
-# 2020
-
-entry!('koh2020wilds',
-  title('{WILDS}: A Benchmark of in-the-Wild Distribution Shifts'),
-  author('Pang Wei Koh* and Shiori Sagawa* and Henrik Marklund and Sang Michael Xie and Marvin Zhang and Akshay Balsubramani and Weihua Hu and Michihiro Yasunaga and Richard Lanas Phillips and Sara Beery and Jure Leskovec and Anshul Kundaje and Emma Pierson and Sergey Levine and Chelsea Finn and Percy Liang'),
-  arxiv(2020),
-  url('https://arxiv.org/pdf/2012.07421.pdf'),
-)
-
 entry!('jones2021selective',
   title('Selective Classification Can Magnify Disparities Across Groups'),
   author('Erik Jones* and Shiori Sagawa* and Pang Wei Koh* and Ananya Kumar and Percy Liang'),
   iclr(2021),
   url('https://arxiv.org/pdf/2010.14134.pdf'),
+  codalab('0x7ceb817d53b94b0c8294a7a22643bf5e'),
 )
 
 entry!('xie2021innout',
@@ -31,6 +37,7 @@ entry!('xie2021innout',
   iclr(2021),
   url('https://arxiv.org/pdf/2012.04550.pdf'),
   unusualCapitalization('N'),
+  codalab('0x2613c72d4f3f4fbb94e0a32c17ce5fb0'),
 )
 
 entry!('khani2021removing',
@@ -38,6 +45,23 @@ entry!('khani2021removing',
   author('Fereshte Khani and Percy Liang'),
   facct(2021),
   url('https://arxiv.org/pdf/2012.04104.pdf'),
+)
+
+entry!('gu2021beyond',
+  title('Beyond I.I.D.: Three Levels of Generalization for Question Answering on Knowledge Bases'),
+  author('Yu Gu and Sue Kase and Michelle T. Vanni and Brian M. Sadler and Percy Liang and Xifeng Yan and Yu Su'),
+  www(2021),
+  url('https://arxiv.org/pdf/2011.07743.pdf'),
+)
+
+############################################################
+# 2020
+
+entry!('koh2020wilds',
+  title('{WILDS}: A Benchmark of in-the-Wild Distribution Shifts'),
+  author('Pang Wei Koh* and Shiori Sagawa* and Henrik Marklund and Sang Michael Xie and Marvin Zhang and Akshay Balsubramani and Weihua Hu and Michihiro Yasunaga and Richard Lanas Phillips and Irena Gao and Tony Lee and Etienne David and Ian Stavness and Wei Guo and Berton A. Earnshaw and Imran S. Haque and Sara Beery and Jure Leskovec and Anshul Kundaje and Emma Pierson and Sergey Levine and Chelsea Finn and Percy Liang'),
+  arxiv(2020),
+  url('https://arxiv.org/pdf/2012.07421.pdf'),
 )
 
 entry!('xie2020outputs',
@@ -235,7 +259,7 @@ entry!('li2020greedy',
 
 entry!('jia2019certified',
   title('Certified Robustness to Adversarial Word Substitutions'),
-  author('Robin Jia and Aditi Raghunathan and Kerem G{\"o}ksel and Percy Liang'),
+  author('Robin Jia and Aditi Raghunathan and Kerem Göksel and Percy Liang'),
   emnlp(2019),
   url('https://arxiv.org/pdf/1909.00986.pdf'),
   codalab('0x79feda5f1998497db75422eca8fcd689'),

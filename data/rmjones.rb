@@ -114,7 +114,7 @@ entry!('lunetta2006land',
 
 entry!('defries1994ndvi',
   title('{NDVI}-derived land cover classifications at a global scale'),
-  author('R Sꎬ DeFries and JRG Townshend'),
+  author('R S DeFries and JRG Townshend'),
   article('International Journal of Remote Sensing', 1994, 15, 17),
   pages(3567, 3586),
   publisher('Taylor \& Francis'),
