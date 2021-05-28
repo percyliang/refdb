@@ -1,8 +1,8 @@
 # encoding: utf-8
 
-########################################################################################################################
-###      IntEx-SemPar Workshop @ EMNLP 2020 --> Learning Adaptive Language Interfaces through Decomposition          ###
-########################################################################################################################
+#######################################################################################################################
+###      IntEx-SemPar Workshop @ EMNLP 2020 --> Learning Adaptive Language Interfaces through Decomposition          ##
+#######################################################################################################################
 
 entry!('scassellati2012robots',
   article('Annual review of biomedical engineering', 2012, 14),
@@ -145,9 +145,9 @@ entry!('shridhar2020alfred',
   cvpr(2020)
 )
 
-########################################################################################################################
-###               L4DC 2021 --> Learning Visually Grounded Latent Actions for Assistive Robotics                     ###
-########################################################################################################################
+#######################################################################################################################
+###               L4DC 2021 --> Learning Visually Grounded Latent Actions for Assistive Robotics                     ##
+#######################################################################################################################
 
 entry!('wilson1996relative',
   tro(1996, 12),
@@ -500,9 +500,9 @@ entry!('li2020intuitive',
   author('Mengxi Li and Dylan P. Losey and Jeannette Bohg and Dorsa Sadigh')
 )
 
-########################################################################################################################
-###                        CS 330 Fall 2020 --> Meta-Learning for Sample Reweighting for NLI                         ###
-########################################################################################################################
+#######################################################################################################################
+###                        CS 330 Fall 2020 --> Meta-Learning for Sample Reweighting for NLI                         ##
+#######################################################################################################################
 
 entry!('freund1995adaboost',
   colt(1995),
@@ -587,9 +587,9 @@ entry!('mccoy2020berts',
   author('R. Thomas McCoy and Junghyun Min and Tal Linzen')
 )
 
-########################################################################################################################
-###                        ACL 2021 - *Title Redacted until end of anonymity Period*                                 ###
-########################################################################################################################
+#######################################################################################################################
+###                        ACL 2021 - *Title Redacted until end of anonymity Period*                                 ##
+#######################################################################################################################
 
 entry!('lewis1994heterogeneous',
   icml(1994),
@@ -937,9 +937,9 @@ entry!('swayamdipta2020dataset',
   author('Swabha Swayamdipta and Roy Schwartz and Nicholas Lourie and Yizhong Wang and Hannaneh Hajishirzi and Noah A. Smith and Yejin Choi')
 )
 
-########################################################################################################################
-###                   ICML 2021a - Targeted Data Acquisition for Evolving Negotiation Agents                         ###
-########################################################################################################################
+#######################################################################################################################
+###                   ICML 2021 - Targeted Data Acquisition for Evolving Negotiation Agents                          ##
+#######################################################################################################################
 
 entry!('deming1944theory',
   jasa(1944, 40),
@@ -1075,9 +1075,9 @@ entry!('shih2021critical',
   author('Andy Shih and Arjun Sawhney and Jovana Kondic and Stefano Ermon and Dorsa Sadigh')
 )
 
-########################################################################################################################
-###                    ICML 2021b - ELLA: Exploration through Learned Language Abstraction                           ###
-########################################################################################################################
+#######################################################################################################################
+###            NeurIPS 2021 (Submission) - ELLA: Exploration through Learned Language Abstraction                   ###
+#######################################################################################################################
 
 entry!('schmidhuber1991adaptive',
   author('J{\"{u}}rgen Schmidhuber'),
@@ -1107,6 +1107,12 @@ entry!('devlin2012dynamic',
   aamas(2012),
   author('Sam Devlin and Daniel Kudenko'),
   title('Dynamic potential-based reward shaping')
+)
+
+entry!('hausknecht2015deeprq',
+  arxiv(2015, '1507.06527'),
+  title('Deep Recurrent {Q}-Learning for Partially Observable MDPs'),
+  author('M. Hausknecht and P. Stone'),
 )
 
 entry!('misra2017mapping',
@@ -1251,4 +1257,16 @@ entry!('cobbe2020leveraging',
   icml(2020),
   title('Leveraging Procedural Generation to Benchmark Reinforcement Learning'),
   author('Karl Cobbe and Christopher Hesse and Jacob Hilton and John Schulman')
+)
+
+entry!('raileanu2020ride',
+  iclr(2020),
+  title('RIDE: Rewarding Impact-Driven Exploration for Procedurally-Generated Environments'),
+  author('Roberta Raileanu and Tim Rockt{\"{a}}schel')
+)
+
+entry!('andreas2020geca',
+  acl(2020),
+  title('Good-Enough Compositional Data Augmentation'),
+  author('Jacob Andreas'),
 )
