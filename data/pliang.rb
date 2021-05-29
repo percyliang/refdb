@@ -6577,12 +6577,12 @@ entry!('reid2011information',
   pages(731, 817),
 )
 
-entry!('settles2010active',
-  title('Active learning literature survey'),
-  author('Burr Settles'),
-  techreport('University of Wisconsin, Madison', 2010),
-)
-
+# SK Note: 2009 version takes precedent and more cited re: SemanticScholar?
+# entry!('settles2010active',
+#   title('Active learning literature survey'),
+#   author('Burr Settles'),
+#   techreport('University of Wisconsin, Madison', 2010),
+# nil)
 
 entry!('cesabianchi06regret',
   title('Regret Minimization Under Partial Monitoring'),
@@ -9190,12 +9190,13 @@ entry!('karpathy2015deep',
   pages(3128, 3137),
 )
 
-entry!('antol2015vqa',
-  iccv(2015),
-  title('VQA: Visual question answering'),
-  author('Stanislaw Antol and Aishwarya Agrawal and Jiasen Lu and Margaret Mitchell and Dhruv Batra and C Lawrence Zitnick and Devi Parikh'),
-  pages(2425, 2433),
-)
+# Agrawal 2015 is the Canonical VQA-v1 Citation re: Semantic Scholar & Fei-Fei/Ranjay
+# entry!('antol2015vqa',
+#   iccv(2015),
+#   title('VQA: Visual question answering'),
+#   author('Stanislaw Antol and Aishwarya Agrawal and Jiasen Lu and Margaret Mitchell and Dhruv Batra and C Lawrence Zitnick and Devi Parikh'),
+#   pages(2425, 2433),
+# nil)
 
 entry!('shirakawan2015ngramidf',
   title('{N}-gram IDF: A Global Term Weighting Scheme Based on Information Distance'),

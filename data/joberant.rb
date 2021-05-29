@@ -143,12 +143,6 @@ entry!('bahdanau2017actor',
   iclr(2017),
 )
 
-entry!('krishna2017visual',
-  title('Visual genome: Connecting language and vision using crowdsourced dense image annotations'),
-  author('Ranjay Krishna, Yuke Zhu, Oliver Groth, Justin Johnson, Kenji Hata, Joshua Kravitz, Stephanie Chen, Yannis Kalantidis, Li-Jia Li, David A. Shamma, Michael S. Bernstein, Fei-Fei Li'),
-  article('International Journal of Computer Vision', 2017, 123), pages(32, 73),
-)
-
 entry!('fang2017learning',
   author('Meng Fang and Yuan Li and Trevor Cohn'),
   title('Learning how to Active Learn: A Deep Reinforcement Learning Approach'),
