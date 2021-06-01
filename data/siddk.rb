@@ -588,7 +588,7 @@ entry!('mccoy2020berts',
 )
 
 #######################################################################################################################
-###                        ACL 2021 - *Title Redacted until end of anonymity Period*                                 ##
+##    ACL 2021 - Mind Your Outliers! Investigating the Negative Impact of Outliers on Active Learning for VQA       ##
 #######################################################################################################################
 
 entry!('lewis1994heterogeneous',
@@ -662,7 +662,7 @@ entry!('hoi2006batch',
 
 entry!('schein2007active',
   machineLearning(2007, 68),
-  title('Active learning for logistic regression: an evaluation'),
+  title('Active learning for logistic regression: An evaluation'),
   author('A. Schein and Lyle H. Ungar'),
   pages(235, 265)
 )
@@ -692,7 +692,7 @@ entry!('settles2009active',
 
 entry!('bigham2010vizwiz',
   uist(2010),
-  title('Vizwiz: nearly real-time answers to visual questions'),
+  title('{VizWiz}: nearly real-time answers to visual questions'),
   author('Jeffrey P Bigham and Chandrika Jayant and Hanjie Ji and Greg Little and Andrew Miller and Robert C Miller and Robin Miller and Aubrey Tatarowicz and Brandyn White and Samual White and Tom Yeh'),
   pages(333, 342)
 )
@@ -700,7 +700,7 @@ entry!('bigham2010vizwiz',
 entry!('houlsby2011bayesian',
   arxiv(2011, '1112.5745'),
   title('{B}ayesian active learning for classification and preference learning'),
-  author('Neil Houlsby and Ferenc Husz{\'a}r and Zoubin Ghahramani and M{\'a}t{\'e} Lengyel')
+  author('Neil Houlsby and Ferenc Husz{\\\'a}r and Zoubin Ghahramani and M{\\\'a}t{\\\'e} Lengyel')
 )
 
 entry!('khosla2012undoing',
@@ -779,9 +779,9 @@ entry!('lin2017active',
 )
 
 entry!('shen2017deep',
-  arxiv(2017, '1707.05928'),
   title('Deep active learning for named entity recognition'),
-  author('Yanyao Shen and Hyokun Yun and Zachary C Lipton and Yakov Kronrod and Animashree Anandkumar')
+  author('Yanyao Shen and Hyokun Yun and Zachary C Lipton and Yakov Kronrod and Animashree Anandkumar'),
+  inproceedings('Proceedings of the Second Workshop on Representation Learning for NLP (Repl4NLP)', 2017)
 )
 
 entry!('kendall2017uncertainties',
@@ -873,7 +873,7 @@ entry!('suhr2019nlvr2',
 
 entry!('tan2019lxmert',
   emnlp(2019),
-  title('LXMERT: Learning Cross-Modality Encoder Representations from Transformers'),
+  title('{LXMERT}: Learning Cross-Modality Encoder Representations from Transformers'),
   author('Hao Hao Tan and Mohit Bansal')
 )
 

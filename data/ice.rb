@@ -725,7 +725,7 @@ entry!('soricut2006automatic',
 
 entry!('kwiatkowski2019natural',
   acl(2019),
-  title('Natural Questions: a Benchmark for Question Answering Research'),
+  title('Natural Questions: A Benchmark for Question Answering Research'),
   author('Tom Kwiatkowski and Jennimaria Palomaki and Olivia Redfield and Michael Collins and Ankur Parikh and Chris Alberti and Danielle Epstein and Illia Polosukhin and Matthew Kelcey and Jacob Devlin and Kenton Lee and Kristina N. Toutanova and Llion Jones and Ming-Wei Chang and Andrew Dai and Jakob Uszkoreit and Quoc Le and Slav Petrov'),
 )
 
