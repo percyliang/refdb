@@ -979,6 +979,12 @@ entry!('baarslag2016negotiation',
   author('Tim Baarslag and Alper T. Alan and Richard C. Gomer and Ilaria Liccardi and Helia Marreiros and Enrico Gerding and M. C. Schraefel')
 )
 
+entry!('khanpour2016dialogue',
+  coling(2016),
+  title('Dialogue Act Classification in Domain-Independent Conversations Using a Deep Recurrent Neural Network'),
+  author('Hamed Khanpour and Nishitha Guntakandla and Rodney D. Nielsen'),
+)
+
 entry!('yarats2018hierarchical',
   icml(2018),
   title('Hierarchical Text Generation and Planning for Strategic Dialogue'),
@@ -1055,6 +1061,13 @@ entry!('vries2020ecological',
   arxiv(2020, '2007.14435'),
   title('Towards Ecologically Valid Research on Language User Interfaces'),
   author('Harm D. Vries and Dzmitry Bahdanau and Christopher D. Manning')
+)
+
+entry!('schuurmans2020intent',
+  article('IEEE Intelligent Systems', 2020, 35),
+  title('Intent Classification for Dialogue Utterances'),
+  author('J. Schuurmans and F. Frasincar and E. Cambria'),
+  pages(82, 88),
 )
 
 entry!('hawkins2020continual',
