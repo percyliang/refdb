@@ -2819,3 +2819,17 @@ entry!('hendrycks2019augmix',
   title('Augmix: A simple data processing method to improve robustness and uncertainty'),
   author('Dan Hendrycks and Norman Mu and Ekin D Cubuk and Barret Zoph and Justin Gilmer and Balaji Lakshminarayanan'),
 )
+
+entry!('bender2018data',
+  tacl(2018, 6),
+  title('Data statements for natural language processing: Toward mitigating system bias and enabling better science'),
+  author('Emily M Bender and Batya Friedman'),
+  pages(587, 604),
+  publisher('MIT Press'),
+)
+
+entry!('berman2018ethical',
+  article('Innocenti Discussion Paper, UNICEF Office of Research', 2018),
+  title('Ethical considerations when using geospatial technologies for evidence generation'),
+  author('Gabrielle Berman and Sara de la Rosa and Tanya Accone'),
+)
