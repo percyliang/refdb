@@ -2833,3 +2833,12 @@ entry!('berman2018ethical',
   title('Ethical considerations when using geospatial technologies for evidence generation'),
   author('Gabrielle Berman and Sara de la Rosa and Tanya Accone'),
 )
+
+entry!('mohri2019agnostic',
+  icml(2019),
+  title('Agnostic federated learning'),
+  author('Mehryar Mohri and Gary Sivek and Ananda Theertha Suresh'),
+  pages(4615, 4625),
+  organization('PMLR'),
+)
+

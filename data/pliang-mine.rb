@@ -54,15 +54,15 @@ entry!('gu2021beyond',
   url('https://arxiv.org/pdf/2011.07743.pdf'),
 )
 
-############################################################
-# 2020
-
-entry!('koh2020wilds',
+entry!('koh2021wilds',
   title('{WILDS}: A Benchmark of in-the-Wild Distribution Shifts'),
   author('Pang Wei Koh* and Shiori Sagawa* and Henrik Marklund and Sang Michael Xie and Marvin Zhang and Akshay Balsubramani and Weihua Hu and Michihiro Yasunaga and Richard Lanas Phillips and Irena Gao and Tony Lee and Etienne David and Ian Stavness and Wei Guo and Berton A. Earnshaw and Imran S. Haque and Sara Beery and Jure Leskovec and Anshul Kundaje and Emma Pierson and Sergey Levine and Chelsea Finn and Percy Liang'),
-  arxiv(2020),
+  icml(2021),
   url('https://arxiv.org/pdf/2012.07421.pdf'),
 )
+
+############################################################
+# 2020
 
 entry!('xie2020outputs',
   title('Simplifying Models with Unlabeled Output Data'),
