@@ -1,6 +1,14 @@
 ############################################################
 # 2021
 
+entry!('yasunaga2021break',
+  title('{Break-It-Fix-It}: Unsupervised Learning for Program Repair'),
+  author('Michihiro Yasunaga and Percy Liang'),
+  icml(2021),
+  url('https://arxiv.org/pdf/2106.06600.pdf'),
+  codalab('0xfddb2ef01a9f4dc0b5d974a5a97174be'),
+)
+
 entry!('yasunaga2021qagnn',
   title('{QA-GNN}: Reasoning with Language Models and Knowledge Graphs for Question Answering'),
   author('Michihiro Yasunaga and Hongyu Ren and Antoine Bosselut and Percy Liang and Jure Leskovec'),
