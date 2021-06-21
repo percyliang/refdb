@@ -1039,6 +1039,13 @@ entry!('yang2020generating',
   author('Runzhe Yang and Jingxiao Chen and Karthik Narasimhan')
 )
 
+entry!('arzate2020survey',
+  inproceedings('Proceedings of the 2020 ACM Designing Interactive Systems Conference', 2020),
+  title('A survey on interactive reinforcement learning: Design principles and open challenges'),
+  author('Christian Arzate Cruz and Takeo Igarashi'),
+  pages(1195, 1209),
+)
+
 entry!('lowe2020selfplay',
   iclr(2020),
   title('On the interaction between supervision and self-play in emergent communication'),
@@ -1282,4 +1289,78 @@ entry!('andreas2020geca',
   acl(2020),
   title('Good-Enough Compositional Data Augmentation'),
   author('Jacob Andreas'),
+)
+
+#######################################################################################################################
+###                      CoRL 2021 (Submission) - LILA: Language-Informed Latent Actions                            ###
+#######################################################################################################################
+
+entry!('khatib1987osc',
+  article('IEEE Journal on Robotics and Automation', 1987, 3),
+  title('A unified approach for motion and force control of robot manipulators: The operational space formulation'),
+  author('Oussama Khatib'),
+  pages(43, 53),
+)
+
+entry!('macglashan2015grounding',
+  rss(2015),
+  title('Grounding {E}nglish Commands to Reward Functions'),
+  author('J. MacGlashan and Monica Babes-Vroman and M. desJardins and M. Littman and S. Muresan and S. Squire and Stefanie Tellex and Dilip Arumugam and Lei Yang'),
+)
+
+entry!('blukis2018following',
+  rss(2018),
+  title('Following High-level Navigation Instructions on a Simulated Quadcopter with Imitation Learning'),
+  author('Valts Blukis and Nataly Brukhim and Andrew Bennett and Ross A. Knepper and Yoav Artzi'),
+)
+
+entry!('scalise2018natural',
+  ijrr(2018, 37),
+  title('Natural language instructions for human–robot collaborative manipulation'),
+  author('Rosario Scalise and Shen Li and H. Admoni and Stephanie Rosenthal and S. Srinivasa'),
+  pages(558, 565),
+)
+
+entry!('matuszek2018groundedlang',
+  ijcai(2018),
+  title('Grounded Language Learning: Where Robotics and {NLP} Meet'),
+  author('Cynthia Matuszek'),
+)
+
+entry!('reimers2020multisbert',
+  emnlp(2020),
+  title('Making Monolingual Sentence Embeddings Multilingual using Knowledge Distillation'),
+  author('Nils Reimers and Iryna Gurevych'),
+)
+
+entry!('zhu2020robosuite',
+  arxiv(2020, '2009.12293'),
+  title('Robosuite: A Modular Simulation Framework and Benchmark for Robot Learning'),
+  author('Yuke Zhu and Josiah Wong and Ajay Mandlekar and Roberto Martín-Martín'),
+)
+
+entry!('tellex2020robonlp',
+  article('Annual Review of Control, Robotics, and Autonomous Systems', 2020, 3),
+  author('Stefanie Tellex and Nakul Gopalan and Hadas Kress-Gazit and Cynthia Matuszek'),
+  title('Robots That Use Language'),
+  number(1),
+  pages(25, 55),
+)
+
+entry!('marzoev2020unnatural',
+  arxiv(2020, '2004.13645'),
+  title('Unnatural Language Processing: Bridging the Gap Between Synthetic and Natural Language Data'),
+  author('Alana Marzoev and S. Madden and M. Kaashoek and Michael J. Cafarella and Jacob Andreas'),
+)
+
+entry!('ku2020rxr',
+  emnlp(2020),
+  title('Room-Across-Room: Multilingual Vision-and-Language Navigation with Dense Spatiotemporal Grounding'),
+  author('Alexander Ku and Peter Anderson and Roma Patel and Eugene Ie and Jason Baldridge'),
+)
+
+entry!('karamcheti2021vla',
+  l4dc(2021),
+  title('Learning Visually Guided Latent Actions for Assistive Teleoperation'),
+  author('Siddharth Karamcheti and A. Zhai and Dylan P. Losey and Dorsa Sadigh'),
 )

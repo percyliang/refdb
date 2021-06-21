@@ -105,6 +105,9 @@ def hri(year); inproceedings(Name.new('ACM/IEEE International Conference on Huma
 def icorr(year); inproceedings(Name.new('IEEE International Conference on Rehabilitation Robotics', 'ICORR'), year) end
 def thri(year, volume); article(Name.new('ACM Transactions on Human-Robot Interaction', 'THRI'), year, volume) end
 
+### Dynamics and Control
+def l4dc(year); inproceedings(Name.new('Learning for Dynamics \& Control Conference', 'L4DC'), year) end
+
 ### Fairness
 def facct(year); inproceedings(Name.new('ACM Conference on Fairness, Accountability, and Transparency', 'FAccT'), year) end
 
