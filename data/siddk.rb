@@ -1308,6 +1308,12 @@ entry!('macglashan2015grounding',
   author('J. MacGlashan and Monica Babes-Vroman and M. desJardins and M. Littman and S. Muresan and S. Squire and Stefanie Tellex and Dilip Arumugam and Lei Yang'),
 )
 
+entry!('laskey2017dart',
+  corl(2017),
+  title('DART: Noise Injection for Robust Imitation Learning'),
+  author('Michael Laskey and Jonathan N. Lee and Roy Fox and A. Dragan and Ken Goldberg'),
+)
+
 entry!('blukis2018following',
   rss(2018),
   title('Following High-level Navigation Instructions on a Simulated Quadcopter with Imitation Learning'),
@@ -1364,3 +1370,5 @@ entry!('karamcheti2021vla',
   title('Learning Visually Guided Latent Actions for Assistive Teleoperation'),
   author('Siddharth Karamcheti and A. Zhai and Dylan P. Losey and Dorsa Sadigh'),
 )
+
+
