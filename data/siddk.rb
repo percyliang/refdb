@@ -1375,8 +1375,99 @@ entry!('karamcheti2021vla',
 ###                                     Mercury Whitepaper - Robotics                                               ###
 #######################################################################################################################
 
+entry!('kaelbling1993learning',
+  ijcai(1993),
+  title('Learning to Achieve Goals'),
+  author('Leslie Kaelbling'),
+)
+
+entry!('berkenkamp2017safe',
+  neurips(2017),
+  title('Safe Model-based Reinforcement Learning with Stability Guarantees'),
+  author('Felix Berkenkamp and Matteo Turchetta and Angela P. Schoellig and Andreas Krause'),
+)
+
+entry!('leike2017gridworlds',
+  arxiv(2017, '1711.09883'),
+  title('{AI} Safety Gridworlds'),
+  author('Jan Leike and Miljan Martic and Victoria Krakovna and Pedro A. Ortega and Tom Everitt and Andrew Lefrancq and Laurent Orseau and S. Legg'),
+)
+
 entry!('fu2018variational',
   neurips(2018),
   title('Variational Inverse Control with Events: A General Framework for Data-Driven Reward Definition'),
   author('Justin Fu and Avi Singh and Dibya Ghosh and Larry Yang and Sergey Levine'),
 )
+
+entry!('sharma2018mime',
+  corl(2018),
+  title('Multiple Interactions Made Easy (MIME): Large Scale Demonstrations Data for Imitation'),
+  author('Pratyusha Sharma and L. Mohan and Lerrel Pinto and A. Gupta'),
+)
+
+entry!('singh2019endtoend',
+  rss(2019),
+  title('End-to-End Robotic Reinforcement Learning without Reward Engineering'),
+  author('Avi Singh and Larry Yang and Kristian Hartikainen and Chelsea Finn and Sergey Levine'),
+)
+
+entry!('mandelkar2019scaling',
+  iros(2019),
+  title('Scaling Robot Supervision to Hundreds of Hours with RoboTurk: Robotic Manipulation Dataset through Human Reasoning and Dexterity'),
+  author('Ajay Mandlekar and Jonathan Booher and Max Spero and Albert Tung and Anchit Gupta and Yuke Zhu and Animesh Garg and Silvio Savarese and Li Fei-Fei'),
+)
+
+entry!('dasari2019robonet',
+  corl(2019),
+  title('RoboNet: Large-Scale Multi-Robot Learning'),
+  author('Sudeep Dasari and F. Ebert and Stephen Tian and Suraj Nair and Bernadette Bucher and K. Schmeckpeper and Siddharth Singh and Sergey Levine and Chelsea Finn'),
+)
+
+entry!('stepputtis2020lcil',
+  neurips(2020),
+  title('Language-Conditioned Imitation Learning for Robot Manipulation Tasks'),
+  author('Simon Stepputtis and J. Campbell and Mariano Phielipp and Stefan Lee and Chitta Baral and H. B. Amor'),
+)
+
+entry!('shao2020concept2robot',
+  rss(2020),
+  title('Concept2Robot: Learning Manipulation Concepts from Instructions and Human Demonstrations'),
+  author('Lin Shao and Toki Migimatsu and Q. Zhang and Karen Yang and Jeannette Bohg'),
+)
+
+entry!('gupta2021reset',
+  arxiv(2021, '2104.11203'),
+  title('Reset-Free Reinforcement Learning via Multi-Task Learning: Learning Dexterous Manipulation Behaviors without Human Intervention'),
+  author('Abhishek Gupta and Justin Yu and Tony Zhao and Vikash Kumar and Aaron Rovinsky and Kelvin Xu and Thomas Devlin and Sergey Levine'),
+)
+
+entry!('chen2021generalizable',
+  rss(2021),
+  title('Learning Generalizable Robotic Reward Functions from "In-The-Wild" Human Videos'),
+  author('Annie S. Chen and Suraj Nair and Chelsea Finn'),
+)
+
+entry!('deletang2021causal',
+  arxiv(2021, '2103.03938'),
+  title('Causal Analysis of Agent Behavior for {AI} Safety'),
+  author('Grégoire Déletang and J. Grau-Moya and Miljan Martic and Tim Genewein and Tom McGrath and Vladimir Mikulik and M. Kunesch and S. Legg and Pedro A. Ortega'),
+)
+
+entry!('jaegle2021perceiver',
+  icml(2021),
+  title('Perceiver: General Perception with Iterative Attention'),
+  author('Andrew Jaegle and Felix Gimeno and Andrew Brock and Andrew Zisserman and Oriol Vinyals and Jo{\~a}o Carreira'),
+)
+
+entry!('janner2021reinforcement',
+  arxiv(2021, '2106.02039'),
+  title('Reinforcement Learning as One Big Sequence Modeling Problem'),
+  author('Michael Janner and Qiyang Li and Sergey Levine'),
+)
+
+entry!('chen2021decisiontransformer',
+  arxiv(2021, '2106.01345'),
+  title('Decision Transformer: Reinforcement Learning via Sequence Modeling'),
+  author('Lili Chen and Kevin Lu and Aravind Rajeswaran and Kimin Lee and Aditya Grover and M. Laskin and P. Abbeel and A. Srinivas and Igor Mordatch'),
+)
+
