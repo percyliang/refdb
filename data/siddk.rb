@@ -1371,4 +1371,12 @@ entry!('karamcheti2021vla',
   author('Siddharth Karamcheti and A. Zhai and Dylan P. Losey and Dorsa Sadigh'),
 )
 
+#######################################################################################################################
+###                                     Mercury Whitepaper - Robotics                                               ###
+#######################################################################################################################
 
+entry!('fu2018variational',
+  neurips(2018),
+  title('Variational Inverse Control with Events: A General Framework for Data-Driven Reward Definition'),
+  author('Justin Fu and Avi Singh and Dibya Ghosh and Larry Yang and Sergey Levine'),
+)
