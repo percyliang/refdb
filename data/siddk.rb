@@ -1381,6 +1381,12 @@ entry!('kaelbling1993learning',
   author('Leslie Kaelbling'),
 )
 
+entry!('schaul2015uvf',
+  icml(2015),
+  title('Universal Value Function Approximators'),
+  author('Tom Schaul and Dan Horgan and K. Gregor and D. Silver'),
+)
+
 entry!('berkenkamp2017safe',
   neurips(2017),
   title('Safe Model-based Reinforcement Learning with Stability Guarantees'),
@@ -1421,6 +1427,18 @@ entry!('dasari2019robonet',
   corl(2019),
   title('RoboNet: Large-Scale Multi-Robot Learning'),
   author('Sudeep Dasari and F. Ebert and Stephen Tian and Suraj Nair and Bernadette Bucher and K. Schmeckpeper and Siddharth Singh and Sergey Levine and Chelsea Finn'),
+)
+
+entry!('ding2019goal',
+  neurips(2019),
+  title('Goal-conditioned Imitation Learning'),
+  author('Yiming Ding and Carlos Florensa and Mariano Phielipp and P. Abbeel'),
+)
+
+entry!('fisac2019bridging',
+  icra(2019),
+  title('Bridging {Hamilton-Jacobi} Safety Analysis and Reinforcement Learning'),
+  author('Jaime F. Fisac and Neil F. Lugovoy and Vicenç Rúbies Royo and S. Ghosh and C. Tomlin'),
 )
 
 entry!('stepputtis2020lcil',
@@ -1470,4 +1488,12 @@ entry!('chen2021decisiontransformer',
   title('Decision Transformer: Reinforcement Learning via Sequence Modeling'),
   author('Lili Chen and Kevin Lu and Aravind Rajeswaran and Kimin Lee and Aditya Grover and M. Laskin and P. Abbeel and A. Srinivas and Igor Mordatch'),
 )
+
+entry!('herbert2021scalable',
+  arxiv(2021, '2101.05916'),
+  title('Scalable Learning of Safety Guarantees for Autonomous Systems using {Hamilton-Jacobi} Reachability'),
+  author('Sylvia L. Herbert and Jason J. Choi and Suvansh Qazi and Marsalis Gibson and K. Sreenath and C. Tomlin'),
+)
+
+
 
