@@ -1387,6 +1387,12 @@ entry!('schaul2015uvf',
   author('Tom Schaul and Dan Horgan and K. Gregor and D. Silver'),
 )
 
+entry!('taylor2016alignment',
+  title('Alignment for Advanced Machine Learning Systems'),
+  author('Jessica Taylor and Eliezer Yudkowsky and Patrick LaVictoire and Andrew Critch'),
+  inproceedings("Ethics of Artificial Intelligence", 2016),
+)
+
 entry!('berkenkamp2017safe',
   neurips(2017),
   title('Safe Model-based Reinforcement Learning with Stability Guarantees'),
@@ -1399,6 +1405,18 @@ entry!('leike2017gridworlds',
   author('Jan Leike and Miljan Martic and Victoria Krakovna and Pedro A. Ortega and Tom Everitt and Andrew Lefrancq and Laurent Orseau and S. Legg'),
 )
 
+entry!('dreossi2017compositional',
+  inproceedings('NFM', 2017),
+  title('Compositional Falsification of Cyber-Physical Systems with Machine Learning Components'),
+  author('T. Dreossi and Alexandre Donzé and S. Seshia'),
+)
+
+entry!('bajcsy2017learning',
+  corl(2017),
+  title('Learning Robot Objectives from Physical Human Interaction'),
+  author('Andrea Bajcsy and Dylan P. Losey and M. O\'Malley and A. Dragan'),
+)
+
 entry!('fu2018variational',
   neurips(2018),
   title('Variational Inverse Control with Events: A General Framework for Data-Driven Reward Definition'),
@@ -1409,6 +1427,12 @@ entry!('sharma2018mime',
   corl(2018),
   title('Multiple Interactions Made Easy (MIME): Large Scale Demonstrations Data for Imitation'),
   author('Pratyusha Sharma and L. Mohan and Lerrel Pinto and A. Gupta'),
+)
+
+entry!('biyik2018batch',
+  corl(2018),
+  title('Batch Active Preference-Based Learning of Reward Functions'),
+  author('Erdem Biyik and Dorsa Sadigh'),
 )
 
 entry!('singh2019endtoend',
@@ -1453,6 +1477,24 @@ entry!('shao2020concept2robot',
   author('Lin Shao and Toki Migimatsu and Q. Zhang and Karen Yang and Jeannette Bohg'),
 )
 
+entry!('corso2020survey',
+  arxiv(2020, '2005.02979'),
+  title('A Survey of Algorithms for Black-Box Safety Validation'),
+  author('Anthony Corso and Robert J. Moss and Mark Koren and R. Lee and Mykel J. Kochenderfer'),
+)
+
+entry!('lee2020detect',
+  arxiv(2020, '2012.00201'),
+  title('Detect, Reject, Correct: Crossmodal Compensation of Corrupted Sensors'),
+  author('Michelle A. Lee and Matthew Tan and Yuke Zhu and Jeannette Bohg'),
+)
+
+entry!('lee2020addressing',
+  title('Addressing Distribution Shift in Online Reinforcement Learning with Offline Datasets'),
+  author('Seunghyun Lee and Younggyo Seo and Kimin Lee and Pieter Abbeel and Jinwoo Shin'),
+  inproceedings("Offline Reinforcement Learning Workshop @ NeurIPS", 2020),
+)
+
 entry!('gupta2021reset',
   arxiv(2021, '2104.11203'),
   title('Reset-Free Reinforcement Learning via Multi-Task Learning: Learning Dexterous Manipulation Behaviors without Human Intervention'),
@@ -1494,6 +1536,9 @@ entry!('herbert2021scalable',
   title('Scalable Learning of Safety Guarantees for Autonomous Systems using {Hamilton-Jacobi} Reachability'),
   author('Sylvia L. Herbert and Jason J. Choi and Suvansh Qazi and Marsalis Gibson and K. Sreenath and C. Tomlin'),
 )
+
+
+
 
 
 
