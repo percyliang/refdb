@@ -1381,6 +1381,12 @@ entry!('kaelbling1993learning',
   author('Leslie Kaelbling'),
 )
 
+entry!('russell1998learning',
+  colt(1998),
+  title('Learning agents for uncertain environments'),
+  author('Stuart J. Russell'),
+)
+
 entry!('schaul2015uvf',
   icml(2015),
   title('Universal Value Function Approximators'),
@@ -1417,6 +1423,18 @@ entry!('bajcsy2017learning',
   author('Andrea Bajcsy and Dylan P. Losey and M. O\'Malley and A. Dragan'),
 )
 
+entry!('eysenbach2017leave',
+  arxiv(2017, '1711.06782'),
+  title('Leave no Trace: Learning to Reset for Safe and Autonomous Reinforcement Learning'),
+  author('Benjamin Eysenbach and Shixiang Gu and J. Ibarz and Sergey Levine'),
+)
+
+entry!('finn2017deep',
+  icra(2017),
+  title('Deep visual foresight for planning robot motion'),
+  author('Chelsea Finn and Sergey Levine'),
+)
+
 entry!('fu2018variational',
   neurips(2018),
   title('Variational Inverse Control with Events: A General Framework for Data-Driven Reward Definition'),
@@ -1433,6 +1451,12 @@ entry!('biyik2018batch',
   corl(2018),
   title('Batch Active Preference-Based Learning of Reward Functions'),
   author('Erdem Biyik and Dorsa Sadigh'),
+)
+
+entry!('chow2018lyapunov',
+  neurips(2018),
+  title('A Lyapunov-based Approach to Safe Reinforcement Learning'),
+  author('Yinlam Chow and Ofir Nachum and Edgar A. Duéñez-Guzmán and M. Ghavamzadeh'),
 )
 
 entry!('singh2019endtoend',
@@ -1463,6 +1487,12 @@ entry!('fisac2019bridging',
   icra(2019),
   title('Bridging {Hamilton-Jacobi} Safety Analysis and Reinforcement Learning'),
   author('Jaime F. Fisac and Neil F. Lugovoy and Vicenç Rúbies Royo and S. Ghosh and C. Tomlin'),
+)
+
+entry!('hafner2019latent',
+  icml(2019),
+  title('Learning Latent Dynamics for Planning from Pixels'),
+  author('Danijar Hafner and T. Lillicrap and Ian S. Fischer and Ruben Villegas and David R Ha and Honglak Lee and James Davidson'),
 )
 
 entry!('stepputtis2020lcil',
@@ -1537,8 +1567,8 @@ entry!('herbert2021scalable',
   author('Sylvia L. Herbert and Jason J. Choi and Suvansh Qazi and Marsalis Gibson and K. Sreenath and C. Tomlin'),
 )
 
-
-
-
-
-
+entry!('wu2021greedy',
+  arxiv(2021, '2103.04174'),
+  title('Greedy Hierarchical Variational Autoencoders for Large-Scale Video Prediction'),
+  author('Bohan Wu and Suraj Nair and Roberto Martín-Martín and Li Fei-Fei and Chelsea Finn'),
+)
