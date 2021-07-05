@@ -9,6 +9,44 @@ entry!('yasunaga2021break',
   codalab('0xfddb2ef01a9f4dc0b5d974a5a97174be'),
 )
 
+entry!('davis2021catformer',
+  title('Catformer: Designing Stable Transformers via Sensitivity Analysis'),
+  author('Jared Quincy Davis and Albert Gu and Krzysztof Choromanski and Tri Dao and Christopher Re and Chelsea Finn and Percy Liang'),
+  icml(2021),
+)
+
+entry!('liu2021jtt',
+  title('Just Train Twice: Improving Group Robustness without Training Group Information'),
+  author('Evan Liu and Behzad Haghgoo and Annie Chen and Aditi Raghunathan and Pang Wei Koh and Shiori Sagawa and Percy Liang and Chelsea Finn'),
+  icml(2021),
+)
+
+entry!('liu2021dream',
+  title('Decoupling Exploration and Exploitation for Meta-Reinforcement Learning without Sacrifices'),
+  author('Evan Liu and Aditi Raghunathan and Percy Liang and Chelsea Finn'),
+  icml(2021),
+)
+
+entry!('xie2021composed',
+  title('Composed Fine-Tuning: Freezing Pre-Trained Denoising Autoencoders for Improved Generalization'),
+  author('Sang Michael Xie and Tengyu Ma and Percy Liang'),
+  icml(2021),
+  url('https://arxiv.org/pdf/2006.16205.pdf'),
+)
+
+entry!('koh2021wilds',
+  title('{WILDS}: A Benchmark of in-the-Wild Distribution Shifts'),
+  author('Pang Wei Koh* and Shiori Sagawa* and Henrik Marklund and Sang Michael Xie and Marvin Zhang and Akshay Balsubramani and Weihua Hu and Michihiro Yasunaga and Richard Lanas Phillips and Irena Gao and Tony Lee and Etienne David and Ian Stavness and Wei Guo and Berton A. Earnshaw and Imran S. Haque and Sara Beery and Jure Leskovec and Anshul Kundaje and Emma Pierson and Sergey Levine and Chelsea Finn and Percy Liang'),
+  icml(2021),
+  url('https://arxiv.org/pdf/2012.07421.pdf'),
+)
+
+entry!('miller2021line',
+  title('Accuracy on the Line: on the Strong Correlation Between Out-of-Distribution and In-Distribution Generalization'),
+  author('John Miller and Rohan Taori and Aditi Raghunathan and Shiori Sagawa and Pang Wei Koh and Vaishaal Shankar and Percy Liang and Yair Carmon and Ludwig Schmidt'),
+  icml(2021),
+)
+
 entry!('yasunaga2021qagnn',
   title('{QA-GNN}: Reasoning with Language Models and Knowledge Graphs for Question Answering'),
   author('Michihiro Yasunaga and Hongyu Ren and Antoine Bosselut and Percy Liang and Jure Leskovec'),
@@ -62,22 +100,8 @@ entry!('gu2021beyond',
   url('https://arxiv.org/pdf/2011.07743.pdf'),
 )
 
-entry!('koh2021wilds',
-  title('{WILDS}: A Benchmark of in-the-Wild Distribution Shifts'),
-  author('Pang Wei Koh* and Shiori Sagawa* and Henrik Marklund and Sang Michael Xie and Marvin Zhang and Akshay Balsubramani and Weihua Hu and Michihiro Yasunaga and Richard Lanas Phillips and Irena Gao and Tony Lee and Etienne David and Ian Stavness and Wei Guo and Berton A. Earnshaw and Imran S. Haque and Sara Beery and Jure Leskovec and Anshul Kundaje and Emma Pierson and Sergey Levine and Chelsea Finn and Percy Liang'),
-  icml(2021),
-  url('https://arxiv.org/pdf/2012.07421.pdf'),
-)
-
 ############################################################
 # 2020
-
-entry!('xie2020outputs',
-  title('Simplifying Models with Unlabeled Output Data'),
-  author('Sang Michael Xie and Tengyu Ma and Percy Liang'),
-  arxiv(2020),
-  url('https://arxiv.org/pdf/2006.16205.pdf'),
-)
 
 entry!('karamcheti2020decomposition',
   title('Learning Adaptive Language Interfaces through Decomposition'),
