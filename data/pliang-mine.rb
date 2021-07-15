@@ -1,6 +1,14 @@
 ############################################################
 # 2021
 
+entry!('castellon2021calm',
+  title('Codified audio language modeling learns useful representations for music information retrieval'),
+  author('Rodrigo Castellon and Chris Donahue and Percy Liang'),
+  ismir(2021),
+  url('https://arxiv.org/pdf/2107.05677.pdf'),
+  codalab('0x7c5afa6f88bd4ff29fec75035332a583'),
+)
+
 entry!('yasunaga2021break',
   title('{Break-It-Fix-It}: Unsupervised Learning for Program Repair'),
   author('Michihiro Yasunaga and Percy Liang'),
@@ -25,6 +33,7 @@ entry!('liu2021dream',
   title('Decoupling Exploration and Exploitation for Meta-Reinforcement Learning without Sacrifices'),
   author('Evan Liu and Aditi Raghunathan and Percy Liang and Chelsea Finn'),
   icml(2021),
+  url('https://arxiv.org/pdf/2008.02790.pdf'),
 )
 
 entry!('xie2021composed',
@@ -45,6 +54,7 @@ entry!('miller2021line',
   title('Accuracy on the Line: on the Strong Correlation Between Out-of-Distribution and In-Distribution Generalization'),
   author('John Miller and Rohan Taori and Aditi Raghunathan and Shiori Sagawa and Pang Wei Koh and Vaishaal Shankar and Percy Liang and Yair Carmon and Ludwig Schmidt'),
   icml(2021),
+  url('https://arxiv.org/pdf/2107.04649.pdf'),
 )
 
 entry!('yasunaga2021qagnn',

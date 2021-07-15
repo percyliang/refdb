@@ -158,6 +158,7 @@ def icslp(year); [inproceedings(Name.new('International Conference on Spoken Lan
 def konvens(year); [inproceedings(Name.new('Conference on Natural Language Processing', 'KONVENS'), year)] end
 def ceas(year); [inproceedings(Name.new('Conference on Email and Anti-Spam', 'CEAS'), year)] end
 def iwp(year); [inproceedings(Name.new('International Workshop on Paraphrasing', 'IWP'), year)] end
+def ismir(year); [inproceedings(Name.new('International Society for Music Information Retrieval', 'ISMIR'), year)] end
 
 ### Programming languages / software engineering
 def oopsla(year); inproceedings(Name.new('Object-Oriented Programming, Systems, Languages, and Applications', 'OOPSLA'), year) end
