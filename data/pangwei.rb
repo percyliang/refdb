@@ -2842,3 +2842,12 @@ entry!('mohri2019agnostic',
   organization('PMLR'),
 )
 
+
+entry!('finlayson2021clinician',
+  article('New England Journal of Medicine', 2021, 385),
+  author('Samuel G. Finlayson and Adarsh Subbaswamy and Karandeep Singh and John Bowers and Annabel Kupke and Jonathan Zittrain and Isaac S. Kohane and Suchi Saria'),
+  title('The Clinician and Dataset Shift in Artificial Intelligence'),
+  number(3),
+  pages(283, 286),
+  #doi('10.1056/NEJMc2104626'),
+)
