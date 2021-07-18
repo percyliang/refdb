@@ -820,3 +820,9 @@ entry!('zhang2020coping',
   title('Coping with Label Shift via Distributionally Robust Optimisation'),
   author('Jingzhao Zhang and Aditya Menon and Andreas Veit and Srinadh Bhojanapalli and Sanjiv Kumar and Suvrit Sra'),
 )
+
+entry!('zhang2018generalized',
+  neurips(2018),
+  title('Generalized cross entropy loss for training deep neural networks with noisy labels'),
+  author('Zhilu Zhang and Mert R Sabuncu'),
+)
