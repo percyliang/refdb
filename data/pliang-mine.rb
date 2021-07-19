@@ -198,7 +198,7 @@ entry!('khani2020noise',
 
 entry!('yasunaga2020repair',
   title('Graph-based, Self-Supervised Program Repair from Diagnostic Feedback'),
-  author('Michi Yasunaga and Percy Liang'),
+  author('Michihiro Yasunaga and Percy Liang'),
   icml(2020),
   url('https://arxiv.org/pdf/2005.10636.pdf'),
   codalab('0x01838644724a433c932bef4cb5c42fbd'),
