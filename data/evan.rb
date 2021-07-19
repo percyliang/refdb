@@ -826,3 +826,11 @@ entry!('zhang2018generalized',
   title('Generalized cross entropy loss for training deep neural networks with noisy labels'),
   author('Zhilu Zhang and Mert R Sabuncu'),
 )
+
+entry!('creager2021environment',
+  icml(2021),
+  title('Environment inference for invariant learning'),
+  author('Elliot Creager and J{\"o}rn-Henrik Jacobsen and Richard Zemel'),
+  pages(2189, 2200),
+  organization('PMLR'),
+)
