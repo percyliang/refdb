@@ -27,6 +27,7 @@ entry!('liu2021jtt',
   title('Just Train Twice: Improving Group Robustness without Training Group Information'),
   author('Evan Liu and Behzad Haghgoo and Annie Chen and Aditi Raghunathan and Pang Wei Koh and Shiori Sagawa and Percy Liang and Chelsea Finn'),
   icml(2021),
+  url('https://arxiv.org/pdf/2107.09044.pdf'),
 )
 
 entry!('liu2021dream',
