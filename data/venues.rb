@@ -105,6 +105,9 @@ def hri(year); inproceedings(Name.new('ACM/IEEE International Conference on Huma
 def icorr(year); inproceedings(Name.new('IEEE International Conference on Rehabilitation Robotics', 'ICORR'), year) end
 def thri(year, volume); article(Name.new('ACM Transactions on Human-Robot Interaction', 'THRI'), year, volume) end
 
+### Dynamics and Control
+def l4dc(year); inproceedings(Name.new('Learning for Dynamics \& Control Conference', 'L4DC'), year) end
+
 ### Fairness
 def facct(year); inproceedings(Name.new('ACM Conference on Fairness, Accountability, and Transparency', 'FAccT'), year) end
 
@@ -155,6 +158,7 @@ def icslp(year); [inproceedings(Name.new('International Conference on Spoken Lan
 def konvens(year); [inproceedings(Name.new('Conference on Natural Language Processing', 'KONVENS'), year)] end
 def ceas(year); [inproceedings(Name.new('Conference on Email and Anti-Spam', 'CEAS'), year)] end
 def iwp(year); [inproceedings(Name.new('International Workshop on Paraphrasing', 'IWP'), year)] end
+def ismir(year); [inproceedings(Name.new('International Society for Music Information Retrieval', 'ISMIR'), year)] end
 
 ### Programming languages / software engineering
 def oopsla(year); inproceedings(Name.new('Object-Oriented Programming, Systems, Languages, and Applications', 'OOPSLA'), year) end

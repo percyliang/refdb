@@ -1039,6 +1039,13 @@ entry!('yang2020generating',
   author('Runzhe Yang and Jingxiao Chen and Karthik Narasimhan')
 )
 
+entry!('arzate2020survey',
+  inproceedings('Proceedings of the 2020 ACM Designing Interactive Systems Conference', 2020),
+  title('A survey on interactive reinforcement learning: Design principles and open challenges'),
+  author('Christian Arzate Cruz and Takeo Igarashi'),
+  pages(1195, 1209),
+)
+
 entry!('lowe2020selfplay',
   iclr(2020),
   title('On the interaction between supervision and self-play in emergent communication'),
@@ -1282,4 +1289,286 @@ entry!('andreas2020geca',
   acl(2020),
   title('Good-Enough Compositional Data Augmentation'),
   author('Jacob Andreas'),
+)
+
+#######################################################################################################################
+###                      CoRL 2021 (Submission) - LILA: Language-Informed Latent Actions                            ###
+#######################################################################################################################
+
+entry!('khatib1987osc',
+  article('IEEE Journal on Robotics and Automation', 1987, 3),
+  title('A unified approach for motion and force control of robot manipulators: The operational space formulation'),
+  author('Oussama Khatib'),
+  pages(43, 53),
+)
+
+entry!('macglashan2015grounding',
+  rss(2015),
+  title('Grounding {E}nglish Commands to Reward Functions'),
+  author('J. MacGlashan and Monica Babes-Vroman and M. desJardins and M. Littman and S. Muresan and S. Squire and Stefanie Tellex and Dilip Arumugam and Lei Yang'),
+)
+
+entry!('laskey2017dart',
+  corl(2017),
+  title('DART: Noise Injection for Robust Imitation Learning'),
+  author('Michael Laskey and Jonathan N. Lee and Roy Fox and A. Dragan and Ken Goldberg'),
+)
+
+entry!('blukis2018following',
+  rss(2018),
+  title('Following High-level Navigation Instructions on a Simulated Quadcopter with Imitation Learning'),
+  author('Valts Blukis and Nataly Brukhim and Andrew Bennett and Ross A. Knepper and Yoav Artzi'),
+)
+
+entry!('scalise2018natural',
+  ijrr(2018, 37),
+  title('Natural language instructions for human–robot collaborative manipulation'),
+  author('Rosario Scalise and Shen Li and H. Admoni and Stephanie Rosenthal and S. Srinivasa'),
+  pages(558, 565),
+)
+
+entry!('matuszek2018groundedlang',
+  ijcai(2018),
+  title('Grounded Language Learning: Where Robotics and {NLP} Meet'),
+  author('Cynthia Matuszek'),
+)
+
+entry!('reimers2020multisbert',
+  emnlp(2020),
+  title('Making Monolingual Sentence Embeddings Multilingual using Knowledge Distillation'),
+  author('Nils Reimers and Iryna Gurevych'),
+)
+
+entry!('zhu2020robosuite',
+  arxiv(2020, '2009.12293'),
+  title('Robosuite: A Modular Simulation Framework and Benchmark for Robot Learning'),
+  author('Yuke Zhu and Josiah Wong and Ajay Mandlekar and Roberto Martín-Martín'),
+)
+
+entry!('tellex2020robonlp',
+  article('Annual Review of Control, Robotics, and Autonomous Systems', 2020, 3),
+  author('Stefanie Tellex and Nakul Gopalan and Hadas Kress-Gazit and Cynthia Matuszek'),
+  title('Robots That Use Language'),
+  number(1),
+  pages(25, 55),
+)
+
+entry!('marzoev2020unnatural',
+  arxiv(2020, '2004.13645'),
+  title('Unnatural Language Processing: Bridging the Gap Between Synthetic and Natural Language Data'),
+  author('Alana Marzoev and S. Madden and M. Kaashoek and Michael J. Cafarella and Jacob Andreas'),
+)
+
+entry!('ku2020rxr',
+  emnlp(2020),
+  title('Room-Across-Room: Multilingual Vision-and-Language Navigation with Dense Spatiotemporal Grounding'),
+  author('Alexander Ku and Peter Anderson and Roma Patel and Eugene Ie and Jason Baldridge'),
+)
+
+entry!('karamcheti2021vla',
+  l4dc(2021),
+  title('Learning Visually Guided Latent Actions for Assistive Teleoperation'),
+  author('Siddharth Karamcheti and A. Zhai and Dylan P. Losey and Dorsa Sadigh'),
+)
+
+#######################################################################################################################
+###                                     Mercury Whitepaper - Robotics                                               ###
+#######################################################################################################################
+
+entry!('kaelbling1993learning',
+  ijcai(1993),
+  title('Learning to Achieve Goals'),
+  author('Leslie Kaelbling'),
+)
+
+entry!('russell1998learning',
+  colt(1998),
+  title('Learning agents for uncertain environments'),
+  author('Stuart J. Russell'),
+)
+
+entry!('schaul2015uvf',
+  icml(2015),
+  title('Universal Value Function Approximators'),
+  author('Tom Schaul and Dan Horgan and K. Gregor and D. Silver'),
+)
+
+entry!('taylor2016alignment',
+  title('Alignment for Advanced Machine Learning Systems'),
+  author('Jessica Taylor and Eliezer Yudkowsky and Patrick LaVictoire and Andrew Critch'),
+  inproceedings("Ethics of Artificial Intelligence", 2016),
+)
+
+entry!('berkenkamp2017safe',
+  neurips(2017),
+  title('Safe Model-based Reinforcement Learning with Stability Guarantees'),
+  author('Felix Berkenkamp and Matteo Turchetta and Angela P. Schoellig and Andreas Krause'),
+)
+
+entry!('leike2017gridworlds',
+  arxiv(2017, '1711.09883'),
+  title('{AI} Safety Gridworlds'),
+  author('Jan Leike and Miljan Martic and Victoria Krakovna and Pedro A. Ortega and Tom Everitt and Andrew Lefrancq and Laurent Orseau and S. Legg'),
+)
+
+entry!('dreossi2017compositional',
+  inproceedings('NFM', 2017),
+  title('Compositional Falsification of Cyber-Physical Systems with Machine Learning Components'),
+  author('T. Dreossi and Alexandre Donzé and S. Seshia'),
+)
+
+entry!('bajcsy2017learning',
+  corl(2017),
+  title('Learning Robot Objectives from Physical Human Interaction'),
+  author('Andrea Bajcsy and Dylan P. Losey and M. O\'Malley and A. Dragan'),
+)
+
+entry!('eysenbach2017leave',
+  arxiv(2017, '1711.06782'),
+  title('Leave no Trace: Learning to Reset for Safe and Autonomous Reinforcement Learning'),
+  author('Benjamin Eysenbach and Shixiang Gu and J. Ibarz and Sergey Levine'),
+)
+
+entry!('finn2017deep',
+  icra(2017),
+  title('Deep visual foresight for planning robot motion'),
+  author('Chelsea Finn and Sergey Levine'),
+)
+
+entry!('fu2018variational',
+  neurips(2018),
+  title('Variational Inverse Control with Events: A General Framework for Data-Driven Reward Definition'),
+  author('Justin Fu and Avi Singh and Dibya Ghosh and Larry Yang and Sergey Levine'),
+)
+
+entry!('sharma2018mime',
+  corl(2018),
+  title('Multiple Interactions Made Easy (MIME): Large Scale Demonstrations Data for Imitation'),
+  author('Pratyusha Sharma and L. Mohan and Lerrel Pinto and A. Gupta'),
+)
+
+entry!('biyik2018batch',
+  corl(2018),
+  title('Batch Active Preference-Based Learning of Reward Functions'),
+  author('Erdem Biyik and Dorsa Sadigh'),
+)
+
+entry!('chow2018lyapunov',
+  neurips(2018),
+  title('A Lyapunov-based Approach to Safe Reinforcement Learning'),
+  author('Yinlam Chow and Ofir Nachum and Edgar A. Duéñez-Guzmán and M. Ghavamzadeh'),
+)
+
+entry!('singh2019endtoend',
+  rss(2019),
+  title('End-to-End Robotic Reinforcement Learning without Reward Engineering'),
+  author('Avi Singh and Larry Yang and Kristian Hartikainen and Chelsea Finn and Sergey Levine'),
+)
+
+entry!('mandelkar2019scaling',
+  iros(2019),
+  title('Scaling Robot Supervision to Hundreds of Hours with RoboTurk: Robotic Manipulation Dataset through Human Reasoning and Dexterity'),
+  author('Ajay Mandlekar and Jonathan Booher and Max Spero and Albert Tung and Anchit Gupta and Yuke Zhu and Animesh Garg and Silvio Savarese and Li Fei-Fei'),
+)
+
+entry!('dasari2019robonet',
+  corl(2019),
+  title('RoboNet: Large-Scale Multi-Robot Learning'),
+  author('Sudeep Dasari and F. Ebert and Stephen Tian and Suraj Nair and Bernadette Bucher and K. Schmeckpeper and Siddharth Singh and Sergey Levine and Chelsea Finn'),
+)
+
+entry!('ding2019goal',
+  neurips(2019),
+  title('Goal-conditioned Imitation Learning'),
+  author('Yiming Ding and Carlos Florensa and Mariano Phielipp and P. Abbeel'),
+)
+
+entry!('fisac2019bridging',
+  icra(2019),
+  title('Bridging {Hamilton-Jacobi} Safety Analysis and Reinforcement Learning'),
+  author('Jaime F. Fisac and Neil F. Lugovoy and Vicenç Rúbies Royo and S. Ghosh and C. Tomlin'),
+)
+
+entry!('hafner2019latent',
+  icml(2019),
+  title('Learning Latent Dynamics for Planning from Pixels'),
+  author('Danijar Hafner and T. Lillicrap and Ian S. Fischer and Ruben Villegas and David R Ha and Honglak Lee and James Davidson'),
+)
+
+entry!('stepputtis2020lcil',
+  neurips(2020),
+  title('Language-Conditioned Imitation Learning for Robot Manipulation Tasks'),
+  author('Simon Stepputtis and J. Campbell and Mariano Phielipp and Stefan Lee and Chitta Baral and H. B. Amor'),
+)
+
+entry!('shao2020concept2robot',
+  rss(2020),
+  title('Concept2Robot: Learning Manipulation Concepts from Instructions and Human Demonstrations'),
+  author('Lin Shao and Toki Migimatsu and Q. Zhang and Karen Yang and Jeannette Bohg'),
+)
+
+entry!('corso2020survey',
+  arxiv(2020, '2005.02979'),
+  title('A Survey of Algorithms for Black-Box Safety Validation'),
+  author('Anthony Corso and Robert J. Moss and Mark Koren and R. Lee and Mykel J. Kochenderfer'),
+)
+
+entry!('lee2020detect',
+  arxiv(2020, '2012.00201'),
+  title('Detect, Reject, Correct: Crossmodal Compensation of Corrupted Sensors'),
+  author('Michelle A. Lee and Matthew Tan and Yuke Zhu and Jeannette Bohg'),
+)
+
+entry!('lee2020addressing',
+  title('Addressing Distribution Shift in Online Reinforcement Learning with Offline Datasets'),
+  author('Seunghyun Lee and Younggyo Seo and Kimin Lee and Pieter Abbeel and Jinwoo Shin'),
+  inproceedings("Offline Reinforcement Learning Workshop @ NeurIPS", 2020),
+)
+
+entry!('gupta2021reset',
+  arxiv(2021, '2104.11203'),
+  title('Reset-Free Reinforcement Learning via Multi-Task Learning: Learning Dexterous Manipulation Behaviors without Human Intervention'),
+  author('Abhishek Gupta and Justin Yu and Tony Zhao and Vikash Kumar and Aaron Rovinsky and Kelvin Xu and Thomas Devlin and Sergey Levine'),
+)
+
+entry!('chen2021generalizable',
+  rss(2021),
+  title('Learning Generalizable Robotic Reward Functions from "In-The-Wild" Human Videos'),
+  author('Annie S. Chen and Suraj Nair and Chelsea Finn'),
+)
+
+entry!('deletang2021causal',
+  arxiv(2021, '2103.03938'),
+  title('Causal Analysis of Agent Behavior for {AI} Safety'),
+  author('Grégoire Déletang and J. Grau-Moya and Miljan Martic and Tim Genewein and Tom McGrath and Vladimir Mikulik and M. Kunesch and S. Legg and Pedro A. Ortega'),
+)
+
+entry!('jaegle2021perceiver',
+  icml(2021),
+  title('Perceiver: General Perception with Iterative Attention'),
+  author('Andrew Jaegle and Felix Gimeno and Andrew Brock and Andrew Zisserman and Oriol Vinyals and Jo{\~a}o Carreira'),
+)
+
+entry!('janner2021reinforcement',
+  arxiv(2021, '2106.02039'),
+  title('Reinforcement Learning as One Big Sequence Modeling Problem'),
+  author('Michael Janner and Qiyang Li and Sergey Levine'),
+)
+
+entry!('chen2021decisiontransformer',
+  arxiv(2021, '2106.01345'),
+  title('Decision Transformer: Reinforcement Learning via Sequence Modeling'),
+  author('Lili Chen and Kevin Lu and Aravind Rajeswaran and Kimin Lee and Aditya Grover and M. Laskin and P. Abbeel and A. Srinivas and Igor Mordatch'),
+)
+
+entry!('herbert2021scalable',
+  arxiv(2021, '2101.05916'),
+  title('Scalable Learning of Safety Guarantees for Autonomous Systems using {Hamilton-Jacobi} Reachability'),
+  author('Sylvia L. Herbert and Jason J. Choi and Suvansh Qazi and Marsalis Gibson and K. Sreenath and C. Tomlin'),
+)
+
+entry!('wu2021greedy',
+  arxiv(2021, '2103.04174'),
+  title('Greedy Hierarchical Variational Autoencoders for Large-Scale Video Prediction'),
+  author('Bohan Wu and Suraj Nair and Roberto Martín-Martín and Li Fei-Fei and Chelsea Finn'),
 )

@@ -1,12 +1,61 @@
 ############################################################
 # 2021
 
+entry!('castellon2021calm',
+  title('Codified audio language modeling learns useful representations for music information retrieval'),
+  author('Rodrigo Castellon and Chris Donahue and Percy Liang'),
+  ismir(2021),
+  url('https://arxiv.org/pdf/2107.05677.pdf'),
+  codalab('0x7c5afa6f88bd4ff29fec75035332a583'),
+)
+
 entry!('yasunaga2021break',
   title('{Break-It-Fix-It}: Unsupervised Learning for Program Repair'),
   author('Michihiro Yasunaga and Percy Liang'),
   icml(2021),
   url('https://arxiv.org/pdf/2106.06600.pdf'),
   codalab('0xfddb2ef01a9f4dc0b5d974a5a97174be'),
+)
+
+entry!('davis2021catformer',
+  title('Catformer: Designing Stable Transformers via Sensitivity Analysis'),
+  author('Jared Quincy Davis and Albert Gu and Krzysztof Choromanski and Tri Dao and Christopher Re and Chelsea Finn and Percy Liang'),
+  icml(2021),
+)
+
+entry!('liu2021jtt',
+  title('Just Train Twice: Improving Group Robustness without Training Group Information'),
+  author('Evan Liu and Behzad Haghgoo and Annie Chen and Aditi Raghunathan and Pang Wei Koh and Shiori Sagawa and Percy Liang and Chelsea Finn'),
+  icml(2021),
+  url('https://arxiv.org/pdf/2107.09044.pdf'),
+)
+
+entry!('liu2021dream',
+  title('Decoupling Exploration and Exploitation for Meta-Reinforcement Learning without Sacrifices'),
+  author('Evan Liu and Aditi Raghunathan and Percy Liang and Chelsea Finn'),
+  icml(2021),
+  url('https://arxiv.org/pdf/2008.02790.pdf'),
+)
+
+entry!('xie2021composed',
+  title('Composed Fine-Tuning: Freezing Pre-Trained Denoising Autoencoders for Improved Generalization'),
+  author('Sang Michael Xie and Tengyu Ma and Percy Liang'),
+  icml(2021),
+  url('https://arxiv.org/pdf/2006.16205.pdf'),
+)
+
+entry!('koh2021wilds',
+  title('{WILDS}: A Benchmark of in-the-Wild Distribution Shifts'),
+  author('Pang Wei Koh* and Shiori Sagawa* and Henrik Marklund and Sang Michael Xie and Marvin Zhang and Akshay Balsubramani and Weihua Hu and Michihiro Yasunaga and Richard Lanas Phillips and Irena Gao and Tony Lee and Etienne David and Ian Stavness and Wei Guo and Berton A. Earnshaw and Imran S. Haque and Sara Beery and Jure Leskovec and Anshul Kundaje and Emma Pierson and Sergey Levine and Chelsea Finn and Percy Liang'),
+  icml(2021),
+  url('https://arxiv.org/pdf/2012.07421.pdf'),
+)
+
+entry!('miller2021line',
+  title('Accuracy on the Line: on the Strong Correlation Between Out-of-Distribution and In-Distribution Generalization'),
+  author('John Miller and Rohan Taori and Aditi Raghunathan and Shiori Sagawa and Pang Wei Koh and Vaishaal Shankar and Percy Liang and Yair Carmon and Ludwig Schmidt'),
+  icml(2021),
+  url('https://arxiv.org/pdf/2107.04649.pdf'),
 )
 
 entry!('yasunaga2021qagnn',
@@ -62,22 +111,8 @@ entry!('gu2021beyond',
   url('https://arxiv.org/pdf/2011.07743.pdf'),
 )
 
-entry!('koh2021wilds',
-  title('{WILDS}: A Benchmark of in-the-Wild Distribution Shifts'),
-  author('Pang Wei Koh* and Shiori Sagawa* and Henrik Marklund and Sang Michael Xie and Marvin Zhang and Akshay Balsubramani and Weihua Hu and Michihiro Yasunaga and Richard Lanas Phillips and Irena Gao and Tony Lee and Etienne David and Ian Stavness and Wei Guo and Berton A. Earnshaw and Imran S. Haque and Sara Beery and Jure Leskovec and Anshul Kundaje and Emma Pierson and Sergey Levine and Chelsea Finn and Percy Liang'),
-  icml(2021),
-  url('https://arxiv.org/pdf/2012.07421.pdf'),
-)
-
 ############################################################
 # 2020
-
-entry!('xie2020outputs',
-  title('Simplifying Models with Unlabeled Output Data'),
-  author('Sang Michael Xie and Tengyu Ma and Percy Liang'),
-  arxiv(2020),
-  url('https://arxiv.org/pdf/2006.16205.pdf'),
-)
 
 entry!('karamcheti2020decomposition',
   title('Learning Adaptive Language Interfaces through Decomposition'),
@@ -164,7 +199,7 @@ entry!('khani2020noise',
 
 entry!('yasunaga2020repair',
   title('Graph-based, Self-Supervised Program Repair from Diagnostic Feedback'),
-  author('Michi Yasunaga and Percy Liang'),
+  author('Michihiro Yasunaga and Percy Liang'),
   icml(2020),
   url('https://arxiv.org/pdf/2005.10636.pdf'),
   codalab('0x01838644724a433c932bef4cb5c42fbd'),
