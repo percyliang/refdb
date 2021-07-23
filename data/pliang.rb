@@ -11452,3 +11452,9 @@ entry!('lecun2015deep',
   pages(436, 444),
   ignoreDuplicateTitle,
 )
+
+entry!('creel2021algorithmic',
+  title('The Algorithmic Leviathan: Arbitrariness, Fairness, and Opportunity in Algorithmic Decision Making Systems'),
+  author('Kathleen Creel and Deborah Hellman'),
+  article('Virginia Public Law and Legal Theory Research Paper', 2021, 13),
+)
