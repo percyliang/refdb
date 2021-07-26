@@ -11458,3 +11458,10 @@ entry!('creel2021algorithmic',
   author('Kathleen Creel and Deborah Hellman'),
   article('Virginia Public Law and Legal Theory Research Paper', 2021, 13),
 )
+
+entry!('collobert2008unified',
+  icml(2008),
+  title('A unified architecture for natural language processing: Deep neural networks with multitask learning'),
+  author('Ronan Collobert and Jason Weston'),
+  pages(160, 167),
+)
