@@ -11465,3 +11465,11 @@ entry!('collobert2008unified',
   author('Ronan Collobert and Jason Weston'),
   pages(160, 167),
 )
+
+entry!('fukushima1988neocognitron',
+  article('Neural networks', 1988, 1),
+  title('Neocognitron: A hierarchical neural network capable of visual pattern recognition'),
+  author('Kunihiko Fukushima'),
+  number(2),
+  pages(119, 130),
+)
