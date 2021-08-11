@@ -11473,3 +11473,10 @@ entry!('fukushima1988neocognitron',
   number(2),
   pages(119, 130),
 )
+
+entry!('zellers2019neuralfakenews',
+  neurips(2019),
+  title('Defending Against Neural Fake News'),
+  author('Rowan Zellers and Ari Holtzman and Hannah Rashkin and Yonatan Bisk and Ali Farhadi and Franziska Roesner and Yejin Choi'),
+  pages(9054, 9065),
+)
