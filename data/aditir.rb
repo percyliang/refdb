@@ -567,3 +567,89 @@ entry!('shankar2019image',
   title('Do Image Classifiers Generalize Across Time?'),
   author('Vaishaal Shankar and Achal Dave and Rebecca Roelofs and Deva Ramanan and Benjamin Recht and Ludwig Schmidt'),
 )
+
+entry!('muthukumar2020harmless',
+  article('IEEE Journal on Selected Areas in Information Theory', 2020, 1),
+  title('Harmless interpolation of noisy data in regression'),
+  author('Vidya Muthukumar and Kailas Vodrahalli and Vignesh Subramanian and Anant Sahai'),
+  number(1),
+  pages(67, 83),
+  publisher('IEEE'),
+)
+
+entry!('bibas2019new',
+  inproceedings('2019 IEEE International Symposium on Information Theory (ISIT)', 2019),
+  title('A new look at an old problem: A universal learning approach to linear regression'),
+  author('Koby Bibas and Yaniv Fogel and Meir Feder'),
+  pages(2304, 2308),
+  organization('IEEE'),
+)
+
+entry!('ji2019implicit',
+  colt(2019),
+  title('The implicit bias of gradient descent on nonseparable data'),
+  author('Ziwei Ji and Matus Telgarsky'),
+  pages(1772, 1798),
+  organization('PMLR'),
+)
+
+entry!('zhang2020crown',
+  iclr(2020), 
+  title('Towards stable and efficient training of verifiably robust neural networks'),
+  author('Huan Zhang and Hongge Chen and Chaowei Xiao and Sven Gowal and Robert Stanforth and Bo Li and Duane Boning and Cho-Jui Hsieh'),
+)
+
+entry!('yang2020randomized',
+  icml(2020),
+  title('Randomized smoothing of all shapes and sizes'),
+  author('Greg Yang and Tony Duan and J Edward Hu and Hadi Salman and Ilya Razenshteyn and Jerry Li'),
+)
+
+entry!('fazlyab2019safety',
+  arxiv(2019, '1903.01287'),
+  title('Safety Verification and Robustness Analysis of Neural Networks via Quadratic Constraints and Semidefinite Programming'),
+  author('Mahyar Fazlyab and Manfred Morari and George J Pappas'),
+)
+
+entry!('monteiro2003first',
+  article('Mathematical Programming', 2003, 97),
+  title('First-and second-order methods for semidefinite programming'),
+  author('Renato DC Monteiro'),
+  number('1-2'),
+  pages(209, 244),
+  publisher('Springer'),
+)
+
+entry!('tu2014practical',
+  title('Practical first order methods for large scale semidefinite programming'),
+  author('Stephen Tu and Jingyan Wang'),
+  techreport('University of California, Berkeley', 2014),
+)
+
+entry!('wen2009first',
+  title('First-order methods for semidefinite programming'),
+  author('Zaiwen Wen'),
+  techreport('Columbia University', 2009),
+)
+
+entry!('renegar2014efficient',
+  arxiv(2014, '1409.5832'),
+  title('Efficient first-order methods for linear programming and semidefinite programming'),
+  author('James Renegar'),
+)
+
+entry!('helmberg2007spectral',
+  article('Mathematical Programming', 2007, 110),
+  title('Smoothing technique and its applications in semidefinite optimization'),
+  author('Yurii Nesterov'),
+  number(2),
+  pages(245, 259),
+  publisher('Springer'),
+)
+
+entry!('danskin1966theory',
+  title('The theory of max-min with applications'),
+  author('John M Danskin'),
+  year(1966),
+  article('SIAM Journal on Applied Math', 1966), 
+)
