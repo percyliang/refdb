@@ -355,7 +355,7 @@ def printText(entries, short, outPath)
   out.close
 end
 
-def printJs(entries, short, outPath)
+def generateDict(entries, short)
   data = {}
   entries.each { |entry|
     data[entry.id] = {
@@ -366,6 +366,18 @@ def printJs(entries, short, outPath)
       'text': entry.toText(short),
     }
   }
+  data
+end
+
+def printJson(entries, short, outPath)
+  data = generateDict(entries, short)
+  out = open(outPath, 'w')
+  out.puts JSON.generate(data)
+  out.close
+end
+
+def printJs(entries, short, outPath)
+  data = generateDict(entries, short)
   out = open(outPath, 'w')
   out.puts "G.bibEntries = " + JSON.generate(data)
   out.close
