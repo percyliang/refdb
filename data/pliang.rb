@@ -11432,7 +11432,7 @@ entry!('hinton2006fast',
 entry!('thrun1998lifelong',
   title('Lifelong learning algorithms'),
   author('Sebastian Thrun'),
-  book('Learning to learn', 1998),
+  article('Learning to learn', 1998),
   pages(181, 209),
   publisher('Springer'),
 )
