@@ -7691,6 +7691,7 @@ entry!('mei2016listen',
 entry!('artzi2013uw',
   arxiv(2013, '1311.3011'),
   title('{UW} {SPF}: The {U}niversity of {W}ashington Semantic Parsing Framework'),
+  unusualCapitalization('University'),
   author('Yoav Artzi and Luke Zettlemoyer'),
 )
 
@@ -11479,4 +11480,63 @@ entry!('zellers2019neuralfakenews',
   title('Defending Against Neural Fake News'),
   author('Rowan Zellers and Ari Holtzman and Hannah Rashkin and Yonatan Bisk and Ali Farhadi and Franziska Roesner and Yejin Choi'),
   pages(9054, 9065),
+)
+
+entry!('kerr2001university',
+  title('The Uses of the University'),
+  author('Clark Kerr'),
+  book('Harvard University Press', 2001),
+)
+
+entry!('rhoten2011knowledge',
+  title('Knowledge matters: The public mission of the research university'),
+  author('Diana Rhoten and Craig Calhoun'),
+  book('Columbia University Press', 2011),
+)
+
+entry!('nussbaum2010not',
+  title('Not for profit: Why democracy needs the humanities'),
+  author('Martha Craven Nussbaum'),
+  book('Princeton University Press', 2010),
+)
+
+entry!('engstrom2020government',
+  title('Government by algorithm: Artificial intelligence in federal administrative agencies'),
+  author('David Freeman Engstrom and Daniel E Ho and Catherine M Sharkey and Mariano-Florentino Cuéllar'),
+  article('NYU School of Law, Public Law Research Paper', 2020, '20-54'),
+)
+
+entry!('hong2004groups',
+  science(2004, 101),
+  title('Groups of diverse problem solvers can outperform groups of high-ability problem solvers'),
+  author('Lu Hong and Scott E Page'),
+  number(46),
+  #pages(16385, 16389),
+  publisher('National Academy of Sciences'),
+)
+
+entry!('solomon2006norms',
+  article('Episteme', 2006, 3),
+  title('Norms of epistemic diversity'),
+  author('Miriam Solomon'),
+  number('1-2'),
+  pages(23, 36),
+  publisher('Cambridge University Press'),
+)
+
+entry!('steel2018multiple',
+  article('European journal for philosophy of science', 2018, 8),
+  title('Multiple diversity concepts and their ethical-epistemic implications'),
+  author('Daniel Steel and Sina Fazelpour and Kinley Gillette and Bianca Crewe and Michael Burgess'),
+  number(3),
+  pages(761, 780),
+  publisher('Springer'),
+)
+
+entry!('merton1979normative',
+  title('The normative structure of science'),
+  author('Robert K Merton'),
+  article('The sociology of science: Theoretical and empirical investigations', 1979),
+  pages(267, 278),
+  publisher('The University of Chicago Press'),
 )
