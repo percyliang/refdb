@@ -11540,3 +11540,17 @@ entry!('merton1979normative',
   pages(267, 278),
   publisher('The University of Chicago Press'),
 )
+
+entry!('radinsky2015data',
+  article('Harvard Business Review', 2015, 2),
+  title('Data monopolists like {G}oogle are threatening the economy'),
+  author('Kira Radinsky'),
+)
+
+entry!('rogers2020primer',
+  tacl(2020, 8),
+  title('A primer in bertology: What we know about how bert works'),
+  author('Anna Rogers and Olga Kovaleva and Anna Rumshisky'),
+  pages(842, 866),
+  publisher('MIT Press'),
+)
