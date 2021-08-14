@@ -325,6 +325,7 @@ def titleHash(x);       field('titleHash', x)         end
 
 # Don't add these words to the set of generally capitalized words
 def unusualCapitalization(*x); field('unusualCapitalization', *x) end
+def ignoreDuplicateTitle(*x); field('ignoreDuplicateTitle', *x) end
 def extendedVersion(x=true); field('extendedVersion', x) end
 def isUrlVisible(x=true); field('isUrlVisible', x) end
 
@@ -465,6 +466,7 @@ def checkDuplicates(entries)
   errors = []
   entries.each { |entry|
     canonicalTitle = entry.titleHash || entry.title.downcase.gsub(/[^a-z]/, '')
+    next if entry.get('ignoreDuplicateTitle')
     next if entry.getFirst('extendedVersion') # Ok for longer versions to have same titles
     (map[canonicalTitle] ||= []) << entry
   }

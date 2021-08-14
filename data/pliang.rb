@@ -3516,7 +3516,7 @@ entry!('mikolov2013efficient',
   arxiv(2013, '1301.3781'),
   title('Efficient Estimation of Word Representations in Vector Space'),
   url('http://arxiv.org/pdf/1301.3781v3.pdf'),
-  author('Tomas Mikolov and Kai Chen and Greg Corrado and Jeffrey'),
+  author('Tomas Mikolov and Kai Chen and Greg Corrado and Jeffrey Dean'),
 )
 
 entry!('chang2010discriminative',
@@ -11402,4 +11402,81 @@ entry!('li2018thesis',
   author('Jerry Li'),
   title('Principled Approaches to Robust Machine Learning and Beyond'),
   phdthesis('Massachusetts Institute of Technology', 2018),
+)
+
+entry!('chen2020simclr',
+  title('A simple framework for contrastive learning of visual representations'),
+  author('Ting Chen and Simon Kornblith and Mohammad Norouzi and Geoffrey Hinton'),
+  pages(1597, 1607),
+  icml(2020),
+)
+
+entry!('lowe1999sift',
+  iccv(1999),
+  inproceedings('Proceedings of the seventh IEEE international conference on computer vision', 1999),
+  title('Object recognition from local scale-invariant features'),
+  author('David G Lowe'),
+  volume(2),
+  pages(1150, 1157),
+)
+
+entry!('hinton2006fast',
+  article('Neural computation', 2006, 18),
+  title('A fast learning algorithm for deep belief nets'),
+  author('Geoffrey E Hinton and Simon Osindero and Yee-Whye Teh'),
+  number(7),
+  pages(1527, 1554),
+)
+
+entry!('thrun1998lifelong',
+  title('Lifelong learning algorithms'),
+  author('Sebastian Thrun'),
+  book('Learning to learn', 1998),
+  pages(181, 209),
+  publisher('Springer'),
+)
+
+entry!('cortes1995svm',
+  machineLearning(1995, 20),
+  title('Support-vector networks'),
+  author('Corinna Cortes and Vladimir Vapnik'),
+  number(3),
+  pages(273, 297),
+)
+
+entry!('lecun2015deep',
+  article('Nature', 2015, 521),
+  title('Deep learning'),
+  author('Yann LeCun and Yoshua Bengio and Geoffrey Hinton'),
+  number(7553),
+  pages(436, 444),
+  ignoreDuplicateTitle,
+)
+
+entry!('creel2021algorithmic',
+  title('The Algorithmic Leviathan: Arbitrariness, Fairness, and Opportunity in Algorithmic Decision Making Systems'),
+  author('Kathleen Creel and Deborah Hellman'),
+  article('Virginia Public Law and Legal Theory Research Paper', 2021, 13),
+)
+
+entry!('collobert2008unified',
+  icml(2008),
+  title('A unified architecture for natural language processing: Deep neural networks with multitask learning'),
+  author('Ronan Collobert and Jason Weston'),
+  pages(160, 167),
+)
+
+entry!('fukushima1988neocognitron',
+  article('Neural networks', 1988, 1),
+  title('Neocognitron: A hierarchical neural network capable of visual pattern recognition'),
+  author('Kunihiko Fukushima'),
+  number(2),
+  pages(119, 130),
+)
+
+entry!('zellers2019neuralfakenews',
+  neurips(2019),
+  title('Defending Against Neural Fake News'),
+  author('Rowan Zellers and Ari Holtzman and Hannah Rashkin and Yonatan Bisk and Ali Farhadi and Franziska Roesner and Yejin Choi'),
+  pages(9054, 9065),
 )
