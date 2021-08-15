@@ -11554,3 +11554,11 @@ entry!('rogers2020primer',
   pages(842, 866),
   publisher('MIT Press'),
 )
+
+entry!('beberg2009folding',
+  inproceedings('2009 IEEE International Symposium on Parallel \& Distributed Processing', 2009),
+  title('Folding@home: Lessons from eight years of volunteer distributed computing'),
+  author('Adam L Beberg and Daniel L Ensign and Guha Jayachandran and Siraj Khaliq and Vijay S Pande'),
+  pages(1, 8),
+  organization('IEEE'),
+)
