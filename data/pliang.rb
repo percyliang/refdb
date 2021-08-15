@@ -11562,3 +11562,10 @@ entry!('beberg2009folding',
   pages(1, 8),
   organization('IEEE'),
 )
+
+entry!('turian2010word',
+  acl(2010),
+  title('Word representations: a simple and general method for semi-supervised learning'),
+  author('Joseph Turian and Lev Ratinov and Yoshua Bengio'),
+  pages(384, 394),
+)
