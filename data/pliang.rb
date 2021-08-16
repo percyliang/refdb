@@ -11569,3 +11569,15 @@ entry!('turian2010word',
   author('Joseph Turian and Lev Ratinov and Yoshua Bengio'),
   pages(384, 394),
 )
+
+entry!('cho2021unifying',
+  arxiv(2021, '2102.02779'),
+  title('Unifying vision-and-language tasks via text generation'),
+  author('Jaemin Cho and Jie Lei and Hao Tan and Mohit Bansal'),
+)
+
+entry!('kim2021vilt',
+  arxiv(2021, '2102.03334'),
+  title('{ViLT}: Vision-and-language transformer without convolution or region supervision'),
+  author('Wonjae Kim and Bokyung Son and Ildoo Kim'),
+)
