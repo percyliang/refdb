@@ -1844,14 +1844,14 @@ entry!('veeling2018rotation',
 )
 
 entry!('tellez2019quantifying',
-  article('Medical image analysis', 2019, 58),
+  article('Medical Image Analysis', 2019, 58),
   title('Quantifying the effects of data augmentation and stain color normalization in convolutional neural networks for computational pathology'),
   author('David Tellez and Geert Litjens and P{\\\'e}ter B{\\\'a}ndi and Wouter Bulten and John-Melle Bokhorst and Francesco Ciompi and Jeroen van der Laak'),
   publisher('Elsevier'),
 )
 
 entry!('bandi2018detection',
-  article('IEEE transactions on medical imaging', 2018, 38),
+  article('IEEE Transactions on Medical Imaging', 2018, 38),
   title('From detection of individual metastases to classification of lymph node status at the patient level: the {CAMELYON17} challenge'),
   author('Peter Bandi and Oscar Geessink and Quirine Manson and Marcory Van Dijk and Maschenka Balkenhol and Meyke Hermsen and Babak Ehteshami Bejnordi and Byungjae Lee and Kyunghyun Paeng and Aoxiao Zhong and others'),
   number(2),
@@ -2850,4 +2850,75 @@ entry!('finlayson2021clinician',
   number(3),
   pages(283, 286),
   #doi('10.1056/NEJMc2104626'),
+)
+
+entry!('ciga2020self',
+  arxiv(2020, '2011.13971'),
+  title('Self supervised contrastive learning for digital histopathology'),
+  author('Ozan Ciga and Anne L Martel and Tony Xu'),
+)
+
+entry!('azizi2021big',
+  arxiv(2021, '2101.05224'),
+  title('Big self-supervised models advance medical image classification'),
+  author('Shekoofeh Azizi and Basil Mustafa and Fiona Ryan and Zachary Beaver and Jan Freyberg and Jonathan Deaton and Aaron Loh and Alan Karthikesalingam and Simon Kornblith and Ting Chen and others'),
+)
+
+entry!('ren2018adversarial',
+  inproceedings('International Conference on Medical Image Computing and Computer-Assisted Intervention', 2018),
+  title('Adversarial domain adaptation for classification of prostate histopathology whole-slide images'),
+  author('Jian Ren and Ilker Hacihaliloglu and Eric A Singer and David J Foran and Xin Qi'),
+  pages(201, 209),
+  organization('Springer'),
+)
+
+entry!('peikari2018cluster',
+  article('Scientific reports', 2018, 8),
+  title('A cluster-then-label semi-supervised learning approach for pathology image classification'),
+  author('Mohammad Peikari and Sherine Salama and Sharon Nofech-Mozes and Anne L Martel'),
+  number(1),
+  pages(1, 13),
+  publisher('Nature Publishing Group'),
+)
+
+entry!('lu2019semi',
+  arxiv(2019, '1910.10825'),
+  title('Semi-supervised histology classification using deep multiple instance learning and contrastive predictive coding'),
+  author('Ming Y Lu and Richard J Chen and Jingwen Wang and Debora Dillon and Faisal Mahmood'),
+)
+
+entry!('zhang2019whole',
+  inproceedings('International Conference on Medical Image Computing and Computer-Assisted Intervention', 2019),
+  title('From whole slide imaging to microscopy: Deep microscopy adaptation network for histopathology cancer image classification'),
+  author('Yifan Zhang and Hanbo Chen and Ying Wei and Peilin Zhao and Jiezhang Cao and Xinjuan Fan and Xiaoying Lou and Hailing Liu and Jinlong Hou and Xiao Han and others'),
+  pages(360, 368),
+  organization('Springer'),
+)
+
+entry!('dehaene2020self',
+  arxiv(2020, '2012.03583'),
+  title('Self-Supervision Closes the Gap Between Weak and Strong Supervision in Histology'),
+  author('Olivier Dehaene and Axel Camara and Olivier Moindrot and Axel de Lavergne and Pierre Courtiol'),
+)
+
+entry!('koohbanani2021self',
+  article('IEEE Transactions on Medical Imaging', 2021, 1),
+  title('Self-Path: Self-supervision for Classification of Pathology Images with Limited Annotations'),
+  author('Navid Alemi Koohbanani and Balagopal Unnikrishnan and Syed Ali Khurram and Pavitra Krishnaswamy and Nasir Rajpoot'),
+  publisher('IEEE'),
+)
+
+entry!('shaw2020teacher',
+  arxiv(2020, '2003.08797'),
+  title('Teacher-student chain for efficient semi-supervised histology image classification'),
+  author('Shayne Shaw and Maciej Pajak and Aneta Lisowska and Sotirios A Tsaftaris and Alison Q O\'Neil'),
+)
+
+entry!('akram2018leveraging',
+  article('Computational Pathology and Ophthalmic Medical Image Analysis', 2018, 1),
+  title('Leveraging unlabeled whole-slide-images for mitosis detection'),
+  author('Saad Ullah Akram and Talha Qaiser and Simon Graham and Juho Kannala and Janne Heikkil{\"a} and Nasir Rajpoot
+'),
+  pages(69, 77),
+  publisher('Springer'),
 )
