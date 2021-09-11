@@ -1,6 +1,14 @@
 ############################################################
 # 2021
 
+entry!('hewitt2021conditional',
+  title('Conditional probing: Measuring usable information beyond a baseline'),
+  author('John Hewitt and Kawin Ethayarajh and Percy Liang and Christopher D. Manning'),
+  emnlp(2021),
+  url('#'),
+  codalab('0x46190ef741004a43a2676a3b46ea0c76'),
+)
+
 entry!('castellon2021calm',
   title('Codified audio language modeling learns useful representations for music information retrieval'),
   author('Rodrigo Castellon and Chris Donahue and Percy Liang'),
