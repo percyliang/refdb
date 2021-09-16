@@ -2369,8 +2369,8 @@ entry!('courtiol2019deep',
 )
 
 entry!('hu2020open',
-  arxiv(2020, '2005.00687'),
-  title('Open graph benchmark: Datasets for machine learning on graphs'),
+  neurips(2020),
+  title('{Open Graph Benchmark}: Datasets for machine learning on graphs'),
   author('Weihua Hu and Matthias Fey and Marinka Zitnik and Yuxiao Dong and Hongyu Ren and Bowen Liu and Michele Catasta and Jure Leskovec'),
 )
 
