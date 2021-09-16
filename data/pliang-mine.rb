@@ -2,7 +2,7 @@
 # 2021
 
 entry!('yasunaga2021language',
-  title('LM-Critic: Language Models for Unsupervised Grammatical Error Correction'),
+  title('{LM-Critic}: Language Models for Unsupervised Grammatical Error Correction'),
   author('Michihiro Yasunaga and Jure Leskovec and Percy Liang'),
   emnlp(2021),
   url('https://arxiv.org/pdf/2109.06822.pdf'),
