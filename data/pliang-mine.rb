@@ -1,6 +1,22 @@
 ############################################################
 # 2021
 
+entry!('yasunaga2021language',
+  title('LM-Critic: Language Models for Unsupervised Grammatical Error Correction'),
+  author('Michihiro Yasunaga and Jure Leskovec and Percy Liang'),
+  emnlp(2021),
+  url('https://arxiv.org/pdf/2109.06822.pdf'),
+  codalab('0x94456a63e1ee4ccfaabdc7f6a356cc82'),
+)
+
+entry!('hewitt2021conditional',
+  title('Conditional probing: Measuring usable information beyond a baseline'),
+  author('John Hewitt and Kawin Ethayarajh and Percy Liang and Christopher D. Manning'),
+  emnlp(2021),
+  url('#'),
+  codalab('0x46190ef741004a43a2676a3b46ea0c76'),
+)
+
 entry!('castellon2021calm',
   title('Codified audio language modeling learns useful representations for music information retrieval'),
   author('Rodrigo Castellon and Chris Donahue and Percy Liang'),
