@@ -2922,3 +2922,32 @@ entry!('akram2018leveraging',
   pages(69, 77),
   publisher('Springer'),
 )
+
+entry!('zhang2019bridging',
+  icml(2019),
+  title('Bridging theory and algorithm for domain adaptation'),
+  author('Yuchen Zhang and Tianle Liu and Mingsheng Long and Michael Jordan'),
+  pages(7404, 7413),
+  organization('PMLR'),
+)
+
+entry!('long2018conditional',
+  neurips(2018),
+  title('Conditional Adversarial Domain Adaptation'),
+  author('Mingsheng Long and Zhangjie Cao and Jianmin Wang and Michael I Jordan'),
+)
+
+entry!('saito2018maximum',
+  inproceedings('Proceedings of the IEEE conference on computer vision and pattern recognition', 2018),
+  title('Maximum classifier discrepancy for unsupervised domain adaptation'),
+  author('Kuniaki Saito and Kohei Watanabe and Yoshitaka Ushiku and Tatsuya Harada'),
+  pages(3723, 3732),
+)
+
+entry!('long2017deep',
+  inproceedings('International conference on machine learning', 2017),
+  title('Deep transfer learning with joint adaptation networks'),
+  author('Mingsheng Long and Han Zhu and Jianmin Wang and Michael I Jordan'),
+  pages(2208, 2217),
+  organization('PMLR'),
+)
