@@ -135,3 +135,9 @@ entry!('rolnick2019tackling',
           and others'),
   arxiv(2019, '1906.05433'),
 )
+
+entry!('haochen2021spectral',
+  author('Jeff Z. HaoChen and Colin Wei and Adrien Gaidon and Tengyu Ma'),
+  title('Provable guarantees for self-supervised deep learning with spectral contrastive loss'),
+  arxiv(2021, '2106.04156'),
+)
