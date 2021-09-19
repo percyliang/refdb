@@ -497,5 +497,10 @@ entry!('github2021repos',
        howpublished('\url{https://github.com/search?q=is:public}'),
        year(2021),
        )
+entry!('reed2021self',
+       author('Colorado J. Reed and Xiangyu Yue and Ani Nrusimha and Sayna Ebrahimi and Vivek Vijaykumar and Richard Mao and Bo Li and Shanghang Zhang and Devin Guillory and Sean Metzger and Kurt Keutzer and Trevor Darrell'),
+       title('Self-Supervised Pretraining Improves Self-Supervised Pretraining'),
+  arxiv(2021)
+      )
 
 
