@@ -10,10 +10,10 @@ entry!('yasunaga2021language',
 )
 
 entry!('hewitt2021conditional',
-  title('Conditional probing: Measuring usable information beyond a baseline'),
+  title('Conditional probing: measuring usable information beyond a baseline'),
   author('John Hewitt and Kawin Ethayarajh and Percy Liang and Christopher D. Manning'),
   emnlp(2021),
-  url('#'),
+  url('https://arxiv.org/pdf/2109.09234.pdf'),
   codalab('0x46190ef741004a43a2676a3b46ea0c76'),
 )
 
