@@ -10,3 +10,9 @@ entry!('cubuk2020randaugment',
   author('Ekin D Cubuk and Barret Zoph and Jonathon Shlens and Quoc V Le'),
   pages(702, 703),
 )
+
+entry!('zhang2021semi',
+  arxiv(2021, '2106.00417'),
+  title('Semi-supervised Models are Strong Unsupervised Domain Adaptation Learners'),
+  author('Yabin Zhang and Haojian Zhang and Bin Deng and Shuai Li and Kui Jia and Lei Zhang'),
+)
