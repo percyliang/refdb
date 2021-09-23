@@ -2951,3 +2951,35 @@ entry!('long2017deep',
   pages(2208, 2217),
   organization('PMLR'),
 )
+
+entry!('abid2021persistent',
+  arxiv(2021, '2101.05783'),
+  title('Persistent anti-muslim bias in large language models'),
+  author('Abubakar Abid and Maheen Farooqi and James Zou'),
+)
+
+entry!('nadeem2020stereoset',
+  arxiv(2020, '2004.09456'),
+  title('Stereoset: Measuring stereotypical bias in pretrained language models'),
+  author('Moin Nadeem and Anna Bethke and Siva Reddy'),
+)
+
+entry!('gehman2020realtoxicityprompts',
+  arxiv(2020, '2009.11462'),
+  title('Realtoxicityprompts: Evaluating neural toxic degeneration in language models'),
+  author('Samuel Gehman and Suchin Gururangan and Maarten Sap and Yejin Choi and Noah A Smith'),
+)
+
+entry!('tu2020empirical',
+  tacl(2020, 8),
+  title('An empirical study on robustness to spurious correlations using pre-trained language models'),
+  author('Lifu Tu and Garima Lalwani and Spandana Gella and He He'),
+  pages(621, 633),
+  publisher('MIT Press'),
+)
+
+entry!('gururangan2020don',
+  arxiv(2020, '2004.10964'),
+  title('Don\'t stop pretraining: adapt language models to domains and tasks'),
+  author('Suchin Gururangan and Ana Marasovi{\\\'c} and Swabha Swayamdipta and Kyle Lo and Iz Beltagy and Doug Downey and Noah A Smith'),
+)
