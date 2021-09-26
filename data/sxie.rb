@@ -503,4 +503,27 @@ entry!('reed2021self',
   arxiv(2021)
       )
 
+entry!('wei2021finetuned',
+       author('Jason Wei and Maarten Bosma and Vincent Y. Zhao and Kelvin Guu and Adams Wei Yu and Brian Lester and Nan Du and Andrew M. Dai and Quoc V. Le'),
+       title('Finetuned Language Models Are Zero-Shot Learners'),
+  arxiv(2021)
+      )
+
+entry!('gao2021making',
+       author('Tianyu Gao and Adam Fisch and Danqi Chen'),
+       title('Making Pre-trained Language Models Better Few-shot Learners'),
+  arxiv(2021)
+      )
+
+entry!('kleijn2012bernstein',
+       author('B.J.K. Kleijn and A.W. van der Vaart'),
+       title('The {Bernstein}-von Mises theorem under misspecification'),
+  article('Electronic Journal of Statistics', 2012, 6),
+      )
+
+entry!('wei2021why',
+       author('Colin Wei and Sang Michael Xie and Tengyu Ma'),
+       title('Why Do Pretrained Language Models Help in Downstream Tasks? An Analysis of Head and Prompt Tuning'),
+  arxiv(2021)
+      )
 
