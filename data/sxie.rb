@@ -527,3 +527,8 @@ entry!('wei2021why',
   arxiv(2021)
       )
 
+entry!('rong2021extrapolating',
+  author('Frieda Rong'),
+  title("Extrapolating to Unnatural Language Processing with {GPT-3}'s In-context Learning: The Good, the Bad, and the Mysterious"),
+url('http://ai.stanford.edu/blog/in-context-learning/'),
+  [type('misc'), year(2021)],)
