@@ -532,3 +532,16 @@ entry!('rong2021extrapolating',
   title("Extrapolating to Unnatural Language Processing with {GPT-3}'s In-context Learning: The Good, the Bad, and the Mysterious"),
 url('http://ai.stanford.edu/blog/in-context-learning/'),
   [type('misc'), year(2021)],)
+
+entry!('pires2016multiclass',
+       author('Bernardo Ávila Pires and Csaba Szepesvári'),
+       title('Multiclass Classification Calibration Functions'),
+  arxiv(2016)
+      )
+
+entry!('steinwart2007how',
+       author('Ingo Steinwart'),
+       title('How to Compare Different Loss Functions and Their Risks'),
+  article('Constructive Approximation', 2007, 26),
+      )
+
