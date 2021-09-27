@@ -834,3 +834,15 @@ entry!('creager2021environment',
   pages(2189, 2200),
   organization('PMLR'),
 )
+
+entry!('utama2020towards',
+  arxiv(2020, '2009.12303'),
+  title('Towards debiasing {NLU} models from unknown biases'),
+  author('Prasetya Ajie Utama and Nafise Sadat Moosavi and Iryna Gurevych'),
+)
+
+entry!('yaghoobzadeh2019increasing',
+  arxiv(2019, '1911.03861'),
+  title('Increasing Robustness to Spurious Correlations using Forgettable Examples'),
+  author('Yadollah Yaghoobzadeh and Soroush Mehri and Remi Tachet and Timothy J Hazen and Alessandro Sordoni'),
+)
