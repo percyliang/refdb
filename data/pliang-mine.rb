@@ -41,14 +41,14 @@ entry!('davis2021catformer',
 
 entry!('liu2021jtt',
   title('Just Train Twice: Improving Group Robustness without Training Group Information'),
-  author('Evan Liu and Behzad Haghgoo and Annie Chen and Aditi Raghunathan and Pang Wei Koh and Shiori Sagawa and Percy Liang and Chelsea Finn'),
+  author('Evan Zheran Liu and Behzad Haghgoo and Annie S. Chen and Aditi Raghunathan and Pang Wei Koh and Shiori Sagawa and Percy Liang and Chelsea Finn'),
   icml(2021),
   url('https://arxiv.org/pdf/2107.09044.pdf'),
 )
 
 entry!('liu2021dream',
   title('Decoupling Exploration and Exploitation for Meta-Reinforcement Learning without Sacrifices'),
-  author('Evan Liu and Aditi Raghunathan and Percy Liang and Chelsea Finn'),
+  author('Evan Zheran Liu and Aditi Raghunathan and Percy Liang and Chelsea Finn'),
   icml(2021),
   url('https://arxiv.org/pdf/2008.02790.pdf'),
 )
@@ -498,7 +498,7 @@ entry!('he2018negotiation',
 
 entry!('pasupat2018elements',
   title('Mapping Natural Language Commands to Web Elements'),
-  author('Panupong Pasupat and Tian-Shun Jiang and Evan Liu and Kelvin Guu and Percy Liang'),
+  author('Panupong Pasupat and Tian-Shun Jiang and Evan Zheran Liu and Kelvin Guu and Percy Liang'),
   emnlp(2018),
   url('https://arxiv.org/pdf/1808.09132.pdf'),
   note('Short paper.'),
