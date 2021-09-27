@@ -26,3 +26,30 @@ entry!('wang2021cdcl',
   author('Rui Wang and Zuxuan Wu and Zejia Weng and Jingjing Chen and Guo-Jun Qi and Yu-Gang Jiang'),
   arxiv(2021),
 )
+
+entry!('radford2021clip',
+  icml(2021),
+  title('Learning Transferable Visual Models From Natural Language Supervision'),
+  author('Alec Radford and Jong Wook Kim and Chris Hallacy and Aditya Ramesh and Gabriel Goh and Sandhini Agarwal and Girish Sastry and Amanda Askell and Pamela Mishkin and Jack Clark and Gretchen Krueger and Ilya Sutskever'),
+  pages(8748, 8763),
+  editor('Meila, Marina and Zhang, Tong'),
+  volume(139),
+  #series('Proceedings of Machine Learning Research'),
+  #month('18--24 Jul'),
+  publisher('PMLR'),
+  #pdf('http://proceedings.mlr.press/v139/radford21a/radford21a.pdf'),
+  url('https://proceedings.mlr.press/v139/radford21a.html'),
+)
+
+entry!('he2020moco',
+  cvpr(2020),
+  author('Kaiming He and Haoqi Fan and Yuxin Wu and Saining Xie and Ross Girshick'),
+  title('Momentum Contrast for Unsupervised Visual Representation Learning'),
+  #month('June'),
+)
+
+entry!('prabhu2021sentry',
+  author('Viraj Prabhu and Shivam Khare and Deeksha Karthik and Judy Hoffman'),
+  title('Selective Entropy Optimization via Committee Consistency for Unsupervised Domain Adaptation'),
+  iccv(2021),
+)
