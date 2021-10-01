@@ -545,3 +545,10 @@ entry!('steinwart2007how',
   article('Constructive Approximation', 2007, 26),
       )
 
+entry!('chiu2020scaling',
+       author('Justin T. Chiu and Alexander M. Rush'),
+       title('Scaling Hidden {Markov} Language Models'),
+       emnlp(2020),
+      )
+
+
