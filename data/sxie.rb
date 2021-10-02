@@ -551,4 +551,15 @@ entry!('chiu2020scaling',
        emnlp(2020),
       )
 
+entry!('ravi2017metalearning',
+       author('Sachin Ravi and Hugo Larochelle'),
+       title('Optimization as a Model for Few-shot Learning'),
+       iclr(2017),
+      )
+entry!('holtzman2020curious',
+       author('Ari Holtzman and Jan Buys and Li Du and Maxwell Forbes and Yejin Choi'),
+       title('The Curious Case of Neural Text Degeneration'),
+       iclr(2020),
+      )
+
 
