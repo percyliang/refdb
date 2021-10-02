@@ -545,3 +545,21 @@ entry!('steinwart2007how',
   article('Constructive Approximation', 2007, 26),
       )
 
+entry!('chiu2020scaling',
+       author('Justin T. Chiu and Alexander M. Rush'),
+       title('Scaling Hidden {Markov} Language Models'),
+       emnlp(2020),
+      )
+
+entry!('ravi2017metalearning',
+       author('Sachin Ravi and Hugo Larochelle'),
+       title('Optimization as a Model for Few-shot Learning'),
+       iclr(2017),
+      )
+entry!('holtzman2020curious',
+       author('Ari Holtzman and Jan Buys and Li Du and Maxwell Forbes and Yejin Choi'),
+       title('The Curious Case of Neural Text Degeneration'),
+       iclr(2020),
+      )
+
+

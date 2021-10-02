@@ -16,3 +16,12 @@ entry!('zhang2021semi',
   title('Semi-supervised Models are Strong Unsupervised Domain Adaptation Learners'),
   author('Yabin Zhang and Haojian Zhang and Bin Deng and Shuai Li and Kui Jia and Lei Zhang'),
 )
+
+entry!('jiang2020tll',
+  author('Junguang Jiang and Baixu Chen and Bo Fu and Mingsheng Long'),
+  title('Transfer Learning library'),
+  year(2020),
+  type('misc'),
+  #journal('GitHub repository'),
+  howpublished('\url{https://github.com/thuml/Transfer-Learning-Library}'),
+)
