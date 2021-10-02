@@ -141,3 +141,10 @@ entry!('haochen2021spectral',
   title('Provable guarantees for self-supervised deep learning with spectral contrastive loss'),
   arxiv(2021, '2106.04156'),
 )
+
+entry!('madrylab2019robustnesslib',
+  author('Logan Engstrom and Andrew Ilyas and Hadi Salman and Shibani Santurkar and Dimitris Tsipras'),
+  title('Robustness (Python Library)'),
+  type('misc'), year(2019),
+  howpublished('\url{https://github.com/MadryLab/robustness}'),
+)
