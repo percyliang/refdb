@@ -148,3 +148,13 @@ entry!('madrylab2019robustnesslib',
   type('misc'), year(2019),
   howpublished('\url{https://github.com/MadryLab/robustness}'),
 )
+
+entry!('coates2011stl10',
+  author('Adam Coates and Andrew Ng and Honlak Lee'),
+  title('An analysis of single-layer networks in unsupervised feature learning'),
+  inproceedings('Proceedings of the Fourteenth International Conference on Artificial Intelligence and Statistics', 2011),
+  pages(215, 223), volume(15),
+  editor('Geoffrey Gordon and David Dunson and Miroslav Dudík'),
+  address('Fort Lauderdale, FL, USA'), publisher('PMLR'),
+  url('https://proceedings.mlr.press/v15/coates11a.html'),
+)
