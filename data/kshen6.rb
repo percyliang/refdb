@@ -53,3 +53,10 @@ entry!('prabhu2021sentry',
   title('Selective Entropy Optimization via Committee Consistency for Unsupervised Domain Adaptation'),
   iccv(2021),
 )
+
+entry!('gidaris2018rotation',
+  iclr(2018),
+  title('Unsupervised Representation Learning by Predicting Image Rotations'),
+  author('Spyros Gidaris and Praveer Singh and Nikos Komodakis'),
+  url('https://openreview.net/forum?id=S1v4N2l0-'),
+)
