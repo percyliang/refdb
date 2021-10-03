@@ -571,4 +571,9 @@ entry!('zhao2021calibrate',
        title('Calibrate Before Use: Improving Few-Shot Performance of Language Models'),
        icml(2021),
       )
+entry!('kuhn1994hmm',
+       author('Thomas Kuhn and Heinrich Niemann and Ernst Gunter and Schukat-Talamazzini'),
+       title('Ergodic hidden {markov} models and polygrams for language modeling'),
+       icassp(1994),
+      )
 
