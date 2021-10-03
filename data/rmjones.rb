@@ -158,3 +158,15 @@ entry!('coates2011stl10',
   address('Fort Lauderdale, FL, USA'), publisher('PMLR'),
   url('https://proceedings.mlr.press/v15/coates11a.html'),
 )
+
+entry!('tan2020coal',
+  author('Shuhan Tan and Xingchao Peng and Kate Saenko'),
+  arxiv(2020, '1910.10320'),
+  title('Class-imbalanced Domain Adaptation: An Empirical Odyssey'),
+)
+
+entry!('french2018selfensembling',
+  author('Geoff French and Michal Mackiewicz and Mark Fisher'),
+  inproceedings('International Conference on Learning Representations', 2018),
+  title('Self-ensembling for visual domain adaptation'),
+)
