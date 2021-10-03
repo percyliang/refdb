@@ -92,7 +92,7 @@ entry!('liu2021concur',
 entry!('li2021prefix',
   title('Prefix-Tuning: Optimizing Continuous Prompts for Generation'),
   author('Xiang Lisa Li and Percy Liang'),
-  arxiv(2021),
+  acl(2021),
   url('https://arxiv.org/pdf/2101.00190.pdf'),
 )
 
