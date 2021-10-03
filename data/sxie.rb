@@ -561,5 +561,14 @@ entry!('holtzman2020curious',
        title('The Curious Case of Neural Text Degeneration'),
        iclr(2020),
       )
-
+entry!('jones2004markov',
+            author('Galin L. Jones'),
+       title('On the {Markov} chain central limit theorem'),
+       article('Probability Surveys', 2004, 1),
+      )
+entry!('zhao2021calibrate',
+       author('Tony Z. Zhao and Eric Wallace and Shi Feng and Dan Klein and  Sameer Singh'),
+       title('Calibrate Before Use: Improving Few-Shot Performance of Language Models'),
+       icml(2021),
+      )
 
