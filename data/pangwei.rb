@@ -3027,3 +3027,9 @@ entry!('rong2020self',
   title('Self-supervised graph transformer on large-scale molecular data'),
   author('Yu Rong and Yatao Bian and Tingyang Xu and Weiyang Xie and Ying Wei and Wenbing Huang and Junzhou Huang'),
 )
+
+entry!('robey2021model',
+  arxiv(2021, '2102.11436'),
+  title('Model-Based Domain Generalization'),
+  author('Alexander Robey and George J Pappas and Hamed Hassani'),
+)
