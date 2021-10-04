@@ -3033,3 +3033,9 @@ entry!('robey2021model',
   title('Model-Based Domain Generalization'),
   author('Alexander Robey and George J Pappas and Hamed Hassani'),
 )
+
+entry!('saito2021tune',
+  arxiv(2021, '2108.10860'),
+  title('Tune it the Right Way: Unsupervised Validation of Domain Adaptation via Soft Neighborhood Density'),
+  author('Kuniaki Saito and Donghyun Kim and Piotr Teterwak and Stan Sclaroff and Trevor Darrell and Kate Saenko'),
+)
