@@ -2983,3 +2983,12 @@ entry!('gururangan2020don',
   title('Don\'t stop pretraining: adapt language models to domains and tasks'),
   author('Suchin Gururangan and Ana Marasovi{\\\'c} and Swabha Swayamdipta and Kyle Lo and Iz Beltagy and Doug Downey and Noah A Smith'),
 )
+
+entry!('hull1994database',
+  article('IEEE Transactions on pattern analysis and machine intelligence', 1994, 16),
+  title('A database for handwritten text recognition research'),
+  author('Jonathan J. Hull'),
+  number(5),
+  pages(550, 554),
+  publisher('IEEE'),
+)
