@@ -2992,3 +2992,38 @@ entry!('hull1994database',
   pages(550, 554),
   publisher('IEEE'),
 )
+
+entry!('cordts2016cityscapes',
+  inproceedings('Proceedings of the IEEE conference on computer vision and pattern recognition', 2016),
+  title('The cityscapes dataset for semantic urban scene understanding'),
+  author('Marius Cordts and Mohamed Omran and Sebastian Ramos and Timo Rehfeld and Markus Enzweiler and Rodrigo Benenson and Uwe Franke and Stefan Roth and Bernt Schiele'),
+  pages(3213, 3223),
+)
+
+entry!('chalkidis2020legal',
+  emnlp(2020),
+  title('{LEGAL-BERT}:"Preparing the Muppets for Court"'),
+  author('Ilias Chalkidis and Manos Fergadiotis and Prodromos Malakasiotis and Nikolaos Aletras and Ion Androutsopoulos'),
+  pages(2898, 2904),
+)
+
+entry!('lee2020biobert',
+  article('Bioinformatics', 2020, 36),
+  title('BioBERT: a pre-trained biomedical language representation model for biomedical text mining'),
+  author('Jinhyuk Lee and Wonjin Yoon and Sungdong Kim and Donghyeon Kim and Sunkyu Kim and Chan Ho So and Jaewoo Kang'),
+  number(4),
+  pages(1234, 1240),
+  publisher('Oxford University Press'),
+)
+
+entry!('gu2020domain',
+  arxiv(2020, '2007.15779'),
+  title('Domain-specific language model pretraining for biomedical natural language processing'),
+  author('Yu Gu and Robert Tinn and Hao Cheng and Michael Lucas and Naoto Usuyama and Xiaodong Liu and Tristan Naumann and Jianfeng Gao and Hoifung Poon'),
+)
+
+entry!('rong2020self',
+  arxiv(2020, '2007.02835'),
+  title('Self-supervised graph transformer on large-scale molecular data'),
+  author('Yu Rong and Yatao Bian and Tingyang Xu and Weiyang Xie and Ying Wei and Wenbing Huang and Junzhou Huang'),
+)
