@@ -438,3 +438,21 @@ entry!('zhai2020largescale',
   author('Xiaohua Zhai and Joan Puigcerver and Alexander Kolesnikov and Pierre Ruyssen and Carlos Riquelme and Mario Lucic and Josip Djolonga and Andre Susano Pinto and Maxim Neumann and Alexey Dosovitskiy and Lucas Beyer and Olivier Bachem and Michael Tschannen and Marcin Michalski and Olivier Bousquet and Sylvain Gelly and Neil Houlsby'),
   arxiv(2020),
 )
+
+entry!('kamath2021invariant',
+  title('Does Invariant Risk Minimization Capture Invariance?'),
+  author('Pritish Kamath and Akilesh Tangella and Danica J. Sutherland and Nathan Srebro'),
+  aistats(2021),
+)
+
+entry!('chen2021iterative',
+  title('Iterative Feature Matching: Toward Provable Domain Generalization with Logarithmic Environments'),
+  author('Yining Chen and Elan Rosenfeld and Mark Sellke and Tengyu Ma and Andrej Risteski'),
+  arxiv(2021),
+)
+
+entry!('rosenfeld2021risks',
+  title('The Risks of Invariant Risk Minimization'),
+  author('Elan Rosenfeld and Pradeep Ravikumar and Andrej Risteski'),
+  iclr(2021),
+)
