@@ -438,3 +438,77 @@ entry!('zhai2020largescale',
   author('Xiaohua Zhai and Joan Puigcerver and Alexander Kolesnikov and Pierre Ruyssen and Carlos Riquelme and Mario Lucic and Josip Djolonga and Andre Susano Pinto and Maxim Neumann and Alexey Dosovitskiy and Lucas Beyer and Olivier Bachem and Michael Tschannen and Marcin Michalski and Olivier Bousquet and Sylvain Gelly and Neil Houlsby'),
   arxiv(2020),
 )
+
+entry!('kamath2021invariant',
+  title('Does Invariant Risk Minimization Capture Invariance?'),
+  author('Pritish Kamath and Akilesh Tangella and Danica J. Sutherland and Nathan Srebro'),
+  aistats(2021),
+)
+
+entry!('chen2021iterative',
+  title('Iterative Feature Matching: Toward Provable Domain Generalization with Logarithmic Environments'),
+  author('Yining Chen and Elan Rosenfeld and Mark Sellke and Tengyu Ma and Andrej Risteski'),
+  arxiv(2021),
+)
+
+entry!('rosenfeld2021risks',
+  title('The Risks of Invariant Risk Minimization'),
+  author('Elan Rosenfeld and Pradeep Ravikumar and Andrej Risteski'),
+  iclr(2021),
+)
+
+entry!('ayush2020geography',
+  title('Geography-Aware Self-Supervised Learning'),
+  author('Kumar Ayush and Burak Uzkent and Chenlin Meng and Kumar Tanmay and M. Burke and D. Lobell and Stefano Ermon'),
+  arxiv(2020),
+)
+
+entry!('saxe2014exact',
+  title('Exact solutions to the nonlinear dynamics of learning in deep linear neural networks'),
+  author('Andrew M. Saxe and James L. McClelland and Surya Ganguli'),
+  arxiv(2014),
+)
+
+entry!('gidel2019implicit',
+  title('Implicit Regularization of Discrete Gradient Dynamics in Deep Linear Neural Networks'),
+  author('Gauthier Gidel and Francis R. Bach and Simon Lacoste-Julien'),
+  neurips(2019),
+)
+
+entry!('du2018algorithmic',
+  title('Algorithmic Regularization in Learning Deep Homogeneous Models: Layers are Automatically Balanced'),
+  author('Simon Shaolei Du and Wei Hu and Jason Lee'),
+  neurips(2018),
+)
+
+entry!('cai2021theory',
+  title('A Theory of Label Propagation for Subpopulation Shift'),
+  author('Tianle Cai and Ruiqi Gao and J. Lee and Qi Lei'),
+  icml(2021),
+)
+
+entry!('laurent2018deep',
+  title('Deep linear neural networks with arbitrary loss: All local minima are global'),
+  author('Thomas Laurent and James H. von Brecht'),
+  icml(2018),
+)
+
+entry!('absil2006largest',
+  article('Linear Algebra and its Applications', 2006, 414),
+  author('Pierre Antoine Absil and Alan Edelman and Plamen Koev'),
+  title('On the largest principal angle between random subspaces'),
+  number(1),
+  pages(288, 294),
+)
+
+entry!('wu2021ensemble',
+  title('Should Ensemble Members Be Calibrated?'),
+  author('Xixin Wu and M. Gales'),
+  arxiv(2021),
+)
+
+entry!('stickland2020diverse',
+  title('Diverse Ensembles Improve Calibration'),
+  author('Asa Cooper Stickland and Iain Murray'),
+  arxiv(2020),
+)
