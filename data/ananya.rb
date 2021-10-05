@@ -486,3 +486,17 @@ entry!('cai2021theory',
   author('Tianle Cai and Ruiqi Gao and J. Lee and Qi Lei'),
   icml(2021),
 )
+
+entry!('laurent2018deep',
+  title('Deep linear neural networks with arbitrary loss: All local minima are global'),
+  author('Thomas Laurent and James H. von Brecht'),
+  icml(2018),
+)
+
+entry!('absil2006largest',
+  article('Linear Algebra and its Applications', 2006, 414),
+  author('P. A. Absil and A. Edelman and P. Koev'),
+  title('On the largest principal angle between random subspaces'),
+  number(1),
+  pages(288, 294),
+)
