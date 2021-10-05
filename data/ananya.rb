@@ -500,3 +500,15 @@ entry!('absil2006largest',
   number(1),
   pages(288, 294),
 )
+
+entry!('wu2021ensemble',
+  title('Should Ensemble Members Be Calibrated?'),
+  author('Xixin Wu and M. Gales'),
+  arxiv(2021),
+)
+
+entry!('stickland2020diverse',
+  title('Diverse Ensembles Improve Calibration'),
+  author('Asa Cooper Stickland and Iain Murray'),
+  arxiv(2020),
+)
