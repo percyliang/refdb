@@ -456,3 +456,33 @@ entry!('rosenfeld2021risks',
   author('Elan Rosenfeld and Pradeep Ravikumar and Andrej Risteski'),
   iclr(2021),
 )
+
+entry!('ayush2020geography',
+  title('Geography-Aware Self-Supervised Learning'),
+  author('Kumar Ayush and Burak Uzkent and Chenlin Meng and Kumar Tanmay and M. Burke and D. Lobell and Stefano Ermon'),
+  arxiv(2020),
+)
+
+entry!('saxe2014exact',
+  title('Exact solutions to the nonlinear dynamics of learning in deep linear neural networks'),
+  author('Andrew M. Saxe and James L. McClelland and Surya Ganguli'),
+  arxiv(2014),
+)
+
+entry!('gidel2019implicit',
+  title('Implicit Regularization of Discrete Gradient Dynamics in Deep Linear Neural Networks'),
+  author('Gauthier Gidel and Francis R. Bach and Simon Lacoste-Julien'),
+  neurips(2019),
+)
+
+entry!('du2018algorithmic',
+  title('Algorithmic Regularization in Learning Deep Homogeneous Models: Layers are Automatically Balanced'),
+  author('Simon Shaolei Du and Wei Hu and Jason Lee'),
+  neurips(2018),
+)
+
+entry!('cai2021theory',
+  title('A Theory of Label Propagation for Subpopulation Shift'),
+  author('Tianle Cai and Ruiqi Gao and J. Lee and Qi Lei'),
+  icml(2021),
+)
