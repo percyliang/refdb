@@ -702,12 +702,6 @@ entry!('belinkov2017neural',
   pages(861, 872),
 )
 
-entry!('zhai2019large',
-  arxiv(2019, '1910.04867'),
-  title('A large-scale study of representation learning with the visual task adaptation benchmark'),
-  author('Xiaohua Zhai and Joan Puigcerver and Alexander Kolesnikov and Pierre Ruyssen and Carlos Riquelme and Mario Lucic and Josip Djolonga and Andre Susano Pinto and Maxim Neumann and Alexey Dosovitskiy and others'),
-)
-
 entry!('peters2019tune',
   inproceedings('Proceedings of the 4th Workshop on Representation Learning for NLP (RepL4NLP-2019)', 2019),
   title('To Tune or Not to Tune? Adapting Pretrained Representations to Diverse Tasks'),
@@ -732,13 +726,6 @@ entry!('zhou2021learning',
   title('Learning to Prompt for Vision-Language Models'),
   author('Kaiyang Zhou and Jingkang Yang and Chen Change Loy and Ziwei Liu'),
 )
-
-entry!('andreassen2021evolution',
-  arxiv(2021, '2106.15831'),
-  title('The evolution of out-of-distribution robustness throughout fine-tuning'),
-  author('Anders Andreassen and Yasaman Bahri and Behnam Neyshabur and Rebecca Roelofs'),
-)
-
 entry!('wortsman2021robust',
   arxiv(2021, '2109.01903'),
   title('Robust fine-tuning of zero-shot models'),
