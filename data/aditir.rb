@@ -653,3 +653,100 @@ entry!('danskin1966theory',
   year(1966),
   article('SIAM Journal on Applied Math', 1966), 
 )
+
+entry!('agrawal2014analyzing',
+  inproceedings('European conference on computer vision', 2014),
+  title('Analyzing the performance of multilayer neural networks for object recognition'),
+  author('Pulkit Agrawal and Ross Girshick and Jitendra Malik'),
+  pages(329, 344),
+  organization('Springer'),
+)
+
+entry!('chatfield2014return',
+  arxiv(2014, '1405.3531'),
+  title('Return of the devil in the details: Delving deep into convolutional nets'),
+  author('Ken Chatfield and Karen Simonyan and Andrea Vedaldi and Andrew Zisserman'),
+)
+
+entry!('girshick2014rich',
+  inproceedings('Proceedings of the IEEE conference on computer vision and pattern recognition', 2014),
+  title('Rich feature hierarchies for accurate object detection and semantic segmentation'),
+  author('Ross Girshick and Jeff Donahue and Trevor Darrell and Jitendra Malik'),
+  pages(580, 587),
+)
+
+entry!('yosinski2014transferable',
+  neurips(2014), 
+  title('How transferable are features in deep neural networks?'),
+  author('Jason Yosinski and Jeff Clune and Yoshua Bengio and Hod Lipson'),
+)
+
+entry!('chu2016best',
+  inproceedings('European conference on computer vision', 2016),
+  title('Best practices for fine-tuning visual classifiers to new domains'),
+  author('Brian Chu and Vashisht Madhavan and Oscar Beijbom and Judy Hoffman and Trevor Darrell'),
+  pages(435, 442),
+  organization('Springer'),
+)
+
+entry!('chen2021empirical',
+  arxiv(2021, '2104.02057'),
+  title('An empirical study of training self-supervised vision transformers'),
+  author('Xinlei Chen and Saining Xie and Kaiming He'),
+)
+
+entry!('belinkov2017neural',
+  acl(2017),
+  title('What do Neural Machine Translation Models Learn about Morphology?'),
+  author('Yonatan Belinkov and Nadir Durrani and Fahim Dalvi and Hassan Sajjad and James Glass'),
+  pages(861, 872),
+)
+
+entry!('zhai2019large',
+  arxiv(2019, '1910.04867'),
+  title('A large-scale study of representation learning with the visual task adaptation benchmark'),
+  author('Xiaohua Zhai and Joan Puigcerver and Alexander Kolesnikov and Pierre Ruyssen and Carlos Riquelme and Mario Lucic and Josip Djolonga and Andre Susano Pinto and Maxim Neumann and Alexey Dosovitskiy and others'),
+)
+
+entry!('peters2019tune',
+  inproceedings('Proceedings of the 4th Workshop on Representation Learning for NLP (RepL4NLP-2019)', 2019),
+  title('To Tune or Not to Tune? Adapting Pretrained Representations to Diverse Tasks'),
+  author('Matthew E Peters and Sebastian Ruder and Noah A Smith'),
+  pages(7, 14),
+)
+
+entry!('lester2021power',
+  arxiv(2021, '2104.08691'),
+  title('The power of scale for parameter-efficient prompt tuning'),
+  author('Brian Lester and Rami Al-Rfou and Noah Constant'),
+)
+
+entry!('utama2021avoiding',
+  arxiv(2021, '2109.04144'),
+  title('Avoiding Inference Heuristics in Few-shot Prompt-based Finetuning'),
+  author('Prasetya Ajie Utama and Nafise Sadat Moosavi and Victor Sanh and Iryna Gurevych'),
+)
+
+entry!('zhou2021learning',
+  arxiv(2021, '2109.01134'),
+  title('Learning to Prompt for Vision-Language Models'),
+  author('Kaiyang Zhou and Jingkang Yang and Chen Change Loy and Ziwei Liu'),
+)
+
+entry!('andreassen2021evolution',
+  arxiv(2021, '2106.15831'),
+  title('The evolution of out-of-distribution robustness throughout fine-tuning'),
+  author('Anders Andreassen and Yasaman Bahri and Behnam Neyshabur and Rebecca Roelofs'),
+)
+
+entry!('wortsman2021robust',
+  arxiv(2021, '2109.01903'),
+  title('Robust fine-tuning of zero-shot models'),
+  author('Mitchell Wortsman and Gabriel Ilharco and Mike Li and Jong Wook Kim and Hannaneh Hajishirzi and Ali Farhadi and Hongseok Namkoong and Ludwig Schmidt'),
+)
+
+entry!('chua2021fine',
+  arxiv(2021, '2105.02221'),
+  title('How fine-tuning allows for effective meta-learning'),
+  author('Kurtland Chua and Qi Lei and Jason D Lee'),
+)
