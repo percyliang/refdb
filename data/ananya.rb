@@ -414,3 +414,45 @@ entry!('hsu2012random',
   author('Daniel Hsu and Sham M. Kakade and Tong Zhang'),
   colt(2012),
 )
+
+entry!('chen2020improved',
+  title('Improved Baselines with Momentum Contrastive Learning'),
+  author('Xinlei Chen and Haoqi Fan and Ross B. Girshick and Kaiming He'),
+  arxiv(2020),
+)
+
+entry!('yu2020bdd',
+  title('BDD100K: A Diverse Driving Dataset for Heterogeneous Multitask Learning'),
+  author('Fisher Yu and Haofeng Chen and Xin Wang and Wenqi Xian and Yingying Chen and Fangchen Liu and Vashisht Madhavan and Trevor Darrell'),
+  cvpr(2020),
+)
+
+entry!('andreassen2021evolution',
+  title('The Evolution of Out-of-Distribution Robustness Throughout Fine-Tuning'),
+  author('Anders Andreassen and Yasaman Bahri and Behnam Neyshabur and Rebecca Roelofs'),
+  arxiv(2021),
+)
+
+entry!('zhai2020largescale',
+  title('A Large-scale Study of Representation Learning with the Visual Task Adaptation Benchmark'),
+  author('Xiaohua Zhai and Joan Puigcerver and Alexander Kolesnikov and Pierre Ruyssen and Carlos Riquelme and Mario Lucic and Josip Djolonga and Andre Susano Pinto and Maxim Neumann and Alexey Dosovitskiy and Lucas Beyer and Olivier Bachem and Michael Tschannen and Marcin Michalski and Olivier Bousquet and Sylvain Gelly and Neil Houlsby'),
+  arxiv(2020),
+)
+
+entry!('kamath2021invariant',
+  title('Does Invariant Risk Minimization Capture Invariance?'),
+  author('Pritish Kamath and Akilesh Tangella and Danica J. Sutherland and Nathan Srebro'),
+  aistats(2021),
+)
+
+entry!('chen2021iterative',
+  title('Iterative Feature Matching: Toward Provable Domain Generalization with Logarithmic Environments'),
+  author('Yining Chen and Elan Rosenfeld and Mark Sellke and Tengyu Ma and Andrej Risteski'),
+  arxiv(2021),
+)
+
+entry!('rosenfeld2021risks',
+  title('The Risks of Invariant Risk Minimization'),
+  author('Elan Rosenfeld and Pradeep Ravikumar and Andrej Risteski'),
+  iclr(2021),
+)
