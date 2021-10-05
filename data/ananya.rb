@@ -495,7 +495,7 @@ entry!('laurent2018deep',
 
 entry!('absil2006largest',
   article('Linear Algebra and its Applications', 2006, 414),
-  author('P. A. Absil and A. Edelman and P. Koev'),
+  author('Pierre-Antoine Absil and Alan Edelman and ‪Plamen Koev'),
   title('On the largest principal angle between random subspaces'),
   number(1),
   pages(288, 294),
