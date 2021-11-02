@@ -1292,7 +1292,7 @@ entry!('andreas2020geca',
 )
 
 #######################################################################################################################
-###                      CoRL 2021 (Submission) - LILA: Language-Informed Latent Actions                            ###
+###                           CoRL 2021 - LILA: Language-Informed Latent Actions                                    ###
 #######################################################################################################################
 
 entry!('khatib1987osc',
@@ -1365,10 +1365,57 @@ entry!('ku2020rxr',
   author('Alexander Ku and Peter Anderson and Roma Patel and Eugene Ie and Jason Baldridge'),
 )
 
+entry!('schaff2020residual',
+  rss(2020),
+  title('Residual Policy Learning for Shared Autonomy'),
+  author('Charles B. Schaff and Matthew R. Walter'),
+)
+
 entry!('karamcheti2021vla',
   l4dc(2021),
   title('Learning Visually Guided Latent Actions for Assistive Teleoperation'),
   author('Siddharth Karamcheti and A. Zhai and Dylan P. Losey and Dorsa Sadigh'),
+)
+
+### Rebuttal
+
+entry!('matuszek2014unscripted',
+  aaai(2014),
+  title('Learning from Unscripted Deictic Gesture and Language for Human-Robot Interactions'),
+  author('Cynthia Matuszek and Liefeng Bo and Luke Zettlemoyer and D. Fox'),
+)
+
+entry!('kollar2013towards',
+  rss(2013),
+  title('Toward Interactive Grounded Language Acqusition'),
+  author('T. Kollar and J. Krishnamurthy and Grant P. Strimel'),
+)
+
+entry!('kennington2013situated',
+  inproceedings('SIGDIAL Conference', 2013),
+  title('Interpreting Situated Dialogue Utterances: an Update Model that Uses Speech, Gaze, and Gesture Information'),
+  author('C. Kennington and Spyros Kousidis and David Schlangen'),
+)
+
+entry!('whitney2016multimodal',
+  icra(2016),
+  title('Interpreting multimodal referring expressions in real time'),
+  author('David Whitney and Miles Eldon and John G. Oberlin and Stefanie Tellex'),
+  pages(3331, 3338),
+)
+
+entry!('duvallet2013imitation',
+  title('Imitation learning for natural language direction following through unknown environments'),
+  author('Felix Duvallet and T. Kollar and A. Stentz'),
+  icra(2013),
+  pages(1047, 1053),
+)
+
+entry!('losey2021latentactions',
+  title('Learning latent actions to control assistive robots'),
+  author('Dylan P. Losey and Hong Jun Jeon and Mengxi Li and Krishna Parasuram Srinivasan and Ajay Mandlekar and Animesh Garg and Jeannette Bohg and Dorsa Sadigh'),
+  auro(2021),
+  pages(1, 33),
 )
 
 #######################################################################################################################

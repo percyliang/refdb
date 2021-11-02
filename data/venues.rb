@@ -99,6 +99,7 @@ def ijsr(year, volume); article(Name.new('International Journal of Social Roboti
 def ral(year, volume); article(Name.new('IEEE Robotics and Automation Letters', 'RA-L'), year, volume) end
 def ram(year, volume); article(Name.new('IEEE Robotics \& Automation Magazine', 'RAM'), year, volume) end
 def tro(year, volume); article(Name.new('IEEE Transactions on Robotics', 'T-RO'), year, volume) end
+def auro(year); article(Name.new('Autonomous Robots', 'AURO'), year) end
 
 ### Human-robot interaction & assistive robotics
 def hri(year); inproceedings(Name.new('ACM/IEEE International Conference on Human Robot Interaction', 'HRI'), year) end
