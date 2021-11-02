@@ -1844,14 +1844,14 @@ entry!('veeling2018rotation',
 )
 
 entry!('tellez2019quantifying',
-  article('Medical image analysis', 2019, 58),
+  article('Medical Image Analysis', 2019, 58),
   title('Quantifying the effects of data augmentation and stain color normalization in convolutional neural networks for computational pathology'),
   author('David Tellez and Geert Litjens and P{\\\'e}ter B{\\\'a}ndi and Wouter Bulten and John-Melle Bokhorst and Francesco Ciompi and Jeroen van der Laak'),
   publisher('Elsevier'),
 )
 
 entry!('bandi2018detection',
-  article('IEEE transactions on medical imaging', 2018, 38),
+  article('IEEE Transactions on Medical Imaging', 2018, 38),
   title('From detection of individual metastases to classification of lymph node status at the patient level: the {CAMELYON17} challenge'),
   author('Peter Bandi and Oscar Geessink and Quirine Manson and Marcory Van Dijk and Maschenka Balkenhol and Meyke Hermsen and Babak Ehteshami Bejnordi and Byungjae Lee and Kyunghyun Paeng and Aoxiao Zhong and others'),
   number(2),
@@ -2369,8 +2369,8 @@ entry!('courtiol2019deep',
 )
 
 entry!('hu2020open',
-  arxiv(2020, '2005.00687'),
-  title('Open graph benchmark: Datasets for machine learning on graphs'),
+  neurips(2020),
+  title('{Open Graph Benchmark}: Datasets for machine learning on graphs'),
   author('Weihua Hu and Matthias Fey and Marinka Zitnik and Yuxiao Dong and Hongyu Ren and Bowen Liu and Michele Catasta and Jure Leskovec'),
 )
 
@@ -2850,4 +2850,198 @@ entry!('finlayson2021clinician',
   number(3),
   pages(283, 286),
   #doi('10.1056/NEJMc2104626'),
+)
+
+entry!('ciga2020self',
+  arxiv(2020, '2011.13971'),
+  title('Self supervised contrastive learning for digital histopathology'),
+  author('Ozan Ciga and Anne L Martel and Tony Xu'),
+)
+
+entry!('azizi2021big',
+  arxiv(2021, '2101.05224'),
+  title('Big self-supervised models advance medical image classification'),
+  author('Shekoofeh Azizi and Basil Mustafa and Fiona Ryan and Zachary Beaver and Jan Freyberg and Jonathan Deaton and Aaron Loh and Alan Karthikesalingam and Simon Kornblith and Ting Chen and others'),
+)
+
+entry!('ren2018adversarial',
+  inproceedings('International Conference on Medical Image Computing and Computer-Assisted Intervention', 2018),
+  title('Adversarial domain adaptation for classification of prostate histopathology whole-slide images'),
+  author('Jian Ren and Ilker Hacihaliloglu and Eric A Singer and David J Foran and Xin Qi'),
+  pages(201, 209),
+  organization('Springer'),
+)
+
+entry!('peikari2018cluster',
+  article('Scientific reports', 2018, 8),
+  title('A cluster-then-label semi-supervised learning approach for pathology image classification'),
+  author('Mohammad Peikari and Sherine Salama and Sharon Nofech-Mozes and Anne L Martel'),
+  number(1),
+  pages(1, 13),
+  publisher('Nature Publishing Group'),
+)
+
+entry!('lu2019semi',
+  arxiv(2019, '1910.10825'),
+  title('Semi-supervised histology classification using deep multiple instance learning and contrastive predictive coding'),
+  author('Ming Y Lu and Richard J Chen and Jingwen Wang and Debora Dillon and Faisal Mahmood'),
+)
+
+entry!('zhang2019whole',
+  inproceedings('International Conference on Medical Image Computing and Computer-Assisted Intervention', 2019),
+  title('From whole slide imaging to microscopy: Deep microscopy adaptation network for histopathology cancer image classification'),
+  author('Yifan Zhang and Hanbo Chen and Ying Wei and Peilin Zhao and Jiezhang Cao and Xinjuan Fan and Xiaoying Lou and Hailing Liu and Jinlong Hou and Xiao Han and others'),
+  pages(360, 368),
+  organization('Springer'),
+)
+
+entry!('dehaene2020self',
+  arxiv(2020, '2012.03583'),
+  title('Self-Supervision Closes the Gap Between Weak and Strong Supervision in Histology'),
+  author('Olivier Dehaene and Axel Camara and Olivier Moindrot and Axel de Lavergne and Pierre Courtiol'),
+)
+
+entry!('koohbanani2021self',
+  article('IEEE Transactions on Medical Imaging', 2021, 1),
+  title('Self-Path: Self-supervision for Classification of Pathology Images with Limited Annotations'),
+  author('Navid Alemi Koohbanani and Balagopal Unnikrishnan and Syed Ali Khurram and Pavitra Krishnaswamy and Nasir Rajpoot'),
+  publisher('IEEE'),
+)
+
+entry!('shaw2020teacher',
+  arxiv(2020, '2003.08797'),
+  title('Teacher-student chain for efficient semi-supervised histology image classification'),
+  author('Shayne Shaw and Maciej Pajak and Aneta Lisowska and Sotirios A Tsaftaris and Alison Q O\'Neil'),
+)
+
+entry!('akram2018leveraging',
+  article('Computational Pathology and Ophthalmic Medical Image Analysis', 2018, 1),
+  title('Leveraging unlabeled whole-slide-images for mitosis detection'),
+  author('Saad Ullah Akram and Talha Qaiser and Simon Graham and Juho Kannala and Janne Heikkil{\"a} and Nasir Rajpoot
+'),
+  pages(69, 77),
+  publisher('Springer'),
+)
+
+entry!('zhang2019bridging',
+  icml(2019),
+  title('Bridging theory and algorithm for domain adaptation'),
+  author('Yuchen Zhang and Tianle Liu and Mingsheng Long and Michael Jordan'),
+  pages(7404, 7413),
+  organization('PMLR'),
+)
+
+entry!('long2018conditional',
+  neurips(2018),
+  title('Conditional Adversarial Domain Adaptation'),
+  author('Mingsheng Long and Zhangjie Cao and Jianmin Wang and Michael I Jordan'),
+)
+
+entry!('saito2018maximum',
+  inproceedings('Proceedings of the IEEE conference on computer vision and pattern recognition', 2018),
+  title('Maximum classifier discrepancy for unsupervised domain adaptation'),
+  author('Kuniaki Saito and Kohei Watanabe and Yoshitaka Ushiku and Tatsuya Harada'),
+  pages(3723, 3732),
+)
+
+entry!('long2017deep',
+  inproceedings('International conference on machine learning', 2017),
+  title('Deep transfer learning with joint adaptation networks'),
+  author('Mingsheng Long and Han Zhu and Jianmin Wang and Michael I Jordan'),
+  pages(2208, 2217),
+  organization('PMLR'),
+)
+
+entry!('abid2021persistent',
+  arxiv(2021, '2101.05783'),
+  title('Persistent anti-muslim bias in large language models'),
+  author('Abubakar Abid and Maheen Farooqi and James Zou'),
+)
+
+entry!('nadeem2020stereoset',
+  arxiv(2020, '2004.09456'),
+  title('Stereoset: Measuring stereotypical bias in pretrained language models'),
+  author('Moin Nadeem and Anna Bethke and Siva Reddy'),
+)
+
+entry!('gehman2020realtoxicityprompts',
+  arxiv(2020, '2009.11462'),
+  title('Realtoxicityprompts: Evaluating neural toxic degeneration in language models'),
+  author('Samuel Gehman and Suchin Gururangan and Maarten Sap and Yejin Choi and Noah A Smith'),
+)
+
+entry!('tu2020empirical',
+  tacl(2020, 8),
+  title('An empirical study on robustness to spurious correlations using pre-trained language models'),
+  author('Lifu Tu and Garima Lalwani and Spandana Gella and He He'),
+  pages(621, 633),
+  publisher('MIT Press'),
+)
+
+entry!('gururangan2020don',
+  arxiv(2020, '2004.10964'),
+  title('Don\'t stop pretraining: adapt language models to domains and tasks'),
+  author('Suchin Gururangan and Ana Marasovi{\\\'c} and Swabha Swayamdipta and Kyle Lo and Iz Beltagy and Doug Downey and Noah A Smith'),
+)
+
+entry!('hull1994database',
+  article('IEEE Transactions on pattern analysis and machine intelligence', 1994, 16),
+  title('A database for handwritten text recognition research'),
+  author('Jonathan J. Hull'),
+  number(5),
+  pages(550, 554),
+  publisher('IEEE'),
+)
+
+entry!('cordts2016cityscapes',
+  inproceedings('Proceedings of the IEEE conference on computer vision and pattern recognition', 2016),
+  title('The cityscapes dataset for semantic urban scene understanding'),
+  author('Marius Cordts and Mohamed Omran and Sebastian Ramos and Timo Rehfeld and Markus Enzweiler and Rodrigo Benenson and Uwe Franke and Stefan Roth and Bernt Schiele'),
+  pages(3213, 3223),
+)
+
+entry!('chalkidis2020legal',
+  emnlp(2020),
+  title('{LEGAL-BERT}:"Preparing the Muppets for Court"'),
+  author('Ilias Chalkidis and Manos Fergadiotis and Prodromos Malakasiotis and Nikolaos Aletras and Ion Androutsopoulos'),
+  pages(2898, 2904),
+)
+
+entry!('lee2020biobert',
+  article('Bioinformatics', 2020, 36),
+  title('BioBERT: a pre-trained biomedical language representation model for biomedical text mining'),
+  author('Jinhyuk Lee and Wonjin Yoon and Sungdong Kim and Donghyeon Kim and Sunkyu Kim and Chan Ho So and Jaewoo Kang'),
+  number(4),
+  pages(1234, 1240),
+  publisher('Oxford University Press'),
+)
+
+entry!('gu2020domain',
+  arxiv(2020, '2007.15779'),
+  title('Domain-specific language model pretraining for biomedical natural language processing'),
+  author('Yu Gu and Robert Tinn and Hao Cheng and Michael Lucas and Naoto Usuyama and Xiaodong Liu and Tristan Naumann and Jianfeng Gao and Hoifung Poon'),
+)
+
+entry!('rong2020self',
+  arxiv(2020, '2007.02835'),
+  title('Self-supervised graph transformer on large-scale molecular data'),
+  author('Yu Rong and Yatao Bian and Tingyang Xu and Weiyang Xie and Ying Wei and Wenbing Huang and Junzhou Huang'),
+)
+
+entry!('robey2021model',
+  arxiv(2021, '2102.11436'),
+  title('Model-Based Domain Generalization'),
+  author('Alexander Robey and George J Pappas and Hamed Hassani'),
+)
+
+entry!('saito2021tune',
+  arxiv(2021, '2108.10860'),
+  title('Tune it the Right Way: Unsupervised Validation of Domain Adaptation via Soft Neighborhood Density'),
+  author('Kuniaki Saito and Donghyun Kim and Piotr Teterwak and Stan Sclaroff and Trevor Darrell and Kate Saenko'),
+)
+
+entry!('verma2021towards',
+  icml(2021),
+  title('Towards domain-agnostic contrastive learning'),
+  author('Vikas Verma and Thang Luong and Kenji Kawaguchi and Hieu Pham and Quoc Le'),
 )

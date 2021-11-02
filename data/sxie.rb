@@ -497,5 +497,83 @@ entry!('github2021repos',
        howpublished('\url{https://github.com/search?q=is:public}'),
        year(2021),
        )
+entry!('reed2021self',
+       author('Colorado J. Reed and Xiangyu Yue and Ani Nrusimha and Sayna Ebrahimi and Vivek Vijaykumar and Richard Mao and Bo Li and Shanghang Zhang and Devin Guillory and Sean Metzger and Kurt Keutzer and Trevor Darrell'),
+       title('Self-Supervised Pretraining Improves Self-Supervised Pretraining'),
+  arxiv(2021)
+      )
 
+entry!('wei2021finetuned',
+       author('Jason Wei and Maarten Bosma and Vincent Y. Zhao and Kelvin Guu and Adams Wei Yu and Brian Lester and Nan Du and Andrew M. Dai and Quoc V. Le'),
+       title('Finetuned Language Models Are Zero-Shot Learners'),
+  arxiv(2021)
+      )
+
+entry!('gao2021making',
+       author('Tianyu Gao and Adam Fisch and Danqi Chen'),
+       title('Making Pre-trained Language Models Better Few-shot Learners'),
+  arxiv(2021)
+      )
+
+entry!('kleijn2012bernstein',
+       author('B.J.K. Kleijn and A.W. van der Vaart'),
+       title('The {Bernstein}-von Mises theorem under misspecification'),
+  article('Electronic Journal of Statistics', 2012, 6),
+      )
+
+entry!('wei2021why',
+       author('Colin Wei and Sang Michael Xie and Tengyu Ma'),
+       title('Why Do Pretrained Language Models Help in Downstream Tasks? An Analysis of Head and Prompt Tuning'),
+  arxiv(2021)
+      )
+
+entry!('rong2021extrapolating',
+  author('Frieda Rong'),
+  title("Extrapolating to Unnatural Language Processing with {GPT-3}'s In-context Learning: The Good, the Bad, and the Mysterious"),
+url('http://ai.stanford.edu/blog/in-context-learning/'),
+  [type('misc'), year(2021)],)
+
+entry!('pires2016multiclass',
+       author('Bernardo Ávila Pires and Csaba Szepesvári'),
+       title('Multiclass Classification Calibration Functions'),
+  arxiv(2016)
+      )
+
+entry!('steinwart2007how',
+       author('Ingo Steinwart'),
+       title('How to Compare Different Loss Functions and Their Risks'),
+  article('Constructive Approximation', 2007, 26),
+      )
+
+entry!('chiu2020scaling',
+       author('Justin T. Chiu and Alexander M. Rush'),
+       title('Scaling Hidden {Markov} Language Models'),
+       emnlp(2020),
+      )
+
+entry!('ravi2017metalearning',
+       author('Sachin Ravi and Hugo Larochelle'),
+       title('Optimization as a Model for Few-shot Learning'),
+       iclr(2017),
+      )
+entry!('holtzman2020curious',
+       author('Ari Holtzman and Jan Buys and Li Du and Maxwell Forbes and Yejin Choi'),
+       title('The Curious Case of Neural Text Degeneration'),
+       iclr(2020),
+      )
+entry!('jones2004markov',
+            author('Galin L. Jones'),
+       title('On the {Markov} chain central limit theorem'),
+       article('Probability Surveys', 2004, 1),
+      )
+entry!('zhao2021calibrate',
+       author('Tony Z. Zhao and Eric Wallace and Shi Feng and Dan Klein and  Sameer Singh'),
+       title('Calibrate Before Use: Improving Few-Shot Performance of Language Models'),
+       icml(2021),
+      )
+entry!('kuhn1994hmm',
+       author('Thomas Kuhn and Heinrich Niemann and Ernst Gunter and Schukat-Talamazzini'),
+       title('Ergodic hidden {markov} models and polygrams for language modeling'),
+       icassp(1994),
+      )
 

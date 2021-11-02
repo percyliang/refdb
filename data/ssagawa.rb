@@ -158,3 +158,22 @@ entry!('hendrycks2020pretrained',
   title('Pretrained transformers improve out-of-distribution robustness'),
   author('Dan Hendrycks and Xiaoyuan Liu and Eric Wallace and Adam Dziedzic and Rishabh Krishnan and Dawn Song'),
 )
+
+entry!('dasgupta2009mine',
+  konvens(2009),
+  title('Mine the easy, classify the hard: a semi-supervised approach to automatic sentiment classification'),
+  author('Sajib Dasgupta and Vincent Ng'),
+  pages(701, 709),
+)
+
+entry!('li2011semi',
+  ijcai(2011),
+  title('Semi-supervised learning for imbalanced sentiment classification'),
+  author('Shoushan Li and Zhongqing Wang and Guodong Zhou and Sophia Yat Mei Lee'),
+)
+
+entry!('glorot2011domain',
+  icml(2011),
+  title('Domain adaptation for large-scale sentiment classification: A deep learning approach'),
+  author('Xavier Glorot and Antoine Bordes and Yoshua Bengio'),
+)
