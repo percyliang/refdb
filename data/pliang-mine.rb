@@ -1,13 +1,14 @@
 ############################################################
 # 2021
-entry('xie2021incontext',
+
+entry!('xie2021incontext',
   title('An Explanation of In-context Learning as Implicit Bayesian Inference'),
   author('Sang Michael Xie and Aditi Raghunathan and Percy Liang and Tengyu Ma'),
   arxiv(2021),
   url('https://arxiv.org/pdf/2111.02080.pdf'),
 )
 
-entry('karamcheti2021lila',
+entry!('karamcheti2021lila',
   title('{LILA}: Language-Informed Latent Actions'),
   author('Siddharth Karamcheti* and Megha Srivastava* and Percy Liang and Dorsa Sadigh'),
   corl(2021),
