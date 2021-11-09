@@ -1,5 +1,11 @@
 ############################################################
 # 2021
+entry('karamcheti2021lila',
+  title('{LILA}: Language-Informed Latent Actions'),
+  author('Siddharth Karamcheti* and Megha Srivastava* and Percy Liang and Dorsa Sadigh'),
+  corl(2021),
+  url('https://arxiv.org/pdf/2111.03205.pdf'),
+)
 
 entry!('bommasani2021opportunities',
   title('On the Opportunities and Risks of Foundation Models'),

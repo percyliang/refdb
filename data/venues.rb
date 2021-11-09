@@ -87,7 +87,7 @@ def cvpr(year); inproceedings(Name.new('Computer Vision and Pattern Recognition'
 def wacv(year); inproceedings(Name.new('Winter Conference on Applications of Computer Vision', 'WACV'), year) end
 
 ### Robotics
-def corl(year); inproceedings(Name.new('Conference on Robot Learning', 'CORL'), year) end
+def corl(year); inproceedings(Name.new('Conference on Robot Learning', 'CoRL'), year) end
 def icra(year); inproceedings(Name.new('International Conference on Robotics and Automation', 'ICRA'), year) end
 def iros(year); inproceedings(Name.new('International Conference on Intelligent Robots and Systems', 'IROS'), year) end
 def rss(year); inproceedings(Name.new('Robotics: Science and Systems', 'RSS'), year) end
