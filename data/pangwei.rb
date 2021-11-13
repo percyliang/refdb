@@ -3045,3 +3045,32 @@ entry!('verma2021towards',
   title('Towards domain-agnostic contrastive learning'),
   author('Vikas Verma and Thang Luong and Kenji Kawaguchi and Hieu Pham and Quoc Le'),
 )
+
+entry!('steed2021image',
+  facct(2021),
+  title('Image representations learned with unsupervised pre-training contain human-like biases'),
+  author('Ryan Steed and Aylin Caliskan'),
+  pages(701, 713),
+)
+
+entry!('caliskan2017semantics',
+  science(2017, 356),
+  title('Semantics derived automatically from language corpora contain human-like biases'),
+  author('Aylin Caliskan and Joanna J Bryson and Arvind Narayanan'),
+  number(6334),
+  pages(183, 186),
+  publisher('American Association for the Advancement of Science'),
+)
+
+entry!('garg2018word',
+  science(2018, 115),
+  title('Word embeddings quantify 100 years of gender and ethnic stereotypes'),
+  author('Nikhil Garg and Londa Schiebinger and Dan Jurafsky and James Zou'),
+  publisher('National Acad Sciences'),
+)
+
+entry!('tan2019assessing',
+  arxiv(2019, '1911.01485'),
+  title('Assessing social and intersectional biases in contextualized word representations'),
+  author('Yi Chern Tan and L Elisa Celis'),
+)
