@@ -3093,3 +3093,10 @@ entry!('xu2019larger',
   author('Ruijia Xu and Guanbin Li and Jihan Yang and Liang Lin'),
   pages(1426, 1435),
 )
+
+entry!('zhao2018adversarial',
+  article('Advances in neural information processing systems', 2018, 31),
+  title('Adversarial multiple source domain adaptation'),
+  author('Han Zhao and Shanghang Zhang and Guanhang Wu and Jos{\\\'e} MF Moura and Joao P Costeira and Geoffrey J Gordon'),
+  pages(8559, 8570),
+)
