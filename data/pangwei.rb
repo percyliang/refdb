@@ -3086,3 +3086,10 @@ entry!('mishra2021surprisingly',
   title('Surprisingly Simple Semi-Supervised Domain Adaptation with Pretraining and Consistency'),
   author('Samarth Mishra and Kate Saenko and Venkatesh Saligrama'),
 )
+
+entry!('xu2019larger',
+  iccv(2019),
+  title('Larger norm more transferable: An adaptive feature norm approach for unsupervised domain adaptation'),
+  author('Ruijia Xu and Guanbin Li and Jihan Yang and Liang Lin'),
+  pages(1426, 1435),
+)
