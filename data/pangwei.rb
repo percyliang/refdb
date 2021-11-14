@@ -3074,3 +3074,15 @@ entry!('tan2019assessing',
   title('Assessing social and intersectional biases in contextualized word representations'),
   author('Yi Chern Tan and L Elisa Celis'),
 )
+
+entry!('tsai2021conditional',
+  arxiv(2021, '2106.02866'),
+  title('Conditional Contrastive Learning: Removing Undesirable Information in Self-Supervised Representations'),
+  author('Yao-Hung Hubert Tsai and Martin Q Ma and Han Zhao and Kun Zhang and Louis-Philippe Morency and Ruslan Salakhutdinov'),
+)
+
+entry!('mishra2021surprisingly',
+  arxiv(2021, '2101.12727'),
+  title('Surprisingly Simple Semi-Supervised Domain Adaptation with Pretraining and Consistency'),
+  author('Samarth Mishra and Kate Saenko and Venkatesh Saligrama'),
+)
