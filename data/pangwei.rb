@@ -3100,3 +3100,15 @@ entry!('zhao2018adversarial',
   author('Han Zhao and Shanghang Zhang and Guanhang Wu and Jos{\\\'e} MF Moura and Joao P Costeira and Geoffrey J Gordon'),
   pages(8559, 8570),
 )
+
+entry!('dubey2021adaptive',
+  cvpr(2021),
+  title('Adaptive Methods for Real-World Domain Generalization'),
+  author('Abhimanyu Dubey and Vignesh Ramanathan and Alex Pentland and Dhruv Mahajan'),
+)
+
+entry!('cole2021does',
+  arxiv(2021, '2105.05837'),
+  title('When Does Contrastive Visual Representation Learning Work?'),
+  author('Elijah Cole and Xuan Yang and Kimberly Wilber and Oisin Mac Aodha and Serge Belongie'),
+)
