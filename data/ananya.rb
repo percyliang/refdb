@@ -518,3 +518,9 @@ entry!('li2018explicit',
   author('Xuhong Li and Yves Grandvalet and Franck Davoine'),
   icml(2018),
 )
+
+entry!('kanavati2021transfusion',
+  title('Partial transfusion: on the expressive influence of trainable batch norm parameters for transfer learning'),
+  author('Fahdi Kanavati and Masayuki Tsuneki'),
+  inproceedings('Medical Imaging with Deep Learning', 2021),
+)
