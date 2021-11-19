@@ -512,3 +512,9 @@ entry!('stickland2020diverse',
   author('Asa Cooper Stickland and Iain Murray'),
   arxiv(2020),
 )
+
+entry!('li2018explicit',
+  title('Explicit Inductive Bias for Transfer Learning with Convolutional Networks'),
+  author('Xuhong Li and Yves Grandvalet and Franck Davoine'),
+  icml(2018),
+)
