@@ -2652,7 +2652,7 @@ entry!('djolonga2020robustness',
   author('Josip Djolonga and Jessica Yung and Michael Tschannen and Rob Romijnders and Lucas Beyer and Alexander Kolesnikov and Joan Puigcerver and Matthias Minderer and Alexander D\'Amour and Dan Moldovan and others'),
 nil)
 
-entry!('wang2019learning',
+entry!('wang2019learningrobust',
   neurips(2019),
   title('Learning robust global representations by penalizing local predictive power'),
   author('Haohan Wang and Songwei Ge and Zachary Lipton and Eric P Xing'),
