@@ -3112,3 +3112,9 @@ entry!('cole2021does',
   title('When Does Contrastive Visual Representation Learning Work?'),
   author('Elijah Cole and Xuan Yang and Kimberly Wilber and Oisin Mac Aodha and Serge Belongie'),
 )
+
+entry!('shen2021connect',  
+  title('How Does Contrastive Pre-training Connect Disparate Domains?'),
+  author('Kendrick Shen and Robbie Matthew Jones and Ananya Kumar and Sang Michael Xie and Percy Liang'),
+  inproceedings('NeurIPS Workshop on Distribution Shifts', 2021),
+)
