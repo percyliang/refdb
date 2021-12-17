@@ -512,3 +512,45 @@ entry!('stickland2020diverse',
   author('Asa Cooper Stickland and Iain Murray'),
   arxiv(2020),
 )
+
+entry!('li2018explicit',
+  title('Explicit Inductive Bias for Transfer Learning with Convolutional Networks'),
+  author('Xuhong Li and Yves Grandvalet and Franck Davoine'),
+  icml(2018),
+)
+
+entry!('kanavati2021transfusion',
+  title('Partial transfusion: on the expressive influence of trainable batch norm parameters for transfer learning'),
+  author('Fahdi Kanavati and Masayuki Tsuneki'),
+  inproceedings('Medical Imaging with Deep Learning', 2021),
+)
+
+entry!('aghajanyan2021finetuning',
+  title('Better Fine-Tuning by Reducing Representational Collapse'),
+  author('Armen Aghajanyan and Akshat Shrivastava and Anchit Gupta and Naman Goyal and Luke Zettlemoyer and Sonal Gupta'),
+  iclr(2021),
+)
+
+entry!('jiang2021smart',
+  title('SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization'),
+  author('Haoming Jiang and Pengcheng He and Weizhu Chen and Xiaodong Liu and Jianfeng Gao and Tuo Zhao'),
+  iclr(2021),
+)
+
+entry!('guo2019spottune',
+  title('SpotTune: Transfer Learning through Adaptive Fine-tuning'),
+  author('Yunhui Guo and Honghui Shi and Abhishek Kumar and Kristen Grauman and Tajana Rosing and Rogerio Feris'),
+  cvpr(2019),
+)
+
+entry!('zhang2020sidetuning',
+  title('Side-Tuning: A Baseline for Network Adaptation via Additive Side Networks'),
+  author('Jeffrey O Zhang and Alexander Sax and Amir Zamir and Leonidas Guibas and Jitendra Malik'),
+  eccv(2020),
+)
+
+entry!('ge2017borrowing',
+  title('Borrowing Treasures from the Wealthy: Deep Transfer Learning through Selective Joint Fine-tuning'),
+  author('Weifeng Ge and Yizhou Yu'),
+  cvpr(2017),
+)
