@@ -44,6 +44,7 @@ entry!('castellon2021calm',
   ismir(2021),
   url('https://arxiv.org/pdf/2107.05677.pdf'),
   codalab('0x7c5afa6f88bd4ff29fec75035332a583'),
+  award('Best paper runner up'),
 )
 
 entry!('yasunaga2021break',
