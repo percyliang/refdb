@@ -3516,7 +3516,7 @@ entry!('mikolov2013efficient',
   arxiv(2013, '1301.3781'),
   title('Efficient Estimation of Word Representations in Vector Space'),
   url('http://arxiv.org/pdf/1301.3781v3.pdf'),
-  author('Tomas Mikolov and Kai Chen and Greg Corrado and Jeffrey'),
+  author('Tomas Mikolov and Kai Chen and Greg Corrado and Jeffrey Dean'),
 )
 
 entry!('chang2010discriminative',
@@ -7691,6 +7691,7 @@ entry!('mei2016listen',
 entry!('artzi2013uw',
   arxiv(2013, '1311.3011'),
   title('{UW} {SPF}: The {U}niversity of {W}ashington Semantic Parsing Framework'),
+  unusualCapitalization('University'),
   author('Yoav Artzi and Luke Zettlemoyer'),
 )
 
@@ -11402,4 +11403,181 @@ entry!('li2018thesis',
   author('Jerry Li'),
   title('Principled Approaches to Robust Machine Learning and Beyond'),
   phdthesis('Massachusetts Institute of Technology', 2018),
+)
+
+entry!('chen2020simclr',
+  title('A simple framework for contrastive learning of visual representations'),
+  author('Ting Chen and Simon Kornblith and Mohammad Norouzi and Geoffrey Hinton'),
+  pages(1597, 1607),
+  icml(2020),
+)
+
+entry!('lowe1999sift',
+  iccv(1999),
+  inproceedings('Proceedings of the seventh IEEE international conference on computer vision', 1999),
+  title('Object recognition from local scale-invariant features'),
+  author('David G Lowe'),
+  volume(2),
+  pages(1150, 1157),
+)
+
+entry!('hinton2006fast',
+  article('Neural computation', 2006, 18),
+  title('A fast learning algorithm for deep belief nets'),
+  author('Geoffrey E Hinton and Simon Osindero and Yee-Whye Teh'),
+  number(7),
+  pages(1527, 1554),
+)
+
+entry!('thrun1998lifelong',
+  title('Lifelong learning algorithms'),
+  author('Sebastian Thrun'),
+  article('Learning to learn', 1998),
+  pages(181, 209),
+  publisher('Springer'),
+)
+
+entry!('cortes1995svm',
+  machineLearning(1995, 20),
+  title('Support-vector networks'),
+  author('Corinna Cortes and Vladimir Vapnik'),
+  number(3),
+  pages(273, 297),
+)
+
+entry!('lecun2015deep',
+  article('Nature', 2015, 521),
+  title('Deep learning'),
+  author('Yann LeCun and Yoshua Bengio and Geoffrey Hinton'),
+  number(7553),
+  pages(436, 444),
+  ignoreDuplicateTitle,
+)
+
+entry!('creel2021algorithmic',
+  title('The Algorithmic Leviathan: Arbitrariness, Fairness, and Opportunity in Algorithmic Decision Making Systems'),
+  author('Kathleen Creel and Deborah Hellman'),
+  article('Virginia Public Law and Legal Theory Research Paper', 2021, 13),
+)
+
+entry!('collobert2008unified',
+  icml(2008),
+  title('A unified architecture for natural language processing: Deep neural networks with multitask learning'),
+  author('Ronan Collobert and Jason Weston'),
+  pages(160, 167),
+)
+
+entry!('fukushima1988neocognitron',
+  article('Neural networks', 1988, 1),
+  title('Neocognitron: A hierarchical neural network capable of visual pattern recognition'),
+  author('Kunihiko Fukushima'),
+  number(2),
+  pages(119, 130),
+)
+
+entry!('zellers2019neuralfakenews',
+  neurips(2019),
+  title('Defending Against Neural Fake News'),
+  author('Rowan Zellers and Ari Holtzman and Hannah Rashkin and Yonatan Bisk and Ali Farhadi and Franziska Roesner and Yejin Choi'),
+  pages(9054, 9065),
+)
+
+entry!('kerr2001university',
+  title('The Uses of the University'),
+  author('Clark Kerr'),
+  book('Harvard University Press', 2001),
+)
+
+entry!('rhoten2011knowledge',
+  title('Knowledge matters: The public mission of the research university'),
+  author('Diana Rhoten and Craig Calhoun'),
+  book('Columbia University Press', 2011),
+)
+
+entry!('nussbaum2010not',
+  title('Not for profit: Why democracy needs the humanities'),
+  author('Martha Craven Nussbaum'),
+  book('Princeton University Press', 2010),
+)
+
+entry!('engstrom2020government',
+  title('Government by algorithm: Artificial intelligence in federal administrative agencies'),
+  author('David Freeman Engstrom and Daniel E Ho and Catherine M Sharkey and Mariano-Florentino Cuéllar'),
+  article('NYU School of Law, Public Law Research Paper', 2020, '20-54'),
+)
+
+entry!('hong2004groups',
+  science(2004, 101),
+  title('Groups of diverse problem solvers can outperform groups of high-ability problem solvers'),
+  author('Lu Hong and Scott E Page'),
+  number(46),
+  #pages(16385, 16389),
+  publisher('National Academy of Sciences'),
+)
+
+entry!('solomon2006norms',
+  article('Episteme', 2006, 3),
+  title('Norms of epistemic diversity'),
+  author('Miriam Solomon'),
+  number('1-2'),
+  pages(23, 36),
+  publisher('Cambridge University Press'),
+)
+
+entry!('steel2018multiple',
+  article('European journal for philosophy of science', 2018, 8),
+  title('Multiple diversity concepts and their ethical-epistemic implications'),
+  author('Daniel Steel and Sina Fazelpour and Kinley Gillette and Bianca Crewe and Michael Burgess'),
+  number(3),
+  pages(761, 780),
+  publisher('Springer'),
+)
+
+entry!('merton1979normative',
+  title('The normative structure of science'),
+  author('Robert K Merton'),
+  article('The sociology of science: Theoretical and empirical investigations', 1979),
+  pages(267, 278),
+  publisher('The University of Chicago Press'),
+)
+
+entry!('radinsky2015data',
+  article('Harvard Business Review', 2015, 2),
+  title('Data monopolists like {G}oogle are threatening the economy'),
+  author('Kira Radinsky'),
+)
+
+entry!('rogers2020primer',
+  tacl(2020, 8),
+  title('A primer in bertology: What we know about how bert works'),
+  author('Anna Rogers and Olga Kovaleva and Anna Rumshisky'),
+  pages(842, 866),
+  publisher('MIT Press'),
+)
+
+entry!('beberg2009folding',
+  inproceedings('2009 IEEE International Symposium on Parallel \& Distributed Processing', 2009),
+  title('Folding@home: Lessons from eight years of volunteer distributed computing'),
+  author('Adam L Beberg and Daniel L Ensign and Guha Jayachandran and Siraj Khaliq and Vijay S Pande'),
+  pages(1, 8),
+  organization('IEEE'),
+)
+
+entry!('turian2010word',
+  acl(2010),
+  title('Word representations: a simple and general method for semi-supervised learning'),
+  author('Joseph Turian and Lev Ratinov and Yoshua Bengio'),
+  pages(384, 394),
+)
+
+entry!('cho2021unifying',
+  icml(2021),
+  title('Unifying vision-and-language tasks via text generation'),
+  author('Jaemin Cho and Jie Lei and Hao Tan and Mohit Bansal'),
+)
+
+entry!('kim2021vilt',
+  icml(2021),
+  title('{ViLT}: Vision-and-language transformer without convolution or region supervision'),
+  author('Wonjae Kim and Bokyung Son and Ildoo Kim'),
 )

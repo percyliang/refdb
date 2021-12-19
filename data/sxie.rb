@@ -497,11 +497,6 @@ entry!('github2021repos',
        howpublished('\url{https://github.com/search?q=is:public}'),
        year(2021),
        )
-entry!('lester2021prompt',
-       author('Brian Lester and Rami Al-Rfou and Noah Constant'),
-       title('The Power of Scale for Parameter-Efficient Prompt Tuning'),
-  arxiv(2021)
-      )
 
 entry!('miyazaki2020automatic',
        author('Tomo Miyazaki and Tatsunori Tsuchiya and Yoshihiro Sugaya and Shinichiro Omachi and Masakazu Iwamura and Seiichi Uchida and Koichi Kise'),
@@ -519,11 +514,159 @@ entry!('tenenbaum2000separating',
 entry!('mostajabi2018regularizing',
        author('Mohammadreza Mostajabi and Michael Maire and Gregory Shakhnarovich'),
        title('Regularizing Deep Networks by Modeling and Predicting Label Structure'),
-       cvpr(2018),
+       cvpr(2018))
+
+entry!('reed2021self',
+       author('Colorado J. Reed and Xiangyu Yue and Ani Nrusimha and Sayna Ebrahimi and Vivek Vijaykumar and Richard Mao and Bo Li and Shanghang Zhang and Devin Guillory and Sean Metzger and Kurt Keutzer and Trevor Darrell'),
+       title('Self-Supervised Pretraining Improves Self-Supervised Pretraining'),
+  arxiv(2021)
+      )
+
+entry!('wei2021finetuned',
+       author('Jason Wei and Maarten Bosma and Vincent Y. Zhao and Kelvin Guu and Adams Wei Yu and Brian Lester and Nan Du and Andrew M. Dai and Quoc V. Le'),
+       title('Finetuned Language Models Are Zero-Shot Learners'),
+  arxiv(2021)
+      )
+
+entry!('gao2021making',
+       author('Tianyu Gao and Adam Fisch and Danqi Chen'),
+       title('Making Pre-trained Language Models Better Few-shot Learners'),
+  arxiv(2021)
+      )
+
+entry!('kleijn2012bernstein',
+       author('B.J.K. Kleijn and A.W. van der Vaart'),
+       title('The {Bernstein}-von Mises theorem under misspecification'),
+  article('Electronic Journal of Statistics', 2012, 6),
+      )
+
+entry!('wei2021why',
+       author('Colin Wei and Sang Michael Xie and Tengyu Ma'),
+       title('Why Do Pretrained Language Models Help in Downstream Tasks? An Analysis of Head and Prompt Tuning'),
+  arxiv(2021)
+      )
+
+entry!('rong2021extrapolating',
+  author('Frieda Rong'),
+  title("Extrapolating to Unnatural Language Processing with {GPT-3}'s In-context Learning: The Good, the Bad, and the Mysterious"),
+url('http://ai.stanford.edu/blog/in-context-learning/'),
+  [type('misc'), year(2021)],)
+
+entry!('pires2016multiclass',
+       author('Bernardo Ávila Pires and Csaba Szepesvári'),
+       title('Multiclass Classification Calibration Functions'),
+  arxiv(2016)
+      )
+
+entry!('steinwart2007how',
+       author('Ingo Steinwart'),
+       title('How to Compare Different Loss Functions and Their Risks'),
+  article('Constructive Approximation', 2007, 26),
+      )
+
+entry!('chiu2020scaling',
+       author('Justin T. Chiu and Alexander M. Rush'),
+       title('Scaling Hidden {Markov} Language Models'),
+       emnlp(2020),
+      )
+
+entry!('ravi2017metalearning',
+       author('Sachin Ravi and Hugo Larochelle'),
+       title('Optimization as a Model for Few-shot Learning'),
+       iclr(2017),
+      )
+entry!('holtzman2020curious',
+       author('Ari Holtzman and Jan Buys and Li Du and Maxwell Forbes and Yejin Choi'),
+       title('The Curious Case of Neural Text Degeneration'),
+       iclr(2020),
+      )
+entry!('jones2004markov',
+            author('Galin L. Jones'),
+       title('On the {Markov} chain central limit theorem'),
+       article('Probability Surveys', 2004, 1),
+      )
+entry!('zhao2021calibrate',
+       author('Tony Z. Zhao and Eric Wallace and Shi Feng and Dan Klein and  Sameer Singh'),
+       title('Calibrate Before Use: Improving Few-Shot Performance of Language Models'),
+       icml(2021),
+      )
+entry!('kuhn1994hmm',
+       author('Thomas Kuhn and Heinrich Niemann and Ernst Gunter and Schukat-Talamazzini'),
+       title('Ergodic hidden {markov} models and polygrams for language modeling'),
+       icassp(1994),
       )
 
 entry!('tu2019benchmarking',
        author('Lifu Tu and Kevin Gimpel'),
        title('Benchmarking Approximate Inference Methods for Neural Structured Prediction'),
        naacl(2019),
+      )
+
+entry!('yosinski2014how',
+       author('Jason Yosinski and Jeff Clune and Yoshua Bengio and Hod Lipson'),
+       title('How transferable are features in deep neural networks?'),
+       nips(2014),
+      )
+entry!('power2021grokking',
+  title('Grokking: Generalization beyond overfitting on small algorithmic datasets.'),
+  author('Alethea Power and Yuri Burda and Harri Edwards and Igor Babuschkin and Vedant Misra'),
+  iclrWorkshop(2021),
+)
+entry!('jiang2020how',
+  author('Zhengbao Jiang and Frank F Xu and Jun Araki and Graham Neubig'),
+  title('How can we know what language models know?'),
+  acl(2020),)
+
+entry!('schick2021exploiting',
+      title('Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference'), 
+      author('Timo Schick and Hinrich Schütze'),
+      eacl(2021),
+      )
+entry!('shin2020eliciting',
+      title('Eliciting knowledge from language models using automatically generated prompts'),
+      author('Taylor Shin and Yasaman Razeghi and Robert L Logan IV and Eric Wallace and Sameer Singh'),
+      emnlp(2020))
+
+entry!('holtzman2021surface',
+      title("Surface Form Competition: Why the Highest Probability Answer Isn't Always Right"), 
+      author("Ari Holtzman and Peter West and Vered Shwartz and Yejin Choi and Luke Zettlemoyer"),
+      arxiv(2021),
+      )
+
+entry!('J1WhitePaper',
+  author('Lieber, Opher and Sharir, Or and Lenz, Barak and Shoham, Yoav'),
+       title('Jurassic-1: Technical Details And Evaluation'),
+  [type('misc'), year(2021)],
+      )
+
+entry!('Gunst2008AsymptoticBO',
+       title('Asymptotic behavior of Bayes estimators for hidden Markov models with application to ion channels'),
+       author('M. Gunst and O. Shcherbakova'),
+       article('Mathematical Methods of Statistics', 2008, 17),
+    )
+entry!('wang2021gptj',
+  author('Wang, Ben and Komatsuzaki, Aran'),
+  title('GPT-J-6B: A 6 Billion Parameter Autoregressive Language Model'),
+  [type('misc'), year(2021)],
+      )
+entry!('baum1966statistical',
+       title('Statistical inference for probabilistic functions of finite state Markov chains'),
+       author('Baum, Leonard E and Petrie, Ted'),
+       article('The Annals of Mathematical Statistics', 1966, 37),
+    ) 
+entry!('sanh2021multitask',
+       title('Multitask Prompted Training Enables Zero-Shot Task Generalization'),
+       author('Victor Sanh and Albert Webson and Colin Raffel and Stephen H. Bach and Lintang Sutawika and Zaid Alyafeai and Antoine Chaffin and Arnaud Stiegler and Teven Le Scao and Arun Raja and Manan Dey and M Saiful Bari and Canwen Xu and Urmish Thakker and Shanya Sharma Sharma and Eliza Szczechla and Taewoon Kim and Gunjan Chhablani and Nihal Nayak and Debajyoti Datta and Jonathan Chang and Mike Tian-Jian Jiang and Han Wang and Matteo Manica and Sheng Shen and Zheng Xin Yong and Harshit Pandey and Rachel Bawden and Thomas Wang and Trishala Neeraj and Jos Rozen and Abheesht Sharma and Andrea Santilli and Thibault Fevry and Jason Alan Fries and Ryan Teehan and Stella Biderman and Leo Gao and Tali Bers and Thomas Wolf and Alexander M. Rush'),
+       arxiv(2021),
+      )
+entry!('clark2020electra',
+       title('ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators'),
+       author('Kevin Clark and Minh-Thang Luong and Quoc V. Le and Christopher D. Manning'),
+       iclr(2020),
+      )
+
+entry!('gruber2007hidden',
+       title('Hidden Topic Markov Models'),
+       author('Gruber, Amit and Weiss, Yair and Rosen-Zvi, Michal'),
+       aistats(2007),
       )

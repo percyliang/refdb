@@ -319,7 +319,7 @@ entry!('louizos2015variational',
 
 entry!('bolukbasi2016man',
   neurips(2016),
-  title('Man is to computer programmer as woman is to homemaker? debiasing word embeddings'),
+  title('Man is to computer programmer as woman is to homemaker? {Debiasing} word embeddings'),
   author('Tolga Bolukbasi and Kai-Wei Chang and James Y Zou and Venkatesh Saligrama and Adam T Kalai'),
   pages(4349, 4357),
 )

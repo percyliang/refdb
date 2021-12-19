@@ -414,3 +414,143 @@ entry!('hsu2012random',
   author('Daniel Hsu and Sham M. Kakade and Tong Zhang'),
   colt(2012),
 )
+
+entry!('chen2020improved',
+  title('Improved Baselines with Momentum Contrastive Learning'),
+  author('Xinlei Chen and Haoqi Fan and Ross B. Girshick and Kaiming He'),
+  arxiv(2020),
+)
+
+entry!('yu2020bdd',
+  title('BDD100K: A Diverse Driving Dataset for Heterogeneous Multitask Learning'),
+  author('Fisher Yu and Haofeng Chen and Xin Wang and Wenqi Xian and Yingying Chen and Fangchen Liu and Vashisht Madhavan and Trevor Darrell'),
+  cvpr(2020),
+)
+
+entry!('andreassen2021evolution',
+  title('The Evolution of Out-of-Distribution Robustness Throughout Fine-Tuning'),
+  author('Anders Andreassen and Yasaman Bahri and Behnam Neyshabur and Rebecca Roelofs'),
+  arxiv(2021),
+)
+
+entry!('zhai2020largescale',
+  title('A Large-scale Study of Representation Learning with the Visual Task Adaptation Benchmark'),
+  author('Xiaohua Zhai and Joan Puigcerver and Alexander Kolesnikov and Pierre Ruyssen and Carlos Riquelme and Mario Lucic and Josip Djolonga and Andre Susano Pinto and Maxim Neumann and Alexey Dosovitskiy and Lucas Beyer and Olivier Bachem and Michael Tschannen and Marcin Michalski and Olivier Bousquet and Sylvain Gelly and Neil Houlsby'),
+  arxiv(2020),
+)
+
+entry!('kamath2021invariant',
+  title('Does Invariant Risk Minimization Capture Invariance?'),
+  author('Pritish Kamath and Akilesh Tangella and Danica J. Sutherland and Nathan Srebro'),
+  aistats(2021),
+)
+
+entry!('chen2021iterative',
+  title('Iterative Feature Matching: Toward Provable Domain Generalization with Logarithmic Environments'),
+  author('Yining Chen and Elan Rosenfeld and Mark Sellke and Tengyu Ma and Andrej Risteski'),
+  arxiv(2021),
+)
+
+entry!('rosenfeld2021risks',
+  title('The Risks of Invariant Risk Minimization'),
+  author('Elan Rosenfeld and Pradeep Ravikumar and Andrej Risteski'),
+  iclr(2021),
+)
+
+entry!('ayush2020geography',
+  title('Geography-Aware Self-Supervised Learning'),
+  author('Kumar Ayush and Burak Uzkent and Chenlin Meng and Kumar Tanmay and M. Burke and D. Lobell and Stefano Ermon'),
+  arxiv(2020),
+)
+
+entry!('saxe2014exact',
+  title('Exact solutions to the nonlinear dynamics of learning in deep linear neural networks'),
+  author('Andrew M. Saxe and James L. McClelland and Surya Ganguli'),
+  arxiv(2014),
+)
+
+entry!('gidel2019implicit',
+  title('Implicit Regularization of Discrete Gradient Dynamics in Deep Linear Neural Networks'),
+  author('Gauthier Gidel and Francis R. Bach and Simon Lacoste-Julien'),
+  neurips(2019),
+)
+
+entry!('du2018algorithmic',
+  title('Algorithmic Regularization in Learning Deep Homogeneous Models: Layers are Automatically Balanced'),
+  author('Simon Shaolei Du and Wei Hu and Jason Lee'),
+  neurips(2018),
+)
+
+entry!('cai2021theory',
+  title('A Theory of Label Propagation for Subpopulation Shift'),
+  author('Tianle Cai and Ruiqi Gao and J. Lee and Qi Lei'),
+  icml(2021),
+)
+
+entry!('laurent2018deep',
+  title('Deep linear neural networks with arbitrary loss: All local minima are global'),
+  author('Thomas Laurent and James H. von Brecht'),
+  icml(2018),
+)
+
+entry!('absil2006largest',
+  article('Linear Algebra and its Applications', 2006, 414),
+  author('Pierre Antoine Absil and Alan Edelman and Plamen Koev'),
+  title('On the largest principal angle between random subspaces'),
+  number(1),
+  pages(288, 294),
+)
+
+entry!('wu2021ensemble',
+  title('Should Ensemble Members Be Calibrated?'),
+  author('Xixin Wu and M. Gales'),
+  arxiv(2021),
+)
+
+entry!('stickland2020diverse',
+  title('Diverse Ensembles Improve Calibration'),
+  author('Asa Cooper Stickland and Iain Murray'),
+  arxiv(2020),
+)
+
+entry!('li2018explicit',
+  title('Explicit Inductive Bias for Transfer Learning with Convolutional Networks'),
+  author('Xuhong Li and Yves Grandvalet and Franck Davoine'),
+  icml(2018),
+)
+
+entry!('kanavati2021transfusion',
+  title('Partial transfusion: on the expressive influence of trainable batch norm parameters for transfer learning'),
+  author('Fahdi Kanavati and Masayuki Tsuneki'),
+  inproceedings('Medical Imaging with Deep Learning', 2021),
+)
+
+entry!('aghajanyan2021finetuning',
+  title('Better Fine-Tuning by Reducing Representational Collapse'),
+  author('Armen Aghajanyan and Akshat Shrivastava and Anchit Gupta and Naman Goyal and Luke Zettlemoyer and Sonal Gupta'),
+  iclr(2021),
+)
+
+entry!('jiang2021smart',
+  title('SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization'),
+  author('Haoming Jiang and Pengcheng He and Weizhu Chen and Xiaodong Liu and Jianfeng Gao and Tuo Zhao'),
+  iclr(2021),
+)
+
+entry!('guo2019spottune',
+  title('SpotTune: Transfer Learning through Adaptive Fine-tuning'),
+  author('Yunhui Guo and Honghui Shi and Abhishek Kumar and Kristen Grauman and Tajana Rosing and Rogerio Feris'),
+  cvpr(2019),
+)
+
+entry!('zhang2020sidetuning',
+  title('Side-Tuning: A Baseline for Network Adaptation via Additive Side Networks'),
+  author('Jeffrey O Zhang and Alexander Sax and Amir Zamir and Leonidas Guibas and Jitendra Malik'),
+  eccv(2020),
+)
+
+entry!('ge2017borrowing',
+  title('Borrowing Treasures from the Wealthy: Deep Transfer Learning through Selective Joint Fine-tuning'),
+  author('Weifeng Ge and Yizhou Yu'),
+  cvpr(2017),
+)

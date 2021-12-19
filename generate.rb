@@ -69,6 +69,8 @@ case command
     printText(entries, false, outPath)
   when 'js' then
     printJs(entries, false, outPath)
+  when 'json' then
+    printJson(entries, false, outPath)
   when 'html' then
     entries = notMatchEntries(entries, 'extendedVersion', true)  # Don't display extended versions
     entries = makeYearList(entries)

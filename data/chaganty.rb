@@ -186,7 +186,7 @@ entry!('lin2004rouge',
        inproceedings('NTCIR Workshop', 2004),
 )
 
-entry!('cohan2016revisiting', 
+entry!('cohan2016revisiting',
        title('Revisiting Summarization Evaluation for Scientific Articles'),
        author('Arman Cohan and Nazli Goharian'),
        lrec(2016),
@@ -198,7 +198,7 @@ entry!('lavie2009meteor',
        article('Machine Translation', 2009, 23),
      )
 
-entry!('denkowski2014meteor', 
+entry!('denkowski2014meteor',
        title('Meteor Universal: Language Specific Translation Evaluation for Any Target Language'),
        author('Michael Denkowski and Alon Lavie'),
        inproceedings('Workshop on Statistical Machine Translation', 2014),
@@ -238,35 +238,35 @@ entry!('paulus2018deep',
   )
 
 entry!('lin2014microsoft',
-  author('Tsung-Yi Lin and Michael Maire and Serge Belongie and James Hays and Pietro Perona and  Deva Ramanan and Piotr Doll{\'a}r and C Lawrence Zitnick'), 
+  author('Tsung-Yi Lin and Michael Maire and Serge Belongie and James Hays and Pietro Perona and  Deva Ramanan and Piotr Doll{\\\'a}r and C. Lawrence Zitnick'),
   eccv(2014),
   pages(740,755),
   title('Microsoft {COCO}: Common objects in context'),
   )
 
 entry!('conroy2008mind',
-  author('John M Conroy and Hoa Trang Dang'), 
+  author('John M Conroy and Hoa Trang Dang'),
   coling(2008),
   pages(145,152),
   title('Mind the Gap : Dangers of Divorcing Evaluations of Summary Content from Linguistic Quality'),
   )
 
 entry!('snover2006ter',
-  author('Matthew Snover and Bonnie Dorr and Richard Schwartz and Linnea Micciulla and John Makhoul'), 
+  author('Matthew Snover and Bonnie Dorr and Richard Schwartz and Linnea Micciulla and John Makhoul'),
   inproceedings('Association for Machine Translation in the Americas', 2006),
   pages(223,231),
   title('A Study of Translation Edit Rate with Targeted Human Annotation'),
   )
 
 entry!('chang2017affordable',
-  author('Cheng Chang and Runzhe Yang and Lu Chen and Xiang Zhou and Kai Yu'), 
+  author('Cheng Chang and Runzhe Yang and Lu Chen and Xiang Zhou and Kai Yu'),
   emnlp(2017),
   pages(223,231),
   title('Affordable On-Line Dialogue Policy Learning'),
   )
 
 entry!('dang2006overview',
-  author('Hoa Trang Dang'), 
+  author('Hoa Trang Dang'),
   inproceedings('Document Understanding Conference', 2006),
   title('Overview of {DUC} 2006'),
   )
@@ -407,7 +407,7 @@ entry!('recht2018cifar',
    phdthesis('Brown University', 2010),
    title('Any domain parsing: automatic domain adaptation for natural language parsing'),
    )
- 
+
 entry!('foster2011news',
   author('Jennifer Foster and Ozlem Cetinoglu and Joachim Wagner and Joseph Le Roux and Joakim Nivre and Deirdre Hogan and Josef VanGenabith'),
   aclijcnlp(2011),
@@ -488,7 +488,7 @@ entry!('salton1965smart',
   author('Gerard Salton and Michael E. Lesk'),
   title('The {SMART} automatic document retrieval systems—an illustration'),
   pages(391, 398),
-  article('Communications of the ACM', 1965, 8), number(6), 
+  article('Communications of the ACM', 1965, 8), number(6),
   )
 
 entry!('cleverdon1962report',
@@ -512,7 +512,7 @@ entry!('harman1992overview',
 entry!('voorhees2007trec',
   author('Ellen M. Voorhees '),
   pages(51, 54),
-  article('Communications of the ACM', 2007, 50), number(11), 
+  article('Communications of the ACM', 2007, 50), number(11),
   title("TREC: Continuing Information Retrieval's Tradition of Experimentation"),
   )
 

@@ -820,3 +820,29 @@ entry!('zhang2020coping',
   title('Coping with Label Shift via Distributionally Robust Optimisation'),
   author('Jingzhao Zhang and Aditya Menon and Andreas Veit and Srinadh Bhojanapalli and Sanjiv Kumar and Suvrit Sra'),
 )
+
+entry!('zhang2018generalized',
+  neurips(2018),
+  title('Generalized cross entropy loss for training deep neural networks with noisy labels'),
+  author('Zhilu Zhang and Mert R Sabuncu'),
+)
+
+entry!('creager2021environment',
+  icml(2021),
+  title('Environment inference for invariant learning'),
+  author('Elliot Creager and J{\"o}rn-Henrik Jacobsen and Richard Zemel'),
+  pages(2189, 2200),
+  organization('PMLR'),
+)
+
+entry!('utama2020towards',
+  arxiv(2020, '2009.12303'),
+  title('Towards debiasing {NLU} models from unknown biases'),
+  author('Prasetya Ajie Utama and Nafise Sadat Moosavi and Iryna Gurevych'),
+)
+
+entry!('yaghoobzadeh2019increasing',
+  arxiv(2019, '1911.03861'),
+  title('Increasing Robustness to Spurious Correlations using Forgettable Examples'),
+  author('Yadollah Yaghoobzadeh and Soroush Mehri and Remi Tachet and Timothy J Hazen and Alessandro Sordoni'),
+)

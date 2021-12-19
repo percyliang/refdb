@@ -1,6 +1,100 @@
 ############################################################
 # 2021
 
+entry!('xie2021incontext',
+  title('An Explanation of In-context Learning as Implicit {B}ayesian Inference'),
+  author('Sang Michael Xie and Aditi Raghunathan and Percy Liang and Tengyu Ma'),
+  arxiv(2021),
+  url('https://arxiv.org/pdf/2111.02080.pdf'),
+)
+
+entry!('karamcheti2021lila',
+  title('{LILA}: Language-Informed Latent Actions'),
+  author('Siddharth Karamcheti* and Megha Srivastava* and Percy Liang and Dorsa Sadigh'),
+  corl(2021),
+  url('https://arxiv.org/pdf/2111.03205.pdf'),
+)
+
+entry!('bommasani2021opportunities',
+  title('On the Opportunities and Risks of Foundation Models'),
+  author('Rishi Bommasani and Drew A. Hudson and Ehsan Adeli and Russ Altman and Simran Arora and Sydney von Arx and Michael S. Bernstein and Jeannette Bohg and Antoine Bosselut and Emma Brunskill and Erik Brynjolfsson and Shyamal Buch and Dallas Card and Rodrigo Castellon and Niladri Chatterji and Annie Chen and Kathleen Creel and Jared Quincy Davis and Dorottya Demszky and Chris Donahue and Moussa Doumbouya and Esin Durmus and Stefano Ermon and John Etchemendy and Kawin Ethayarajh and Li Fei-Fei and Chelsea Finn and Trevor Gale and Lauren Gillespie and Karan Goel and Noah Goodman and Shelby Grossman and Neel Guha and Tatsunori Hashimoto and Peter Henderson and John Hewitt and Daniel E. Ho and Jenny Hong and Kyle Hsu and Jing Huang and Thomas Icard and Saahil Jain and Dan Jurafsky and Pratyusha Kalluri and Siddharth Karamcheti and Geoff Keeling and Fereshte Khani and Omar Khattab and Pang Wei Koh and Mark Krass and Ranjay Krishna and Rohith Kuditipudi and Ananya Kumar and Faisal Ladhak and Mina Lee and Tony Lee and Jure Leskovec and Isabelle Levent and Xiang Lisa Li and Xuechen Li and Tengyu Ma and Ali Malik and Christopher D. Manning and Suvir Mirchandani and Eric Mitchell and Zanele Munyikwa and Suraj Nair and Avanika Narayan and Deepak Narayanan and Ben Newman and Allen Nie and Juan Carlos Niebles and Hamed Nilforoshan and Julian Nyarko and Giray Ogut and Laurel Orr and Isabel Papadimitriou and Joon Sung Park and Chris Piech and Eva Portelance and Christopher Potts and Aditi Raghunathan and Rob Reich and Hongyu Ren and Frieda Rong and Yusuf Roohani and Camilo Ruiz and Jack Ryan and Christopher Ré and Dorsa Sadigh and Shiori Sagawa and Keshav Santhanam and Andy Shih and Krishnan Srinivasan and Alex Tamkin and Rohan Taori and Armin W. Thomas and Florian Tramèr and Rose E. Wang and William Wang and Bohan Wu and Jiajun Wu and Yuhuai Wu and Sang Michael Xie and Michihiro Yasunaga and Jiaxuan You and Matei Zaharia and Michael Zhang and Tianyi Zhang and Xikun Zhang and Yuhui Zhang and Lucia Zheng and Kaitlyn Zhou and Percy Liang'),
+  arxiv(2021, '2108.07258'),
+  url('https://arxiv.org/pdf/2108.07258.pdf'),
+)
+
+entry!('yasunaga2021language',
+  title('{LM-Critic}: Language Models for Unsupervised Grammatical Error Correction'),
+  author('Michihiro Yasunaga and Jure Leskovec and Percy Liang'),
+  emnlp(2021),
+  url('https://arxiv.org/pdf/2109.06822.pdf'),
+  codalab('0x94456a63e1ee4ccfaabdc7f6a356cc82'),
+)
+
+entry!('hewitt2021conditional',
+  title('Conditional probing: measuring usable information beyond a baseline'),
+  author('John Hewitt and Kawin Ethayarajh and Percy Liang and Christopher D. Manning'),
+  emnlp(2021),
+  url('https://arxiv.org/pdf/2109.09234.pdf'),
+  codalab('0x46190ef741004a43a2676a3b46ea0c76'),
+)
+
+entry!('castellon2021calm',
+  title('Codified audio language modeling learns useful representations for music information retrieval'),
+  author('Rodrigo Castellon and Chris Donahue and Percy Liang'),
+  ismir(2021),
+  url('https://arxiv.org/pdf/2107.05677.pdf'),
+  codalab('0x7c5afa6f88bd4ff29fec75035332a583'),
+)
+
+entry!('yasunaga2021break',
+  title('{Break-It-Fix-It}: Unsupervised Learning for Program Repair'),
+  author('Michihiro Yasunaga and Percy Liang'),
+  icml(2021),
+  url('https://arxiv.org/pdf/2106.06600.pdf'),
+  codalab('0xfddb2ef01a9f4dc0b5d974a5a97174be'),
+)
+
+entry!('davis2021catformer',
+  title('Catformer: Designing Stable Transformers via Sensitivity Analysis'),
+  author('Jared Quincy Davis and Albert Gu and Krzysztof Choromanski and Tri Dao and Christopher Re and Chelsea Finn and Percy Liang'),
+  icml(2021),
+)
+
+entry!('liu2021jtt',
+  title('Just Train Twice: Improving Group Robustness without Training Group Information'),
+  author('Evan Zheran Liu and Behzad Haghgoo and Annie S. Chen and Aditi Raghunathan and Pang Wei Koh and Shiori Sagawa and Percy Liang and Chelsea Finn'),
+  icml(2021),
+  url('https://arxiv.org/pdf/2107.09044.pdf'),
+)
+
+entry!('liu2021dream',
+  title('Decoupling Exploration and Exploitation for Meta-Reinforcement Learning without Sacrifices'),
+  author('Evan Zheran Liu and Aditi Raghunathan and Percy Liang and Chelsea Finn'),
+  icml(2021),
+  url('https://arxiv.org/pdf/2008.02790.pdf'),
+)
+
+entry!('xie2021composed',
+  title('Composed Fine-Tuning: Freezing Pre-Trained Denoising Autoencoders for Improved Generalization'),
+  author('Sang Michael Xie and Tengyu Ma and Percy Liang'),
+  icml(2021),
+  url('https://arxiv.org/pdf/2006.16205.pdf'),
+)
+
+entry!('koh2021wilds',
+  title('{WILDS}: A Benchmark of in-the-Wild Distribution Shifts'),
+  author('Pang Wei Koh* and Shiori Sagawa* and Henrik Marklund and Sang Michael Xie and Marvin Zhang and Akshay Balsubramani and Weihua Hu and Michihiro Yasunaga and Richard Lanas Phillips and Irena Gao and Tony Lee and Etienne David and Ian Stavness and Wei Guo and Berton A. Earnshaw and Imran S. Haque and Sara Beery and Jure Leskovec and Anshul Kundaje and Emma Pierson and Sergey Levine and Chelsea Finn and Percy Liang'),
+  icml(2021),
+  url('https://arxiv.org/pdf/2012.07421.pdf'),
+)
+
+entry!('miller2021line',
+  title('Accuracy on the Line: on the Strong Correlation Between Out-of-Distribution and In-Distribution Generalization'),
+  author('John Miller and Rohan Taori and Aditi Raghunathan and Shiori Sagawa and Pang Wei Koh and Vaishaal Shankar and Percy Liang and Yair Carmon and Ludwig Schmidt'),
+  icml(2021),
+  url('https://arxiv.org/pdf/2107.04649.pdf'),
+)
+
 entry!('yasunaga2021qagnn',
   title('{QA-GNN}: Reasoning with Language Models and Knowledge Graphs for Question Answering'),
   author('Michihiro Yasunaga and Hongyu Ren and Antoine Bosselut and Percy Liang and Jure Leskovec'),
@@ -12,14 +106,14 @@ entry!('yasunaga2021qagnn',
 entry!('liu2021concur',
   title('Can Small and Synthetic Benchmarks Drive Modeling Innovation?  A Retrospective Study of Question Answering Modeling Approaches'),
   author('Nelson F. Liu and Tony Lee and Robin Jia and Percy Liang'),
-  arxiv(2021),
+  arxiv(2021, '2102.01065'),
   url('https://arxiv.org/pdf/2102.01065.pdf'),
 )
 
 entry!('li2021prefix',
   title('Prefix-Tuning: Optimizing Continuous Prompts for Generation'),
   author('Xiang Lisa Li and Percy Liang'),
-  arxiv(2021),
+  acl(2021),
   url('https://arxiv.org/pdf/2101.00190.pdf'),
 )
 
@@ -33,7 +127,7 @@ entry!('jones2021selective',
 
 entry!('xie2021innout',
   title('In-{N}-Out: Pre-Training and Self-Training using Auxiliary Information for Out-of-Distribution Robustness'),
-  author('Sang Michael Xie* and Ananya Kumar* and Robert Jones* and Fereshte Khani and Tengyu Ma and Percy Liang'),
+  author('Sang Michael Xie* and Ananya Kumar* and Robbie Jones* and Fereshte Khani and Tengyu Ma and Percy Liang'),
   iclr(2021),
   url('https://arxiv.org/pdf/2012.04550.pdf'),
   unusualCapitalization('N'),
@@ -54,26 +148,19 @@ entry!('gu2021beyond',
   url('https://arxiv.org/pdf/2011.07743.pdf'),
 )
 
+entry!('koh2021stronger',
+  title('Stronger Data Poisoning Attacks Break Data Sanitization Defenses'),
+  author('Pang Wei Koh* and Jacob Steinhardt* and Percy Liang'),
+  article('Machine Learning', 2021, 1),
+  url('https://arxiv.org/pdf/1811.00741.pdf'),
+)
+
 ############################################################
 # 2020
 
-entry!('koh2020wilds',
-  title('{WILDS}: A Benchmark of in-the-Wild Distribution Shifts'),
-  author('Pang Wei Koh* and Shiori Sagawa* and Henrik Marklund and Sang Michael Xie and Marvin Zhang and Akshay Balsubramani and Weihua Hu and Michihiro Yasunaga and Richard Lanas Phillips and Irena Gao and Tony Lee and Etienne David and Ian Stavness and Wei Guo and Berton A. Earnshaw and Imran S. Haque and Sara Beery and Jure Leskovec and Anshul Kundaje and Emma Pierson and Sergey Levine and Chelsea Finn and Percy Liang'),
-  arxiv(2020),
-  url('https://arxiv.org/pdf/2012.07421.pdf'),
-)
-
-entry!('xie2020outputs',
-  title('Simplifying Models with Unlabeled Output Data'),
-  author('Sang Michael Xie and Tengyu Ma and Percy Liang'),
-  arxiv(2020),
-  url('https://arxiv.org/pdf/2006.16205.pdf'),
-)
-
 entry!('karamcheti2020decomposition',
   title('Learning Adaptive Language Interfaces through Decomposition'),
-  author('Sidd Karamcheti and Dorsa Sadigh and Percy Liang'),
+  author('Siddharth Karamcheti and Dorsa Sadigh and Percy Liang'),
   inproceedings('EMNLP Workshop for Interactive and Executable Semantic Parsing (IntEx-SemPar)', 2020),
   url('https://arxiv.org/pdf/2010.05190.pdf'),
 )
@@ -156,7 +243,7 @@ entry!('khani2020noise',
 
 entry!('yasunaga2020repair',
   title('Graph-based, Self-Supervised Program Repair from Diagnostic Feedback'),
-  author('Michi Yasunaga and Percy Liang'),
+  author('Michihiro Yasunaga and Percy Liang'),
   icml(2020),
   url('https://arxiv.org/pdf/2005.10636.pdf'),
   codalab('0x01838644724a433c932bef4cb5c42fbd'),
@@ -359,13 +446,6 @@ entry!('peng2019pun',
   codalab('0x5a7d0fe35b144ad68998d74891a31ed6'),
 )
 
-entry!('koh2019stronger',
-  title('Stronger Data Poisoning Attacks Break Data Sanitization Defenses'),
-  author('Pang Wei Koh* and Jacob Steinhardt* and Percy Liang'),
-  arxiv(2019, '1811.00741'),
-  url('https://arxiv.org/pdf/1811.00741.pdf'),
-)
-
 entry!('selsam2019sat',
   title('Learning a {SAT} Solver from Single-Bit Supervision'),
   author('Daniel Selsam and Matthew Lamm and Benedikt Bünz and Percy Liang and Leonardo de Moura and David L. Dill'),
@@ -439,7 +519,7 @@ entry!('he2018negotiation',
 
 entry!('pasupat2018elements',
   title('Mapping Natural Language Commands to Web Elements'),
-  author('Panupong Pasupat and Tian-Shun Jiang and Evan Liu and Kelvin Guu and Percy Liang'),
+  author('Panupong Pasupat and Tian-Shun Jiang and Evan Zheran Liu and Kelvin Guu and Percy Liang'),
   emnlp(2018),
   url('https://arxiv.org/pdf/1808.09132.pdf'),
   note('Short paper.'),
