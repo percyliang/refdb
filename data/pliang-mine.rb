@@ -127,7 +127,7 @@ entry!('jones2021selective',
 
 entry!('xie2021innout',
   title('In-{N}-Out: Pre-Training and Self-Training using Auxiliary Information for Out-of-Distribution Robustness'),
-  author('Sang Michael Xie* and Ananya Kumar* and Robert Jones* and Fereshte Khani and Tengyu Ma and Percy Liang'),
+  author('Sang Michael Xie* and Ananya Kumar* and Robbie Jones* and Fereshte Khani and Tengyu Ma and Percy Liang'),
   iclr(2021),
   url('https://arxiv.org/pdf/2012.04550.pdf'),
   unusualCapitalization('N'),
