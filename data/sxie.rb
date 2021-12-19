@@ -602,13 +602,8 @@ entry!('tu2019benchmarking',
        naacl(2019),
       )
 
-entry!('yosinski2014how',
-       author('Jason Yosinski and Jeff Clune and Yoshua Bengio and Hod Lipson'),
-       title('How transferable are features in deep neural networks?'),
-       nips(2014),
-      )
 entry!('power2021grokking',
-  title('Grokking: Generalization beyond overfitting on small algorithmic datasets.'),
+  title('Grokking: Generalization beyond overfitting on small algorithmic datasets'),
   author('Alethea Power and Yuri Burda and Harri Edwards and Igor Babuschkin and Vedant Misra'),
   iclrWorkshop(2021),
 )
@@ -617,40 +612,18 @@ entry!('jiang2020how',
   title('How can we know what language models know?'),
   acl(2020),)
 
-entry!('schick2021exploiting',
-      title('Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference'), 
-      author('Timo Schick and Hinrich Schütze'),
-      eacl(2021),
-      )
-entry!('shin2020eliciting',
-      title('Eliciting knowledge from language models using automatically generated prompts'),
-      author('Taylor Shin and Yasaman Razeghi and Robert L Logan IV and Eric Wallace and Sameer Singh'),
-      emnlp(2020))
-
-entry!('holtzman2021surface',
-      title("Surface Form Competition: Why the Highest Probability Answer Isn't Always Right"), 
-      author("Ari Holtzman and Peter West and Vered Shwartz and Yejin Choi and Luke Zettlemoyer"),
-      arxiv(2021),
-      )
-
-entry!('J1WhitePaper',
-  author('Lieber, Opher and Sharir, Or and Lenz, Barak and Shoham, Yoav'),
-       title('Jurassic-1: Technical Details And Evaluation'),
-  [type('misc'), year(2021)],
-      )
-
-entry!('Gunst2008AsymptoticBO',
-       title('Asymptotic behavior of Bayes estimators for hidden Markov models with application to ion channels'),
+entry!('gunst2008asymptotic',
+       title('Asymptotic behavior of {Bayes} estimators for hidden {Markov} models with application to ion channels'),
        author('M. Gunst and O. Shcherbakova'),
        article('Mathematical Methods of Statistics', 2008, 17),
     )
 entry!('wang2021gptj',
   author('Wang, Ben and Komatsuzaki, Aran'),
-  title('GPT-J-6B: A 6 Billion Parameter Autoregressive Language Model'),
+  title('{GPT}-{J}-{6B}: A 6 Billion Parameter Autoregressive Language Model'),
   [type('misc'), year(2021)],
       )
 entry!('baum1966statistical',
-       title('Statistical inference for probabilistic functions of finite state Markov chains'),
+       title('Statistical inference for probabilistic functions of finite state {Markov} chains'),
        author('Baum, Leonard E and Petrie, Ted'),
        article('The Annals of Mathematical Statistics', 1966, 37),
     ) 
@@ -666,7 +639,10 @@ entry!('clark2020electra',
       )
 
 entry!('gruber2007hidden',
-       title('Hidden Topic Markov Models'),
+       title('Hidden Topic {Markov} Models'),
        author('Gruber, Amit and Weiss, Yair and Rosen-Zvi, Michal'),
        aistats(2007),
       )
+
+
+
