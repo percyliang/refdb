@@ -497,5 +497,33 @@ entry!('github2021repos',
        howpublished('\url{https://github.com/search?q=is:public}'),
        year(2021),
        )
+entry!('lester2021prompt',
+       author('Brian Lester and Rami Al-Rfou and Noah Constant'),
+       title('The Power of Scale for Parameter-Efficient Prompt Tuning'),
+  arxiv(2021)
+      )
 
+entry!('miyazaki2020automatic',
+       author('Tomo Miyazaki and Tatsunori Tsuchiya and Yoshihiro Sugaya and Shinichiro Omachi and Masakazu Iwamura and Seiichi Uchida and Koichi Kise'),
 
+       title('Automatic Generation of Typographic Font from a Small Font Subset'),
+  article('IEEE Computer Graphics and Applications', 2020, 40),
+      )
+
+entry!('tenenbaum2000separating',
+       author('Joshua B. Tenenbaum and William T. Freeman'),
+       title('Separating Style and Content with Bilinear Models'),
+       article('Neural Computation', 2000, 12),
+      )
+
+entry!('mostajabi2018regularizing',
+       author('Mohammadreza Mostajabi and Michael Maire and Gregory Shakhnarovich'),
+       title('Regularizing Deep Networks by Modeling and Predicting Label Structure'),
+       cvpr(2018),
+      )
+
+entry!('tu2019benchmarking',
+       author('Lifu Tu and Kevin Gimpel'),
+       title('Benchmarking Approximate Inference Methods for Neural Structured Prediction'),
+       naacl(2019),
+      )
