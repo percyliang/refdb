@@ -200,7 +200,7 @@ entry!('newman2020eos',
   author('Benjamin Newman and John Hewitt and Percy Liang and Christopher D. Manning'),
   title('The {EOS} Decision and Length Extrapolation'),
   inproceedings('Proceedings of the Third BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP', 2020),
-  url('https://arxiv.org/abs/2010.07174'),
+  url('https://arxiv.org/pdf/2010.07174.pdf'),
   award('Outstanding paper award'),
 )
 
