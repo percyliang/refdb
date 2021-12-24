@@ -1,9 +1,5 @@
-# Installation
+This directory contains some utilities to use Semantic Scholar to lookup papers and produce various formatted outputs.
 
-Install Python libraries:
+# Running unit tests:
 
-    pip install bottle --user
-
-# Running
-
-    python main.py
+    python -m pytest
