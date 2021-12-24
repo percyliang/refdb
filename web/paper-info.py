@@ -33,7 +33,7 @@ else:
     mode = 'markdown'  # Default
 
 # Separate out leading whitespace into `prefix`
-m = re.match(r'([\s\-]*)([^\s\-]+)', query)
+m = re.match(r'([\s\-]*)([^\s]+)', query)
 prefix, query = m.group(1), m.group(2)
 # Remove last tab if all tabs (relevant for OTL)
 if re.match(r'\t+', prefix):
