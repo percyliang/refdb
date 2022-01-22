@@ -60,3 +60,12 @@ entry!('gidaris2018rotation',
   author('Spyros Gidaris and Praveer Singh and Nikos Komodakis'),
   url('https://openreview.net/forum?id=S1v4N2l0-'),
 )
+
+entry!('oord2019representation',
+  title('Representation Learning with Contrastive Predictive Coding'),
+  author('Aaron van den Oord and Yazhe Li and Oriol Vinyals'),
+  arxiv(2019),
+  #eprint('1807.03748'),
+  #archiveprefix('arXiv'),
+  #primaryclass('cs.LG'),
+)
