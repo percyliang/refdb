@@ -554,3 +554,15 @@ entry!('ge2017borrowing',
   author('Weifeng Ge and Yizhou Yu'),
   cvpr(2017),
 )
+
+entry!('rudelson2009smallest',
+  title('Smallest Singular Value of a Random Rectangular Matrix'),
+  author('Mark Rudelson and Roman Vershynin'),
+  article('Communications on Pure and Applied Mathematics', 2009, 62), pages(1707, 1739),
+)
+
+entry!('golub2013matrix',
+  title('Matrix Computations'),
+  author('Gene H. Golub and Charles F. Van Loan'),
+  book('The Johns Hopkins University Press', 2013),
+)
