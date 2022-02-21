@@ -1619,3 +1619,55 @@ entry!('wu2021greedy',
   title('Greedy Hierarchical Variational Autoencoders for Large-Scale Video Prediction'),
   author('Bohan Wu and Suraj Nair and Roberto Martín-Martín and Li Fei-Fei and Chelsea Finn'),
 )
+
+#######################################################################################################################
+###                                          CS 326: High-DoF DAgger                                                ###
+#######################################################################################################################
+entry!('osa2018algorithmic',
+  article('Found. Trends Robotics', 2018, 7),
+  title('An Algorithmic {p}erspective on Imitation Learning'),
+  author('Takayuki Osa and Joni Pajarinen and Gerhard Neumann and J. Andrew Bagnell and P. Abbeel and Jan Peters'),
+  pages(1, 179),
+)
+
+entry!('kelly2019hgdagger',
+  icra(2019),
+  title('{HG-DAgger}: Interactive Imitation Learning with Human Experts'),
+  author('Michael Kelly and Chelsea Sidrane and K. Driggs-Campbell and Mykel J. Kochenderfer'),
+  pages(8077, 8083),
+)
+
+entry!('hoque2021lazydagger',
+  title('{LazyDAgger}: Reducing Context Switching in Interactive Imitation Learning'),
+  author('Ryan Hoque and Ashwin Balakrishna and Carl Putterman and Michael Luo and Daniel S. Brown and Daniel Seita and Brijen Thananjeyan and Ellen R. Novoseller and Ken Goldberg'),
+  article('IEEE 17th International Conference on Automation Science and Engineering (CASE)', 2021, 3),
+  pages(502, 509),
+)
+
+entry!('hoque2021thriftydagger',
+  corl(2021),
+  title('{ThriftyDAgger}: Budget-Aware Novelty and Risk Gating for Interactive Imitation Learning'),
+  author('Ryan Hoque and Ashwin Balakrishna and Ellen R. Novoseller and Albert Wilcox and Daniel S. Brown and Ken Goldberg'),
+)
+
+entry!('schaal1999imitation',
+  science(1999, 3),
+  title('Is imitation learning the route to humanoid robots?'),
+  author('Stefan Schaal'),
+  pages(233, 242),
+)
+
+
+entry!('goil2013blend',
+  title('Using machine learning to blend human and robot controls for assisted wheelchair navigation'),
+  author('Aditya Goil and Matthew Derry and Brenna Argall'),
+  article('2013 IEEE 13th International Conference on Rehabilitation Robotics (ICORR)', 2013, 6),
+  pages(1, 6),
+)
+
+entry!('kim1992force',
+  article('IEEE Trans. Robotics Autom.', 1992, 8),
+  title('Force-reflection and shared compliant control in operating telemanipulators with time delay'),
+  author('Won S. Kim and Blake Hannaford and Antal K. Bejczy'),
+  pages(176, 185),
+)
