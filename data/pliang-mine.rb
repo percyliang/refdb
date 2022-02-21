@@ -2,7 +2,7 @@
 # 2021
 
 entry!('xie2021incontext',
-  title('An Explanation of In-context Learning as Implicit Bayesian Inference'),
+  title('An Explanation of In-context Learning as Implicit {B}ayesian Inference'),
   author('Sang Michael Xie and Aditi Raghunathan and Percy Liang and Tengyu Ma'),
   arxiv(2021),
   url('https://arxiv.org/pdf/2111.02080.pdf'),
@@ -44,6 +44,7 @@ entry!('castellon2021calm',
   ismir(2021),
   url('https://arxiv.org/pdf/2107.05677.pdf'),
   codalab('0x7c5afa6f88bd4ff29fec75035332a583'),
+  award('Best paper runner up'),
 )
 
 entry!('yasunaga2021break',
@@ -127,7 +128,7 @@ entry!('jones2021selective',
 
 entry!('xie2021innout',
   title('In-{N}-Out: Pre-Training and Self-Training using Auxiliary Information for Out-of-Distribution Robustness'),
-  author('Sang Michael Xie* and Ananya Kumar* and Robert Jones* and Fereshte Khani and Tengyu Ma and Percy Liang'),
+  author('Sang Michael Xie* and Ananya Kumar* and Robbie Jones* and Fereshte Khani and Tengyu Ma and Percy Liang'),
   iclr(2021),
   url('https://arxiv.org/pdf/2012.04550.pdf'),
   unusualCapitalization('N'),
@@ -146,6 +147,13 @@ entry!('gu2021beyond',
   author('Yu Gu and Sue Kase and Michelle T. Vanni and Brian M. Sadler and Percy Liang and Xifeng Yan and Yu Su'),
   www(2021),
   url('https://arxiv.org/pdf/2011.07743.pdf'),
+)
+
+entry!('koh2021stronger',
+  title('Stronger Data Poisoning Attacks Break Data Sanitization Defenses'),
+  author('Pang Wei Koh* and Jacob Steinhardt* and Percy Liang'),
+  article('Machine Learning', 2021, 1),
+  url('https://arxiv.org/pdf/1811.00741.pdf'),
 )
 
 ############################################################
@@ -192,7 +200,7 @@ entry!('newman2020eos',
   author('Benjamin Newman and John Hewitt and Percy Liang and Christopher D. Manning'),
   title('The {EOS} Decision and Length Extrapolation'),
   inproceedings('Proceedings of the Third BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP', 2020),
-  url('https://arxiv.org/abs/2010.07174'),
+  url('https://arxiv.org/pdf/2010.07174.pdf'),
   award('Outstanding paper award'),
 )
 
@@ -437,13 +445,6 @@ entry!('peng2019pun',
   naacl(2019),
   url('https://arxiv.org/pdf/1904.06828.pdf'),
   codalab('0x5a7d0fe35b144ad68998d74891a31ed6'),
-)
-
-entry!('koh2019stronger',
-  title('Stronger Data Poisoning Attacks Break Data Sanitization Defenses'),
-  author('Pang Wei Koh* and Jacob Steinhardt* and Percy Liang'),
-  arxiv(2019, '1811.00741'),
-  url('https://arxiv.org/pdf/1811.00741.pdf'),
 )
 
 entry!('selsam2019sat',
