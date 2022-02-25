@@ -566,3 +566,27 @@ entry!('golub2013matrix',
   author('Gene H. Golub and Charles F. Van Loan'),
   book('The Johns Hopkins University Press', 2013),
 )
+
+entry!('minderer2021revisiting',
+  title('Revisiting the Calibration of Modern Neural Networks'),
+  author('Matthias Minderer and Josip Djolonga and Rob Romijnders and Frances Hubis and Xiaohua Zhai and Neil Houlsby and Dustin Tran and Mario Lucic'),
+  neurips(2021),
+)
+
+entry!('mukhoti2020calibrating',
+  title('Calibrating Deep Neural Networks using Focal Loss'),
+  author('Jishnu Mukhoti and Viveka Kulharia and Amartya Sanyal and Stuart Golodetz and Philip H.S. Torr and Puneet K. Dokania'),
+  neurips(2020),
+)
+
+entry!('bai2021dont',
+  title('Don\'t Just Blame Over-parametrization for Over-confidence: Theoretical Analysis of Calibration in Binary Classification'),
+  author('Yu Bai and Song Mei and Huan Wang and Caiming Xiong'),
+  arxiv(2021),
+)
+
+entry!('desai2020calibration',
+  title('Calibration of Pre-trained Transformers'),
+  author('Shrey Desai and Greg Durrett'),
+  arxiv(2020),
+)
