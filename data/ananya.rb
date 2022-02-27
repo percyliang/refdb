@@ -512,3 +512,93 @@ entry!('stickland2020diverse',
   author('Asa Cooper Stickland and Iain Murray'),
   arxiv(2020),
 )
+
+entry!('li2018explicit',
+  title('Explicit Inductive Bias for Transfer Learning with Convolutional Networks'),
+  author('Xuhong Li and Yves Grandvalet and Franck Davoine'),
+  icml(2018),
+)
+
+entry!('kanavati2021transfusion',
+  title('Partial transfusion: on the expressive influence of trainable batch norm parameters for transfer learning'),
+  author('Fahdi Kanavati and Masayuki Tsuneki'),
+  inproceedings('Medical Imaging with Deep Learning', 2021),
+)
+
+entry!('aghajanyan2021finetuning',
+  title('Better Fine-Tuning by Reducing Representational Collapse'),
+  author('Armen Aghajanyan and Akshat Shrivastava and Anchit Gupta and Naman Goyal and Luke Zettlemoyer and Sonal Gupta'),
+  iclr(2021),
+)
+
+entry!('jiang2021smart',
+  title('SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization'),
+  author('Haoming Jiang and Pengcheng He and Weizhu Chen and Xiaodong Liu and Jianfeng Gao and Tuo Zhao'),
+  iclr(2021),
+)
+
+entry!('guo2019spottune',
+  title('SpotTune: Transfer Learning through Adaptive Fine-tuning'),
+  author('Yunhui Guo and Honghui Shi and Abhishek Kumar and Kristen Grauman and Tajana Rosing and Rogerio Feris'),
+  cvpr(2019),
+)
+
+entry!('zhang2020sidetuning',
+  title('Side-Tuning: A Baseline for Network Adaptation via Additive Side Networks'),
+  author('Jeffrey O Zhang and Alexander Sax and Amir Zamir and Leonidas Guibas and Jitendra Malik'),
+  eccv(2020),
+)
+
+entry!('ge2017borrowing',
+  title('Borrowing Treasures from the Wealthy: Deep Transfer Learning through Selective Joint Fine-tuning'),
+  author('Weifeng Ge and Yizhou Yu'),
+  cvpr(2017),
+)
+
+entry!('rudelson2009smallest',
+  title('Smallest Singular Value of a Random Rectangular Matrix'),
+  author('Mark Rudelson and Roman Vershynin'),
+  article('Communications on Pure and Applied Mathematics', 2009, 62), pages(1707, 1739),
+)
+
+entry!('golub2013matrix',
+  title('Matrix Computations'),
+  author('Gene H. Golub and Charles F. Van Loan'),
+  book('The Johns Hopkins University Press', 2013),
+)
+
+entry!('minderer2021revisiting',
+  title('Revisiting the Calibration of Modern Neural Networks'),
+  author('Matthias Minderer and Josip Djolonga and Rob Romijnders and Frances Hubis and Xiaohua Zhai and Neil Houlsby and Dustin Tran and Mario Lucic'),
+  neurips(2021),
+)
+
+entry!('mukhoti2020calibrating',
+  title('Calibrating Deep Neural Networks using Focal Loss'),
+  author('Jishnu Mukhoti and Viveka Kulharia and Amartya Sanyal and Stuart Golodetz and Philip H.S. Torr and Puneet K. Dokania'),
+  neurips(2020),
+)
+
+entry!('bai2021dont',
+  title('Don\'t Just Blame Over-parametrization for Over-confidence: Theoretical Analysis of Calibration in Binary Classification'),
+  author('Yu Bai and Song Mei and Huan Wang and Caiming Xiong'),
+  arxiv(2021),
+)
+
+entry!('desai2020calibration',
+  title('Calibration of Pre-trained Transformers'),
+  author('Shrey Desai and Greg Durrett'),
+  arxiv(2020),
+)
+
+entry!('kumar2022finetuning',
+  title('Fine-Tuning Distorts Pretrained Features and Underperforms Out-of-Distribution'),
+  author('Ananya Kumar and Aditi Raghunathan and Robbie Matthew Jones and Tengyu Ma and Percy Liang'),
+  iclr(2022),
+)
+
+entry!('sill2009feature',
+  title('Feature-Weighted Linear Stacking'),
+  author('Joseph Sill and Gabor Takacs and Lester Mackey and David Lin'),
+  arxiv(2009),
+)

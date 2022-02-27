@@ -87,7 +87,7 @@ def cvpr(year); inproceedings(Name.new('Computer Vision and Pattern Recognition'
 def wacv(year); inproceedings(Name.new('Winter Conference on Applications of Computer Vision', 'WACV'), year) end
 
 ### Robotics
-def corl(year); inproceedings(Name.new('Conference on Robot Learning', 'CORL'), year) end
+def corl(year); inproceedings(Name.new('Conference on Robot Learning', 'CoRL'), year) end
 def icra(year); inproceedings(Name.new('International Conference on Robotics and Automation', 'ICRA'), year) end
 def iros(year); inproceedings(Name.new('International Conference on Intelligent Robots and Systems', 'IROS'), year) end
 def rss(year); inproceedings(Name.new('Robotics: Science and Systems', 'RSS'), year) end
@@ -99,6 +99,7 @@ def ijsr(year, volume); article(Name.new('International Journal of Social Roboti
 def ral(year, volume); article(Name.new('IEEE Robotics and Automation Letters', 'RA-L'), year, volume) end
 def ram(year, volume); article(Name.new('IEEE Robotics \& Automation Magazine', 'RAM'), year, volume) end
 def tro(year, volume); article(Name.new('IEEE Transactions on Robotics', 'T-RO'), year, volume) end
+def auro(year); article(Name.new('Autonomous Robots', 'AURO'), year) end
 
 ### Human-robot interaction & assistive robotics
 def hri(year); inproceedings(Name.new('ACM/IEEE International Conference on Human Robot Interaction', 'HRI'), year) end

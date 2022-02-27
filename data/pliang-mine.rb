@@ -1,6 +1,20 @@
 ############################################################
 # 2021
 
+entry!('xie2021incontext',
+  title('An Explanation of In-context Learning as Implicit {B}ayesian Inference'),
+  author('Sang Michael Xie and Aditi Raghunathan and Percy Liang and Tengyu Ma'),
+  arxiv(2021),
+  url('https://arxiv.org/pdf/2111.02080.pdf'),
+)
+
+entry!('karamcheti2021lila',
+  title('{LILA}: Language-Informed Latent Actions'),
+  author('Siddharth Karamcheti* and Megha Srivastava* and Percy Liang and Dorsa Sadigh'),
+  corl(2021),
+  url('https://arxiv.org/pdf/2111.03205.pdf'),
+)
+
 entry!('bommasani2021opportunities',
   title('On the Opportunities and Risks of Foundation Models'),
   author('Rishi Bommasani and Drew A. Hudson and Ehsan Adeli and Russ Altman and Simran Arora and Sydney von Arx and Michael S. Bernstein and Jeannette Bohg and Antoine Bosselut and Emma Brunskill and Erik Brynjolfsson and Shyamal Buch and Dallas Card and Rodrigo Castellon and Niladri Chatterji and Annie Chen and Kathleen Creel and Jared Quincy Davis and Dorottya Demszky and Chris Donahue and Moussa Doumbouya and Esin Durmus and Stefano Ermon and John Etchemendy and Kawin Ethayarajh and Li Fei-Fei and Chelsea Finn and Trevor Gale and Lauren Gillespie and Karan Goel and Noah Goodman and Shelby Grossman and Neel Guha and Tatsunori Hashimoto and Peter Henderson and John Hewitt and Daniel E. Ho and Jenny Hong and Kyle Hsu and Jing Huang and Thomas Icard and Saahil Jain and Dan Jurafsky and Pratyusha Kalluri and Siddharth Karamcheti and Geoff Keeling and Fereshte Khani and Omar Khattab and Pang Wei Koh and Mark Krass and Ranjay Krishna and Rohith Kuditipudi and Ananya Kumar and Faisal Ladhak and Mina Lee and Tony Lee and Jure Leskovec and Isabelle Levent and Xiang Lisa Li and Xuechen Li and Tengyu Ma and Ali Malik and Christopher D. Manning and Suvir Mirchandani and Eric Mitchell and Zanele Munyikwa and Suraj Nair and Avanika Narayan and Deepak Narayanan and Ben Newman and Allen Nie and Juan Carlos Niebles and Hamed Nilforoshan and Julian Nyarko and Giray Ogut and Laurel Orr and Isabel Papadimitriou and Joon Sung Park and Chris Piech and Eva Portelance and Christopher Potts and Aditi Raghunathan and Rob Reich and Hongyu Ren and Frieda Rong and Yusuf Roohani and Camilo Ruiz and Jack Ryan and Christopher Ré and Dorsa Sadigh and Shiori Sagawa and Keshav Santhanam and Andy Shih and Krishnan Srinivasan and Alex Tamkin and Rohan Taori and Armin W. Thomas and Florian Tramèr and Rose E. Wang and William Wang and Bohan Wu and Jiajun Wu and Yuhuai Wu and Sang Michael Xie and Michihiro Yasunaga and Jiaxuan You and Matei Zaharia and Michael Zhang and Tianyi Zhang and Xikun Zhang and Yuhui Zhang and Lucia Zheng and Kaitlyn Zhou and Percy Liang'),
@@ -30,6 +44,7 @@ entry!('castellon2021calm',
   ismir(2021),
   url('https://arxiv.org/pdf/2107.05677.pdf'),
   codalab('0x7c5afa6f88bd4ff29fec75035332a583'),
+  award('Best paper runner up'),
 )
 
 entry!('yasunaga2021break',
@@ -113,7 +128,7 @@ entry!('jones2021selective',
 
 entry!('xie2021innout',
   title('In-{N}-Out: Pre-Training and Self-Training using Auxiliary Information for Out-of-Distribution Robustness'),
-  author('Sang Michael Xie* and Ananya Kumar* and Robert Jones* and Fereshte Khani and Tengyu Ma and Percy Liang'),
+  author('Sang Michael Xie* and Ananya Kumar* and Robbie Jones* and Fereshte Khani and Tengyu Ma and Percy Liang'),
   iclr(2021),
   url('https://arxiv.org/pdf/2012.04550.pdf'),
   unusualCapitalization('N'),
@@ -132,6 +147,13 @@ entry!('gu2021beyond',
   author('Yu Gu and Sue Kase and Michelle T. Vanni and Brian M. Sadler and Percy Liang and Xifeng Yan and Yu Su'),
   www(2021),
   url('https://arxiv.org/pdf/2011.07743.pdf'),
+)
+
+entry!('koh2021stronger',
+  title('Stronger Data Poisoning Attacks Break Data Sanitization Defenses'),
+  author('Pang Wei Koh* and Jacob Steinhardt* and Percy Liang'),
+  article('Machine Learning', 2021, 1),
+  url('https://arxiv.org/pdf/1811.00741.pdf'),
 )
 
 ############################################################
@@ -178,7 +200,7 @@ entry!('newman2020eos',
   author('Benjamin Newman and John Hewitt and Percy Liang and Christopher D. Manning'),
   title('The {EOS} Decision and Length Extrapolation'),
   inproceedings('Proceedings of the Third BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP', 2020),
-  url('https://arxiv.org/abs/2010.07174'),
+  url('https://arxiv.org/pdf/2010.07174.pdf'),
   award('Outstanding paper award'),
 )
 
@@ -423,13 +445,6 @@ entry!('peng2019pun',
   naacl(2019),
   url('https://arxiv.org/pdf/1904.06828.pdf'),
   codalab('0x5a7d0fe35b144ad68998d74891a31ed6'),
-)
-
-entry!('koh2019stronger',
-  title('Stronger Data Poisoning Attacks Break Data Sanitization Defenses'),
-  author('Pang Wei Koh* and Jacob Steinhardt* and Percy Liang'),
-  arxiv(2019, '1811.00741'),
-  url('https://arxiv.org/pdf/1811.00741.pdf'),
 )
 
 entry!('selsam2019sat',

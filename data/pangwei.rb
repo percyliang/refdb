@@ -2643,7 +2643,7 @@ entry!('djolonga2020robustness',
   author('Josip Djolonga and Jessica Yung and Michael Tschannen and Rob Romijnders and Lucas Beyer and Alexander Kolesnikov and Joan Puigcerver and Matthias Minderer and Alexander D\'Amour and Dan Moldovan and others'),
 nil)
 
-entry!('wang2019learning',
+entry!('wang2019learningrobust',
   neurips(2019),
   title('Learning robust global representations by penalizing local predictive power'),
   author('Haohan Wang and Songwei Ge and Zachary Lipton and Eric P Xing'),
@@ -3074,4 +3074,77 @@ entry!('cai2019human',
   title('Human-centered tools for coping with imperfect algorithms during medical decision-making'),
   author('Carrie J Cai and Emily Reif and Narayan Hegde and Jason Hipp and Been Kim and Daniel Smilkov and Martin Wattenberg and Fernanda Viegas and Greg S Corrado and Martin C Stumpe and Michael Terry'),
   pages(1, 14),
+)
+
+entry!('steed2021image',
+  facct(2021),
+  title('Image representations learned with unsupervised pre-training contain human-like biases'),
+  author('Ryan Steed and Aylin Caliskan'),
+  pages(701, 713),
+)
+
+entry!('caliskan2017semantics',
+  science(2017, 356),
+  title('Semantics derived automatically from language corpora contain human-like biases'),
+  author('Aylin Caliskan and Joanna J Bryson and Arvind Narayanan'),
+  number(6334),
+  pages(183, 186),
+  publisher('American Association for the Advancement of Science'),
+)
+
+entry!('garg2018word',
+  science(2018, 115),
+  title('Word embeddings quantify 100 years of gender and ethnic stereotypes'),
+  author('Nikhil Garg and Londa Schiebinger and Dan Jurafsky and James Zou'),
+  publisher('National Acad Sciences'),
+)
+
+entry!('tan2019assessing',
+  arxiv(2019, '1911.01485'),
+  title('Assessing social and intersectional biases in contextualized word representations'),
+  author('Yi Chern Tan and L Elisa Celis'),
+)
+
+entry!('tsai2021conditional',
+  arxiv(2021, '2106.02866'),
+  title('Conditional Contrastive Learning: Removing Undesirable Information in Self-Supervised Representations'),
+  author('Yao-Hung Hubert Tsai and Martin Q Ma and Han Zhao and Kun Zhang and Louis-Philippe Morency and Ruslan Salakhutdinov'),
+)
+
+entry!('mishra2021surprisingly',
+  arxiv(2021, '2101.12727'),
+  title('Surprisingly Simple Semi-Supervised Domain Adaptation with Pretraining and Consistency'),
+  author('Samarth Mishra and Kate Saenko and Venkatesh Saligrama'),
+)
+
+entry!('xu2019larger',
+  iccv(2019),
+  title('Larger norm more transferable: An adaptive feature norm approach for unsupervised domain adaptation'),
+  author('Ruijia Xu and Guanbin Li and Jihan Yang and Liang Lin'),
+  pages(1426, 1435),
+)
+
+entry!('zhao2018adversarial',
+  article('Advances in neural information processing systems', 2018, 31),
+  title('Adversarial multiple source domain adaptation'),
+  author('Han Zhao and Shanghang Zhang and Guanhang Wu and Jos{\\\'e} MF Moura and Joao P Costeira and Geoffrey J Gordon'),
+  pages(8559, 8570),
+)
+
+entry!('dubey2021adaptive',
+  cvpr(2021),
+  title('Adaptive Methods for Real-World Domain Generalization'),
+  author('Abhimanyu Dubey and Vignesh Ramanathan and Alex Pentland and Dhruv Mahajan'),
+)
+
+entry!('cole2021does',
+  arxiv(2021, '2105.05837'),
+  title('When Does Contrastive Visual Representation Learning Work?'),
+  author('Elijah Cole and Xuan Yang and Kimberly Wilber and Oisin Mac Aodha and Serge Belongie'),
+)
+
+entry!('shen2021connect',  
+  title('How Does Contrastive Pre-training Connect Disparate Domains?'),
+  author('Kendrick Shen and Robbie Matthew Jones and Ananya Kumar and Sang Michael Xie and Percy Liang'),
+  inproceedings('NeurIPS Workshop on Distribution Shifts', 2021),
 )

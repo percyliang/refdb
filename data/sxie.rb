@@ -497,6 +497,25 @@ entry!('github2021repos',
        howpublished('\url{https://github.com/search?q=is:public}'),
        year(2021),
        )
+
+entry!('miyazaki2020automatic',
+       author('Tomo Miyazaki and Tatsunori Tsuchiya and Yoshihiro Sugaya and Shinichiro Omachi and Masakazu Iwamura and Seiichi Uchida and Koichi Kise'),
+
+       title('Automatic Generation of Typographic Font from a Small Font Subset'),
+  article('IEEE Computer Graphics and Applications', 2020, 40),
+      )
+
+entry!('tenenbaum2000separating',
+       author('Joshua B. Tenenbaum and William T. Freeman'),
+       title('Separating Style and Content with Bilinear Models'),
+       article('Neural Computation', 2000, 12),
+      )
+
+entry!('mostajabi2018regularizing',
+       author('Mohammadreza Mostajabi and Michael Maire and Gregory Shakhnarovich'),
+       title('Regularizing Deep Networks by Modeling and Predicting Label Structure'),
+       cvpr(2018))
+
 entry!('reed2021self',
        author('Colorado J. Reed and Xiangyu Yue and Ani Nrusimha and Sayna Ebrahimi and Vivek Vijaykumar and Richard Mao and Bo Li and Shanghang Zhang and Devin Guillory and Sean Metzger and Kurt Keutzer and Trevor Darrell'),
        title('Self-Supervised Pretraining Improves Self-Supervised Pretraining'),
@@ -576,4 +595,57 @@ entry!('kuhn1994hmm',
        title('Ergodic hidden {markov} models and polygrams for language modeling'),
        icassp(1994),
       )
+
+entry!('tu2019benchmarking',
+       author('Lifu Tu and Kevin Gimpel'),
+       title('Benchmarking Approximate Inference Methods for Neural Structured Prediction'),
+       naacl(2019),
+      )
+
+entry!('power2021grokking',
+  title('Grokking: Generalization beyond overfitting on small algorithmic datasets'),
+  author('Alethea Power and Yuri Burda and Harri Edwards and Igor Babuschkin and Vedant Misra'),
+  iclrWorkshop(2021),
+)
+entry!('jiang2020how',
+  author('Zhengbao Jiang and Frank F Xu and Jun Araki and Graham Neubig'),
+  title('How can we know what language models know?'),
+  acl(2020),)
+
+entry!('gunst2008asymptotic',
+       title('Asymptotic behavior of {Bayes} estimators for hidden {Markov} models with application to ion channels'),
+       author('M. Gunst and O. Shcherbakova'),
+       article('Mathematical Methods of Statistics', 2008, 17),
+    )
+entry!('wang2021gptj',
+  author('Wang, Ben and Komatsuzaki, Aran'),
+  title('{GPT}-{J}-{6B}: A 6 Billion Parameter Autoregressive Language Model'),
+  [type('misc'), year(2021)],
+      )
+entry!('baum1966statistical',
+       title('Statistical inference for probabilistic functions of finite state {Markov} chains'),
+       author('Baum, Leonard E and Petrie, Ted'),
+       article('The Annals of Mathematical Statistics', 1966, 37),
+    ) 
+entry!('sanh2021multitask',
+       title('Multitask Prompted Training Enables Zero-Shot Task Generalization'),
+       author('Victor Sanh and Albert Webson and Colin Raffel and Stephen H. Bach and Lintang Sutawika and Zaid Alyafeai and Antoine Chaffin and Arnaud Stiegler and Teven Le Scao and Arun Raja and Manan Dey and M Saiful Bari and Canwen Xu and Urmish Thakker and Shanya Sharma Sharma and Eliza Szczechla and Taewoon Kim and Gunjan Chhablani and Nihal Nayak and Debajyoti Datta and Jonathan Chang and Mike Tian-Jian Jiang and Han Wang and Matteo Manica and Sheng Shen and Zheng Xin Yong and Harshit Pandey and Rachel Bawden and Thomas Wang and Trishala Neeraj and Jos Rozen and Abheesht Sharma and Andrea Santilli and Thibault Fevry and Jason Alan Fries and Ryan Teehan and Stella Biderman and Leo Gao and Tali Bers and Thomas Wolf and Alexander M. Rush'),
+       arxiv(2021),
+      )
+entry!('clark2020electra',
+       title('ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators'),
+       author('Kevin Clark and Minh-Thang Luong and Quoc V. Le and Christopher D. Manning'),
+       iclr(2020),
+      )
+
+entry!('gruber2007hidden',
+       title('Hidden Topic {Markov} Models'),
+       author('Gruber, Amit and Weiss, Yair and Rosen-Zvi, Michal'),
+       aistats(2007),
+      )
+
+entry!('dosovitskiy2021vit',
+       title('An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale'),
+       author('Alexey Dosovitskiy and Lucas Beyer and Alexander Kolesnikov and Dirk Weissenborn and Xiaohua Zhai and Thomas Unterthiner and Mostafa Dehghani and Matthias Minderer and Georg Heigold and Sylvain Gelly and Jakob Uszkoreit and Neil Houlsby'),
+       iclr(2021))
 
