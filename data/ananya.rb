@@ -590,3 +590,15 @@ entry!('desai2020calibration',
   author('Shrey Desai and Greg Durrett'),
   arxiv(2020),
 )
+
+entry!('kumar2022finetuning',
+  title('Fine-Tuning Distorts Pretrained Features and Underperforms Out-of-Distribution'),
+  author('Ananya Kumar and Aditi Raghunathan and Robbie Matthew Jones and Tengyu Ma and Percy Liang'),
+  iclr(2022),
+)
+
+entry!('sill2009feature',
+  title('Feature-Weighted Linear Stacking'),
+  author('Joseph Sill and Gabor Takacs and Lester Mackey and David Lin'),
+  arxiv(2009),
+)
