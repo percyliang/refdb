@@ -3148,3 +3148,12 @@ entry!('shen2021connect',
   author('Kendrick Shen and Robbie Matthew Jones and Ananya Kumar and Sang Michael Xie and Percy Liang'),
   inproceedings('NeurIPS Workshop on Distribution Shifts', 2021),
 )
+
+entry!('wong2021external',
+  article('JAMA Internal Medicine', 2021, 181),
+  title('External validation of a widely implemented proprietary sepsis prediction model in hospitalized patients'),
+  author('Andrew Wong and Erkin Otles and John P Donnelly and Andrew Krumm and Jeffrey McCullough and Olivia DeTroyer-Cooley and Justin Pestrue and Marie Phillips and Judy Konye and Carleen Penoza and others'),
+  number(8),
+  pages(1065, 1070),
+  publisher('American Medical Association'),
+)
