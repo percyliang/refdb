@@ -3157,3 +3157,10 @@ entry!('wong2021external',
   pages(1065, 1070),
   publisher('American Medical Association'),
 )
+
+entry!('bansal2021does',
+  chi(2021),
+  title('Does the whole exceed its parts? the effect of ai explanations on complementary team performance'),
+  author('Gagan Bansal and Tongshuang Wu and Joyce Zhou and Raymond Fok and Besmira Nushi and Ece Kamar and Marco Tulio Ribeiro and Daniel Weld'),
+  pages(1, 16),
+)
