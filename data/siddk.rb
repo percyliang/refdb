@@ -1671,3 +1671,19 @@ entry!('kim1992force',
   author('Won S. Kim and Blake Hannaford and Antal K. Bejczy'),
   pages(176, 185),
 )
+
+#######################################################################################################################
+###                                     NL Supervision: LILAC                                                       ###
+#######################################################################################################################
+
+entry!('shridhar2021clipport',
+  corl(2021),
+  title('CLIPort: What and Where Pathways for Robotic Manipulation'),
+  author('Mohit Shridhar and Lucas Manuelli and Dieter Fox'),
+)
+
+entry!('thomason2019visdial',
+  corl(2019),
+  title('Vision-and-Dialog Navigation'),
+  author('Jesse Thomason and Michael Murray and Maya Cakmak and Luke Zettlemoyer'),
+)
