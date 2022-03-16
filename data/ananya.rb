@@ -592,7 +592,7 @@ entry!('desai2020calibration',
 )
 
 entry!('kumar2022finetuning',
-  title('Fine-Tuning Distorts Pretrained Features and Underperforms Out-of-Distribution'),
+  title('Fine-Tuning can Distort Pretrained Features and Underperforms Out-of-Distribution'),
   author('Ananya Kumar and Aditi Raghunathan and Robbie Matthew Jones and Tengyu Ma and Percy Liang'),
   iclr(2022),
 )
@@ -601,4 +601,10 @@ entry!('sill2009feature',
   title('Feature-Weighted Linear Stacking'),
   author('Joseph Sill and Gabor Takacs and Lester Mackey and David Lin'),
   arxiv(2009),
+)
+
+entry!('shachaf2021theoretical',
+  title('A Theoretical Analysis of Fine-tuning with Linear Teachers'),
+  author('Gal Shachaf and Alon Brutzkus and Amir Globerson'),
+  neurips(2021),
 )
