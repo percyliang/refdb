@@ -170,3 +170,32 @@ entry!('french2018selfensembling',
   inproceedings('International Conference on Learning Representations', 2018),
   title('Self-ensembling for visual domain adaptation'),
 )
+
+entry!('arora2019contrastive',
+  author('Sanjeev Arora and Hrishikesh Khandeparkar and Mikhail Khodak and Orestis Plevrakis and Nikunj Saunshi'),
+  title('A theoretical analysis of contrastive unsupervised representation learning'),
+  inproceedings('Proceedings of the 36th International Conference on Machine Learning', 2019),
+  pages(5628, 5637), volume(97),
+  editor('Kamalika Chaudhuri and Ruslan Salakhutdinov'),
+  publisher('PMLR'),
+  url('https://proceedings.mlr.press/v97/saunshi19a.html'),
+)
+
+entry!('tosh2021topic',
+  author('Christopher Tosh and Akshay Krishnamurthy and Daniel Hsu'),
+  title('Contrastive estimation reveals topic posterior information to linear models'),
+  jmlr(2021, 22),
+  number(281),
+  pages(1, 31),
+  url('http://jmlr.org/papers/v22/21-0089.html'),
+)
+
+entry!('tosh2021redundancy',
+  author('Christopher Tosh and Akshay Krishnamurthy and Daniel Hsu'),
+  title('Contrastive learning, multi-view redundancy, and linear models'),
+  inproceedings('Proceedings of the 32nd International Conference on Algorithmic Learning Theory', 2021),
+  pages(1179, 1206), volume(132),
+  editor('Vitaly Feldman and Katrina Ligett and Sivan Sabato'),
+  publisher('PMLR'),
+  url('https://proceedings.mlr.press/v132/tosh21a.html'),
+)
