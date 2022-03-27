@@ -199,3 +199,22 @@ entry!('tosh2021redundancy',
   publisher('PMLR'),
   url('https://proceedings.mlr.press/v132/tosh21a.html'),
 )
+
+entry!('li2021mdd',
+  author('Jingjing Li and Erpeng Chen and Zhengming Ding and Lei Zhu and Ke Lu and Heng Tao Shen'),
+  title('Maximum density divergence for domain adaptation'),
+  article('IEEE Transactions on Pattern Analysis and Machine Intelligence', 2021, 43, 11),
+  pages(3918, 3930),
+)
+
+entry!('li2020transport',
+  author('Mengxue Li and Yi-Ming Zhai and You-Wei Luo and Peng-Fei Ge and Chuan-Xian Ren'),
+  title('Enhanced transport distance for unsupervised domain adaptation'),
+  book('Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)', 2020)
+)
+
+entry!('xiao2021dynamic',
+  author('Ni Xiao and Lei Zhang'),
+  title('Dynamic weighted learning for unsupervised domain adaptation'),
+  book('Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)', 2021),
+)
