@@ -1,4 +1,16 @@
 ############################################################
+# 2022
+
+entry!('yasunaga2022linkbert',
+  title('{LinkBERT}: Pretraining Language Models with Document Links'),
+  author('Michihiro Yasunaga and Jure Leskovec and Percy Liang'),
+  acl(2022),
+  url('https://arxiv.org/pdf/2203.15827.pdf'),
+  codalab('0x7a6ab9c8d06a41d191335b270da2902e'),
+)
+
+
+############################################################
 # 2021
 
 entry!('xie2021incontext',
