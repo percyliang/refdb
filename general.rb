@@ -545,6 +545,7 @@ end
 
 def printHTMLPage(entriesList, title, footer, style, outPath)
   out = open(outPath, 'w')
+  out.puts "<meta charset=\"utf-8\"/>"
   out.puts "<title>#{title}</title>" if title
   out.puts "<link rel=\"stylesheet\" type=\"text/css\" href=\"#{style}\">" if style
   out.puts <<EOF
