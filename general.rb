@@ -184,9 +184,6 @@ class Entry
     def color(text, color); "<font color=\"#{color}\">#{text}</font>" end
     def spanClass(text, className); "<span class=\"#{className}\">#{text}</span>" end
 
-    newline = ''
-    #newline = '<br>'  # Put title, author, venues on separate lines
-
     # Gray out things which are not published
     isPub = getFirst('journal').to_s !~ /^arXiv/
     pubWrap = lambda { |s|
@@ -195,11 +192,11 @@ class Entry
 
     url = getFirst('url') || getFirst('url') || getFirst('slidesurl') || getFirst('posterurl')
     output = []
-    output << link(pubWrap.call(latexToHTML(displayTitle(title))), url) + (title[-1..-1] == '?' ? '' : '.') + newline
+    output << link(pubWrap.call(latexToHTML(displayTitle(title))), url) + (title[-1..-1] == '?' ? '' : '.')
     output << author.names.map { |name|
       l = $links[name]
       link(spanClass(latexToHTML(name), authorClass), l)
-    }.join(', ') + '.' + newline
+    }.join(', ') + '.'
     output << pubWrap.call("#{metaTitle ? it(metaTitle.to_full_s + (type == 'techreport' ? ' Technical Report' : '')+', ') : ''}#{year}. #{note} ")
     output << hiddenText("abstract#{id}", formatLines(get('abstract')))
     output << hiddenText("brief#{id}", formatLines(get('punchlines')))
@@ -220,7 +217,7 @@ class Entry
                displayLink('project', getFirst('project')),
                displayLink('CodaLab', getFirst('codalab') ? 'https://worksheets.codalab.org/worksheets/' + getFirst('codalab') : nil),
                displayLink('demo', getFirst('demo')),
-              nil].compact.join(' ')+"<br>"
+              ].compact.join(' ')+"<br>"
     output << "<div id=\"div#{id}\"></div>"
     output.join("\n")
   end
