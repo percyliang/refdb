@@ -3050,12 +3050,6 @@ entry!('chang2021supporting',
   author('Serina Y Chang and Mandy L Wilson and Bryan Lewis and Zakaria Mehrab and Komal K Dudakiya and Emma Pierson and Pang Wei Koh and Jaline Gerardin and Beth Redbird and David Grusky and Jure Leskovec'),
 )
 
-entry!('sagawa2021uwilds',
-  title('Extending the {WILDS} benchmark for unsupervised adaptation'),
-  author('Shiori Sagawa and Pang Wei Koh and Tony Lee and Irena Gao and Sang Michael Xie and Kendrick Shen and Ananya Kumar and Weihua Hu and Michihiro Yasunaga and Henrik Marklund and Sara Beery and Etienne David and Ian Stavness and Wei Guo and Jure Leskovec and Kate Saenko and Tatsunori Hashimoto and Sergey Levine and Chelsea Finn and Percy Liang'),
-  inproceedings('NeurIPS Workshop on Distribution Shifts', 2021),
-)
-
 entry!('koh2017denoising',
   article('Bioinformatics', 2017),
   title('Denoising genome-wide histone ChIP-seq with convolutional neural networks'),
