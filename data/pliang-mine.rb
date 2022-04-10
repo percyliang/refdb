@@ -58,6 +58,7 @@ entry!('lee2022coauthor',
   author('Mina Lee and Percy Liang and Qian Yang'),
   chi(2022),
   url('https://arxiv.org/pdf/2201.06796.pdf'),
+  award('Honorable mention award'),
 )
 
 ############################################################
