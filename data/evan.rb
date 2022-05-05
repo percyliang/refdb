@@ -848,7 +848,7 @@ entry!('yaghoobzadeh2019increasing',
 )
 
 entry!('nie2021play',
-  neurips(2021, 34),
+  neurips(2021),
   title('Play to Grade: Testing Coding Games as Classifying Markov Decision Process'),
   author('Allen Nie and Emma Brunskill and Chris Piech'),
 )
