@@ -846,3 +846,9 @@ entry!('yaghoobzadeh2019increasing',
   title('Increasing Robustness to Spurious Correlations using Forgettable Examples'),
   author('Yadollah Yaghoobzadeh and Soroush Mehri and Remi Tachet and Timothy J Hazen and Alessandro Sordoni'),
 )
+
+entry!('nie2021play',
+  neurips(2021, 34),
+  title('Play to Grade: Testing Coding Games as Classifying Markov Decision Process'),
+  author('Allen Nie and Emma Brunskill and Chris Piech'),
+)
