@@ -852,3 +852,9 @@ entry!('nie2021play',
   title('Play to Grade: Testing Coding Games as Classifying Markov Decision Process'),
   author('Allen Nie and Emma Brunskill and Chris Piech'),
 )
+
+entry!('wang2021alchemy',
+  inproceedings('Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2)', 2021),
+  title('Alchemy: A benchmark and analysis toolkit for meta-reinforcement learning agents'),
+  author('Jane X Wang and Michael King and Nicolas Pierre Mickael Porcel and Zeb Kurth-Nelson and Tina Zhu and Charlie Deck and Peter Choy and Mary Cassin and Malcolm Reynolds and H Francis Song and others'),
+)
