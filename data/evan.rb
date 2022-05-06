@@ -874,3 +874,36 @@ entry!('schoettler2020meta',
   pages(9728, 9735),
   organization('IEEE'),
 )
+
+entry!('orourke2014hint',
+  inproceedings('Proceedings of the first ACM conference on Learning@ scale conference', 2014),
+  title('Hint systems may negatively impact performance in educational games'),
+  author('Eleanor O\'Rourke and Christy Ballweber and Zoran Popovi{\\\'i}'),
+  pages(51, 60),
+)
+
+entry!('wu2021prototransformer',
+  arxiv(2021, '2107.14035'),
+  title('ProtoTransformer: A Meta-Learning Approach to Providing Student Feedback'),
+  author('Mike Wu and Noah Goodman and Chris Piech and Chelsea Finn'),
+)
+
+entry!('malik2019generative',
+  arxiv(2019, '1905.09916'),
+  title('Generative Grading: Near Human-level Accuracy for Automated Feedback on Richly Structured Problems'),
+  author('Ali Malik and Mike Wu and Vrinda Vasavada and Jinpeng Song and Madison Coots and John Mitchell and Noah Goodman and Chris Piech'),
+)
+
+entry!('bhatia2016automated',
+  arxiv(2016, '1603.06129'),
+  title('Automated correction for syntax errors in programming assignments using recurrent neural networks'),
+  author('Sahil Bhatia and Rishabh Singh'),
+)
+
+entry!('piech2015learning',
+  inproceedings('International conference on machine Learning', 2015),
+  title('Learning program embeddings to propagate feedback on student code'),
+  author('Chris Piech and Jonathan Huang and Andy Nguyen and Mike Phulsuksombati and Mehran Sahami and Leonidas Guibas'),
+  pages(1093, 1102),
+  organization('PMLR'),
+)
