@@ -858,3 +858,19 @@ entry!('wang2021alchemy',
   title('Alchemy: A benchmark and analysis toolkit for meta-reinforcement learning agents'),
   author('Jane X Wang and Michael King and Nicolas Pierre Mickael Porcel and Zeb Kurth-Nelson and Tina Zhu and Charlie Deck and Peter Choy and Mary Cassin and Malcolm Reynolds and H Francis Song and others'),
 )
+
+entry!('arndt2020meta',
+  icra(2020),
+  title('Meta reinforcement learning for sim-to-real domain adaptation'),
+  author('Karol Arndt and Murtaza Hazara and Ali Ghadirzadeh and Ville Kyrki'),
+  pages(2725, 2731),
+  organization('IEEE'),
+)
+
+entry!('schoettler2020meta',
+  iros(2020),
+  title('Meta-reinforcement learning for robotic industrial insertion tasks'),
+  author('Gerrit Schoettler and Ashvin Nair and Juan Aparicio Ojea and Sergey Levine and Eugen Solowjow'),
+  pages(9728, 9735),
+  organization('IEEE'),
+)
