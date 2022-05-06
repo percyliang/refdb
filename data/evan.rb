@@ -922,3 +922,42 @@ entry!('paassen2017continuous',
   title('The continuous hint factory-providing hints in vast and sparsely populated edit distance spaces'),
   author('Benjamin Paa{\ss}en and Barbara Hammer and Thomas William Price and Tiffany Barnes and Sebastian Gross and Niels Pinkwart'),
 )
+
+entry!('godefroid2017learn',
+  ase(2017),
+  title('Learn\&fuzz: Machine learning for input fuzzing'),
+  author('Patrice Godefroid and Hila Peleg and Rishabh Singh'),
+  pages(50, 59),
+  organization('IEEE'),
+)
+
+entry!('godefroid2008automated',
+  inproceedings('NDSS', 2008),
+  title('Automated whitebox fuzz testing'),
+  author('Patrice Godefroid and Michael Y Levin and David A Molnar and others'),
+  volume(8),
+  pages(151, 166),
+)
+
+entry!('king1976symbolic',
+  article('Communications of the ACM', 1976, 19),
+  title('Symbolic execution and program testing'),
+  author('James C King'),
+  number(7),
+  pages(385, 394),
+  publisher('ACM New York, NY, USA'),
+)
+
+entry!('zheng2019wuji',
+  ase(2019),
+  title('Wuji: Automatic online combat game testing using evolutionary deep reinforcement learning'),
+  author('Yan Zheng and Xiaofei Xie and Ting Su and Lei Ma and Jianye Hao and Zhaopeng Meng and Yang Liu and Ruimin Shen and Yingfeng Chen and Changjie Fan'),
+  pages(772, 784),
+  organization('IEEE'),
+)
+
+entry!('gordillo2021improving',
+  arxiv(2021, '2103.13798'),
+  title('Improving playtesting coverage via curiosity driven reinforcement learning agents'),
+  author('Camilo Gordillo and Joakim Bergdahl and Konrad Tollmar and Linus Gissl{\\\'e}n'),
+)
