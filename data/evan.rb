@@ -907,3 +907,18 @@ entry!('piech2015learning',
   pages(1093, 1102),
   organization('PMLR'),
 )
+
+entry!('rivers2017data',
+  article('International Journal of Artificial Intelligence in Education', 2017, 27),
+  title('Data-driven hint generation in vast solution spaces: a self-improving python programming tutor'),
+  author('Kelly Rivers and Kenneth R Koedinger'),
+  number(1),
+  pages(37, 64),
+  publisher('Springer'),
+)
+
+entry!('paassen2017continuous',
+  arxiv(2017, '1708.06564'),
+  title('The continuous hint factory-providing hints in vast and sparsely populated edit distance spaces'),
+  author('Benjamin Paa{\ss}en and Barbara Hammer and Thomas William Price and Tiffany Barnes and Sebastian Gross and Niels Pinkwart'),
+)
