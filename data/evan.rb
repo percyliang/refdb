@@ -1056,3 +1056,10 @@ entry!('code2022org',
   howpublished('\url{https://code.org/about}'),
   year(2022),
 )
+
+entry!('singh2013automated',
+  inproceedings('Proceedings of the 34th ACM SIGPLAN conference on Programming language design and implementation', 2013),
+  title('Automated feedback generation for introductory programming assignments'),
+  author('Rishabh Singh and Sumit Gulwani and Armando Solar-Lezama'),
+  pages(15, 26),
+)
