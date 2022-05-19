@@ -1048,3 +1048,11 @@ entry!('nwana1990intelligent',
   pages(251, 277),
   publisher('Springer'),
 )
+
+entry!('code2022org',
+  title('Code.org'),
+  author('Code.org'),
+  type('misc'),
+  howpublished('\url{https://code.org/about}'),
+  year(2022),
+)
