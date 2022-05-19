@@ -961,3 +961,20 @@ entry!('gordillo2021improving',
   title('Improving playtesting coverage via curiosity driven reinforcement learning agents'),
   author('Camilo Gordillo and Joakim Bergdahl and Konrad Tollmar and Linus Gissl{\\\'e}n'),
 )
+
+entry!('froyd2012five',
+  article('Proceedings of the IEEE', 2012, 100),
+  title('Five major shifts in 100 years of engineering education'),
+  author('Jeffrey E Froyd and Phillip C Wankat and Karl A Smith'),
+  number('Special Centennial Issue'),
+  pages(1344, 1360),
+  publisher('IEEE'),
+)
+
+entry!('pfaffman2003manipulating',
+  title('Manipulating and measuring student engagement in computer-based instruction'),
+  phdthesis('Vanderbilt University', 2003),
+  author('Jay A Pfaffman'),
+  year(2003),
+  publisher('Vanderbilt University'),
+)
