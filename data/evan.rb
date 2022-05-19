@@ -978,3 +978,73 @@ entry!('pfaffman2003manipulating',
   year(2003),
   publisher('Vanderbilt University'),
 )
+
+entry!('piech2015deep',
+  article('Advances in neural information processing systems', 2015, 28),
+  title('Deep knowledge tracing'),
+  author('Chris Piech and Jonathan Bassen and Jonathan Huang and Surya Ganguli and Mehran Sahami and Leonidas J Guibas and Jascha Sohl-Dickstein'),
+)
+
+entry!('d2008more',
+  inproceedings('International conference on intelligent tutoring systems', 2008),
+  title('More accurate student modeling through contextual estimation of slip and guess probabilities in bayesian knowledge tracing'),
+  author('Ryan SJ d Baker and Albert T Corbett and Vincent Aleven'),
+  pages(406, 415),
+  organization('Springer'),
+)
+
+entry!('villano1992probabilistic',
+  inproceedings('International Conference on Intelligent Tutoring Systems', 1992),
+  title('Probabilistic student models: Bayesian belief networks and knowledge space theory'),
+  author('Michael Villano'),
+  pages(491, 498),
+  organization('Springer'),
+)
+
+entry!('anderson1990cognitive',
+  article('Artificial intelligence', 1990, 42),
+  title('Cognitive modeling and intelligent tutoring'),
+  author('John R Anderson and C Franklin Boyle and Albert T Corbett and Matthew W Lewis'),
+  number(1),
+  pages(7, 49),
+)
+
+entry!('balakrishnan2013predicting',
+  science(2013, 53),
+  title('Predicting student retention in massive open online courses using hidden markov models'),
+  author('Girish Balakrishnan and Derrick Coetzee'),
+  pages(57, 58),
+)
+
+entry!('sass2018structural',
+  article('The Review of Higher Education', 2018, 42),
+  title('A structural model for predicting student retention'),
+  author('Daniel A Sass and Felicia Castro-Villarreal and Steve Wilkerson and Norma Guerra and Jeremy Sullivan'),
+  number(1),
+  pages(103, 135),
+  publisher('Johns Hopkins University Press'),
+)
+
+entry!('delen2011predicting',
+  article('Journal of College Student Retention: Research, Theory \& Practice', 2011, 13),
+  title('Predicting student attrition with data mining methods'),
+  author('Dursun Delen'),
+  number(1),
+  pages(17, 35),
+  publisher('SAGE Publications Sage CA: Los Angeles, CA'),
+)
+
+entry!('aulck2016predicting',
+  arxiv(2016, '1606.06364'),
+  title('Predicting student dropout in higher education'),
+  author('Lovenoor Aulck and Nishant Velagapudi and Joshua Blumenstock and Jevin West'),
+)
+
+entry!('nwana1990intelligent',
+  article('Artificial Intelligence Review', 1990, 4),
+  title('Intelligent tutoring systems: an overview'),
+  author('Hyacinth S Nwana'),
+  number(4),
+  pages(251, 277),
+  publisher('Springer'),
+)
