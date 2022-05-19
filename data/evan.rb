@@ -1063,3 +1063,10 @@ entry!('singh2013automated',
   author('Rishabh Singh and Sumit Gulwani and Armando Solar-Lezama'),
   pages(15, 26),
 )
+
+entry!('wang2017data',
+  inproceedings('Proceedings of the Fourth (2017) ACM Conference on Learning@ Scale', 2017),
+  title('Data-driven feedback generator for online programing courses'),
+  author('Ke Wang and Benjamin Lin and Bjorn Rettig and Paul Pardi and Rishabh Singh'),
+  pages(257, 260),
+)
