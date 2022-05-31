@@ -11581,3 +11581,24 @@ entry!('kim2021vilt',
   title('{ViLT}: Vision-and-language transformer without convolution or region supervision'),
   author('Wonjae Kim and Bokyung Son and Ildoo Kim'),
 )
+
+entry!('rae2021gopher',
+  title('Scaling Language Models: Methods, Analysis \\& Insights from Training Gopher'),
+  author('Jack W. Rae and Sebastian Borgeaud and Trevor Cai and Katie Millican and Jordan Hoffmann and Francis Song and J. Aslanides and Sarah Henderson and Roman Ring and Susannah Young and Eliza Rutherford and Tom Hennigan and Jacob Menick and Albin Cassirer and Richard Powell and G. V. D. Driessche and Lisa Anne Hendricks and Maribeth Rauh and Po-Sen Huang and Amelia Glaese and Johannes Welbl and Sumanth Dathathri and Saffron Huang and Jonathan Uesato and John F. J. Mellor and I. Higgins and Antonia Creswell and Nathan McAleese and Amy Wu and Erich Elsen and Siddhant M. Jayakumar and Elena Buchatskaya and D. Budden and Esme Sutherland and K. Simonyan and Michela Paganini and L. Sifre and Lena Martens and Xiang Lorraine Li and A. Kuncoro and Aida Nematzadeh and E. Gribovskaya and Domenic Donato and Angeliki Lazaridou and A. Mensch and J. Lespiau and Maria Tsimpoukelli and N. Grigorev and Doug Fritz and Thibault Sottiaux and Mantas Pajarskas and Tobias Pohlen and Zhitao Gong and Daniel Toyama and Cyprien de Masson d\'Autume and Yujia Li and Tayfun Terzi and Vladimir Mikulik and I. Babuschkin and Aidan Clark and Diego de Las Casas and Aurelia Guy and Chris Jones and James Bradbury and Matthew Johnson and Blake A. Hechtman and Laura Weidinger and Iason Gabriel and William S. Isaac and Edward Lockhart and Simon Osindero and Laura Rimell and Chris Dyer and Oriol Vinyals and Kareem W. Ayoub and Jeff Stanway and L. Bennett and D. Hassabis and K. Kavukcuoglu and Geoffrey Irving'),
+  arxiv(2021),
+  url('https://arxiv.org/pdf/2112.11446.pdf'),
+)
+
+entry!('chowdhery2022palm',
+  title('{PaLM}: Scaling Language Modeling with Pathways'),
+  author('Aakanksha Chowdhery and Sharan Narang and Jacob Devlin and Maarten Bosma and Gaurav Mishra and Adam Roberts and Paul Barham and Hyung Won Chung and Charles Sutton and Sebastian Gehrmann and Parker Schuh and Kensen Shi and Sasha Tsvyashchenko and Joshua Maynez and A. Rao and Parker Barnes and Yi Tay and Noam M. Shazeer and Vinodkumar Prabhakaran and Emily Reif and Nan Du and B. Hutchinson and Reiner Pope and James Bradbury and Jacob Austin and M. Isard and Guy Gur-Ari and Pengcheng Yin and Toju Duke and Anselm Levskaya and S. Ghemawat and Sunipa Dev and Henryk Michalewski and Xavier García and Vedant Misra and Kevin Robinson and Liam Fedus and Denny Zhou and Daphne Ippolito and D. Luan and Hyeontaek Lim and Barret Zoph and A. Spiridonov and Ryan Sepassi and David Dohan and Shivani Agrawal and Mark Omernick and Andrew M. Dai and T. S. Pillai and Marie Pellat and Aitor Lewkowycz and E. Moreira and Rewon Child and Oleksandr Polozov and Katherine Lee and Zongwei Zhou and Xuezhi Wang and Brennan Saeta and Mark Diaz and Orhan Firat and Michele Catasta and Jason Wei and K. Meier-Hellstern and D. Eck and J. Dean and Slav Petrov and Noah Fiedel'),
+  arxiv(2022),
+  url('https://arxiv.org/pdf/2204.02311.pdf'),
+)
+
+entry!('lewis2020rag',
+  title('Retrieval-Augmented Generation for Knowledge-Intensive {NLP} Tasks'),
+  author('Patrick Lewis and Ethan Perez and Aleksandara Piktus and Fabio Petroni and Vladimir Karpukhin and Naman Goyal and Heinrich Kuttler and M. Lewis and Wen-tau Yih and Tim Rocktäschel and Sebastian Riedel and Douwe Kiela'),
+  neurips(2020),
+  url('https://arxiv.org/pdf/2005.11401.pdf'),
+)
