@@ -11602,3 +11602,38 @@ entry!('lewis2020rag',
   neurips(2020),
   url('https://arxiv.org/pdf/2005.11401.pdf'),
 )
+
+entry!('nakano2021webgpt',
+  title('{WebGPT}: Browser-assisted question-answering with human feedback'),
+  author('Reiichiro Nakano and Jacob Hilton and S. Balaji and Jeff Wu and Long Ouyang and Christina Kim and Christopher Hesse and Shantanu Jain and V. Kosaraju and W. Saunders and Xu Jiang and Karl Cobbe and Tyna Eloundou and Gretchen Krueger and Kevin Button and Matthew Knight and Benjamin Chess and J. Schulman'),
+  arxiv(2021),
+  url('https://arxiv.org/pdf/2112.09332.pdf'),
+)
+
+entry!('ouyang2022instructions',
+  title('Training language models to follow instructions with human feedback'),
+  author('Long Ouyang and Jeff Wu and Xu Jiang and Diogo Almeida and Carroll L. Wainwright and Pamela Mishkin and Chong Zhang and Sandhini Agarwal and Katarina Slama and Alex Ray and J. Schulman and Jacob Hilton and Fraser Kelton and Luke E. Miller and Maddie Simens and Amanda Askell and P. Welinder and P. Christiano and J. Leike and Ryan J. Lowe'),
+  arxiv(2022),
+  url('https://arxiv.org/pdf/2203.02155.pdf'),
+)
+
+entry!('bai2022helpful',
+  title('Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback'),
+  author('Yuntao Bai and Andy Jones and Kamal Ndousse and Amanda Askell and Anna Chen and Nova DasSarma and Dawn Drain and Stanislav Fort and Deep Ganguli and T. Henighan and Nicholas Joseph and Saurav Kadavath and John Kernion and Tom Conerly and S. El-Showk and Nelson Elhage and Zac Hatfield-Dodds and Danny Hernandez and Tristan Hume and Scott Johnston and S. Kravec and Liane Lovitt and Neel Nanda and Catherine Olsson and Dario Amodei and Tom B. Brown and Jack Clark and Sam McCandlish and C. Olah and Benjamin Mann and J. Kaplan'),
+  arxiv(2022),
+  url('https://arxiv.org/pdf/2204.05862.pdf'),
+)
+
+entry!('zhang2022opt',
+  title('{OPT}: Open Pre-trained Transformer Language Models'),
+  author('Susan Zhang and Stephen Roller and Naman Goyal and Mikel Artetxe and Moya Chen and Shuohui Chen and Christopher Dewan and Mona Diab and Xian Li and Xi Victoria Lin and Todor Mihaylov and Myle Ott and Sam Shleifer and Kurt Shuster and Daniel Simig and Punit Singh Koura and Anjali Sridhar and Tianlu Wang and Luke Zettlemoyer'),
+  arxiv(2022),
+  url('https://arxiv.org/pdf/2205.01068.pdf'),
+)
+
+entry!('du2021glam',
+  title('{GLaM}: Efficient Scaling of Language Models with Mixture-of-Experts'),
+  author('Nan Du and Yanping Huang and Andrew M. Dai and Simon Tong and Dmitry Lepikhin and Yuanzhong Xu and M. Krikun and Yanqi Zhou and Adams Wei Yu and Orhan Firat and Barret Zoph and Liam Fedus and Maarten Bosma and Zongwei Zhou and Tao Wang and Yu Emma Wang and Kellie Webster and Marie Pellat and Kevin Robinson and K. Meier-Hellstern and Toju Duke and Lucas Dixon and Kun Zhang and Quoc V. Le and Yonghui Wu and Zhifeng Chen and Claire Cui'),
+  arxiv(2021),
+  url('https://arxiv.org/pdf/2112.06905.pdf'),
+)
