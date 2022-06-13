@@ -11637,3 +11637,17 @@ entry!('du2021glam',
   arxiv(2021),
   url('https://arxiv.org/pdf/2112.06905.pdf'),
 )
+
+entry!('black2022neox',
+  title('{GPT-NeoX-20B}: An Open-Source Autoregressive Language Model'),
+  author('Sid Black and Stella Rose Biderman and Eric Hallahan and Quentin G. Anthony and Leo Gao and Laurence Golding and Horace He and Connor Leahy and Kyle McDonell and Jason Phang and M. Pieler and Usvsn Sai Prashanth and Shivanshu Purohit and Laria Reynolds and J. Tow and Ben Wang and Samuel Weinbach'),
+  arxiv(2022),
+  url('https://arxiv.org/pdf/2204.06745.pdf'),
+)
+
+entry!('smith2022mtnlg',
+  title('Using DeepSpeed and Megatron to Train {Megatron-Turing} {NLG} 530B, A Large-Scale Generative Language Model'),
+  author('Shaden Smith and M. Patwary and Brandon Norick and P. LeGresley and Samyam Rajbhandari and J. Casper and Zhun Liu and Shrimai Prabhumoye and George Zerveas and V. Korthikanti and Elton Zhang and Rewon Child and Reza Yazdani Aminabadi and J. Bernauer and Xia Song and M. Shoeybi and Yuxiong He and Michael Houston and Saurabh Tiwary and Bryan Catanzaro'),
+  arxiv(2022),
+  url('https://arxiv.org/pdf/2201.11990.pdf'),
+)
