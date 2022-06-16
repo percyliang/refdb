@@ -1824,4 +1824,27 @@ entry!('mandelkar2021robomimic',
   author('Ajay Mandlekar and Danfei Xu and Josiah Wong and Soroush Nasiriany and Chen Wang and Rohun Kulkarni and Li Fei-Fei and Silvio Savarese and Yuke Zhu and Roberto Martín-Martín'),
 )
 
+entry!('chen2021batch',
+  ral(2021, 6),
+  title('Batch Exploration With Examples for Scalable Robotic Reinforcement Learning'),
+  author('Annie S. Chen and Hyunji Alex Nam and Suraj Nair and Chelsea Finn'),
+  pages(4401, 4408),
+)
 
+entry!('gupta2018robothomes',
+  neurips(2018),
+  title('Robot Learning in Homes: Improving Generalization and Reducing Dataset Bias'),
+  author('Abhinav Kumar Gupta and Adithyavairavan Murali and Dhiraj Gandhi and Lerrel Pinto'),
+)
+
+entry!('ebert2018foresight',
+  arxiv(2018, '1812.00568'),
+  title('Visual Foresight: Model-Based Deep Reinforcement Learning for Vision-Based Robotic Control'),
+  author('Frederik Ebert and Chelsea Finn and Sudeep Dasari and Annie Xie and Alex X. Lee and Sergey Levine'),
+)
+
+entry!('nair2018visualrl',
+  neurips(2018),
+  title('Visual Reinforcement Learning with Imagined Goals'),
+  author('Ashvin Nair and Vitchyr H. Pong and Murtaza Dalal and Shikhar Bahl and Steven Lin and Sergey Levine'),
+)
