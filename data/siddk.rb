@@ -1926,3 +1926,90 @@ entry!('yu2019metaworld',
   title('Meta-World: A Benchmark and Evaluation for Multi-Task and Meta Reinforcement Learning'),
   author('Tianhe Yu and Deirdre Quillen and Zhanpeng He and Ryan C. Julian and Karol Hausman and Chelsea Finn and Sergey Levine'),
 )
+
+entry!('kannan2021robodesk',
+  author('Harini Kannan and Danijar Hafner and Chelsea Finn and Dumitru Erhan'),
+  title('RoboDesk: A Multi-Task Reinforcement Learning Benchmark'),
+  year(2021),
+  type('misc'),
+  howpublished('\url{https://github.com/google-research/robodesk}'),
+)
+
+entry!('xiao2022mvp',
+  arxiv(2022, '2203.06173'),
+  title('Masked Visual Pre-training for Motor Control'),
+  author('Tete Xiao and Ilija Radosavovic and Trevor Darrell and Jitendra Malik'),
+)
+
+entry!('nair2022r3m',
+  arxiv(2022, '2203.12601'),
+  title('R3M: A Universal Visual Representation for Robot Manipulation'),
+  author('Suraj Nair and Aravind Rajeswaran and Vikash Kumar and Chelsea Finn and Abhinav Gupta'),
+)
+
+entry!('parisi2022unsurprising',
+  arxiv(2022, '2203.03580'),
+  title('The Unsurprising Effectiveness of Pre-Trained Vision Models for Control'),
+  author('Simone Parisi and Aravind Rajeswaran and Senthil Purushwalkam and Abhinav Kumar Gupta'),
+)
+
+entry!('seo2022actionfree',
+  arxiv(2022, '2203.13880'),
+  title('Reinforcement Learning with Action-Free Pre-Training from Videos'),
+  author('Younggyo Seo and Kimin Lee and Stephen James and P. Abbeel'),
+)
+
+entry!('pari2022surprising',
+  rss(2022),
+  title('The Surprising Effectiveness of Representation Learning for Visual Imitation'),
+  author('Jyothish Pari and Nur Muhammad (Mahi) Shafiullah and Sridhar Pandian Arunachalam and Lerrel Pinto'),
+)
+
+entry!('zhang2021correspondence',
+  iclr(2021),
+  title('Learning Cross-Domain Correspondence for Control with Dynamics Cycle-Consistency'),
+  author('Qiang Zhang and Tete Xiao and Alexei A. Efros and Lerrel Pinto and Xiaolong Wang'),
+)
+
+entry!('chen2021representation',
+  neurips(2021),
+  title('An Empirical Investigation of Representation Learning for Imitation'),
+  author('Cynthia Chen and Xin Chen and Sam Toyer and Cody Wild and Scott Emmons and Ian S. Fischer and Kuang-Huei Lee and Neel Alex and Steven H. Wang and Ping Luo and Stuart J. Russell and P. Abbeel and Rohin Shah'),
+)
+
+entry!('zakka2021xirl',
+  corl(2021),
+  title('{XIRL}: Cross-embodiment Inverse Reinforcement Learning'),
+  author('Kevin Zakka and Andy Zeng and Peter R. Florence and Jonathan Tompson and Jeannette Bohg and Debidatta Dwibedi'),
+)
+
+entry!('srinivas2020curl',
+  icml(2020),
+  title('{CURL}: Contrastive Unsupervised Representations for Reinforcement Learning'),
+  author('A. Srinivas and Michael Laskin and P. Abbeel'),
+)
+
+entry!('gelada2019deepmdp',
+  icml(2019),
+  title('DeepMDP: Learning Continuous Latent Space Models for Representation Learning'),
+  author('Carles Gelada and Saurabh Kumar and Jacob Buckman and Ofir Nachum and Marc G. Bellemare'),
+)
+
+entry!('lange2010dae',
+  title('Deep auto-encoder neural networks in reinforcement learning'),
+  author('Sascha Lange and Martin A. Riedmiller'),
+  inproceedings('International Joint Conference on Neural Networks (IJCNN)', 2010),
+  pages(1, 8),
+)
+
+entry!('zhang2021invariant',
+  iclr(2021),
+  title('Learning Invariant Representations for Reinforcement Learning without Reconstruction'),
+  author('Amy Zhang and Rowan McAllister and Roberto Calandra and Yarin Gal and Sergey Levine'),
+)
+
+entry!('jaderberg2017auxiliary',
+  iclr(2017),
+  title('Reinforcement Learning with Unsupervised Auxiliary Tasks'),
+  author('Max Jaderberg and Volodymyr Mnih and Wojciech M. Czarnecki and Tom Schaul and Joel Z. Leibo and David Silver and Koray Kavukcuoglu'),
+)

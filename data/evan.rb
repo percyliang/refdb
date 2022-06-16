@@ -75,12 +75,6 @@ entry!('finn2016guided',
   pages(49, 58),
 )
 
-entry!('jaderberg2016reinforcement',
-  title('Reinforcement learning with unsupervised auxiliary tasks'),
-  author('M. Jaderberg and V. Mnih and W. M. Czarnecki and T. Schaul and J. Z. Leibo and D. Silver and K. Kavukcuoglu'),
-  arxiv(2016, '1611.05397'),
-)
-
 entry!('bacon2017option',
   title('The Option-Critic Architecture'),
   author('P. Bacon and J. Harb and D. Precup'),
