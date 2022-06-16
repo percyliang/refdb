@@ -1799,3 +1799,29 @@ entry!('pathak2017curiosity',
   author('Deepak Pathak and Pulkit Agrawal and Alexei A. Efros and Trevor Darrell'),
   inproceedings('IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)', 2017),
 )
+
+entry!('shelhamer2017loss',
+  iclr(2017),
+  title('Loss is its own Reward: Self-Supervision for Reinforcement Learning'),
+  author('Evan Shelhamer and Parsa Mahmoudieh and Max Argus and Trevor Darrell'),
+)
+
+entry!('kollar2021simnet',
+  corl(2021),
+  title('SimNet: Enabling Robust Unknown Object Manipulation from Pure Synthetic Data via Stereo'),
+  author('Thomas Kollar and Michael Laskey and Kevin Stone and Brijen Thananjeyan and Mark Tjersland'),
+)
+
+entry!('mandlekar2018roboturk',
+  corl(2018),
+  title('{ROBOTURK}: A Crowdsourcing Platform for Robotic Skill Learning through Imitation'),
+  author('Ajay Mandlekar and Yuke Zhu and Animesh Garg and Jonathan Booher and Max Spero and Albert Tung and Julian Gao and John Emmons and Anchit Gupta and Emre Orbay and Silvio Savarese and Li Fei-Fei'),
+)
+
+entry!('mandelkar2021robomimic',
+  corl(2021),
+  title('What Matters in Learning from Offline Human Demonstrations for Robot Manipulation'),
+  author('Ajay Mandlekar and Danfei Xu and Josiah Wong and Soroush Nasiriany and Chen Wang and Rohun Kulkarni and Li Fei-Fei and Silvio Savarese and Yuke Zhu and Roberto Martín-Martín'),
+)
+
+
