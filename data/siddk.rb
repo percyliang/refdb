@@ -1848,3 +1848,81 @@ entry!('nair2018visualrl',
   title('Visual Reinforcement Learning with Imagined Goals'),
   author('Ashvin Nair and Vitchyr H. Pong and Murtaza Dalal and Shikhar Bahl and Steven Lin and Sergey Levine'),
 )
+
+entry!('kalashnikov2018qtopt',
+  corl(2018),
+  title('{QT-Opt}: Scalable Deep Reinforcement Learning for Vision-Based Robotic Manipulation'),
+  author('Dmitry Kalashnikov and Alex Irpan and Peter Pastor and Julian Ibarz and Alexander Herzog and Eric Jang and Deirdre Quillen and Ethan Holly and Mrinal Kalakrishnan and Vincent Vanhoucke and Sergey Levine'),
+)
+
+entry!('mazoure2020infomax',
+  neurips(2020),
+  title('Deep Reinforcement and InfoMax Learning'),
+  author('Bogdan Mazoure and Rémi Tachet des Combes and Thang Van Doan and Philip Bachman and R. Devon Hjelm'),
+)
+
+entry!('nachum2019nearoptimal',
+  iclr(2019),
+  title('Near-Optimal Representation Learning for Hierarchical Reinforcement Learning'),
+  author('Ofir Nachum and Shixiang Shane Gu and Honglak Lee and Sergey Levine'),
+)
+
+entry!('schwarzer2021dataefficient',
+  iclr(2021),
+  title('Data-Efficient Reinforcement Learning with Self-Predictive Representations'),
+  author('Max Schwarzer and Ankesh Anand and Rishab Goel and R. Devon Hjelm and Aaron C. Courville and Philip Bachman'),
+)
+
+entry!('shu2020predictive',
+  icml(2020),
+  title('Predictive Coding for Locally-Linear Control'),
+  author('Rui Shu and Tung D. Nguyen and Yinlam Chow and Tu Pham and Khoat Than and Mohammad Ghavamzadeh and Stefano Ermon and Hung Hai Bui'),
+)
+
+entry!('levine2020offlinerl',
+  arxiv(2020, '2005.01643'),
+  title('Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems'),
+  author('Sergey Levine and Aviral Kumar and G. Tucker and Justin Fu'),
+)
+
+entry!('kumar2020cql',
+  neurips(2020),
+  title('Conservative {Q-}Learning for Offline Reinforcement Learning'),
+  author('Aviral Kumar and Aurick Zhou and G. Tucker and Sergey Levine'),
+)
+
+entry!('yu2021combo',
+  neurips(2021),
+  title('COMBO: Conservative Offline Model-Based Policy Optimization'),
+  author('Tianhe Yu and Aviral Kumar and Rafael Rafailov and Aravind Rajeswaran and Sergey Levine and Chelsea Finn'),
+)
+
+entry!('fujimoto2021minimalist',
+  neurips(2021),
+  title('A Minimalist Approach to Offline Reinforcement Learning'),
+  author('Scott Fujimoto and Shixiang Shane Gu'),
+)
+
+entry!('zhao2021offline',
+  arxiv(2021, '2110.04276'),
+  title('Offline Meta-Reinforcement Learning for Industrial Insertion'),
+  author('Tony Z. Zhao and Jianlan Luo and Oleg O. Sushkov and Rugile Pevceviciute and Nicolas Manfred Otto Heess and Jonathan Scholz and Stefan Schaal and Sergey Levine'),
+)
+
+entry!('ebert2021bridgedata',
+  arxiv(2021, '2109.13396'),
+  title('Bridge Data: Boosting Generalization of Robotic Skills with Cross-Domain Datasets'),
+  author('Frederik Ebert and Yanlai Yang and Karl Schmeckpeper and Bernadette Bucher and Georgios Georgakis and Kostas Daniilidis and Chelsea Finn and Sergey Levine'),
+)
+
+entry!('pomerleau1988alvinn',
+  neurips(1988),
+  title('ALVINN: An Autonomous Land Vehicle in a Neural Network'),
+  author('Dean A. Pomerleau'),
+)
+
+entry!('yu2019metaworld',
+  corl(2019),
+  title('Meta-World: A Benchmark and Evaluation for Multi-Task and Meta Reinforcement Learning'),
+  author('Tianhe Yu and Deirdre Quillen and Zhanpeng He and Ryan C. Julian and Karol Hausman and Chelsea Finn and Sergey Levine'),
+)

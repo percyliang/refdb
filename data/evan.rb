@@ -420,12 +420,6 @@ entry!('mendonca2019guided',
   pages(9653, 9664),
 )
 
-entry!('yu2019meta',
-  arxiv(2019, '1910.10897'),
-  title('Meta-world: A benchmark and evaluation for multi-task and meta reinforcement learning'),
-  author('Tianhe Yu and Deirdre Quillen and Zhanpeng He and Ryan Julian and Karol Hausman and Chelsea Finn and Sergey Levine'),
-)
-
 entry!('nagabandi2018learning',
   arxiv(2018, '1803.11347'),
   title('Learning to adapt in dynamic, real-world environments through meta-reinforcement learning'),
