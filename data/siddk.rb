@@ -2050,3 +2050,20 @@ entry!('pinto2017robust',
   author('Lerrel Pinto and James Davidson and Rahul Sukthankar and Abhinav Kumar Gupta'),
 )
 
+entry!('lee2018unified',
+  neurips(2018),
+  title('A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks'),
+  author('Kimin Lee and Kibok Lee and Honglak Lee and Jinwoo Shin'),
+)
+
+entry!('tzeng2014confusion',
+  cvpr(2014),
+  title('Deep Domain Confusion: Maximizing for Domain Invariance'),
+  author('Eric Tzeng and Judy Hoffman and N. Zhang and Kate Saenko and Trevor Darrell'),
+)
+
+entry!('sun2019unsupervised',
+  arxiv(2019, '1909.11825'),
+  title('Unsupervised Domain Adaptation through Self-Supervision'),
+  author('Yu Sun and Eric Tzeng and Trevor Darrell and Alexei A. Efros'),
+)

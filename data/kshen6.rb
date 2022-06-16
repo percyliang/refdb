@@ -15,12 +15,6 @@ entry!('caron2020swav',
   volume(33),
 )
 
-entry!('sun2019udss',
-  title('Unsupervised Domain Adaptation through Self-Supervision'),
-  author('Yu Sun and Eric Tzeng and Trevor Darrell and Alexei A. Efros'),
-  arxiv(2019),
-)
-
 entry!('wang2021cdcl',
   title('Cross-domain Contrastive Learning for Unsupervised Domain Adaptation'),
   author('Rui Wang and Zuxuan Wu and Zejia Weng and Jingjing Chen and Guo-Jun Qi and Yu-Gang Jiang'),
