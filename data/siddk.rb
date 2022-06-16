@@ -1687,3 +1687,59 @@ entry!('thomason2019visdial',
   title('Vision-and-Dialog Navigation'),
   author('Jesse Thomason and Michael Murray and Maya Cakmak and Luke Zettlemoyer'),
 )
+
+#######################################################################################################################
+###                                  NeurIPS: Video Representation Learning                                         ###
+#######################################################################################################################
+
+entry!('rakelly2021mutual',
+  neurips(2021),
+  title('Which Mutual-Information Representation Learning Objectives are Sufficient for Control?'),
+  author('Kate Rakelly and Abhishek Gupta and Carlos Florensa and Sergey Levine'),
+)
+
+entry!('oord2018cpc',
+    arxiv(2018, '1807.03748'),
+    title('Representation Learning with Contrastive Predictive Coding'),
+    author('Aäron van den Oord and Yazhe Li and Oriol Vinyals'),
+)
+
+entry!('anand2019unsupervised',
+  neurips(2019),
+  title('Unsupervised State Representation Learning in {Atari}'),
+  author('Ankesh Anand and Evan Racah and Sherjil Ozair and Yoshua Bengio and Marc{-}Alexandre Côté and R. Devon Hjelm'),
+  pages(8766, 8779),
+)
+
+entry!('stooke2021decoupling',
+  icml(2021),
+  title('Decoupling Representation Learning from Reinforcement Learning'),
+  author('Adam Stooke and Kimin Lee and Pieter Abbeel and Michael Laskin'),
+  volume(139),
+  pages(9870, 9879),
+)
+
+entry!('torabi2018bco',
+  ijcai(2018),
+  title('Behavioral Cloning from Observation'),
+  author('Faraz Torabi and Garrett Warnell and Peter Stone'),
+  pages(4950, 4957),
+)
+
+entry!('lee2020slac',
+  neurips(2020),
+  title('Stochastic Latent Actor-Critic: Deep Reinforcement Learning with a Latent Variable Model'),
+  author('Alex X. Lee and Anusha Nagabandi and Pieter Abbeel and Sergey Levine'),
+)
+
+entry!('yang2021representation',
+  icml(2021),
+  title('Representation Matters: Offline Pretraining for Sequential Decision Making'),
+  author('Mengjiao Yang and Ofir Nachum'),
+)
+
+entry!('torabi2018gaifo',
+  arxiv(2018, '1807.06158'),
+  title('Generative Adversarial Imitation from Observation'),
+  author('Faraz Torabi and Garrett Warnell and Peter Stone'),
+)
