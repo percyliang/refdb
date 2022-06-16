@@ -846,3 +846,227 @@ entry!('yaghoobzadeh2019increasing',
   title('Increasing Robustness to Spurious Correlations using Forgettable Examples'),
   author('Yadollah Yaghoobzadeh and Soroush Mehri and Remi Tachet and Timothy J Hazen and Alessandro Sordoni'),
 )
+
+entry!('nie2021play',
+  neurips(2021),
+  title('Play to Grade: Testing Coding Games as Classifying Markov Decision Process'),
+  author('Allen Nie and Emma Brunskill and Chris Piech'),
+)
+
+entry!('wang2021alchemy',
+  inproceedings('Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2)', 2021),
+  title('Alchemy: A benchmark and analysis toolkit for meta-reinforcement learning agents'),
+  author('Jane X Wang and Michael King and Nicolas Pierre Mickael Porcel and Zeb Kurth-Nelson and Tina Zhu and Charlie Deck and Peter Choy and Mary Cassin and Malcolm Reynolds and H Francis Song and others'),
+)
+
+entry!('arndt2020meta',
+  icra(2020),
+  title('Meta reinforcement learning for sim-to-real domain adaptation'),
+  author('Karol Arndt and Murtaza Hazara and Ali Ghadirzadeh and Ville Kyrki'),
+  pages(2725, 2731),
+  organization('IEEE'),
+)
+
+entry!('schoettler2020meta',
+  iros(2020),
+  title('Meta-reinforcement learning for robotic industrial insertion tasks'),
+  author('Gerrit Schoettler and Ashvin Nair and Juan Aparicio Ojea and Sergey Levine and Eugen Solowjow'),
+  pages(9728, 9735),
+  organization('IEEE'),
+)
+
+entry!('orourke2014hint',
+  inproceedings('Proceedings of the first ACM conference on Learning@ scale conference', 2014),
+  title('Hint systems may negatively impact performance in educational games'),
+  author('Eleanor O\'Rourke and Christy Ballweber and Zoran Popovi{\\\'i}'),
+  pages(51, 60),
+)
+
+entry!('wu2021prototransformer',
+  arxiv(2021, '2107.14035'),
+  title('ProtoTransformer: A Meta-Learning Approach to Providing Student Feedback'),
+  author('Mike Wu and Noah Goodman and Chris Piech and Chelsea Finn'),
+)
+
+entry!('malik2019generative',
+  arxiv(2019, '1905.09916'),
+  title('Generative Grading: Near Human-level Accuracy for Automated Feedback on Richly Structured Problems'),
+  author('Ali Malik and Mike Wu and Vrinda Vasavada and Jinpeng Song and Madison Coots and John Mitchell and Noah Goodman and Chris Piech'),
+)
+
+entry!('bhatia2016automated',
+  arxiv(2016, '1603.06129'),
+  title('Automated correction for syntax errors in programming assignments using recurrent neural networks'),
+  author('Sahil Bhatia and Rishabh Singh'),
+)
+
+entry!('piech2015learning',
+  inproceedings('International conference on machine Learning', 2015),
+  title('Learning program embeddings to propagate feedback on student code'),
+  author('Chris Piech and Jonathan Huang and Andy Nguyen and Mike Phulsuksombati and Mehran Sahami and Leonidas Guibas'),
+  pages(1093, 1102),
+  organization('PMLR'),
+)
+
+entry!('rivers2017data',
+  article('International Journal of Artificial Intelligence in Education', 2017, 27),
+  title('Data-driven hint generation in vast solution spaces: a self-improving python programming tutor'),
+  author('Kelly Rivers and Kenneth R Koedinger'),
+  number(1),
+  pages(37, 64),
+  publisher('Springer'),
+)
+
+entry!('paassen2017continuous',
+  arxiv(2017, '1708.06564'),
+  title('The continuous hint factory-providing hints in vast and sparsely populated edit distance spaces'),
+  author('Benjamin Paa{\ss}en and Barbara Hammer and Thomas William Price and Tiffany Barnes and Sebastian Gross and Niels Pinkwart'),
+)
+
+entry!('godefroid2017learn',
+  ase(2017),
+  title('Learn\&fuzz: Machine learning for input fuzzing'),
+  author('Patrice Godefroid and Hila Peleg and Rishabh Singh'),
+  pages(50, 59),
+  organization('IEEE'),
+)
+
+entry!('godefroid2008automated',
+  inproceedings('NDSS', 2008),
+  title('Automated whitebox fuzz testing'),
+  author('Patrice Godefroid and Michael Y Levin and David A Molnar and others'),
+  volume(8),
+  pages(151, 166),
+)
+
+entry!('king1976symbolic',
+  article('Communications of the ACM', 1976, 19),
+  title('Symbolic execution and program testing'),
+  author('James C King'),
+  number(7),
+  pages(385, 394),
+  publisher('ACM New York, NY, USA'),
+)
+
+entry!('zheng2019wuji',
+  ase(2019),
+  title('Wuji: Automatic online combat game testing using evolutionary deep reinforcement learning'),
+  author('Yan Zheng and Xiaofei Xie and Ting Su and Lei Ma and Jianye Hao and Zhaopeng Meng and Yang Liu and Ruimin Shen and Yingfeng Chen and Changjie Fan'),
+  pages(772, 784),
+  organization('IEEE'),
+)
+
+entry!('gordillo2021improving',
+  arxiv(2021, '2103.13798'),
+  title('Improving playtesting coverage via curiosity driven reinforcement learning agents'),
+  author('Camilo Gordillo and Joakim Bergdahl and Konrad Tollmar and Linus Gissl{\\\'e}n'),
+)
+
+entry!('froyd2012five',
+  article('Proceedings of the IEEE', 2012, 100),
+  title('Five major shifts in 100 years of engineering education'),
+  author('Jeffrey E Froyd and Phillip C Wankat and Karl A Smith'),
+  number('Special Centennial Issue'),
+  pages(1344, 1360),
+  publisher('IEEE'),
+)
+
+entry!('pfaffman2003manipulating',
+  title('Manipulating and measuring student engagement in computer-based instruction'),
+  phdthesis('Vanderbilt University', 2003),
+  author('Jay A Pfaffman'),
+  year(2003),
+  publisher('Vanderbilt University'),
+)
+
+entry!('piech2015deep',
+  article('Advances in neural information processing systems', 2015, 28),
+  title('Deep knowledge tracing'),
+  author('Chris Piech and Jonathan Bassen and Jonathan Huang and Surya Ganguli and Mehran Sahami and Leonidas J Guibas and Jascha Sohl-Dickstein'),
+)
+
+entry!('d2008more',
+  inproceedings('International conference on intelligent tutoring systems', 2008),
+  title('More accurate student modeling through contextual estimation of slip and guess probabilities in bayesian knowledge tracing'),
+  author('Ryan SJ d Baker and Albert T Corbett and Vincent Aleven'),
+  pages(406, 415),
+  organization('Springer'),
+)
+
+entry!('villano1992probabilistic',
+  inproceedings('International Conference on Intelligent Tutoring Systems', 1992),
+  title('Probabilistic student models: Bayesian belief networks and knowledge space theory'),
+  author('Michael Villano'),
+  pages(491, 498),
+  organization('Springer'),
+)
+
+entry!('anderson1990cognitive',
+  article('Artificial intelligence', 1990, 42),
+  title('Cognitive modeling and intelligent tutoring'),
+  author('John R Anderson and C Franklin Boyle and Albert T Corbett and Matthew W Lewis'),
+  number(1),
+  pages(7, 49),
+)
+
+entry!('balakrishnan2013predicting',
+  science(2013, 53),
+  title('Predicting student retention in massive open online courses using hidden markov models'),
+  author('Girish Balakrishnan and Derrick Coetzee'),
+  pages(57, 58),
+)
+
+entry!('sass2018structural',
+  article('The Review of Higher Education', 2018, 42),
+  title('A structural model for predicting student retention'),
+  author('Daniel A Sass and Felicia Castro-Villarreal and Steve Wilkerson and Norma Guerra and Jeremy Sullivan'),
+  number(1),
+  pages(103, 135),
+  publisher('Johns Hopkins University Press'),
+)
+
+entry!('delen2011predicting',
+  article('Journal of College Student Retention: Research, Theory \& Practice', 2011, 13),
+  title('Predicting student attrition with data mining methods'),
+  author('Dursun Delen'),
+  number(1),
+  pages(17, 35),
+  publisher('SAGE Publications Sage CA: Los Angeles, CA'),
+)
+
+entry!('aulck2016predicting',
+  arxiv(2016, '1606.06364'),
+  title('Predicting student dropout in higher education'),
+  author('Lovenoor Aulck and Nishant Velagapudi and Joshua Blumenstock and Jevin West'),
+)
+
+entry!('nwana1990intelligent',
+  article('Artificial Intelligence Review', 1990, 4),
+  title('Intelligent tutoring systems: an overview'),
+  author('Hyacinth S Nwana'),
+  number(4),
+  pages(251, 277),
+  publisher('Springer'),
+)
+
+entry!('code2022org',
+  title('Code.org'),
+  author('Code.org'),
+  type('misc'),
+  howpublished('\url{https://code.org/about}'),
+  year(2022),
+)
+
+entry!('singh2013automated',
+  inproceedings('Proceedings of the 34th ACM SIGPLAN conference on Programming language design and implementation', 2013),
+  title('Automated feedback generation for introductory programming assignments'),
+  author('Rishabh Singh and Sumit Gulwani and Armando Solar-Lezama'),
+  pages(15, 26),
+)
+
+entry!('wang2017data',
+  inproceedings('Proceedings of the Fourth (2017) ACM Conference on Learning@ Scale', 2017),
+  title('Data-driven feedback generator for online programing courses'),
+  author('Ke Wang and Benjamin Lin and Bjorn Rettig and Paul Pardi and Rishabh Singh'),
+  pages(257, 260),
+)
