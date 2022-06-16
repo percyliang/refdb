@@ -2013,3 +2013,40 @@ entry!('jaderberg2017auxiliary',
   title('Reinforcement Learning with Unsupervised Auxiliary Tasks'),
   author('Max Jaderberg and Volodymyr Mnih and Wojciech M. Czarnecki and Tom Schaul and Joel Z. Leibo and David Silver and Koray Kavukcuoglu'),
 )
+
+entry!('wiles2021finegrained',
+  arxiv(2021, '2110.11328'),
+  title('A Fine-Grained Analysis on Distribution Shift'),
+  author('Olivia Wiles and Sven Gowal and Florian Stimberg and Sylvestre-Alvise Rebuffi and Ira Ktena and Krishnamurthy Dvijotham and Ali Taylan Cemgil'),
+)
+
+entry!('kumar2019navigation',
+  corl(2019),
+  title('Learning Navigation Subroutines from Egocentric Videos'),
+  author('Ashish Kumar and Saurabh Gupta and Jitendra Malik'),
+)
+
+entry!('chang2020semanticnav',
+  neurips(2020),
+  title('Semantic Visual Navigation by Watching YouTube Videos'),
+  author('Matthew Chang and Arjun Gupta and Saurabh Gupta'),
+)
+
+entry!('mandikal2021dexvip',
+  corl(2021),
+  title('DexVIP: Learning Dexterous Grasping with Human Hand Pose Priors from Video'),
+  author('Priyanka Mandikal and Kristen Grauman'),
+)
+
+entry!('nagarajan2021shaping',
+  neurips(2021),
+  title('Shaping embodied agent behavior with activity-context priors from egocentric video'),
+  author('Tushar Nagarajan and Kristen Grauman'),
+)
+
+entry!('pinto2017robust',
+  icml(2017),
+  title('Robust Adversarial Reinforcement Learning'),
+  author('Lerrel Pinto and James Davidson and Rahul Sukthankar and Abhinav Kumar Gupta'),
+)
+
