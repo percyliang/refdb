@@ -668,13 +668,6 @@ entry!('rusu2015policy',
   author('Andrei A Rusu and Sergio Gomez Colmenarejo and Caglar Gulcehre and Guillaume Desjardins and James Kirkpatrick and Razvan Pascanu and Volodymyr Mnih and Koray Kavukcuoglu and Raia Hadsell'),
 )
 
-entry!('pathak2017curiosity',
-  cvpr(2017),
-  title('Curiosity-driven exploration by self-supervised prediction'),
-  author('Deepak Pathak and Pulkit Agrawal and Alexei A Efros and Trevor Darrell'),
-  pages(16, 17),
-)
-
 entry!('alemi2016deep',
   arxiv(2016, '1612.00410'),
   title('Deep variational information bottleneck'),

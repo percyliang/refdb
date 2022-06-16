@@ -1743,3 +1743,59 @@ entry!('torabi2018gaifo',
   title('Generative Adversarial Imitation from Observation'),
   author('Faraz Torabi and Garrett Warnell and Peter Stone'),
 )
+
+entry!('liu2018ifo',
+  icra(2018),
+  title('Imitation from Observation: Learning to Imitate Behaviors from Raw Video via Context Translation'),
+  author('Yuxuan Liu and Abhishek Gupta and P. Abbeel and Sergey Levine'),
+  pages(1118, 1125),
+)
+
+entry!('sharma2019third',
+  neurips(2019),
+  title('Third-Person Visual Imitation Learning via Decoupled Hierarchical Controller'),
+  author('Pratyusha Sharma and Deepak Pathak and Abhinav Kumar Gupta'),
+)
+
+entry!('smith2020avid',
+  rss(2020),
+  title('AVID: Learning Multi-Stage Tasks via Pixel-Level Translation of Human Videos'),
+  author('Laura Smith and Nikita Dhawan and Marvin Zhang and P. Abbeel and Sergey Levine'),
+)
+
+entry!('schmeckpeper2020predictive',
+  eccv(2020),
+  title('Learning Predictive Models From Observation and Interaction'),
+  author('Karl Schmeckpeper and Annie Xie and Oleh Rybkin and Stephen Tian and Kostas Daniilidis and Sergey Levine and Chelsea Finn'),
+)
+
+entry!('schmeckpeper2020reinforcement',
+  corl(2020),
+  title('Reinforcement Learning with Videos: Combining Offline Observations with Interaction'),
+  author('Karl Schmeckpeper and Oleh Rybkin and Kostas Daniilidis and Sergey Levine and Chelsea Finn'),
+)
+
+entry!('sermanet2018tcn',
+  icra(2018),
+  title('Time-Contrastive Networks: Self-Supervised Learning from Video'),
+  author('Pierre Sermanet and Corey Lynch and Yevgen Chebotar and Jasmine Hsu and Eric Jang and Stefan Schaal and Sergey Levine'),
+  pages(1134, 1141),
+)
+
+entry!('rybkin2019learning',
+  iclr(2019),
+  title('Learning what you can do before doing anything'),
+  author('Oleh Rybkin and Karl Pertsch and Konstantinos G. Derpanis and Kostas Daniilidis and Andrew Jaegle'),
+)
+
+entry!('agrawal2016poking',
+  neurips(2016),
+  title('Learning to Poke by Poking: Experiential Learning of Intuitive Physics'),
+  author('Pulkit Agrawal and Ashvin Nair and P. Abbeel and Jitendra Malik and Sergey Levine'),
+)
+
+entry!('pathak2017curiosity',
+  title('Curiosity-Driven Exploration by Self-Supervised Prediction'),
+  author('Deepak Pathak and Pulkit Agrawal and Alexei A. Efros and Trevor Darrell'),
+  inproceedings('IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)', 2017),
+)
