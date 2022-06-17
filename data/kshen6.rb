@@ -69,3 +69,29 @@ entry!('oord2019representation',
   #archiveprefix('arXiv'),
   #primaryclass('cs.LG'),
 )
+
+entry!('caron2021emerging',
+  iccv(2021),
+  title('Emerging Properties in Self-Supervised Vision Transformers'),
+  author('Mathilde Caron and Hugo Touvron and Ishan Misra and Herve Jegou and Julien Mairal and Piotr Bojanowski and Armand Joulin'),
+)
+
+entry!('zbontar2021barlow',
+  icml(2021),
+  title('Barlow Twins: Self-Supervised Learning via Redundancy Reduction'),
+  author('Jure Zbontar and Li Jing and Ishan Misra and Yann LeCun and Stephane Deny'),
+  editor('Meila, Marina and Zhang, Tong'),
+  volume(139),
+  #series('Proceedings of Machine Learning Research'),
+  #month('18--24 Jul'),
+  publisher('PMLR'),
+  url('https://proceedings.mlr.press/v139/zbontar21a.html'),
+)
+
+
+entry!('haochen2022beyond',
+  url('https://arxiv.org/abs/2204.02683'),
+  author('Jeff Z. HaoChen and Colin Wei and Ananya Kumar and Tengyu Ma'),
+  title('Beyond Separability: Analyzing the Linear Transferability of Contrastive Representations to Related Subpopulations'),
+  arxiv(2022)
+)
