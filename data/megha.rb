@@ -289,3 +289,73 @@ entry!('bansal2021teammate',
   author('Gagan Bansal and Besmira Nushi and Ece Kamar and Eric Horvitz and Daniel S. Weld'),
   aaai(2021),
 )
+
+entry!('ginsberg2014fill',
+  title('Dr.Fill: Crosswords and an Implemented Solver for Singly Weighted
+  CSPs'),
+  author('Matthew L. Ginsberg'),
+  inproceedings('	Journal Of Artificial Intelligence Research', 2014),
+  pages(851, 886),
+)
+
+entry!('rozner2021cryptic',
+  title('Decrypting Cryptic Crosswords: Semantically Complex Wordplay'),
+  author('Joshua Rozner and Christopher Potts and Kyle Mahowald'),
+  neurips(2021),
+)
+
+entry!('littman2002puzzles',
+  title('A probabilistic approach to solving crossword puzzles'),
+  author('Michael L. Littman and Greg A. Keim and Noam Shazeer'),
+  inproceedings('Artificial Intelligence', 2002),
+  pages(23, 55),
+)
+
+entry!('wallace2022crossword',
+  title('Automated Crossword Solving'),
+  author('Eric Wallace and Nicholas Tomlin and Albert Xu and Kevin Yang and Eshaan Pathak and Matthew L. Ginsberg and Dan Klein'),
+  acl(2022),
+)
+
+entry!('urbanek2019fantasy',
+  title('Learning to Speak and Act in a Fantasy Text Adventure Game'),
+  author('Jack Urbanek and Angela Fan and Siddharth Karamcheti and Saachi Jain and Samuel Humeau and Emily Dinan and Tim Rocktaschel and Douwe Kiela and Arthur Szlam and Jason Weston'),
+  emnlp(2019),
+)
+
+entry!('frans2021charades',
+  title('{AI} Charades: Language Models as Interactive Game Environments'),
+  author('Kevin Frans'),
+  inproceedings('IEEE Conference on Games (CoG)', 2021),
+  pages(1,2),
+)
+
+entry!('chattopadhyay2017human',
+  title('Evaluating Visual Conversational Agents via Cooperative Human-{AI} Games'),
+  author('Prithvijit Chattopadhyay and Deshraj Yadav and Viraj Prabhu and Arjun Chandrasekaran and Abhishek Das and Stefan Lee and Dhruv Batra and Devi Parikh'),
+  inproceedings('AAAI Conference on Human Computation & Crowdsourcing', 2017),
+)
+
+entry!('ammanabrolu2019quest',
+  title('Toward Automated Quest Generation in Text-Adventure Games'),
+  author('Prithviraj Ammanabrolu and William Broniec and Alex Mueller and Jeremy Paul and Mark Riedl'),
+  inproceedings('Proceedings of the 4th Workshop on Computational Creativity in Language Generation', 2019),
+)
+
+entry!('gero2020mental',
+  title('Mental Models of {AI} Agents in a Cooperative Game Setting'),
+  author('Katy Ilonka Gero and Zahra Ashktorab and Casey Dugan and Qian Pan and James Johnson and Wener Geyer and Maria Ruiz and Sarah Miller and David R Millen and Murray Campbell and Sadhana Kumaravel and Wei Zhang'),
+  chi(2020),
+)
+
+entry!('ashktorab2020collaboration',
+  title('Human-{AI} Collaboration in a Cooperative Game Setting: Measuring Social Perception and Outcomes'),
+  author('Zahra Ashktorab and Q. Vera Liao and Casey Dugan and James Johnson and Qian Pan and Wei Zhang and Sadhana Kumaravel and Murray Campbell'),
+  inproceedings('Proceedings of ACM Human-Computer Interaction (CSCW)', 2020),
+)
+
+entry!('hua2020unicorns',
+  title('Playing With Unicorns: {AI} Dungeon and Citizen {NLP}'),
+  author('Minh hua and Rita Raley'),
+  inproceedings('Digital Humanities Quarterly', 2020),
+)
