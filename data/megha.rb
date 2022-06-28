@@ -356,6 +356,6 @@ entry!('ashktorab2020collaboration',
 
 entry!('hua2020unicorns',
   title('Playing With Unicorns: {AI} Dungeon and Citizen {NLP}'),
-  author('Minh hua and Rita Raley'),
+  author('Minh Hua and Rita Raley'),
   inproceedings('Digital Humanities Quarterly', 2020),
 )
