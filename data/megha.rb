@@ -203,3 +203,89 @@ entry!('hoeck2015counterfactual',
   author('Nicole Van Hoeck and Patrick D. Watson and Aron K. Barbey'),
   book('Frontiers in Human Neuroscience', 2015),
   )
+
+entry!('white2015questions',
+  www(2015),
+  title('Questions vs. Queries in Informational Search Tasks'),
+  author('Ryen W. White and Matthew Richardson and Wen-tau Tih'),
+  pages(135, 136),
+  organization('International Conference on the World Wide Web'),
+)
+
+entry!('kiela2021dynabench',
+  naacl(2021),
+  title('Dynabench: Rethinking Benchmarking in {NLP}'),
+  author('Douwe Kiela and Max Bartolo and Yixin Nie and Divyansh Kaushik and Atticus Geiger and Zhengxuan Wu and Bertie Vidgen and Grusha Prasad and Amanpreet Singh and Pratik Ringshia and Zhiyi Ma and Tristan Thrush and Sebastian Riedel and Zeerak Waseem and Pontus Stenetorp and Robin Jia and Mohit Bansal and Christopher Potts and Adina Williams'),
+  pages(4110, 4124),
+)
+
+entry!('bartolo2020beat',
+  tacl(2020, 8),
+  title('Beat the AI: Investigating Adversarial Human Annotation for Reading Comprehension'),
+  author('Max Bartolo and Alastair Roberts and Johannes Welbl and Sebastian Riedel and Pontus Stenetorp'),
+  pages(662,678),
+)
+
+entry!('teevan2007information',
+  title('Information Re-Retrieval: Repeat Queries in Yahoo’s Logs '),
+  author('Jaime Teevan and Eytan Adar and Rosie Jones and Michael A. S. Potts'),
+  inproceedings('Annual Conference of the Association for Computing Machinery Special Interest Group in Information Retrieval', 2007),
+)
+
+entry!('huang2009query',
+  title('Analyzing and evaluating query reformulation strategies in web search logs'),
+  author('Jeff Huang and Efthimis N. Efthimiadis'),
+  inproceedings('Proceedings of the 18th ACM Conference on Information and Knowledge Management', 2009),
+)
+
+
+entry!('lau1999patterns',
+  title('Patterns of Search: Analyzing and Modeling Web Query Refinement'),
+  author('Tessa Lau and Eric Horvitz'),
+  inproceedings('User Modeling', 1999),
+  pages(119, 128),
+)
+
+entry!('wang2008query',
+  title('Mining term association patterns from search logs for effective query reformulation'),
+  author('Xuanhai Wang and ChengXiang Zhai'),
+  inproceedings('Proceedings of the 17th ACM Conference on Information and Knowledge Management', 2008),
+)
+
+entry!('pang2011query',
+  title('Search in the Lost Sense of “Query”: Question Formulation in Web Search
+  Queries and its Temporal Changes'),
+  author('Bo Pang and Ravi Kumar'),
+  acl(2011),
+)
+
+entry!('spink2002question',
+  title('Characteristics of question format web queries: an exploratory study'),
+  author('Amanda Spink and H. Cenk Ozmultu'),
+  inproceedings('Information Processing & Management',2002),
+)
+
+entry!('liu2013search',
+  title('How Do Users Grow Up along with Search Engines?: A Study of Long-term Users’ Behavior'),
+  author('Jian Liu and Yiqun Liu and Min Zhang and Shaoping Ma'),
+  inproceedings('Proceedings of the 22nd ACM Conference on Information and Knowledge Management', 2013),
+)
+
+
+entry!('jacovi2020faithful',
+  title('Towards Faithfully Interpretable {NLP} Systems: How Should We Define and Evaluate Faithfulness?'),
+  author('Alon Jacovi and Yoav Goldberg'),
+  acl(2020),
+)
+
+entry!('lakkaraju2019faithful',
+  title('Faithful and Customizable Explanations of Black Box Models'),
+  author('Himabindu Lakkaraju and Ece Kamar and Rich Caruana and Jure Lescovec'),
+  inproceedings('Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society', 2019)
+)
+
+entry!('bansal2021teammate',
+  title('Is the Most Accurate {AI} the Best Teammate? Optimizing {AI} for Teamwork'),
+  author('Gagan Bansal and Besmira Nushi and Ece Kamar and Eric Horvitz and Daniel S. Weld'),
+  aaai(2021),
+)
