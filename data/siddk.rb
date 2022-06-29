@@ -2199,3 +2199,54 @@ entry!('grauman2022ego4d',
   title('{Ego4D}: Around the World in 3,000 Hours of Egocentric Video'),
   author('Kristen Grauman and Andrew Westbury and Eugene Byrne and Zachary Q. Chavis and Antonino Furnari and Rohit Girdhar and Jackson Hamburger and Hao Jiang and Miao Liu and Xingyu Liu and Miguel Martin and Tushar Nagarajan and Ilija Radosavovic and Santhosh K. Ramakrishnan and F. Ryan and Jayant Sharma and Michael Wray and Mengmeng Xu and Eric Z. Xu and Chen Zhao and Siddhant Bansal and Dhruv Batra and Vincent Cartillier and Sean Crane and Tien Do and Morrie Doulaty and Akshay Erapalli and Christoph Feichtenhofer and Adriano Fragomeni and Qichen Fu and Christian Fuegen and Abrham Gebreselasie and Cristina González and James M. Hillis and Xuhua Huang and Yifei Huang and Wenqi Jia and Weslie Yu Heng Khoo and Jáchym Kolár and Satwik Kottur and Anurag Kumar and Federico Landini and Chao Li and Yanghao Li and Zhenqiang Li and Karttikeya Mangalam and Raghava Modhugu and Jonathan Munro and Tullie Murrell and Takumi Nishiyasu and Will Price and Paola Ruiz Puentes and Merey Ramazanova and Leda Sari and Kiran K. Somasundaram and Audrey Southerland and Yusuke Sugano and Ruijie Tao and Minh Vo and Yuchen Wang and Xindi Wu and Takuma Yagi and Yunyi Zhu and Pablo Arbeláez and David J. Crandall and Dima Damen and Giovanni Maria Farinella and Bernard Ghanem and Vamsi Krishna Ithapu and C. V. Jawahar and Hanbyul Joo and Kris Kitani and Haizhou Li and Richard A. Newcombe and Aude Oliva and Hyun Soo Park and James M. Rehg and Yoichi Sato and Jianbo Shi and Mike Zheng Shou and Antonio Torralba and Lorenzo Torresani and Mingfei Yan and Jitendra Malik'),
 )
+
+entry!('lange2012autonomousrl',
+  inproceedings('International Joint Conference on Neural Networks (IJCNN)', 2012),
+  title('Autonomous Reinforcement Learning on Raw Visual Input Data in a Real World Application'),
+  author('Sascha Lange and Martin A. Riedmiller and Arne Voigtländer'),
+  pages(1, 8),
+)
+
+entry!('okada2021dreaming',
+  icra(2021),
+  title('Dreaming: Model-based Reinforcement Learning by Latent Imagination without Reconstruction'),
+  author('Masashi Okada and Tadahiro Taniguchi'),
+  pages(4209, 4215),
+)
+
+entry!('lesort2018staterl',
+  article('Neural Networks: the Official Journal of the Neural Network Society', 2018, 108),
+  title('State Representation Learning for Control: An Overview'),
+  author('Timothée Lesort and Natalia Díaz Rodríguez and Jean-François Goudou and David Filliat'),
+  pages(379, 392),
+)
+
+entry!('liu2021behavior',
+  neurips(2021),
+  title('Behavior From the Void: Unsupervised Active Pre-Training'),
+  author('Hao Liu and P. Abbeel'),
+)
+
+entry!('he2022mae',
+  cvpr(2022),
+  title('Masked Autoencoders Are Scalable Vision Learners'),
+  author('Kaiming He and Xinlei Chen and Saining Xie and Yanghao Li and Piotr Dollár and Ross B. Girshick'),
+)
+
+entry!('babaeizadeh2021fitvid',
+  arxiv(2021, '2106.13195'),
+  title('FitVid: Overfitting in Pixel-Level Video Prediction'),
+  author('Mohammad Babaeizadeh and Mohammad Taghi Saffar and Suraj Nair and Sergey Levine and Chelsea Finn and D. Erhan'),
+)
+
+entry!('hu2018squeeze',
+  cvpr(2018),
+  author('Jie Hu and Li Shen and Gang Sun'),
+  title('Squeeze-and-Excitation Networks'),
+)
+
+entry!('ramachandran2018searching',
+  arxiv(2018, '1710.05941'),
+  title('Searching for Activation Functions'),
+  author('Prajit Ramachandran and Barret Zoph and Quoc V. Le'),
+)
