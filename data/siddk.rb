@@ -2403,3 +2403,28 @@ entry!('kuefler2018burnin',
   title('Burn-In Demonstrations for Multi-Modal Imitation Learning'),
   author('Alex Kuefler and Mykel J. Kochenderfer'),
 )
+
+entry!('chen2020suboptimal',
+  corl(2020),
+  title('Learning from Suboptimal Demonstration via Self-Supervised Reward Regression'),
+  author('Letian Chen and Rohan R. Paleja and Matthew Craig Gombolay'),
+)
+
+entry!('brown2019extrapolating',
+  icml(2019),
+  title('Extrapolating Beyond Suboptimal Demonstrations via Inverse Reinforcement Learning from Observations'),
+  author('Daniel S. Brown and Wonjoon Goo and Prabhat Nagarajan and Scott Niekum'),
+)
+
+entry!('myers2021multimodal',
+  corl(2021),
+  title('Learning Multimodal Rewards from Rankings'),
+  author('Vivek Myers and Erdem Biyik and Nima Anari and Dorsa Sadigh'),
+)
+
+entry!('zhu2022buds',
+  ral(2022, 7),
+  title('Bottom-Up Skill Discovery From Unsegmented Demonstrations for Long-Horizon Robot Manipulation'),
+  author('Yifeng Zhu and Peter Stone and Yuke Zhu'),
+  pages(4126, 4133),
+)
