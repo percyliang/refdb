@@ -2168,3 +2168,34 @@ entry!('hafner2020dream2control',
   title('Dream to Control: Learning Behaviors by Latent Imagination'),
   author('Danijar Hafner and Timothy P. Lillicrap and Jimmy Ba and Mohammad Norouzi'),
 )
+
+entry!('zhang2018decoupling',
+  iclr(2018),
+  title('Decoupling Dynamics and Reward for Transfer Learning'),
+  author('Amy Zhang and Harsh Satija and Joelle Pineau'),
+)
+
+entry!('guo2020bootstrap',
+  icml(2020),
+  title('Bootstrap Latent-Predictive Representations for Multitask Reinforcement Learning'),
+  author('Zhaohan Daniel Guo and Bernardo Ávila Pires and Bilal Piot and Jean-Bastien Grill and Florent Altché and Rémi Munos and Mohammad Gheshlaghi Azar'),
+)
+
+entry!('goyal2017sthsth',
+  iccv(2017),
+  title('The ``Something Something'' Video Database for Learning and Evaluating Visual Common Sense'),
+  author('Raghav Goyal and Samira Ebrahimi Kahou and Vincent Michalski and Joanna Materzynska and Susanne Westphal and Heuna Kim and Valentin Haenel and Ingo Fründ and Peter N. Yianilos and Moritz Mueller-Freitag and Florian Hoppe and Christian Thurau and Ingo Bax and Roland Memisevic'),
+)
+
+entry!('miech2019howto100m',
+  iccv(2019),
+  title('{HowTo100M}: Learning a Text-Video Embedding by Watching Hundred Million Narrated Video Clips'),
+  author('Antoine Miech and Dimitri Zhukov and Jean-Baptiste Alayrac and Makarand Tapaswi and Ivan Laptev and Josef Sivic'),
+  pages(2630, 2640),
+)
+
+entry!('grauman2022ego4d',
+  cvpr(2022),
+  title('{Ego4D}: Around the World in 3,000 Hours of Egocentric Video'),
+  author('Kristen Grauman and Andrew Westbury and Eugene Byrne and Zachary Q. Chavis and Antonino Furnari and Rohit Girdhar and Jackson Hamburger and Hao Jiang and Miao Liu and Xingyu Liu and Miguel Martin and Tushar Nagarajan and Ilija Radosavovic and Santhosh K. Ramakrishnan and F. Ryan and Jayant Sharma and Michael Wray and Mengmeng Xu and Eric Z. Xu and Chen Zhao and Siddhant Bansal and Dhruv Batra and Vincent Cartillier and Sean Crane and Tien Do and Morrie Doulaty and Akshay Erapalli and Christoph Feichtenhofer and Adriano Fragomeni and Qichen Fu and Christian Fuegen and Abrham Gebreselasie and Cristina González and James M. Hillis and Xuhua Huang and Yifei Huang and Wenqi Jia and Weslie Yu Heng Khoo and Jáchym Kolár and Satwik Kottur and Anurag Kumar and Federico Landini and Chao Li and Yanghao Li and Zhenqiang Li and Karttikeya Mangalam and Raghava Modhugu and Jonathan Munro and Tullie Murrell and Takumi Nishiyasu and Will Price and Paola Ruiz Puentes and Merey Ramazanova and Leda Sari and Kiran K. Somasundaram and Audrey Southerland and Yusuke Sugano and Ruijie Tao and Minh Vo and Yuchen Wang and Xindi Wu and Takuma Yagi and Yunyi Zhu and Pablo Arbeláez and David J. Crandall and Dima Damen and Giovanni Maria Farinella and Bernard Ghanem and Vamsi Krishna Ithapu and C. V. Jawahar and Hanbyul Joo and Kris Kitani and Haizhou Li and Richard A. Newcombe and Aude Oliva and Hyun Soo Park and James M. Rehg and Yoichi Sato and Jianbo Shi and Mike Zheng Shou and Antonio Torralba and Lorenzo Torresani and Mingfei Yan and Jitendra Malik'),
+)
