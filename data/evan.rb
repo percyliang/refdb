@@ -75,12 +75,6 @@ entry!('finn2016guided',
   pages(49, 58),
 )
 
-entry!('jaderberg2016reinforcement',
-  title('Reinforcement learning with unsupervised auxiliary tasks'),
-  author('M. Jaderberg and V. Mnih and W. M. Czarnecki and T. Schaul and J. Z. Leibo and D. Silver and K. Kavukcuoglu'),
-  arxiv(2016, '1611.05397'),
-)
-
 entry!('bacon2017option',
   title('The Option-Critic Architecture'),
   author('P. Bacon and J. Harb and D. Precup'),
@@ -420,12 +414,6 @@ entry!('mendonca2019guided',
   pages(9653, 9664),
 )
 
-entry!('yu2019meta',
-  arxiv(2019, '1910.10897'),
-  title('Meta-world: A benchmark and evaluation for multi-task and meta reinforcement learning'),
-  author('Tianhe Yu and Deirdre Quillen and Zhanpeng He and Ryan Julian and Karol Hausman and Chelsea Finn and Sergey Levine'),
-)
-
 entry!('nagabandi2018learning',
   arxiv(2018, '1803.11347'),
   title('Learning to adapt in dynamic, real-world environments through meta-reinforcement learning'),
@@ -666,13 +654,6 @@ entry!('rusu2015policy',
   arxiv(2015, '1511.06295'),
   title('Policy distillation'),
   author('Andrei A Rusu and Sergio Gomez Colmenarejo and Caglar Gulcehre and Guillaume Desjardins and James Kirkpatrick and Razvan Pascanu and Volodymyr Mnih and Koray Kavukcuoglu and Raia Hadsell'),
-)
-
-entry!('pathak2017curiosity',
-  cvpr(2017),
-  title('Curiosity-driven exploration by self-supervised prediction'),
-  author('Deepak Pathak and Pulkit Agrawal and Alexei A Efros and Trevor Darrell'),
-  pages(16, 17),
 )
 
 entry!('alemi2016deep',

@@ -15,12 +15,6 @@ entry!('caron2020swav',
   volume(33),
 )
 
-entry!('sun2019udss',
-  title('Unsupervised Domain Adaptation through Self-Supervision'),
-  author('Yu Sun and Eric Tzeng and Trevor Darrell and Alexei A. Efros'),
-  arxiv(2019),
-)
-
 entry!('wang2021cdcl',
   title('Cross-domain Contrastive Learning for Unsupervised Domain Adaptation'),
   author('Rui Wang and Zuxuan Wu and Zejia Weng and Jingjing Chen and Guo-Jun Qi and Yu-Gang Jiang'),
@@ -59,15 +53,6 @@ entry!('gidaris2018rotation',
   title('Unsupervised Representation Learning by Predicting Image Rotations'),
   author('Spyros Gidaris and Praveer Singh and Nikos Komodakis'),
   url('https://openreview.net/forum?id=S1v4N2l0-'),
-)
-
-entry!('oord2019representation',
-  title('Representation Learning with Contrastive Predictive Coding'),
-  author('Aaron van den Oord and Yazhe Li and Oriol Vinyals'),
-  arxiv(2019),
-  #eprint('1807.03748'),
-  #archiveprefix('arXiv'),
-  #primaryclass('cs.LG'),
 )
 
 entry!('caron2021emerging',

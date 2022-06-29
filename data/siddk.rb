@@ -1512,7 +1512,7 @@ entry!('singh2019endtoend',
   author('Avi Singh and Larry Yang and Kristian Hartikainen and Chelsea Finn and Sergey Levine'),
 )
 
-entry!('mandelkar2019scaling',
+entry!('mandlekar2019scaling',
   iros(2019),
   title('Scaling Robot Supervision to Hundreds of Hours with RoboTurk: Robotic Manipulation Dataset through Human Reasoning and Dexterity'),
   author('Ajay Mandlekar and Jonathan Booher and Max Spero and Albert Tung and Anchit Gupta and Yuke Zhu and Animesh Garg and Silvio Savarese and Li Fei-Fei'),
@@ -1686,4 +1686,745 @@ entry!('thomason2019visdial',
   corl(2019),
   title('Vision-and-Dialog Navigation'),
   author('Jesse Thomason and Michael Murray and Maya Cakmak and Luke Zettlemoyer'),
+)
+
+#######################################################################################################################
+###                                  NeurIPS: Video Representation Learning                                         ###
+#######################################################################################################################
+
+entry!('rakelly2021mutual',
+  neurips(2021),
+  title('Which Mutual-Information Representation Learning Objectives are Sufficient for Control?'),
+  author('Kate Rakelly and Abhishek Gupta and Carlos Florensa and Sergey Levine'),
+)
+
+entry!('oord2018cpc',
+    arxiv(2018, '1807.03748'),
+    title('Representation Learning with Contrastive Predictive Coding'),
+    author('Aäron van den Oord and Yazhe Li and Oriol Vinyals'),
+)
+
+entry!('anand2019unsupervised',
+  neurips(2019),
+  title('Unsupervised State Representation Learning in {Atari}'),
+  author('Ankesh Anand and Evan Racah and Sherjil Ozair and Yoshua Bengio and Marc{-}Alexandre Côté and R. Devon Hjelm'),
+  pages(8766, 8779),
+)
+
+entry!('stooke2021decoupling',
+  icml(2021),
+  title('Decoupling Representation Learning from Reinforcement Learning'),
+  author('Adam Stooke and Kimin Lee and Pieter Abbeel and Michael Laskin'),
+  volume(139),
+  pages(9870, 9879),
+)
+
+entry!('torabi2018bco',
+  ijcai(2018),
+  title('Behavioral Cloning from Observation'),
+  author('Faraz Torabi and Garrett Warnell and Peter Stone'),
+  pages(4950, 4957),
+)
+
+entry!('lee2020slac',
+  neurips(2020),
+  title('Stochastic Latent Actor-Critic: Deep Reinforcement Learning with a Latent Variable Model'),
+  author('Alex X. Lee and Anusha Nagabandi and Pieter Abbeel and Sergey Levine'),
+)
+
+entry!('yang2021representation',
+  icml(2021),
+  title('Representation Matters: Offline Pretraining for Sequential Decision Making'),
+  author('Mengjiao Yang and Ofir Nachum'),
+)
+
+entry!('torabi2018gaifo',
+  arxiv(2018, '1807.06158'),
+  title('Generative Adversarial Imitation from Observation'),
+  author('Faraz Torabi and Garrett Warnell and Peter Stone'),
+)
+
+entry!('liu2018ifo',
+  icra(2018),
+  title('Imitation from Observation: Learning to Imitate Behaviors from Raw Video via Context Translation'),
+  author('Yuxuan Liu and Abhishek Gupta and P. Abbeel and Sergey Levine'),
+  pages(1118, 1125),
+)
+
+entry!('sharma2019third',
+  neurips(2019),
+  title('Third-Person Visual Imitation Learning via Decoupled Hierarchical Controller'),
+  author('Pratyusha Sharma and Deepak Pathak and Abhinav Kumar Gupta'),
+)
+
+entry!('smith2020avid',
+  rss(2020),
+  title('AVID: Learning Multi-Stage Tasks via Pixel-Level Translation of Human Videos'),
+  author('Laura Smith and Nikita Dhawan and Marvin Zhang and P. Abbeel and Sergey Levine'),
+)
+
+entry!('schmeckpeper2020predictive',
+  eccv(2020),
+  title('Learning Predictive Models From Observation and Interaction'),
+  author('Karl Schmeckpeper and Annie Xie and Oleh Rybkin and Stephen Tian and Kostas Daniilidis and Sergey Levine and Chelsea Finn'),
+)
+
+entry!('schmeckpeper2020reinforcement',
+  corl(2020),
+  title('Reinforcement Learning with Videos: Combining Offline Observations with Interaction'),
+  author('Karl Schmeckpeper and Oleh Rybkin and Kostas Daniilidis and Sergey Levine and Chelsea Finn'),
+)
+
+entry!('sermanet2018tcn',
+  icra(2018),
+  title('Time-Contrastive Networks: Self-Supervised Learning from Video'),
+  author('Pierre Sermanet and Corey Lynch and Yevgen Chebotar and Jasmine Hsu and Eric Jang and Stefan Schaal and Sergey Levine'),
+  pages(1134, 1141),
+)
+
+entry!('rybkin2019learning',
+  iclr(2019),
+  title('Learning what you can do before doing anything'),
+  author('Oleh Rybkin and Karl Pertsch and Konstantinos G. Derpanis and Kostas Daniilidis and Andrew Jaegle'),
+)
+
+entry!('agrawal2016poking',
+  neurips(2016),
+  title('Learning to Poke by Poking: Experiential Learning of Intuitive Physics'),
+  author('Pulkit Agrawal and Ashvin Nair and P. Abbeel and Jitendra Malik and Sergey Levine'),
+)
+
+entry!('pathak2017curiosity',
+  title('Curiosity-Driven Exploration by Self-Supervised Prediction'),
+  author('Deepak Pathak and Pulkit Agrawal and Alexei A. Efros and Trevor Darrell'),
+  inproceedings('IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)', 2017),
+)
+
+entry!('shelhamer2017loss',
+  iclr(2017),
+  title('Loss is its own Reward: Self-Supervision for Reinforcement Learning'),
+  author('Evan Shelhamer and Parsa Mahmoudieh and Max Argus and Trevor Darrell'),
+)
+
+entry!('kollar2021simnet',
+  corl(2021),
+  title('SimNet: Enabling Robust Unknown Object Manipulation from Pure Synthetic Data via Stereo'),
+  author('Thomas Kollar and Michael Laskey and Kevin Stone and Brijen Thananjeyan and Mark Tjersland'),
+)
+
+entry!('mandlekar2018roboturk',
+  corl(2018),
+  title('{ROBOTURK}: A Crowdsourcing Platform for Robotic Skill Learning through Imitation'),
+  author('Ajay Mandlekar and Yuke Zhu and Animesh Garg and Jonathan Booher and Max Spero and Albert Tung and Julian Gao and John Emmons and Anchit Gupta and Emre Orbay and Silvio Savarese and Li Fei-Fei'),
+)
+
+entry!('mandlekar2021robomimic',
+  corl(2021),
+  title('What Matters in Learning from Offline Human Demonstrations for Robot Manipulation'),
+  author('Ajay Mandlekar and Danfei Xu and Josiah Wong and Soroush Nasiriany and Chen Wang and Rohun Kulkarni and Li Fei-Fei and Silvio Savarese and Yuke Zhu and Roberto Martín-Martín'),
+)
+
+entry!('chen2021batch',
+  ral(2021, 6),
+  title('Batch Exploration With Examples for Scalable Robotic Reinforcement Learning'),
+  author('Annie S. Chen and Hyunji Alex Nam and Suraj Nair and Chelsea Finn'),
+  pages(4401, 4408),
+)
+
+entry!('gupta2018robothomes',
+  neurips(2018),
+  title('Robot Learning in Homes: Improving Generalization and Reducing Dataset Bias'),
+  author('Abhinav Kumar Gupta and Adithyavairavan Murali and Dhiraj Gandhi and Lerrel Pinto'),
+)
+
+entry!('ebert2018foresight',
+  arxiv(2018, '1812.00568'),
+  title('Visual Foresight: Model-Based Deep Reinforcement Learning for Vision-Based Robotic Control'),
+  author('Frederik Ebert and Chelsea Finn and Sudeep Dasari and Annie Xie and Alex X. Lee and Sergey Levine'),
+)
+
+entry!('nair2018visualrl',
+  neurips(2018),
+  title('Visual Reinforcement Learning with Imagined Goals'),
+  author('Ashvin Nair and Vitchyr H. Pong and Murtaza Dalal and Shikhar Bahl and Steven Lin and Sergey Levine'),
+)
+
+entry!('kalashnikov2018qtopt',
+  corl(2018),
+  title('{QT-Opt}: Scalable Deep Reinforcement Learning for Vision-Based Robotic Manipulation'),
+  author('Dmitry Kalashnikov and Alex Irpan and Peter Pastor and Julian Ibarz and Alexander Herzog and Eric Jang and Deirdre Quillen and Ethan Holly and Mrinal Kalakrishnan and Vincent Vanhoucke and Sergey Levine'),
+)
+
+entry!('mazoure2020infomax',
+  neurips(2020),
+  title('Deep Reinforcement and InfoMax Learning'),
+  author('Bogdan Mazoure and Rémi Tachet des Combes and Thang Van Doan and Philip Bachman and R. Devon Hjelm'),
+)
+
+entry!('nachum2019nearoptimal',
+  iclr(2019),
+  title('Near-Optimal Representation Learning for Hierarchical Reinforcement Learning'),
+  author('Ofir Nachum and Shixiang Shane Gu and Honglak Lee and Sergey Levine'),
+)
+
+entry!('schwarzer2021dataefficient',
+  iclr(2021),
+  title('Data-Efficient Reinforcement Learning with Self-Predictive Representations'),
+  author('Max Schwarzer and Ankesh Anand and Rishab Goel and R. Devon Hjelm and Aaron C. Courville and Philip Bachman'),
+)
+
+entry!('shu2020predictive',
+  icml(2020),
+  title('Predictive Coding for Locally-Linear Control'),
+  author('Rui Shu and Tung D. Nguyen and Yinlam Chow and Tu Pham and Khoat Than and Mohammad Ghavamzadeh and Stefano Ermon and Hung Hai Bui'),
+)
+
+entry!('levine2020offlinerl',
+  arxiv(2020, '2005.01643'),
+  title('Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems'),
+  author('Sergey Levine and Aviral Kumar and G. Tucker and Justin Fu'),
+)
+
+entry!('kumar2020cql',
+  neurips(2020),
+  title('Conservative {Q-}Learning for Offline Reinforcement Learning'),
+  author('Aviral Kumar and Aurick Zhou and G. Tucker and Sergey Levine'),
+)
+
+entry!('yu2021combo',
+  neurips(2021),
+  title('COMBO: Conservative Offline Model-Based Policy Optimization'),
+  author('Tianhe Yu and Aviral Kumar and Rafael Rafailov and Aravind Rajeswaran and Sergey Levine and Chelsea Finn'),
+)
+
+entry!('fujimoto2021minimalist',
+  neurips(2021),
+  title('A Minimalist Approach to Offline Reinforcement Learning'),
+  author('Scott Fujimoto and Shixiang Shane Gu'),
+)
+
+entry!('zhao2021offline',
+  arxiv(2021, '2110.04276'),
+  title('Offline Meta-Reinforcement Learning for Industrial Insertion'),
+  author('Tony Z. Zhao and Jianlan Luo and Oleg O. Sushkov and Rugile Pevceviciute and Nicolas Manfred Otto Heess and Jonathan Scholz and Stefan Schaal and Sergey Levine'),
+)
+
+entry!('pomerleau1988alvinn',
+  neurips(1988),
+  title('ALVINN: An Autonomous Land Vehicle in a Neural Network'),
+  author('Dean A. Pomerleau'),
+)
+
+entry!('yu2019metaworld',
+  corl(2019),
+  title('Meta-World: A Benchmark and Evaluation for Multi-Task and Meta Reinforcement Learning'),
+  author('Tianhe Yu and Deirdre Quillen and Zhanpeng He and Ryan C. Julian and Karol Hausman and Chelsea Finn and Sergey Levine'),
+)
+
+entry!('kannan2021robodesk',
+  author('Harini Kannan and Danijar Hafner and Chelsea Finn and Dumitru Erhan'),
+  title('RoboDesk: A Multi-Task Reinforcement Learning Benchmark'),
+  year(2021),
+  type('misc'),
+  howpublished('\url{https://github.com/google-research/robodesk}'),
+)
+
+entry!('xiao2022mvp',
+  arxiv(2022, '2203.06173'),
+  title('Masked Visual Pre-training for Motor Control'),
+  author('Tete Xiao and Ilija Radosavovic and Trevor Darrell and Jitendra Malik'),
+)
+
+entry!('nair2022r3m',
+  arxiv(2022, '2203.12601'),
+  title('R3M: A Universal Visual Representation for Robot Manipulation'),
+  author('Suraj Nair and Aravind Rajeswaran and Vikash Kumar and Chelsea Finn and Abhinav Gupta'),
+)
+
+entry!('parisi2022unsurprising',
+  arxiv(2022, '2203.03580'),
+  title('The Unsurprising Effectiveness of Pre-Trained Vision Models for Control'),
+  author('Simone Parisi and Aravind Rajeswaran and Senthil Purushwalkam and Abhinav Kumar Gupta'),
+)
+
+entry!('seo2022actionfree',
+  arxiv(2022, '2203.13880'),
+  title('Reinforcement Learning with Action-Free Pre-Training from Videos'),
+  author('Younggyo Seo and Kimin Lee and Stephen James and P. Abbeel'),
+)
+
+entry!('pari2022surprising',
+  rss(2022),
+  title('The Surprising Effectiveness of Representation Learning for Visual Imitation'),
+  author('Jyothish Pari and Nur Muhammad (Mahi) Shafiullah and Sridhar Pandian Arunachalam and Lerrel Pinto'),
+)
+
+entry!('zhang2021correspondence',
+  iclr(2021),
+  title('Learning Cross-Domain Correspondence for Control with Dynamics Cycle-Consistency'),
+  author('Qiang Zhang and Tete Xiao and Alexei A. Efros and Lerrel Pinto and Xiaolong Wang'),
+)
+
+entry!('chen2021representation',
+  neurips(2021),
+  title('An Empirical Investigation of Representation Learning for Imitation'),
+  author('Cynthia Chen and Xin Chen and Sam Toyer and Cody Wild and Scott Emmons and Ian S. Fischer and Kuang-Huei Lee and Neel Alex and Steven H. Wang and Ping Luo and Stuart J. Russell and P. Abbeel and Rohin Shah'),
+)
+
+entry!('zakka2021xirl',
+  corl(2021),
+  title('{XIRL}: Cross-embodiment Inverse Reinforcement Learning'),
+  author('Kevin Zakka and Andy Zeng and Peter R. Florence and Jonathan Tompson and Jeannette Bohg and Debidatta Dwibedi'),
+)
+
+entry!('srinivas2020curl',
+  icml(2020),
+  title('{CURL}: Contrastive Unsupervised Representations for Reinforcement Learning'),
+  author('A. Srinivas and Michael Laskin and P. Abbeel'),
+)
+
+entry!('gelada2019deepmdp',
+  icml(2019),
+  title('DeepMDP: Learning Continuous Latent Space Models for Representation Learning'),
+  author('Carles Gelada and Saurabh Kumar and Jacob Buckman and Ofir Nachum and Marc G. Bellemare'),
+)
+
+entry!('lange2010dae',
+  title('Deep auto-encoder neural networks in reinforcement learning'),
+  author('Sascha Lange and Martin A. Riedmiller'),
+  inproceedings('International Joint Conference on Neural Networks (IJCNN)', 2010),
+  pages(1, 8),
+)
+
+entry!('zhang2021invariant',
+  iclr(2021),
+  title('Learning Invariant Representations for Reinforcement Learning without Reconstruction'),
+  author('Amy Zhang and Rowan McAllister and Roberto Calandra and Yarin Gal and Sergey Levine'),
+)
+
+entry!('jaderberg2017auxiliary',
+  iclr(2017),
+  title('Reinforcement Learning with Unsupervised Auxiliary Tasks'),
+  author('Max Jaderberg and Volodymyr Mnih and Wojciech M. Czarnecki and Tom Schaul and Joel Z. Leibo and David Silver and Koray Kavukcuoglu'),
+)
+
+entry!('wiles2021finegrained',
+  arxiv(2021, '2110.11328'),
+  title('A Fine-Grained Analysis on Distribution Shift'),
+  author('Olivia Wiles and Sven Gowal and Florian Stimberg and Sylvestre-Alvise Rebuffi and Ira Ktena and Krishnamurthy Dvijotham and Ali Taylan Cemgil'),
+)
+
+entry!('kumar2019navigation',
+  corl(2019),
+  title('Learning Navigation Subroutines from Egocentric Videos'),
+  author('Ashish Kumar and Saurabh Gupta and Jitendra Malik'),
+)
+
+entry!('chang2020semanticnav',
+  neurips(2020),
+  title('Semantic Visual Navigation by Watching YouTube Videos'),
+  author('Matthew Chang and Arjun Gupta and Saurabh Gupta'),
+)
+
+entry!('mandikal2021dexvip',
+  corl(2021),
+  title('DexVIP: Learning Dexterous Grasping with Human Hand Pose Priors from Video'),
+  author('Priyanka Mandikal and Kristen Grauman'),
+)
+
+entry!('nagarajan2021shaping',
+  neurips(2021),
+  title('Shaping embodied agent behavior with activity-context priors from egocentric video'),
+  author('Tushar Nagarajan and Kristen Grauman'),
+)
+
+entry!('pinto2017robust',
+  icml(2017),
+  title('Robust Adversarial Reinforcement Learning'),
+  author('Lerrel Pinto and James Davidson and Rahul Sukthankar and Abhinav Kumar Gupta'),
+)
+
+entry!('lee2018unified',
+  neurips(2018),
+  title('A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks'),
+  author('Kimin Lee and Kibok Lee and Honglak Lee and Jinwoo Shin'),
+)
+
+entry!('tzeng2014confusion',
+  cvpr(2014),
+  title('Deep Domain Confusion: Maximizing for Domain Invariance'),
+  author('Eric Tzeng and Judy Hoffman and N. Zhang and Kate Saenko and Trevor Darrell'),
+)
+
+entry!('sun2019unsupervised',
+  arxiv(2019, '1909.11825'),
+  title('Unsupervised Domain Adaptation through Self-Supervision'),
+  author('Yu Sun and Eric Tzeng and Trevor Darrell and Alexei A. Efros'),
+)
+
+entry!('xiao2021noise',
+  iclr(2021),
+  title('Noise or Signal: The Role of Image Backgrounds in Object Recognition'),
+  author('Kai Y. Xiao and Logan Engstrom and Andrew Ilyas and Aleksander Madry'),
+)
+
+entry!('tzeng2015towards',
+  arxiv(2015, '1511.07111'),
+  title('Towards Adapting Deep Visuomotor Representations from Simulated to Real Environments'),
+  author('Eric Tzeng and Coline Devin and Judy Hoffman and Chelsea Finn and Xingchao Peng and Sergey Levine and Kate Saenko and Trevor Darrell'),
+)
+
+entry!('gupta2017invariant',
+  iclr(2017),
+  title('Learning Invariant Feature Spaces to Transfer Skills with Reinforcement Learning'),
+  author('Abhishek Gupta and Coline Devin and Yuxuan Liu and P. Abbeel and Sergey Levine'),
+)
+
+entry!('christiano2016sim2real',
+  arxiv(2016, '1610.03518'),
+  title('Transfer from Simulation to Real World through Learning Deep Inverse Dynamics Model'),
+  author('Paul Francis Christiano and Zain Shah and Igor Mordatch and Jonas Schneider and Trevor Blackwell and Joshua Tobin and Pieter Abbeel and Wojciech Zaremba'),
+)
+
+entry!('tobin2017domain',
+  iros(2017),
+  title('Domain randomization for transferring deep neural networks from simulation to the real world'),
+  author('Joshua Tobin and Rachel Fong and Alex Ray and Jonas Schneider and Wojciech Zaremba and Pieter Abbeel'),
+  pages(23, 30),
+)
+
+entry!('sadeghi2017cad2rl',
+  rss(2017),
+  title('{(CAD)$^2$RL}: Real Single-Image Flight without a Single Real Image'),
+  author('Fereshteh Sadeghi and Sergey Levine'),
+)
+
+entry!('peng2018sim2real',
+  icra(2018),
+  title('Sim-to-Real Transfer of Robotic Control with Dynamics Randomization'),
+  author('Xue Bin Peng and Marcin Andrychowicz and Wojciech Zaremba and P. Abbeel'),
+  pages(1, 8),
+)
+
+entry!('tan2018sim2real',
+  rss(2018),
+  title('Sim-to-Real: Learning Agile Locomotion For Quadruped Robots'),
+  author('Jie Tan and Tingnan Zhang and Erwin Coumans and Atil Iscen and Yunfei Bai and Danijar Hafner and Steven Bohez and Vincent Vanhoucke'),
+)
+
+entry!('openai2019rubiks',
+  arxiv(2019, '1910.07113'),
+  title('Solving Rubik\'s Cube with a Robot Hand'),
+  author('OpenAI and Ilge Akkaya and Marcin Andrychowicz and Maciek Chociej and Mateusz Litwin and Bob McGrew and Arthur Petron and Alex Paino and Matthias Plappert and Glenn Powell and Raphael Ribas and Jonas Schneider and Nikolas A. Tezak and Jerry Tworek and Peter Welinder and Lilian Weng and Qiming Yuan and Wojciech Zaremba and Lei M. Zhang'),
+)
+
+entry!('mattner2012swing',
+  inproceedings('International Conference on Neural Information Processing (ICONIP)', 2012),
+  title('Learn to Swing Up and Balance a Real Pole Based on Raw Visual Input Data'),
+  author('Jan Mattner and Sascha Lange and Martin A. Riedmiller'),
+)
+
+entry!('finn2016deepsa',
+  icra(2016),
+  title('Deep Spatial Autoencoders for Visuomotor Learning'),
+  author('Chelsea Finn and Xin Yu Tan and Yan Duan and Trevor Darrell and Sergey Levine and Pieter Abbeel'),
+  pages(512, 519),
+)
+
+entry!('karl2017deepvb',
+  iclr(2017),
+  title('Deep Variational {Bayes} Filters: Unsupervised Learning of State Space Models from Raw Data'),
+  author('Maximilian Karl and Maximilian Sölch and Justin Bayer and Patrick van der Smagt'),
+)
+
+entry!('alvernaz2017autoencoder',
+  inproceedings('IEEE Conference on Computational Intelligence and Games (CIG)', 2017),
+  title('Autoencoder-Augmented Neuroevolution for Visual {DOOM} Playing'),
+  author('Samuel Alvernaz and Julian Togelius'),
+  pages(1, 8),
+)
+
+entry!('goroshin2015linearize',
+  neurips(2015),
+  title('Learning to Linearize under Uncertainty'),
+  author('Ross Goroshin and Michaël Mathieu and Yann LeCun'),
+)
+
+entry!('hoof2016stablerl',
+  iros(2016),
+  title('Stable Reinforcement Learning with Autoencoders for Tactile and Visual Data'),
+  author('Herke van Hoof and Nutan Chen and Maximilian Karl and Patrick van der Smagt and Jan Peters'),
+  pages(3928, 3934),
+)
+
+entry!('hafner2020dream2control',
+  iclr(2020),
+  title('Dream to Control: Learning Behaviors by Latent Imagination'),
+  author('Danijar Hafner and Timothy P. Lillicrap and Jimmy Ba and Mohammad Norouzi'),
+)
+
+entry!('zhang2018decoupling',
+  iclr(2018),
+  title('Decoupling Dynamics and Reward for Transfer Learning'),
+  author('Amy Zhang and Harsh Satija and Joelle Pineau'),
+)
+
+entry!('guo2020bootstrap',
+  icml(2020),
+  title('Bootstrap Latent-Predictive Representations for Multitask Reinforcement Learning'),
+  author('Zhaohan Daniel Guo and Bernardo Ávila Pires and Bilal Piot and Jean-Bastien Grill and Florent Altché and Rémi Munos and Mohammad Gheshlaghi Azar'),
+)
+
+entry!('goyal2017sthsth',
+  iccv(2017),
+  title('The ``Something Something'' Video Database for Learning and Evaluating Visual Common Sense'),
+  author('Raghav Goyal and Samira Ebrahimi Kahou and Vincent Michalski and Joanna Materzynska and Susanne Westphal and Heuna Kim and Valentin Haenel and Ingo Fründ and Peter N. Yianilos and Moritz Mueller-Freitag and Florian Hoppe and Christian Thurau and Ingo Bax and Roland Memisevic'),
+)
+
+entry!('miech2019howto100m',
+  iccv(2019),
+  title('{HowTo100M}: Learning a Text-Video Embedding by Watching Hundred Million Narrated Video Clips'),
+  author('Antoine Miech and Dimitri Zhukov and Jean-Baptiste Alayrac and Makarand Tapaswi and Ivan Laptev and Josef Sivic'),
+  pages(2630, 2640),
+)
+
+entry!('grauman2022ego4d',
+  cvpr(2022),
+  title('{Ego4D}: Around the World in 3,000 Hours of Egocentric Video'),
+  author('Kristen Grauman and Andrew Westbury and Eugene Byrne and Zachary Q. Chavis and Antonino Furnari and Rohit Girdhar and Jackson Hamburger and Hao Jiang and Miao Liu and Xingyu Liu and Miguel Martin and Tushar Nagarajan and Ilija Radosavovic and Santhosh K. Ramakrishnan and F. Ryan and Jayant Sharma and Michael Wray and Mengmeng Xu and Eric Z. Xu and Chen Zhao and Siddhant Bansal and Dhruv Batra and Vincent Cartillier and Sean Crane and Tien Do and Morrie Doulaty and Akshay Erapalli and Christoph Feichtenhofer and Adriano Fragomeni and Qichen Fu and Christian Fuegen and Abrham Gebreselasie and Cristina González and James M. Hillis and Xuhua Huang and Yifei Huang and Wenqi Jia and Weslie Yu Heng Khoo and Jáchym Kolár and Satwik Kottur and Anurag Kumar and Federico Landini and Chao Li and Yanghao Li and Zhenqiang Li and Karttikeya Mangalam and Raghava Modhugu and Jonathan Munro and Tullie Murrell and Takumi Nishiyasu and Will Price and Paola Ruiz Puentes and Merey Ramazanova and Leda Sari and Kiran K. Somasundaram and Audrey Southerland and Yusuke Sugano and Ruijie Tao and Minh Vo and Yuchen Wang and Xindi Wu and Takuma Yagi and Yunyi Zhu and Pablo Arbeláez and David J. Crandall and Dima Damen and Giovanni Maria Farinella and Bernard Ghanem and Vamsi Krishna Ithapu and C. V. Jawahar and Hanbyul Joo and Kris Kitani and Haizhou Li and Richard A. Newcombe and Aude Oliva and Hyun Soo Park and James M. Rehg and Yoichi Sato and Jianbo Shi and Mike Zheng Shou and Antonio Torralba and Lorenzo Torresani and Mingfei Yan and Jitendra Malik'),
+)
+
+entry!('lange2012autonomousrl',
+  inproceedings('International Joint Conference on Neural Networks (IJCNN)', 2012),
+  title('Autonomous Reinforcement Learning on Raw Visual Input Data in a Real World Application'),
+  author('Sascha Lange and Martin A. Riedmiller and Arne Voigtländer'),
+  pages(1, 8),
+)
+
+entry!('okada2021dreaming',
+  icra(2021),
+  title('Dreaming: Model-based Reinforcement Learning by Latent Imagination without Reconstruction'),
+  author('Masashi Okada and Tadahiro Taniguchi'),
+  pages(4209, 4215),
+)
+
+entry!('lesort2018staterl',
+  article('Neural Networks: the Official Journal of the Neural Network Society', 2018, 108),
+  title('State Representation Learning for Control: An Overview'),
+  author('Timothée Lesort and Natalia Díaz Rodríguez and Jean-François Goudou and David Filliat'),
+  pages(379, 392),
+)
+
+entry!('liu2021behavior',
+  neurips(2021),
+  title('Behavior From the Void: Unsupervised Active Pre-Training'),
+  author('Hao Liu and P. Abbeel'),
+)
+
+entry!('he2022mae',
+  cvpr(2022),
+  title('Masked Autoencoders Are Scalable Vision Learners'),
+  author('Kaiming He and Xinlei Chen and Saining Xie and Yanghao Li and Piotr Dollár and Ross B. Girshick'),
+)
+
+entry!('babaeizadeh2021fitvid',
+  arxiv(2021, '2106.13195'),
+  title('FitVid: Overfitting in Pixel-Level Video Prediction'),
+  author('Mohammad Babaeizadeh and Mohammad Taghi Saffar and Suraj Nair and Sergey Levine and Chelsea Finn and D. Erhan'),
+)
+
+entry!('hu2018squeeze',
+  cvpr(2018),
+  author('Jie Hu and Li Shen and Gang Sun'),
+  title('Squeeze-and-Excitation Networks'),
+)
+
+entry!('ramachandran2018searching',
+  arxiv(2018, '1710.05941'),
+  title('Searching for Activation Functions'),
+  author('Prajit Ramachandran and Barret Zoph and Quoc V. Le'),
+)
+
+#######################################################################################################################
+###                                  CoRL: Active Demonstration Elicitation                                         ###
+#######################################################################################################################
+
+entry!('polymetis2021',
+  author('Yixin Lin and Austin S. Wang and Giovanni Sutanto and Akshara Rai and Franziska Meier'),
+  title('Polymetis'),
+  type('misc'),
+  howpublished('\url{https://facebookresearch.github.io/fairo/polymetis/}'),
+  year(2021),
+)
+
+entry!('hendrycks2016gelu',
+  arxiv(2016, '1606.08415'),
+  title('{Gaussian} Error Linear Units (GELUs)'),
+  author('Dan Hendrycks and Kevin Gimpel'),
+)
+
+entry!('hart2006nasa',
+  inproceedings('Proceedings of the Human Factors and Ergonomics Society Annual Meeting', 2006),
+  title('{NASA} Task Load Index (NASA-TLX); 20 Years Later'),
+  author('Sandra G Hart'),
+  volume(50),
+  pages(904, 908),
+)
+
+entry!('ba2016layer',
+  arxiv(2016, '1607.06450'),
+  title('Layer Normalization'),
+  author('Jimmy Lei Ba and Jamie Ryan Kiros and Geoffrey E Hinton'),
+)
+
+entry!('peng2019awr',
+  arxiv(2019, 'abs/1910.00177'),
+  title('Advantage-Weighted Regression: Simple and Scalable Off-Policy Reinforcement Learning'),
+  author('Xue Bin Peng and Aviral Kumar and Grace H. Zhang and Sergey Levine'),
+)
+
+entry!('spencer2020eil',
+  rss(2020),
+  title('Learning from Interventions: Human-robot Interaction as both Explicit and Implicit Feedback'),
+  author('Jonathan Spencer and Sanjiban Choudhury and Matt Barnes and Matt Schmittle and Mung Chiang and Peter J. Ramadge and Siddhartha S. Srinivasa'),
+)
+
+entry!('kim2013mmd',
+  rss(2013),
+  title('Maximum Mean Discrepancy Imitation Learning'),
+  author('Beomjoon Kim and Joelle Pineau'),
+)
+
+entry!('menda2019ensemble',
+  iros(2019),
+  title('EnsembleDAgger: A {Bayesian} Approach to Safe Imitation Learning'),
+  author('Kunal Menda and K. Driggs-Campbell and Mykel J. Kochenderfer'),
+  pages(5041, 5048),
+)
+
+entry!('zhang2017queryefficient',
+  aaai(2017),
+  title('Query-Efficient Imitation Learning for End-to-End Autonomous Driving'),
+  author('Jiakai Zhang and Kyunghyun Cho'),
+)
+
+entry!('wang2020criticrr',
+  neurips(2020),
+  title('Critic Regularized Regression'),
+  author('Ziyun Wang and Alexander Novikov and Konrad Zolna and Jost Tobias Springenberg and Scott E. Reed and Bobak Shahriari and Noah Siegel and Josh Merel and Caglar Gulcehre and Nicolas Manfred Otto Heess and Nando de Freitas'),
+)
+
+entry!('yang2022trail',
+  iclr(2022),
+  title('TRAIL: Near-Optimal Imitation Learning with Suboptimal Data'),
+  author('Mengjiao Yang and Sergey Levine and Ofir Nachum'),
+)
+
+entry!('karamcheti2021outliers',
+  acl(2021),
+  title('Mind Your Outliers! Investigating the Negative Impact of Outliers on Active Learning for Visual Question Answering'),
+  author('Siddharth Karamcheti and Ranjay Krishna and Li Fei-Fei and Christopher D. Manning'),
+)
+
+entry!('grigsby2021filteredbc',
+  arxiv(2021, '2110.04698'),
+  title('A Closer Look at Advantage-Filtered Behavioral Cloning in High-Noise Datasets'),
+  author('Jake Grigsby and Yanjun Qi'),
+)
+
+entry!('emmons2022rvs',
+  iclr(2022),
+  title('RvS: What is Essential for Offline {RL} via Supervised Learning?'),
+  author('Scott Emmons and Benjamin Eysenbach and Ilya Kostrikov and Sergey Levine'),
+)
+
+entry!('jang2021bcz',
+  corl(2021),
+  title('{BC-Z}: Zero-Shot Task Generalization with Robotic Imitation Learning'),
+  author('Eric Jang and Alex Irpan and Mohi Khansari and Daniel Kappler and Frederik Ebert and Corey Lynch and Sergey Levine and Chelsea Finn'),
+)
+
+entry!('ebert2022bridge',
+  rss(2022),
+  title('Bridge Data: Boosting Generalization of Robotic Skills with Cross-Domain Datasets'),
+  author('Frederik Ebert and Yanlai Yang and Karl Schmeckpeper and Bernadette Bucher and Georgios Georgakis and Kostas Daniilidis and Chelsea Finn and Sergey Levine'),
+)
+
+entry!('dasari2021rb2',
+  neuripsdatasets(2021),
+  title('RB2: Robotics Benchmarking with a Twist'),
+  author('Sudeep Dasari and Jianren Wang and Joyce Hong and Shikhar Bahl and Yixin Lin and Austin S. Wang and Abitha Thankaraj and Karanbir Singh Chahal and Berk Çalli and Saurabh Gupta and David Held and Lerrel Pinto and Deepak Pathak and Vikash Kumar and Abhinav Kumar Gupta'),
+)
+
+entry!('beliaev2022ileed',
+  icml(2022),
+  title('Imitation Learning by Estimating Expertise of Demonstrators'),
+  author('Mark Beliaev and Andy Shih and Stefano Ermon and Dorsa Sadigh and Ramtin Pedarsani'),
+)
+
+entry!('ahn2022saycan',
+  arxiv(2022, '2204.01691'),
+  title('Do As {I} Can, Not As {I} Say: Grounding Language in Robotic Affordances'),
+  author('Michael Ahn and Anthony Brohan and Noah Brown and Yevgen Chebotar and Omar Cortes and Byron David and Chelsea Finn and Keerthana Gopalakrishnan and Karol Hausman and Alexander Herzog and Daniel Ho and Jasmine Hsu and Julian Ibarz and Brian Ichter and Alex Irpan and Eric Jang and Rosario Jauregui Ruano and Kyle Jeffrey and Sally Jesmonth and Nikhil Jayant Joshi and Ryan C. Julian and Dmitry Kalashnikov and Yuheng Kuang and Kuang-Huei Lee and Sergey Levine and Yao Lu and Linda Luu and Carolina Parada and Peter Pastor and Jornell Quiambao and Kanishka Rao and Jarek Rettinghouse and Diego M Reyes and Pierre Sermanet and Nicolas Sievers and Clayton Tan and Alexander Toshev and Vincent Vanhoucke and Fei Xia and Ted Xiao and Peng Xu and Sichun Xu and Mengyuan Yan'),
+)
+
+entry!('florence2021implicitbc',
+  corl(2021),
+  title('Implicit Behavioral Cloning'),
+  author('Peter R. Florence and Corey Lynch and Andy Zeng and Oscar Ramirez and Ayzaan Wahid and Laura Downs and Adrian S. Wong and Johnny Lee and Igor Mordatch and Jonathan Tompson'),
+)
+
+entry!('bishop1994mdn',
+  inproceedings('NCRG Report', 1994),
+  title('Mixture density networks'),
+  author('Christopher M. Bishop'),
+)
+
+entry!('zhang2021cail',
+  neurips(2021),
+  title('Confidence-Aware Imitation Learning from Demonstrations with Varying Optimality'),
+  author('Songyuan Zhang and Zhangjie Cao and Dorsa Sadigh and Yanan Sui'),
+)
+
+entry!('gopalan2022negativelfd',
+  rss(2022),
+  title('Negative Result for Learning from Demonstration: Challenges for End-Users Teaching Robots with Task And Motion Planning Abstractions'),
+  author('Nakul Gopalan and Nina Moorman and Manisha Natarajan and Matthew Craig Gombolay and Georgia'),
+)
+
+entry!('hausman2017multimodal',
+  neurips(2017),
+  title('Multi-Modal Imitation Learning from Unstructured Demonstrations using Generative Adversarial Nets'),
+  author('Karol Hausman and Yevgen Chebotar and Stefan Schaal and Gaurav S. Sukhatme and Joseph J. Lim'),
+)
+
+entry!('kuefler2018burnin',
+  aamas(2018),
+  title('Burn-In Demonstrations for Multi-Modal Imitation Learning'),
+  author('Alex Kuefler and Mykel J. Kochenderfer'),
+)
+
+entry!('chen2020suboptimal',
+  corl(2020),
+  title('Learning from Suboptimal Demonstration via Self-Supervised Reward Regression'),
+  author('Letian Chen and Rohan R. Paleja and Matthew Craig Gombolay'),
+)
+
+entry!('brown2019extrapolating',
+  icml(2019),
+  title('Extrapolating Beyond Suboptimal Demonstrations via Inverse Reinforcement Learning from Observations'),
+  author('Daniel S. Brown and Wonjoon Goo and Prabhat Nagarajan and Scott Niekum'),
+)
+
+entry!('myers2021multimodal',
+  corl(2021),
+  title('Learning Multimodal Rewards from Rankings'),
+  author('Vivek Myers and Erdem Biyik and Nima Anari and Dorsa Sadigh'),
+)
+
+entry!('zhu2022buds',
+  ral(2022, 7),
+  title('Bottom-Up Skill Discovery From Unsegmented Demonstrations for Long-Horizon Robot Manipulation'),
+  author('Yifeng Zhu and Peter Stone and Yuke Zhu'),
+  pages(4126, 4133),
 )

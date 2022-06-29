@@ -1612,12 +1612,6 @@ entry!('borkan2019nuanced',
   pages(491, 500),
 )
 
-entry!('xiao2020noise',
-  arxiv(2020, '2006.09994'),
-  title('Noise or Signal: The Role of Image Backgrounds in Object Recognition'),
-  author('Kai Xiao and Logan Engstrom and Andrew Ilyas and Aleksander Madry'),
-)
-
 entry!('mozannar2020consistent',
   arxiv(2020, '2006.01862'),
   title('Consistent Estimators for Learning to Defer to an Expert'),
@@ -3137,7 +3131,7 @@ entry!('cole2021does',
   author('Elijah Cole and Xuan Yang and Kimberly Wilber and Oisin Mac Aodha and Serge Belongie'),
 )
 
-entry!('shen2021connect',  
+entry!('shen2021connect',
   title('How Does Contrastive Pre-training Connect Disparate Domains?'),
   author('Kendrick Shen and Robbie Matthew Jones and Ananya Kumar and Sang Michael Xie and Percy Liang'),
   inproceedings('NeurIPS Workshop on Distribution Shifts', 2021),

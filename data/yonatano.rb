@@ -70,12 +70,6 @@ entry!('clinchant2013aggregating',
        pages(100, 109),
        )
 
-entry!('tzeng2014domain',
-       title('Deep Domain Confusion: Maximizing for Domain Invariance'),
-       author('Eric Tzeng and Judy Hoffman and Ning Zhang and Kate Saenko and Trevor Darrell'),
-       arxiv(2014, '1412.3474'),
-       )
-
 entry!('ganin2015domain',
        title('Unsupervised Domain Adaptation by Backpropagation'),
        author('Yaroslav Ganin and Victor Lempitsky'),
