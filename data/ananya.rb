@@ -602,3 +602,9 @@ entry!('shachaf2021theoretical',
   author('Gal Shachaf and Alon Brutzkus and Amir Globerson'),
   neurips(2021),
 )
+
+entry!('wald2021calibration',
+  title('On Calibration and Out-of-domain Generalization'),
+  author('Yoav Wald and Amir Feder and Daniel Greenfeld and Uri Shalit'),
+  neurips(2021),
+)
