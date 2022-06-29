@@ -60,7 +60,7 @@ entry!('zhang2022greaselm',
 
 
 entry!('lee2022coauthor',
-  title('CoAuthor: Designing a Human-{AI} Collaborative Writing Dataset for Exploring Language Model Capabilities'),
+  title('Co{A}uthor: Designing a Human-{AI} Collaborative Writing Dataset for Exploring Language Model Capabilities'),
   author('Mina Lee and Percy Liang and Qian Yang'),
   chi(2022),
   url('https://arxiv.org/pdf/2201.06796.pdf'),
