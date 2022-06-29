@@ -1512,7 +1512,7 @@ entry!('singh2019endtoend',
   author('Avi Singh and Larry Yang and Kristian Hartikainen and Chelsea Finn and Sergey Levine'),
 )
 
-entry!('mandelkar2019scaling',
+entry!('mandlekar2019scaling',
   iros(2019),
   title('Scaling Robot Supervision to Hundreds of Hours with RoboTurk: Robotic Manipulation Dataset through Human Reasoning and Dexterity'),
   author('Ajay Mandlekar and Jonathan Booher and Max Spero and Albert Tung and Anchit Gupta and Yuke Zhu and Animesh Garg and Silvio Savarese and Li Fei-Fei'),
@@ -1818,7 +1818,7 @@ entry!('mandlekar2018roboturk',
   author('Ajay Mandlekar and Yuke Zhu and Animesh Garg and Jonathan Booher and Max Spero and Albert Tung and Julian Gao and John Emmons and Anchit Gupta and Emre Orbay and Silvio Savarese and Li Fei-Fei'),
 )
 
-entry!('mandelkar2021robomimic',
+entry!('mandlekar2021robomimic',
   corl(2021),
   title('What Matters in Learning from Offline Human Demonstrations for Robot Manipulation'),
   author('Ajay Mandlekar and Danfei Xu and Josiah Wong and Soroush Nasiriany and Chen Wang and Rohun Kulkarni and Li Fei-Fei and Silvio Savarese and Yuke Zhu and Roberto Martín-Martín'),
@@ -1907,12 +1907,6 @@ entry!('zhao2021offline',
   arxiv(2021, '2110.04276'),
   title('Offline Meta-Reinforcement Learning for Industrial Insertion'),
   author('Tony Z. Zhao and Jianlan Luo and Oleg O. Sushkov and Rugile Pevceviciute and Nicolas Manfred Otto Heess and Jonathan Scholz and Stefan Schaal and Sergey Levine'),
-)
-
-entry!('ebert2021bridgedata',
-  arxiv(2021, '2109.13396'),
-  title('Bridge Data: Boosting Generalization of Robotic Skills with Cross-Domain Datasets'),
-  author('Frederik Ebert and Yanlai Yang and Karl Schmeckpeper and Bernadette Bucher and Georgios Georgakis and Kostas Daniilidis and Chelsea Finn and Sergey Levine'),
 )
 
 entry!('pomerleau1988alvinn',
@@ -2249,4 +2243,163 @@ entry!('ramachandran2018searching',
   arxiv(2018, '1710.05941'),
   title('Searching for Activation Functions'),
   author('Prajit Ramachandran and Barret Zoph and Quoc V. Le'),
+)
+
+#######################################################################################################################
+###                                  CoRL: Active Demonstration Elicitation                                         ###
+#######################################################################################################################
+
+entry!('polymetis2021',
+  author('Yixin Lin and Austin S. Wang and Giovanni Sutanto and Akshara Rai and Franziska Meier'),
+  title('Polymetis'),
+  type('misc'),
+  howpublished('\url{https://facebookresearch.github.io/fairo/polymetis/}'),
+  year(2021),
+)
+
+entry!('hendrycks2016gelu',
+  arxiv(2016, '1606.08415'),
+  title('{Gaussian} Error Linear Units (GELUs)'),
+  author('Dan Hendrycks and Kevin Gimpel'),
+)
+
+entry!('hart2006nasa',
+  inproceedings('Proceedings of the Human Factors and Ergonomics Society Annual Meeting', 2006),
+  title('{NASA} Task Load Index (NASA-TLX); 20 Years Later'),
+  author('Sandra G Hart'),
+  volume(50),
+  pages(904, 908),
+)
+
+entry!('ba2016layer',
+  arxiv(2016, '1607.06450'),
+  title('Layer Normalization'),
+  author('Jimmy Lei Ba and Jamie Ryan Kiros and Geoffrey E Hinton'),
+)
+
+entry!('peng2019awr',
+  arxiv(2019, 'abs/1910.00177'),
+  title('Advantage-Weighted Regression: Simple and Scalable Off-Policy Reinforcement Learning'),
+  author('Xue Bin Peng and Aviral Kumar and Grace H. Zhang and Sergey Levine'),
+)
+
+entry!('spencer2020eil',
+  rss(2020),
+  title('Learning from Interventions: Human-robot Interaction as both Explicit and Implicit Feedback'),
+  author('Jonathan Spencer and Sanjiban Choudhury and Matt Barnes and Matt Schmittle and Mung Chiang and Peter J. Ramadge and Siddhartha S. Srinivasa'),
+)
+
+entry!('kim2013mmd',
+  rss(2013),
+  title('Maximum Mean Discrepancy Imitation Learning'),
+  author('Beomjoon Kim and Joelle Pineau'),
+)
+
+entry!('menda2019ensemble',
+  iros(2019),
+  title('EnsembleDAgger: A {Bayesian} Approach to Safe Imitation Learning'),
+  author('Kunal Menda and K. Driggs-Campbell and Mykel J. Kochenderfer'),
+  pages(5041, 5048),
+)
+
+entry!('zhang2017queryefficient',
+  aaai(2017),
+  title('Query-Efficient Imitation Learning for End-to-End Autonomous Driving'),
+  author('Jiakai Zhang and Kyunghyun Cho'),
+)
+
+entry!('wang2020criticrr',
+  neurips(2020),
+  title('Critic Regularized Regression'),
+  author('Ziyun Wang and Alexander Novikov and Konrad Zolna and Jost Tobias Springenberg and Scott E. Reed and Bobak Shahriari and Noah Siegel and Josh Merel and Caglar Gulcehre and Nicolas Manfred Otto Heess and Nando de Freitas'),
+)
+
+entry!('yang2022trail',
+  iclr(2022),
+  title('TRAIL: Near-Optimal Imitation Learning with Suboptimal Data'),
+  author('Mengjiao Yang and Sergey Levine and Ofir Nachum'),
+)
+
+entry!('karamcheti2021outliers',
+  acl(2021),
+  title('Mind Your Outliers! Investigating the Negative Impact of Outliers on Active Learning for Visual Question Answering'),
+  author('Siddharth Karamcheti and Ranjay Krishna and Li Fei-Fei and Christopher D. Manning'),
+)
+
+entry!('grigsby2021filteredbc',
+  arxiv(2021, '2110.04698'),
+  title('A Closer Look at Advantage-Filtered Behavioral Cloning in High-Noise Datasets'),
+  author('Jake Grigsby and Yanjun Qi'),
+)
+
+entry!('emmons2022rvs',
+  iclr(2022),
+  title('RvS: What is Essential for Offline {RL} via Supervised Learning?'),
+  author('Scott Emmons and Benjamin Eysenbach and Ilya Kostrikov and Sergey Levine'),
+)
+
+entry!('jang2021bcz',
+  corl(2021),
+  title('{BC-Z}: Zero-Shot Task Generalization with Robotic Imitation Learning'),
+  author('Eric Jang and Alex Irpan and Mohi Khansari and Daniel Kappler and Frederik Ebert and Corey Lynch and Sergey Levine and Chelsea Finn'),
+)
+
+entry!('ebert2022bridge',
+  rss(2022),
+  title('Bridge Data: Boosting Generalization of Robotic Skills with Cross-Domain Datasets'),
+  author('Frederik Ebert and Yanlai Yang and Karl Schmeckpeper and Bernadette Bucher and Georgios Georgakis and Kostas Daniilidis and Chelsea Finn and Sergey Levine'),
+)
+
+entry!('dasari2021rb2',
+  neuripsdatasets(2021),
+  title('RB2: Robotics Benchmarking with a Twist'),
+  author('Sudeep Dasari and Jianren Wang and Joyce Hong and Shikhar Bahl and Yixin Lin and Austin S. Wang and Abitha Thankaraj and Karanbir Singh Chahal and Berk Çalli and Saurabh Gupta and David Held and Lerrel Pinto and Deepak Pathak and Vikash Kumar and Abhinav Kumar Gupta'),
+)
+
+entry!('beliaev2022ileed',
+  icml(2022),
+  title('Imitation Learning by Estimating Expertise of Demonstrators'),
+  author('Mark Beliaev and Andy Shih and Stefano Ermon and Dorsa Sadigh and Ramtin Pedarsani'),
+)
+
+entry!('ahn2022saycan',
+  arxiv(2022, '2204.01691'),
+  title('Do As {I} Can, Not As {I} Say: Grounding Language in Robotic Affordances'),
+  author('Michael Ahn and Anthony Brohan and Noah Brown and Yevgen Chebotar and Omar Cortes and Byron David and Chelsea Finn and Keerthana Gopalakrishnan and Karol Hausman and Alexander Herzog and Daniel Ho and Jasmine Hsu and Julian Ibarz and Brian Ichter and Alex Irpan and Eric Jang and Rosario Jauregui Ruano and Kyle Jeffrey and Sally Jesmonth and Nikhil Jayant Joshi and Ryan C. Julian and Dmitry Kalashnikov and Yuheng Kuang and Kuang-Huei Lee and Sergey Levine and Yao Lu and Linda Luu and Carolina Parada and Peter Pastor and Jornell Quiambao and Kanishka Rao and Jarek Rettinghouse and Diego M Reyes and Pierre Sermanet and Nicolas Sievers and Clayton Tan and Alexander Toshev and Vincent Vanhoucke and Fei Xia and Ted Xiao and Peng Xu and Sichun Xu and Mengyuan Yan'),
+)
+
+entry!('florence2021implicitbc',
+  corl(2021),
+  title('Implicit Behavioral Cloning'),
+  author('Peter R. Florence and Corey Lynch and Andy Zeng and Oscar Ramirez and Ayzaan Wahid and Laura Downs and Adrian S. Wong and Johnny Lee and Igor Mordatch and Jonathan Tompson'),
+)
+
+entry!('bishop1994mdn',
+  inproceedings('NCRG Report', 1994),
+  title('Mixture density networks'),
+  author('Christopher M. Bishop'),
+)
+
+entry!('zhang2021cail',
+  neurips(2021),
+  title('Confidence-Aware Imitation Learning from Demonstrations with Varying Optimality'),
+  author('Songyuan Zhang and Zhangjie Cao and Dorsa Sadigh and Yanan Sui'),
+)
+
+entry!('gopalan2022negativelfd',
+  rss(2022),
+  title('Negative Result for Learning from Demonstration: Challenges for End-Users Teaching Robots with Task And Motion Planning Abstractions'),
+  author('Nakul Gopalan and Nina Moorman and Manisha Natarajan and Matthew Craig Gombolay and Georgia'),
+)
+
+entry!('hausman2017multimodal',
+  neurips(2017),
+  title('Multi-Modal Imitation Learning from Unstructured Demonstrations using Generative Adversarial Nets'),
+  author('Karol Hausman and Yevgen Chebotar and Stefan Schaal and Gaurav S. Sukhatme and Joseph J. Lim'),
+)
+
+entry!('kuefler2018burnin',
+  aamas(2018),
+  title('Burn-In Demonstrations for Multi-Modal Imitation Learning'),
+  author('Alex Kuefler and Mykel J. Kochenderfer'),
 )
