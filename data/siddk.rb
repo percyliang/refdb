@@ -2123,3 +2123,48 @@ entry!('openai2019rubiks',
   title('Solving Rubik\'s Cube with a Robot Hand'),
   author('OpenAI and Ilge Akkaya and Marcin Andrychowicz and Maciek Chociej and Mateusz Litwin and Bob McGrew and Arthur Petron and Alex Paino and Matthias Plappert and Glenn Powell and Raphael Ribas and Jonas Schneider and Nikolas A. Tezak and Jerry Tworek and Peter Welinder and Lilian Weng and Qiming Yuan and Wojciech Zaremba and Lei M. Zhang'),
 )
+
+entry!('mattner2012swing',
+  inproceedings('International Conference on Neural Information Processing (ICONIP)', 2012),
+  title('Learn to Swing Up and Balance a Real Pole Based on Raw Visual Input Data'),
+  author('Jan Mattner and Sascha Lange and Martin A. Riedmiller'),
+)
+
+entry!('finn2016deepsa',
+  icra(2016),
+  title('Deep Spatial Autoencoders for Visuomotor Learning'),
+  author('Chelsea Finn and Xin Yu Tan and Yan Duan and Trevor Darrell and Sergey Levine and Pieter Abbeel'),
+  pages(512, 519),
+)
+
+entry!('karl2017deepvb',
+  iclr(2017),
+  title('Deep Variational {Bayes} Filters: Unsupervised Learning of State Space Models from Raw Data'),
+  author('Maximilian Karl and Maximilian Sölch and Justin Bayer and Patrick van der Smagt'),
+)
+
+entry!('alvernaz2017autoencoder',
+  inproceedings('IEEE Conference on Computational Intelligence and Games (CIG)', 2017),
+  title('Autoencoder-Augmented Neuroevolution for Visual {DOOM} Playing'),
+  author('Samuel Alvernaz and Julian Togelius'),
+  pages(1, 8),
+)
+
+entry!('goroshin2015linearize',
+  neurips(2015),
+  title('Learning to Linearize under Uncertainty'),
+  author('Ross Goroshin and Michaël Mathieu and Yann LeCun'),
+)
+
+entry!('hoof2016stablerl',
+  iros(2016),
+  title('Stable Reinforcement Learning with Autoencoders for Tactile and Visual Data'),
+  author('Herke van Hoof and Nutan Chen and Maximilian Karl and Patrick van der Smagt and Jan Peters'),
+  pages(3928, 3934),
+)
+
+entry!('hafner2020dream2control',
+  iclr(2020),
+  title('Dream to Control: Learning Behaviors by Latent Imagination'),
+  author('Danijar Hafner and Timothy P. Lillicrap and Jimmy Ba and Mohammad Norouzi'),
+)
