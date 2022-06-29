@@ -2067,3 +2067,59 @@ entry!('sun2019unsupervised',
   title('Unsupervised Domain Adaptation through Self-Supervision'),
   author('Yu Sun and Eric Tzeng and Trevor Darrell and Alexei A. Efros'),
 )
+
+entry!('xiao2021noise',
+  iclr(2021),
+  title('Noise or Signal: The Role of Image Backgrounds in Object Recognition'),
+  author('Kai Y. Xiao and Logan Engstrom and Andrew Ilyas and Aleksander Madry'),
+)
+
+entry!('tzeng2015towards',
+  arxiv(2015, '1511.07111'),
+  title('Towards Adapting Deep Visuomotor Representations from Simulated to Real Environments'),
+  author('Eric Tzeng and Coline Devin and Judy Hoffman and Chelsea Finn and Xingchao Peng and Sergey Levine and Kate Saenko and Trevor Darrell'),
+)
+
+entry!('gupta2017invariant',
+  iclr(2017),
+  title('Learning Invariant Feature Spaces to Transfer Skills with Reinforcement Learning'),
+  author('Abhishek Gupta and Coline Devin and Yuxuan Liu and P. Abbeel and Sergey Levine'),
+)
+
+entry!('christiano2016sim2real',
+  arxiv(2016, '1610.03518'),
+  title('Transfer from Simulation to Real World through Learning Deep Inverse Dynamics Model'),
+  author('Paul Francis Christiano and Zain Shah and Igor Mordatch and Jonas Schneider and Trevor Blackwell and Joshua Tobin and Pieter Abbeel and Wojciech Zaremba'),
+)
+
+entry!('tobin2017domain',
+  iros(2017),
+  title('Domain randomization for transferring deep neural networks from simulation to the real world'),
+  author('Joshua Tobin and Rachel Fong and Alex Ray and Jonas Schneider and Wojciech Zaremba and Pieter Abbeel'),
+  pages(23, 30),
+)
+
+entry!('sadeghi2017cad2rl',
+  rss(2017),
+  title('{(CAD)$^2$RL}: Real Single-Image Flight without a Single Real Image'),
+  author('Fereshteh Sadeghi and Sergey Levine'),
+)
+
+entry!('peng2018sim2real',
+  icra(2018),
+  title('Sim-to-Real Transfer of Robotic Control with Dynamics Randomization'),
+  author('Xue Bin Peng and Marcin Andrychowicz and Wojciech Zaremba and P. Abbeel'),
+  pages(1, 8),
+)
+
+entry!('tan2018sim2real',
+  rss(2018),
+  title('Sim-to-Real: Learning Agile Locomotion For Quadruped Robots'),
+  author('Jie Tan and Tingnan Zhang and Erwin Coumans and Atil Iscen and Yunfei Bai and Danijar Hafner and Steven Bohez and Vincent Vanhoucke'),
+)
+
+entry!('openai2019rubiks',
+  arxiv(2019, '1910.07113'),
+  title('Solving Rubik\'s Cube with a Robot Hand'),
+  author('OpenAI and Ilge Akkaya and Marcin Andrychowicz and Maciek Chociej and Mateusz Litwin and Bob McGrew and Arthur Petron and Alex Paino and Matthias Plappert and Glenn Powell and Raphael Ribas and Jonas Schneider and Nikolas A. Tezak and Jerry Tworek and Peter Welinder and Lilian Weng and Qiming Yuan and Wojciech Zaremba and Lei M. Zhang'),
+)
