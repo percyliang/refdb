@@ -1,5 +1,6 @@
 ############################################################
 # 2022
+
 entry!('karamcheti2022lilac',
   title('Shared Autonomy for Robotic Manipulation with Language Corrections'),
   author('Siddharth Karamcheti* and Raj Palleti* and Yuchen Cui and and Percy Liang and Dorsa Sadigh'),
@@ -10,7 +11,7 @@ entry!('karamcheti2022lilac',
 entry!('shen2022connect',
   title('Connect, Not Collapse: Explaining Contrastive Learning for Unsupervised Domain Adaptation'),
   author('Kendrick Shen and Robbie Jones and Ananya Kumar and Sang Michael Xie and Jeff Z. HaoChen and Tengyu Ma and Percy Liang'),
-  arxiv(2022),
+  icml(2022),
   url('https://arxiv.org/pdf/2204.00570.pdf'),
 )
 
