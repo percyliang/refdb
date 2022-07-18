@@ -608,3 +608,9 @@ entry!('wald2021calibration',
   author('Yoav Wald and Amir Feder and Daniel Greenfeld and Uri Shalit'),
   neurips(2021),
 )
+
+entry!('luo2020privacy',
+  title('Privacy Preserving Recalibration under Domain Shift'),
+  author('Rachel Luo and Shengjia Zhao and Jiaming Song and Jonathan Kuck and Stefano Ermon and Silvio Savarese'),
+  arxiv(2020),
+)
