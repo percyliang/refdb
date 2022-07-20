@@ -1,6 +1,13 @@
 ############################################################
 # 2022
 
+entry!('kumar2022calibrated',
+  title('Calibrated ensembles can mitigate accuracy tradeoffs under distribution shift'),
+  author('Ananya Kumar and Tengyu Ma and Percy Liang and Aditi Raghunathan'),
+  uai(2022),
+  url('https://arxiv.org/pdf/2207.08977.pdf'),
+)
+
 entry!('karamcheti2022lilac',
   title('Shared Autonomy for Robotic Manipulation with Language Corrections'),
   author('Siddharth Karamcheti* and Raj Palleti* and Yuchen Cui and and Percy Liang and Dorsa Sadigh'),
@@ -1385,7 +1392,6 @@ entry!('liang09semantics',
   url('semantics-acl2009.pdf'),
   slidesurl('semantics-acl2009-talk.pdf'),
   code('../software/unsupervised-modeling.zip'),
-  data('../data/weather-data.zip'),
   abstract('A central problem in grounded language acquisition is learning the correspondences between a rich world state and a stream of text which references that world state.  To deal with the high degree of ambiguity present in this setting, we present a generative model that simultaneously segments the text into utterances and maps each utterance to a meaning representation grounded in the world state.  We show that our model generalizes across three domains of increasing difficulty---Robocup sportscasting, weather forecasts (a new domain), and NFL recaps.'),
   punchlines('Stuff happens in the world.  A text talks about it.  Our goal: learn the correspondence between the two.',
              'Approach: probabilistic model capturing identification of entities/events in the world, segmentation of the text, and alignment between the two.'),
