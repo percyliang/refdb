@@ -1,3 +1,30 @@
+entry!('nijkamp2022codegen',
+  arxiv(2022, '2203.13474'),
+  title('A Conversational Paradigm for Program Synthesis'),
+  author('Erik Nijkamp and Bo Pang and Hiroaki Hayashi and Lifu Tu and Huam Wang and Yingbo Zhou and Silvio Savarese and Caiming Xiong')
+  )
+
+entry!('steinhardt2022anchor',
+  article('Bounded Regret', 2022),
+  title('Anchor Weights for {ML}'),
+  author('Jacob Steinhardt'),
+)
+
+entry!('herrmann2011effect',
+  article('Journal of Retailing and Consumer Services', 2011, 18),
+  title('The effect of default options on choice---Evidence from online product configurators'),
+  author('Andreas Herrmann and Daniel G. Goldstein and Rupert Stadler and Jan R. Landwehr and Mark Heitmann and Reto Hofstetter and Framk Huber'),
+  number(6),
+  pages(483,491),
+  publisher('Elsevier Ltd.'),
+  )
+
+entry!('thoppilan2022lambda',
+  arxiv(2022, '2201.08239'),
+  title('{LaMDA}: Language Models for Dialog Applications'),
+  author('Romal Thoppilan and Daniel De Freitas and Jamie Hall and Noam Shazeer and Apoorv Kulshreshtha and Heng-Tze Cheng and Alicia Jin and Taylor Bos and Leslie Baker and Yu Du and YaGuang Li and Hongrae Lee and Huaixiu Steven Zheng and Amin Ghafouri and Marcelo Menegali and Yanping Huang and Maxim Krikun and Dmitry Lepikhin and James Qin and Dehao Chen and Yuanzhong Xu and Zhifeng Chen and Adam Roberts and Maarten Bosma and Yanqi Zhou and Chung-Ching Chang and Igor Krivokon and Will Rusch and Marc Pickett and Kathleen Meier-Hellstern and Meredith Ringel Morris and Tulsee Doshi and Renelito Delos Santos and Toju Duke and Johnny Soraker and Ben Zevenbergen and Vinodkumar Prabhakaran and Mark Diaz and Ben Hutchinson and Kristen Olson and Alejandra Molina and Erin Hoffman-John and Josh Lee and Lora Aroyo and Ravi Rajakumar and Alena Butryna and Matthew Lamm and Viktoriya Kuzmina and Joe Fenton and Aaron Cohen and Rachel Bernstein and Ray Kurzweil and Blaise Aguera-Arcas and Claire Cui and Marian Croak and Ed Chi and Quoc Le'),
+  )
+
 entry!('liu2021what',
   arxiv(2021, '2101.06804'),
   title('What Makes Good In-Context Examples for {GPT}-3'),
