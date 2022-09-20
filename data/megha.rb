@@ -203,3 +203,159 @@ entry!('hoeck2015counterfactual',
   author('Nicole Van Hoeck and Patrick D. Watson and Aron K. Barbey'),
   book('Frontiers in Human Neuroscience', 2015),
   )
+
+entry!('white2015questions',
+  www(2015),
+  title('Questions vs. Queries in Informational Search Tasks'),
+  author('Ryen W. White and Matthew Richardson and Wen-tau Tih'),
+  pages(135, 136),
+  organization('International Conference on the World Wide Web'),
+)
+
+entry!('kiela2021dynabench',
+  naacl(2021),
+  title('Dynabench: Rethinking Benchmarking in {NLP}'),
+  author('Douwe Kiela and Max Bartolo and Yixin Nie and Divyansh Kaushik and Atticus Geiger and Zhengxuan Wu and Bertie Vidgen and Grusha Prasad and Amanpreet Singh and Pratik Ringshia and Zhiyi Ma and Tristan Thrush and Sebastian Riedel and Zeerak Waseem and Pontus Stenetorp and Robin Jia and Mohit Bansal and Christopher Potts and Adina Williams'),
+  pages(4110, 4124),
+)
+
+entry!('bartolo2020beat',
+  tacl(2020, 8),
+  title('Beat the AI: Investigating Adversarial Human Annotation for Reading Comprehension'),
+  author('Max Bartolo and Alastair Roberts and Johannes Welbl and Sebastian Riedel and Pontus Stenetorp'),
+  pages(662,678),
+)
+
+entry!('teevan2007information',
+  title('Information Re-Retrieval: Repeat Queries in Yahoo’s Logs '),
+  author('Jaime Teevan and Eytan Adar and Rosie Jones and Michael A. S. Potts'),
+  inproceedings('Annual Conference of the Association for Computing Machinery Special Interest Group in Information Retrieval', 2007),
+)
+
+entry!('huang2009query',
+  title('Analyzing and evaluating query reformulation strategies in web search logs'),
+  author('Jeff Huang and Efthimis N. Efthimiadis'),
+  inproceedings('Proceedings of the 18th ACM Conference on Information and Knowledge Management', 2009),
+)
+
+
+entry!('lau1999patterns',
+  title('Patterns of Search: Analyzing and Modeling Web Query Refinement'),
+  author('Tessa Lau and Eric Horvitz'),
+  inproceedings('User Modeling', 1999),
+  pages(119, 128),
+)
+
+entry!('wang2008query',
+  title('Mining term association patterns from search logs for effective query reformulation'),
+  author('Xuanhai Wang and ChengXiang Zhai'),
+  inproceedings('Proceedings of the 17th ACM Conference on Information and Knowledge Management', 2008),
+)
+
+entry!('pang2011query',
+  title('Search in the Lost Sense of “Query”: Question Formulation in Web Search
+  Queries and its Temporal Changes'),
+  author('Bo Pang and Ravi Kumar'),
+  acl(2011),
+)
+
+entry!('spink2002question',
+  title('Characteristics of question format web queries: an exploratory study'),
+  author('Amanda Spink and H. Cenk Ozmultu'),
+  inproceedings('Information Processing & Management',2002),
+)
+
+entry!('liu2013search',
+  title('How Do Users Grow Up along with Search Engines?: A Study of Long-term Users’ Behavior'),
+  author('Jian Liu and Yiqun Liu and Min Zhang and Shaoping Ma'),
+  inproceedings('Proceedings of the 22nd ACM Conference on Information and Knowledge Management', 2013),
+)
+
+
+entry!('jacovi2020faithful',
+  title('Towards Faithfully Interpretable {NLP} Systems: How Should We Define and Evaluate Faithfulness?'),
+  author('Alon Jacovi and Yoav Goldberg'),
+  acl(2020),
+)
+
+entry!('lakkaraju2019faithful',
+  title('Faithful and Customizable Explanations of Black Box Models'),
+  author('Himabindu Lakkaraju and Ece Kamar and Rich Caruana and Jure Lescovec'),
+  inproceedings('Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society', 2019)
+)
+
+entry!('bansal2021teammate',
+  title('Is the Most Accurate {AI} the Best Teammate? Optimizing {AI} for Teamwork'),
+  author('Gagan Bansal and Besmira Nushi and Ece Kamar and Eric Horvitz and Daniel S. Weld'),
+  aaai(2021),
+)
+
+entry!('ginsberg2014fill',
+  title('Dr.Fill: Crosswords and an Implemented Solver for Singly Weighted
+  CSPs'),
+  author('Matthew L. Ginsberg'),
+  inproceedings('	Journal Of Artificial Intelligence Research', 2014),
+  pages(851, 886),
+)
+
+entry!('rozner2021cryptic',
+  title('Decrypting Cryptic Crosswords: Semantically Complex Wordplay'),
+  author('Joshua Rozner and Christopher Potts and Kyle Mahowald'),
+  neurips(2021),
+)
+
+entry!('littman2002puzzles',
+  title('A probabilistic approach to solving crossword puzzles'),
+  author('Michael L. Littman and Greg A. Keim and Noam Shazeer'),
+  inproceedings('Artificial Intelligence', 2002),
+  pages(23, 55),
+)
+
+entry!('wallace2022crossword',
+  title('Automated Crossword Solving'),
+  author('Eric Wallace and Nicholas Tomlin and Albert Xu and Kevin Yang and Eshaan Pathak and Matthew L. Ginsberg and Dan Klein'),
+  acl(2022),
+)
+
+entry!('urbanek2019fantasy',
+  title('Learning to Speak and Act in a Fantasy Text Adventure Game'),
+  author('Jack Urbanek and Angela Fan and Siddharth Karamcheti and Saachi Jain and Samuel Humeau and Emily Dinan and Tim Rocktaschel and Douwe Kiela and Arthur Szlam and Jason Weston'),
+  emnlp(2019),
+)
+
+entry!('frans2021charades',
+  title('{AI} Charades: Language Models as Interactive Game Environments'),
+  author('Kevin Frans'),
+  inproceedings('IEEE Conference on Games (CoG)', 2021),
+  pages(1,2),
+)
+
+entry!('chattopadhyay2017human',
+  title('Evaluating Visual Conversational Agents via Cooperative Human-{AI} Games'),
+  author('Prithvijit Chattopadhyay and Deshraj Yadav and Viraj Prabhu and Arjun Chandrasekaran and Abhishek Das and Stefan Lee and Dhruv Batra and Devi Parikh'),
+  inproceedings('AAAI Conference on Human Computation & Crowdsourcing', 2017),
+)
+
+entry!('ammanabrolu2019quest',
+  title('Toward Automated Quest Generation in Text-Adventure Games'),
+  author('Prithviraj Ammanabrolu and William Broniec and Alex Mueller and Jeremy Paul and Mark Riedl'),
+  inproceedings('Proceedings of the 4th Workshop on Computational Creativity in Language Generation', 2019),
+)
+
+entry!('gero2020mental',
+  title('Mental Models of {AI} Agents in a Cooperative Game Setting'),
+  author('Katy Ilonka Gero and Zahra Ashktorab and Casey Dugan and Qian Pan and James Johnson and Wener Geyer and Maria Ruiz and Sarah Miller and David R Millen and Murray Campbell and Sadhana Kumaravel and Wei Zhang'),
+  chi(2020),
+)
+
+entry!('ashktorab2020collaboration',
+  title('Human-{AI} Collaboration in a Cooperative Game Setting: Measuring Social Perception and Outcomes'),
+  author('Zahra Ashktorab and Q. Vera Liao and Casey Dugan and James Johnson and Qian Pan and Wei Zhang and Sadhana Kumaravel and Murray Campbell'),
+  inproceedings('Proceedings of ACM Human-Computer Interaction (CSCW)', 2020),
+)
+
+entry!('hua2020unicorns',
+  title('Playing With Unicorns: {AI} Dungeon and Citizen {NLP}'),
+  author('Minh Hua and Rita Raley'),
+  inproceedings('Digital Humanities Quarterly', 2020),
+)

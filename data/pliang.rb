@@ -11581,3 +11581,73 @@ entry!('kim2021vilt',
   title('{ViLT}: Vision-and-language transformer without convolution or region supervision'),
   author('Wonjae Kim and Bokyung Son and Ildoo Kim'),
 )
+
+entry!('rae2021gopher',
+  title('Scaling Language Models: Methods, Analysis \\& Insights from Training Gopher'),
+  author('Jack W. Rae and Sebastian Borgeaud and Trevor Cai and Katie Millican and Jordan Hoffmann and Francis Song and J. Aslanides and Sarah Henderson and Roman Ring and Susannah Young and Eliza Rutherford and Tom Hennigan and Jacob Menick and Albin Cassirer and Richard Powell and G. V. D. Driessche and Lisa Anne Hendricks and Maribeth Rauh and Po-Sen Huang and Amelia Glaese and Johannes Welbl and Sumanth Dathathri and Saffron Huang and Jonathan Uesato and John F. J. Mellor and I. Higgins and Antonia Creswell and Nathan McAleese and Amy Wu and Erich Elsen and Siddhant M. Jayakumar and Elena Buchatskaya and D. Budden and Esme Sutherland and K. Simonyan and Michela Paganini and L. Sifre and Lena Martens and Xiang Lorraine Li and A. Kuncoro and Aida Nematzadeh and E. Gribovskaya and Domenic Donato and Angeliki Lazaridou and A. Mensch and J. Lespiau and Maria Tsimpoukelli and N. Grigorev and Doug Fritz and Thibault Sottiaux and Mantas Pajarskas and Tobias Pohlen and Zhitao Gong and Daniel Toyama and Cyprien de Masson d\'Autume and Yujia Li and Tayfun Terzi and Vladimir Mikulik and I. Babuschkin and Aidan Clark and Diego de Las Casas and Aurelia Guy and Chris Jones and James Bradbury and Matthew Johnson and Blake A. Hechtman and Laura Weidinger and Iason Gabriel and William S. Isaac and Edward Lockhart and Simon Osindero and Laura Rimell and Chris Dyer and Oriol Vinyals and Kareem W. Ayoub and Jeff Stanway and L. Bennett and D. Hassabis and K. Kavukcuoglu and Geoffrey Irving'),
+  arxiv(2021),
+  url('https://arxiv.org/pdf/2112.11446.pdf'),
+)
+
+entry!('chowdhery2022palm',
+  title('{PaLM}: Scaling Language Modeling with Pathways'),
+  author('Aakanksha Chowdhery and Sharan Narang and Jacob Devlin and Maarten Bosma and Gaurav Mishra and Adam Roberts and Paul Barham and Hyung Won Chung and Charles Sutton and Sebastian Gehrmann and Parker Schuh and Kensen Shi and Sasha Tsvyashchenko and Joshua Maynez and A. Rao and Parker Barnes and Yi Tay and Noam M. Shazeer and Vinodkumar Prabhakaran and Emily Reif and Nan Du and B. Hutchinson and Reiner Pope and James Bradbury and Jacob Austin and M. Isard and Guy Gur-Ari and Pengcheng Yin and Toju Duke and Anselm Levskaya and S. Ghemawat and Sunipa Dev and Henryk Michalewski and Xavier García and Vedant Misra and Kevin Robinson and Liam Fedus and Denny Zhou and Daphne Ippolito and D. Luan and Hyeontaek Lim and Barret Zoph and A. Spiridonov and Ryan Sepassi and David Dohan and Shivani Agrawal and Mark Omernick and Andrew M. Dai and T. S. Pillai and Marie Pellat and Aitor Lewkowycz and E. Moreira and Rewon Child and Oleksandr Polozov and Katherine Lee and Zongwei Zhou and Xuezhi Wang and Brennan Saeta and Mark Diaz and Orhan Firat and Michele Catasta and Jason Wei and K. Meier-Hellstern and D. Eck and J. Dean and Slav Petrov and Noah Fiedel'),
+  arxiv(2022),
+  url('https://arxiv.org/pdf/2204.02311.pdf'),
+)
+
+entry!('lewis2020rag',
+  title('Retrieval-Augmented Generation for Knowledge-Intensive {NLP} Tasks'),
+  author('Patrick Lewis and Ethan Perez and Aleksandara Piktus and Fabio Petroni and Vladimir Karpukhin and Naman Goyal and Heinrich Kuttler and M. Lewis and Wen-tau Yih and Tim Rocktäschel and Sebastian Riedel and Douwe Kiela'),
+  neurips(2020),
+  url('https://arxiv.org/pdf/2005.11401.pdf'),
+)
+
+entry!('nakano2021webgpt',
+  title('{WebGPT}: Browser-assisted question-answering with human feedback'),
+  author('Reiichiro Nakano and Jacob Hilton and S. Balaji and Jeff Wu and Long Ouyang and Christina Kim and Christopher Hesse and Shantanu Jain and V. Kosaraju and W. Saunders and Xu Jiang and Karl Cobbe and Tyna Eloundou and Gretchen Krueger and Kevin Button and Matthew Knight and Benjamin Chess and J. Schulman'),
+  arxiv(2021),
+  url('https://arxiv.org/pdf/2112.09332.pdf'),
+)
+
+entry!('ouyang2022instructions',
+  title('Training language models to follow instructions with human feedback'),
+  author('Long Ouyang and Jeff Wu and Xu Jiang and Diogo Almeida and Carroll L. Wainwright and Pamela Mishkin and Chong Zhang and Sandhini Agarwal and Katarina Slama and Alex Ray and J. Schulman and Jacob Hilton and Fraser Kelton and Luke E. Miller and Maddie Simens and Amanda Askell and P. Welinder and P. Christiano and J. Leike and Ryan J. Lowe'),
+  arxiv(2022),
+  url('https://arxiv.org/pdf/2203.02155.pdf'),
+)
+
+entry!('bai2022helpful',
+  title('Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback'),
+  author('Yuntao Bai and Andy Jones and Kamal Ndousse and Amanda Askell and Anna Chen and Nova DasSarma and Dawn Drain and Stanislav Fort and Deep Ganguli and T. Henighan and Nicholas Joseph and Saurav Kadavath and John Kernion and Tom Conerly and S. El-Showk and Nelson Elhage and Zac Hatfield-Dodds and Danny Hernandez and Tristan Hume and Scott Johnston and S. Kravec and Liane Lovitt and Neel Nanda and Catherine Olsson and Dario Amodei and Tom B. Brown and Jack Clark and Sam McCandlish and C. Olah and Benjamin Mann and J. Kaplan'),
+  arxiv(2022),
+  url('https://arxiv.org/pdf/2204.05862.pdf'),
+)
+
+entry!('zhang2022opt',
+  title('{OPT}: Open Pre-trained Transformer Language Models'),
+  author('Susan Zhang and Stephen Roller and Naman Goyal and Mikel Artetxe and Moya Chen and Shuohui Chen and Christopher Dewan and Mona Diab and Xian Li and Xi Victoria Lin and Todor Mihaylov and Myle Ott and Sam Shleifer and Kurt Shuster and Daniel Simig and Punit Singh Koura and Anjali Sridhar and Tianlu Wang and Luke Zettlemoyer'),
+  arxiv(2022),
+  url('https://arxiv.org/pdf/2205.01068.pdf'),
+)
+
+entry!('du2021glam',
+  title('{GLaM}: Efficient Scaling of Language Models with Mixture-of-Experts'),
+  author('Nan Du and Yanping Huang and Andrew M. Dai and Simon Tong and Dmitry Lepikhin and Yuanzhong Xu and M. Krikun and Yanqi Zhou and Adams Wei Yu and Orhan Firat and Barret Zoph and Liam Fedus and Maarten Bosma and Zongwei Zhou and Tao Wang and Yu Emma Wang and Kellie Webster and Marie Pellat and Kevin Robinson and K. Meier-Hellstern and Toju Duke and Lucas Dixon and Kun Zhang and Quoc V. Le and Yonghui Wu and Zhifeng Chen and Claire Cui'),
+  arxiv(2021),
+  url('https://arxiv.org/pdf/2112.06905.pdf'),
+)
+
+entry!('black2022neox',
+  title('{GPT-NeoX-20B}: An Open-Source Autoregressive Language Model'),
+  author('Sid Black and Stella Rose Biderman and Eric Hallahan and Quentin G. Anthony and Leo Gao and Laurence Golding and Horace He and Connor Leahy and Kyle McDonell and Jason Phang and M. Pieler and Usvsn Sai Prashanth and Shivanshu Purohit and Laria Reynolds and J. Tow and Ben Wang and Samuel Weinbach'),
+  arxiv(2022),
+  url('https://arxiv.org/pdf/2204.06745.pdf'),
+)
+
+entry!('smith2022mtnlg',
+  title('Using DeepSpeed and Megatron to Train {Megatron-Turing} {NLG} 530B, A Large-Scale Generative Language Model'),
+  author('Shaden Smith and M. Patwary and Brandon Norick and P. LeGresley and Samyam Rajbhandari and J. Casper and Zhun Liu and Shrimai Prabhumoye and George Zerveas and V. Korthikanti and Elton Zhang and Rewon Child and Reza Yazdani Aminabadi and J. Bernauer and Xia Song and M. Shoeybi and Yuxiong He and Michael Houston and Saurabh Tiwary and Bryan Catanzaro'),
+  arxiv(2022),
+  url('https://arxiv.org/pdf/2201.11990.pdf'),
+)

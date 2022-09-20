@@ -1,12 +1,82 @@
 ############################################################
-# 2021
+# 2022
 
-entry!('xie2021incontext',
+entry!('kumar2022calibrated',
+  title('Calibrated ensembles can mitigate accuracy tradeoffs under distribution shift'),
+  author('Ananya Kumar and Tengyu Ma and Percy Liang and Aditi Raghunathan'),
+  uai(2022),
+  url('https://arxiv.org/pdf/2207.08977.pdf'),
+)
+
+entry!('karamcheti2022lilac',
+  title('Shared Autonomy for Robotic Manipulation with Language Corrections'),
+  author('Siddharth Karamcheti* and Raj Palleti* and Yuchen Cui and and Percy Liang and Dorsa Sadigh'),
+  inproceedings('ACL Workshop for Learning with Natural Language Supervision (NL Supervision)', 2022),
+  url('https://iliad.stanford.edu/pdfs/publications/karamcheti2022lilac.pdf'),
+)
+
+entry!('shen2022connect',
+  title('Connect, Not Collapse: Explaining Contrastive Learning for Unsupervised Domain Adaptation'),
+  author('Kendrick Shen and Robbie Jones and Ananya Kumar and Sang Michael Xie and Jeff Z. HaoChen and Tengyu Ma and Percy Liang'),
+  icml(2022),
+  url('https://arxiv.org/pdf/2204.00570.pdf'),
+)
+
+entry!('yasunaga2022linkbert',
+  title('{LinkBERT}: Pretraining Language Models with Document Links'),
+  author('Michihiro Yasunaga and Jure Leskovec and Percy Liang'),
+  acl(2022),
+  url('https://arxiv.org/pdf/2203.15827.pdf'),
+  codalab('0x7a6ab9c8d06a41d191335b270da2902e'),
+)
+
+entry!('sagawa2022uwilds',
+  title('Extending the {WILDS} Benchmark for Unsupervised Adaptation'),
+  author('Shiori Sagawa and Pang Wei Koh and Tony Lee and Irena Gao and Sang Michael Xie and Kendrick Shen and Ananya Kumar and Weihua Hu and Michihiro Yasunaga and H. Marklund and Sara Beery and E. David and I. Stavness and Wei Guo and J. Leskovec and Kate Saenko and Tatsunori B. Hashimoto and S. Levine and Chelsea Finn and Percy Liang'),
+  iclr(2022),
+  url('https://arxiv.org/pdf/2112.05090.pdf'),
+)
+
+entry!('kumar2022finetuning',
+  title('Fine-tuning can Distort Pretrained Features and Underperform Out-of-Distribution'),
+  author('Ananya Kumar and Aditi Raghunathan and Robbie Jones and Tengyu Ma and Percy Liang'),
+  iclr(2022),
+  url('https://arxiv.org/pdf/2202.10054.pdf'),
+)
+
+entry!('xie2022incontext',
   title('An Explanation of In-context Learning as Implicit {B}ayesian Inference'),
   author('Sang Michael Xie and Aditi Raghunathan and Percy Liang and Tengyu Ma'),
-  arxiv(2021),
+  iclr(2022),
   url('https://arxiv.org/pdf/2111.02080.pdf'),
+  codalab('0xff6e1b45dc20429486bb91549a6e9660'),
 )
+
+entry!('li2022privacy',
+  title('Large Language Models Can Be Strong Differentially Private Learners'),
+  author('Xuechen Li and Florian Tramèr and Percy Liang and Tatsunori B. Hashimoto'),
+  iclr(2022),
+  url('https://arxiv.org/pdf/2110.05679.pdf'),
+)
+
+entry!('zhang2022greaselm',
+  title('GreaseLM: Graph REASoning Enhanced Language Models for Question Answering'),
+  author('Xikun Zhang and Antoine Bosselut and Michihiro Yasunaga and Hongyu Ren and Percy Liang and Christopher D. Manning and J. Leskovec'),
+  iclr(2022),
+  url('https://arxiv.org/pdf/2201.08860.pdf'),
+)
+
+
+entry!('lee2022coauthor',
+  title('Co{A}uthor: Designing a Human-{AI} Collaborative Writing Dataset for Exploring Language Model Capabilities'),
+  author('Mina Lee and Percy Liang and Qian Yang'),
+  chi(2022),
+  url('https://arxiv.org/pdf/2201.06796.pdf'),
+  award('Honorable mention award'),
+)
+
+############################################################
+# 2021
 
 entry!('karamcheti2021lila',
   title('{LILA}: Language-Informed Latent Actions'),
@@ -1322,7 +1392,6 @@ entry!('liang09semantics',
   url('semantics-acl2009.pdf'),
   slidesurl('semantics-acl2009-talk.pdf'),
   code('../software/unsupervised-modeling.zip'),
-  data('../data/weather-data.zip'),
   abstract('A central problem in grounded language acquisition is learning the correspondences between a rich world state and a stream of text which references that world state.  To deal with the high degree of ambiguity present in this setting, we present a generative model that simultaneously segments the text into utterances and maps each utterance to a meaning representation grounded in the world state.  We show that our model generalizes across three domains of increasing difficulty---Robocup sportscasting, weather forecasts (a new domain), and NFL recaps.'),
   punchlines('Stuff happens in the world.  A text talks about it.  Our goal: learn the correspondence between the two.',
              'Approach: probabilistic model capturing identification of entities/events in the world, segmentation of the text, and alignment between the two.'),

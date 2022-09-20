@@ -41,6 +41,7 @@ def manual(year); [type('manual'), year(year)] end
 ### Machine learning / AI
 def colt(year); inproceedings(Name.new('Conference on Learning Theory', 'COLT'), year) end
 def neurips(year); [inproceedings(Name.new('Advances in Neural Information Processing Systems', 'NeurIPS'), year), mitpress] end
+def neuripsdatasets(year); [inproceedings(Name.new('Neural Information Processing Systems Track on Datasets and Benchmarks', 'NeurIPS Datasets and Benchmarks'), year), mitpress] end
 def iclr(year); [inproceedings(Name.new('International Conference on Learning Representations', 'ICLR'), year), publisher('Omnipress')] end
 def iclrWorkshop(year); [inproceedings(Name.new('International Conference on Learning Representations Workshop', 'ICLR'), year), publisher('Omnipress')] end
 def icml(year); [inproceedings(Name.new('International Conference on Machine Learning', 'ICML'), year), publisher('Omnipress')] end

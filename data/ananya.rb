@@ -554,3 +554,63 @@ entry!('ge2017borrowing',
   author('Weifeng Ge and Yizhou Yu'),
   cvpr(2017),
 )
+
+entry!('rudelson2009smallest',
+  title('Smallest Singular Value of a Random Rectangular Matrix'),
+  author('Mark Rudelson and Roman Vershynin'),
+  article('Communications on Pure and Applied Mathematics', 2009, 62), pages(1707, 1739),
+)
+
+entry!('golub2013matrix',
+  title('Matrix Computations'),
+  author('Gene H. Golub and Charles F. Van Loan'),
+  book('The Johns Hopkins University Press', 2013),
+)
+
+entry!('minderer2021revisiting',
+  title('Revisiting the Calibration of Modern Neural Networks'),
+  author('Matthias Minderer and Josip Djolonga and Rob Romijnders and Frances Hubis and Xiaohua Zhai and Neil Houlsby and Dustin Tran and Mario Lucic'),
+  neurips(2021),
+)
+
+entry!('mukhoti2020calibrating',
+  title('Calibrating Deep Neural Networks using Focal Loss'),
+  author('Jishnu Mukhoti and Viveka Kulharia and Amartya Sanyal and Stuart Golodetz and Philip H.S. Torr and Puneet K. Dokania'),
+  neurips(2020),
+)
+
+entry!('bai2021dont',
+  title('Don\'t Just Blame Over-parametrization for Over-confidence: Theoretical Analysis of Calibration in Binary Classification'),
+  author('Yu Bai and Song Mei and Huan Wang and Caiming Xiong'),
+  arxiv(2021),
+)
+
+entry!('desai2020calibration',
+  title('Calibration of Pre-trained Transformers'),
+  author('Shrey Desai and Greg Durrett'),
+  arxiv(2020),
+)
+
+entry!('sill2009feature',
+  title('Feature-Weighted Linear Stacking'),
+  author('Joseph Sill and Gabor Takacs and Lester Mackey and David Lin'),
+  arxiv(2009),
+)
+
+entry!('shachaf2021theoretical',
+  title('A Theoretical Analysis of Fine-tuning with Linear Teachers'),
+  author('Gal Shachaf and Alon Brutzkus and Amir Globerson'),
+  neurips(2021),
+)
+
+entry!('wald2021calibration',
+  title('On Calibration and Out-of-domain Generalization'),
+  author('Yoav Wald and Amir Feder and Daniel Greenfeld and Uri Shalit'),
+  neurips(2021),
+)
+
+entry!('luo2020privacy',
+  title('Privacy Preserving Recalibration under Domain Shift'),
+  author('Rachel Luo and Shengjia Zhao and Jiaming Song and Jonathan Kuck and Stefano Ermon and Silvio Savarese'),
+  arxiv(2020),
+)

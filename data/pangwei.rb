@@ -1612,12 +1612,6 @@ entry!('borkan2019nuanced',
   pages(491, 500),
 )
 
-entry!('xiao2020noise',
-  arxiv(2020, '2006.09994'),
-  title('Noise or Signal: The Role of Image Backgrounds in Object Recognition'),
-  author('Kai Xiao and Logan Engstrom and Andrew Ilyas and Aleksander Madry'),
-)
-
 entry!('mozannar2020consistent',
   arxiv(2020, '2006.01862'),
   title('Consistent Estimators for Learning to Defer to an Expert'),
@@ -1788,12 +1782,9 @@ entry!('hovy2016social',
 )
 
 entry!('koenecke2020racial',
-  science(2020, 117),
+  article('Proceedings of the National Academy of Sciences', 2020),
   title('Racial disparities in automated speech recognition'),
   author('Allison Koenecke and Andrew Nam and Emily Lake and Joe Nudell and Minnie Quartey and Zion Mengesha and Connor Toups and John R Rickford and Dan Jurafsky and Sharad Goel'),
-  number(14),
-  pages(7684, 7689),
-  publisher('National Acad Sciences'),
 )
 
 entry!('conneau2019cross',
@@ -2320,7 +2311,7 @@ entry!('pan2010cross',
 )
 
 entry!('bruzzone2009domain',
-  article('IEEE transactions on pattern analysis and machine intelligence', 2009, 32),
+  article('IEEE Transactions on Pattern Analysis and Machine Intelligence', 2009, 32),
   title('Domain adaptation problems: A {DASVM} classification technique and a circular validation strategy'),
   author('Lorenzo Bruzzone and Mattia Marconcini'),
   number(5),
@@ -2631,12 +2622,6 @@ entry!('raghu2020survey',
   arxiv(2020, '2003.11755'),
   title('A survey of deep learning for scientific discovery'),
   author('Maithra Raghu and Eric Schmidt'),
-nil)
-
-entry!('geirhos2020shortcut',
-  arxiv(2020, '2004.07780'),
-  title('Shortcut Learning in Deep Neural Networks'),
-  author('Robert Geirhos and J{\"o}rn-Henrik Jacobsen and Claudio Michaelis and Richard Zemel and Wieland Brendel and Matthias Bethge and Felix A Wichmann'),
 nil)
 
 entry!('rolf2020generalizable',
@@ -3046,6 +3031,46 @@ entry!('verma2021towards',
   author('Vikas Verma and Thang Luong and Kenji Kawaguchi and Hieu Pham and Quoc Le'),
 )
 
+entry!('chang2021mobility',
+  article('Nature', 2021),
+  title('Mobility network models of {COVID-19} explain inequities and inform reopening'),
+  author('Serina Chang and Emma Pierson and Pang Wei Koh and Jaline Gerardin and Beth Redbird and David Grusky and Jure Leskovec'),
+  publisher('Nature Publishing Group'),
+)
+
+entry!('chang2021supporting',
+  kdd(2021),
+  title('Supporting {COVID-19} policy response with large-scale mobility-based modeling'),
+  author('Serina Y Chang and Mandy L Wilson and Bryan Lewis and Zakaria Mehrab and Komal K Dudakiya and Emma Pierson and Pang Wei Koh and Jaline Gerardin and Beth Redbird and David Grusky and Jure Leskovec'),
+)
+
+entry!('koh2017denoising',
+  article('Bioinformatics', 2017),
+  title('Denoising genome-wide histone ChIP-seq with convolutional neural networks'),
+  author('Pang Wei Koh and Emma Pierson and Anshul Kundaje'),
+  publisher('Oxford University Press'),
+)
+
+entry!('geirhos2020shortcut',
+  article('Nature Machine Intelligence', 2020),
+  title('Shortcut Learning in Deep Neural Networks'),
+  author('Robert Geirhos and J{\"o}rn-Henrik Jacobsen and Claudio Michaelis and Richard Zemel and Wieland Brendel and Matthias Bethge and Felix A Wichmann'),
+nil)
+
+entry!('kabra2015understanding',
+  cvpr(2015),
+  title('Understanding classifier errors by examining influential neighbors'),
+  author('Mayank Kabra and Alice Robie and Kristin Branson'),
+  pages(3917, 3925),
+nil)
+
+entry!('cai2019human',
+  chi(2019),
+  title('Human-centered tools for coping with imperfect algorithms during medical decision-making'),
+  author('Carrie J Cai and Emily Reif and Narayan Hegde and Jason Hipp and Been Kim and Daniel Smilkov and Martin Wattenberg and Fernanda Viegas and Greg S Corrado and Martin C Stumpe and Michael Terry'),
+  pages(1, 14),
+)
+
 entry!('steed2021image',
   facct(2021),
   title('Image representations learned with unsupervised pre-training contain human-like biases'),
@@ -3113,8 +3138,24 @@ entry!('cole2021does',
   author('Elijah Cole and Xuan Yang and Kimberly Wilber and Oisin Mac Aodha and Serge Belongie'),
 )
 
-entry!('shen2021connect',  
+entry!('shen2021connect',
   title('How Does Contrastive Pre-training Connect Disparate Domains?'),
   author('Kendrick Shen and Robbie Matthew Jones and Ananya Kumar and Sang Michael Xie and Percy Liang'),
   inproceedings('NeurIPS Workshop on Distribution Shifts', 2021),
+)
+
+entry!('wong2021external',
+  article('JAMA Internal Medicine', 2021, 181),
+  title('External validation of a widely implemented proprietary sepsis prediction model in hospitalized patients'),
+  author('Andrew Wong and Erkin Otles and John P Donnelly and Andrew Krumm and Jeffrey McCullough and Olivia DeTroyer-Cooley and Justin Pestrue and Marie Phillips and Judy Konye and Carleen Penoza and others'),
+  number(8),
+  pages(1065, 1070),
+  publisher('American Medical Association'),
+)
+
+entry!('bansal2021does',
+  chi(2021),
+  title('Does the whole exceed its parts? the effect of ai explanations on complementary team performance'),
+  author('Gagan Bansal and Tongshuang Wu and Joyce Zhou and Raymond Fok and Besmira Nushi and Ece Kamar and Marco Tulio Ribeiro and Daniel Weld'),
+  pages(1, 16),
 )
