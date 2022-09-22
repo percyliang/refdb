@@ -105,7 +105,10 @@ def render_paper(paper: Dict, mode: str, prefix: str = '') -> str:
                f'{prefix}\t{pdf_url}'
     elif mode == 'refdb':
         authors = get_author_str(paper, delim=' and ')
-        last_name = paper['authors'][0]['name'].split(' ')[-1].lower()
+        if len(paper['authors']) > 0:
+            last_name = paper['authors'][0]['name'].split(' ')[-1].lower()
+        else:
+            last_name = '???'
         title_word = [word for word in paper['title'].replace(':', '').lower().split(' ') if word not in ('a', 'an', 'the')][0]
         bib_id = f'{last_name}{year}{title_word}'
         return f"""\

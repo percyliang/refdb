@@ -1,5 +1,70 @@
 ############################################################
+# 2023
+
+############################################################
 # 2022
+
+entry!('wu2022synthetic',
+  title('Insights into Pre-training via Simpler Synthetic Tasks'),
+  author('Yuhuai Wu and Felix Li and Percy Liang'),
+  neurips(2022),
+  url('https://arxiv.org/pdf/2206.10139.pdf'),
+)
+
+entry!('dubois2022issl',
+  title('Improving Self-Supervised Learning by Characterizing Idealized Representations'),
+  author('Yann Dubois and Tatsunori Hashimoto and S. Ermon and Percy Liang'),
+  neurips(2022),
+  url('https://arxiv.org/pdf/2209.06235.pdf'),
+)
+
+entry!('yuan2022decentralized',
+  title('Decentralized Training of Foundation Models in Heterogeneous Environments'),
+  author('Binhang Yuan and Yongjun He and Jared Quincy Davis and Tianyi Zhang and Tri Dao and Beidi Chen and Percy Liang and Christopher Re and Ce Zhang'),
+  neurips(2022),
+  url('https://arxiv.org/pdf/2206.01288.pdf'),
+)
+
+entry!('li2022diffusion',
+  title('Diffusion-{LM} Improves Controllable Text Generation'),
+  author('Xiang Lisa Li and John Thickstun and Ishaan Gulrajani and Percy Liang and Tatsunori Hashimoto'),
+  neurips(2022),
+  url('https://arxiv.org/pdf/2205.14217.pdf'),
+)
+
+entry!('garg2022incontext',
+  title('What Can Transformers Learn In-Context? A Case Study of Simple Function Classes'),
+  author('Shivam Garg and Dimitris Tsipras and Percy Liang and G. Valiant'),
+  neurips(2022),
+  url('https://arxiv.org/pdf/2208.01066.pdf'),
+)
+
+entry!('santurkar2022captions',
+  title('Is a Caption Worth a Thousand Images? A Controlled Study for Representation Learning'),
+  author('Shibani Santurkar and Yann Dubois and Rohan Taori and Percy Liang and Tatsunori Hashimoto'),
+  arxiv(2022),
+  url('https://arxiv.org/pdf/2207.07635.pdf'),
+)
+
+# Deep bidirectional language-knowledge pretraining
+
+# "Picking on the Same Person: Does Algorithmic Monoculture lead to Outcome Homogenization?"
+
+# ISMIR 2022
+
+entry!('park2022social',
+  title('Social Simulacra: Creating Populated Prototypes for Social Computing Systems'),
+  author('J. Park and Lindsay Popowski and Carrie J. Cai and M. Morris and Percy Liang and Michael S. Bernstein'),
+  uist(2022),
+  url('https://arxiv.org/pdf/2208.04024.pdf'),
+)
+
+entry!('wei2022emergent',
+  title('Emergent Abilities of Large Language Models'),
+  author('Jason Wei and Yi Tay and Rishi Bommasani and Colin Raffel and Barret Zoph and Sebastian Borgeaud and Dani Yogatama and Maarten Bosma and Denny Zhou and Donald Metzler and Ed Chi and Tatsunori Hashimoto and Oriol Vinyals and P. Liang and J. Dean and W. Fedus'),
+  tmlr(2022, 0),
+  url('https://arxiv.org/pdf/2206.07682.pdf'),
+)
 
 entry!('kumar2022calibrated',
   title('Calibrated ensembles can mitigate accuracy tradeoffs under distribution shift'),
