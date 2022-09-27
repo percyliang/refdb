@@ -1,3 +1,87 @@
+entry!('perez2022red',
+  arxiv(2022, '2202.03286'),
+  title('Red Teaming Language Models with Language Models'),
+  author('Ethan Perez and Saffron Huang and Francis Song and Trevor Cai and Roman Ring and John Aslanides and Amelia Glaese and Nat McAleese and Geoffrey Irving'),
+)
+
+entry!('hemmatian2022debiased',
+  arxiv(2022, '2208.04417'),
+  title('Debiased Large Language Models Still Associate Muslims with Uniquely Violent Acts'),
+  author('Babak Hemmatian and Lav R. Varshney'),
+)
+
+entry!('lewkowycz2022solving',
+  arxiv(2022, '2206.14858'),
+  title('Solving Quantitative Reasoning Problems with Language Models'),
+  author("Aitor Lewkowycz and Anders Andreassen and David Dohan and Ethan Dyer and Henryk Michalewski and Vinay Ramasesh and Ambrose Slone and Cem Anil and Imanol Schlag and Theo Gutman-Solo and Yuhuai Wu and Behnam Neyshabur and Guy Gur-Ari and Vedant Misra"),
+)
+
+entry!('li2022alphacode',
+  arxiv(2022, '2203.07814'),
+  title('Competition-Level Code Generation with AlphaCode'),
+  author("Yujia Li and David Choi and Junyoung Chung and Nate Kushman and Julian Schrittwieser and Rémi Leblond and Tom Eccles and James Keeling and Felix Gimeno and Agustin Dal Lago and Thomas Hubert and Peter Choy and Cyprien de Masson d'Autume and Igor Babuschkin and Xinyun Chen and Po-Sen Huang and Johannes Welbl and Sven Gowal and Alexey Cherepanov and James Molloy and Daniel J. Mankowitz and Esme Sutherland Robson and Pushmeet Kohli and Nando de Freitas and Koray Kavukcuoglu and Oriol Vinyals"),
+)
+
+entry!('hoffmann2022chinchilla',
+  neurips(2022),
+  title('An Empirical Analysis of Compute-Optimal Large Language Model Training'),
+  author('Jordan Hoffmann and Sebastian Borgeaud and Arthur Mensch and Elena Buchatskaya and Trevor Cai and Eliza Rutherford and Diego de Las Casas and Lisa Anne Hendricks and Johannes Welbl and Aidan Clark and Tom Hennigan and Eric Noland and Katie Millican and George van den Driessche and Bogdan Damoc and Aurelia Guy and Simon Osindero and Karen Simonyan and Erich Elsen and Jack W. Rae and Oriol Vinyals and Laurent Sifre'),
+)
+
+entry!('yang2021fudge',
+  naacl(2021),
+  title('FUDGE: Controlled Text Generation With Future Discriminators'),
+  author('Kevin Yang and Dan Klein'),
+)
+
+entry!('liu2021dexperts',
+  acl(2021),
+  title('DExperts: Decoding-Time Controlled Text Generation with Experts and Anti-Experts'),
+  author('Alisa Liu and Maarten Sap and Ximing Lu and Swabha Swayamdipta and Chandra Bhagavatula and Noah A. Smith and Yejin Choi'),
+)
+
+entry!('krause2021gedi',
+  emnlpfindings(2021),
+  title('GeDi: Generative Discriminator Guided Sequence Generation'),
+  author('Ben Krause and Akhilesh Deepak Gotmare and Bryan McCann and Nitish Shirish Keskar and Shafiq Joty and Richard Socher and Nazneen Fatema Rajani'),
+)
+
+entry!('sheng2020towards',
+  emnlpfindings(2020),
+  title('Towards Controllable Biases in Language Generation'),
+  author('Emily Sheng and Kai-Wei Chang and Premkumar Natarajan and Nanyun Peng'),
+)
+
+entry!('dathathri2020plug',
+  iclr(2020),
+  author('Sumanth Dathathri and Andrea Madotto and Janice Lan and Jane Hung and Eric Frank and Piero Molino and Jason Yosinski and Rosanne Liu'),
+  title('Plug and Play Language Models: A Simple Approach to Controlled Text Generation'),
+)
+
+entry!('qin2022cold',
+  neurips(2022),
+  title('{COLD} Decoding: Energy-based Constrained Text Generation with Langevin Dynamics'),
+  author('Lianhui Qin and Sean Welleck and Daniel Khashabi and Yejin Choi'),
+)
+
+entry!('kumar2021controlled',
+  neurips(2021),
+  title('Controlled Text Generation as Continuous Optimization with Multiple Constraints'),
+  author('Sachin Kumar and Eric Malmi and Aliaksei Severyn and Yulia Tsvetkov'),
+)
+
+entry!('shin2020autoprompt',
+  emnlp(2020),
+  title('AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts'),
+  author('Taylor Shin and Yasaman Razeghi and Robert L. Logan IV and Eric Wallace and Sameer Singh'),
+)
+
+entry!('guo2021gradient',
+  emnlp(2021),
+  title('Gradient-based Adversarial Attacks against Text Transformers'),
+  author('Chuan Guo and Alexandre Sablayrolles and Hervé Jégou and Douwe Kiela'),
+)
+
 entry!('nijkamp2022codegen',
   arxiv(2022, '2203.13474'),
   title('A Conversational Paradigm for Program Synthesis'),
