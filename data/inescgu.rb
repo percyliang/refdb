@@ -386,3 +386,10 @@ entry!('akoury2020storium',
   author('Nader Akoury and Shufan Wang and Josh Whiting and Stephen Hood and Nanyun Peng and Mohit Iyyer'),
   url('https://aclanthology.org/2020.emnlp-main.525'),
 )
+
+entry!('liu2021pre',
+  arxiv(2021),
+  url('https://arxiv.org/pdf/2107.13586.pdf'),
+  title('{Pre-train}, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing'),
+  author('Pengfei Liu and Weizhe Yuan and Jinlan Fu and Zhengbao Jiang and Hiroaki Hayashi and Graham Neubig'),
+)
