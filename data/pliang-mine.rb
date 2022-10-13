@@ -61,7 +61,7 @@ entry!('park2022social',
 
 entry!('wei2022emergent',
   title('Emergent Abilities of Large Language Models'),
-  author('Jason Wei and Yi Tay and Rishi Bommasani and Colin Raffel and Barret Zoph and Sebastian Borgeaud and Dani Yogatama and Maarten Bosma and Denny Zhou and Donald Metzler and Ed Chi and Tatsunori Hashimoto and Oriol Vinyals and P. Liang and J. Dean and W. Fedus'),
+  author('Jason Wei and Yi Tay and Rishi Bommasani and Colin Raffel and Barret Zoph and Sebastian Borgeaud and Dani Yogatama and Maarten Bosma and Denny Zhou and Donald Metzler and Ed Chi and Tatsunori Hashimoto and Oriol Vinyals and Percy Liang and Jeff Dean and William Fedus'),
   tmlr(2022, 0),
   url('https://arxiv.org/pdf/2206.07682.pdf'),
 )
