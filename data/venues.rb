@@ -155,6 +155,7 @@ def conll(year); [inproceedings(Name.new('Computational Natural Language Learnin
 def conll2010; [conll(2010), address('Uppsala, Sweden')] end
 def lrec(year); [inproceedings(Name.new('Language Resources and Evaluation Conference', 'LREC'), year)] end
 def emnlpfindings(year); [inproceedings(Name.new('Findings of Empirical Methods in Natural Language Processing', 'Findings of EMNLP'), year)] end
+def aclfindings(year); [inproceedings(Name.new('Findings of the Association for Computational Linguistics', 'Findings of ACL'), year)] end
 
 def icassp(year); [inproceedings(Name.new('International Conference on Acoustics, Speech, and Signal Processing', 'ICASSP'), year)] end
 def icslp(year); [inproceedings(Name.new('International Conference on Spoken Language Processing', 'ICSLP'), year)] end
