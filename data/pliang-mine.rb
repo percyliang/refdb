@@ -5,7 +5,7 @@
 # 2022
 
 entry!('yasunaga2022dragon',
-  title('DRAGON: Deep Bidirectional Language-Knowledge Graph Pretraining'),
+  title('{DRAGON}: Deep Bidirectional Language-Knowledge Graph Pretraining'),
   author('Michihiro Yasunaga and Antoine Bosselut and Hongyu Ren and Xikun Zhang and Christopher D. Manning and Percy Liang* and Jure Leskovec*'),
   neurips(2022),
   url('https://arxiv.org/pdf/2210.09338.pdf'),
