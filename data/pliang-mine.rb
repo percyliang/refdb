@@ -4,6 +4,13 @@
 ############################################################
 # 2022
 
+entry!('yasunaga2022dragon',
+  title('{DRAGON}: Deep Bidirectional Language-Knowledge Graph Pretraining'),
+  author('Michihiro Yasunaga and Antoine Bosselut and Hongyu Ren and Xikun Zhang and Christopher D. Manning and Percy Liang* and Jure Leskovec*'),
+  neurips(2022),
+  url('https://arxiv.org/pdf/2210.09338.pdf'),
+)
+
 entry!('wu2022synthetic',
   title('Insights into Pre-training via Simpler Synthetic Tasks'),
   author('Yuhuai Wu and Felix Li and Percy Liang'),
@@ -102,7 +109,7 @@ entry!('shen2022connect',
 
 entry!('yasunaga2022linkbert',
   title('{LinkBERT}: Pretraining Language Models with Document Links'),
-  author('Michihiro Yasunaga and Jure Leskovec and Percy Liang'),
+  author('Michihiro Yasunaga and Jure Leskovec* and Percy Liang*'),
   acl(2022),
   url('https://arxiv.org/pdf/2203.15827.pdf'),
   codalab('0x7a6ab9c8d06a41d191335b270da2902e'),
