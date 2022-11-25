@@ -39,6 +39,19 @@ entry!('garg2022incontext',
   url('https://arxiv.org/pdf/2208.01066.pdf'),
 )
 
+entry!('yasunaga2022deep',
+  title('Deep Bidirectional Language-Knowledge Graph Pretraining'),
+  author('Michihiro Yasunaga and Antoine Bosselut and Hongyu Ren and Xikun Zhang and Christopher D. Manning and Percy Liang and J. Leskovec'),
+  neurips(2022),
+  url('https://arxiv.org/pdf/2210.09338.pdf'),
+)
+
+entry!('bommasani2022homogenization',
+  title('Picking on the Same Person: Does Algorithmic Monoculture lead to Outcome Homogenization?'),
+  author('Rishi Bommasani and Katie Creel and Ananya Kumar and Dan Jurafsky and Percy Liang'),
+  neurips(2022),
+)
+
 entry!('santurkar2022captions',
   title('Is a Caption Worth a Thousand Images? A Controlled Study for Representation Learning'),
   author('Shibani Santurkar and Yann Dubois and Rohan Taori and Percy Liang and Tatsunori Hashimoto'),
@@ -46,11 +59,11 @@ entry!('santurkar2022captions',
   url('https://arxiv.org/pdf/2207.07635.pdf'),
 )
 
-# Deep bidirectional language-knowledge pretraining
-
-# "Picking on the Same Person: Does Algorithmic Monoculture lead to Outcome Homogenization?"
-
-# ISMIR 2022
+entry!('donahue2022melody',
+  title('Melody transcription via generative pre-training'),
+  author('Chris Donahue and John Thickstun and Percy Liang'),
+  ismir(2022),
+)
 
 entry!('park2022social',
   title('Social Simulacra: Creating Populated Prototypes for Social Computing Systems'),
@@ -130,7 +143,6 @@ entry!('zhang2022greaselm',
   iclr(2022),
   url('https://arxiv.org/pdf/2201.08860.pdf'),
 )
-
 
 entry!('lee2022coauthor',
   title('Co{A}uthor: Designing a Human-{AI} Collaborative Writing Dataset for Exploring Language Model Capabilities'),
@@ -229,6 +241,13 @@ entry!('miller2021line',
   author('John Miller and Rohan Taori and Aditi Raghunathan and Shiori Sagawa and Pang Wei Koh and Vaishaal Shankar and Percy Liang and Yair Carmon and Ludwig Schmidt'),
   icml(2021),
   url('https://arxiv.org/pdf/2107.04649.pdf'),
+)
+
+entry!('lee2021swords',
+  title('Swords: A Benchmark for Lexical Substitution with Improved Data Coverage and Quality'),
+  author('Mina Lee and C. Donahue and Robin Jia and Alexander Iyabor and Percy Liang'),
+  naacl(2021),
+  url('https://arxiv.org/pdf/2106.04102.pdf'),
 )
 
 entry!('yasunaga2021qagnn',
