@@ -257,7 +257,7 @@ entry!('shu2018dirtt',
 )
 
 entry!('zhao2019zhao',
-  title('On Learning Invariant Representation for Domain Adaptation'),
+  title('On Learning Invariant Representations for Domain Adaptation'),
   author('Han Zhao and Remi Tachet des Combes and Kun Zhang and Geoffrey J. Gordon'),
   icml(2019),
 )
