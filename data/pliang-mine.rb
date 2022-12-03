@@ -4,13 +4,6 @@
 ############################################################
 # 2022
 
-entry!('yasunaga2022dragon',
-  title('{DRAGON}: Deep Bidirectional Language-Knowledge Graph Pretraining'),
-  author('Michihiro Yasunaga and Antoine Bosselut and Hongyu Ren and Xikun Zhang and Christopher D. Manning and Percy Liang* and Jure Leskovec*'),
-  neurips(2022),
-  url('https://arxiv.org/pdf/2210.09338.pdf'),
-)
-
 entry!('wu2022synthetic',
   title('Insights into Pre-training via Simpler Synthetic Tasks'),
   author('Yuhuai Wu and Felix Li and Percy Liang'),
@@ -46,17 +39,18 @@ entry!('garg2022incontext',
   url('https://arxiv.org/pdf/2208.01066.pdf'),
 )
 
-entry!('yasunaga2022deep',
+entry!('yasunaga2022dragon',
   title('Deep Bidirectional Language-Knowledge Graph Pretraining'),
-  author('Michihiro Yasunaga and Antoine Bosselut and Hongyu Ren and Xikun Zhang and Christopher D. Manning and Percy Liang and J. Leskovec'),
+  author('Michihiro Yasunaga and Antoine Bosselut and Hongyu Ren and Xikun Zhang and Christopher D. Manning and Percy Liang* and J. Leskovec*'),
   neurips(2022),
   url('https://arxiv.org/pdf/2210.09338.pdf'),
 )
 
 entry!('bommasani2022homogenization',
   title('Picking on the Same Person: Does Algorithmic Monoculture lead to Outcome Homogenization?'),
-  author('Rishi Bommasani and Katie Creel and Ananya Kumar and Dan Jurafsky and Percy Liang'),
+  author('Rishi Bommasani and Kathleen A. Creel and Ananya Kumar and Dan Jurafsky and Percy Liang'),
   neurips(2022),
+  url('https://arxiv.org/pdf/2211.13972.pdf'),
 )
 
 entry!('santurkar2022captions',
@@ -213,6 +207,7 @@ entry!('davis2021catformer',
   title('Catformer: Designing Stable Transformers via Sensitivity Analysis'),
   author('Jared Quincy Davis and Albert Gu and Krzysztof Choromanski and Tri Dao and Christopher Re and Chelsea Finn and Percy Liang'),
   icml(2021),
+  url('http://proceedings.mlr.press/v139/davis21a/davis21a.pdf'),
 )
 
 entry!('liu2021jtt',
