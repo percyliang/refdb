@@ -71,6 +71,7 @@ entry!('donahue2022melody',
   title('Melody transcription via generative pre-training'),
   author('Chris Donahue and John Thickstun and Percy Liang'),
   ismir(2022),
+  url('https://arxiv.org/pdf/2212.01884.pdf'),
 )
 
 entry!('park2022social',
