@@ -633,3 +633,8 @@ entry!('wortsman2022modelsoups',
   icml(2022),
 )
 
+entry!('goyal2022finetune',
+  title('Finetune like you pretrain: Improved finetuning of zero-shot vision models'),
+  author('Sachin Goyal and Ananya Kumar and Sankalp Garg and Zico Kolter and Aditi Raghunathan'),
+  arxiv(2022),
+)
