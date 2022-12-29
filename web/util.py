@@ -88,11 +88,21 @@ def lookup_query(query: str) -> Dict:
     else:
         return search_keywords(query)
 
+
+venue_abbreviations = {
+    'Transactions of the Association for Computational Linguistics': 'TACL',
+    'Annual Meeting of the Association for Computational Linguistics': 'ACL',
+    'International Conference on Learning Representations': 'ICLR',
+    'Computer Vision and Pattern Recognition': 'CVPR',
+}
+
+
 def render_paper(paper: Dict, mode: str, prefix: str = '') -> str:
     """Takes a `paper` and returns a string."""
     title = paper['title']
     venue = paper['venue']
     year = paper['year']
+    venue = venue_abbreviations.get(venue, venue)
     venue_year = f'{venue} {year}' if venue and venue != 'ArXiv' else year
     pdf_url = get_arxiv_pdf(paper)
 
@@ -101,7 +111,7 @@ def render_paper(paper: Dict, mode: str, prefix: str = '') -> str:
         return f'{prefix}[{title}]({pdf_url}). *{authors}*. {venue_year}.'
     elif mode == 'otl':
         authors = get_author_str(paper)
-        return f'{prefix}{venue_year}. {title}. {authors}.\n' + \
+        return f'{prefix}-2 {venue_year}. {title}. {authors}.\n' + \
                f'{prefix}\t{pdf_url}'
     elif mode == 'refdb':
         authors = get_author_str(paper, delim=' and ')
