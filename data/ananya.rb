@@ -614,3 +614,27 @@ entry!('luo2020privacy',
   author('Rachel Luo and Shengjia Zhao and Jiaming Song and Jonathan Kuck and Stefano Ermon and Silvio Savarese'),
   arxiv(2020),
 )
+
+entry!('lee2022surgical',
+  title('Surgical Fine-Tuning Improves Adaptation to Distribution Shifts'),
+  author('Yoonho Lee and Annie S. Chen and Fahim Tajwar and Ananya Kumar and Huaxiu Yao and Percy Liang and Chelsea Finn'),
+  arxiv(2022),
+)
+
+entry!('kumar2022sgd',
+  title('How to Fine-Tune Vision Models with {SGD}'),
+  author('Ananya Kumar and Ruoqi Shen and Sébastien Bubeck and Suriya Gunasekar'),
+  arxiv(2022),
+)
+
+entry!('wortsman2022modelsoups',
+  title('Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time'),
+  author('Mitchell Wortsman and Gabriel Ilharco and Samir Yitzhak Gadre and Rebecca Roelofs and Raphael Gontijo-Lopes and Ari S. Morcos and Hongseok Namkoong and Ali Farhadi and Yair Carmon and Simon Kornblith and Ludwig Schmidt'),
+  icml(2022),
+)
+
+entry!('goyal2022finetune',
+  title('Finetune like you pretrain: Improved finetuning of zero-shot vision models'),
+  author('Sachin Goyal and Ananya Kumar and Sankalp Garg and Zico Kolter and Aditi Raghunathan'),
+  arxiv(2022),
+)
