@@ -94,6 +94,7 @@ venue_abbreviations = {
     'Annual Meeting of the Association for Computational Linguistics': 'ACL',
     'International Conference on Learning Representations': 'ICLR',
     'Computer Vision and Pattern Recognition': 'CVPR',
+    'Neural Information Processing Systems': 'NeurIPS',
 }
 
 
