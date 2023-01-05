@@ -2430,5 +2430,76 @@ entry!('zhu2022buds',
 )
 
 #######################################################################################################################
-###                                        HRI: Online Language Corrections                                         ###
+###                                    HRI: Online Language Corrections                                             ###
 #######################################################################################################################
+
+entry!('chernova2014robot',
+  inproceedings('Robot Learning from Human Teachers', 2014),
+  title('Robot Learning from Human Teachers'),
+  author('S. Chernova and Andrea Lockerd Thomaz'),
+)
+
+entry!('broad2017realtime',
+  ijrr(2017, 36),
+  title('Real-time natural language corrections for assistive robotic manipulators'),
+  author('Alexander Broad and Jacob Arkin and Nathan D. Ratliff and Thomas M. Howard and Brenna Argall'),
+  pages(684, 698),
+)
+
+entry!('cui2018active',
+  icra(2018),
+  title('Active Reward Learning from Critiques'),
+  author('Yuchen Cui and Scott Niekum'),
+  pages(6907, 6914),
+)
+
+entry!('sanh2019distilbert',
+  arxiv(2019, '1910.01108'),
+  title('{DistilBERT}, a distilled version of {BERT}: smaller, faster, cheaper and lighter'),
+  author('Victor Sanh and Lysandre Debut and Julien Chaumond and Thomas Wolf'),
+)
+
+entry!('mandlekar2020human',
+  arxiv(2020, '2012.06733'),
+  title('Human-in-the-Loop Imitation Learning using Remote Teleoperation'),
+  author('Ajay Mandlekar and Danfei Xu and Roberto Martín-Martín and Yuke Zhu and Li Fei-Fei and Silvio Savarese'),
+)
+
+entry!('schmittle2020learning',
+  corl(2020),
+  title('Learning Online from Corrective Feedback: A Meta-Algorithm for Robotics'),
+  author('Matthew Schmittle and Sanjiban Choudhury and Siddhartha S Srinivasa'),
+)
+
+entry!('li2021learning',
+  icra(2021),
+  title('Learning Human Objectives from Sequences of Physical Corrections'),
+  author('Mengxi Li and Alper Canberk and Dylan P. Losey and Dorsa Sadigh'),
+  pages(2877, 2883),
+)
+
+entry!('sharma2022correcting',
+  rss(2022),
+  title('Correcting Robot Plans with Natural Language Feedback'),
+  author('Pratyusha Sharma and Balakumar Sundaralingam and Valts Blukis and Chris Paxton and Tucker Hermans and Antonio Torralba and Jacob Andreas and Dieter Fox'),
+)
+
+entry!('bucker2022reshaping',
+  iros(2022),
+  title('Reshaping Robot Trajectories Using Natural Language Commands: A Study of Multi-Modal Data Alignment Using Transformers'),
+  author('Arthur Fender C. Bucker and Luis F. C. Figueredo and Sami Haddadin and Ashish Kapoor and Shuang Ma and Rogerio Bonatti'),
+  pages(978, 984),
+)
+
+entry!('bucker2022latte',
+  arxiv(2022, '2208.02918'),
+  title('LaTTe: Language Trajectory TransformEr'),
+  author('Arthur Fender C. Bucker and Luis F. C. Figueredo and Sami Haddadin and Ashish Kapoor and Shuang Ma and Sai Vemprala and Rogerio Bonatti'),
+)
+
+entry!('mees2022matters',
+  ral(2022, 7),
+  title('What Matters in Language Conditioned Robotic Imitation Learning Over Unstructured Data'),
+  author('Oier Mees and Lukás Hermann and Wolfram Burgard'),
+  pages(11205, 11212),
+)
