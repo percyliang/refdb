@@ -1,5 +1,100 @@
 ############################################################
+# 2023
+
+############################################################
 # 2022
+
+entry!('liang2022helm',
+  title('Holistic Evaluation of Language Models'),
+  author('Percy Liang and Rishi Bommasani and Tony Lee and Dimitris Tsipras and Dilara Soylu and Michihiro Yasunaga and Yian Zhang and D. Narayanan and Yuhuai Wu and Ananya Kumar and Benjamin Newman and Binhang Yuan and Bobby Yan and Ce Zhang and Christian Cosgrove and Christopher D. Manning and Christopher Ré and Diana Acosta-Navas and Drew A. Hudson and E. Zelikman and Esin Durmus and Faisal Ladhak and Frieda Rong and Hongyu Ren and Huaxiu Yao and Jue Wang and Keshav Santhanam and Laurel J. Orr and Lucia Zheng and Mert Yuksekgonul and Mirac Suzgun and Nathan S. Kim and Neel Guha and Niladri S. Chatterji and O. Khattab and Peter Henderson and Qian Huang and Ryan Chi and Sang Michael Xie and Shibani Santurkar and S. Ganguli and Tatsunori Hashimoto and Thomas F. Icard and Tianyi Zhang and Vishrav Chaudhary and William Wang and Xuechen Li and Yifan Mai and Yuhui Zhang and Yuta Koreeda'),
+  arxiv(2022),
+  url('https://arxiv.org/pdf/2211.09110.pdf'),
+)
+
+entry!('wu2022synthetic',
+  title('Insights into Pre-training via Simpler Synthetic Tasks'),
+  author('Yuhuai Wu and Felix Li and Percy Liang'),
+  neurips(2022),
+  url('https://arxiv.org/pdf/2206.10139.pdf'),
+)
+
+entry!('dubois2022issl',
+  title('Improving Self-Supervised Learning by Characterizing Idealized Representations'),
+  author('Yann Dubois and Tatsunori Hashimoto and S. Ermon and Percy Liang'),
+  neurips(2022),
+  url('https://arxiv.org/pdf/2209.06235.pdf'),
+)
+
+entry!('yuan2022decentralized',
+  title('Decentralized Training of Foundation Models in Heterogeneous Environments'),
+  author('Binhang Yuan and Yongjun He and Jared Quincy Davis and Tianyi Zhang and Tri Dao and Beidi Chen and Percy Liang and Christopher Re and Ce Zhang'),
+  neurips(2022),
+  url('https://arxiv.org/pdf/2206.01288.pdf'),
+)
+
+entry!('li2022diffusion',
+  title('Diffusion-{LM} Improves Controllable Text Generation'),
+  author('Xiang Lisa Li and John Thickstun and Ishaan Gulrajani and Percy Liang and Tatsunori Hashimoto'),
+  neurips(2022),
+  url('https://arxiv.org/pdf/2205.14217.pdf'),
+)
+
+entry!('garg2022incontext',
+  title('What Can Transformers Learn In-Context? A Case Study of Simple Function Classes'),
+  author('Shivam Garg and Dimitris Tsipras and Percy Liang and G. Valiant'),
+  neurips(2022),
+  url('https://arxiv.org/pdf/2208.01066.pdf'),
+)
+
+entry!('yasunaga2022dragon',
+  title('Deep Bidirectional Language-Knowledge Graph Pretraining'),
+  author('Michihiro Yasunaga and Antoine Bosselut and Hongyu Ren and Xikun Zhang and Christopher D. Manning and Percy Liang* and J. Leskovec*'),
+  neurips(2022),
+  url('https://arxiv.org/pdf/2210.09338.pdf'),
+)
+
+entry!('bommasani2022homogenization',
+  title('Picking on the Same Person: Does Algorithmic Monoculture lead to Outcome Homogenization?'),
+  author('Rishi Bommasani and Kathleen A. Creel and Ananya Kumar and Dan Jurafsky and Percy Liang'),
+  neurips(2022),
+  url('https://arxiv.org/pdf/2211.13972.pdf'),
+)
+
+entry!('santurkar2022captions',
+  title('Is a Caption Worth a Thousand Images? A Controlled Study for Representation Learning'),
+  author('Shibani Santurkar and Yann Dubois and Rohan Taori and Percy Liang and Tatsunori Hashimoto'),
+  arxiv(2022),
+  url('https://arxiv.org/pdf/2207.07635.pdf'),
+)
+
+entry!('donahue2022melody',
+  title('Melody transcription via generative pre-training'),
+  author('Chris Donahue and John Thickstun and Percy Liang'),
+  ismir(2022),
+  url('https://arxiv.org/pdf/2212.01884.pdf'),
+)
+
+entry!('park2022social',
+  title('Social Simulacra: Creating Populated Prototypes for Social Computing Systems'),
+  author('J. Park and Lindsay Popowski and Carrie J. Cai and M. Morris and Percy Liang and Michael S. Bernstein'),
+  uist(2022),
+  url('https://arxiv.org/pdf/2208.04024.pdf'),
+)
+
+entry!('wei2022emergent',
+  title('Emergent Abilities of Large Language Models'),
+  author('Jason Wei and Yi Tay and Rishi Bommasani and Colin Raffel and Barret Zoph and Sebastian Borgeaud and Dani Yogatama and Maarten Bosma and Denny Zhou and Donald Metzler and Ed Chi and Tatsunori Hashimoto and Oriol Vinyals and Percy Liang and Jeff Dean and William Fedus'),
+  tmlr(2022, 0),
+  url('https://arxiv.org/pdf/2206.07682.pdf'),
+)
+
+entry!('kumar2022calibrated',
+  title('Calibrated ensembles can mitigate accuracy tradeoffs under distribution shift'),
+  author('Ananya Kumar and Tengyu Ma and Percy Liang and Aditi Raghunathan'),
+  uai(2022),
+  url('https://arxiv.org/pdf/2207.08977.pdf'),
+)
+
 entry!('karamcheti2022lilac',
   title('Shared Autonomy for Robotic Manipulation with Language Corrections'),
   author('Siddharth Karamcheti* and Raj Palleti* and Yuchen Cui and and Percy Liang and Dorsa Sadigh'),
@@ -10,13 +105,13 @@ entry!('karamcheti2022lilac',
 entry!('shen2022connect',
   title('Connect, Not Collapse: Explaining Contrastive Learning for Unsupervised Domain Adaptation'),
   author('Kendrick Shen and Robbie Jones and Ananya Kumar and Sang Michael Xie and Jeff Z. HaoChen and Tengyu Ma and Percy Liang'),
-  arxiv(2022),
+  icml(2022),
   url('https://arxiv.org/pdf/2204.00570.pdf'),
 )
 
 entry!('yasunaga2022linkbert',
   title('{LinkBERT}: Pretraining Language Models with Document Links'),
-  author('Michihiro Yasunaga and Jure Leskovec and Percy Liang'),
+  author('Michihiro Yasunaga and Jure Leskovec* and Percy Liang*'),
   acl(2022),
   url('https://arxiv.org/pdf/2203.15827.pdf'),
   codalab('0x7a6ab9c8d06a41d191335b270da2902e'),
@@ -58,9 +153,8 @@ entry!('zhang2022greaselm',
   url('https://arxiv.org/pdf/2201.08860.pdf'),
 )
 
-
 entry!('lee2022coauthor',
-  title('CoAuthor: Designing a Human-{AI} Collaborative Writing Dataset for Exploring Language Model Capabilities'),
+  title('Co{A}uthor: Designing a Human-{AI} Collaborative Writing Dataset for Exploring Language Model Capabilities'),
   author('Mina Lee and Percy Liang and Qian Yang'),
   chi(2022),
   url('https://arxiv.org/pdf/2201.06796.pdf'),
@@ -121,6 +215,7 @@ entry!('davis2021catformer',
   title('Catformer: Designing Stable Transformers via Sensitivity Analysis'),
   author('Jared Quincy Davis and Albert Gu and Krzysztof Choromanski and Tri Dao and Christopher Re and Chelsea Finn and Percy Liang'),
   icml(2021),
+  url('http://proceedings.mlr.press/v139/davis21a/davis21a.pdf'),
 )
 
 entry!('liu2021jtt',
@@ -156,6 +251,13 @@ entry!('miller2021line',
   author('John Miller and Rohan Taori and Aditi Raghunathan and Shiori Sagawa and Pang Wei Koh and Vaishaal Shankar and Percy Liang and Yair Carmon and Ludwig Schmidt'),
   icml(2021),
   url('https://arxiv.org/pdf/2107.04649.pdf'),
+)
+
+entry!('lee2021swords',
+  title('Swords: A Benchmark for Lexical Substitution with Improved Data Coverage and Quality'),
+  author('Mina Lee and C. Donahue and Robin Jia and Alexander Iyabor and Percy Liang'),
+  naacl(2021),
+  url('https://arxiv.org/pdf/2106.04102.pdf'),
 )
 
 entry!('yasunaga2021qagnn',
@@ -1384,7 +1486,6 @@ entry!('liang09semantics',
   url('semantics-acl2009.pdf'),
   slidesurl('semantics-acl2009-talk.pdf'),
   code('../software/unsupervised-modeling.zip'),
-  data('../data/weather-data.zip'),
   abstract('A central problem in grounded language acquisition is learning the correspondences between a rich world state and a stream of text which references that world state.  To deal with the high degree of ambiguity present in this setting, we present a generative model that simultaneously segments the text into utterances and maps each utterance to a meaning representation grounded in the world state.  We show that our model generalizes across three domains of increasing difficulty---Robocup sportscasting, weather forecasts (a new domain), and NFL recaps.'),
   punchlines('Stuff happens in the world.  A text talks about it.  Our goal: learn the correspondence between the two.',
              'Approach: probabilistic model capturing identification of entities/events in the world, segmentation of the text, and alignment between the two.'),

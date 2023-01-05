@@ -1051,3 +1051,12 @@ entry!('wang2017data',
   author('Ke Wang and Benjamin Lin and Bjorn Rettig and Paul Pardi and Rishabh Singh'),
   pages(257, 260),
 )
+
+entry!('glassman2015overcode',
+  chi(2015),
+  title('OverCode: Visualizing variation in student solutions to programming problems at scale'),
+  author('Elena L Glassman and Jeremy Scott and Rishabh Singh and Philip J Guo and Robert C Miller'),
+  number(2),
+  pages(1, 35),
+  publisher('ACM New York, NY, USA'),
+)

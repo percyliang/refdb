@@ -13,6 +13,7 @@ def jrssc(year, volume);               article('Journal of the Royal Statistical
 def jrssd(year, volume);               article('Journal of the Royal Statistical Society. Series D (The Statistician)', year, volume) end
 def mathops(year, volume);             article('Mathematics of Operations Research', year, volume) end
 def jmlr(year, volume);                article(Name.new('Journal of Machine Learning Research', 'JMLR'), year, volume) end
+def tmlr(year, volume);                article(Name.new('Transcations of Machine Learning Research', 'TMLR'), year, volume) end
 def pami(year, volume);                article(Name.new('IEEE Transactions on Pattern Analysis and Machine Intelligence', 'PAMI'), year, volume) end
 def tacl(year, volume);                article(Name.new('Transactions of the Association for Computational Linguistics', 'TACL'), year, volume) end
 def jair(year, volume);                article(Name.new('Journal of Artificial Intelligence Research', 'JAIR'), year, volume) end
@@ -154,6 +155,7 @@ def conll(year); [inproceedings(Name.new('Computational Natural Language Learnin
 def conll2010; [conll(2010), address('Uppsala, Sweden')] end
 def lrec(year); [inproceedings(Name.new('Language Resources and Evaluation Conference', 'LREC'), year)] end
 def emnlpfindings(year); [inproceedings(Name.new('Findings of Empirical Methods in Natural Language Processing', 'Findings of EMNLP'), year)] end
+def aclfindings(year); [inproceedings(Name.new('Findings of the Association for Computational Linguistics', 'Findings of ACL'), year)] end
 
 def icassp(year); [inproceedings(Name.new('International Conference on Acoustics, Speech, and Signal Processing', 'ICASSP'), year)] end
 def icslp(year); [inproceedings(Name.new('International Conference on Spoken Language Processing', 'ICSLP'), year)] end

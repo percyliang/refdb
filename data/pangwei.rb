@@ -3057,6 +3057,13 @@ entry!('geirhos2020shortcut',
   author('Robert Geirhos and J{\"o}rn-Henrik Jacobsen and Claudio Michaelis and Richard Zemel and Wieland Brendel and Matthias Bethge and Felix A Wichmann'),
 nil)
 
+entry!('kabra2015understanding',
+  cvpr(2015),
+  title('Understanding classifier errors by examining influential neighbors'),
+  author('Mayank Kabra and Alice Robie and Kristin Branson'),
+  pages(3917, 3925),
+nil)
+
 entry!('cai2019human',
   chi(2019),
   title('Human-centered tools for coping with imperfect algorithms during medical decision-making'),
