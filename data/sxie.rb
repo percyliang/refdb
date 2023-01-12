@@ -795,3 +795,49 @@ entry!('izsak2021how',
        author('Peter Izsak and Moshe Berchansky and Omer Levy'),
        emnlp(2021))
 
+entry!('katharopoulos2018not',
+       title('Not All Samples Are Created Equal: Deep Learning with Importance Sampling'),
+       author('Angelos Katharopoulos and François Fleuret'),
+       icml(2018))
+
+entry!('alain2016variance',
+       title('Variance Reduction in {SGD} by Distributed Importance Sampling'),
+       author('Guillaume Alain and Alex Lamb and Chinnadhurai Sankar and Aaron Courville and Yoshua Bengio'),
+       iclr(2016))
+
+entry!('bordes2005fast',
+       title('Fast Kernel Classifiers with Online and Active Learning'),
+       author('Antoine Bordes and Seyda Ertekin and Jason Weston and Leon Bottou'),
+       jmlr(2005, 6))
+
+entry!('richtarik2013optimal',
+       title('On Optimal Probabilities in Stochastic Coordinate Descent Methods'),
+       author('Peter Richtárik and Martin Takáč'),
+       arxiv(2013))
+
+entry!('zhao2015stochastic',
+       title('Stochastic Optimization with Importance Sampling for Regularized Loss Minimization'),
+       author('Peilin Zhao and Tong Zhang'),
+       icml(2015))
+
+entry!('bengio2009curriculum',
+       title('Curriculum Learning'),
+       author('Yoshua Bengio and Jerome Louradour and Ronan Collobert and Jason Weston'),
+       icml(2009))
+
+entry!('serra2015discriminative',
+       title('Discriminative Learning of Deep Convolutional Feature Point Descriptors'),
+       author('Edgar Simo-Serra and Eduard Trulls and Luis Ferraz and Iasonas Kokkinos and Pascal Fua and Francesc Moreno-Noguer'),
+       iccv(2015))
+
+
+entry!('schroff2015facenet',
+       title('FaceNet: A Unified Embedding for Face Recognition and Clustering'),
+       author('Florian Schroff and Dmitry Kalenichenko and James Philbin'),
+       cvpr(2015))
+
+
+entry!('hutter2016online',
+       title('Online batch selection for faster training of neural networks'),
+       author('Ilya Loshchilov and Frank Hutter'),
+       iclrWorkshop(2016))
