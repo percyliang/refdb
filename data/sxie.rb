@@ -837,7 +837,7 @@ entry!('schroff2015facenet',
        cvpr(2015))
 
 
-entry!('hutter2016online',
+entry!('loshchilov2016online',
        title('Online batch selection for faster training of neural networks'),
        author('Ilya Loshchilov and Frank Hutter'),
        iclrWorkshop(2016))
