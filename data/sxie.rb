@@ -841,3 +841,9 @@ entry!('loshchilov2016online',
        title('Online batch selection for faster training of neural networks'),
        author('Ilya Loshchilov and Frank Hutter'),
        iclrWorkshop(2016))
+
+entry!('kaplan2020scaling',
+       title('Scaling Laws for Neural Language Models'),
+       author('Jared Kaplan and Sam McCandlish and Tom Henighan and Tom B. Brown and Benjamin Chess and Rewon Child and Scott Gray and Alec Radford and Jeffrey Wu and Dario Amodei'),
+       arxiv(2020))
+
