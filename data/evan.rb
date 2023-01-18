@@ -1060,3 +1060,21 @@ entry!('glassman2015overcode',
   pages(1, 35),
   publisher('ACM New York, NY, USA'),
 )
+
+entry!('zheng2020ai',
+  arxiv(2020, '2004.13332'),
+  title('The ai economist: Improving equality and productivity with ai-driven tax policies'),
+  author('Stephan Zheng and Alexander Trott and Sunil Srinivasa and Nikhil Naik and Melvin Gruesbeck and David C Parkes and Richard Socher'),
+)
+
+entry!('bansal2017emergent',
+  arxiv(2017, '1710.03748'),
+  title('Emergent complexity via multi-agent competition'),
+  author('Trapit Bansal and Jakub Pachocki and Szymon Sidor and Ilya Sutskever and Igor Mordatch'),
+)
+
+entry!('baker2019emergent',
+  arxiv(2019, '1909.07528'),
+  title('Emergent tool use from multi-agent autocurricula'),
+  author('Bowen Baker and Ingmar Kanitscheider and Todor Markov and Yi Wu and Glenn Powell and Bob McGrew and Igor Mordatch'),
+)
