@@ -847,3 +847,8 @@ entry!('kaplan2020scaling',
        author('Jared Kaplan and Sam McCandlish and Tom Henighan and Tom B. Brown and Benjamin Chess and Rewon Child and Scott Gray and Alec Radford and Jeffrey Wu and Dario Amodei'),
        arxiv(2020))
 
+entry!('lo2020s2orc',
+       title('S2ORC: The Semantic Scholar Open Research Corpus'),
+       author('Kyle Lo and Lucy Lu Wang and Mark Neumann and Rodney Kinney and Daniel S. Weld'),
+       acl(2020))
+
