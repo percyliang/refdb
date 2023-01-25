@@ -862,9 +862,13 @@ entry!('snyder2008obstacles',
        author('Chris Snyder and Thomas Bengtsson and Peter Bickel and Jeff Anderson'),
        article('Mathematical Advances in Data Assimilation (MADA)', 2008))
 
+entry!('rubin1988sir',
+       title('Using the {SIR} Algorithm to Simulate Posterior Distributions'),
+       author('Donald B. Rubin'),
+       article('Bayesian Statistics', 1988))
+
 entry!('gelman2004applied',
        title('Applied {Bayesian} modeling and causal inference from incomplete-data perspectives'),
        author('Andrew Gelman and Xiao-Li Meng'),
        article('Wiley Series in Probability and Statistics', 2004))
-
 
