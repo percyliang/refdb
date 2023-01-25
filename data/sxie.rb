@@ -852,3 +852,19 @@ entry!('lo2020s2orc',
        author('Kyle Lo and Lucy Lu Wang and Mark Neumann and Rodney Kinney and Daniel S. Weld'),
        acl(2020))
 
+entry!('bengtsson2008curse',
+       title('Curse-of-dimensionality revisited: Collapse of the particle filter in very large scale systems'),
+       author('Thomas Bengtsson and Peter Bickel and Bo Li'),
+       arxiv(2008))
+
+entry!('snyder2008obstacles',
+       title('Obstacles to High-Dimensional Particle Filtering'),
+       author('Chris Snyder and Thomas Bengtsson and Peter Bickel and Jeff Anderson'),
+       article('Mathematical Advances in Data Assimilation (MADA)', 2008))
+
+entry!('gelman2004applied',
+       title('Applied {Bayesian} modeling and causal inference from incomplete-data perspectives'),
+       author('Andrew Gelman and Xiao-Li Meng'),
+       article('Wiley Series in Probability and Statistics', 2004))
+
+
