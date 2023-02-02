@@ -872,3 +872,9 @@ entry!('gelman2004applied',
        author('Andrew Gelman and Xiao-Li Meng'),
        article('Wiley Series in Probability and Statistics', 2004))
 
+entry!('weinberger2009feature',
+       title('Feature Hashing for Large Scale Multitask Learning'),
+       author('Kilian Weinberger and Anirban Dasgupta and John Langford and Alex Smola and Josh Attenberg'),
+       icml(2009))
+
+
