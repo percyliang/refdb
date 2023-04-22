@@ -44,7 +44,7 @@ entry!('sheng2023flexgen',
 )
 
 entry!('karamcheti2023voltron',
-  title('Language-Driven Representation Learning for Robotics'),
+  title('Language-driven Representation Learning for Robotics'),
   author('Siddharth Karamcheti and Suraj Nair and Annie S. Chen and T. Kollar and Chelsea Finn and Dorsa Sadigh and Percy Liang'),
   arxiv(2023),
   url('https://arxiv.org/pdf/2302.12766.pdf'),
