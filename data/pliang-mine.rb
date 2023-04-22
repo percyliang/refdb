@@ -1,6 +1,8 @@
 ############################################################
 # 2023
 
+# EMNLP
+
 entry!('liu2023evaluating',
   title('Evaluating Verifiability in Generative Search Engines'),
   author('Nelson F. Liu and Tianyi Zhang and Percy Liang'),
@@ -8,18 +10,18 @@ entry!('liu2023evaluating',
   url('https://arxiv.org/pdf/2304.09848.pdf'),
 )
 
+entry!('zhang2023benchmarking',
+  title('Benchmarking Large Language Models for News Summarization'),
+  author('Tianyi Zhang and Faisal Ladhak and Esin Durmus and Percy Liang and K. McKeown and Tatsunori Hashimoto'),
+  arxiv(2023),
+  url('https://arxiv.org/pdf/2301.13848.pdf'),
+)
+
 entry!('park2023generative',
   title('Generative Agents: Interactive Simulacra of Human Behavior'),
   author('Joon Sung Park and Joseph C. O\'Brien and Carrie J. Cai and Meredith Ringel Morris and Percy Liang and Michael S. Bernstein'),
   arxiv(2023),
   url('https://arxiv.org/pdf/2304.03442.pdf'),
-)
-
-entry!('santurkar2023opinions',
-  title('Whose Opinions Do Language Models Reflect?'),
-  author('Shibani Santurkar and Esin Durmus and Faisal Ladhak and Cinoo Lee and Percy Liang and Tatsunori Hashimoto'),
-  arxiv(2023),
-  url('https://arxiv.org/pdf/2303.17548.pdf'),
 )
 
 entry!('henderson2023fairuse',
@@ -36,6 +38,15 @@ entry!('bommasani2023ecosystem',
   url('https://arxiv.org/pdf/2303.15772.pdf'),
 )
 
+entry!('karamcheti2023voltron',
+  title('Language-driven Representation Learning for Robotics'),
+  author('Siddharth Karamcheti and Suraj Nair and Annie S. Chen and T. Kollar and Chelsea Finn and Dorsa Sadigh and Percy Liang'),
+  arxiv(2023),
+  url('https://arxiv.org/pdf/2302.12766.pdf'),
+)
+
+# ICML
+
 entry!('sheng2023flexgen',
   title('High-throughput Generative Inference of Large Language Models with a Single {GPU}'),
   author('Ying Sheng and Lianmin Zheng and Binhang Yuan and Zhuohan Li and Max Ryabinin and Daniel Y. Fu and Zhiqiang Xie and Beidi Chen and Clark W. Barrett and Joseph Gonzalez and Percy Liang and Christopher Ré and I. Stoica and Ce Zhang'),
@@ -43,11 +54,18 @@ entry!('sheng2023flexgen',
   url('https://arxiv.org/pdf/2303.06865.pdf'),
 )
 
-entry!('karamcheti2023voltron',
-  title('Language-driven Representation Learning for Robotics'),
-  author('Siddharth Karamcheti and Suraj Nair and Annie S. Chen and T. Kollar and Chelsea Finn and Dorsa Sadigh and Percy Liang'),
+entry!('santurkar2023opinions',
+  title('Whose Opinions Do Language Models Reflect?'),
+  author('Shibani Santurkar and Esin Durmus and Faisal Ladhak and Cinoo Lee and Percy Liang and Tatsunori Hashimoto'),
   arxiv(2023),
-  url('https://arxiv.org/pdf/2302.12766.pdf'),
+  url('https://arxiv.org/pdf/2303.17548.pdf'),
+)
+
+entry!('dubois2023evaluating',
+  title('Evaluating Self-Supervised Learning via Risk Decomposition'),
+  author('Yann Dubois and Tatsunori Hashimoto and Percy Liang'),
+  arxiv(2023),
+  url('https://arxiv.org/pdf/2302.03068.pdf'),
 )
 
 entry!('gao2023targeted',
@@ -64,19 +82,44 @@ entry!('xie2023data',
   url('https://arxiv.org/pdf/2302.03169.pdf'),
 )
 
-entry!('dubois2023evaluating',
-  title('Evaluating Self-Supervised Learning via Risk Decomposition'),
-  author('Yann Dubois and Tatsunori Hashimoto and Percy Liang'),
+entry!('khattab2023dsp',
+  title('{Demonstrate-Search-Predict}: Composing retrieval and language models for knowledge-intensive {NLP}'),
+  author('Omar Khattab and Keshav Santhanam and Xiang Lisa Li and David Hall and Percy Liang and Christopher Potts and Matei Zaharia'),
   arxiv(2023),
-  url('https://arxiv.org/pdf/2302.03068.pdf'),
+  url('https://arxiv.org/pdf/2212.14024.pdf'),
 )
 
-entry!('zhang2023benchmarking',
-  title('Benchmarking Large Language Models for News Summarization'),
-  author('Tianyi Zhang and Faisal Ladhak and Esin Durmus and Percy Liang and K. McKeown and Tatsunori Hashimoto'),
-  arxiv(2023),
-  url('https://arxiv.org/pdf/2301.13848.pdf'),
+# ACL
+
+entry!('bommasani2022trustworthy',
+  title('Trustworthy Social Bias Measurement'),
+  author('Rishi Bommasani and Percy Liang'),
+  arxiv(2022),
+  url('https://arxiv.org/pdf/2212.11672.pdf'),
 )
+
+entry!('lee2023evaluating',
+  title('Evaluating Human-Language Model Interaction'),
+  author('Mina Lee and Megha Srivastava and Amelia Hardy and John Thickstun and Esin Durmus and Ashwin Paranjape and Ines Gerard-Ursin and Xiang Lisa Li and Faisal Ladhak and Frieda Rong and Rose E. Wang and Minae Kwon and Joon Sung Park and Hancheng Cao and Tony Lee and Rishi Bommasani and Michael Bernstein and Percy Liang'),
+  arxiv(2023),
+  url('https://arxiv.org/pdf/2212.09746.pdf'),
+)
+
+entry!('li2023contrastive',
+  title('Contrastive Decoding: Open-ended Text Generation as Optimization'),
+  author('Xiang Lisa Li and Ari Holtzman and Daniel Fried and Percy Liang and Jason Eisner and Tatsunori Hashimoto and Luke Zettlemoyer and M. Lewis'),
+  arxiv(2023),
+  url('https://arxiv.org/pdf/2210.15097.pdf'),
+)
+
+entry!('liu2023concurrence',
+  title('Do Question Answering Modeling Improvements Hold Across Benchmarks?'),
+  author('Nelson F. Liu and Tony Lee and Robin Jia and Percy Liang'),
+  arxiv(2023),
+  url('https://arxiv.org/pdf/2102.01065.pdf'),
+)
+
+# HRI
 
 entry!('cui2023corrections',
   title('"No, to the Right"-- Online Language Corrections for Robotic Manipulation via Shared Autonomy'),
@@ -84,6 +127,8 @@ entry!('cui2023corrections',
   hri(2023),
   url('https://arxiv.org/pdf/2301.02555.pdf'),
 )
+
+# ICLR 2023
 
 entry!('santurkar2023captions',
   title('Is a Caption Worth a Thousand Images? A Controlled Study for Representation Learning'),
@@ -97,27 +142,6 @@ entry!('lee2023surgical',
   author('Yoonho Lee and Annie S. Chen and Fahim Tajwar and Ananya Kumar and Huaxiu Yao and Percy Liang and Chelsea Finn'),
   iclr(2023),
   url('https://arxiv.org/pdf/2210.11466.pdf'),
-)
-
-entry!('khattab2023dsp',
-  title('{Demonstrate-Search-Predict}: Composing retrieval and language models for knowledge-intensive {NLP}'),
-  author('Omar Khattab and Keshav Santhanam and Xiang Lisa Li and David Hall and Percy Liang and Christopher Potts and Matei Zaharia'),
-  arxiv(2023),
-  url('https://arxiv.org/pdf/2212.14024.pdf'),
-)
-
-entry!('bommasani2022trustworthy',
-  title('Trustworthy Social Bias Measurement'),
-  author('Rishi Bommasani and Percy Liang'),
-  arxiv(2022),
-  url('https://arxiv.org/pdf/2212.11672.pdf'),
-)
-
-entry!('lee2022evaluating',
-  title('Evaluating Human-Language Model Interaction'),
-  author('Mina Lee and Megha Srivastava and Amelia Hardy and John Thickstun and Esin Durmus and Ashwin Paranjape and Ines Gerard-Ursin and Xiang Lisa Li and Faisal Ladhak and Frieda Rong and Rose E. Wang and Minae Kwon and Joon Sung Park and Hancheng Cao and Tony Lee and Rishi Bommasani and Michael Bernstein and Percy Liang'),
-  arxiv(2022),
-  url('https://arxiv.org/pdf/2212.09746.pdf'),
 )
 
 ############################################################
@@ -387,13 +411,6 @@ entry!('yasunaga2021qagnn',
   naacl(2021),
   url('https://arxiv.org/pdf/2104.06378.pdf'),
   codalab('0xf215deb05edf44a2ac353c711f52a25f'),
-)
-
-entry!('liu2021concur',
-  title('Can Small and Synthetic Benchmarks Drive Modeling Innovation?  A Retrospective Study of Question Answering Modeling Approaches'),
-  author('Nelson F. Liu and Tony Lee and Robin Jia and Percy Liang'),
-  arxiv(2021, '2102.01065'),
-  url('https://arxiv.org/pdf/2102.01065.pdf'),
 )
 
 entry!('li2021prefix',
