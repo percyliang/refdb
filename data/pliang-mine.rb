@@ -92,6 +92,13 @@ entry!('santurkar2023captions',
   url('https://arxiv.org/pdf/2207.07635.pdf'),
 )
 
+entry!('lee2023surgical',
+  title('Surgical Fine-Tuning Improves Adaptation to Distribution Shifts'),
+  author('Yoonho Lee and Annie S. Chen and Fahim Tajwar and Ananya Kumar and Huaxiu Yao and Percy Liang and Chelsea Finn'),
+  iclr(2023),
+  url('https://arxiv.org/pdf/2210.11466.pdf'),
+)
+
 entry!('khattab2023dsp',
   title('{Demonstrate-Search-Predict}: Composing retrieval and language models for knowledge-intensive {NLP}'),
   author('Omar Khattab and Keshav Santhanam and Xiang Lisa Li and David Hall and Percy Liang and Christopher Potts and Matei Zaharia'),

@@ -615,12 +615,6 @@ entry!('luo2020privacy',
   arxiv(2020),
 )
 
-entry!('lee2022surgical',
-  title('Surgical Fine-Tuning Improves Adaptation to Distribution Shifts'),
-  author('Yoonho Lee and Annie S. Chen and Fahim Tajwar and Ananya Kumar and Huaxiu Yao and Percy Liang and Chelsea Finn'),
-  arxiv(2022),
-)
-
 entry!('kumar2022sgd',
   title('How to Fine-Tune Vision Models with {SGD}'),
   author('Ananya Kumar and Ruoqi Shen and Sébastien Bubeck and Suriya Gunasekar'),
