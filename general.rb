@@ -24,7 +24,7 @@ end
 
 class Pages
   def initialize(i, j); @i, @j = i, j end
-  def check; 1 <= @i && @i <= @j && @j <= 10000 end
+  def check; 1 <= @i && @i <= @j && @j <= 100000 end
   def to_s; "#{@i}--#{@j}" end
   def matches(value); i <= value <= j end
 end
