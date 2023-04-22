@@ -123,6 +123,13 @@ entry!('liang2022helm',
   url('https://arxiv.org/pdf/2211.09110.pdf'),
 )
 
+entry!('hewitt2022truncation',
+  title('Truncation Sampling as Language Model Desmoothing'),
+  author('John Hewitt and Christopher D. Manning and Percy Liang'),
+  emnlpfindings(2022),
+  url('https://arxiv.org/pdf/2210.15191.pdf'),
+)
+
 entry!('wu2022synthetic',
   title('Insights into Pre-training via Simpler Synthetic Tasks'),
   author('Yuhuai Wu and Felix Li and Percy Liang'),
