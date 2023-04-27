@@ -46,6 +46,12 @@ entry!('karamcheti2023voltron',
 )
 
 # ICML
+entry!('yasunaga2023retrieval',
+  title('Retrieval-Augmented Multimodal Language Modeling'),
+  author('Michihiro Yasunaga and Armen Aghajanyan and Weijia Shi and Rich James and Jure Leskovec and Percy Liang and Mike Lewis and Luke Zettlemoyer and Wen-tau Yih'),
+  icml(2023),
+  url('https://arxiv.org/pdf/2211.12561.pdf'),
+)
 
 entry!('sheng2023flexgen',
   title('High-throughput Generative Inference of Large Language Models with a Single {GPU}'),
@@ -198,7 +204,7 @@ entry!('garg2022incontext',
 
 entry!('yasunaga2022dragon',
   title('Deep Bidirectional Language-Knowledge Graph Pretraining'),
-  author('Michihiro Yasunaga and Antoine Bosselut and Hongyu Ren and Xikun Zhang and Christopher D. Manning and Percy Liang* and J. Leskovec*'),
+  author('Michihiro Yasunaga and Antoine Bosselut and Hongyu Ren and Xikun Zhang and Christopher D. Manning and Percy Liang* and Jure Leskovec*'),
   neurips(2022),
   url('https://arxiv.org/pdf/2210.09338.pdf'),
 )
