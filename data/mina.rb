@@ -459,3 +459,16 @@ entry!('miller2016thesis',
        title('Adjusting Sense Representations for Word Sense Disambiguation and Automatic Pun Interpretation'),
        phdthesis('Technische Universität Darmstadt', 2016),
 )
+
+entry!('assael2019restoring',
+       title('Restoring ancient text using deep learning: a case study on Greek epigraphy'),
+       author('Yannis Assael and Thea Sommerschield and Jonathan Prag'),
+       emnlp(2019),
+)
+
+entry!('clark2018neural',
+       title('Neural Text Generation in Stories Using Entity Representations as Context'),
+       author('Clark, Elizabeth and Ji, Yangfeng and Smith, Noah A.'),
+       acl(2018),
+      )
+
