@@ -472,3 +472,221 @@ entry!('clark2018neural',
        acl(2018),
       )
 
+entry!('buschek2021impact',
+       title('The Impact of Multiple Parallel Phrase Suggestions on Email Input and Composition Behaviour of Native and Non-Native {E}nglish Writers'),
+       author('Buschek, Daniel and Z\"{u}rn, Martin and Eiband, Malin'),
+       chi(2021),
+      )
+
+entry!('wang2021evaluation',
+       title('An Evaluation of Generative Pre-Training Model-based Therapy Chatbot for Caregivers'),
+       author('Lu Wang and Munif Ishad Mujib and Jake Williams and George Demiris and Jina Huh-Yoo'),
+       arxiv(2021, '2107.13115'),
+      )
+
+entry!('wu2022aichain',
+       title('{AI} Chains: Transparent and Controllable Human-{AI} Interaction by Chaining Large Language Model Prompts'),
+       author('Tongshuang Wu and Michael Terry and Carrie J. Cai'),
+       chi(2022),
+      )
+
+entry!('zhou2021medical',
+       title('On the Generation of Medical Dialogs for {COVID}-19'),
+       author('Meng Zhou and Zechen Li and Bowen Tan and Guangtao Zeng and Wenmian Yang and Xuehai He and Zeqian Ju and Subrato Chakravorty and Shu Chen and Xingyi Yang and Yichen Zhang and Qingyang Wu and Zhou Yu and Kun Xu and Eric Xing and Pengtao Xie'),
+       acl(2021),
+      )
+
+entry!('bly1999design',
+       title('Design through matchmaking: technology in search of users'),
+       author('Bly, Sara and Churchill, Elizabeth F'),
+       article('Interactions', 1999, 6),
+       pages(23,31),
+       number(2),
+       publisher('Association for Computing Machinery'),
+      )
+
+entry!('yang2020reexamining',
+       title('Re-Examining Whether, Why, and How Human-{AI} Interaction Is Uniquely Difficult to Design'),
+       author('Yang, Qian and Steinfeld, Aaron and Ros\'{e}, Carolyn and Zimmerman, John'),
+       chi(2020),
+      )
+
+entry!('yang2019sketch',
+       title('Sketching {NLP}: A Case Study of Exploring the Right Things To Design with Language Intelligence'),
+       author('Yang, Qian and Cranshaw, Justin and Amershi, Saleema and Iqbal, Shamsi T. and Teevan, Jaime'),
+       chi(2019),
+      )
+
+entry!('gehrmann2021gem',
+       title('The {GEM} Benchmark: Natural Language Generation, its Evaluation and Metrics'),
+       author('Sebastian Gehrmann and Tosin Adewumi and Karmanya Aggarwal and Pawan Sasanka Ammanamanchi and Anuoluwapo Aremu and Antoine Bosselut and Khyathi Raghavi Chandu and Miruna-Adriana Clinciu and Dipanjan Das and Kaustubh Dhole and Wanyu Du and Esin Durmus and Ondřej Dušek and Chris Chinenye Emezue and Varun Gangal and Cristina Garbacea and Tatsunori Hashimoto and Yufang Hou and Yacine Jernite and Harsh Jhamtani and Yangfeng Ji and Shailza Jolly and Mihir Kale and Dhruv Kumar and Faisal Ladhak and Aman Madaan and Mounica Maddela and Khyati Mahajan and Saad Mahamood and Bodhisattwa Prasad Majumder and Pedro Henrique Martins and Angelina McMillan-Major and Simon Mille and Emiel van Miltenburg and Moin Nadeem and Shashi Narayan and Vitaly Nikolaev and Andre Niyongabo Rubungo and Salomey Osei and Ankur Parikh and Laura Perez-Beltrachini and Niranjan Ramesh Rao and Vikas Raunak and Juan Diego Rodriguez and Sashank Santhanam and João Sedoc and Thibault Sellam and Samira Shaikh and Anastasia Shimorina and Marco Antonio Sobrevilla Cabezudo and Hendrik Strobelt and Nishant Subramani and Wei Xu and Diyi Yang and Akhila Yerukola and Jiawei Zhou'),
+       acl(2021),
+      )
+
+entry!('buxton2010sketching',
+       title('Sketching user experiences: getting the design right and the right design'),
+       author('Buxton, Bill'),
+       book('Morgan Kaufmann', 2010),
+      )
+
+entry!('gaver1991affordance',
+       title('Technology affordances'),
+       author('William W. Gaver'),
+       chi(1991),
+      )
+
+entry!('ozenc2010support',
+       title('How to support designers in getting hold of the immaterial material of software'),
+       author('Ozenc, Fatih Kursat and Kim, Miso and Zimmerman, John and Oney, Stephen and Myers, Brad'),
+       chi(2010),
+      )
+
+entry!('martelaro2020arduino',
+       title('Make This! Introduction to Electronics Prototyping Using Arduino'),
+       author('Martelaro, Nikolas and Zamfirescu-Pereria, J.D. and Goedicke, David and Sirkin, David and Ju, Wendy'),
+       chiea(2020),
+      )
+
+entry!('fiebrink2010wekinator',
+       title('The {W}ekinator: a system for real-time, interactive machine learning in music'),
+       author('Fiebrink, Rebecca and Cook, Perry R'),
+       ismir(2010),
+      )
+
+entry!('carney2020teachable',
+       title('Teachable Machine: Approachable Web-Based Tool for Exploring Machine Learning Classification'),
+       author('Carney, Michelle and Webster, Barron and Alvarado, Irene and Phillips, Kyle and Howell, Noura and Griffith, Jordan and Jongejan, Jonas and Pitaru, Amit and Chen, Alexander'),
+       chiea(2020),
+      )
+
+entry!('holstein2020replayenactments',
+       title('Replay Enactments: Exploring Possible Futures through Historical Data'),
+       author('Holstein, Kenneth and Harpstead, Erik and Gulotta, Rebecca and Forlizzi, Jodi'),
+       dis(2020),
+      )
+
+entry!('schon1984reflective',
+       title('The reflective practitioner: How professionals think in action'),
+       author('Sch{\"o}n, Donald A'),
+       book('Basic books', 1984),
+      )
+
+entry!('lim2008anatomy',
+       title('The anatomy of prototypes: Prototypes as filters, prototypes as manifestations of design ideas'),
+       author('Lim, Youn-Kyung and Stolterman, Erik and Tenenberg, Josh'),
+       tochi(2008),
+      )
+
+entry!('fan2020englishcentric',
+       title('Beyond {E}nglish-Centric Multilingual Machine Translation'),
+       author('Angela Fan and Shruti Bhosale and Holger Schwenk and Zhiyi Ma and Ahmed El-Kishky and Siddharth Goyal and Mandeep Baines and Onur Celebi and Guillaume Wenzek and Vishrav Chaudhary and Naman Goyal and Tom Birch and Vitaliy Liptchinsky and Sergey Edunov and Edouard Grave and Michael Auli and Armand Joulin'),
+       arxiv(2020, '2010.11125'),
+      )
+
+entry!('lieber2021jurassic',
+       title('Jurassic-1: Technical Details and Evaluation'),
+       author('Opher Lieber and Or Sharir and Barak Lenz and Yoav Shoham'),
+       type('misc'),
+       howpublished('\url{https://uploads-ssl.webflow.com/60fd4503684b466578c0d307/61138924626a6981ee09caf6_jurassic_tech_paper.pdf}'),
+       year(2021)
+      )
+
+entry!('calderwood2020novelists',
+       title('How Novelists Use Generative Language Models: An Exploratory User Study'),
+       author('Calderwood, Alex and Qiu, Vivian and Gero, Katy Ilonka and Chilton, Lydia B'),
+       inproceedings('Proceedings of the Workshops on Human-AI Co-Creation with Generative Models and User-Aware Conversational Agents', 2020),
+      )
+
+entry!('wu2020importance',
+       title('Importance-aware learning for neural headline editing'),
+       author('Wu, Qingyang and Li, Lei and Zhou, Hao and Zeng, Ying and Yu, Zhou'),
+       aaai(2020),
+      )
+
+entry!('openai2023playground',
+       title('{O}pen{AI} playground'),
+       author('OpenAI'),
+       type('misc'),
+       howpublished('\url{https://platform.openai.com/playground}'),
+       year(2023),
+      )
+
+entry!('roemmele2018writing',
+       title('Automated Assistance for Creative Writing with an {RNN} Language Model'),
+       author('Roemmele, Melissa and Gordon, Andrew S.'),
+       iui(2018),
+      )
+
+entry!('cuadra2021look',
+       title('Look at Me When {I} Talk to You: A Video Dataset to Enable Voice Assistants to Recognize Errors'),
+       author('Cuadra, Andrea and Lee, Hansol and Cho, Jason and Ju, Wendy'),
+       arxiv(2021, '2104.07153'),
+      )
+
+entry!('semmens2019vehicle',
+       title('Is Now A Good Time? An Empirical Study of Vehicle-Driver Communication Timing'),
+       author('Semmens, Rob and Martelaro, Nikolas and Kaveti, Pushyami and Stent, Simon and Ju, Wendy'),
+       chi(2019),
+      )
+
+entry!('theodorou2021disability',
+       title('Disability-First Dataset Creation: Lessons from Constructing a Dataset for Teachable Object Recognition with Blind and Low Vision Data Collectors'),
+       author('Theodorou, Lida and Massiceti, Daniela and Zintgraf, Luisa and Stumpf, Simone and Morrison, Cecily and Cutrell, Edward and Harris, Matthew Tobias and Hofmann, Katja'),
+       assets(2021),
+      )
+
+entry!('yang2018ux',
+       title('Investigating How Experienced {UX} Designers Effectively Work with Machine Learning'),
+       author('Yang, Qian and Scuito, Alex and Zimmerman, John and Forlizzi, Jodi and Steinfeld, Aaro'),
+       dis(2018),
+      )
+
+entry!('purdue2021owl',
+       author('Purdue Online Writing Lab'),
+       title('Argumentative Essays'),
+       type('misc'),
+       howpublished('\url{https://owl.purdue.edu/owl/general_writing/academic_writing/essay_writing/argumentative_essays.html}'),
+       year(2021),
+      )
+
+entry!('reddit2021writingprompts',
+       author('Reddit'),
+       title('WritingPrompts'),
+       type('misc'),
+       howpublished('\url{https://www.reddit.com/r/WritingPrompts}'),
+       year(2021),
+      )
+
+entry!('nyt2021argument',
+       author('The New York Times'),
+       title('300 Questions and Images to Inspire Argument Writing'),
+       type('misc'),
+       howpublished('\url{https://www.nytimes.com/2021/02/01/learning/300-questions-and-images-to-inspire-argument-writing.html}'),
+       year(2021),
+      )
+
+entry!('storch2002patterns',
+       author('Storch, Neomy'),
+       title('Patterns of interaction in {ESL} pair work'),
+       article('Language learning', 2002, 52),
+       number(1),
+       pages(119, 158),
+      )
+
+entry!('ippolito2022wordcraft',
+       author('Daphne Ippolito and Ann Yuan and Andy Coenen and Sehmon Burnam'),
+       title('Creative Writing with an {AI}-Powered Writing Assistant: Perspectives from Professional Writers'),
+       arxiv(2022, '2211.05030'),
+      )
+
+entry!('wei2022cot',
+       title('Chain-of-Thought Prompting Elicits Reasoning in Large Language Models'),
+       author('Jason Wei and Xuezhi Wang and Dale Schuurmans and Maarten Bosma and Brian Ichter and Fei Xia and Ed Chi and Quoc Le and Denny Zhou'),
+       arxiv(2022, '2201.11903'),
+      )
+
+entry!('lu2022prompt',
+       title('Fantastically Ordered Prompts and Where to Find Them: Overcoming Few-Shot Prompt Order Sensitivity'),
+       author('Yao Lu and Max Bartolo and Alastair Moore and Sebastian Riedel and Pontus Stenetorp'),
+       acl(2022),
+      )
