@@ -773,3 +773,47 @@ entry!('lakoff1980metaphors',
        author('Lakoff, George and Johnson, Mark'),
        book('University of Chicago Press', 1980),
       )
+
+entry!('jones1995evaluating',
+       title('Evaluating Natural Language Processing Systems: An Analysis and Review'),
+       author('Sp\"arck Jones, Karen and Galliers, Julia R.'),
+       book('Springer Verlag', 1995),
+      )
+
+entry!('liberman2010obituary',
+       title('Obituary: Fred Jelinek'),
+       author('Liberman, Mark'),
+       article('Computational Linguistics', 2010, 36),
+       publisher('MIT Press'),
+      )
+
+entry!('ganguli2022red',
+       title('Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned'),
+       author('Deep Ganguli and Liane Lovitt and John Kernion and Amanda Askell and Yushi Bai and Saurav Kadavath and Benjamin Mann and Ethan Perez and Nicholas Schiefer and Kamal Ndousse and Andy Jones and Sam Bowman and Anna Chen and Tom Conerly and Nova DasSarma and Dawn Drain and Nelson Elhage and Sheer El-Showk and Stanislav Fort and Zachary Dodds and T. J. Henighan and Danny Hernandez and Tristan Hume and Josh Jacobson and Scott Johnston and Shauna Kravec and Catherine Olsson and Sam Ringer and Eli Tran-Johnson and Dario Amodei and Tom B. Brown and Nicholas Joseph and Sam McCandlish and Christopher Olah and Jared Kaplan and Jack Clark'),
+       arxiv(2022, '2209.07858'),
+      )
+
+entry!('kirk2022handling',
+       title('Handling and Presenting Harmful Text in {NLP} Research'),
+       author('Hannah Rose Kirk and Abeba Birhane and Bertie Vidgen and Leon Derczynski'),
+       emnlpfindings(2022),
+      )
+
+entry!('jakesch2023cowriting',
+       title('Co-Writing with Opinionated Language Models Affects Users’ Views'),
+       author('Jakesch, Maurice and Bhat, Advait and Buschek, Daniel and Zalmanson, Lior and Naaman, Mor'),
+       chi(2023),
+      )
+
+entry!('wenker2022wrote',
+       title('Who Wrote this? How Smart Replies Impact Language and Agency in the Workplace'),
+       author('Wenker, Kilian'),
+       arxiv(2022, '2210.06470'),
+      )
+
+entry!('allam2014impact',
+       title('The impact of search engine selection and sorting criteria on vaccination beliefs and attitudes: two experiments manipulating Google output'),
+       author('Allam, Ahmed and Schulz, Peter Johannes and Nakamoto, Kent and others'),
+       article('Journal of medical internet research', 2014, 16),
+       number(4),
+      )
