@@ -9136,13 +9136,6 @@ entry!('narayanan1997knowledge',
   phdthesis('University of California Berkeley at Berkeley', 1997),
 )
 
-
-entry!('lakoff2008metaphors',
-  title('Metaphors we live by'),
-  author('George Lakoff and Mark Johnson'),
-  book('University of Chicago Press', 2008),
-)
-
 entry!('hansen2014uncertainty',
   title('Uncertainty Outside and Inside Economic Models'),
   author('Lars Peter Hansen'),

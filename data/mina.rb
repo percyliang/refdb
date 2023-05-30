@@ -767,3 +767,9 @@ entry!('chakrabarty2022copoet',
        author('Chakrabarty, Tuhin and Padmakumar, Vishakh and He, He'),
        emnlp(2022),
       )
+
+entry!('lakoff1980metaphors',
+       title('Metaphors we live by'),
+       author('Lakoff, George and Johnson, Mark'),
+       book('University of Chicago Press', 1980),
+      )
