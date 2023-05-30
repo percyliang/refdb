@@ -690,3 +690,80 @@ entry!('lu2022prompt',
        author('Yao Lu and Max Bartolo and Alastair Moore and Sebastian Riedel and Pontus Stenetorp'),
        acl(2022),
       )
+
+entry!('shen2020blank',
+       title('Blank Language Models'),
+       author('Shen, Tianxiao and Quach, Victor and Barzilay, Regina and Jaakkola, Tommi'),
+       emnlp(2020),
+      )
+
+entry!('jansen2009patterns',
+       title('Patterns of query reformulation during web searching'),
+       author('Jansen, Bernard J and Booth, Danielle L and Spink, Amanda'),
+       article('Journal of the american society for information science and technology', 2009, 60),
+       number(7),
+       pages(1358, 1371),
+      )
+
+entry!('jiang2013users',
+       title('How do users respond to voice input errors? Lexical and phonetic query reformulation in voice search'),
+       author('Jiang, Jiepu and Jeng, Wei and He, Daqing'),
+       sigir(2013),
+      )
+
+entry!('dibia2022aligning',
+       title('Aligning Offline Metrics and Human Judgments of Value of {AI}-Pair Programmers'),
+       author('Dibia, Victor and Fourney, Adam and Bansal, Gagan and Poursabzi-Sangdeh, Forough and Liu, Han and Amershi, Saleema'),
+       arxiv(2022, '2210.16494'),
+      )
+
+entry!('mani1999advances',
+       title('Advances in Automatic Text Summarization'),
+       author('Mani, Inderjeet'),
+       book('MIT Press', 1999),
+      )
+
+entry!('sparck1999automatic',
+       title('Automatic summarizing: factors and directions'),
+       author('Sp\"arck Jones, Karen'),
+       article('Advances in automatic text summarization', 1999),
+       pages(1, 12),
+      )
+
+entry!('nenkova2012survey',
+       title('A survey of text summarization techniques'),
+       author('Nenkova, Ani and McKeown, Kathleen'),
+       book('Springer', 2012),
+       pages(43, 76),
+      )
+
+entry!('avinesh2018sherlock',
+       title('Sherlock: A System for Interactive Summarization of Large Text Collections'),
+       author('Avinesh, PVS and Binnig, Carsten and H{\"a}ttasch, Benjamin and Meyer, Christian M and {\"O}zyurt, Orkan'),
+       article('Proceedings of the VLDB Endowment', 2018, 11),
+       pages(1902, 1905),
+      )
+
+entry!('shapira2021extending',
+       title('Extending Multi-Document Summarization Evaluation to the Interactive Setting'),
+       author('Ori Shapira and Ramakanth Pasunuru and Hadar Ronen and Mohit Bansal and Yael Amsterdamer and Ido Dagan'),
+       naacl(2021),
+      )
+
+entry!('shapira2022interactive',
+       title('Interactive Query-Assisted Summarization via Deep Reinforcement Learning'),
+       author('Ori Shapira and Ramakanth Pasunuru and Mohit Bansal and Ido Dagan and Yael Amsterdamer'),
+       naacl(2022),
+      )
+
+entry!('grusky2018newsroom',
+       title('{N}ewsroom: A Dataset of 1.3 Million Summaries with Diverse Extractive Strategies'),
+       author('Max Grusky and Mor Naaman and Yoav Artzi'),
+       naacl(2018),
+      )
+
+entry!('chakrabarty2022copoet',
+       title('Help me write a poem: Instruction Tuning as a Vehicle for Collaborative Poetry Writing'),
+       author('Chakrabarty, Tuhin and Padmakumar, Vishakh and He, He'),
+       emnlp(2022),
+      )
