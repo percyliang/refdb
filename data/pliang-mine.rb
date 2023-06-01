@@ -1,6 +1,22 @@
 ############################################################
 # 2023
 
+# ACL 
+entry!('zhang2023beyond',
+  title('Beyond Positive Scaling: How Negation Impacts Scaling Trends of Language Models'),
+  author('Yuhui Zhang* and Michihiro Yasunaga* and Zhengping Zhou* and Jeff Z. HaoChen* and James Zou and Percy Liang and Serena Yeung'),
+  aclfindings(2023),
+  url('https://arxiv.org/pdf/2305.17311.pdf'),
+)
+
+# ICML
+entry!('yasunaga2023retrieval',
+  title('Retrieval-Augmented Multimodal Language Modeling'),
+  author('Michihiro Yasunaga and Armen Aghajanyan and Weijia Shi and Rich James and Jure Leskovec and Percy Liang and Mike Lewis and Luke Zettlemoyer and Wen-tau Yih'),
+  icml(2023),
+  url('https://arxiv.org/pdf/2211.12561.pdf'),
+)
+
 # EMNLP
 
 entry!('liu2023evaluating',
@@ -43,14 +59,6 @@ entry!('karamcheti2023voltron',
   author('Siddharth Karamcheti and Suraj Nair and Annie S. Chen and T. Kollar and Chelsea Finn and Dorsa Sadigh and Percy Liang'),
   arxiv(2023),
   url('https://arxiv.org/pdf/2302.12766.pdf'),
-)
-
-# ICML
-entry!('yasunaga2023retrieval',
-  title('Retrieval-Augmented Multimodal Language Modeling'),
-  author('Michihiro Yasunaga and Armen Aghajanyan and Weijia Shi and Rich James and Jure Leskovec and Percy Liang and Mike Lewis and Luke Zettlemoyer and Wen-tau Yih'),
-  icml(2023),
-  url('https://arxiv.org/pdf/2211.12561.pdf'),
 )
 
 entry!('sheng2023flexgen',
