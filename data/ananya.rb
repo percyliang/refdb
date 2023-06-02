@@ -644,3 +644,15 @@ entry!('pham2021meta',
   author('Hieu Pham and Zihang Dai and Qizhe Xie and Quoc V. Le'),
   cvpr(2021),
 )
+
+entry!('ramesh2022hierarchical',
+  title('Hierarchical Text-Conditional Image Generation with {CLIP} Latents'),
+  author('Aditya Ramesh and Prafulla Dhariwal and Alex Nichol and Casey Chu and Mark Chen'),
+  arxiv(2022),
+)
+
+entry!('touvron2023llama',
+  title('LLaMA: Open and Efficient Foundation Language Models'),
+  author('Hugo Touvron and Thibaut Lavril and Gautier Izacard and Xavier Martinet and Marie-Anne Lachaux and Timothée Lacroix and Baptiste Rozière and Naman Goyal and Eric Hambro and Faisal Azhar and Aurelien Rodriguez and Armand Joulin and Edouard Grave and Guillaume Lample'),
+  arxiv(2023),
+)
