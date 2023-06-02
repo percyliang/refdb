@@ -632,3 +632,15 @@ entry!('goyal2022finetune',
   author('Sachin Goyal and Ananya Kumar and Sankalp Garg and Zico Kolter and Aditi Raghunathan'),
   arxiv(2022),
 )
+
+entry!('sanchez2011cvpr',
+  title('High-dimensional signature compression for large-scale image classification'),
+  author('Jorge Sanchez and Florent Perronnin'),
+  cvpr(2011),
+)
+
+entry!('pham2021meta',
+  title('Meta Pseudo Labels'),
+  author('Hieu Pham and Zihang Dai and Qizhe Xie and Quoc V. Le'),
+  cvpr(2021),
+)
