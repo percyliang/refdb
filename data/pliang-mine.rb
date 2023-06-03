@@ -2,6 +2,13 @@
 # 2023
 
 # ACL 
+entry!('liu2023sample',
+  title('Are Sample-Efficient {NLP} Models More Robust?'),
+  author('Nelson F. Liu and Ananya Kumar and Percy Liang and Robin Jia'),
+  acl(2023),
+  url('https://arxiv.org/abs/2210.06456.pdf'),
+)
+
 entry!('zhang2023beyond',
   title('Beyond Positive Scaling: How Negation Impacts Scaling Trends of Language Models'),
   author('Yuhui Zhang* and Michihiro Yasunaga* and Zhengping Zhou* and Jeff Z. HaoChen* and James Zou and Percy Liang and Serena Yeung'),
