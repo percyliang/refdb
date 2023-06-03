@@ -817,3 +817,174 @@ entry!('allam2014impact',
        article('Journal of medical internet research', 2014, 16),
        number(4),
       )
+
+entry!('wmt2006wmt',
+       title('Proceedings on the Workshop on Statistical Machine Translation'),
+       author('WMT'),
+       type('misc'),
+       year(2006),
+      )
+
+entry!('gunasekara2020overview',
+       title('Overview of the Ninth Dialog System Technology Challenge: DSTC9'),
+       author('Chulaka Gunasekara and Seokhwan Kim and Luis Fernando D\'Haro and Abhinav Rastogi and Yun-Nung Chen and Mihail Eric and Behnam Hedayatnia and Karthik Gopalakrishnan and Yang Liu and Chao-Wei Huang and Dilek Hakkani-Tür and Jinchao Li and Qi Zhu and Lingxiao Luo and Lars Liden and Kaili Huang and Shahin Shayandeh and Runze Liang and Baolin Peng and Zheng Zhang and Swadheen Shukla and Minlie Huang and Jianfeng Gao and Shikib Mehri and Yulan Feng and Carla Gordon and Seyed Hossein Alavi and David Traum and Maxine Eskenazi and Ahmad Beirami and Eunjoon (EJ)Cho and Paul A. Crook and Ankita De and Alborz Geramifard and Satwik Kottur and Seungwhan Moon and Shivani Poddar and Rajen Subba'),
+       arxiv(2020, '2011.06486'),
+      )
+
+entry!('dilek2021alexa',
+       title('Alexa Prize Socialbot Grand Challenge Year {IV}'),
+       author('Dilek Hakkani-Tür'),
+       type('misc'),
+       year(2021),
+       howpublished('\url{https://www.amazon.science/alexa-prize/proceedings/alexa-prize-socialbot-grand-challenge-year-iv}'),
+      )
+
+entry!('gottardi2022alexa',
+       title('Alexa, let’s work together: Introducing the first Alexa Prize TaskBot Challenge on conversational task assistance'),
+       author('Anna Gottardi and Osman Ipek and Giuseppe Castellucci and Shui Hu and Lavina Vaz and Yao Lu and Anju Khatri and Anjali Chadha and Desheng Zhang and Sattvik Sahai and Prerna Dwivedi and Hangjie Shi and Lucy Hu and Andy Huang and Luke Dai and Bofei Yang and Varun Somani and Pankaj Rajan and Ron Rezac and Michael Johnston and Savanna Stiff and Leslie Ball and David Carmel and Yang Liu and Dilek Hakkani-Tür and Oleg Rokhlenko and Kate Bland and Eugene Agichtein and Reza Ghanadan and Yoelle Maarek'),
+       type('misc'),
+       year(2022),
+       howpublished('\url{https://www.amazon.science/publications/alexa-lets-work-together-introducing-the-first-alexa-prize-taskbot-challenge-on-conversational-task-assistance}'),
+      )
+
+entry!('gehrmann2022gemv2',
+       title('{GEM}v2: Multilingual {NLG} Benchmarking in a Single Line of Code'),
+       author('Sebastian Gehrmann and Abhik Bhattacharjee and Abinaya Mahendiran and Alex Wang and Alexandros Papangelis and Aman Madaan and Angelina McMillan-Major and Anna V. Shvets and Ashish Upadhyay and Bingsheng Yao and Bryan Wilie and Chandra Bhagavatula and Chaobin You and Craig Thomson and Cristina Garbacea and Dakuo Wang and Daniel Deutsch and Deyi Xiong and Di Jin and Dimitra Gkatzia and Dragomir Radev and Elizabeth Clark and Esin Durmus and Faisal Ladhak and Filip Ginter and Genta Indra Winata and Hendrik Strobelt and Hiroaki Hayashi and Jekaterina Novikova and Jenna Kanerva and Jenny Chim and Jiawei Zhou and Jordan Clive and Joshua Maynez and Jo{\~a}o Sedoc and Juraj Juraska and Kaustubh D. Dhole and Khyathi Raghavi Chandu and Leonardo F. R. Ribeiro and Lewis Tunstall and Li Zhang and Mahima Pushkarna and Mathias Creutz and Michael White and Mihir Kale and Moussa Kamal Eddine and Nico Daheim and Nishant Subramani and Ondrej Dusek and Paul Pu Liang and Pawan Sasanka Ammanamanchi and Qinqin Zhu and Ratish Puduppully and Reno Kriz and Rifat Shahriyar and Ronald Cardenas and Saad Mahamood and Salomey Osei and Samuel Cahyawijaya and Sanja vStajner and S{\'e}bastien Montella and Shailza and Shailza Jolly and Simon Mille and Tahmid Hasan and Tianhao Shen and Tosin P. Adewumi and Vikas Raunak and Vipul Raheja and Vitaly Nikolaev and Vivian Tsai and Yacine Jernite and Yi Xu and Yisi Sang and Yixin Liu and Yufang Hou'),
+       arxiv(2022, '2206.11249'),
+      )
+
+entry!('hoeve2021towards',
+       title('Towards Interactive Language Modeling'),
+       author('Maartje ter Hoeve and Evgeny Kharitonov and Dieuwke Hupkes and Emmanuel Dupoux'),
+       arxiv(2021, '2112.11911'),
+      )
+
+entry!('hadfieldmenell2016cooperative',
+       title('Cooperative Inverse Reinforcement Learning'),
+       author('Hadfield-Menell, Dylan and Russell, Stuart J and Abbeel, Pieter and Dragan, Anca'),
+       neurips(2016),
+      )
+
+entry!('salton1970evaluation',
+       title('Evaluation problems in interactive information retrieval'),
+       author('G. Salton'),
+       article('Information Storage and Retrieval', 1970, 6),
+       number(1),
+       pages(29, 44),
+      )
+
+entry!('belkin1982ask',
+       title('Ask for Information Retrieval: Part {I}. Background and Theory'),
+       author('Nicholas J. Belkin and Robert N. Oddy and Helen M. Brooks'),
+       article('J. Documentation', 1982, 38),
+       pages(61, 71),
+      )
+
+entry!('kuhlthau1991inside',
+       title('Inside the search process: Information seeking from the user\'s perspective'),
+       author('Kuhlthau, Carol C.'),
+       article('Journal of the American Society for Information Science', 1991, 42),
+       number(5),
+       pages(361, 371),
+      )
+
+entry!('ingwersen1992information',
+       title('Information retrieval interaction'),
+       author('Ingwersen, Peter'),
+       book('Taylor Graham', 1992),
+      )
+
+entry!('marchionini2006exploratory',
+       title('Exploratory Search: From Finding to Understanding'),
+       author('Marchionini, Gary'),
+       article('Communications of the ACM', 2006, 49),
+       pages(41, 46),
+      )
+
+entry!('micarelli2007personalized',
+       title('Personalized search on the world wide web'),
+       author('Alessandro Micarelli and Fabio Gasparetti and Filippo  Sciarrone and Susan Gauch'),
+       incollection('The adaptive web', 2007),
+       publisher('Springer'),
+       pages(195, 230),
+      )
+
+entry!('croft2019importance',
+       title('The Importance of Interaction for Information Retrieval'),
+       author('Croft, W. Bruce'),
+       sigir(2019),
+      )
+
+entry!('kamm1994user',
+       title('User Interfaces for Voice Applications'),
+       author('Kamm, Candace'),
+       incollection('Voice Communication between Humans and Machines', 1994),
+       publisher('National Academy Press'),
+       pages(422, 442),
+      )
+
+entry!('cohen2004voice',
+       title('Voice User Interface Design'),
+       author('Cohen, Michael and Giangola, James P. and Balogh, Jennifer'),
+       book('Addison-Wesley', 2004),
+      )
+
+entry!('harris2004voice',
+       title('Voice Interaction Design: Crafting the New Conversational Speech Systems'),
+       author('Harris, R.A.'),
+       book('Elsevier Science', 2004),
+      )
+
+entry!('virtanen2020scipy',
+       title('{{SciPy} 1.0: Fundamental Algorithms for Scientific Computing in Python}'),
+       author('Virtanen, Pauli and Gommers, Ralf and Oliphant, Travis E. and Haberland, Matt and Reddy, Tyler and Cournapeau, David and Burovski, Evgeni and Peterson, Pearu and Weckesser, Warren and Bright, Jonathan and {van der Walt}, St{\'e}fan J. and Brett, Matthew and Wilson, Joshua and Millman, K. Jarrod and Mayorov, Nikolay and Nelson, Andrew R. J. and Jones, Eric and Kern, Robert and Larson, Eric and Carey, C J and Polat, {\.I}lhan and Feng, Yu and Moore, Eric W. and {VanderPlas}, Jake and Laxalde, Denis and Perktold, Josef and Cimrman, Robert and Henriksen, Ian and Quintero, E. A. and Harris, Charles R. and Archibald, Anne M. and Ribeiro, Ant{\^o}nio H. and Pedregosa, Fabian and {van Mulbregt}, Paul and {SciPy 1.0 Contributors}'),
+       article('Nature Methods', 2020, 17),
+       pages(261, 272),
+      )
+
+entry!('rcoreteam2020r',
+       title('{R}: A Language and Environment for Statistical Computing'),
+       author('{R Core Team}'),
+       type('misc'),
+       year(2020),
+       howpublished('\url{https://www.R-project.org}'),
+      )
+
+entry!('bland1995multiple',
+       title('Multiple significance tests: the {B}onferroni method'),
+       author('Bland, J Martin and Altman, Douglas G'),
+       article('BMJ', 1995, 310),
+       number(6973),
+      )
+
+entry!('nyt2022chatgpt',
+       title('The Brilliance and Weirdness of {ChatGPT}'),
+       author('{New York Times}'),
+       type('misc'),
+       year(2022),
+       howpublished('\url{https://www.nytimes.com/2022/12/05/technology/chatgpt-ai-twitter.html}'),
+      )
+
+entry!('shneiderman1997direct',
+       title('Direct manipulation vs. interface agents'),
+       author('Ben Shneiderman and Pattie Maes'),
+       article('ACM Interactions', 1997),
+      )
+
+entry!('shneiderman2022human',
+       title('Human-Centered {AI}'),
+       author('Ben Shneiderman'),
+       book('{OUP} {O}xford', 2022),
+      )
+
+entry!('paranjape2020neural',
+       title('Neural generation meets real people: Towards emotionally engaging mixed-initiative conversations'),
+       author('Paranjape, Ashwin and See, Abigail and Kenealy, Kathleen and Li, Haojun and Hardy, Amelia and Qi, Peng and Sadagopan, Kaushik Ram and Phu, Nguyet Minh and Soylu, Dilara and Manning, Christopher D'),
+       arxiv(2020, '2008.12348'),
+      )
+
+entry!('shuster2022blenderbot',
+       title('{BlenderBot} 3: a deployed conversational agent that continually learns to responsibly engage'),
+       author('Shuster, Kurt and Xu, Jing and Komeili, Mojtaba and Ju, Da and Smith, Eric Michael and Roller, Stephen and Ung, Megan and Chen, Moya and Arora, Kushal and Lane, Joshua and Behrooz, Morteza and Ngan, William and Poff, Spencer and Goyal, Naman and Szlam, Arthur and Boureau, Y-Lan and Kambadur, Melanie and Weston, Jason'),
+       arxiv(2022, '2208.03188'),
+      )
