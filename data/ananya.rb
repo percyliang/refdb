@@ -656,3 +656,9 @@ entry!('touvron2023llama',
   author('Hugo Touvron and Thibaut Lavril and Gautier Izacard and Xavier Martinet and Marie-Anne Lachaux and Timothée Lacroix and Baptiste Rozière and Naman Goyal and Eric Hambro and Faisal Azhar and Aurelien Rodriguez and Armand Joulin and Edouard Grave and Guillaume Lample'),
   arxiv(2023),
 )
+
+entry!('rosenfeld2022domain',
+  title('Domain-Adjusted Regression or: {ERM} May Already Learn Features Sufficient for Out-of-Distribution Generalization'),
+  author('Elan Rosenfeld and Pradeep Ravikumar and Andrej Risteski'),
+  arxiv(2022),
+)
