@@ -662,3 +662,27 @@ entry!('rosenfeld2022domain',
   author('Elan Rosenfeld and Pradeep Ravikumar and Andrej Risteski'),
   arxiv(2022),
 )
+
+entry!('goodfellow2014empirical',
+  title('An Empirical Investigation of Catastrophic Forgeting in Gradient-Based Neural Networks'),
+  author('Ian J. Goodfellow and Mehdi Mirza and Xia Da and Aaron C. Courville and Yoshua Bengio'),
+  iclr(2014),
+)
+
+entry!('baxter2000model',
+  title('A model of inductive bias learning'),
+  author('Jonathan Baxter'),
+  jair(2000,12),
+)
+
+entry!('maurer2016benefit',
+  title('The Benefit of Multitask Representation Learning'),
+  author('Andreas Maurer and Massimiliano Pontil and Bernardino Romera-Paredes'),
+  jmlr(2016,7),
+)
+
+entry!('lee2021predicting',
+  title('Predicting What You Already Know Helps: Provable Self-Supervised Learning'),
+  author('Jason D. Lee and Qi Lei and Nikunj Saunshi and Jiacheng Zhuo'),
+  neurips(2021),
+)
