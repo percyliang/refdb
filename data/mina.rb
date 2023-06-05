@@ -988,3 +988,47 @@ entry!('shuster2022blenderbot',
        author('Shuster, Kurt and Xu, Jing and Komeili, Mojtaba and Ju, Da and Smith, Eric Michael and Roller, Stephen and Ung, Megan and Chen, Moya and Arora, Kushal and Lane, Joshua and Behrooz, Morteza and Ngan, William and Poff, Spencer and Goyal, Naman and Szlam, Arthur and Boureau, Y-Lan and Kambadur, Melanie and Weston, Jason'),
        arxiv(2022, '2208.03188'),
       )
+
+entry!('openai2023gpt4',
+       title('{GPT}-4 Technical Report'),
+       author('{OpenAI}'),
+       arxiv(2023, '2303.08774'),
+      )
+
+entry!('zhou2021paraphrase',
+       title('Paraphrase Generation: A Survey of the State of the Art'),
+       author('Jianing Zhou and Suma Bhat'),
+       emnlp(2021),
+      )
+
+entry!('yang2018style',
+       title('Unsupervised Text Style Transfer using Language Models as Discriminators'),
+       author('Zichao Yang and Zhiting Hu and Chris Dyer and Eric P. Xing and Taylor Berg-Kirkpatrick'),
+       neurips(2018),
+      )
+
+entry!('reif2021style',
+       title('A Recipe For Arbitrary Text Style Transfer with Large Language Models'),
+       author('Emily Reif and Daphne Ippolito and Ann Yuan and Andy Coenen and Chris Callison-Burch and Jason Wei'),
+       arxiv(2021, '2109.03910'),
+      )
+
+entry!('suzgun2022prompt',
+       title('{Prompt-and-Rerank}: A Method for Zero-Shot and Few-Shot Arbitrary Textual Style Transfer with Small Language Models'),
+       author('Mirac Suzgun and Luke Melas-Kyriazi and Dan Jurafsky'),
+       arxiv(2022, '2205.11503'),
+      )
+
+entry!('wang2023codet5',
+       title('{CodeT5+}: Open Code Large Language Models for Code Understanding and Generation'),
+       author('Yue Wang and Hung Le and Akhilesh Deepak Gotmare and Nghi D.Q. Bui and Junnan Li and Steven C.H. Hoi'),
+       arxiv(2023, '2305.07922'),
+      )
+
+entry!('openai2022chatgpt',
+       title('Introducing {ChatGPT}'),
+       author('{OpenAI}'),
+       type('misc'),
+       howpublished('\url{https://openai.com/blog/chatgpt}'),
+       year(2022),
+      )
