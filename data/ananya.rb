@@ -686,3 +686,33 @@ entry!('lee2021predicting',
   author('Jason D. Lee and Qi Lei and Nikunj Saunshi and Jiacheng Zhuo'),
   neurips(2021),
 )
+
+entry!('hu2022lora',
+  title('LoRA: Low-Rank Adaptation of Large Language Models'),
+  author('Edward J. Hu and Yelong Shen and Phillip Wallis and Zeyuan Allen-Zhu and Yuanzhi Li and Shean Wang and Lu Wang and Weizhu Chen'),
+  iclr(2022),
+)
+
+entry!('balestriero2023cookbook',
+  title('A Cookbook of Self-Supervised Learning'),
+  author('Randall Balestriero and Mark Ibrahim and Vlad Sobal and Ari Morcos and Shashank Shekhar and Tom Goldstein and Florian Bordes and Adrien Bardes and Gregoire Mialon and Yuandong Tian and Avi Schwarzschild and Andrew Gordon Wilson and Jonas Geiping and Quentin Garrido and Pierre Fernandez and Amir Bar and Hamed Pirsiavash and Yann LeCun and Micah Goldblum'),
+  arxiv(2023),
+)
+
+entry!('wei2021theoretical',
+  title('Theoretical Analysis of Self-Training with Deep Networks on Unlabeled Data'),
+  author('Colin Wei and Kendrick Shen and Yining Chen and Tengyu Ma'),
+  iclr(2021),
+)
+
+entry!('wang2023selfinstruct',
+  title('Self-Instruct: Aligning Language Models with Self-Generated Instructions'),
+  author('Yizhong Wang and Yeganeh Kordi and Swaroop Mishra and Alisa Liu and Noah A. Smith and Daniel Khashabi and Hannaneh Hajishirzi'),
+  acl(2023),
+)
+
+entry!('bai2023constitutional',
+  title('Constitutional {AI}: Harmlessness from {AI} Feedback'),
+  author('Yuntao Bai and Saurav Kadavath and Sandipan Kundu and Amanda Askell and Jackson Kernion and Andy Jones and Anna Chen and Anna Goldie and Azalia Mirhoseini and Cameron McKinnon and Carol Chen and Catherine Olsson and Christopher Olah and Danny Hernandez and Dawn Drain and Deep Ganguli and Dustin Li and Eli Tran-Johnson and Ethan Perez and Jamie Kerr and Jared Mueller and Jeffrey Ladish and Joshua Landau and Kamal Ndousse and Kamile Lukosuite and Liane Lovitt and Michael Sellitto and Nelson Elhage and Nicholas Schiefer and Noemi Mercado and Nova DasSarma and Robert Lasenby and Robin Larson and Sam Ringer and Scott Johnston and Shauna Kravec and Sheer El Showk and Stanislav Fort and Tamera Lanham and Timothy Telleen-Lawton and Tom Conerly and Tom Henighan and Tristan Hume and Samuel R. Bowman and Zac Hatfield-Dodds and Ben Mann and Dario Amodei and Nicholas Joseph and Sam McCandlish and Tom Brown and Jared Kaplan'),
+  arxiv(2023),
+)
