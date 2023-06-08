@@ -87,6 +87,7 @@ def chiea(year); inproceedings(Name.new('Extended Abstracts of Conference on Hum
 def tochi(year); inproceedings(Name.new('ACM Transactions on Computer-Human Interaction', 'TOCHI'), year) end
 def dis(year); inproceedings(Name.new('ACM Designing Interactive Systems Conference', 'DIS'), year) end
 def assets(year); inproceedings(Name.new('ACM SIGACCESS Conference on Computers and Accessibility', 'ASSETS'), year) end
+def cscw(year); inproceedings(Name.new('Computer-Supported Cooperative Work And Social Computing', 'CSCW'), year) end
 
 ### Computer vision
 def eccv(year); [inproceedings(Name.new('European Conference on Computer Vision', 'ECCV'), year)] end

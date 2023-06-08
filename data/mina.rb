@@ -1032,3 +1032,22 @@ entry!('openai2022chatgpt',
        howpublished('\url{https://openai.com/blog/chatgpt}'),
        year(2022),
       )
+
+entry!('birnholtz2013write',
+       title('Write Here, Write Now! An Experimental Study of Group Maintenance in Collaborative Writing'),
+       author('Birnholtz, Jeremy and Steinhardt, Stephanie and Pavese, Antonella'),
+       chi(2013),
+      )
+
+entry!('maclean1991design',
+       title('Questions, Options, and Criteria: Elements of Design Space Analysis'),
+       author('Allan MacLean and Richard M Young and Victoria M E Bellotti and and Thomas P Moran'),
+       article('Human-{C}omputer {I}nteraction', 1991, 6),
+       pages(201, 250),
+      )
+
+entry!('mieczkowski2023thesis',
+       title('Examining Agency, Expertise, and Roles of {AI} Systems in {AI}-Mediated Communication'),
+       author('Hannah Mieczkowski and Jeffrey Hancock'),
+       cscw(2023),
+      )

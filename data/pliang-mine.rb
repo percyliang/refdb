@@ -1,7 +1,7 @@
 ############################################################
 # 2023
 
-# ACL 
+# ACL
 entry!('liu2023sample',
   title('Are Sample-Efficient {NLP} Models More Robust?'),
   author('Nelson F. Liu and Ananya Kumar and Percy Liang and Robin Jia'),
@@ -119,10 +119,10 @@ entry!('bommasani2022trustworthy',
   url('https://arxiv.org/pdf/2212.11672.pdf'),
 )
 
-entry!('lee2023evaluating',
+entry!('lee2022evaluating',
   title('Evaluating Human-Language Model Interaction'),
   author('Mina Lee and Megha Srivastava and Amelia Hardy and John Thickstun and Esin Durmus and Ashwin Paranjape and Ines Gerard-Ursin and Xiang Lisa Li and Faisal Ladhak and Frieda Rong and Rose E. Wang and Minae Kwon and Joon Sung Park and Hancheng Cao and Tony Lee and Rishi Bommasani and Michael Bernstein and Percy Liang'),
-  arxiv(2023),
+  arxiv(2022),
   url('https://arxiv.org/pdf/2212.09746.pdf'),
 )
 
