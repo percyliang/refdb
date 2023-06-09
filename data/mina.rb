@@ -1090,7 +1090,7 @@ entry!('moslem2023mt',
 
 entry!('goodman2022lampost',
        title('{LaMPost}: Design and Evaluation of an {AI}-assisted Email Writing Prototype for Adults with Dyslexia'),
-       author('oodman, Steven M. and Buehler, Erin and Clary, Patrick and Coenen, Andy and Donsbach, Aaron and Horne, Tiffanie N. and Lahav, Michal and MacDonald, Robert and Michaels, Rain Breaw and Narayanan, Ajit and Pushkarna, Mahima and Riley, Joel and Santana, Alex and Shi, Lei and Sweeney, Rachel and Weaver, Phil and Yuan, Ann and Morris, Meredith Ringel'),
+       author('Goodman, Steven M. and Buehler, Erin and Clary, Patrick and Coenen, Andy and Donsbach, Aaron and Horne, Tiffanie N. and Lahav, Michal and MacDonald, Robert and Michaels, Rain Breaw and Narayanan, Ajit and Pushkarna, Mahima and Riley, Joel and Santana, Alex and Shi, Lei and Sweeney, Rachel and Weaver, Phil and Yuan, Ann and Morris, Meredith Ringel'),
        assets(2022),
       )
 
