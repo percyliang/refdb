@@ -1063,3 +1063,9 @@ entry!('dang2023choice',
        author('Dang, Hai and Goller, Sven and Lehmann, Florian and Buschek, Daniel'),
        chi(2023),
       )
+
+entry!('liang2023gptdetector',
+       title('{GPT} detectors are biased against non-native {E}nglish writers'),
+       author('Weixin Liang and Mert Yuksekgonul and Yining Mao and Eric Wu and James Zou'),
+       arxiv(2023, '2304.02819'),
+      )
