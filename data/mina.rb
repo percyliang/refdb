@@ -1069,3 +1069,39 @@ entry!('liang2023gptdetector',
        author('Weixin Liang and Mert Yuksekgonul and Yining Mao and Eric Wu and James Zou'),
        arxiv(2023, '2304.02819'),
       )
+
+entry!('valencia2023aac',
+       title('``The less {I} type, the better'': How {AI} Language Models can Enhance or Impede Communication for {AAC} Users'),
+       author('Valencia, Stephanie and Cave, Richard and Kallarackal, Krystal and Seaver, Katie and Terry, Michael and Kane, Shaun K.'),
+       chi(2023),
+      )
+
+entry!('liu2022console',
+       title('Will {AI} Console Me when {I} Lose my Pet? Understanding Perceptions of {AI}-Mediated Email Writing'),
+       author('Liu, Yihe and Mittal, Anushk and Yang, Diyi and Bruckman, Amy'),
+       chi(2022),
+      )
+
+entry!('moslem2023mt',
+       title('Adaptive Machine Translation with Large Language Models'),
+       author('Yasmin Moslem and Rejwanul Haque and John D. Kelleher and Andy Way'),
+       arxiv(2023, '2301.13294'),
+      )
+
+entry!('goodman2022lampost',
+       title('{LaMPost}: Design and Evaluation of an {AI}-assisted Email Writing Prototype for Adults with Dyslexia'),
+       author('oodman, Steven M. and Buehler, Erin and Clary, Patrick and Coenen, Andy and Donsbach, Aaron and Horne, Tiffanie N. and Lahav, Michal and MacDonald, Robert and Michaels, Rain Breaw and Narayanan, Ajit and Pushkarna, Mahima and Riley, Joel and Santana, Alex and Shi, Lei and Sweeney, Rachel and Weaver, Phil and Yuan, Ann and Morris, Meredith Ringel'),
+       assets(2022),
+      )
+
+entry!('hohenstein2021communication',
+       title('Artificial intelligence in communication impacts language and social relationships'),
+       author('Jess Hohenstein and Dominic DiFranzo and Rene F. Kizilcec and Zhila Aghajari and Hannah Mieczkowski and Karen Levy and Mor Naaman and Jeff Hancock and Malte Jung'),
+       arxiv(2021, '2102.05756'),
+      )
+
+entry!('fabbri2021summeval',
+       title('{SummEval}: Re-evaluating Summarization Evaluation'),
+       author('Fabbri, Alexander R. and Kryściński, Wojciech and McCann, Bryan and Xiong, Caiming and Socher, Richard and Radev, Dragomir'),
+       tacl(2021, 9),
+      )
