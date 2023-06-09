@@ -1105,3 +1105,34 @@ entry!('fabbri2021summeval',
        author('Fabbri, Alexander R. and Kryściński, Wojciech and McCann, Bryan and Xiong, Caiming and Socher, Richard and Radev, Dragomir'),
        tacl(2021, 9),
       )
+
+entry!('jelinek1980interpolated',
+       title('Interpolated estimation of {M}arkov source parameters from sparse data'),
+       author('Jelinek, Frederick'),
+       article('Proceeding of the Workshop on Pattern Recognition in Practice', 1980),
+       pages(381, 397),
+      )
+
+entry!('katz1987estimation',
+       title('Estimation of probabilities from sparse data for the language model component of a speech recognizer'),
+       author('Katz, Slava'),
+       icassp(1987),
+      )
+
+entry!('fernandez2007rnn',
+       author('Fern\'{a}ndez, Santiago and Graves, Alex and Schmidhuber, J\"{u}rgen'),
+       title('An Application of Recurrent Neural Networks to Discriminative Keyword Spotting'),
+       icann(2007),
+      )
+
+entry!('goldbert2015primer',
+       author('Yoav Goldberg'),
+       title('A Primer on Neural Network Models for Natural Language Processing'),
+       arxiv(2015, '1510.00726'),
+      )
+
+entry!('bavarian2022fill',
+      author('Mohammad Bavarian and Heewoo Jun and Nikolas Tezak and John Schulman and Christine McLeavey and Jerry Tworek and Mark Chen'),
+      title('Efficient Training of Language Models to Fill in the Middle'),
+      arxiv(2022, '2207.14255'),
+      )
