@@ -1051,3 +1051,15 @@ entry!('mieczkowski2023thesis',
        author('Hannah Mieczkowski and Jeffrey Hancock'),
        cscw(2023),
       )
+
+entry!('birhane2021value',
+       title('The Values Encoded in Machine Learning Research'),
+       author('Birhane, Abeba and Kalluri, Pratyusha and Card, Dallas and Agnew, William and Dotan, Ravit and Bao, Michelle'),
+       arxiv(2021, '2106.15590'),
+      )
+
+entry!('dang2023choice',
+       title('Choice Over Control: How Users Write with Large Language Models using Diegetic and Non-Diegetic Prompting'),
+       author('Dang, Hai and Goller, Sven and Lehmann, Florian and Buschek, Daniel'),
+       chi(2023),
+      )
