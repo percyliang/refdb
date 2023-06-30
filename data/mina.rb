@@ -1136,3 +1136,153 @@ entry!('bavarian2022fill',
       title('Efficient Training of Language Models to Fill in the Middle'),
       arxiv(2022, '2207.14255'),
       )
+
+entry!('dubois2023alpacafarm',
+       author('Yann Dubois and Xuechen Li and Rohan Taori and Tianyi Zhang and Ishaan Gulrajani and Jimmy Ba and Carlos Guestrin and Percy Liang and Tatsunori B. Hashimoto'),
+       title('{AlpacaFarm}: A Simulation Framework for Methods that Learn from Human Feedback'),
+       arxiv(2023, '2305.14387'),
+      )
+
+entry!('belz2023missing',
+       author('Belz, Anya and Thomson, Craig and Reiter, Ehud'),
+       title('Missing Information, Unresponsive Authors, Experimental Flaws: The Impossibility of Assessing the Reproducibility of Previous Human Evaluations in {NLP}'),
+       inproceedings('ACL Workshop on Insights from Negative Results in {NLP}', 2023),
+      )
+
+entry!('veselovsky2023aaai',
+       title('Artificial Artificial Artificial Intelligence: Crowd Workers Widely Use Large Language Models for Text Production Tasks'),
+       author('Veniamin Veselovsky and Manoel Horta Ribeiro and Robert West'),
+       arxiv(2023, '2306.07899'),
+      )
+
+entry!('xu2020recipes',
+       title('Recipes for safety in open-domain chatbots'),
+       author('Xu, Jing and Ju, Da and Li, Margaret and Boureau, Y-Lan and Weston, Jason and Dinan, Emily'),
+       arxiv(2020, '2010.07079'),
+      )
+
+entry!('ji2022achieving',
+       title('Achieving Reliable Human Assessment of Open-Domain Dialogue Systems'),
+       author('Ji, Tianbo  and Graham, Yvette  and Jones, Gareth  and Lyu, Chenyang  and Liu, Qun'),
+       acl(2022),
+      )
+
+entry!('bowman2022measuring',
+       title('Measuring Progress on Scalable Oversight for Large Language Models'),
+       author('Samuel R. Bowman and Jeeyoon Hyun and Ethan Perez and Edwin Chen and Craig Pettit and Scott Heiner and Kamilė Lukošiūtė and Amanda Askell and Andy Jones and Anna Chen and Anna Goldie and Azalia Mirhoseini and Cameron McKinnon and Christopher Olah and Daniela Amodei and Dario Amodei and Dawn Drain and Dustin Li and Eli Tran-Johnson and Jackson Kernion and Jamie Kerr and Jared Mueller and Jeffrey Ladish and Joshua Landau and Kamal Ndousse and Liane Lovitt and Nelson Elhage and Nicholas Schiefer and Nicholas Joseph and Noemí Mercado and Nova DasSarma and Robin Larson and Sam McCandlish and Sandipan Kundu and Scott Johnston and Shauna Kravec and Sheer El Showk and Stanislav Fort and Timothy Telleen-Lawton and Tom Brown and Tom Henighan and Tristan Hume and Yuntao Bai and Zac Hatfield-Dodds and Ben Mann and Jared Kaplan'),
+       arxiv(2022, '2211.03540'),
+      )
+
+entry!('peyrard2019simple',
+       title('A Simple Theoretical Model of Importance for Summarization'),
+       author('Peyrard, Maxime'),
+       acl(2019),
+      )
+
+entry!('cao2018faithful',
+       title('Faithful to the Original: Fact-Aware Neural Abstractive Summarization'),
+       author('Cao, Ziqiang and Wei, Furu and Li, Wenjie and Li, Sujian'),
+       aaai(2018),
+      )
+
+entry!('durmus2020feqa',
+       title('{FEQA}: A Question Answering Evaluation Framework for Faithfulness Assessment in Abstractive Summarization'),
+       author('Durmus, Esin  and He, He  and Diab, Mona'),
+       acl(2020),
+      )
+
+entry!('nan2021entity',
+       title('Entity-level Factual Consistency of Abstractive Text Summarization'),
+       author('Nan, Feng and Nallapati, Ramesh and Wang, Zhiguo and dos Santos, Cicero and Zhu, Henghui and Zhang, Dejiao and Mckeown, Kathleen and Xiang, Bing'),
+       eacl(2021),
+      )
+
+entry!('kang2020improved',
+       title('Improved Natural Language Generation via Loss Truncation'),
+       author('Kang, Daniel and Hashimoto, Tatsunori B'),
+       acl(2020),
+      )
+
+entry!('goyal2021annotating',
+       title('Annotating and Modeling Fine-grained Factuality in Summarization'),
+       author('Goyal, Tanya and Durrett, Greg'),
+       naacl(2021),
+      )
+
+entry!('nan2021improving',
+       title('Improving Factual Consistency of Abstractive Summarization via Question Answering'),
+       author('Nan, Feng and dos Santos, Cicero and Zhu, Henghui and Ng, Patrick and Mckeown, Kathleen and Nallapati, Ramesh and Zhang, Dejiao and Wang, Zhiguo and Arnold, Andrew O and Xiang, Bing'),
+       acl(2021),
+      )
+
+entry!('cao2021cliff',
+       title('{CLIFF}: Contrastive Learning for Improving Faithfulness and Factuality in Abstractive Summarization'),
+       author('Cao, Shuyang and Wang, Lu'),
+       emnlp(2021),
+      )
+
+entry!('chen2021improving',
+       title('Improving Faithfulness in Abstractive Summarization with Contrast Candidate Generation and Selection'),
+       author('Chen, Sihao and Zhang, Fan and Sone, Kazoo and Roth, Dan'),
+       naacl(2021),
+      )
+
+entry!('ladhak2022faithful',
+       title('Faithful or Extractive? On Mitigating the Faithfulness-Abstractiveness Trade-off in Abstractive Summarization'),
+       author('Ladhak, Faisal  and Durmus, Esin  and He, He  and Cardie, Claire  and McKeown, Kathleen'),
+       acl(2022),
+      )
+
+entry!('bohm2019better',
+       title('Better Rewards Yield Better Summaries: Learning to Summarise Without References'),
+       author('B{\"o}hm, Florian  and Gao, Yang  and Meyer, Christian M.  and Shapira, Ori  and Dagan, Ido  and Gurevych, Iryna'),
+       emnlp(2019)
+      )
+
+entry!('campos2022training',
+       title('Training Language Models with Language Feedback'),
+       author('Campos, Jon Ander and Shern, Jun'),
+       inproceedings('ACL Workshop on Learning with Natural Language Supervision', 2022),
+      )
+
+entry!('chakrabarty2021mermaid',
+       title('{MERMAID}: Metaphor Generation with Symbolism and Discriminative Decoding'),
+       author('Chakrabarty, Tuhin and Zhang, Xurui and Muresan, Smaranda and Peng, Nanyun'),
+       arxiv(2021, '2103.06779'),
+      )
+
+entry!('stowe2021metaphor',
+       title('Metaphor Generation with Conceptual Mappings'),
+       author('Stowe, Kevin and Chakrabarty, Tuhin and Peng, Nanyun and Muresan, Smaranda and Gurevych, Iryna'),
+       arxiv(2021, '2106.01228'),
+      )
+
+entry!('stowe2021exploring',
+       title('Exploring Metaphoric Paraphrase Generation'),
+       author('Stowe, Kevin and Beck, Nils and Gurevych, Iryna'),
+       conll(2021),
+      )
+
+entry!('mittal2022ambipun',
+       title('AmbiPun: Generating Humorous Puns with Ambiguous Context'),
+       author('Anirudh Mittal and Yufei Tian and Nanyun Peng'),
+       naacl(2022),
+      )
+
+entry!('liu2023geval',
+       title('{G-Eval}: {NLG} Evaluation using {GPT}-4 with Better Human Alignment'),
+       author('Yang Liu and Dan Iter and Yichong Xu and Shuohang Wang and Ruochen Xu and Chenguang Zhu'),
+       arxiv(2023, '2303.16634'),
+      )
+
+entry!('ethayarajh2022authenticity',
+       title('The Authenticity Gap in Human Evaluation'),
+       author('Kawin Ethayarajh and Dan Jurafsky'),
+       emnlp(2022),
+      )
+
+entry!('parmar2023instruction',
+       title('Don\'t Blame the Annotator: Bias Already Starts in the Annotation Instructions'),
+       author('Mihir Parmar and Swaroop Mishra and Mor Geva and Chitta Baral'),
+       eacl(2023),
+      )
