@@ -66,6 +66,7 @@ entry!('karamcheti2023voltron',
   author('Siddharth Karamcheti and Suraj Nair and Annie S. Chen and T. Kollar and Chelsea Finn and Dorsa Sadigh and Percy Liang'),
   arxiv(2023),
   url('https://arxiv.org/pdf/2302.12766.pdf'),
+  award('Best paper award finalist'),
 )
 
 entry!('sheng2023flexgen',
@@ -139,6 +140,15 @@ entry!('liu2023concurrence',
   arxiv(2023),
   url('https://arxiv.org/pdf/2102.01065.pdf'),
 )
+
+entry!('hewitt2023backpack',
+  title('Backpack Language Models'),
+  author('John Hewitt and John Thickstun and Christopher D. Manning and Percy Liang'),
+  acl(2023),
+  url('https://arxiv.org/pdf/2305.16765.pdf'),
+  award('Outstanding paper award'),
+)
+
 
 # HRI
 
