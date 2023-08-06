@@ -1,6 +1,20 @@
 ############################################################
 # 2023
 
+entry!('kuditipudi2023robust',
+  title('Robust Distortion-free Watermarks for Language Models'),
+  author('Rohith Kuditipudi and John Thickstun and Tatsunori Hashimoto and Percy Liang'),
+  arxiv(2023),
+  url('https://arxiv.org/pdf/2307.15593.pdf'),
+)
+
+entry!('liu2023lost',
+  title('Lost in the Middle: How Language Models Use Long Contexts'),
+  author('Nelson F. Liu and Kevin Lin and John Hewitt and Ashwin Paranjape and Michele Bevilacqua and Fabio Petroni and Percy Liang'),
+  arxiv(2023),
+  url('https://arxiv.org/pdf/2307.03172.pdf'),
+)
+
 entry!('xie2023data',
   title('Data Selection for Language Models via Importance Resampling'),
   author('Sang Michael Xie and Shibani Santurkar and Tengyu Ma and Percy Liang'),
