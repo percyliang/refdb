@@ -284,7 +284,7 @@ entry!('kumar2022calibrated',
 
 entry!('karamcheti2022lilac',
   title('Shared Autonomy for Robotic Manipulation with Language Corrections'),
-  author('Siddharth Karamcheti* and Raj Palleti* and Yuchen Cui and and Percy Liang and Dorsa Sadigh'),
+  author('Siddharth Karamcheti* and Raj Palleti* and Yuchen Cui and Percy Liang and Dorsa Sadigh'),
   inproceedings('ACL Workshop for Learning with Natural Language Supervision (NL Supervision)', 2022),
   url('https://iliad.stanford.edu/pdfs/publications/karamcheti2022lilac.pdf'),
 )

@@ -64,6 +64,7 @@ class Author
   def lastName(name); prepare(name.split)[-1] end
   def matches(value) # Return true if matches at least one of the authors
     @names.each { |name|
+      name = name[...-1] if name.end_with?('*')
       return true if name == value || shortName(name) == value || lastName(name) == value
     }
     false
