@@ -1,6 +1,35 @@
 ############################################################
 # 2023
 
+
+entry!('huang2023benchmarking',
+  title('Benchmarking Large Language Models As {AI} Research Agents'),
+  author('Qian Huang and Jian Vora and Percy Liang and J. Leskovec'),
+  arxiv(2023),
+  url('https://arxiv.org/pdf/2310.03302.pdf'),
+)
+
+entry!('yasunaga2023large',
+  title('Large Language Models as Analogical Reasoners'),
+  author('Michihiro Yasunaga and Xinyun Chen and Yujia Li and Panupong Pasupat and J. Leskovec and Percy Liang and Ed H. Chi and Denny Zhou'),
+  arxiv(2023),
+  url('https://arxiv.org/pdf/2310.01714.pdf'),
+)
+
+entry!('li2023benchmarking',
+  title('Benchmarking and Improving Generator-Validator Consistency of Language Models'),
+  author('Xiang Lisa Li and Vaishnavi Shrivastava and Siyan Li and Tatsunori Hashimoto and Percy Liang'),
+  arxiv(2023),
+  url('https://arxiv.org/pdf/2310.01846.pdf'),
+)
+
+entry!('fleming2023medalign',
+  title('MedAlign: A Clinician-Generated Dataset for Instruction Following with Electronic Medical Records'),
+  author('S. Fleming and A. Lozano and W. Haberkorn and Jenelle A. Jindal and E. Reis and Rahul Thapa and L. Blankemeier and Julian Z. Genkins and E. Steinberg and A. Nayak and Birju S. Patel and Chia-Chun Chiang and A. Callahan and Zepeng Huo and S. Gatidis and S. Adams and Oluseyi Fayanju and Shreya J. Shah and Thomas Savage and Ethan Goh and A. Chaudhari and N. Aghaeepour and Christopher D. Sharp and M. Pfeffer and Percy Liang and Jonathan H. Chen and K. Morse and E. Brunskill and Jason Alan Fries and N. Shah'),
+  arxiv(2023),
+  url('https://arxiv.org/pdf/2308.14089.pdf'),
+)
+
 entry!('kuditipudi2023robust',
   title('Robust Distortion-free Watermarks for Language Models'),
   author('Rohith Kuditipudi and John Thickstun and Tatsunori Hashimoto and Percy Liang'),
