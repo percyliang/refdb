@@ -75,12 +75,19 @@ def soda(year); inproceedings(Name.new('Symposium on Discrete Algorithms', 'SODA
 def itcs(year); inproceedings(Name.new('Innovations in Theoretical Computer Science', 'ITCS'), year) end
 def esa(year); inproceedings(Name.new('European Symposium on Algorithms', 'ESA'), year) end
 def sigir(year); inproceedings(Name.new('ACM Special Interest Group on Information Retreival', 'SIGIR'), year) end
-def uist(year); inproceedings(Name.new('User Interface Software and Technology', 'UIST'), year) end
-def chi(year); inproceedings(Name.new('Conference on Human Factors in Computing Systems', 'CHI'), year) end
 def recsys(year); inproceedings(Name.new('ACM Conference on Recommender Systems', 'RECSYS'), year) end
-
 def infotheory(year, volume); [article('IEEE Transactions on Information Theory', year, volume)] end
 def dmin(year); [inproceedings(Name.new('International Conference on Data Mining', 'DMIN'), year)] end
+
+### Human-computer interaction
+def uist(year); inproceedings(Name.new('User Interface Software and Technology', 'UIST'), year) end
+def chi(year); inproceedings(Name.new('Conference on Human Factors in Computing Systems', 'CHI'), year) end
+def iui(year); inproceedings(Name.new('Intelligent User Interfaces', 'IUI'), year) end
+def chiea(year); inproceedings(Name.new('Extended Abstracts of Conference on Human Factors in Computing Systems', 'CHI EA'), year) end
+def tochi(year); inproceedings(Name.new('ACM Transactions on Computer-Human Interaction', 'TOCHI'), year) end
+def dis(year); inproceedings(Name.new('ACM Designing Interactive Systems Conference', 'DIS'), year) end
+def assets(year); inproceedings(Name.new('ACM SIGACCESS Conference on Computers and Accessibility', 'ASSETS'), year) end
+def cscw(year); inproceedings(Name.new('Computer-Supported Cooperative Work And Social Computing', 'CSCW'), year) end
 
 ### Computer vision
 def eccv(year); [inproceedings(Name.new('European Conference on Computer Vision', 'ECCV'), year)] end

@@ -333,7 +333,7 @@ mobile phone metadata'),
   science(2015, 350),
 )
 entry!('epsey2015development',
-        author('Jessica Espey and Eric Swanson and Shaida Badiee and Zach Chistensen and Alex Fischer and Marc Levy and Greg Yetman and Alex de Sherbinin and Robert Chen and Yue Qiu and Geoffrey Greenwell and Thilo Klein and and Johannes Jutting and Morten Jerven and Grant Cameron and Ana Milena Aguilar Rivera and Victoriano C. Arias and and Samuel Lantei Mills and Albert Motivans'),
+        author('Jessica Espey and Eric Swanson and Shaida Badiee and Zach Chistensen and Alex Fischer and Marc Levy and Greg Yetman and Alex de Sherbinin and Robert Chen and Yue Qiu and Geoffrey Greenwell and Thilo Klein and Johannes Jutting and Morten Jerven and Grant Cameron and Ana Milena Aguilar Rivera and Victoriano C. Arias and Samuel Lantei Mills and Albert Motivans'),
   title('Data for Development: A Needs Assessment for {SDG} Monitoring and Statistical Capacity Development'),
   article('Sustainable Development Solutions Network', 2015, ),
 )
@@ -481,7 +481,7 @@ entry!('dodge2020finetuning',
   arxiv(2020)
       )
 entry!('lee2020mixout',
-       author('Cheolhyoung Lee and Kyunghyun Cho and and Wanmo Kang'),
+       author('Cheolhyoung Lee and Kyunghyun Cho and Wanmo Kang'),
        title('Mixout: Effective regularization to finetune large-scale pretrained language models'),
   iclr(2020)
       )
@@ -648,4 +648,233 @@ entry!('dosovitskiy2021vit',
        title('An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale'),
        author('Alexey Dosovitskiy and Lucas Beyer and Alexander Kolesnikov and Dirk Weissenborn and Xiaohua Zhai and Thomas Unterthiner and Mostafa Dehghani and Matthias Minderer and Georg Heigold and Sylvain Gelly and Jakob Uszkoreit and Neil Houlsby'),
        iclr(2021))
+
+entry!('gao2020pile',
+       title('The Pile: An 800GB Dataset of Diverse Text for Language Modeling'),
+       author('Leo Gao and Stella Biderman and Sid Black and Laurence Golding and Travis Hoppe and Charles Foster and Jason Phang and Horace He and Anish Thite and Noa Nabeshima and Shawn Presser and Connor Leahy'),
+       arxiv(2020))
+
+entry!('yao2022scratch',
+       title('{NLP} From Scratch Without Large-Scale Pretraining: A Simple and Efficient Framework'),
+       author('Xingcheng Yao and Yanan Zheng and Xiaocong Yang and Zhilin Yang'),
+       icml(2022))
+
+entry!('joulin2017bag',
+       title('Bag of Tricks for Efficient Text Classification'),
+       author('Armand Joulin and Edouard Grave and Piotr Bojanowski and Tomas Mikolov'),
+      article('European Chapter of the Association for Computational Linguistics (EACL)', 2017, 2))
+
+entry!('lee2022dedup',
+       title('Deduplicating Training Data Makes Language Models Better'),
+       author('Katherine Lee and Daphne Ippolito and Andrew Nystrom and Chiyuan Zhang and Douglas Eck and Chris Callison-Burch and Nicholas Carlini'),
+       acl(2022))
+
+entry!('hernandez2022repeated',
+       title('Scaling Laws and Interpretability of Learning from Repeated Data'),
+       author('Danny Hernandez and Tom Brown and Tom Conerly and Nova DasSarma and Dawn Drain and Sheer El-Showk and Nelson Elhage and Zac Hatfield-Dodds and Tom Henighan and Tristan Hume and Scott Johnston and Ben Mann and Chris Olah and Catherine Olsson and Dario Amodei and Nicholas Joseph and Jared Kaplan and Sam McCandlish'),
+       arxiv(2022))
+
+entry!('baevski2019cloze',
+       title('Cloze-driven Pretraining of Self-attention Networks'),
+       author('Alexei Baevski and Sergey Edunov and Yinhan Liu and Luke Zettlemoyer and Michael Auli'),
+       arxiv(2019))
+
+entry!('sorscher2022beyond',
+       title('Beyond neural scaling laws: beating power law scaling via data pruning'),
+       author('Ben Sorscher and Robert Geirhos and Shashank Shekhar and Surya Ganguli and Ari S. Morcos'),
+       arxiv(2022))
+
+entry!('mindermann2022prioritized',
+       title('Prioritized Training on Points that are Learnable, Worth Learning, and Not Yet Learnt'),
+       author('Sören Mindermann and Jan Brauner and Muhammed Razzak and Mrinank Sharma and Andreas Kirsch and Winnie Xu and Benedikt Höltgen and Aidan N. Gomez and Adrien Morisot and Sebastian Farquhar and Yarin Gal'),
+       icml(2022))
+
+entry!('kaushal2019learning',
+       title('Learning From Less Data: A Unified Data Subset Selection and Active Learning Framework for Computer Vision'),
+       author('Vishal Kaushal and Rishabh Iyer and Suraj Kothawade and Rohan Mahadev and Khoshrav Doctor and Ganesh Ramakrishnan'),
+      article('IEEE/CVF Winter Conference on Applicatios of Computer Vision (WACV)', 2019))
+
+entry!('killamsetty2021retrieve',
+       title('RETRIEVE: Coreset Selection for Efficient and Robust Semi-Supervised Learning'),
+       author('Krishnateja Killamsetty and Xujiang Zhao and Feng Chen and Rishabh Iyer'),
+       neurips(2021))
+
+entry!('killamsetty2021gradmatch',
+       title('{GRAD-MATCH}: Gradient Matching based Data Subset Selection for Efficient Deep Model Training'),
+       author('Krishnateja Killamsetty and Durga S and Ganesh Ramakrishnan and Abir De and Rishabh Iyer'),
+       icml(2021))
+
+entry!('wang2020optimizing',
+       title('Optimizing Data Usage via Differentiable Rewards'),
+       author('Xinyi Wang and Hieu Pham and Paul Michel and Antonios Anastasopoulos and Jaime Carbonell and Graham Neubig'),
+       icml(2020))
+
+entry!('wei2015submodular',
+       title('Submodularity in Data Subset Selection and Active Learning'),
+       author('Kai Wei and Rishabh Iyer and Jeff Bilmes'),
+       icml(2015))
+
+entry!('killamsetty2021glister',
+       title('GLISTER: Generalization based Data Subset Selection for Efficient and Robust Learning'),
+       author('Krishnateja Killamsetty and Durga Sivasubramanian and Ganesh Ramakrishnan and Rishabh Iyer'),
+       aaai(2021))
+
+entry!('paul2021diet',
+       title('Deep Learning on a Data Diet: Finding Important Examples Early in Training'),
+       author('Mansheej Paul and Surya Ganguli and Gintare Karolina Dziugaite'),
+       aaai(2021))
+
+entry!('mirzasoleiman2020coresets',
+       title('Coresets for Data-efficient Training of Machine Learning Models'),
+       author('Baharan Mirzasoleiman and Jeff Bilmes and Jure Leskovec'),
+       icml(2020))
+
+entry!('musser1999introspective',
+       title('Introspective Sorting and Selection Algorithms'),
+       author('David R. Musser'),
+       article('Software: Practice and Experience', 1999, 27))
+
+entry!('kool2019stochastic',
+       title('Stochastic Beams and Where to Find Them: The {Gumbel}-Top-{k} Trick for Sampling Sequences Without Replacement'),
+       author('Wouter Kool and Herke van Hoof and Max Welling'),
+       icml(2019))
+
+entry!('xie2019subset', title('Reparameterizable Subset Sampling via Continuous Relaxations'),
+       author('Sang Michael Xie and Stefano Ermon'),
+       ijcai(2019))
+
+entry!('vieira2014gumbel',
+    author('Tim Vieira'),
+  title('{Gumbel}-max trick and weighted reservoir sampling'),
+  [type('misc'), year(2014)])
+
+entry!('kim2016exact',
+       title('Exact sampling with integer linear programs and random perturbations'),
+       author('Carolyn Kim and Ashish Sabharwal and Stefano Ermon'),
+       aaai(2016))
+
+entry!('kringelum2016chemprot',
+       title('ChemProt-3.0: a global chemical biology diseases mapping'),
+       author('Jens Kringelum and Sonny Kim Kjærulff and Søren Brunak and Ole Lund and Tudor I. Oprea and Olivier Taboureau'),
+       article('Database', 2016))
+
+entry!('dernoncourt2017rct',
+       title('Pubmed 200k RCT: a dataset for sequential sentence classification in medical abstracts'),
+       author('Franck Dernoncourt and Ji Young Lee'),
+       article('IJCNLP', 2017))
+
+entry!('jurgens2018citation',
+       title('Measuring the evolution of a scientific field through citation frames'),
+       author('David Jurgens and Srijan Kumar and Raine Hoover and Daniel A. McFarland and Dan Jurafsky'),
+       tacl(2018, 6))
+
+
+entry!('luan2018scierc',
+       title('Multi-task identification of entities, relations, and coreference for scientific knowledge graph construction'),
+       author('Yi Luan and Luheng He and Mari Ostendorf and Hannaneh Hajishirzi'),
+       emnlp(2018))
+
+
+entry!('kiesel2019hyp',
+       title('SemEval2019 Task 4: Hyperpartisan news detection'),
+       author('Johannes Kiesel and Maria Mestre and Rishabh Shukla and Emmanuel Vincent and Payam Adineh and David Corney and Benno Stein and Martin Potthast'),
+       article('SemEval', 2019))
+
+entry!('mcauley2015amazon',
+       title('Image-based Recommendations on Styles and Substitutes'),
+       author('Julian McAuley and Christopher Targett and Qinfeng Shi and Anton van den Hengel'),
+       article('SIGIR', 2015))
+
+entry!('razeghi2022impact',
+       title('Impact of Pretraining Term Frequencies on Few-Shot Reasoning'),
+       author('Yasaman Razeghi and Robert L. Logan IV and Matt Gardner and Sameer Singh'),
+       arxiv(2022))
+
+entry!('izsak2021how',
+       title('How to Train {BERT} with an Academic Budget'),
+       author('Peter Izsak and Moshe Berchansky and Omer Levy'),
+       emnlp(2021))
+
+entry!('katharopoulos2018not',
+       title('Not All Samples Are Created Equal: Deep Learning with Importance Sampling'),
+       author('Angelos Katharopoulos and François Fleuret'),
+       icml(2018))
+
+entry!('alain2016variance',
+       title('Variance Reduction in {SGD} by Distributed Importance Sampling'),
+       author('Guillaume Alain and Alex Lamb and Chinnadhurai Sankar and Aaron Courville and Yoshua Bengio'),
+       iclr(2016))
+
+entry!('bordes2005fast',
+       title('Fast Kernel Classifiers with Online and Active Learning'),
+       author('Antoine Bordes and Seyda Ertekin and Jason Weston and Leon Bottou'),
+       jmlr(2005, 6))
+
+entry!('richtarik2013optimal',
+       title('On Optimal Probabilities in Stochastic Coordinate Descent Methods'),
+       author('Peter Richtárik and Martin Takáč'),
+       arxiv(2013))
+
+entry!('zhao2015stochastic',
+       title('Stochastic Optimization with Importance Sampling for Regularized Loss Minimization'),
+       author('Peilin Zhao and Tong Zhang'),
+       icml(2015))
+
+entry!('bengio2009curriculum',
+       title('Curriculum Learning'),
+       author('Yoshua Bengio and Jerome Louradour and Ronan Collobert and Jason Weston'),
+       icml(2009))
+
+entry!('serra2015discriminative',
+       title('Discriminative Learning of Deep Convolutional Feature Point Descriptors'),
+       author('Edgar Simo-Serra and Eduard Trulls and Luis Ferraz and Iasonas Kokkinos and Pascal Fua and Francesc Moreno-Noguer'),
+       iccv(2015))
+
+
+entry!('schroff2015facenet',
+       title('FaceNet: A Unified Embedding for Face Recognition and Clustering'),
+       author('Florian Schroff and Dmitry Kalenichenko and James Philbin'),
+       cvpr(2015))
+
+
+entry!('loshchilov2016online',
+       title('Online batch selection for faster training of neural networks'),
+       author('Ilya Loshchilov and Frank Hutter'),
+       iclrWorkshop(2016))
+
+entry!('kaplan2020scaling',
+       title('Scaling Laws for Neural Language Models'),
+       author('Jared Kaplan and Sam McCandlish and Tom Henighan and Tom B. Brown and Benjamin Chess and Rewon Child and Scott Gray and Alec Radford and Jeffrey Wu and Dario Amodei'),
+       arxiv(2020))
+
+entry!('lo2020s2orc',
+       title('S2ORC: The Semantic Scholar Open Research Corpus'),
+       author('Kyle Lo and Lucy Lu Wang and Mark Neumann and Rodney Kinney and Daniel S. Weld'),
+       acl(2020))
+
+entry!('bengtsson2008curse',
+       title('Curse-of-dimensionality revisited: Collapse of the particle filter in very large scale systems'),
+       author('Thomas Bengtsson and Peter Bickel and Bo Li'),
+       arxiv(2008))
+
+entry!('snyder2008obstacles',
+       title('Obstacles to High-Dimensional Particle Filtering'),
+       author('Chris Snyder and Thomas Bengtsson and Peter Bickel and Jeff Anderson'),
+       article('Mathematical Advances in Data Assimilation (MADA)', 2008))
+
+entry!('rubin1988sir',
+       title('Using the {SIR} Algorithm to Simulate Posterior Distributions'),
+       author('Donald B. Rubin'),
+       article('Bayesian Statistics', 1988))
+
+entry!('gelman2004applied',
+       title('Applied {Bayesian} modeling and causal inference from incomplete-data perspectives'),
+       author('Andrew Gelman and Xiao-Li Meng'),
+       article('Wiley Series in Probability and Statistics', 2004))
+
+entry!('weinberger2009feature',
+       title('Feature Hashing for Large Scale Multitask Learning'),
+       author('Kilian Weinberger and Anirban Dasgupta and John Langford and Alex Smola and Josh Attenberg'),
+       icml(2009))
+
 

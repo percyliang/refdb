@@ -615,12 +615,6 @@ entry!('luo2020privacy',
   arxiv(2020),
 )
 
-entry!('lee2022surgical',
-  title('Surgical Fine-Tuning Improves Adaptation to Distribution Shifts'),
-  author('Yoonho Lee and Annie S. Chen and Fahim Tajwar and Ananya Kumar and Huaxiu Yao and Percy Liang and Chelsea Finn'),
-  arxiv(2022),
-)
-
 entry!('kumar2022sgd',
   title('How to Fine-Tune Vision Models with {SGD}'),
   author('Ananya Kumar and Ruoqi Shen and Sébastien Bubeck and Suriya Gunasekar'),
@@ -637,4 +631,88 @@ entry!('goyal2022finetune',
   title('Finetune like you pretrain: Improved finetuning of zero-shot vision models'),
   author('Sachin Goyal and Ananya Kumar and Sankalp Garg and Zico Kolter and Aditi Raghunathan'),
   arxiv(2022),
+)
+
+entry!('sanchez2011cvpr',
+  title('High-dimensional signature compression for large-scale image classification'),
+  author('Jorge Sanchez and Florent Perronnin'),
+  cvpr(2011),
+)
+
+entry!('pham2021meta',
+  title('Meta Pseudo Labels'),
+  author('Hieu Pham and Zihang Dai and Qizhe Xie and Quoc V. Le'),
+  cvpr(2021),
+)
+
+entry!('ramesh2022hierarchical',
+  title('Hierarchical Text-Conditional Image Generation with {CLIP} Latents'),
+  author('Aditya Ramesh and Prafulla Dhariwal and Alex Nichol and Casey Chu and Mark Chen'),
+  arxiv(2022),
+)
+
+entry!('touvron2023llama',
+  title('LLaMA: Open and Efficient Foundation Language Models'),
+  author('Hugo Touvron and Thibaut Lavril and Gautier Izacard and Xavier Martinet and Marie-Anne Lachaux and Timothée Lacroix and Baptiste Rozière and Naman Goyal and Eric Hambro and Faisal Azhar and Aurelien Rodriguez and Armand Joulin and Edouard Grave and Guillaume Lample'),
+  arxiv(2023),
+)
+
+entry!('rosenfeld2022domain',
+  title('Domain-Adjusted Regression or: {ERM} May Already Learn Features Sufficient for Out-of-Distribution Generalization'),
+  author('Elan Rosenfeld and Pradeep Ravikumar and Andrej Risteski'),
+  arxiv(2022),
+)
+
+entry!('goodfellow2014empirical',
+  title('An Empirical Investigation of Catastrophic Forgeting in Gradient-Based Neural Networks'),
+  author('Ian J. Goodfellow and Mehdi Mirza and Xia Da and Aaron C. Courville and Yoshua Bengio'),
+  iclr(2014),
+)
+
+entry!('baxter2000model',
+  title('A model of inductive bias learning'),
+  author('Jonathan Baxter'),
+  jair(2000,12),
+)
+
+entry!('maurer2016benefit',
+  title('The Benefit of Multitask Representation Learning'),
+  author('Andreas Maurer and Massimiliano Pontil and Bernardino Romera-Paredes'),
+  jmlr(2016,7),
+)
+
+entry!('lee2021predicting',
+  title('Predicting What You Already Know Helps: Provable Self-Supervised Learning'),
+  author('Jason D. Lee and Qi Lei and Nikunj Saunshi and Jiacheng Zhuo'),
+  neurips(2021),
+)
+
+entry!('hu2022lora',
+  title('LoRA: Low-Rank Adaptation of Large Language Models'),
+  author('Edward J. Hu and Yelong Shen and Phillip Wallis and Zeyuan Allen-Zhu and Yuanzhi Li and Shean Wang and Lu Wang and Weizhu Chen'),
+  iclr(2022),
+)
+
+entry!('balestriero2023cookbook',
+  title('A Cookbook of Self-Supervised Learning'),
+  author('Randall Balestriero and Mark Ibrahim and Vlad Sobal and Ari Morcos and Shashank Shekhar and Tom Goldstein and Florian Bordes and Adrien Bardes and Gregoire Mialon and Yuandong Tian and Avi Schwarzschild and Andrew Gordon Wilson and Jonas Geiping and Quentin Garrido and Pierre Fernandez and Amir Bar and Hamed Pirsiavash and Yann LeCun and Micah Goldblum'),
+  arxiv(2023),
+)
+
+entry!('wei2021theoretical',
+  title('Theoretical Analysis of Self-Training with Deep Networks on Unlabeled Data'),
+  author('Colin Wei and Kendrick Shen and Yining Chen and Tengyu Ma'),
+  iclr(2021),
+)
+
+entry!('wang2023selfinstruct',
+  title('Self-Instruct: Aligning Language Models with Self-Generated Instructions'),
+  author('Yizhong Wang and Yeganeh Kordi and Swaroop Mishra and Alisa Liu and Noah A. Smith and Daniel Khashabi and Hannaneh Hajishirzi'),
+  acl(2023),
+)
+
+entry!('bai2023constitutional',
+  title('Constitutional {AI}: Harmlessness from {AI} Feedback'),
+  author('Yuntao Bai and Saurav Kadavath and Sandipan Kundu and Amanda Askell and Jackson Kernion and Andy Jones and Anna Chen and Anna Goldie and Azalia Mirhoseini and Cameron McKinnon and Carol Chen and Catherine Olsson and Christopher Olah and Danny Hernandez and Dawn Drain and Deep Ganguli and Dustin Li and Eli Tran-Johnson and Ethan Perez and Jamie Kerr and Jared Mueller and Jeffrey Ladish and Joshua Landau and Kamal Ndousse and Kamile Lukosuite and Liane Lovitt and Michael Sellitto and Nelson Elhage and Nicholas Schiefer and Noemi Mercado and Nova DasSarma and Robert Lasenby and Robin Larson and Sam Ringer and Scott Johnston and Shauna Kravec and Sheer El Showk and Stanislav Fort and Tamera Lanham and Timothy Telleen-Lawton and Tom Conerly and Tom Henighan and Tristan Hume and Samuel R. Bowman and Zac Hatfield-Dodds and Ben Mann and Dario Amodei and Nicholas Joseph and Sam McCandlish and Tom Brown and Jared Kaplan'),
+  arxiv(2023),
 )

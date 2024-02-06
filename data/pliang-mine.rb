@@ -1,14 +1,237 @@
 ############################################################
 # 2023
 
+
+entry!('huang2023benchmarking',
+  title('Benchmarking Large Language Models As {AI} Research Agents'),
+  author('Qian Huang and Jian Vora and Percy Liang and J. Leskovec'),
+  arxiv(2023),
+  url('https://arxiv.org/pdf/2310.03302.pdf'),
+)
+
+entry!('yasunaga2023large',
+  title('Large Language Models as Analogical Reasoners'),
+  author('Michihiro Yasunaga and Xinyun Chen and Yujia Li and Panupong Pasupat and J. Leskovec and Percy Liang and Ed H. Chi and Denny Zhou'),
+  arxiv(2023),
+  url('https://arxiv.org/pdf/2310.01714.pdf'),
+)
+
+entry!('li2023benchmarking',
+  title('Benchmarking and Improving Generator-Validator Consistency of Language Models'),
+  author('Xiang Lisa Li and Vaishnavi Shrivastava and Siyan Li and Tatsunori Hashimoto and Percy Liang'),
+  arxiv(2023),
+  url('https://arxiv.org/pdf/2310.01846.pdf'),
+)
+
+entry!('fleming2023medalign',
+  title('MedAlign: A Clinician-Generated Dataset for Instruction Following with Electronic Medical Records'),
+  author('S. Fleming and A. Lozano and W. Haberkorn and Jenelle A. Jindal and E. Reis and Rahul Thapa and L. Blankemeier and Julian Z. Genkins and E. Steinberg and A. Nayak and Birju S. Patel and Chia-Chun Chiang and A. Callahan and Zepeng Huo and S. Gatidis and S. Adams and Oluseyi Fayanju and Shreya J. Shah and Thomas Savage and Ethan Goh and A. Chaudhari and N. Aghaeepour and Christopher D. Sharp and M. Pfeffer and Percy Liang and Jonathan H. Chen and K. Morse and E. Brunskill and Jason Alan Fries and N. Shah'),
+  arxiv(2023),
+  url('https://arxiv.org/pdf/2308.14089.pdf'),
+)
+
+entry!('kuditipudi2023robust',
+  title('Robust Distortion-free Watermarks for Language Models'),
+  author('Rohith Kuditipudi and John Thickstun and Tatsunori Hashimoto and Percy Liang'),
+  arxiv(2023),
+  url('https://arxiv.org/pdf/2307.15593.pdf'),
+)
+
+entry!('liu2023lost',
+  title('Lost in the Middle: How Language Models Use Long Contexts'),
+  author('Nelson F. Liu and Kevin Lin and John Hewitt and Ashwin Paranjape and Michele Bevilacqua and Fabio Petroni and Percy Liang'),
+  arxiv(2023),
+  url('https://arxiv.org/pdf/2307.03172.pdf'),
+)
+
+entry!('xie2023data',
+  title('Data Selection for Language Models via Importance Resampling'),
+  author('Sang Michael Xie and Shibani Santurkar and Tengyu Ma and Percy Liang'),
+  arxiv(2023),
+  url('https://arxiv.org/pdf/2302.03169.pdf'),
+)
+
+entry!('liu2023evaluating',
+  title('Evaluating Verifiability in Generative Search Engines'),
+  author('Nelson F. Liu and Tianyi Zhang and Percy Liang'),
+  arxiv(2023),
+  url('https://arxiv.org/pdf/2304.09848.pdf'),
+)
+
+entry!('lee2023evaluating',
+  title('Evaluating Human-Language Model Interaction'),
+  author('Mina Lee and Megha Srivastava and Amelia Hardy and John Thickstun and Esin Durmus and Ashwin Paranjape and Ines Gerard-Ursin and Xiang Lisa Li and Faisal Ladhak and Frieda Rong and Rose E. Wang and Minae Kwon and Joon Sung Park and Hancheng Cao and Tony Lee and Rishi Bommasani and Michael Bernstein and Percy Liang'),
+  arxiv(2023, '2212.09746'),
+  url('https://arxiv.org/pdf/2212.09746.pdf'),
+)
+
+entry!('bommasani2023trustworthy',
+  title('Trustworthy Social Bias Measurement'),
+  author('Rishi Bommasani and Percy Liang'),
+  arxiv(2023),
+  url('https://arxiv.org/pdf/2212.11672.pdf'),
+)
+
+entry!('zhang2023benchmarking',
+  title('Benchmarking Large Language Models for News Summarization'),
+  author('Tianyi Zhang and Faisal Ladhak and Esin Durmus and Percy Liang and K. McKeown and Tatsunori Hashimoto'),
+  arxiv(2023),
+  url('https://arxiv.org/pdf/2301.13848.pdf'),
+)
+
+entry!('khattab2023dsp',
+  title('{Demonstrate-Search-Predict}: Composing retrieval and language models for knowledge-intensive {NLP}'),
+  author('Omar Khattab and Keshav Santhanam and Xiang Lisa Li and David Hall and Percy Liang and Christopher Potts and Matei Zaharia'),
+  arxiv(2023),
+  url('https://arxiv.org/pdf/2212.14024.pdf'),
+)
+
+entry!('park2023generative',
+  title('Generative Agents: Interactive Simulacra of Human Behavior'),
+  author('Joon Sung Park and Joseph C. O\'Brien and Carrie J. Cai and Meredith Ringel Morris and Percy Liang and Michael S. Bernstein'),
+  arxiv(2023),
+  url('https://arxiv.org/pdf/2304.03442.pdf'),
+)
+
+entry!('henderson2023fairuse',
+  title('Foundation Models and Fair Use'),
+  author('Peter Henderson and Xuechen Li and Dan Jurafsky and Tatsunori Hashimoto and Mark A. Lemley and Percy Liang'),
+  arxiv(2023),
+  url('https://arxiv.org/pdf/2303.15715.pdf'),
+)
+
+entry!('bommasani2023ecosystem',
+  title('Ecosystem Graphs: The Social Footprint of Foundation Models'),
+  author('Rishi Bommasani and Dilara Soylu and Thomas Liao and Kathleen A. Creel and Percy Liang'),
+  arxiv(2023),
+  url('https://arxiv.org/pdf/2303.15772.pdf'),
+)
+
+# RSS 2023
+
+entry!('karamcheti2023voltron',
+  title('Language-driven Representation Learning for Robotics'),
+  author('Siddharth Karamcheti and Suraj Nair and Annie S. Chen and T. Kollar and Chelsea Finn and Dorsa Sadigh and Percy Liang'),
+  rss(2023),
+  url('https://arxiv.org/pdf/2302.12766.pdf'),
+  award('Best paper award finalist'),
+)
+
+# ICML 2023
+
+entry!('sheng2023flexgen',
+  title('High-throughput Generative Inference of Large Language Models with a Single {GPU}'),
+  author('Ying Sheng and Lianmin Zheng and Binhang Yuan and Zhuohan Li and Max Ryabinin and Daniel Y. Fu and Zhiqiang Xie and Beidi Chen and Clark W. Barrett and Joseph Gonzalez and Percy Liang and Christopher Ré and I. Stoica and Ce Zhang'),
+  icml(2023),
+  url('https://arxiv.org/pdf/2303.06865.pdf'),
+)
+
+entry!('yasunaga2023retrieval',
+  title('Retrieval-Augmented Multimodal Language Modeling'),
+  author('Michihiro Yasunaga and Armen Aghajanyan and Weijia Shi and Rich James and Jure Leskovec and Percy Liang and Mike Lewis and Luke Zettlemoyer and Wen-tau Yih'),
+  icml(2023),
+  url('https://arxiv.org/pdf/2211.12561.pdf'),
+)
+
+entry!('santurkar2023opinions',
+  title('Whose Opinions Do Language Models Reflect?'),
+  author('Shibani Santurkar and Esin Durmus and Faisal Ladhak and Cinoo Lee and Percy Liang and Tatsunori Hashimoto'),
+  icml(2023),
+  url('https://arxiv.org/pdf/2303.17548.pdf'),
+)
+
+entry!('dubois2023evaluating',
+  title('Evaluating Self-Supervised Learning via Risk Decomposition'),
+  author('Yann Dubois and Tatsunori Hashimoto and Percy Liang'),
+  icml(2023),
+  url('https://arxiv.org/pdf/2302.03068.pdf'),
+)
+
+entry!('gao2023targeted',
+  title('Out-of-Domain Robustness via Targeted Augmentations'),
+  author('Irena Gao and Shiori Sagawa and Pang Wei Koh and Tatsunori Hashimoto and Percy Liang'),
+  icml(2023),
+  url('https://arxiv.org/pdf/2302.11861.pdf'),
+)
+
+# ACL 2023
+
+entry!('liu2023sample',
+  title('Are Sample-Efficient {NLP} Models More Robust?'),
+  author('Nelson F. Liu and Ananya Kumar and Percy Liang and Robin Jia'),
+  acl(2023),
+  url('https://arxiv.org/abs/2210.06456.pdf'),
+)
+
+entry!('liu2023concurrence',
+  title('Do Question Answering Modeling Improvements Hold Across Benchmarks?'),
+  author('Nelson F. Liu and Tony Lee and Robin Jia and Percy Liang'),
+  acl(2023),
+  url('https://arxiv.org/pdf/2102.01065.pdf'),
+)
+
+entry!('zhang2023beyond',
+  title('Beyond Positive Scaling: How Negation Impacts Scaling Trends of Language Models'),
+  author('Yuhui Zhang* and Michihiro Yasunaga* and Zhengping Zhou* and Jeff Z. HaoChen* and James Zou and Percy Liang and Serena Yeung'),
+  aclfindings(2023),
+  url('https://arxiv.org/pdf/2305.17311.pdf'),
+)
+
+entry!('li2023contrastive',
+  title('Contrastive Decoding: Open-ended Text Generation as Optimization'),
+  author('Xiang Lisa Li and Ari Holtzman and Daniel Fried and Percy Liang and Jason Eisner and Tatsunori Hashimoto and Luke Zettlemoyer and M. Lewis'),
+  acl(2023),
+  url('https://arxiv.org/pdf/2210.15097.pdf'),
+)
+
+entry!('hewitt2023backpack',
+  title('Backpack Language Models'),
+  author('John Hewitt and John Thickstun and Christopher D. Manning and Percy Liang'),
+  acl(2023),
+  url('https://arxiv.org/pdf/2305.16765.pdf'),
+  award('Outstanding paper award'),
+)
+
+# HRI 2023
+
+entry!('cui2023corrections',
+  title('"No, to the Right"-- Online Language Corrections for Robotic Manipulation via Shared Autonomy'),
+  author('Yuchen Cui and Siddharth Karamcheti and Raj Palleti and Nidhya Shivakumar and Percy Liang and Dorsa Sadigh'),
+  hri(2023),
+  url('https://arxiv.org/pdf/2301.02555.pdf'),
+)
+
+# ICLR 2023
+
+entry!('santurkar2023captions',
+  title('Is a Caption Worth a Thousand Images? A Controlled Study for Representation Learning'),
+  author('Shibani Santurkar and Yann Dubois and Rohan Taori and Percy Liang and Tatsunori Hashimoto'),
+  iclr(2023),
+  url('https://arxiv.org/pdf/2207.07635.pdf'),
+)
+
+entry!('lee2023surgical',
+  title('Surgical Fine-Tuning Improves Adaptation to Distribution Shifts'),
+  author('Yoonho Lee and Annie S. Chen and Fahim Tajwar and Ananya Kumar and Huaxiu Yao and Percy Liang and Chelsea Finn'),
+  iclr(2023),
+  url('https://arxiv.org/pdf/2210.11466.pdf'),
+)
+
 ############################################################
 # 2022
 
 entry!('liang2022helm',
   title('Holistic Evaluation of Language Models'),
   author('Percy Liang and Rishi Bommasani and Tony Lee and Dimitris Tsipras and Dilara Soylu and Michihiro Yasunaga and Yian Zhang and D. Narayanan and Yuhuai Wu and Ananya Kumar and Benjamin Newman and Binhang Yuan and Bobby Yan and Ce Zhang and Christian Cosgrove and Christopher D. Manning and Christopher Ré and Diana Acosta-Navas and Drew A. Hudson and E. Zelikman and Esin Durmus and Faisal Ladhak and Frieda Rong and Hongyu Ren and Huaxiu Yao and Jue Wang and Keshav Santhanam and Laurel J. Orr and Lucia Zheng and Mert Yuksekgonul and Mirac Suzgun and Nathan S. Kim and Neel Guha and Niladri S. Chatterji and O. Khattab and Peter Henderson and Qian Huang and Ryan Chi and Sang Michael Xie and Shibani Santurkar and S. Ganguli and Tatsunori Hashimoto and Thomas F. Icard and Tianyi Zhang and Vishrav Chaudhary and William Wang and Xuechen Li and Yifan Mai and Yuhui Zhang and Yuta Koreeda'),
-  arxiv(2022),
+  arxiv(2022, '2211.09110'),
   url('https://arxiv.org/pdf/2211.09110.pdf'),
+)
+
+entry!('hewitt2022truncation',
+  title('Truncation Sampling as Language Model Desmoothing'),
+  author('John Hewitt and Christopher D. Manning and Percy Liang'),
+  emnlpfindings(2022),
+  url('https://arxiv.org/pdf/2210.15191.pdf'),
 )
 
 entry!('wu2022synthetic',
@@ -48,7 +271,7 @@ entry!('garg2022incontext',
 
 entry!('yasunaga2022dragon',
   title('Deep Bidirectional Language-Knowledge Graph Pretraining'),
-  author('Michihiro Yasunaga and Antoine Bosselut and Hongyu Ren and Xikun Zhang and Christopher D. Manning and Percy Liang* and J. Leskovec*'),
+  author('Michihiro Yasunaga and Antoine Bosselut and Hongyu Ren and Xikun Zhang and Christopher D. Manning and Percy Liang* and Jure Leskovec*'),
   neurips(2022),
   url('https://arxiv.org/pdf/2210.09338.pdf'),
 )
@@ -58,13 +281,6 @@ entry!('bommasani2022homogenization',
   author('Rishi Bommasani and Kathleen A. Creel and Ananya Kumar and Dan Jurafsky and Percy Liang'),
   neurips(2022),
   url('https://arxiv.org/pdf/2211.13972.pdf'),
-)
-
-entry!('santurkar2022captions',
-  title('Is a Caption Worth a Thousand Images? A Controlled Study for Representation Learning'),
-  author('Shibani Santurkar and Yann Dubois and Rohan Taori and Percy Liang and Tatsunori Hashimoto'),
-  arxiv(2022),
-  url('https://arxiv.org/pdf/2207.07635.pdf'),
 )
 
 entry!('donahue2022melody',
@@ -97,7 +313,7 @@ entry!('kumar2022calibrated',
 
 entry!('karamcheti2022lilac',
   title('Shared Autonomy for Robotic Manipulation with Language Corrections'),
-  author('Siddharth Karamcheti* and Raj Palleti* and Yuchen Cui and and Percy Liang and Dorsa Sadigh'),
+  author('Siddharth Karamcheti* and Raj Palleti* and Yuchen Cui and Percy Liang and Dorsa Sadigh'),
   inproceedings('ACL Workshop for Learning with Natural Language Supervision (NL Supervision)', 2022),
   url('https://iliad.stanford.edu/pdfs/publications/karamcheti2022lilac.pdf'),
 )
@@ -128,6 +344,7 @@ entry!('kumar2022finetuning',
   title('Fine-tuning can Distort Pretrained Features and Underperform Out-of-Distribution'),
   author('Ananya Kumar and Aditi Raghunathan and Robbie Jones and Tengyu Ma and Percy Liang'),
   iclr(2022),
+  codalab('0x40bd55abc9904fa3bd5eef53e0177a4c'),
   url('https://arxiv.org/pdf/2202.10054.pdf'),
 )
 
@@ -236,6 +453,7 @@ entry!('xie2021composed',
   title('Composed Fine-Tuning: Freezing Pre-Trained Denoising Autoencoders for Improved Generalization'),
   author('Sang Michael Xie and Tengyu Ma and Percy Liang'),
   icml(2021),
+  codalab('0x9187b7eee9d2453389bb63dfb45c4a89'),
   url('https://arxiv.org/pdf/2006.16205.pdf'),
 )
 
@@ -266,13 +484,6 @@ entry!('yasunaga2021qagnn',
   naacl(2021),
   url('https://arxiv.org/pdf/2104.06378.pdf'),
   codalab('0xf215deb05edf44a2ac353c711f52a25f'),
-)
-
-entry!('liu2021concur',
-  title('Can Small and Synthetic Benchmarks Drive Modeling Innovation?  A Retrospective Study of Question Answering Modeling Approaches'),
-  author('Nelson F. Liu and Tony Lee and Robin Jia and Percy Liang'),
-  arxiv(2021, '2102.01065'),
-  url('https://arxiv.org/pdf/2102.01065.pdf'),
 )
 
 entry!('li2021prefix',
@@ -597,7 +808,7 @@ entry!('monajemi2019painless',
 
 entry!('hashimoto2019huse',
   title('Unifying Human and Statistical Evaluation for Natural Language Generation'),
-  author('Tatsu Hashimoto* and Hugh Zhang* and Percy Liang'),
+  author('Tatsunori Hashimoto* and Hugh Zhang* and Percy Liang'),
   naacl(2019),
   url('https://arxiv.org/pdf/1904.02792.pdf'),
   codalab('0x88644b5ee189402eb19d39d721d1005c'),
