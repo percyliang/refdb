@@ -110,6 +110,7 @@ def thri(year, volume); article(Name.new('ACM Transactions on Human-Robot Intera
 
 ### Dynamics and Control
 def l4dc(year); inproceedings(Name.new('Learning for Dynamics \& Control Conference', 'L4DC'), year) end
+def wafr(year); inproceedings(Name.new('Workshop for the Algorithmic Foundations of Robotics', 'WAFR'), year) end
 
 ### Fairness
 def facct(year); inproceedings(Name.new('ACM Conference on Fairness, Accountability, and Transparency', 'FAccT'), year) end
