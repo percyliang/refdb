@@ -9,7 +9,7 @@ require 'refdb'
 
 # Figure out where to write Ruby entries
 usernamePath = File.expand_path(File.dirname(__FILE__)) + '/username'
-if File.exists?(usernamePath)
+if File.exist?(usernamePath)
   username = IO.readlines(usernamePath)[0].strip
 else
   while true

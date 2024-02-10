@@ -95,6 +95,9 @@ def iccv(year); inproceedings(Name.new('International Conference on Computer Vis
 def cvpr(year); inproceedings(Name.new('Computer Vision and Pattern Recognition', 'CVPR'), year) end
 def wacv(year); inproceedings(Name.new('Winter Conference on Applications of Computer Vision', 'WACV'), year) end
 
+### Graphics
+def siggraph(year); [inproceedings(Name.new('Special Interest Group on Computer Graphics and Interactive Techniques', 'SIGGRAPH'), year)] end
+
 ### Robotics
 def corl(year); inproceedings(Name.new('Conference on Robot Learning', 'CoRL'), year) end
 def icra(year); inproceedings(Name.new('International Conference on Robotics and Automation', 'ICRA'), year) end
