@@ -326,12 +326,6 @@ entry!('tversky1981framing',
   publisher('American Association for the Advancement of Science'),
 )
 
-entry!('rae2021gopher', 
-  arxiv(2021, '2112.11446'),
-  title('Scaling Language Models: Methods, Analysis \& Insignts from Training Gopher'),
-  author("Jack W. Rae and Sebastian Borgeaud and Trevor Cai and Katie Millican and Jordan Hoffmann and Francis Song and John Aslanides and Sarah Henderson and Roman Ring and Susannah Young and Eliza Rutherford and Tom Hennigan and Jacob Menick and Albin Cassirer and Richard Powell and George van den Driessche and Lisa Anne Hendricks and Maribeth Rauh and Po-Sen Huang and Amelia Glaese and Johannes Welbl and Sumanth Dathathri and Saffron Huang and Jonathan Uesato and John Mellor and Irina Higgins and Antonia Creswell and Nat McAleese and Amy Wu and Erich Elsen and Siddhant Jayakumar and Elena Buchatskaya and David Budden and Esme Sutherland and Karen Simonyan and Michela Paganini and Laurent Sifre and Lena Martens and Xiang Lorraine Li and Adhiguna Kuncoro and Aida Nematzadeh and Elena Gribovskaya and Domenic Donato and Angeliki Lazaridou and Arthur Mensch and Jean-Baptiste Lespiau and Maria Tsimpoukelli and Nikolai Grigorev and Doug Fritz and Thibault Sottiaux and Mantas Pajarskas and Toby Pohlen and Zhitao Gong and Daniel Toyama and Cyprien de Masson d'Autume and Yujia Li and Tayfun Terzi and Vladimir Mikulik and Igor Babuschkin and Aidan Clark and Diego de Las Casas and Aurelia Guy and Chris Jones and James Bradbury and Matthew Johnson and Blake Hechtman and Laura Weidinger and Iason Gabriel and William Isaac and Ed Lockhart and Simon Osindero and Laura Rimell and Chris Dyer and Oriol Vinyals and Kareem Ayoub and Jeff Stanway and Lorrayne Bennett and Demis Hassabis and Koray Kavukcuoglu and Geoffrey Irving")
-  )
-
 entry!('chen2021codex',
   arxiv(2021, '2107.03374'),
   title('Evaluating Large Language Models Trained on Code'),

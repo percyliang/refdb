@@ -689,12 +689,6 @@ entry!('chu2016best',
   organization('Springer'),
 )
 
-entry!('chen2021empirical',
-  arxiv(2021, '2104.02057'),
-  title('An empirical study of training self-supervised vision transformers'),
-  author('Xinlei Chen and Saining Xie and Kaiming He'),
-)
-
 entry!('belinkov2017neural',
   acl(2017),
   title('What do Neural Machine Translation Models Learn about Morphology?'),
