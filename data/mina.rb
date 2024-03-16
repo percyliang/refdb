@@ -1137,12 +1137,6 @@ entry!('bavarian2022fill',
       arxiv(2022, '2207.14255'),
       )
 
-entry!('dubois2023alpacafarm',
-       author('Yann Dubois and Xuechen Li and Rohan Taori and Tianyi Zhang and Ishaan Gulrajani and Jimmy Ba and Carlos Guestrin and Percy Liang and Tatsunori B. Hashimoto'),
-       title('{AlpacaFarm}: A Simulation Framework for Methods that Learn from Human Feedback'),
-       arxiv(2023, '2305.14387'),
-      )
-
 entry!('belz2023missing',
        author('Belz, Anya and Thomson, Craig and Reiter, Ehud'),
        title('Missing Information, Unresponsive Authors, Experimental Flaws: The Impossibility of Assessing the Reproducibility of Previous Human Evaluations in {NLP}'),

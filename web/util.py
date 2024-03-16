@@ -33,7 +33,9 @@ def read_url(url: str) -> str:
         with open(cached_path) as f:
             data = f.read()
     else:
-        f = urllib.request.urlopen(url)
+        req = urllib.request.Request(url)
+        req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) Gecko/20100101 Firefox/91.0')
+        f = urllib.request.urlopen(req)
         data = f.read()
         data = data.decode('utf-8')
         try:

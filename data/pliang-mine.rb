@@ -1,6 +1,26 @@
 ############################################################
 # 2023
 
+entry!('bommasani2023fmti',
+  title('The Foundation Model Transparency Index'),
+  author('Rishi Bommasani and Kevin Klyman and Shayne Longpre and Sayash Kapoor and Nestor Maslej and Betty Xiong and Daniel Zhang and Percy Liang'),
+  arxiv(2023),
+  url('https://arxiv.org/pdf/2310.12941.pdf'),
+)
+
+entry!('thickstun2023anticipatory',
+  title('Anticipatory Music Transformer'),
+  author('John Thickstun and D. Hall and Chris Donahue and Percy Liang'),
+  arxiv(2023),
+  url('https://arxiv.org/pdf/2306.08620.pdf'),
+)
+
+entry!('shrivastava2023llamas',
+  title('Llamas Know What GPTs Don\'t Show: Surrogate Models for Confidence Estimation'),
+  author('Vaishnavi Shrivastava and Percy Liang and Ananya Kumar'),
+  arxiv(2023),
+  url('https://arxiv.org/pdf/2311.08877.pdf'),
+)
 
 entry!('huang2023benchmarking',
   title('Benchmarking Large Language Models As {AI} Research Agents'),
@@ -30,6 +50,13 @@ entry!('fleming2023medalign',
   url('https://arxiv.org/pdf/2308.14089.pdf'),
 )
 
+entry!('gu2023watermarks',
+  title('On the Learnability of Watermarks for Language Models'),
+  author('Chenchen Gu and Xiang Lisa Li and Percy Liang and Tatsunori Hashimoto'),
+  arxiv(2023),
+  url('https://arxiv.org/pdf/2312.04469.pdf'),
+)
+
 entry!('kuditipudi2023robust',
   title('Robust Distortion-free Watermarks for Language Models'),
   author('Rohith Kuditipudi and John Thickstun and Tatsunori Hashimoto and Percy Liang'),
@@ -37,31 +64,84 @@ entry!('kuditipudi2023robust',
   url('https://arxiv.org/pdf/2307.15593.pdf'),
 )
 
-entry!('liu2023lost',
-  title('Lost in the Middle: How Language Models Use Long Contexts'),
-  author('Nelson F. Liu and Kevin Lin and John Hewitt and Ashwin Paranjape and Michele Bevilacqua and Fabio Petroni and Percy Liang'),
-  arxiv(2023),
-  url('https://arxiv.org/pdf/2307.03172.pdf'),
-)
+# NeurIPS 2023
 
 entry!('xie2023data',
   title('Data Selection for Language Models via Importance Resampling'),
   author('Sang Michael Xie and Shibani Santurkar and Tengyu Ma and Percy Liang'),
-  arxiv(2023),
+  neurips(2023),
   url('https://arxiv.org/pdf/2302.03169.pdf'),
+)
+
+entry!('xie2023doremi',
+  title('DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining'),
+  author('Sang Michael Xie and Hieu Pham and Xuanyi Dong and Nan Du and Hanxiao Liu and Yifeng Lu and Percy Liang and Quoc V. Le and Tengyu Ma and A. Yu'),
+  neurips(2023),
+  url('https://arxiv.org/pdf/2305.10429.pdf'),
+)
+
+entry!('huang2023prodigy',
+  title('{PRODIGY}: Enabling In-context Learning Over Graphs'),
+  author('Qian Huang and Hongyu Ren and Peng Chen and Gregor Krvzmanc and D. Zeng and Percy Liang and J. Leskovec'),
+  neurips(2023),
+  url('https://arxiv.org/pdf/2305.12600.pdf'),
+)
+
+entry!('huang2023lexinvariant',
+  title('Lexinvariant Language Models'),
+  author('Qian Huang and E. Zelikman and Sarah Chen and Yuhuai Wu and G. Valiant and Percy Liang'),
+  neurips(2023),
+  url('https://arxiv.org/pdf/2305.16349.pdf'),
+)
+
+entry!('toups2023ecosystem',
+  title('Ecosystem-level Analysis of Deployed Machine Learning Reveals Homogeneous Outcomes'),
+  author('Connor Toups and Rishi Bommasani and Kathleen A. Creel and Sarah H. Bana and Dan Jurafsky and Percy Liang'),
+  neurips(2023),
+  url('https://arxiv.org/pdf/2307.05862.pdf'),
+)
+
+entry!('dubois2023alpacafarm',
+  author('Yann Dubois and Xuechen Li and Rohan Taori and Tianyi Zhang and Ishaan Gulrajani and Jimmy Ba and Carlos Guestrin and Percy Liang and Tatsunori B. Hashimoto'),
+  title('{AlpacaFarm}: A Simulation Framework for Methods that Learn from Human Feedback'),
+  neurips(2023),
+  url('https://arxiv.org/pdf/2305.14387.pdf'),
+)
+
+entry!('narayanan2023cheaply',
+  title('Cheaply Evaluating Inference Efficiency Metrics for Autoregressive Transformer APIs'),
+  author('Deepak Narayanan and Keshav Santhanam and Peter Henderson and Rishi Bommasani and Tony Lee and Percy Liang'),
+  neurips(2023),
+  url('https://arxiv.org/pdf/2305.02440.pdf'),
+)
+
+entry!('lee2023holistic',
+  title('Holistic Evaluation of Text-To-Image Models'),
+  author('Tony Lee and Michihiro Yasunaga and Chenlin Meng and Yifan Mai and Joon Sung Park and Agrim Gupta and Yunzhi Zhang and Deepak Narayanan and Hannah Teufel and Marco Bellagente and Minguk Kang and Taesung Park and J. Leskovec and Jun-Yan Zhu and Fei-Fei Li and Jiajun Wu and Stefano Ermon and Percy Liang'),
+  neuripsdatasets(2023),
+  url('https://arxiv.org/pdf/2311.04287.pdf'),
+)
+
+# TACL, EMNLP, TMLR 2023
+
+entry!('liu2023lost',
+  title('Lost in the Middle: How Language Models Use Long Contexts'),
+  author('Nelson F. Liu and Kevin Lin and John Hewitt and Ashwin Paranjape and Michele Bevilacqua and Fabio Petroni and Percy Liang'),
+  tacl(2023, 0),  # TODO
+  url('https://arxiv.org/pdf/2307.03172.pdf'),
 )
 
 entry!('liu2023evaluating',
   title('Evaluating Verifiability in Generative Search Engines'),
   author('Nelson F. Liu and Tianyi Zhang and Percy Liang'),
-  arxiv(2023),
+  emnlpfindings(2023),
   url('https://arxiv.org/pdf/2304.09848.pdf'),
 )
 
 entry!('lee2023evaluating',
   title('Evaluating Human-Language Model Interaction'),
   author('Mina Lee and Megha Srivastava and Amelia Hardy and John Thickstun and Esin Durmus and Ashwin Paranjape and Ines Gerard-Ursin and Xiang Lisa Li and Faisal Ladhak and Frieda Rong and Rose E. Wang and Minae Kwon and Joon Sung Park and Hancheng Cao and Tony Lee and Rishi Bommasani and Michael Bernstein and Percy Liang'),
-  arxiv(2023, '2212.09746'),
+  tmlr(2023, 0),
   url('https://arxiv.org/pdf/2212.09746.pdf'),
 )
 
@@ -89,14 +169,15 @@ entry!('khattab2023dsp',
 entry!('park2023generative',
   title('Generative Agents: Interactive Simulacra of Human Behavior'),
   author('Joon Sung Park and Joseph C. O\'Brien and Carrie J. Cai and Meredith Ringel Morris and Percy Liang and Michael S. Bernstein'),
-  arxiv(2023),
+  uist(2023),
+  award('Best paper award'),
   url('https://arxiv.org/pdf/2304.03442.pdf'),
 )
 
 entry!('henderson2023fairuse',
   title('Foundation Models and Fair Use'),
   author('Peter Henderson and Xuechen Li and Dan Jurafsky and Tatsunori Hashimoto and Mark A. Lemley and Percy Liang'),
-  arxiv(2023),
+  jmlr(2023, 0),  # TODO
   url('https://arxiv.org/pdf/2303.15715.pdf'),
 )
 
