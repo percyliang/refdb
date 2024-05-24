@@ -989,12 +989,6 @@ entry!('shuster2022blenderbot',
        arxiv(2022, '2208.03188'),
       )
 
-entry!('openai2023gpt4',
-       title('{GPT}-4 Technical Report'),
-       author('{OpenAI}'),
-       arxiv(2023, '2303.08774'),
-      )
-
 entry!('zhou2021paraphrase',
        title('Paraphrase Generation: A Survey of the State of the Art'),
        author('Jianing Zhou and Suma Bhat'),
