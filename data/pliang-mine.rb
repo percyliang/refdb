@@ -1,4 +1,85 @@
 ############################################################
+# 2024
+
+# TMLR 2024
+
+entry!('thickstun2024anticipatory',
+  title('Anticipatory Music Transformer'),
+  author('John Thickstun and D. Hall and Chris Donahue and Percy Liang'),
+  tmlr(2024, 0),
+  url('https://arxiv.org/pdf/2306.08620.pdf'),
+)
+
+entry!('kuditipudi2024robust',
+  title('Robust Distortion-free Watermarks for Language Models'),
+  author('Rohith Kuditipudi and John Thickstun and Tatsunori Hashimoto and Percy Liang'),
+  tmlr(2024, 0),
+  url('https://arxiv.org/pdf/2307.15593.pdf'),
+)
+
+# ICML 2024
+
+entry!('huang2024research',
+  title('{MLAgentBench}: Evaluating Language Agents on Machine Learning Experimentation'),
+  author('Qian Huang and Jian Vora and Percy Liang and Jure Leskovec'),
+  icml(2024),
+  url('https://arxiv.org/pdf/2310.03302.pdf'),
+)
+
+entry!('karamcheti2024prismatic',
+  title('Prismatic VLMs: Investigating the Design Space of Visually-Conditioned Language Models'),
+  author('Siddharth Karamcheti and Suraj Nair and Ashwin Balakrishna and Percy Liang and Thomas Kollar and Dorsa Sadigh'),
+  icml(2024),
+  url('https://arxiv.org/pdf/2402.07865.pdf'),
+)
+
+entry!('kapoor2024open',
+  title('On the Societal Impact of Open Foundation Models'),
+  author('Sayash Kapoor and Rishi Bommasani and Kevin Klyman and Shayne Longpre and Ashwin Ramaswami and Peter Cihon and Aspen Hopkins and Kevin Bankston and Stella Biderman and Miranda Bogen and Rumman Chowdhury and Alex Engler and Peter Henderson and Yacine Jernite and Seth Lazar and Stefano Maffulli and Alondra Nelson and Joelle Pineau and Aviya Skowron and Dawn Song and Victor Storchan and Daniel Zhang and Daniel E. Ho and Percy Liang and Arvind Narayanan'),
+  icmlPosition(2024),
+  url('https://arxiv.org/pdf/2403.07918.pdf'),
+)
+
+entry!('longpre2024safe',
+  title('A Safe Harbor for {AI} Evaluation and Red Teaming'),
+  author('Shayne Longpre and Sayash Kapoor and Kevin Klyman and Ashwin Ramaswami and Rishi Bommasani and Borhane Blili-Hamelin and Yangsibo Huang and Aviya Skowron and Zheng-Xin Yong and Suhas Kotha and Yi Zeng and Weiyan Shi and Xianjun Yang and Reid Southen and Alexander Robey and Patrick Chao and Diyi Yang and Ruoxi Jia and Daniel Kang and Sandy Pentland and Arvind Narayanan and Percy Liang and Peter Henderson'),
+  icmlPosition(2024),
+  url('https://arxiv.org/pdf/2403.04893.pdf'),
+)
+
+# ICLR 2024
+
+entry!('li2024consistency',
+  title('Benchmarking and Improving Generator-Validator Consistency of Language Models'),
+  author('Xiang Lisa Li and Vaishnavi Shrivastava and Siyan Li and Tatsunori Hashimoto and Percy Liang'),
+  iclr(2024),
+  url('https://arxiv.org/pdf/2310.01846.pdf'),
+)
+
+entry!('yasunaga2024analogical',
+  title('Large Language Models as Analogical Reasoners'),
+  author('Michihiro Yasunaga and Xinyun Chen and Yujia Li and Panupong Pasupat and J. Leskovec and Percy Liang and Ed H. Chi and Denny Zhou'),
+  iclr(2024),
+  url('https://arxiv.org/pdf/2310.01714.pdf'),
+)
+
+entry!('gu2024watermarks',
+  title('On the Learnability of Watermarks for Language Models'),
+  author('Chenchen Gu and Xiang Lisa Li and Percy Liang and Tatsunori Hashimoto'),
+  iclr(2024),
+  url('https://arxiv.org/pdf/2312.04469.pdf'),
+)
+
+# AAAI 2024
+
+entry!('fleming2024medalign',
+  title('MedAlign: A Clinician-Generated Dataset for Instruction Following with Electronic Medical Records'),
+  author('S. Fleming and A. Lozano and W. Haberkorn and Jenelle A. Jindal and E. Reis and Rahul Thapa and L. Blankemeier and Julian Z. Genkins and E. Steinberg and A. Nayak and Birju S. Patel and Chia-Chun Chiang and A. Callahan and Zepeng Huo and S. Gatidis and S. Adams and Oluseyi Fayanju and Shreya J. Shah and Thomas Savage and Ethan Goh and A. Chaudhari and N. Aghaeepour and Christopher D. Sharp and M. Pfeffer and Percy Liang and Jonathan H. Chen and K. Morse and E. Brunskill and Jason Alan Fries and N. Shah'),
+  aaai(2024),
+  url('https://arxiv.org/pdf/2308.14089.pdf'),
+)
+
+############################################################
 # 2023
 
 entry!('bommasani2023fmti',
@@ -8,60 +89,11 @@ entry!('bommasani2023fmti',
   url('https://arxiv.org/pdf/2310.12941.pdf'),
 )
 
-entry!('thickstun2023anticipatory',
-  title('Anticipatory Music Transformer'),
-  author('John Thickstun and D. Hall and Chris Donahue and Percy Liang'),
-  arxiv(2023),
-  url('https://arxiv.org/pdf/2306.08620.pdf'),
-)
-
 entry!('shrivastava2023llamas',
   title('Llamas Know What GPTs Don\'t Show: Surrogate Models for Confidence Estimation'),
   author('Vaishnavi Shrivastava and Percy Liang and Ananya Kumar'),
   arxiv(2023),
   url('https://arxiv.org/pdf/2311.08877.pdf'),
-)
-
-entry!('huang2023benchmarking',
-  title('Benchmarking Large Language Models As {AI} Research Agents'),
-  author('Qian Huang and Jian Vora and Percy Liang and J. Leskovec'),
-  arxiv(2023),
-  url('https://arxiv.org/pdf/2310.03302.pdf'),
-)
-
-entry!('yasunaga2023large',
-  title('Large Language Models as Analogical Reasoners'),
-  author('Michihiro Yasunaga and Xinyun Chen and Yujia Li and Panupong Pasupat and J. Leskovec and Percy Liang and Ed H. Chi and Denny Zhou'),
-  arxiv(2023),
-  url('https://arxiv.org/pdf/2310.01714.pdf'),
-)
-
-entry!('li2023benchmarking',
-  title('Benchmarking and Improving Generator-Validator Consistency of Language Models'),
-  author('Xiang Lisa Li and Vaishnavi Shrivastava and Siyan Li and Tatsunori Hashimoto and Percy Liang'),
-  arxiv(2023),
-  url('https://arxiv.org/pdf/2310.01846.pdf'),
-)
-
-entry!('fleming2023medalign',
-  title('MedAlign: A Clinician-Generated Dataset for Instruction Following with Electronic Medical Records'),
-  author('S. Fleming and A. Lozano and W. Haberkorn and Jenelle A. Jindal and E. Reis and Rahul Thapa and L. Blankemeier and Julian Z. Genkins and E. Steinberg and A. Nayak and Birju S. Patel and Chia-Chun Chiang and A. Callahan and Zepeng Huo and S. Gatidis and S. Adams and Oluseyi Fayanju and Shreya J. Shah and Thomas Savage and Ethan Goh and A. Chaudhari and N. Aghaeepour and Christopher D. Sharp and M. Pfeffer and Percy Liang and Jonathan H. Chen and K. Morse and E. Brunskill and Jason Alan Fries and N. Shah'),
-  arxiv(2023),
-  url('https://arxiv.org/pdf/2308.14089.pdf'),
-)
-
-entry!('gu2023watermarks',
-  title('On the Learnability of Watermarks for Language Models'),
-  author('Chenchen Gu and Xiang Lisa Li and Percy Liang and Tatsunori Hashimoto'),
-  arxiv(2023),
-  url('https://arxiv.org/pdf/2312.04469.pdf'),
-)
-
-entry!('kuditipudi2023robust',
-  title('Robust Distortion-free Watermarks for Language Models'),
-  author('Rohith Kuditipudi and John Thickstun and Tatsunori Hashimoto and Percy Liang'),
-  arxiv(2023),
-  url('https://arxiv.org/pdf/2307.15593.pdf'),
 )
 
 # NeurIPS 2023

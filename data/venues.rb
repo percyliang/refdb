@@ -46,6 +46,7 @@ def neuripsdatasets(year); [inproceedings(Name.new('Neural Information Processin
 def iclr(year); [inproceedings(Name.new('International Conference on Learning Representations', 'ICLR'), year), publisher('Omnipress')] end
 def iclrWorkshop(year); [inproceedings(Name.new('International Conference on Learning Representations Workshop', 'ICLR'), year), publisher('Omnipress')] end
 def icml(year); [inproceedings(Name.new('International Conference on Machine Learning', 'ICML'), year), publisher('Omnipress')] end
+def icmlPosition(year); [inproceedings(Name.new('International Conference on Machine Learning (Position Paper Track)', 'ICML'), year), publisher('Omnipress')] end
 def icml2007; [icml(2007), address('Corvallis, Oregon')] end
 def icml2008; [icml(2008), address('Helsinki, Finland')] end
 def icml2009; [icml(2009), address('Montreal, Canada')] end
