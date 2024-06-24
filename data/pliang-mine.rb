@@ -27,7 +27,7 @@ entry!('huang2024research',
 )
 
 entry!('karamcheti2024prismatic',
-  title('Prismatic VLMs: Investigating the Design Space of Visually-Conditioned Language Models'),
+  title('Prismatic {VLM}s: Investigating the Design Space of Visually-Conditioned Language Models'),
   author('Siddharth Karamcheti and Suraj Nair and Ashwin Balakrishna and Percy Liang and Thomas Kollar and Dorsa Sadigh'),
   icml(2024),
   url('https://arxiv.org/pdf/2402.07865.pdf'),
