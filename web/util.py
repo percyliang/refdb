@@ -5,6 +5,7 @@ import sys
 import urllib
 import urllib.request
 from typing import Dict
+import xml.etree.ElementTree as ET
 
 SEMANTIC_SCHOLAR_FIELDS = 'title,authors,venue,year,externalIds'
 
@@ -18,12 +19,15 @@ def get_cache_path() -> str:
         os.mkdir(cache_path)
     return cache_path
 
+
 def get_arxiv_pdf(paper: Dict) -> str:
     arxiv_id = paper['externalIds'].get('ArXiv')
     return f'https://arxiv.org/pdf/{arxiv_id}.pdf' if arxiv_id else None
 
+
 def get_author_str(paper: Dict, delim: str = ', ') -> str:
     return delim.join(author['name'] for author in paper['authors'])
+
 
 def read_url(url: str) -> str:
     """Fetch the contents of `url`, caching as needed."""
@@ -46,27 +50,54 @@ def read_url(url: str) -> str:
             raise
     return data
 
+
+def streamline(text: str):
+    text = text.replace("\n", " ")
+    text = re.sub(r"\s+", " ", text)
+    return text
+
+
 def inspect_url(url: str) -> Dict:
-    """Take an ArXiv or Semantic Scholar URL, extracts the paper ID, returns the paper."""
+    """Take an ArXiv, extracts the paper ID, returns the paper."""
     # Figure out the paper ID
     paper_id = None
     if 'arxiv.org' in url:
         m = re.search(r'arxiv.org\/...\/(\d+\.\d+)(v\d)?(\.pdf)?$', url)
         if m:
-            paper_id = 'ARXIV:' + m.group(1)
-    elif 'semanticscholar.org' in url:
-        paper_id = url.split('/')[-1]
+            paper_id = m.group(1)
     else:
         raise ValueError('Cannot handle this URL: {url}')
 
-    # Look it up on semantic scholar
     if paper_id:
-        params = {
-            'fields': SEMANTIC_SCHOLAR_FIELDS,
+        url = f"http://export.arxiv.org/api/query?id_list={paper_id}"
+        contents = read_url(url)
+        root = ET.fromstring(contents)
+
+        # Extract the relevant metadata
+        entry = root.find('{http://www.w3.org/2005/Atom}entry')
+        title = streamline(entry.find('{http://www.w3.org/2005/Atom}title').text)
+        authors = [{'name': author.find('{http://www.w3.org/2005/Atom}name').text} for author in entry.findall('{http://www.w3.org/2005/Atom}author')]
+        published = entry.find('{http://www.w3.org/2005/Atom}published').text
+        year = published.split('-')[0]
+
+        return {
+            'title': title,
+            'authors': authors,
+            'year': year,
+            'venue': None,
+            'externalIds': {'ArXiv': paper_id},
         }
-        url = f'https://api.semanticscholar.org/graph/v1/paper/{paper_id}?' + urllib.parse.urlencode(params)
-        paper = json.loads(read_url(url))
-        return paper
+
+    # Look it up on semantic scholar
+    #if paper_id:
+    #    contents = read_url(f"https://arxiv.org/abs/{paper_id}")
+    #    params = {
+    #        'fields': SEMANTIC_SCHOLAR_FIELDS,
+    #    }
+    #    url = f'https://api.semanticscholar.org/graph/v1/paper/{paper_id}?' + urllib.parse.urlencode(params)
+    #    paper = json.loads(read_url(url))
+    #    return paper
+
     return None
 
 def search_keywords(query: str) -> Dict:
