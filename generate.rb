@@ -80,7 +80,7 @@ case command
       entries = [[nil, entries]]
     end
     if !listOnly
-      printHTMLPage(entries, title, File.exists?('footer.html') ? IO.read('footer.html') : nil, style, outPath)
+      printHTMLPage(entries, title, File.exist?('footer.html') ? IO.read('footer.html') : nil, style, outPath)
     else
       printHTMLPage(entries, nil, nil, nil, outPath)
     end
