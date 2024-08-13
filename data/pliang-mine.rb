@@ -333,10 +333,10 @@ entry!('lee2023surgical',
 ############################################################
 # 2022
 
-entry!('liang2022helm',
+entry!('liang2023helm',
   title('Holistic Evaluation of Language Models'),
   author('Percy Liang and Rishi Bommasani and Tony Lee and Dimitris Tsipras and Dilara Soylu and Michihiro Yasunaga and Yian Zhang and D. Narayanan and Yuhuai Wu and Ananya Kumar and Benjamin Newman and Binhang Yuan and Bobby Yan and Ce Zhang and Christian Cosgrove and Christopher D. Manning and Christopher Ré and Diana Acosta-Navas and Drew A. Hudson and E. Zelikman and Esin Durmus and Faisal Ladhak and Frieda Rong and Hongyu Ren and Huaxiu Yao and Jue Wang and Keshav Santhanam and Laurel J. Orr and Lucia Zheng and Mert Yuksekgonul and Mirac Suzgun and Nathan S. Kim and Neel Guha and Niladri S. Chatterji and O. Khattab and Peter Henderson and Qian Huang and Ryan Chi and Sang Michael Xie and Shibani Santurkar and S. Ganguli and Tatsunori Hashimoto and Thomas F. Icard and Tianyi Zhang and Vishrav Chaudhary and William Wang and Xuechen Li and Yifan Mai and Yuhui Zhang and Yuta Koreeda'),
-  arxiv(2022, '2211.09110'),
+  tmlr(2023, 0),
   url('https://arxiv.org/pdf/2211.09110.pdf'),
 )
 
