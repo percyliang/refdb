@@ -159,7 +159,7 @@ def render_paper(paper: Dict, mode: str, prefix: str = '') -> str:
 entry!('{bib_id}',
   title('{title}'),
   author('{authors}'),
-  {venue.lower()}({year}),
+  {venue.lower() if venue else "???"}({year}),
   url('{pdf_url}'),
 )
 """
