@@ -361,6 +361,7 @@ def generateDict(entries, short)
       'cite': entry.cite,
       'title': entry.title,
       'author': entry.author.names,
+      'year': entry.year,
       'url': entry.getFirst('url'),
       'text': entry.toText(short),
     }

@@ -63,6 +63,7 @@ def aistats(year); inproceedings(Name.new('Artificial Intelligence and Statistic
 def icann(year); inproceedings(Name.new('International Conference on Artificial Neural Networks', 'ICANN'), year) end
 def ecml(year); [inproceedings(Name.new('European Conference on Machine Learning', 'ECML'), year)] end
 def isaim(year); [inproceedings(Name.new('International Symposium on Artificial Intelligence and Mathematics', 'ISAIM'), year)] end
+def colm(year); [inproceedings(Name.new('Conference on Language Modeling', 'COLM'), year)] end
 
 def cikm(year); inproceedings(Name.new('Conference on Information and Knowledge Management', 'CIKM'), year) end
 def kdd(year); inproceedings(Name.new('International Conference on Knowledge Discovery and Data Mining', 'KDD'), year) end

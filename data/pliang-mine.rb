@@ -1,6 +1,119 @@
 ############################################################
 # 2024
 
+entry!('soni2024videoagent',
+  title('VideoAgent: Self-Improving Video Generation'),
+  author('Achint Soni and Sreyas Venkataraman and Abhranil Chandra and Sebastian Fischmeister and Percy Liang and Bo Dai and Sherry Yang'),
+  arxiv(2024),
+  url('https://arxiv.org/pdf/2410.10076.pdf'),
+)
+
+entry!('hewitt2024instruction',
+  title('Instruction Following without Instruction Tuning'),
+  author('John Hewitt and Nelson F. Liu and Percy Liang and Christopher D. Manning'),
+  arxiv(2024),
+  url('https://arxiv.org/pdf/2409.14254.pdf'),
+)
+
+entry!('hewitt2024model',
+  title('Model Editing with Canonical Examples'),
+  author('John Hewitt and Sarah Chen and Lanruo Lora Xie and Edward Adams and Percy Liang and Christopher D. Manning'),
+  arxiv(2024),
+  url('https://arxiv.org/pdf/2402.06155.pdf'),
+)
+
+entry!('li2024autobencher',
+  title('AutoBencher: Creating Salient, Novel, Difficult Datasets for Language Models'),
+  author('Xiang Lisa Li and Evan Zheran Liu and Percy Liang and Tatsunori Hashimoto'),
+  arxiv(2024),
+  url('https://arxiv.org/pdf/2407.08351.pdf'),
+)
+
+entry!('zhang2024cybench',
+  title('Cybench: A Framework for Evaluating Cybersecurity Capabilities and Risk of Language Models'),
+  author('Andy K. Zhang and Neil Perry and Riya Dulepet and Eliot Jones and Justin W. Lin and Joey Ji and Celeste Menders and Gashon Hussein and Samantha Liu and Donovan Jasper and Pura Peetathawatchai and Ari Glenn and Vikram Sivashankar and Daniel Zamoshchin and Leo Glikbarg and Derek Askaryar and Mike Yang and Teddy Zhang and Rishi Alluri and Nathan Tran and Rinnara Sangpisit and Polycarpos Yiorkadjis and Kenny Osele and Gautham Raghupathi and Dan Boneh and Daniel E. Ho and Percy Liang'),
+  arxiv(2024),
+  url('https://arxiv.org/pdf/2408.08926.pdf'),
+)
+
+entry!('zeng2024airbench',
+  title('{AIR}-Bench 2024: A Safety Benchmark Based on Risk Categories from Regulations and Policies'),
+  author('Yi Zeng and Yu Yang and Andy Zhou and Jeffrey Ziwei Tan and Yuheng Tu and Yifan Mai and Kevin Klyman and Minzhou Pan and Ruoxi Jia and Dawn Song and Percy Liang and Bo Li'),
+  arxiv(2024),
+  url('https://arxiv.org/pdf/2407.17436.pdf'),
+)
+
+entry!('zeng2024ai',
+  title('{AI} Risk Categorization Decoded ({AIR} 2024): From Government Regulations to Corporate Policies'),
+  author('Yi Zeng and Kevin Klyman and Andy Zhou and Yu Yang and Minzhou Pan and Ruoxi Jia and Dawn Song and Percy Liang and Bo Li'),
+  arxiv(2024),
+  url('https://arxiv.org/pdf/2406.17864.pdf'),
+)
+
+entry!('longpre2024responsible',
+  title('The Responsible Foundation Model Development Cheatsheet: A Review of Tools & Resources'),
+  author('Shayne Longpre and Stella Biderman and Alon Albalak and Hailey Schoelkopf and Daniel McDuff and Sayash Kapoor and Kevin Klyman and Kyle Lo and Gabriel Ilharco and Nay San and Maribeth Rauh and Aviya Skowron and Bertie Vidgen and Laura Weidinger and Arvind Narayanan and Victor Sanh and David Adelani and Percy Liang and Rishi Bommasani and Peter Henderson and Sasha Luccioni and Yacine Jernite and Luca Soldaini'),
+  arxiv(2024),
+  url('https://arxiv.org/pdf/2406.16746.pdf'),
+)
+
+entry!('kim2024openvla',
+  title('OpenVLA: An Open-Source Vision-Language-Action Model'),
+  author('Moo Jin Kim and Karl Pertsch and Siddharth Karamcheti and Ted Xiao and Ashwin Balakrishna and Suraj Nair and Rafael Rafailov and Ethan Foster and Grace Lam and Pannag Sanketi and Quan Vuong and Thomas Kollar and Benjamin Burchfiel and Russ Tedrake and Dorsa Sadigh and Sergey Levine and Percy Liang and Chelsea Finn'),
+  corl(2024),
+  url('https://arxiv.org/pdf/2406.09246.pdf'),
+)
+
+entry!('dubois2024length',
+  title('Length-Controlled AlpacaEval: A Simple Way to Debias Automatic Evaluators'),
+  author('Yann Dubois and Balázs Galambosi and Percy Liang and Tatsunori B. Hashimoto'),
+  colm(2024),
+  url('https://arxiv.org/pdf/2404.04475.pdf'),
+)
+
+entry!('bommasani2024foundation',
+  title('The Foundation Model Transparency Index v1.1: May 2024'),
+  author('Rishi Bommasani and Kevin Klyman and Sayash Kapoor and Shayne Longpre and Betty Xiong and Nestor Maslej and Percy Liang'),
+  arxiv(2024),
+  url('https://arxiv.org/pdf/2407.12929.pdf'),
+)
+
+entry!('li2024embodied',
+  title('Embodied Agent Interface: Benchmarking LLMs for Embodied Decision Making'),
+  author('Manling Li and Shiyu Zhao and Qineng Wang and Kangrui Wang and Yu Zhou and Sanjana Srivastava and Cem Gokmen and Tony Lee and Li Erran Li and Ruohan Zhang and Weiyu Liu and Percy Liang and Li Fei-Fei and Jiayuan Mao and Jiajun Wu'),
+  neuripsdatasets(2024),
+  url('https://arxiv.org/pdf/2410.07166.pdf'),
+)
+
+entry!('lee2024vhelm',
+  title('VHELM: A Holistic Evaluation of Vision Language Models'),
+  author('Tony Lee and Haoqin Tu and Chi Heem Wong and Wenhao Zheng and Yiyang Zhou and Yifan Mai and Josselin Somerville Roberts and Michihiro Yasunaga and Huaxiu Yao and Cihang Xie and Percy Liang'),
+  neuripsdatasets(2024),
+  url('https://arxiv.org/pdf/2410.07112.pdf'),
+)
+
+entry!('wen2024understanding',
+  title('Understanding Warmup-Stable-Decay Learning Rates: A River Valley Loss Landscape Perspective'),
+  author('Kaiyue Wen and Zhiyuan Li and Jason Wang and David Hall and Percy Liang and Tengyu Ma'),
+  arxiv(2024),
+  url('https://arxiv.org/pdf/2410.05192.pdf'),
+)
+
+entry!('roohani2024biodiscoveryagent',
+  title('BioDiscoveryAgent: An {AI} Agent for Designing Genetic Perturbation Experiments'),
+  author('Yusuf Roohani and Andrew Lee and Qian Huang and Jian Vora and Zachary Steinhart and Kexin Huang and Alexander Marson and Percy Liang and Jure Leskovec'),
+  arxiv(2024),
+  url('https://arxiv.org/pdf/2405.17631.pdf'),
+)
+
+
+entry!('zhang2024language',
+  title('Language model developers should report train-test overlap'),
+  author('Andy K Zhang and Kevin Klyman and Yifan Mai and Yoav Levine and Yian Zhang and Rishi Bommasani and Percy Liang'),
+  arxiv(2024),
+  url('https://arxiv.org/pdf/2410.08385.pdf'),
+)
+
 # TMLR 2024
 
 entry!('thickstun2024anticipatory',
