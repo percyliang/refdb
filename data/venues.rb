@@ -13,7 +13,7 @@ def jrssc(year, volume);               article('Journal of the Royal Statistical
 def jrssd(year, volume);               article('Journal of the Royal Statistical Society. Series D (The Statistician)', year, volume) end
 def mathops(year, volume);             article('Mathematics of Operations Research', year, volume) end
 def jmlr(year, volume);                article(Name.new('Journal of Machine Learning Research', 'JMLR'), year, volume) end
-def tmlr(year, volume);                article(Name.new('Transcations of Machine Learning Research', 'TMLR'), year, volume) end
+def tmlr(year);                        article(Name.new('Transactions of Machine Learning Research', 'TMLR'), year, volume=nil) end     # TMLR doesn't have traditional volumes...
 def pami(year, volume);                article(Name.new('IEEE Transactions on Pattern Analysis and Machine Intelligence', 'PAMI'), year, volume) end
 def tacl(year, volume);                article(Name.new('Transactions of the Association for Computational Linguistics', 'TACL'), year, volume) end
 def jair(year, volume);                article(Name.new('Journal of Artificial Intelligence Research', 'JAIR'), year, volume) end
@@ -97,6 +97,9 @@ def iccv(year); inproceedings(Name.new('International Conference on Computer Vis
 def cvpr(year); inproceedings(Name.new('Computer Vision and Pattern Recognition', 'CVPR'), year) end
 def wacv(year); inproceedings(Name.new('Winter Conference on Applications of Computer Vision', 'WACV'), year) end
 
+### Graphics
+def siggraph(year); [inproceedings(Name.new('Special Interest Group on Computer Graphics and Interactive Techniques', 'SIGGRAPH'), year)] end
+
 ### Robotics
 def corl(year); inproceedings(Name.new('Conference on Robot Learning', 'CoRL'), year) end
 def icra(year); inproceedings(Name.new('International Conference on Robotics and Automation', 'ICRA'), year) end
@@ -119,6 +122,7 @@ def thri(year, volume); article(Name.new('ACM Transactions on Human-Robot Intera
 
 ### Dynamics and Control
 def l4dc(year); inproceedings(Name.new('Learning for Dynamics \& Control Conference', 'L4DC'), year) end
+def wafr(year); inproceedings(Name.new('Workshop for the Algorithmic Foundations of Robotics', 'WAFR'), year) end
 
 ### Fairness
 def facct(year); inproceedings(Name.new('ACM Conference on Fairness, Accountability, and Transparency', 'FAccT'), year) end
