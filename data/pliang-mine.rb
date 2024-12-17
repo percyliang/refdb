@@ -1,6 +1,13 @@
 ############################################################
 # 2024
 
+entry!('cooper2024machine',
+  title('Machine Unlearning Doesn\'t Do What You Think: Lessons for Generative {AI} Policy, Research, and Practice'),
+  author('A. Feder Cooper and Christopher A. Choquette-Choo and Miranda Bogen and Matthew Jagielski and Katja Filippova and Ken Ziyu Liu and Alexandra Chouldechova and Jamie Hayes and Yangsibo Huang and Niloofar Mireshghallah and Ilia Shumailov and Eleni Triantafillou and Peter Kairouz and Nicole Mitchell and Percy Liang and Daniel E. Ho and Yejin Choi and Sanmi Koyejo and Fernando Delgado and James Grimmelmann and Vitaly Shmatikov and Christopher De Sa and Solon Barocas and Amy Cyphert and Mark Lemley and danah boyd and Jennifer Wortman Vaughan and Miles Brundage and David Bau and Seth Neel and Abigail Z. Jacobs and Andreas Terzis and Hanna Wallach and Nicolas Papernot and Katherine Lee'),
+  arxiv(2024),
+  url('https://arxiv.org/pdf/2412.06966.pdf'),
+)
+
 entry!('soni2024videoagent',
   title('VideoAgent: Self-Improving Video Generation'),
   author('Achint Soni and Sreyas Venkataraman and Abhranil Chandra and Sebastian Fischmeister and Percy Liang and Bo Dai and Sherry Yang'),
@@ -161,6 +168,13 @@ entry!('longpre2024safe',
 )
 
 # ICLR 2024
+
+entry!('liu2024sophia',
+  title('Sophia: A Scalable Stochastic Second-order Optimizer for Language Model Pre-training'),
+  author('Hong Liu and Zhiyuan Li and David Hall and Percy Liang and Tengyu Ma'),
+  iclr(2024),
+  url('https://arxiv.org/pdf/2305.14342.pdf'),
+)
 
 entry!('li2024consistency',
   title('Benchmarking and Improving Generator-Validator Consistency of Language Models'),
