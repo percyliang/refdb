@@ -1,4 +1,72 @@
 ############################################################
+# 2025
+
+entry!('muennighoff2025s1',
+  title('s1: Simple test-time scaling'),
+  author('Niklas Muennighoff and Zitong Yang and Weijia Shi and Xiang Lisa Li and Li Fei-Fei and Hannaneh Hajishirzi and Luke Zettlemoyer and Percy Liang and Emmanuel Candès and Tatsunori Hashimoto'),
+  arxiv(2025),
+  url('https://arxiv.org/pdf/2501.19393.pdf'),
+)
+
+entry!('li2025eliciting',
+  title('Eliciting Language Model Behaviors with Investigator Agents'),
+  author('Xiang Lisa Li and Neil Chowdhury and Daniel D. Johnson and Tatsunori Hashimoto and Percy Liang and Sarah Schwettmann and Jacob Steinhardt'),
+  arxiv(2025),
+  url('https://arxiv.org/pdf/2502.01236.pdf'),
+)
+
+entry!('gu2025caching',
+  title('Auditing Prompt Caching in Language Model {API}s'),
+  author('Chenchen Gu and Xiang Lisa Li and Rohith Kuditipudi and Percy Liang and Tatsunori Hashimoto'),
+  arxiv(2025),
+  url('https://arxiv.org/pdf/2502.07776.pdf'),
+)
+
+# ICLR 2025
+
+entry!('zeng2025airbench',
+  title('{AIR}-Bench 2024: A Safety Benchmark Based on Risk Categories from Regulations and Policies'),
+  author('Yi Zeng and Yu Yang and Andy Zhou and Jeffrey Ziwei Tan and Yuheng Tu and Yifan Mai and Kevin Klyman and Minzhou Pan and Ruoxi Jia and Dawn Song and Percy Liang and Bo Li'),
+  iclr(2025),
+  url('https://arxiv.org/pdf/2407.17436.pdf'),
+)
+
+entry!('zhang2025cybench',
+  title('Cybench: A Framework for Evaluating Cybersecurity Capabilities and Risk of Language Models'),
+  author('Andy K. Zhang and Neil Perry and Riya Dulepet and Eliot Jones and Justin W. Lin and Joey Ji and Celeste Menders and Gashon Hussein and Samantha Liu and Donovan Jasper and Pura Peetathawatchai and Ari Glenn and Vikram Sivashankar and Daniel Zamoshchin and Leo Glikbarg and Derek Askaryar and Mike Yang and Teddy Zhang and Rishi Alluri and Nathan Tran and Rinnara Sangpisit and Polycarpos Yiorkadjis and Kenny Osele and Gautham Raghupathi and Dan Boneh and Daniel E. Ho and Percy Liang'),
+  iclr(2025),
+  url('https://arxiv.org/pdf/2408.08926.pdf'),
+)
+
+entry!('gao2025equality',
+  title('Model Equality Testing: Which Model Is This {API} Serving?'),
+  author('Irena Gao and Percy Liang and Carlos Guestrin'),
+  iclr(2025),
+  url('https://arxiv.org/pdf/2410.20247.pdf'),
+)
+
+entry!('li2025autobencher',
+  title('AutoBencher: Creating Salient, Novel, Difficult Datasets for Language Models'),
+  author('Xiang Lisa Li and Evan Zheran Liu and Percy Liang and Tatsunori Hashimoto'),
+  iclr(2025),
+  url('https://arxiv.org/pdf/2407.08351.pdf'),
+)
+
+entry!('wen2025understanding',
+  title('Understanding Warmup-Stable-Decay Learning Rates: A River Valley Loss Landscape Perspective'),
+  author('Kaiyue Wen and Zhiyuan Li and Jason Wang and David Hall and Percy Liang and Tengyu Ma'),
+  iclr(2025),
+  url('https://arxiv.org/pdf/2410.05192.pdf'),
+)
+
+entry!('roohani2025biodiscoveryagent',
+  title('BioDiscoveryAgent: An {AI} Agent for Designing Genetic Perturbation Experiments'),
+  author('Yusuf Roohani and Andrew Lee and Qian Huang and Jian Vora and Zachary Steinhart and Kexin Huang and Alexander Marson and Percy Liang and Jure Leskovec'),
+  iclr(2025),
+  url('https://arxiv.org/pdf/2405.17631.pdf'),
+)
+
+############################################################
 # 2024
 
 entry!('cooper2024machine',
@@ -27,27 +95,6 @@ entry!('hewitt2024model',
   author('John Hewitt and Sarah Chen and Lanruo Lora Xie and Edward Adams and Percy Liang and Christopher D. Manning'),
   arxiv(2024),
   url('https://arxiv.org/pdf/2402.06155.pdf'),
-)
-
-entry!('li2024autobencher',
-  title('AutoBencher: Creating Salient, Novel, Difficult Datasets for Language Models'),
-  author('Xiang Lisa Li and Evan Zheran Liu and Percy Liang and Tatsunori Hashimoto'),
-  arxiv(2024),
-  url('https://arxiv.org/pdf/2407.08351.pdf'),
-)
-
-entry!('zhang2024cybench',
-  title('Cybench: A Framework for Evaluating Cybersecurity Capabilities and Risk of Language Models'),
-  author('Andy K. Zhang and Neil Perry and Riya Dulepet and Eliot Jones and Justin W. Lin and Joey Ji and Celeste Menders and Gashon Hussein and Samantha Liu and Donovan Jasper and Pura Peetathawatchai and Ari Glenn and Vikram Sivashankar and Daniel Zamoshchin and Leo Glikbarg and Derek Askaryar and Mike Yang and Teddy Zhang and Rishi Alluri and Nathan Tran and Rinnara Sangpisit and Polycarpos Yiorkadjis and Kenny Osele and Gautham Raghupathi and Dan Boneh and Daniel E. Ho and Percy Liang'),
-  arxiv(2024),
-  url('https://arxiv.org/pdf/2408.08926.pdf'),
-)
-
-entry!('zeng2024airbench',
-  title('{AIR}-Bench 2024: A Safety Benchmark Based on Risk Categories from Regulations and Policies'),
-  author('Yi Zeng and Yu Yang and Andy Zhou and Jeffrey Ziwei Tan and Yuheng Tu and Yifan Mai and Kevin Klyman and Minzhou Pan and Ruoxi Jia and Dawn Song and Percy Liang and Bo Li'),
-  arxiv(2024),
-  url('https://arxiv.org/pdf/2407.17436.pdf'),
 )
 
 entry!('zeng2024ai',
@@ -98,21 +145,6 @@ entry!('lee2024vhelm',
   neuripsdatasets(2024),
   url('https://arxiv.org/pdf/2410.07112.pdf'),
 )
-
-entry!('wen2024understanding',
-  title('Understanding Warmup-Stable-Decay Learning Rates: A River Valley Loss Landscape Perspective'),
-  author('Kaiyue Wen and Zhiyuan Li and Jason Wang and David Hall and Percy Liang and Tengyu Ma'),
-  arxiv(2024),
-  url('https://arxiv.org/pdf/2410.05192.pdf'),
-)
-
-entry!('roohani2024biodiscoveryagent',
-  title('BioDiscoveryAgent: An {AI} Agent for Designing Genetic Perturbation Experiments'),
-  author('Yusuf Roohani and Andrew Lee and Qian Huang and Jian Vora and Zachary Steinhart and Kexin Huang and Alexander Marson and Percy Liang and Jure Leskovec'),
-  arxiv(2024),
-  url('https://arxiv.org/pdf/2405.17631.pdf'),
-)
-
 
 entry!('zhang2024language',
   title('Language model developers should report train-test overlap'),
