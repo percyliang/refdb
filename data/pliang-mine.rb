@@ -22,6 +22,20 @@ entry!('gu2025caching',
   url('https://arxiv.org/pdf/2502.07776.pdf'),
 )
 
+entry!('truong2025reliable',
+  title('Reliable and Efficient Amortized Model-based Evaluation'),
+  author('Sang Truong and Yuheng Tu and Percy Liang and Bo Li and Sanmi Koyejo'),
+  arxiv(2025),
+  url('https://arxiv.org/pdf/2503.13335.pdf'),
+)
+
+entry!('liu2025language',
+  title('Language Models May Verbatim Complete TextThey Were Not Explicitly Trained On'),
+  author('Ken Ziyu Liu and Christopher A. Choquette-Choo and Matthew Jagielski and Peter Kairouz and Sanmi Koyejo and Percy Liang and Nicolas Papernot'),
+  arxiv(2025),
+  url('https://arxiv.org/pdf/2503.17514.pdf'),
+)
+
 # ICLR 2025
 
 entry!('zeng2025airbench',
@@ -144,6 +158,13 @@ entry!('lee2024vhelm',
   author('Tony Lee and Haoqin Tu and Chi Heem Wong and Wenhao Zheng and Yiyang Zhou and Yifan Mai and Josselin Somerville Roberts and Michihiro Yasunaga and Huaxiu Yao and Cihang Xie and Percy Liang'),
   neuripsdatasets(2024),
   url('https://arxiv.org/pdf/2410.07112.pdf'),
+)
+
+entry!('roberts2024image2struct',
+  title('Image2Struct: Benchmarking Structure Extraction for Vision-Language Models'),
+  author('Josselin Somerville Roberts and Tony Lee and Chi Heem Wong and Michihiro Yasunaga and Yifan Mai and Percy Liang'),
+  neuripsdatasets(2024),
+  url('https://arxiv.org/pdf/2410.22456.pdf'),
 )
 
 entry!('zhang2024language',
