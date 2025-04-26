@@ -464,7 +464,7 @@ def checkDuplicates(entries)
   map = {} # canonical title to entries
   errors = []
   entries.each { |entry|
-    canonicalTitle = entry.titleHash || entry.title.downcase.gsub(/[^a-z]/, '')
+    canonicalTitle = entry.titleHash || entry.title.downcase.gsub(/[^0-9a-z]/, '')
     next if entry.get('ignoreDuplicateTitle')
     next if entry.getFirst('extendedVersion') # Ok for longer versions to have same titles
     (map[canonicalTitle] ||= []) << entry

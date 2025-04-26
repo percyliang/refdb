@@ -1,6 +1,40 @@
 ############################################################
 # 2025
 
+###
+
+entry!('ashurytahan2025mighty',
+  title('The Mighty {ToRR}: A Benchmark for Table Reasoning and Robustness'),
+  author('Shir Ashury-Tahan and Yifan Mai and Rajmohan C and Ariel Gera and Yotam Perlitz and Asaf Yehudai and Elron Bandel and Leshem Choshen and Eyal Shnarch and Percy Liang and Michal Shmueli-Scheuer'),
+  arxiv(2025),
+  url('https://arxiv.org/pdf/2502.19412.pdf'),
+)
+
+# RSS 2025
+
+entry!('kim2025finetuning',
+  title('Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success'),
+  author('Moo Jin Kim and Chelsea Finn and Percy Liang'),
+  arxiv(2025),
+  url('https://arxiv.org/pdf/2502.19645.pdf'),
+)
+
+###
+
+entry!('liu2025language',
+  title('Language Models May Verbatim Complete Text They Were Not Explicitly Trained On'),
+  author('Ken Ziyu Liu and Christopher A. Choquette-Choo and Matthew Jagielski and Peter Kairouz and Sanmi Koyejo and Percy Liang and Nicolas Papernot'),
+  arxiv(2025),
+  url('https://arxiv.org/pdf/2503.17514.pdf'),
+)
+
+entry!('zhu2025independence',
+  title('Independence Tests for Language Models'),
+  author('Sally Zhu and Ahmed Ahmed and Rohith Kuditipudi and Percy Liang'),
+  arxiv(2025),
+  url('https://arxiv.org/pdf/2502.12292.pdf'),
+)
+
 entry!('muennighoff2025s1',
   title('s1: Simple test-time scaling'),
   author('Niklas Muennighoff and Zitong Yang and Weijia Shi and Xiang Lisa Li and Li Fei-Fei and Hannaneh Hajishirzi and Luke Zettlemoyer and Percy Liang and Emmanuel Candès and Tatsunori Hashimoto'),
@@ -13,6 +47,13 @@ entry!('li2025eliciting',
   author('Xiang Lisa Li and Neil Chowdhury and Daniel D. Johnson and Tatsunori Hashimoto and Percy Liang and Sarah Schwettmann and Jacob Steinhardt'),
   arxiv(2025),
   url('https://arxiv.org/pdf/2502.01236.pdf'),
+)
+
+entry!('soni2025videoagent',
+  title('VideoAgent: Self-Improving Video Generation'),
+  author('Achint Soni and Sreyas Venkataraman and Abhranil Chandra and Sebastian Fischmeister and Percy Liang and Bo Dai and Sherry Yang'),
+  arxiv(2025),
+  url('https://arxiv.org/pdf/2410.10076.pdf'),
 )
 
 entry!('gu2025caching',
@@ -29,11 +70,48 @@ entry!('truong2025reliable',
   url('https://arxiv.org/pdf/2503.13335.pdf'),
 )
 
-entry!('liu2025language',
-  title('Language Models May Verbatim Complete TextThey Were Not Explicitly Trained On'),
-  author('Ken Ziyu Liu and Christopher A. Choquette-Choo and Matthew Jagielski and Peter Kairouz and Sanmi Koyejo and Percy Liang and Nicolas Papernot'),
+entry!('hewitt2025instruction',
+  title('Instruction Following without Instruction Tuning'),
+  author('John Hewitt and Nelson F. Liu and Percy Liang and Christopher D. Manning'),
   arxiv(2025),
-  url('https://arxiv.org/pdf/2503.17514.pdf'),
+  url('https://arxiv.org/pdf/2409.14254.pdf'),
+)
+
+entry!('zhang2025overlap',
+  title('Language model developers should report train-test overlap'),
+  author('Andy K Zhang and Kevin Klyman and Yifan Mai and Yoav Levine and Yian Zhang and Rishi Bommasani and Percy Liang'),
+  arxiv(2025),
+  url('https://arxiv.org/pdf/2410.08385.pdf'),
+)
+
+entry!('longpre2025inhouse',
+  title('In-House Evaluation Is Not Enough: Towards Robust Third-Party Flaw Disclosure for General-Purpose {AI}'),
+  author('Shayne Longpre and Kevin Klyman and Ruth E. Appel and Sayash Kapoor and Rishi Bommasani and Michelle Sahar and Sean McGregor and Avijit Ghosh and Borhane Blili-Hamelin and Nathan Butters and Alondra Nelson and Amit Elazari and Andrew Sellars and Casey John Ellis and Dane Sherrets and Dawn Song and Harley Geiger and Ilona Cohen and Lauren McIlvenny and Madhulika Srikumar and Mark M. Jaycox and Markus Anderljung and Nadine Farid Johnson and Nicholas Carlini and Nicolas Miailhe and Nik Marda and Peter Henderson and Rebecca S. Portnoff and Rebecca Weiss and Victoria Westerhoff and Yacine Jernite and Rumman Chowdhury and Percy Liang and Arvind Narayanan'),
+  arxiv(2025),
+  url('https://arxiv.org/pdf/2503.16861.pdf'),
+)
+
+###
+
+entry!('shrivastava2025language',
+  title('Language Models Prefer What They Know: Relative Confidence Estimation via Confidence Preferences'),
+  author('Vaishnavi Shrivastava and Ananya Kumar and Percy Liang'),
+  arxiv(2025),
+  url('https://arxiv.org/pdf/2502.01126.pdf'),
+)
+
+entry!('ghosh2025ailuminate',
+  title('AILuminate: Introducing v1.0 of the {AI} Risk and Reliability Benchmark from MLCommons'),
+  author('Shaona Ghosh and Heather Frase and Adina Williams and Sarah Luger and Paul Röttger and Fazl Barez and Sean McGregor and Kenneth Fricklas and Mala Kumar and Quentin Feuillade--Montixi and Kurt Bollacker and Felix Friedrich and Ryan Tsang and Bertie Vidgen and Alicia Parrish and Chris Knotz and Eleonora Presani and Jonathan Bennion and Marisa Ferrara Boston and Mike Kuniavsky and Wiebke Hutiri and James Ezick and Malek Ben Salem and Rajat Sahay and Sujata Goswami and Usman Gohar and Ben Huang and Supheakmungkol Sarin and Elie Alhajjar and Canyu Chen and Roman Eng and Kashyap Ramanandula Manjusha and Virendra Mehta and Eileen Long and Murali Emani and Natan Vidra and Benjamin Rukundo and Abolfazl Shahbazi and Kongtao Chen and Rajat Ghosh and Vithursan Thangarasa and Pierre Peigné and Abhinav Singh and Max Bartolo and Satyapriya Krishna and Mubashara Akhtar and Rafael Gold and Cody Coleman and Luis Oala and Vassil Tashev and Joseph Marvin Imperial and Amy Russ and Sasidhar Kunapuli and Nicolas Miailhe and Julien Delaunay and Bhaktipriya Radharapu and Rajat Shinde and  Tuesday and Debojyoti Dutta and Declan Grabb and Ananya Gangavarapu and Saurav Sahay and Agasthya Gangavarapu and Patrick Schramowski and Stephen Singam and Tom David and Xudong Han and Priyanka Mary Mammen and Tarunima Prabhakar and Venelin Kovatchev and Rebecca Weiss and Ahmed Ahmed and Kelvin N. Manyeki and Sandeep Madireddy and Foutse Khomh and Fedor Zhdanov and Joachim Baumann and Nina Vasan and Xianjun Yang and Carlos Mougn and Jibin Rajan Varghese and Hussain Chinoy and Seshakrishna Jitendar and Manil Maskey and Claire V. Hardgrove and Tianhao Li and Aakash Gupta and Emil Joswin and Yifan Mai and Shachi H Kumar and Cigdem Patlak and Kevin Lu and Vincent Alessi and Sree Bhargavi Balija and Chenhe Gu and Robert Sullivan and James Gealy and Matt Lavrisa and James Goel and Peter Mattson and Percy Liang and Joaquin Vanschoren'),
+  arxiv(2025),
+  url('https://arxiv.org/pdf/2503.05731.pdf'),
+)
+
+entry!('niklaus2025lawinstruct',
+  title('LawInstruct: A Resource for Studying Language Model Adaptation to the Legal Domain'),
+  author('Joel Niklaus and Lucia Zheng and Arya D. McCarthy and Christopher Hahn and Brian M. Rosen and Peter Henderson and Daniel E. Ho and Garrett Honke and Percy Liang and Christopher Manning'),
+  naaclfindings(2025),
+  url('https://arxiv.org/pdf/2404.02127.pdf'),
 )
 
 # ICLR 2025
@@ -83,25 +161,18 @@ entry!('roohani2025biodiscoveryagent',
 ############################################################
 # 2024
 
+entry!('park2024generative',
+  title('Generative Agent Simulations of 1,000 People'),
+  author('Joon Sung Park and Carolyn Q. Zou and Aaron Shaw and Benjamin Mako Hill and Carrie Cai and Meredith Ringel Morris and Robb Willer and Percy Liang and Michael S. Bernstein'),
+  arxiv(2024),
+  url('https://arxiv.org/pdf/2411.10109.pdf'),
+)
+
 entry!('cooper2024machine',
   title('Machine Unlearning Doesn\'t Do What You Think: Lessons for Generative {AI} Policy, Research, and Practice'),
   author('A. Feder Cooper and Christopher A. Choquette-Choo and Miranda Bogen and Matthew Jagielski and Katja Filippova and Ken Ziyu Liu and Alexandra Chouldechova and Jamie Hayes and Yangsibo Huang and Niloofar Mireshghallah and Ilia Shumailov and Eleni Triantafillou and Peter Kairouz and Nicole Mitchell and Percy Liang and Daniel E. Ho and Yejin Choi and Sanmi Koyejo and Fernando Delgado and James Grimmelmann and Vitaly Shmatikov and Christopher De Sa and Solon Barocas and Amy Cyphert and Mark Lemley and danah boyd and Jennifer Wortman Vaughan and Miles Brundage and David Bau and Seth Neel and Abigail Z. Jacobs and Andreas Terzis and Hanna Wallach and Nicolas Papernot and Katherine Lee'),
   arxiv(2024),
   url('https://arxiv.org/pdf/2412.06966.pdf'),
-)
-
-entry!('soni2024videoagent',
-  title('VideoAgent: Self-Improving Video Generation'),
-  author('Achint Soni and Sreyas Venkataraman and Abhranil Chandra and Sebastian Fischmeister and Percy Liang and Bo Dai and Sherry Yang'),
-  arxiv(2024),
-  url('https://arxiv.org/pdf/2410.10076.pdf'),
-)
-
-entry!('hewitt2024instruction',
-  title('Instruction Following without Instruction Tuning'),
-  author('John Hewitt and Nelson F. Liu and Percy Liang and Christopher D. Manning'),
-  arxiv(2024),
-  url('https://arxiv.org/pdf/2409.14254.pdf'),
 )
 
 entry!('hewitt2024model',
@@ -118,12 +189,7 @@ entry!('zeng2024ai',
   url('https://arxiv.org/pdf/2406.17864.pdf'),
 )
 
-entry!('longpre2024responsible',
-  title('The Responsible Foundation Model Development Cheatsheet: A Review of Tools & Resources'),
-  author('Shayne Longpre and Stella Biderman and Alon Albalak and Hailey Schoelkopf and Daniel McDuff and Sayash Kapoor and Kevin Klyman and Kyle Lo and Gabriel Ilharco and Nay San and Maribeth Rauh and Aviya Skowron and Bertie Vidgen and Laura Weidinger and Arvind Narayanan and Victor Sanh and David Adelani and Percy Liang and Rishi Bommasani and Peter Henderson and Sasha Luccioni and Yacine Jernite and Luca Soldaini'),
-  arxiv(2024),
-  url('https://arxiv.org/pdf/2406.16746.pdf'),
-)
+# CoRL 2024
 
 entry!('kim2024openvla',
   title('OpenVLA: An Open-Source Vision-Language-Action Model'),
@@ -132,6 +198,8 @@ entry!('kim2024openvla',
   url('https://arxiv.org/pdf/2406.09246.pdf'),
 )
 
+# COLM 2024
+
 entry!('dubois2024length',
   title('Length-Controlled AlpacaEval: A Simple Way to Debias Automatic Evaluators'),
   author('Yann Dubois and Balázs Galambosi and Percy Liang and Tatsunori B. Hashimoto'),
@@ -139,12 +207,7 @@ entry!('dubois2024length',
   url('https://arxiv.org/pdf/2404.04475.pdf'),
 )
 
-entry!('bommasani2024foundation',
-  title('The Foundation Model Transparency Index v1.1: May 2024'),
-  author('Rishi Bommasani and Kevin Klyman and Sayash Kapoor and Shayne Longpre and Betty Xiong and Nestor Maslej and Percy Liang'),
-  arxiv(2024),
-  url('https://arxiv.org/pdf/2407.12929.pdf'),
-)
+# NeurIPS D&B 2024
 
 entry!('li2024embodied',
   title('Embodied Agent Interface: Benchmarking LLMs for Embodied Decision Making'),
@@ -167,14 +230,21 @@ entry!('roberts2024image2struct',
   url('https://arxiv.org/pdf/2410.22456.pdf'),
 )
 
-entry!('zhang2024language',
-  title('Language model developers should report train-test overlap'),
-  author('Andy K Zhang and Kevin Klyman and Yifan Mai and Yoav Levine and Yian Zhang and Rishi Bommasani and Percy Liang'),
-  arxiv(2024),
-  url('https://arxiv.org/pdf/2410.08385.pdf'),
+# TMLR 2024
+
+entry!('longpre2024responsible',
+  title('The Responsible Foundation Model Development Cheatsheet: A Review of Tools & Resources'),
+  author('Shayne Longpre and Stella Biderman and Alon Albalak and Hailey Schoelkopf and Daniel McDuff and Sayash Kapoor and Kevin Klyman and Kyle Lo and Gabriel Ilharco and Nay San and Maribeth Rauh and Aviya Skowron and Bertie Vidgen and Laura Weidinger and Arvind Narayanan and Victor Sanh and David Adelani and Percy Liang and Rishi Bommasani and Peter Henderson and Sasha Luccioni and Yacine Jernite and Luca Soldaini'),
+  tmlr(2024, 0),
+  url('https://arxiv.org/pdf/2406.16746.pdf'),
 )
 
-# TMLR 2024
+entry!('bommasani2024fmti',
+  title('The 2024 Foundation Model Transparency Index'),
+  author('Rishi Bommasani and Kevin Klyman and Sayash Kapoor and Shayne Longpre and Betty Xiong and Nestor Maslej and Percy Liang'),
+  tmlr(2024, 0),
+  url('https://arxiv.org/pdf/2407.12929.pdf'),
+)
 
 entry!('thickstun2024anticipatory',
   title('Anticipatory Music Transformer'),
@@ -265,7 +335,7 @@ entry!('fleming2024medalign',
 entry!('bommasani2023fmti',
   title('The Foundation Model Transparency Index'),
   author('Rishi Bommasani and Kevin Klyman and Shayne Longpre and Sayash Kapoor and Nestor Maslej and Betty Xiong and Daniel Zhang and Percy Liang'),
-  arxiv(2023),
+  tmlr(2023, 0),
   url('https://arxiv.org/pdf/2310.12941.pdf'),
 )
 
