@@ -195,7 +195,7 @@ entry!('hewitt2023backpack',
 # HRI 2023
 
 entry!('cui2023corrections',
-  title('"No, to the Right"-- Online Language Corrections for Robotic Manipulation via Shared Autonomy'),
+  title('"{N}o, to the Right"-- Online Language Corrections for Robotic Manipulation via Shared Autonomy'),
   author('Yuchen Cui and Siddharth Karamcheti and Raj Palleti and Nidhya Shivakumar and Percy Liang and Dorsa Sadigh'),
   hri(2023),
   url('https://arxiv.org/pdf/2301.02555.pdf'),

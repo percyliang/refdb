@@ -117,6 +117,7 @@ def auro(year); article(Name.new('Autonomous Robots', 'AURO'), year) end
 def hri(year); inproceedings(Name.new('ACM/IEEE International Conference on Human Robot Interaction', 'HRI'), year) end
 def icorr(year); inproceedings(Name.new('IEEE International Conference on Rehabilitation Robotics', 'ICORR'), year) end
 def thri(year, volume); article(Name.new('ACM Transactions on Human-Robot Interaction', 'THRI'), year, volume) end
+def aiaa(year); inproceedings(Name.new('AIAA Intelligent Systems Technical Conference', 'AIAA-IST'), year) end
 
 ### Dynamics and Control
 def l4dc(year); inproceedings(Name.new('Learning for Dynamics \& Control Conference', 'L4DC'), year) end

@@ -3327,7 +3327,7 @@ entry!('bai2023qwenvl',
 entry!('openai2023gpt4v',
   title('{GPT}-4V(ision) System Card'),
   author('OpenAI'),
-  url('https://openai.com/research/gpt-4v-system-card'),
+  howpublished('\url{https://openai.com/research/gpt-4v-system-card/}'),
   type('misc'),
   year(2023),
 )
@@ -3677,4 +3677,296 @@ entry!('kobayashi2022decomposing',
   arxiv(2022, '2205.15585'),
   title('Decomposing NeRF for Editing via Feature Field Distillation'),
   author('Sosuke Kobayashi and Eiichi Matsumoto and Vincent Sitzmann'),
+)
+
+#######################################################################################################################
+###                     Vocal Sandbox: Continual Learning & Adaptation for Situated HRI                             ###
+#######################################################################################################################
+entry!('dragan2013legibility',
+  rss(2013),
+  title('Generating Legible Motion'),
+  author('Anca D. Dragan and Siddhartha S. Srinivasa'),
+)
+
+entry!('kwon2020riskaware',
+  hri(2020),
+  title('When Humans Aren’t Optimal: Robots that Collaborate with Risk-Aware Humans'),
+  author('Minae Kwon and Erdem Biyik and Aditi Talati and Karan Bhasin and Dylan P. Losey and Dorsa Sadigh'),
+)
+
+entry!('gandhi2022eliciting',
+  corl(2022),
+  title('Eliciting Compatible Demonstrations for Multi-Human Imitation Learning'),
+  author('Kanishk Gandhi and Siddharth Karamcheti and Madeline Liao and Dorsa Sadigh'),
+)
+
+entry!('chi2023diffusionpolicy',
+  rss(2023),
+  title('Diffusion Policy: Visuomotor Policy Learning via Action Diffusion'),
+  author('Cheng Chi and Siyuan Feng and Yilun Du and Zhenjia Xu and Eric A. Cousineau and Benjamin Burchfiel and Shuran Song'),
+)
+
+entry!('yu2023lang2rewards',
+  arxiv(2023, '2306.08647'),
+  title('Language to Rewards for Robotic Skill Synthesis'),
+  author('Wenhao Yu and Nimrod Gileadi and Chuyuan Fu and Sean Kirmani and Kuang-Huei Lee and Montse Gonzalez Arenas and Hao-Tien Lewis Chiang and Tom Erez and Leonard Hasenclever and Jan Humplik and Brian Ichter and Ted Xiao and Peng Xu and Andy Zeng and Tingnan Zhang and Nicolas Manfred Otto Heess and Dorsa Sadigh and Jie Tan and Yuval Tassa and F. Xia'),
+)
+
+entry!('karamcheti2024prismatic',
+  icml(2024),
+  title('Prismatic {VLM}s: Investingating the Design Space of Visualy-Conditioned Language Models'),
+  author('Siddharth Karamcheti and Suraj Nair and Ashwin Balakrishna and Percy Liang and T. Kollar and Dorsa Sadigh'),
+)
+
+entry!('xie2024decomposing',
+  icra(2024),
+  title('Decomposing the Generalization Gap in Imitation Learning for Visual Robotic Manipulation'),
+  author('Annie Xie and Lisa Lee and Ted Xiao and Chelsea Finn'),
+)
+
+entry!('pan2022inhand',
+  iros(2022),
+  title('In-Hand Manipulation of Unknown Objects with Tactile Sensing for Insertion'),
+  author('Chaoyi Pan and Marion Lepert and Shenli Yuan and Rika Antonova and Jeannette Bohg'),
+)
+
+entry!('brouwer2024tactile',
+  arxiv(2024, '2402.09564'),
+  title('Tactile-Informed Action Primitives Mitigate Jamming in Dense Clutter'),
+  author('Dane Brouwer and Joshua Citron and Hojung Choi and Marion Lepert and Michael Lin and Jeannette Bohg and Mark R. Cutkosky'),
+)
+
+entry!('khazatsky2024droid',
+  rss(2024),
+  title('{DROID}: A Large-Scale In-The-Wild Robot Manipulation Dataset'),
+  author('Alexander Khazatsky and Karl Pertsch and Suraj Nair and Ashwin Balakrishna and Sudeep Dasari and Siddharth Karamcheti and Soroush Nasiriany and Mohan Kumar Srirama and Lawrence Yunliang Chen and Kirsty Ellis and P Fagan and Joey Hejna and Masha Itkina and Marion Lepert and Ye Ma and Patrick Tree Miller and Jimmy Wu and Suneel Belkhale and Shivin Dass and Huy Ha and Arhan Jain and Abraham Lee and Youngwoon Lee and Marius Memmel and Sung Yul Park and Ilija Radosavovic and Kaiyuan Wang and Albert Zhan and Kevin Black and Cheng Chi and Kyle Beltran Hatch and Shan Lin and Jingpei Lu and Jean-Pierre Mercat and Abdul Rehman and Pannag R. Sanketi and Archit Sharma and C. Blake Simpson and Quang Ho Vuong and Homer Walke and Blake Wulfe and Ted Xiao and Jonathan Heewon Yang and Arefeh Yavary and Tony Zhao and Christopher Agia and Rohan Baijal and Mateo Guaman Castro and Da Ling Chen and Qiuyu Chen and Trinity Chung and Jaimyn Drake and Ethan P. Foster and Jensen Gao and David Antonio Herrera and Minho Heo and Kyle Hsu and Jiaheng Hu and Donovon Jackson and Charlotte Le and Yunshuang Li and Kevin Lin and Roy Lin and Zehan Ma and Abhiram Maddukuri and Suvir Mirchandani and Daniel Morton and Tony Nguyen and Abigail O\'Neill and Rosa Maria Scalise and Derick Seale and Victor Son and Stephen Tian and Emi Tran and Andrew E. Wang and Yilin Wu and Annie Xie and Jingyun Yang and Patrick Yin and Yunchu Zhang and Osbert Bastani and Glen Berseth and Jeannette Bohg and Ken Goldberg and Abhinav Gupta and Abhishek Gupta and Dinesh Jayaraman and Joseph J. Lim and Jitendra Malik and Roberto Martín-Martín and Subramanian Ramamoorthy and Dorsa Sadigh and Shuran Song and Jiajun Wu and Michael C. Yip and Yuke Zhu and Thomas Kollar and Sergey Levine and Chelsea Finn')
+)
+
+entry!('wang2024mosaic',
+  arxiv(2024, '2402.18796'),
+  title('MOSAIC: A Modular System for Assistive and Interactive Cooking'),
+  author('Huaxiaoyue Wang and K. Kedia and Juntao Ren and Rahma Abdullah and Atiksh Bhardwaj and Angela Chao and Kelly Y Chen and Nathaniel Chin and Prithwish Dan and Xinyi Fan and Gonzalo Gonzalez-Pumariega and Aditya Kompella and Maximus Adrian Pace and Yash Sharma and Xiangwan Sun and Neha Sunkara and Sanjiban Choudhury'),
+)
+
+entry!('breazeal2004teaching',
+  aamas(2004),
+  title('Teaching and working with robots as a collaboration'),
+  author('Cynthia Lynn Breazeal and Guy Hoffman and Andrea Lockerd Thomaz'),
+)
+
+entry!('hoffman2004collaboration',
+  aiaa(2004),
+  title('Collaboration in Human-Robot Teams'),
+  author('Guy Hoffman and Cynthia Lynn Breazeal'),
+)
+
+entry!('ajoudani2017collaboration',
+  auro(2017),
+  title('Progress and prospects of the human–robot collaboration'),
+  author('Arash Ajoudani and Andrea Maria Zanchettin and Serena Ivaldi and Alin O. Albu-Schäffer and Kazuhiro Kosuge and Oussama Khatib'),
+  pages(957, 975),
+)
+
+entry!('rybski2007interactive',
+  hri(2007),
+  title('Interactive robot task training through dialog and demonstration'),
+  author('Paul E. Rybski and Kevin Yoon and Jeremy Stolarz and Manuela M. Veloso'),
+)
+
+entry!('chai2014collaborative',
+  hri(2014),
+  title('Collaborative Effort towards Common Ground in Situated Human-Robot Dialogue'),
+  author('Joyce Yue Chai and Lanbo She and Rui Fang and Spencer Ottarson and Cody Littley and Changsong Liu and Kenneth Hanson'),
+)
+
+entry!('brawer2018situated',
+  iros(2018),
+  title('Situated Human–Robot Collaboration: predicting intent from grounded natural language'),
+  author('Jake Brawer and Olivier Mangin and Alessandro Roncone and Sarah Widder and Brian Scassellati'),
+)
+
+entry!('huang2022innermonologue',
+  corl(2022),
+  title('Inner Monologue: Embodied Reasoning through Planning with Language Models'),
+  author('Wenlong Huang and Fei Xia and Ted Xiao and Harris Chan and Jacky Liang and Pete Florence and Andy Zeng and Jonathan Tompson and Igor Mordatch and Yevgen Chebotar and Pierre Sermanet and Noah Brown and Tomas Jackson and Linda Luu and Sergey Levine and Karol Hausman and Brian Ichter'),
+)
+
+entry!('liang2023codeaspolicies',
+  icra(2023),
+  title('Code as Policies: Language Model Programs for Embodied Control'),
+  author('Jacky Liang and Wenlong Huang and Fei Xia and Peng Xu and Karol Hausman and Brian Ichter and Pete Florence and Andy Zeng'),
+)
+
+entry!('cui2020empathic',
+  corl(2020),
+  title('The {EMPATHIC} Framework for Task Learning from Implicit Human Feedback'),
+  author('Yuchen Cui and Qiping Zhang and Alessandro Allievi and Peter Stone and Scott Niekum and W. B. Knox'),
+)
+
+entry!('lin2023giraf',
+  corl(2023),
+  title('Gesture-Informed Robot Assistance via Foundation Models'),
+  author('Li-Heng Lin and Yuchen Cui and Yilun Hao and Fei Xia and Dorsa Sadigh'),
+)
+
+entry!('ren2023robothelp',
+  corl(2023),
+  title('Robots That Ask For Help: Uncertainty Alignment for Large Language Model Planners'),
+  author('Allen Z. Ren and Anushri Dixit and Alexandra Bodrova and Sumeet Singh and Stephen Tu and Noah Brown and Peng Xu and Leila Takayama and Fei Xia and Jacob Varley and Zhenjia Xu and Dorsa Sadigh and Andy Zeng and Anirudha Majumdar'),
+)
+
+entry!('lynch2023interactive',
+  ral(2023, 1),
+  title('Interactive Language: Talking to Robots in Real Time'),
+  author('Corey Lynch and Ayzaan Wahid and Jonathan Tompson and Tianli Ding and James Betker and Robert Baruch and Travis Armstrong and Pete Florence'),
+)
+
+entry!('shi2024yell',
+  rss(2024),
+  title('Yell At Your Robot: Improving On-the-Fly from Language Corrections'),
+  author('Lucy Xiaoyang Shi and Zheyuan Hu and Tony Zhao and Archit Sharma and Karl Pertsch and Jianlan Luo and Sergey Levine and Chelsea Finn'),
+)
+
+entry!('lin2023text2motion',
+  auro(2023),
+  title('Text2Motion: from natural language instructions to feasible plans'),
+  author('Kevin Lin and Christopher Agia and Toki Migimatsu and Marco Pavone and Jeannette Bohg'),
+)
+
+entry!('liu2024okrobot',
+  rss(2024),
+  title('{OK-Robot}: What Really Matters in Integrating Open-Knowledge Models for Robotics'),
+  author('Peiqi Liu and Yaswanth Orru and Chris Paxton and Nur Muhammad Mahi Shafiullah and Lerrel Pinto'),
+)
+
+entry!('sundaresan2023kite',
+  corl(2023),
+  title('{KITE}: Keypoint-Conditioned Policies for Semantic Manipulation'),
+  author('Priya Sundaresan and Suneel Belkhale and Dorsa Sadigh and Jeannette Bohg'),
+)
+
+entry!('schaal2006dmp',
+  article('Adaptive Motion of Animals and Machines', 2006, 1),
+  title('Dynamic Movement Primitives - A Framework for Motor Control in Humans and Humanoid Robotics'),
+  author('Stefan Schaal'),
+)
+
+entry!('ijspeert2013dmp',
+  article('Neural Computation', 2013, 25),
+  title('Dynamical Movement Primitives: Learning Attractor Models for Motor Behaviors'),
+  author('Auke Jan Ijspeert and Jun Nakanishi and Heiko Hoffmann and Peter Pastor and Stefan Schaal'),
+)
+
+entry!('cheng2022xmem',
+  eccv(2022),
+  author('Ho Kei Cheng and Alexander Schwing'),
+  title('{XMem}: Long-Term Video Object Segmentation with an Atkinson-Shiffrin Memory Model'),
+)
+
+entry!('zhao2023fast',
+  arxiv(2023, '2306.12156'),
+  title('Fast Segment Anything'),
+  author('Xu Zhao and Wenchao Ding and Yongqi An and Yinglong Du and Tao Yu and Min Li and Ming Tang and Jinqiao Wang'),
+)
+
+entry!('natarajan2023teaming',
+  article('Current Robotics Reports', 2023, 4),
+  title('Human-Robot Teaming: Grand Challenges'),
+  author('Manisha Natarajan and Esmaeil Seraj and Batuhan Altundas and Rohan R. Paleja and Sean Ye and Letian Chen and Reed Jensen and Kimberlee Chestnut Chang and Matthew Craig Gombolay'),
+)
+
+entry!('singh2022progprompt',
+  icra(2022),
+  title('ProgPrompt: Generating Situated Robot Task Plans using Large Language Models'),
+  author('Ishika Singh and Valts Blukis and Arsalan Mousavian and Ankit Goyal and Danfei Xu and Jonathan Tremblay and Dieter Fox and Jesse Thomason and Animesh Garg'),
+)
+
+entry!('wang2023voyager',
+  tmlr(2023),
+  title('Voyager: An Open-Ended Embodied Agent with Large Language Models'),
+  author('Guanzhi Wang and Yuqi Xie and Yunfan Jiang and Ajay Mandlekar and Chaowei Xiao and Yuke Zhu and Linxi (Jim) Fan and Anima Anandkumar'),
+)
+
+entry!('ma2024eureka',
+  iclr(2024),
+  title('Eureka: Human-Level Reward Design via Coding Large Language Models'),
+  author('Yecheng Jason Ma and William Liang and Guanzhi Wang and De-An Huang and Osbert Bastani and Dinesh Jayaraman and Yuke Zhu and Linxi Fan and Anima Anandkumar'),
+)
+
+entry!('driessen2001manus',
+  article('Proceedings of the Institution of Mechanical Engineers: Journal of Engineering in Medicine', 2001, 215),
+  title('{MANUS} -- a wheelchair-mounted rehabilitation robot'),
+  author('Bart Driessen and H.G.A. Evers and J A v Woerden'),
+)
+
+entry!('zha2024distilling',
+  icra(2024),
+  title('Distilling and Retrieving Generalizable Knowledge for Robot Manipulation via Language Corrections'),
+  author('Lihan Zha and Yuchen Cui and Li-Heng Lin and Minae Kwon and Montserrat Gonzalez Arenas and Andy Zeng and Fei Xia and Dorsa Sadigh'),
+)
+
+entry!('arakawa2018dqn',
+  arxiv(2018, '1810.11748'),
+  title('{DQN-TAMER}: Human-in-the-Loop Reinforcement Learning with Intractable Feedback'),
+  author('Riku Arakawa and Sosuke Kobayashi and Yuya Unno and Yuta Tsuboi and Shin-ichi Maeda'),
+)
+
+entry!('kedia2024interact',
+  icra(2024),
+  author('Kushal Kedia and Atiksh Bhardwaj and Prithwish Dan and Sanjiban Choudhury'),
+  title('{InteRACT}: Transformer Models for Human Intent Prediction Conditioned on Robot Actions'),
+)
+
+entry!('kedia2023manicast',
+  corl(2023),
+  author('Kushal Kedia and Prithwish Dan and Atiksh Bhardwaj and Sanjiban Choudhury'),
+  title('Manicast: Collaborative manipulation with cost-aware human forecasting'),
+)
+
+entry!('belkhale2023hydra',
+  corl(2023),
+  title('{HYDRA}: Hybrid Robot Actions for Imitation Learning'),
+  author('Suneel Belkhale and Yuchen Cui and Dorsa Sadigh'),
+)
+
+entry!('radford2022whisper',
+  arxiv(2022, '2212.04356'),
+  title('Robust Speech Recognition via Large-Scale Weak Supervision'),
+  author('Alec Radford and Jong Wook Kim and Tao Xu and Greg Brockman and Christine McLeavey and Ilya Sutskever'),
+)
+
+entry!('belkhale2024rth',
+  rss(2024),
+  title('{RT-H}: Action Hierarchies Using Language'),
+  author('Suneel Belkhale and Tianli Ding and Ted Xiao and Pierre Sermanet and Quon Vuong and Jonathan Tompson and Yevgen Chebotar and Debidatta Dwibedi and Dorsa Sadigh'),
+)
+
+entry!('liu2024moka',
+  rss(2024),
+  author('Fangchen Liu and Kuan Fang and Pieter Abbeel and Sergey Levine'),
+  title('{MOKA}: Open-Vocabulary Robotic Manipulation through Mark-Based Visual Prompting'),
+)
+
+entry!('openai2023gpt35turbo',
+  title('Introducing {ChatGPT} and {Whisper} {API}s'),
+  author('OpenAI'),
+  year(2023),
+  type('misc'),
+  howpublished('\url{https://openai.com/index/introducing-chatgpt-and-whisper-apis/}'),
+)
+
+entry!('openai2023functioncalling',
+  title('{GPT-3.5} -- Function Calling and Other Updates'),
+  author('OpenAI'),
+  year(2023),
+  type('misc'),
+  howpublished('\url{https://openai.com/index/function-calling-and-other-api-updates/}'),
+)
+
+entry!('openai2023tts',
+  title('Text-to-Speech Models'),
+  author('OpenAI'),
+  year(2023),
+  type('misc'),
+  howpublished('\url{https://platform.openai.com/docs/guides/text-to-speech/}'),
 )
