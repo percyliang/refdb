@@ -3,6 +3,55 @@
 
 ###
 
+entry!('zhu2025establishing',
+  title('Establishing Best Practices for Building Rigorous Agentic Benchmarks'),
+  author('Yuxuan Zhu and Tengjun Jin and Yada Pruksachatkun and Andy Zhang and Shu Liu and Sasha Cui and Sayash Kapoor and Shayne Longpre and Kevin Meng and Rebecca Weiss and Fazl Barez and Rahul Gupta and Jwala Dhamala and Jacob Merizian and Mario Giulianelli and Harry Coppock and Cozmin Ududec and Jasjeet Sekhon and Jacob Steinhardt and Antony Kellerman and Sarah Schwettmann and Matei Zaharia and Ion Stoica and Percy Liang and Daniel Kang'),
+  arxiv(2025),
+  url('https://arxiv.org/pdf/2507.02825.pdf'),
+)
+
+entry!('atreya2025roboarena',
+  title('RoboArena: Distributed Real-World Evaluation of Generalist Robot Policies'),
+  author('Pranav Atreya and Karl Pertsch and Tony Lee and Moo Jin Kim and Arhan Jain and Artur Kuramshin and Clemens Eppner and Cyrus Neary and Edward Hu and Fabio Ramos and Jonathan Tremblay and Kanav Arora and Kirsty Ellis and Luca Macesanu and Matthew Leonard and Meedeum Cho and Ozgur Aslan and Shivin Dass and Jie Wang and Xingfang Yuan and Xuning Yang and Abhishek Gupta and Dinesh Jayaraman and Glen Berseth and Kostas Daniilidis and Roberto Martin-Martin and Youngwoon Lee and Percy Liang and Chelsea Finn and Sergey Levine'),
+  arxiv(2025),
+  url('https://arxiv.org/pdf/2506.18123.pdf'),
+)
+
+entry!('quevedo2025evaluating',
+  title('Evaluating Robot Policies in a World Model'),
+  author('Julian Quevedo and Percy Liang and Sherry Yang'),
+  arxiv(2025),
+  url('https://arxiv.org/pdf/2506.00613.pdf'),
+)
+
+entry!('bommasani2025california',
+  title('The California Report on Frontier {AI} Policy'),
+  author('Rishi Bommasani and Scott R. Singer and Ruth E. Appel and Sarah Cen and A. Feder Cooper and Elena Cryst and Lindsey A. Gailmard and Ian Klaus and Meredith M. Lee and Inioluwa Deborah Raji and Anka Reuel and Drew Spence and Alexander Wan and Angelina Wang and Daniel Zhang and Daniel E. Ho and Percy Liang and Dawn Song and Joseph E. Gonzalez and Jonathan Zittrain and Jennifer Tour Chayes and Mariano-Florentino Cuellar and Li Fei-Fei'),
+  arxiv(2025),
+  url('https://arxiv.org/pdf/2506.17303.pdf'),
+)
+
+entry!('zhang2025bountybench',
+  title('BountyBench: Dollar Impact of {AI} Agent Attackers and Defenders on Real-World Cybersecurity Systems'),
+  author('Andy K. Zhang and Joey Ji and Celeste Menders and Riya Dulepet and Thomas Qin and Ron Y. Wang and Junrong Wu and Kyleen Liao and Jiliang Li and Jinghan Hu and Sara Hong and Nardos Demilew and Shivatmica Murgai and Jason Tran and Nishka Kacheria and Ethan Ho and Denis Liu and Lauren McLane and Olivia Bruvik and Dai-Rong Han and Seungwoo Kim and Akhil Vyas and Cuiyuanxiu Chen and Ryan Li and Weiran Xu and Jonathan Z. Ye and Prerit Choudhary and Siddharth M. Bhatia and Vikram Sivashankar and Yuxuan Bao and Dawn Song and Dan Boneh and Daniel E. Ho and Percy Liang'),
+  arxiv(2025),
+  url('https://arxiv.org/pdf/2505.15216.pdf'),
+)
+
+entry!('cooper2025extracting',
+  title('Extracting memorized pieces of (copyrighted) books from open-weight language models'),
+  author('A. Feder Cooper and Aaron Gokaslan and Amy B. Cyphert and Christopher De Sa and Mark A. Lemley and Daniel E. Ho and Percy Liang'),
+  arxiv(2025),
+  url('https://arxiv.org/pdf/2505.12546.pdf'),
+)
+
+entry!('qiang2025mledojo',
+  title('{MLE}-Dojo: Interactive Environments for Empowering {LLM} Agents in Machine Learning Engineering'),
+  author('Rushi Qiang and Yuchen Zhuang and Yinghao Li and Dingu Sagar V K and Rongzhi Zhang and Changhao Li and Ian Shu-Hei Wong and Sherry Yang and Percy Liang and Chao Zhang and Bo Dai'),
+  arxiv(2025),
+  url('https://arxiv.org/pdf/2505.07782.pdf'),
+)
+
 entry!('bedi2025medhelm',
   title('MedHELM: Holistic Evaluation of Large Language Models for Medical Tasks'),
   author('Suhana Bedi and Hejie Cui and Miguel Fuentes and Alyssa Unell and Michael Wornow and Juan M. Banda and Nikesh Kotecha and Timothy Keyes and Yifan Mai and Mert Oez and Hao Qiu and Shrey Jain and Leonardo Schettini and Mehr Kashyap and Jason Alan Fries and Akshay Swaminathan and Philip Chung and Fateme Nateghi and Asad Aali and Ashwin Nayak and Shivam Vedak and Sneha S. Jain and Birju Patel and Oluseyi Fayanju and Shreya Shah and Ethan Goh and Dong-han Yao and Brian Soetikno and Eduardo Reis and Sergios Gatidis and Vasu Divi and Robson Capasso and Rachna Saralkar and Chia-Chun Chiang and Jenelle Jindal and Tho Pham and Faraz Ghoddusi and Steven Lin and Albert S. Chiou and Christy Hong and Mohana Roy and Michael F. Gensheimer and Hinesh Patel and Kevin Schulman and Dev Dash and Danton Char and Lance Downing and Francois Grolleau and Kameron Black and Bethel Mieso and Aydin Zahedivash and Wen-wai Yim and Harshita Sharma and Tony Lee and Hannah Kirsch and Jennifer Lee and Nerissa Ambers and Carlene Lugtu and Aditya Sharma and Bilal Mawji and Alex Alekseyev and Vicky Zhou and Vikas Kakkar and Jarrod Helzer and Anurang Revri and Yair Bannett and Roxana Daneshjou and Jonathan Chen and Emily Alsentzer and Keith Morse and Nirmal Ravi and Nima Aghaeepour and Vanessa Kennedy and Akshay Chaudhari and Thomas Wang and Sanmi Koyejo and Matthew P. Lungren and Eric Horvitz and Percy Liang and Mike Pfeffer and Nigam H. Shah'),
@@ -26,34 +75,64 @@ entry!('kim2025finetuning',
   url('https://arxiv.org/pdf/2502.19645.pdf'),
 )
 
-###
+### ICML 2025
 
 entry!('liu2025language',
   title('Language Models May Verbatim Complete Text They Were Not Explicitly Trained On'),
   author('Ken Ziyu Liu and Christopher A. Choquette-Choo and Matthew Jagielski and Peter Kairouz and Sanmi Koyejo and Percy Liang and Nicolas Papernot'),
-  arxiv(2025),
+  icml(2025),
   url('https://arxiv.org/pdf/2503.17514.pdf'),
 )
 
 entry!('zhu2025independence',
   title('Independence Tests for Language Models'),
   author('Sally Zhu and Ahmed Ahmed and Rohith Kuditipudi and Percy Liang'),
-  arxiv(2025),
+  icml(2025),
   url('https://arxiv.org/pdf/2502.12292.pdf'),
 )
+
+entry!('li2025eliciting',
+  title('Eliciting Language Model Behaviors with Investigator Agents'),
+  author('Xiang Lisa Li and Neil Chowdhury and Daniel D. Johnson and Tatsunori Hashimoto and Percy Liang and Sarah Schwettmann and Jacob Steinhardt'),
+  icml(2025),
+  url('https://arxiv.org/pdf/2502.01236.pdf'),
+)
+
+entry!('gu2025caching',
+  title('Auditing Prompt Caching in Language Model {API}s'),
+  author('Chenchen Gu and Xiang Lisa Li and Rohith Kuditipudi and Percy Liang and Tatsunori Hashimoto'),
+  icml(2025),
+  url('https://arxiv.org/pdf/2502.07776.pdf'),
+)
+
+entry!('truong2025reliable',
+  title('Reliable and Efficient Amortized Model-based Evaluation'),
+  author('Sang Truong and Yuheng Tu and Percy Liang and Bo Li and Sanmi Koyejo'),
+  icml(2025),
+  url('https://arxiv.org/pdf/2503.13335.pdf'),
+)
+
+entry!('zhang2025overlap',
+  title('Language model developers should report train-test overlap'),
+  author('Andy K Zhang and Kevin Klyman and Yifan Mai and Yoav Levine and Yian Zhang and Rishi Bommasani and Percy Liang'),
+  icmlPosition(2025),
+  url('https://arxiv.org/pdf/2410.08385.pdf'),
+)
+
+entry!('longpre2025inhouse',
+  title('In-House Evaluation Is Not Enough: Towards Robust Third-Party Flaw Disclosure for General-Purpose {AI}'),
+  author('Shayne Longpre and Kevin Klyman and Ruth E. Appel and Sayash Kapoor and Rishi Bommasani and Michelle Sahar and Sean McGregor and Avijit Ghosh and Borhane Blili-Hamelin and Nathan Butters and Alondra Nelson and Amit Elazari and Andrew Sellars and Casey John Ellis and Dane Sherrets and Dawn Song and Harley Geiger and Ilona Cohen and Lauren McIlvenny and Madhulika Srikumar and Mark M. Jaycox and Markus Anderljung and Nadine Farid Johnson and Nicholas Carlini and Nicolas Miailhe and Nik Marda and Peter Henderson and Rebecca S. Portnoff and Rebecca Weiss and Victoria Westerhoff and Yacine Jernite and Rumman Chowdhury and Percy Liang and Arvind Narayanan'),
+  icmlPosition(2025),
+  url('https://arxiv.org/pdf/2503.16861.pdf'),
+)
+
+###
 
 entry!('muennighoff2025s1',
   title('s1: Simple test-time scaling'),
   author('Niklas Muennighoff and Zitong Yang and Weijia Shi and Xiang Lisa Li and Li Fei-Fei and Hannaneh Hajishirzi and Luke Zettlemoyer and Percy Liang and Emmanuel Candès and Tatsunori Hashimoto'),
   arxiv(2025),
   url('https://arxiv.org/pdf/2501.19393.pdf'),
-)
-
-entry!('li2025eliciting',
-  title('Eliciting Language Model Behaviors with Investigator Agents'),
-  author('Xiang Lisa Li and Neil Chowdhury and Daniel D. Johnson and Tatsunori Hashimoto and Percy Liang and Sarah Schwettmann and Jacob Steinhardt'),
-  arxiv(2025),
-  url('https://arxiv.org/pdf/2502.01236.pdf'),
 )
 
 entry!('soni2025videoagent',
@@ -63,42 +142,12 @@ entry!('soni2025videoagent',
   url('https://arxiv.org/pdf/2410.10076.pdf'),
 )
 
-entry!('gu2025caching',
-  title('Auditing Prompt Caching in Language Model {API}s'),
-  author('Chenchen Gu and Xiang Lisa Li and Rohith Kuditipudi and Percy Liang and Tatsunori Hashimoto'),
-  arxiv(2025),
-  url('https://arxiv.org/pdf/2502.07776.pdf'),
-)
-
-entry!('truong2025reliable',
-  title('Reliable and Efficient Amortized Model-based Evaluation'),
-  author('Sang Truong and Yuheng Tu and Percy Liang and Bo Li and Sanmi Koyejo'),
-  arxiv(2025),
-  url('https://arxiv.org/pdf/2503.13335.pdf'),
-)
-
 entry!('hewitt2025instruction',
   title('Instruction Following without Instruction Tuning'),
   author('John Hewitt and Nelson F. Liu and Percy Liang and Christopher D. Manning'),
   arxiv(2025),
   url('https://arxiv.org/pdf/2409.14254.pdf'),
 )
-
-entry!('zhang2025overlap',
-  title('Language model developers should report train-test overlap'),
-  author('Andy K Zhang and Kevin Klyman and Yifan Mai and Yoav Levine and Yian Zhang and Rishi Bommasani and Percy Liang'),
-  arxiv(2025),
-  url('https://arxiv.org/pdf/2410.08385.pdf'),
-)
-
-entry!('longpre2025inhouse',
-  title('In-House Evaluation Is Not Enough: Towards Robust Third-Party Flaw Disclosure for General-Purpose {AI}'),
-  author('Shayne Longpre and Kevin Klyman and Ruth E. Appel and Sayash Kapoor and Rishi Bommasani and Michelle Sahar and Sean McGregor and Avijit Ghosh and Borhane Blili-Hamelin and Nathan Butters and Alondra Nelson and Amit Elazari and Andrew Sellars and Casey John Ellis and Dane Sherrets and Dawn Song and Harley Geiger and Ilona Cohen and Lauren McIlvenny and Madhulika Srikumar and Mark M. Jaycox and Markus Anderljung and Nadine Farid Johnson and Nicholas Carlini and Nicolas Miailhe and Nik Marda and Peter Henderson and Rebecca S. Portnoff and Rebecca Weiss and Victoria Westerhoff and Yacine Jernite and Rumman Chowdhury and Percy Liang and Arvind Narayanan'),
-  arxiv(2025),
-  url('https://arxiv.org/pdf/2503.16861.pdf'),
-)
-
-###
 
 entry!('shrivastava2025language',
   title('Language Models Prefer What They Know: Relative Confidence Estimation via Confidence Preferences'),
